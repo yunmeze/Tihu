@@ -1,0 +1,26 @@
+; Coastal Daydream: fresh Blender-authored toon scene.
+config_version=5
+[application]
+config/name="Coastal Daydream · Pelican Ride"
+config/description="A hand-shaped coastal daydream with a little pelican rider."
+run/main_scene="res://Main.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+[display]
+window/size/viewport_width=1440
+window/size/viewport_height=900
+window/size/window_width_override=1440
+window/size/window_height_override=900
+window/size/min_width=960
+window/size/min_height=600
+window/stretch/mode="canvas_items"
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+anti_aliasing/quality/msaa_3d=2
+lights_and_shadows/directional_shadow/size=4096
+lights_and_shadows/directional_shadow/soft_shadow_filter_quality=3
+textures/default_filters/use_nearest_mipmap_filter=false
+environment/defaults/default_clear_color=Color(0.55,0.77,0.83,1)
+[audio]
+driver/enable_input=false
+driver/driver="Dummy"

@@ -1,0 +1,749 @@
+{
+  "schema": "pelican-coast-foliage-atlas-v1",
+  "generated_utc": "2026-10-13",
+  "method": "Built-in image_gen tool: initial generation and one layout/alpha cleanup edit. Original image bytes preserved.",
+  "asset": "res://assets/textures/coastal_foliage_atlas_0724.png",
+  "source_file": "coastal_foliage_atlas_0724.png",
+  "dimensions_px": [
+    1254,
+    1254
+  ],
+  "requested_dimensions_px": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "color_space": "sRGB; Godot source_color sampler",
+  "grid": [
+    4,
+    4
+  ],
+  "tile_order": "row-major, origin top-left",
+  "alpha_scissor_suggested": 0.45,
+  "alpha_bound_threshold_u8": 115,
+  "coordinates": "Image pixel coordinates x right, y down; bounds are half-open. atlas_region_xywh is normalized against full image. Godot sampling is rect.xy + local_uv * rect.zw; ensure card UV y=0 corresponds to top of image, y=1 to base.",
+  "cropping": "3 px transparent top/side padding, lower crop edge at last visible row + 1. Tight crop selects exact plant and removes empty full-cell margins. Match card width/height to pixel aspect, then scale height in meters.",
+  "grounding": "Most plants root at crop bottom. For ivy 11/12 and mixed shrub 15, hanging side tips extend below central root; use measured root_in_crop_uv to place central root at ground/ledge or bury lowest 1\u20132 cm. Do not invert foliage unless intentionally hanging.",
+  "import": "Keep alpha. sRGB/source_color, mipmaps, filter_linear_mipmap, repeat_disable. Alpha-scissor around0.45; do not use unrestricted alpha blend or alpha hash with unchanged low-alpha fringe.",
+  "sha256": "f02488c32929a2c02bf25cfb456b24c6890baaa30eaa6e48231d1845add274ad",
+  "bytes": 1467191,
+  "validation": {
+    "decoded_successfully": true,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "fully_transparent_fraction": 0.610713658875331,
+    "nonzero_alpha_fraction": 0.389286341124669,
+    "alpha_at_least115_fraction": 0.25198598933174604,
+    "strong_green_fringe_pixels_above_cutoff": 0,
+    "strong_green_fringe_pixels_below_cutoff": 39444,
+    "all_tile_border_pixels_below115": true,
+    "runtime_verified": false
+  },
+  "tiles": [
+    {
+      "index": 0,
+      "name": "grass_short",
+      "row": 0,
+      "column": 0,
+      "cell_px_xyxy": [
+        0,
+        0,
+        314,
+        314
+      ],
+      "visible_alpha115_bounds_px_xyxy": [
+        54,
+        97,
+        272,
+        279
+      ],
+      "suggested_crop_px_xyxy": [
+        51,
+        94,
+        275,
+        279
+      ],
+      "atlas_region_xywh": [
+        0.04066985645933014,
+        0.07496012759170653,
+        0.17862838915470494,
+        0.14752791068580542
+      ],
+      "pixel_aspect_width_over_height": 1.2108108108108109,
+      "root_near_center_px_xy": [
+        161.0,
+        279
+      ],
+      "root_in_crop_uv": [
+        0.49107142857142855,
+        1.0
+      ],
+      "suggested_whole_card_height_m_range": [
+        0.18,
+        0.33
+      ],
+      "cell_border_alpha115_pixel_count": 0
+    },
+    {
+      "index": 1,
+      "name": "grass_arching",
+      "row": 0,
+      "column": 1,
+      "cell_px_xyxy": [
+        314,
+        0,
+        627,
+        314
+      ],
+      "visible_alpha115_bounds_px_xyxy": [
+        352,
+        81,
+        589,
+        279
+      ],
+      "suggested_crop_px_xyxy": [
+        349,
+        78,
+        592,
+        279
+      ],
+      "atlas_region_xywh": [
+        0.2783094098883573,
+        0.06220095693779904,
+        0.1937799043062201,
+        0.16028708133971292
+      ],
+      "pixel_aspect_width_over_height": 1.208955223880597,
+      "root_near_center_px_xy": [
+        472.0,
+        279
+      ],
+      "root_in_crop_uv": [
+        0.5061728395061729,
+        1.0
+      ],
+      "suggested_whole_card_height_m_range": [
+        0.26,
+        0.46
+      ],
+      "cell_border_alpha115_pixel_count": 0
+    },
+    {
+      "index": 2,
+      "name": "grass_broad",
+      "row": 0,
+      "column": 2,
+      "cell_px_xyxy": [
+        627,
+        0,
+        940,
+        314
+      ],
+      "visible_alpha115_bounds_px_xyxy": [
+        674,
+        91,
+        895,
+        279
+      ],
+      "suggested_crop_px_xyxy": [
+        671,
+        88,
+        898,
+        279
+      ],
+      "atlas_region_xywh": [
+        0.5350877192982456,
+        0.07017543859649122,
+        0.1810207336523126,
+        0.15231259968102073
+      ],
+      "pixel_aspect_width_over_height": 1.1884816753926701,
+      "root_near_center_px_xy": [
+        789.0,
+        279
+      ],
+      "root_in_crop_uv": [
+        0.5198237885462555,
+        1.0
+      ],
+      "suggested_whole_card_height_m_range": [
+        0.22,
+        0.39
+      ],
+      "cell_border_alpha115_pixel_count": 0
+    },
+    {
+      "index": 3,
+      "name": "leaf_pointed",
+      "row": 0,
+      "column": 3,
+      "cell_px_xyxy": [
+        940,
+        0,
+        1254,
+        314
+      ],
+      "visible_alpha115_bounds_px_xyxy": [
+        991,
+        82,
+        1205,
+        280
+      ],
+      "suggested_crop_px_xyxy": [
+        988,
+        79,
+        1208,
+        280
+      ],
+      "atlas_region_xywh": [
+        0.7878787878787878,
+        0.06299840510366826,
+        0.17543859649122806,
+        0.16028708133971292
+      ],
+      "pixel_aspect_width_over_height": 1.0945273631840795,
+      "root_near_center_px_xy": [
+        1112.0,
+        280
+      ],
+      "root_in_crop_uv": [
+        0.5636363636363636,
+        1.0
+      ],
+      "suggested_whole_card_height_m_range": [
+        0.25,
+        0.43
+      ],
+      "cell_border_alpha115_pixel_count": 0
+    },
+    {
+      "index": 4,
+      "name": "leaf_dense",
+      "row": 1,
+      "column": 0,
+      "cell_px_xyxy": [
+        0,
+        314,
+        314,
+        627
+      ],
+      "visible_alpha115_bounds_px_xyxy": [
+        46,
+        403,
+        277,
+        603
+      ],
+      "suggested_crop_px_xyxy": [
+        43,
+        400,
+        280,
+        603
+      ],
+      "atlas_region_xywh": [
+        0.0342902711323764,
+        0.3189792663476874,
+        0.18899521531100477,
+        0.16188197767145135
+      ],
+      "pixel_aspect_width_over_height": 1.167487684729064,
+      "root_near_center_px_xy": [
+        150.0,
+        603
+      ],
+      "root_in_crop_uv": [
+        0.45147679324894513,
+        1.0
+      ],
+      "suggested_whole_card_height_m_range": [
+        0.25,
+        0.45
+      ],
+      "cell_border_alpha115_pixel_count": 0
+    },
+    {
+      "index": 5,
+      "name": "leaf_groundcover",
+      "row": 1,
+      "column": 1,
+      "cell_px_xyxy": [
+        314,
+        314,
+        627,
+        627
+      ],
+      "visible_alpha115_bounds_px_xyxy": [
+        348,
+        434,
+        611,
+        601
+      ],
+      "suggested_crop_px_xyxy": [
+        345,
+        431,
+        614,
+        601
+      ],
+      "atlas_region_xywh": [
+        0.2751196172248804,
+        0.3437001594896332,
+        0.21451355661881977,
+        0.13556618819776714
+      ],
+      "pixel_aspect_width_over_height": 1.5823529411764705,
+      "root_near_center_px_xy": [
+        512.0,
+        601
+      ],
+      "root_in_crop_uv": [
+        0.620817843866171,
+        1.0
+      ],
+      "suggested_whole_card_height_m_range": [
+        0.13,
+        0.25
+      ],
+      "cell_border_alpha115_pixel_count": 0
+    },
+    {
+      "index": 6,
+      "name": "fern_upright",
+      "row": 1,
+      "column": 2,
+      "cell_px_xyxy": [
+        627,
+        314,
+        940,
+        627
+      ],
+      "visible_alpha115_bounds_px_xyxy": [
+        689,
+        401,
+        875,
+        599
+      ],
+      "suggested_crop_px_xyxy": [
+        686,
+        398,
+        878,
+        599
+      ],
+      "atlas_region_xywh": [
+        0.5470494417862839,
+        0.31738437001594894,
+        0.15311004784688995,
+        0.16028708133971292
+      ],
+      "pixel_aspect_width_over_height": 0.9552238805970149,
+      "root_near_center_px_xy": [
+        778.0,
+        599
+      ],
+      "root_in_crop_uv": [
+        0.4791666666666667,
+        1.0
+      ],
+      "suggested_whole_card_height_m_range": [
+        0.24,
+        0.4
+      ],
+      "cell_border_alpha115_pixel_count": 0
+    },
+    {
+      "index": 7,
+      "name": "fern_arching",
+      "row": 1,
+      "column": 3,
+      "cell_px_xyxy": [
+        940,
+        314,
+        1254,
+        627
+      ],
+      "visible_alpha115_bounds_px_xyxy": [
+        976,
+        401,
+        1219,
+        601
+      ],
+      "suggested_crop_px_xyxy": [
+        973,
+        398,
+        1222,
+        601
+      ],
+      "atlas_region_xywh": [
+        0.7759170653907496,
+        0.31738437001594894,
+        0.19856459330143542,
+        0.16188197767145135
+      ],
+      "pixel_aspect_width_over_height": 1.2266009852216748,
+      "root_near_center_px_xy": [
+        1102.0,
+        601
+      ],
+      "root_in_crop_uv": [
+        0.5180722891566265,
+        1.0
+      ],
+      "suggested_whole_card_height_m_range": [
+        0.24,
+        0.43
+      ],
+      "cell_border_alpha115_pixel_count": 0
+    },
+    {
+      "index": 8,
+      "name": "daisy_white",
+      "row": 2,
+      "column": 0,
+      "cell_px_xyxy": [
+        0,
+        627,
+        314,
+        940
+      ],
+      "visible_alpha115_bounds_px_xyxy": [
+        41,
+        690,
+        279,
+        893
+      ],
+      "suggested_crop_px_xyxy": [
+        38,
+        687,
+        282,
+        893
+      ],
+      "atlas_region_xywh": [
+        0.030303030303030304,
+        0.5478468899521531,
+        0.19457735247208932,
+        0.16427432216905902
+      ],
+      "pixel_aspect_width_over_height": 1.1844660194174756,
+      "root_near_center_px_xy": [
+        164.5,
+        893
+      ],
+      "root_in_crop_uv": [
+        0.5184426229508197,
+        1.0
+      ],
+      "suggested_whole_card_height_m_range": [
+        0.16,
+        0.29
+      ],
+      "cell_border_alpha115_pixel_count": 0
+    },
+    {
+      "index": 9,
+      "name": "daisy_gold",
+      "row": 2,
+      "column": 1,
+      "cell_px_xyxy": [
+        314,
+        627,
+        627,
+        940
+      ],
+      "visible_alpha115_bounds_px_xyxy": [
+        350,
+        712,
+        594,
+        896
+      ],
+      "suggested_crop_px_xyxy": [
+        347,
+        709,
+        597,
+        896
+      ],
+      "atlas_region_xywh": [
+        0.2767145135566188,
+        0.5653907496012759,
+        0.19936204146730463,
+        0.14912280701754385
+      ],
+      "pixel_aspect_width_over_height": 1.3368983957219251,
+      "root_near_center_px_xy": [
+        474.0,
+        894
+      ],
+      "root_in_crop_uv": [
+        0.508,
+        0.9893048128342246
+      ],
+      "suggested_whole_card_height_m_range": [
+        0.15,
+        0.27
+      ],
+      "cell_border_alpha115_pixel_count": 0
+    },
+    {
+      "index": 10,
+      "name": "flower_cream",
+      "row": 2,
+      "column": 2,
+      "cell_px_xyxy": [
+        627,
+        627,
+        940,
+        940
+      ],
+      "visible_alpha115_bounds_px_xyxy": [
+        659,
+        690,
+        907,
+        896
+      ],
+      "suggested_crop_px_xyxy": [
+        656,
+        687,
+        910,
+        896
+      ],
+      "atlas_region_xywh": [
+        0.5231259968102073,
+        0.5478468899521531,
+        0.2025518341307815,
+        0.16666666666666666
+      ],
+      "pixel_aspect_width_over_height": 1.215311004784689,
+      "root_near_center_px_xy": [
+        787.0,
+        896
+      ],
+      "root_in_crop_uv": [
+        0.515748031496063,
+        1.0
+      ],
+      "suggested_whole_card_height_m_range": [
+        0.17,
+        0.28
+      ],
+      "cell_border_alpha115_pixel_count": 0
+    },
+    {
+      "index": 11,
+      "name": "ivy_rising",
+      "row": 2,
+      "column": 3,
+      "cell_px_xyxy": [
+        940,
+        627,
+        1254,
+        940
+      ],
+      "visible_alpha115_bounds_px_xyxy": [
+        979,
+        681,
+        1218,
+        909
+      ],
+      "suggested_crop_px_xyxy": [
+        976,
+        678,
+        1221,
+        909
+      ],
+      "atlas_region_xywh": [
+        0.7783094098883573,
+        0.5406698564593302,
+        0.19537480063795853,
+        0.18421052631578946
+      ],
+      "pixel_aspect_width_over_height": 1.0606060606060606,
+      "root_near_center_px_xy": [
+        1111.0,
+        895
+      ],
+      "root_in_crop_uv": [
+        0.5510204081632653,
+        0.9393939393939394
+      ],
+      "suggested_whole_card_height_m_range": [
+        0.24,
+        0.4
+      ],
+      "cell_border_alpha115_pixel_count": 0
+    },
+    {
+      "index": 12,
+      "name": "ivy_moss_trailing",
+      "row": 3,
+      "column": 0,
+      "cell_px_xyxy": [
+        0,
+        940,
+        314,
+        1254
+      ],
+      "visible_alpha115_bounds_px_xyxy": [
+        37,
+        1009,
+        297,
+        1185
+      ],
+      "suggested_crop_px_xyxy": [
+        34,
+        1006,
+        300,
+        1185
+      ],
+      "atlas_region_xywh": [
+        0.02711323763955343,
+        0.8022328548644339,
+        0.21212121212121213,
+        0.14274322169059012
+      ],
+      "pixel_aspect_width_over_height": 1.4860335195530727,
+      "root_near_center_px_xy": [
+        99.0,
+        1161
+      ],
+      "root_in_crop_uv": [
+        0.24436090225563908,
+        0.8659217877094972
+      ],
+      "suggested_whole_card_height_m_range": [
+        0.16,
+        0.28
+      ],
+      "cell_border_alpha115_pixel_count": 0
+    },
+    {
+      "index": 13,
+      "name": "mixed_grass_cream",
+      "row": 3,
+      "column": 1,
+      "cell_px_xyxy": [
+        314,
+        940,
+        627,
+        1254
+      ],
+      "visible_alpha115_bounds_px_xyxy": [
+        355,
+        976,
+        603,
+        1185
+      ],
+      "suggested_crop_px_xyxy": [
+        352,
+        973,
+        606,
+        1185
+      ],
+      "atlas_region_xywh": [
+        0.2807017543859649,
+        0.7759170653907496,
+        0.2025518341307815,
+        0.16905901116427433
+      ],
+      "pixel_aspect_width_over_height": 1.1981132075471699,
+      "root_near_center_px_xy": [
+        463.0,
+        1184
+      ],
+      "root_in_crop_uv": [
+        0.43700787401574803,
+        0.9952830188679245
+      ],
+      "suggested_whole_card_height_m_range": [
+        0.19,
+        0.34
+      ],
+      "cell_border_alpha115_pixel_count": 0
+    },
+    {
+      "index": 14,
+      "name": "mixed_leaf_daisy",
+      "row": 3,
+      "column": 2,
+      "cell_px_xyxy": [
+        627,
+        940,
+        940,
+        1254
+      ],
+      "visible_alpha115_bounds_px_xyxy": [
+        655,
+        984,
+        901,
+        1187
+      ],
+      "suggested_crop_px_xyxy": [
+        652,
+        981,
+        904,
+        1187
+      ],
+      "atlas_region_xywh": [
+        0.5199362041467305,
+        0.7822966507177034,
+        0.20095693779904306,
+        0.16427432216905902
+      ],
+      "pixel_aspect_width_over_height": 1.2233009708737863,
+      "root_near_center_px_xy": [
+        797.0,
+        1186
+      ],
+      "root_in_crop_uv": [
+        0.5753968253968254,
+        0.9951456310679612
+      ],
+      "suggested_whole_card_height_m_range": [
+        0.17,
+        0.32
+      ],
+      "cell_border_alpha115_pixel_count": 0
+    },
+    {
+      "index": 15,
+      "name": "mixed_leaf_gold",
+      "row": 3,
+      "column": 3,
+      "cell_px_xyxy": [
+        940,
+        940,
+        1254,
+        1254
+      ],
+      "visible_alpha115_bounds_px_xyxy": [
+        967,
+        968,
+        1224,
+        1186
+      ],
+      "suggested_crop_px_xyxy": [
+        964,
+        965,
+        1227,
+        1186
+      ],
+      "atlas_region_xywh": [
+        0.7687400318979266,
+        0.7695374800637959,
+        0.20972886762360446,
+        0.1762360446570973
+      ],
+      "pixel_aspect_width_over_height": 1.1900452488687783,
+      "root_near_center_px_xy": [
+        1098.0,
+        1177
+      ],
+      "root_in_crop_uv": [
+        0.5095057034220533,
+        0.9592760180995475
+      ],
+      "suggested_whole_card_height_m_range": [
+        0.18,
+        0.34
+      ],
+      "cell_border_alpha115_pixel_count": 0
+    }
+  ],
+  "root_estimate_method": "The central-root estimate is the bottommost alpha>=115 pixel within the central40% of each source cell, with median x in its last4 rows. It is a measured silhouette support estimate, not an authored anatomical anchor. All crop bottoms are reliable visible silhouette bottoms; ivy anatomy is best checked visually."
+}

@@ -1,60 +1,22 @@
-# Coastal Daydream · Pelican Ride
+# Tihu 本地测试版（运行工程）
 
-## Interim local-test build · 2026-10-13
+这是开发中的阶段测试版，方便先在本地检查操作与运行。画面仍在继续调整，不代表最终完成质量。
 
-This is a testable work-in-progress checkpoint. Art refinement continues separately; this is not a final release or a claim that the visual target has been achieved.
+## Windows 启动
 
-Tested with **Godot 4.6.3 Standard**, using the GL Compatibility renderer. The project declares Godot 4.6 compatibility. Import `project.godot`, let the first asset import finish, and press **F5**. The committed GLB files are ready to use; Blender is only needed to edit and re-export the source. See [Windows local-test instructions](docs/LOCAL_TEST_WINDOWS.md) or [中文开始使用](开始使用.md).
+1. 下载整个仓库（Code → Download ZIP 并解压，或 git clone）。
+2. 双击根目录 `prepare.cmd`，等待显示校验和还原成功。它使用 Windows 自带 PowerShell，在本地还原模型和贴图，不会下载文件或更改执行策略。
+3. 安装并打开 **Godot 4.6.3 Standard**，选择 Import，打开 **project/project.godot**。
+4. 等待首次资源导入，按 **F5** 运行。运行时不需要 Blender。
 
-The verification computer used CPU software rendering. Its measured FPS does not predict performance on your GPU; test that locally. The included MP4 is an offline native frame render, not a real-time performance recording.
+这里先提供完整可运行的 Godot 工程。Blender 编辑源文件、录屏和参考图会在完整源码版本中补上。`transport/` 中是为传输拆分的资源压缩包，必须先运行 prepare，再打开 Godot。请保留全部分片。
 
-Fresh native Godot 4.6 coastal scene, built around a Blender-authored little pelican and bicycle.
+其他平台可在仓库根目录运行 `python3 prepare.py`。解包器会校验每个分片、完整压缩包和所有还原文件的 SHA-256，并拒绝覆盖已修改的工程文件。修改过的文件请先备份，再在干净目录重新准备。
 
-Open `project.godot` in Godot 4.6.3 and press F5, or run `godot --path /path/to/pelican-toon-coast`.
+验证：原始工程通过 Godot 4.6.3 干净导入及 16 项检查；最小运行内容通过干净导入和无头启动。Windows 启动脚本已静态检查，但尚未在真实 Windows 机器执行。Windows PowerShell 需要 .NET Framework 4.7.2 或以上。
 
-Ordinary startup opens the current portrait look with painted feather/terrain materials, dense authored foliage, canopy and shoreline ivy. No preview flags are required.
+## 说明与路径
 
-For the lower-cost software-rendering preview, run `godot --path . -- --software-preview --compact-preview`. It keeps the same art but uses FXAA, lower-resolution shadows and a 960×600 window.
+本仓库根目录的 README.md 是当前仅含运行工程的阶段测试包的权威启动说明，请以本页的准备与运行步骤为准。
 
-## Controls
-
-- Space: pause/resume
-- +/− or Up/Down: pace
-- 1/2/3: postcard/follow/portrait camera
-- Mouse drag: bounded presentation orbit; wheel: gentle zoom
-- R: reset to the portrait view
-- F12: save the actual native viewport to `captures/toon_coast_camera1.png`, 2 or 3
-
-The small bottom control strip is clickable. Pause stops pedaling, wheels, water and foliage together; camera navigation stays available. This is a compact illustrated ride loop, not an explorable world or bicycle physics simulator. Camera motion stays within the authored presentation side. The demo is silent.
-
-## Sources
-
-- `source/`: editable Blender source and authoring/export notes
-- `assets/coastal_ride.glb`: the complete authored scene mesh library
-- `assets/foliage_card.glb`: the same Blender-authored bowed foliage template as a standalone library
-- `scripts/`: fresh runtime, toon material assignments and native HUD
-- `shaders/`: material-family cel shading, selective colored silhouette, depth-contact water and sky
-- `assets/textures/`: newly generated painted material images and provenance
-- `docs/RENDERING.md`: rendering decisions and verified official Godot references
-- `tools/`: deterministic native engine preview recording and MP4 encoding
-
-## Checks
-
-Run `sh tools/check_project.sh` for all technical checks, including authored-card placement, batching, UV materials and complete eye-assembly blink. Additional runtime arguments may be appended for a look-development variant. Native visual review is separate.
-
-```
-godot --headless --path . --editor --import --quit
-godot --headless --path . --script res://tests/runtime_checks.gd
-godot --headless --path . --script res://tests/material_checks.gd
-godot --headless --path . --script res://tests/composition.gd
-godot --headless --path . --script res://tests/coast_checks.gd
-godot --headless --path . --script res://tests/texture_checks.gd
-godot --headless --path . --script res://tests/ao_checks.gd
-godot --headless --path . --script res://tests/water_checks.gd
-godot --headless --path . --script res://tests/presentation_camera_checks.gd
-godot --headless --path . --script res://tests/look_profile_checks.gd
-godot --headless --path . --script res://tests/planting_checks.gd
-godot --headless --path . --script res://tests/atlas_checks.gd -- --planting-preview
-```
-
-Use actual engine captures to judge visual quality; passing headless checks alone does not establish that the scene looks correct.
+`project/` 内附带说明沿用完整源码版，其中 `source/`、`tests/`、`tools/`、录屏、参考图和部分文档将在完整源码版提供，当前运行包不包含这些内容。内部旧说明中的仓库根路径实际对应当前的 `project/` 子目录。命令行启动时，请在本仓库根目录使用 `godot --path project`，或先进入 `project` 目录再运行 `godot --path .`；首次启动前仍须先运行根目录的准备脚本。
