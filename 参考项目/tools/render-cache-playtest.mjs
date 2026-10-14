@@ -1,0 +1,14 @@
+import fs from 'node:fs/promises';import assert from 'node:assert/strict';
+import {ownedTestBrowser} from './owned-test-browser.mjs';import {enterGame} from './enter-game.mjs';
+const owned=await ownedTestBrowser('render-cache-pixels'),browser=owned.browser,cases=[],errors=[],dir='reports/audit-fixes-20261012';
+try{for(const config of [{width:375,height:812,dpr:1},{width:430,height:932,dpr:2}]){
+ const context=await browser.newContext({viewport:{width:config.width,height:config.height},deviceScaleFactor:config.dpr});try{const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));await page.goto('http://127.0.0.1:5180');await page.waitForFunction(()=>globalThis.lpLegendReady);await enterGame(page);await page.evaluate(()=>{const a=lpLegend;a.platform.cancel(a.frame);a.audio.pause(true);a.elapsed=0;a.combat.events=[];});
+  for(const [map,tab]of [['A00','战斗'],['A00','角色'],['A00','背包'],['A02','战斗']]){
+   const result=await page.evaluate(async({map,tab})=>{const a=lpLegend;if(a.mapId!==map)await a.changeMap(map,null,{debug:true,unlock:true});a.platform.cancel(a.frame);a.tab=tab;await a.prepareVisible();await a.prepareOwned();const read=()=>{const gl=a.renderer.getContext(),w=gl.drawingBufferWidth,h=gl.drawingBufferHeight,bytes=new Uint8Array(w*h*4);gl.readPixels(0,0,w,h,gl.RGBA,gl.UNSIGNED_BYTE,bytes);return bytes;};a.render();const cached=read(),original=a.content.rectUV,nine=a.hud.nine;let differing=0;try{a.content.rectUV=(source,page)=>a.content.uv(page.file,...source.rect,page.width,page.height);
+    // Independent original nine-slice path, including variable destinations.
+    a.hud.nine=function(key,x,y,w,h,edges=[12,12,12,12],center=true){const asset=this.index.assets[key],[left,top,right,bottom]=edges,sx=[0,left,asset.width-right,asset.width],sy=[0,top,asset.height-bottom,asset.height],dx=[x,x+left,x+w-right,x+w],dy=[y,y+top,y+h-bottom,y+h];for(let iy=0;iy<3;iy++)for(let ix=0;ix<3;ix++){if(!center&&ix===1&&iy===1)continue;this.image(key,dx[ix],dy[iy],dx[ix+1]-dx[ix],dy[iy+1]-dy[iy],[sx[ix],sy[iy],sx[ix+1]-sx[ix],sy[iy+1]-sy[iy]]);}};
+    a.render();const direct=read();for(let i=0;i<direct.length;i+=4)if(Math.max(Math.abs(cached[i]-direct[i]),Math.abs(cached[i+1]-direct[i+1]),Math.abs(cached[i+2]-direct[i+2]))>1)differing++;}finally{a.content.rectUV=original;a.hud.nine=nine;}a.render();return {map,tab,differing,originalHudSliceOracle:true};},{map,tab});assert.equal(result.differing,0);cases.push({config,...result});if(tab==='战斗')await page.screenshot({path:`${dir}/cache-${map}-${config.width}.png`});
+  }await page.evaluate(()=>lpLegend.dispose());
+ }finally{await context.close();}
+}assert.deepEqual(errors,[]);await fs.writeFile(`${dir}/render-cache-playtest.json`,JSON.stringify({passed:true,cases,errors},null,2));console.log({passed:true,pixelCases:cases.length,errors});
+}finally{await owned.close();}

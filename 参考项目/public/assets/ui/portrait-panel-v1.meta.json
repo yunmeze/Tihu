@@ -1,0 +1,17 @@
+{
+  "file": "ui/portrait-panel-v1.png",
+  "width": 1149,
+  "height": 1368,
+  "generated": true,
+  "tool": "built-in image_gen",
+  "prompt": "Use case: ui-mockup, production raster game UI asset, NOT a screenshot. Input image 1 (dialog.png): authoritative LP传奇 single-player original panel style reference. Input image 2 (button.png): supporting original bronze material palette reference only; do not copy its words. Create exactly ONE empty rectangular interface PANEL for the bottom part of a 750×1624 portrait RPG, intended display dimensions 750 wide × 634 high. Match the reference's restrained early-2000s Chinese PC RPG raster artwork: extremely thin aged dark-bronze double-line border, subtle reddish brown metal edges, small curled bronze leaf ornament at the upper left and upper right, dark umber nearly uniform opaque center (#251b19), slight hand-painted low-resolution texture. Aspect ratio approximately 1.183:1, front view, symmetrical, flat game asset. Upper corner ornaments occupy less than 7% of width, narrow frame less than 3% width. Center is blank, dark, quiet and fully usable for separately rendered text and item lists. Frame reaches close to the canvas edges; transparent outside the frame, OPAQUE dark interior. NO text, NO symbols, NO buttons, NO separators across interior, NO item slots, NO portraits, NO ornaments filling the interior, NO modern glossy UI, NO neon, NO large fantasy creatures, NO mockup, NO device. Preserve the simple worn bronze style of the original rather than adding new flourishes. This is the sole supplementary panel needed for the portrait adaptation; all other UI pieces will be the unchanged source assets.",
+  "references": [
+    "ui/native/dialog.png",
+    "ui/native/button.png"
+  ],
+  "display": {
+    "width": 750,
+    "height": 634
+  },
+  "source": "LP original HUD style; supplementary portrait panel"
+}

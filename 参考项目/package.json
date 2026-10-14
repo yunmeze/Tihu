@@ -1,0 +1,5 @@
+{
+  "name": "lp-legend-portrait", "version": "0.1.0", "private": true, "type": "module",
+  "scripts": {"dev":"node tools/serve.mjs","build":"node tools/build.mjs","check":"node tools/verify.mjs","playtest":"node tools/playtest.mjs","wechat-smoke":"node tools/wechat-smoke.mjs","extract":"node tools/run-python.mjs tools/extract-lp.py","prepare-ui":"node tools/run-python.mjs tools/prepare-ui.py && node tools/run-python.mjs tools/prepare-hud.py && node tools/run-python.mjs tools/extrude-floor.py"},
+  "dependencies":{"three":"0.169.0"},"devDependencies":{"esbuild":"0.25.5","playwright":"1.56.1"}
+}

@@ -1,0 +1,48 @@
+.combat-skills-body{flex-grow:1.0;min-height:0.0px;}
+.combat-skill-tab-name, .combat-skill-tab-state, .combat-summary-name, .combat-summary-timing, .combat-summary-next, .combat-summary-description, .combat-legendary-effect, .combat-legendary-inactive, .combat-branch-title, .combat-choice-text, .combat-footer-hint{margin-left:0.0px;margin-right:0.0px;margin-top:0.0px;margin-bottom:0.0px;padding-left:0.0px;padding-right:0.0px;padding-top:0.0px;padding-bottom:0.0px;}
+.combat-skill-tabs{flex-direction:row;flex-shrink:0.0;height:56.0px;margin-bottom:6.0px;}
+.combat-skill-tab{flex-grow:1.0;flex-basis:0.0;min-width:0.0px;height:56.0px;margin-left:0.0px;margin-right:6.0px;margin-top:0.0px;margin-bottom:0.0px;padding-left:8.0px;padding-right:8.0px;padding-top:0.0px;padding-bottom:0.0px;flex-direction:row;align-items:center;-unity-background-image-tint-color:rgba(190,150,112,0.550000011920929);}
+#Skill2{margin-right:0.0px;}
+.combat-skill-tab:hover{-unity-background-image-tint-color:rgba(240,200,150,0.8500000238418579);}
+.combat-skill-tab:disabled{opacity:1.0;-unity-background-image-tint-color:rgba(190,150,112,0.550000011920929);}
+.combat-skill-tab-viewed, .combat-skill-tab-viewed:hover, .combat-skill-tab-viewed:disabled{-unity-background-image-tint-color:rgba(255,212,145,1.0);}
+.combat-skill-tab-icon{width:44.0px;height:44.0px;flex-shrink:0.0;margin-right:8.0px;}
+.combat-skill-tab-locked .combat-skill-tab-icon{-unity-background-image-tint-color:rgba(125,112,100,1.0);}
+.combat-skill-tab-copy{flex-grow:1.0;flex-basis:0.0;min-width:0.0px;justify-content:center;}
+.combat-skill-tab-name{font-size:15.0px;color:rgba(232,212,170,1.0);-unity-text-align:middle-left;white-space:normal;}
+.combat-skill-tab-state{display:none;font-size:13.0px;color:rgba(191,184,168,1.0);-unity-text-align:middle-left;white-space:nowrap;overflow:hidden;}
+.combat-skill-tab-active .combat-skill-tab-state, .combat-skill-tab-locked .combat-skill-tab-state{display:flex;}
+.combat-skill-tab-active .combat-skill-tab-state{color:rgba(158,214,128,1.0);}
+.combat-skill-tab-locked .combat-skill-tab-name{color:rgba(176,162,142,1.0);}
+.combat-skill-scroll{flex-grow:1.0;min-height:0.0px;}
+.combat-summary{flex-shrink:0.0;padding-left:10.0px;padding-right:10.0px;padding-top:7.0px;padding-bottom:8.0px;margin-bottom:6.0px;-unity-background-image-tint-color:rgba(220,170,120,0.41999998688697815);}
+.combat-summary-top{flex-direction:row;align-items:center;}
+.combat-summary-icon{width:64.0px;height:64.0px;flex-shrink:0.0;margin-right:10.0px;}
+.combat-summary-heading{flex-grow:1.0;flex-basis:0.0;min-width:0.0px;}
+.combat-summary-name{margin-bottom:2.0px;font-size:24.0px;color:rgba(232,212,170,1.0);white-space:nowrap;-unity-text-align:middle-left;}
+.combat-summary-timing{font-size:14.0px;color:rgba(230,215,190,1.0);white-space:normal;}
+.combat-summary-next{font-size:13.0px;color:rgba(191,184,168,1.0);white-space:normal;}
+.combat-choose{width:150.0px;height:44.0px;flex-shrink:0.0;margin-left:8.0px;font-size:20.0px;}
+.combat-choose.management-window-learned-control:disabled{-unity-background-image-tint-color:rgba(82,118,74,1.0);color:rgba(238,226,196,1.0);}
+.combat-summary-description{margin-top:5.0px;font-size:15.0px;color:rgba(230,215,190,1.0);white-space:normal;}
+.combat-legendary-effect{display:none;flex-shrink:0.0;min-width:0.0px;margin-top:3.0px;font-size:14.0px;color:rgba(255,181,118,1.0);white-space:normal;}
+.combat-legendary-inactive{display:none;flex-shrink:0.0;min-width:0.0px;margin-top:2.0px;font-size:13.0px;color:rgba(242,173,97,1.0);white-space:normal;}
+.combat-branches{flex-direction:row;flex-shrink:0.0;}
+.combat-branch-card{flex-grow:1.0;flex-basis:0.0;min-width:0.0px;padding-left:8.0px;padding-right:8.0px;padding-top:6.0px;padding-bottom:6.0px;-unity-background-image-tint-color:rgba(190,145,105,0.3400000035762787);}
+#BranchCard0{margin-right:8.0px;}
+.combat-branch-title{margin-bottom:3.0px;font-size:14.0px;color:rgba(218,184,129,1.0);white-space:normal;}
+.combat-branch-locked .combat-branch-title{color:rgba(160,142,122,1.0);}
+.combat-choice{flex-direction:row;align-items:center;min-height:44.0px;margin-left:0.0px;margin-right:0.0px;margin-top:0.0px;margin-bottom:4.0px;padding-left:8.0px;padding-right:8.0px;padding-top:5.0px;padding-bottom:5.0px;white-space:normal;-unity-background-image-tint-color:rgba(205,160,118,0.6000000238418579);}
+.combat-choice:hover{-unity-background-image-tint-color:rgba(255,212,158,1.0);}
+.combat-choice:disabled{opacity:1.0;-unity-background-image-tint-color:rgba(125,110,95,0.4000000059604645);}
+.combat-choice-chosen, .combat-choice-chosen:hover, .combat-choice-chosen:disabled{-unity-background-image-tint-color:rgba(96,142,84,1.0);}
+.combat-choice-mark{display:none;position:absolute;top:-3.0px;right:-3.0px;width:18.0px;height:18.0px;background-image:url("ProjectDropdownCheckmark_sharedassets0.assets_18.png");-unity-background-scale-mode:scale-to-fit;-unity-background-image-tint-color:rgba(214,244,190,1.0);}
+.combat-choice-chosen .combat-choice-mark{display:flex;}
+.combat-choice-text{flex-grow:1.0;flex-basis:0.0;min-width:0.0px;font-size:14.0px;color:rgba(230,215,190,1.0);white-space:normal;-unity-text-align:middle-left;}
+.combat-choice:disabled .combat-choice-text{color:rgba(158,148,134,1.0);}
+.combat-choice-chosen .combat-choice-text, .combat-choice-chosen:disabled .combat-choice-text{color:rgba(240,230,204,1.0);}
+.combat-footer{flex-direction:row;align-items:center;flex-shrink:0.0;height:38.0px;margin-top:6.0px;}
+.combat-points{height:38.0px;flex-shrink:0.0;margin-bottom:0.0px;padding-left:12.0px;padding-right:12.0px;padding-top:0.0px;font-size:17.0px;color:rgba(232,212,170,1.0);white-space:nowrap;-unity-text-align:middle-center;}
+.combat-footer-hint{flex-grow:1.0;flex-basis:0.0;min-width:0.0px;margin-left:10.0px;margin-right:10.0px;font-size:12.0px;color:rgba(191,184,168,1.0);white-space:normal;-unity-text-align:middle-left;}
+.combat-footer-pending{color:rgba(255,200,120,1.0);}
+.combat-refund{width:150.0px;height:38.0px;flex-shrink:0.0;font-size:16.0px;}

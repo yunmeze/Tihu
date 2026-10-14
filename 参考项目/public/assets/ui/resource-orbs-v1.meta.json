@@ -1,0 +1,11 @@
+{
+  "file": "ui/resource-orbs-v1.png",
+  "generated": true,
+  "tool": "built-in image_gen",
+  "prompt": "Production 2D game HUD sprite sheet, one transparent PNG. Reference images are the actual LP传奇 original bronze panel and status HUD. Create TWO circular resource orbs side by side on the same transparent canvas, no other assets: LEFT blood-red HP glass orb, RIGHT deep cobalt-blue MP glass orb. Equal circles, each with the same thin worn dark-bronze circular rim, small restrained curling bronze corners echoing the original Chinese early-2000s RPG panel, no large ornaments. Opaque full luminous liquid inside each orb, subdued polished glass upper-left highlight, lower edge darker, matching original low-resolution hand-painted sprite style. Compact practical sprite rather than modern realistic illustration. Canvas aspect 2:1, two circles centered in separate left/right half, equal margins, neither touching the midpoint, each circle taking about 85% of its square cell. Fully transparent background outside each circle. No words, no letters, no HP or MP text, no UI mockup, no swords, no skulls, no dragons. Match original brown bronze palette and understated pixels. We will crop the left and right cells by UV at runtime and overlay live numbers, so keep both cells clean and aligned.",
+  "references": [
+    "ui/native/dialog.png",
+    "ui/native/status.png"
+  ],
+  "usage": "HP red left half, MP blue right half; runtime UV split; original image unchanged"
+}

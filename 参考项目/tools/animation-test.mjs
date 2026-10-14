@@ -1,0 +1,18 @@
+import fs from 'node:fs/promises';import assert from 'node:assert/strict';
+import {ANIMATIONS,animationFrame,setAction,advanceAnimation,skillAction} from '../src/animation.js';
+import {Combat,COMBAT_RULES} from '../src/combat.js';import {createCharacter} from '../src/character.js';
+const read=async name=>JSON.parse(await fs.readFile('public/assets/'+name,'utf8'));
+const content={items:await read('data/items.json'),monsters:await read('data/monsters.json'),skills:await read('data/skills.json')};content.itemNames=new Map(content.items.map(i=>[i.name,i]));
+const actor={action:'idle',direction:4};setAction(actor,'attack');assert.equal(animationFrame(actor),153);
+const samples=[];for(let i=0;i<6;i++){actor.animationElapsed=i*ANIMATIONS.hero.attack.seconds/6+.00001;samples.push(animationFrame(actor));}assert.deepEqual(samples,[153,154,155,156,157,158]);
+setAction(actor,'cast',{restart:true});assert.equal(animationFrame(actor),201);advanceAnimation(actor,.54);assert.equal(animationFrame(actor),204);advanceAnimation(actor,.55);assert.equal(actor.action,'idle');assert.equal(animationFrame(actor),17);
+setAction(actor,'walk');advanceAnimation(actor,.2);const time=actor.animationElapsed;setAction(actor,'walk');assert.equal(actor.animationElapsed,time);assert.ok(animationFrame(actor)>=57&&animationFrame(actor)<63);
+setAction(actor,'attack',{restart:true,family:'monster'});assert.equal(animationFrame(actor,'monster'),105);
+const heroPack=await read('sprites/Hero/1/index.json'),weaponPack=await read('sprites/Weapon/1/index.json');for(const clip of Object.values(ANIMATIONS.hero))assert.ok(clip.base+8*clip.count<=heroPack.frames.length&&clip.base+8*clip.count<=weaponPack.frames.length);
+const player=createCharacter({...content,mapList:[{id:'A00'}]},{});player.skills.push({name:'火球术',level:1},{name:'半月斩',level:1});player.activeSkill='火球术';assert.equal(skillAction(player,content).action,'cast');player.activeSkill='半月斩';assert.equal(skillAction(player,content).action,'attack');player.activeSkill='雷电术';assert.equal(skillAction(player,content).mpCost,0);
+player.activeSkill='火球术';const map={id:'fixture',width:10,height:10,cells:Array.from({length:100},()=>[0,0,0,0]),spawns:[{x:5,y:5,monsterId:4,name:'鸡'}]},combat=new Combat(player,content,()=>0,{},()=>.99,()=>.99);combat.enter(map,{x:4,y:5});assert.ok(combat.select('fixture:0'));
+combat.update(.02);assert.equal(combat.hitCount,0);assert.equal(combat.position.action,'cast');assert.equal(combat.position.animationElapsed,0);assert.equal(player.mp,12);assert.equal(animationFrame(combat.position),177+combat.position.direction*6);
+combat.update(.16);assert.equal(combat.hitCount,0);assert.equal(player.mp,12);combat.targetId=combat.farmType=null;
+for(let i=0;i<40;i++)combat.update(.02);assert.equal(combat.hitCount,1);assert.equal(player.mp,12);
+combat.targetId='fixture:0';combat.position.actionTime=0;player.mp=0;combat.hitClock=COMBAT_RULES.playerAttackSeconds;combat.update(.01);assert.equal(combat.position.action,'attack');assert.equal(player.mp,0);
+const result={passed:true,heroAttackFrames:[129,176],heroCastFrames:[177,224],monsterAttackFrames:[81,128],playerAttackSeconds:COMBAT_RULES.playerAttackSeconds,walkTilesPerSecond:COMBAT_RULES.walkTilesPerSecond,checks:['ordered complete attack strip','cast distinct from run / melee','actor-local animation starts at first frame','walking phase survives simulation updates','separate monster frame layout','native body and weapon frame availability','attack interval and one-time MP cost','unlearned / insufficient MP fallback']};await fs.writeFile('reports/animation-tests.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result));

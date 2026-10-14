@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import {Combat} from '../src/combat.js';
+import {createNewCharacter} from '../src/character.js';
+import {AUTO_PACE,remainingPathDistance} from '../src/hero-movement.js';
+import {ANIMATIONS} from '../src/animation.js';
+const read=async n=>JSON.parse(await fs.readFile('public/assets/data/'+n+'.json','utf8'));
+const content={items:await read('items'),monsters:await read('monsters'),skills:await read('skills'),mapList:await read('maps')};content.itemNames=new Map(content.items.map(i=>[i.name,i]));
+const make=()=>{const c=new Combat(createNewCharacter(content,{}),content,()=>.99,{},()=>.99,()=>.99);c.enter({id:'auto-movement',width:40,height:40,cells:Array.from({length:1600},()=>[1,0,0,0]),npcs:[],spawns:[]},{x:10,y:10});return c;};
+const near=(a,b)=>assert.ok(Math.abs(a-b)<1e-7,`${a} != ${b}`),checks=[];
+let c=make();c.moveTo(12,10);assert.equal(c.moveMode,'walk');c.update(.2);near(c.position.x,10.3125);checks.push('Short clicks walk at the original 1.5625 grid units/second');
+const cases=[];for(const fps of [30,50,60,120]){c=make();c.moveTo(16,10);assert.equal(c.moveMode,'run');for(let i=0;i<2*fps;i++)c.update(1/fps);near(c.position.x,15.125);assert.equal(c.position.action,'walk');cases.push({fps,x:c.position.x,remaining:remainingPathDistance(c)});}checks.push('Long routes run at 3.125 units/second and switch exactly at two remaining units across frame rates');
+c=make();c.moveTo(20,10);c.update(.2);for(let i=0;i<12;i++){const phase=c.position.animationElapsed,version=c.position.animationVersion;c.moveTo(20+i%2,10);assert.equal(c.position.animationElapsed,phase);assert.equal(c.position.animationVersion,version);c.update(.04);}const phase=c.position.animationElapsed/ANIMATIONS.hero.run.seconds%1;c.moveTo(12,10);assert.equal(c.moveMode,'walk');near(c.position.animationElapsed/ANIMATIONS.hero.walk.seconds,phase);checks.push('Repeated clicks keep animation phase; changing to a short route changes pace without restarting feet');
+c=make();for(let y=6;y<=14;y++)c.map.cells[11*40+y][1]=-1;c.moveTo(13,10);assert.ok(remainingPathDistance(c)>AUTO_PACE.runAt);assert.equal(c.moveMode,'run');checks.push('A nearby destination with a long obstacle detour runs according to its legal path');
+c=make();c.moveTo(20,10);c.update(.2);c.moveTo(13,10);assert.equal(c.moveMode,'run');c.moveTo(12,10);assert.equal(c.moveMode,'walk');c.moveTo(13,10);assert.equal(c.moveMode,'walk');checks.push('Different run/start and walk/stop thresholds prevent flicker around short repoints');
+c=make();c.approach({x:20,y:10});assert.equal(c.moveMode,'run');for(let i=0;i<250;i++)c.update(.02);assert.ok(Math.abs(c.position.x-20)<=1);assert.equal(c.position.action,'idle');checks.push('NPC approach uses the same automatic pace and ends in legal interaction range');
+c=make();c.moveTo(20,10);c.update(.2);c.stopFarming();assert.equal(c.position.action,'idle');assert.equal(c.path.length,0);c.player.hp=0;assert.equal(c.moveTo(15,10),false);checks.push('Cancel and death end movement without stale run state');
+await fs.mkdir('reports/audit-fixes-20261012',{recursive:true});await fs.writeFile('reports/audit-fixes-20261012/auto-movement-tests.json',JSON.stringify({passed:true,adaptation:AUTO_PACE,checks,cases},null,2));console.log({passed:true,checks:checks.length,frameRates:cases.length});

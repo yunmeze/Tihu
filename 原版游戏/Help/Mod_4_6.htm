@@ -1,0 +1,1616 @@
+<head>
+<title>LP网上之家 - 游戏帮助</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body topmargin="0">
+<div align="center">
+
+
+
+	<table border="0" width="1280" cellspacing="0" cellpadding="0">
+		<tr>
+			<td>
+				<table border="0" width="1280" cellspacing="0" height="122" background="Image/top_bg_1.jpg" cellpadding="0">
+					<tr>
+						<td width="342" onmousemove="this.style.cursor='hand'" onclick="window.location='Index.htm'">
+						</td>
+						<td width="638">&nbsp;</td>
+					</tr>
+				</table>
+				<table border="0" width="1280" cellspacing="0" height="29" background="Image/top_bg_2.jpg" cellpadding="0">
+					<tr>
+						<td></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+			<table border="0" width="1280" cellspacing="0" background="Image/bg.jpg" cellpadding="0">
+				<tr>
+					<td valign="top" align="center">
+					<table border="0" width="1200" cellspacing="0" cellpadding="0" height="40">
+						<tr>
+							<td width="700"><font color="#521800"><b>
+							<a href="Index.htm"><font color="#521800">帮助首页</font></a>&nbsp; >>&nbsp;
+							<a href="Mod_Index.htm"><font color="#521800">MOD项目帮助</font></a> 
+							&gt;&gt; <a href="Mod_4.htm"><font color="#521800">
+							地图编辑器的使用</font></a> 
+							&gt;&gt; 脚本系统</b></font></td>
+							<td>
+							<p align="right">&nbsp;</td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+			</table>
+			<table border="0" width="1280" cellspacing="0" background="Image/bg.jpg" cellpadding="0">
+				<tr>
+					<td valign="top" align="center">
+					<table border="1" width="1200" cellspacing="0" cellpadding="0" style="border-collapse: collapse" bordercolor="#AC743C" bgcolor="#EAD6BF">
+						<tr>
+							<td background="Image/topic_sub.gif" height="40" width="1000">&nbsp;<b><font color="#FFFFFF"> 
+							※ LP传奇单机版 ※</font></b></td>
+						</tr>
+						<tr>
+							<td width="%100">
+							<p align="center">&nbsp;</p>
+							<div align="center">
+								<table border="0" width="100%">
+									<tr>
+										<td>
+										<p align="center">
+										<font size="5" color="#521800"><b>脚本系统</b></font></td>
+									</tr>
+									<tr>
+										<td height="40">&nbsp;</td>
+									</tr>
+								</table>
+								<table border="0" width="900" cellspacing="0" cellpadding="0">
+									<tr>
+										<td width="900" colspan="2">
+										脚本系统是整个游戏的灵魂，是游戏的调度与控制者。其使用类似于简化版高级计算机语言编程。因此，如果您有一定的编程语言基础，那理解起来将会容易的多。当然，如果您没有编程语言基础也不必担心，因为他是简化的，他的操作命令是简单的及非常少量的。</td>
+									</tr>
+									<tr>
+										<td height="20" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td height="26" width="900" colspan="2">
+										下面我们从几个方面来循序渐进的学习和了解本游戏的脚本系统，建议您先创建一个自己的MOD测试项目，简单的创建几个道具和怪物，新建一张地图。这样一边学习一边实践，效果会好的多。</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2">
+										点击下面的标签来学习、查询你感兴趣的部分。如果是第一次，建议先看完所有基础脚本部分。</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td height="40" width="900" colspan="2">
+										<table border="0" width="894" cellspacing="1">
+											<tr>
+												<td width="892" align="center" colspan="5" height="40" bgcolor="#AC743C">
+												<font color="#FFFFFF">
+												<b>基础脚本</b></font></td>
+											</tr>
+											<tr>
+												<td width="178" align="center" bgcolor="#FFFFFF" height="50" style="cursor:pointer" onclick="window.location='#A1'">
+												过程<BR><b>#SUB</b></td>
+												<td width="178" align="center" bgcolor="#FFFFFF" height="50" style="cursor:pointer" onclick="window.location='#A2'">
+												注释<BR><b>//</b></td>
+												<td width="178" align="center" bgcolor="#FFFFFF" height="50" style="cursor:pointer" onclick="window.location='#A3'">
+												按钮<BR><b>#BUTTON</b></td>
+												<td width="179" align="center" bgcolor="#FFFFFF" height="50" style="cursor:pointer" onclick="window.location='#A4'">
+												角色属性比较<BR><b>#IF</b></td>
+												<td width="179" align="center" bgcolor="#FFFFFF" height="50" style="cursor:pointer" onclick="window.location='#A5'">
+												流程跳转<BR><b>#GOTO</b></td>
+											</tr>
+											<tr>
+												<td width="178" align="center" bgcolor="#FFFFFF" height="50" style="cursor:pointer" onclick="window.location='#A6'">
+												执行结束<BR><b>#END</b></td>
+												<td width="178" align="center" bgcolor="#FFFFFF" height="50" style="cursor:pointer" onclick="window.location='#A7'">
+												关闭功能窗口<BR><b>#CLOSE</b></td>
+												<td width="178" align="center" bgcolor="#FFFFFF" height="50" style="cursor:pointer" onclick="window.location='#A8'">关闭所有窗口<BR>
+												<b>#CLOSEALL</b></td>
+												<td width="179" align="center" bgcolor="#FFFFFF" height="50">&nbsp;</td>
+												<td width="179" align="center" bgcolor="#FFFFFF" height="50">&nbsp;</td>
+											</tr>
+											<tr>
+												<td width="892" align="center" colspan="5">&nbsp;</td>
+											</tr>
+											<tr>
+												<td width="892" align="center" colspan="5" height="40" bgcolor="#AC743C">
+												<font color="#FFFFFF"><b>打开特定窗口脚本</b></font></td>
+											</tr>
+											<tr>
+												<td width="178" align="center" bgcolor="#FFFFFF" height="50" style="cursor:pointer" onclick="window.location='#B1'">
+												打开储物箱<BR><b>#ITEMBOX</b></td>
+												<td width="178" align="center" bgcolor="#FFFFFF" height="50" style="cursor:pointer" onclick="window.location='#B2'">
+												打开次元箱<BR><b>#CYBOX</b></td>
+												<td width="178" align="center" bgcolor="#FFFFFF" height="50" style="cursor:pointer" onclick="window.location='#B3'">
+												打开主城传送<BR><b>#PASSMAP</b></td>
+												<td width="179" align="center" bgcolor="#FFFFFF" height="50" style="cursor:pointer" onclick="window.location='#B4'">
+												打开商店<BR><b>#BUY</b></td>
+												<td width="179" align="center" bgcolor="#FFFFFF" height="50" style="cursor:pointer" onclick="window.location='#B5'">
+												打开卖道具<BR><b>#SELL</b></td>
+											</tr>
+											<tr>
+												<td width="178" align="center" bgcolor="#FFFFFF" height="50" style="cursor:pointer" onclick="window.location='#B6'">
+												打开锻造<BR><b>#FORGE</b></td>
+												<td width="178" align="center" bgcolor="#FFFFFF" height="50" style="cursor:pointer" onclick="window.location='#B7'">
+												打开开悟<BR><b>#KWLR</b></td>
+												<td width="178" align="center" bgcolor="#FFFFFF" height="50">&nbsp;</td>
+												<td width="179" align="center" bgcolor="#FFFFFF" height="50">&nbsp;</td>
+												<td width="179" align="center" bgcolor="#FFFFFF" height="50">&nbsp;</td>
+											</tr>
+											<tr>
+												<td width="892" align="center" colspan="5">&nbsp;</td>
+											</tr>
+											<tr>
+												<td width="892" align="center" colspan="5" height="40" bgcolor="#AC743C">
+												<font color="#FFFFFF">
+												<b>功能脚本</b></font></td>
+											</tr>
+											<tr>
+												<td width="178" align="center" height="50" bgcolor="#FFFFFF" style="cursor:pointer" onclick="window.location='#C1'">
+												制造道具<BR><b>#GIVE</b></td>
+												<td width="178" align="center" height="50" bgcolor="#FFFFFF" style="cursor:pointer" onclick="window.location='#C2'">
+												删除道具<BR><b>#TAKE</b></td>
+												<td width="178" align="center" height="50" bgcolor="#FFFFFF" style="cursor:pointer" onclick="window.location='#C3'">
+												检查道具<BR><b>#ITEMCK</b></td>
+												<td width="179" align="center" height="50" bgcolor="#FFFFFF" style="cursor:pointer" onclick="window.location='#C4'">
+												添加怪物<BR><b>#ADDMON</b></td>
+												<td width="179" align="center" height="50" bgcolor="#FFFFFF" style="cursor:pointer" onclick="window.location='#C5'">
+												检查怪物<BR><b>#MONCK</b></td>
+											</tr>
+											<tr>
+												<td width="178" align="center" height="50" bgcolor="#FFFFFF" style="cursor:pointer" onclick="window.location='#C6'">
+												改变角色属性<BR><b>#CHANGE</b></td>
+												<td width="178" align="center" height="50" bgcolor="#FFFFFF" style="cursor:pointer" onclick="window.location='#C7'">
+												移动主角<BR><b>#MOVE</b></td>
+												<td width="178" align="center" height="50" bgcolor="#FFFFFF" style="cursor:pointer" onclick="window.location='#C8'">
+												移动NPC<BR><b>#MOVENPC</b></td>
+												<td width="179" align="center" height="50" bgcolor="#FFFFFF" style="cursor:pointer" onclick="window.location='#C9'">
+												删除NPC<BR><b>#DELNPC</b></td>
+												<td width="179" align="center" height="50" bgcolor="#FFFFFF" style="cursor:pointer" onclick="window.location='#C10'">
+												设置地图障碍标记<BR><b>#SETMAPFLAG</b></td>
+											</tr>
+											<tr>
+												<td width="178" align="center" height="50" bgcolor="#FFFFFF" style="cursor:pointer" onclick="window.location='#C11'">
+												不显示脚本对话窗<BR><b>#NOTUI</b></td>
+												<td width="178" align="center" height="50" bgcolor="#FFFFFF" style="cursor:pointer" onclick="window.location='#C12'">
+												游戏通关<BR><b>#GAMEOVER</b></td>
+												<td width="178" align="center" height="50" bgcolor="#FFFFFF" style="cursor:pointer" onclick="window.location='#C13'">
+												删除所有怪物<BR><b>#DELALLMON</b></td>
+												<td width="179" align="center" height="50" bgcolor="#FFFFFF">&nbsp;</td>
+												<td width="179" align="center" height="50" bgcolor="#FFFFFF">&nbsp;</td>
+											</tr>
+											<tr>
+												<td width="892" align="center" colspan="5">&nbsp;</td>
+											</tr>
+											<tr>
+												<td width="892" align="center" colspan="5" height="40" bgcolor="#AC743C">
+												<font color="#FFFFFF"><b>其它</b></font></td>
+											</tr>
+											<tr>
+												<td width="178" align="center" height="50" bgcolor="#FFFFFF" style="cursor:pointer" onclick="window.location='#D1'">
+												任务的实现<BR>及任务提示的编辑</td>
+												<td width="178" align="center" height="50" bgcolor="#FFFFFF" style="cursor:pointer" onclick="window.location='#D2'">
+												BOSS刷新的控制</td>
+												<td width="178" align="center" height="50" bgcolor="#FFFFFF" style="cursor:pointer" onclick="window.location='#D3'">
+												按钮的常用位置</td>
+												<td width="179" align="center" height="50" bgcolor="#FFFFFF" style="cursor:pointer" onclick="window.location='#D4'">
+												经验与技巧</td>
+												<td width="179" align="center" height="50" bgcolor="#FFFFFF">&nbsp;</td>
+											</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="40" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td height="40" bgcolor="#808080" width="900" colspan="2">
+										<p align="center"><font color="#FFFFFF">
+										<b>基础脚本</b></font></td>
+									</tr>
+									<tr id=A1>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称：</b>过程</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#SUB</font><font color="#C0C0C0">空格</font><font color="#0000FF">[过程名称]</font></b></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>该脚本用于定义一个过程，该过程中的非命令字符（不以#开头的）会显示在弹出的脚本对话窗口中，过程以#END结束</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">示例：<p>
+										#SUB START</p>
+										<p>你好LP传奇单机版！</p>
+										<p>#END</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr id=A2>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称：</b>注释</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：</b><font color="#0000FF">//[注释内容]</font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>//后面的一切字符都将作为注释被对待，注释内容不会当作脚本被运行，也不会显示在脚本对话框中</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">示例：<p>
+										//这里是注释内容，不会被解释运行</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr id=A3>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称：</b>按钮</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#BUTTON</font><font color="#C0C0C0">空格</font><font color="#0000FF">[按钮文字]</font><font color="#C0C0C0">空格</font><font color="#0000FF">[按钮X坐标]</font><font color="#C0C0C0">空格</font><font color="#0000FF">[按钮Y坐标]</font><font color="#C0C0C0">空格</font><font color="#0000FF">[按钮颜色]</font><font color="#C0C0C0">空格</font><font color="#0000FF">[过程名称]</font></b></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>#BUTTON脚本将在脚本窗口上显示一个按钮，玩家点击后，脚本将转向第5个参数中指定的过程执行。如果第5个参数为OVER，那么脚本窗口以及所有的功能UI窗口将被关闭。如果第5个参数为TOMAP，那么会将主角移动到第6个参数所指定的地图，移动坐标为第7个参数（X）和第8个参数（Y）</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">示例：<p>
+										#SUB START</p>
+										<p>按钮演示</p>
+										#BUTTON 关闭 1 5 黄 OVER<BR>
+										#BUTTON 转向目标过程 10 5 黄 S1<BR>
+										#BUTTON 转向目标地图 15 5 黄 TOMAP A00 20 20
+										<p>#END</p>
+										<p>#SUB S1</p>
+										<p>S1过程</p>
+										<p>#END</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#C0C0C0" height="30" width="900" colspan="2">
+										支持的按钮颜色</td>
+									</tr>
+									<tr>
+										<td bgcolor="#C0C0C0" height="30" width="900" colspan="2">
+										<table border="1" width="900" style="border-collapse: collapse" cellspacing="1" bordercolor="#EAD6BF">
+											<tr>
+												<td width="776" height="30">
+												<b>红、橙、黄、绿、青、蓝、紫、黑、白</b></td>
+											</tr>
+											</table>
+										</td>
+									</tr>
+									<tr id=A4>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称：</b>角色属性比较</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#IF</font><font color="#C0C0C0">空格</font><font color="#0000FF">[属性名]</font><font color="#C0C0C0">空格</font><font color="#0000FF">[比较方式]</font><font color="#C0C0C0">空格</font><font color="#0000FF">[比较数值]</font></b></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>该脚本用于角色属性的比较，第1个参数为属性名，支持比较的属性名列表请看该脚本说明后的表格。第2个参数为比较方式。分别为&gt;、&lt;、=。第3个参数为比较的数值。如果比较条件满足那么执行#IF和#ENDIF之间的脚本，如果#ENDIF之间有#ELSE语句，那么执行#IF和#ELSE之间的脚本。如果比较条件不满足且#IF和#END之间有#ELSE语句，那么执行#ELSE和#ENDIF之间的脚本。如果没有#ELSE语句，那么执行#ENDIF后的脚本。本游戏的#IF语句支持嵌套使用</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">示例：<p>
+										#SUB START</p>
+										<p>#IF DC &lt; 10<BR>角色物理攻击下限小于10<BR>
+										#ENDIF
+										<p>#IF DC = 10<BR>角色物理攻击下限等于10<BR>
+										#ENDIF
+										<p>#IF DC &gt; 10<BR>角色物理攻击下限大于10<BR>
+										#ENDIF
+										<p>#IF ET0 = 1<BR>事件0标记等于1<BR>
+										#ENDIF
+										<p>#IF DCMAX &gt; 10<BR>角色物理攻击上限大于10<BR>
+										#ELSE<BR>
+										<span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+										　</span>#IF DCMAX = 10<BR>
+										<span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+										　　　</span>角色物理攻击上限等于10<BR>
+										<span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+										　</span>#ELSE<BR>
+										<span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+										　　　</span>角色物理攻击上限小于10<BR>
+										<span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+										　</span>#ENDIF
+										<BR>
+										#ENDIF<BR>
+										#END</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#C0C0C0" height="30" width="900" colspan="2">
+										#IF支持的比较属性表</td>
+									</tr>
+									<tr>
+										<td bgcolor="#C0C0C0" height="30" width="900" colspan="2">
+										<table border="1" width="900" style="border-collapse: collapse" cellspacing="1" bordercolor="#EAD6BF">
+											<tr>
+												<td width="80" height="30"><b>
+												DC</b></td>
+												<td width="160" height="30">
+												角色物理攻击下限</td>
+												<td width="86" height="30"><b>
+												HP</b></td>
+												<td width="191" height="30">
+												角色当前血量</td>
+												<td width="79" height="30"><b>
+												RND</b></td>
+												<td width="198" height="30">
+												产生一个1到100的随机数</td>
+											</tr>
+											<tr>
+												<td width="80" height="30"><b>
+												DCMAX</b></td>
+												<td width="160" height="30">
+												角色物理攻击上限</td>
+												<td width="86" height="30"><b>
+												HPMAX</b></td>
+												<td width="191" height="30">
+												角色当前血量最大值</td>
+												<td width="86" height="30"><b>
+												ET</b></td>
+												<td width="274" height="30">
+												事件元素 ET0 至 ET29 的值</td>
+											</tr>
+											<tr>
+												<td width="80" height="30"><b>
+												SC</b></td>
+												<td width="160" height="30">
+												角色道术下限</td>
+												<td width="86" height="30"><b>
+												MP</b></td>
+												<td width="191" height="30">
+												角色当前魔量</td>
+												<td width="86" height="30"><b>
+												BT</b></td>
+												<td width="274" height="30">
+												BOSS刷新时间 ，元素BT0 至 BT29</td>
+											</tr>
+											<tr>
+												<td width="80" height="30"><b>
+												SCMAX</b></td>
+												<td width="160" height="30">
+												角色道术上限</td>
+												<td width="86" height="30"><b>
+												MPMAX</b></td>
+												<td width="191" height="30">
+												角色当前魔量最大值</td>
+												<td width="86" height="30">
+												<b>属性点</b></td>
+												<td width="274" height="30">
+												角色当前未分配的属性点</td>
+											</tr>
+											<tr>
+												<td width="80" height="30"><b>
+												MC</b></td>
+												<td width="160" height="30">
+												角色魔法下限</td>
+												<td width="86" height="30"><b>
+												MONEY</b></td>
+												<td width="191" height="30">
+												身上的金币</td>
+												<td width="86" height="30">
+												<b>技能点</b></td>
+												<td width="274" height="30">
+												角色当前未分配的技能点</td>
+											</tr>
+											<tr>
+												<td width="80" height="30"><b>
+												MCMAX</b></td>
+												<td width="160" height="30">
+												角色魔法上限</td>
+												<td width="86" height="30"><b>
+												BANK</b></td>
+												<td width="191" height="30">
+												仓库的金币</td>
+												<td width="86" height="30"><b>
+												游戏模式</b></td>
+												<td width="274" height="30">
+												普通模式、专家模式、地狱模式</td>
+											</tr>
+											<tr>
+												<td width="80" height="30"><b>
+												DF</b></td>
+												<td width="160" height="30">
+												角色物理防御下限</td>
+												<td width="86" height="30">
+												<b>LEVEL</b></td>
+												<td width="191" height="30">
+												角色等级</td>
+												<td width="86" height="30"><b>
+												职业</b></td>
+												<td width="274" height="30">
+												战道、道士、法师</td>
+											</tr>
+											<tr>
+												<td width="80" height="30"><b>
+												DFMAX</b></td>
+												<td width="160" height="30">
+												角色物理防御上限</td>
+												<td width="86" height="30">
+												<b>RP</b></td>
+												<td width="191" height="30">
+												角色近来的运气值</td>
+												<td width="86" height="30"><b>
+												通关次数</b></td>
+												<td width="274" height="30">
+												角色的通关次数</td>
+											</tr>
+											<tr>
+												<td width="80" height="30"><b>
+												DM</b></td>
+												<td width="160" height="30">
+												角色魔防下限</td>
+												<td width="86" height="30"><b>
+												SEX</b></td>
+												<td width="191" height="30">
+												角色性别，0男，1女</td>
+												<td width="86" height="30">&nbsp;</td>
+												<td width="274" height="30">&nbsp;</td>
+											</tr>
+											<tr>
+												<td width="80" height="30"><b>
+												DMMAX</b></td>
+												<td width="160" height="30">
+												角色魔防上限</td>
+												<td width="86" height="30"><b>
+												PKCOUNT</b></td>
+												<td width="191" height="30">
+												角色背包剩余空间</td>
+												<td width="86" height="30">&nbsp;</td>
+												<td width="274" height="30">&nbsp;</td>
+											</tr>
+										</table>
+										</td>
+									</tr>
+									<tr id=A5>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称：</b>流程跳转</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：</b><font color="#0000FF"><b>#GOTO</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[过程名称]</b></font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>将脚本跳转到指定过程处执行</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">示例：<p>
+										#SUB START</p>
+										<p>#GOTO S1</p>
+										<p>#END<p>#SUB S1</p>
+										<p>你好LP传奇！</p>
+										<p>#END</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr id=A6>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称：</b>执行结束</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#END</font></b></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>脚本执行到此行结束继续执行</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr id=A7>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称：</b>关闭功能窗口</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#CLOSE</font></b></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>执行该语句后，所有的功能性窗口将被关闭（脚本对话框、购买道具窗口、卖道具窗口、武器锻造窗口）</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr id=A8>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称：</b>关闭所有窗口</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#CLOSEALL</font></b></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>执行该语句后，所有的窗口将被关闭，包括功能性窗口、道具背包窗口、技能窗口</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr id=B1>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>打开储物箱</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#</font></b><font color="#0000FF"><b>ITEMBOX</b></font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>执行该语句后，将打开储物箱窗口</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr id=B2>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>打开次元箱</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#</font></b><font color="#0000FF"><b>CYBOX</b></font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>执行该语句后，将打开次元箱窗口</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr id=B3>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>打开主城传送</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：</b><font color="#0000FF"><b>#PASSMAP</b></font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>执行该语句后，将打开主城传送窗口</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr id=B4>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>打开商店</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#BUY</font></b></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>执行该语句后，将打开商店卖道具窗口
+										，在#BUY和#ENDBUY之间是要售卖的道具，每行一个</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										示例：<BR>
+										<BR>
+										#SUB BUY<BR>
+										瞧一瞧看一看了啊，我的东西物最哇塞了啊<BR>
+										<BR>
+										#BUY<BR>
+										木剑<BR>
+										短剑<BR>
+										柴刀<BR>
+										海魂<BR>
+										#ENDBUY<BR>
+										#END</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=B5>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>打开卖道具窗口</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#</font></b><font color="#0000FF"><b>SELL</b></font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>执行该语句后，将打开卖道具窗口</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										示例：<BR>
+										<BR>
+										#SUB SELL<BR>
+										我回收的价格是最高的了<BR>
+										#SELL<BR>
+										#END</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=B6>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>打开锻造窗口</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#FORGE</font></b></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>执行该语句后，将打开武器锻造窗口 </td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										示例：<p>#SUB FORGE<BR>
+										不是跟你吹，我的手艺百里挑一<BR>
+										#FORGE<BR>
+										#END</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=B7>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>打开开悟</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#</font></b><font color="#0000FF"><b>KWLR</b></font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>执行该语句后，将载入内置开悟脚本</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										示例：<p>#KWLR<BR>
+										#END</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=C1>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>制造道具</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#GIVE</font><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[道具名称]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[数量]</b></font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>执行该语句后，将在角色背包生成相应数量的指定道具，如果角色背包已满道具将被扔到地上。道具的名称如果是金币，那么角色将获得相应数量的金币</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										示例：<p>#SUB START<BR>
+										#BUTTON 得到木剑 5 5 黄 S1<BR>
+										#END</p>
+										<p>#SUB S1<BR>
+										#GIVE 木剑 1<BR>
+										#END</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=C2>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>删除道具</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#TAKE</font><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[道具名称]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[数量]</b></font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>执行该语句后，将从角色背包删除相应数量的指定道具，道具的名称如果是金币，那么角色将减少相应数量的金币</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										示例：<p>#SUB START<BR>
+										#BUTTON 失去木剑 5 5 黄 S1<BR>
+										#END</p>
+										<p>#SUB S1<BR>
+										#TAKE 木剑 1<BR>
+										#END</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=C3>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>检查道具</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#ITEMCK</font><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[道具名称]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[比较方式]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[数量]</b></font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>该语句用法跟#IF基本相同，不同的是#IF检查的是人物属性值，而#ITEMCK检查比较的是角色背包内的道具数量。本语句的具体用法可参考#IF，本语句同样支持嵌套使用</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										示例：<p>#SUB START<BR>#ITEMCK 木剑 = 0<BR>
+										角色背包内没有木剑<BR>#ELSE<BR>
+										<span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+										　</span>#ITEMCK 木剑 = 1<BR>
+										<span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+										　　</span>角色背包内有1把木剑<BR>
+										<span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+										　</span>#ELSE<BR>
+										<span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+										　　</span>角色背包内有超过1把木剑<BR>
+										<span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+										　</span>#ENDIF<BR>
+										#ENDIF
+										<BR>
+										#END</p></td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=C4>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>添加怪物</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#ADDMON</font><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[X坐标]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[Y坐标]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[怪物名称]</b></font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>执行该语句将在当前地图的指定坐标位置放置一个指定的怪物</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										示例：<p>#SUB START<BR>#BUTTON 添加怪物 5 5 黄 S1<BR>
+										#END</p><p>#SUB S1<BR>
+										#ADDMON 20 20 鸡<BR>
+										#END<p><BR>
+										#END</p></td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=C5>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>检查怪物</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#MONCK</font><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[怪物名称]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[比较方式]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[数量]</b></font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>该语句用法跟#IF、#ITEMCK基本相同，不同的是#MONCK检查比较的是当前地图内指定怪物的数量。本语句的具体用法可参考#IF、#ITEMCK，本语句支持嵌套使用</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										示例：<p>#SUB START<BR>#MONCK 鸡 = 0<BR>
+										当前地图上没有鸡<BR>#ELSE<BR>
+										<span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+										　</span>#ITEMCK 鸡 = 1<BR>
+										<span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+										　　</span>当前地图上有一只鸡<BR>
+										<span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+										　</span>#ELSE<BR>
+										<span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+										　　</span>当前地图上有超过1只的鸡<BR>
+										<span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+										　</span>#ENDIF<BR>
+										#ENDIF
+										<BR>
+										#END</p></td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=C6>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>改变角色属性</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#CHANGE</font><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[属性名称]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[操作符]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[数值]</b></font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>该语句可改变人物的属性值，操作符为+、-、=，支持改变的属性值列表请查阅示例后的表格</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										示例：<p>#SUB START<BR>#BUTTON 攻击上限加3 5 5 黄 S1<BR>
+										#END</p><p>#SUB S1<BR>
+										#CHANGE DCMAX + 3<BR>
+										#END</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#C0C0C0" height="30" width="900" colspan="2">
+										#CHANGE支持的属性表</td>
+									</tr>
+									<tr>
+										<td bgcolor="#C0C0C0" height="30" width="900" colspan="2">
+										<table border="1" width="900" style="border-collapse: collapse" cellspacing="1" bordercolor="#EAD6BF">
+											<tr>
+												<td width="80" height="30"><b>
+												DC</b></td>
+												<td width="160" height="30">
+												角色物理攻击下限</td>
+												<td width="80" height="30"><b>
+												DM</b></td>
+												<td width="160" height="30">
+												角色魔防下限</td>
+												<td width="86" height="30">
+												<b>属性点</b></td>
+												<td width="274" height="30">
+												角色当前未分配的属性点</td>
+											</tr>
+											<tr>
+												<td width="80" height="30"><b>
+												DCMAX</b></td>
+												<td width="160" height="30">
+												角色物理攻击上限</td>
+												<td width="80" height="30"><b>
+												DMMAX</b></td>
+												<td width="160" height="30">
+												角色魔防上限</td>
+												<td width="86" height="30">
+												<b>技能点</b></td>
+												<td width="274" height="30">
+												角色当前未分配的技能点</td>
+											</tr>
+											<tr>
+												<td width="80" height="30"><b>
+												SC</b></td>
+												<td width="160" height="30">
+												角色道术下限</td>
+												<td width="79" height="30"><b>
+												HP</b></td>
+												<td width="199" height="30">
+												角色当前血量</td>
+												<td width="85" height="30"><b>
+												ET</b></td>
+												<td width="274" height="30">
+												数组，ET0 至 ET29 ，整数</td>
+											</tr>
+											<tr>
+												<td width="80" height="30"><b>
+												SCMAX</b></td>
+												<td width="160" height="30">
+												角色道术上限</td>
+												<td width="79" height="30"><b>
+												HPMAX</b></td>
+												<td width="199" height="30">
+												角色当前血量最大值</td>
+												<td width="85" height="30"><b>
+												BT</b></td>
+												<td width="274" height="30">
+												数组，BOSS刷新时间BT0 至 BT29，整数</td>
+											</tr>
+											<tr>
+												<td width="80" height="30"><b>
+												MC</b></td>
+												<td width="160" height="30">
+												角色魔法下限</td>
+												<td width="79" height="30"><b>
+												MP</b></td>
+												<td width="199" height="30">
+												角色当前魔量</td>
+												<td width="85" height="30">
+												&nbsp;</td>
+												<td width="274" height="30">
+												&nbsp;</td>
+											</tr>
+											<tr>
+												<td width="80" height="30"><b>
+												MCMAX</b></td>
+												<td width="160" height="30">
+												角色魔法上限</td>
+												<td width="79" height="30"><b>
+												MPMAX</b></td>
+												<td width="199" height="30">
+												角色当前魔量最大值</td>
+												<td width="85" height="30">
+												&nbsp;</td>
+												<td width="274" height="30">
+												&nbsp;</td>
+											</tr>
+											<tr>
+												<td width="80" height="30"><b>
+												DF</b></td>
+												<td width="160" height="30">
+												角色物理防御下限</td>
+												<td width="79" height="30"><b>
+												MONEY</b></td>
+												<td width="199" height="30">
+												身上的金币</td>
+												<td width="85" height="30">&nbsp;</td>
+												<td width="274" height="30">
+												&nbsp;</td>
+											</tr>
+											<tr>
+												<td width="80" height="30"><b>
+												DFMAX</b></td>
+												<td width="160" height="30">
+												角色物理防御上限</td>
+												<td width="79" height="30"><b>
+												BANK</b></td>
+												<td width="199" height="30">
+												仓库的金币</td>
+												<td width="85" height="30">&nbsp;</td>
+												<td width="274" height="30">&nbsp;</td>
+											</tr>
+											</table>
+										</td>
+									</tr>
+									<tr id=C7>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>移动主角</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#MOVE</font><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[地图编号]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[X坐标]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[Y坐标]</b></font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>该语句可将主角移动至指定地图的指定位置，地图编号为可选参数，如果是传送到当前地图，只需要加坐标参数</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										示例：<p>#SUB START<BR>#BUTTON 当前地图移动 5 5 黄 
+										S1<BR>#BUTTON 移动到其它地图 5 7 黄 S2<BR>
+										#END</p><p>#SUB S1<BR>
+										#MOVE 20 20<BR>
+										#END<p>#SUB S2<BR>
+										#MOVE B11 20 20<BR>
+										#END</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=C8>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>移动NPC</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#MOVENPC</font><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[原X坐标]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[原Y坐标]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[目标X坐标]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[目标Y坐标]</b></font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>该语句可将当前地图上的NPC（包括怪物）移动至指定位置</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										示例：<p>#SUB START<BR>#BUTTON 移动NPC 5 5 黄 
+										S1<BR>
+										#END</p><p>#SUB S1<BR>
+										#MOVENPC 20 20 25 25<BR>
+										#END</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=C9>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>删除NPC</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#DELNPC</font><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[X坐标]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[Y坐标]</b></font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>该语句可删除当前地图指定坐标上的NPC或怪物</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										示例：<p>#SUB START<BR>#BUTTON 删除NPC 5 5 黄 
+										S1<BR>
+										#END</p><p>#SUB S1<BR>
+										#DELNPC 20 20<BR>
+										#END</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=C10>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>设置地图障碍标记</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#SETMAPFLAG</font><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[X坐标]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[Y坐标]</b></font><b><font color="#C0C0C0">空格</font></b><font color="#0000FF"><b>[标记索引]</b></font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>该语句可在当前地图指定的坐标位置上设置或清除标记。标记索引为0时，清除目标位置的标记。标记索引为1时，在目标位置设置一个不可见的障碍，怪物和角色将无法从该坐标通过。标记索引为2时，在目标位置放置一个可见的光柱障碍，怪物和角色无法通过。</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										示例：<p>#SUB START<BR>#BUTTON 设置一个禁止通过的光柱 
+										5 5 黄 S1<BR>
+										#END</p><p>#SUB S1<BR>
+										#SETMAPFLAG 20 20 2<BR>
+										#END</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=C11>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>不显示脚本对话窗</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#NOTUI</font></b></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>在脚本的任意行如果有该语句，那么该脚本执行时不会显示对话窗
+										，脚本相当于静默执行。注意，地图载入事件的脚本中
+										默认隐式加入了该语句，你不需要在地图载入事件中添加该语句</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										示例：<p>#SUB START<BR>
+										这里的字符不会显示，因为这个脚本中有#NOTUI语句出现<BR>
+										#END</p><p>#SUB S1<BR>
+										这里的字符也不会显示<BR>
+										#END<BR>
+										#NOTUI</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=C12>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>游戏通关</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#</font></b><font color="#0000FF"><b>GAMEOVER</b></font></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>游戏中执行此语句时将执行游戏通关过场脚本，角色的通关次数属性将+1</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										示例：<p>#SUB START<BR>
+										#BUTTON
+										点此游戏通关 2 6 黄 S1<BR>
+										#END</p><p>#SUB S1<BR>
+										#GAMEOVER<BR>
+										#END</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=C13>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本名称
+										：</b>删除所有怪物</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2"><b>脚本代码：<font color="#0000FF">#DELALLMON</font></b></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>脚本说明：</b>游戏中执行此语句时将删除掉当前地图上所有的怪物</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										示例：<p>#SUB START<BR>
+										#BUTTON
+										点此删除所有怪物 2 6 黄 S1<BR>
+										#END</p><p>#SUB S1<BR>
+										#DELALLMON<BR>
+										#END</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=D1>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>任务的实现及提示的编辑 ：</b></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										大多数游戏总是伴随任务的进行，在游戏中实现任务，理论上有很多种方法，我们在这里只讨论利用主角的ET属性来设计任务的方法。<p>
+										ET属性有30个元素，从ET0至ET29，该元素可通过#IF语句来查询和判断其值，通过#CHANGE语句来改变其值。通过对其值的判断与
+										赋值，我们就可以实现任务流程的控制。理论上，我们可以利用ET属性实现至少1个主任务和29个支线任务的控制。
+										在游戏中我们将用ET0来标记主任务，用ET1至ET29来标记支线任务。<b>注意，推荐用ET0来标记主任务，因为引擎端的任务提示功能就是跟ET0所对应的。<font color="#FF0000">游戏一开始的时候，ET0的值为1，ET其它元素的值为0</font></b></p>
+										<p>下面我们以一个NPC村长为例，设计一个简单的主线任务脚本示例如下：</p>
+										<p>#SUB START<BR>
+										#IF ET0 = 1<BR>
+										天下大乱，我们村就靠你去拯救了<BR>
+										#BUTTON 包在我身上 1 6 黄 S1<BR>
+										#ENDIF<BR>
+										<BR>
+										#IF ET0 = 2<BR>
+										#GOTO S1<BR>
+										#ENDIF<BR>
+										<BR>
+										#IF ET0 = 3<BR>
+										我果然没看错人，这下我就放心了，你去拯救世界吧<BR>
+										#CHANGE ET0 = 4<BR>
+										#BUTTON
+										我一定不负所望 1 6 黄 OVER<BR>
+										#END<BR>
+										#ENDIF<BR>
+										<BR>
+										#IF ET0 &gt; 3<BR>
+										去拯救世界吧<BR>
+										#BUTTON
+										好的 1 6 黄 OVER<BR>
+										#ENDIF<BR>
+										#END</p><p>#SUB S1<BR>
+										#CHANGE ET0 = 2<BR>
+										为了证实你的实力，先把村外的狼王杀掉吧<BR>
+										#BUTTON 我马上去 1 6 黄 OVER<BR>
+										#END<p>然后在怪物数据库中增加一个叫狼王的怪，编辑其死亡事件代码 
+										#CHANGE ET0 = 
+										3。在地图编辑器中创建地图并放置该怪。这样当该怪物死亡后ET0的值就变为3。这样再点村长，村长就会说“我果然没看错人，这下我就放心了，你去拯救世界吧”，同时ET0赋值4，这样以后再点村长，村长只会说“去拯救世界吧”。这样我们就完成了对任务的控制。通过对以上这个简单脚本的学习，相信你已经学会了怎么控制任务流程，大可发挥自己的想象力，在此基础上去无限的扩展，最终完成自己的MOD项目。<BR>
+										<BR>
+										<b><font color="#FF0000">关于任务的提示</font></b>。在引擎端还有任务提示的窗口。目前引擎端仅支持对主线任务的提示，也就是根据ET0的值来显示对应的提示内容。该提示可在任务提示编辑器里编辑。打开任务提示编辑器，在任务部分点击ET0（主线），然后在右侧的任务列表中点击增加事件按钮，来增加任务事件。拿我们现在这个简单的演示来说，我们ET0元素的赋值最终到4，那么我们就加4个事件，分别对应ET0的值从1到3的
+										三个状态提示。例如任务1对应的是ET0等于1时，标题我们可以改为“村长的嘱托”。任务2对应的是ET0等于2时，标题我们改为“狼王的讨伐”，任务3改为“胜利而归”，任务4改为“拯救世界”，这样相信你已经懂了任务提示的编辑方法，如果你之前没有编程基础，理解起来可能会差一些，这也正常。多于大家交流，相信都能学会。</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										&nbsp;</td>
+									</tr>
+									<tr id=D2>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2" height="35">
+										<b>BOSS刷新的控制
+										：</b></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										在V4之后的引擎中有对BOSS刷新的控制机制，下面就教大家怎么完成这个机制。<BR>
+										BOSS刷新的控制与角色的BT属性元素相关。BT属性与ET类似，有30个元素，从BT0至BT29。于ET不同的是，ET是由你完全控制的变量，而BT会被系统控制减少，每秒减1，直至减到0，当BT某个元素为0时，其对应的BOSS刷新状态就会显示可刷新。BT元素的默认值是-1，当BT元素的值为-1时，引擎中对应的BOSS刷新标签不显示。<p>
+										首先我们需要在怪物数据库中找到或增加希望被限制刷新的怪，这个怪一般来讲就是BOSS，也就是一般只在某个地图出现一个的怪。我们需要编辑这个怪的死亡事件脚本，增加一行脚本#CHANGE 
+										BT0 = 
+										600。这里BT到底用哪个元素由你来决定。一般来讲，用哪个元素取决于该怪在游戏中出现的顺序。所赋的值为等待刷新的
+										秒数，这里600就代表600秒，即10分钟。<BR>
+										之后，我们打开任务提示编辑器，在右侧BOSS刷新列表中找到于BT元素对应的行，比如我们这里演示的是BT0，那对应的就是第一行。我们点击第一行，输入该怪物的名字，确认，保存提示数据。<BR>
+										然后我们在地图编辑器中把该怪物放到地图上，并记下它的坐标位置，我们这里假如该怪的坐标是X：20 
+										，Y：20。<BR>
+										打开地图事件编辑器，修改为如下脚本<BR>
+										<BR>
+										#IF BT0 &gt; 0<BR>
+										#DELNPC 20 20<BR>
+										#ENDIF<BR>
+										#END<BR>
+										#NOTUI<BR>
+										<BR>
+										这样当我们杀死该怪的时候，BT0的值为600。此时引擎中BOSS刷新窗口里会显示该怪物的名字及剩余的刷新时间。当我们再次进入该地图时，如果BT0的值大于0，那么就把这个怪从地图上删除。至此，我们实现了对此怪的刷新控制</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=D3>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>按钮的常用位置
+										：</b></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										脚本中要经常用到按钮，下面展示一下按钮的经典位置及各种字体颜色的显示效果，方便大家的脚本编辑</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">
+										<img border="0" src="IMAGE/Map_8.jpg"></td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">
+										<br>
+										#button 左上白 1 1 白 OVER<br>
+										#button 左中红 1 5 红 OVER<br>
+										#button 左下橙 1 9 橙 OVER<br>
+										#button 中上黑 17 1 黑 OVER<br>
+										#button 中间黄 17 5 黄 OVER<br>
+										#button 中下绿 17 9 绿 OVER<br>
+										#button 右上紫 33 1 紫 OVER<br>
+										#button 右中青 33 5 青 OVER<br>
+										#button 右下蓝 33 9 蓝 OVER</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr id=D4>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="812">&nbsp;</td>
+										<td bgcolor="#FFFFFF" width="88">
+										<a href=#Top style="text-decoration: none">
+										<p align="right">回顶端</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										<b>经验与技巧 </b></td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										&nbsp;</td>
+									</tr>
+									<tr>
+										<td bgcolor="#FFFFFF" width="900" colspan="2">
+										&nbsp;</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+									<tr>
+										<td width="900" colspan="2">&nbsp;</td>
+									</tr>
+								</table>
+								<table border="0" width="30%" height="50" cellspacing="8" cellpadding="8">
+									<tr>
+										<td align="center" width="219" height="50" bgcolor="#AC743C" style="cursor:pointer" onclick="history.back()">
+										<font color="#FFFFFF">返回上一页</font></td>
+										<td align="center" width="219" height="50" bgcolor="#AC743C" style="cursor:pointer" onclick="window.location='Index.htm'">
+										<font color="#FFFFFF">返回帮助首页</font></td>
+									</tr>
+								</table>
+							</div>
+							<p align="center">&nbsp;</td>
+						</tr>
+						</table>
+					<table border="0" width="912" cellspacing="0" cellpadding="0" height="15">
+						<tr>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+			</table>
+			<table border="0" width="1280" cellspacing="0" background="Image/bg.jpg" cellpadding="0">
+				<tr>
+					<td valign="top" align="center">
+					<table border="1" width="1200" cellspacing="1" style="border-collapse: collapse" bordercolor="#AC743C" bgcolor="#EAD6BF">
+						<tr>
+							<td background="Image/topic_main.gif" height="30">&nbsp;<font color="#521800"><b>友情链接</b></font></td>
+						</tr>
+						<tr>
+							<td>
+							<div align="center">
+							<table border="0" width="904" height="40" cellspacing="1">
+								<tr>
+									<td width="451" align="center">&nbsp;<a target="_blank" href="http://tieba.baidu.com/f?kw=LP仿传奇单机版"><font color="#521800"> 
+									LP传奇单机版百度贴吧</font></a></td>
+									<td width="452" align="center">
+									<a target="_blank" href="http://tieba.baidu.com/f?kw=LP仿传奇单机版官方">
+									<font color="#521800">LP传奇单机版官方百度贴吧</font></a></td>
+								</tr>
+							</table>
+							</div>
+							</td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+			</table>
+	<table border=0 width=1280 cellspacing=1 background=Image/bg.jpg height="15">
+		<tr><td></td></tr></table>
+	<table border=0 width=1280 cellspacing=1 height=29 background=Image/top_bg_2.jpg><tr><td>&nbsp;</td></tr></table>
+			<!--#include file="Bottom.asp"--></div>
+			<p>&nbsp;</p>
+</div>

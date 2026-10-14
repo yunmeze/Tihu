@@ -1,0 +1,49 @@
+.farm-window-root{position:absolute;left:0.0px;right:0.0px;top:0.0px;bottom:0.0px;}
+.farm-hud-panel{position:absolute;left:0.0px;top:480.0px;width:640.0px;height:480.0px;overflow:hidden;}
+.farm-hud-corner-host{position:absolute;left:0.0px;right:0.0px;top:0.0px;bottom:0.0px;}
+.farm-zone-progress{position:absolute;left:8.0px;top:8.0px;width:276.0px;height:38.0px;}
+.farm-battle-frame{position:absolute;left:0.0px;right:0.0px;top:0.0px;bottom:0.0px;background-image:url("FarmHudBattleFrameCorners_sharedassets0.assets_33.png");-unity-background-scale-mode:stretch-to-fill;}
+.farm-battle-frame.farm-battle-frame-full{background-image:url("FarmHudBattleFrame_sharedassets0.assets_35.png");}
+.farm-hud-plate-frame{position:absolute;background-image:url("SquareFrame_sharedassets0.assets_77.png");-unity-background-scale-mode:stretch-to-fill;-unity-slice-left:28;-unity-slice-right:28;-unity-slice-top:28;-unity-slice-bottom:28;-unity-slice-scale:0.47999998927116394px;}
+.farm-hud-plate-well{position:absolute;left:10.0px;right:10.0px;top:6.0px;bottom:7.0px;overflow:hidden;background-color:rgba(30,20,12,0.9200000166893005);}
+.farm-hud-medallion{position:absolute;width:38.0px;height:38.0px;background-image:url("FarmHudBossSkullBacking_sharedassets0.assets_85.png");-unity-background-scale-mode:scale-to-fit;}
+.farm-zone-progress-frame{left:0.0px;top:0.0px;width:262.0px;height:30.0px;}
+.farm-zone-progress-hidden{display:none;}
+.farm-zone-progress-fill{height:100.0%;width:62.0%;background-color:rgba(154,92,20,1.0);background-image:url("FarmHudZoneProgressFill_sharedassets0.assets_29.png");-unity-background-scale-mode:stretch-to-fill;border-top-left-radius:2.0px;border-bottom-left-radius:2.0px;}
+.farm-boss-ready .farm-zone-progress-fill{background-color:rgba(200,116,24,1.0);-unity-background-image-tint-color:rgba(255,221,168,1.0);}
+.farm-zone-name{position:absolute;left:12.0px;right:26.0px;top:0.0px;bottom:0.0px;translate:0.0 -1.0px;color:rgba(232,210,166,1.0);font-size:16.0px;-unity-font-style:bold;-unity-text-align:middle-left;text-shadow:1.0px 1.0px 1.0px rgba(0,0,0,1.0);letter-spacing:1.0px;white-space:nowrap;}
+.farm-boss-progress-icon-backdrop{right:0.0px;top:-4.0px;}
+.farm-boss-progress-icon{position:absolute;right:0.0px;top:-6.0px;width:38.0px;height:38.0px;background-image:url("FarmHudBossSkull_sharedassets0.assets_41.png");-unity-background-scale-mode:scale-to-fit;-unity-background-image-tint-color:rgba(235,225,210,0.9599999785423279);}
+.farm-boss-ready .farm-boss-progress-icon{-unity-background-image-tint-color:rgba(255,174,84,1.0);}
+.farm-gold-counter{position:absolute;right:8.0px;top:8.0px;width:112.0px;height:30.0px;}
+.farm-gold-counter-frame{left:0.0px;right:0.0px;top:0.0px;bottom:0.0px;}
+.farm-gold-row{position:absolute;left:8.0px;right:8.0px;top:0.0px;bottom:0.0px;flex-direction:row;align-items:center;justify-content:center;}
+.farm-gold-icon{width:18.0px;height:18.0px;flex-shrink:0.0;margin-right:5.0px;background-image:url("Coins_sharedassets0.assets_95.png");-unity-background-scale-mode:scale-to-fit;}
+.farm-gold-label{translate:0.0 -1.0px;color:rgba(224,202,164,1.0);font-size:16.0px;-unity-font-style:bold;-unity-text-align:middle-left;text-shadow:1.0px 1.0px 1.0px rgba(0,0,0,1.0);white-space:nowrap;}
+.farm-enemy-health{position:absolute;left:210.0px;top:54.0px;width:220.0px;height:31.0px;background-image:url("SquareFrame_sharedassets0.assets_77.png");-unity-background-scale-mode:stretch-to-fill;-unity-slice-left:28;-unity-slice-right:28;-unity-slice-top:28;-unity-slice-bottom:28;-unity-slice-scale:0.4399999976158142px;}
+.farm-enemy-health-hidden{display:none;}
+.farm-enemy-health-well{position:absolute;left:7.0px;right:7.0px;top:7.0px;bottom:7.0px;overflow:hidden;background-color:rgba(40,5,5,0.9399999976158142);}
+.farm-enemy-health-fill{width:78.0%;height:100.0%;background-color:rgba(139,18,18,1.0);background-image:url("FarmHudEnemyHealthFill_sharedassets0.assets_47.png");-unity-background-scale-mode:stretch-to-fill;}
+.farm-enemy-name{position:absolute;left:8.0px;right:8.0px;top:0.0px;bottom:1.0px;translate:0.0 -1.0px;color:rgba(232,210,178,1.0);font-size:19.0px;-unity-font-style:bold;-unity-text-align:middle-center;-unity-text-outline-width:1.0px;-unity-text-outline-color:rgba(12,6,5,0.949999988079071);letter-spacing:0.5px;}
+.farm-player-status{position:absolute;left:0.0px;bottom:0.0px;width:260.0px;height:146.0px;}
+.farm-health-orb{position:absolute;left:-2.0px;bottom:-2.0px;width:142.0px;height:142.0px;}
+.farm-health-orb-backing{position:absolute;left:6.0px;bottom:6.0px;width:130.0px;height:130.0px;background-image:url("FarmHudHealthOrbBacking_sharedassets0.assets_38.png");-unity-background-scale-mode:scale-to-fit;}
+.farm-health-orb-liquid-clip{position:absolute;left:12.0px;bottom:12.0px;width:118.0px;height:100.0%;overflow:hidden;border-top-left-radius:59.0px;border-top-right-radius:59.0px;border-bottom-left-radius:59.0px;border-bottom-right-radius:59.0px;}
+.farm-health-orb-liquid{position:absolute;left:0.0px;bottom:0.0px;width:118.0px;height:118.0px;background-image:url("FarmHudHealthOrbLiquid_sharedassets0.assets_39.png");-unity-background-scale-mode:scale-to-fit;}
+.farm-health-orb-surface{position:absolute;left:0.0px;bottom:0.0px;width:118.0px;height:118.0px;background-image:url("FarmHudHealthOrbSurface_sharedassets0.assets_46.png");-unity-background-scale-mode:scale-to-fit;}
+.farm-health-orb-frame{position:absolute;left:0.0px;top:0.0px;right:0.0px;bottom:0.0px;background-image:url("FarmHudHealthOrbFrame_sharedassets0.assets_37.png");-unity-background-scale-mode:scale-to-fit;}
+.farm-health-orb-label{position:absolute;left:5.0px;right:5.0px;top:59.0px;height:24.0px;opacity:0.0;background-color:rgba(12,5,4,0.7200000286102295);border-top-left-radius:12.0px;border-top-right-radius:12.0px;border-bottom-left-radius:12.0px;border-bottom-right-radius:12.0px;color:rgba(244,222,190,1.0);font-size:14.0px;-unity-font-style:bold;-unity-text-align:middle-center;-unity-text-outline-width:1.0px;-unity-text-outline-color:rgba(20,5,5,0.949999988079071);transition-property:opacity;transition-duration:90.0ms;}
+.farm-health-orb:hover .farm-health-orb-label{opacity:1.0;}
+.farm-progression-summary{position:absolute;left:128.0px;bottom:8.0px;width:128.0px;height:38.0px;}
+.farm-experience-bar{left:12.0px;right:0.0px;top:4.0px;height:30.0px;}
+.farm-experience-well{left:25.0px;}
+.farm-experience-fill{width:46.0%;min-width:3.0px;height:100.0%;background-color:rgba(184,117,28,1.0);background-image:url("FarmHudZoneProgressFill_sharedassets0.assets_29.png");-unity-background-scale-mode:stretch-to-fill;}
+.farm-level-plate{left:0.0px;top:0.0px;width:38.0px;height:38.0px;}
+.farm-level-label{position:absolute;left:0.0px;right:0.0px;top:0.0px;bottom:0.0px;translate:0.0 -1.0px;color:rgba(255,226,168,1.0);font-size:17.0px;-unity-font-style:bold;-unity-text-align:middle-center;text-shadow:1.0px 1.0px 1.0px rgba(0,0,0,1.0);white-space:nowrap;}
+.farm-combat-text-layer-host, .farm-combat-text-layer{position:absolute;left:0.0px;right:0.0px;top:0.0px;bottom:0.0px;}
+.farm-combat-text-layer{overflow:hidden;}
+.farm-combat-text-popup{position:absolute;width:100.0px;height:34.0px;opacity:1.0;}
+.farm-combat-text-label{position:absolute;left:0.0px;right:0.0px;top:0.0px;bottom:0.0px;color:rgba(244,231,199,1.0);font-size:20.0px;-unity-font-style:bold;-unity-text-align:middle-center;-unity-text-outline-width:1.5px;-unity-text-outline-color:rgba(10,7,5,0.949999988079071);}
+.farm-combat-text-player-damage .farm-combat-text-label{color:rgba(255,76,62,1.0);}
+.farm-combat-text-healing .farm-combat-text-label{color:rgba(96,238,126,1.0);}
+.farm-combat-text-critical .farm-combat-text-label{color:rgba(255,205,74,1.0);font-size:25.0px;}

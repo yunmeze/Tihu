@@ -1,0 +1,1034 @@
+.tools is not a valid directory name. Please make sure there are no unallowed characters in the name.
+.tools is not a valid directory name. Please make sure there are no unallowed characters in the name.
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.10f1 (feeafc12a938) revision 16706300'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 32604 MB
+[Licensing::IpcConnector] Channel LicenseClient-lvan doesn't exist
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-08T07:46:30Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 26996)
+
+COMMAND LINE ARGUMENTS:
+D:\Unity 6000.4.10f1\Editor\Unity.exe
+-batchmode
+-projectPath
+E:\i09\client\web\Legend\.tools\unity
+-executeMethod
+UIBake.Run
+-logFile
+E:\i09\client\web\Legend\.tools\progression-ui-2.log
+Successfully changed project path to: E:\i09\client\web\Legend\.tools\unity
+E:/i09/client/web/Legend/.tools/unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [20344]  Target information:
+
+Player connection [20344]  * "[IP] 192.168.23.181 [Port] 55504 [Flags] 2 [Guid] 2152317778 [EditorId] 2152317778 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4AUPQN5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20344] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20344] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-26332" after 0.3 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lvan" at "2026-10-08T07:46:30.9025697Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 26996, path: "D:/Unity 6000.4.10f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              50f24ed339224572a909908ddad580ed
+  Correlation Id:          5e583af325c5cb7112082daab5093d18
+  External correlation Id: 1740518470318933474
+  Machine Id:              WMuhZC0j/aXqgpyS3l/sQ1bDUU8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-lvan" (connect: 0.57s, validation: 0.06s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lvan-notifications" at "2026-10-08T07:46:31.00353Z"
+[Licensing::Module] Connected to LicensingClient (PId: 26996, launch time: 0.01, total connection time: 0.67s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-J9FP-U6U7-QSQ4-QKA2-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-10-19T08:45:28Z
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.73s
+[Licensing::Module] Licensing is initialized (took 0.16s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.4.10f1 (feeafc12a938)
+[Subsystems] Discovering subsystems at path D:/Unity 6000.4.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/i09/client/web/Legend/.tools/unity/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:          NVIDIA
+    VRAM:            2965 MB
+    App VRAM Budget: 2520 MB
+    Driver:          32.0.15.6094
+Initialize mono
+Mono path[0] = 'D:/Unity 6000.4.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity 6000.4.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity 6000.4.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+CodeReloadManager initialized
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity 6000.4.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001395 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.419 seconds
+Domain Reload Profiling: 860ms
+	BeginReloadAssembly (134ms)
+		CreateAndSetChildDomain (9ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (123ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (179ms)
+	FinalizeReload (421ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 9 packages:
+  Built-in packages:
+    com.unity.modules.animation@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.imageconversion@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.jsonserialize@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.physics@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.terrain@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.particlesystem@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.ai@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.ai)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: D:\Unity 6000.4.10f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: E:/i09/client/web/Legend/.tools/unity
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s400ms
+[155/158    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Editor\EffectBake.cs(70,55): warning CS0618: 'ParticleSystemRenderer.BakeMesh(Mesh, Camera, bool)' is obsolete: 'BakeMesh with useTransform is deprecated. Use BakeMesh with ParticleSystemBakeMeshOptions instead.'
+[156/158    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[157/158    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (0.36 seconds), 3 items updated, 158 evaluated
+Assets\Editor\EffectBake.cs(70,55): warning CS0618: 'ParticleSystemRenderer.BakeMesh(Mesh, Camera, bool)' is obsolete: 'BakeMesh with useTransform is deprecated. Use BakeMesh with ParticleSystemBakeMeshOptions instead.'
+AssetDatabase: script compilation time: 0.742487s
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.479 seconds
+Domain Reload Profiling: 956ms
+	BeginReloadAssembly (358ms)
+		DisableScriptedObjects (32ms)
+		CreateAndSetChildDomain (164ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (21ms)
+		LoadAssemblies (111ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (7ms)
+	FinalizeReload (480ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+(Values over 0.050ms)
+Asset Pipeline Refresh (id=cf29be8e3d6a467418c41bbf3549468f): Total: 1.876 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=573 ms
+		Asset DB Callback time: managed=58 ms, native=15 ms
+		Scripting: domain reloads=1, domain reload time=479 ms, compile time=745 ms, other=3 ms
+		Project Asset Count: scripts=46, non-scripts=97
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 11.035ms
+	ApplyChangesToAssetFolders: 0.181ms
+	Scan: 17.858ms
+	OnSourceAssetsModified: 0.980ms
+	CategorizeScriptCompilationAssets: 0.112ms
+	ProcessAssetsWithTransientArtifactChanges: 1.158ms
+	CategorizeAssets: 3.798ms
+	CompileScripts: 744.638ms
+	ImportOutOfDateAssets: 480.661ms (480.356ms without children)
+		UnloadImportedAssets: 0.122ms
+		OnDemandSchedulerStart: 0.152ms
+	PostProcessAllAssets: 59.610ms
+		VCAutoAddAssetPostprocess 1.105ms
+		MonoPostProcessAllAssets: 57.960ms
+			AssetPostprocessor.OnPostprocessAllAssets 13.192ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 9.946ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 8.749ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 7.330ms
+			SyncVS.PostprocessSyncProject 3.034ms
+			AssetChangedListener.OnPostprocessAllAssets 1.361ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.018ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.696ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.665ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.541ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.310ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.242ms
+			AssetEvents.OnPostprocessAllAssets 0.187ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.182ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.152ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.136ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.109ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.105ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.081ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.067ms
+	PostAssetChangesProfiler: 4.709ms
+	UnloadStreamsBegin: 1.200ms
+	GenerateScriptTypeHashes: 0.792ms
+	GenerateScriptTypeSerializationHashes: 1.379ms
+	Untracked: 540.070ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 2.627ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-unity
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (0.5 MB). Loaded Objects now: 679.
+Memory consumption went from 92.9 MB to 92.4 MB.
+Total: 3.760700 ms (FindLiveObjects: 0.039800 ms CreateObjectMapping: 0.006200 ms MarkObjects: 3.522600 ms  DeleteObjects: 0.189600 ms)
+
+Asset Pipeline Refresh (id=bfd906f074b77c3478764365e13d7c37): Total: 0.017 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[Project] Loading completed in 4.253 seconds
+	Project init time: 				3.930 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.465 seconds
+		Asset Database init time: 		0.108 seconds
+		Global illumination init time: 	0.003 seconds
+		Assemblies load time: 			0.897 seconds
+		Unity extensions init time: 	0.000 seconds
+		Asset Database refresh time: 	1.877 seconds
+	Scene opening time: 			0.105 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791445594567,"processId":26332,"projectLoad":4.2531856999999999,"projectInit":3.9299849,"templateInit":0.0,"packageManagerInit":0.4653896,"assetDatabaseInit":0.1075475,"globalIlluminationInit":0.0028159,"assembliesLoad":0.8968898,"unityExtensionsInit":0.0003494,"assetDatabaseRefresh":1.8766372,"sceneOpening":0.1050371}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791445594567,"processId":26332,"editorVersion":"6000.4.10f1 (feeafc12a938)","branch":"6000.4/staging","buildType":"Release","platform":"Windows"}
+[Licensing::Client] Successfully resolved entitlement details
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+[UnityConnectServicesConfig] config is NOT valid, switching to default
+Created GICache directory at C:/Users/lvan/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.014s, timestamps: [4.256 - 4.270]
+Starting new worker id: 0 with log in E:/i09/client/web/Legend/.tools/unity/Logs/AssetImportWorker0.log
+Starting new worker id: 1 with log in E:/i09/client/web/Legend/.tools/unity/Logs/AssetImportWorker1.log
+LAYOUT FarmWindow 122 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT InventoryWindow 60 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT LootReviewInventoryWindow 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT SkillTreeWindow 66 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT ZoneWindow 74 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT SettingsWindow 150 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT CombatSkillsWindow 76 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT DifficultyWindow 152 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT LootFilterWindow 84 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT SkillNodeCard 7 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT ZoneRow 10 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT DifficultyCard 8 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT HeroInventoryWindow 232 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT HeroFullWindow 274 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review1 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review2 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review3 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review4 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review5 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review6 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review7 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review8 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review9 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review10 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review11 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review12 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT FarmWindow 122 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT InventoryWindow 60 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT LootReviewInventoryWindow 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT SkillTreeWindow 66 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT ZoneWindow 74 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT SettingsWindow 150 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT CombatSkillsWindow 76 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT DifficultyWindow 152 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT LootFilterWindow 84 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT SkillNodeCard 7 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT ZoneRow 10 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT DifficultyCard 8 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT HeroInventoryWindow 232 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT HeroFullWindow 274 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review1 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review2 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review3 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review4 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review5 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review6 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review7 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review8 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review9 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review10 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review11 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+LAYOUT Review12 199 elements
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UIBake:BakeLocale (bool) (at Assets/Editor/UIBake.cs:71)
+UIBake:Bake () (at Assets/Editor/UIBake.cs:28)
+UIBake:Wait () (at Assets/Editor/UIBake.cs:26)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/UIBake.cs Line: 71)
+
+Curl error 42: Callback aborted
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-lvan-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-lvan channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791445596561,"processId":26332,"allocatedMemory":10947603,"memoryLabels":[{"Default":152277},{"Permanent":15276},{"NewDelete":65693},{"Thread":4237552},{"Manager":30893},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":833313},{"Material":24},{"GfxDevice":57720},{"Animation":392},{"Audio":3008},{"FreeType":8},{"FontEngine":736},{"Physics":2090},{"Physics2D":16},{"Serialization":30384},{"Input":9880},{"JobScheduler":33024},{"TextLib":30683},{"Mono":32},{"ScriptingNativeRuntime":155052},{"BaseObject":1659152},{"Resource":1184},{"Renderer":3008},{"Transform":4685},{"File":1088},{"WebCam":616},{"Culling":32},{"Terrain":11394},{"Wind":24},{"STL":40},{"String":19813},{"StaticString":6718},{"Utility":2672230},{"Curl":5314},{"PoolAlloc":2072},{"AI":80},{"TypeTree":11341},{"ScriptManager":448},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":120},{"GI":7792},{"Director":8320},{"CloudService":6560},{"WebRequest":845},{"VR":48050},{"SceneManager":504},{"Video":208},{"LazyScriptCache":32},{"Camera":17},{"Secure":2377},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":472},{"Hierarchy":608},{"CoreStats":13112},{"Identifiers":12960},{"Gui":128},{"EditorUtility":118458},{"VersionControl":4},{"Undo":931},{"AssetDatabase":264643},{"EditorGi":328},{"UnityConnect":37735},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":210},{"ProfilerEditor":9746},{"CoreBusinessMetrics":2887},{"Windowing":456},{"Licensing":1232},{"AssetReference":32},{"IPCStream":32}]}
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.

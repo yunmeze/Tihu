@@ -1,0 +1,23 @@
+public enum ItemStatType
+{
+	Damage,
+	AttackSpeed,
+	MaxHealth,
+	MaxEnergy,
+	Armor,
+	CritChance,
+	CritDamage,
+	LifeSteal,
+	GoldFind,
+	ExperienceGain,
+	RareFind,
+	ItemSellValue,
+	OfflineProgress,
+	HealthRegen,
+	BleedChance,
+	BleedDamage,
+	DamageVsUndead,
+	DamageVsElite,
+	BossDamage,
+	ItemDropChance
+}

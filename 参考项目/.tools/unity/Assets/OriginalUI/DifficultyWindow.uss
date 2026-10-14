@@ -1,0 +1,47 @@
+.difficulty-window{background-image:none;}
+.difficulty-body{position:relative;padding-left:0.0px;padding-right:0.0px;padding-top:0.0px;padding-bottom:0.0px;overflow:hidden;}
+.difficulty-backdrop{position:absolute;left:4.0px;right:4.0px;top:4.0px;bottom:4.0px;-unity-background-scale-mode:scale-and-crop;-unity-background-image-tint-color:rgba(255,255,255,1.0);}
+.difficulty-backdrop-vignette, .difficulty-backdrop-fade{position:absolute;left:4.0px;right:4.0px;top:4.0px;bottom:4.0px;-unity-background-scale-mode:stretch-to-fill;-unity-background-image-tint-color:rgba(255,255,255,1.0);}
+.difficulty-backdrop-vignette{background-image:url("DifficultyBackdropVignette_sharedassets0.assets_82.png");}
+.difficulty-backdrop-fade{background-image:url("DifficultyTransitionBlack_sharedassets0.assets_80.png");opacity:0.0;}
+.difficulty-frame-overlay{position:absolute;left:0.0px;right:0.0px;top:0.0px;bottom:0.0px;background-image:url("DifficultyWindowFrame_sharedassets0.assets_81.png");-unity-background-scale-mode:stretch-to-fill;-unity-background-image-tint-color:rgba(255,255,255,1.0);-unity-slice-left:28;-unity-slice-right:28;-unity-slice-top:28;-unity-slice-bottom:28;-unity-slice-scale:0.5px;}
+.difficulty-copy{position:absolute;left:28.0px;top:0.0px;width:550.0px;height:240.0px;padding-left:0.0px;padding-right:0.0px;padding-top:0.0px;padding-bottom:0.0px;}
+.difficulty-status, .difficulty-name, .difficulty-tagline, .difficulty-section-title, .difficulty-detail{margin-top:1.0px;margin-bottom:1.0px;text-shadow:1.0px 1.0px 2.0px rgba(8,4,3,0.8999999761581421);}
+.difficulty-status{height:20.0px;color:rgba(222,171,92,1.0);font-size:16.0px;-unity-font-style:bold;}
+.difficulty-name{height:42.0px;color:rgba(250,235,203,1.0);font-size:36.0px;-unity-font-style:bold;}
+.difficulty-tagline{height:30.0px;color:rgba(226,183,120,1.0);font-size:20.0px;}
+.difficulty-divider{height:2.0px;width:360.0px;margin-top:2.0px;margin-bottom:4.0px;background-image:url("SquareFrame_sharedassets0.assets_77.png");-unity-background-image-tint-color:rgba(137,112,80,1.0);}
+.difficulty-section-title{height:28.0px;color:rgba(246,232,205,1.0);font-size:22.0px;-unity-font-style:bold;}
+.difficulty-detail{height:26.0px;color:rgba(238,228,208,1.0);font-size:20.0px;}
+.difficulty-penalty{color:rgba(235,143,102,1.0);}
+.difficulty-card-carousel{position:absolute;left:10.0px;right:10.0px;bottom:32.0px;height:128.0px;flex-direction:row;align-items:center;justify-content:center;}
+.difficulty-card-scroll{height:128.0px;width:526.0px;flex-grow:0.0;flex-shrink:0.0;}
+.difficulty-card-carousel.difficulty-card-count-5 .difficulty-card-scroll{width:526.0px;}
+.difficulty-card-carousel.difficulty-card-count-6 .difficulty-card-scroll{width:630.0px;}
+.difficulty-card-carousel.difficulty-card-count-7 .difficulty-card-scroll{width:734.0px;}
+.difficulty-card-carousel.difficulty-card-count-8 .difficulty-card-scroll{width:838.0px;}
+.difficulty-card-carousel.difficulty-card-count-9 .difficulty-card-scroll{width:942.0px;}
+.difficulty-card-carousel.difficulty-card-count-10 .difficulty-card-scroll{width:1046.0px;}
+.difficulty-card-carousel.difficulty-card-count-11 .difficulty-card-scroll{width:1150.0px;}
+.difficulty-card-carousel.difficulty-card-count-12 .difficulty-card-scroll{width:1254.0px;}
+.difficulty-carousel-button{width:34.0px;min-width:34.0px;height:72.0px;min-height:72.0px;margin-left:4.0px;margin-right:4.0px;padding-left:0.0px;padding-right:0.0px;padding-top:0.0px;padding-bottom:4.0px;font-size:22.0px;-unity-font-style:bold;-unity-text-align:middle-center;}
+.difficulty-carousel-button:hover{color:rgba(255,238,204,1.0);}
+.difficulty-carousel-button:disabled{opacity:0.3400000035762787;}
+.difficulty-card-row{height:128.0px;padding-right:6.0px;flex-direction:row;align-items:flex-start;}
+.difficulty-card-root{width:104.0px;height:126.0px;margin-right:0.0px;flex-grow:0.0;flex-shrink:0.0;position:relative;overflow:hidden;}
+.difficulty-card-previewed .difficulty-card-root{overflow:visible;}
+.difficulty-card-selection-glow{left:2.0px;right:-6.0px;top:-2.0px;bottom:-4.0px;}
+.difficulty-card-selection-highlight{left:4.0px;right:-4.0px;top:2.0px;bottom:-2.0px;}
+.difficulty-card-button{position:absolute;left:1.0px;right:1.0px;top:1.0px;bottom:1.0px;width:102.0px;height:124.0px;min-width:102.0px;min-height:124.0px;padding-left:4.0px;padding-right:4.0px;padding-top:4.0px;padding-bottom:4.0px;-unity-background-image-tint-color:rgba(255,255,255,1.0);}
+.difficulty-card-button:hover{-unity-background-image-tint-color:rgba(255,235,220,1.0);}
+.difficulty-card-button:disabled{opacity:1.0;}
+.difficulty-card-locked .difficulty-card-button{-unity-background-image-tint-color:rgba(255,255,255,1.0);}
+.difficulty-card-locked .difficulty-card-button:hover{-unity-background-image-tint-color:rgba(255,235,220,1.0);}
+.difficulty-card-active .difficulty-card-button{-unity-background-image-tint-color:rgba(140,28,26,1.0);}
+.difficulty-card-icon{position:absolute;left:4.0px;top:3.0px;width:92.0px;height:88.0px;-unity-background-scale-mode:scale-to-fit;}
+.difficulty-card-name{position:absolute;left:2.0px;right:2.0px;bottom:1.0px;height:22.0px;color:rgba(232,216,185,1.0);font-size:16.0px;-unity-font-style:bold;-unity-text-align:middle-center;-unity-text-outline-color:rgba(0,0,0,0.949999988079071);-unity-text-outline-width:1.0px;}
+.difficulty-card-lock{position:absolute;left:2.0px;right:2.0px;top:82.0px;height:16.0px;color:rgba(196,88,70,1.0);font-size:12.0px;-unity-font-style:bold;-unity-text-align:middle-center;-unity-text-outline-color:rgba(0,0,0,0.949999988079071);-unity-text-outline-width:1.0px;}
+.difficulty-actions{position:absolute;left:0.0px;right:0.0px;bottom:0.0px;height:32.0px;flex-direction:row;justify-content:center;align-items:center;}
+.difficulty-confirm{width:140.0px;height:30.0px;min-width:140.0px;min-height:30.0px;font-size:18.0px;}
+.difficulty-confirm:hover{color:rgba(255,238,204,1.0);}
+.difficulty-confirm:disabled{opacity:0.4399999976158142;}

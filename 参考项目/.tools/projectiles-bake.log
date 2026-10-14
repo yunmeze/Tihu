@@ -1,0 +1,333 @@
+.tools is not a valid directory name. Please make sure there are no unallowed characters in the name.
+.tools is not a valid directory name. Please make sure there are no unallowed characters in the name.
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.10f1 (feeafc12a938) revision 16706300'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Channel LicenseClient-lvan doesn't exist
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 32604 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-08T08:17:41Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 8904)
+
+COMMAND LINE ARGUMENTS:
+D:\Unity 6000.4.10f1\Editor\Unity.exe
+-batchmode
+-projectPath
+E:\i09\client\web\Legend\.tools\unity
+-executeMethod
+ProjectileBake.Run
+-logFile
+E:\i09\client\web\Legend\.tools\projectiles-bake.log
+Successfully changed project path to: E:\i09\client\web\Legend\.tools\unity
+E:/i09/client/web/Legend/.tools/unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [21900]  Target information:
+
+Player connection [21900]  * "[IP] 192.168.23.181 [Port] 55504 [Flags] 2 [Guid] 2234206969 [EditorId] 2234206969 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4AUPQN5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21900]  * "[IP] 172.18.0.1 [Port] 55504 [Flags] 2 [Guid] 2234206969 [EditorId] 2234206969 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4AUPQN5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21900] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21900] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-17424" after 0.3 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lvan" at "2026-10-08T08:17:42.3254957Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 8904, path: "D:/Unity 6000.4.10f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              20edb19c38d24bf58bba6ce08b3e4d8a
+  Correlation Id:          716b322b44b965f0f47c9433bb2246ec
+  External correlation Id: 6005909151168450578
+  Machine Id:              WMuhZC0j/aXqgpyS3l/sQ1bDUU8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-lvan" (connect: 0.57s, validation: 0.09s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lvan-notifications" at "2026-10-08T08:17:42.4523115Z"
+[Licensing::Module] Connected to LicensingClient (PId: 8904, launch time: 0.01, total connection time: 0.69s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-J9FP-U6U7-QSQ4-QKA2-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-10-19T09:11:32Z
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.75s
+[Licensing::Module] Licensing is initialized (took 0.22s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.4.10f1 (feeafc12a938)
+[Subsystems] Discovering subsystems at path D:/Unity 6000.4.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/i09/client/web/Legend/.tools/unity/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:          NVIDIA
+    VRAM:            2965 MB
+    App VRAM Budget: 2520 MB
+    Driver:          32.0.15.6094
+Initialize mono
+Mono path[0] = 'D:/Unity 6000.4.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity 6000.4.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity 6000.4.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+CodeReloadManager initialized
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity 6000.4.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001318 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.402 seconds
+Domain Reload Profiling: 838ms
+	BeginReloadAssembly (127ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (123ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (176ms)
+	FinalizeReload (404ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 9 packages:
+  Built-in packages:
+    com.unity.modules.animation@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.imageconversion@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.jsonserialize@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.physics@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.terrain@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.particlesystem@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.ai@1.0.0 (location: E:\i09\client\web\Legend\.tools\unity\Library\PackageCache\com.unity.modules.ai)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: D:\Unity 6000.4.10f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: E:/i09/client/web/Legend/.tools/unity
+DisplayProgressbar: Compiling Scripts
+Starting: D:\Unity 6000.4.10f1\Editor\Data\netcorerun\netcorerun.exe "D:\Unity 6000.4.10f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: E:/i09/client/web/Legend/.tools/unity
+ExitCode: 4 Duration: 0s80ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+*** Tundra requires additional run (0.04 seconds), 0 items updated, 158 evaluated
+ExitCode: 0 Duration: 0s196ms
+Starting: D:\Unity 6000.4.10f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: E:/i09/client/web/Legend/.tools/unity
+ExitCode: 0 Duration: 0s548ms
+Finished compiling graph: 161 nodes, 583 flattened edges (573 ToBuild, 4 ToUse), maximum node priority 18
+[150/158    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
+[151/158    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp
+[152/158    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets\Effects\FireballProjectileVisual.cs(179,21): warning CS0618: 'Object.GetInstanceID()' is obsolete: 'GetInstanceID is deprecated. Use GetEntityId instead. This will be removed in a future version.'
+[153/158    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[154/158    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[155/158    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Editor\EffectBake.cs(70,55): warning CS0618: 'ParticleSystemRenderer.BakeMesh(Mesh, Camera, bool)' is obsolete: 'BakeMesh with useTransform is deprecated. Use BakeMesh with ParticleSystemBakeMeshOptions instead.'
+[156/158    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[157/158    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (0.52 seconds), 8 items updated, 158 evaluated
+Assets\Effects\FireballProjectileVisual.cs(179,21): warning CS0618: 'Object.GetInstanceID()' is obsolete: 'GetInstanceID is deprecated. Use GetEntityId instead. This will be removed in a future version.'
+Assets\Editor\EffectBake.cs(70,55): warning CS0618: 'ParticleSystemRenderer.BakeMesh(Mesh, Camera, bool)' is obsolete: 'BakeMesh with useTransform is deprecated. Use BakeMesh with ParticleSystemBakeMeshOptions instead.'
+AssetDatabase: script compilation time: 1.167596s
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.473 seconds
+Domain Reload Profiling: 905ms
+	BeginReloadAssembly (336ms)
+		DisableScriptedObjects (30ms)
+		CreateAndSetChildDomain (156ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (15ms)
+		LoadAssemblies (106ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (5ms)
+	FinalizeReload (475ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+(Values over 0.050ms)
+Asset Pipeline Refresh (id=f8504f35dabb37e4e979df89d02f0a88): Total: 2.255 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=572 ms
+		Asset DB Callback time: managed=63 ms, native=11 ms
+		Scripting: domain reloads=1, domain reload time=433 ms, compile time=1170 ms, other=3 ms
+		Project Asset Count: scripts=47, non-scripts=97
+		Asset File Changes: new=3, changed=3, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 8.201ms
+	ApplyChangesToAssetFolders: 0.220ms
+	Scan: 27.010ms
+	OnSourceAssetsModified: 0.942ms
+	CategorizeScriptCompilationAssets: 0.201ms
+	ProcessAssetsWithTransientArtifactChanges: 0.750ms
+	CategorizeAssets: 2.974ms
+	CompileScripts: 1170.150ms
+	ImportOutOfDateAssets: 475.707ms (475.379ms without children)
+		UnloadImportedAssets: 0.126ms
+		OnDemandSchedulerStart: 0.173ms
+	PostProcessAllAssets: 64.114ms
+		VCAutoAddAssetPostprocess 0.910ms
+		VersionControlSettings.HiddenFilePostprocess 0.116ms
+		MonoPostProcessAllAssets: 62.543ms
+			AssetPostprocessor.OnPostprocessAllAssets 13.441ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 10.777ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 9.319ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 8.014ms
+			SyncVS.PostprocessSyncProject 1.742ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.704ms
+			AssetChangedListener.OnPostprocessAllAssets 1.572ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.209ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.723ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.547ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.521ms
+			AssetEvents.OnPostprocessAllAssets 0.415ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.306ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.285ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.193ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.166ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.152ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.117ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.113ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.076ms
+	PostAssetChangesProfiler: 3.641ms
+	UnloadStreamsBegin: 1.271ms
+	GenerateScriptTypeHashes: 1.239ms
+	GenerateScriptTypeSerializationHashes: 2.119ms
+	Untracked: 490.810ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 3.281ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-unity
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (0.5 MB). Loaded Objects now: 689.
+Memory consumption went from 92.2 MB to 91.7 MB.
+Total: 3.886000 ms (FindLiveObjects: 0.041000 ms CreateObjectMapping: 0.006100 ms MarkObjects: 3.634200 ms  DeleteObjects: 0.202300 ms)
+
+PROJECTILE charge
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectileBake:Run () (at Assets/Editor/ProjectileBake.cs:16)
+
+(Filename: Assets/Editor/ProjectileBake.cs Line: 16)
+
+PROJECTILE flight
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectileBake:Run () (at Assets/Editor/ProjectileBake.cs:16)
+
+(Filename: Assets/Editor/ProjectileBake.cs Line: 16)
+
+PROJECTILE impact
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectileBake:Run () (at Assets/Editor/ProjectileBake.cs:16)
+
+(Filename: Assets/Editor/ProjectileBake.cs Line: 16)
+
+Curl error 42: Callback aborted
+Request timed out while processing request "https://public-cdn.cloud.unity3d.com/config/production", HTTP error code 0
+.[UnityConnect] Request timed out.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-lvan-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-lvan channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791447467644,"processId":17424,"allocatedMemory":10796392,"memoryLabels":[{"Default":151076},{"Permanent":15276},{"NewDelete":65377},{"Thread":4237552},{"Manager":30893},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":833313},{"Material":24},{"GfxDevice":57360},{"Animation":392},{"Audio":3008},{"FreeType":8},{"FontEngine":736},{"Physics":2090},{"Physics2D":16},{"Serialization":1080},{"Input":9880},{"JobScheduler":33024},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":155052},{"BaseObject":1620304},{"Resource":1184},{"Renderer":3008},{"Transform":4685},{"File":1088},{"WebCam":616},{"Culling":32},{"Terrain":11394},{"Wind":24},{"STL":40},{"String":9171},{"StaticString":6718},{"Utility":2672230},{"Curl":1712},{"PoolAlloc":2072},{"AI":80},{"TypeTree":11341},{"ScriptManager":448},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":120},{"GI":7792},{"Director":8320},{"CloudService":6560},{"WebRequest":845},{"VR":48050},{"SceneManager":504},{"Video":64},{"LazyScriptCache":32},{"Camera":17},{"Secure":2377},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":472},{"Hierarchy":608},{"CoreStats":13112},{"Identifiers":12960},{"Gui":128},{"EditorUtility":82154},{"VersionControl":4},{"Undo":931},{"AssetDatabase":264639},{"EditorGi":328},{"UnityConnect":37716},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":210},{"ProfilerEditor":9746},{"CoreBusinessMetrics":2887},{"Windowing":456},{"Licensing":1232},{"AssetReference":32},{"IPCStream":32}]}
