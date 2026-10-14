@@ -1,0 +1,42 @@
+{
+  "asset": "assets/textures/coastal_stone_planes_1110.png",
+  "purpose": "One original broad-plane stylized coastal-stone albedo candidate for a low-strength secondary triplanar layer on authored cape rocks; fixed-camera material A/B only.",
+  "date": "2026-10-13",
+  "method": "Built-in image_gen.imagegen, new generation, one call",
+  "tool_arguments": {
+    "prompt": "Use case: stylized-concept\nAsset type: original tileable-intent hand-painted coastal stone base-color/albedo texture for a stylized Godot game, a low-strength secondary triplanar layer on already-authored large cape rock geometry.\nPrimary request: ONE flat square 1024 x 1024 RGB texture of a few broad, oblique warm peach and tan stone planes. Make approximately 7 to 10 large asymmetrical interlocking mineral planes across the entire tile, with the principal forms about one quarter to one half of the image width. These are contiguous broad planar patches in solid stone, not individual rocks or masonry. Low-frequency painted shapes readable at a tiny 128-pixel thumbnail are essential.\nStyle/medium: restrained hand-painted stylized game material, matte, simple broad gouache-like color blocks. Plane interiors are mostly quiet and smooth, with only very slight broad brush variation. Use soft angular boundaries with occasional gently curved weathered transitions.\nColor palette: center the overall color near RockPeach #c6a48e, mixing a few warm peach, pink-tan and muted sandstone shades. Restrict cool muted lavender-gray to a small number of shallow recessed seams, under 10 percent of the image. Add restrained pale peach chipped edge accents on just a few short discontinuous seam segments; accents under 3 percent of the image. Moderate to low albedo contrast.\nComposition/framing: fill the entire square edge to edge with the flat stone surface, front-on orthographic texture only, no perspective, no surrounding environment, no border. Diagonal oblique plane boundaries should travel in varied directions without becoming a uniform stripe pattern. Aim for seamless horizontal and vertical tiling, with matching edge color and feature continuity.\nLighting: pure diffuse albedo, uniformly lit, absolutely no directional light, no cast shadows, no ambient-occlusion halos, no bevel lighting, no highlights or vignette. All color changes describe pigments and shallow seams, never illumination.\nConstraints: broad medium-scale forms rather than dense fine mottling. Do not subdivide the broad planes into lots of small stones. Preserve open calm interiors. No tiny noisy speckles, no granular photorealism, no crack web, no rubble, no decorative mosaic, no bricks, no grass, no moss, no sand grains, no objects, no scene, no text, no watermark.",
+    "transparent_background": false
+  },
+  "generation_parameters_not_exposed": [
+    "model",
+    "seed"
+  ],
+  "requested_dimensions": [
+    1024,
+    1024
+  ],
+  "delivered_dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "bytes": 1649023,
+  "sha256": "7246638a70cad30fe35c95d41359cb56e13d507739065baf213b65562cd3da16",
+  "generator_original": "/workspace/scratch/22c897619190/generated_images/exec-34ddcead-0046-4b1c-810f-fe280bf7514a.png",
+  "preservation": "Copied byte-for-byte from the generator original. No resizing, color correction, recompression, edge repair, or other pixel edits. Embedded provenance is retained.",
+  "inspected_context": [
+    "captures/source_regressions_1050/camera3.png",
+    "assets/textures/coastal_stone_painted.png"
+  ],
+  "reference_usage": "Context images were inspected only. Neither was supplied to the generation tool. The submitted prompt is fully recorded here and in the sibling .prompt.txt.",
+  "statistics_file": "assets/provenance/coastal_stone_planes_1110.statistics.json",
+  "visual_review": {
+    "readability": "Broad oblique planes and calm interiors replace dense fine mottling. Roughly 7–10 principal surface patches are visible; the largest center plane spans approximately two-thirds of the tile, exceeding the quarter-to-half-width prompt target.",
+    "palette": "Noticeably warmer and more orange than the requested RockPeach. Mean encoded RGB is 209.272,153.068,117.843, compared with target 198,164,142. Use a restrained secondary mix; do not assume an exact palette match.",
+    "seams": "Sparse recessed muted lavender-gray seams and short light chipped lips are visible. The pale seam lips and darker seams imply some shallow relief/beveling even though the prompt requested albedo-only. No obvious scene-level directional cast shadow appears.",
+    "tiling": "Tileable intent is successful at approximately matching edge colors, but exact seamlessness is unproven. Opposite-edge mean absolute RGB differences are 2.228/255 horizontally and 2.557/255 vertically, about 2.35–2.50 times ordinary adjacent-pixel differences. In-engine seam and repetition review is still required.",
+    "frequency": "Whole-tile luma FFT power at wavelengths of 128 pixels or larger is 52.603%, versus 24.228% in the old texture; power below 32 pixels is 19.291%, versus 50.408%. This supports lower-frequency forms but is not a perceptual or rendering proof.",
+    "scale": "The central patch is especially large and distinctive. At low triplanar frequency it may read as an oversized slab; at high repetition its recognizable shape can repeat. Judge on camera 3 with authored rock silhouette and shading intact."
+  },
+  "scope": "No shaders, runtime code, materials, or scene geometry edited. No material A/B rendering performed in this asset-only task. Generated texture is not a final in-engine proof."
+}

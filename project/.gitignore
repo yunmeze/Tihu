@@ -1,21 +1,8 @@
 .godot/
-*.blend[0-9]
 __pycache__/
 *.pyc
-.DS_Store
+*.blend[0-9]
 *.tmp
 *.log
-captures/*.png
-!captures/toon_coast_camera1.png
-!captures/toon_coast_camera2.png
-!captures/toon_coast_camera3.png
-
-captures/*checkpoint*.png
-captures/diagnostic*.png
-captures/hero_*.png
-
-# Temporary, copy-only native AO comparison
-assets/coastal_ride_ao_preview.glb*
-
-# Native diagnostic extrema; release uses the reviewed three preset frames.
-captures/camera_grid/
+.DS_Store
+captures/

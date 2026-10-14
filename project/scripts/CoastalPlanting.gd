@@ -12,6 +12,20 @@ const MAX_SOLID_TRIANGLES := 180000
 const ROOT_NAME := "CoastalPlanting"
 const ROAD_MARGIN := 0.10
 const CARD_ROOT_FRACTION := 0.0 # Atlas crop maps the painted root to the card bottom.
+# Keep the playable lane independent of later worn/narrowed visual shoulders.
+const RIDE_LANE_HALF_WIDTH := 0.85
+const RIDE_CENTERLINE := [Vector2(-14.0, 0.0), Vector2(-9.0, -0.5), Vector2(-4.0, -0.5), Vector2(0.0, 0.0), Vector2(4.0, 1.3), Vector2(9.0, 0.3), Vector2(14.0, -1.4)]
+# Original root-to-surface offsets measured from the immutable 0922 authored GLB.
+# Retain authored embed/hover adjustments while following later sculpted banks.
+# Resized accents are handled separately by _resize_source_group.
+const ORIGINAL_BANK_ROOTS := [
+	{"names": ["LeafShrubWide"], "point": Vector2(-6.095, 0.835), "offset": -0.006599490},
+	{"names": ["LeafShrubRound.002", "TrunkShrubRound.002"], "point": Vector2(-5.845, 0.885), "offset": -0.003841147},
+	{"names": ["LeafShrubRoundLowA"], "point": Vector2(-5.545, 1.335), "offset": -0.036697537},
+	{"names": ["LeafShrubRoundLowA.001"], "point": Vector2(-4.545, 0.735), "offset": 0.019510295},
+	{"names": ["LeafShrubRoundBankA"], "point": Vector2(-4.400, 1.650), "offset": -0.011735886},
+	{"names": ["LeafShrubRoundBankA.001"], "point": Vector2(-3.400, 1.550), "offset": -0.013884988},
+]
 
 var report: Dictionary = {}
 # Runtime can promote approved layers for a normal no-argument launch.
@@ -37,6 +51,7 @@ var _serial := 0
 var _skip_this_placement := false
 var _resized_source_nodes: Array[String] = []
 var _hidden_source_nodes: Array[String] = []
+var _regrounded_source_groups: Array[Dictionary] = []
 
 func apply(imported_world: Node3D, _ride_root: Node3D) -> Dictionary:
 	# Safe to call again during look development: do not double the planting.
@@ -59,6 +74,7 @@ func apply(imported_world: Node3D, _ride_root: Node3D) -> Dictionary:
 	_skip_this_placement = false
 	_resized_source_nodes.clear()
 	_hidden_source_nodes.clear()
+	_regrounded_source_groups.clear()
 	_collect_sources(imported_world)
 	# The source artist can publish the card library independently while the main
 	# landscape GLB is being exported. This is still authored mesh data.
@@ -107,10 +123,12 @@ func apply(imported_world: Node3D, _ride_root: Node3D) -> Dictionary:
 	_plant_road_edge()
 	_plant_ledge_drapes()
 	_recompose_original_accents()
+	_reground_original_banks()
 	if _use_canopy():
 		_compose_canopy_preview()
 	if _use_ledges():
 		_plant_cliff_attachments()
+		_plant_shoulder_spills()
 	var stone_attachments := 0
 	for placement: Dictionary in placements:
 		if placement.get("anchor_mode", "terrain") == "authored_stone":
@@ -128,6 +146,7 @@ func apply(imported_world: Node3D, _ride_root: Node3D) -> Dictionary:
 		"budget_triangles": MAX_ADDED_TRIANGLES,
 		"resized_source_nodes": _resized_source_nodes.duplicate(),
 		"hidden_source_nodes": _hidden_source_nodes.duplicate(),
+		"regrounded_source_groups": _regrounded_source_groups.duplicate(true),
 	}
 	_root.set_meta("planting_report", report)
 	_root.set_meta("planting_seed", SEED)
@@ -187,7 +206,7 @@ func _collect_surfaces() -> void:
 		if not is_road and not is_ground:
 			continue
 		for surface in source.mesh.get_surface_count():
-			if source_key == "cliffheadland":
+			if source_key in ["cliffheadland", "grasscape"]:
 				var material := source.get_active_material(surface)
 				if material == null or not "grass" in material.resource_name.to_lower():
 					continue
@@ -258,6 +277,10 @@ func sample_ground(point: Vector2) -> Dictionary:
 	return {"position": Vector3(point.x, best_height, point.y), "normal": best_normal}
 
 func is_road(point: Vector2, margin := ROAD_MARGIN) -> bool:
+	var clearance := RIDE_LANE_HALF_WIDTH + maxf(0.0, margin - ROAD_MARGIN)
+	for segment in RIDE_CENTERLINE.size() - 1:
+		if _segment_distance(point, RIDE_CENTERLINE[segment], RIDE_CENTERLINE[segment + 1]) < clearance:
+			return true
 	var minimum := _cell(point - Vector2.ONE * margin)
 	var maximum := _cell(point + Vector2.ONE * margin)
 	for x in range(minimum.x, maximum.x + 1):
@@ -365,10 +388,22 @@ func _collect_wall_surfaces() -> void:
 	# A separate exact triangle set for attachment to vertical authored stone.
 	# The ground sampler deliberately excludes these steep faces.
 	for source_key: String in _sources:
-		if source_key not in ["cliffheadland", "cliffcape"] and not source_key.begins_with("rockshore"):
+		if source_key not in ["cliffheadland", "cliffcape", "grasscape"] and not source_key.begins_with("rockshore"):
 			continue
 		var source: MeshInstance3D = _sources[source_key]
-		var faces := source.mesh.get_faces()
+		var faces := PackedVector3Array()
+		if source_key == "grasscape":
+			for surface in source.mesh.get_surface_count():
+				var material := source.mesh.surface_get_material(surface)
+				if material == null or not material.resource_name.to_lower().begins_with("rock"):
+					continue
+				var arrays := source.mesh.surface_get_arrays(surface)
+				var vertices: PackedVector3Array = arrays[Mesh.ARRAY_VERTEX]
+				var indices: PackedInt32Array = arrays[Mesh.ARRAY_INDEX]
+				for index in indices:
+					faces.append(vertices[index])
+		else:
+			faces = source.mesh.get_faces()
 		for index in range(0, faces.size(), 3):
 			var a := source.global_transform * faces[index]
 			var b := source.global_transform * faces[index + 1]
@@ -454,6 +489,76 @@ func _attach_wall_card(hit: Dictionary, tile: int, height: float, hanging: bool,
 	var aspect: float = info.get("pixel_aspect_width_over_height", 1.20)
 	var position: Vector3 = hit.position + normal * 0.013
 	_try_place("card", Vector2(position.x, position.z), Vector3(height * aspect, height, height), bank, 0.0, tile, 0.0, {"position": position, "normal": normal, "basis": orientation, "anchor_mode": "authored_stone", "surface_point": hit.position, "surface_source": hit.source, "tint": Color("e1e7ca") if hanging else Color("edf0cf")})
+
+func _grass_cape_hit(point: Vector2) -> Dictionary:
+	var source := _sources.get("grasscape") as MeshInstance3D
+	if source == null:
+		return {}
+	var best: Dictionary = {}
+	var best_y := -INF
+	for surface in source.mesh.get_surface_count():
+		var material := source.mesh.surface_get_material(surface)
+		if material == null or not "grass" in material.resource_name.to_lower():
+			continue
+		var arrays := source.mesh.surface_get_arrays(surface)
+		var vertices: PackedVector3Array = arrays[Mesh.ARRAY_VERTEX]
+		var indices: PackedInt32Array = arrays[Mesh.ARRAY_INDEX]
+		for index in range(0, indices.size(), 3):
+			var a := source.global_transform * vertices[indices[index]]
+			var b := source.global_transform * vertices[indices[index + 1]]
+			var c := source.global_transform * vertices[indices[index + 2]]
+			var bary := _barycentric(point, a, b, c)
+			if minf(bary.x, minf(bary.y, bary.z)) < -0.00001:
+				continue
+			var normal := (b - a).cross(c - a).normalized()
+			if absf(normal.y) < 0.34:
+				continue
+			var y := a.y * bary.x + b.y * bary.y + c.y * bary.z
+			if y > best_y:
+				best_y = y
+				best = {"position": Vector3(point.x, y, point.y), "normal": normal if normal.y > 0.0 else -normal}
+	return best
+
+func _plant_shoulder_spills() -> void:
+	# Two narrow lip transitions, never a repeating green cover strip.
+	if not _card_ready:
+		return
+	var anchors := [Vector2(5.58, -1.89), Vector2(2.45, -6.31)]
+	var outwards := [Vector2(-0.99, 0.15).normalized(), Vector2(-0.707, 0.707).normalized()]
+	for site in anchors.size():
+		var outward: Vector2 = outwards[site]
+		var tangent := outward.orthogonal()
+		var root: Dictionary = {}
+		# The original seam anchor may now be earth. Find the closest real grass
+		# lip inward along its authored slope, rather than planting on bare rock.
+		for step in range(17):
+			var point: Vector2 = anchors[site] - outward * float(step) * 0.06
+			root = _grass_cape_hit(point)
+			if not root.is_empty() and not is_road(point, ROAD_MARGIN + 0.06):
+				break
+			root = {}
+		if root.is_empty():
+			continue
+		var center := Vector2(root.position.x, root.position.z)
+		for side in [-0.07, 0.08]:
+			var point: Vector2 = center + tangent * float(side) - outward * 0.025
+			var hit := _grass_cape_hit(point)
+			if hit.is_empty() or is_road(point, ROAD_MARGIN + 0.035):
+				continue
+			hit["anchor_mode"] = "authored_shoulder"
+			hit["surface_source"] = "GrassCape"
+			_try_place("card", point, Vector3(0.26, 0.22, 0.22), "cape_shoulder_spill", 0.035, 1 if side < 0.0 else 5, 0.32 if side < 0.0 else -0.68, hit)
+		# A narrow trailing card follows the authored down-slope direction while
+		# its stem remains rooted on the verified grass lip, never on bare earth.
+		var growth := Vector3(outward.x * 0.74, -0.67, outward.y * 0.74).normalized() if site == 0 else Vector3(outward.x * 0.62, -0.78, outward.y * 0.62).normalized()
+		var right := Vector3(tangent.x, 0.0, tangent.y)
+		var front := right.cross(growth).normalized()
+		var hanging := root.duplicate()
+		hanging["basis"] = Basis(right, growth, front).orthonormalized()
+		hanging["anchor_mode"] = "authored_shoulder"
+		hanging["surface_source"] = "GrassCape"
+		hanging["tint"] = Color("e1e7ca")
+		_try_place("card", center, Vector3(0.24, 0.34, 0.34), "cape_shoulder_spill", 0.035, 11 if site == 0 else 12, 0.0, hanging)
 
 func _load_atlas_metadata() -> void:
 	_atlas_tiles.clear()
@@ -561,6 +666,33 @@ func _resize_source_group(names: Array, factor: float) -> void:
 		adjusted.basis = adjusted.basis.scaled(Vector3.ONE * factor)
 		source.global_transform = adjusted
 		_resized_source_nodes.append(String(source.name))
+
+func _reground_original_banks() -> void:
+	# This operates after cloning: original bank anchors move as intact assemblies,
+	# without changing any reused mesh, scale, rotation, horizontal layout or RNG.
+	for specification: Dictionary in ORIGINAL_BANK_ROOTS:
+		var first := _sources.get(_key(specification.names[0])) as MeshInstance3D
+		if first == null:
+			continue
+		var anchor := first.global_position
+		var point := Vector2(anchor.x, anchor.z)
+		# A later source-authoring relocation owns its own contact intent.
+		if point.distance_to(specification.point) > 0.025:
+			continue
+		var hit := sample_ground(point)
+		if hit.is_empty():
+			continue
+		var delta: float = hit.position.y + float(specification.offset) - anchor.y
+		var names: Array[String] = []
+		for source_name: String in specification.names:
+			var source := _sources.get(_key(source_name)) as MeshInstance3D
+			if source == null:
+				continue
+			var adjusted := source.global_transform
+			adjusted.origin.y += delta
+			source.global_transform = adjusted
+			names.append(String(source.name))
+		_regrounded_source_groups.append({"names": names, "point": point, "delta_y": delta, "ground_y": hit.position.y, "authored_root_offset": specification.offset})
 
 func _occludes_hero(position: Vector3, height: float, radius: float) -> bool:
 	# Camera endpoints include the three normal modes plus the composed portrait.

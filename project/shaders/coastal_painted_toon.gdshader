@@ -12,6 +12,20 @@ uniform sampler2D painted_albedo : source_color, repeat_enable, filter_linear_mi
 uniform vec4 painted_mean : source_color = vec4(0.5, 0.5, 0.5, 1.0);
 uniform float texture_strength : hint_range(0.0, 1.0) = 0.0;
 uniform float texture_scale = 0.4;
+// Separate low-frequency authored stone planes; zero preserves accepted pigment.
+uniform sampler2D stone_planes : source_color, repeat_enable, filter_linear_mipmap_anisotropic;
+uniform vec4 stone_planes_mean : source_color = vec4(0.820675, 0.600267, 0.462129, 1.0);
+uniform float stone_planes_strength : hint_range(0.0, 1.0) = 0.0;
+uniform float stone_planes_scale = 0.30;
+uniform sampler2D road_margin_distance : repeat_disable, filter_linear;
+uniform vec4 road_margin_rect = vec4(0.0, 0.0, 1.0, 1.0);
+uniform vec2 road_margin_uv_scale = vec2(1.0);
+uniform vec2 road_margin_uv_offset = vec2(0.0);
+uniform sampler2D road_gravel : source_color, repeat_enable, filter_linear_mipmap_anisotropic;
+uniform vec4 road_gravel_mean : source_color = vec4(0.9264, 0.7980, 0.5954, 1.0);
+uniform float road_wear_strength : hint_range(0.0, 1.0) = 0.0;
+uniform float road_dust_strength : hint_range(0.0, 1.0) = 0.0;
+uniform vec4 road_dust_color : source_color = vec4(0.7608, 0.7176, 0.5490, 1.0);
 varying vec3 world_position;
 varying vec3 world_normal;
 uniform float ride_clock = 0.0;
@@ -72,6 +86,32 @@ void fragment() {
 		// remain authoritative; the image contributes brush detail and minerals.
 		vec3 pigment_ratio = clamp(texel / max(painted_mean.rgb, vec3(0.05)), vec3(0.65), vec3(1.35));
 		painted *= mix(vec3(1.0), pigment_ratio, texture_strength);
+	}
+	if (stone_planes_strength > 0.0) {
+		vec3 weights = pow(abs(normalize(world_normal)), vec3(5.0));
+		weights /= max(weights.x + weights.y + weights.z, 0.0001);
+		vec3 p = world_position * stone_planes_scale;
+		vec3 planes = texture(stone_planes, p.yz + vec2(0.13, 0.37)).rgb * weights.x
+			+ texture(stone_planes, p.xz + vec2(0.42, 0.18)).rgb * weights.y
+			+ texture(stone_planes, p.xy + vec2(0.26, 0.43)).rgb * weights.z;
+		// Source-color mean cancels the warmer image bias; no additive emission.
+		vec3 planes_ratio = clamp(planes / max(stone_planes_mean.rgb, vec3(0.05)), vec3(0.55), vec3(1.45));
+		painted *= mix(vec3(1.0), planes_ratio, stone_planes_strength);
+	}
+	if (road_wear_strength > 0.0 || road_dust_strength > 0.0) {
+		vec2 road_uv = ((world_position.xz - road_margin_rect.xy) / road_margin_rect.zw) * road_margin_uv_scale + road_margin_uv_offset;
+		float margin_distance = texture(road_margin_distance, road_uv).r;
+		float edge = 1.0 - smoothstep(0.06, 0.40, margin_distance);
+		float patches = smoothstep(0.18, 0.68, paint_noise(world_position * vec3(0.63, 0.0, 0.74)));
+		if (road_wear_strength > 0.0) {
+			vec3 gravel = texture(road_gravel, world_position.xz * 0.68).rgb;
+			vec3 ratio = clamp(vec3(1.0) + (gravel / max(road_gravel_mean.rgb, vec3(0.05)) - vec3(1.0)) * 2.8, vec3(0.42), vec3(1.6));
+			painted *= mix(vec3(1.0), ratio * vec3(0.98, 0.96, 0.93), edge * patches * road_wear_strength);
+		}
+		if (road_dust_strength > 0.0) {
+			float dust = (1.0 - smoothstep(0.025, 0.18, margin_distance)) * patches;
+			painted = mix(painted, road_dust_color.rgb, dust * road_dust_strength);
+		}
 	}
 	float distance_haze = smoothstep(18.0, 85.0, distance(world_position, CAMERA_POSITION_WORLD)) * 0.42;
 	float haze = max(atmospheric_depth, distance_haze);

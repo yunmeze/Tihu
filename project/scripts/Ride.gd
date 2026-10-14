@@ -104,6 +104,9 @@ func _build_environment() -> void:
 	sky_material.set_shader_parameter("cloud_panorama", load("res://assets/textures/coastal_cumulus_panorama.png"))
 	sky_material.set_shader_parameter("cloud_strength", 0.78 if accepted_style or OS.get_cmdline_user_args().has("--atmosphere-preview") else 0.60)
 	sky_material.set_shader_parameter("cloud_azimuth_turns", 0.15)
+	if not OS.get_cmdline_user_args().has("--no-sky-sector") and (accepted_style or OS.get_cmdline_user_args().has("--sky-sector-preview")):
+		sky_material.set_shader_parameter("sky_sector", load("res://assets/textures/coastal_sky_sector_1145.png"))
+		sky_material.set_shader_parameter("sky_sector_strength", 0.86)
 	var sky := Sky.new()
 	sky.sky_material = sky_material
 	sky.radiance_size = Sky.RADIANCE_SIZE_128
@@ -178,6 +181,9 @@ func _load_art() -> void:
 	palette.color_preview = accepted_style or OS.get_cmdline_user_args().has("--coast-color-preview")
 	palette.look_profile = look_profile
 	palette.feather_flow_preview = accepted_style or OS.get_cmdline_user_args().has("--feather-preview")
+	palette.feather_relief_strength = 0.004 if accepted_style and not OS.get_cmdline_user_args().has("--no-feather-relief") else 0.0
+	palette.material_finish_enabled = accepted_style and not OS.get_cmdline_user_args().has("--no-material-finish")
+	palette.stone_surface_enabled = not OS.get_cmdline_user_args().has("--no-stone-surface") and (accepted_style or OS.get_cmdline_user_args().has("--stone-surface-preview"))
 	palette.rock_plane_preview = accepted_style or OS.get_cmdline_user_args().has("--rock-plane-preview")
 	if not OS.get_cmdline_user_args().has("--no-planting") and (accepted_style or OS.get_cmdline_user_args().has("--planting-preview")) and _prepare_foliage_atlas():
 		planting = load("res://scripts/CoastalPlanting.gd").new()
@@ -186,6 +192,8 @@ func _load_art() -> void:
 		planting_report = planting.apply(imported_world, self)
 		_index(imported_world)
 	palette.apply(imported_world)
+	if not OS.get_cmdline_user_args().has("--no-road-wear") and (accepted_style or OS.get_cmdline_user_args().has("--road-wear-preview")):
+		_bind_road_wear()
 	if planting != null and not OS.get_cmdline_user_args().has("--no-batch") and (accepted_style or OS.get_cmdline_user_args().has("--batch-foliage")):
 		planting_report["batching"] = planting.batch_cards(imported_world)
 	_bind_water()
@@ -194,6 +202,26 @@ func _load_art() -> void:
 	asset_message = "Hand-shaped coast · real-time toon lighting"
 	print("Authored scene: ", nodes_by_name.size(), " nodes, ", palette.surface_count, " toon surfaces.")
 
+
+func _bind_road_wear() -> void:
+	var field: Dictionary = load("res://scripts/RoadMarginField.gd").build(imported_world, FileAccess.get_sha256(ASSET_PATH))
+	if field.is_empty():
+		push_warning("Authored road margins are unavailable; road pigment remains unchanged.")
+		return
+	for material: ShaderMaterial in palette.materials.values():
+		var road := material.resource_name.begins_with("Toon_road_")
+		var grassy_ground := material.resource_name == "Toon_foliage_GrassGreen"
+		if material.shader != palette.PAINTED or not (road or grassy_ground):
+			continue
+		material.set_shader_parameter("road_margin_distance", field.texture)
+		material.set_shader_parameter("road_margin_rect", field.world_rect)
+		material.set_shader_parameter("road_margin_uv_scale", field.uv_scale)
+		material.set_shader_parameter("road_margin_uv_offset", field.uv_offset)
+		material.set_shader_parameter("road_gravel", load("res://assets/textures/coastal_path_gravel_1121.png"))
+		material.set_shader_parameter("road_gravel_mean", Color(236.234 / 255.0, 203.494 / 255.0, 151.821 / 255.0))
+		material.set_shader_parameter("road_wear_strength", 0.85 if road else 0.0)
+		material.set_shader_parameter("road_dust_strength", 0.66 if grassy_ground else 0.0)
+	print("ROAD MARGINS: ", field.segments, " actual union boundary segments; cached=", field.cached)
 
 func _prepare_foliage_atlas() -> bool:
 	const METADATA := "res://assets/textures/coastal_foliage_atlas_0724.json"
@@ -264,6 +292,16 @@ func _bind_water() -> void:
 	water_material.set_shader_parameter("sky_reflection_strength", 0.18)
 	water_material.set_shader_parameter("depth_range", 1.0)
 	water_material.set_shader_parameter("foam_width", 0.085)
+	if not OS.get_cmdline_user_args().has("--no-surf") and (accepted_style or OS.get_cmdline_user_args().has("--surf-preview")):
+		water_material.shader = load("res://shaders/coastal_surf_water.gdshader")
+		water_material.set_shader_parameter("foam_pattern", load("res://assets/textures/ocean_foam_current_0928.png"))
+		water_material.set_shader_parameter("sun_direction", get_node("IllustratedSun").global_basis.z.normalized())
+		var shore: Dictionary = load("res://scripts/ShorelineField.gd").build(imported_world, FileAccess.get_sha256(ASSET_PATH))
+		if not shore.is_empty():
+			water_material.set_shader_parameter("shore_distance", shore.texture)
+			water_material.set_shader_parameter("shore_rect", shore.world_rect)
+			water_material.set_shader_parameter("shore_field_ready", true)
+			print("SURF FIELD: ", shore.segments, " authored shoreline segments; cached=", shore.cached)
 	if accepted_style or OS.get_cmdline_user_args().has("--atmosphere-preview"):
 		water_material.set_shader_parameter("deep_water", Color(0.05, 0.34, 0.59))
 		water_material.set_shader_parameter("glint_strength", 0.38)

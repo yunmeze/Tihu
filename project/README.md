@@ -1,18 +1,10 @@
 # Coastal Daydream · Pelican Ride
 
-## Interim local-test build · 2026-10-13
-
-This is a testable work-in-progress checkpoint. Art refinement continues separately; this is not a final release or a claim that the visual target has been achieved.
-
-Tested with **Godot 4.6.3 Standard**, using the GL Compatibility renderer. The project declares Godot 4.6 compatibility. Import `project.godot`, let the first asset import finish, and press **F5**. The committed GLB files are ready to use; Blender is only needed to edit and re-export the source. See [Windows local-test instructions](docs/LOCAL_TEST_WINDOWS.md) or [中文开始使用](开始使用.md).
-
-The verification computer used CPU software rendering. Its measured FPS does not predict performance on your GPU; test that locally. The included MP4 is an offline native frame render, not a real-time performance recording.
-
 Fresh native Godot 4.6 coastal scene, built around a Blender-authored little pelican and bicycle.
 
 Open `project.godot` in Godot 4.6.3 and press F5, or run `godot --path /path/to/pelican-toon-coast`.
 
-Ordinary startup opens the current portrait look with painted feather/terrain materials, dense authored foliage, canopy and shoreline ivy. No preview flags are required.
+Ordinary startup opens the accepted portrait look with painted feather and stone-plane materials, worn road margins, dense authored foliage, canopy, shoreline ivy, organized swells with broken rock surf, and detailed cumulus clouds. No preview flags are required. The explicit comparison flags `--no-surf`, `--no-stone-surface`, `--no-road-wear`, and `--no-sky-sector` restore the preceding layers independently. Pass runtime flags after `--`.
 
 For the lower-cost software-rendering preview, run `godot --path . -- --software-preview --compact-preview`. It keeps the same art but uses FXAA, lower-resolution shadows and a 960×600 window.
 
@@ -38,23 +30,6 @@ The small bottom control strip is clickable. Pause stops pedaling, wheels, water
 - `docs/RENDERING.md`: rendering decisions and verified official Godot references
 - `tools/`: deterministic native engine preview recording and MP4 encoding
 
-## Checks
+## Import and startup
 
-Run `sh tools/check_project.sh` for all technical checks, including authored-card placement, batching, UV materials and complete eye-assembly blink. Additional runtime arguments may be appended for a look-development variant. Native visual review is separate.
-
-```
-godot --headless --path . --editor --import --quit
-godot --headless --path . --script res://tests/runtime_checks.gd
-godot --headless --path . --script res://tests/material_checks.gd
-godot --headless --path . --script res://tests/composition.gd
-godot --headless --path . --script res://tests/coast_checks.gd
-godot --headless --path . --script res://tests/texture_checks.gd
-godot --headless --path . --script res://tests/ao_checks.gd
-godot --headless --path . --script res://tests/water_checks.gd
-godot --headless --path . --script res://tests/presentation_camera_checks.gd
-godot --headless --path . --script res://tests/look_profile_checks.gd
-godot --headless --path . --script res://tests/planting_checks.gd
-godot --headless --path . --script res://tests/atlas_checks.gd -- --planting-preview
-```
-
-Use actual engine captures to judge visual quality; passing headless checks alone does not establish that the scene looks correct.
+Use Godot 4.6.3 Standard to import project.godot, wait for resource import, then press F5. Test scripts, captures, caches and backup files are intentionally excluded from this source distribution.

@@ -1,0 +1,55 @@
+{
+  "asset": "ocean_foam_current_0928.png",
+  "created_at_utc": "2026-10-13T09:29:06Z",
+  "generator": "OpenAI built-in image_gen.imagegen",
+  "generation_mode": "generate; original, no reference images",
+  "generation_arguments": {
+    "prompt": "Use case: stylized-concept\nAsset type: original grayscale scalar foam mask texture for a stylized Godot ocean shader, square 1024 by 1024 preferred.\nPrimary request: paint a seamless-intent abstract ocean foam/current texture, viewed flat from directly above. A mostly black to very dark charcoal ground has sparse broken off-white froth lace with a few broader branching foam ribbons. Elongated current flow reads mainly from left to right, gently undulating and organically branching.\nComposition: cover the square with an even all-over distribution and no center focal point. About 60 percent of the tile is empty dark water mask. Form broad irregular open cells about 5 to 20 percent of the image width, elongated horizontally; the cell rims are thin clustered frothy broken edges, often incomplete. A few sweeping irregular branching medium-width ribbons connect patches of much finer foam lace, tiny porous holes and scattered small flecks. Leave many broad dark calm pockets.\nStyle: graphic painterly game texture, delicate and natural but clearly stylized; crisp useful shape definition, not photographic. The grayscale shape contrast is the information. Flat unlit albedo-like technical map.\nColor: strictly neutral grayscale, channels equal, black dark background and very pale gray to white foam (the visual softness of cream without any color tint). Strong full-range contrast, no colored water.\nConstraints: tileable seamless intent on all four edges with consistent structure crossing opposing edges; no frame or border. Texture only, no scene, no horizon, no coastline, no clouds, no objects, no shadows, no perspective, no illumination gradients, no text or symbols, no watermark.\nAvoid: dense uniform noise, evenly spaced lines, thick parallel white stripes, regular cellular grid, marbling that fills every dark pocket, diagonal composition, photorealism, a single central swirl.",
+    "transparent_background": false
+  },
+  "original_generated_path": "/workspace/scratch/22c897619190/generated_images/exec-a721d955-65fb-4e0b-b310-5bb4c80fe529.png",
+  "workspace_path": "/workspace/scratch/22c897619190/pelican-toon-coast/assets/textures/ocean_foam_current_0928.png",
+  "sha256": "40d97370057009c62670a91c74eb976c67b888254aac07c925f836864b18a320",
+  "postprocessing": "None. Original generator PNG copied byte-for-byte. No code-generated pixel painting, filters, resize, color conversion, or external publication.",
+  "pixel_checks": {
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "scalar_luminance_min": 0.0,
+    "scalar_luminance_max": 1.0,
+    "scalar_luminance_mean": 0.25187743883649627,
+    "scalar_red_min": 0.0,
+    "scalar_red_max": 1.0,
+    "scalar_red_mean": 0.2539218429474255,
+    "fraction_luminance_below_0_2": 0.7427924421754691,
+    "fraction_luminance_below_0_3": 0.7616984501270575,
+    "fraction_luminance_above_0_7": 0.16541644091379673,
+    "max_rgb_channel_spread": 0.08235294117647052,
+    "mean_rgb_channel_spread": 0.009616102163541689,
+    "opposing_edge_mean_absolute_luminance_delta_horizontal": 0.07746344810332426,
+    "opposing_edge_mean_absolute_luminance_delta_vertical": 0.03521257653938768,
+    "red_scalar_percentiles": {
+      "1": 0.027450980392156862,
+      "10": 0.08627450980392157,
+      "25": 0.09803921568627451,
+      "50": 0.10196078431372549,
+      "65": 0.11372549019607843,
+      "70": 0.12549019607843137,
+      "75": 0.23921568627450981,
+      "90": 0.8117647058823529,
+      "95": 0.8588235294117647,
+      "99": 0.9254901960784314
+    }
+  },
+  "visual_inspection": {
+    "method": "Viewed actual saved PNG at source resolution through view_image.",
+    "observed": "Pale froth lace and porous branching ribbons on dark ground. Broad irregular horizontally elongated cells with variable edge thickness, tiny broken flecks, and plenty of empty pockets. No horizon, scene, text, symbols, objects, or watermark visible.",
+    "limits": "The output is nearly monochrome RGB rather than channel-identical grayscale. Use the red channel as the scalar mask, ignoring RGB tint. The near-black fraction below luminance 0.2 is 74.28%, slightly sparser than the requested 50\u201370%. Seamless intent was prompted but exact periodic edge equality is not claimed. No engine seam render was performed by this texture-only worker."
+  },
+  "recommended_consumption": {
+    "godot_sampler": "Use the red channel as non-color scalar data. Repeat enabled. Generate mipmaps for distance filtering. Avoid source_color annotation when the shader needs linear scalar mask values.",
+    "mask_ranges": "Dark base approximately 0.08\u20130.11 in the red channel. Foam has broad intermediate values and bright upper values. Tune smoothstep thresholds in the shader instead of assuming binary data."
+  }
+}

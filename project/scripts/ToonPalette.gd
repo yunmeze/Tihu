@@ -17,6 +17,9 @@ var color_preview := false
 var look_profile := 0
 var feather_flow_preview := false
 var rock_plane_preview := false
+var feather_relief_strength := 0.0
+var material_finish_enabled := false
+var stone_surface_enabled := false
 var wind_materials: Array[ShaderMaterial] = []
 var atlas_texture: Texture2D
 var atlas_regions: Array[Rect2] = []
@@ -51,6 +54,7 @@ func apply(root: Node3D) -> void:
 				if feather_uv:
 					materials[key].set_shader_parameter("feather_albedo", load("res://assets/textures/pelican_feather_flow_0832.png"))
 					materials[key].set_shader_parameter("feather_strength", 0.72)
+					materials[key].set_shader_parameter("feather_relief", feather_relief_strength)
 				if wind and materials[key].shader == PAINTED:
 					materials[key].set_shader_parameter("wind_strength", 0.045)
 					materials[key].set_shader_parameter("wind_origin_y", node.global_position.y)
@@ -200,6 +204,16 @@ func _make(source: Material, family: String, outline: bool, depth: float) -> Sha
 	if rock_plane_preview and family == "rock":
 		# Broader warm top planes and cool shade, isolated from hero exposure.
 		p.merge({"graphic_bands": true, "band_softness": 0.065, "terminator": 0.16, "ambient_tint": Vector3(0.92, 0.98, 1.08), "direct_tint": Vector3(1.65, 1.22, 0.66), "direct_gain": 0.80}, true)
+	if material_finish_enabled:
+		var authored_name := source.resource_name if source != null else ""
+		# The outlined principal bill has its own cache entry; feet/legs retain
+		# their matte response even when they share the BillPeach source color.
+		if family == "bill" and outline and authored_name == "BillPeach":
+			p.merge({"highlight_strength": 0.48, "highlight_size": 0.055, "highlight_tint": Vector3(1.0, 0.82, 0.58)}, true)
+		elif family == "paint" and authored_name == "MintPaint":
+			p.merge({"highlight_strength": 0.52, "highlight_size": 0.065, "highlight_tint": Vector3(1.0, 0.94, 0.78)}, true)
+		elif family == "feather" and authored_name == "FeatherIvory":
+			p.merge({"rim_strength": 0.17, "rim_color": Color(1.0, 0.87, 0.62)}, true)
 	for key: String in p:
 		result.set_shader_parameter(key, p[key])
 	var texture_path := ""
@@ -226,6 +240,11 @@ func _make(source: Material, family: String, outline: bool, depth: float) -> Sha
 		result.set_shader_parameter("texture_strength", texture_strength)
 		result.set_shader_parameter("texture_scale", texture_scale)
 		result.set_shader_parameter("paint_strength", 0.0)
+	if family == "rock" and stone_surface_enabled:
+		result.set_shader_parameter("stone_planes", load("res://assets/textures/coastal_stone_planes_1110.png"))
+		result.set_shader_parameter("stone_planes_mean", Color(209.272 / 255.0, 153.068 / 255.0, 117.843 / 255.0))
+		result.set_shader_parameter("stone_planes_strength", 0.58)
+		result.set_shader_parameter("stone_planes_scale", 0.30)
 	if outline:
 		var line := ShaderMaterial.new()
 		line.shader = OUTLINE
