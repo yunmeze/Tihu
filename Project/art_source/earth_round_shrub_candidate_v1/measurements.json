@@ -1,0 +1,159 @@
+{
+  "status": "one authorized full shrub generation; raw review only; no registration/runtime or second call",
+  "raw_size": [
+    1363,
+    1154
+  ],
+  "raw_sha256": "1c495a5434e3ad92164f7e829ffc93809475fb730c555b609896f09986427e42",
+  "alpha": {
+    "0": {
+      "bbox_xyxy": [
+        0,
+        4,
+        1363,
+        1154
+      ],
+      "count": 1100478,
+      "edge_top_bottom_left_right": [
+        0,
+        12,
+        119,
+        16
+      ]
+    },
+    "16": {
+      "bbox_xyxy": [
+        6,
+        15,
+        1360,
+        1131
+      ],
+      "count": 1056434,
+      "edge_top_bottom_left_right": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "127": {
+      "bbox_xyxy": [
+        7,
+        15,
+        1359,
+        1130
+      ],
+      "count": 1043546,
+      "edge_top_bottom_left_right": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "250": {
+      "bbox_xyxy": [
+        31,
+        25,
+        1341,
+        1122
+      ],
+      "count": 883687,
+      "edge_top_bottom_left_right": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "density": {
+    "source_logical_extent": [
+      124,
+      105
+    ],
+    "alpha127_body_size": [
+      1352,
+      1115
+    ],
+    "body_pixels_per_source_extent": [
+      10.903225806451612,
+      10.619047619047619
+    ],
+    "minimum_true_density2_met_in_raw": true,
+    "provisional_uniform_density11_logical_canvas": [
+      123.9090909090909,
+      104.9090909090909
+    ],
+    "no_registered_transform": true,
+    "note": "Actual output1363x1154, not requested1024square. Native new leaf detail; not source upscaling. Final GPU density untested."
+  },
+  "support_read": {
+    "physical_root": null,
+    "source_lower_foliage_band_local_xyxy": [
+      40,
+      94,
+      95,
+      100
+    ],
+    "candidate_manual_visible_lower_foliage_read_zone_raw_xyxy": [
+      440,
+      1060,
+      1040,
+      1120
+    ],
+    "manual_uncertainty_raw_px": 15,
+    "candidate_zone_if_uniform_density11": [
+      40,
+      96.36363636363636,
+      94.54545454545455,
+      101.81818181818181
+    ],
+    "caution": "Visible green leaf edge zone only. No wooden root is shown or proven, no exact ground plane or root anchor. This zone is an approximate manual inspection read, not an automatic silhouette registration."
+  },
+  "visual_review": {
+    "positive": [
+      "Low rounded bush, no trunk/root/planter/background or separate ground shadow",
+      "Natural green shaded foliage with warm upper-left leaf highlights",
+      "Three standard alpha-composited backgrounds show no conspicuous independent red/yellow matte fringe",
+      "Actual high-resolution leaf/twig detail"
+    ],
+    "remaining": [
+      "Highlights are strongly yellow-green; joint Earth palette review needed",
+      "Very narrow left/right margins: alpha>127 x7..1358. Low alpha touches left/right/bottom; requested wide transparent margin not delivered",
+      "Individual leaves are prominent in raw; native game-scale reading still needs checking",
+      "Source support band and new outline have not been accepted or partitioned into original4owners"
+    ],
+    "no_second_call": true
+  },
+  "input_plan_sha256": "9809214921bdcb485e1ab447be62cbb34378854e696467e03a10cefad92675a3",
+  "inputs": [
+    {
+      "number": 1,
+      "path": "art_source/earth_vegetation_input_plan_v1/round_shrub_57_38_source_native.png",
+      "sha256": "683d47438076abfbd04e3de9af3e1515a7d8a8c41076d9da5d604962d2803f0f",
+      "size": [
+        124,
+        105
+      ]
+    },
+    {
+      "number": 2,
+      "path": "art_source/earth_vegetation_input_plan_v1/concept_shrub_material.png",
+      "sha256": "816c9cbea82d88e09bef6ff6c05445971eb35330addafc91d4cf81b2dcd8930d",
+      "size": [
+        167,
+        93
+      ]
+    },
+    {
+      "number": 3,
+      "path": "art_source/earth_round_shrub_input_plan_v1/tree_v2_foliage_light_reference.png",
+      "sha256": "4fd8097ee97c22aeda4d7f43dde7cae27fbb3ed25ce746e78dfaaf9c6fe82c68",
+      "size": [
+        160,
+        160
+      ]
+    }
+  ]
+}

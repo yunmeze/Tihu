@@ -1,0 +1,278 @@
+{
+  "schema": "earth-vegetation-stage-incremental-minimal-archive-v1",
+  "path_base": "Project/",
+  "status": "Tree ordinary one-instance approved; shrub static candidate awaiting runner native diag. No other vegetation generated.",
+  "prior_frozen_archive": {
+    "path": "art_source/earth_first_tree_archive_v1/MINIMAL_SHA256.json",
+    "sha256": "4c6365bb99d8a63e0ce4c1e88a2ec6ef053b57e2f6cc108c7d3c21e542c58fef",
+    "files": 23,
+    "unchanged_all_verified": true,
+    "instruction": "Keep prior23archive unchanged. This manifest is additive, not replacement."
+  },
+  "files": [
+    {
+      "path": "art_source/earth_first_tree_fullcanvas_v1/PRODUCTION_PACKAGE.json",
+      "role": "same-origin fullcanvas technical alias and production copy provenance",
+      "sha256": "a42613c5af3c7539529ae6fd524e0e86a3b2fbae55ed83a57f4ae5c305bd9d16",
+      "bytes": 2112
+    },
+    {
+      "path": "art_source/earth_first_tree_fullcanvas_v1/build_alias.py",
+      "role": "same-origin fullcanvas technical alias and production copy provenance",
+      "sha256": "32f0fe0e43146361fcbaa4b1549afe50af7514e5c9fb05acef4a94a1758c1c2b",
+      "bytes": 1649
+    },
+    {
+      "path": "art_source/earth_first_tree_fullcanvas_v1/owners/owner-292.png",
+      "role": "same-origin fullcanvas technical alias and production copy provenance",
+      "sha256": "975a1fc551685e481ef34409ecc9f8db085b4cca45acd4317a632133ef7a38ed",
+      "bytes": 604022
+    },
+    {
+      "path": "art_source/earth_first_tree_fullcanvas_v1/owners/owner-293.png",
+      "role": "same-origin fullcanvas technical alias and production copy provenance",
+      "sha256": "913d6d58db380b32487274fabb2d32c393ccaa5c7b310a4f2d12ad9ef49f11b0",
+      "bytes": 220441
+    },
+    {
+      "path": "art_source/earth_first_tree_fullcanvas_v1/owners/owner-294.png",
+      "role": "same-origin fullcanvas technical alias and production copy provenance",
+      "sha256": "eb2429a22104baa43d724425372b231e6dbb1e8266c59fcc4883adaf28722d75",
+      "bytes": 503920
+    },
+    {
+      "path": "art_source/earth_first_tree_fullcanvas_v1/owners/owner-295.png",
+      "role": "same-origin fullcanvas technical alias and production copy provenance",
+      "sha256": "3d743ceffeda223272e18ed2343035f9aec38d435591c178526b15ebff14555b",
+      "bytes": 450383
+    },
+    {
+      "path": "art_source/earth_first_tree_fullcanvas_v1/owners/owner-296.png",
+      "role": "same-origin fullcanvas technical alias and production copy provenance",
+      "sha256": "a40346e0ccc3e8dfe87d2d255a1192566ab986421c17f8067d120d9ee12ffb11",
+      "bytes": 243158
+    },
+    {
+      "path": "art_source/earth_first_tree_fullcanvas_v1/owners/owner-297.png",
+      "role": "same-origin fullcanvas technical alias and production copy provenance",
+      "sha256": "ad51b9394ac0d7418734be11b122028c5afe574db89627aa2320a206967865aa",
+      "bytes": 88364
+    },
+    {
+      "path": "art_source/earth_first_tree_fullcanvas_v1/owners/owner-298.png",
+      "role": "same-origin fullcanvas technical alias and production copy provenance",
+      "sha256": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+      "bytes": 6175
+    },
+    {
+      "path": "art_source/earth_first_tree_fullcanvas_v1/registration.json",
+      "role": "same-origin fullcanvas technical alias and production copy provenance",
+      "sha256": "1786bf3796a5f1c1b6972ec5e813494e98e3c2beaa9779dd7808142d60adb7fc",
+      "bytes": 10445
+    },
+    {
+      "path": "art_source/earth_round_shrub_candidate_v1/README.md",
+      "role": "one-call shrub raw and reproducible alpha/density measurements",
+      "sha256": "76cbefd54b813aa37b5f383acdfbed52c6b7dc7bf82b37af69037ea172e97e21",
+      "bytes": 1583
+    },
+    {
+      "path": "art_source/earth_round_shrub_candidate_v1/measure_candidate.py",
+      "role": "one-call shrub raw and reproducible alpha/density measurements",
+      "sha256": "e595795ca6b15cc9920fe0b420e6fad696db9c278cbcf2c5a5c1c86d1a67b6fd",
+      "bytes": 3198
+    },
+    {
+      "path": "art_source/earth_round_shrub_candidate_v1/measurements.json",
+      "role": "one-call shrub raw and reproducible alpha/density measurements",
+      "sha256": "3b0199d9e89b846c8c216380747d736eeb9af2a99d1412912b88af124174c2c0",
+      "bytes": 4055
+    },
+    {
+      "path": "art_source/earth_round_shrub_candidate_v1/prompt.txt",
+      "role": "one-call shrub raw and reproducible alpha/density measurements",
+      "sha256": "5ef5f824e97d4c30997eaa051692af15d43250b32433b458c0bfd0af83ba5a33",
+      "bytes": 2965
+    },
+    {
+      "path": "art_source/earth_round_shrub_candidate_v1/raw.png",
+      "role": "one-call shrub raw and reproducible alpha/density measurements",
+      "sha256": "1c495a5434e3ad92164f7e829ffc93809475fb730c555b609896f09986427e42",
+      "bytes": 2775481
+    },
+    {
+      "path": "art_source/earth_round_shrub_input_plan_v1/INPUT_PLAN.json",
+      "role": "actual shrub input plan and tree interior material crop",
+      "sha256": "9809214921bdcb485e1ab447be62cbb34378854e696467e03a10cefad92675a3",
+      "bytes": 7281
+    },
+    {
+      "path": "art_source/earth_round_shrub_input_plan_v1/README.md",
+      "role": "actual shrub input plan and tree interior material crop",
+      "sha256": "cc44fbd798d95a4231781ce6a71a07a46a9d4e7e5494380f14f110df3837fa67",
+      "bytes": 2177
+    },
+    {
+      "path": "art_source/earth_round_shrub_input_plan_v1/prepare_plan.py",
+      "role": "actual shrub input plan and tree interior material crop",
+      "sha256": "70208f9da4b30ca836f1d022ff5c6ed843960f64be30987d75c1d296a77a3caf",
+      "bytes": 1978
+    },
+    {
+      "path": "art_source/earth_round_shrub_input_plan_v1/prompt_pending.txt",
+      "role": "actual shrub input plan and tree interior material crop",
+      "sha256": "5ef5f824e97d4c30997eaa051692af15d43250b32433b458c0bfd0af83ba5a33",
+      "bytes": 2965
+    },
+    {
+      "path": "art_source/earth_round_shrub_input_plan_v1/tree_v2_foliage_light_reference.png",
+      "role": "actual shrub input plan and tree interior material crop",
+      "sha256": "4fd8097ee97c22aeda4d7f43dde7cae27fbb3ed25ce746e78dfaaf9c6fe82c68",
+      "bytes": 76722
+    },
+    {
+      "path": "art_source/earth_round_shrub_registration_v1/README.md",
+      "role": "one-instance fullcanvas shrub candidate and exactRGBA partition recipe",
+      "sha256": "efc075040f411dfe647f076e3749095132482ddd355b3e41235930fd4a5faaa7",
+      "bytes": 1675
+    },
+    {
+      "path": "art_source/earth_round_shrub_registration_v1/build_registration.py",
+      "role": "one-instance fullcanvas shrub candidate and exactRGBA partition recipe",
+      "sha256": "52f2f7f193c4099f2cc68a877a9979d0b59021d906246aae657b92099025ed2c",
+      "bytes": 5876
+    },
+    {
+      "path": "art_source/earth_round_shrub_registration_v1/owner-labels.png",
+      "role": "one-instance fullcanvas shrub candidate and exactRGBA partition recipe",
+      "sha256": "7a8b547f2f6c15b3852b2978983776220679c85701510765bb0360e250362047",
+      "bytes": 4615
+    },
+    {
+      "path": "art_source/earth_round_shrub_registration_v1/owners/owner-143.png",
+      "role": "one-instance fullcanvas shrub candidate and exactRGBA partition recipe",
+      "sha256": "cb403b3fd286ff1c2ec1085902ff1203ec7ad6f47ceb4ae513352ecad110476d",
+      "bytes": 69276
+    },
+    {
+      "path": "art_source/earth_round_shrub_registration_v1/owners/owner-144.png",
+      "role": "one-instance fullcanvas shrub candidate and exactRGBA partition recipe",
+      "sha256": "ab996e6449515eb2297fba8e33f0a3ef9dce4046652caa2901bc206ec0da3cd1",
+      "bytes": 799678
+    },
+    {
+      "path": "art_source/earth_round_shrub_registration_v1/owners/owner-145.png",
+      "role": "one-instance fullcanvas shrub candidate and exactRGBA partition recipe",
+      "sha256": "4314beb965f4e7c1a99f26546b13eda03dff49e134fb37d4ba97d02e4d7a271c",
+      "bytes": 1277247
+    },
+    {
+      "path": "art_source/earth_round_shrub_registration_v1/owners/owner-146.png",
+      "role": "one-instance fullcanvas shrub candidate and exactRGBA partition recipe",
+      "sha256": "507a822bd45f359787a16c63804fae7a6ccab0d31c28655f10df10a890c35219",
+      "bytes": 642581
+    },
+    {
+      "path": "art_source/earth_round_shrub_registration_v1/registration.json",
+      "role": "one-instance fullcanvas shrub candidate and exactRGBA partition recipe",
+      "sha256": "a4633ce2be29f8296439032ab9f291b04f9cf2ead4047e338bb4d01f2332b9dc",
+      "bytes": 5789
+    },
+    {
+      "path": "art_source/earth_round_shrub_registration_v1/validation.json",
+      "role": "one-instance fullcanvas shrub candidate and exactRGBA partition recipe",
+      "sha256": "fe861defb70714ab0d651effe58523e4f5bec05b7b0501998237884055a10923",
+      "bytes": 717
+    },
+    {
+      "path": "art_source/earth_vegetation_input_plan_v1/concept_shrub_material.png",
+      "role": "actual shrub generation image inputs not included in prior23treearchive",
+      "sha256": "816c9cbea82d88e09bef6ff6c05445971eb35330addafc91d4cf81b2dcd8930d",
+      "bytes": 36959
+    },
+    {
+      "path": "art_source/earth_vegetation_input_plan_v1/round_shrub_57_38_source_native.png",
+      "role": "actual shrub generation image inputs not included in prior23treearchive",
+      "sha256": "683d47438076abfbd04e3de9af3e1515a7d8a8c41076d9da5d604962d2803f0f",
+      "bytes": 12199
+    },
+    {
+      "path": "assets/earth/environment/first_tree_v1/owner-292.png",
+      "role": "approved one-instance ordinary tree asset closure",
+      "sha256": "975a1fc551685e481ef34409ecc9f8db085b4cca45acd4317a632133ef7a38ed",
+      "bytes": 604022
+    },
+    {
+      "path": "assets/earth/environment/first_tree_v1/owner-293.png",
+      "role": "approved one-instance ordinary tree asset closure",
+      "sha256": "913d6d58db380b32487274fabb2d32c393ccaa5c7b310a4f2d12ad9ef49f11b0",
+      "bytes": 220441
+    },
+    {
+      "path": "assets/earth/environment/first_tree_v1/owner-294.png",
+      "role": "approved one-instance ordinary tree asset closure",
+      "sha256": "eb2429a22104baa43d724425372b231e6dbb1e8266c59fcc4883adaf28722d75",
+      "bytes": 503920
+    },
+    {
+      "path": "assets/earth/environment/first_tree_v1/owner-295.png",
+      "role": "approved one-instance ordinary tree asset closure",
+      "sha256": "3d743ceffeda223272e18ed2343035f9aec38d435591c178526b15ebff14555b",
+      "bytes": 450383
+    },
+    {
+      "path": "assets/earth/environment/first_tree_v1/owner-296.png",
+      "role": "approved one-instance ordinary tree asset closure",
+      "sha256": "a40346e0ccc3e8dfe87d2d255a1192566ab986421c17f8067d120d9ee12ffb11",
+      "bytes": 243158
+    },
+    {
+      "path": "assets/earth/environment/first_tree_v1/owner-297.png",
+      "role": "approved one-instance ordinary tree asset closure",
+      "sha256": "ad51b9394ac0d7418734be11b122028c5afe574db89627aa2320a206967865aa",
+      "bytes": 88364
+    },
+    {
+      "path": "assets/earth/environment/first_tree_v1/owner-298.png",
+      "role": "approved one-instance ordinary tree asset closure",
+      "sha256": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+      "bytes": 6175
+    },
+    {
+      "path": "assets/earth/environment/first_tree_v1/owner-labels.png",
+      "role": "approved one-instance ordinary tree asset closure",
+      "sha256": "14ea580f756d59692825dc93aab90728a20a6f01013a8500ebff88d7b059fd75",
+      "bytes": 7929
+    },
+    {
+      "path": "assets/earth/environment/first_tree_v1/registration.json",
+      "role": "approved one-instance ordinary tree asset closure",
+      "sha256": "a83f1f401b10394e13e7822f6eb04078cace3db3dc0bdca10e275b38d0bb9b27",
+      "bytes": 10386
+    },
+    {
+      "path": "assets/earth/environment/first_tree_v1/whole-review.png",
+      "role": "approved one-instance ordinary tree asset closure",
+      "sha256": "c639ad6e35e10f3a4c61d13a38258b2db1f077cea3f757ec8e064762601cc9e6",
+      "bytes": 2169976
+    }
+  ],
+  "file_count": 41,
+  "total_bytes": 12170440,
+  "dependencies_already_in_prior_archive": [
+    "art_source/earth_first_tree_boundary_repair_v2/raw.png",
+    "art_source/earth_vegetation_input_plan_v1/source_contract.json",
+    "art_source/earth_vegetation_input_plan_v1/concept_crops.json",
+    "art_source/earth_base_style_concept_v1/concept.png",
+    "docs/EARTH_ART_BIBLE_V1.md"
+  ],
+  "excluded": [
+    "Project/diagnostics/**",
+    "/workspace/shared native screenshots and logs",
+    "Godot.import/generated caches",
+    "per-directory redundant SHA manifests",
+    "generated_images duplicate raw",
+    "other tree instances/grass assets"
+  ],
+  "note": "Same PNG bytes appear in technical alias and ordinary closure because those exact paths serve separate archive/runtime purposes. No Git operation performed."
+}

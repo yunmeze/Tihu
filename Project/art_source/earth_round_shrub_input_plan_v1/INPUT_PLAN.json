@@ -1,0 +1,312 @@
+{
+  "status": "generation input plan only; no shrub generation authorized or executed",
+  "input_images": [
+    {
+      "number": 1,
+      "path": "art_source/earth_vegetation_input_plan_v1/round_shrub_57_38_source_native.png",
+      "sha256": "683d47438076abfbd04e3de9af3e1515a7d8a8c41076d9da5d604962d2803f0f",
+      "size": [
+        124,
+        105
+      ]
+    },
+    {
+      "number": 2,
+      "path": "art_source/earth_vegetation_input_plan_v1/concept_shrub_material.png",
+      "sha256": "816c9cbea82d88e09bef6ff6c05445971eb35330addafc91d4cf81b2dcd8930d",
+      "size": [
+        167,
+        93
+      ]
+    },
+    {
+      "number": 3,
+      "path": "art_source/earth_round_shrub_input_plan_v1/tree_v2_foliage_light_reference.png",
+      "sha256": "4fd8097ee97c22aeda4d7f43dde7cae27fbb3ed25ce746e78dfaaf9c6fe82c68",
+      "size": [
+        160,
+        160
+      ]
+    }
+  ],
+  "tree_reference_crop": {
+    "raw_path": "art_source/earth_first_tree_boundary_repair_v2/raw.png",
+    "raw_sha256": "c639ad6e35e10f3a4c61d13a38258b2db1f077cea3f757ec8e064762601cc9e6",
+    "crop_xyxy_exclusive": [
+      220,
+      550,
+      380,
+      710
+    ],
+    "role": "secondary interior leaf material/light only; never tree shape/trunk/roots"
+  },
+  "source_group": {
+    "id": "round_shrub_57_38",
+    "family": "round_shrub",
+    "root_or_center_owner_cell": [
+      57,
+      38
+    ],
+    "priority": "first_generation",
+    "world_bounds_xyxy": [
+      2695,
+      1143,
+      2819,
+      1248
+    ],
+    "logical_size": [
+      124,
+      105
+    ],
+    "minimum_true_density2_size": [
+      248,
+      210
+    ],
+    "recommended_density4_size": [
+      496,
+      420
+    ],
+    "anchor": {
+      "type": "draw_origin_not_physical_root",
+      "world": [
+        2736,
+        1216
+      ],
+      "local": [
+        41,
+        73
+      ],
+      "physical_root": null,
+      "source_lower_foliage_local_read_zone_xyxy": [
+        40,
+        94,
+        95,
+        100
+      ],
+      "warning": "Visible leaf support band only, not a proven ground plane or physical root; bbox includes checker cast."
+    },
+    "owners_in_draw_order": [
+      {
+        "key": "Plant:143@57,35",
+        "pack": "Map/Res/Plant",
+        "frame_index": 143,
+        "cell": [
+          57,
+          35
+        ],
+        "source_cell": [
+          0,
+          0,
+          2,
+          143
+        ],
+        "flag": 0,
+        "layer": 1,
+        "sort_y": 35,
+        "stable_source_order": 5735,
+        "original_canvas": [
+          48,
+          32
+        ],
+        "crop": [
+          1,
+          23
+        ],
+        "ignored_frame_offset": [
+          0,
+          0
+        ],
+        "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+        "atlas_rect": [
+          1,
+          1,
+          43,
+          9
+        ],
+        "frame_rgba_sha256": "011f3bc4f8487f92f6a67b1dfa92cd34336a9213eb20ab909926ca2826f9b788",
+        "native_source_offset": 1933088,
+        "native_source_bytes": 3128,
+        "world_rect": [
+          2737,
+          1143,
+          43,
+          9
+        ],
+        "viewport_aabb_intersects": true,
+        "viewport_nonzero_alpha_pixels": 147
+      },
+      {
+        "key": "Plant:144@56,38",
+        "pack": "Map/Res/Plant",
+        "frame_index": 144,
+        "cell": [
+          56,
+          38
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          2,
+          144
+        ],
+        "flag": -1,
+        "layer": 1,
+        "sort_y": 38,
+        "stable_source_order": 5638,
+        "original_canvas": [
+          48,
+          96
+        ],
+        "crop": [
+          7,
+          0
+        ],
+        "ignored_frame_offset": [
+          0,
+          0
+        ],
+        "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+        "atlas_rect": [
+          46,
+          1,
+          41,
+          93
+        ],
+        "frame_rgba_sha256": "7666ec8d10aaf2827acdde7ae19dd570af7e18fa8e248f5f8f3827697df7741e",
+        "native_source_offset": 1936216,
+        "native_source_bytes": 9272,
+        "world_rect": [
+          2695,
+          1152,
+          41,
+          93
+        ],
+        "viewport_aabb_intersects": true,
+        "viewport_nonzero_alpha_pixels": 2286
+      },
+      {
+        "key": "Plant:145@57,38",
+        "pack": "Map/Res/Plant",
+        "frame_index": 145,
+        "cell": [
+          57,
+          38
+        ],
+        "source_cell": [
+          0,
+          -1,
+          2,
+          145
+        ],
+        "flag": -1,
+        "layer": 1,
+        "sort_y": 38,
+        "stable_source_order": 5738,
+        "original_canvas": [
+          48,
+          96
+        ],
+        "crop": [
+          0,
+          0
+        ],
+        "ignored_frame_offset": [
+          0,
+          0
+        ],
+        "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+        "atlas_rect": [
+          89,
+          1,
+          48,
+          96
+        ],
+        "frame_rgba_sha256": "778f6b6d24730f8a1de8df91c0ef214d10c60bb1083320f3712002ea81f43cea",
+        "native_source_offset": 1945488,
+        "native_source_bytes": 9272,
+        "world_rect": [
+          2736,
+          1152,
+          48,
+          96
+        ],
+        "viewport_aabb_intersects": true,
+        "viewport_nonzero_alpha_pixels": 3570
+      },
+      {
+        "key": "Plant:146@58,38",
+        "pack": "Map/Res/Plant",
+        "frame_index": 146,
+        "cell": [
+          58,
+          38
+        ],
+        "source_cell": [
+          -577,
+          -1,
+          2,
+          146
+        ],
+        "flag": -1,
+        "layer": 1,
+        "sort_y": 38,
+        "stable_source_order": 5838,
+        "original_canvas": [
+          48,
+          96
+        ],
+        "crop": [
+          0,
+          0
+        ],
+        "ignored_frame_offset": [
+          0,
+          0
+        ],
+        "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+        "atlas_rect": [
+          139,
+          1,
+          35,
+          94
+        ],
+        "frame_rgba_sha256": "ffd74bd39f981bbe0f1dce1906188b7ec4dcb61f43f96717efe147e1bd5b4d49",
+        "native_source_offset": 1954760,
+        "native_source_bytes": 9272,
+        "world_rect": [
+          2784,
+          1152,
+          35,
+          94
+        ],
+        "viewport_aabb_intersects": true,
+        "viewport_nonzero_alpha_pixels": 1536
+      }
+    ],
+    "source_alpha_pixels_in_view_sum": 7539,
+    "file_prefix": "round_shrub_57_38",
+    "owner_id_encoding": "0 transparent; 1..N maps to owners_in_draw_order; source alpha ownership, not a newly approved body/cast segmentation"
+  },
+  "physical_root": null,
+  "visible_lower_green_leaf_band_local_xyxy": [
+    40,
+    94,
+    95,
+    100
+  ],
+  "band_limit": "Approximate foliage support band, not physical root or surveyed plane",
+  "no_new_ground_shadow": true,
+  "minimum_true_density": 2,
+  "source_native_is_not_hd": true,
+  "authorities": [
+    {
+      "path": "docs/EARTH_ART_BIBLE_V1.md",
+      "sha256": "a71402566505906f9edd76b344630908e8be9373289f1cf61a982373d211f9c4"
+    },
+    {
+      "path": "art_source/earth_base_style_concept_v1/concept.png",
+      "sha256": "1beaf20bbda18d0e04fcf2f6e81a0028750e1b87224f21780393b00c36cc4fc5"
+    }
+  ],
+  "frozen_40_verified": true
+}
