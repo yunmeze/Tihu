@@ -60,6 +60,7 @@ func _input(event:InputEvent) -> void:
 			KEY_B:world.prefer_candidate=not world.prefer_candidate
 			KEY_P:world.prefer_ground=not world.prefer_ground
 			KEY_T:world.prefer_hall=not world.prefer_hall
+			KEY_S:world.prefer_shadow=not world.prefer_shadow
 		update_hud();world.queue_redraw()
 func _physics_process(delta:float) -> void:
 	if not ready_ok:return
@@ -67,7 +68,8 @@ func _physics_process(delta:float) -> void:
 	world.tick+=1;world.refresh();update_hud()
 func update_hud() -> void:
 	hud.visible=show_hud
-	hud.text="EARTH ENTRANCE CANDIDATE: 10 NEW SE IDLE/WALK FRAMES / OTHER ART SOURCE\n1536x1024 raster / 768x512 logical | Hall candidate / other environment source | New shadow: none.\nClick A* | Shift run | Space stop | F follow | G grid | H HUD | B actor | P ground | T hall\nCamera: %s | actor %s | Outside sample remains source."%["FOLLOW" if ready_ok and world.follow_actor else "FIXED [2496,960,768,512]",actor.position]
+	hud.text="EARTH ENTRANCE CANDIDATE: 10 NEW SE IDLE/WALK FRAMES / OTHER ART SOURCE\n1536x1024 raster / 768x512 logical | Hall candidate / other environment source | SE shadow: bounded flat gate.\nClick A* | Shift run | Space stop | F follow | G grid | H HUD | B actor | P ground | T hall | S shadow\nCamera: %s | actor %s | Outside sample remains source."%["FOLLOW" if ready_ok and world.follow_actor else "FIXED [2496,960,768,512]",actor.position]
 	if ready_ok:hud.text+="\nSE idle ready %s / preferred %s / active %s"%[world.candidate_ready,world.prefer_candidate,world.uses_candidate(actor.source_frame())]
 	if ready_ok:hud.text+=" / walk6 %s / ground64 %s / hall30 %s"%[world.walk_ready,world.prefer_ground and world.ground_owners.size()==64,world.prefer_hall and world.hall_owners.size()==30]
+	if ready_ok:hud.text+=" / shadow %s"%world.hero_shadow.visible
 	if not ready_ok:hud.text+="\nSource preparation failed; no candidate published."
