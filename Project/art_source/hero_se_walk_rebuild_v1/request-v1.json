@@ -1,0 +1,57 @@
+{
+  "status": "generated_raw_preserved_registered_pending_native",
+  "ordered_references": [
+    {
+      "path": "../hero_se_walk_source_r5/source-six-complete-pose-main-6x.png",
+      "sha256": "55cc0dad848d291c8e170ef3a2cd1b254351f718fa6ef5f3d7ed34470664e32d",
+      "role": "only full pose/camera/proportion authority"
+    },
+    {
+      "path": "../hero_se_walk_source_r5/source-six-lower-detail-8x.png",
+      "sha256": "4743fc46ccae7dd7761b2959099626ec93d42aada87ae89e0332196491425df0",
+      "role": "source visible leg silhouette detail"
+    },
+    {
+      "path": "../hero_se_idle_rebuild_v1/identity-v2-disconnected-parts.png",
+      "sha256": "eeeb9b13dee08e2993878e131b96c81fafb69f4fe244c28bdad9503fe4e126b9",
+      "role": "disconnected identity/material only"
+    }
+  ],
+  "prompt": "prompt-v1.txt",
+  "prompt_sha256": "8f70443ffb8b28035e9eaca798329413cdd581a90d23d9078a769413196124a6",
+  "full_idle_concept_excluded": true,
+  "source_ids": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+  ],
+  "layout": [
+    3,
+    2
+  ],
+  "tool": "built-in imagegen",
+  "runtime_use": false,
+  "raw": {
+    "path": "raw-v1.png",
+    "sha256": "43a6bd3eaf99a9aa1d1cccb2f2bce3fd1eb0f52cadd130bd4bd83ddcd38268f9",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "actual_review": {
+    "raw_gray": "raw-v1-alpha-gray.jpg",
+    "source_registered": "v1-source-registered-3x-gray.jpg",
+    "findings": [
+      "consistent identity and armor",
+      "52 second boot not independently exposed",
+      "54/55 swapped leg chain present;55 not copy51",
+      "55 small far-hand patch more visible than source",
+      "56 second boot more hidden than source",
+      "source-wide torso/leg projection requires native idle transition review"
+    ]
+  }
+}

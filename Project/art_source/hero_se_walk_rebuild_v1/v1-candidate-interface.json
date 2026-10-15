@@ -1,0 +1,35 @@
+{
+  "status": "diagnostic_only_pending_native_review",
+  "atlas": "v1-registered-atlas-128.png",
+  "atlas_sha256": "aa5b4a0b3cbc2accdc62bf4581554b823ac98ab12e99eb53c95523750ad4f31e",
+  "source_ids": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+  ],
+  "frame_size": [
+    128,
+    128
+  ],
+  "grid": [
+    6,
+    1
+  ],
+  "draw_offset": [
+    -16,
+    -64
+  ],
+  "frame_ticks": 7,
+  "sampling": "linear on candidate only; original source nearest",
+  "idle_interface": "../hero_se_idle_rebuild_v1/v1-registration.json",
+  "registration": "v1-registration.json",
+  "required_sequence": "idle13-16 then walk51-56 at least two cycles including56to51 then idle; keep real action transition distinct from source timing proof",
+  "limitations": [
+    "55 far hand more exposed than source",
+    "56 second short boot mostly occluded unlike source visible right ankle boot; excluded unreliable endpoint from fitting",
+    "registration cannot correct limb shape or occlusion"
+  ]
+}
