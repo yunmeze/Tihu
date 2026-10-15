@@ -6,6 +6,7 @@ func setup(actor:RefCounted,map_path:String="res://data/maps/A13.json") -> bool:
 	candidate_texture=null;candidate_ready=false;walk_texture=null;walk_ready=false;e_idle_texture=null;e_idle_ready=false;idle_shadow_bound=false;walk_shadow_bound=false
 	fangzhang_texture=null;lingyunzi_texture=null;tree_owners={};shrub_owners={};hall_owners={};ground_owners={};upright_groups=[{},{}];translated_shrub_groups=[{},{}];grass_groups=[{},{}]
 	hero_shadow.clear_frame();fangzhang_shadow.clear_frame();fangzhang_shadow_gate.ready=false
+	lingyunzi_shadow.clear_frame();first_tree_shadow.clear_frame();shadow_compositor.clear_frame();receiver_v2.reset()
 	flat_map_bound=false
 	var ok=super.setup(actor,map_path)
 	flat_map_bound=ok and map_path=="res://data/maps/A13.json" and FileAccess.get_sha256(map_path)=="d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27"
@@ -223,13 +224,23 @@ var hero_shadow=DensityShadow.new()
 var fangzhang_shadow=DensityShadow.new()
 var fangzhang_shadow_gate=preload("res://scripts/earth/fangzhang_shadow_gate.gd").new()
 var prefer_shadow:=true
+var lingyunzi_shadow=DensityShadow.new()
+var first_tree_shadow=DensityShadow.new()
+var receiver_v2=preload("res://scripts/earth/receiver_v2_gate.gd").new()
+var shadow_compositor=preload("res://scripts/earth/max_ground_shadow.gd").new()
 func _ready():
 	floor_pass.world=self;floor_pass.z_index=-2;floor_pass.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST;add_child(floor_pass)
 	hero_shadow.z_index=-1;add_child(hero_shadow)
 	fangzhang_shadow.z_index=-1;add_child(fangzhang_shadow)
 	flat_gate.prepare();fangzhang_shadow_gate.prepare()
+	lingyunzi_shadow.z_index=-1;add_child(lingyunzi_shadow)
+	first_tree_shadow.z_index=-1;add_child(first_tree_shadow)
+	add_child(shadow_compositor);shadow_compositor.prepare();receiver_v2.prepare(map)
 func refresh() -> void:
-	super.refresh();floor_pass.queue_redraw();update_shadow();update_fangzhang_shadow()
+	super.refresh();floor_pass.queue_redraw();update_shadow();update_fangzhang_shadow();update_receiver_shadows()
+	shadow_compositor.configure([hero_shadow,fangzhang_shadow,lingyunzi_shadow,first_tree_shadow])
+	# Descriptor helpers retain configurations, never their old draw pass.
+	for node in [hero_shadow,fangzhang_shadow,lingyunzi_shadow,first_tree_shadow]:node.visible=false
 func update_shadow() -> void:
 	var frame=movement.source_frame()
 	var supported=(movement.action=="idle" and frame>=13 and frame<=16) or (movement.action=="walk" and frame>=51 and frame<=56)
@@ -249,6 +260,26 @@ func update_fangzhang_shadow() -> void:
 	var r=fangzhang_shadow_gate.configuration
 	var s=r.shadow
 	fangzhang_shadow.configure_density_ground_frame(fangzhang_texture.diffuse_texture,Rect2i(0,0,128,160),4,Transform2D(0,Vector2(3040,1080)+screen_origin()),Vector2(s.reference_logical[0],s.reference_logical[1]),s.slope,Vector2(1.2,.55),.25,.8)
+func update_receiver_shadows() -> void:
+	lingyunzi_shadow.clear_frame();first_tree_shadow.clear_frame()
+	if not prefer_shadow or not flat_map_bound or not prefer_hall or not receiver_v2.hall_matches(map,objects,hall_owners):return
+	if receiver_v2.slots.lingyunzi and lingyunzi_texture!=null and lingyunzi_texture.diffuse_texture==receiver_v2.textures.get("lingyunzi"):
+		var active=false
+		for entry in objects:
+			if uses_lingyunzi(entry):active=true;break
+		if active:
+			var c=receiver_v2.configuration.casters.lingyunzi;var s=c.shadow
+			lingyunzi_shadow.configure_density_ground_frame(receiver_v2.textures.lingyunzi,Rect2i((int(tick/17)%4)*128,0,128,160),4,Transform2D(0,Vector2(c.world_body_origin[0],c.world_body_origin[1])+screen_origin()),Vector2(s.reference_logical[0],s.reference_logical[1]),s.slope,Vector2(1.2,.55),.25,.8)
+	if receiver_v2.slots.first_tree and tree_owners==receiver_v2.tree_prepared and tree_owners.size()==7:
+		var found={}
+		var duplicate=false
+		for entry in objects:
+			if uses_tree(entry):
+				if found.has(entry.order):duplicate=true
+				found[entry.order]=true
+		if found.size()==7 and not duplicate:
+			var c=receiver_v2.configuration.casters.first_tree;var s=c.shadow
+			first_tree_shadow.configure_density_ground_frame(receiver_v2.textures.first_tree,Rect2i(0,0,314,314),4,Transform2D(0,Vector2(c.world_body_origin[0],c.world_body_origin[1])+screen_origin()),Vector2(s.reference_logical[0],s.reference_logical[1]),s.slope,Vector2(1.2,.55),.25,.8)
 func _draw() -> void:
 	if not initialized:return
 	var offset=screen_origin()

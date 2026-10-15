@@ -1,0 +1,1804 @@
+{
+  "schema": "earth-flat-receiver-runtime-v2",
+  "status": "sealed runtime resource package; activation controlled by independent runtime validation",
+  "world_rect": [
+    2496,
+    960,
+    768,
+    512
+  ],
+  "mask_density": 2,
+  "mask_size": [
+    1536,
+    1024
+  ],
+  "mask_encoding": "8-bit grayscale; 255 means member, 0 means absent; sample cells are half-open 0.5 logical units",
+  "outside_allowed": false,
+  "require_new_hall": true,
+  "require_all_30_hall_owners": true,
+  "semantic_clearance_logical": 4,
+  "failure_policy": "Disable whole dependent Lingyunzi/tree cast immediately on source hall, invalid hall, any required binding mismatch, missing resource or envelope outside allowed. Never clip shadow. Existing SE/Fang gates remain independent.",
+  "files": {
+    "allowed": {
+      "path": "res://assets/earth/shadows/receiver_v2/allowed.png",
+      "sha256": "12c5804b27220bc04f0727db09857c886fe48cfd48065e828ce75b851527a29c",
+      "texture_size": [
+        1536,
+        1024
+      ]
+    },
+    "forbidden": {
+      "path": "res://assets/earth/shadows/receiver_v2/forbidden.png",
+      "sha256": "80b42e4adffad4929a7dd46eea0f3e7254d4396a2e1912c34182104ae9a4aab2",
+      "texture_size": [
+        1536,
+        1024
+      ]
+    },
+    "tree_shadow_texture": {
+      "path": "res://assets/earth/shadows/receiver_v2/first-tree-shadow-padded-1256.png",
+      "sha256": "1a1caf1da97bfe4fea2c5eb39e3f30a0d542a61f9ed00e0bcc867f4b9c456638",
+      "texture_size": [
+        1256,
+        1256
+      ]
+    },
+    "lingyunzi_envelope": {
+      "path": "res://assets/earth/shadows/receiver_v2/lingyunzi-envelope-union.png",
+      "sha256": "72384d5dd4e67646f943623a18d1373992d6d7636599cfe0456fbc19d4ceb8e4",
+      "texture_size": [
+        1536,
+        1024
+      ]
+    },
+    "first_tree_envelope": {
+      "path": "res://assets/earth/shadows/receiver_v2/first-tree-envelope.png",
+      "sha256": "9bcfd26b632109ad0c45ea049f6ea68aca886c48dd46787578da424d0c59484e",
+      "texture_size": [
+        1536,
+        1024
+      ]
+    }
+  },
+  "casters": {
+    "lingyunzi": {
+      "shadow": {
+        "reference_logical": [
+          47.947484989553544,
+          123.64698334539128
+        ],
+        "slope": 0.0,
+        "cast": [
+          1.2,
+          0.55
+        ],
+        "opacity": 0.25,
+        "blur_logical": 0.8,
+        "raw_blur": 3.2,
+        "density": 4,
+        "tint_rgb": [
+          0.035,
+          0.045,
+          0.055
+        ]
+      },
+      "world_body_origin": [
+        2944,
+        1048
+      ],
+      "identity": {
+        "map_id": "A13",
+        "npc_record_index": 1,
+        "map_cell": [
+          62,
+          36
+        ],
+        "layer": 1,
+        "sort_y": 36,
+        "stable_order": 10001
+      },
+      "envelope": {
+        "path": "res://assets/earth/shadows/receiver_v2/lingyunzi-envelope-union.png",
+        "sha256": "72384d5dd4e67646f943623a18d1373992d6d7636599cfe0456fbc19d4ceb8e4",
+        "positive_cells": 5779,
+        "forbidden_overlap_cells": 0,
+        "contains_all_phases": true,
+        "texture_size": [
+          1536,
+          1024
+        ]
+      },
+      "logical_regions_xywh": [
+        [
+          0,
+          0,
+          128,
+          160
+        ],
+        [
+          128,
+          0,
+          128,
+          160
+        ],
+        [
+          256,
+          0,
+          128,
+          160
+        ],
+        [
+          384,
+          0,
+          128,
+          160
+        ]
+      ],
+      "body_texture": {
+        "path": "res://assets/earth/npc/lingyunzi_v2/body.png",
+        "sha256": "541c6d0a7a1cf3dd1cd547be037cf17e2f9a6083b8de90c1641f13fbaf9bbb9e",
+        "texture_size": [
+          2048,
+          640
+        ]
+      },
+      "shadow_texture": {
+        "path": "res://assets/earth/npc/lingyunzi_v2/body.png",
+        "sha256": "541c6d0a7a1cf3dd1cd547be037cf17e2f9a6083b8de90c1641f13fbaf9bbb9e",
+        "texture_size": [
+          2048,
+          640
+        ]
+      },
+      "inputs": {
+        "res://assets/earth/npc/lingyunzi_v2/manifest.json": "f9cf04374b533f225514215f6c798d4eac7592beb8b86bb5f715d3945278c9be",
+        "res://assets/earth/npc/lingyunzi_v2/body.png": "541c6d0a7a1cf3dd1cd547be037cf17e2f9a6083b8de90c1641f13fbaf9bbb9e",
+        "res://assets/earth/shadows/receiver_v2/lingyunzi-envelope-union.png": "72384d5dd4e67646f943623a18d1373992d6d7636599cfe0456fbc19d4ceb8e4"
+      }
+    },
+    "first_tree": {
+      "shadow": {
+        "reference_logical": [
+          130.75,
+          306.0
+        ],
+        "slope": 0,
+        "cast": [
+          1.2,
+          0.55
+        ],
+        "opacity": 0.25,
+        "blur_logical": 0.8,
+        "raw_blur": 3.2,
+        "density": 4,
+        "tint_rgb": [
+          0.035,
+          0.045,
+          0.055
+        ]
+      },
+      "world_body_origin": [
+        2630.25,
+        784.0
+      ],
+      "identity": {
+        "original_root_cell": [
+          57,
+          34
+        ],
+        "source_keys": [
+          "Plant:292@57,34",
+          "Plant:293@55,37",
+          "Plant:294@56,37",
+          "Plant:295@58,37",
+          "Plant:296@59,37",
+          "Plant:297@60,37",
+          "Plant:298@61,37"
+        ]
+      },
+      "envelope": {
+        "path": "res://assets/earth/shadows/receiver_v2/first-tree-envelope.png",
+        "sha256": "9bcfd26b632109ad0c45ea049f6ea68aca886c48dd46787578da424d0c59484e",
+        "positive_cells": 133694,
+        "forbidden_overlap_cells": 0,
+        "contains_all_phases": true,
+        "texture_size": [
+          1536,
+          1024
+        ]
+      },
+      "logical_regions_xywh": [
+        [
+          0,
+          0,
+          314,
+          314
+        ]
+      ],
+      "body_texture": {
+        "path": "res://assets/earth/environment/first_tree_v1/whole-review.png",
+        "sha256": "c639ad6e35e10f3a4c61d13a38258b2db1f077cea3f757ec8e064762601cc9e6",
+        "texture_size": [
+          1254,
+          1254
+        ]
+      },
+      "shadow_texture": {
+        "path": "res://assets/earth/shadows/receiver_v2/first-tree-shadow-padded-1256.png",
+        "sha256": "1a1caf1da97bfe4fea2c5eb39e3f30a0d542a61f9ed00e0bcc867f4b9c456638",
+        "texture_size": [
+          1256,
+          1256
+        ]
+      },
+      "inputs": {
+        "res://assets/earth/environment/first_tree_v1/registration.json": "a83f1f401b10394e13e7822f6eb04078cace3db3dc0bdca10e275b38d0bb9b27",
+        "res://assets/earth/environment/first_tree_v1/whole-review.png": "c639ad6e35e10f3a4c61d13a38258b2db1f077cea3f757ec8e064762601cc9e6",
+        "res://assets/earth/environment/first_tree_v1/owner-292.png": "975a1fc551685e481ef34409ecc9f8db085b4cca45acd4317a632133ef7a38ed",
+        "res://assets/earth/environment/first_tree_v1/owner-293.png": "913d6d58db380b32487274fabb2d32c393ccaa5c7b310a4f2d12ad9ef49f11b0",
+        "res://assets/earth/environment/first_tree_v1/owner-294.png": "eb2429a22104baa43d724425372b231e6dbb1e8266c59fcc4883adaf28722d75",
+        "res://assets/earth/environment/first_tree_v1/owner-295.png": "3d743ceffeda223272e18ed2343035f9aec38d435591c178526b15ebff14555b",
+        "res://assets/earth/environment/first_tree_v1/owner-296.png": "a40346e0ccc3e8dfe87d2d255a1192566ab986421c17f8067d120d9ee12ffb11",
+        "res://assets/earth/environment/first_tree_v1/owner-297.png": "ad51b9394ac0d7418734be11b122028c5afe574db89627aa2320a206967865aa",
+        "res://assets/earth/environment/first_tree_v1/owner-298.png": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+        "res://assets/earth/shadows/receiver_v2/first-tree-envelope.png": "9bcfd26b632109ad0c45ea049f6ea68aca886c48dd46787578da424d0c59484e",
+        "res://assets/earth/shadows/receiver_v2/first-tree-shadow-padded-1256.png": "1a1caf1da97bfe4fea2c5eb39e3f30a0d542a61f9ed00e0bcc867f4b9c456638"
+      }
+    }
+  },
+  "required_runtime_inputs": {
+    "res://data/maps/A13.json": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "res://data/earth/a13_hall_source_scope.json": "4288603a7dfd0ccc90a3bebf71473aca47a0bd57c448d6c33480b3f8952ff59e",
+    "res://assets/earth/environment/training_hall_v1/registration.json": "57072cc60ed9e33aa9afaeb0c7310733216e2884e0b042b043077551473e273c",
+    "res://assets/original/manifest.json": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+    "res://scripts/core/movement.gd": "90185510aca061709ad4e7ac2a3c8668efc850d44fcce4bcee68e08c4e2b8a48",
+    "res://scripts/world_view.gd": "b404d8dd5e7e85a120fec00b7eb5f01e6bfc1fc37adf5e7878c1798432d4e285",
+    "res://scripts/earth/hall_candidate.gd": "87351ee17139a51f5434143544291700ea8d0a401df1b8438973c92bb248a1ae",
+    "res://scripts/earth/sample_floor_pass.gd": "7fd59781dca6e3f8cb7ae7fe5c493464668350ae3086af0deb10199f0361defb",
+    "res://scripts/art/density_alpha_ground_shadow.gd": "cfc61e6c2b647bee68b063c1eecd884e1ac0ffa545fc1a59b3c3af4397adaf47",
+    "res://shaders/density_alpha_ground_shadow.gdshader": "b4d976938acbb3b57df13bf85ade4ebf3173c0634b5e7ee4338e8b038bf51f3b",
+    "res://assets/original/Map/Res/Building/0.png": "6fc88a1aa96eb18687eea798bcb4eae1f0ebf6d546a5a076fb1c2546550b3343",
+    "res://assets/earth/environment/training_hall_v1/owner-3971.png": "bf8c3c2a4d1a65f3935dfcf4a81797f38487bbe5efdad61734cf3dec25cb5eb8",
+    "res://assets/earth/environment/training_hall_v1/owner-3974.png": "f5229a5ca2869750110d0fc305c46f3f29b98556c57779e789f75e47ada432ad",
+    "res://assets/earth/environment/training_hall_v1/owner-3975.png": "4f5c931a75f01aea1b599e9d5e87e5b6f690df89dcfd2be1870ead8a9394befc",
+    "res://assets/earth/environment/training_hall_v1/owner-3976.png": "01c4b3a11397e702fe1de6f59c69fbfee94ef3e932ca4a403cc5e2b4a617bdf6",
+    "res://assets/earth/environment/training_hall_v1/owner-3979.png": "2873987d5851bc6d8447a02aca78d36194ac8caa9eb9faefd7368926c0bd17b2",
+    "res://assets/earth/environment/training_hall_v1/owner-3980.png": "b430178191619833a0e43c6baa16fb66ce3e3f10e159003059ad9818c53b42aa",
+    "res://assets/earth/environment/training_hall_v1/owner-3981.png": "087e534ddb457d4e3521b3128dc4a151831ae12d400d905ab95331b9d0659199",
+    "res://assets/earth/environment/training_hall_v1/owner-3982.png": "216026b2cc0c70fff2b186f3095921acafe76582e2fc8d83a900e42005917314",
+    "res://assets/earth/environment/training_hall_v1/owner-3985.png": "430e3227462d43debfb30f76055b89ba615092a0c914828c1a5ad87909886a90",
+    "res://assets/earth/environment/training_hall_v1/owner-3986.png": "ef90181db2ace5b61a80ac83aede7e001febd27b1fb01ab67449d10dacf7c030",
+    "res://assets/earth/environment/training_hall_v1/owner-3987.png": "e4ee7ffa9240441b072db6efda4d6d47f6c17e770b0a6e8c3e6f1da38572df5a",
+    "res://assets/earth/environment/training_hall_v1/owner-3989.png": "77185d0dc86e99f14ae5ba9add6d8eb98388fdfa56abbcff9c8aee0e55df9661",
+    "res://assets/earth/environment/training_hall_v1/owner-3967.png": "40c271540249c9981ae4340564cbf42d359957b7389d3b1b9ea12d588e6d9f8f",
+    "res://assets/earth/environment/training_hall_v1/owner-3968.png": "5c3bcf8d4afe72c74d588f8f9d763f292d8a6903f109447ae799221f02291e0d",
+    "res://assets/earth/environment/training_hall_v1/owner-3969.png": "9af2836b77f74c97ca3a7c4a09f504bacdde8cdf0e173312fe52944943d1062c",
+    "res://assets/earth/environment/training_hall_v1/owner-3970.png": "937969a147c8389e53ee931dd0c10354f2424d97649bc73e0adb078bd05a7fd8",
+    "res://assets/earth/environment/training_hall_v1/owner-3972.png": "9a8c73705728ae1e9725eb5a98371767c618486f7743da97b32761bc57da6be9",
+    "res://assets/earth/environment/training_hall_v1/owner-3973.png": "048407117db692a2aad367c597d3532ea897ffdebffc0d0283586fcd2b672d10",
+    "res://assets/earth/environment/training_hall_v1/owner-3977.png": "d30e217656e95fbb008a89fee9c5b022ad8f19ffdb40714b6d665b592a443cb5",
+    "res://assets/earth/environment/training_hall_v1/owner-3983.png": "f83b79acc6030c7de2c193d91dc2d60b5712e11b75e6a831117fbb926895fdb6",
+    "res://assets/earth/environment/training_hall_v1/owner-3984.png": "00b095852735002b5dda3662d9775333af20ef0a296d49b82797983154063ab7",
+    "res://assets/earth/environment/training_hall_v1/owner-3988.png": "d475e82a8a7b4fda607337b6d1f45533cf34a21f6f3f4563481c89fedc3f0675",
+    "res://assets/earth/environment/training_hall_v1/owner-3990.png": "477ceab276fbf928212fa6c2f18baa4e41072d6108816e52f428560d44f7a086",
+    "res://assets/earth/environment/training_hall_v1/owner-3991.png": "66b3c66e03abdb8d03483840da5b51d1474d13b1b97e0fb94d2a595211ecb6d6",
+    "res://assets/earth/environment/training_hall_v1/owner-3992.png": "00e0964b4a04a03a5a64e70e1f2372cd15fb17c58a13215863b8532dfbbe16e4",
+    "res://assets/earth/environment/training_hall_v1/owner-3993.png": "12db874c2329fc3f295362ea139a367f9e09a57c5cd9ddc4798e40871f6a7970",
+    "res://assets/earth/environment/training_hall_v1/owner-3994.png": "b1dec5c030bfff7038bf5f6e164e3470d6b8965e751ba3aea759f06982f194f5",
+    "res://assets/earth/environment/training_hall_v1/owner-3995.png": "dec23f8de636882ea6e4ffac026d6dedf8193e5641756a23ee0f61fcd3645ab6",
+    "res://assets/earth/environment/training_hall_v1/whole-review.png": "be82bef2c8d7aa9e26675e69dc076acbca76f0878eaf78eee3a18e501a12464b",
+    "res://scripts/earth/max_ground_shadow.gd": "73b692478417e70e82a563d6cffca9062164cccb34225537d07af3f50094ac91",
+    "res://shaders/earth_max_ground_shadow.gdshader": "468a56b98e5eb57bac5c3cf9c554f0bf31c22bbfd4d5969b1e4719a64d88a85a"
+  },
+  "world_binding": {
+    "path": "res://scripts/earth/sample_world.gd",
+    "sha256": "27a0f92f7b80e46055be459fd862aa56df9729b08fb286070b6840f218a3a0cf"
+  },
+  "hall_owners": [
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3971@66,34",
+      "cell": [
+        66,
+        34
+      ],
+      "source_cell": [
+        -406,
+        1,
+        4,
+        3971
+      ],
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 34,
+      "stable_source_order": 6634,
+      "frame_index": 3971,
+      "visible_pixel_count": 14969,
+      "nonzero_rgba_pixel_count": 14969,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3971.png",
+      "raw_rect": [
+        307,
+        670,
+        187,
+        133
+      ],
+      "world_top_left": [
+        3156.0370324068585,
+        1055.5089937923676
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "bf8c3c2a4d1a65f3935dfcf4a81797f38487bbe5efdad61734cf3dec25cb5eb8",
+      "texture_sha256": "bf8c3c2a4d1a65f3935dfcf4a81797f38487bbe5efdad61734cf3dec25cb5eb8",
+      "texture_size": [
+        187,
+        133
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3974@65,35",
+      "cell": [
+        65,
+        35
+      ],
+      "source_cell": [
+        0,
+        1,
+        4,
+        3974
+      ],
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 35,
+      "stable_source_order": 6535,
+      "frame_index": 3974,
+      "visible_pixel_count": 5532,
+      "nonzero_rgba_pixel_count": 5532,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3974.png",
+      "raw_rect": [
+        242,
+        778,
+        90,
+        91
+      ],
+      "world_top_left": [
+        3124.568626938538,
+        1107.7949598012697
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "f5229a5ca2869750110d0fc305c46f3f29b98556c57779e789f75e47ada432ad",
+      "texture_sha256": "f5229a5ca2869750110d0fc305c46f3f29b98556c57779e789f75e47ada432ad",
+      "texture_size": [
+        90,
+        91
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3975@66,35",
+      "cell": [
+        66,
+        35
+      ],
+      "source_cell": [
+        0,
+        1,
+        4,
+        3975
+      ],
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 35,
+      "stable_source_order": 6635,
+      "frame_index": 3975,
+      "visible_pixel_count": 9390,
+      "nonzero_rgba_pixel_count": 9390,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3975.png",
+      "raw_rect": [
+        332,
+        803,
+        161,
+        66
+      ],
+      "world_top_left": [
+        3168.1402652792895,
+        1119.8981926737006
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "4f5c931a75f01aea1b599e9d5e87e5b6f690df89dcfd2be1870ead8a9394befc",
+      "texture_sha256": "4f5c931a75f01aea1b599e9d5e87e5b6f690df89dcfd2be1870ead8a9394befc",
+      "texture_size": [
+        161,
+        66
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3976@73,35",
+      "cell": [
+        73,
+        35
+      ],
+      "source_cell": [
+        0,
+        1,
+        4,
+        3976
+      ],
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 35,
+      "stable_source_order": 7335,
+      "frame_index": 3976,
+      "visible_pixel_count": 10885,
+      "nonzero_rgba_pixel_count": 10885,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3976.png",
+      "raw_rect": [
+        964,
+        781,
+        190,
+        88
+      ],
+      "world_top_left": [
+        3474.109992294345,
+        1109.2473477459612
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "01c4b3a11397e702fe1de6f59c69fbfee94ef3e932ca4a403cc5e2b4a617bdf6",
+      "texture_sha256": "01c4b3a11397e702fe1de6f59c69fbfee94ef3e932ca4a403cc5e2b4a617bdf6",
+      "texture_size": [
+        190,
+        88
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3979@65,36",
+      "cell": [
+        65,
+        36
+      ],
+      "source_cell": [
+        0,
+        1,
+        4,
+        3979
+      ],
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 36,
+      "stable_source_order": 6536,
+      "frame_index": 3979,
+      "visible_pixel_count": 1448,
+      "nonzero_rgba_pixel_count": 1448,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3979.png",
+      "raw_rect": [
+        266,
+        869,
+        66,
+        44
+      ],
+      "world_top_left": [
+        3136.1877304960717,
+        1151.8507274569183
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "2873987d5851bc6d8447a02aca78d36194ac8caa9eb9faefd7368926c0bd17b2",
+      "texture_sha256": "2873987d5851bc6d8447a02aca78d36194ac8caa9eb9faefd7368926c0bd17b2",
+      "texture_size": [
+        66,
+        44
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3980@66,36",
+      "cell": [
+        66,
+        36
+      ],
+      "source_cell": [
+        -399,
+        1,
+        4,
+        3980
+      ],
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 36,
+      "stable_source_order": 6636,
+      "frame_index": 3980,
+      "visible_pixel_count": 6753,
+      "nonzero_rgba_pixel_count": 6753,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3980.png",
+      "raw_rect": [
+        332,
+        869,
+        140,
+        66
+      ],
+      "world_top_left": [
+        3168.1402652792895,
+        1151.8507274569183
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "b430178191619833a0e43c6baa16fb66ce3e3f10e159003059ad9818c53b42aa",
+      "texture_sha256": "b430178191619833a0e43c6baa16fb66ce3e3f10e159003059ad9818c53b42aa",
+      "texture_size": [
+        140,
+        66
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3981@73,36",
+      "cell": [
+        73,
+        36
+      ],
+      "source_cell": [
+        0,
+        1,
+        4,
+        3981
+      ],
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 36,
+      "stable_source_order": 7336,
+      "frame_index": 3981,
+      "visible_pixel_count": 12375,
+      "nonzero_rgba_pixel_count": 12375,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3981.png",
+      "raw_rect": [
+        918,
+        869,
+        207,
+        114
+      ],
+      "world_top_left": [
+        3451.840043809072,
+        1151.8507274569183
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "087e534ddb457d4e3521b3128dc4a151831ae12d400d905ab95331b9d0659199",
+      "texture_sha256": "087e534ddb457d4e3521b3128dc4a151831ae12d400d905ab95331b9d0659199",
+      "texture_size": [
+        207,
+        114
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3982@74,36",
+      "cell": [
+        74,
+        36
+      ],
+      "source_cell": [
+        -406,
+        1,
+        4,
+        3982
+      ],
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 36,
+      "stable_source_order": 7436,
+      "frame_index": 3982,
+      "visible_pixel_count": 5521,
+      "nonzero_rgba_pixel_count": 5521,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3982.png",
+      "raw_rect": [
+        1125,
+        841,
+        103,
+        94
+      ],
+      "world_top_left": [
+        3552.0548119928008,
+        1138.2951066397957
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "216026b2cc0c70fff2b186f3095921acafe76582e2fc8d83a900e42005917314",
+      "texture_sha256": "216026b2cc0c70fff2b186f3095921acafe76582e2fc8d83a900e42005917314",
+      "texture_size": [
+        103,
+        94
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3985@66,37",
+      "cell": [
+        66,
+        37
+      ],
+      "source_cell": [
+        0,
+        1,
+        4,
+        3985
+      ],
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 37,
+      "stable_source_order": 6637,
+      "frame_index": 3985,
+      "visible_pixel_count": 501,
+      "nonzero_rgba_pixel_count": 501,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3985.png",
+      "raw_rect": [
+        366,
+        935,
+        41,
+        25
+      ],
+      "world_top_left": [
+        3184.600661985796,
+        1183.8032622401363
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "430e3227462d43debfb30f76055b89ba615092a0c914828c1a5ad87909886a90",
+      "texture_sha256": "430e3227462d43debfb30f76055b89ba615092a0c914828c1a5ad87909886a90",
+      "texture_size": [
+        41,
+        25
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3986@74,37",
+      "cell": [
+        74,
+        37
+      ],
+      "source_cell": [
+        0,
+        1,
+        4,
+        3986
+      ],
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 37,
+      "stable_source_order": 7437,
+      "frame_index": 3986,
+      "visible_pixel_count": 7009,
+      "nonzero_rgba_pixel_count": 7009,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3986.png",
+      "raw_rect": [
+        1077,
+        935,
+        147,
+        67
+      ],
+      "world_top_left": [
+        3528.816604877733,
+        1183.8032622401363
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "ef90181db2ace5b61a80ac83aede7e001febd27b1fb01ab67449d10dacf7c030",
+      "texture_sha256": "ef90181db2ace5b61a80ac83aede7e001febd27b1fb01ab67449d10dacf7c030",
+      "texture_size": [
+        147,
+        67
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3987@75,37",
+      "cell": [
+        75,
+        37
+      ],
+      "source_cell": [
+        0,
+        1,
+        4,
+        3987
+      ],
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 37,
+      "stable_source_order": 7537,
+      "frame_index": 3987,
+      "visible_pixel_count": 315,
+      "nonzero_rgba_pixel_count": 315,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3987.png",
+      "raw_rect": [
+        1224,
+        933,
+        15,
+        28
+      ],
+      "world_top_left": [
+        3599.9836141676274,
+        1182.8350036103418
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "e4ee7ffa9240441b072db6efda4d6d47f6c17e770b0a6e8c3e6f1da38572df5a",
+      "texture_sha256": "e4ee7ffa9240441b072db6efda4d6d47f6c17e770b0a6e8c3e6f1da38572df5a",
+      "texture_size": [
+        15,
+        28
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3989@74,38",
+      "cell": [
+        74,
+        38
+      ],
+      "source_cell": [
+        -406,
+        1,
+        4,
+        3989
+      ],
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 38,
+      "stable_source_order": 7438,
+      "frame_index": 3989,
+      "visible_pixel_count": 862,
+      "nonzero_rgba_pixel_count": 862,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3989.png",
+      "raw_rect": [
+        1091,
+        1002,
+        58,
+        30
+      ],
+      "world_top_left": [
+        3535.5944152862944,
+        1216.2399263382513
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "77185d0dc86e99f14ae5ba9add6d8eb98388fdfa56abbcff9c8aee0e55df9661",
+      "texture_sha256": "77185d0dc86e99f14ae5ba9add6d8eb98388fdfa56abbcff9c8aee0e55df9661",
+      "texture_size": [
+        58,
+        30
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3966@61,32",
+      "cell": [
+        61,
+        32
+      ],
+      "source_cell": [
+        0,
+        0,
+        4,
+        3966
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 32,
+      "stable_source_order": 6132,
+      "frame_index": 3966,
+      "visible_pixel_count": 0,
+      "nonzero_rgba_pixel_count": 0,
+      "empty": true,
+      "texture_size": null,
+      "texture_sha256": null,
+      "texture": null,
+      "raw_rect": null,
+      "world_top_left": null,
+      "scale": 0.4841293148972399,
+      "empty_reason": "Owner identity retained and original suppressed, but no candidate material belongs here; do not invent grass/apron.",
+      "empty_identity_binding_sha256": "ed0087dde19f5206beb9ba617796e185e17650f9c3f7fca1ce7a9b65669d2085"
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3967@62,33",
+      "cell": [
+        62,
+        33
+      ],
+      "source_cell": [
+        0,
+        -1,
+        4,
+        3967
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 33,
+      "stable_source_order": 6233,
+      "frame_index": 3967,
+      "visible_pixel_count": 19,
+      "nonzero_rgba_pixel_count": 19,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3967.png",
+      "raw_rect": [
+        0,
+        115,
+        4,
+        202
+      ],
+      "world_top_left": [
+        3007.409332733406,
+        786.8172240243995
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "40c271540249c9981ae4340564cbf42d359957b7389d3b1b9ea12d588e6d9f8f",
+      "texture_sha256": "40c271540249c9981ae4340564cbf42d359957b7389d3b1b9ea12d588e6d9f8f",
+      "texture_size": [
+        4,
+        202
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3968@66,33",
+      "cell": [
+        66,
+        33
+      ],
+      "source_cell": [
+        0,
+        -1,
+        4,
+        3968
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 33,
+      "stable_source_order": 6633,
+      "frame_index": 3968,
+      "visible_pixel_count": 54264,
+      "nonzero_rgba_pixel_count": 54311,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3968.png",
+      "raw_rect": [
+        332,
+        107,
+        99,
+        638
+      ],
+      "world_top_left": [
+        3168.1402652792895,
+        782.9441895052216
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "5c3bcf8d4afe72c74d588f8f9d763f292d8a6903f109447ae799221f02291e0d",
+      "texture_sha256": "5c3bcf8d4afe72c74d588f8f9d763f292d8a6903f109447ae799221f02291e0d",
+      "texture_size": [
+        99,
+        638
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3969@63,34",
+      "cell": [
+        63,
+        34
+      ],
+      "source_cell": [
+        0,
+        -1,
+        4,
+        3969
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 34,
+      "stable_source_order": 6334,
+      "frame_index": 3969,
+      "visible_pixel_count": 20409,
+      "nonzero_rgba_pixel_count": 20543,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3969.png",
+      "raw_rect": [
+        0,
+        162,
+        133,
+        747
+      ],
+      "world_top_left": [
+        3007.409332733406,
+        809.5713018245698
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "9af2836b77f74c97ca3a7c4a09f504bacdde8cdf0e173312fe52944943d1062c",
+      "texture_sha256": "9af2836b77f74c97ca3a7c4a09f504bacdde8cdf0e173312fe52944943d1062c",
+      "texture_size": [
+        133,
+        747
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3970@65,34",
+      "cell": [
+        65,
+        34
+      ],
+      "source_cell": [
+        0,
+        -1,
+        4,
+        3970
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 34,
+      "stable_source_order": 6534,
+      "frame_index": 3970,
+      "visible_pixel_count": 56919,
+      "nonzero_rgba_pixel_count": 56937,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3970.png",
+      "raw_rect": [
+        233,
+        106,
+        107,
+        805
+      ],
+      "world_top_left": [
+        3120.211463104463,
+        782.4600601903244
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "937969a147c8389e53ee931dd0c10354f2424d97649bc73e0adb078bd05a7fd8",
+      "texture_sha256": "937969a147c8389e53ee931dd0c10354f2424d97649bc73e0adb078bd05a7fd8",
+      "texture_size": [
+        107,
+        805
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3972@73,34",
+      "cell": [
+        73,
+        34
+      ],
+      "source_cell": [
+        0,
+        0,
+        4,
+        3972
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 34,
+      "stable_source_order": 7334,
+      "frame_index": 3972,
+      "visible_pixel_count": 42906,
+      "nonzero_rgba_pixel_count": 42932,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3972.png",
+      "raw_rect": [
+        1026,
+        187,
+        99,
+        635
+      ],
+      "world_top_left": [
+        3504.126009817974,
+        821.6745346970008
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "9a8c73705728ae1e9725eb5a98371767c618486f7743da97b32761bc57da6be9",
+      "texture_sha256": "9a8c73705728ae1e9725eb5a98371767c618486f7743da97b32761bc57da6be9",
+      "texture_size": [
+        99,
+        635
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3973@64,35",
+      "cell": [
+        64,
+        35
+      ],
+      "source_cell": [
+        0,
+        -1,
+        4,
+        3973
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 35,
+      "stable_source_order": 6435,
+      "frame_index": 3973,
+      "visible_pixel_count": 47074,
+      "nonzero_rgba_pixel_count": 47143,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3973.png",
+      "raw_rect": [
+        120,
+        211,
+        191,
+        793
+      ],
+      "world_top_left": [
+        3065.504850521075,
+        833.2936382545346
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "048407117db692a2aad367c597d3532ea897ffdebffc0d0283586fcd2b672d10",
+      "texture_sha256": "048407117db692a2aad367c597d3532ea897ffdebffc0d0283586fcd2b672d10",
+      "texture_size": [
+        191,
+        793
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3977@74,35",
+      "cell": [
+        74,
+        35
+      ],
+      "source_cell": [
+        0,
+        -1,
+        4,
+        3977
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 35,
+      "stable_source_order": 7435,
+      "frame_index": 3977,
+      "visible_pixel_count": 45748,
+      "nonzero_rgba_pixel_count": 45757,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3977.png",
+      "raw_rect": [
+        1108,
+        267,
+        116,
+        631
+      ],
+      "world_top_left": [
+        3543.8246136395474,
+        860.40487988878
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "d30e217656e95fbb008a89fee9c5b022ad8f19ffdb40714b6d665b592a443cb5",
+      "texture_sha256": "d30e217656e95fbb008a89fee9c5b022ad8f19ffdb40714b6d665b592a443cb5",
+      "texture_size": [
+        116,
+        631
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3978@77,35",
+      "cell": [
+        77,
+        35
+      ],
+      "source_cell": [
+        0,
+        0,
+        4,
+        3978
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 35,
+      "stable_source_order": 7735,
+      "frame_index": 3978,
+      "visible_pixel_count": 0,
+      "nonzero_rgba_pixel_count": 0,
+      "empty": true,
+      "texture_size": null,
+      "texture_sha256": null,
+      "texture": null,
+      "raw_rect": null,
+      "world_top_left": null,
+      "scale": 0.4841293148972399,
+      "empty_reason": "Owner identity retained and original suppressed, but no candidate material belongs here; do not invent grass/apron.",
+      "empty_identity_binding_sha256": "bb2f75cff041182b54a3ecaf1197df4cba0368f8c43ae3e79a69a952197b858f"
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3983@75,36",
+      "cell": [
+        75,
+        36
+      ],
+      "source_cell": [
+        0,
+        -1,
+        4,
+        3983
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 36,
+      "stable_source_order": 7536,
+      "frame_index": 3983,
+      "visible_pixel_count": 32453,
+      "nonzero_rgba_pixel_count": 32522,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3983.png",
+      "raw_rect": [
+        1186,
+        430,
+        138,
+        555
+      ],
+      "world_top_left": [
+        3581.5867002015325,
+        939.3179582170301
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "f83b79acc6030c7de2c193d91dc2d60b5712e11b75e6a831117fbb926895fdb6",
+      "texture_sha256": "f83b79acc6030c7de2c193d91dc2d60b5712e11b75e6a831117fbb926895fdb6",
+      "texture_size": [
+        138,
+        555
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3984@76,36",
+      "cell": [
+        76,
+        36
+      ],
+      "source_cell": [
+        -406,
+        0,
+        4,
+        3984
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 36,
+      "stable_source_order": 7636,
+      "frame_index": 3984,
+      "visible_pixel_count": 1576,
+      "nonzero_rgba_pixel_count": 1587,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3984.png",
+      "raw_rect": [
+        1323,
+        429,
+        27,
+        395
+      ],
+      "world_top_left": [
+        3647.912416342454,
+        938.8338289021328
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "00b095852735002b5dda3662d9775333af20ef0a296d49b82797983154063ab7",
+      "texture_sha256": "00b095852735002b5dda3662d9775333af20ef0a296d49b82797983154063ab7",
+      "texture_size": [
+        27,
+        395
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3988@67,38",
+      "cell": [
+        67,
+        38
+      ],
+      "source_cell": [
+        0,
+        0,
+        4,
+        3988
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 38,
+      "stable_source_order": 6738,
+      "frame_index": 3988,
+      "visible_pixel_count": 80094,
+      "nonzero_rgba_pixel_count": 80127,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3988.png",
+      "raw_rect": [
+        325,
+        50,
+        205,
+        934
+      ],
+      "world_top_left": [
+        3164.751360075009,
+        755.348818556079
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "d475e82a8a7b4fda607337b6d1f45533cf34a21f6f3f4563481c89fedc3f0675",
+      "texture_sha256": "d475e82a8a7b4fda607337b6d1f45533cf34a21f6f3f4563481c89fedc3f0675",
+      "texture_size": [
+        205,
+        934
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3990@68,39",
+      "cell": [
+        68,
+        39
+      ],
+      "source_cell": [
+        0,
+        0,
+        4,
+        3990
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 39,
+      "stable_source_order": 6839,
+      "frame_index": 3990,
+      "visible_pixel_count": 91185,
+      "nonzero_rgba_pixel_count": 91244,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3990.png",
+      "raw_rect": [
+        530,
+        19,
+        99,
+        1102
+      ],
+      "world_top_left": [
+        3263.997869628943,
+        740.3408097942645
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "477ceab276fbf928212fa6c2f18baa4e41072d6108816e52f428560d44f7a086",
+      "texture_sha256": "477ceab276fbf928212fa6c2f18baa4e41072d6108816e52f428560d44f7a086",
+      "texture_size": [
+        99,
+        1102
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3991@73,39",
+      "cell": [
+        73,
+        39
+      ],
+      "source_cell": [
+        0,
+        0,
+        4,
+        3991
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 39,
+      "stable_source_order": 7339,
+      "frame_index": 3991,
+      "visible_pixel_count": 5319,
+      "nonzero_rgba_pixel_count": 5319,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3991.png",
+      "raw_rect": [
+        1026,
+        929,
+        161,
+        121
+      ],
+      "world_top_left": [
+        3504.126009817974,
+        1180.8984863507528
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "66b3c66e03abdb8d03483840da5b51d1474d13b1b97e0fb94d2a595211ecb6d6",
+      "texture_sha256": "66b3c66e03abdb8d03483840da5b51d1474d13b1b97e0fb94d2a595211ecb6d6",
+      "texture_size": [
+        161,
+        121
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3992@69,40",
+      "cell": [
+        69,
+        40
+      ],
+      "source_cell": [
+        0,
+        0,
+        4,
+        3992
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 40,
+      "stable_source_order": 6940,
+      "frame_index": 3992,
+      "visible_pixel_count": 91221,
+      "nonzero_rgba_pixel_count": 91256,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3992.png",
+      "raw_rect": [
+        629,
+        95,
+        99,
+        1024
+      ],
+      "world_top_left": [
+        3311.9266718037698,
+        777.1346377264547
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "00e0964b4a04a03a5a64e70e1f2372cd15fb17c58a13215863b8532dfbbe16e4",
+      "texture_sha256": "00e0964b4a04a03a5a64e70e1f2372cd15fb17c58a13215863b8532dfbbe16e4",
+      "texture_size": [
+        99,
+        1024
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3993@70,40",
+      "cell": [
+        70,
+        40
+      ],
+      "source_cell": [
+        -406,
+        -1,
+        4,
+        3993
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 40,
+      "stable_source_order": 7040,
+      "frame_index": 3993,
+      "visible_pixel_count": 91388,
+      "nonzero_rgba_pixel_count": 91432,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3993.png",
+      "raw_rect": [
+        728,
+        134,
+        99,
+        989
+      ],
+      "world_top_left": [
+        3359.8554739785964,
+        796.015681007447
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "12db874c2329fc3f295362ea139a367f9e09a57c5cd9ddc4798e40871f6a7970",
+      "texture_sha256": "12db874c2329fc3f295362ea139a367f9e09a57c5cd9ddc4798e40871f6a7970",
+      "texture_size": [
+        99,
+        989
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3994@71,40",
+      "cell": [
+        71,
+        40
+      ],
+      "source_cell": [
+        0,
+        -1,
+        4,
+        3994
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 40,
+      "stable_source_order": 7140,
+      "frame_index": 3994,
+      "visible_pixel_count": 89385,
+      "nonzero_rgba_pixel_count": 89430,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3994.png",
+      "raw_rect": [
+        827,
+        19,
+        100,
+        1096
+      ],
+      "world_top_left": [
+        3407.784276153423,
+        740.3408097942645
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "b1dec5c030bfff7038bf5f6e164e3470d6b8965e751ba3aea759f06982f194f5",
+      "texture_sha256": "b1dec5c030bfff7038bf5f6e164e3470d6b8965e751ba3aea759f06982f194f5",
+      "texture_size": [
+        100,
+        1096
+      ],
+      "empty": false
+    },
+    {
+      "pack": "Map/Res/Building",
+      "key": "Building:3995@72,40",
+      "cell": [
+        72,
+        40
+      ],
+      "source_cell": [
+        -406,
+        0,
+        4,
+        3995
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 40,
+      "stable_source_order": 7240,
+      "frame_index": 3995,
+      "visible_pixel_count": 63754,
+      "nonzero_rgba_pixel_count": 63813,
+      "texture": "res://assets/earth/environment/training_hall_v1/owner-3995.png",
+      "raw_rect": [
+        927,
+        80,
+        106,
+        968
+      ],
+      "world_top_left": [
+        3456.197207643147,
+        769.8726980029961
+      ],
+      "scale": 0.4841293148972399,
+      "sha256": "dec23f8de636882ea6e4ffac026d6dedf8193e5641756a23ee0f61fcd3645ab6",
+      "texture_sha256": "dec23f8de636882ea6e4ffac026d6dedf8193e5641756a23ee0f61fcd3645ab6",
+      "texture_size": [
+        106,
+        968
+      ],
+      "empty": false
+    }
+  ],
+  "noise_exclusion": {
+    "rule": "only exact28 texels in15 reviewed positive-alpha8connected components, all alpha1 and remote from alpha128 core; pixels remain drawn unchanged",
+    "whole_raw_xy": [
+      [
+        80,
+        849
+      ],
+      [
+        72,
+        855
+      ],
+      [
+        74,
+        855
+      ],
+      [
+        70,
+        856
+      ],
+      [
+        80,
+        857
+      ],
+      [
+        138,
+        859
+      ],
+      [
+        140,
+        859
+      ],
+      [
+        142,
+        859
+      ],
+      [
+        138,
+        860
+      ],
+      [
+        138,
+        861
+      ],
+      [
+        138,
+        862
+      ],
+      [
+        138,
+        863
+      ],
+      [
+        144,
+        863
+      ],
+      [
+        142,
+        864
+      ],
+      [
+        138,
+        865
+      ],
+      [
+        142,
+        865
+      ],
+      [
+        144,
+        865
+      ],
+      [
+        138,
+        866
+      ],
+      [
+        141,
+        866
+      ],
+      [
+        142,
+        866
+      ],
+      [
+        140,
+        867
+      ],
+      [
+        142,
+        867
+      ],
+      [
+        141,
+        868
+      ],
+      [
+        140,
+        869
+      ],
+      [
+        142,
+        869
+      ],
+      [
+        140,
+        871
+      ],
+      [
+        0,
+        908
+      ],
+      [
+        120,
+        1003
+      ]
+    ],
+    "components": [
+      {
+        "id": 78,
+        "size_texels": 1,
+        "max_alpha": 1,
+        "bbox_whole_raw_xyxy": [
+          80,
+          849,
+          81,
+          850
+        ]
+      },
+      {
+        "id": 79,
+        "size_texels": 1,
+        "max_alpha": 1,
+        "bbox_whole_raw_xyxy": [
+          72,
+          855,
+          73,
+          856
+        ]
+      },
+      {
+        "id": 80,
+        "size_texels": 1,
+        "max_alpha": 1,
+        "bbox_whole_raw_xyxy": [
+          74,
+          855,
+          75,
+          856
+        ]
+      },
+      {
+        "id": 81,
+        "size_texels": 1,
+        "max_alpha": 1,
+        "bbox_whole_raw_xyxy": [
+          70,
+          856,
+          71,
+          857
+        ]
+      },
+      {
+        "id": 82,
+        "size_texels": 1,
+        "max_alpha": 1,
+        "bbox_whole_raw_xyxy": [
+          80,
+          857,
+          81,
+          858
+        ]
+      },
+      {
+        "id": 84,
+        "size_texels": 5,
+        "max_alpha": 1,
+        "bbox_whole_raw_xyxy": [
+          138,
+          859,
+          139,
+          864
+        ]
+      },
+      {
+        "id": 85,
+        "size_texels": 1,
+        "max_alpha": 1,
+        "bbox_whole_raw_xyxy": [
+          140,
+          859,
+          141,
+          860
+        ]
+      },
+      {
+        "id": 86,
+        "size_texels": 1,
+        "max_alpha": 1,
+        "bbox_whole_raw_xyxy": [
+          142,
+          859,
+          143,
+          860
+        ]
+      },
+      {
+        "id": 88,
+        "size_texels": 1,
+        "max_alpha": 1,
+        "bbox_whole_raw_xyxy": [
+          144,
+          863,
+          145,
+          864
+        ]
+      },
+      {
+        "id": 89,
+        "size_texels": 9,
+        "max_alpha": 1,
+        "bbox_whole_raw_xyxy": [
+          140,
+          864,
+          143,
+          870
+        ]
+      },
+      {
+        "id": 90,
+        "size_texels": 2,
+        "max_alpha": 1,
+        "bbox_whole_raw_xyxy": [
+          138,
+          865,
+          139,
+          867
+        ]
+      },
+      {
+        "id": 91,
+        "size_texels": 1,
+        "max_alpha": 1,
+        "bbox_whole_raw_xyxy": [
+          144,
+          865,
+          145,
+          866
+        ]
+      },
+      {
+        "id": 93,
+        "size_texels": 1,
+        "max_alpha": 1,
+        "bbox_whole_raw_xyxy": [
+          140,
+          871,
+          141,
+          872
+        ]
+      },
+      {
+        "id": 96,
+        "size_texels": 1,
+        "max_alpha": 1,
+        "bbox_whole_raw_xyxy": [
+          0,
+          908,
+          1,
+          909
+        ]
+      },
+      {
+        "id": 106,
+        "size_texels": 1,
+        "max_alpha": 1,
+        "bbox_whole_raw_xyxy": [
+          120,
+          1003,
+          121,
+          1004
+        ]
+      }
+    ],
+    "all_support_positive_alpha_retained": true,
+    "all_other_upper_positive_alpha_retained": true,
+    "body_rgba_unchanged": true
+  },
+  "padding": {
+    "source_sha256": "c639ad6e35e10f3a4c61d13a38258b2db1f077cea3f757ec8e064762601cc9e6",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_sha256": "1a1caf1da97bfe4fea2c5eb39e3f30a0d542a61f9ed00e0bcc867f4b9c456638",
+    "output_size": [
+      1256,
+      1256
+    ],
+    "copy_rect_xywh": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "right_bottom_transparent_px": [
+      2,
+      2
+    ],
+    "all_original_rgba_equal": true,
+    "padding_all_rgba_zero": true,
+    "density": 4,
+    "raw_root_unchanged": [
+      523,
+      1224
+    ]
+  },
+  "provenance_sha256": {
+    "frozen_receiver_candidate": "fc61d0db6071138d0dd81b9e464a07f0a85af743a477905032f10916d9a77ef1",
+    "frozen_measurement": "0dc903c36ca309f47155feae402afa72592d5e39a26fe69090e3584c9bce60a8",
+    "frozen_parameter_records": "ea2e240a6c193165706e40db60d760bbb00ef8710395d466b67a7fa40e320f84",
+    "frozen_lingyunzi_interface": "5712ae79d6320c4278c9c35a2b81f2a2b0d68eb5afc55bd876efa5b00042bd3e",
+    "frozen_tree_interface": "61cac700b66e426ed939d776c490bcf92843a4b21b146089b4f0d92307593da2",
+    "frozen_padding_contract": "2a7288152ded77d7bab2be4bf00aa425194e823c9b111ab610a8f7f776e88338"
+  },
+  "envelope_method": "Every alpha>0 raw texel with half-texel bilinear expansion; affine projection at density4; per-texel AABB +1.8 logical (blur .8 plus safety1); fixed physical foot/root proxies included; four Ling phases union. Complete prevalidated world envelopes, never receiver-clipped."
+}
