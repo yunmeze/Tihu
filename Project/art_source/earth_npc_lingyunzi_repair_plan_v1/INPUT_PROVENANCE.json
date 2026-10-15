@@ -1,0 +1,20 @@
+{
+  "status": "proposal_only_await_parent_approval_no_call",
+  "inputs": [
+    {
+      "order": 1,
+      "path": "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_npc_lingyunzi_candidate_v1/raw-v1.png",
+      "sha256": "c416718a068d0cc63714247eb2b740d209f6d656514732d9108d99303d6330a3",
+      "role": "edit target and fixed identity/clothing"
+    },
+    {
+      "order": 2,
+      "path": "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_npc_input_plan_v1/lingyunzi/source-four-pose-4x.png",
+      "sha256": "8d141521fd8773bfcbc7fef419665e59d03057acae812e3fad60155c619802f4",
+      "role": "original full phase motion; crown not anatomy"
+    }
+  ],
+  "registration_after_repair": "one common scale; explicit fixed rigid per-phase x translation may be used only to align original canvas origin if parent approved; no phase-local y normalization or body morph; retain uncorrected evidence",
+  "phase3": "intermediate +1 logical y, not phase0 duplicate",
+  "source_boot_motion": "near zero local texture y across all phases; no shadow-derived sole motion"
+}

@@ -1,0 +1,148 @@
+{
+  "status": "hold_for_four_phase_review_no_runtime",
+  "raw_sha256": "c416718a068d0cc63714247eb2b740d209f6d656514732d9108d99303d6330a3",
+  "raw_size": [
+    2172,
+    724
+  ],
+  "raw_cell_size": [
+    543,
+    724
+  ],
+  "source_ids": [
+    113,
+    114,
+    115,
+    116
+  ],
+  "generation_calls": 1,
+  "prompt_sha256": "d729a0bb180aba685add1cfaac95ac49e82eadc7361c694a479dfb6063448df8",
+  "request_sha256": "9e4c28704c775a038e858a77c05dacc4a5aefce5e9858fed24bcaeda90c80747",
+  "raw_alpha0_pixels": 1277133,
+  "raw_alpha1_to7_pixels": 29028,
+  "raw_phase_alpha128_bbox": [
+    [
+      181,
+      110,
+      387,
+      653
+    ],
+    [
+      175,
+      142,
+      380,
+      654
+    ],
+    [
+      168,
+      153,
+      373,
+      654
+    ],
+    [
+      153,
+      110,
+      358,
+      654
+    ]
+  ],
+  "uniform_registration": {
+    "scale_raw_to_logical": 0.10728504580303931,
+    "translation_to_logical_canvas": [
+      25.129225730486077,
+      53.460134779825324
+    ],
+    "raw_pixels_per_logical": 9.320963537041905,
+    "rotation": 0,
+    "per_phase_fit": false,
+    "double_apply_source_offsets": false,
+    "density4_production_texture_created": false
+  },
+  "phase_measurements": {
+    "candidate_scalp_top_delta_logical": [
+      0.0,
+      3.433121465697258,
+      4.61325696953069,
+      0.0
+    ],
+    "candidate_visible_bottom_delta_logical": [
+      0.0,
+      0.10728504580303931,
+      0.10728504580303931,
+      0.10728504580303931
+    ],
+    "source_old_crown_top_delta": [
+      0,
+      2,
+      2,
+      1
+    ],
+    "source_alpha_bottom_delta_including_checker": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "warning": "Different identity head top is not directly homologous to old crown. Relative temporal motion is evidence; refine using face/hands/boots. Source alpha bottom is not exact sole."
+  },
+  "landmarks_phase0": [
+    {
+      "name": "visible_face_center",
+      "source_registered": [
+        55.5,
+        75.0
+      ],
+      "generated_raw": [
+        282.0,
+        195.0
+      ],
+      "residual_logical_px": 0.6301240048230224
+    },
+    {
+      "name": "overlapping_hands_center",
+      "source_registered": [
+        55.5,
+        92.0
+      ],
+      "generated_raw": [
+        284.0,
+        370.0
+      ],
+      "residual_logical_px": 1.1597648106545728
+    },
+    {
+      "name": "left_boot_lower_edge",
+      "source_registered": [
+        48.5,
+        124.0
+      ],
+      "generated_raw": [
+        215.0,
+        655.0
+      ],
+      "residual_logical_px": 0.40573847633382343
+    },
+    {
+      "name": "right_boot_lower_edge",
+      "source_registered": [
+        63.0,
+        124.0
+      ],
+      "generated_raw": [
+        356.0,
+        655.0
+      ],
+      "residual_logical_px": 0.41957896447375786
+    }
+  ],
+  "manual_uncertainty": {
+    "source_px": 2,
+    "generated_px": 8,
+    "note": "surface feature centers and boot extrema only, no skeletal claim"
+  },
+  "scope": "No runtime, no second generation, no per-phase morph, no production promotion",
+  "source_input_hashes": {
+    "art_source/earth_npc_input_plan_v1/lingyunzi/source-four-pose-4x.png": "8d141521fd8773bfcbc7fef419665e59d03057acae812e3fad60155c619802f4",
+    "art_source/earth_npc_input_plan_v1/concept-lingyunzi-disconnected-local-4x.png": "6766b3bc2eedefae906b99e726ba6ffb31c7e0b77c4c84cf7923afe132b4af0d"
+  }
+}

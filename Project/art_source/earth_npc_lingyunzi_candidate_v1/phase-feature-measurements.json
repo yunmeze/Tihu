@@ -1,0 +1,464 @@
+{
+  "method": "Exhaustive integer local RGB SSD tracking against phase0; source range +/-5px and generated +/-48rawpx. Diagnostic surface patches only, not skeleton or subpixel exactness; changed cloth/face appearance can bias minima. No artwork transforms applied.",
+  "source": {
+    "face": {
+      "roi_phase0_xyxy": [
+        53,
+        73,
+        60,
+        80
+      ],
+      "deltas": [
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 0.0,
+          "runner_up_rmse": 28.33917506804697
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "rgb_rmse": 17.63326324844938,
+          "runner_up_rmse": 25.472674434718137
+        },
+        {
+          "dx": 0,
+          "dy": 3,
+          "rgb_rmse": 20.939010885682933,
+          "runner_up_rmse": 24.927241061512916
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "rgb_rmse": 14.075114334790143,
+          "runner_up_rmse": 24.048420542984626
+        }
+      ]
+    },
+    "left_shoulder": {
+      "roi_phase0_xyxy": [
+        43,
+        76,
+        51,
+        83
+      ],
+      "deltas": [
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 0.0,
+          "runner_up_rmse": 21.711309319821144
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "rgb_rmse": 10.983212297909587,
+          "runner_up_rmse": 18.919472206471
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "rgb_rmse": 12.444400155816883,
+          "runner_up_rmse": 23.314873650383213
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "rgb_rmse": 9.660609760899202,
+          "runner_up_rmse": 22.02703966016487
+        }
+      ]
+    },
+    "right_shoulder": {
+      "roi_phase0_xyxy": [
+        62,
+        78,
+        69,
+        86
+      ],
+      "deltas": [
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 0.0,
+          "runner_up_rmse": 27.105833144845235
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "rgb_rmse": 17.0939281896345,
+          "runner_up_rmse": 17.529227293974184
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "rgb_rmse": 18.729909871900713,
+          "runner_up_rmse": 19.712215212183246
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "rgb_rmse": 11.663179751026814,
+          "runner_up_rmse": 23.88763378024386
+        }
+      ]
+    },
+    "hands": {
+      "roi_phase0_xyxy": [
+        51,
+        89,
+        60,
+        97
+      ],
+      "deltas": [
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 0.0,
+          "runner_up_rmse": 36.074511367035456
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "rgb_rmse": 23.84498549660564,
+          "runner_up_rmse": 27.11353017440773
+        },
+        {
+          "dx": 0,
+          "dy": 3,
+          "rgb_rmse": 30.512823655102906,
+          "runner_up_rmse": 33.02054635346728
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "rgb_rmse": 32.33376288374463,
+          "runner_up_rmse": 36.500507353145615
+        }
+      ]
+    },
+    "left_boot": {
+      "roi_phase0_xyxy": [
+        45,
+        119,
+        51,
+        125
+      ],
+      "deltas": [
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 0.0,
+          "runner_up_rmse": 33.84701420170427
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 4.685477958939056,
+          "runner_up_rmse": 33.155497840283395
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 4.685477958939056,
+          "runner_up_rmse": 32.81739601920727
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 4.0034707164881045,
+          "runner_up_rmse": 33.44910451107163
+        }
+      ]
+    },
+    "right_boot": {
+      "roi_phase0_xyxy": [
+        60,
+        119,
+        66,
+        125
+      ],
+      "deltas": [
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 0.0,
+          "runner_up_rmse": 44.46909038871832
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 19.870180524446024,
+          "runner_up_rmse": 46.13998426688232
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 26.08550754161597,
+          "runner_up_rmse": 44.90071351408655
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 20.313287021790185,
+          "runner_up_rmse": 46.66507933808352
+        }
+      ]
+    }
+  },
+  "generated": {
+    "face": {
+      "roi_phase0_xyxy": [
+        262,
+        172,
+        304,
+        218
+      ],
+      "deltas": [
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 0.0,
+          "runner_up_rmse": 14.238558299317534,
+          "logical_dx": 0.0,
+          "logical_dy": 0.0
+        },
+        {
+          "dx": -6,
+          "dy": 32,
+          "rgb_rmse": 17.456813516912277,
+          "runner_up_rmse": 18.25879350813385,
+          "logical_dx": -0.6437102748182358,
+          "logical_dy": 3.433121465697258
+        },
+        {
+          "dx": -12,
+          "dy": 44,
+          "rgb_rmse": 21.103028673288705,
+          "runner_up_rmse": 22.689113991511583,
+          "logical_dx": -1.2874205496364717,
+          "logical_dy": 4.72054201533373
+        },
+        {
+          "dx": -28,
+          "dy": 0,
+          "rgb_rmse": 10.124969646965214,
+          "runner_up_rmse": 14.733098187231937,
+          "logical_dx": -3.0039812824851007,
+          "logical_dy": 0.0
+        }
+      ]
+    },
+    "left_shoulder": {
+      "roi_phase0_xyxy": [
+        192,
+        221,
+        225,
+        256
+      ],
+      "deltas": [
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 0.0,
+          "runner_up_rmse": 16.432309004542827,
+          "logical_dx": 0.0,
+          "logical_dy": 0.0
+        },
+        {
+          "dx": -6,
+          "dy": 25,
+          "rgb_rmse": 24.75661615185006,
+          "runner_up_rmse": 25.359015234816468,
+          "logical_dx": -0.6437102748182358,
+          "logical_dy": 2.6821261450759826
+        },
+        {
+          "dx": -11,
+          "dy": 36,
+          "rgb_rmse": 25.46449300576008,
+          "runner_up_rmse": 26.090407806498146,
+          "logical_dx": -1.1801355038334325,
+          "logical_dy": 3.8622616489094153
+        },
+        {
+          "dx": -28,
+          "dy": 0,
+          "rgb_rmse": 25.183671615102433,
+          "runner_up_rmse": 25.28428836442185,
+          "logical_dx": -3.0039812824851007,
+          "logical_dy": 0.0
+        }
+      ]
+    },
+    "right_shoulder": {
+      "roi_phase0_xyxy": [
+        340,
+        220,
+        370,
+        254
+      ],
+      "deltas": [
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 0.0,
+          "runner_up_rmse": 12.78494825804095,
+          "logical_dx": 0.0,
+          "logical_dy": 0.0
+        },
+        {
+          "dx": -6,
+          "dy": 26,
+          "rgb_rmse": 18.63681962545203,
+          "runner_up_rmse": 18.902510467151824,
+          "logical_dx": -0.6437102748182358,
+          "logical_dy": 2.7894111908790222
+        },
+        {
+          "dx": -13,
+          "dy": 36,
+          "rgb_rmse": 19.498039117094947,
+          "runner_up_rmse": 20.467477789381466,
+          "logical_dx": -1.3947055954395111,
+          "logical_dy": 3.8622616489094153
+        },
+        {
+          "dx": -28,
+          "dy": 1,
+          "rgb_rmse": 19.11687479586515,
+          "runner_up_rmse": 19.644587140522162,
+          "logical_dx": -3.0039812824851007,
+          "logical_dy": 0.10728504580303931
+        }
+      ]
+    },
+    "hands": {
+      "roi_phase0_xyxy": [
+        260,
+        355,
+        305,
+        391
+      ],
+      "deltas": [
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 0.0,
+          "runner_up_rmse": 14.565504092375951,
+          "logical_dx": 0.0,
+          "logical_dy": 0.0
+        },
+        {
+          "dx": -6,
+          "dy": 16,
+          "rgb_rmse": 16.168702939089155,
+          "runner_up_rmse": 16.684040327393436,
+          "logical_dx": -0.6437102748182358,
+          "logical_dy": 1.716560732848629
+        },
+        {
+          "dx": -14,
+          "dy": 26,
+          "rgb_rmse": 17.361717026463594,
+          "runner_up_rmse": 21.1831519355814,
+          "logical_dx": -1.5019906412425503,
+          "logical_dy": 2.7894111908790222
+        },
+        {
+          "dx": -29,
+          "dy": 0,
+          "rgb_rmse": 14.331143961414886,
+          "runner_up_rmse": 16.75391975510489,
+          "logical_dx": -3.11126632828814,
+          "logical_dy": 0.0
+        }
+      ]
+    },
+    "left_boot": {
+      "roi_phase0_xyxy": [
+        202,
+        621,
+        235,
+        650
+      ],
+      "deltas": [
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 0.0,
+          "runner_up_rmse": 10.977907582675545,
+          "logical_dx": 0.0,
+          "logical_dy": 0.0
+        },
+        {
+          "dx": -6,
+          "dy": 0,
+          "rgb_rmse": 13.01222531555749,
+          "runner_up_rmse": 13.167847122459833,
+          "logical_dx": -0.6437102748182358,
+          "logical_dy": 0.0
+        },
+        {
+          "dx": -14,
+          "dy": 1,
+          "rgb_rmse": 11.742654462299754,
+          "runner_up_rmse": 12.657066152178945,
+          "logical_dx": -1.5019906412425503,
+          "logical_dy": 0.10728504580303931
+        },
+        {
+          "dx": -29,
+          "dy": 0,
+          "rgb_rmse": 9.31304706840693,
+          "runner_up_rmse": 11.210627142115655,
+          "logical_dx": -3.11126632828814,
+          "logical_dy": 0.0
+        }
+      ]
+    },
+    "right_boot": {
+      "roi_phase0_xyxy": [
+        335,
+        620,
+        369,
+        650
+      ],
+      "deltas": [
+        {
+          "dx": 0,
+          "dy": 0,
+          "rgb_rmse": 0.0,
+          "runner_up_rmse": 13.900051723230986,
+          "logical_dx": 0.0,
+          "logical_dy": 0.0
+        },
+        {
+          "dx": -6,
+          "dy": 0,
+          "rgb_rmse": 15.166806722042411,
+          "runner_up_rmse": 15.214694479501556,
+          "logical_dx": -0.6437102748182358,
+          "logical_dy": 0.0
+        },
+        {
+          "dx": -14,
+          "dy": 1,
+          "rgb_rmse": 15.113330046619085,
+          "runner_up_rmse": 16.44716237917038,
+          "logical_dx": -1.5019906412425503,
+          "logical_dy": 0.10728504580303931
+        },
+        {
+          "dx": -29,
+          "dy": 0,
+          "rgb_rmse": 14.339863993302211,
+          "runner_up_rmse": 14.658765697176072,
+          "logical_dx": -3.11126632828814,
+          "logical_dy": 0.0
+        }
+      ]
+    }
+  },
+  "generated_scale_to_logical": 0.10728504580303931
+}
