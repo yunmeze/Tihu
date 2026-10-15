@@ -1,4 +1,6 @@
-# R5 selected SE idle art preview
+# R5 selected SE idle art preview (historical acceptance)
+
+The current combined viewer is documented in `SE_IDLE_WALK_ART_PREVIEW.md`. The following records the original idle-only, two-sole-projection stage; it is not the current combined receiver configuration.
 
 Run `res://scenes/art_preview.tscn` separately. Default R1 source movement is unchanged. This viewer covers only new SE idle frames13–16. It is not a complete new character, eight-direction movement, natural game or combat integration.
 

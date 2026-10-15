@@ -1,0 +1,48 @@
+{
+  "schema": "selected-se-walk-v3",
+  "status": "bounded SE idle/walk art preview",
+  "atlas": "res://assets/scifi/hero/se_walk_v3/body.png",
+  "sha256": "7c386900fe579018ef38cf00c7e160622abebef476f3ccebd9c6fd94923bcf38",
+  "frame_size": [
+    128,
+    128
+  ],
+  "source_frames": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+  ],
+  "draw_offset": [
+    -16,
+    -64
+  ],
+  "sampling": "linear",
+  "ticks_per_frame": 7,
+  "timing_source": "reference movement adaptation, not original EXE timing proof",
+  "shadow": {
+    "mode": "fixed_receiver_line",
+    "reference": [
+      40,
+      86
+    ],
+    "slope": 0,
+    "cast": [
+      0.5304659498207885,
+      -0.3978494623655914
+    ],
+    "shared_with_idle_frames": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "limitations": [
+    "Only SE walk and idle; no run or eight-direction replacement",
+    "No platform receiver or new-game integration",
+    "Selected plane86 is native-reviewed working value, not mathematical minimax"
+  ]
+}

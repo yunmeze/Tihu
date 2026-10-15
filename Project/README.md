@@ -35,3 +35,5 @@
 此入口已有单一实例库存初始布衣、真实原地图加载脚本、STOP 与原 NPC 剧情。界面明确标记兼容 RNG，其算法并非原 VB 随机流；彩蛋鸡仅静态显示，无 AI。当前无保存、战斗或后续任务，Windows 未验证。完整事务边界见 `docs/R6_NATURAL_OPENING_CANDIDATE.md`。
 
 Temple art preview: in `scenes/art_preview.tscn`, T toggles the selected A13 main-temple v2 cutouts and F5 shows its stair with the source hero. Only 30 source Building owners are replaced; no new building cast shadow or platform receiver is claimed. See `docs/A13_TEMPLE_ART_PREVIEW.md`.
+
+The optional art preview now includes selected SE idle13–16 plus walk51–56, with one fixed ground receiver across all ten phases. M runs the bounded two-cell SE demonstration; P steps poses. See `docs/SE_IDLE_WALK_ART_PREVIEW.md` for limits and controls. Gameplay entries still use the original character.
