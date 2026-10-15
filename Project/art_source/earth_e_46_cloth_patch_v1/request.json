@@ -1,0 +1,33 @@
+{
+  "tool_arguments": {
+    "prompt": "Edit this close-up 2D sprite crop. Preserve exact 150:110 aspect ratio, framing and pixel-relative garment positions. Two local cloth repairs only: remove the central duplicated waist belt and silver belt buckle, replacing that narrow horizontal strip with matching black trouser waistband cloth, including a small 2\u20133 logical-pixel hidden upper cloth overlap. Keep the separate silver hip plate BELOW the belt unchanged. Completely remove the old hanging near glove, fingers and lower wrist at the LEFT. Do not turn that removed arm into a long sleeve or cloth tube. Reconstruct only the black trouser surface actually behind the hand; outside the plausible pants silhouette must be genuinely transparent, not filled to the hand outline. Match existing black cloth and warm upper-left light, detailed 2D art. Preserve the surrounding upper silver forearm as context only; the lower wrist/glove must disappear. No new armor, no wider hip plate, no leg or boot changes, no zoom/recenter, text, ground or shadow. Output the same entire close-up with transparent exterior.",
+    "referenced_image_paths": [
+      "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_e_46_cloth_patch_v1/input-context.png"
+    ],
+    "transparent_background": true
+  },
+  "source_cell_origin": [
+    512,
+    0
+  ],
+  "crop_cell": [
+    170,
+    210,
+    320,
+    320
+  ],
+  "inputs": [
+    {
+      "name": "input-context.png",
+      "sha256": "b84ca3f0f64c0fe0c535a3a450b60ab45438e63da614d90e31723c28622de7ab"
+    },
+    {
+      "name": "waist-mask.png",
+      "sha256": "4bb47072fcb2f215fc79461e8bfdee5cebd72c90264aeec8a0fea691777054c3"
+    },
+    {
+      "name": "hand-mask.png",
+      "sha256": "38551ba51637da0944795198ac2f7becb2aeb6a8a1155310b5edd9a3178959f1"
+    }
+  ]
+}

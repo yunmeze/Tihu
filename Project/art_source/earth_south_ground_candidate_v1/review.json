@@ -1,0 +1,185 @@
+{
+  "raw_sha256": "6f4d9054ca1eb9969171f82b9b4c7dce5dd4e3269fd814d1060f493ca8002eb2",
+  "actual_raw_size": [
+    1536,
+    1024
+  ],
+  "world_size": [
+    768,
+    512
+  ],
+  "effective_density": [
+    2,
+    2
+  ],
+  "raw_unmodified": true,
+  "generation_calls": 1,
+  "runtime_or_registration_changes": false,
+  "generated_overlap_byte_exact": false,
+  "generated_overlap_mean_abs_rgb": 23.689561631944443,
+  "generated_overlap_changed_pixels": 172008,
+  "frozen_join_old_overlap_byte_exact": true,
+  "seams": [
+    {
+      "id": "north_1",
+      "world_line": [
+        2496,
+        1472,
+        2592,
+        1472
+      ],
+      "candidate_pixel_line": [
+        192,
+        128,
+        384,
+        128
+      ],
+      "boundary_mean_abs_rgb": 19.015625,
+      "old_internal_neighbor_mean_abs_rgb": 11.128472222222221,
+      "new_internal_neighbor_mean_abs_rgb": 13.125,
+      "generated_vs_frozen_overlap_mean_abs_rgb": 27.2188720703125,
+      "generated_vs_frozen_overlap_max_abs_rgb": 205
+    },
+    {
+      "id": "north_2",
+      "world_line": [
+        2592,
+        1472,
+        2688,
+        1472
+      ],
+      "candidate_pixel_line": [
+        384,
+        128,
+        576,
+        128
+      ],
+      "boundary_mean_abs_rgb": 9.4375,
+      "old_internal_neighbor_mean_abs_rgb": 6.614583333333333,
+      "new_internal_neighbor_mean_abs_rgb": 6.472222222222222,
+      "generated_vs_frozen_overlap_mean_abs_rgb": 12.01101345486111,
+      "generated_vs_frozen_overlap_max_abs_rgb": 147
+    },
+    {
+      "id": "north_3",
+      "world_line": [
+        2688,
+        1472,
+        2784,
+        1472
+      ],
+      "candidate_pixel_line": [
+        576,
+        128,
+        768,
+        128
+      ],
+      "boundary_mean_abs_rgb": 13.177083333333334,
+      "old_internal_neighbor_mean_abs_rgb": 7.732638888888889,
+      "new_internal_neighbor_mean_abs_rgb": 8.42361111111111,
+      "generated_vs_frozen_overlap_mean_abs_rgb": 12.667412651909721,
+      "generated_vs_frozen_overlap_max_abs_rgb": 167
+    },
+    {
+      "id": "north_4",
+      "world_line": [
+        2784,
+        1472,
+        2880,
+        1472
+      ],
+      "candidate_pixel_line": [
+        768,
+        128,
+        960,
+        128
+      ],
+      "boundary_mean_abs_rgb": 27.585069444444443,
+      "old_internal_neighbor_mean_abs_rgb": 10.491319444444445,
+      "new_internal_neighbor_mean_abs_rgb": 16.114583333333332,
+      "generated_vs_frozen_overlap_mean_abs_rgb": 18.553453233506943,
+      "generated_vs_frozen_overlap_max_abs_rgb": 205
+    },
+    {
+      "id": "north_5",
+      "world_line": [
+        2880,
+        1472,
+        2976,
+        1472
+      ],
+      "candidate_pixel_line": [
+        960,
+        128,
+        1152,
+        128
+      ],
+      "boundary_mean_abs_rgb": 27.06423611111111,
+      "old_internal_neighbor_mean_abs_rgb": 14.697916666666666,
+      "new_internal_neighbor_mean_abs_rgb": 17.194444444444443,
+      "generated_vs_frozen_overlap_mean_abs_rgb": 32.096286349826386,
+      "generated_vs_frozen_overlap_max_abs_rgb": 195
+    },
+    {
+      "id": "north_6",
+      "world_line": [
+        2976,
+        1472,
+        3072,
+        1472
+      ],
+      "candidate_pixel_line": [
+        1152,
+        128,
+        1344,
+        128
+      ],
+      "boundary_mean_abs_rgb": 30.305555555555557,
+      "old_internal_neighbor_mean_abs_rgb": 15.338541666666666,
+      "new_internal_neighbor_mean_abs_rgb": 18.77777777777778,
+      "generated_vs_frozen_overlap_mean_abs_rgb": 32.700032552083336,
+      "generated_vs_frozen_overlap_max_abs_rgb": 228
+    },
+    {
+      "id": "north_7",
+      "world_line": [
+        3072,
+        1472,
+        3168,
+        1472
+      ],
+      "candidate_pixel_line": [
+        1344,
+        128,
+        1536,
+        128
+      ],
+      "boundary_mean_abs_rgb": 28.12673611111111,
+      "old_internal_neighbor_mean_abs_rgb": 13.06423611111111,
+      "new_internal_neighbor_mean_abs_rgb": 21.56423611111111,
+      "generated_vs_frozen_overlap_mean_abs_rgb": 30.57986111111111,
+      "generated_vs_frozen_overlap_max_abs_rgb": 203
+    },
+    {
+      "id": "west",
+      "world_line": [
+        2496,
+        1408,
+        2496,
+        1472
+      ],
+      "candidate_pixel_line": [
+        192,
+        0,
+        192,
+        128
+      ],
+      "boundary_mean_abs_rgb": 28.807291666666668,
+      "old_internal_neighbor_mean_abs_rgb": 16.760416666666668,
+      "new_internal_neighbor_mean_abs_rgb": 20.877604166666668
+    }
+  ],
+  "metric_limit": "Adjacent-pixel RGB discontinuity and overlap RGB error are diagnostics, not geometric acceptance thresholds. Texture naturally varies. Parent visual/source-edge review required.",
+  "source_v4_registration_sha256": "146969f204793dae2cf0cc762e55c665d392062d914066037c8fe0ff38e727f1",
+  "honest_composite_path": "diagnostics/art_source/earth-south-ground-candidate-v1/REVIEW_ONLY_old7_plus_new57.png"
+}

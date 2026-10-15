@@ -1,0 +1,21 @@
+from pathlib import Path
+from PIL import Image,ImageDraw
+import numpy as np,json,hashlib,shutil
+P=Path(__file__).resolve().parent;R=P.parents[1];D=R/'diagnostics/earth_e_46_49_static_research_v1';D.mkdir(exist_ok=True,parents=True);oldp=R/'art_source/earth_e_46_cloth_patch_v1/lower46-module-RESEARCH.png';old=Image.open(oldp).convert('RGBA');polys={'old_wrist_exterior':[(187,253),(219,253),(219,260),(207,260),(187,258)],'isolated_finger_exterior':[(209,297),(219,297),(219,307),(209,307)]};m=Image.new('L',(512,512));md=ImageDraw.Draw(m)
+for poly in polys.values():md.polygon(poly,fill=255)
+m.save(P/'46-extra-transparent-cut-mask.png');a=np.array(old);sel=np.array(m)>0;b=a.copy();b[sel,3]=0;lower=Image.fromarray(b);lower.save(P/'46-lower-cleaned.png');proof0=json.loads((R/'art_source/earth_e_46_cloth_patch_v1/PROOF.json').read_text());s=proof0['lower_fixed_scale'];t=proof0['lower_translation'];L=lower.transform((512,512),Image.Transform.AFFINE,(1/(4*s),0,-t[0]/s,0,1/(4*s),-t[1]/s),resample=Image.Resampling.BICUBIC);out=Image.new('RGBA',(512,512));out.alpha_composite(L)
+refs=[R/'diagnostics/earth_e_49_cloth_patch_v1/layer49-core-back.png',R/'art_source/earth_e_46_cloth_patch_v1/arm46-rigid-HD4.png',R/'diagnostics/earth_e_49_cloth_patch_v1/layer49-core-front.png']
+for f in refs:out.alpha_composite(Image.open(f).convert('RGBA'))
+out.save(P/'46-HD4-STATIC-RESEARCH.png');out.resize((128,128),Image.Resampling.LANCZOS).save(P/'46-128-STATIC-RESEARCH.png');p49=R/'art_source/earth_e_49_farhand_patch_v1/assembled49-farhand-fixed-RESEARCH.png';shutil.copyfile(p49,P/'49-HD4-STATIC-RESEARCH.png');im49=Image.open(p49).convert('RGBA');im49.resize((128,128),Image.Resampling.LANCZOS).save(P/'49-128-STATIC-RESEARCH.png');before=Image.open(R/'art_source/earth_e_46_cloth_patch_v1/assembled46-HD4-RESEARCH.png').convert('RGBA');diff=np.any(np.array(out)!=np.array(before),axis=2);di=np.zeros((512,512,4),dtype='uint8');di[diff]=[255,0,200,255];Image.fromarray(di).save(D/'46-final-diff-support.png')
+for name,c in [('gray',(128,128,128,255)),('light',(235,235,235,255)),('dark',(20,22,26,255))]:
+ board=Image.new('RGBA',(1536,512),c)
+ for i,x in enumerate([before,out,im49]):board.alpha_composite(x,(i*512,0))
+ board.save(D/f'46-before-cleaned-49-{name}.png');board=Image.new('RGBA',(1000,650),c)
+ for i,x in enumerate([before,out]):board.alpha_composite(x.crop((105,150,205,250)).resize((500,500)),(i*500,0))
+ board.save(D/f'46-cut-joints-{name}.png');board=Image.new('RGBA',(840,420),c)
+ for i,x in enumerate([old,lower]):board.alpha_composite(x.crop((180,250,240,310)).resize((420,420),Image.Resampling.NEAREST),(i*420,0))
+ board.save(D/f'46-cut-source-detail-{name}.png')
+ov=Image.new('RGBA',old.size,(128,128,128,255));ov.alpha_composite(old);dr=ImageDraw.Draw(ov)
+for poly in polys.values():dr.line(poly+[poly[0]],fill='cyan',width=1)
+dr.rectangle((221,290,230,301),outline='yellow',width=1);ov.crop((180,245,240,315)).resize((600,700),Image.Resampling.NEAREST).save(D/'46-explicit-cuts-and-uncertain-interface.png');pv=np.zeros_like(a);pv[:]=[40,180,90,255];pv[sel]=[255,0,220,255];Image.fromarray(pv).save(D/'46-cut-pixel-provenance.png')
+j={'status':'two separate static research poses, NOT animation or source pass','logical_canvas':[128,128],'logical_root':[16,64],'HD4_canvas':[512,512],'HD4_root':[64,256],'46_cut_polygons_cell_coordinates':polys,'46_old_cell_origin':[512,0],'46_cut_nonzero_alpha_count':int((sel&(a[:,:,3]>0)).sum()),'46_outside_cut_RGBA_changes':int(np.any(a[~sel]!=b[~sel],axis=1).sum()),'46_raw_y_ge308_changes':int(np.any(a[308:]!=b[308:],axis=2).sum()),'46_final_y_ge248_changes':int(diff[248:].sum()),'49_HD4_identical_to_predecessor':hashlib.sha256(p49.read_bytes()).hexdigest()==hashlib.sha256((P/'49-HD4-STATIC-RESEARCH.png').read_bytes()).hexdigest(),'46_uncertain_attached_skin_not_cut_cell_bbox':[221,290,230,301],'46_unchanged_transform':proof0,'128_sampling':'one global 512-to128 Lanczos; no pose fit','inputs':[{'path':str(f.relative_to(R)),'sha256':hashlib.sha256(f.read_bytes()).hexdigest()} for f in [oldp,p49,*refs]]};(P/'PROOF_AND_TRANSFORMS.json').write_text(json.dumps(j,indent=2)+'\n');print({k:v for k,v in j.items() if k not in ['46_unchanged_transform','inputs']})

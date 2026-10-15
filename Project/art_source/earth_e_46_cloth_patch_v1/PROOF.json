@@ -1,0 +1,159 @@
+{
+  "raw_sha256": "cdb48341aa92ff3d11faa486d58e177648141b94b621520f63f27cdc88d90d09",
+  "raw_size": [
+    1464,
+    1074
+  ],
+  "single_uniform_patch_scale": 0.10245901639344263,
+  "mapped_height": 110.04098360655738,
+  "crop_height": 110,
+  "outside_two_masks_changed_RGBA_pixels": 0,
+  "raw_y_gt306_changed_RGBA_pixels": 0,
+  "lower_fixed_scale": 0.16173127687142191,
+  "lower_translation": [
+    -3.0501319865696956,
+    9.3690176482717
+  ],
+  "lower_rotation": 0,
+  "core_layers_unchanged": true,
+  "arm_family_scale": 0.079,
+  "arm_rotation_deg": -9.979289816720327,
+  "arm_translation": [
+    10.554390947819588,
+    27.691394003747686
+  ],
+  "actual_shoulder_anchor_logical": [
+    30.30232558139535,
+    34.84496124031008
+  ],
+  "arm_attachment_raw": [
+    230.5,
+    132.5
+  ],
+  "hand_region_proxy_raw": [
+    271.0,
+    436.5
+  ],
+  "mapped_hand_proxy": [
+    37.61520400388512,
+    57.94316172060472
+  ],
+  "source_hand_center": [
+    37.0,
+    56.0
+  ],
+  "hand_region_uncertainty": 3,
+  "arm_visible_proxy_span": 24.22818722583264,
+  "anchor_to_target_span": 22.18996411762791,
+  "leg_residuals_retained": {
+    "rear_kneecloth": {
+      "raw_cell": [
+        230,
+        331
+      ],
+      "mapped_proposed": [
+        34.14806169385734,
+        62.90207029271235
+      ],
+      "source": [
+        32,
+        65
+      ],
+      "residual": [
+        2.1480616938573434,
+        -2.0979297072876477
+      ]
+    },
+    "rear_ankle": {
+      "raw_cell": [
+        159,
+        376
+      ],
+      "mapped_proposed": [
+        22.665141035986387,
+        70.17997775192634
+      ],
+      "source": [
+        26,
+        72
+      ],
+      "residual": [
+        -3.3348589640136126,
+        -1.8200222480736556
+      ]
+    },
+    "main_kneecloth": {
+      "raw_cell": [
+        267,
+        354
+      ],
+      "mapped_proposed": [
+        40.13211893809996,
+        66.62188966075506
+      ],
+      "source": [
+        43,
+        65
+      ],
+      "residual": [
+        -2.867881061900043,
+        1.621889660755059
+      ]
+    },
+    "main_ankle": {
+      "raw_cell": [
+        259,
+        442
+      ],
+      "mapped_proposed": [
+        38.83826872312858,
+        80.85424202544019
+      ],
+      "source": [
+        40,
+        84
+      ],
+      "residual": [
+        -1.1617312768714214,
+        -3.145757974559814
+      ]
+    },
+    "left_toe": {
+      "raw_cell": [
+        184,
+        417
+      ],
+      "mapped_proposed": [
+        26.708422957771937,
+        76.81096010365465
+      ],
+      "source": [
+        31,
+        77
+      ],
+      "residual": [
+        -4.291577042228063,
+        -0.18903989634534923
+      ]
+    },
+    "right_toe": {
+      "raw_cell": [
+        312,
+        465
+      ],
+      "mapped_proposed": [
+        47.41002639731394,
+        84.57406139348288
+      ],
+      "source": [
+        48,
+        87
+      ],
+      "residual": [
+        -0.589973602686058,
+        -2.4259386065171213
+      ]
+    }
+  },
+  "not_source_passed": true
+}

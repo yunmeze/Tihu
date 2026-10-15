@@ -1,0 +1,258 @@
+{
+  "status": "two separate static research poses, NOT animation or source pass",
+  "logical_canvas": [
+    128,
+    128
+  ],
+  "logical_root": [
+    16,
+    64
+  ],
+  "HD4_canvas": [
+    512,
+    512
+  ],
+  "HD4_root": [
+    64,
+    256
+  ],
+  "46_cut_polygons_cell_coordinates": {
+    "old_wrist_exterior": [
+      [
+        187,
+        253
+      ],
+      [
+        219,
+        253
+      ],
+      [
+        219,
+        260
+      ],
+      [
+        207,
+        260
+      ],
+      [
+        187,
+        258
+      ]
+    ],
+    "isolated_finger_exterior": [
+      [
+        209,
+        297
+      ],
+      [
+        219,
+        297
+      ],
+      [
+        219,
+        307
+      ],
+      [
+        209,
+        307
+      ]
+    ]
+  },
+  "46_old_cell_origin": [
+    512,
+    0
+  ],
+  "46_cut_nonzero_alpha_count": 253,
+  "46_outside_cut_RGBA_changes": 0,
+  "46_raw_y_ge308_changes": 0,
+  "46_final_y_ge248_changes": 0,
+  "49_HD4_identical_to_predecessor": true,
+  "46_uncertain_attached_skin_not_cut_cell_bbox": [
+    221,
+    290,
+    230,
+    301
+  ],
+  "46_unchanged_transform": {
+    "raw_sha256": "cdb48341aa92ff3d11faa486d58e177648141b94b621520f63f27cdc88d90d09",
+    "raw_size": [
+      1464,
+      1074
+    ],
+    "single_uniform_patch_scale": 0.10245901639344263,
+    "mapped_height": 110.04098360655738,
+    "crop_height": 110,
+    "outside_two_masks_changed_RGBA_pixels": 0,
+    "raw_y_gt306_changed_RGBA_pixels": 0,
+    "lower_fixed_scale": 0.16173127687142191,
+    "lower_translation": [
+      -3.0501319865696956,
+      9.3690176482717
+    ],
+    "lower_rotation": 0,
+    "core_layers_unchanged": true,
+    "arm_family_scale": 0.079,
+    "arm_rotation_deg": -9.979289816720327,
+    "arm_translation": [
+      10.554390947819588,
+      27.691394003747686
+    ],
+    "actual_shoulder_anchor_logical": [
+      30.30232558139535,
+      34.84496124031008
+    ],
+    "arm_attachment_raw": [
+      230.5,
+      132.5
+    ],
+    "hand_region_proxy_raw": [
+      271.0,
+      436.5
+    ],
+    "mapped_hand_proxy": [
+      37.61520400388512,
+      57.94316172060472
+    ],
+    "source_hand_center": [
+      37.0,
+      56.0
+    ],
+    "hand_region_uncertainty": 3,
+    "arm_visible_proxy_span": 24.22818722583264,
+    "anchor_to_target_span": 22.18996411762791,
+    "leg_residuals_retained": {
+      "rear_kneecloth": {
+        "raw_cell": [
+          230,
+          331
+        ],
+        "mapped_proposed": [
+          34.14806169385734,
+          62.90207029271235
+        ],
+        "source": [
+          32,
+          65
+        ],
+        "residual": [
+          2.1480616938573434,
+          -2.0979297072876477
+        ]
+      },
+      "rear_ankle": {
+        "raw_cell": [
+          159,
+          376
+        ],
+        "mapped_proposed": [
+          22.665141035986387,
+          70.17997775192634
+        ],
+        "source": [
+          26,
+          72
+        ],
+        "residual": [
+          -3.3348589640136126,
+          -1.8200222480736556
+        ]
+      },
+      "main_kneecloth": {
+        "raw_cell": [
+          267,
+          354
+        ],
+        "mapped_proposed": [
+          40.13211893809996,
+          66.62188966075506
+        ],
+        "source": [
+          43,
+          65
+        ],
+        "residual": [
+          -2.867881061900043,
+          1.621889660755059
+        ]
+      },
+      "main_ankle": {
+        "raw_cell": [
+          259,
+          442
+        ],
+        "mapped_proposed": [
+          38.83826872312858,
+          80.85424202544019
+        ],
+        "source": [
+          40,
+          84
+        ],
+        "residual": [
+          -1.1617312768714214,
+          -3.145757974559814
+        ]
+      },
+      "left_toe": {
+        "raw_cell": [
+          184,
+          417
+        ],
+        "mapped_proposed": [
+          26.708422957771937,
+          76.81096010365465
+        ],
+        "source": [
+          31,
+          77
+        ],
+        "residual": [
+          -4.291577042228063,
+          -0.18903989634534923
+        ]
+      },
+      "right_toe": {
+        "raw_cell": [
+          312,
+          465
+        ],
+        "mapped_proposed": [
+          47.41002639731394,
+          84.57406139348288
+        ],
+        "source": [
+          48,
+          87
+        ],
+        "residual": [
+          -0.589973602686058,
+          -2.4259386065171213
+        ]
+      }
+    },
+    "not_source_passed": true
+  },
+  "128_sampling": "one global 512-to128 Lanczos; no pose fit",
+  "inputs": [
+    {
+      "path": "art_source/earth_e_46_cloth_patch_v1/lower46-module-RESEARCH.png",
+      "sha256": "94fb3fc2e74b8fb7e4db2c2f44dc3d5a0e50dcefec6bac594cacae1d114cf398"
+    },
+    {
+      "path": "art_source/earth_e_49_farhand_patch_v1/assembled49-farhand-fixed-RESEARCH.png",
+      "sha256": "c1c89fcd1e3ed2a39bce194a4bc5f1988a8277e51fc8dfca7610861127d23cbf"
+    },
+    {
+      "path": "diagnostics/earth_e_49_cloth_patch_v1/layer49-core-back.png",
+      "sha256": "50366ca52c88c1dab55b9c062652002a013cf090a7c5c2be69a1df63d34617cf"
+    },
+    {
+      "path": "art_source/earth_e_46_cloth_patch_v1/arm46-rigid-HD4.png",
+      "sha256": "fc0669cbc6defde3d09d76bb4bb6a81e4aa0b71ca92afefb98d12d00d46da0f2"
+    },
+    {
+      "path": "diagnostics/earth_e_49_cloth_patch_v1/layer49-core-front.png",
+      "sha256": "4b05b3057ee74cce64881f24ac36479441a0dc6cb950d2c39a253f4304e48256"
+    }
+  ]
+}
