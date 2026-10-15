@@ -1,0 +1,30 @@
+{
+  "status": "one authorized generation completed; geometric/native review pending",
+  "input_images": [
+    {
+      "path": "Project/diagnostics/art_source/a13-first-tree/source-composite.png",
+      "role": "sole geometry/composition reference; baked checker shadow explicitly excluded",
+      "sha256": "6680271f19e530616187070c0b8f64791bb661eb66ef66cf96d567f4342596dc"
+    }
+  ],
+  "source_contract_sha256": "9f45ad3d8dd89e68624b28786ed1e781c816be262fad4ba70df224ee875ccdb2",
+  "actual_prompt_file": "prompt.txt",
+  "prompt_sha256": "c5d8abc47ac0fedf51271788c7c24291ba295f2eea6a4adb4c54ef0fb1ce0e35",
+  "tool": "built-in imagegen",
+  "transparent_background": true,
+  "scope": "one whole golden tree; no runtime or partitions; no ground generation",
+  "generated_original_path": "/workspace/scratch/22c897619190/generated_images/exec-871dfb8e-1d98-44ff-a7c5-009658efa4a7.png",
+  "raw_sha256": "057572f4e5f7f5d48b30a4aa28d30f28842006f5b169887d6415316765569554",
+  "actual_size": [
+    1254,
+    1254
+  ],
+  "actual_mode": "RGBA",
+  "diagnostic_alpha_gt32_bbox": [
+    32,
+    15,
+    1126,
+    1238
+  ],
+  "alpha_threshold_used_for_editing": false
+}
