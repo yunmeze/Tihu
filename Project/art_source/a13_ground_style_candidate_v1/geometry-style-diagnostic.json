@@ -1,0 +1,142 @@
+{
+  "status": "assembled region style/geometry study only; not tile/runtime accepted",
+  "raw_sha256": "968d30767e40486774ab13de38f5203fa4c4765247b253d7df9e620e6301b86e",
+  "source_size": [
+    480,
+    256
+  ],
+  "raw_size": [
+    1717,
+    916
+  ],
+  "registration": {
+    "kind": "single uniform width-derived scale; zero translation; no warp/axis stretch",
+    "scale": 0.27955736750145604,
+    "translation": [
+      0,
+      0
+    ],
+    "mapped_raw_height": 256.07454863133376,
+    "height_difference_vs_source": 0.07454863133375511
+  },
+  "manual_boundary_landmarks": [
+    {
+      "id": "left_cap_corner",
+      "source_xy": [
+        192,
+        97
+      ],
+      "candidate_raw_xy": [
+        690,
+        347
+      ],
+      "source_read_uncertainty_px": 3,
+      "candidate_read_uncertainty_raw_px": 10,
+      "mapped_source_xy": [
+        192.89458357600466,
+        97.00640652300525
+      ],
+      "residual_source_px": 0.8946065157343246
+    },
+    {
+      "id": "right_cap_corner",
+      "source_xy": [
+        288,
+        99
+      ],
+      "candidate_raw_xy": [
+        1034,
+        348
+      ],
+      "source_read_uncertainty_px": 3,
+      "candidate_read_uncertainty_raw_px": 10,
+      "mapped_source_xy": [
+        289.06231799650556,
+        97.28596389050671
+      ],
+      "residual_source_px": 2.0165414229185776
+    },
+    {
+      "id": "right_upper_turn",
+      "source_xy": [
+        332,
+        126
+      ],
+      "candidate_raw_xy": [
+        1195,
+        454
+      ],
+      "source_read_uncertainty_px": 3,
+      "candidate_read_uncertainty_raw_px": 10,
+      "mapped_source_xy": [
+        334.07105416423997,
+        126.91904484566105
+      ],
+      "residual_source_px": 2.2658130504416842
+    },
+    {
+      "id": "right_lower_turn",
+      "source_xy": [
+        332,
+        195
+      ],
+      "candidate_raw_xy": [
+        1192,
+        690
+      ],
+      "source_read_uncertainty_px": 3,
+      "candidate_read_uncertainty_raw_px": 10,
+      "mapped_source_xy": [
+        333.2323820617356,
+        192.89458357600466
+      ],
+      "residual_source_px": 2.439578624376974
+    },
+    {
+      "id": "left_frame_crossing",
+      "source_xy": [
+        0,
+        225
+      ],
+      "candidate_raw_xy": [
+        0,
+        806
+      ],
+      "source_read_uncertainty_px": 3,
+      "candidate_read_uncertainty_raw_px": 10,
+      "mapped_source_xy": [
+        0.0,
+        225.32323820617358
+      ],
+      "residual_source_px": 0.3232382061735848
+    },
+    {
+      "id": "bottom_frame_crossing",
+      "source_xy": [
+        244,
+        256
+      ],
+      "candidate_raw_xy": [
+        869,
+        916
+      ],
+      "source_read_uncertainty_px": 3,
+      "candidate_read_uncertainty_raw_px": 10,
+      "mapped_source_xy": [
+        242.9353523587653,
+        256.07454863133376
+      ],
+      "residual_source_px": 1.0672544675101372
+    }
+  ],
+  "rms_source_px": 1.6929130617941939,
+  "max_source_px": 2.439578624376974,
+  "limits": [
+    "Manual centerline readings +/-3source/10raw; not exact surveyed road edges.",
+    "DiagnosticAB uses bicubic only for viewing, does not modify raw.",
+    "This generated region is not proven seamless at rectangle edges, repeated grass, or the20original tile boundaries.",
+    "Stone edging appears cleaner and somewhat more pronounced; inspect native-scale AB instead of assuming equal stone thickness.",
+    "No building, character, plant, cast or terrain runtime installed.",
+    "No tiles cropped, no semantic masks, no whole-map replacement."
+  ]
+}
