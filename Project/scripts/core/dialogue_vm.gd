@@ -27,13 +27,16 @@ static func initial_state() -> Dictionary:
 	return {"et": et, "bt": bt}
 
 
-static func execute(source: Variant, input_state: Variant, process: Variant = "START", step_budget: Variant = DEFAULT_STEP_BUDGET) -> Dictionary:
+static func execute(source: Variant, input_state: Variant, process: Variant = "START", step_budget: Variant = DEFAULT_STEP_BUDGET, context: Variant = {}) -> Dictionary:
 	if typeof(source) != TYPE_STRING:
 		return _failure("invalid_source", "Source must be a String.")
 	if typeof(process) != TYPE_STRING or not _is_name(process):
 		return _failure("invalid_process", "Process must be an ASCII identifier.")
 	if typeof(step_budget) != TYPE_INT or step_budget < 1 or step_budget > MAX_STEP_BUDGET:
 		return _failure("invalid_budget", "Step budget must be an integer from 1 to %s." % MAX_STEP_BUDGET)
+	var context_error := _validate_context(context)
+	if not context_error.is_empty():
+		return _failure("invalid_context", context_error)
 	var state_error := _validate_state(input_state)
 	if not state_error.is_empty():
 		return _failure("invalid_state", state_error)
@@ -43,7 +46,8 @@ static func execute(source: Variant, input_state: Variant, process: Variant = "S
 	var sections: Dictionary = parsed.sections
 	var page: String = process.to_upper()
 	var result := {"ok": true, "state": input_state.duplicate(true), "page": page,
-		"text": [], "buttons": [], "events": [], "closed": false, "steps": 0, "error": null}
+		"text": [], "buttons": [], "events": [], "closed": false, "steps": 0, "error": null,
+		"silent": parsed.silent or context.get("map_load", false), "random_consumed": 0}
 	# OVER is the source scripts' reserved close-button target, not a process.
 	if page == "OVER":
 		result.closed = true
@@ -69,7 +73,10 @@ static func execute(source: Variant, input_state: Variant, process: Variant = "S
 			if active:
 				if not node.condition.field.ok:
 					return _failure("unsupported_field", node.condition.field.message, node.line, page, result.steps)
-				matched = _compare(result.state[node.condition.field.bank][node.condition.field.index], node.condition.operator, node.condition.value)
+				var read := _read_field(node.condition.field, result, context)
+				if not read.ok:
+					return _failure(read.code, read.message, node.line, page, result.steps)
+				matched = _compare(read.value, node.condition.operator, node.condition.value)
 			stack.append({"parent": active, "matched": matched})
 			active = active and matched
 			continue
@@ -102,6 +109,8 @@ static func execute(source: Variant, input_state: Variant, process: Variant = "S
 				return _failure("invalid_change", change.message, node.line, page, result.steps)
 			if not change.field.ok:
 				return _failure("unsupported_field", change.field.message, node.line, page, result.steps)
+			if change.field.kind != "flag":
+				return _failure("readonly_field", "Only ET/BT fields can be changed by this kernel.", node.line, page, result.steps)
 			var old_value: int = result.state[change.field.bank][change.field.index]
 			var new_value: int = change.value
 			if change.operator == "+":
@@ -129,6 +138,12 @@ static func execute(source: Variant, input_state: Variant, process: Variant = "S
 				return _failure("invalid_tomap", move.message, node.line, page, result.steps)
 			result.events.append(move.event)
 			continue
+		if command in ["MOVE", "DELNPC", "SETMAPFLAG", "ADDMON"]:
+			var event := _map_event(command, node.args)
+			if not event.ok:
+				return _failure("invalid_map_event", event.message, node.line, page, result.steps)
+			result.events.append(event.event)
+			continue
 		return _failure("unsupported_command", "Unsupported active command: #%s" % command, node.line, page, result.steps)
 	return result
 
@@ -141,6 +156,7 @@ static func _compile(source: String) -> Dictionary:
 		return _failure("source_limit", "Source has too many lines.")
 	var sections := {"START": []}
 	var declared := {}
+	var silent := false
 	var current := "START"
 	var line_number := 0
 	for raw: String in raw_lines:
@@ -158,6 +174,11 @@ static func _compile(source: String) -> Dictionary:
 				return _failure("invalid_command", "Malformed command token.", line_number, current)
 			command = match_result.get_string(1).to_upper()
 			args = match_result.get_string(2).strip_edges()
+		if command == "NOTUI":
+			if not args.is_empty():
+				return _failure("invalid_notui", "NOTUI metadata takes no arguments.", line_number, current)
+			silent = true
+			continue
 		if command == "SUB":
 			if not _is_name(args) or args.to_upper() == "OVER":
 				return _failure("invalid_sub", "SUB needs one non-reserved process name.", line_number, current)
@@ -198,7 +219,7 @@ static func _compile(source: String) -> Dictionary:
 						return _failure("invalid_end", "END takes no arguments.", node.line, page)
 		if not stack.is_empty() and (nodes.is_empty() or nodes[-1].command != "END"):
 			return _failure("unclosed_if", "IF needs ENDIF or a terminal standalone END.", stack[-1].line, page)
-	return {"ok": true, "sections": sections}
+	return {"ok": true, "sections": sections, "silent": silent}
 
 
 static func _expression(args: String, change: bool) -> Dictionary:
@@ -218,13 +239,81 @@ static func _expression(args: String, change: bool) -> Dictionary:
 
 static func _field(name: String) -> Dictionary:
 	var key := name.to_lower()
+	if key == "rnd":
+		return {"ok": true, "kind": "random"}
+	var scalars := {"level": "level", "通关次数": "clear_count", "游戏模式": "game_mode"}
+	if scalars.has(key):
+		return {"ok": true, "kind": "scalar", "key": scalars[key]}
 	if not key.begins_with("et") and not key.begins_with("bt"):
 		return {"ok": false, "message": "Unsupported field: %s" % name}
 	var suffix := key.substr(2)
 	var index := {"ok": true, "value": 0} if suffix.is_empty() else _integer(suffix, 0, FLAG_COUNT - 1, false)
 	if not index.ok:
 		return {"ok": false, "invalid": true, "message": "ET/BT index must be decimal 0 through 29."}
-	return {"ok": true, "bank": key.substr(0, 2), "index": index.value}
+	return {"ok": true, "kind": "flag", "bank": key.substr(0, 2), "index": index.value}
+
+
+static func _read_field(field: Dictionary, result: Dictionary, context: Dictionary) -> Dictionary:
+	if field.kind == "flag":
+		return {"ok": true, "value": result.state[field.bank][field.index]}
+	if field.kind == "scalar":
+		if not result.state.has(field.key):
+			return {"ok": false, "code": "missing_state_field", "message": "Active condition requires explicit state field: %s" % field.key}
+		return {"ok": true, "value": result.state[field.key]}
+	if not context.has("rnd_values"):
+		return {"ok": false, "code": "missing_context", "message": "RND requires context.rnd_values; no global random source is used."}
+	if result.random_consumed >= context.rnd_values.size():
+		return {"ok": false, "code": "random_exhausted", "message": "RND sample sequence exhausted."}
+	var sample: int = context.rnd_values[result.random_consumed]
+	result.random_consumed += 1
+	# Inject resolved native integer draws. The native query rounds Rnd * 100;
+	# the web reference instead uses floor(sample * 100) + 1. Do not conflate them.
+	return {"ok": true, "value": sample}
+
+
+static func _validate_context(context: Variant) -> String:
+	if typeof(context) != TYPE_DICTIONARY:
+		return "Context must be a Dictionary."
+	for key: Variant in context:
+		if typeof(key) not in [TYPE_STRING, TYPE_STRING_NAME] or key not in ["rnd_values", "map_load"]:
+			return "Unknown context key; supported keys are rnd_values and map_load."
+	if context.has("map_load") and typeof(context.map_load) != TYPE_BOOL:
+		return "Context map_load must be a bool."
+	if context.has("rnd_values"):
+		if typeof(context.rnd_values) != TYPE_ARRAY or context.rnd_values.size() > MAX_STEP_BUDGET:
+			return "Context rnd_values must be an Array of at most 65536 samples."
+		for sample: Variant in context.rnd_values:
+			if typeof(sample) != TYPE_INT or sample < 0 or sample > 100:
+				return "RND samples must be resolved integers from 0 through 100; no floating-point conversion or random generation is performed."
+	return ""
+
+
+static func _map_event(command: String, args: String) -> Dictionary:
+	var pattern := "^([0-9]+)\\s+([0-9]+)$"
+	if command == "SETMAPFLAG":
+		pattern = "^([0-9]+)\\s+([0-9]+)(?:\\s+([0-9]+))?$"
+	elif command == "ADDMON":
+		pattern = "^([0-9]+)\\s+([0-9]+)\\s+(.+)$"
+	var found := RegEx.create_from_string(pattern).search(args)
+	if found == null:
+		return {"ok": false, "message": "Malformed %s arguments." % command}
+	var x := _integer(found.get_string(1), 0, FLAG_MAX, false)
+	var y := _integer(found.get_string(2), 0, FLAG_MAX, false)
+	if not x.ok or not y.ok:
+		return {"ok": false, "message": "Map-event coordinates must be decimal integers from 0 through 32767."}
+	var event := {"kind": command.to_lower(), "x": x.value, "y": y.value}
+	if command == "SETMAPFLAG":
+		var token := found.get_string(3)
+		var flag := {"ok": true, "value": 0} if token.is_empty() else _integer(token, 0, 2, false)
+		if not flag.ok:
+			return {"ok": false, "message": "SETMAPFLAG flag must be 0 (clear), 1 (block), or 2 (visible pillar)."}
+		event.flag = flag.value
+	elif command == "ADDMON":
+		var name := found.get_string(3).strip_edges()
+		if name.is_empty() or name.length() > 128:
+			return {"ok": false, "message": "ADDMON needs a monster name of 1 through 128 characters."}
+		event.name = name
+	return {"ok": true, "event": event}
 
 
 static func _button(args: String, sections: Dictionary) -> Dictionary:
@@ -287,6 +376,12 @@ static func _validate_state(state: Variant) -> String:
 		for value: Variant in state[bank]:
 			if typeof(value) != TYPE_INT or value < FLAG_MIN or value > FLAG_MAX:
 				return "ET/BT values must be signed 16-bit integers (not strings, floats, or booleans)."
+	for key: String in ["level", "clear_count", "game_mode"]:
+		if state.has(key):
+			var minimum := 1 if key == "level" else 0
+			var maximum: int = {"level": 130, "clear_count": 32767, "game_mode": 2}[key]
+			if typeof(state[key]) != TYPE_INT or state[key] < minimum or state[key] > maximum:
+				return "%s must be an explicit integer from %s through %s." % [key, minimum, maximum]
 	return ""
 
 
@@ -345,4 +440,5 @@ static func _clean(value: String) -> String:
 
 static func _failure(code: String, message: String, line: int = 0, page: String = "", steps: int = 0) -> Dictionary:
 	return {"ok": false, "state": null, "page": page, "text": [], "buttons": [], "events": [],
-		"closed": false, "steps": steps, "error": {"code": code, "message": message, "line": line, "process": page}}
+		"closed": false, "silent": false, "random_consumed": 0, "steps": steps,
+		"error": {"code": code, "message": message, "line": line, "process": page}}

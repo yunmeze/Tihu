@@ -1,5 +1,7 @@
 # Dialogue VM kernel checkpoint — 2026-10-15
 
+This records the initial kernel checkpoint. The later [four-map load-script evaluator](MAP_LOAD_VM_STAGE.md) extends its supported fields/events, adds explicit random-input context and global NOTUI metadata, and supersedes the initial unsupported-map-load boundary below.
+
 ## Scope and status
 
 `Project/scripts/core/dialogue_vm.gd` is a **pure, bounded transaction evaluator**, implemented afresh for the recovered Godot project. It is a preparatory R2 checkpoint, not a restored game story, map loader, or playable quest. It has no scene tree, file, GUI, world, inventory, combat, random-number, or save access. This stage does not modify the runtime or GUI.
