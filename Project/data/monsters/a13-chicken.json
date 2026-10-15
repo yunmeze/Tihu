@@ -1,0 +1,351 @@
+{
+  "schema": "lp-a13-monster-pilot-v1",
+  "definition_id": 508,
+  "name": "彩蛋鸡",
+  "appearance": 220,
+  "pack": "Mon/220",
+  "texture_manifest": "res://assets/original/monsters/a13-chicken/manifest.json",
+  "definition_source_offset": 118383,
+  "definition_source_length": 138,
+  "map_source": {
+    "path": "原版游戏/Data/Map/A13.lpMap",
+    "sha256": "e1cc7189fc96e04312b935422ec511a078b1fbe6259b97b9e3c279732becb3e3"
+  },
+  "load_script": "#if rnd < 5\r\n#addmon 49 53 彩蛋鸡\r\n#endif\r\n\r\n#if et0 = 1\r\n#stop\r\n#endif\r\n\r\n#if et0 = 28\r\n#move 61 39\r\n#stop\r\n#endif\r\n\r\n#if et0 > 2\r\n#if et0 < 28\r\n#delnpc 62 36\r\n#endif\r\n#endif\r\n\r\n#if et9 = 1\r\n#delnpc 78 23\r\n#setmapflag 78 22 0\r\n#setmapflag 77 24 0\r\n#setmapflag 77 25 0\r\n#setmapflag 78 25 0\r\n#setmapflag 79 25 0\r\n#setmapflag 80 25 0\r\n#setmapflag 77 23 0\r\n#setmapflag 77 22 0\r\n#endif\r\n\r\n#if level < 79\r\n#delnpc 61 70\r\n#endif\r\n\r\n#if 通关次数 = 0\r\n#delnpc 61 70\r\n#endif\r\n\r\n#if 游戏模式 = 0\r\n#delnpc 61 70\r\n#endif",
+  "load_script_sha256_utf8": "7359866fadd579b6dd92ee74d672f65c7d1065c4f67b9a007edb8053b50734f8",
+  "addmon": {
+    "cell": [
+      49,
+      53
+    ],
+    "name": "彩蛋鸡",
+    "resolved_id": 508,
+    "name_matches": 1,
+    "guard_text": "#if rnd < 5",
+    "execution_status": "not executed; RNG semantics belong to VM"
+  },
+  "actions_reference": {
+    "idle": {
+      "base": 1,
+      "count_per_direction": 4,
+      "reference_duration_seconds": 0.96,
+      "directions": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "4": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "5": [
+          21,
+          22,
+          23,
+          24
+        ],
+        "6": [
+          25,
+          26,
+          27,
+          28
+        ],
+        "7": [
+          29,
+          30,
+          31,
+          32
+        ]
+      }
+    },
+    "walk": {
+      "base": 33,
+      "count_per_direction": 6,
+      "reference_duration_seconds": 0.48,
+      "directions": {
+        "0": [
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "1": [
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ],
+        "2": [
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "3": [
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "4": [
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "5": [
+          63,
+          64,
+          65,
+          66,
+          67,
+          68
+        ],
+        "6": [
+          69,
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "7": [
+          75,
+          76,
+          77,
+          78,
+          79,
+          80
+        ]
+      }
+    },
+    "attack": {
+      "base": 81,
+      "count_per_direction": 6,
+      "reference_duration_seconds": 0.48,
+      "directions": {
+        "0": [
+          81,
+          82,
+          83,
+          84,
+          85,
+          86
+        ],
+        "1": [
+          87,
+          88,
+          89,
+          90,
+          91,
+          92
+        ],
+        "2": [
+          93,
+          94,
+          95,
+          96,
+          97,
+          98
+        ],
+        "3": [
+          99,
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "4": [
+          105,
+          106,
+          107,
+          108,
+          109,
+          110
+        ],
+        "5": [
+          111,
+          112,
+          113,
+          114,
+          115,
+          116
+        ],
+        "6": [
+          117,
+          118,
+          119,
+          120,
+          121,
+          122
+        ],
+        "7": [
+          123,
+          124,
+          125,
+          126,
+          127,
+          128
+        ]
+      }
+    },
+    "death": {
+      "base": 129,
+      "count_per_direction": 10,
+      "reference_duration_seconds": 1.2,
+      "directions": {
+        "0": [
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138
+        ],
+        "1": [
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148
+        ],
+        "2": [
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158
+        ],
+        "3": [
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168
+        ],
+        "4": [
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178
+        ],
+        "5": [
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188
+        ],
+        "6": [
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198
+        ],
+        "7": [
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208
+        ]
+      }
+    }
+  },
+  "corpse_reference_indices": [
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216
+  ],
+  "frame0": "preserved source frame, not treated as an idle action",
+  "action_schema_evidence": {
+    "path": "参考项目/src/animation.js",
+    "sha256": "9175037421eb1aead763bc2dfd07db4e3047516427da215b8308b321d519e058"
+  },
+  "timing_status": "Reference animation mapping only; not independently verified original EXE lifecycle. attackFrames50 is retained separately, not overwritten by generic reference duration.",
+  "unknowns": {
+    "native_spawn_initial_direction": null,
+    "native_spawn_layer": null,
+    "native_action_lifecycle": null
+  },
+  "runtime_integrated": false
+}
