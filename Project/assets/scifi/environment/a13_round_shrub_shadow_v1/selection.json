@@ -1,0 +1,179 @@
+{
+  "schema": "a13-round-shrub-working-shadow-selection-v1",
+  "status": "parent-selected first-screen working band cast; pilot nativeHD A/B accepted; remaining group depth/clipping/fallback closure owned by runtime",
+  "selected_at_utc": "2026-10-15T07:14:10Z",
+  "selected_variant": "limited_lower_foliage_band_B",
+  "selected_contract": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/contact-band.json",
+  "selected_contract_sha256": "5a4bd35810eec4a39554f6a7396b2cc486d5fd2c205a88b2b0a9d79d44e53b8b",
+  "comparison_contract": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/shadow.json",
+  "comparison_contract_sha256": "050057e62081d8526696e605f95b0ed61e66d1bc089d14d4e15e18bc82418584",
+  "original_AB_contracts_unchanged": true,
+  "selection_reason": "Same-field right/up lower-foliage contact design stays near the leaf base; full-crownA produced a conspicuously long rightward extension. This is deliberate2D art adaptation, not complete original-shadow recovery.",
+  "parameters": {
+    "texture": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/whole_shrub.png",
+    "texture_sha256": "b093644c662a8d42f8beee8160b4fe2b4c200257bfb7d3ac5589683069f8b469",
+    "region": [
+      0,
+      0,
+      1363,
+      1154
+    ],
+    "ground_reference": [
+      778.0,
+      1103.0
+    ],
+    "ground_slope": 0.0,
+    "actual_woody_root": null,
+    "cast_per_height": [
+      0.5304659498207885,
+      -0.3978494623655914
+    ],
+    "opacity": 0.3,
+    "blur_radius_px": 3.0,
+    "alpha_band_start_y": 900.0,
+    "alpha_band_fade_px": 64.0
+  },
+  "geometry": {
+    "raw_texture_size": [
+      1363,
+      1154
+    ],
+    "body_scale": 0.09442870632672333,
+    "raw_space_parent_contract": {
+      "helper_frame_space": "raw image pixels; density1 within a dedicated raw-space parent",
+      "helper_body_to_parent": "Transform2D.IDENTITY",
+      "raw_space_parent_basis": [
+        0.09442870632672333,
+        0,
+        0,
+        0.09442870632672333
+      ],
+      "raw_space_parent_origin": "per-instance whole_raw_world_origin plus logical camera offset",
+      "composed_mapping": "parent_transform * helper_transform * projected_raw_point; total raw-to-logical scale is exactly the body scale",
+      "hd_transform": "Apply the same outer2x world canvas as the body; do not multiply reference or scale again.",
+      "reason": "The whole high-resolution shrub uses scale.0944287. A raw-space parent preserves a well-conditioned identity helper transform and the exact total body mapping, without changing frozen helper limits.",
+      "blur_note": "3raw texels equals0.283286 logical pixels. This is an initial candidate softness, not the hero0.9logical setting."
+    },
+    "proxy_kind": "visible lower-foliage texel edge; true woody root unknown",
+    "whole_input_alpha_immutable": true,
+    "upper_crown_excluded_only_from_cast_at_render_time": true,
+    "passes_per_enabled_instance": 1,
+    "stack_fullA_and_bandB": false
+  },
+  "requested_first_screen_groups": [
+    [
+      51,
+      44
+    ],
+    [
+      57,
+      38
+    ],
+    [
+      58,
+      51
+    ],
+    [
+      64,
+      45
+    ]
+  ],
+  "acceptance_scope": {
+    "native_raster": [
+      2048,
+      1536
+    ],
+    "pilot_center_owner_cell": [
+      57,
+      38
+    ],
+    "pilot_same_position_off_full_band_review": "accepted by parent and independently inspected",
+    "pilot_body_front_back_depth": "accepted in earlier actualHD body review",
+    "body_raw_RGBA_CPU_reassembly": "all6291608bytes exact; all978043stored RGBA pixels single-owner",
+    "body_whole_four_GPU_parity": "bounded residual accepted: three physical pixels differ by max1RGB; not exact0",
+    "other_three_groups_body_shadow_depth_and_clipping": "pending runtime closure, not certified by this record",
+    "four_active_groups_one_pass_each": "pending runtime count/fallback closure",
+    "common_resource_failure_complete_source_fallback": "pending runtime closure",
+    "default_runtime": "not changed by this package"
+  },
+  "native_difference_measurement": {
+    "meaning": "same-ROI visible screenshot change only; cannot recover exact opacity or physical lighting from this",
+    "roi_physical_xyxy": [
+      520,
+      580,
+      910,
+      870
+    ],
+    "fullA_vs_off": {
+      "pixels_rgb_difference_gt2": 5313,
+      "max_rgb_difference": 60,
+      "bbox_inclusive": [
+        605,
+        740,
+        860,
+        819
+      ]
+    },
+    "bandB_vs_off": {
+      "pixels_rgb_difference_gt2": 1107,
+      "max_rgb_difference": 54,
+      "bbox_inclusive": [
+        607,
+        805,
+        789,
+        819
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "path": "/workspace/shared/legend-hd-prototype/shrub-shadow-off.png",
+      "sha256": "7a371b93015348f0d253211945f2bf00256dcb5189a3a13653af2278bd419bf6",
+      "image_size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "path": "/workspace/shared/legend-hd-prototype/shrub-shadow-full.png",
+      "sha256": "e9ee854286ccd85fc2cede09e731912ad996fea1caf8f54baae83abdd01611be",
+      "image_size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "path": "/workspace/shared/legend-hd-prototype/shrub-shadow-band.png",
+      "sha256": "fc522fa051c0ef200d4599ce6b11920636ad8494244c2477b0ecbc63a55392bd",
+      "image_size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "path": "/workspace/shared/legend-hd-prototype/shrub-shadow-ab-detail.png",
+      "sha256": "baa932980b9a6fe4a9c69d1428755c844562f5ab03281a2df27cb430fc8abe89",
+      "image_size": [
+        885,
+        245
+      ]
+    }
+  ],
+  "runtime_requirements": {
+    "passes_per_selected_instance": 1,
+    "after": "all floors",
+    "before": "all original/replacement objects and actors",
+    "alpha_input": "one whole texture, never one per owner slice",
+    "atomic_group": "Only activate a cast with its complete four-owner replacement, suppressing all four original checker-bearing source owners. A source body must never get this new cast.",
+    "failure": "A missing common texture/config disables all affected casts and restores all four source owners of each affected instance. Never leave partial body/source or duplicate checker.",
+    "diagnostic_off": "An explicit same-phase shadow-off comparison may retain the new body; this deliberate A/B is distinct from failure fallback.",
+    "scope": "Only four nominal first-screen groups; pilot57,38 first. No distant groups automatically enabled."
+  },
+  "limitations": [
+    "A fixed lower-leaf image band is a design envelope, not physical height or measured root.",
+    "The source checker is only partly exposed and cannot define a unique complete cast.",
+    "Tiny raw fringes and opaque white points remain untouched in both body and full texture.",
+    "No stairs/platform receivers or compound-building light reconstruction.",
+    "Only the four first-screen groups are candidates. No automatic far-map replacement."
+  ]
+}

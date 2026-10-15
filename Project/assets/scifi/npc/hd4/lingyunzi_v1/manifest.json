@@ -1,0 +1,270 @@
+{
+  "schema": "lp-a13-selected-npc-hd4-v1",
+  "asset_version": 1,
+  "subject": "lingyunzi",
+  "npc": {
+    "map_id": "A13",
+    "record_index": 1,
+    "name": "凌云子",
+    "cell": [
+      62,
+      36
+    ],
+    "appearance": 9,
+    "direction_slot": 1,
+    "layer": 1,
+    "sort_y": 36,
+    "stable_order": 10001,
+    "source_ids": [
+      113,
+      114,
+      115,
+      116
+    ]
+  },
+  "texture": "res://assets/scifi/npc/hd4/lingyunzi_v1/body.png",
+  "texture_sha256": "fd9bf1b5ceacfce64362bb3d15ae280979ff87deb29cf562f043fbc8662cb26b",
+  "texture_size": [
+    2048,
+    640
+  ],
+  "texture_density": 4,
+  "texture_frame_size": [
+    512,
+    640
+  ],
+  "logical_frame_size": [
+    128,
+    160
+  ],
+  "logical_draw_offset": [
+    -32,
+    -104
+  ],
+  "frames": {
+    "113": {
+      "phase": 0,
+      "logical_rect": [
+        0,
+        0,
+        128,
+        160
+      ],
+      "texture_rect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "rgba_sha256": "843b3a730592189277066df999e48b718e04c349d8df521b1cc33a9484ef8a05",
+      "original_offset_evidence": [
+        9,
+        -51
+      ],
+      "original_rgba_sha256": "2893cd1fa1f54adf51e09f301aaf75d8509513135270054a2a61d3e58d888c99"
+    },
+    "114": {
+      "phase": 1,
+      "logical_rect": [
+        128,
+        0,
+        128,
+        160
+      ],
+      "texture_rect": [
+        512,
+        0,
+        512,
+        640
+      ],
+      "rgba_sha256": "b8660da555e6d3cc1e888ab60f32646b5e172a745d574e0a797b7a2147f36523",
+      "original_offset_evidence": [
+        9,
+        -49
+      ],
+      "original_rgba_sha256": "ccca22bbdea872bf54170679138976a65fcdbddd5ccd1d940c71c227ca254818"
+    },
+    "115": {
+      "phase": 2,
+      "logical_rect": [
+        256,
+        0,
+        128,
+        160
+      ],
+      "texture_rect": [
+        1024,
+        0,
+        512,
+        640
+      ],
+      "rgba_sha256": "04b800e58f25f2e507494e1bcd8d78fbfac301b0b51ef1ea550d6af743eea93d",
+      "original_offset_evidence": [
+        9,
+        -49
+      ],
+      "original_rgba_sha256": "3583b1a5b62e8017f10b46f90d96bf422a168b9b7603eeb4b878d5cc3896f879"
+    },
+    "116": {
+      "phase": 3,
+      "logical_rect": [
+        384,
+        0,
+        128,
+        160
+      ],
+      "texture_rect": [
+        1536,
+        0,
+        512,
+        640
+      ],
+      "rgba_sha256": "13ca6823bf98307b354871a0b37768f95a2cd0e8f0fbdd98bbc42f2d3387b376",
+      "original_offset_evidence": [
+        9,
+        -50
+      ],
+      "original_rgba_sha256": "6096f6baaa6434f5ccd48aaf0300db9ff2855ca4959c7be9242b7d7611ae45c5"
+    }
+  },
+  "animation": {
+    "fps": 50,
+    "frame_ticks": 17,
+    "phase_count": 4,
+    "loop_ticks": 68,
+    "global_clock": true
+  },
+  "sampling": "linear",
+  "atomic_group": "a13-key-npcs-hd4-v1",
+  "group_members": [
+    "fangzhang_v1",
+    "lingyunzi_v1"
+  ],
+  "body_draw": {
+    "logical_destination_size": [
+      128,
+      160
+    ],
+    "logical_destination_offset": [
+      -32,
+      -104
+    ],
+    "sprite_texture_to_logical_scale": [
+      0.25,
+      0.25
+    ],
+    "centered": false,
+    "root_logical": [
+      32,
+      104
+    ],
+    "root_texture": [
+      128,
+      416
+    ],
+    "source_rectangle_field": "frames[source_id].texture_rect",
+    "no_extra_original_offset_or_crop": true,
+    "phase_refit": false
+  },
+  "shadow": {
+    "mode": "fixed_receiver_texture_density",
+    "helper": "res://scripts/art/density_alpha_ground_shadow.gd",
+    "api": "configure_density_ground_frame",
+    "caller_geometry_units": "logical_pixels",
+    "reference_coordinate_space": "frame_local",
+    "logical_ground_reference": [
+      56.0,
+      125.0
+    ],
+    "texture_ground_reference": [
+      224.0,
+      500.0
+    ],
+    "ground_slope": 0.0,
+    "cast_per_height": [
+      0.5304659498207885,
+      -0.3978494623655914
+    ],
+    "opacity": 0.3,
+    "tint_rgb": [
+      0.035,
+      0.045,
+      0.055
+    ],
+    "logical_blur_radius_px": 0.9,
+    "texture_blur_radius_px": 3.6,
+    "logical_padding_px": 1.9,
+    "texture_padding_px": 7.6,
+    "caller_region_field": "frames[source_id].logical_rect",
+    "caller_texture_density": 4,
+    "caller_logical_body_transform_basis": [
+      1.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "caller_logical_body_transform_origin_offset": [
+      -32,
+      -104
+    ],
+    "internal_texture_to_logical_basis": [
+      0.25,
+      0.0,
+      0.0,
+      0.25
+    ],
+    "conversion_owner": "density helper multiplies logical region/reference/blur/padding by4 and divides transform basis by4; origin, slope, cast, opacity unchanged",
+    "do_not_preconvert_helper_arguments": true,
+    "fixed_all_four_phases": true,
+    "compositing_passes": 1,
+    "draw_order": "after floor, before ALL normally sorted objects and bodies",
+    "full_unmodified_body_alpha": true
+  },
+  "selection": {
+    "match_all_npc_fields": true,
+    "appearance_only_override": false,
+    "world_positions_unchanged": true,
+    "normal_R6_default_changed": false,
+    "names_story_click_collision_changed": false,
+    "scope": "optional HD art-viewer pair; ordinary source entry unchanged"
+  },
+  "fallback": {
+    "mode": "original_npc_full_sprite",
+    "pack": "Npc",
+    "source_ids": [
+      113,
+      114,
+      115,
+      116
+    ],
+    "new_shadow": false,
+    "atomic_scope": "both members of a13-key-npcs-hd4-v1",
+    "on_any_prepare_or_frame_configuration_failure": "disable entire HD NPC pair; restore original complete checker-bearing NPC sprites; clear both new shadows; never keep one partial replacement",
+    "silent_legacy1x_substitution": false
+  },
+  "review_scope": {
+    "technical_density_and_true2048_GPU_verified": true,
+    "logical_pose_and_fixed_flat_grass_receiver_retained": true,
+    "final_whole_screen_style_feedback_pending": true,
+    "actual_NPC_walk_path_verified": false,
+    "stairs_platform_receivers_verified": false,
+    "physical_foot_contact_recovered": false,
+    "design_residual": "Lingyunzi gold ornament/tassel richer than source; retained"
+  },
+  "provenance_hashes_only_not_runtime_dependencies": {
+    "original_map_a13_sha256": "e1cc7189fc96e04312b935422ec511a078b1fbe6259b97b9e3c279732becb3e3",
+    "original_npc_pack_sha256": "a5c1ae8d4e87ccfa134ded0cfdd0b704c309ff3629b61082bc6382251aca6066",
+    "original_source_contract_sha256": "7e3fbbc9fbdf4601717c49c77562b6181db5341fc57e04eefd92a73e14c8ff71",
+    "generated_raw_sha256": "e8ed826d7fc5582d0a0910b8c885dee42581650a68723ac8ed8e4697f453f30f",
+    "accepted_pose_interface_sha256": "d4cb58f0ac6fe31ad43410c5c863afa8675b1cd7db11f8e67bef590cc8a15117",
+    "fixed_receiver_contract_sha256": "1a13a01fcd42742866b1fcb0cd218d06d2be366cb9d0fe2c0a3d525fd02abde1",
+    "accepted_native1x_body_sha256": "517e11d9d9661966d154d9272dfa0c643bf02e3e550d66b3172b22ed8b367c85",
+    "density4_interface_sha256": "11e79fd254d2b8d6091f3551045b87108eea747a1b25fc4e9ba5340c6f462929",
+    "density4_validation_sha256": "b7257a6e3fae3af6cb419c30fff9fde193788bd63be53daad3f308dfdb8f2f8f",
+    "density4_registration_script_sha256": "6332e17da081878320729fc286965046523558c63577965f7b1b22a408cd79e9",
+    "production_density_helper_sha256_at_promotion": "cfc61e6c2b647bee68b063c1eecd884e1ac0ffa545fc1a59b3c3af4397adaf47",
+    "direct_raw_single_sampling_pass": true,
+    "no_new_generation": true
+  },
+  "runtime_research_path_dependency": false
+}

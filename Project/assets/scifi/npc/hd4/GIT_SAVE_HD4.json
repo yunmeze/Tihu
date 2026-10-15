@@ -1,0 +1,40 @@
+{
+  "stage": "approved two-NPC HD4 ordinary assets and closed production units; old1x/raw/source registration unchanged",
+  "files": [
+    {
+      "file": "Project/assets/scifi/npc/hd4/fangzhang_v1/body.png",
+      "sha256": "d44bf2f10fa2fc82b5cb44652c6f926dff8f89c32cf6147095fe48afc90ba6c0",
+      "bytes": 58104
+    },
+    {
+      "file": "Project/assets/scifi/npc/hd4/fangzhang_v1/manifest.json",
+      "sha256": "11ee82d1422badee46538315add00ebe0d9d73ed0ec28d240cf4f3597773eebe",
+      "bytes": 7368
+    },
+    {
+      "file": "Project/assets/scifi/npc/hd4/lingyunzi_v1/body.png",
+      "sha256": "fd9bf1b5ceacfce64362bb3d15ae280979ff87deb29cf562f043fbc8662cb26b",
+      "bytes": 241101
+    },
+    {
+      "file": "Project/assets/scifi/npc/hd4/lingyunzi_v1/manifest.json",
+      "sha256": "a0be2f236fbc626a4b055b338d98931dc29205084527375d123277e7a2584945",
+      "bytes": 7361
+    },
+    {
+      "file": "Project/assets/scifi/npc/hd4/manifest.json",
+      "sha256": "f40f5dfec2961048361f73c559b5189c4993920fe60cf699d24e9f9b70c2869b",
+      "bytes": 1936
+    }
+  ],
+  "include_manifest_itself": true,
+  "checks": {
+    "body_byte_identical_to_checked_hd4": true,
+    "per_frame_rgba_hashes": true,
+    "two_exact_npc_records": true,
+    "all_res_uris_resolve_to_ordinary_assets_or_production_helper": true,
+    "logical_texture_unit_conversions": true,
+    "frozen_source_and_old1x_hashes_unchanged": true
+  },
+  "runtime_code_changes": false
+}

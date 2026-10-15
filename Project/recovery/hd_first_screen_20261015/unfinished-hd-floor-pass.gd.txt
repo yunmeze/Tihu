@@ -1,0 +1,27 @@
+extends "res://scripts/art/preview_world_pass.gd"
+var hd_tiles:Dictionary={}
+func prepare_hd() -> bool:
+	var check=preload("res://scripts/art/hd_art_resources.gd")
+	var reg=check.read_object("res://assets/scifi/environment/a13_ground_hd2x_v1/registration.json")
+	if not reg.get("placements") is Array or reg.placements.size()!=143:return false
+	var staged={}
+	for p in reg.placements:
+		if not p is Dictionary or not check.vector(p.get("cell"),2) or not check.vector(p.get("world_rect"),4):return false
+		if not check.integer(p.cell[0],0,int(map.width)-1) or not check.integer(p.cell[1],0,int(map.height)-1):return false
+		var cell=Vector2i(int(p.cell[0]),int(p.cell[1]));var order=cell.x*int(map.height)+cell.y
+		if p.get("stable_source_order")!=order or p.get("source_cell")!=map.cells[order] or staged.has(cell):return false
+		if p.world_rect!=[cell.x*48,cell.y*32,96,64] or not p.get("texture_sha256") is String:return false
+		var tex=check.texture(p.get("texture"),p.get("texture_size"),p.get("texture_sha256"))
+		if tex==null or tex.get_size()!=Vector2(192,128):return false
+		staged[cell]={"texture":tex,"rect":p.world_rect.duplicate()}
+	hd_tiles=staged
+	return true
+func _draw() -> void:
+	if not initialized:return
+	var offset=screen_origin();draw_rect(get_viewport_rect(),Color("20291f"))
+	for f in floors:
+		var cell=Vector2i(f.origin/Vector2(48,32))
+		if hd_tiles.has(cell):
+			var data=hd_tiles[cell];var r=data.rect
+			draw_texture_rect(data.texture,Rect2(Vector2(r[0],r[1])+offset,Vector2(r[2],r[3])),false)
+		else:_draw_frame(f.pack,f.index,f.origin+offset,false,0)

@@ -1,0 +1,138 @@
+extends "res://scripts/art_preview.gd"
+## Bounded first-screen art viewer. Original movement/collision and source fallback.
+const Check=preload("res://scripts/art/hd_art_resources.gd")
+const DensityShadow=preload("res://scripts/art/density_alpha_ground_shadow.gd")
+var hd_atlases:Dictionary={}
+var npc_hd:Array=[]
+var hd_shadows:Array=[]
+var hd_shadow_group=Node2D.new()
+var vegetation_casts:Array=[]
+var prefer_new_body:=true
+var npc_hd_ready:=false
+var hd_ready:=false
+var all_art:=true
+var hud_on:=true
+var preparation:Dictionary={}
+
+func _ready() -> void:
+	hd_atlases=Check.hero("res://assets/scifi/hero/hd4/manifest.json")
+	hd_ready=hd_atlases.size()==30
+	super._ready()
+	add_child(hd_shadow_group)
+	for i in 3:
+		var sh=DensityShadow.new();hd_shadow_group.add_child(sh);hd_shadows.append(sh)
+	prepare_npc_hd()
+	var floor=preload("res://scripts/art/hd_floor_pass.gd").new()
+	if floor.setup(actor) and floor.prepare_hd():
+		remove_child(worlds[0]);worlds[0].queue_free();worlds[0]=floor;add_child(floor);move_child(floor,0)
+		preparation.ground=true
+	else:floor.free();preparation.ground=false
+	install_environment("a13_second_tree_reuse_v1",[7047,6850,6950,7150,7250,7350,7450],"gold")
+	install_environment("a13_upright_tree_v1",[5955,6055,6151,6255,6355,6455,4845,4945,5041,5145,5245,5345,5361,5461,5557,5661,5761,5861],"upright")
+	install_environment("a13_round_shrub_v1",[5735,5638,5738,5838,6442,6345,6445,6545,5141,5044,5144,5244,5848,5751,5851,5951],"shrub")
+	install_environment("a13_grass_clumps_v1",[5430,5530,5426,5526,5431,5531],"none")
+	actor.position=Vector2(61,39);actor.direction=3;phase=13
+	temple_on=true;tree_on=true;npc_on=npc_hd_ready;cycling=true
+	refresh()
+	print("HD_PREVIEW_READY ",JSON.stringify(preparation)," hero30=",hd_ready," npc_pair=",npc_hd_ready)
+
+func idle_base() -> int:
+	return super.idle_base() if phase in PHASES else -100
+func selected_texture() -> Texture2D:
+	return super.selected_texture() if phase in PHASES else null
+func draw_body() -> void:
+	if not new_body:super.draw_body();return
+	var data=hd_atlases[phase];var r=data.region
+	var origin=worlds[0].screen_origin()+actor.position*Vector2(48,32)
+	body.draw_texture_rect_region(data.texture,Rect2(origin-Vector2(16,64),Vector2(128,128)),Rect2(r[0],r[1],r[2],r[3]))
+
+func refresh() -> void:
+	if worlds.size()!=3:return
+	new_body=all_art and prefer_new_body and hd_ready and hd_atlases.has(phase)
+	for w in worlds+extra_passes:
+		w.camera=actor.position;w.tick=npc_tick;w.temple_enabled=all_art and temple_on and temple_ready
+		w.tree_enabled=all_art and tree_on and tree_ready and tree_cast_ready
+		w.queue_redraw()
+	tree_shadow.visible=all_art and tree_on and tree_cast_on and tree_cast_ready and tree_shadow.configure_at(worlds[0].screen_origin())
+	shadow.visible=false
+	var desired_npc=npc_on
+	npc_on=desired_npc and all_art and npc_hd_ready
+	arrange_npcs()
+	npc_pair.visible=false
+	if npc_on:
+		for n in 2:
+			var sprite=npc_pair.bodies[n];sprite.texture=npc_hd[n];sprite.scale=Vector2(.25,.25)
+			sprite.region_rect=Rect2(0 if n==0 else ((npc_tick/17)%4)*512,0,512,640)
+	for sh in hd_shadows:sh.visible=false
+	if hd_shadows.size()==3:
+		if new_body:
+			var data=hd_atlases[phase];var r=data.region
+			var origin=worlds[0].screen_origin()+actor.position*Vector2(48,32)-Vector2(16,64)
+			var ok=hd_shadows[0].configure_density_ground_frame(data.texture,Rect2i(int(r[0])/4,0,128,128),4,Transform2D(0,origin),Vector2(40,86),0,Vector2(148.0/279,-111.0/279),.30,.9)
+			if not ok:new_body=false
+			hd_shadows[0].visible=ok and shadow_on
+		if npc_on:
+			var okay=true
+			for n in 2:
+				var cell=Vector2(64,37) if n==0 else Vector2(62,36)
+				var origin=worlds[0].screen_origin()+cell*Vector2(48,32)-Vector2(32,104)
+				okay=hd_shadows[n+1].configure_density_ground_frame(npc_hd[n],Rect2i(0 if n==0 else ((npc_tick/17)%4)*128,0,128,160),4,Transform2D(0,origin),Vector2(44,118) if n==0 else Vector2(56,125),12.0/17 if n==0 else 0,Vector2(148.0/279,-111.0/279),.30,.9) and okay
+			if not okay:
+				npc_on=false;arrange_npcs();npc_pair.visible=false
+			else:
+				for n in 2:hd_shadows[n+1].visible=npc_shadow_on
+		move_child(hd_shadow_group,3)
+	npc_on=desired_npc
+	for item in vegetation_casts:
+		item.node.position=worlds[0].screen_origin()+item.world_origin
+		item.node.visible=all_art and tree_on and tree_cast_on
+		move_child(item.node,2)
+	body.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR if new_body else CanvasItem.TEXTURE_FILTER_NEAREST
+	body.queue_redraw()
+	label.visible=hud_on
+	label.text="HD ART PREVIEW | 2048 x 1536 raster / 1024 x 768 logical | cell %s frame %d\nClick: original A* | 1 E / 2 SE / 3 S | M two-cell route | C idle | B source hero | S hero shadow\nA all art / T temple / G vegetation / H vegetation casts / J NPC / K NPC shadows / F8 HUD\n30 E/SE/S idle+walk frames; unsupported directions use source. Flat-ground casts. First-screen scope."%[actor.position,phase]
+
+func _physics_process(delta:float) -> void:
+	npc_tick+=1
+	if moving:
+		actor.step(delta);phase=actor.source_frame()
+		if actor.path.is_empty():moving=false;idle_start=1+actor.direction*4
+		refresh()
+	elif cycling:
+		ticks+=1
+		if ticks%12==0:phase=idle_start+(phase-idle_start+1)%4;refresh()
+	elif npc_tick%17==0:refresh()
+
+func handle_key(event:InputEventKey) -> void:
+	if not event.pressed or event.echo:return
+	match event.keycode:
+		KEY_A:all_art=not all_art
+		KEY_B:prefer_new_body=not prefer_new_body
+		KEY_S:shadow_on=not shadow_on
+		KEY_J:npc_on=not npc_on
+		KEY_K:npc_shadow_on=not npc_shadow_on
+		KEY_T:temple_on=not temple_on
+		KEY_G:tree_on=not tree_on
+		KEY_H:tree_cast_on=not tree_cast_on
+		KEY_F8:hud_on=not hud_on
+		_:
+			super._unhandled_input(event)
+	refresh()
+func _unhandled_input(_event:InputEvent) -> void:pass
+
+func prepare_npc_hd() -> bool:
+	var root=Check.read_object("res://assets/scifi/npc/hd4/manifest.json")
+	if not root.get("members") is Array or root.members.size()!=2:return false
+	var staged=[]
+	for n in 2:
+		var member=root.members[n]
+		if not member is Dictionary:return false
+		var reg=Check.read_object(member.get("manifest"))
+		if not reg.get("npc") is Dictionary:return false
+		if reg.npc.get("record_index")!=n or reg.npc.get("cell")!=([64,37] if n==0 else [62,36]) or reg.npc.get("appearance")!=(21 if n==0 else 9) or reg.npc.get("direction_slot")!=(2 if n==0 else 1):return false
+		if reg.get("texture_density")!=4 or reg.get("logical_frame_size")!=[128,160] or reg.get("logical_draw_offset")!=[-32,-104]:return false
+		var tex=Check.texture(reg.get("texture"),reg.get("texture_size"),reg.get("texture_sha256"))
+		if tex==null or tex.get_size()!=Vector2(512 if n==0 else 2048,640):return false
+		staged.append(tex)
+	npc_hd=staged;npc_hd_ready=true
+	return true

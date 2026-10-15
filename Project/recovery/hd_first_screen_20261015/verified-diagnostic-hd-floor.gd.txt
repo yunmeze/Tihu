@@ -1,0 +1,22 @@
+extends "res://scripts/art/preview_world_pass.gd"
+var hd_tiles:Dictionary={}
+func prepare_hd() -> bool:
+	var reg=read_json("res://assets/scifi/environment/a13_ground_hd2x_probe/registration.json")
+	if reg.get("placements",[]).size()!=143:return false
+	for p in reg.placements:
+		var cell=Vector2i(p.cell[0],p.cell[1]);var order=cell.x*int(map.height)+cell.y
+		if p.stable_source_order!=order or map.cells[order]!=p.source_cell or hd_tiles.has(cell):return false
+		if not ResourceLoader.exists(p.texture,"Texture2D"):return false
+		var tex=load(p.texture)
+		if tex.get_size()!=Vector2(192,128):return false
+		hd_tiles[cell]={"texture":tex,"rect":p.world_rect}
+	return true
+func _draw() -> void:
+	if not initialized:return
+	var offset=screen_origin();draw_rect(get_viewport_rect(),Color("20291f"))
+	for f in floors:
+		var cell=Vector2i(f.origin/Vector2(48,32))
+		if hd_tiles.has(cell):
+			var data=hd_tiles[cell];var r=data.rect
+			draw_texture_rect(data.texture,Rect2(Vector2(r[0],r[1])+offset,Vector2(r[2],r[3])),false)
+		else:_draw_frame(f.pack,f.index,f.origin+offset,false,0)

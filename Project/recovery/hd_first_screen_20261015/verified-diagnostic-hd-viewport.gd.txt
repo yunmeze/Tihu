@@ -1,0 +1,219 @@
+extends Node
+var raster=SubViewport.new()
+var display=TextureRect.new()
+var game
+func _ready() -> void:
+	get_window().content_scale_aspect=Window.CONTENT_SCALE_ASPECT_KEEP
+	get_window().size=Vector2i(1024,768);get_window().unresizable=false
+	raster.size=Vector2i(2048,1536)
+	raster.size_2d_override=Vector2i(1024,768)
+	raster.size_2d_override_stretch=true
+	raster.render_target_update_mode=SubViewport.UPDATE_ALWAYS
+	add_child(raster)
+	game=preload("res://scripts/diagnostics/hd_art_game.gd").new();raster.add_child(game)
+	game.actor.position=Vector2(61,39);game.temple_on=true;game.tree_on=true;game.npc_on=true;game.refresh();game.label.visible=false
+	display.expand_mode=TextureRect.EXPAND_IGNORE_SIZE;display.texture=raster.get_texture();display.size=Vector2(1024,768);display.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR;add_child(display)
+	get_window().unresizable=false
+	get_viewport().size_changed.connect(fit_display)
+	fit_display()
+	if "complete" in OS.get_cmdline_user_args():
+		game.use_hd=true;game.use_hd_npc=true;game.use_hd_shadows=true
+		game.install_hd_floor();game.install_second_tree();game.install_first_shrub();game.install_remaining_shrubs();game.install_shrub_bands();game.install_upright_instances()
+		await grass_parity()
+		game.install_grass();game.actor.position=Vector2(61,39);game.refresh();game.label.visible=false
+		await RenderingServer.frame_post_draw
+		raster.get_texture().get_image().save_png("/workspace/shared/legend-hd-prototype/actual2048-first-screen-complete-candidate.png")
+		for n in 2:
+			var sprite=game.npc_pair.bodies[n]
+			print("HD_COMPLETE_NPC_TEXTURE ",n," path=",sprite.texture.resource_path," sha=",FileAccess.get_sha256(sprite.texture.resource_path)," size=",sprite.texture.get_size()," region=",sprite.region_rect," scale=",sprite.scale," visible=",sprite.is_visible_in_tree()," source_cut=",game.worlds[1].npc_cut_mode)
+		print("HD_FIRST_SCREEN_ALL_CURRENT_ASSETS_CAPTURED")
+		return
+	if "upright" in OS.get_cmdline_user_args():
+		game.use_hd=true;game.use_hd_npc=true;game.use_hd_shadows=true
+		game.install_hd_floor();game.install_second_tree();game.install_first_shrub();game.install_remaining_shrubs();game.install_upright();game.refresh();game.label.visible=false
+		await upright_cast_and_route()
+		return
+	assert(raster.get_visible_rect().size==Vector2(1024,768))
+	assert(raster.get_stretch_transform().x==Vector2(2,0))
+	var logic=Vector2(512,384);var physical=logic*2
+	assert(raster.get_stretch_transform().affine_inverse()*physical==logic)
+	var cell=game.worlds[0].to_cell(logic)
+	assert(game.worlds[0].to_cell(raster.get_stretch_transform().affine_inverse()*physical)==cell)
+	print("HD_VIEWPORT_CONTRACT raster2048x1536 logical1024x768 scale2 input_inverse=",cell," collision_hash_unchanged=true")
+	await RenderingServer.frame_post_draw
+	var im=raster.get_texture().get_image();assert(im.get_size()==Vector2i(2048,1536));im.save_png("/workspace/shared/legend-hd-prototype/actual2048-low-density-assets-baseline.png")
+	print("HD_GPU_DIRECT2048_BASELINE low_density_hero_NPC_pending")
+	game.use_hd=true;game.refresh();game.label.visible=false
+	await RenderingServer.frame_post_draw
+	im=raster.get_texture().get_image();assert(im.get_size()==Vector2i(2048,1536));im.save_png("/workspace/shared/legend-hd-prototype/actual2048-hero-HD4-body-only.png")
+	print("HD_GPU_DIRECT2048_HERO_RAW_DENSITY4 body_only_pending_HD_shadow_NPC_floor")
+	game.install_hd_floor();game.install_second_tree();game.label.visible=false
+	await RenderingServer.frame_post_draw
+	im=raster.get_texture().get_image();assert(im.get_size()==Vector2i(2048,1536));im.save_png("/workspace/shared/legend-hd-prototype/actual2048-hero-and-floor-HD.png")
+	print("HD_GPU_DIRECT2048_HERO_AND_143_FLOOR_PENDING_NPC_SHADOW")
+	game.use_hd_npc=true;game.refresh();game.label.visible=false
+	await RenderingServer.frame_post_draw
+	im=raster.get_texture().get_image();im.save_png("/workspace/shared/legend-hd-prototype/actual2048-hero-NPC-floor-HD.png")
+	await shrub_parity()
+	game.install_first_shrub();game.use_hd_shadows=true;game.refresh();game.label.visible=false
+	await RenderingServer.frame_post_draw
+	im=raster.get_texture().get_image();im.save_png("/workspace/shared/legend-hd-prototype/actual2048-first-shrub-HD.png")
+	print("HD_GPU_DIRECT2048_HERO_NPC_DENSITY4_SHADOW_FIRST_SHRUB_CAPTURED")
+	for pos in [Vector2(57,34),Vector2(57,37),Vector2(57,39)]:
+		game.actor.position=pos;game.refresh();game.label.visible=false
+		await RenderingServer.frame_post_draw
+		raster.get_texture().get_image().save_png("/workspace/shared/legend-hd-prototype/shrub-depth-%d-%d.png"%[pos.x,pos.y])
+	game.actor.position=Vector2(61,39);game.install_remaining_shrubs();game.refresh();game.label.visible=false
+	await RenderingServer.frame_post_draw
+	raster.get_texture().get_image().save_png("/workspace/shared/legend-hd-prototype/actual2048-four-shrubs-HD.png")
+	var covered=[]
+	for id in game.hd_atlases.keys():
+		game.phase=id;game.npc_tick=(covered.size()%4)*17;game.refresh();game.label.visible=false
+		await RenderingServer.frame_post_draw
+		assert(game.hd_shadows[0].visible)
+		covered.append(id)
+		if id in [13,15,51,54,56]:raster.get_texture().get_image().save_png("/workspace/shared/legend-hd-prototype/hd-phase-%d.png"%id)
+	game.phase=13;game.npc_tick=0;game.refresh();game.label.visible=false
+	print("HD_DENSITY_GPU_COVERAGE ",covered," NPCphase0..3 blur3.6raw")
+	for id in [1,5,21,25,29,33,39,63,69,75,81,99,13]:
+		game.phase=id;game.refresh();game.label.visible=false
+		await RenderingServer.frame_post_draw
+		assert(game.new_body==(id in game.PHASES));assert(game.hd_shadows[0].visible==game.new_body)
+	print("HD_UNSUPPORTED_ATOMIC_SOURCE_RECOVERY_PASS")
+	await density_shadow_evidence()
+	await upright_diagnostic()
+
+func _input(event:InputEvent) -> void:
+	if event is InputEventMouseButton and event.pressed and is_instance_valid(game):
+		if not Rect2(display.position,display.size).has_point(event.position):return
+		var physical=(event.position-display.position)/display.size*Vector2(raster.size)
+		var logical=raster.get_stretch_transform().affine_inverse()*physical
+		assert(logical.is_equal_approx((event.position-display.position)/display.size*Vector2(1024,768)))
+		var target=game.worlds[0].to_cell(logical)
+		print("HD_REAL_MOUSE_MAPPING display=",event.position," raster=",physical," logical=",logical," cell=",target)
+		if game.actor.can_enter(target):
+			game.moving=game.actor.request(target)
+			print("HD_REAL_CLICK_ROUTE_REQUEST ",game.moving," ",game.actor.path)
+
+func shrub_parity() -> void:
+	game.visible=false
+	var whole=Sprite2D.new();whole.texture=load("res://assets/scifi/diagnostics/shrub_hd/whole.png");whole.centered=false;whole.position=Vector2(300,300);whole.scale=Vector2.ONE*.09442870632672333;whole.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST;raster.add_child(whole)
+	await RenderingServer.frame_post_draw
+	var a=raster.get_texture().get_image();a.save_png("/workspace/shared/legend-hd-prototype/shrub-whole-GPU2x.png")
+	whole.visible=false
+	var slices:Array=[]
+	for id in [143,144,145,146]:
+		var node=Sprite2D.new();node.texture=load("res://assets/scifi/diagnostics/shrub_hd/owner-%d.png"%id);node.centered=false;node.position=whole.position;node.scale=whole.scale;node.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST;raster.add_child(node);slices.append(node)
+	await RenderingServer.frame_post_draw
+	var b=raster.get_texture().get_image();b.save_png("/workspace/shared/legend-hd-prototype/shrub-split-GPU2x.png")
+	print("SHRUB_GPU_PARITY_CAPTURED readback_max1_RGB_three_pixels_previous_run; no_exact_claim")
+	whole.queue_free()
+	for node in slices:node.queue_free()
+	game.visible=true
+
+func fit_display() -> void:
+	var available=get_viewport().get_visible_rect().size
+	var factor=min(available.x/1024.0,available.y/768.0)
+	display.size=Vector2(1024,768)*factor
+	display.position=(available-display.size)*.5
+	print("HD_LETTERBOX window=",get_window().size," outer_logical=",available," display=",display.size," origin=",display.position," raster=",raster.size)
+
+func upright_diagnostic() -> void:
+	game.visible=false
+	var whole=Sprite2D.new();whole.texture=load("res://assets/scifi/diagnostics/upright_hd/whole.png");whole.centered=false;whole.position=Vector2(300,200);whole.scale=Vector2.ONE*.22769983537655528;whole.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST;raster.add_child(whole)
+	await RenderingServer.frame_post_draw
+	raster.get_texture().get_image().save_png("/workspace/shared/legend-hd-prototype/upright-whole-GPU2x.png")
+	whole.visible=false
+	var pieces=[]
+	for id in range(299,305):
+		var piece=Sprite2D.new();piece.texture=load("res://assets/scifi/diagnostics/upright_hd/owner-%d.png"%id);piece.centered=false;piece.position=whole.position;piece.scale=whole.scale;piece.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST;raster.add_child(piece);pieces.append(piece)
+	await RenderingServer.frame_post_draw
+	raster.get_texture().get_image().save_png("/workspace/shared/legend-hd-prototype/upright-split-GPU2x.png")
+	whole.queue_free()
+	for piece in pieces:piece.queue_free()
+	game.visible=true
+	for variant in ["source","new"]:
+		if variant=="new":game.install_upright()
+		for pos in [Vector2(61,50),Vector2(61,54),Vector2(61,56)]:
+			game.actor.position=pos;game.phase=13;game.refresh();game.label.visible=false
+			await RenderingServer.frame_post_draw
+			raster.get_texture().get_image().save_png("/workspace/shared/legend-hd-prototype/upright-%s-%d-%d.png"%[variant,pos.x,pos.y])
+			print("UPRIGHT_TECH_POSE ",variant," ",pos," source_flag_walkable=",game.actor.can_enter(Vector2i(pos)))
+	game.actor.position=Vector2(61,39);game.refresh();game.label.visible=false
+	print("UPRIGHT_SIX_OWNER_DEPTH_CAPTURED")
+	await shrub_shadow_ab()
+
+func shrub_shadow_ab() -> void:
+	var parent=Node2D.new()
+	parent.position=game.worlds[0].screen_origin()+Vector2(2690.9773371104816,1138.845136921624)
+	parent.scale=Vector2.ONE*.09442870632672333
+	game.add_child(parent);game.move_child(parent,2)
+	var texture=load("res://assets/scifi/environment/a13_round_shrub_shadow_v1/whole_shrub.png")
+	var full=preload("res://scripts/art/hero_alpha_ground_shadow.gd").new()
+	var band=preload("res://scripts/art/foliage_band_ground_shadow.gd").new()
+	parent.add_child(full);parent.add_child(band)
+	assert(full.configure_ground_frame(texture,Rect2i(0,0,1363,1154),Transform2D.IDENTITY,Vector2(778,1103),0,Vector2(148.0/279,-111.0/279),.30,3))
+	assert(band.configure_foliage_band_frame(texture,Rect2i(0,0,1363,1154),Transform2D.IDENTITY,Vector2(778,1103),0,Vector2(148.0/279,-111.0/279),900,64,.30,3))
+	for mode in ["off","full","band"]:
+		full.visible=mode=="full";band.visible=mode=="band"
+		await RenderingServer.frame_post_draw
+		raster.get_texture().get_image().save_png("/workspace/shared/legend-hd-prototype/shrub-shadow-%s.png"%mode)
+	parent.visible=false
+	print("SHRUB_HD_SHADOW_A_B_OFF_CAPTURED raw_proxy_not_root")
+
+func density_shadow_evidence() -> void:
+	game.actor.position=Vector2(60,41)
+	for id in [13,54,56,9,17]:
+		game.phase=id;game.npc_tick=51;game.refresh();game.label.visible=false
+		for enabled in [false,true]:
+			game.hd_shadow_group.visible=enabled
+			await RenderingServer.frame_post_draw
+			raster.get_texture().get_image().save_png("/workspace/shared/legend-hd-prototype/density-shadow-%d-%s.png"%[id,str(enabled)])
+	for sh in game.hd_shadows:
+		print("DENSITY_REAL_UNIFORMS ",sh.configuration()," blur=",sh.material.get_shader_parameter("blur_radius_px")," global_transform=",sh.global_transform," index=",game.hd_shadow_group.get_index())
+	game.actor.position=Vector2(61,39);game.phase=13;game.npc_tick=0;game.refresh();game.label.visible=false
+
+func upright_cast_and_route() -> void:
+	var cast=preload("res://scripts/art/hero_alpha_ground_shadow.gd").new();game.add_child(cast)
+	for pos in [Vector2(61,50),Vector2(61,54)]:
+		game.actor.position=pos;game.phase=13;game.refresh();game.label.visible=false
+		var origin=game.worlds[0].screen_origin()+Vector2(2834.2110938353635,1359.0982074255403)
+		var scale_value=.22769983537655528
+		assert(cast.configure_ground_frame(load("res://assets/scifi/diagnostics/upright_hd/whole.png"),Rect2i(0,0,1218,1292),Transform2D(Vector2(scale_value,0),Vector2(0,scale_value),origin),Vector2(570,1260),0,Vector2(148.0/279,-111.0/279),.30,3))
+		game.move_child(cast,2)
+		for on in [false,true]:
+			cast.visible=on
+			await RenderingServer.frame_post_draw
+			raster.get_texture().get_image().save_png("/workspace/shared/legend-hd-prototype/upright-cast-%d-%s.png"%[pos.y,str(on)])
+	cast.visible=false
+	game.actor.position=Vector2(61,39);game.actor.stop();assert(game.actor.request(Vector2i(61,54)))
+	print("UPRIGHT_REAL_ASTAR_START ",game.actor.path)
+	var count=0
+	while not game.actor.path.is_empty():
+		await get_tree().physics_frame
+		game.actor.step(.02);game.phase=game.actor.source_frame();game.refresh();game.label.visible=false;count+=1
+		assert(count<2000)
+		if count%96==0:
+			await RenderingServer.frame_post_draw
+			raster.get_texture().get_image().save_png("/workspace/shared/legend-hd-prototype/upright-route-%04d.png"%count)
+	print("UPRIGHT_REAL_ASTAR_PASS ticks=",count," position=",game.actor.position)
+	await RenderingServer.frame_post_draw
+	raster.get_texture().get_image().save_png("/workspace/shared/legend-hd-prototype/upright-route-arrived.png")
+
+func grass_parity() -> void:
+	game.visible=false
+	var reg=game.worlds[0].read_json("res://art_source/a13_grass_clumps_candidate_v1/technical_v1/registration.json")
+	for group in reg.groups:
+		var whole=Sprite2D.new();whole.centered=false;whole.texture=load("res://assets/scifi/diagnostics/grass_hd/"+group.whole_texture.get_file());whole.position=Vector2(400,300);whole.scale=Vector2.ONE*float(group.whole_registration.scale);whole.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST;raster.add_child(whole)
+		await RenderingServer.frame_post_draw
+		raster.get_texture().get_image().save_png("/workspace/shared/legend-hd-prototype/%s-whole.png"%group.family)
+		whole.visible=false
+		var pieces=[]
+		for owner in group.owners:
+			var piece=Sprite2D.new();piece.centered=false;piece.texture=load("res://assets/scifi/diagnostics/grass_hd/"+owner.texture.get_file());piece.position=whole.position;piece.scale=whole.scale;piece.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST;raster.add_child(piece);pieces.append(piece)
+		await RenderingServer.frame_post_draw
+		raster.get_texture().get_image().save_png("/workspace/shared/legend-hd-prototype/%s-split.png"%group.family)
+		whole.queue_free()
+		for piece in pieces:piece.queue_free()
+		await get_tree().process_frame
+	game.visible=true

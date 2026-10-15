@@ -1,0 +1,868 @@
+{
+  "float32_conversion": {
+    "huge": "(inf, -inf)",
+    "tiny": "(0.0, 0.0)"
+  },
+  "results": [
+    {
+      "actual": 6,
+      "case": "baseline",
+      "expected": 6,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "records:<null>",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "records:true",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "records:7",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "records:bad",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "records:{  }",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "records:[]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "records:[<null>]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "missing:stable_source_order",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "stable_source_order:<null>",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "stable_source_order:true",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "stable_source_order:false",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "stable_source_order:bad",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "stable_source_order:{  }",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "stable_source_order:[]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "stable_source_order:[<null>]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "stable_source_order:[1]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "stable_source_order:[1, 2, 3]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "missing:source_cell",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_cell:<null>",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_cell:true",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_cell:false",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_cell:bad",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_cell:{  }",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_cell:[]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_cell:[<null>]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_cell:[1]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_cell:[1, 2, 3]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "missing:world_top_left",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "world_top_left:<null>",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "world_top_left:true",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "world_top_left:false",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "world_top_left:bad",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "world_top_left:{  }",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "world_top_left:[]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "world_top_left:[<null>]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "world_top_left:[1]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "world_top_left:[1, 2, 3]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "missing:scale",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "scale:<null>",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "scale:true",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "scale:false",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "scale:bad",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "scale:{  }",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "scale:[]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "scale:[<null>]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "scale:[1]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "scale:[1, 2, 3]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "missing:texture",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture:<null>",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture:true",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture:false",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture:bad",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture:{  }",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture:[]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture:[<null>]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture:[1]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture:[1, 2, 3]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "missing:texture_size",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_size:<null>",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_size:true",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_size:false",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_size:bad",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_size:{  }",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_size:[]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_size:[<null>]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_size:[1]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_size:[1, 2, 3]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "missing:texture_sha256",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_sha256:<null>",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_sha256:true",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_sha256:false",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_sha256:bad",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_sha256:{  }",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_sha256:[]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_sha256:[<null>]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_sha256:[1]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_sha256:[1, 2, 3]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "stable_source_order:-1",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "stable_source_order:10000",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "stable_source_order:6455.5",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "stable_source_order:inf",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "stable_source_order:-inf",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "stable_source_order:nan",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "scale:0",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "scale:-1",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "scale:4.1",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "scale:inf",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "scale:-inf",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "scale:nan",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "world_top_left:[inf, 1]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "world_top_left:[-inf, 1]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "world_top_left:[nan, 1]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "world_top_left:[\"1\", 2]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "world_top_left:[<null>, 2]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_size:[0, 1292]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_size:[-1, 1292]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_size:[1218.5, 1292]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_size:[16385, 1292]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_size:[inf, 1292]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_size:[nan, 1292]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_size:[1218, 1291]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_sha256:",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture_sha256:zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture:",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture:res://does-not-exist.png",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture:res://assets/missing.png",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture:user://bad.png",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "texture:https://example.test/a.png",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_cell:[0, 0, 2, 999]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_cell:[0, 0, 2]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_cell:[0, 0, 2, 304, 5]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_cell:[0, 0, \"2\", 304]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "duplicate_order",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 6,
+      "case": "shuffled_valid",
+      "expected": 6,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_map_cells:<null>",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_map_cells:true",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_map_cells:1",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_map_cells:bad",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_map_cells:{  }",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_map_cells:[]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 0,
+      "case": "source_map_cells:[<null>]",
+      "expected": 0,
+      "ok": true
+    },
+    {
+      "actual": 6,
+      "case": "cell:null_contract_field",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "missing_contract:cell",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "layer:null_contract_field",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "missing_contract:layer",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "sort_y:null_contract_field",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "missing_contract:sort_y",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "key:null_contract_field",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "missing_contract:key",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "pack:null_contract_field",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "missing_contract:pack",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "frame_index:null_contract_field",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "missing_contract:frame_index",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "source_cell_index:null_contract_field",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "missing_contract:source_cell_index",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "source_map_byte_offset:null_contract_field",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "missing_contract:source_map_byte_offset",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "world_top_left:huge_finite_coordinate",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "scale:underflow_scale",
+      "expected": 0,
+      "ok": false
+    },
+    {
+      "actual": 6,
+      "case": "wrong_map_id",
+      "expected": 0,
+      "ok": false
+    }
+  ],
+  "total": 143,
+  "unexpected_acceptances": 19
+}

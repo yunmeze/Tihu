@@ -1,0 +1,3069 @@
+{
+  "schema": "a13-round-shrub-selected-hd-v1",
+  "status": "parent-approved bounded first-screen HD working composition; promoted normal resources; normal-entry runtime validation separate",
+  "map": "A13",
+  "source_map_sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+  "source_manifest_sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+  "raw_sha256": "b093644c662a8d42f8beee8160b4fe2b4c200257bfb7d3ac5589683069f8b469",
+  "whole_alpha_texture": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/whole_shrub.png",
+  "whole_alpha_texture_size": [
+    1363,
+    1154
+  ],
+  "shared_texture_count": 4,
+  "owners": [
+    {
+      "key": "Plant:143@51,41",
+      "frame_id": 143,
+      "cell": [
+        51,
+        41
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        143
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 41,
+      "stable_source_order": 5141,
+      "sort_tuple": [
+        1,
+        41,
+        5141
+      ],
+      "world_rect": [
+        2449,
+        1335,
+        43,
+        9
+      ],
+      "native_source_offset": 1933088,
+      "native_source_bytes": 3128,
+      "source_map_byte_offset": 41156,
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        1,
+        1,
+        43,
+        9
+      ],
+      "original_canvas": [
+        48,
+        32
+      ],
+      "crop": [
+        1,
+        23
+      ],
+      "pack": "Map/Res/Plant",
+      "frame_index": 143,
+      "source_cell_index": 5141,
+      "source_rgba_sha256": "011f3bc4f8487f92f6a67b1dfa92cd34336a9213eb20ab909926ca2826f9b788",
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "world_top_left": [
+        2402.9773371104816,
+        1330.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "instance_center_owner_cell": [
+        51,
+        44
+      ],
+      "actual_woody_root": null,
+      "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-143.png",
+      "texture_sha256": "05376646abcb17f6c8a07f761779d4402c1d38ff27ccd1b7d6ce7fca745fe914",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "region": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_rgba_pixels": 21509,
+      "alpha_positive_pixels": 21476,
+      "stored_support_bbox_xyxy": [
+        450,
+        25,
+        964,
+        150
+      ]
+    },
+    {
+      "key": "Plant:144@50,44",
+      "frame_id": 144,
+      "cell": [
+        50,
+        44
+      ],
+      "source_cell": [
+        -406,
+        -1,
+        2,
+        144
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 44,
+      "stable_source_order": 5044,
+      "sort_tuple": [
+        1,
+        44,
+        5044
+      ],
+      "world_rect": [
+        2407,
+        1344,
+        41,
+        93
+      ],
+      "native_source_offset": 1936216,
+      "native_source_bytes": 9272,
+      "source_map_byte_offset": 40380,
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        46,
+        1,
+        41,
+        93
+      ],
+      "original_canvas": [
+        48,
+        96
+      ],
+      "crop": [
+        7,
+        0
+      ],
+      "pack": "Map/Res/Plant",
+      "frame_index": 144,
+      "source_cell_index": 5044,
+      "source_rgba_sha256": "7666ec8d10aaf2827acdde7ae19dd570af7e18fa8e248f5f8f3827697df7741e",
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "world_top_left": [
+        2402.9773371104816,
+        1330.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "instance_center_owner_cell": [
+        51,
+        44
+      ],
+      "actual_woody_root": null,
+      "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-144.png",
+      "texture_sha256": "8026725bb18e5d50d521d8d7e5b4e626a0f0f1a17f35684f5845f20470fedc98",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "region": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_rgba_pixels": 275266,
+      "alpha_positive_pixels": 274979,
+      "stored_support_bbox_xyxy": [
+        0,
+        15,
+        487,
+        1154
+      ]
+    },
+    {
+      "key": "Plant:145@51,44",
+      "frame_id": 145,
+      "cell": [
+        51,
+        44
+      ],
+      "source_cell": [
+        0,
+        -1,
+        2,
+        145
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 44,
+      "stable_source_order": 5144,
+      "sort_tuple": [
+        1,
+        44,
+        5144
+      ],
+      "world_rect": [
+        2448,
+        1344,
+        48,
+        96
+      ],
+      "native_source_offset": 1945488,
+      "native_source_bytes": 9272,
+      "source_map_byte_offset": 41180,
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        89,
+        1,
+        48,
+        96
+      ],
+      "original_canvas": [
+        48,
+        96
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "pack": "Map/Res/Plant",
+      "frame_index": 145,
+      "source_cell_index": 5144,
+      "source_rgba_sha256": "778f6b6d24730f8a1de8df91c0ef214d10c60bb1083320f3712002ea81f43cea",
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "world_top_left": [
+        2402.9773371104816,
+        1330.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "instance_center_owner_cell": [
+        51,
+        44
+      ],
+      "actual_woody_root": null,
+      "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-145.png",
+      "texture_sha256": "5d6127a18a3110daed1fe43af85371d242536e8082e9c0d3b0bb120a989803d7",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "region": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_rgba_pixels": 476860,
+      "alpha_positive_pixels": 476762,
+      "stored_support_bbox_xyxy": [
+        466,
+        129,
+        996,
+        1130
+      ]
+    },
+    {
+      "key": "Plant:146@52,44",
+      "frame_id": 146,
+      "cell": [
+        52,
+        44
+      ],
+      "source_cell": [
+        -577,
+        -1,
+        2,
+        146
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 44,
+      "stable_source_order": 5244,
+      "sort_tuple": [
+        1,
+        44,
+        5244
+      ],
+      "world_rect": [
+        2496,
+        1344,
+        35,
+        94
+      ],
+      "native_source_offset": 1954760,
+      "native_source_bytes": 9272,
+      "source_map_byte_offset": 41980,
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        139,
+        1,
+        35,
+        94
+      ],
+      "original_canvas": [
+        48,
+        96
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "pack": "Map/Res/Plant",
+      "frame_index": 146,
+      "source_cell_index": 5244,
+      "source_rgba_sha256": "ffd74bd39f981bbe0f1dce1906188b7ec4dcb61f43f96717efe147e1bd5b4d49",
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "world_top_left": [
+        2402.9773371104816,
+        1330.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "instance_center_owner_cell": [
+        51,
+        44
+      ],
+      "actual_woody_root": null,
+      "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-146.png",
+      "texture_sha256": "a29c2517be00f8ad070ee9f2ce8ececa94ba0ac1946d47f107881568cb256f14",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "region": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_rgba_pixels": 204408,
+      "alpha_positive_pixels": 204101,
+      "stored_support_bbox_xyxy": [
+        985,
+        23,
+        1349,
+        1154
+      ]
+    },
+    {
+      "key": "Plant:143@57,35",
+      "frame_id": 143,
+      "cell": [
+        57,
+        35
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        143
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 35,
+      "stable_source_order": 5735,
+      "sort_tuple": [
+        1,
+        35,
+        5735
+      ],
+      "world_rect": [
+        2737,
+        1143,
+        43,
+        9
+      ],
+      "native_source_offset": 1933088,
+      "native_source_bytes": 3128,
+      "source_map_byte_offset": 45908,
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        1,
+        1,
+        43,
+        9
+      ],
+      "original_canvas": [
+        48,
+        32
+      ],
+      "crop": [
+        1,
+        23
+      ],
+      "pack": "Map/Res/Plant",
+      "frame_index": 143,
+      "source_cell_index": 5735,
+      "source_rgba_sha256": "011f3bc4f8487f92f6a67b1dfa92cd34336a9213eb20ab909926ca2826f9b788",
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "world_top_left": [
+        2690.9773371104816,
+        1138.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "instance_center_owner_cell": [
+        57,
+        38
+      ],
+      "actual_woody_root": null,
+      "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-143.png",
+      "texture_sha256": "05376646abcb17f6c8a07f761779d4402c1d38ff27ccd1b7d6ce7fca745fe914",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "region": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_rgba_pixels": 21509,
+      "alpha_positive_pixels": 21476,
+      "stored_support_bbox_xyxy": [
+        450,
+        25,
+        964,
+        150
+      ]
+    },
+    {
+      "key": "Plant:144@56,38",
+      "frame_id": 144,
+      "cell": [
+        56,
+        38
+      ],
+      "source_cell": [
+        -406,
+        -1,
+        2,
+        144
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 38,
+      "stable_source_order": 5638,
+      "sort_tuple": [
+        1,
+        38,
+        5638
+      ],
+      "world_rect": [
+        2695,
+        1152,
+        41,
+        93
+      ],
+      "native_source_offset": 1936216,
+      "native_source_bytes": 9272,
+      "source_map_byte_offset": 45132,
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        46,
+        1,
+        41,
+        93
+      ],
+      "original_canvas": [
+        48,
+        96
+      ],
+      "crop": [
+        7,
+        0
+      ],
+      "pack": "Map/Res/Plant",
+      "frame_index": 144,
+      "source_cell_index": 5638,
+      "source_rgba_sha256": "7666ec8d10aaf2827acdde7ae19dd570af7e18fa8e248f5f8f3827697df7741e",
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "world_top_left": [
+        2690.9773371104816,
+        1138.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "instance_center_owner_cell": [
+        57,
+        38
+      ],
+      "actual_woody_root": null,
+      "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-144.png",
+      "texture_sha256": "8026725bb18e5d50d521d8d7e5b4e626a0f0f1a17f35684f5845f20470fedc98",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "region": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_rgba_pixels": 275266,
+      "alpha_positive_pixels": 274979,
+      "stored_support_bbox_xyxy": [
+        0,
+        15,
+        487,
+        1154
+      ]
+    },
+    {
+      "key": "Plant:145@57,38",
+      "frame_id": 145,
+      "cell": [
+        57,
+        38
+      ],
+      "source_cell": [
+        0,
+        -1,
+        2,
+        145
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 38,
+      "stable_source_order": 5738,
+      "sort_tuple": [
+        1,
+        38,
+        5738
+      ],
+      "world_rect": [
+        2736,
+        1152,
+        48,
+        96
+      ],
+      "native_source_offset": 1945488,
+      "native_source_bytes": 9272,
+      "source_map_byte_offset": 45932,
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        89,
+        1,
+        48,
+        96
+      ],
+      "original_canvas": [
+        48,
+        96
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "pack": "Map/Res/Plant",
+      "frame_index": 145,
+      "source_cell_index": 5738,
+      "source_rgba_sha256": "778f6b6d24730f8a1de8df91c0ef214d10c60bb1083320f3712002ea81f43cea",
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "world_top_left": [
+        2690.9773371104816,
+        1138.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "instance_center_owner_cell": [
+        57,
+        38
+      ],
+      "actual_woody_root": null,
+      "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-145.png",
+      "texture_sha256": "5d6127a18a3110daed1fe43af85371d242536e8082e9c0d3b0bb120a989803d7",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "region": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_rgba_pixels": 476860,
+      "alpha_positive_pixels": 476762,
+      "stored_support_bbox_xyxy": [
+        466,
+        129,
+        996,
+        1130
+      ]
+    },
+    {
+      "key": "Plant:146@58,38",
+      "frame_id": 146,
+      "cell": [
+        58,
+        38
+      ],
+      "source_cell": [
+        -577,
+        -1,
+        2,
+        146
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 38,
+      "stable_source_order": 5838,
+      "sort_tuple": [
+        1,
+        38,
+        5838
+      ],
+      "world_rect": [
+        2784,
+        1152,
+        35,
+        94
+      ],
+      "native_source_offset": 1954760,
+      "native_source_bytes": 9272,
+      "source_map_byte_offset": 46732,
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        139,
+        1,
+        35,
+        94
+      ],
+      "original_canvas": [
+        48,
+        96
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "pack": "Map/Res/Plant",
+      "frame_index": 146,
+      "source_cell_index": 5838,
+      "source_rgba_sha256": "ffd74bd39f981bbe0f1dce1906188b7ec4dcb61f43f96717efe147e1bd5b4d49",
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "world_top_left": [
+        2690.9773371104816,
+        1138.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "instance_center_owner_cell": [
+        57,
+        38
+      ],
+      "actual_woody_root": null,
+      "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-146.png",
+      "texture_sha256": "a29c2517be00f8ad070ee9f2ce8ececa94ba0ac1946d47f107881568cb256f14",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "region": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_rgba_pixels": 204408,
+      "alpha_positive_pixels": 204101,
+      "stored_support_bbox_xyxy": [
+        985,
+        23,
+        1349,
+        1154
+      ]
+    },
+    {
+      "key": "Plant:143@58,48",
+      "frame_id": 143,
+      "cell": [
+        58,
+        48
+      ],
+      "source_cell": [
+        -406,
+        0,
+        2,
+        143
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 48,
+      "stable_source_order": 5848,
+      "sort_tuple": [
+        1,
+        48,
+        5848
+      ],
+      "world_rect": [
+        2785,
+        1559,
+        43,
+        9
+      ],
+      "native_source_offset": 1933088,
+      "native_source_bytes": 3128,
+      "source_map_byte_offset": 46812,
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        1,
+        1,
+        43,
+        9
+      ],
+      "original_canvas": [
+        48,
+        32
+      ],
+      "crop": [
+        1,
+        23
+      ],
+      "pack": "Map/Res/Plant",
+      "frame_index": 143,
+      "source_cell_index": 5848,
+      "source_rgba_sha256": "011f3bc4f8487f92f6a67b1dfa92cd34336a9213eb20ab909926ca2826f9b788",
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "world_top_left": [
+        2738.9773371104816,
+        1554.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "instance_center_owner_cell": [
+        58,
+        51
+      ],
+      "actual_woody_root": null,
+      "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-143.png",
+      "texture_sha256": "05376646abcb17f6c8a07f761779d4402c1d38ff27ccd1b7d6ce7fca745fe914",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "region": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_rgba_pixels": 21509,
+      "alpha_positive_pixels": 21476,
+      "stored_support_bbox_xyxy": [
+        450,
+        25,
+        964,
+        150
+      ]
+    },
+    {
+      "key": "Plant:144@57,51",
+      "frame_id": 144,
+      "cell": [
+        57,
+        51
+      ],
+      "source_cell": [
+        0,
+        -1,
+        2,
+        144
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 51,
+      "stable_source_order": 5751,
+      "sort_tuple": [
+        1,
+        51,
+        5751
+      ],
+      "world_rect": [
+        2743,
+        1568,
+        41,
+        93
+      ],
+      "native_source_offset": 1936216,
+      "native_source_bytes": 9272,
+      "source_map_byte_offset": 46036,
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        46,
+        1,
+        41,
+        93
+      ],
+      "original_canvas": [
+        48,
+        96
+      ],
+      "crop": [
+        7,
+        0
+      ],
+      "pack": "Map/Res/Plant",
+      "frame_index": 144,
+      "source_cell_index": 5751,
+      "source_rgba_sha256": "7666ec8d10aaf2827acdde7ae19dd570af7e18fa8e248f5f8f3827697df7741e",
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "world_top_left": [
+        2738.9773371104816,
+        1554.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "instance_center_owner_cell": [
+        58,
+        51
+      ],
+      "actual_woody_root": null,
+      "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-144.png",
+      "texture_sha256": "8026725bb18e5d50d521d8d7e5b4e626a0f0f1a17f35684f5845f20470fedc98",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "region": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_rgba_pixels": 275266,
+      "alpha_positive_pixels": 274979,
+      "stored_support_bbox_xyxy": [
+        0,
+        15,
+        487,
+        1154
+      ]
+    },
+    {
+      "key": "Plant:145@58,51",
+      "frame_id": 145,
+      "cell": [
+        58,
+        51
+      ],
+      "source_cell": [
+        0,
+        -1,
+        2,
+        145
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 51,
+      "stable_source_order": 5851,
+      "sort_tuple": [
+        1,
+        51,
+        5851
+      ],
+      "world_rect": [
+        2784,
+        1568,
+        48,
+        96
+      ],
+      "native_source_offset": 1945488,
+      "native_source_bytes": 9272,
+      "source_map_byte_offset": 46836,
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        89,
+        1,
+        48,
+        96
+      ],
+      "original_canvas": [
+        48,
+        96
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "pack": "Map/Res/Plant",
+      "frame_index": 145,
+      "source_cell_index": 5851,
+      "source_rgba_sha256": "778f6b6d24730f8a1de8df91c0ef214d10c60bb1083320f3712002ea81f43cea",
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "world_top_left": [
+        2738.9773371104816,
+        1554.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "instance_center_owner_cell": [
+        58,
+        51
+      ],
+      "actual_woody_root": null,
+      "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-145.png",
+      "texture_sha256": "5d6127a18a3110daed1fe43af85371d242536e8082e9c0d3b0bb120a989803d7",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "region": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_rgba_pixels": 476860,
+      "alpha_positive_pixels": 476762,
+      "stored_support_bbox_xyxy": [
+        466,
+        129,
+        996,
+        1130
+      ]
+    },
+    {
+      "key": "Plant:146@59,51",
+      "frame_id": 146,
+      "cell": [
+        59,
+        51
+      ],
+      "source_cell": [
+        0,
+        -1,
+        2,
+        146
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 51,
+      "stable_source_order": 5951,
+      "sort_tuple": [
+        1,
+        51,
+        5951
+      ],
+      "world_rect": [
+        2832,
+        1568,
+        35,
+        94
+      ],
+      "native_source_offset": 1954760,
+      "native_source_bytes": 9272,
+      "source_map_byte_offset": 47636,
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        139,
+        1,
+        35,
+        94
+      ],
+      "original_canvas": [
+        48,
+        96
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "pack": "Map/Res/Plant",
+      "frame_index": 146,
+      "source_cell_index": 5951,
+      "source_rgba_sha256": "ffd74bd39f981bbe0f1dce1906188b7ec4dcb61f43f96717efe147e1bd5b4d49",
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "world_top_left": [
+        2738.9773371104816,
+        1554.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "instance_center_owner_cell": [
+        58,
+        51
+      ],
+      "actual_woody_root": null,
+      "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-146.png",
+      "texture_sha256": "a29c2517be00f8ad070ee9f2ce8ececa94ba0ac1946d47f107881568cb256f14",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "region": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_rgba_pixels": 204408,
+      "alpha_positive_pixels": 204101,
+      "stored_support_bbox_xyxy": [
+        985,
+        23,
+        1349,
+        1154
+      ]
+    },
+    {
+      "key": "Plant:143@64,42",
+      "frame_id": 143,
+      "cell": [
+        64,
+        42
+      ],
+      "source_cell": [
+        -406,
+        0,
+        2,
+        143
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 42,
+      "stable_source_order": 6442,
+      "sort_tuple": [
+        1,
+        42,
+        6442
+      ],
+      "world_rect": [
+        3073,
+        1367,
+        43,
+        9
+      ],
+      "native_source_offset": 1933088,
+      "native_source_bytes": 3128,
+      "source_map_byte_offset": 51564,
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        1,
+        1,
+        43,
+        9
+      ],
+      "original_canvas": [
+        48,
+        32
+      ],
+      "crop": [
+        1,
+        23
+      ],
+      "pack": "Map/Res/Plant",
+      "frame_index": 143,
+      "source_cell_index": 6442,
+      "source_rgba_sha256": "011f3bc4f8487f92f6a67b1dfa92cd34336a9213eb20ab909926ca2826f9b788",
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "world_top_left": [
+        3026.9773371104816,
+        1362.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "instance_center_owner_cell": [
+        64,
+        45
+      ],
+      "actual_woody_root": null,
+      "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-143.png",
+      "texture_sha256": "05376646abcb17f6c8a07f761779d4402c1d38ff27ccd1b7d6ce7fca745fe914",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "region": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_rgba_pixels": 21509,
+      "alpha_positive_pixels": 21476,
+      "stored_support_bbox_xyxy": [
+        450,
+        25,
+        964,
+        150
+      ]
+    },
+    {
+      "key": "Plant:144@63,45",
+      "frame_id": 144,
+      "cell": [
+        63,
+        45
+      ],
+      "source_cell": [
+        0,
+        -1,
+        2,
+        144
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 45,
+      "stable_source_order": 6345,
+      "sort_tuple": [
+        1,
+        45,
+        6345
+      ],
+      "world_rect": [
+        3031,
+        1376,
+        41,
+        93
+      ],
+      "native_source_offset": 1936216,
+      "native_source_bytes": 9272,
+      "source_map_byte_offset": 50788,
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        46,
+        1,
+        41,
+        93
+      ],
+      "original_canvas": [
+        48,
+        96
+      ],
+      "crop": [
+        7,
+        0
+      ],
+      "pack": "Map/Res/Plant",
+      "frame_index": 144,
+      "source_cell_index": 6345,
+      "source_rgba_sha256": "7666ec8d10aaf2827acdde7ae19dd570af7e18fa8e248f5f8f3827697df7741e",
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "world_top_left": [
+        3026.9773371104816,
+        1362.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "instance_center_owner_cell": [
+        64,
+        45
+      ],
+      "actual_woody_root": null,
+      "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-144.png",
+      "texture_sha256": "8026725bb18e5d50d521d8d7e5b4e626a0f0f1a17f35684f5845f20470fedc98",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "region": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_rgba_pixels": 275266,
+      "alpha_positive_pixels": 274979,
+      "stored_support_bbox_xyxy": [
+        0,
+        15,
+        487,
+        1154
+      ]
+    },
+    {
+      "key": "Plant:145@64,45",
+      "frame_id": 145,
+      "cell": [
+        64,
+        45
+      ],
+      "source_cell": [
+        0,
+        -1,
+        2,
+        145
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 45,
+      "stable_source_order": 6445,
+      "sort_tuple": [
+        1,
+        45,
+        6445
+      ],
+      "world_rect": [
+        3072,
+        1376,
+        48,
+        96
+      ],
+      "native_source_offset": 1945488,
+      "native_source_bytes": 9272,
+      "source_map_byte_offset": 51588,
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        89,
+        1,
+        48,
+        96
+      ],
+      "original_canvas": [
+        48,
+        96
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "pack": "Map/Res/Plant",
+      "frame_index": 145,
+      "source_cell_index": 6445,
+      "source_rgba_sha256": "778f6b6d24730f8a1de8df91c0ef214d10c60bb1083320f3712002ea81f43cea",
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "world_top_left": [
+        3026.9773371104816,
+        1362.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "instance_center_owner_cell": [
+        64,
+        45
+      ],
+      "actual_woody_root": null,
+      "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-145.png",
+      "texture_sha256": "5d6127a18a3110daed1fe43af85371d242536e8082e9c0d3b0bb120a989803d7",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "region": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_rgba_pixels": 476860,
+      "alpha_positive_pixels": 476762,
+      "stored_support_bbox_xyxy": [
+        466,
+        129,
+        996,
+        1130
+      ]
+    },
+    {
+      "key": "Plant:146@65,45",
+      "frame_id": 146,
+      "cell": [
+        65,
+        45
+      ],
+      "source_cell": [
+        0,
+        -1,
+        2,
+        146
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 45,
+      "stable_source_order": 6545,
+      "sort_tuple": [
+        1,
+        45,
+        6545
+      ],
+      "world_rect": [
+        3120,
+        1376,
+        35,
+        94
+      ],
+      "native_source_offset": 1954760,
+      "native_source_bytes": 9272,
+      "source_map_byte_offset": 52388,
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        139,
+        1,
+        35,
+        94
+      ],
+      "original_canvas": [
+        48,
+        96
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "pack": "Map/Res/Plant",
+      "frame_index": 146,
+      "source_cell_index": 6545,
+      "source_rgba_sha256": "ffd74bd39f981bbe0f1dce1906188b7ec4dcb61f43f96717efe147e1bd5b4d49",
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "world_top_left": [
+        3026.9773371104816,
+        1362.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "instance_center_owner_cell": [
+        64,
+        45
+      ],
+      "actual_woody_root": null,
+      "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-146.png",
+      "texture_sha256": "a29c2517be00f8ad070ee9f2ce8ececa94ba0ac1946d47f107881568cb256f14",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "region": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_rgba_pixels": 204408,
+      "alpha_positive_pixels": 204101,
+      "stored_support_bbox_xyxy": [
+        985,
+        23,
+        1349,
+        1154
+      ]
+    }
+  ],
+  "suppress_source_keys": [
+    "Plant:143@51,41",
+    "Plant:144@50,44",
+    "Plant:145@51,44",
+    "Plant:146@52,44",
+    "Plant:143@57,35",
+    "Plant:144@56,38",
+    "Plant:145@57,38",
+    "Plant:146@58,38",
+    "Plant:143@58,48",
+    "Plant:144@57,51",
+    "Plant:145@58,51",
+    "Plant:146@59,51",
+    "Plant:143@64,42",
+    "Plant:144@63,45",
+    "Plant:145@64,45",
+    "Plant:146@65,45"
+  ],
+  "instances": [
+    {
+      "center_owner_cell": [
+        51,
+        44
+      ],
+      "family_anchor_cell": [
+        51,
+        41
+      ],
+      "family_anchor_meaning": "top143 source owner, not a physical root",
+      "world_top_left": [
+        2402.9773371104816,
+        1330.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "actual_woody_root": null,
+      "visible_leaf_proxy_raw": [
+        778,
+        1103
+      ],
+      "visible_leaf_proxy_world": [
+        2476.4428706326726,
+        1435.0
+      ],
+      "nominal_first_screen_visibility": "partial",
+      "owners": [
+        {
+          "key": "Plant:143@51,41",
+          "frame_id": 143,
+          "cell": [
+            51,
+            41
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            143
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 41,
+          "stable_source_order": 5141,
+          "sort_tuple": [
+            1,
+            41,
+            5141
+          ],
+          "world_rect": [
+            2449,
+            1335,
+            43,
+            9
+          ],
+          "native_source_offset": 1933088,
+          "native_source_bytes": 3128,
+          "source_map_byte_offset": 41156,
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            1,
+            1,
+            43,
+            9
+          ],
+          "original_canvas": [
+            48,
+            32
+          ],
+          "crop": [
+            1,
+            23
+          ],
+          "pack": "Map/Res/Plant",
+          "frame_index": 143,
+          "source_cell_index": 5141,
+          "source_rgba_sha256": "011f3bc4f8487f92f6a67b1dfa92cd34336a9213eb20ab909926ca2826f9b788",
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "world_top_left": [
+            2402.9773371104816,
+            1330.845136921624
+          ],
+          "scale": 0.09442870632672333,
+          "instance_center_owner_cell": [
+            51,
+            44
+          ],
+          "actual_woody_root": null,
+          "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-143.png",
+          "texture_sha256": "05376646abcb17f6c8a07f761779d4402c1d38ff27ccd1b7d6ce7fca745fe914",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "region": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "stored_rgba_pixels": 21509,
+          "alpha_positive_pixels": 21476,
+          "stored_support_bbox_xyxy": [
+            450,
+            25,
+            964,
+            150
+          ]
+        },
+        {
+          "key": "Plant:144@50,44",
+          "frame_id": 144,
+          "cell": [
+            50,
+            44
+          ],
+          "source_cell": [
+            -406,
+            -1,
+            2,
+            144
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 44,
+          "stable_source_order": 5044,
+          "sort_tuple": [
+            1,
+            44,
+            5044
+          ],
+          "world_rect": [
+            2407,
+            1344,
+            41,
+            93
+          ],
+          "native_source_offset": 1936216,
+          "native_source_bytes": 9272,
+          "source_map_byte_offset": 40380,
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            46,
+            1,
+            41,
+            93
+          ],
+          "original_canvas": [
+            48,
+            96
+          ],
+          "crop": [
+            7,
+            0
+          ],
+          "pack": "Map/Res/Plant",
+          "frame_index": 144,
+          "source_cell_index": 5044,
+          "source_rgba_sha256": "7666ec8d10aaf2827acdde7ae19dd570af7e18fa8e248f5f8f3827697df7741e",
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "world_top_left": [
+            2402.9773371104816,
+            1330.845136921624
+          ],
+          "scale": 0.09442870632672333,
+          "instance_center_owner_cell": [
+            51,
+            44
+          ],
+          "actual_woody_root": null,
+          "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-144.png",
+          "texture_sha256": "8026725bb18e5d50d521d8d7e5b4e626a0f0f1a17f35684f5845f20470fedc98",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "region": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "stored_rgba_pixels": 275266,
+          "alpha_positive_pixels": 274979,
+          "stored_support_bbox_xyxy": [
+            0,
+            15,
+            487,
+            1154
+          ]
+        },
+        {
+          "key": "Plant:145@51,44",
+          "frame_id": 145,
+          "cell": [
+            51,
+            44
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            145
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 44,
+          "stable_source_order": 5144,
+          "sort_tuple": [
+            1,
+            44,
+            5144
+          ],
+          "world_rect": [
+            2448,
+            1344,
+            48,
+            96
+          ],
+          "native_source_offset": 1945488,
+          "native_source_bytes": 9272,
+          "source_map_byte_offset": 41180,
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            89,
+            1,
+            48,
+            96
+          ],
+          "original_canvas": [
+            48,
+            96
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "pack": "Map/Res/Plant",
+          "frame_index": 145,
+          "source_cell_index": 5144,
+          "source_rgba_sha256": "778f6b6d24730f8a1de8df91c0ef214d10c60bb1083320f3712002ea81f43cea",
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "world_top_left": [
+            2402.9773371104816,
+            1330.845136921624
+          ],
+          "scale": 0.09442870632672333,
+          "instance_center_owner_cell": [
+            51,
+            44
+          ],
+          "actual_woody_root": null,
+          "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-145.png",
+          "texture_sha256": "5d6127a18a3110daed1fe43af85371d242536e8082e9c0d3b0bb120a989803d7",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "region": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "stored_rgba_pixels": 476860,
+          "alpha_positive_pixels": 476762,
+          "stored_support_bbox_xyxy": [
+            466,
+            129,
+            996,
+            1130
+          ]
+        },
+        {
+          "key": "Plant:146@52,44",
+          "frame_id": 146,
+          "cell": [
+            52,
+            44
+          ],
+          "source_cell": [
+            -577,
+            -1,
+            2,
+            146
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 44,
+          "stable_source_order": 5244,
+          "sort_tuple": [
+            1,
+            44,
+            5244
+          ],
+          "world_rect": [
+            2496,
+            1344,
+            35,
+            94
+          ],
+          "native_source_offset": 1954760,
+          "native_source_bytes": 9272,
+          "source_map_byte_offset": 41980,
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            139,
+            1,
+            35,
+            94
+          ],
+          "original_canvas": [
+            48,
+            96
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "pack": "Map/Res/Plant",
+          "frame_index": 146,
+          "source_cell_index": 5244,
+          "source_rgba_sha256": "ffd74bd39f981bbe0f1dce1906188b7ec4dcb61f43f96717efe147e1bd5b4d49",
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "world_top_left": [
+            2402.9773371104816,
+            1330.845136921624
+          ],
+          "scale": 0.09442870632672333,
+          "instance_center_owner_cell": [
+            51,
+            44
+          ],
+          "actual_woody_root": null,
+          "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-146.png",
+          "texture_sha256": "a29c2517be00f8ad070ee9f2ce8ececa94ba0ac1946d47f107881568cb256f14",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "region": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "stored_rgba_pixels": 204408,
+          "alpha_positive_pixels": 204101,
+          "stored_support_bbox_xyxy": [
+            985,
+            23,
+            1349,
+            1154
+          ]
+        }
+      ],
+      "suppress_source_keys": [
+        "Plant:143@51,41",
+        "Plant:144@50,44",
+        "Plant:145@51,44",
+        "Plant:146@52,44"
+      ],
+      "shadow_contract": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/contact-band.json",
+      "shadow_selection": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/selection.json",
+      "shadow_variant": "limited_lower_foliage_band_B",
+      "shadow_passes": 1,
+      "atomic_unit": "complete4-owner body and one selectedB cast",
+      "status": "parent-approved bounded first-screen HD working composition; normal-entry guard/rollback validation remains runtime-owned"
+    },
+    {
+      "center_owner_cell": [
+        57,
+        38
+      ],
+      "family_anchor_cell": [
+        57,
+        35
+      ],
+      "family_anchor_meaning": "top143 source owner, not a physical root",
+      "world_top_left": [
+        2690.9773371104816,
+        1138.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "actual_woody_root": null,
+      "visible_leaf_proxy_raw": [
+        778,
+        1103
+      ],
+      "visible_leaf_proxy_world": [
+        2764.4428706326726,
+        1243.0
+      ],
+      "nominal_first_screen_visibility": "full",
+      "owners": [
+        {
+          "key": "Plant:143@57,35",
+          "frame_id": 143,
+          "cell": [
+            57,
+            35
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            143
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 35,
+          "stable_source_order": 5735,
+          "sort_tuple": [
+            1,
+            35,
+            5735
+          ],
+          "world_rect": [
+            2737,
+            1143,
+            43,
+            9
+          ],
+          "native_source_offset": 1933088,
+          "native_source_bytes": 3128,
+          "source_map_byte_offset": 45908,
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            1,
+            1,
+            43,
+            9
+          ],
+          "original_canvas": [
+            48,
+            32
+          ],
+          "crop": [
+            1,
+            23
+          ],
+          "pack": "Map/Res/Plant",
+          "frame_index": 143,
+          "source_cell_index": 5735,
+          "source_rgba_sha256": "011f3bc4f8487f92f6a67b1dfa92cd34336a9213eb20ab909926ca2826f9b788",
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "world_top_left": [
+            2690.9773371104816,
+            1138.845136921624
+          ],
+          "scale": 0.09442870632672333,
+          "instance_center_owner_cell": [
+            57,
+            38
+          ],
+          "actual_woody_root": null,
+          "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-143.png",
+          "texture_sha256": "05376646abcb17f6c8a07f761779d4402c1d38ff27ccd1b7d6ce7fca745fe914",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "region": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "stored_rgba_pixels": 21509,
+          "alpha_positive_pixels": 21476,
+          "stored_support_bbox_xyxy": [
+            450,
+            25,
+            964,
+            150
+          ]
+        },
+        {
+          "key": "Plant:144@56,38",
+          "frame_id": 144,
+          "cell": [
+            56,
+            38
+          ],
+          "source_cell": [
+            -406,
+            -1,
+            2,
+            144
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 38,
+          "stable_source_order": 5638,
+          "sort_tuple": [
+            1,
+            38,
+            5638
+          ],
+          "world_rect": [
+            2695,
+            1152,
+            41,
+            93
+          ],
+          "native_source_offset": 1936216,
+          "native_source_bytes": 9272,
+          "source_map_byte_offset": 45132,
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            46,
+            1,
+            41,
+            93
+          ],
+          "original_canvas": [
+            48,
+            96
+          ],
+          "crop": [
+            7,
+            0
+          ],
+          "pack": "Map/Res/Plant",
+          "frame_index": 144,
+          "source_cell_index": 5638,
+          "source_rgba_sha256": "7666ec8d10aaf2827acdde7ae19dd570af7e18fa8e248f5f8f3827697df7741e",
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "world_top_left": [
+            2690.9773371104816,
+            1138.845136921624
+          ],
+          "scale": 0.09442870632672333,
+          "instance_center_owner_cell": [
+            57,
+            38
+          ],
+          "actual_woody_root": null,
+          "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-144.png",
+          "texture_sha256": "8026725bb18e5d50d521d8d7e5b4e626a0f0f1a17f35684f5845f20470fedc98",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "region": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "stored_rgba_pixels": 275266,
+          "alpha_positive_pixels": 274979,
+          "stored_support_bbox_xyxy": [
+            0,
+            15,
+            487,
+            1154
+          ]
+        },
+        {
+          "key": "Plant:145@57,38",
+          "frame_id": 145,
+          "cell": [
+            57,
+            38
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            145
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 38,
+          "stable_source_order": 5738,
+          "sort_tuple": [
+            1,
+            38,
+            5738
+          ],
+          "world_rect": [
+            2736,
+            1152,
+            48,
+            96
+          ],
+          "native_source_offset": 1945488,
+          "native_source_bytes": 9272,
+          "source_map_byte_offset": 45932,
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            89,
+            1,
+            48,
+            96
+          ],
+          "original_canvas": [
+            48,
+            96
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "pack": "Map/Res/Plant",
+          "frame_index": 145,
+          "source_cell_index": 5738,
+          "source_rgba_sha256": "778f6b6d24730f8a1de8df91c0ef214d10c60bb1083320f3712002ea81f43cea",
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "world_top_left": [
+            2690.9773371104816,
+            1138.845136921624
+          ],
+          "scale": 0.09442870632672333,
+          "instance_center_owner_cell": [
+            57,
+            38
+          ],
+          "actual_woody_root": null,
+          "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-145.png",
+          "texture_sha256": "5d6127a18a3110daed1fe43af85371d242536e8082e9c0d3b0bb120a989803d7",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "region": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "stored_rgba_pixels": 476860,
+          "alpha_positive_pixels": 476762,
+          "stored_support_bbox_xyxy": [
+            466,
+            129,
+            996,
+            1130
+          ]
+        },
+        {
+          "key": "Plant:146@58,38",
+          "frame_id": 146,
+          "cell": [
+            58,
+            38
+          ],
+          "source_cell": [
+            -577,
+            -1,
+            2,
+            146
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 38,
+          "stable_source_order": 5838,
+          "sort_tuple": [
+            1,
+            38,
+            5838
+          ],
+          "world_rect": [
+            2784,
+            1152,
+            35,
+            94
+          ],
+          "native_source_offset": 1954760,
+          "native_source_bytes": 9272,
+          "source_map_byte_offset": 46732,
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            139,
+            1,
+            35,
+            94
+          ],
+          "original_canvas": [
+            48,
+            96
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "pack": "Map/Res/Plant",
+          "frame_index": 146,
+          "source_cell_index": 5838,
+          "source_rgba_sha256": "ffd74bd39f981bbe0f1dce1906188b7ec4dcb61f43f96717efe147e1bd5b4d49",
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "world_top_left": [
+            2690.9773371104816,
+            1138.845136921624
+          ],
+          "scale": 0.09442870632672333,
+          "instance_center_owner_cell": [
+            57,
+            38
+          ],
+          "actual_woody_root": null,
+          "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-146.png",
+          "texture_sha256": "a29c2517be00f8ad070ee9f2ce8ececa94ba0ac1946d47f107881568cb256f14",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "region": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "stored_rgba_pixels": 204408,
+          "alpha_positive_pixels": 204101,
+          "stored_support_bbox_xyxy": [
+            985,
+            23,
+            1349,
+            1154
+          ]
+        }
+      ],
+      "suppress_source_keys": [
+        "Plant:143@57,35",
+        "Plant:144@56,38",
+        "Plant:145@57,38",
+        "Plant:146@58,38"
+      ],
+      "shadow_contract": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/contact-band.json",
+      "shadow_selection": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/selection.json",
+      "shadow_variant": "limited_lower_foliage_band_B",
+      "shadow_passes": 1,
+      "atomic_unit": "complete4-owner body and one selectedB cast",
+      "status": "parent-approved bounded first-screen HD working composition; normal-entry guard/rollback validation remains runtime-owned"
+    },
+    {
+      "center_owner_cell": [
+        58,
+        51
+      ],
+      "family_anchor_cell": [
+        58,
+        48
+      ],
+      "family_anchor_meaning": "top143 source owner, not a physical root",
+      "world_top_left": [
+        2738.9773371104816,
+        1554.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "actual_woody_root": null,
+      "visible_leaf_proxy_raw": [
+        778,
+        1103
+      ],
+      "visible_leaf_proxy_world": [
+        2812.4428706326726,
+        1659.0
+      ],
+      "nominal_first_screen_visibility": "partial",
+      "owners": [
+        {
+          "key": "Plant:143@58,48",
+          "frame_id": 143,
+          "cell": [
+            58,
+            48
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            143
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 48,
+          "stable_source_order": 5848,
+          "sort_tuple": [
+            1,
+            48,
+            5848
+          ],
+          "world_rect": [
+            2785,
+            1559,
+            43,
+            9
+          ],
+          "native_source_offset": 1933088,
+          "native_source_bytes": 3128,
+          "source_map_byte_offset": 46812,
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            1,
+            1,
+            43,
+            9
+          ],
+          "original_canvas": [
+            48,
+            32
+          ],
+          "crop": [
+            1,
+            23
+          ],
+          "pack": "Map/Res/Plant",
+          "frame_index": 143,
+          "source_cell_index": 5848,
+          "source_rgba_sha256": "011f3bc4f8487f92f6a67b1dfa92cd34336a9213eb20ab909926ca2826f9b788",
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "world_top_left": [
+            2738.9773371104816,
+            1554.845136921624
+          ],
+          "scale": 0.09442870632672333,
+          "instance_center_owner_cell": [
+            58,
+            51
+          ],
+          "actual_woody_root": null,
+          "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-143.png",
+          "texture_sha256": "05376646abcb17f6c8a07f761779d4402c1d38ff27ccd1b7d6ce7fca745fe914",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "region": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "stored_rgba_pixels": 21509,
+          "alpha_positive_pixels": 21476,
+          "stored_support_bbox_xyxy": [
+            450,
+            25,
+            964,
+            150
+          ]
+        },
+        {
+          "key": "Plant:144@57,51",
+          "frame_id": 144,
+          "cell": [
+            57,
+            51
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            144
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 51,
+          "stable_source_order": 5751,
+          "sort_tuple": [
+            1,
+            51,
+            5751
+          ],
+          "world_rect": [
+            2743,
+            1568,
+            41,
+            93
+          ],
+          "native_source_offset": 1936216,
+          "native_source_bytes": 9272,
+          "source_map_byte_offset": 46036,
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            46,
+            1,
+            41,
+            93
+          ],
+          "original_canvas": [
+            48,
+            96
+          ],
+          "crop": [
+            7,
+            0
+          ],
+          "pack": "Map/Res/Plant",
+          "frame_index": 144,
+          "source_cell_index": 5751,
+          "source_rgba_sha256": "7666ec8d10aaf2827acdde7ae19dd570af7e18fa8e248f5f8f3827697df7741e",
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "world_top_left": [
+            2738.9773371104816,
+            1554.845136921624
+          ],
+          "scale": 0.09442870632672333,
+          "instance_center_owner_cell": [
+            58,
+            51
+          ],
+          "actual_woody_root": null,
+          "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-144.png",
+          "texture_sha256": "8026725bb18e5d50d521d8d7e5b4e626a0f0f1a17f35684f5845f20470fedc98",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "region": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "stored_rgba_pixels": 275266,
+          "alpha_positive_pixels": 274979,
+          "stored_support_bbox_xyxy": [
+            0,
+            15,
+            487,
+            1154
+          ]
+        },
+        {
+          "key": "Plant:145@58,51",
+          "frame_id": 145,
+          "cell": [
+            58,
+            51
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            145
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 51,
+          "stable_source_order": 5851,
+          "sort_tuple": [
+            1,
+            51,
+            5851
+          ],
+          "world_rect": [
+            2784,
+            1568,
+            48,
+            96
+          ],
+          "native_source_offset": 1945488,
+          "native_source_bytes": 9272,
+          "source_map_byte_offset": 46836,
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            89,
+            1,
+            48,
+            96
+          ],
+          "original_canvas": [
+            48,
+            96
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "pack": "Map/Res/Plant",
+          "frame_index": 145,
+          "source_cell_index": 5851,
+          "source_rgba_sha256": "778f6b6d24730f8a1de8df91c0ef214d10c60bb1083320f3712002ea81f43cea",
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "world_top_left": [
+            2738.9773371104816,
+            1554.845136921624
+          ],
+          "scale": 0.09442870632672333,
+          "instance_center_owner_cell": [
+            58,
+            51
+          ],
+          "actual_woody_root": null,
+          "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-145.png",
+          "texture_sha256": "5d6127a18a3110daed1fe43af85371d242536e8082e9c0d3b0bb120a989803d7",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "region": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "stored_rgba_pixels": 476860,
+          "alpha_positive_pixels": 476762,
+          "stored_support_bbox_xyxy": [
+            466,
+            129,
+            996,
+            1130
+          ]
+        },
+        {
+          "key": "Plant:146@59,51",
+          "frame_id": 146,
+          "cell": [
+            59,
+            51
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            146
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 51,
+          "stable_source_order": 5951,
+          "sort_tuple": [
+            1,
+            51,
+            5951
+          ],
+          "world_rect": [
+            2832,
+            1568,
+            35,
+            94
+          ],
+          "native_source_offset": 1954760,
+          "native_source_bytes": 9272,
+          "source_map_byte_offset": 47636,
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            139,
+            1,
+            35,
+            94
+          ],
+          "original_canvas": [
+            48,
+            96
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "pack": "Map/Res/Plant",
+          "frame_index": 146,
+          "source_cell_index": 5951,
+          "source_rgba_sha256": "ffd74bd39f981bbe0f1dce1906188b7ec4dcb61f43f96717efe147e1bd5b4d49",
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "world_top_left": [
+            2738.9773371104816,
+            1554.845136921624
+          ],
+          "scale": 0.09442870632672333,
+          "instance_center_owner_cell": [
+            58,
+            51
+          ],
+          "actual_woody_root": null,
+          "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-146.png",
+          "texture_sha256": "a29c2517be00f8ad070ee9f2ce8ececa94ba0ac1946d47f107881568cb256f14",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "region": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "stored_rgba_pixels": 204408,
+          "alpha_positive_pixels": 204101,
+          "stored_support_bbox_xyxy": [
+            985,
+            23,
+            1349,
+            1154
+          ]
+        }
+      ],
+      "suppress_source_keys": [
+        "Plant:143@58,48",
+        "Plant:144@57,51",
+        "Plant:145@58,51",
+        "Plant:146@59,51"
+      ],
+      "shadow_contract": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/contact-band.json",
+      "shadow_selection": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/selection.json",
+      "shadow_variant": "limited_lower_foliage_band_B",
+      "shadow_passes": 1,
+      "atomic_unit": "complete4-owner body and one selectedB cast",
+      "status": "parent-approved bounded first-screen HD working composition; normal-entry guard/rollback validation remains runtime-owned"
+    },
+    {
+      "center_owner_cell": [
+        64,
+        45
+      ],
+      "family_anchor_cell": [
+        64,
+        42
+      ],
+      "family_anchor_meaning": "top143 source owner, not a physical root",
+      "world_top_left": [
+        3026.9773371104816,
+        1362.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "actual_woody_root": null,
+      "visible_leaf_proxy_raw": [
+        778,
+        1103
+      ],
+      "visible_leaf_proxy_world": [
+        3100.4428706326726,
+        1467.0
+      ],
+      "nominal_first_screen_visibility": "full",
+      "owners": [
+        {
+          "key": "Plant:143@64,42",
+          "frame_id": 143,
+          "cell": [
+            64,
+            42
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            143
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 42,
+          "stable_source_order": 6442,
+          "sort_tuple": [
+            1,
+            42,
+            6442
+          ],
+          "world_rect": [
+            3073,
+            1367,
+            43,
+            9
+          ],
+          "native_source_offset": 1933088,
+          "native_source_bytes": 3128,
+          "source_map_byte_offset": 51564,
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            1,
+            1,
+            43,
+            9
+          ],
+          "original_canvas": [
+            48,
+            32
+          ],
+          "crop": [
+            1,
+            23
+          ],
+          "pack": "Map/Res/Plant",
+          "frame_index": 143,
+          "source_cell_index": 6442,
+          "source_rgba_sha256": "011f3bc4f8487f92f6a67b1dfa92cd34336a9213eb20ab909926ca2826f9b788",
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "world_top_left": [
+            3026.9773371104816,
+            1362.845136921624
+          ],
+          "scale": 0.09442870632672333,
+          "instance_center_owner_cell": [
+            64,
+            45
+          ],
+          "actual_woody_root": null,
+          "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-143.png",
+          "texture_sha256": "05376646abcb17f6c8a07f761779d4402c1d38ff27ccd1b7d6ce7fca745fe914",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "region": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "stored_rgba_pixels": 21509,
+          "alpha_positive_pixels": 21476,
+          "stored_support_bbox_xyxy": [
+            450,
+            25,
+            964,
+            150
+          ]
+        },
+        {
+          "key": "Plant:144@63,45",
+          "frame_id": 144,
+          "cell": [
+            63,
+            45
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            144
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 45,
+          "stable_source_order": 6345,
+          "sort_tuple": [
+            1,
+            45,
+            6345
+          ],
+          "world_rect": [
+            3031,
+            1376,
+            41,
+            93
+          ],
+          "native_source_offset": 1936216,
+          "native_source_bytes": 9272,
+          "source_map_byte_offset": 50788,
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            46,
+            1,
+            41,
+            93
+          ],
+          "original_canvas": [
+            48,
+            96
+          ],
+          "crop": [
+            7,
+            0
+          ],
+          "pack": "Map/Res/Plant",
+          "frame_index": 144,
+          "source_cell_index": 6345,
+          "source_rgba_sha256": "7666ec8d10aaf2827acdde7ae19dd570af7e18fa8e248f5f8f3827697df7741e",
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "world_top_left": [
+            3026.9773371104816,
+            1362.845136921624
+          ],
+          "scale": 0.09442870632672333,
+          "instance_center_owner_cell": [
+            64,
+            45
+          ],
+          "actual_woody_root": null,
+          "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-144.png",
+          "texture_sha256": "8026725bb18e5d50d521d8d7e5b4e626a0f0f1a17f35684f5845f20470fedc98",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "region": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "stored_rgba_pixels": 275266,
+          "alpha_positive_pixels": 274979,
+          "stored_support_bbox_xyxy": [
+            0,
+            15,
+            487,
+            1154
+          ]
+        },
+        {
+          "key": "Plant:145@64,45",
+          "frame_id": 145,
+          "cell": [
+            64,
+            45
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            145
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 45,
+          "stable_source_order": 6445,
+          "sort_tuple": [
+            1,
+            45,
+            6445
+          ],
+          "world_rect": [
+            3072,
+            1376,
+            48,
+            96
+          ],
+          "native_source_offset": 1945488,
+          "native_source_bytes": 9272,
+          "source_map_byte_offset": 51588,
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            89,
+            1,
+            48,
+            96
+          ],
+          "original_canvas": [
+            48,
+            96
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "pack": "Map/Res/Plant",
+          "frame_index": 145,
+          "source_cell_index": 6445,
+          "source_rgba_sha256": "778f6b6d24730f8a1de8df91c0ef214d10c60bb1083320f3712002ea81f43cea",
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "world_top_left": [
+            3026.9773371104816,
+            1362.845136921624
+          ],
+          "scale": 0.09442870632672333,
+          "instance_center_owner_cell": [
+            64,
+            45
+          ],
+          "actual_woody_root": null,
+          "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-145.png",
+          "texture_sha256": "5d6127a18a3110daed1fe43af85371d242536e8082e9c0d3b0bb120a989803d7",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "region": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "stored_rgba_pixels": 476860,
+          "alpha_positive_pixels": 476762,
+          "stored_support_bbox_xyxy": [
+            466,
+            129,
+            996,
+            1130
+          ]
+        },
+        {
+          "key": "Plant:146@65,45",
+          "frame_id": 146,
+          "cell": [
+            65,
+            45
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            146
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 45,
+          "stable_source_order": 6545,
+          "sort_tuple": [
+            1,
+            45,
+            6545
+          ],
+          "world_rect": [
+            3120,
+            1376,
+            35,
+            94
+          ],
+          "native_source_offset": 1954760,
+          "native_source_bytes": 9272,
+          "source_map_byte_offset": 52388,
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            139,
+            1,
+            35,
+            94
+          ],
+          "original_canvas": [
+            48,
+            96
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "pack": "Map/Res/Plant",
+          "frame_index": 146,
+          "source_cell_index": 6545,
+          "source_rgba_sha256": "ffd74bd39f981bbe0f1dce1906188b7ec4dcb61f43f96717efe147e1bd5b4d49",
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "world_top_left": [
+            3026.9773371104816,
+            1362.845136921624
+          ],
+          "scale": 0.09442870632672333,
+          "instance_center_owner_cell": [
+            64,
+            45
+          ],
+          "actual_woody_root": null,
+          "texture": "res://assets/scifi/environment/a13_round_shrub_v1/owner-146.png",
+          "texture_sha256": "a29c2517be00f8ad070ee9f2ce8ececa94ba0ac1946d47f107881568cb256f14",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "region": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "stored_rgba_pixels": 204408,
+          "alpha_positive_pixels": 204101,
+          "stored_support_bbox_xyxy": [
+            985,
+            23,
+            1349,
+            1154
+          ]
+        }
+      ],
+      "suppress_source_keys": [
+        "Plant:143@64,42",
+        "Plant:144@63,45",
+        "Plant:145@64,45",
+        "Plant:146@65,45"
+      ],
+      "shadow_contract": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/contact-band.json",
+      "shadow_selection": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/selection.json",
+      "shadow_variant": "limited_lower_foliage_band_B",
+      "shadow_passes": 1,
+      "atomic_unit": "complete4-owner body and one selectedB cast",
+      "status": "parent-approved bounded first-screen HD working composition; normal-entry guard/rollback validation remains runtime-owned"
+    }
+  ],
+  "selected_shadow_contract": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/contact-band.json",
+  "selected_shadow_contract_sha256": "5a4bd35810eec4a39554f6a7396b2cc486d5fd2c205a88b2b0a9d79d44e53b8b",
+  "shadow_selection": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/selection.json",
+  "shadow_selection_sha256": "3240c93d32645000ba1a08955fe07fc4c05da84fb48ae986d56efaf898c6a455",
+  "sampling": {
+    "body_filter": "nearest",
+    "mipmaps": false,
+    "common_canvas_size": [
+      1363,
+      1154
+    ],
+    "common_canvas_required": true,
+    "render_density": "Render original-resolution owner textures through the sharedHD canvas; do not pre-bake logical-sized sprites.",
+    "one_transform_per_instance": true
+  },
+  "validation": {
+    "cpu_whole_four_RGBA_byte_exact": true,
+    "raw_rgba_bytes": 6291608,
+    "raw_nonzero_alpha_pixels": 977318,
+    "raw_stored_rgba_pixels": 978043,
+    "source_owner_cells_verified_directly": 16,
+    "source_owner_keys_unique": 16,
+    "whole_four_gpu_max_rgb_difference": 1,
+    "whole_four_gpu_different_pixels": 3,
+    "gpu_residual_accepted_by_parent": true,
+    "research_native_cases": 25,
+    "research_direct2x_cases": 25
+  },
+  "acceptance": {
+    "approved_at_utc": "2026-10-15T07:22:45Z",
+    "native_raster": [
+      2048,
+      1536
+    ],
+    "scope": "parent-viewed complete first-screen working composition; four exact shrub groups only",
+    "pilot_front_back_depth": "reviewed",
+    "selected_shadow": "B lower-foliage band; same field direction, explicit contact-shadow art adaptation",
+    "normal_path_loading_guard_and_failure_closure": "runtime owner must validate after this promotion; this metadata is not a claim that normal entry already passed"
+  },
+  "guard_contract": {
+    "unit": "complete4-owner instance plus oneB cast",
+    "fields": [
+      "cell",
+      "source_cell",
+      "layer",
+      "sort_y",
+      "stable_source_order",
+      "texture",
+      "texture_sha256",
+      "texture_size",
+      "region",
+      "world_top_left",
+      "scale"
+    ],
+    "check_actual_png_sha256_in_source_project": true,
+    "source_cell_rule": "Compare the complete actual target map cell, including its floor ID. Values are not copied from the pilot.",
+    "invalid": "Disable that instance cast and restore all4 exact original keys; shared resource failure affects every dependent instance.",
+    "no_matching_by_frame_id_alone": true,
+    "no_partial_owner_activation": true,
+    "exported_build_note": "Raw file SHA proof is source-project verification. Exported imported resources require an explicitly supported validation path, not a claimed raw filesystem hash."
+  },
+  "scope": {
+    "only_centers": [
+      [
+        51,
+        44
+      ],
+      [
+        57,
+        38
+      ],
+      [
+        58,
+        51
+      ],
+      [
+        64,
+        45
+      ]
+    ],
+    "excluded_far_centers": [
+      [
+        33,
+        62
+      ],
+      [
+        39,
+        56
+      ],
+      [
+        40,
+        69
+      ],
+      [
+        46,
+        63
+      ]
+    ],
+    "excluded_far_source_keys": [
+      "Plant:143@33,59",
+      "Plant:144@32,62",
+      "Plant:145@33,62",
+      "Plant:146@34,62",
+      "Plant:143@39,53",
+      "Plant:144@38,56",
+      "Plant:145@39,56",
+      "Plant:146@40,56",
+      "Plant:143@40,66",
+      "Plant:144@39,69",
+      "Plant:145@40,69",
+      "Plant:146@41,69",
+      "Plant:143@46,60",
+      "Plant:144@45,63",
+      "Plant:145@46,63",
+      "Plant:146@47,63"
+    ],
+    "automatic_same_family_replacement": false
+  },
+  "runtime_resource_closure": {
+    "body_textures": [
+      "res://assets/scifi/environment/a13_round_shrub_v1/owner-143.png",
+      "res://assets/scifi/environment/a13_round_shrub_v1/owner-144.png",
+      "res://assets/scifi/environment/a13_round_shrub_v1/owner-145.png",
+      "res://assets/scifi/environment/a13_round_shrub_v1/owner-146.png"
+    ],
+    "whole_alpha_texture": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/whole_shrub.png",
+    "selected_shadow_contract": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/contact-band.json",
+    "selected_shadow_base_contract": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/shadow.json",
+    "shadow_selection": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/selection.json",
+    "shadow_helper": "res://scripts/art/foliage_band_ground_shadow.gd",
+    "shadow_shader": "res://shaders/foliage_band_ground_shadow.gdshader",
+    "base_helper": "res://scripts/art/hero_alpha_ground_shadow.gd",
+    "base_shader": "res://shaders/hero_alpha_ground_shadow.gdshader",
+    "ignored_diagnostics_dependency": false,
+    "art_source_runtime_dependency": false
+  },
+  "provenance": {
+    "source_contract_path": "art_source/a13_round_shrub_source/source-group-contract.json",
+    "source_contract_sha256": "042195fc2bce15d8f86ab83913cd88ad0ac63007810d2b8c95943f9bf2ae67c8",
+    "technical_registration_path": "art_source/a13_round_shrub_candidate_v1/technical_v1/registration.json",
+    "technical_registration_sha256": "7aa5c6f084e6d426a8552b30f37000ca6e77ac7f42fc5c37185a2efeba4634ac",
+    "reuse_index_sha256": "a114e6e4af42d51c0069496b96bc201ffaf2474bec98df079adf94a774aca47c",
+    "raw_provenance_path": "art_source/a13_round_shrub_candidate_v1/raw.png",
+    "meaning": "Read-only generation/registration provenance; not runtime-loaded dependencies."
+  },
+  "limits": [
+    "Actual woody root is not visible and remains null; family-anchor143 is only a map-owner anchor.",
+    "Four owner textures share one full raw canvas. Do not tighten crops or change sampling without new parity review.",
+    "OneB cast per active whole shrub, never four cutout casts or source checker plus new cast.",
+    "No far-map rollout; the remaining four source groups stay original.",
+    "Body white points and low-alpha green fringes remain immutable reviewed residuals.",
+    "Contact-band light is a2D design adaptation, not full original-shadow recovery or physical height inference."
+  ]
+}

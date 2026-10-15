@@ -1,0 +1,38 @@
+[
+  {
+    "actual": 0,
+    "normalized": "res://outside.png",
+    "path": "res://outside.png",
+    "source_exists": true
+  },
+  {
+    "actual": 6,
+    "normalized": "res://outside.png",
+    "path": "res://assets/../outside.png",
+    "source_exists": true
+  },
+  {
+    "actual": 6,
+    "normalized": "res://outside.png",
+    "path": "res://assets/scifi/../../outside.png",
+    "source_exists": true
+  },
+  {
+    "actual": 6,
+    "normalized": "res://outside.png",
+    "path": "res://assets//../outside.png",
+    "source_exists": true
+  },
+  {
+    "actual": 6,
+    "normalized": "res://assets/scifi/environment/a13_upright_tree_v1/owner-304.png",
+    "path": "res://assets/scifi/environment/a13_upright_tree_v1/./owner-304.png",
+    "source_exists": true
+  },
+  {
+    "actual": 6,
+    "normalized": "res://assets/scifi/environment/a13_upright_tree_v1/owner-304.png",
+    "path": "res://assets/scifi/environment/a13_upright_tree_v1/owner-304.png",
+    "source_exists": true
+  }
+]

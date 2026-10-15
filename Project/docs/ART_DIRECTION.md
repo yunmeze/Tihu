@@ -1,3 +1,5 @@
+> Status 2026-10-15: This courtyard-based direction was rejected by the user. Preserve it as historical research only. The active Earth-era direction and concept-approval gate are in ART_DIRECTION_EARTH_RESET.md.
+
 # Legend 重建美术基线
 
 工作基线：2026-10-15。目标是干净、清晰的科幻修炼题材纯 2D 美术。此页约束当前重建，不宣称找回了旧的已批准设计图。

@@ -1,0 +1,68 @@
+extends RefCounted
+## Preparation only. Callers publish the complete returned group or keep source.
+## PNG hashes are checked when source bytes are available; imported textures are
+## still validated by dimensions. Packed exports need build-time hash verification.
+static func read_object(path:Variant) -> Dictionary:
+	if not path is String or not FileAccess.file_exists(path):return {}
+	var parser=JSON.new()
+	if parser.parse(FileAccess.get_file_as_string(path))!=OK or not parser.data is Dictionary:return {}
+	return parser.data
+
+static func number(value:Variant) -> bool:
+	return (value is int or value is float) and is_finite(float(value))
+
+static func integer(value:Variant,low:int,high:int) -> bool:
+	return number(value) and value>=low and value<=high and value==floor(value)
+
+static func vector(value:Variant,length:int) -> bool:
+	if not value is Array or value.size()!=length:return false
+	for part in value:
+		if not number(part):return false
+	return true
+
+static func texture(path:Variant,size:Variant,expected_hash:Variant=null) -> Texture2D:
+	if not path is String or not path.begins_with("res://assets/") or not vector(size,2):return null
+	if not integer(size[0],1,16384) or not integer(size[1],1,16384):return null
+	if expected_hash!=null:
+		if not expected_hash is String or expected_hash.length()!=64:return null
+		if FileAccess.file_exists(path) and FileAccess.get_sha256(path)!=expected_hash:return null
+	if not ResourceLoader.exists(path,"Texture2D"):return null
+	var result=load(path)
+	return result if result is Texture2D and result.get_size()==Vector2(size[0],size[1]) else null
+
+static func owners(records:Variant,source_map:Dictionary,expected_orders:Array) -> Dictionary:
+	if not records is Array or records.size()!=expected_orders.size():return {}
+	if not source_map.get("cells") is Array:return {}
+	var staged={}
+	for record in records:
+		if not record is Dictionary:return {}
+		var order=record.get("stable_source_order")
+		if not integer(order,0,source_map.cells.size()-1):return {}
+		order=int(order)
+		if not order in expected_orders or staged.has(order):return {}
+		if not record.get("source_cell") is Array or record.source_cell!=source_map.cells[order]:return {}
+		if not vector(record.get("world_top_left"),2) or not number(record.get("scale")) or record.scale<=0 or record.scale>4:return {}
+		if not record.get("texture_sha256") is String:return {}
+		var tex=texture(record.get("texture"),record.get("texture_size"),record.get("texture_sha256"))
+		if tex==null:return {}
+		staged[order]={"texture":record.texture,"resource":tex,"world_top_left":record.world_top_left.duplicate(),"scale":record.scale}
+	return staged
+
+static func hero(path:String) -> Dictionary:
+	var root=read_object(path)
+	if not root.get("groups") is Array or root.groups.size()!=6:return {}
+	var expected=[[13,14,15,16],[51,52,53,54,55,56],[9,10,11,12],[45,46,47,48,49,50],[17,18,19,20],[57,58,59,60,61,62]]
+	var staged={}
+	for i in 6:
+		var item=root.groups[i]
+		if not item is Dictionary:return {}
+		var group=read_object(item.get("manifest"))
+		if group.get("source_ids")!=expected[i] or group.get("texels_per_logical_pixel")!=4:return {}
+		if not group.get("records") is Array or group.records.size()!=expected[i].size():return {}
+		var tex=texture(group.get("atlas"),[512*expected[i].size(),512],group.get("sha256"))
+		if tex==null:return {}
+		for index in expected[i].size():
+			var record=group.records[index]
+			if not record is Dictionary or record.get("source_id")!=expected[i][index] or record.get("region_px")!=[index*512,0,512,512]:return {}
+			staged[expected[i][index]]={"texture":tex,"region":record.region_px.duplicate()}
+	return staged

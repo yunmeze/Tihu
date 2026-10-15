@@ -1,0 +1,270 @@
+{
+  "schema": "lp-a13-selected-npc-hd4-v1",
+  "asset_version": 1,
+  "subject": "fangzhang",
+  "npc": {
+    "map_id": "A13",
+    "record_index": 0,
+    "name": "方丈",
+    "cell": [
+      64,
+      37
+    ],
+    "appearance": 21,
+    "direction_slot": 2,
+    "layer": 1,
+    "sort_y": 37,
+    "stable_order": 10000,
+    "source_ids": [
+      261,
+      262,
+      263,
+      264
+    ]
+  },
+  "texture": "res://assets/scifi/npc/hd4/fangzhang_v1/body.png",
+  "texture_sha256": "d44bf2f10fa2fc82b5cb44652c6f926dff8f89c32cf6147095fe48afc90ba6c0",
+  "texture_size": [
+    512,
+    640
+  ],
+  "texture_density": 4,
+  "texture_frame_size": [
+    512,
+    640
+  ],
+  "logical_frame_size": [
+    128,
+    160
+  ],
+  "logical_draw_offset": [
+    -32,
+    -104
+  ],
+  "frames": {
+    "261": {
+      "phase": 0,
+      "logical_rect": [
+        0,
+        0,
+        128,
+        160
+      ],
+      "texture_rect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "rgba_sha256": "672d6776bdf9c2a621297a288c903b105c9a0548faf176aeff4aefda7d3754e7",
+      "original_offset_evidence": [
+        -6,
+        -40
+      ],
+      "original_rgba_sha256": "5cc25f0af2f0eb5ad2e1a226b636b2a866b27703d264ff45c2b79964180e795d"
+    },
+    "262": {
+      "phase": 1,
+      "logical_rect": [
+        0,
+        0,
+        128,
+        160
+      ],
+      "texture_rect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "rgba_sha256": "672d6776bdf9c2a621297a288c903b105c9a0548faf176aeff4aefda7d3754e7",
+      "original_offset_evidence": [
+        -6,
+        -40
+      ],
+      "original_rgba_sha256": "5cc25f0af2f0eb5ad2e1a226b636b2a866b27703d264ff45c2b79964180e795d"
+    },
+    "263": {
+      "phase": 2,
+      "logical_rect": [
+        0,
+        0,
+        128,
+        160
+      ],
+      "texture_rect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "rgba_sha256": "672d6776bdf9c2a621297a288c903b105c9a0548faf176aeff4aefda7d3754e7",
+      "original_offset_evidence": [
+        -6,
+        -40
+      ],
+      "original_rgba_sha256": "5cc25f0af2f0eb5ad2e1a226b636b2a866b27703d264ff45c2b79964180e795d"
+    },
+    "264": {
+      "phase": 3,
+      "logical_rect": [
+        0,
+        0,
+        128,
+        160
+      ],
+      "texture_rect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "rgba_sha256": "672d6776bdf9c2a621297a288c903b105c9a0548faf176aeff4aefda7d3754e7",
+      "original_offset_evidence": [
+        -6,
+        -40
+      ],
+      "original_rgba_sha256": "5cc25f0af2f0eb5ad2e1a226b636b2a866b27703d264ff45c2b79964180e795d"
+    }
+  },
+  "animation": {
+    "fps": 50,
+    "frame_ticks": 17,
+    "phase_count": 4,
+    "loop_ticks": 68,
+    "global_clock": true
+  },
+  "sampling": "linear",
+  "atomic_group": "a13-key-npcs-hd4-v1",
+  "group_members": [
+    "fangzhang_v1",
+    "lingyunzi_v1"
+  ],
+  "body_draw": {
+    "logical_destination_size": [
+      128,
+      160
+    ],
+    "logical_destination_offset": [
+      -32,
+      -104
+    ],
+    "sprite_texture_to_logical_scale": [
+      0.25,
+      0.25
+    ],
+    "centered": false,
+    "root_logical": [
+      32,
+      104
+    ],
+    "root_texture": [
+      128,
+      416
+    ],
+    "source_rectangle_field": "frames[source_id].texture_rect",
+    "no_extra_original_offset_or_crop": true,
+    "phase_refit": false
+  },
+  "shadow": {
+    "mode": "fixed_receiver_texture_density",
+    "helper": "res://scripts/art/density_alpha_ground_shadow.gd",
+    "api": "configure_density_ground_frame",
+    "caller_geometry_units": "logical_pixels",
+    "reference_coordinate_space": "frame_local",
+    "logical_ground_reference": [
+      44.0,
+      118.0
+    ],
+    "texture_ground_reference": [
+      176.0,
+      472.0
+    ],
+    "ground_slope": 0.7058823529411765,
+    "cast_per_height": [
+      0.5304659498207885,
+      -0.3978494623655914
+    ],
+    "opacity": 0.3,
+    "tint_rgb": [
+      0.035,
+      0.045,
+      0.055
+    ],
+    "logical_blur_radius_px": 0.9,
+    "texture_blur_radius_px": 3.6,
+    "logical_padding_px": 1.9,
+    "texture_padding_px": 7.6,
+    "caller_region_field": "frames[source_id].logical_rect",
+    "caller_texture_density": 4,
+    "caller_logical_body_transform_basis": [
+      1.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "caller_logical_body_transform_origin_offset": [
+      -32,
+      -104
+    ],
+    "internal_texture_to_logical_basis": [
+      0.25,
+      0.0,
+      0.0,
+      0.25
+    ],
+    "conversion_owner": "density helper multiplies logical region/reference/blur/padding by4 and divides transform basis by4; origin, slope, cast, opacity unchanged",
+    "do_not_preconvert_helper_arguments": true,
+    "fixed_all_four_phases": true,
+    "compositing_passes": 1,
+    "draw_order": "after floor, before ALL normally sorted objects and bodies",
+    "full_unmodified_body_alpha": true
+  },
+  "selection": {
+    "match_all_npc_fields": true,
+    "appearance_only_override": false,
+    "world_positions_unchanged": true,
+    "normal_R6_default_changed": false,
+    "names_story_click_collision_changed": false,
+    "scope": "optional HD art-viewer pair; ordinary source entry unchanged"
+  },
+  "fallback": {
+    "mode": "original_npc_full_sprite",
+    "pack": "Npc",
+    "source_ids": [
+      261,
+      262,
+      263,
+      264
+    ],
+    "new_shadow": false,
+    "atomic_scope": "both members of a13-key-npcs-hd4-v1",
+    "on_any_prepare_or_frame_configuration_failure": "disable entire HD NPC pair; restore original complete checker-bearing NPC sprites; clear both new shadows; never keep one partial replacement",
+    "silent_legacy1x_substitution": false
+  },
+  "review_scope": {
+    "technical_density_and_true2048_GPU_verified": true,
+    "logical_pose_and_fixed_flat_grass_receiver_retained": true,
+    "final_whole_screen_style_feedback_pending": true,
+    "actual_NPC_walk_path_verified": false,
+    "stairs_platform_receivers_verified": false,
+    "physical_foot_contact_recovered": false,
+    "design_residual": "more explicit musculature and small contour differences retained"
+  },
+  "provenance_hashes_only_not_runtime_dependencies": {
+    "original_map_a13_sha256": "e1cc7189fc96e04312b935422ec511a078b1fbe6259b97b9e3c279732becb3e3",
+    "original_npc_pack_sha256": "a5c1ae8d4e87ccfa134ded0cfdd0b704c309ff3629b61082bc6382251aca6066",
+    "original_source_contract_sha256": "7e3fbbc9fbdf4601717c49c77562b6181db5341fc57e04eefd92a73e14c8ff71",
+    "generated_raw_sha256": "f40575b118ee673d0e4233e001ad16fb79180e136e3ff8a3def8e349caa60faf",
+    "accepted_pose_interface_sha256": "61cecc7e62655eff52ad0acc96cad95b31cc7e3d70fc33d56eca12bc3ed3fd6b",
+    "fixed_receiver_contract_sha256": "a755d928bf8fdd3c42473c2aaa4a844d785dbc9325d8f265c68988de7696ba96",
+    "accepted_native1x_body_sha256": "b921d590ab2e53550bf6225eb0c83a15bd2adf3e9e30f603ab268fc2ac79ce46",
+    "density4_interface_sha256": "cbd90dc520bbeeeb8ffbefb1b2a06db161a9cb98b0f9d3a1fc132ede24d84484",
+    "density4_validation_sha256": "185b09df826d5fd29872dab3442c7bc30127bb97bfb1958696cb60fd552f084a",
+    "density4_registration_script_sha256": "6332e17da081878320729fc286965046523558c63577965f7b1b22a408cd79e9",
+    "production_density_helper_sha256_at_promotion": "cfc61e6c2b647bee68b063c1eecd884e1ac0ffa545fc1a59b3c3af4397adaf47",
+    "direct_raw_single_sampling_pass": true,
+    "no_new_generation": true
+  },
+  "runtime_research_path_dependency": false
+}

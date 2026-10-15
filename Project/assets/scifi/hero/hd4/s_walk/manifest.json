@@ -1,0 +1,357 @@
+{
+  "schema": "hero-hd4-group-v1",
+  "status": "approved_bounded_hd_preview",
+  "name": "s_walk",
+  "direction": "S",
+  "direction_index": 4,
+  "action": "walk",
+  "atlas": "res://assets/scifi/hero/hd4/s_walk/body.png",
+  "sha256": "e28201a4a5e729be3a8e4d1673e60cd448b78323fd75fc7dc4859630bd0faf20",
+  "source_ids": [
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+  ],
+  "logical_frame_size": [
+    128,
+    128
+  ],
+  "texture_frame_size": [
+    512,
+    512
+  ],
+  "grid": [
+    6,
+    1
+  ],
+  "texels_per_logical_pixel": 4,
+  "logical_root": [
+    16,
+    64
+  ],
+  "texture_root": [
+    64,
+    256
+  ],
+  "logical_draw_offset": [
+    -16,
+    -64
+  ],
+  "sprite_scale": [
+    0.25,
+    0.25
+  ],
+  "texture_offset_if_scaled_sprite": [
+    -64,
+    -256
+  ],
+  "frame_ticks": 7,
+  "filter": "linear",
+  "records": [
+    {
+      "source_id": 57,
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "logical_region": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "source_layers": {
+        "body": {
+          "atlas": "res://assets/original/hero/body-movement.png",
+          "rect": [
+            1025,
+            385,
+            64,
+            74
+          ],
+          "offset": [
+            8,
+            -46
+          ],
+          "rgba_sha256": "8a58e49a1e549bc811be76b159603927cc62d8bdab5369e13b17c9910fbf6058"
+        },
+        "head": {
+          "atlas": "res://assets/original/hero/head-movement.png",
+          "rect": [
+            1025,
+            385,
+            8,
+            12
+          ],
+          "offset": [
+            20,
+            -48
+          ],
+          "rgba_sha256": "3c562cab8f9296fd4de11d07d09430761e02956b61e428b3f5d1a40d2b95e82e"
+        }
+      }
+    },
+    {
+      "source_id": 58,
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "logical_region": [
+        128,
+        0,
+        128,
+        128
+      ],
+      "source_layers": {
+        "body": {
+          "atlas": "res://assets/original/hero/body-movement.png",
+          "rect": [
+            1153,
+            385,
+            64,
+            72
+          ],
+          "offset": [
+            8,
+            -47
+          ],
+          "rgba_sha256": "8889bf7d9ceedfb412f74d95e6c02fc4fa0359c15ec89733014485bd101a97e7"
+        },
+        "head": {
+          "atlas": "res://assets/original/hero/head-movement.png",
+          "rect": [
+            1153,
+            385,
+            8,
+            11
+          ],
+          "offset": [
+            21,
+            -49
+          ],
+          "rgba_sha256": "33b902f700a3eef261740e7124f13b83da4130f423f76d5e6485783b8ed9ea8f"
+        }
+      }
+    },
+    {
+      "source_id": 59,
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "logical_region": [
+        256,
+        0,
+        128,
+        128
+      ],
+      "source_layers": {
+        "body": {
+          "atlas": "res://assets/original/hero/body-movement.png",
+          "rect": [
+            1281,
+            385,
+            64,
+            72
+          ],
+          "offset": [
+            7,
+            -47
+          ],
+          "rgba_sha256": "43b1e5d8a6029ba6f1078d8bf8747b614fb6a9ddcdf26326a2325aeae6856d3b"
+        },
+        "head": {
+          "atlas": "res://assets/original/hero/head-movement.png",
+          "rect": [
+            1281,
+            385,
+            8,
+            11
+          ],
+          "offset": [
+            21,
+            -49
+          ],
+          "rgba_sha256": "0e8e950f8be09adcad6461b0a537bcdc3957f0cbd1bc342b934a58c1df0056ea"
+        }
+      }
+    },
+    {
+      "source_id": 60,
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "logical_region": [
+        384,
+        0,
+        128,
+        128
+      ],
+      "source_layers": {
+        "body": {
+          "atlas": "res://assets/original/hero/body-movement.png",
+          "rect": [
+            1409,
+            385,
+            60,
+            74
+          ],
+          "offset": [
+            8,
+            -46
+          ],
+          "rgba_sha256": "c074fb6c23ad2f7f20db47600104329e6ab5536c786a571f5f447a246e5a4fe5"
+        },
+        "head": {
+          "atlas": "res://assets/original/hero/head-movement.png",
+          "rect": [
+            1409,
+            385,
+            8,
+            12
+          ],
+          "offset": [
+            21,
+            -48
+          ],
+          "rgba_sha256": "e0cd51b56f3c454db66122fcdd93d2b766ba8d9eb1e79efab8a1904252a12d8a"
+        }
+      }
+    },
+    {
+      "source_id": 61,
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "logical_region": [
+        512,
+        0,
+        128,
+        128
+      ],
+      "source_layers": {
+        "body": {
+          "atlas": "res://assets/original/hero/body-movement.png",
+          "rect": [
+            1537,
+            385,
+            64,
+            72
+          ],
+          "offset": [
+            8,
+            -47
+          ],
+          "rgba_sha256": "b919356d2151ded72ebe8282d6e9abd47c74f7246d51fc5a2da72f5b8a4e924f"
+        },
+        "head": {
+          "atlas": "res://assets/original/hero/head-movement.png",
+          "rect": [
+            1537,
+            385,
+            8,
+            12
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "a45cbda8a8cdad158ede94bbe35a507cd5d40e4cd5107b7f09dd6a037c1db3a0"
+        }
+      }
+    },
+    {
+      "source_id": 62,
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "logical_region": [
+        640,
+        0,
+        128,
+        128
+      ],
+      "source_layers": {
+        "body": {
+          "atlas": "res://assets/original/hero/body-movement.png",
+          "rect": [
+            1665,
+            385,
+            64,
+            71
+          ],
+          "offset": [
+            8,
+            -47
+          ],
+          "rgba_sha256": "32127b4a4ad963fe0b62475a1a4db7c2588f903566fd3031006acba48d4bef5b"
+        },
+        "head": {
+          "atlas": "res://assets/original/hero/head-movement.png",
+          "rect": [
+            1665,
+            385,
+            8,
+            12
+          ],
+          "offset": [
+            21,
+            -49
+          ],
+          "rgba_sha256": "d1017ebb704a730e11241454544b1463d81c5191e6033c9bc052f4492cc6ef9e"
+        }
+      }
+    }
+  ],
+  "shadow": {
+    "helper": "res://scripts/art/hero_alpha_ground_shadow.gd",
+    "shader": "res://shaders/hero_alpha_ground_shadow.gdshader",
+    "receiver_mode": "fixed_horizontal",
+    "logical_receiver_y": 86,
+    "texture_receiver_y": 344,
+    "cast": [
+      0.5304659498207885,
+      -0.3978494623655914
+    ],
+    "opacity": 0.3,
+    "logical_blur": 0.9,
+    "texture_blur": 3.6,
+    "single_shadow": true,
+    "units": "Geometry in logical units or all texture units scaled by0.25 consistently; no mixed512-height/86-receiver."
+  },
+  "atomic_fallback": {
+    "unit": "entire_direction_action_group",
+    "validate_before_use": [
+      "atlas SHA256",
+      "atlas dimensions",
+      "complete source_ids and unique regions",
+      "density/root contract"
+    ],
+    "on_invalid": "disable all new body/head suppression and new shadow for this whole group; draw original body then original head with original checker retained",
+    "unsupported_direction_action": "original source renderer, never mirror or substitute another group"
+  },
+  "provenance_hashes": {
+    "raw_sha256": "bf726f3cf8fb920ce90416ed4b3cc4b5b35867b93b3728559f3d60a18d155d6b",
+    "registration_sha256": "fa3b9b4fdca7ae781ab55eb2d4e8de570575a72704897e23d7f46cca5871a255"
+  },
+  "scope": "Only E/SE/S idle+walk30 phases. No newly generated run, combat, equipment or other directions."
+}

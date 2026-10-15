@@ -1,0 +1,1230 @@
+{
+  "schema": "a13-grass-clumps-selected-hd-v1",
+  "status": "parent-approved bounded HD working body; no standalone new grass cast",
+  "raw_sha256": "5d7af06980261c9e3dacfa3a7f8a739e65f18c477e8c7f0ce68a702a665222ab",
+  "groups": [
+    {
+      "family": "grass239-240",
+      "source": [
+        54,
+        30
+      ],
+      "sheet_region": [
+        0,
+        0,
+        1250,
+        764
+      ],
+      "whole_registration": {
+        "world_top_left": [
+          2608.562113454662,
+          960.6326255357285
+        ],
+        "scale": 0.04907850253334162
+      },
+      "green_basal_proxy_region": [
+        610,
+        578
+      ],
+      "owners": [
+        {
+          "key": "Plant:239@54,30",
+          "pack": "Map/Res/Plant",
+          "frame_index": 239,
+          "cell": [
+            54,
+            30
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            239
+          ],
+          "source_cell_index": 5430,
+          "source_map_byte_offset": 43468,
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 30,
+          "stable_source_order": 5430,
+          "original_canvas": [
+            48,
+            32
+          ],
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "crop": [
+            16,
+            7
+          ],
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            1111,
+            1,
+            32,
+            25
+          ],
+          "native_source_offset": 3666346,
+          "native_source_bytes": 2614,
+          "rgba_sha256": "8c2d1a717a7e04c7b65128ba01e189ba77b4c4283ef6f68ee18d7ddce0ab579f",
+          "world_rect": [
+            2608,
+            967,
+            32,
+            25
+          ],
+          "texture": "res://assets/scifi/environment/a13_grass_clumps_v1/owner-239.png",
+          "texture_sha256": "579dbf1d874096c49243ceda4aa90de95c65de393c11ad0073a8cfca10d8089b",
+          "texture_size": [
+            1250,
+            764
+          ],
+          "region": [
+            0,
+            0,
+            1250,
+            764
+          ],
+          "world_top_left": [
+            2608.562113454662,
+            960.6326255357285
+          ],
+          "scale": 0.04907850253334162,
+          "alpha_positive_pixels": 115125
+        },
+        {
+          "key": "Plant:240@55,30",
+          "pack": "Map/Res/Plant",
+          "frame_index": 240,
+          "cell": [
+            55,
+            30
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            240
+          ],
+          "source_cell_index": 5530,
+          "source_map_byte_offset": 44268,
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 30,
+          "stable_source_order": 5530,
+          "original_canvas": [
+            48,
+            32
+          ],
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "crop": [
+            0,
+            5
+          ],
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            1145,
+            1,
+            32,
+            27
+          ],
+          "native_source_offset": 3668960,
+          "native_source_bytes": 2614,
+          "rgba_sha256": "71874d871601399d4d367ed6ba2db6695ec96b58f9a8cd15d22bc32c1d5cf4f2",
+          "world_rect": [
+            2640,
+            965,
+            32,
+            27
+          ],
+          "texture": "res://assets/scifi/environment/a13_grass_clumps_v1/owner-240.png",
+          "texture_sha256": "49afe1fff488f4982d4527e138ae3ae76f536e64ac57f9f7addcc60677f953ec",
+          "texture_size": [
+            1250,
+            764
+          ],
+          "region": [
+            0,
+            0,
+            1250,
+            764
+          ],
+          "world_top_left": [
+            2608.562113454662,
+            960.6326255357285
+          ],
+          "scale": 0.04907850253334162,
+          "alpha_positive_pixels": 143888
+        }
+      ],
+      "instances": [
+        {
+          "family_anchor_cell": [
+            54,
+            30
+          ],
+          "owners": [
+            {
+              "key": "Plant:239@54,30",
+              "pack": "Map/Res/Plant",
+              "frame_index": 239,
+              "cell": [
+                54,
+                30
+              ],
+              "source_cell": [
+                -406,
+                0,
+                2,
+                239
+              ],
+              "source_cell_index": 5430,
+              "source_map_byte_offset": 43468,
+              "flag": 0,
+              "layer": 1,
+              "sort_y": 30,
+              "stable_source_order": 5430,
+              "original_canvas": [
+                48,
+                32
+              ],
+              "offset_ignored": [
+                0,
+                0
+              ],
+              "crop": [
+                16,
+                7
+              ],
+              "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+              "atlas_rect": [
+                1111,
+                1,
+                32,
+                25
+              ],
+              "native_source_offset": 3666346,
+              "native_source_bytes": 2614,
+              "rgba_sha256": "8c2d1a717a7e04c7b65128ba01e189ba77b4c4283ef6f68ee18d7ddce0ab579f",
+              "world_rect": [
+                2608,
+                967,
+                32,
+                25
+              ],
+              "texture": "res://assets/scifi/environment/a13_grass_clumps_v1/owner-239.png",
+              "texture_sha256": "579dbf1d874096c49243ceda4aa90de95c65de393c11ad0073a8cfca10d8089b",
+              "texture_size": [
+                1250,
+                764
+              ],
+              "region": [
+                0,
+                0,
+                1250,
+                764
+              ],
+              "world_top_left": [
+                2608.562113454662,
+                960.6326255357285
+              ],
+              "scale": 0.04907850253334162,
+              "alpha_positive_pixels": 115125
+            },
+            {
+              "key": "Plant:240@55,30",
+              "pack": "Map/Res/Plant",
+              "frame_index": 240,
+              "cell": [
+                55,
+                30
+              ],
+              "source_cell": [
+                0,
+                0,
+                2,
+                240
+              ],
+              "source_cell_index": 5530,
+              "source_map_byte_offset": 44268,
+              "flag": 0,
+              "layer": 1,
+              "sort_y": 30,
+              "stable_source_order": 5530,
+              "original_canvas": [
+                48,
+                32
+              ],
+              "offset_ignored": [
+                0,
+                0
+              ],
+              "crop": [
+                0,
+                5
+              ],
+              "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+              "atlas_rect": [
+                1145,
+                1,
+                32,
+                27
+              ],
+              "native_source_offset": 3668960,
+              "native_source_bytes": 2614,
+              "rgba_sha256": "71874d871601399d4d367ed6ba2db6695ec96b58f9a8cd15d22bc32c1d5cf4f2",
+              "world_rect": [
+                2640,
+                965,
+                32,
+                27
+              ],
+              "texture": "res://assets/scifi/environment/a13_grass_clumps_v1/owner-240.png",
+              "texture_sha256": "49afe1fff488f4982d4527e138ae3ae76f536e64ac57f9f7addcc60677f953ec",
+              "texture_size": [
+                1250,
+                764
+              ],
+              "region": [
+                0,
+                0,
+                1250,
+                764
+              ],
+              "world_top_left": [
+                2608.562113454662,
+                960.6326255357285
+              ],
+              "scale": 0.04907850253334162,
+              "alpha_positive_pixels": 143888
+            }
+          ],
+          "suppress_source_keys": [
+            "Plant:239@54,30",
+            "Plant:240@55,30"
+          ],
+          "translation_world": [
+            0,
+            0
+          ]
+        }
+      ],
+      "whole_texture_provenance_sha256": "97d19a246d1491be2694a9f69f1a2b7584b930fe7bcb24f79a10e9542e6e3df0"
+    },
+    {
+      "family": "grass241-242",
+      "source": [
+        54,
+        26
+      ],
+      "sheet_region": [
+        1250,
+        0,
+        808,
+        764
+      ],
+      "whole_registration": {
+        "world_top_left": [
+          2618.251561706071,
+          823.0325791314224
+        ],
+        "scale": 0.05010909525659802
+      },
+      "green_basal_proxy_region": [
+        444,
+        618
+      ],
+      "owners": [
+        {
+          "key": "Plant:241@54,26",
+          "pack": "Map/Res/Plant",
+          "frame_index": 241,
+          "cell": [
+            54,
+            26
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            241
+          ],
+          "source_cell_index": 5426,
+          "source_map_byte_offset": 43436,
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 26,
+          "stable_source_order": 5426,
+          "original_canvas": [
+            48,
+            32
+          ],
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "crop": [
+            21,
+            0
+          ],
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            1179,
+            1,
+            27,
+            26
+          ],
+          "native_source_offset": 3671574,
+          "native_source_bytes": 2614,
+          "rgba_sha256": "8f765460d598a1cd4c5cd26a1a2c240697175db179178f05db2a1e4ccb1d8936",
+          "world_rect": [
+            2613,
+            832,
+            27,
+            26
+          ],
+          "texture": "res://assets/scifi/environment/a13_grass_clumps_v1/owner-241.png",
+          "texture_sha256": "b7743b70397644db5a12f2fc7a917eb321c7cb441bf78de52db61959ba2df3df",
+          "texture_size": [
+            808,
+            764
+          ],
+          "region": [
+            0,
+            0,
+            808,
+            764
+          ],
+          "world_top_left": [
+            2618.251561706071,
+            823.0325791314224
+          ],
+          "scale": 0.05010909525659802,
+          "alpha_positive_pixels": 67069
+        },
+        {
+          "key": "Plant:242@55,26",
+          "pack": "Map/Res/Plant",
+          "frame_index": 242,
+          "cell": [
+            55,
+            26
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            242
+          ],
+          "source_cell_index": 5526,
+          "source_map_byte_offset": 44236,
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 26,
+          "stable_source_order": 5526,
+          "original_canvas": [
+            48,
+            32
+          ],
+          "offset_ignored": [
+            0,
+            0
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            1208,
+            1,
+            31,
+            25
+          ],
+          "native_source_offset": 3674188,
+          "native_source_bytes": 2614,
+          "rgba_sha256": "c1bc29c8b1c6157d97bf187294b3b3fa9da46af53d3105c806758f073ca3686f",
+          "world_rect": [
+            2640,
+            832,
+            31,
+            25
+          ],
+          "texture": "res://assets/scifi/environment/a13_grass_clumps_v1/owner-242.png",
+          "texture_sha256": "7e16ec5f3f35cea98f3c50f674808efd2b48ebaeedbd96451c0752751e80bf49",
+          "texture_size": [
+            808,
+            764
+          ],
+          "region": [
+            0,
+            0,
+            808,
+            764
+          ],
+          "world_top_left": [
+            2618.251561706071,
+            823.0325791314224
+          ],
+          "scale": 0.05010909525659802,
+          "alpha_positive_pixels": 53895
+        }
+      ],
+      "instances": [
+        {
+          "family_anchor_cell": [
+            54,
+            26
+          ],
+          "owners": [
+            {
+              "key": "Plant:241@54,26",
+              "pack": "Map/Res/Plant",
+              "frame_index": 241,
+              "cell": [
+                54,
+                26
+              ],
+              "source_cell": [
+                -406,
+                0,
+                2,
+                241
+              ],
+              "source_cell_index": 5426,
+              "source_map_byte_offset": 43436,
+              "flag": 0,
+              "layer": 1,
+              "sort_y": 26,
+              "stable_source_order": 5426,
+              "original_canvas": [
+                48,
+                32
+              ],
+              "offset_ignored": [
+                0,
+                0
+              ],
+              "crop": [
+                21,
+                0
+              ],
+              "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+              "atlas_rect": [
+                1179,
+                1,
+                27,
+                26
+              ],
+              "native_source_offset": 3671574,
+              "native_source_bytes": 2614,
+              "rgba_sha256": "8f765460d598a1cd4c5cd26a1a2c240697175db179178f05db2a1e4ccb1d8936",
+              "world_rect": [
+                2613,
+                832,
+                27,
+                26
+              ],
+              "texture": "res://assets/scifi/environment/a13_grass_clumps_v1/owner-241.png",
+              "texture_sha256": "b7743b70397644db5a12f2fc7a917eb321c7cb441bf78de52db61959ba2df3df",
+              "texture_size": [
+                808,
+                764
+              ],
+              "region": [
+                0,
+                0,
+                808,
+                764
+              ],
+              "world_top_left": [
+                2618.251561706071,
+                823.0325791314224
+              ],
+              "scale": 0.05010909525659802,
+              "alpha_positive_pixels": 67069
+            },
+            {
+              "key": "Plant:242@55,26",
+              "pack": "Map/Res/Plant",
+              "frame_index": 242,
+              "cell": [
+                55,
+                26
+              ],
+              "source_cell": [
+                0,
+                0,
+                2,
+                242
+              ],
+              "source_cell_index": 5526,
+              "source_map_byte_offset": 44236,
+              "flag": 0,
+              "layer": 1,
+              "sort_y": 26,
+              "stable_source_order": 5526,
+              "original_canvas": [
+                48,
+                32
+              ],
+              "offset_ignored": [
+                0,
+                0
+              ],
+              "crop": [
+                0,
+                0
+              ],
+              "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+              "atlas_rect": [
+                1208,
+                1,
+                31,
+                25
+              ],
+              "native_source_offset": 3674188,
+              "native_source_bytes": 2614,
+              "rgba_sha256": "c1bc29c8b1c6157d97bf187294b3b3fa9da46af53d3105c806758f073ca3686f",
+              "world_rect": [
+                2640,
+                832,
+                31,
+                25
+              ],
+              "texture": "res://assets/scifi/environment/a13_grass_clumps_v1/owner-242.png",
+              "texture_sha256": "7e16ec5f3f35cea98f3c50f674808efd2b48ebaeedbd96451c0752751e80bf49",
+              "texture_size": [
+                808,
+                764
+              ],
+              "region": [
+                0,
+                0,
+                808,
+                764
+              ],
+              "world_top_left": [
+                2618.251561706071,
+                823.0325791314224
+              ],
+              "scale": 0.05010909525659802,
+              "alpha_positive_pixels": 53895
+            }
+          ],
+          "suppress_source_keys": [
+            "Plant:241@54,26",
+            "Plant:242@55,26"
+          ],
+          "translation_world": [
+            0,
+            0
+          ]
+        },
+        {
+          "family_anchor_cell": [
+            54,
+            31
+          ],
+          "owners": [
+            {
+              "key": "Plant:241@54,31",
+              "pack": "Map/Res/Plant",
+              "frame_index": 241,
+              "cell": [
+                54,
+                31
+              ],
+              "source_cell": [
+                0,
+                0,
+                2,
+                241
+              ],
+              "source_cell_index": 5431,
+              "source_map_byte_offset": 43476,
+              "flag": 0,
+              "layer": 1,
+              "sort_y": 31,
+              "stable_source_order": 5431,
+              "original_canvas": [
+                48,
+                32
+              ],
+              "offset_ignored": [
+                0,
+                0
+              ],
+              "crop": [
+                21,
+                0
+              ],
+              "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+              "atlas_rect": [
+                1179,
+                1,
+                27,
+                26
+              ],
+              "native_source_offset": 3671574,
+              "native_source_bytes": 2614,
+              "rgba_sha256": "8f765460d598a1cd4c5cd26a1a2c240697175db179178f05db2a1e4ccb1d8936",
+              "world_rect": [
+                2613,
+                992,
+                27,
+                26
+              ],
+              "texture": "res://assets/scifi/environment/a13_grass_clumps_v1/owner-241.png",
+              "texture_sha256": "b7743b70397644db5a12f2fc7a917eb321c7cb441bf78de52db61959ba2df3df",
+              "texture_size": [
+                808,
+                764
+              ],
+              "region": [
+                0,
+                0,
+                808,
+                764
+              ],
+              "world_top_left": [
+                2618.251561706071,
+                983.0325791314224
+              ],
+              "scale": 0.05010909525659802,
+              "alpha_positive_pixels": 67069
+            },
+            {
+              "key": "Plant:242@55,31",
+              "pack": "Map/Res/Plant",
+              "frame_index": 242,
+              "cell": [
+                55,
+                31
+              ],
+              "source_cell": [
+                0,
+                0,
+                2,
+                242
+              ],
+              "source_cell_index": 5531,
+              "source_map_byte_offset": 44276,
+              "flag": 0,
+              "layer": 1,
+              "sort_y": 31,
+              "stable_source_order": 5531,
+              "original_canvas": [
+                48,
+                32
+              ],
+              "offset_ignored": [
+                0,
+                0
+              ],
+              "crop": [
+                0,
+                0
+              ],
+              "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+              "atlas_rect": [
+                1208,
+                1,
+                31,
+                25
+              ],
+              "native_source_offset": 3674188,
+              "native_source_bytes": 2614,
+              "rgba_sha256": "c1bc29c8b1c6157d97bf187294b3b3fa9da46af53d3105c806758f073ca3686f",
+              "world_rect": [
+                2640,
+                992,
+                31,
+                25
+              ],
+              "texture": "res://assets/scifi/environment/a13_grass_clumps_v1/owner-242.png",
+              "texture_sha256": "7e16ec5f3f35cea98f3c50f674808efd2b48ebaeedbd96451c0752751e80bf49",
+              "texture_size": [
+                808,
+                764
+              ],
+              "region": [
+                0,
+                0,
+                808,
+                764
+              ],
+              "world_top_left": [
+                2618.251561706071,
+                983.0325791314224
+              ],
+              "scale": 0.05010909525659802,
+              "alpha_positive_pixels": 53895
+            }
+          ],
+          "suppress_source_keys": [
+            "Plant:241@54,31",
+            "Plant:242@55,31"
+          ],
+          "translation_world": [
+            0,
+            160
+          ]
+        }
+      ],
+      "whole_texture_provenance_sha256": "53877a6c8cfcffe014bdc5d425d3e4eedf394e04f771aaeeab100262667b0a67"
+    }
+  ],
+  "validation": {
+    "whole_sheet_pixel_coverage_min": 1,
+    "whole_sheet_pixel_coverage_max": 1,
+    "all_RGBA_reassembly_exact": true,
+    "unique_first_screen_keys": 6,
+    "source_instances": 3,
+    "out_of_bounds": 0
+  },
+  "sampling": "nearest initial full/split; common complete regional canvas per family, same scale/position for both owners",
+  "limits": [
+    "Original two phases are spatial pieces not animation.",
+    "Green basal proxy is not a surveyed root; read uncertainty2/3originalpx.",
+    "All raw faint alpha retained; no old checker or alpha shape trim.",
+    "No new cast in this technical body stage.",
+    "First-screen three instances only; all other same-family source unchanged."
+  ],
+  "owners": [
+    {
+      "key": "Plant:239@54,30",
+      "pack": "Map/Res/Plant",
+      "frame_index": 239,
+      "cell": [
+        54,
+        30
+      ],
+      "source_cell": [
+        -406,
+        0,
+        2,
+        239
+      ],
+      "source_cell_index": 5430,
+      "source_map_byte_offset": 43468,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 30,
+      "stable_source_order": 5430,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        16,
+        7
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        1111,
+        1,
+        32,
+        25
+      ],
+      "native_source_offset": 3666346,
+      "native_source_bytes": 2614,
+      "rgba_sha256": "8c2d1a717a7e04c7b65128ba01e189ba77b4c4283ef6f68ee18d7ddce0ab579f",
+      "world_rect": [
+        2608,
+        967,
+        32,
+        25
+      ],
+      "texture": "res://assets/scifi/environment/a13_grass_clumps_v1/owner-239.png",
+      "texture_sha256": "579dbf1d874096c49243ceda4aa90de95c65de393c11ad0073a8cfca10d8089b",
+      "texture_size": [
+        1250,
+        764
+      ],
+      "region": [
+        0,
+        0,
+        1250,
+        764
+      ],
+      "world_top_left": [
+        2608.562113454662,
+        960.6326255357285
+      ],
+      "scale": 0.04907850253334162,
+      "alpha_positive_pixels": 115125
+    },
+    {
+      "key": "Plant:240@55,30",
+      "pack": "Map/Res/Plant",
+      "frame_index": 240,
+      "cell": [
+        55,
+        30
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        240
+      ],
+      "source_cell_index": 5530,
+      "source_map_byte_offset": 44268,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 30,
+      "stable_source_order": 5530,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        5
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        1145,
+        1,
+        32,
+        27
+      ],
+      "native_source_offset": 3668960,
+      "native_source_bytes": 2614,
+      "rgba_sha256": "71874d871601399d4d367ed6ba2db6695ec96b58f9a8cd15d22bc32c1d5cf4f2",
+      "world_rect": [
+        2640,
+        965,
+        32,
+        27
+      ],
+      "texture": "res://assets/scifi/environment/a13_grass_clumps_v1/owner-240.png",
+      "texture_sha256": "49afe1fff488f4982d4527e138ae3ae76f536e64ac57f9f7addcc60677f953ec",
+      "texture_size": [
+        1250,
+        764
+      ],
+      "region": [
+        0,
+        0,
+        1250,
+        764
+      ],
+      "world_top_left": [
+        2608.562113454662,
+        960.6326255357285
+      ],
+      "scale": 0.04907850253334162,
+      "alpha_positive_pixels": 143888
+    },
+    {
+      "key": "Plant:241@54,26",
+      "pack": "Map/Res/Plant",
+      "frame_index": 241,
+      "cell": [
+        54,
+        26
+      ],
+      "source_cell": [
+        -406,
+        0,
+        2,
+        241
+      ],
+      "source_cell_index": 5426,
+      "source_map_byte_offset": 43436,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 26,
+      "stable_source_order": 5426,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        21,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        1179,
+        1,
+        27,
+        26
+      ],
+      "native_source_offset": 3671574,
+      "native_source_bytes": 2614,
+      "rgba_sha256": "8f765460d598a1cd4c5cd26a1a2c240697175db179178f05db2a1e4ccb1d8936",
+      "world_rect": [
+        2613,
+        832,
+        27,
+        26
+      ],
+      "texture": "res://assets/scifi/environment/a13_grass_clumps_v1/owner-241.png",
+      "texture_sha256": "b7743b70397644db5a12f2fc7a917eb321c7cb441bf78de52db61959ba2df3df",
+      "texture_size": [
+        808,
+        764
+      ],
+      "region": [
+        0,
+        0,
+        808,
+        764
+      ],
+      "world_top_left": [
+        2618.251561706071,
+        823.0325791314224
+      ],
+      "scale": 0.05010909525659802,
+      "alpha_positive_pixels": 67069
+    },
+    {
+      "key": "Plant:242@55,26",
+      "pack": "Map/Res/Plant",
+      "frame_index": 242,
+      "cell": [
+        55,
+        26
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        242
+      ],
+      "source_cell_index": 5526,
+      "source_map_byte_offset": 44236,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 26,
+      "stable_source_order": 5526,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        1208,
+        1,
+        31,
+        25
+      ],
+      "native_source_offset": 3674188,
+      "native_source_bytes": 2614,
+      "rgba_sha256": "c1bc29c8b1c6157d97bf187294b3b3fa9da46af53d3105c806758f073ca3686f",
+      "world_rect": [
+        2640,
+        832,
+        31,
+        25
+      ],
+      "texture": "res://assets/scifi/environment/a13_grass_clumps_v1/owner-242.png",
+      "texture_sha256": "7e16ec5f3f35cea98f3c50f674808efd2b48ebaeedbd96451c0752751e80bf49",
+      "texture_size": [
+        808,
+        764
+      ],
+      "region": [
+        0,
+        0,
+        808,
+        764
+      ],
+      "world_top_left": [
+        2618.251561706071,
+        823.0325791314224
+      ],
+      "scale": 0.05010909525659802,
+      "alpha_positive_pixels": 53895
+    },
+    {
+      "key": "Plant:241@54,31",
+      "pack": "Map/Res/Plant",
+      "frame_index": 241,
+      "cell": [
+        54,
+        31
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        241
+      ],
+      "source_cell_index": 5431,
+      "source_map_byte_offset": 43476,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 31,
+      "stable_source_order": 5431,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        21,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        1179,
+        1,
+        27,
+        26
+      ],
+      "native_source_offset": 3671574,
+      "native_source_bytes": 2614,
+      "rgba_sha256": "8f765460d598a1cd4c5cd26a1a2c240697175db179178f05db2a1e4ccb1d8936",
+      "world_rect": [
+        2613,
+        992,
+        27,
+        26
+      ],
+      "texture": "res://assets/scifi/environment/a13_grass_clumps_v1/owner-241.png",
+      "texture_sha256": "b7743b70397644db5a12f2fc7a917eb321c7cb441bf78de52db61959ba2df3df",
+      "texture_size": [
+        808,
+        764
+      ],
+      "region": [
+        0,
+        0,
+        808,
+        764
+      ],
+      "world_top_left": [
+        2618.251561706071,
+        983.0325791314224
+      ],
+      "scale": 0.05010909525659802,
+      "alpha_positive_pixels": 67069
+    },
+    {
+      "key": "Plant:242@55,31",
+      "pack": "Map/Res/Plant",
+      "frame_index": 242,
+      "cell": [
+        55,
+        31
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        242
+      ],
+      "source_cell_index": 5531,
+      "source_map_byte_offset": 44276,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 31,
+      "stable_source_order": 5531,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        1208,
+        1,
+        31,
+        25
+      ],
+      "native_source_offset": 3674188,
+      "native_source_bytes": 2614,
+      "rgba_sha256": "c1bc29c8b1c6157d97bf187294b3b3fa9da46af53d3105c806758f073ca3686f",
+      "world_rect": [
+        2640,
+        992,
+        31,
+        25
+      ],
+      "texture": "res://assets/scifi/environment/a13_grass_clumps_v1/owner-242.png",
+      "texture_sha256": "7e16ec5f3f35cea98f3c50f674808efd2b48ebaeedbd96451c0752751e80bf49",
+      "texture_size": [
+        808,
+        764
+      ],
+      "region": [
+        0,
+        0,
+        808,
+        764
+      ],
+      "world_top_left": [
+        2618.251561706071,
+        983.0325791314224
+      ],
+      "scale": 0.05010909525659802,
+      "alpha_positive_pixels": 53895
+    }
+  ],
+  "suppress_source_keys": [
+    "Plant:239@54,30",
+    "Plant:240@55,30",
+    "Plant:241@54,26",
+    "Plant:242@55,26",
+    "Plant:241@54,31",
+    "Plant:242@55,31"
+  ],
+  "acceptance": {
+    "whole_split_gpu": {
+      "239-240": {
+        "max_rgb": 0,
+        "changed": 0
+      },
+      "241-242": {
+        "max_rgb": 1,
+        "changed": 4
+      }
+    },
+    "source_instances": 3,
+    "actual2x_composition_reviewed": true
+  },
+  "guard_contract": {
+    "unit": "complete2-owner instance",
+    "invalid": "restore both source keys; no new grass cast present",
+    "actual_sha_scope": "source-project PNG files; do not claim exported Texture2D byte hash without separate implementation"
+  }
+}

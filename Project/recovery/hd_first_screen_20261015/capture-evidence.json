@@ -1,0 +1,61 @@
+{
+  "status": "actual GPU composite; production promotion and failure closure pending",
+  "raster": [
+    2048,
+    1536
+  ],
+  "logical": [
+    1024,
+    768
+  ],
+  "image_sha256": "a2e709b852041ed292e9a8a228f9c84eb47c71fa409d86ddf8964aac88f1ede3",
+  "counts": {
+    "hero_hd_frames": 30,
+    "npc_records": 2,
+    "ground_placements": 143,
+    "temple_owners": 30,
+    "gold_trees": 2,
+    "gold_tree_owners": 14,
+    "upright_trees": 3,
+    "upright_tree_owners": 18,
+    "shrub_instances": 4,
+    "shrub_owners": 16,
+    "grass_instances": 3,
+    "grass_owners": 6
+  },
+  "shadows": {
+    "hero_npc_density": 4,
+    "hero_npc_logical_blur": 0.9,
+    "hero_npc_raw_blur": 3.6,
+    "upright_single_passes": 3,
+    "shrub_band_passes": 4,
+    "shrub_band_start": 900,
+    "shrub_band_fade": 64,
+    "shrub_actual_wood_root": null
+  },
+  "gpu_whole_split": {
+    "shrub": {
+      "max_rgb": 1,
+      "pixels": 3
+    },
+    "upright": {
+      "max_rgb": 1,
+      "pixels": 26
+    },
+    "grass239": {
+      "max_rgb": 0,
+      "pixels": 0
+    },
+    "grass241": {
+      "max_rgb": 1,
+      "pixels": 4
+    }
+  },
+  "limits": [
+    "Temple cast not implemented",
+    "Grass new cast not implemented",
+    "Ground repetition remains visible; only143 placements",
+    "Only E/SE/S idle/walk are new HD; unsupported action source fallback",
+    "No completed production resource-error closure or fresh export yet"
+  ]
+}

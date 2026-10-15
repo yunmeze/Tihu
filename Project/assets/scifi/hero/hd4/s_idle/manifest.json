@@ -1,0 +1,265 @@
+{
+  "schema": "hero-hd4-group-v1",
+  "status": "approved_bounded_hd_preview",
+  "name": "s_idle",
+  "direction": "S",
+  "direction_index": 4,
+  "action": "idle",
+  "atlas": "res://assets/scifi/hero/hd4/s_idle/body.png",
+  "sha256": "8c1fb37b227cf0b430509c7fc25380b190e180bbdca601c8913f84e38a71ac5d",
+  "source_ids": [
+    17,
+    18,
+    19,
+    20
+  ],
+  "logical_frame_size": [
+    128,
+    128
+  ],
+  "texture_frame_size": [
+    512,
+    512
+  ],
+  "grid": [
+    4,
+    1
+  ],
+  "texels_per_logical_pixel": 4,
+  "logical_root": [
+    16,
+    64
+  ],
+  "texture_root": [
+    64,
+    256
+  ],
+  "logical_draw_offset": [
+    -16,
+    -64
+  ],
+  "sprite_scale": [
+    0.25,
+    0.25
+  ],
+  "texture_offset_if_scaled_sprite": [
+    -64,
+    -256
+  ],
+  "frame_ticks": 12,
+  "filter": "linear",
+  "records": [
+    {
+      "source_id": 17,
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "logical_region": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "source_layers": {
+        "body": {
+          "atlas": "res://assets/original/hero/body-movement.png",
+          "rect": [
+            1,
+            129,
+            64,
+            71
+          ],
+          "offset": [
+            7,
+            -47
+          ],
+          "rgba_sha256": "a7e2e9a35809342e262075f0f6fd2077d08575f1eb4810ad4ba6ed72647e1bf6"
+        },
+        "head": {
+          "atlas": "res://assets/original/hero/head-movement.png",
+          "rect": [
+            1,
+            129,
+            8,
+            12
+          ],
+          "offset": [
+            21,
+            -49
+          ],
+          "rgba_sha256": "1c9639904e36e51d6eaa9fa58ca070e7f2f864f86f5d50f4ce1ea39c270ac03b"
+        }
+      }
+    },
+    {
+      "source_id": 18,
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "logical_region": [
+        128,
+        0,
+        128,
+        128
+      ],
+      "source_layers": {
+        "body": {
+          "atlas": "res://assets/original/hero/body-movement.png",
+          "rect": [
+            129,
+            129,
+            64,
+            71
+          ],
+          "offset": [
+            7,
+            -47
+          ],
+          "rgba_sha256": "ff71cf066fcea3185e359ba99737ffc7cba77205411fe514c7ca5b75b9610c34"
+        },
+        "head": {
+          "atlas": "res://assets/original/hero/head-movement.png",
+          "rect": [
+            129,
+            129,
+            8,
+            12
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "2acbaa07e3aa9e12efbb3b9e6387afc8c41d406039c575bbe64c4afb82201bd2"
+        }
+      }
+    },
+    {
+      "source_id": 19,
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "logical_region": [
+        256,
+        0,
+        128,
+        128
+      ],
+      "source_layers": {
+        "body": {
+          "atlas": "res://assets/original/hero/body-movement.png",
+          "rect": [
+            257,
+            129,
+            64,
+            71
+          ],
+          "offset": [
+            7,
+            -47
+          ],
+          "rgba_sha256": "09f9e448e4e24410b220042773900f3153090074e94fcf7b2754f45ff4c6a406"
+        },
+        "head": {
+          "atlas": "res://assets/original/hero/head-movement.png",
+          "rect": [
+            257,
+            129,
+            8,
+            12
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "de08f4e227dc495f38144932936af5701c93035aec8621f1b8f7eab21f804f92"
+        }
+      }
+    },
+    {
+      "source_id": 20,
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "logical_region": [
+        384,
+        0,
+        128,
+        128
+      ],
+      "source_layers": {
+        "body": {
+          "atlas": "res://assets/original/hero/body-movement.png",
+          "rect": [
+            385,
+            129,
+            64,
+            71
+          ],
+          "offset": [
+            7,
+            -47
+          ],
+          "rgba_sha256": "621dd99c431cf5c5cdafec8e4fda60030073726923f2122d28f122c107effb29"
+        },
+        "head": {
+          "atlas": "res://assets/original/hero/head-movement.png",
+          "rect": [
+            385,
+            129,
+            8,
+            12
+          ],
+          "offset": [
+            21,
+            -49
+          ],
+          "rgba_sha256": "74211e1d66f4e6186fdd7aa97ffe22b06e15a759e7160453c344d458d07145ed"
+        }
+      }
+    }
+  ],
+  "shadow": {
+    "helper": "res://scripts/art/hero_alpha_ground_shadow.gd",
+    "shader": "res://shaders/hero_alpha_ground_shadow.gdshader",
+    "receiver_mode": "fixed_horizontal",
+    "logical_receiver_y": 86,
+    "texture_receiver_y": 344,
+    "cast": [
+      0.5304659498207885,
+      -0.3978494623655914
+    ],
+    "opacity": 0.3,
+    "logical_blur": 0.9,
+    "texture_blur": 3.6,
+    "single_shadow": true,
+    "units": "Geometry in logical units or all texture units scaled by0.25 consistently; no mixed512-height/86-receiver."
+  },
+  "atomic_fallback": {
+    "unit": "entire_direction_action_group",
+    "validate_before_use": [
+      "atlas SHA256",
+      "atlas dimensions",
+      "complete source_ids and unique regions",
+      "density/root contract"
+    ],
+    "on_invalid": "disable all new body/head suppression and new shadow for this whole group; draw original body then original head with original checker retained",
+    "unsupported_direction_action": "original source renderer, never mirror or substitute another group"
+  },
+  "provenance_hashes": {
+    "raw_sha256": "aff234850d22e7748b7e0ab2c03f7fbcb4b842f52d0ca4fcfbc206fffba9f04d",
+    "registration_sha256": "690c23fdb45c78a7caeab72d64610421de97a543e3a3e258377f0a4c318336c4"
+  },
+  "scope": "Only E/SE/S idle+walk30 phases. No newly generated run, combat, equipment or other directions."
+}

@@ -1,0 +1,67 @@
+{
+  "schema": "lp-a13-selected-npc-hd4-set-v1",
+  "asset_version": 1,
+  "atomic_group": "a13-key-npcs-hd4-v1",
+  "map_id": "A13",
+  "members": [
+    {
+      "subject": "fangzhang",
+      "manifest": "res://assets/scifi/npc/hd4/fangzhang_v1/manifest.json",
+      "manifest_sha256": "11ee82d1422badee46538315add00ebe0d9d73ed0ec28d240cf4f3597773eebe",
+      "record_index": 0,
+      "stable_order": 10000
+    },
+    {
+      "subject": "lingyunzi",
+      "manifest": "res://assets/scifi/npc/hd4/lingyunzi_v1/manifest.json",
+      "manifest_sha256": "a0be2f236fbc626a4b055b338d98931dc29205084527375d123277e7a2584945",
+      "record_index": 1,
+      "stable_order": 10001
+    }
+  ],
+  "member_count": 2,
+  "texture_density": 4,
+  "logical_frame_size": [
+    128,
+    160
+  ],
+  "texture_frame_size": [
+    512,
+    640
+  ],
+  "logical_draw_offset": [
+    -32,
+    -104
+  ],
+  "animation": {
+    "fps": 50,
+    "frame_ticks": 17,
+    "phase_count": 4,
+    "loop_ticks": 68,
+    "global_clock": true
+  },
+  "selection_contract": {
+    "exact_record_indices": [
+      0,
+      1
+    ],
+    "exact_stable_orders": [
+      10000,
+      10001
+    ],
+    "both_members_must_prepare": true,
+    "appearance_only_matching_forbidden": true,
+    "no_R6_default_override": true
+  },
+  "unit_contract": {
+    "body_uses_texture_rect_and_quarter_scale": true,
+    "density_helper_uses_logical_rect_reference_transform_and_blur": true,
+    "logical_blur_radius_px": 0.9,
+    "texture_blur_radius_px": 3.6,
+    "density_conversion_occurs_once": true,
+    "outer_screen_scale_is_independent_of_texture_density": true
+  },
+  "fallback": "complete original two NPC sprites with original checker shadows, both HD bodies and new shadows disabled atomically",
+  "approved_scope": "ordinary HD resource closure for already checked pair; true2048 technical candidate; final whole-screen style feedback remains pending",
+  "runtime_research_path_dependency": false
+}
