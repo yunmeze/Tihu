@@ -1,0 +1,93 @@
+{
+  "status": "static_pose_candidate_requires_native_sequence",
+  "actual_views": [
+    "raw gray full6",
+    "source-candidate true2x"
+  ],
+  "boot_difference_invariants": [
+    {
+      "source_id": 51,
+      "source_B_minus_A": [
+        -15.0,
+        -17.0
+      ],
+      "candidate_B_minus_A": [
+        -16.65160159969524,
+        -17.841001713959173
+      ],
+      "residual": [
+        -1.6516015996952405,
+        -0.841001713959173
+      ]
+    },
+    {
+      "source_id": 53,
+      "source_B_minus_A": [
+        13.0,
+        -2.0
+      ],
+      "candidate_B_minus_A": [
+        13.6120235299096,
+        -1.7180223872701674
+      ],
+      "residual": [
+        0.6120235299095995,
+        0.28197761272983257
+      ]
+    },
+    {
+      "source_id": 54,
+      "source_B_minus_A": [
+        29.0,
+        8.0
+      ],
+      "candidate_B_minus_A": [
+        31.717336380371886,
+        11.629690006136343
+      ],
+      "residual": [
+        2.7173363803718864,
+        3.629690006136343
+      ]
+    },
+    {
+      "source_id": 55,
+      "source_B_minus_A": [
+        20.0,
+        5.0
+      ],
+      "candidate_B_minus_A": [
+        18.63393512346849,
+        6.739933980829022
+      ],
+      "residual": [
+        -1.3660648765315102,
+        1.7399339808290222
+      ]
+    },
+    {
+      "source_id": 56,
+      "source_B_minus_A": [
+        1.0,
+        -8.0
+      ],
+      "candidate_B_minus_A": [
+        1.7180223872701461,
+        -6.739933980829022
+      ],
+      "residual": [
+        0.7180223872701461,
+        1.2600660191709778
+      ]
+    }
+  ],
+  "findings": [
+    "52 no independently clear second toe, rear shin/heel edge slightly exposed; inspect sequence",
+    "54 stride wider and vertical boot separation larger than source; measurable residual",
+    "55 correct back-folded chain distinct from51",
+    "56 short boot visible but closer vertically to long boot than source",
+    "same current idle black-thigh outfit; no long silver thigh plate"
+  ],
+  "uncertainty": "raw manual endpoints +/-8px ~=1.06 logical; source +/-1px; differences combine two endpoints; not a hard universal threshold",
+  "not_proven": "support/contact, whole-cycle naturalness, new cast or depth"
+}

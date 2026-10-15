@@ -1,0 +1,96 @@
+{
+  "status": "diagnostic_only_not_promoted",
+  "atlas": "art_source/earth_hero_se_walk_v1/body-density4.png",
+  "atlas_sha256": "f4eee4ec3a35e6597eb3a1eb4f6e5122163845ca474673974af1531ac42489ac",
+  "source_ids": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+  ],
+  "texture_density": 4,
+  "logical_frame_size": [
+    128,
+    128
+  ],
+  "texture_frame_size": [
+    512,
+    512
+  ],
+  "logical_root": [
+    16,
+    64
+  ],
+  "texture_root": [
+    64,
+    256
+  ],
+  "texture_offset": [
+    -64,
+    -256
+  ],
+  "sprite_scale": 0.25,
+  "frame_ticks": 7,
+  "sampling": "linear",
+  "records": [
+    {
+      "source_id": 51,
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 52,
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 53,
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 54,
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 55,
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 56,
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ]
+    }
+  ],
+  "idle": "assets/earth/hero/se_idle_v1/manifest.json",
+  "shadow": "none",
+  "review_scope": "1x and true2x same source path; idle16 to two cycles51-56 to idle13; no new lifecycle claims"
+}
