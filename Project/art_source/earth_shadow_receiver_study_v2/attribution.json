@@ -1,0 +1,1960 @@
+{
+  "schema": "earth-shadow-receiver-attribution-v2",
+  "status": "read-only CPU research; no existing gate change or forbidden shadow enable",
+  "raster_density": 2,
+  "sample_world_rect": [
+    2496,
+    960,
+    768,
+    512
+  ],
+  "original_gate_reconstructed_exact": true,
+  "owner_count_each_variant": 30,
+  "contributions_nonadditive": true,
+  "opaque_method": "all overlapped nearest whole-building texels alpha255 over each half-logical cell; assumes frozen disjoint owner assembly and nearest grid; CPU visibility bound not GPU proof or receiver geometry",
+  "grid_method": "nearest actor cell floor(world/(48,32)+.5); flags[-1,-2,-3] block, static no-corner-cut flood from61,39. Cell walkability is not surface height.",
+  "subjects": [
+    {
+      "subject": "lingyunzi0",
+      "envelope_cells": 4810,
+      "min_envelope_distance_new_support_logical": 75.34752816118124,
+      "forbidden_overlap_cells": 233,
+      "world_bbox": [
+        3003.0,
+        1169.0,
+        3012.0,
+        1175.5
+      ],
+      "groups_overlap_cells": {
+        "source_layer0_alpha_positive": 0,
+        "source_layer0_alpha_128": 0,
+        "source_layer0_alpha_255": 0,
+        "source_layer0_dilated4": 0,
+        "source_layer1_alpha_positive": 0,
+        "source_layer1_alpha_128": 0,
+        "source_layer1_alpha_255": 0,
+        "source_layer1_dilated4": 0,
+        "new_layer0_alpha_positive": 0,
+        "new_layer0_alpha_128": 0,
+        "new_layer0_alpha_255": 0,
+        "new_layer0_dilated4": 0,
+        "new_layer1_alpha_positive": 4,
+        "new_layer1_alpha_128": 0,
+        "new_layer1_alpha_255": 0,
+        "new_layer1_dilated4": 233
+      },
+      "support_dilated_union_cells": 0,
+      "upper_only_dilated_cells": 233,
+      "dilation_only_no_alpha_any_owner_cells": 229,
+      "all_building_new_whole_fully_opaque_cells": 0,
+      "upper_only_fully_opaque_cells": 0,
+      "upper_only_not_opaque_cells": 233,
+      "upper_only_walkable_cells": 233,
+      "upper_only_walkable_and_opaque_cells": 0,
+      "owner_contributions_nonadditive": [
+        {
+          "variant": "new",
+          "key": "Building:3969@63,34",
+          "frame_index": 3969,
+          "layer": 1,
+          "cell": [
+            63,
+            34
+          ],
+          "source_cell": [
+            0,
+            -1,
+            4,
+            3969
+          ],
+          "overlap_cells": {
+            "alpha_positive": 4,
+            "alpha_128": 0,
+            "alpha_255": 0,
+            "dilated4": 233
+          },
+          "dilated_overlap_world_bbox": [
+            3003.0,
+            1169.0,
+            3012.0,
+            1175.5
+          ],
+          "seed_evidence": {
+            "seed_texel_count": 1,
+            "direct_texel_count": 1,
+            "dilation_seed_alpha_histogram": {
+              "1": 1
+            },
+            "direct_local_texel_xy": [
+              [
+                0,
+                746
+              ]
+            ],
+            "direct_world_texel_origins": [
+              [
+                3007.409332733406,
+                1170.7317707379107
+              ]
+            ],
+            "dilation_seed_local_bbox_xyxy": [
+              0,
+              746,
+              1,
+              747
+            ],
+            "seed_distance_to_whole_alpha128_logical_minmax": [
+              110.84764178949169,
+              110.84764178949169
+            ],
+            "seed_whole_raw_xy": [
+              [
+                0,
+                908
+              ]
+            ],
+            "positive_alpha_8connected_components": [
+              {
+                "id": 96,
+                "size_texels": 1,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  0,
+                  908,
+                  1,
+                  909
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "nearest_actor_grid_cells": [
+        {
+          "nearest_actor_cell": [
+            63,
+            37
+          ],
+          "source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flag_walkable": true,
+          "static_reachable_from_61_39": true,
+          "overlap_cells": 233,
+          "new_support_direct_cells": 0,
+          "upper_only_cells": 233,
+          "opaque_hidden_full_cells": 0
+        }
+      ],
+      "conditional_new_only_geometry_plus6_overlap_cells": 0,
+      "candidate_new_only_geometry_plus4_overlap_cells": 0,
+      "min_distance_candidate_forbidden_mask_cell_centers_logical": 40.02811511925087,
+      "distance_interpretation": "All distance-transform values are half-logical raster cell-center distances; subtract sqrt(2)/2 = .707107 for conservative distance between covered cell AREAS. Not a measured 3D height.",
+      "min_envelope_distance_retained_new_geometry_logical": 45.23549491273418,
+      "min_envelope_distance_new_alpha128_core_logical": 72.34638899074369,
+      "plus6_remaining_seed_evidence": [],
+      "plus6_overlap_world_bbox": null,
+      "conditional_owner_contributions": []
+    },
+    {
+      "subject": "lingyunzi1",
+      "envelope_cells": 4808,
+      "min_envelope_distance_new_support_logical": 74.26472917879659,
+      "forbidden_overlap_cells": 224,
+      "world_bbox": [
+        3003.0,
+        1169.0,
+        3012.0,
+        1175.5
+      ],
+      "groups_overlap_cells": {
+        "source_layer0_alpha_positive": 0,
+        "source_layer0_alpha_128": 0,
+        "source_layer0_alpha_255": 0,
+        "source_layer0_dilated4": 0,
+        "source_layer1_alpha_positive": 0,
+        "source_layer1_alpha_128": 0,
+        "source_layer1_alpha_255": 0,
+        "source_layer1_dilated4": 0,
+        "new_layer0_alpha_positive": 0,
+        "new_layer0_alpha_128": 0,
+        "new_layer0_alpha_255": 0,
+        "new_layer0_dilated4": 0,
+        "new_layer1_alpha_positive": 4,
+        "new_layer1_alpha_128": 0,
+        "new_layer1_alpha_255": 0,
+        "new_layer1_dilated4": 224
+      },
+      "support_dilated_union_cells": 0,
+      "upper_only_dilated_cells": 224,
+      "dilation_only_no_alpha_any_owner_cells": 220,
+      "all_building_new_whole_fully_opaque_cells": 0,
+      "upper_only_fully_opaque_cells": 0,
+      "upper_only_not_opaque_cells": 224,
+      "upper_only_walkable_cells": 224,
+      "upper_only_walkable_and_opaque_cells": 0,
+      "owner_contributions_nonadditive": [
+        {
+          "variant": "new",
+          "key": "Building:3969@63,34",
+          "frame_index": 3969,
+          "layer": 1,
+          "cell": [
+            63,
+            34
+          ],
+          "source_cell": [
+            0,
+            -1,
+            4,
+            3969
+          ],
+          "overlap_cells": {
+            "alpha_positive": 4,
+            "alpha_128": 0,
+            "alpha_255": 0,
+            "dilated4": 224
+          },
+          "dilated_overlap_world_bbox": [
+            3003.0,
+            1169.0,
+            3012.0,
+            1175.5
+          ],
+          "seed_evidence": {
+            "seed_texel_count": 1,
+            "direct_texel_count": 1,
+            "dilation_seed_alpha_histogram": {
+              "1": 1
+            },
+            "direct_local_texel_xy": [
+              [
+                0,
+                746
+              ]
+            ],
+            "direct_world_texel_origins": [
+              [
+                3007.409332733406,
+                1170.7317707379107
+              ]
+            ],
+            "dilation_seed_local_bbox_xyxy": [
+              0,
+              746,
+              1,
+              747
+            ],
+            "seed_distance_to_whole_alpha128_logical_minmax": [
+              110.84764178949169,
+              110.84764178949169
+            ],
+            "seed_whole_raw_xy": [
+              [
+                0,
+                908
+              ]
+            ],
+            "positive_alpha_8connected_components": [
+              {
+                "id": 96,
+                "size_texels": 1,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  0,
+                  908,
+                  1,
+                  909
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "nearest_actor_grid_cells": [
+        {
+          "nearest_actor_cell": [
+            63,
+            37
+          ],
+          "source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flag_walkable": true,
+          "static_reachable_from_61_39": true,
+          "overlap_cells": 224,
+          "new_support_direct_cells": 0,
+          "upper_only_cells": 224,
+          "opaque_hidden_full_cells": 0
+        }
+      ],
+      "conditional_new_only_geometry_plus6_overlap_cells": 0,
+      "candidate_new_only_geometry_plus4_overlap_cells": 0,
+      "min_distance_candidate_forbidden_mask_cell_centers_logical": 39.80263810352274,
+      "distance_interpretation": "All distance-transform values are half-logical raster cell-center distances; subtract sqrt(2)/2 = .707107 for conservative distance between covered cell AREAS. Not a measured 3D height.",
+      "min_envelope_distance_retained_new_geometry_logical": 45.2133829745132,
+      "min_envelope_distance_new_alpha128_core_logical": 72.67220926874316,
+      "plus6_remaining_seed_evidence": [],
+      "plus6_overlap_world_bbox": null,
+      "conditional_owner_contributions": []
+    },
+    {
+      "subject": "lingyunzi2",
+      "envelope_cells": 4647,
+      "min_envelope_distance_new_support_logical": 64.63745044476924,
+      "forbidden_overlap_cells": 211,
+      "world_bbox": [
+        3003.0,
+        1169.5,
+        3012.0,
+        1175.5
+      ],
+      "groups_overlap_cells": {
+        "source_layer0_alpha_positive": 0,
+        "source_layer0_alpha_128": 0,
+        "source_layer0_alpha_255": 0,
+        "source_layer0_dilated4": 0,
+        "source_layer1_alpha_positive": 0,
+        "source_layer1_alpha_128": 0,
+        "source_layer1_alpha_255": 0,
+        "source_layer1_dilated4": 0,
+        "new_layer0_alpha_positive": 0,
+        "new_layer0_alpha_128": 0,
+        "new_layer0_alpha_255": 0,
+        "new_layer0_dilated4": 0,
+        "new_layer1_alpha_positive": 4,
+        "new_layer1_alpha_128": 0,
+        "new_layer1_alpha_255": 0,
+        "new_layer1_dilated4": 211
+      },
+      "support_dilated_union_cells": 0,
+      "upper_only_dilated_cells": 211,
+      "dilation_only_no_alpha_any_owner_cells": 207,
+      "all_building_new_whole_fully_opaque_cells": 0,
+      "upper_only_fully_opaque_cells": 0,
+      "upper_only_not_opaque_cells": 211,
+      "upper_only_walkable_cells": 211,
+      "upper_only_walkable_and_opaque_cells": 0,
+      "owner_contributions_nonadditive": [
+        {
+          "variant": "new",
+          "key": "Building:3969@63,34",
+          "frame_index": 3969,
+          "layer": 1,
+          "cell": [
+            63,
+            34
+          ],
+          "source_cell": [
+            0,
+            -1,
+            4,
+            3969
+          ],
+          "overlap_cells": {
+            "alpha_positive": 4,
+            "alpha_128": 0,
+            "alpha_255": 0,
+            "dilated4": 211
+          },
+          "dilated_overlap_world_bbox": [
+            3003.0,
+            1169.5,
+            3012.0,
+            1175.5
+          ],
+          "seed_evidence": {
+            "seed_texel_count": 1,
+            "direct_texel_count": 1,
+            "dilation_seed_alpha_histogram": {
+              "1": 1
+            },
+            "direct_local_texel_xy": [
+              [
+                0,
+                746
+              ]
+            ],
+            "direct_world_texel_origins": [
+              [
+                3007.409332733406,
+                1170.7317707379107
+              ]
+            ],
+            "dilation_seed_local_bbox_xyxy": [
+              0,
+              746,
+              1,
+              747
+            ],
+            "seed_distance_to_whole_alpha128_logical_minmax": [
+              110.84764178949169,
+              110.84764178949169
+            ],
+            "seed_whole_raw_xy": [
+              [
+                0,
+                908
+              ]
+            ],
+            "positive_alpha_8connected_components": [
+              {
+                "id": 96,
+                "size_texels": 1,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  0,
+                  908,
+                  1,
+                  909
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "nearest_actor_grid_cells": [
+        {
+          "nearest_actor_cell": [
+            63,
+            37
+          ],
+          "source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flag_walkable": true,
+          "static_reachable_from_61_39": true,
+          "overlap_cells": 211,
+          "new_support_direct_cells": 0,
+          "upper_only_cells": 211,
+          "opaque_hidden_full_cells": 0
+        }
+      ],
+      "conditional_new_only_geometry_plus6_overlap_cells": 0,
+      "candidate_new_only_geometry_plus4_overlap_cells": 0,
+      "min_distance_candidate_forbidden_mask_cell_centers_logical": 39.80263810352274,
+      "distance_interpretation": "All distance-transform values are half-logical raster cell-center distances; subtract sqrt(2)/2 = .707107 for conservative distance between covered cell AREAS. Not a measured 3D height.",
+      "min_envelope_distance_retained_new_geometry_logical": 45.17742799230607,
+      "min_envelope_distance_new_alpha128_core_logical": 64.40496875241847,
+      "plus6_remaining_seed_evidence": [],
+      "plus6_overlap_world_bbox": null,
+      "conditional_owner_contributions": []
+    },
+    {
+      "subject": "lingyunzi3",
+      "envelope_cells": 4270,
+      "min_envelope_distance_new_support_logical": 75.11657606680433,
+      "forbidden_overlap_cells": 211,
+      "world_bbox": [
+        3003.0,
+        1169.5,
+        3012.0,
+        1175.5
+      ],
+      "groups_overlap_cells": {
+        "source_layer0_alpha_positive": 0,
+        "source_layer0_alpha_128": 0,
+        "source_layer0_alpha_255": 0,
+        "source_layer0_dilated4": 0,
+        "source_layer1_alpha_positive": 0,
+        "source_layer1_alpha_128": 0,
+        "source_layer1_alpha_255": 0,
+        "source_layer1_dilated4": 0,
+        "new_layer0_alpha_positive": 0,
+        "new_layer0_alpha_128": 0,
+        "new_layer0_alpha_255": 0,
+        "new_layer0_dilated4": 0,
+        "new_layer1_alpha_positive": 4,
+        "new_layer1_alpha_128": 0,
+        "new_layer1_alpha_255": 0,
+        "new_layer1_dilated4": 211
+      },
+      "support_dilated_union_cells": 0,
+      "upper_only_dilated_cells": 211,
+      "dilation_only_no_alpha_any_owner_cells": 207,
+      "all_building_new_whole_fully_opaque_cells": 0,
+      "upper_only_fully_opaque_cells": 0,
+      "upper_only_not_opaque_cells": 211,
+      "upper_only_walkable_cells": 211,
+      "upper_only_walkable_and_opaque_cells": 0,
+      "owner_contributions_nonadditive": [
+        {
+          "variant": "new",
+          "key": "Building:3969@63,34",
+          "frame_index": 3969,
+          "layer": 1,
+          "cell": [
+            63,
+            34
+          ],
+          "source_cell": [
+            0,
+            -1,
+            4,
+            3969
+          ],
+          "overlap_cells": {
+            "alpha_positive": 4,
+            "alpha_128": 0,
+            "alpha_255": 0,
+            "dilated4": 211
+          },
+          "dilated_overlap_world_bbox": [
+            3003.0,
+            1169.5,
+            3012.0,
+            1175.5
+          ],
+          "seed_evidence": {
+            "seed_texel_count": 1,
+            "direct_texel_count": 1,
+            "dilation_seed_alpha_histogram": {
+              "1": 1
+            },
+            "direct_local_texel_xy": [
+              [
+                0,
+                746
+              ]
+            ],
+            "direct_world_texel_origins": [
+              [
+                3007.409332733406,
+                1170.7317707379107
+              ]
+            ],
+            "dilation_seed_local_bbox_xyxy": [
+              0,
+              746,
+              1,
+              747
+            ],
+            "seed_distance_to_whole_alpha128_logical_minmax": [
+              110.84764178949169,
+              110.84764178949169
+            ],
+            "seed_whole_raw_xy": [
+              [
+                0,
+                908
+              ]
+            ],
+            "positive_alpha_8connected_components": [
+              {
+                "id": 96,
+                "size_texels": 1,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  0,
+                  908,
+                  1,
+                  909
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "nearest_actor_grid_cells": [
+        {
+          "nearest_actor_cell": [
+            63,
+            37
+          ],
+          "source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flag_walkable": true,
+          "static_reachable_from_61_39": true,
+          "overlap_cells": 211,
+          "new_support_direct_cells": 0,
+          "upper_only_cells": 211,
+          "opaque_hidden_full_cells": 0
+        }
+      ],
+      "conditional_new_only_geometry_plus6_overlap_cells": 0,
+      "candidate_new_only_geometry_plus4_overlap_cells": 0,
+      "min_distance_candidate_forbidden_mask_cell_centers_logical": 39.80263810352274,
+      "distance_interpretation": "All distance-transform values are half-logical raster cell-center distances; subtract sqrt(2)/2 = .707107 for conservative distance between covered cell AREAS. Not a measured 3D height.",
+      "min_envelope_distance_retained_new_geometry_logical": 45.17742799230607,
+      "min_envelope_distance_new_alpha128_core_logical": 72.02256590819297,
+      "plus6_remaining_seed_evidence": [],
+      "plus6_overlap_world_bbox": null,
+      "conditional_owner_contributions": []
+    },
+    {
+      "subject": "first_tree",
+      "envelope_cells": 133694,
+      "min_envelope_distance_new_support_logical": 18.027756377319946,
+      "forbidden_overlap_cells": 1804,
+      "world_bbox": [
+        3003.0,
+        1140.0,
+        3242.5,
+        1233.0
+      ],
+      "groups_overlap_cells": {
+        "source_layer0_alpha_positive": 11,
+        "source_layer0_alpha_128": 11,
+        "source_layer0_alpha_255": 11,
+        "source_layer0_dilated4": 226,
+        "source_layer1_alpha_positive": 105,
+        "source_layer1_alpha_128": 105,
+        "source_layer1_alpha_255": 105,
+        "source_layer1_dilated4": 290,
+        "new_layer0_alpha_positive": 0,
+        "new_layer0_alpha_128": 0,
+        "new_layer0_alpha_255": 0,
+        "new_layer0_dilated4": 0,
+        "new_layer1_alpha_positive": 26,
+        "new_layer1_alpha_128": 0,
+        "new_layer1_alpha_255": 0,
+        "new_layer1_dilated4": 1336
+      },
+      "support_dilated_union_cells": 226,
+      "upper_only_dilated_cells": 1578,
+      "dilation_only_no_alpha_any_owner_cells": 1662,
+      "all_building_new_whole_fully_opaque_cells": 0,
+      "upper_only_fully_opaque_cells": 0,
+      "upper_only_not_opaque_cells": 1578,
+      "upper_only_walkable_cells": 1578,
+      "upper_only_walkable_and_opaque_cells": 0,
+      "owner_contributions_nonadditive": [
+        {
+          "variant": "source",
+          "key": "Building:3985@66,37",
+          "frame_index": 3985,
+          "layer": 0,
+          "cell": [
+            66,
+            37
+          ],
+          "source_cell": [
+            0,
+            1,
+            4,
+            3985
+          ],
+          "overlap_cells": {
+            "alpha_positive": 11,
+            "alpha_128": 11,
+            "alpha_255": 11,
+            "dilated4": 226
+          },
+          "dilated_overlap_world_bbox": [
+            3164.5,
+            1195.5,
+            3220.0,
+            1220.0
+          ],
+          "seed_evidence": {
+            "seed_texel_count": 100,
+            "direct_texel_count": 5,
+            "dilation_seed_alpha_histogram": {
+              "255": 100
+            },
+            "direct_local_texel_xy": [
+              [
+                0,
+                11
+              ],
+              [
+                1,
+                11
+              ],
+              [
+                0,
+                12
+              ],
+              [
+                1,
+                12
+              ],
+              [
+                1,
+                13
+              ]
+            ],
+            "direct_world_texel_origins": [
+              [
+                3168,
+                1195
+              ],
+              [
+                3169,
+                1195
+              ],
+              [
+                3168,
+                1196
+              ],
+              [
+                3169,
+                1196
+              ],
+              [
+                3169,
+                1197
+              ]
+            ],
+            "dilation_seed_local_bbox_xyxy": [
+              0,
+              7,
+              48,
+              32
+            ]
+          }
+        },
+        {
+          "variant": "source",
+          "key": "Building:3988@67,38",
+          "frame_index": 3988,
+          "layer": 1,
+          "cell": [
+            67,
+            38
+          ],
+          "source_cell": [
+            0,
+            0,
+            4,
+            3988
+          ],
+          "overlap_cells": {
+            "alpha_positive": 105,
+            "alpha_128": 105,
+            "alpha_255": 105,
+            "dilated4": 290
+          },
+          "dilated_overlap_world_bbox": [
+            3212.0,
+            1216.0,
+            3242.5,
+            1233.0
+          ],
+          "seed_evidence": {
+            "seed_texel_count": 122,
+            "direct_texel_count": 30,
+            "dilation_seed_alpha_histogram": {
+              "255": 122
+            },
+            "direct_local_texel_xy": [
+              [
+                0,
+                528
+              ],
+              [
+                1,
+                528
+              ],
+              [
+                2,
+                528
+              ],
+              [
+                3,
+                528
+              ],
+              [
+                4,
+                528
+              ],
+              [
+                5,
+                528
+              ],
+              [
+                0,
+                529
+              ],
+              [
+                1,
+                529
+              ],
+              [
+                2,
+                529
+              ],
+              [
+                3,
+                529
+              ],
+              [
+                4,
+                529
+              ],
+              [
+                5,
+                529
+              ],
+              [
+                0,
+                530
+              ],
+              [
+                1,
+                530
+              ],
+              [
+                2,
+                530
+              ],
+              [
+                3,
+                530
+              ],
+              [
+                4,
+                530
+              ],
+              [
+                5,
+                530
+              ],
+              [
+                0,
+                531
+              ],
+              [
+                1,
+                531
+              ],
+              [
+                2,
+                531
+              ],
+              [
+                3,
+                531
+              ],
+              [
+                4,
+                531
+              ],
+              [
+                5,
+                531
+              ],
+              [
+                1,
+                532
+              ],
+              [
+                2,
+                532
+              ],
+              [
+                3,
+                532
+              ],
+              [
+                4,
+                532
+              ],
+              [
+                5,
+                532
+              ],
+              [
+                5,
+                533
+              ]
+            ],
+            "direct_world_texel_origins": [
+              [
+                3216,
+                1217
+              ],
+              [
+                3217,
+                1217
+              ],
+              [
+                3218,
+                1217
+              ],
+              [
+                3219,
+                1217
+              ],
+              [
+                3220,
+                1217
+              ],
+              [
+                3221,
+                1217
+              ],
+              [
+                3216,
+                1218
+              ],
+              [
+                3217,
+                1218
+              ],
+              [
+                3218,
+                1218
+              ],
+              [
+                3219,
+                1218
+              ],
+              [
+                3220,
+                1218
+              ],
+              [
+                3221,
+                1218
+              ],
+              [
+                3216,
+                1219
+              ],
+              [
+                3217,
+                1219
+              ],
+              [
+                3218,
+                1219
+              ],
+              [
+                3219,
+                1219
+              ],
+              [
+                3220,
+                1219
+              ],
+              [
+                3221,
+                1219
+              ],
+              [
+                3216,
+                1220
+              ],
+              [
+                3217,
+                1220
+              ],
+              [
+                3218,
+                1220
+              ],
+              [
+                3219,
+                1220
+              ],
+              [
+                3220,
+                1220
+              ],
+              [
+                3221,
+                1220
+              ],
+              [
+                3217,
+                1221
+              ],
+              [
+                3218,
+                1221
+              ],
+              [
+                3219,
+                1221
+              ],
+              [
+                3220,
+                1221
+              ],
+              [
+                3221,
+                1221
+              ],
+              [
+                3221,
+                1222
+              ]
+            ],
+            "dilation_seed_local_bbox_xyxy": [
+              0,
+              523,
+              31,
+              540
+            ]
+          }
+        },
+        {
+          "variant": "new",
+          "key": "Building:3969@63,34",
+          "frame_index": 3969,
+          "layer": 1,
+          "cell": [
+            63,
+            34
+          ],
+          "source_cell": [
+            0,
+            -1,
+            4,
+            3969
+          ],
+          "overlap_cells": {
+            "alpha_positive": 24,
+            "alpha_128": 0,
+            "alpha_255": 0,
+            "dilated4": 878
+          },
+          "dilated_overlap_world_bbox": [
+            3003.0,
+            1140.0,
+            3051.0,
+            1175.5
+          ],
+          "seed_evidence": {
+            "seed_texel_count": 6,
+            "direct_texel_count": 6,
+            "dilation_seed_alpha_histogram": {
+              "1": 6
+            },
+            "direct_local_texel_xy": [
+              [
+                80,
+                687
+              ],
+              [
+                72,
+                693
+              ],
+              [
+                74,
+                693
+              ],
+              [
+                70,
+                694
+              ],
+              [
+                80,
+                695
+              ],
+              [
+                0,
+                746
+              ]
+            ],
+            "direct_world_texel_origins": [
+              [
+                3046.139677925185,
+                1142.1681411589736
+              ],
+              [
+                3042.266643406007,
+                1145.072917048357
+              ],
+              [
+                3043.2349020358015,
+                1145.072917048357
+              ],
+              [
+                3041.2983847762125,
+                1145.5570463632544
+              ],
+              [
+                3046.139677925185,
+                1146.0411756781516
+              ],
+              [
+                3007.409332733406,
+                1170.7317707379107
+              ]
+            ],
+            "dilation_seed_local_bbox_xyxy": [
+              0,
+              687,
+              81,
+              747
+            ],
+            "seed_distance_to_whole_alpha128_logical_minmax": [
+              67.02175448501121,
+              110.84764178949169
+            ],
+            "seed_whole_raw_xy": [
+              [
+                80,
+                849
+              ],
+              [
+                72,
+                855
+              ],
+              [
+                74,
+                855
+              ],
+              [
+                70,
+                856
+              ],
+              [
+                80,
+                857
+              ],
+              [
+                0,
+                908
+              ]
+            ],
+            "positive_alpha_8connected_components": [
+              {
+                "id": 78,
+                "size_texels": 1,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  80,
+                  849,
+                  81,
+                  850
+                ]
+              },
+              {
+                "id": 79,
+                "size_texels": 1,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  72,
+                  855,
+                  73,
+                  856
+                ]
+              },
+              {
+                "id": 80,
+                "size_texels": 1,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  74,
+                  855,
+                  75,
+                  856
+                ]
+              },
+              {
+                "id": 81,
+                "size_texels": 1,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  70,
+                  856,
+                  71,
+                  857
+                ]
+              },
+              {
+                "id": 82,
+                "size_texels": 1,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  80,
+                  857,
+                  81,
+                  858
+                ]
+              },
+              {
+                "id": 96,
+                "size_texels": 1,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  0,
+                  908,
+                  1,
+                  909
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "variant": "new",
+          "key": "Building:3973@64,35",
+          "frame_index": 3973,
+          "layer": 1,
+          "cell": [
+            64,
+            35
+          ],
+          "source_cell": [
+            0,
+            -1,
+            4,
+            3973
+          ],
+          "overlap_cells": {
+            "alpha_positive": 2,
+            "alpha_128": 0,
+            "alpha_255": 0,
+            "dilated4": 458
+          },
+          "dilated_overlap_world_bbox": [
+            3061.5,
+            1148.0,
+            3077.5,
+            1221.5
+          ],
+          "seed_evidence": {
+            "seed_texel_count": 22,
+            "direct_texel_count": 1,
+            "dilation_seed_alpha_histogram": {
+              "1": 22
+            },
+            "direct_local_texel_xy": [
+              [
+                0,
+                792
+              ]
+            ],
+            "direct_world_texel_origins": [
+              [
+                3065.504850521075,
+                1216.7240556531485
+              ]
+            ],
+            "dilation_seed_local_bbox_xyxy": [
+              0,
+              648,
+              25,
+              793
+            ],
+            "seed_distance_to_whole_alpha128_logical_minmax": [
+              37.81480744106805,
+              92.24664553666692
+            ],
+            "seed_whole_raw_xy": [
+              [
+                138,
+                859
+              ],
+              [
+                140,
+                859
+              ],
+              [
+                142,
+                859
+              ],
+              [
+                138,
+                860
+              ],
+              [
+                138,
+                861
+              ],
+              [
+                138,
+                862
+              ],
+              [
+                138,
+                863
+              ],
+              [
+                144,
+                863
+              ],
+              [
+                142,
+                864
+              ],
+              [
+                138,
+                865
+              ],
+              [
+                142,
+                865
+              ],
+              [
+                144,
+                865
+              ],
+              [
+                138,
+                866
+              ],
+              [
+                141,
+                866
+              ],
+              [
+                142,
+                866
+              ],
+              [
+                140,
+                867
+              ],
+              [
+                142,
+                867
+              ],
+              [
+                141,
+                868
+              ],
+              [
+                140,
+                869
+              ],
+              [
+                142,
+                869
+              ],
+              [
+                140,
+                871
+              ],
+              [
+                120,
+                1003
+              ]
+            ],
+            "positive_alpha_8connected_components": [
+              {
+                "id": 84,
+                "size_texels": 5,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  138,
+                  859,
+                  139,
+                  864
+                ]
+              },
+              {
+                "id": 85,
+                "size_texels": 1,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  140,
+                  859,
+                  141,
+                  860
+                ]
+              },
+              {
+                "id": 86,
+                "size_texels": 1,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  142,
+                  859,
+                  143,
+                  860
+                ]
+              },
+              {
+                "id": 88,
+                "size_texels": 1,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  144,
+                  863,
+                  145,
+                  864
+                ]
+              },
+              {
+                "id": 89,
+                "size_texels": 9,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  140,
+                  864,
+                  143,
+                  870
+                ]
+              },
+              {
+                "id": 90,
+                "size_texels": 2,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  138,
+                  865,
+                  139,
+                  867
+                ]
+              },
+              {
+                "id": 91,
+                "size_texels": 1,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  144,
+                  865,
+                  145,
+                  866
+                ]
+              },
+              {
+                "id": 93,
+                "size_texels": 1,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  140,
+                  871,
+                  141,
+                  872
+                ]
+              },
+              {
+                "id": 106,
+                "size_texels": 1,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  120,
+                  1003,
+                  121,
+                  1004
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "nearest_actor_grid_cells": [
+        {
+          "nearest_actor_cell": [
+            63,
+            36
+          ],
+          "source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flag_walkable": true,
+          "static_reachable_from_61_39": true,
+          "overlap_cells": 483,
+          "new_support_direct_cells": 0,
+          "upper_only_cells": 483,
+          "opaque_hidden_full_cells": 0
+        },
+        {
+          "nearest_actor_cell": [
+            63,
+            37
+          ],
+          "source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flag_walkable": true,
+          "static_reachable_from_61_39": true,
+          "overlap_cells": 270,
+          "new_support_direct_cells": 0,
+          "upper_only_cells": 270,
+          "opaque_hidden_full_cells": 0
+        },
+        {
+          "nearest_actor_cell": [
+            64,
+            36
+          ],
+          "source_cell": [
+            -399,
+            0,
+            0,
+            0
+          ],
+          "flag_walkable": true,
+          "static_reachable_from_61_39": true,
+          "overlap_cells": 277,
+          "new_support_direct_cells": 0,
+          "upper_only_cells": 277,
+          "opaque_hidden_full_cells": 0
+        },
+        {
+          "nearest_actor_cell": [
+            64,
+            38
+          ],
+          "source_cell": [
+            -398,
+            0,
+            0,
+            0
+          ],
+          "flag_walkable": true,
+          "static_reachable_from_61_39": true,
+          "overlap_cells": 306,
+          "new_support_direct_cells": 0,
+          "upper_only_cells": 306,
+          "opaque_hidden_full_cells": 0
+        },
+        {
+          "nearest_actor_cell": [
+            66,
+            37
+          ],
+          "source_cell": [
+            0,
+            1,
+            4,
+            3985
+          ],
+          "flag_walkable": true,
+          "static_reachable_from_61_39": true,
+          "overlap_cells": 90,
+          "new_support_direct_cells": 0,
+          "upper_only_cells": 0,
+          "opaque_hidden_full_cells": 0
+        },
+        {
+          "nearest_actor_cell": [
+            67,
+            38
+          ],
+          "source_cell": [
+            0,
+            0,
+            4,
+            3988
+          ],
+          "flag_walkable": true,
+          "static_reachable_from_61_39": true,
+          "overlap_cells": 372,
+          "new_support_direct_cells": 0,
+          "upper_only_cells": 236,
+          "opaque_hidden_full_cells": 0
+        },
+        {
+          "nearest_actor_cell": [
+            68,
+            39
+          ],
+          "source_cell": [
+            0,
+            0,
+            4,
+            3990
+          ],
+          "flag_walkable": true,
+          "static_reachable_from_61_39": true,
+          "overlap_cells": 6,
+          "new_support_direct_cells": 0,
+          "upper_only_cells": 6,
+          "opaque_hidden_full_cells": 0
+        }
+      ],
+      "conditional_new_only_geometry_plus6_overlap_cells": 58,
+      "candidate_new_only_geometry_plus4_overlap_cells": 0,
+      "min_distance_candidate_forbidden_mask_cell_centers_logical": 0.5,
+      "distance_interpretation": "All distance-transform values are half-logical raster cell-center distances; subtract sqrt(2)/2 = .707107 for conservative distance between covered cell AREAS. Not a measured 3D height.",
+      "min_envelope_distance_retained_new_geometry_logical": 5.5901699437494745,
+      "min_envelope_distance_new_alpha128_core_logical": 8.5,
+      "plus6_remaining_seed_evidence": [
+        {
+          "key": "Building:3973@64,35",
+          "seed_alpha_histogram": {
+            "1": 2
+          },
+          "seed_whole_raw_xy": [
+            [
+              144,
+              857
+            ],
+            [
+              150,
+              865
+            ]
+          ]
+        }
+      ],
+      "plus6_overlap_world_bbox": [
+        3071.0,
+        1148.5,
+        3076.5,
+        1156.5
+      ],
+      "conditional_owner_contributions": [
+        {
+          "key": "Building:3973@64,35",
+          "layer": 1,
+          "overlap_plus4_cells": 0,
+          "overlap_plus6_cells": 58
+        }
+      ]
+    },
+    {
+      "subject": "lingyunzi_all",
+      "envelope_cells": 5779,
+      "min_envelope_distance_new_support_logical": 64.63745044476924,
+      "forbidden_overlap_cells": 233,
+      "world_bbox": [
+        3003.0,
+        1169.0,
+        3012.0,
+        1175.5
+      ],
+      "groups_overlap_cells": {
+        "source_layer0_alpha_positive": 0,
+        "source_layer0_alpha_128": 0,
+        "source_layer0_alpha_255": 0,
+        "source_layer0_dilated4": 0,
+        "source_layer1_alpha_positive": 0,
+        "source_layer1_alpha_128": 0,
+        "source_layer1_alpha_255": 0,
+        "source_layer1_dilated4": 0,
+        "new_layer0_alpha_positive": 0,
+        "new_layer0_alpha_128": 0,
+        "new_layer0_alpha_255": 0,
+        "new_layer0_dilated4": 0,
+        "new_layer1_alpha_positive": 4,
+        "new_layer1_alpha_128": 0,
+        "new_layer1_alpha_255": 0,
+        "new_layer1_dilated4": 233
+      },
+      "support_dilated_union_cells": 0,
+      "upper_only_dilated_cells": 233,
+      "dilation_only_no_alpha_any_owner_cells": 229,
+      "all_building_new_whole_fully_opaque_cells": 0,
+      "upper_only_fully_opaque_cells": 0,
+      "upper_only_not_opaque_cells": 233,
+      "upper_only_walkable_cells": 233,
+      "upper_only_walkable_and_opaque_cells": 0,
+      "owner_contributions_nonadditive": [
+        {
+          "variant": "new",
+          "key": "Building:3969@63,34",
+          "frame_index": 3969,
+          "layer": 1,
+          "cell": [
+            63,
+            34
+          ],
+          "source_cell": [
+            0,
+            -1,
+            4,
+            3969
+          ],
+          "overlap_cells": {
+            "alpha_positive": 4,
+            "alpha_128": 0,
+            "alpha_255": 0,
+            "dilated4": 233
+          },
+          "dilated_overlap_world_bbox": [
+            3003.0,
+            1169.0,
+            3012.0,
+            1175.5
+          ],
+          "seed_evidence": {
+            "seed_texel_count": 1,
+            "direct_texel_count": 1,
+            "dilation_seed_alpha_histogram": {
+              "1": 1
+            },
+            "direct_local_texel_xy": [
+              [
+                0,
+                746
+              ]
+            ],
+            "direct_world_texel_origins": [
+              [
+                3007.409332733406,
+                1170.7317707379107
+              ]
+            ],
+            "dilation_seed_local_bbox_xyxy": [
+              0,
+              746,
+              1,
+              747
+            ],
+            "seed_distance_to_whole_alpha128_logical_minmax": [
+              110.84764178949169,
+              110.84764178949169
+            ],
+            "seed_whole_raw_xy": [
+              [
+                0,
+                908
+              ]
+            ],
+            "positive_alpha_8connected_components": [
+              {
+                "id": 96,
+                "size_texels": 1,
+                "max_alpha": 1,
+                "bbox_whole_raw_xyxy": [
+                  0,
+                  908,
+                  1,
+                  909
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "nearest_actor_grid_cells": [
+        {
+          "nearest_actor_cell": [
+            63,
+            37
+          ],
+          "source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "flag_walkable": true,
+          "static_reachable_from_61_39": true,
+          "overlap_cells": 233,
+          "new_support_direct_cells": 0,
+          "upper_only_cells": 233,
+          "opaque_hidden_full_cells": 0
+        }
+      ],
+      "conditional_new_only_geometry_plus6_overlap_cells": 0,
+      "candidate_new_only_geometry_plus4_overlap_cells": 0,
+      "min_distance_candidate_forbidden_mask_cell_centers_logical": 39.80263810352274,
+      "distance_interpretation": "All distance-transform values are half-logical raster cell-center distances; subtract sqrt(2)/2 = .707107 for conservative distance between covered cell AREAS. Not a measured 3D height.",
+      "min_envelope_distance_retained_new_geometry_logical": 45.17742799230607,
+      "min_envelope_distance_new_alpha128_core_logical": 64.40496875241847,
+      "plus6_remaining_seed_evidence": [],
+      "plus6_overlap_world_bbox": null,
+      "conditional_owner_contributions": [],
+      "direct_four_cells_world_xywh": [
+        [
+          3007.0,
+          1170.5,
+          0.5,
+          0.5
+        ],
+        [
+          3007.5,
+          1170.5,
+          0.5,
+          0.5
+        ],
+        [
+          3007.0,
+          1171.0,
+          0.5,
+          0.5
+        ],
+        [
+          3007.5,
+          1171.0,
+          0.5,
+          0.5
+        ]
+      ]
+    }
+  ],
+  "conditional_feasibility": {
+    "not_installed": true,
+    "new_hall_required": true,
+    "source_hall_or_invalid_hall_disable": true,
+    "retained_new_support_all_alpha_positive": true,
+    "retained_upper_except_exact_reviewed_components": true,
+    "candidate_semantic_clearance_logical": 4,
+    "sensitivity_clearance_logical": 6,
+    "reason_for_6": "original4 plus ceil(max material trace uncertainty4raw * .4841293)=2",
+    "reviewed_positive_alpha_component_ids": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      84,
+      85,
+      86,
+      88,
+      89,
+      90,
+      91,
+      93,
+      96,
+      106
+    ],
+    "reviewed_component_total_texels": 28,
+    "no_body_pixel_mutations": true,
+    "no_shadow_clipping_or_parameter_changes": true
+  },
+  "source_grass_apron_probes": [
+    {
+      "owner": "Building:3985@66,37",
+      "cell": [
+        66,
+        37
+      ],
+      "source_flag": 1,
+      "source_layer": 0,
+      "static_no_corner_cut_route": [
+        [
+          61,
+          39
+        ],
+        [
+          62,
+          38
+        ],
+        [
+          63,
+          37
+        ],
+        [
+          64,
+          36
+        ],
+        [
+          65,
+          36
+        ],
+        [
+          66,
+          37
+        ]
+      ],
+      "samples": [
+        {
+          "phase17_foot_index": 0,
+          "source_canvas_xy": [
+            237,
+            559
+          ],
+          "candidate_raw_xy": [
+            366.8248581565217,
+            970.5209594434781
+          ],
+          "candidate_alpha": 0,
+          "source_material_read": "source_grass_apron",
+          "candidate_material_read": "transparent",
+          "must_restore_support": false,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        },
+        {
+          "phase17_foot_index": 1,
+          "source_canvas_xy": [
+            251,
+            564
+          ],
+          "candidate_raw_xy": [
+            395.74275172173907,
+            980.8487785739129
+          ],
+          "candidate_alpha": 0,
+          "source_material_read": "source_grass_apron",
+          "candidate_material_read": "transparent",
+          "must_restore_support": false,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        }
+      ]
+    }
+  ],
+  "source_left_stair_boundary_guide": [
+    [
+      231,
+      455
+    ],
+    [
+      296,
+      495
+    ],
+    [
+      262,
+      546
+    ],
+    [
+      185,
+      503
+    ]
+  ],
+  "input_sha256": {
+    "art_source/earth_shadow_receiver_study_v2/analyze_receiver.py": "e10f04a897d522766219782b71aa6e19b2464c374373ab658935fb70191f1bc6",
+    "data/maps/A13.json": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "data/earth/a13_hall_source_scope.json": "4288603a7dfd0ccc90a3bebf71473aca47a0bd57c448d6c33480b3f8952ff59e",
+    "assets/earth/environment/training_hall_v1/registration.json": "57072cc60ed9e33aa9afaeb0c7310733216e2884e0b042b043077551473e273c",
+    "assets/original/manifest.json": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+    "art_source/earth_shadow_next_stage_v1/measurements.json": "0dc903c36ca309f47155feae402afa72592d5e39a26fe69090e3584c9bce60a8",
+    "assets/earth/shadows/se_flat_v1/manifest.json": "3c7ac445562535c706cd58ebef625880308860ddfa012686fee600223beaec48",
+    "assets/earth/shadows/se_flat_v1/forbidden.png": "605ba15e50e5c1a710b1bab004ac824bb764f446dee29cdd1f9664f806426277",
+    "tools/earth/build_flat_shadow_gate.py": "19dbee82e321c64ab2952d7e4f02660fa8f622d2b9ae3ad0a05ea1142f3fddcb",
+    "scripts/core/movement.gd": "90185510aca061709ad4e7ac2a3c8668efc850d44fcce4bcee68e08c4e2b8a48",
+    "scripts/world_view.gd": "b404d8dd5e7e85a120fec00b7eb5f01e6bfc1fc37adf5e7878c1798432d4e285",
+    "scripts/earth/sample_world.gd": "75c13f913730e72ea26918047fbc7a50ff1f2129dbb56b983e3158bea6b7c26b",
+    "scripts/earth/hall_candidate.gd": "87351ee17139a51f5434143544291700ea8d0a401df1b8438973c92bb248a1ae",
+    "scripts/earth/flat_shadow_gate.gd": "bb31c6ab95c0950fecd196731f8c87d1e03e2c771b5427bc5d4ae8abf18d32c7",
+    "scripts/earth/sample_floor_pass.gd": "7fd59781dca6e3f8cb7ae7fe5c493464668350ae3086af0deb10199f0361defb",
+    "scripts/art/density_alpha_ground_shadow.gd": "cfc61e6c2b647bee68b063c1eecd884e1ac0ffa545fc1a59b3c3af4397adaf47",
+    "shaders/density_alpha_ground_shadow.gdshader": "b4d976938acbb3b57df13bf85ade4ebf3173c0634b5e7ee4338e8b038bf51f3b",
+    "art_source/earth_training_hall_registration_v1/build_registration.py": "bd64175ed1cb5d691b4f854ce9367c5ee64998eb9dc3e8c8868a5bb0eb4cad11",
+    "assets/original/Map/Res/Building/0.png": "6fc88a1aa96eb18687eea798bcb4eae1f0ebf6d546a5a076fb1c2546550b3343",
+    "assets/earth/environment/training_hall_v1/owner-3971.png": "bf8c3c2a4d1a65f3935dfcf4a81797f38487bbe5efdad61734cf3dec25cb5eb8",
+    "assets/earth/environment/training_hall_v1/owner-3974.png": "f5229a5ca2869750110d0fc305c46f3f29b98556c57779e789f75e47ada432ad",
+    "assets/earth/environment/training_hall_v1/owner-3975.png": "4f5c931a75f01aea1b599e9d5e87e5b6f690df89dcfd2be1870ead8a9394befc",
+    "assets/earth/environment/training_hall_v1/owner-3976.png": "01c4b3a11397e702fe1de6f59c69fbfee94ef3e932ca4a403cc5e2b4a617bdf6",
+    "assets/earth/environment/training_hall_v1/owner-3979.png": "2873987d5851bc6d8447a02aca78d36194ac8caa9eb9faefd7368926c0bd17b2",
+    "assets/earth/environment/training_hall_v1/owner-3980.png": "b430178191619833a0e43c6baa16fb66ce3e3f10e159003059ad9818c53b42aa",
+    "assets/earth/environment/training_hall_v1/owner-3981.png": "087e534ddb457d4e3521b3128dc4a151831ae12d400d905ab95331b9d0659199",
+    "assets/earth/environment/training_hall_v1/owner-3982.png": "216026b2cc0c70fff2b186f3095921acafe76582e2fc8d83a900e42005917314",
+    "assets/earth/environment/training_hall_v1/owner-3985.png": "430e3227462d43debfb30f76055b89ba615092a0c914828c1a5ad87909886a90",
+    "assets/earth/environment/training_hall_v1/owner-3986.png": "ef90181db2ace5b61a80ac83aede7e001febd27b1fb01ab67449d10dacf7c030",
+    "assets/earth/environment/training_hall_v1/owner-3987.png": "e4ee7ffa9240441b072db6efda4d6d47f6c17e770b0a6e8c3e6f1da38572df5a",
+    "assets/earth/environment/training_hall_v1/owner-3989.png": "77185d0dc86e99f14ae5ba9add6d8eb98388fdfa56abbcff9c8aee0e55df9661",
+    "assets/earth/environment/training_hall_v1/owner-3967.png": "40c271540249c9981ae4340564cbf42d359957b7389d3b1b9ea12d588e6d9f8f",
+    "assets/earth/environment/training_hall_v1/owner-3968.png": "5c3bcf8d4afe72c74d588f8f9d763f292d8a6903f109447ae799221f02291e0d",
+    "assets/earth/environment/training_hall_v1/owner-3969.png": "9af2836b77f74c97ca3a7c4a09f504bacdde8cdf0e173312fe52944943d1062c",
+    "assets/earth/environment/training_hall_v1/owner-3970.png": "937969a147c8389e53ee931dd0c10354f2424d97649bc73e0adb078bd05a7fd8",
+    "assets/earth/environment/training_hall_v1/owner-3972.png": "9a8c73705728ae1e9725eb5a98371767c618486f7743da97b32761bc57da6be9",
+    "assets/earth/environment/training_hall_v1/owner-3973.png": "048407117db692a2aad367c597d3532ea897ffdebffc0d0283586fcd2b672d10",
+    "assets/earth/environment/training_hall_v1/owner-3977.png": "d30e217656e95fbb008a89fee9c5b022ad8f19ffdb40714b6d665b592a443cb5",
+    "assets/earth/environment/training_hall_v1/owner-3983.png": "f83b79acc6030c7de2c193d91dc2d60b5712e11b75e6a831117fbb926895fdb6",
+    "assets/earth/environment/training_hall_v1/owner-3984.png": "00b095852735002b5dda3662d9775333af20ef0a296d49b82797983154063ab7",
+    "assets/earth/environment/training_hall_v1/owner-3988.png": "d475e82a8a7b4fda607337b6d1f45533cf34a21f6f3f4563481c89fedc3f0675",
+    "assets/earth/environment/training_hall_v1/owner-3990.png": "477ceab276fbf928212fa6c2f18baa4e41072d6108816e52f428560d44f7a086",
+    "assets/earth/environment/training_hall_v1/owner-3991.png": "66b3c66e03abdb8d03483840da5b51d1474d13b1b97e0fb94d2a595211ecb6d6",
+    "assets/earth/environment/training_hall_v1/owner-3992.png": "00e0964b4a04a03a5a64e70e1f2372cd15fb17c58a13215863b8532dfbbe16e4",
+    "assets/earth/environment/training_hall_v1/owner-3993.png": "12db874c2329fc3f295362ea139a367f9e09a57c5cd9ddc4798e40871f6a7970",
+    "assets/earth/environment/training_hall_v1/owner-3994.png": "b1dec5c030bfff7038bf5f6e164e3470d6b8965e751ba3aea759f06982f194f5",
+    "assets/earth/environment/training_hall_v1/owner-3995.png": "dec23f8de636882ea6e4ffac026d6dedf8193e5641756a23ee0f61fcd3645ab6",
+    "assets/earth/environment/training_hall_v1/whole-review.png": "be82bef2c8d7aa9e26675e69dc076acbca76f0878eaf78eee3a18e501a12464b",
+    "assets/earth/npc/lingyunzi_v2/manifest.json": "f9cf04374b533f225514215f6c798d4eac7592beb8b86bb5f715d3945278c9be",
+    "assets/earth/npc/lingyunzi_v2/body.png": "541c6d0a7a1cf3dd1cd547be037cf17e2f9a6083b8de90c1641f13fbaf9bbb9e",
+    "assets/earth/environment/first_tree_v1/registration.json": "a83f1f401b10394e13e7822f6eb04078cace3db3dc0bdca10e275b38d0bb9b27",
+    "assets/earth/environment/first_tree_v1/whole-review.png": "c639ad6e35e10f3a4c61d13a38258b2db1f077cea3f757ec8e064762601cc9e6",
+    "art_source/earth_training_hall_edit_plan_v1/edit-plan.json": "e21f959981e3407306ac4c99b685cb8808c04b0737a59929ba2f0bb137271cfd"
+  }
+}

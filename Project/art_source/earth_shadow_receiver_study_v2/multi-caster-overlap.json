@@ -1,0 +1,70 @@
+{
+  "schema": "earth-tree-lingyunzi-overlap-cpu-v1",
+  "cast": [
+    1.2,
+    0.55
+  ],
+  "opacity_each": 0.25,
+  "blur_logical": 0.8,
+  "max_two_fully_opaque_alpha_shadows": 0.4375,
+  "method": "same shader inverse and normalized3x3 alpha filter at2samples/logical; color preview is CPU sRGB approximation, not native parity",
+  "phases": [
+    {
+      "phase": 0,
+      "positive_sample_overlap_cells": 3062,
+      "world_sample_bounds_xyxy": [
+        2987.0,
+        1170.0,
+        3073.5,
+        1205.0
+      ],
+      "max_combined_opacity": 0.43341110204153777,
+      "max_added_darkening_over_stronger_single": 0.1856678318632039,
+      "not_a_union_compositor": "two independent blend_mix casts darken overlap; future native review required",
+      "conservative_envelope_overlap_cells": 4810
+    },
+    {
+      "phase": 1,
+      "positive_sample_overlap_cells": 2930,
+      "world_sample_bounds_xyxy": [
+        2970.5,
+        1169.0,
+        3076.5,
+        1205.5
+      ],
+      "max_combined_opacity": 0.4335271903966792,
+      "max_added_darkening_over_stronger_single": 0.18565412180764376,
+      "not_a_union_compositor": "two independent blend_mix casts darken overlap; future native review required",
+      "conservative_envelope_overlap_cells": 4808
+    },
+    {
+      "phase": 2,
+      "positive_sample_overlap_cells": 2852,
+      "world_sample_bounds_xyxy": [
+        2988.0,
+        1170.5,
+        3088.5,
+        1203.0
+      ],
+      "max_combined_opacity": 0.4333728625506539,
+      "max_added_darkening_over_stronger_single": 0.18572700596261382,
+      "not_a_union_compositor": "two independent blend_mix casts darken overlap; future native review required",
+      "conservative_envelope_overlap_cells": 4647
+    },
+    {
+      "phase": 3,
+      "positive_sample_overlap_cells": 2917,
+      "world_sample_bounds_xyxy": [
+        2989.0,
+        1170.5,
+        3071.0,
+        1204.0
+      ],
+      "max_combined_opacity": 0.4334570839319335,
+      "max_added_darkening_over_stronger_single": 0.18584209310511007,
+      "not_a_union_compositor": "two independent blend_mix casts darken overlap; future native review required",
+      "conservative_envelope_overlap_cells": 4270
+    }
+  ],
+  "union_conservative_envelope_overlap_cells": 5779
+}

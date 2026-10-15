@@ -1,0 +1,135 @@
+{
+  "status": "preparation_only_no_generation",
+  "source_frames": [
+    {
+      "source_id": 45,
+      "sha256": "85d0005b0db9b78990735be12ba5b93868662a139dd548f067d7f8f069225cac",
+      "rgba_sha256": "bb1ac6bbdc419e5e49a9ddbf3446719a0fda8ecfb869c2df0eacddde703c6817"
+    },
+    {
+      "source_id": 46,
+      "sha256": "58901c104dba88a49e85be68f14a5d0e2eb22e741b9de3783556a6b37e195892",
+      "rgba_sha256": "5e7ed9bbb6d131eb3efed4ffc13f09c6b02c5f00a1cbdb9c68fdea1c7dfe45da"
+    },
+    {
+      "source_id": 47,
+      "sha256": "570063f5764c00ede045a35ff560e31bd876d944042e281b50f693ffd3e0addb",
+      "rgba_sha256": "d971ba10e7e300fadf5d3de535f0c14f40278498e5ee1ec3e595d8fcb0e36083"
+    },
+    {
+      "source_id": 48,
+      "sha256": "de7db814821b505d353fbb6c017154f8facedfa6094bc30371c86a1e4d1e7f85",
+      "rgba_sha256": "e87c9a757da2f2818c431184f52908368af30cd13cd60d1cbc7fbfbeac9c2a0c"
+    },
+    {
+      "source_id": 49,
+      "sha256": "78109c59d23aee39981036a65cfbb922ca30aeef7bbe9839f53f8c3054ecd802",
+      "rgba_sha256": "bc726701e718ef0a387f48ab0b82a09864cfeb9a97026e10fdf68a610f07fc22"
+    },
+    {
+      "source_id": 50,
+      "sha256": "04fc07cd5d999def61225db9e48ded034d124eb856cf433251c15736decd7219",
+      "rgba_sha256": "1d2c437f8b7fe2c443ac5907d107b9c0935889b7d59732fc5cb28062154c9b18"
+    }
+  ],
+  "main_canvas": [
+    1536,
+    1024
+  ],
+  "main_grid": [
+    3,
+    2
+  ],
+  "main_native_frame": [
+    128,
+    128
+  ],
+  "main_uniform_display_scale": 4,
+  "main_display_frame": [
+    512,
+    512
+  ],
+  "main_display_root_per_cell": [
+    64,
+    256
+  ],
+  "leg_common_crop": [
+    16,
+    48,
+    72,
+    96
+  ],
+  "leg_uniform_display_scale": 8,
+  "identity_raw_sha256": "92b5f869ef0cdc28062bb975afab76ce1846f52f644a06af5edfb3131704e035",
+  "identity_crop_rectangles": {
+    "E_side_head": [
+      217,
+      41,
+      322,
+      140
+    ],
+    "E_chest_side": [
+      268,
+      153,
+      330,
+      272
+    ],
+    "E_red_shoulder": [
+      199,
+      146,
+      262,
+      236
+    ],
+    "E_waist_side": [
+      240,
+      280,
+      330,
+      351
+    ],
+    "E_black_long_sleeve_silver_forearm": [
+      186,
+      222,
+      256,
+      355
+    ],
+    "E_glove_fingers_only_skin": [
+      193,
+      351,
+      265,
+      419
+    ],
+    "E_black_thigh": [
+      252,
+      402,
+      309,
+      461
+    ],
+    "E_knee": [
+      188,
+      509,
+      243,
+      572
+    ],
+    "E_boot": [
+      189,
+      637,
+      310,
+      703
+    ]
+  },
+  "inputs": [
+    {
+      "path": "approved-E-idle9-design-with-forearm.png",
+      "sha256": "5a7108561f9c8aec39a25de76a4e5fea6d4ce5148e3649af5ad938724f749d38"
+    },
+    {
+      "path": "source45-50-common-leg-crop-8x.png",
+      "sha256": "b2090f13549853376a1fba005da5b6bb8e2907eb0a9c851b9ac1c739cb0ea3e6"
+    },
+    {
+      "path": "source45-50-full128-equal-grid-4x.png",
+      "sha256": "133cdc367b9564de7cc20647a5ac9939860e55f2657dafba4dc23e0661bc8369"
+    }
+  ],
+  "rejected_raw_used_as_input": false
+}

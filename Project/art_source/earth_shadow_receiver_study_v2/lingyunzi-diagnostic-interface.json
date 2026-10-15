@@ -1,0 +1,89 @@
+{
+  "schema": "earth-v2-shadow-diagnostic-interface-lingyunzi",
+  "status": "CPU prepared only; parent visual review and explicit GPU authorization still required",
+  "scope": "exact current sample instance, no existingSE/Fanggate change",
+  "parameter_contract_sha256": "ea2e240a6c193165706e40db60d760bbb00ef8710395d466b67a7fa40e320f84",
+  "receiver_candidate_sha256": "fc61d0db6071138d0dd81b9e464a07f0a85af743a477905032f10916d9a77ef1",
+  "receiver_contract_diagnostic_path": "res://diagnostics/earth-shadow-receiver-v2/receiver-candidate.json",
+  "mandatory_hall_conditions": [
+    "T uses exact approved new hall and all30 owner identities/resources validated atomically",
+    "source A13 map/flags/owner scope unchanged and SHA-bound",
+    "candidate body/alpha, fixed parameters and full envelope SHA-bound",
+    "disable whole cast immediately on T source hall, failed hall validation, any mismatch or footprint outside allowed"
+  ],
+  "failure_policy": "hide whole dependent cast immediately; no clipping; no source-hall fallback receiver; body pixels/position unchanged",
+  "shadow": {
+    "reference_logical": [
+      47.947484989553544,
+      123.64698334539128
+    ],
+    "slope": 0.0,
+    "cast": [
+      1.2,
+      0.55
+    ],
+    "opacity": 0.25,
+    "blur_logical": 0.8,
+    "raw_blur": 3.2,
+    "density": 4,
+    "tint_rgb": [
+      0.035,
+      0.045,
+      0.055
+    ]
+  },
+  "world_body_origin": [
+    2944,
+    1048
+  ],
+  "world_transform": "identity logical basis; add existing camera screen_origin once",
+  "source_measurement_sha256": "0dc903c36ca309f47155feae402afa72592d5e39a26fe69090e3584c9bce60a8",
+  "producer_sha256": "e9a218ac26eb684399dc772f2e9329ddd7bd9311e810d187a04c5cdc2b89d062",
+  "body_texture": "res://assets/earth/npc/lingyunzi_v2/body.png",
+  "body_sha256": "541c6d0a7a1cf3dd1cd547be037cf17e2f9a6083b8de90c1641f13fbaf9bbb9e",
+  "body_manifest_sha256": "f9cf04374b533f225514215f6c798d4eac7592beb8b86bb5f715d3945278c9be",
+  "logical_regions_xywh": [
+    [
+      0,
+      0,
+      128,
+      160
+    ],
+    [
+      128,
+      0,
+      128,
+      160
+    ],
+    [
+      256,
+      0,
+      128,
+      160
+    ],
+    [
+      384,
+      0,
+      128,
+      160
+    ]
+  ],
+  "source_ids": [
+    113,
+    114,
+    115,
+    116
+  ],
+  "identity": {
+    "map_id": "A13",
+    "npc_record_index": 1,
+    "map_cell": [
+      62,
+      36
+    ],
+    "layer": 1,
+    "sort_y": 36,
+    "stable_order": 10001
+  },
+  "clock": "unchanged shared floor(tick/17)%4; common footline for all4 phases"
+}

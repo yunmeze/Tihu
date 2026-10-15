@@ -1,0 +1,50 @@
+{
+  "schema": "earth-first-tree-shadow-only-padding-v1",
+  "status": "technical diagnostic texture only; not installed",
+  "source_texture": "res://assets/earth/environment/first_tree_v1/whole-review.png",
+  "source_sha256": "c639ad6e35e10f3a4c61d13a38258b2db1f077cea3f757ec8e064762601cc9e6",
+  "source_size": [
+    1254,
+    1254
+  ],
+  "output_texture": "res://diagnostics/earth-shadow-receiver-v2/first-tree-shadow-padded-1256.png",
+  "output_sha256": "1a1caf1da97bfe4fea2c5eb39e3f30a0d542a61f9ed00e0bcc867f4b9c456638",
+  "output_size": [
+    1256,
+    1256
+  ],
+  "copy_rect_xywh": [
+    0,
+    0,
+    1254,
+    1254
+  ],
+  "right_bottom_transparent_px": [
+    2,
+    2
+  ],
+  "all_original_rgba_equal": true,
+  "padding_all_rgba_zero": true,
+  "density": 4,
+  "logical_region_xywh": [
+    0,
+    0,
+    314,
+    314
+  ],
+  "raw_root_unchanged": [
+    523,
+    1224
+  ],
+  "logical_root": [
+    130.75,
+    306.0
+  ],
+  "world_origin": [
+    2630.25,
+    784.0
+  ],
+  "registration_sha256": "a83f1f401b10394e13e7822f6eb04078cace3db3dc0bdca10e275b38d0bb9b27",
+  "producer_sha256": "e9a218ac26eb684399dc772f2e9329ddd7bd9311e810d187a04c5cdc2b89d062",
+  "sampling_caveat": "right/bottom edge interpolates to new transparent texels instead of old frame-edge clamp; CPU/GPU review required; no original texture changed"
+}

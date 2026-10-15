@@ -1,0 +1,92 @@
+{
+  "schema": "earth-hero-idle-v1",
+  "status": "bounded_Earth_E_idle_body_approved_shadow_disabled",
+  "texture": "res://assets/earth/hero/e_idle_v1/body.png",
+  "texture_sha256": "7cb81240d71f04dae8f6df9e06ef5c0d7dbc1d33c467fa3c646f8a54087da010",
+  "texture_size": [
+    2048,
+    512
+  ],
+  "texture_density": 4,
+  "logical_frame_size": [
+    128,
+    128
+  ],
+  "logical_draw_offset": [
+    -16,
+    -64
+  ],
+  "logical_root": [
+    16,
+    64
+  ],
+  "texture_root": [
+    64,
+    256
+  ],
+  "texture_frame_size": [
+    512,
+    512
+  ],
+  "source_ids": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "records": [
+    {
+      "source_id": 9,
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 10,
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 11,
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 12,
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ]
+    }
+  ],
+  "frame_ticks": 12,
+  "filter": "linear",
+  "sprite_scale": 0.25,
+  "shadow": "disabled; E-specific shadow not reviewed; never borrow SE receiver",
+  "fallback": "atomic whole four-frame group; all unsupported actions and directions use complete original body+head",
+  "provenance": {
+    "raw_sha256": "92b5f869ef0cdc28062bb975afab76ce1846f52f644a06af5edfb3131704e035",
+    "registration_sha256": "719a32179e4422e7e670778c8b1d8814491d541cc7073fd23043220e9d46477d",
+    "prompt_sha256": "b3bec21ef60f1e92adea4115d60c2cdf2e39f87ce96553afef57220a8abe6e61",
+    "request_sha256": "a7677dd5a651afb12dfe1897d05c3de125a159716614138db0377f6d12711e09",
+    "native_evidence": "/workspace/shared/earth-e-idle/native.log; four-phases-2x.png; turns-2x.png; repeat-roi.json",
+    "limitations": [
+      "parent approved ordinary E idle9-12 only",
+      "E shadow disabled",
+      "source contact proxies are not measured ground contacts"
+    ]
+  }
+}

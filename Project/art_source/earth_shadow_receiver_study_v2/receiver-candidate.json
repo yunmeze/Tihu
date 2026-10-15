@@ -1,0 +1,664 @@
+{
+  "parameter_records": [
+    {
+      "name": "lingyunzi0",
+      "reference_logical": [
+        47.947484989553544,
+        123.64698334539128
+      ],
+      "slope": 0.0,
+      "world_origin": [
+        2944,
+        1048
+      ],
+      "density": 4,
+      "cast": [
+        1.2,
+        0.55
+      ],
+      "opacity": 0.25,
+      "blur_logical": 0.8
+    },
+    {
+      "name": "lingyunzi1",
+      "reference_logical": [
+        47.947484989553544,
+        123.64698334539128
+      ],
+      "slope": 0.0,
+      "world_origin": [
+        2944,
+        1048
+      ],
+      "density": 4,
+      "cast": [
+        1.2,
+        0.55
+      ],
+      "opacity": 0.25,
+      "blur_logical": 0.8
+    },
+    {
+      "name": "lingyunzi2",
+      "reference_logical": [
+        47.947484989553544,
+        123.64698334539128
+      ],
+      "slope": 0.0,
+      "world_origin": [
+        2944,
+        1048
+      ],
+      "density": 4,
+      "cast": [
+        1.2,
+        0.55
+      ],
+      "opacity": 0.25,
+      "blur_logical": 0.8
+    },
+    {
+      "name": "lingyunzi3",
+      "reference_logical": [
+        47.947484989553544,
+        123.64698334539128
+      ],
+      "slope": 0.0,
+      "world_origin": [
+        2944,
+        1048
+      ],
+      "density": 4,
+      "cast": [
+        1.2,
+        0.55
+      ],
+      "opacity": 0.25,
+      "blur_logical": 0.8
+    },
+    {
+      "name": "first_tree",
+      "reference_logical": [
+        130.75,
+        306.0
+      ],
+      "slope": 0,
+      "world_origin": [
+        2630.25,
+        784.0
+      ],
+      "density": 4,
+      "cast": [
+        1.2,
+        0.55
+      ],
+      "opacity": 0.25,
+      "blur_logical": 0.8
+    }
+  ],
+  "parameter_records_canonical_json_sha256": "ea2e240a6c193165706e40db60d760bbb00ef8710395d466b67a7fa40e320f84",
+  "schema": "earth-new-hall-flat-receiver-cpu-candidate-v2",
+  "status": "CPU candidate only; parent review required before GPU",
+  "scope_world_rect": [
+    2496,
+    960,
+    768,
+    512
+  ],
+  "mask_density": 2,
+  "outside_sample_allowed": false,
+  "semantic_forbidden_dilation_logical": 4,
+  "enabling_conditions": [
+    "T uses exact approved new hall and all30 owner identities/resources validated atomically",
+    "source A13 map/flags/owner scope unchanged and SHA-bound",
+    "candidate body/alpha, fixed parameters and full envelope SHA-bound",
+    "disable whole cast immediately on T source hall, failed hall validation, any mismatch or footprint outside allowed"
+  ],
+  "existing_se_and_fangzhang_gates": "unchanged and independent",
+  "noise_exclusion": "only exact28 texels in15 reviewed positive-alpha8connected components, all alpha1 and remote from alpha128 core; pixels remain drawn unchanged",
+  "excluded_noise_texels_whole_raw_xy": [
+    [
+      80,
+      849
+    ],
+    [
+      72,
+      855
+    ],
+    [
+      74,
+      855
+    ],
+    [
+      70,
+      856
+    ],
+    [
+      80,
+      857
+    ],
+    [
+      138,
+      859
+    ],
+    [
+      140,
+      859
+    ],
+    [
+      142,
+      859
+    ],
+    [
+      138,
+      860
+    ],
+    [
+      138,
+      861
+    ],
+    [
+      138,
+      862
+    ],
+    [
+      138,
+      863
+    ],
+    [
+      144,
+      863
+    ],
+    [
+      142,
+      864
+    ],
+    [
+      138,
+      865
+    ],
+    [
+      142,
+      865
+    ],
+    [
+      144,
+      865
+    ],
+    [
+      138,
+      866
+    ],
+    [
+      141,
+      866
+    ],
+    [
+      142,
+      866
+    ],
+    [
+      140,
+      867
+    ],
+    [
+      142,
+      867
+    ],
+    [
+      141,
+      868
+    ],
+    [
+      140,
+      869
+    ],
+    [
+      142,
+      869
+    ],
+    [
+      140,
+      871
+    ],
+    [
+      0,
+      908
+    ],
+    [
+      120,
+      1003
+    ]
+  ],
+  "noise_components": [
+    {
+      "id": 78,
+      "size_texels": 1,
+      "max_alpha": 1,
+      "bbox_whole_raw_xyxy": [
+        80,
+        849,
+        81,
+        850
+      ]
+    },
+    {
+      "id": 79,
+      "size_texels": 1,
+      "max_alpha": 1,
+      "bbox_whole_raw_xyxy": [
+        72,
+        855,
+        73,
+        856
+      ]
+    },
+    {
+      "id": 80,
+      "size_texels": 1,
+      "max_alpha": 1,
+      "bbox_whole_raw_xyxy": [
+        74,
+        855,
+        75,
+        856
+      ]
+    },
+    {
+      "id": 81,
+      "size_texels": 1,
+      "max_alpha": 1,
+      "bbox_whole_raw_xyxy": [
+        70,
+        856,
+        71,
+        857
+      ]
+    },
+    {
+      "id": 82,
+      "size_texels": 1,
+      "max_alpha": 1,
+      "bbox_whole_raw_xyxy": [
+        80,
+        857,
+        81,
+        858
+      ]
+    },
+    {
+      "id": 84,
+      "size_texels": 5,
+      "max_alpha": 1,
+      "bbox_whole_raw_xyxy": [
+        138,
+        859,
+        139,
+        864
+      ]
+    },
+    {
+      "id": 85,
+      "size_texels": 1,
+      "max_alpha": 1,
+      "bbox_whole_raw_xyxy": [
+        140,
+        859,
+        141,
+        860
+      ]
+    },
+    {
+      "id": 86,
+      "size_texels": 1,
+      "max_alpha": 1,
+      "bbox_whole_raw_xyxy": [
+        142,
+        859,
+        143,
+        860
+      ]
+    },
+    {
+      "id": 88,
+      "size_texels": 1,
+      "max_alpha": 1,
+      "bbox_whole_raw_xyxy": [
+        144,
+        863,
+        145,
+        864
+      ]
+    },
+    {
+      "id": 89,
+      "size_texels": 9,
+      "max_alpha": 1,
+      "bbox_whole_raw_xyxy": [
+        140,
+        864,
+        143,
+        870
+      ]
+    },
+    {
+      "id": 90,
+      "size_texels": 2,
+      "max_alpha": 1,
+      "bbox_whole_raw_xyxy": [
+        138,
+        865,
+        139,
+        867
+      ]
+    },
+    {
+      "id": 91,
+      "size_texels": 1,
+      "max_alpha": 1,
+      "bbox_whole_raw_xyxy": [
+        144,
+        865,
+        145,
+        866
+      ]
+    },
+    {
+      "id": 93,
+      "size_texels": 1,
+      "max_alpha": 1,
+      "bbox_whole_raw_xyxy": [
+        140,
+        871,
+        141,
+        872
+      ]
+    },
+    {
+      "id": 96,
+      "size_texels": 1,
+      "max_alpha": 1,
+      "bbox_whole_raw_xyxy": [
+        0,
+        908,
+        1,
+        909
+      ]
+    },
+    {
+      "id": 106,
+      "size_texels": 1,
+      "max_alpha": 1,
+      "bbox_whole_raw_xyxy": [
+        120,
+        1003,
+        121,
+        1004
+      ]
+    }
+  ],
+  "all30_owner_geometry_counts": [
+    {
+      "key": "Building:3971@66,34",
+      "layer": 0,
+      "retained_positive_alpha_texels": 14969,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3974@65,35",
+      "layer": 0,
+      "retained_positive_alpha_texels": 5532,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3975@66,35",
+      "layer": 0,
+      "retained_positive_alpha_texels": 9390,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3976@73,35",
+      "layer": 0,
+      "retained_positive_alpha_texels": 10885,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3979@65,36",
+      "layer": 0,
+      "retained_positive_alpha_texels": 1448,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3980@66,36",
+      "layer": 0,
+      "retained_positive_alpha_texels": 6753,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3981@73,36",
+      "layer": 0,
+      "retained_positive_alpha_texels": 12375,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3982@74,36",
+      "layer": 0,
+      "retained_positive_alpha_texels": 5521,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3985@66,37",
+      "layer": 0,
+      "retained_positive_alpha_texels": 501,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3986@74,37",
+      "layer": 0,
+      "retained_positive_alpha_texels": 7009,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3987@75,37",
+      "layer": 0,
+      "retained_positive_alpha_texels": 315,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3989@74,38",
+      "layer": 0,
+      "retained_positive_alpha_texels": 862,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3966@61,32",
+      "layer": 1,
+      "retained_positive_alpha_texels": 0,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3967@62,33",
+      "layer": 1,
+      "retained_positive_alpha_texels": 19,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3968@66,33",
+      "layer": 1,
+      "retained_positive_alpha_texels": 54264,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3969@63,34",
+      "layer": 1,
+      "retained_positive_alpha_texels": 20403,
+      "excluded_noise_texels": 6
+    },
+    {
+      "key": "Building:3970@65,34",
+      "layer": 1,
+      "retained_positive_alpha_texels": 56919,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3972@73,34",
+      "layer": 1,
+      "retained_positive_alpha_texels": 42906,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3973@64,35",
+      "layer": 1,
+      "retained_positive_alpha_texels": 47052,
+      "excluded_noise_texels": 22
+    },
+    {
+      "key": "Building:3977@74,35",
+      "layer": 1,
+      "retained_positive_alpha_texels": 45748,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3978@77,35",
+      "layer": 1,
+      "retained_positive_alpha_texels": 0,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3983@75,36",
+      "layer": 1,
+      "retained_positive_alpha_texels": 32453,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3984@76,36",
+      "layer": 1,
+      "retained_positive_alpha_texels": 1576,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3988@67,38",
+      "layer": 1,
+      "retained_positive_alpha_texels": 80094,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3990@68,39",
+      "layer": 1,
+      "retained_positive_alpha_texels": 91185,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3991@73,39",
+      "layer": 1,
+      "retained_positive_alpha_texels": 5319,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3992@69,40",
+      "layer": 1,
+      "retained_positive_alpha_texels": 91221,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3993@70,40",
+      "layer": 1,
+      "retained_positive_alpha_texels": 91388,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3994@71,40",
+      "layer": 1,
+      "retained_positive_alpha_texels": 89385,
+      "excluded_noise_texels": 0
+    },
+    {
+      "key": "Building:3995@72,40",
+      "layer": 1,
+      "retained_positive_alpha_texels": 63754,
+      "excluded_noise_texels": 0
+    }
+  ],
+  "parameters_frozen_v1": {
+    "cast": [
+      1.2,
+      0.55
+    ],
+    "opacity": 0.25,
+    "blur_logical": 0.8,
+    "measurement_report_sha256": "0dc903c36ca309f47155feae402afa72592d5e39a26fe69090e3584c9bce60a8"
+  },
+  "files_diagnostic_relative": {
+    "allowed-candidate.png": {
+      "sha256": "12c5804b27220bc04f0727db09857c886fe48cfd48065e828ce75b851527a29c",
+      "size": [
+        1536,
+        1024
+      ],
+      "set_cells": 1397719
+    },
+    "forbidden-candidate.png": {
+      "sha256": "80b42e4adffad4929a7dd46eea0f3e7254d4396a2e1912c34182104ae9a4aab2",
+      "size": [
+        1536,
+        1024
+      ],
+      "set_cells": 175145
+    }
+  },
+  "input_sha256": {
+    "art_source/earth_shadow_receiver_study_v2/analyze_receiver.py": "e10f04a897d522766219782b71aa6e19b2464c374373ab658935fb70191f1bc6",
+    "data/maps/A13.json": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "data/earth/a13_hall_source_scope.json": "4288603a7dfd0ccc90a3bebf71473aca47a0bd57c448d6c33480b3f8952ff59e",
+    "assets/earth/environment/training_hall_v1/registration.json": "57072cc60ed9e33aa9afaeb0c7310733216e2884e0b042b043077551473e273c",
+    "assets/original/manifest.json": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+    "art_source/earth_shadow_next_stage_v1/measurements.json": "0dc903c36ca309f47155feae402afa72592d5e39a26fe69090e3584c9bce60a8",
+    "assets/earth/shadows/se_flat_v1/manifest.json": "3c7ac445562535c706cd58ebef625880308860ddfa012686fee600223beaec48",
+    "assets/earth/shadows/se_flat_v1/forbidden.png": "605ba15e50e5c1a710b1bab004ac824bb764f446dee29cdd1f9664f806426277",
+    "tools/earth/build_flat_shadow_gate.py": "19dbee82e321c64ab2952d7e4f02660fa8f622d2b9ae3ad0a05ea1142f3fddcb",
+    "scripts/core/movement.gd": "90185510aca061709ad4e7ac2a3c8668efc850d44fcce4bcee68e08c4e2b8a48",
+    "scripts/world_view.gd": "b404d8dd5e7e85a120fec00b7eb5f01e6bfc1fc37adf5e7878c1798432d4e285",
+    "scripts/earth/sample_world.gd": "75c13f913730e72ea26918047fbc7a50ff1f2129dbb56b983e3158bea6b7c26b",
+    "scripts/earth/hall_candidate.gd": "87351ee17139a51f5434143544291700ea8d0a401df1b8438973c92bb248a1ae",
+    "scripts/earth/flat_shadow_gate.gd": "bb31c6ab95c0950fecd196731f8c87d1e03e2c771b5427bc5d4ae8abf18d32c7",
+    "scripts/earth/sample_floor_pass.gd": "7fd59781dca6e3f8cb7ae7fe5c493464668350ae3086af0deb10199f0361defb",
+    "scripts/art/density_alpha_ground_shadow.gd": "cfc61e6c2b647bee68b063c1eecd884e1ac0ffa545fc1a59b3c3af4397adaf47",
+    "shaders/density_alpha_ground_shadow.gdshader": "b4d976938acbb3b57df13bf85ade4ebf3173c0634b5e7ee4338e8b038bf51f3b",
+    "art_source/earth_training_hall_registration_v1/build_registration.py": "bd64175ed1cb5d691b4f854ce9367c5ee64998eb9dc3e8c8868a5bb0eb4cad11",
+    "assets/original/Map/Res/Building/0.png": "6fc88a1aa96eb18687eea798bcb4eae1f0ebf6d546a5a076fb1c2546550b3343",
+    "assets/earth/environment/training_hall_v1/owner-3971.png": "bf8c3c2a4d1a65f3935dfcf4a81797f38487bbe5efdad61734cf3dec25cb5eb8",
+    "assets/earth/environment/training_hall_v1/owner-3974.png": "f5229a5ca2869750110d0fc305c46f3f29b98556c57779e789f75e47ada432ad",
+    "assets/earth/environment/training_hall_v1/owner-3975.png": "4f5c931a75f01aea1b599e9d5e87e5b6f690df89dcfd2be1870ead8a9394befc",
+    "assets/earth/environment/training_hall_v1/owner-3976.png": "01c4b3a11397e702fe1de6f59c69fbfee94ef3e932ca4a403cc5e2b4a617bdf6",
+    "assets/earth/environment/training_hall_v1/owner-3979.png": "2873987d5851bc6d8447a02aca78d36194ac8caa9eb9faefd7368926c0bd17b2",
+    "assets/earth/environment/training_hall_v1/owner-3980.png": "b430178191619833a0e43c6baa16fb66ce3e3f10e159003059ad9818c53b42aa",
+    "assets/earth/environment/training_hall_v1/owner-3981.png": "087e534ddb457d4e3521b3128dc4a151831ae12d400d905ab95331b9d0659199",
+    "assets/earth/environment/training_hall_v1/owner-3982.png": "216026b2cc0c70fff2b186f3095921acafe76582e2fc8d83a900e42005917314",
+    "assets/earth/environment/training_hall_v1/owner-3985.png": "430e3227462d43debfb30f76055b89ba615092a0c914828c1a5ad87909886a90",
+    "assets/earth/environment/training_hall_v1/owner-3986.png": "ef90181db2ace5b61a80ac83aede7e001febd27b1fb01ab67449d10dacf7c030",
+    "assets/earth/environment/training_hall_v1/owner-3987.png": "e4ee7ffa9240441b072db6efda4d6d47f6c17e770b0a6e8c3e6f1da38572df5a",
+    "assets/earth/environment/training_hall_v1/owner-3989.png": "77185d0dc86e99f14ae5ba9add6d8eb98388fdfa56abbcff9c8aee0e55df9661",
+    "assets/earth/environment/training_hall_v1/owner-3967.png": "40c271540249c9981ae4340564cbf42d359957b7389d3b1b9ea12d588e6d9f8f",
+    "assets/earth/environment/training_hall_v1/owner-3968.png": "5c3bcf8d4afe72c74d588f8f9d763f292d8a6903f109447ae799221f02291e0d",
+    "assets/earth/environment/training_hall_v1/owner-3969.png": "9af2836b77f74c97ca3a7c4a09f504bacdde8cdf0e173312fe52944943d1062c",
+    "assets/earth/environment/training_hall_v1/owner-3970.png": "937969a147c8389e53ee931dd0c10354f2424d97649bc73e0adb078bd05a7fd8",
+    "assets/earth/environment/training_hall_v1/owner-3972.png": "9a8c73705728ae1e9725eb5a98371767c618486f7743da97b32761bc57da6be9",
+    "assets/earth/environment/training_hall_v1/owner-3973.png": "048407117db692a2aad367c597d3532ea897ffdebffc0d0283586fcd2b672d10",
+    "assets/earth/environment/training_hall_v1/owner-3977.png": "d30e217656e95fbb008a89fee9c5b022ad8f19ffdb40714b6d665b592a443cb5",
+    "assets/earth/environment/training_hall_v1/owner-3983.png": "f83b79acc6030c7de2c193d91dc2d60b5712e11b75e6a831117fbb926895fdb6",
+    "assets/earth/environment/training_hall_v1/owner-3984.png": "00b095852735002b5dda3662d9775333af20ef0a296d49b82797983154063ab7",
+    "assets/earth/environment/training_hall_v1/owner-3988.png": "d475e82a8a7b4fda607337b6d1f45533cf34a21f6f3f4563481c89fedc3f0675",
+    "assets/earth/environment/training_hall_v1/owner-3990.png": "477ceab276fbf928212fa6c2f18baa4e41072d6108816e52f428560d44f7a086",
+    "assets/earth/environment/training_hall_v1/owner-3991.png": "66b3c66e03abdb8d03483840da5b51d1474d13b1b97e0fb94d2a595211ecb6d6",
+    "assets/earth/environment/training_hall_v1/owner-3992.png": "00e0964b4a04a03a5a64e70e1f2372cd15fb17c58a13215863b8532dfbbe16e4",
+    "assets/earth/environment/training_hall_v1/owner-3993.png": "12db874c2329fc3f295362ea139a367f9e09a57c5cd9ddc4798e40871f6a7970",
+    "assets/earth/environment/training_hall_v1/owner-3994.png": "b1dec5c030bfff7038bf5f6e164e3470d6b8965e751ba3aea759f06982f194f5",
+    "assets/earth/environment/training_hall_v1/owner-3995.png": "dec23f8de636882ea6e4ffac026d6dedf8193e5641756a23ee0f61fcd3645ab6",
+    "assets/earth/environment/training_hall_v1/whole-review.png": "be82bef2c8d7aa9e26675e69dc076acbca76f0878eaf78eee3a18e501a12464b",
+    "assets/earth/npc/lingyunzi_v2/manifest.json": "f9cf04374b533f225514215f6c798d4eac7592beb8b86bb5f715d3945278c9be",
+    "assets/earth/npc/lingyunzi_v2/body.png": "541c6d0a7a1cf3dd1cd547be037cf17e2f9a6083b8de90c1641f13fbaf9bbb9e",
+    "assets/earth/environment/first_tree_v1/registration.json": "a83f1f401b10394e13e7822f6eb04078cace3db3dc0bdca10e275b38d0bb9b27",
+    "assets/earth/environment/first_tree_v1/whole-review.png": "c639ad6e35e10f3a4c61d13a38258b2db1f077cea3f757ec8e064762601cc9e6",
+    "art_source/earth_training_hall_edit_plan_v1/edit-plan.json": "e21f959981e3407306ac4c99b685cb8808c04b0737a59929ba2f0bb137271cfd"
+  }
+}

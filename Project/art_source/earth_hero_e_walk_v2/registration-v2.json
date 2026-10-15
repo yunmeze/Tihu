@@ -1,0 +1,538 @@
+{
+  "status": "rejected_pose_not_for_runtime",
+  "common_uniform_scale_raw_to_logical": 0.16173127687142191,
+  "method": "one scale fitted only to all crown-to-boot vertical spans; per-cell crown-alignment translation; bad x spread/order left visible; not a production fit",
+  "raw_sha256": "7dac4bd83626ab3e9347c0bccefc92a0306d9f534486e6922f09a315703c3517",
+  "exact_raw_reassembly": true,
+  "raw_cut_note": "equal 512x512 cells, full raw partition, no body clipping or per-frame normalization",
+  "root": [
+    16,
+    64
+  ],
+  "hd4_root": [
+    64,
+    256
+  ],
+  "logical_frame": [
+    128,
+    128
+  ],
+  "hd4_frame": [
+    512,
+    512
+  ],
+  "raw_point_uncertainty_px": 8,
+  "source_boot_uncertainty_px": 2,
+  "records": [
+    {
+      "source_id": 45,
+      "raw_rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "raw_manual_points_crown_leftboot_rightboot": [
+        [
+          232.0,
+          41.0
+        ],
+        [
+          126.0,
+          443.0
+        ],
+        [
+          370.0,
+          451.0
+        ]
+      ],
+      "source_points": [
+        [
+          40.0,
+          16.0
+        ],
+        [
+          29.0,
+          78.0
+        ],
+        [
+          60.0,
+          81.0
+        ]
+      ],
+      "translation_logical": [
+        2.478343765830118,
+        9.3690176482717
+      ],
+      "mapped_points": [
+        [
+          40.0,
+          16.0
+        ],
+        [
+          22.85648465162928,
+          81.01597330231161
+        ],
+        [
+          62.318916208256226,
+          82.30982351728298
+        ]
+      ],
+      "residuals": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -6.14351534837072,
+          3.0159733023116075
+        ],
+        [
+          2.3189162082562262,
+          1.3098235172829789
+        ]
+      ],
+      "new_right_minus_left_boot": [
+        39.462431556626946,
+        1.2938502149713713
+      ],
+      "source_right_minus_left_boot": [
+        31.0,
+        3.0
+      ],
+      "wrong_boot_vertical_order": false,
+      "raw_density_body_height_over_source_73": 6.027397260273973,
+      "texture_region": [
+        0,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 46,
+      "raw_rect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "raw_manual_points_crown_leftboot_rightboot": [
+        [
+          263.0,
+          41.0
+        ],
+        [
+          184.0,
+          417.0
+        ],
+        [
+          312.0,
+          465.0
+        ]
+      ],
+      "source_points": [
+        [
+          39.0,
+          16.0
+        ],
+        [
+          31.0,
+          77.0
+        ],
+        [
+          48.0,
+          87.0
+        ]
+      ],
+      "translation_logical": [
+        -3.53532581718396,
+        9.3690176482717
+      ],
+      "mapped_points": [
+        [
+          39.0,
+          16.0
+        ],
+        [
+          26.223229127157673,
+          76.81096010365465
+        ],
+        [
+          46.92483256669968,
+          84.57406139348288
+        ]
+      ],
+      "residuals": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -4.776770872842327,
+          -0.18903989634534923
+        ],
+        [
+          -1.0751674333003223,
+          -2.4259386065171213
+        ]
+      ],
+      "new_right_minus_left_boot": [
+        20.701603439542005,
+        7.763101289828228
+      ],
+      "source_right_minus_left_boot": [
+        17.0,
+        10.0
+      ],
+      "wrong_boot_vertical_order": false,
+      "raw_density_body_height_over_source_73": 6.095890410958904,
+      "texture_region": [
+        512,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 47,
+      "raw_rect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "raw_manual_points_crown_leftboot_rightboot": [
+        [
+          272.0,
+          41.0
+        ],
+        [
+          260.0,
+          465.0
+        ],
+        [
+          305.0,
+          430.0
+        ]
+      ],
+      "source_points": [
+        [
+          40.0,
+          15.0
+        ],
+        [
+          42.0,
+          87.0
+        ],
+        [
+          51.0,
+          78.0
+        ]
+      ],
+      "translation_logical": [
+        -3.9909073090267597,
+        8.3690176482717
+      ],
+      "mapped_points": [
+        [
+          40.0,
+          15.0
+        ],
+        [
+          38.059224677542936,
+          83.57406139348288
+        ],
+        [
+          45.33713213675692,
+          77.91346670298313
+        ]
+      ],
+      "residuals": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -3.940775322457064,
+          -3.4259386065171213
+        ],
+        [
+          -5.662867863243079,
+          -0.08653329701687085
+        ]
+      ],
+      "new_right_minus_left_boot": [
+        7.277907459213985,
+        -5.6605946904997495
+      ],
+      "source_right_minus_left_boot": [
+        9.0,
+        -9.0
+      ],
+      "wrong_boot_vertical_order": false,
+      "raw_density_body_height_over_source_73": 6.082191780821918,
+      "texture_region": [
+        1024,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 48,
+      "raw_rect": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "raw_manual_points_crown_leftboot_rightboot": [
+        [
+          230.0,
+          41.0
+        ],
+        [
+          132.0,
+          465.0
+        ],
+        [
+          370.0,
+          425.0
+        ]
+      ],
+      "source_points": [
+        [
+          40.0,
+          16.0
+        ],
+        [
+          29.0,
+          84.0
+        ],
+        [
+          60.0,
+          74.0
+        ]
+      ],
+      "translation_logical": [
+        2.801806319572961,
+        9.3690176482717
+      ],
+      "mapped_points": [
+        [
+          40.0,
+          16.0
+        ],
+        [
+          24.150334866600655,
+          84.57406139348288
+        ],
+        [
+          62.64237876199907,
+          78.10481031862602
+        ]
+      ],
+      "residuals": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -4.849665133399345,
+          0.5740613934828787
+        ],
+        [
+          2.642378761999069,
+          4.104810318626022
+        ]
+      ],
+      "new_right_minus_left_boot": [
+        38.49204389539841,
+        -6.469251074856857
+      ],
+      "source_right_minus_left_boot": [
+        31.0,
+        -10.0
+      ],
+      "wrong_boot_vertical_order": false,
+      "raw_density_body_height_over_source_73": 5.986301369863014,
+      "texture_region": [
+        1536,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 49,
+      "raw_rect": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "raw_manual_points_crown_leftboot_rightboot": [
+        [
+          263.0,
+          44.0
+        ],
+        [
+          207.0,
+          446.0
+        ],
+        [
+          311.0,
+          443.0
+        ]
+      ],
+      "source_points": [
+        [
+          39.0,
+          16.0
+        ],
+        [
+          31.0,
+          83.0
+        ],
+        [
+          48.0,
+          77.0
+        ]
+      ],
+      "translation_logical": [
+        -3.53532581718396,
+        8.883823817657436
+      ],
+      "mapped_points": [
+        [
+          39.0,
+          16.0
+        ],
+        [
+          29.94304849520038,
+          81.01597330231161
+        ],
+        [
+          46.763101289828256,
+          80.53077947169734
+        ]
+      ],
+      "residuals": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -1.0569515047996205,
+          -1.9840266976883925
+        ],
+        [
+          -1.2368987101717437,
+          3.5307794716973433
+        ]
+      ],
+      "new_right_minus_left_boot": [
+        16.820052794627877,
+        -0.48519383061426424
+      ],
+      "source_right_minus_left_boot": [
+        17.0,
+        -6.0
+      ],
+      "wrong_boot_vertical_order": false,
+      "raw_density_body_height_over_source_73": 5.767123287671233,
+      "texture_region": [
+        2048,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 50,
+      "raw_rect": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "raw_manual_points_crown_leftboot_rightboot": [
+        [
+          272.0,
+          38.0
+        ],
+        [
+          224.0,
+          431.0
+        ],
+        [
+          318.0,
+          462.0
+        ]
+      ],
+      "source_points": [
+        [
+          40.0,
+          15.0
+        ],
+        [
+          41.0,
+          80.0
+        ],
+        [
+          51.0,
+          86.0
+        ]
+      ],
+      "translation_logical": [
+        -3.9909073090267597,
+        8.854211478885968
+      ],
+      "mapped_points": [
+        [
+          40.0,
+          15.0
+        ],
+        [
+          32.23689871017175,
+          78.56039181046881
+        ],
+        [
+          47.439638736085406,
+          83.57406139348289
+        ]
+      ],
+      "residuals": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -8.76310128982825,
+          -1.4396081895311852
+        ],
+        [
+          -3.5603612639145936,
+          -2.425938606517107
+        ]
+      ],
+      "new_right_minus_left_boot": [
+        15.202740025913656,
+        5.013669583014078
+      ],
+      "source_right_minus_left_boot": [
+        10.0,
+        6.0
+      ],
+      "wrong_boot_vertical_order": false,
+      "raw_density_body_height_over_source_73": 6.082191780821918,
+      "texture_region": [
+        2560,
+        0,
+        512,
+        512
+      ]
+    }
+  ]
+}
