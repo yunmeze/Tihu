@@ -1,0 +1,24 @@
+{
+  "schema": "lp-npc-density4-set-v1",
+  "status": "4x texture density, unchanged logical geometry; exact2x display review pending",
+  "members": [
+    {
+      "subject": "fangzhang",
+      "interface": "res://art_source/npc_fangzhang_density4_v1/density4-interface.json",
+      "sha256": "cbd90dc520bbeeeb8ffbefb1b2a06db161a9cb98b0f9d3a1fc132ede24d84484"
+    },
+    {
+      "subject": "lingyunzi",
+      "interface": "res://art_source/npc_lingyunzi_density4_v1/density4-interface.json",
+      "sha256": "11e79fd254d2b8d6091f3551045b87108eea747a1b25fc4e9ba5340c6f462929"
+    }
+  ],
+  "texture_density": 4,
+  "logical_frame_size": [
+    128,
+    160
+  ],
+  "no_image_generation": true,
+  "existing_ordinary_assets_retained": true,
+  "HD_shadow_blur_unit_resolution_required": true
+}

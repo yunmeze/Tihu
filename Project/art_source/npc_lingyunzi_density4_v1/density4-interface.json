@@ -1,0 +1,267 @@
+{
+  "schema": "lp-npc-density4-candidate-v1",
+  "status": "technical density derivative; existing logical pose accepted; HD rendering not yet reviewed",
+  "subject": "lingyunzi",
+  "npc_name": "凌云子",
+  "npc_record_index": 1,
+  "map_id": "A13",
+  "map_cell": [
+    62,
+    36
+  ],
+  "appearance": 9,
+  "direction_slot": 1,
+  "source_ids": [
+    113,
+    114,
+    115,
+    116
+  ],
+  "density": 4,
+  "atlas": "res://art_source/npc_lingyunzi_density4_v1/body-atlas-4x.png",
+  "atlas_sha256": "fd9bf1b5ceacfce64362bb3d15ae280979ff87deb29cf562f043fbc8662cb26b",
+  "texture_size": [
+    2048,
+    640
+  ],
+  "texture_frame_size": [
+    512,
+    640
+  ],
+  "logical_frame_size": [
+    128,
+    160
+  ],
+  "logical_draw_offset": [
+    -32,
+    -104
+  ],
+  "frames": {
+    "113": {
+      "phase": 0,
+      "texture_rect": [
+        0,
+        0,
+        512,
+        640
+      ],
+      "logical_draw_rect_size": [
+        128,
+        160
+      ],
+      "logical_draw_offset": [
+        -32,
+        -104
+      ],
+      "rgba_sha256": "843b3a730592189277066df999e48b718e04c349d8df521b1cc33a9484ef8a05",
+      "original_offset_evidence_only": [
+        9,
+        -51
+      ]
+    },
+    "114": {
+      "phase": 1,
+      "texture_rect": [
+        512,
+        0,
+        512,
+        640
+      ],
+      "logical_draw_rect_size": [
+        128,
+        160
+      ],
+      "logical_draw_offset": [
+        -32,
+        -104
+      ],
+      "rgba_sha256": "b8660da555e6d3cc1e888ab60f32646b5e172a745d574e0a797b7a2147f36523",
+      "original_offset_evidence_only": [
+        9,
+        -49
+      ]
+    },
+    "115": {
+      "phase": 2,
+      "texture_rect": [
+        1024,
+        0,
+        512,
+        640
+      ],
+      "logical_draw_rect_size": [
+        128,
+        160
+      ],
+      "logical_draw_offset": [
+        -32,
+        -104
+      ],
+      "rgba_sha256": "04b800e58f25f2e507494e1bcd8d78fbfac301b0b51ef1ea550d6af743eea93d",
+      "original_offset_evidence_only": [
+        9,
+        -49
+      ]
+    },
+    "116": {
+      "phase": 3,
+      "texture_rect": [
+        1536,
+        0,
+        512,
+        640
+      ],
+      "logical_draw_rect_size": [
+        128,
+        160
+      ],
+      "logical_draw_offset": [
+        -32,
+        -104
+      ],
+      "rgba_sha256": "13ca6823bf98307b354871a0b37768f95a2cd0e8f0fbdd98bbc42f2d3387b376",
+      "original_offset_evidence_only": [
+        9,
+        -50
+      ]
+    }
+  },
+  "sampling": "linear; choose screen density separately from logical world layout",
+  "generation_calls": 0,
+  "direct_from_immutable_raw": true,
+  "upscaled_old_small_atlas": false,
+  "raw": {
+    "sha256": "e8ed826d7fc5582d0a0910b8c885dee42581650a68723ac8ed8e4697f453f30f",
+    "size": [
+      2172,
+      724
+    ],
+    "cell_size": [
+      543,
+      724
+    ]
+  },
+  "accepted_native_atlas_sha256": "517e11d9d9661966d154d9272dfa0c643bf02e3e550d66b3172b22ed8b367c85",
+  "registration": {
+    "raw_to_logical_scale": 0.11178785283458711,
+    "raw_to_logical_translation": [
+      25.509863139366363,
+      48.98254920091137
+    ],
+    "raw_to_texture_scale": 0.44715141133834846,
+    "raw_to_texture_translation": [
+      102.03945255746545,
+      195.9301968036455
+    ],
+    "raw_to_texture_inverse_sampling_matrix": [
+      2.2363789415467696,
+      0,
+      -228.19888290647643,
+      0,
+      2.2363789415467696,
+      -438.17416614478697
+    ],
+    "sampling_passes_per_raw_cell": 1,
+    "resampler": "BICUBIC",
+    "native_root": [
+      32,
+      104
+    ],
+    "texture_root": [
+      128,
+      416
+    ],
+    "phase_refit": false,
+    "phase_extra_scale": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "phase_extra_translation": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  "body_draw": {
+    "logical_rect": "Rect2(npc_world_origin+Vector2(-32,-104),Vector2(128,160))",
+    "source_rect": "frames[source_id].texture_rect",
+    "sprite_alternative": "Sprite2D centered=false; region512x640; scale(.25,.25); position=npc_world_origin+(-32,-104)",
+    "do_not_scale_logical_offset_again": true,
+    "do_not_add_original_source_offset_again": true
+  },
+  "shadow": {
+    "mode": "fixed_receiver_line",
+    "logical_ground_reference": [
+      56.0,
+      125.0
+    ],
+    "texture_ground_reference": [
+      224.0,
+      500.0
+    ],
+    "ground_slope": 0.0,
+    "cast_per_height": [
+      0.5304659498207885,
+      -0.3978494623655914
+    ],
+    "opacity": 0.3,
+    "tint_rgb": [
+      0.035,
+      0.045,
+      0.055
+    ],
+    "logical_blur_radius_px": 0.9,
+    "requested_texture_blur_radius_px": 3.6,
+    "body_to_parent_linear_scale": [
+      0.25,
+      0.25
+    ],
+    "body_to_parent_origin": "same logical NPC world origin+(-32,-104) used by body",
+    "current_helper_max_texture_blur": 3.0,
+    "current_helper_would_clamp_requested_3p6": true,
+    "do_not_pass_0p9_as_texture_blur": true,
+    "runtime_decision_required": "Preserve0.9 logical blur by explicitly supporting3.6 texture px in bounded HD path, or retain approved native shadow alpha/transform. Do not silently clamp3.6 to3 or use0.9 texture pixels.",
+    "native_shadow_fallback_is_distinct": "May reuse old128x160 alpha with its original logical reference and scale1; do not combine HD reference with native texture.",
+    "compositing_passes": 1,
+    "fixed_all_phases": true
+  },
+  "timing": {
+    "source_fps": 50,
+    "frame_ticks": 17,
+    "phase_count": 4,
+    "loop_ticks": 68,
+    "loop_seconds": 1.36,
+    "phase_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "global_clock": true,
+    "phase_formula": "floor(nonnegative_tick / 17) % 4",
+    "source_index_formula": "113 + phase"
+  },
+  "scope": {
+    "new_identity_or_pose": false,
+    "previous_assets_overwritten": false,
+    "per_phase_geometry_changes": false,
+    "runtime_or_R6_changes": false,
+    "pixel_identical_shadow_claim": false,
+    "note": "Projection geometry is invariant; higher-density alpha/filtering can change subpixel edges and needs visual verification."
+  }
+}

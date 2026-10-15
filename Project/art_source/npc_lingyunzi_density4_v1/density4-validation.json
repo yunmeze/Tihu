@@ -1,0 +1,878 @@
+{
+  "schema": "lp-npc-density4-validation-v1",
+  "subject": "lingyunzi",
+  "old_native_registration_reproduced_rgba_exactly": true,
+  "all_texture_borders_alpha_zero": true,
+  "atlas_roundtrip_rgba_match": true,
+  "unique_hd_frames": 4,
+  "projection_unit_invariance": [
+    {
+      "logical_point": [
+        0,
+        0
+      ],
+      "logical_projected": [
+        66.30824372759857,
+        75.26881720430109
+      ],
+      "hd_then_quarter_scale_projected": [
+        66.30824372759857,
+        75.26881720430109
+      ],
+      "error": 0.0
+    },
+    {
+      "logical_point": [
+        128,
+        160
+      ],
+      "logical_projected": [
+        109.4336917562724,
+        138.9247311827957
+      ],
+      "hd_then_quarter_scale_projected": [
+        109.4336917562724,
+        138.9247311827957
+      ],
+      "error": 0.0
+    },
+    {
+      "logical_point": [
+        56.0,
+        125.0
+      ],
+      "logical_projected": [
+        56.0,
+        125.0
+      ],
+      "hd_then_quarter_scale_projected": [
+        56.0,
+        125.0
+      ],
+      "error": 0.0
+    },
+    {
+      "logical_point": [
+        44,
+        118
+      ],
+      "logical_projected": [
+        47.71326164874552,
+        122.21505376344086
+      ],
+      "hd_then_quarter_scale_projected": [
+        47.71326164874552,
+        122.21505376344086
+      ],
+      "error": 0.0
+    },
+    {
+      "logical_point": [
+        61,
+        130
+      ],
+      "logical_projected": [
+        58.34767025089606,
+        126.98924731182795
+      ],
+      "hd_then_quarter_scale_projected": [
+        58.34767025089606,
+        126.98924731182795
+      ],
+      "error": 0.0
+    },
+    {
+      "logical_point": [
+        56,
+        125
+      ],
+      "logical_projected": [
+        56.0,
+        125.0
+      ],
+      "hd_then_quarter_scale_projected": [
+        56.0,
+        125.0
+      ],
+      "error": 0.0
+    },
+    {
+      "logical_point": [
+        72.5,
+        87.25
+      ],
+      "logical_projected": [
+        92.52508960573476,
+        109.98118279569893
+      ],
+      "hd_then_quarter_scale_projected": [
+        92.52508960573476,
+        109.98118279569893
+      ],
+      "error": 0.0
+    }
+  ],
+  "body_transform_determinant": 0.0625,
+  "body_transform_passes_helper_min_determinant0p025": true,
+  "frame_size_within_helper_max2048": true,
+  "foot_edge_measurements_not_new_receiver_fit": [
+    {
+      "source_id": 113,
+      "measurements_not_refit": [
+        [
+          {
+            "alpha_threshold_measurement_only": 8,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 498,
+            "edge_proxy_texture": [
+              194.0,
+              499
+            ],
+            "edge_proxy_logical": [
+              48.5,
+              124.75
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 32,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 498,
+            "edge_proxy_texture": [
+              194.5,
+              499
+            ],
+            "edge_proxy_logical": [
+              48.625,
+              124.75
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 96,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              194.5,
+              498
+            ],
+            "edge_proxy_logical": [
+              48.625,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 128,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              194.0,
+              498
+            ],
+            "edge_proxy_logical": [
+              48.5,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 224,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              194.0,
+              498
+            ],
+            "edge_proxy_logical": [
+              48.5,
+              124.5
+            ]
+          }
+        ],
+        [
+          {
+            "alpha_threshold_measurement_only": 8,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 498,
+            "edge_proxy_texture": [
+              254.0,
+              499
+            ],
+            "edge_proxy_logical": [
+              63.5,
+              124.75
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 32,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 498,
+            "edge_proxy_texture": [
+              254.0,
+              499
+            ],
+            "edge_proxy_logical": [
+              63.5,
+              124.75
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 96,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              253.5,
+              498
+            ],
+            "edge_proxy_logical": [
+              63.375,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 128,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              254.0,
+              498
+            ],
+            "edge_proxy_logical": [
+              63.5,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 224,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              253.5,
+              498
+            ],
+            "edge_proxy_logical": [
+              63.375,
+              124.5
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "source_id": 114,
+      "measurements_not_refit": [
+        [
+          {
+            "alpha_threshold_measurement_only": 8,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 498,
+            "edge_proxy_texture": [
+              194.0,
+              499
+            ],
+            "edge_proxy_logical": [
+              48.5,
+              124.75
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 32,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 498,
+            "edge_proxy_texture": [
+              194.0,
+              499
+            ],
+            "edge_proxy_logical": [
+              48.5,
+              124.75
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 96,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              194.0,
+              498
+            ],
+            "edge_proxy_logical": [
+              48.5,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 128,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              194.0,
+              498
+            ],
+            "edge_proxy_logical": [
+              48.5,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 224,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              194.0,
+              498
+            ],
+            "edge_proxy_logical": [
+              48.5,
+              124.5
+            ]
+          }
+        ],
+        [
+          {
+            "alpha_threshold_measurement_only": 8,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 498,
+            "edge_proxy_texture": [
+              253.5,
+              499
+            ],
+            "edge_proxy_logical": [
+              63.375,
+              124.75
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 32,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              254.0,
+              498
+            ],
+            "edge_proxy_logical": [
+              63.5,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 96,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              253.5,
+              498
+            ],
+            "edge_proxy_logical": [
+              63.375,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 128,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              254.0,
+              498
+            ],
+            "edge_proxy_logical": [
+              63.5,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 224,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              254.0,
+              498
+            ],
+            "edge_proxy_logical": [
+              63.5,
+              124.5
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "source_id": 115,
+      "measurements_not_refit": [
+        [
+          {
+            "alpha_threshold_measurement_only": 8,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 498,
+            "edge_proxy_texture": [
+              194.0,
+              499
+            ],
+            "edge_proxy_logical": [
+              48.5,
+              124.75
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 32,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 498,
+            "edge_proxy_texture": [
+              194.0,
+              499
+            ],
+            "edge_proxy_logical": [
+              48.5,
+              124.75
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 96,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              194.0,
+              498
+            ],
+            "edge_proxy_logical": [
+              48.5,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 128,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              194.0,
+              498
+            ],
+            "edge_proxy_logical": [
+              48.5,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 224,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              194.0,
+              498
+            ],
+            "edge_proxy_logical": [
+              48.5,
+              124.5
+            ]
+          }
+        ],
+        [
+          {
+            "alpha_threshold_measurement_only": 8,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 498,
+            "edge_proxy_texture": [
+              253.0,
+              499
+            ],
+            "edge_proxy_logical": [
+              63.25,
+              124.75
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 32,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              253.5,
+              498
+            ],
+            "edge_proxy_logical": [
+              63.375,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 96,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              253.0,
+              498
+            ],
+            "edge_proxy_logical": [
+              63.25,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 128,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              253.0,
+              498
+            ],
+            "edge_proxy_logical": [
+              63.25,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 224,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              253.0,
+              498
+            ],
+            "edge_proxy_logical": [
+              63.25,
+              124.5
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "source_id": 116,
+      "measurements_not_refit": [
+        [
+          {
+            "alpha_threshold_measurement_only": 8,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 498,
+            "edge_proxy_texture": [
+              192.0,
+              499
+            ],
+            "edge_proxy_logical": [
+              48.0,
+              124.75
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 32,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 498,
+            "edge_proxy_texture": [
+              192.0,
+              499
+            ],
+            "edge_proxy_logical": [
+              48.0,
+              124.75
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 96,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              192.5,
+              498
+            ],
+            "edge_proxy_logical": [
+              48.125,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 128,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              192.5,
+              498
+            ],
+            "edge_proxy_logical": [
+              48.125,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 224,
+            "roi_texture_xyxy": [
+              172,
+              480,
+              216,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              192.0,
+              498
+            ],
+            "edge_proxy_logical": [
+              48.0,
+              124.5
+            ]
+          }
+        ],
+        [
+          {
+            "alpha_threshold_measurement_only": 8,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 498,
+            "edge_proxy_texture": [
+              252.5,
+              499
+            ],
+            "edge_proxy_logical": [
+              63.125,
+              124.75
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 32,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 498,
+            "edge_proxy_texture": [
+              252.5,
+              499
+            ],
+            "edge_proxy_logical": [
+              63.125,
+              124.75
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 96,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              252.5,
+              498
+            ],
+            "edge_proxy_logical": [
+              63.125,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 128,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              252.0,
+              498
+            ],
+            "edge_proxy_logical": [
+              63.0,
+              124.5
+            ]
+          },
+          {
+            "alpha_threshold_measurement_only": 224,
+            "roi_texture_xyxy": [
+              232,
+              480,
+              276,
+              516
+            ],
+            "last_row_index_texture": 497,
+            "edge_proxy_texture": [
+              252.5,
+              498
+            ],
+            "edge_proxy_logical": [
+              63.125,
+              124.5
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "raw_and_previous_stage_files_unchanged": true,
+  "HD_runtime_test_executed": false
+}
