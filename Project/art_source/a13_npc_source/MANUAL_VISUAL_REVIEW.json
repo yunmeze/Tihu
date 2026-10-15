@@ -1,0 +1,97 @@
+{
+  "schema": "a13-npc-manual-visual-review-v1",
+  "status": "Reviewed source evidence only; no generated design approved",
+  "review_method": "Viewed all 10 source groups as complete four-phase boards and nearest-neighbor 6x enlargements. Also viewed key NPC three-slot/four-phase family boards, lower-detail boards and pixel-coordinate grids.",
+  "coordinates": "Raw original decoded pixel coordinates; xyxy boxes have exclusive right/bottom. All feature boxes are review regions, not masks or exact anatomical contact points.",
+  "global_limits": [
+    "Do not infer appearance or age from NPC names.",
+    "Do not invent hidden hands/feet, weapons, equipment or idle motion.",
+    "Checker shadow is baked into the source and remains unsegmented.",
+    "Native cell root is not an anatomical ground contact.",
+    "Keep original names, separate placement records and story functions unchanged."
+  ],
+  "groups": [
+    {
+      "appearance": 21, "direction_slot": 2, "names": ["方丈"], "indices": [261,262,263,264],
+      "visual_phase_class": "Identical static pose, confirmed by exact registered RGBA",
+      "visible_identity": ["Dark head top and white band", "Light exposed arms/upper torso", "Dark forearm wraps and waist overlap", "Yellow-brown trousers", "Bent asymmetric knees and dark boots"],
+      "props_and_occlusion": "No separate long staff visible. Waist mass includes bent forearm/hand and clothing; exact head-top construction and finger boundaries unresolved.",
+      "ground_contact_status": "Unknown precise contact. Dark boot contours join baked checker; no shadow-derived contact anchor.",
+      "manual_regions": [
+        {"source_index":261,"kind":"visible_boot_edge_review","raw_box_xyxy":[14,49,25,57],"uncertainty_source_px":3},
+        {"source_index":261,"kind":"visible_boot_edge_review","raw_box_xyxy":[29,59,40,67],"uncertainty_source_px":3}
+      ],
+      "remaster_rule": "One static remastered pose may serve all four source indices; preserve original cadence and do not invent breathing or jitter."
+    },
+    {
+      "appearance": 9, "direction_slot": 1, "names": ["凌云子"], "indices": [113,114,115,116],
+      "visual_phase_class": "Four distinct low-amplitude registered phases; hat/upper-body height, sleeve/hand/cloth and checker changes",
+      "visible_identity": ["Tall tan/gold head-attached form", "Gray wide sleeves and dark folds", "Purple lower garment", "Hands overlapping a thin hanging detail", "Two visible tan boots"],
+      "props_and_occlusion": "Tall vertical form is headwear silhouette, not a free-standing wooden staff. Hanging detail's category, hidden fingers and rear hand are unresolved.",
+      "ground_contact_status": "Visible boots, uncertain exact soles. Raw113 regions below must not be copied blindly to other phase coordinates.",
+      "manual_regions": [
+        {"source_index":113,"kind":"lower_boot_review","raw_box_xyxy":[4,64,11,72],"uncertainty_source_px":2},
+        {"source_index":113,"kind":"lower_boot_review","raw_box_xyxy":[19,64,26,72],"uncertainty_source_px":2}
+      ],
+      "remaster_rule": "Generate/review four as one group; preserve offsets (9,-51),(9,-49),(9,-49),(9,-50) and root placement. No crop-top alignment."
+    },
+    {
+      "appearance": 2, "direction_slot": 2, "names": ["老药师"], "indices": [33,34,35,36],
+      "visual_phase_class": "Four subtle variations",
+      "visible_identity": ["Hat", "Raised arm near face", "Bright sleeves and brown central garment", "Dark lower legs with pale shoes"],
+      "props_and_occlusion": "Small hand/face/held-item distinctions unresolved; no medicine prop inferred from name.",
+      "ground_contact_status": "Shoes visible; exact contact unresolved where checker adjoins."
+    },
+    {
+      "appearance": 24, "direction_slot": 1, "names": ["道童"], "indices": [293,294,295,296],
+      "visual_phase_class": "Four subtle upper-body/lap/rod variations",
+      "visible_identity": ["Compact seated frontal silhouette", "Dark/gold clothing", "Brown diagonal rod across lap", "Pale lower cloth/foot area"],
+      "props_and_occlusion": "Rod is visible; exact material/object category, seat and hidden limb construction unresolved. Name does not establish age.",
+      "ground_contact_status": "Seated/occluded lower body; do not fabricate standing feet."
+    },
+    {
+      "appearance": 16, "direction_slot": 2, "names": ["张天师"], "indices": [201,202,203,204],
+      "visual_phase_class": "Four subtle arm/cloth/cast variations",
+      "visible_identity": ["Long dark robe", "Gold collar", "High dark cap", "Raised screen-left arm and thin brown horizontal element"],
+      "props_and_occlusion": "Held-object category and hidden hand anatomy unresolved; preserve visible outline.",
+      "ground_contact_status": "Long hem partly occludes feet; shadow bottom is not sole."
+    },
+    {
+      "appearance": 19, "direction_slot": 2, "names": ["虚云道人"], "indices": [237,238,239,240],
+      "visual_phase_class": "Identical static seated pose",
+      "visible_identity": ["Crossed/bent seated legs", "Blue/white folded cloth", "Hand near face"],
+      "props_and_occlusion": "Large lap/cloth overlap obscures limb construction; do not add standing legs.",
+      "ground_contact_status": "True support points unresolved under folded cloth and checker.",
+      "remaster_rule": "One static pose can serve four indices without new motion."
+    },
+    {
+      "appearance": 22, "direction_slot": 2, "names": ["廖毅"], "indices": [273,274,275,276],
+      "visual_phase_class": "Four subtle arm/red-object/hem variations with original x-offset changes",
+      "visible_identity": ["Tall white hat", "Dark/gold long garment", "Extended arm with small red hanging object", "Light narrow front garment strips"],
+      "props_and_occlusion": "Red object category (bottle/pouch/lantern) unconfirmed; rear hand and one foot obscured.",
+      "ground_contact_status": "A light shoe fragment is visible; do not infer both exact contacts."
+    },
+    {
+      "appearance": 15, "direction_slot": 2, "names": ["一弘道长"], "indices": [189,190,191,192],
+      "visual_phase_class": "Four subtle hand/object/cloth/cast variations",
+      "visible_identity": ["Green/dark/gold long outfit", "Swept-back dark head ornament/hair", "Forward arm and thin light horizontal object", "Vertical brown side accessory"],
+      "props_and_occlusion": "Exact weapon category and hidden fingers unconfirmed. Solid narrow objects and projected checker branches must not be conflated.",
+      "ground_contact_status": "Foot fragments visible, hem and checker complicate exact support."
+    },
+    {
+      "appearance": 72, "direction_slot": 0, "names": ["混元之气","终极试炼"], "indices": [865,866,867,868],
+      "visual_phase_class": "Same four subtly varying source phases shared by two independent NPC map records",
+      "visible_identity": ["Standing humanoid", "Dark upper clothing", "Brown head/hair region", "Blue/white lower-leg regions", "Long tan diagonal pole-shaped object crossing body"],
+      "props_and_occlusion": "Solid pole-shaped object visible. Exact weapon category and hidden grip unconfirmed. The source is not a gas/orb effect despite the two names.",
+      "ground_contact_status": "Pole, foot fragments and checker overlap near bottom; no exact two-foot contact solved."
+    },
+    {
+      "appearance": 69, "direction_slot": 2, "names": ["一阳道长"], "indices": [837,838,839,840],
+      "visual_phase_class": "Identical static seated figure plus chair; all twelve appearance69 records also identical",
+      "visible_identity": ["Seated figure", "Ornate yellow/blue robe", "Broad headwear", "Large carved brown chair with stepped base"],
+      "props_and_occlusion": "Chair is part of original NPC sprite, not optional scenery. Robe and chair hide feet.",
+      "ground_contact_status": "Visible chair-base support; anatomical foot contacts unknown and must not be invented.",
+      "remaster_rule": "Static whole figure/chair pose; do not strip chair or add motion."
+    }
+  ]
+}

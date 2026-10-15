@@ -1,0 +1,31 @@
+{
+  "status": "prepared_for_one_authorized_generation_only",
+  "subject": "lingyunzi",
+  "source_contract_sha256": "7e3fbbc9fbdf4601717c49c77562b6181db5341fc57e04eefd92a73e14c8ff71",
+  "art_direction_sha256": "a6543cbe1c509334f607805ac877e1a0f4f192060e25ce7cf2711749d8c637be",
+  "inputs": [
+    {
+      "path": "Project/art_source/a13_npc_source/lingyunzi/source-four-pose-canvas-4x.png",
+      "sha256": "8d141521fd8773bfcbc7fef419665e59d03057acae812e3fad60155c619802f4",
+      "role": "sole full-body four-phase camera/pose/root sequence reference113-116"
+    },
+    {
+      "path": "Project/art_source/a13_npc_source/lingyunzi/source-local-tall-headwear-8x.png",
+      "sha256": "0defb23e64c63c19d892afcb8d73f1ee748596bf0c7ef2805117daba511234d3",
+      "role": "local original tall headwear silhouette/material only"
+    },
+    {
+      "path": "Project/art_source/a13_npc_source/lingyunzi/source-local-sleeve-material-8x.png",
+      "sha256": "493a64d3a5d8e65cad7c7b3c502811b31e3b0d1be992a9f694a08dc1b004c4cd",
+      "role": "local original gray sleeve material only"
+    },
+    {
+      "path": "Project/art_source/a13_npc_source/lingyunzi/source-local-hands-hanging-detail-8x.png",
+      "sha256": "9bf79505a9d81cc04628d23803ffa0013b3acbd5e78f6a1888e5b21642043e2d",
+      "role": "local original hand/overlap detail only; category unresolved"
+    }
+  ],
+  "generation_budget": 1,
+  "runtime_integrated": false,
+  "transparency_requested": true
+}

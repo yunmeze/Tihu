@@ -1,0 +1,26 @@
+{
+  "status": "prepared_for_one_authorized_generation_only",
+  "subject": "fangzhang",
+  "source_contract_sha256": "7e3fbbc9fbdf4601717c49c77562b6181db5341fc57e04eefd92a73e14c8ff71",
+  "art_direction_sha256": "a6543cbe1c509334f607805ac877e1a0f4f192060e25ce7cf2711749d8c637be",
+  "inputs": [
+    {
+      "path": "Project/art_source/npc_fangzhang_rebuild_v1/source-static-pose-8x.png",
+      "sha256": "dd9ef23653e8dd43b3915713c561cd3bc21f0ebc6da97a95bf9da2101a60cd1c",
+      "role": "sole full-body camera/pose/geometry reference, original261 enlarged8x"
+    },
+    {
+      "path": "Project/art_source/a13_npc_source/fangzhang/source-local-head-band-8x.png",
+      "sha256": "c9bd652eecf25b7a431efebfe4eafa8d2e58405e62d8b8e815d83d0809e3a3cb",
+      "role": "local original head/white band identity only"
+    },
+    {
+      "path": "Project/art_source/a13_npc_source/fangzhang/source-local-arm-wrap-material-8x.png",
+      "sha256": "190fd69e7e208dc33b5998fb6b1a75c061ed508960d4ab4f2b8e716b6a849688",
+      "role": "local original visible skin and dark wraps only"
+    }
+  ],
+  "generation_budget": 1,
+  "runtime_integrated": false,
+  "transparency_requested": true
+}
