@@ -1,0 +1,181 @@
+{
+  "schema": "lp-a13-selected-npc-body-shadow-v1",
+  "asset_version": 1,
+  "subject": "lingyunzi",
+  "npc": {
+    "map_id": "A13",
+    "record_index": 1,
+    "name": "凌云子",
+    "cell": [
+      62,
+      36
+    ],
+    "appearance": 9,
+    "direction_slot": 1,
+    "layer": 1,
+    "sort_y": 36,
+    "stable_order": 10001,
+    "source_ids": [
+      113,
+      114,
+      115,
+      116
+    ]
+  },
+  "texture": "res://assets/scifi/npc/lingyunzi_v1/body.png",
+  "texture_sha256": "517e11d9d9661966d154d9272dfa0c643bf02e3e550d66b3172b22ed8b367c85",
+  "texture_size": [
+    512,
+    160
+  ],
+  "frame_size": [
+    128,
+    160
+  ],
+  "draw_offset": [
+    -32,
+    -104
+  ],
+  "frames": {
+    "113": {
+      "phase": 0,
+      "rect": [
+        0,
+        0,
+        128,
+        160
+      ],
+      "rgba_sha256": "d540dcd0b1551c7daf69faef6ab7084167db7c6f7305081bfaaa738d63862cfa",
+      "original_offset_evidence": [
+        9,
+        -51
+      ],
+      "original_rgba_sha256": "2893cd1fa1f54adf51e09f301aaf75d8509513135270054a2a61d3e58d888c99"
+    },
+    "114": {
+      "phase": 1,
+      "rect": [
+        128,
+        0,
+        128,
+        160
+      ],
+      "rgba_sha256": "f640120380ea2efe5246025b49b163266300b589c8c71d0d3a14ef5fc9222d92",
+      "original_offset_evidence": [
+        9,
+        -49
+      ],
+      "original_rgba_sha256": "ccca22bbdea872bf54170679138976a65fcdbddd5ccd1d940c71c227ca254818"
+    },
+    "115": {
+      "phase": 2,
+      "rect": [
+        256,
+        0,
+        128,
+        160
+      ],
+      "rgba_sha256": "8418470936889c0c39349fae46e5e31e63c839ae2efe821803737ff818d0aeb0",
+      "original_offset_evidence": [
+        9,
+        -49
+      ],
+      "original_rgba_sha256": "3583b1a5b62e8017f10b46f90d96bf422a168b9b7603eeb4b878d5cc3896f879"
+    },
+    "116": {
+      "phase": 3,
+      "rect": [
+        384,
+        0,
+        128,
+        160
+      ],
+      "rgba_sha256": "9c63c7c90c3ce6c5e150524ffa5a58bc5ae2361d017ec17b85b31e001c3b86c0",
+      "original_offset_evidence": [
+        9,
+        -50
+      ],
+      "original_rgba_sha256": "6096f6baaa6434f5ccd48aaf0300db9ff2855ca4959c7be9242b7d7611ae45c5"
+    }
+  },
+  "animation": {
+    "fps": 50,
+    "frame_ticks": 17,
+    "phase_count": 4,
+    "loop_ticks": 68,
+    "global_clock": true
+  },
+  "shadow": {
+    "mode": "fixed_receiver_line",
+    "ground_reference": [
+      56.0,
+      125.0
+    ],
+    "ground_slope": 0.0,
+    "cast_per_height": [
+      0.5304659498207885,
+      -0.3978494623655914
+    ],
+    "opacity": 0.3,
+    "blur_radius_px": 0.9,
+    "tint_rgb": [
+      0.035,
+      0.045,
+      0.055
+    ]
+  },
+  "sampling": "linear",
+  "atomic_group": "a13-key-npcs-v1",
+  "group_members": [
+    "fangzhang_v1",
+    "lingyunzi_v1"
+  ],
+  "draw_contract": {
+    "body_to_parent": "original NPC cell origin plus draw_offset, in the original normally sorted NPC entry",
+    "no_additional_source_offset_or_crop": true,
+    "frame_scale": [
+      1,
+      1
+    ],
+    "shadow_passes": 1,
+    "shadow_order": "floor pass, one shadow per selected NPC, then all normally sorted objects and bodies",
+    "fixed_receiver_all_phases": true,
+    "raw_alpha_unchanged": true
+  },
+  "fallback": {
+    "mode": "original_npc_full_sprite",
+    "pack": "Npc",
+    "source_ids": [
+      113,
+      114,
+      115,
+      116
+    ],
+    "new_shadow": false,
+    "atomic_scope": "both members of a13-key-npcs-v1",
+    "on_any_prepare_or_asset_failure": "disable whole selected NPC group and restore original complete checker-bearing sprites; no half new body, no duplicate shadow"
+  },
+  "selection": {
+    "match_all_npc_fields": true,
+    "appearance_only_override": false,
+    "normal_R6_default_changed": false,
+    "names_story_click_collision_changed": false
+  },
+  "review_scope": {
+    "accepted": "complete pure pose plus exact1x 136update two-loop flat-grass single-shadow and fixed player-depth fixtures",
+    "source_cells_preserved": true,
+    "actual_walk_path": false,
+    "stairs_platform_receivers": false,
+    "physical_foot_contacts_recovered": false,
+    "design_residual": "Lingyunzi gold ornament/tassel richer than source; retained"
+  },
+  "provenance_hashes_only_not_runtime_dependencies": {
+    "original_map_a13_sha256": "e1cc7189fc96e04312b935422ec511a078b1fbe6259b97b9e3c279732becb3e3",
+    "original_npc_pack_sha256": "a5c1ae8d4e87ccfa134ded0cfdd0b704c309ff3629b61082bc6382251aca6066",
+    "original_source_contract_sha256": "7e3fbbc9fbdf4601717c49c77562b6181db5341fc57e04eefd92a73e14c8ff71",
+    "generated_raw_sha256": "e8ed826d7fc5582d0a0910b8c885dee42581650a68723ac8ed8e4697f453f30f",
+    "accepted_pose_interface_sha256": "d4cb58f0ac6fe31ad43410c5c863afa8675b1cd7db11f8e67bef590cc8a15117",
+    "fixed_receiver_contract_sha256": "1a13a01fcd42742866b1fcb0cd218d06d2be366cb9d0fe2c0a3d525fd02abde1"
+  },
+  "runtime_art_source_dependency": false
+}

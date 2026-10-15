@@ -1,0 +1,181 @@
+{
+  "schema": "lp-a13-selected-npc-body-shadow-v1",
+  "asset_version": 1,
+  "subject": "fangzhang",
+  "npc": {
+    "map_id": "A13",
+    "record_index": 0,
+    "name": "方丈",
+    "cell": [
+      64,
+      37
+    ],
+    "appearance": 21,
+    "direction_slot": 2,
+    "layer": 1,
+    "sort_y": 37,
+    "stable_order": 10000,
+    "source_ids": [
+      261,
+      262,
+      263,
+      264
+    ]
+  },
+  "texture": "res://assets/scifi/npc/fangzhang_v1/body.png",
+  "texture_sha256": "b921d590ab2e53550bf6225eb0c83a15bd2adf3e9e30f603ab268fc2ac79ce46",
+  "texture_size": [
+    128,
+    160
+  ],
+  "frame_size": [
+    128,
+    160
+  ],
+  "draw_offset": [
+    -32,
+    -104
+  ],
+  "frames": {
+    "261": {
+      "phase": 0,
+      "rect": [
+        0,
+        0,
+        128,
+        160
+      ],
+      "rgba_sha256": "988efae4d6af6f4b479bc10f77a0d7bde69dd98db60dbecfc1bde4b08000dbc1",
+      "original_offset_evidence": [
+        -6,
+        -40
+      ],
+      "original_rgba_sha256": "5cc25f0af2f0eb5ad2e1a226b636b2a866b27703d264ff45c2b79964180e795d"
+    },
+    "262": {
+      "phase": 1,
+      "rect": [
+        0,
+        0,
+        128,
+        160
+      ],
+      "rgba_sha256": "988efae4d6af6f4b479bc10f77a0d7bde69dd98db60dbecfc1bde4b08000dbc1",
+      "original_offset_evidence": [
+        -6,
+        -40
+      ],
+      "original_rgba_sha256": "5cc25f0af2f0eb5ad2e1a226b636b2a866b27703d264ff45c2b79964180e795d"
+    },
+    "263": {
+      "phase": 2,
+      "rect": [
+        0,
+        0,
+        128,
+        160
+      ],
+      "rgba_sha256": "988efae4d6af6f4b479bc10f77a0d7bde69dd98db60dbecfc1bde4b08000dbc1",
+      "original_offset_evidence": [
+        -6,
+        -40
+      ],
+      "original_rgba_sha256": "5cc25f0af2f0eb5ad2e1a226b636b2a866b27703d264ff45c2b79964180e795d"
+    },
+    "264": {
+      "phase": 3,
+      "rect": [
+        0,
+        0,
+        128,
+        160
+      ],
+      "rgba_sha256": "988efae4d6af6f4b479bc10f77a0d7bde69dd98db60dbecfc1bde4b08000dbc1",
+      "original_offset_evidence": [
+        -6,
+        -40
+      ],
+      "original_rgba_sha256": "5cc25f0af2f0eb5ad2e1a226b636b2a866b27703d264ff45c2b79964180e795d"
+    }
+  },
+  "animation": {
+    "fps": 50,
+    "frame_ticks": 17,
+    "phase_count": 4,
+    "loop_ticks": 68,
+    "global_clock": true
+  },
+  "shadow": {
+    "mode": "fixed_receiver_line",
+    "ground_reference": [
+      44.0,
+      118.0
+    ],
+    "ground_slope": 0.7058823529411765,
+    "cast_per_height": [
+      0.5304659498207885,
+      -0.3978494623655914
+    ],
+    "opacity": 0.3,
+    "blur_radius_px": 0.9,
+    "tint_rgb": [
+      0.035,
+      0.045,
+      0.055
+    ]
+  },
+  "sampling": "linear",
+  "atomic_group": "a13-key-npcs-v1",
+  "group_members": [
+    "fangzhang_v1",
+    "lingyunzi_v1"
+  ],
+  "draw_contract": {
+    "body_to_parent": "original NPC cell origin plus draw_offset, in the original normally sorted NPC entry",
+    "no_additional_source_offset_or_crop": true,
+    "frame_scale": [
+      1,
+      1
+    ],
+    "shadow_passes": 1,
+    "shadow_order": "floor pass, one shadow per selected NPC, then all normally sorted objects and bodies",
+    "fixed_receiver_all_phases": true,
+    "raw_alpha_unchanged": true
+  },
+  "fallback": {
+    "mode": "original_npc_full_sprite",
+    "pack": "Npc",
+    "source_ids": [
+      261,
+      262,
+      263,
+      264
+    ],
+    "new_shadow": false,
+    "atomic_scope": "both members of a13-key-npcs-v1",
+    "on_any_prepare_or_asset_failure": "disable whole selected NPC group and restore original complete checker-bearing sprites; no half new body, no duplicate shadow"
+  },
+  "selection": {
+    "match_all_npc_fields": true,
+    "appearance_only_override": false,
+    "normal_R6_default_changed": false,
+    "names_story_click_collision_changed": false
+  },
+  "review_scope": {
+    "accepted": "complete pure pose plus exact1x 136update two-loop flat-grass single-shadow and fixed player-depth fixtures",
+    "source_cells_preserved": true,
+    "actual_walk_path": false,
+    "stairs_platform_receivers": false,
+    "physical_foot_contacts_recovered": false,
+    "design_residual": "more explicit musculature and small contour differences retained"
+  },
+  "provenance_hashes_only_not_runtime_dependencies": {
+    "original_map_a13_sha256": "e1cc7189fc96e04312b935422ec511a078b1fbe6259b97b9e3c279732becb3e3",
+    "original_npc_pack_sha256": "a5c1ae8d4e87ccfa134ded0cfdd0b704c309ff3629b61082bc6382251aca6066",
+    "original_source_contract_sha256": "7e3fbbc9fbdf4601717c49c77562b6181db5341fc57e04eefd92a73e14c8ff71",
+    "generated_raw_sha256": "f40575b118ee673d0e4233e001ad16fb79180e136e3ff8a3def8e349caa60faf",
+    "accepted_pose_interface_sha256": "61cecc7e62655eff52ad0acc96cad95b31cc7e3d70fc33d56eca12bc3ed3fd6b",
+    "fixed_receiver_contract_sha256": "a755d928bf8fdd3c42473c2aaa4a844d785dbc9325d8f265c68988de7696ba96"
+  },
+  "runtime_art_source_dependency": false
+}
