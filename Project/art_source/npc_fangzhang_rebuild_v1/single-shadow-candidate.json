@@ -1,0 +1,2071 @@
+{
+  "schema": "lp-npc-fixed-single-shadow-candidate-v1",
+  "subject": "fangzhang",
+  "status": "pure_pose_accepted_by_parent; single_shadow_candidate_not_runtime_accepted",
+  "pose_interface": "res://art_source/npc_fangzhang_rebuild_v1/v1-pose-interface.json",
+  "pose_interface_sha256": "61cecc7e62655eff52ad0acc96cad95b31cc7e3d70fc33d56eca12bc3ed3fd6b",
+  "atlas": "res://art_source/npc_fangzhang_rebuild_v1/v1-pose-atlas-128x160.png",
+  "atlas_sha256": "b921d590ab2e53550bf6225eb0c83a15bd2adf3e9e30f603ab268fc2ac79ce46",
+  "frame_size": [
+    128,
+    160
+  ],
+  "source_ids": [
+    261,
+    262,
+    263,
+    264
+  ],
+  "draw_offset": [
+    -32,
+    -104
+  ],
+  "world_cell": [
+    64,
+    37
+  ],
+  "source_contract_sha256": "7e3fbbc9fbdf4601717c49c77562b6181db5341fc57e04eefd92a73e14c8ff71",
+  "pixel_convention": "coordinates are geometric pixel edges; row y has lower edge y+1; mean x uses pixel centers; ROIs xyxy exclusive",
+  "measurement_only_alpha_thresholds": [
+    8,
+    32,
+    96,
+    128,
+    224
+  ],
+  "manual_uncertainty_native_px": {
+    "source_visible_boot": 2,
+    "candidate_visible_boot": 1
+  },
+  "ground_reference": [
+    44.0,
+    118.0
+  ],
+  "ground_slope": 0.7058823529411765,
+  "ground_reference_relative_to_original_cell_origin": [
+    12.0,
+    14.0
+  ],
+  "fixed_for_all_four_phases": true,
+  "receiver_basis": "fixed line through reviewed candidate staggered boot edge proxies (44,118),(61,130), corroborated by source (43.5,119),(59.5,129)",
+  "receiver_interpretation": "2D visual projection proxy only, not recovered physical plane, support/weight-bearing proof, skeletal contacts, or elevation",
+  "cast_per_height": [
+    0.5304659498207885,
+    -0.3978494623655914
+  ],
+  "cast_rational": [
+    "148/279",
+    "-111/279"
+  ],
+  "cast_basis": "Same established screen-right/up cast as hero/tree; NPC exposed checker corroborates direction only, not exact magnitude, light elevation or receiver slope.",
+  "opacity": 0.3,
+  "blur_radius_px": 0.9,
+  "tint_rgb": [
+    0.035,
+    0.045,
+    0.055
+  ],
+  "helper": "res://scripts/art/hero_alpha_ground_shadow.gd",
+  "helper_api": "configure_ground_frame",
+  "projection_matrix": {
+    "x": [
+      1.3744465528146743,
+      0.42504743833017083
+    ],
+    "y": [
+      -0.5304659498207885,
+      0.3978494623655914
+    ],
+    "origin": [
+      46.119333755007375,
+      52.3516761543327
+    ]
+  },
+  "projection_determinant": 0.7722960151802657,
+  "projected_full_canvas_corners_before_1p9_padding": [
+    [
+      46.119333755007375,
+      52.3516761543327
+    ],
+    [
+      222.0484925152857,
+      106.75774826059457
+    ],
+    [
+      137.17394054395953,
+      170.41366223908918
+    ],
+    [
+      -38.755218216318795,
+      116.00759013282732
+    ]
+  ],
+  "primary_alpha96_max_foot_sample_displacement_px": 0.0,
+  "alternative_not_selected": {
+    "ground_reference": [
+      52.5,
+      124.0
+    ],
+    "ground_slope": 0.0,
+    "status": "comparison_only_not_selected; forces both static staggered boots away from their local receiver",
+    "foot_residuals": [
+      {
+        "point": [
+          44,
+          118
+        ],
+        "receiver_y_at_x": 124.0,
+        "signed_receiver_minus_visible_y": 6.0,
+        "shadow_sample_delta": [
+          3.182795698924731,
+          3.612903225806452
+        ],
+        "shadow_sample_distance": 4.814899602290419
+      },
+      {
+        "point": [
+          61,
+          130
+        ],
+        "receiver_y_at_x": 124.0,
+        "signed_receiver_minus_visible_y": -6.0,
+        "shadow_sample_delta": [
+          -3.182795698924731,
+          -3.612903225806452
+        ],
+        "shadow_sample_distance": 4.814899602290419
+      }
+    ]
+  },
+  "measurements": [
+    {
+      "source_id": 261,
+      "phase": 0,
+      "original_offset": [
+        -6,
+        -40
+      ],
+      "source_rgba_sha256": "5cc25f0af2f0eb5ad2e1a226b636b2a866b27703d264ff45c2b79964180e795d",
+      "candidate_rgba_sha256": "988efae4d6af6f4b479bc10f77a0d7bde69dd98db60dbecfc1bde4b08000dbc1",
+      "source_boots": [
+        {
+          "roi_xyxy": [
+            13,
+            51,
+            25,
+            58
+          ],
+          "alpha_threshold": 1,
+          "last_row_index": 54,
+          "last_row_x_indices": [
+            16,
+            17,
+            18
+          ],
+          "visible_edge_proxy": [
+            17.5,
+            55
+          ],
+          "checker_excluded_only_for_this_measurement": true,
+          "registered_edge_proxy": [
+            43.5,
+            119
+          ],
+          "residual_to_candidate_receiver": {
+            "point": [
+              43.5,
+              119
+            ],
+            "receiver_y_at_x": 117.6470588235294,
+            "signed_receiver_minus_visible_y": -1.352941176470594,
+            "shadow_sample_delta": [
+              -0.7176892262281288,
+              -0.8146742567994976
+            ],
+            "shadow_sample_distance": 1.0857126554184324
+          }
+        },
+        {
+          "roi_xyxy": [
+            29,
+            60,
+            40,
+            69
+          ],
+          "alpha_threshold": 1,
+          "last_row_index": 64,
+          "last_row_x_indices": [
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "visible_edge_proxy": [
+            33.5,
+            65
+          ],
+          "checker_excluded_only_for_this_measurement": true,
+          "registered_edge_proxy": [
+            59.5,
+            129
+          ],
+          "residual_to_candidate_receiver": {
+            "point": [
+              59.5,
+              129
+            ],
+            "receiver_y_at_x": 128.94117647058823,
+            "signed_receiver_minus_visible_y": -0.05882352941176805,
+            "shadow_sample_delta": [
+              -0.03120387940122463,
+              -0.03542061986084958
+            ],
+            "shadow_sample_distance": 0.04720489806167346
+          }
+        }
+      ],
+      "candidate_boots": [
+        {
+          "by_alpha_threshold": {
+            "8": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 8,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.0,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "32": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 32,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.0,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "96": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 96,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.0,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "128": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 128,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.0,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "224": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 224,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.5,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            }
+          },
+          "residuals": {
+            "8": {
+              "point": [
+                44.0,
+                118
+              ],
+              "receiver_y_at_x": 118.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "32": {
+              "point": [
+                44.0,
+                118
+              ],
+              "receiver_y_at_x": 118.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "96": {
+              "point": [
+                44.0,
+                118
+              ],
+              "receiver_y_at_x": 118.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "128": {
+              "point": [
+                44.0,
+                118
+              ],
+              "receiver_y_at_x": 118.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "224": {
+              "point": [
+                44.5,
+                118
+              ],
+              "receiver_y_at_x": 118.3529411764706,
+              "signed_receiver_minus_visible_y": 0.3529411764705941,
+              "shadow_sample_delta": [
+                0.18722327640734024,
+                0.21252371916508891
+              ],
+              "shadow_sample_distance": 0.2832293883700293
+            }
+          }
+        },
+        {
+          "by_alpha_threshold": {
+            "8": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 8,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "32": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 32,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "96": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 96,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "128": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 128,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "224": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 224,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            }
+          },
+          "residuals": {
+            "8": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "32": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "96": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "128": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "224": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            }
+          }
+        }
+      ],
+      "source_exposed_checker_evidence": {
+        "reviewed_exposed_roi_xyxy": [
+          44,
+          0,
+          64,
+          69
+        ],
+        "pixel_count": 204,
+        "all_nontransparent_rgba": [
+          16,
+          8,
+          8,
+          255
+        ],
+        "bounds_xyxy": [
+          44,
+          36,
+          63,
+          66
+        ]
+      }
+    },
+    {
+      "source_id": 262,
+      "phase": 1,
+      "original_offset": [
+        -6,
+        -40
+      ],
+      "source_rgba_sha256": "5cc25f0af2f0eb5ad2e1a226b636b2a866b27703d264ff45c2b79964180e795d",
+      "candidate_rgba_sha256": "988efae4d6af6f4b479bc10f77a0d7bde69dd98db60dbecfc1bde4b08000dbc1",
+      "source_boots": [
+        {
+          "roi_xyxy": [
+            13,
+            51,
+            25,
+            58
+          ],
+          "alpha_threshold": 1,
+          "last_row_index": 54,
+          "last_row_x_indices": [
+            16,
+            17,
+            18
+          ],
+          "visible_edge_proxy": [
+            17.5,
+            55
+          ],
+          "checker_excluded_only_for_this_measurement": true,
+          "registered_edge_proxy": [
+            43.5,
+            119
+          ],
+          "residual_to_candidate_receiver": {
+            "point": [
+              43.5,
+              119
+            ],
+            "receiver_y_at_x": 117.6470588235294,
+            "signed_receiver_minus_visible_y": -1.352941176470594,
+            "shadow_sample_delta": [
+              -0.7176892262281288,
+              -0.8146742567994976
+            ],
+            "shadow_sample_distance": 1.0857126554184324
+          }
+        },
+        {
+          "roi_xyxy": [
+            29,
+            60,
+            40,
+            69
+          ],
+          "alpha_threshold": 1,
+          "last_row_index": 64,
+          "last_row_x_indices": [
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "visible_edge_proxy": [
+            33.5,
+            65
+          ],
+          "checker_excluded_only_for_this_measurement": true,
+          "registered_edge_proxy": [
+            59.5,
+            129
+          ],
+          "residual_to_candidate_receiver": {
+            "point": [
+              59.5,
+              129
+            ],
+            "receiver_y_at_x": 128.94117647058823,
+            "signed_receiver_minus_visible_y": -0.05882352941176805,
+            "shadow_sample_delta": [
+              -0.03120387940122463,
+              -0.03542061986084958
+            ],
+            "shadow_sample_distance": 0.04720489806167346
+          }
+        }
+      ],
+      "candidate_boots": [
+        {
+          "by_alpha_threshold": {
+            "8": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 8,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.0,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "32": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 32,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.0,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "96": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 96,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.0,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "128": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 128,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.0,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "224": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 224,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.5,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            }
+          },
+          "residuals": {
+            "8": {
+              "point": [
+                44.0,
+                118
+              ],
+              "receiver_y_at_x": 118.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "32": {
+              "point": [
+                44.0,
+                118
+              ],
+              "receiver_y_at_x": 118.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "96": {
+              "point": [
+                44.0,
+                118
+              ],
+              "receiver_y_at_x": 118.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "128": {
+              "point": [
+                44.0,
+                118
+              ],
+              "receiver_y_at_x": 118.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "224": {
+              "point": [
+                44.5,
+                118
+              ],
+              "receiver_y_at_x": 118.3529411764706,
+              "signed_receiver_minus_visible_y": 0.3529411764705941,
+              "shadow_sample_delta": [
+                0.18722327640734024,
+                0.21252371916508891
+              ],
+              "shadow_sample_distance": 0.2832293883700293
+            }
+          }
+        },
+        {
+          "by_alpha_threshold": {
+            "8": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 8,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "32": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 32,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "96": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 96,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "128": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 128,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "224": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 224,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            }
+          },
+          "residuals": {
+            "8": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "32": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "96": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "128": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "224": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            }
+          }
+        }
+      ],
+      "source_exposed_checker_evidence": {
+        "reviewed_exposed_roi_xyxy": [
+          44,
+          0,
+          64,
+          69
+        ],
+        "pixel_count": 204,
+        "all_nontransparent_rgba": [
+          16,
+          8,
+          8,
+          255
+        ],
+        "bounds_xyxy": [
+          44,
+          36,
+          63,
+          66
+        ]
+      }
+    },
+    {
+      "source_id": 263,
+      "phase": 2,
+      "original_offset": [
+        -6,
+        -40
+      ],
+      "source_rgba_sha256": "5cc25f0af2f0eb5ad2e1a226b636b2a866b27703d264ff45c2b79964180e795d",
+      "candidate_rgba_sha256": "988efae4d6af6f4b479bc10f77a0d7bde69dd98db60dbecfc1bde4b08000dbc1",
+      "source_boots": [
+        {
+          "roi_xyxy": [
+            13,
+            51,
+            25,
+            58
+          ],
+          "alpha_threshold": 1,
+          "last_row_index": 54,
+          "last_row_x_indices": [
+            16,
+            17,
+            18
+          ],
+          "visible_edge_proxy": [
+            17.5,
+            55
+          ],
+          "checker_excluded_only_for_this_measurement": true,
+          "registered_edge_proxy": [
+            43.5,
+            119
+          ],
+          "residual_to_candidate_receiver": {
+            "point": [
+              43.5,
+              119
+            ],
+            "receiver_y_at_x": 117.6470588235294,
+            "signed_receiver_minus_visible_y": -1.352941176470594,
+            "shadow_sample_delta": [
+              -0.7176892262281288,
+              -0.8146742567994976
+            ],
+            "shadow_sample_distance": 1.0857126554184324
+          }
+        },
+        {
+          "roi_xyxy": [
+            29,
+            60,
+            40,
+            69
+          ],
+          "alpha_threshold": 1,
+          "last_row_index": 64,
+          "last_row_x_indices": [
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "visible_edge_proxy": [
+            33.5,
+            65
+          ],
+          "checker_excluded_only_for_this_measurement": true,
+          "registered_edge_proxy": [
+            59.5,
+            129
+          ],
+          "residual_to_candidate_receiver": {
+            "point": [
+              59.5,
+              129
+            ],
+            "receiver_y_at_x": 128.94117647058823,
+            "signed_receiver_minus_visible_y": -0.05882352941176805,
+            "shadow_sample_delta": [
+              -0.03120387940122463,
+              -0.03542061986084958
+            ],
+            "shadow_sample_distance": 0.04720489806167346
+          }
+        }
+      ],
+      "candidate_boots": [
+        {
+          "by_alpha_threshold": {
+            "8": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 8,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.0,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "32": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 32,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.0,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "96": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 96,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.0,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "128": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 128,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.0,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "224": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 224,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.5,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            }
+          },
+          "residuals": {
+            "8": {
+              "point": [
+                44.0,
+                118
+              ],
+              "receiver_y_at_x": 118.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "32": {
+              "point": [
+                44.0,
+                118
+              ],
+              "receiver_y_at_x": 118.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "96": {
+              "point": [
+                44.0,
+                118
+              ],
+              "receiver_y_at_x": 118.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "128": {
+              "point": [
+                44.0,
+                118
+              ],
+              "receiver_y_at_x": 118.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "224": {
+              "point": [
+                44.5,
+                118
+              ],
+              "receiver_y_at_x": 118.3529411764706,
+              "signed_receiver_minus_visible_y": 0.3529411764705941,
+              "shadow_sample_delta": [
+                0.18722327640734024,
+                0.21252371916508891
+              ],
+              "shadow_sample_distance": 0.2832293883700293
+            }
+          }
+        },
+        {
+          "by_alpha_threshold": {
+            "8": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 8,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "32": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 32,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "96": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 96,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "128": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 128,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "224": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 224,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            }
+          },
+          "residuals": {
+            "8": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "32": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "96": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "128": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "224": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            }
+          }
+        }
+      ],
+      "source_exposed_checker_evidence": {
+        "reviewed_exposed_roi_xyxy": [
+          44,
+          0,
+          64,
+          69
+        ],
+        "pixel_count": 204,
+        "all_nontransparent_rgba": [
+          16,
+          8,
+          8,
+          255
+        ],
+        "bounds_xyxy": [
+          44,
+          36,
+          63,
+          66
+        ]
+      }
+    },
+    {
+      "source_id": 264,
+      "phase": 3,
+      "original_offset": [
+        -6,
+        -40
+      ],
+      "source_rgba_sha256": "5cc25f0af2f0eb5ad2e1a226b636b2a866b27703d264ff45c2b79964180e795d",
+      "candidate_rgba_sha256": "988efae4d6af6f4b479bc10f77a0d7bde69dd98db60dbecfc1bde4b08000dbc1",
+      "source_boots": [
+        {
+          "roi_xyxy": [
+            13,
+            51,
+            25,
+            58
+          ],
+          "alpha_threshold": 1,
+          "last_row_index": 54,
+          "last_row_x_indices": [
+            16,
+            17,
+            18
+          ],
+          "visible_edge_proxy": [
+            17.5,
+            55
+          ],
+          "checker_excluded_only_for_this_measurement": true,
+          "registered_edge_proxy": [
+            43.5,
+            119
+          ],
+          "residual_to_candidate_receiver": {
+            "point": [
+              43.5,
+              119
+            ],
+            "receiver_y_at_x": 117.6470588235294,
+            "signed_receiver_minus_visible_y": -1.352941176470594,
+            "shadow_sample_delta": [
+              -0.7176892262281288,
+              -0.8146742567994976
+            ],
+            "shadow_sample_distance": 1.0857126554184324
+          }
+        },
+        {
+          "roi_xyxy": [
+            29,
+            60,
+            40,
+            69
+          ],
+          "alpha_threshold": 1,
+          "last_row_index": 64,
+          "last_row_x_indices": [
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "visible_edge_proxy": [
+            33.5,
+            65
+          ],
+          "checker_excluded_only_for_this_measurement": true,
+          "registered_edge_proxy": [
+            59.5,
+            129
+          ],
+          "residual_to_candidate_receiver": {
+            "point": [
+              59.5,
+              129
+            ],
+            "receiver_y_at_x": 128.94117647058823,
+            "signed_receiver_minus_visible_y": -0.05882352941176805,
+            "shadow_sample_delta": [
+              -0.03120387940122463,
+              -0.03542061986084958
+            ],
+            "shadow_sample_distance": 0.04720489806167346
+          }
+        }
+      ],
+      "candidate_boots": [
+        {
+          "by_alpha_threshold": {
+            "8": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 8,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.0,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "32": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 32,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.0,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "96": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 96,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.0,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "128": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 128,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.0,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "224": {
+              "roi_xyxy": [
+                40,
+                114,
+                50,
+                121
+              ],
+              "alpha_threshold": 224,
+              "last_row_index": 117,
+              "last_row_x_indices": [
+                43,
+                44,
+                45
+              ],
+              "visible_edge_proxy": [
+                44.5,
+                118
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            }
+          },
+          "residuals": {
+            "8": {
+              "point": [
+                44.0,
+                118
+              ],
+              "receiver_y_at_x": 118.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "32": {
+              "point": [
+                44.0,
+                118
+              ],
+              "receiver_y_at_x": 118.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "96": {
+              "point": [
+                44.0,
+                118
+              ],
+              "receiver_y_at_x": 118.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "128": {
+              "point": [
+                44.0,
+                118
+              ],
+              "receiver_y_at_x": 118.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "224": {
+              "point": [
+                44.5,
+                118
+              ],
+              "receiver_y_at_x": 118.3529411764706,
+              "signed_receiver_minus_visible_y": 0.3529411764705941,
+              "shadow_sample_delta": [
+                0.18722327640734024,
+                0.21252371916508891
+              ],
+              "shadow_sample_distance": 0.2832293883700293
+            }
+          }
+        },
+        {
+          "by_alpha_threshold": {
+            "8": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 8,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "32": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 32,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "96": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 96,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "128": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 128,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            },
+            "224": {
+              "roi_xyxy": [
+                57,
+                126,
+                66,
+                134
+              ],
+              "alpha_threshold": 224,
+              "last_row_index": 129,
+              "last_row_x_indices": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "visible_edge_proxy": [
+                61.0,
+                130
+              ],
+              "checker_excluded_only_for_this_measurement": false
+            }
+          },
+          "residuals": {
+            "8": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "32": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "96": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "128": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            },
+            "224": {
+              "point": [
+                61.0,
+                130
+              ],
+              "receiver_y_at_x": 130.0,
+              "signed_receiver_minus_visible_y": 0.0,
+              "shadow_sample_delta": [
+                0.0,
+                0.0
+              ],
+              "shadow_sample_distance": 0.0
+            }
+          }
+        }
+      ],
+      "source_exposed_checker_evidence": {
+        "reviewed_exposed_roi_xyxy": [
+          44,
+          0,
+          64,
+          69
+        ],
+        "pixel_count": 204,
+        "all_nontransparent_rgba": [
+          16,
+          8,
+          8,
+          255
+        ],
+        "bounds_xyxy": [
+          44,
+          36,
+          63,
+          66
+        ]
+      }
+    }
+  ],
+  "runtime_contract": {
+    "body_to_parent": "exact same transform as candidate body, normally Transform2D(0,npc_world_cell_origin+Vector2(-32,-104)); no added source offset/crop",
+    "region": "read unchanged pose_interface.frames[source_id].rect; Fangzhang same rectangle for all four IDs",
+    "timing": {
+      "source_fps": 50,
+      "frame_ticks": 17,
+      "phase_count": 4,
+      "loop_ticks": 68,
+      "loop_seconds": 1.36,
+      "phase_order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "global_clock": true,
+      "phase_formula": "floor(nonnegative_tick / 17) % 4",
+      "source_index_formula": "261 + phase"
+    },
+    "parameter_changes_by_phase": false,
+    "shadow_compositing_passes": 1,
+    "shadow_uses_full_unchanged_candidate_alpha": true,
+    "original_checker_with_new_shadow": false,
+    "draw_order": "floor pass, one new shadow, unchanged normally depth-sorted objects and replacement body",
+    "fallback": "atomic original checker-bearing NPC body + no new shadow on any resource/configuration failure",
+    "required_review": [
+      "exact 1screen-pixel/world-pixel capture verified from viewport/window dimensions",
+      "both NPCs native off/on and full17tick cycle including3-to0; Fangzhang remains static",
+      "contact remains tied to same root with no phase changes to line/scale/offset",
+      "one shadow only; no foot/crown cut or alpha halo; regular NPC/object depth ordering",
+      "no R6, clicks, names, story or collision change; no normal-world promotion from this contract alone"
+    ]
+  },
+  "known_risks": [
+    "A 2D line cannot recover actual 3D foot elevation or receiver topology; do not pin animated landmarks every phase.",
+    "Fangzhang staggered sole contours touch source checker; selected visible material edges carry approximately2px source reading uncertainty.",
+    "Lingyunzi finest sole tip reaches y125 while the broad alpha224 edge ends y124; approximately1px contact ambiguity is retained.",
+    "Same cast does not establish stairs/platform receiver clipping or shadows on other actors/buildings.",
+    "Lingyunzi richer gold ornament/tassel design remains a recorded design residual, not a shadow problem to repair.",
+    "Alpha thresholds and checker color are measurement evidence only; do not edit raw, atlas alpha, body colors, or source pixels."
+  ]
+}

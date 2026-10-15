@@ -1,0 +1,37 @@
+{
+  "stage": "reviewed pose evidence plus offline per-NPC fixed single-shadow candidates; no runtime edits",
+  "files": [
+    {
+      "file": "Project/art_source/npc_fangzhang_rebuild_v1/single-shadow-candidate.json",
+      "sha256": "a755d928bf8fdd3c42473c2aaa4a844d785dbc9325d8f265c68988de7696ba96",
+      "bytes": 54001
+    },
+    {
+      "file": "Project/art_source/npc_lingyunzi_rebuild_v1/single-shadow-candidate.json",
+      "sha256": "1a13a01fcd42742866b1fcb0cd218d06d2be366cb9d0fe2c0a3d525fd02abde1",
+      "bytes": 51525
+    },
+    {
+      "file": "Project/art_source/npc_fangzhang_rebuild_v1/npc-single-shadow-diagnostic-set.json",
+      "sha256": "c9dd6f45260586ba39f30d031bec1b086344e4236cade542dbff6ec52ba77ae7",
+      "bytes": 901
+    },
+    {
+      "file": "Project/art_source/npc_fangzhang_rebuild_v1/prepare_single_shadow_contract.py",
+      "sha256": "3e341323db3659b91022b2ea7c391eaa6d5aef258fb3f68c5186da6d00b8ddd4",
+      "bytes": 15088
+    },
+    {
+      "file": "Project/art_source/npc_fangzhang_rebuild_v1/SINGLE_SHADOW_HANDOFF.md",
+      "sha256": "c4819cf4a590cfa7654904c81433703567a1016623f2bf397a85be7b78f852c9",
+      "bytes": 7554
+    },
+    {
+      "file": "Project/art_source/npc_fangzhang_rebuild_v1/runtime-pose-evidence-review.json",
+      "sha256": "75806821ccca66baaeca7e92c5a2c5189b350e5af79e90a37dcb176923fbdeb4",
+      "bytes": 7712
+    }
+  ],
+  "manifest_itself": "include this file as well; its hash is delivered externally",
+  "diagnostics_ignored": true
+}

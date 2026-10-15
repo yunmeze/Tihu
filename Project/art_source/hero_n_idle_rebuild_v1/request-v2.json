@@ -1,0 +1,28 @@
+{
+  "status": "generated_once_raw_saved",
+  "mode": "builtin_imagegen_single_authorized_whole_sheet_local_identity_edit",
+  "prompt_file": "prompt-v2.txt",
+  "transparent_background": true,
+  "input_roles": [
+    "complete_four_phase_edit_target",
+    "selected_scapula_and_waist_local_construction_reference"
+  ],
+  "referenced_images": [
+    {
+      "path": "Project/art_source/hero_n_idle_rebuild_v1/raw-v1.png",
+      "sha256": "f75ff1d2e6c4f4d032354e8d1d2a233d0fbfa8392dc0bedb9349a5d275d77eee"
+    },
+    {
+      "path": "Project/art_source/hero_n_idle_rebuild_v1/selected-back-structure-local-reference.png",
+      "sha256": "59568700fbee9d774df6995860648be928c59e659ef5350bda44e25cc459f35f"
+    }
+  ],
+  "output": {
+    "path": "raw-v2.png",
+    "sha256": "093735d18d1489352304e7fbcb88149b751e7beda20c3e3922ac7aa9182ad598",
+    "size": [
+      2138,
+      736
+    ]
+  }
+}

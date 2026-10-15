@@ -1,0 +1,487 @@
+{
+  "status": "design_identity_residual_research_not_approved_animation",
+  "common_uniform_scale": 0.11429108642159494,
+  "source_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "frame_size": [
+    128,
+    128
+  ],
+  "native_root": [
+    16,
+    64
+  ],
+  "raw_sha256": "f75ff1d2e6c4f4d032354e8d1d2a233d0fbfa8392dc0bedb9349a5d275d77eee",
+  "atlas_sha256": "f5525d33c9f0b83b15ae3e8ad59a9d4045b98b5631fe4eb979e2867024eb3be4",
+  "method": "One group uniform scale plus each rigid multi-surface translation. No deformation, rotation or frame substitution. Crown upper-edge and visible terminal boot pixels measured alpha>=128; clothing proxies approximate and low-weight.",
+  "uncertainty": {
+    "source_clothing_px": 3,
+    "source_crown_boot_px": 1,
+    "candidate_clothing_raw_px": 8,
+    "candidate_alpha_landmark_raw_px": 2
+  },
+  "weights": {
+    "crown": 1.0,
+    "neck_surface": 0.6,
+    "back_surface": 0.4,
+    "pelvis_surface": 0.25,
+    "left_boot_terminal": 1.0,
+    "right_boot_terminal": 1.0
+  },
+  "raw_rebuild_byte_exact": true,
+  "records": [
+    {
+      "source_id": 1,
+      "translation": [
+        12.653273552713976,
+        8.827831956874448
+      ],
+      "raw_surface_points": {
+        "crown": [
+          243.1206896551724,
+          56.0
+        ],
+        "neck_surface": [
+          239.1206896551724,
+          157.0
+        ],
+        "back_surface": [
+          238.1206896551724,
+          225.0
+        ],
+        "pelvis_surface": [
+          238.1206896551724,
+          370.0
+        ],
+        "left_boot_terminal": [
+          194.5,
+          641.0
+        ],
+        "right_boot_terminal": [
+          281.03703703703707,
+          675.0
+        ]
+      },
+      "source_surface_points": {
+        "crown": [
+          40.0,
+          15.0
+        ],
+        "neck_surface": [
+          40.0,
+          27.0
+        ],
+        "back_surface": [
+          40.0,
+          35.0
+        ],
+        "pelvis_surface": [
+          40.0,
+          51.0
+        ],
+        "left_boot_terminal": [
+          35.0,
+          82.0
+        ],
+        "right_boot_terminal": [
+          45.0,
+          86.0
+        ]
+      },
+      "mapped_points": {
+        "crown": [
+          40.43980130497105,
+          15.228132796483765
+        ],
+        "neck_surface": [
+          39.98263695928467,
+          26.771532525064853
+        ],
+        "back_surface": [
+          39.868345872863074,
+          34.54332640173331
+        ],
+        "pelvis_surface": [
+          39.868345872863074,
+          51.11553393286457
+        ],
+        "left_boot_terminal": [
+          34.88288986171419,
+          82.08841835311681
+        ],
+        "right_boot_terminal": [
+          44.773301840382956,
+          85.97431529145103
+        ]
+      },
+      "residuals": {
+        "crown": [
+          0.4398013049710485,
+          0.22813279648376472
+        ],
+        "neck_surface": [
+          -0.017363040715331124,
+          -0.2284674749351474
+        ],
+        "back_surface": [
+          -0.13165412713692604,
+          -0.45667359826668985
+        ],
+        "pelvis_surface": [
+          -0.13165412713692604,
+          0.11553393286457236
+        ],
+        "left_boot_terminal": [
+          -0.11711013828580974,
+          0.08841835311680768
+        ],
+        "right_boot_terminal": [
+          -0.22669815961704387,
+          -0.025684708548965318
+        ]
+      }
+    },
+    {
+      "source_id": 2,
+      "translation": [
+        11.537357859423096,
+        8.827831956874448
+      ],
+      "raw_surface_points": {
+        "crown": [
+          254.79310344827587,
+          56.0
+        ],
+        "neck_surface": [
+          250.79310344827587,
+          157.0
+        ],
+        "back_surface": [
+          249.79310344827587,
+          225.0
+        ],
+        "pelvis_surface": [
+          249.79310344827587,
+          370.0
+        ],
+        "left_boot_terminal": [
+          202.27027027027026,
+          641.0
+        ],
+        "right_boot_terminal": [
+          288.5,
+          675.0
+        ]
+      },
+      "source_surface_points": {
+        "crown": [
+          40.0,
+          15.0
+        ],
+        "neck_surface": [
+          40.0,
+          27.0
+        ],
+        "back_surface": [
+          40.0,
+          35.0
+        ],
+        "pelvis_surface": [
+          40.0,
+          51.0
+        ],
+        "left_boot_terminal": [
+          35.0,
+          82.0
+        ],
+        "right_boot_terminal": [
+          45.0,
+          86.0
+        ]
+      },
+      "mapped_points": {
+        "crown": [
+          40.65793846525638,
+          15.228132796483765
+        ],
+        "neck_surface": [
+          40.20077411956999,
+          26.771532525064853
+        ],
+        "back_surface": [
+          40.0864830331484,
+          34.54332640173331
+        ],
+        "pelvis_surface": [
+          40.0864830331484,
+          51.11553393286457
+        ],
+        "left_boot_terminal": [
+          34.655046799401916,
+          82.08841835311681
+        ],
+        "right_boot_terminal": [
+          44.51033629205324,
+          85.97431529145103
+        ]
+      },
+      "residuals": {
+        "crown": [
+          0.6579384652563789,
+          0.22813279648376472
+        ],
+        "neck_surface": [
+          0.20077411956999214,
+          -0.2284674749351474
+        ],
+        "back_surface": [
+          0.08648303314839723,
+          -0.45667359826668985
+        ],
+        "pelvis_surface": [
+          0.08648303314839723,
+          0.11553393286457236
+        ],
+        "left_boot_terminal": [
+          -0.3449532005980842,
+          0.08841835311680768
+        ],
+        "right_boot_terminal": [
+          -0.48966370794676095,
+          -0.025684708548965318
+        ]
+      }
+    },
+    {
+      "source_id": 3,
+      "translation": [
+        9.664182456846213,
+        8.827831956874448
+      ],
+      "raw_surface_points": {
+        "crown": [
+          269.1029411764706,
+          56.0
+        ],
+        "neck_surface": [
+          265.1029411764706,
+          157.0
+        ],
+        "back_surface": [
+          264.1029411764706,
+          225.0
+        ],
+        "pelvis_surface": [
+          264.1029411764706,
+          370.0
+        ],
+        "left_boot_terminal": [
+          221.22857142857143,
+          641.0
+        ],
+        "right_boot_terminal": [
+          307.0,
+          675.0
+        ]
+      },
+      "source_surface_points": {
+        "crown": [
+          40.0,
+          15.0
+        ],
+        "neck_surface": [
+          40.0,
+          27.0
+        ],
+        "back_surface": [
+          40.0,
+          35.0
+        ],
+        "pelvis_surface": [
+          40.0,
+          51.0
+        ],
+        "left_boot_terminal": [
+          35.0,
+          82.0
+        ],
+        "right_boot_terminal": [
+          45.0,
+          86.0
+        ]
+      },
+      "mapped_points": {
+        "crown": [
+          40.42024996315159,
+          15.228132796483765
+        ],
+        "neck_surface": [
+          39.96308561746521,
+          26.771532525064853
+        ],
+        "back_surface": [
+          39.84879453104362,
+          34.54332640173331
+        ],
+        "pelvis_surface": [
+          39.84879453104362,
+          51.11553393286457
+        ],
+        "left_boot_terminal": [
+          34.948636232915064,
+          82.08841835311681
+        ],
+        "right_boot_terminal": [
+          44.75154598827586,
+          85.97431529145103
+        ]
+      },
+      "residuals": {
+        "crown": [
+          0.4202499631515906,
+          0.22813279648376472
+        ],
+        "neck_surface": [
+          -0.03691438253478907,
+          -0.2284674749351474
+        ],
+        "back_surface": [
+          -0.15120546895637688,
+          -0.45667359826668985
+        ],
+        "pelvis_surface": [
+          -0.15120546895637688,
+          0.11553393286457236
+        ],
+        "left_boot_terminal": [
+          -0.051363767084936285,
+          0.08841835311680768
+        ],
+        "right_boot_terminal": [
+          -0.24845401172414228,
+          -0.025684708548965318
+        ]
+      }
+    },
+    {
+      "source_id": 4,
+      "translation": [
+        7.863871591953142,
+        8.827831956874448
+      ],
+      "raw_surface_points": {
+        "crown": [
+          286.96610169491527,
+          56.0
+        ],
+        "neck_surface": [
+          282.96610169491527,
+          157.0
+        ],
+        "back_surface": [
+          281.96610169491527,
+          225.0
+        ],
+        "pelvis_surface": [
+          281.96610169491527,
+          370.0
+        ],
+        "left_boot_terminal": [
+          233.73913043478262,
+          641.0
+        ],
+        "right_boot_terminal": [
+          321.2432432432432,
+          675.0
+        ]
+      },
+      "source_surface_points": {
+        "crown": [
+          40.0,
+          15.0
+        ],
+        "neck_surface": [
+          40.0,
+          27.0
+        ],
+        "back_surface": [
+          40.0,
+          35.0
+        ],
+        "pelvis_surface": [
+          40.0,
+          51.0
+        ],
+        "left_boot_terminal": [
+          35.0,
+          82.0
+        ],
+        "right_boot_terminal": [
+          45.0,
+          86.0
+        ]
+      },
+      "mapped_points": {
+        "crown": [
+          40.6615391208349,
+          15.228132796483765
+        ],
+        "neck_surface": [
+          40.20437477514852,
+          26.771532525064853
+        ],
+        "back_surface": [
+          40.09008368872693,
+          34.54332640173331
+        ],
+        "pelvis_surface": [
+          40.09008368872693,
+          51.11553393286457
+        ],
+        "left_boot_terminal": [
+          34.57817074858333,
+          82.08841835311681
+        ],
+        "right_boot_terminal": [
+          44.5791108678201,
+          85.97431529145103
+        ]
+      },
+      "residuals": {
+        "crown": [
+          0.6615391208349024,
+          0.22813279648376472
+        ],
+        "neck_surface": [
+          0.20437477514852276,
+          -0.2284674749351474
+        ],
+        "back_surface": [
+          0.09008368872692785,
+          -0.45667359826668985
+        ],
+        "pelvis_surface": [
+          0.09008368872692785,
+          0.11553393286457236
+        ],
+        "left_boot_terminal": [
+          -0.4218292514166677,
+          0.08841835311680768
+        ],
+        "right_boot_terminal": [
+          -0.42088913217990154,
+          -0.025684708548965318
+        ]
+      }
+    }
+  ],
+  "design_residuals": [
+    "Scapula design simplified into straighter tall panels rather than original selected compact four-segment shapes.",
+    "Rear waist becomes several broad silver hoops, a visible design drift from low modular waist."
+  ],
+  "scope": "Original-size turn/identity diagnosis only; not preview promotion."
+}

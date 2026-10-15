@@ -1,0 +1,299 @@
+{
+  "schema": "lp-npc-pure-pose-runtime-evidence-supplement-v1",
+  "status": "parent accepted pure-pose gate; no shadow or world integration acceptance",
+  "review_method": "Personally viewed all-eight-native; read script/config/log; independent read-only review additionally verified frame hashes and phase-body repeats. No new Godot/GUI run.",
+  "accepted_findings": [
+    "Fangzhang IDs261-264 share one unchanged pose and one rectangle.",
+    "Lingyunzi113-116 retain four distinct subtle phases and one shared registered transform.",
+    "No gross registration jump/body-canvas cut seen in complete board; original checker remains only in original comparisons.",
+    "Richer Lingyunzi gold ornament/tassels remain a design residual."
+  ],
+  "observed_samples": [
+    {
+      "tick": 0,
+      "phase": 0
+    },
+    {
+      "tick": 17,
+      "phase": 1
+    },
+    {
+      "tick": 34,
+      "phase": 2
+    },
+    {
+      "tick": 51,
+      "phase": 3
+    },
+    {
+      "tick": 68,
+      "phase": 0
+    },
+    {
+      "tick": 85,
+      "phase": 1
+    },
+    {
+      "tick": 102,
+      "phase": 2
+    },
+    {
+      "tick": 119,
+      "phase": 3
+    }
+  ],
+  "logical_updates_completed": 136,
+  "source_fps": 50,
+  "frame_ticks": 17,
+  "nominal_phase_seconds": 0.34,
+  "nominal_loop_seconds": 1.36,
+  "limits": [
+    "Screenshot frame-post-draw waits suspend logical counter; uninterrupted wall-clock timing not established.",
+    "The51-to68 3-to0 seam is exercised; stopping condition prevents rendering the135-to136 second seam.",
+    "1082x812 capture vs1024x768 configured viewport implies approximately1.057x canvas_items stretch; exact1x screen/world pixels not established.",
+    "all-eight-native is an unresized source screenshot crop, not a rescaled pixel-exact viewport proof.",
+    "four-phase-live.jpg contains Fangzhang only, not a Lingyunzi motion panel.",
+    "No anatomical support, single-shadow, world-placement, occlusion, clicking or story acceptance follows from this pose diagnostic."
+  ],
+  "atlas_match_checks": [
+    {
+      "subject": "fangzhang",
+      "candidate_sha256": "b921d590ab2e53550bf6225eb0c83a15bd2adf3e9e30f603ab268fc2ac79ce46",
+      "runtime_copy": "Project/assets/scifi/diagnostics/npc_pose/fangzhang.png",
+      "runtime_copy_matches": true
+    },
+    {
+      "subject": "lingyunzi",
+      "candidate_sha256": "517e11d9d9661966d154d9272dfa0c643bf02e3e550d66b3172b22ed8b367c85",
+      "runtime_copy": "Project/assets/scifi/diagnostics/npc_pose/lingyunzi.png",
+      "runtime_copy_matches": true
+    }
+  ],
+  "repeated_live_body_region_checks": [
+    {
+      "subject": "fangzhang",
+      "ticks": [
+        0,
+        68
+      ],
+      "screenshot_roi_xyxy": [
+        190,
+        610,
+        410,
+        730
+      ],
+      "exact_rgba_repeat": true
+    },
+    {
+      "subject": "lingyunzi",
+      "ticks": [
+        0,
+        68
+      ],
+      "screenshot_roi_xyxy": [
+        675,
+        610,
+        885,
+        730
+      ],
+      "exact_rgba_repeat": true
+    },
+    {
+      "subject": "fangzhang",
+      "ticks": [
+        17,
+        85
+      ],
+      "screenshot_roi_xyxy": [
+        190,
+        610,
+        410,
+        730
+      ],
+      "exact_rgba_repeat": true
+    },
+    {
+      "subject": "lingyunzi",
+      "ticks": [
+        17,
+        85
+      ],
+      "screenshot_roi_xyxy": [
+        675,
+        610,
+        885,
+        730
+      ],
+      "exact_rgba_repeat": true
+    },
+    {
+      "subject": "fangzhang",
+      "ticks": [
+        34,
+        102
+      ],
+      "screenshot_roi_xyxy": [
+        190,
+        610,
+        410,
+        730
+      ],
+      "exact_rgba_repeat": true
+    },
+    {
+      "subject": "lingyunzi",
+      "ticks": [
+        34,
+        102
+      ],
+      "screenshot_roi_xyxy": [
+        675,
+        610,
+        885,
+        730
+      ],
+      "exact_rgba_repeat": true
+    },
+    {
+      "subject": "fangzhang",
+      "ticks": [
+        51,
+        119
+      ],
+      "screenshot_roi_xyxy": [
+        190,
+        610,
+        410,
+        730
+      ],
+      "exact_rgba_repeat": true
+    },
+    {
+      "subject": "lingyunzi",
+      "ticks": [
+        51,
+        119
+      ],
+      "screenshot_roi_xyxy": [
+        675,
+        610,
+        885,
+        730
+      ],
+      "exact_rgba_repeat": true
+    }
+  ],
+  "evidence": [
+    {
+      "path": "/workspace/shared/legend-rebuild-npc-pose/native.log",
+      "sha256": "2168ee41f30ac3b30e05a82e818cd2ee8484db190cfef69bebe999987eee8b3e",
+      "bytes": 1077
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-npc-pose/preflight.log",
+      "sha256": "a9912b85473f126d3f4f63ec824170c828df3473a292f866dde86cafda5b66da",
+      "bytes": 73
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-npc-pose/all-eight-native.png",
+      "sha256": "cfc3329820491106d902fc68c18cd4ca9ae291dddd476f4fa60ab16aa85f7d41",
+      "bytes": 65483,
+      "pixel_size": [
+        1082,
+        430
+      ]
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-npc-pose/four-phase-live.jpg",
+      "sha256": "e796013c012382777a1ca62a2399a8a55dea86d05ff1a9fb8a82f6f423c5a9ae",
+      "bytes": 22417,
+      "pixel_size": [
+        1920,
+        200
+      ]
+    },
+    {
+      "path": "Project/scripts/diagnostics/npc_pose.gd",
+      "sha256": "cc37cc5931e7eb86dba2357b0a040b1ce7a138649453c4e30b500e3ef626d6f3",
+      "bytes": 3035
+    },
+    {
+      "path": "Project/project.godot",
+      "sha256": "fd978ccd0f9932d6bf2be436eac6419631f6b6e1c7ceba410d34afbdc7f52d58",
+      "bytes": 779
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-npc-pose/phase-000.png",
+      "sha256": "c370b06451e200222700d080e690668297dd6ae6e4ae3108ac8d68912d74c726",
+      "bytes": 112579,
+      "pixel_size": [
+        1082,
+        812
+      ]
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-npc-pose/phase-017.png",
+      "sha256": "14a07e2109a5bf39c6a8f556ef886a33fdcb159d92f8ae2788412a52d91b363e",
+      "bytes": 112488,
+      "pixel_size": [
+        1082,
+        812
+      ]
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-npc-pose/phase-034.png",
+      "sha256": "cbc0610cce6c65a0d3fae6e410769d94ca79ab0e4e4f1c5a6b7187c053cdbfc2",
+      "bytes": 112745,
+      "pixel_size": [
+        1082,
+        812
+      ]
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-npc-pose/phase-051.png",
+      "sha256": "bcc99305ccb497bf5788eab2db9515321c7b22270098cbf40b929c1b228c7593",
+      "bytes": 112861,
+      "pixel_size": [
+        1082,
+        812
+      ]
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-npc-pose/phase-068.png",
+      "sha256": "dd0ecb1ea796c71cfa82b58b9cde22be2cd38ad8164d642da7287c364b4c3f4d",
+      "bytes": 113372,
+      "pixel_size": [
+        1082,
+        812
+      ]
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-npc-pose/phase-085.png",
+      "sha256": "1fce122ff36feee167df7b0006887fd3b9594fc3f17aaf76c228aa28892cea7f",
+      "bytes": 112931,
+      "pixel_size": [
+        1082,
+        812
+      ]
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-npc-pose/phase-102.png",
+      "sha256": "e008bb06d4dc8407a0418ccd8fb5905ee9b909d50d273eccc52c13c23bdd0bca",
+      "bytes": 112337,
+      "pixel_size": [
+        1082,
+        812
+      ]
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-npc-pose/phase-119.png",
+      "sha256": "784a586efedfa225991a27596416bf11bb02498c089fff360806d388dfa37dbb",
+      "bytes": 112741,
+      "pixel_size": [
+        1082,
+        812
+      ]
+    }
+  ],
+  "next_review": "Sole runtime owner should verify exact1x rendering and both NPCs full17tick cycles plus single-shadow off/on contact; keep accepted immutable bodies."
+}

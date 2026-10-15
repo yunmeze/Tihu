@@ -1,0 +1,29 @@
+{
+  "status": "diagnostic_only_identity_revised_pending_native",
+  "direction": "N",
+  "source_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "atlas": "v2-registered-atlas-128.png",
+  "atlas_sha256": "a8e2b3310eb97f300f49127925f9bd4c74d5b6a8126e04a810a1dff1f5fe3369",
+  "frame_size": [
+    128,
+    128
+  ],
+  "grid": [
+    4,
+    1
+  ],
+  "draw_offset": [
+    -16,
+    -64
+  ],
+  "frame_ticks": 12,
+  "sampling": "new linear, source nearest",
+  "registration": "v2-registration.json",
+  "non_target_review": "v2-non-target-review.json",
+  "required_review": "N v1/v2 original-size full4 and turns versus E/SE/S; no shadow or preview promotion yet."
+}

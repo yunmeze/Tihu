@@ -1,0 +1,24 @@
+{
+  "schema": "lp-npc-single-shadow-diagnostic-set-v1",
+  "status": "offline candidate; next gate is native single-shadow contact",
+  "contracts": [
+    {
+      "subject": "fangzhang",
+      "contract": "res://art_source/npc_fangzhang_rebuild_v1/single-shadow-candidate.json",
+      "sha256": "a755d928bf8fdd3c42473c2aaa4a844d785dbc9325d8f265c68988de7696ba96"
+    },
+    {
+      "subject": "lingyunzi",
+      "contract": "res://art_source/npc_lingyunzi_rebuild_v1/single-shadow-candidate.json",
+      "sha256": "1a13a01fcd42742866b1fcb0cd218d06d2be366cb9d0fe2c0a3d525fd02abde1"
+    }
+  ],
+  "pure_pose_evidence_review": "res://art_source/npc_fangzhang_rebuild_v1/runtime-pose-evidence-review.json",
+  "shared_cast_per_height": [
+    0.5304659498207885,
+    -0.3978494623655914
+  ],
+  "separate_receiver_parameters_per_npc": true,
+  "raw_or_runtime_changes": false,
+  "normal_world_promotion": false
+}
