@@ -1,0 +1,28 @@
+{
+  "status": "generated_once_raw_saved",
+  "mode": "builtin_imagegen_one_authorized_four_frame_group",
+  "prompt_file": "prompt-v1.txt",
+  "transparent_background": true,
+  "input_roles": [
+    "original_N1_4_complete_pose_edit_canvas",
+    "disconnected_selected_back_identity_material_only"
+  ],
+  "referenced_images": [
+    {
+      "path": "Project/art_source/hero_n_idle_source_r9/original-four-common-crop-6x.png",
+      "sha256": "a89a4c0861cd5b779abc4d085d90623dc8ff3e67c2e7e657c24276ae88149220"
+    },
+    {
+      "path": "Project/art_source/hero_n_idle_source_r9/rear-identity-disconnected-fragments.png",
+      "sha256": "a3cf8d881c43fad3eb4bb2994ce32beca701209a32377f504d54a41a285084a5"
+    }
+  ],
+  "output": {
+    "path": "raw-v1.png",
+    "sha256": "f75ff1d2e6c4f4d032354e8d1d2a233d0fbfa8392dc0bedb9349a5d275d77eee",
+    "size": [
+      2138,
+      735
+    ]
+  }
+}

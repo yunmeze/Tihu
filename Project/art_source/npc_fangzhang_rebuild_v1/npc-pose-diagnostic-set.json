@@ -1,0 +1,25 @@
+{
+  "schema": "lp-npc-pose-diagnostic-set-v1",
+  "status": "pose-only candidate set, no normal-world promotion",
+  "interfaces": [
+    {
+      "subject": "fangzhang",
+      "name": "方丈",
+      "interface": "res://art_source/npc_fangzhang_rebuild_v1/v1-pose-interface.json",
+      "interface_sha256": "61cecc7e62655eff52ad0acc96cad95b31cc7e3d70fc33d56eca12bc3ed3fd6b"
+    },
+    {
+      "subject": "lingyunzi",
+      "name": "凌云子",
+      "interface": "res://art_source/npc_lingyunzi_rebuild_v1/v1-pose-interface.json",
+      "interface_sha256": "d4cb58f0ac6fe31ad43410c5c863afa8675b1cd7db11f8e67bef590cc8a15117"
+    }
+  ],
+  "shared_clock": {
+    "fps": 50,
+    "frame_ticks": 17,
+    "phase_count": 4
+  },
+  "handoff": "POSE_DIAGNOSTIC_HANDOFF.md",
+  "no_runtime_or_gui_executed_by_this_script": true
+}

@@ -1,0 +1,232 @@
+{
+  "status": "STATIC_REVIEW_ONLY_NOT_APPROVED",
+  "subject": "fangzhang",
+  "raw_sha256": "f40575b118ee673d0e4233e001ad16fb79180e136e3ff8a3def8e349caa60faf",
+  "source_contract_sha256": "7e3fbbc9fbdf4601717c49c77562b6181db5341fc57e04eefd92a73e14c8ff71",
+  "generation_count": 1,
+  "registration": {
+    "model": "one positive uniform scale plus XY translation, no rotation or warp",
+    "scale_generated_to_original": 0.05185459624901814,
+    "translation_to_source_phase0_raw": [
+      1.129318717376247,
+      0.5374353329025396
+    ],
+    "fixed_reference_phase_offset": [
+      -6,
+      -40
+    ],
+    "native_cell_origin": [
+      32,
+      104
+    ],
+    "native_canvas": [
+      128,
+      160
+    ],
+    "phases_share_exact_transform": true,
+    "phase_extraction": "equal-width original cells, no content recentering",
+    "scale_basis": "Manual visible material landmarks, fit from first phase only. Not auto-bbox scaling, a body mask, or solved anatomical contacts.",
+    "sampling": "one bicubic affine sampling of unchanged raw for diagnostic only",
+    "manual_landmarks": [
+      {
+        "feature": "white_headband_middle",
+        "source_raw_xy": [
+          30,
+          7
+        ],
+        "generated_raw_xy": [
+          548,
+          114
+        ],
+        "source_read_uncertainty_px": 2,
+        "generated_read_uncertainty_px": 12,
+        "mapped_source_raw_xy": [
+          29.54563746183819,
+          6.448859305290608
+        ],
+        "residual_source_px": 0.7142838241550721
+      },
+      {
+        "feature": "screen_left_hand_middle",
+        "source_raw_xy": [
+          3,
+          21
+        ],
+        "generated_raw_xy": [
+          52,
+          418
+        ],
+        "source_read_uncertainty_px": 2,
+        "generated_read_uncertainty_px": 12,
+        "mapped_source_raw_xy": [
+          3.82575772232519,
+          22.212656564992123
+        ],
+        "residual_source_px": 1.4671100028962318
+      },
+      {
+        "feature": "waist_hand_middle",
+        "source_raw_xy": [
+          18,
+          30
+        ],
+        "generated_raw_xy": [
+          319,
+          557
+        ],
+        "source_read_uncertainty_px": 2,
+        "generated_read_uncertainty_px": 12,
+        "mapped_source_raw_xy": [
+          17.670934920813036,
+          29.420445443605644
+        ],
+        "residual_source_px": 0.666458783555129
+      },
+      {
+        "feature": "upper_screen_boot_visible_toe",
+        "source_raw_xy": [
+          19,
+          53
+        ],
+        "generated_raw_xy": [
+          335,
+          999
+        ],
+        "source_read_uncertainty_px": 2,
+        "generated_read_uncertainty_px": 12,
+        "mapped_source_raw_xy": [
+          18.500608460797324,
+          52.34017698567166
+        ],
+        "residual_source_px": 0.8275012505516554
+      },
+      {
+        "feature": "lower_screen_boot_visible_toe",
+        "source_raw_xy": [
+          35,
+          64
+        ],
+        "generated_raw_xy": [
+          662,
+          1235
+        ],
+        "source_read_uncertainty_px": 2,
+        "generated_read_uncertainty_px": 12,
+        "mapped_source_raw_xy": [
+          35.45706143422626,
+          64.57786170043994
+        ],
+        "residual_source_px": 0.7367695022816195
+      }
+    ],
+    "max_landmark_residual_source_px": 1.4671100028962318,
+    "anatomical_contacts_solved": false
+  },
+  "alpha": {
+    "size": [
+      1207,
+      1303
+    ],
+    "alpha_zero_pixels": 1158927,
+    "alpha_opaque_pixels": 421,
+    "alpha_1_to_7_pixels": 20101,
+    "alpha_8_to_254_pixels": 393272,
+    "bounds_by_minimum_alpha": {
+      "1": [
+        0,
+        0,
+        1169,
+        1285
+      ],
+      "8": [
+        6,
+        0,
+        796,
+        1270
+      ],
+      "32": [
+        7,
+        0,
+        796,
+        1270
+      ],
+      "128": [
+        7,
+        2,
+        795,
+        1269
+      ],
+      "250": [
+        8,
+        7,
+        794,
+        1268
+      ]
+    },
+    "thresholds_are_measurements_only": true
+  },
+  "per_phase_alpha": [
+    {
+      "size": [
+        1207,
+        1303
+      ],
+      "alpha_zero_pixels": 1158927,
+      "alpha_opaque_pixels": 421,
+      "alpha_1_to_7_pixels": 20101,
+      "alpha_8_to_254_pixels": 393272,
+      "bounds_by_minimum_alpha": {
+        "1": [
+          0,
+          0,
+          1169,
+          1285
+        ],
+        "8": [
+          6,
+          0,
+          796,
+          1270
+        ],
+        "32": [
+          7,
+          0,
+          796,
+          1270
+        ],
+        "128": [
+          7,
+          2,
+          795,
+          1269
+        ],
+        "250": [
+          8,
+          7,
+          794,
+          1268
+        ]
+      },
+      "thresholds_are_measurements_only": true
+    }
+  ],
+  "phase_screen_vertical_checks": {
+    "source_top_deltas": [
+      0
+    ],
+    "generated_top_deltas_native_scale": [
+      0.0
+    ],
+    "source_visible_bottom_deltas": [
+      0
+    ],
+    "generated_alpha_bottom_deltas_native_scale": [
+      0.0
+    ],
+    "interpretation": "Crown/top and visible-foot extent checks only; source checker is not a body mask. Differences are not corrected by per-phase fitting."
+  },
+  "raw_unchanged": true,
+  "runtime_integrated": false,
+  "diagnostic_directory": "diagnostics/a13-npc/remaster-v1",
+  "review_notes_file": "REVIEW.md"
+}

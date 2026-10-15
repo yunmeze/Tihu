@@ -1,0 +1,223 @@
+{
+  "status": "PASS_TECHNICAL_INTERFACE_ONLY",
+  "raw_sha256_unchanged": true,
+  "static_review_unchanged": true,
+  "raw_border_alpha_counts": {
+    "top": {
+      "max_alpha": 0,
+      "pixels_alpha_gt_0": 0,
+      "pixels_alpha_gt_16": 0,
+      "pixels_alpha_gt_32": 0,
+      "pixels_alpha_gt_128": 0
+    },
+    "bottom": {
+      "max_alpha": 1,
+      "pixels_alpha_gt_0": 8,
+      "pixels_alpha_gt_16": 0,
+      "pixels_alpha_gt_32": 0,
+      "pixels_alpha_gt_128": 0
+    },
+    "left": {
+      "max_alpha": 1,
+      "pixels_alpha_gt_0": 10,
+      "pixels_alpha_gt_16": 0,
+      "pixels_alpha_gt_32": 0,
+      "pixels_alpha_gt_128": 0
+    },
+    "right": {
+      "max_alpha": 0,
+      "pixels_alpha_gt_0": 0,
+      "pixels_alpha_gt_16": 0,
+      "pixels_alpha_gt_32": 0,
+      "pixels_alpha_gt_128": 0
+    }
+  },
+  "raw_border_interpretation": "Faint boundary alpha is measured only. No raw cleanup or new generation. Strong subject cut is not established by all-alpha bounds.",
+  "candidate_canvas_border_max_alpha": [
+    {
+      "top": {
+        "max_alpha": 0,
+        "pixels_alpha_gt_0": 0,
+        "pixels_alpha_gt_16": 0,
+        "pixels_alpha_gt_32": 0,
+        "pixels_alpha_gt_128": 0
+      },
+      "bottom": {
+        "max_alpha": 0,
+        "pixels_alpha_gt_0": 0,
+        "pixels_alpha_gt_16": 0,
+        "pixels_alpha_gt_32": 0,
+        "pixels_alpha_gt_128": 0
+      },
+      "left": {
+        "max_alpha": 0,
+        "pixels_alpha_gt_0": 0,
+        "pixels_alpha_gt_16": 0,
+        "pixels_alpha_gt_32": 0,
+        "pixels_alpha_gt_128": 0
+      },
+      "right": {
+        "max_alpha": 0,
+        "pixels_alpha_gt_0": 0,
+        "pixels_alpha_gt_16": 0,
+        "pixels_alpha_gt_32": 0,
+        "pixels_alpha_gt_128": 0
+      }
+    },
+    {
+      "top": {
+        "max_alpha": 0,
+        "pixels_alpha_gt_0": 0,
+        "pixels_alpha_gt_16": 0,
+        "pixels_alpha_gt_32": 0,
+        "pixels_alpha_gt_128": 0
+      },
+      "bottom": {
+        "max_alpha": 0,
+        "pixels_alpha_gt_0": 0,
+        "pixels_alpha_gt_16": 0,
+        "pixels_alpha_gt_32": 0,
+        "pixels_alpha_gt_128": 0
+      },
+      "left": {
+        "max_alpha": 0,
+        "pixels_alpha_gt_0": 0,
+        "pixels_alpha_gt_16": 0,
+        "pixels_alpha_gt_32": 0,
+        "pixels_alpha_gt_128": 0
+      },
+      "right": {
+        "max_alpha": 0,
+        "pixels_alpha_gt_0": 0,
+        "pixels_alpha_gt_16": 0,
+        "pixels_alpha_gt_32": 0,
+        "pixels_alpha_gt_128": 0
+      }
+    },
+    {
+      "top": {
+        "max_alpha": 0,
+        "pixels_alpha_gt_0": 0,
+        "pixels_alpha_gt_16": 0,
+        "pixels_alpha_gt_32": 0,
+        "pixels_alpha_gt_128": 0
+      },
+      "bottom": {
+        "max_alpha": 0,
+        "pixels_alpha_gt_0": 0,
+        "pixels_alpha_gt_16": 0,
+        "pixels_alpha_gt_32": 0,
+        "pixels_alpha_gt_128": 0
+      },
+      "left": {
+        "max_alpha": 0,
+        "pixels_alpha_gt_0": 0,
+        "pixels_alpha_gt_16": 0,
+        "pixels_alpha_gt_32": 0,
+        "pixels_alpha_gt_128": 0
+      },
+      "right": {
+        "max_alpha": 0,
+        "pixels_alpha_gt_0": 0,
+        "pixels_alpha_gt_16": 0,
+        "pixels_alpha_gt_32": 0,
+        "pixels_alpha_gt_128": 0
+      }
+    },
+    {
+      "top": {
+        "max_alpha": 0,
+        "pixels_alpha_gt_0": 0,
+        "pixels_alpha_gt_16": 0,
+        "pixels_alpha_gt_32": 0,
+        "pixels_alpha_gt_128": 0
+      },
+      "bottom": {
+        "max_alpha": 0,
+        "pixels_alpha_gt_0": 0,
+        "pixels_alpha_gt_16": 0,
+        "pixels_alpha_gt_32": 0,
+        "pixels_alpha_gt_128": 0
+      },
+      "left": {
+        "max_alpha": 0,
+        "pixels_alpha_gt_0": 0,
+        "pixels_alpha_gt_16": 0,
+        "pixels_alpha_gt_32": 0,
+        "pixels_alpha_gt_128": 0
+      },
+      "right": {
+        "max_alpha": 0,
+        "pixels_alpha_gt_0": 0,
+        "pixels_alpha_gt_16": 0,
+        "pixels_alpha_gt_32": 0,
+        "pixels_alpha_gt_128": 0
+      }
+    }
+  ],
+  "index_rect_roundtrip_checks": 4,
+  "all_four_phase_aliases_equal": false,
+  "shared_transform_for_all_phases": true,
+  "per_phase_fit_or_recenter": false,
+  "atlas_rgba_roundtrip_equal": true,
+  "runtime_loop_viewed": false,
+  "timing_boundary_checks": [
+    {
+      "tick": 0,
+      "phase": 0,
+      "source_index": 113
+    },
+    {
+      "tick": 16,
+      "phase": 0,
+      "source_index": 113
+    },
+    {
+      "tick": 17,
+      "phase": 1,
+      "source_index": 114
+    },
+    {
+      "tick": 33,
+      "phase": 1,
+      "source_index": 114
+    },
+    {
+      "tick": 34,
+      "phase": 2,
+      "source_index": 115
+    },
+    {
+      "tick": 50,
+      "phase": 2,
+      "source_index": 115
+    },
+    {
+      "tick": 51,
+      "phase": 3,
+      "source_index": 116
+    },
+    {
+      "tick": 67,
+      "phase": 3,
+      "source_index": 116
+    },
+    {
+      "tick": 68,
+      "phase": 0,
+      "source_index": 113
+    },
+    {
+      "tick": 135,
+      "phase": 3,
+      "source_index": 116
+    },
+    {
+      "tick": 136,
+      "phase": 0,
+      "source_index": 113
+    }
+  ],
+  "atlas_sha256": "517e11d9d9661966d154d9272dfa0c643bf02e3e550d66b3172b22ed8b367c85",
+  "interface_sha256": "d4cb58f0ac6fe31ad43410c5c863afa8675b1cd7db11f8e67bef590cc8a15117"
+}

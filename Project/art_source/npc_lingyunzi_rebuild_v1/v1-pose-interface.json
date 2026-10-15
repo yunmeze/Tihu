@@ -1,0 +1,271 @@
+{
+  "schema": "lp-npc-pose-diagnostic-v1",
+  "status": "candidate_for_bounded_native_pose_loop_only",
+  "subject": "lingyunzi",
+  "npc_name": "凌云子",
+  "map_id": "A13",
+  "npc_record_index": 1,
+  "appearance": 9,
+  "direction_slot": 1,
+  "source_ids": [
+    113,
+    114,
+    115,
+    116
+  ],
+  "map_cell_evidence_only": [
+    62,
+    36
+  ],
+  "original_layer": 1,
+  "original_sort_y": 36,
+  "atlas": "res://art_source/npc_lingyunzi_rebuild_v1/v1-pose-atlas-128x160.png",
+  "atlas_sha256": "517e11d9d9661966d154d9272dfa0c643bf02e3e550d66b3172b22ed8b367c85",
+  "atlas_size": [
+    512,
+    160
+  ],
+  "frame_size": [
+    128,
+    160
+  ],
+  "grid": [
+    4,
+    1
+  ],
+  "unique_candidate_images": 4,
+  "frames": {
+    "113": {
+      "phase": 0,
+      "candidate_frame": 0,
+      "rect": [
+        0,
+        0,
+        128,
+        160
+      ],
+      "draw_offset": [
+        -32,
+        -104
+      ],
+      "draw_size": [
+        128,
+        160
+      ],
+      "rgba_sha256": "d540dcd0b1551c7daf69faef6ab7084167db7c6f7305081bfaaa738d63862cfa",
+      "original_offset_evidence_only": [
+        9,
+        -51
+      ],
+      "original_size_evidence_only": [
+        60,
+        72
+      ],
+      "original_rgba_sha256": "2893cd1fa1f54adf51e09f301aaf75d8509513135270054a2a61d3e58d888c99"
+    },
+    "114": {
+      "phase": 1,
+      "candidate_frame": 1,
+      "rect": [
+        128,
+        0,
+        128,
+        160
+      ],
+      "draw_offset": [
+        -32,
+        -104
+      ],
+      "draw_size": [
+        128,
+        160
+      ],
+      "rgba_sha256": "f640120380ea2efe5246025b49b163266300b589c8c71d0d3a14ef5fc9222d92",
+      "original_offset_evidence_only": [
+        9,
+        -49
+      ],
+      "original_size_evidence_only": [
+        56,
+        71
+      ],
+      "original_rgba_sha256": "ccca22bbdea872bf54170679138976a65fcdbddd5ccd1d940c71c227ca254818"
+    },
+    "115": {
+      "phase": 2,
+      "candidate_frame": 2,
+      "rect": [
+        256,
+        0,
+        128,
+        160
+      ],
+      "draw_offset": [
+        -32,
+        -104
+      ],
+      "draw_size": [
+        128,
+        160
+      ],
+      "rgba_sha256": "8418470936889c0c39349fae46e5e31e63c839ae2efe821803737ff818d0aeb0",
+      "original_offset_evidence_only": [
+        9,
+        -49
+      ],
+      "original_size_evidence_only": [
+        56,
+        71
+      ],
+      "original_rgba_sha256": "3583b1a5b62e8017f10b46f90d96bf422a168b9b7603eeb4b878d5cc3896f879"
+    },
+    "116": {
+      "phase": 3,
+      "candidate_frame": 3,
+      "rect": [
+        384,
+        0,
+        128,
+        160
+      ],
+      "draw_offset": [
+        -32,
+        -104
+      ],
+      "draw_size": [
+        128,
+        160
+      ],
+      "rgba_sha256": "9c63c7c90c3ce6c5e150524ffa5a58bc5ae2361d017ec17b85b31e001c3b86c0",
+      "original_offset_evidence_only": [
+        9,
+        -50
+      ],
+      "original_size_evidence_only": [
+        56,
+        71
+      ],
+      "original_rgba_sha256": "6096f6baaa6434f5ccd48aaf0300db9ff2855ca4959c7be9242b7d7611ae45c5"
+    }
+  },
+  "draw_offset": [
+    -32,
+    -104
+  ],
+  "draw_size": [
+    128,
+    160
+  ],
+  "timing": {
+    "source_fps": 50,
+    "frame_ticks": 17,
+    "phase_count": 4,
+    "loop_ticks": 68,
+    "loop_seconds": 1.36,
+    "phase_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "global_clock": true,
+    "phase_formula": "floor(nonnegative_tick / 17) % 4",
+    "source_index_formula": "113 + phase"
+  },
+  "sampling": {
+    "source": "nearest",
+    "candidate": "linear",
+    "diagnostic_atlas_build": "one uniform bicubic sample from unchanged raw per source cell"
+  },
+  "draw_contract": {
+    "position": "npc_world_cell_origin + draw_offset",
+    "world_cell_origin": "Vector2(npc.x * 48, npc.y * 32)",
+    "additional_original_offset": false,
+    "additional_original_crop": false,
+    "warning": "Original offset/root semantics are baked into the fixed registered canvas. Do not add source offset/crop a second time. Never auto-align each frame's top or bottom."
+  },
+  "registration": {
+    "source": "res://art_source/npc_lingyunzi_rebuild_v1/static-review.json",
+    "source_sha256": "f1b8efb7518d895e4029aff6a890fa4d6332d4f03ad49afeb8b58ec6dc22507e",
+    "model": "one positive uniform scale plus XY translation, no rotation or warp",
+    "scale": 0.11178785283458711,
+    "translation_to_source_phase0_raw": [
+      -15.490136860633637,
+      -4.017450799088628
+    ],
+    "fixed_reference_phase_offset": [
+      9,
+      -51
+    ],
+    "native_cell_origin": [
+      32,
+      104
+    ],
+    "per_phase_extra_translation": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "per_phase_extra_scale": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "fit_from_first_phase_only": true,
+    "anatomical_contacts_solved": false,
+    "static_residuals_are_not_animation_acceptance": true
+  },
+  "raw": {
+    "file": "res://art_source/npc_lingyunzi_rebuild_v1/raw-v1.png",
+    "sha256": "e8ed826d7fc5582d0a0910b8c885dee42581650a68723ac8ed8e4697f453f30f",
+    "cell_size": [
+      543,
+      724
+    ],
+    "generation_calls": 1,
+    "immutable": true
+  },
+  "source_comparison": {
+    "manifest": "res://assets/original/manifest.json",
+    "pack": "Npc",
+    "indices": [
+      113,
+      114,
+      115,
+      116
+    ],
+    "use_original_offset_and_crop_for_original_only": true,
+    "original_checker_retained": true
+  },
+  "scope": {
+    "pose_only": true,
+    "normal_world_appearance_override": false,
+    "r6_changes": false,
+    "click_changes": false,
+    "story_changes": false,
+    "new_shadow": false,
+    "runtime_approved": false,
+    "static_fangzhang_reuses_one_rect_for_four_indices": false
+  },
+  "required_runtime_review": [
+    "Show all four source phases and the candidate at native scale before judgment.",
+    "Use shared 50Hz simulation ticks and exact 17tick changes through the 3-to-0 seam.",
+    "Compare at least two complete loops against original sources; freeze/manual phase is useful but not a replacement for loops.",
+    "Do not add ground shadow or use click/story behavior as part of this pose diagnostic.",
+    "Treat about-one-native-pixel first-fit phase discrepancies as evidence to inspect in motion, not automatic rejection or approval."
+  ]
+}

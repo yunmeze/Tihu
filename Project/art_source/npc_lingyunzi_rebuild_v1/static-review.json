@@ -1,0 +1,355 @@
+{
+  "status": "STATIC_REVIEW_ONLY_NOT_APPROVED",
+  "subject": "lingyunzi",
+  "raw_sha256": "e8ed826d7fc5582d0a0910b8c885dee42581650a68723ac8ed8e4697f453f30f",
+  "source_contract_sha256": "7e3fbbc9fbdf4601717c49c77562b6181db5341fc57e04eefd92a73e14c8ff71",
+  "generation_count": 1,
+  "registration": {
+    "model": "one positive uniform scale plus XY translation, no rotation or warp",
+    "scale_generated_to_original": 0.11178785283458711,
+    "translation_to_source_phase0_raw": [
+      -15.490136860633637,
+      -4.017450799088628
+    ],
+    "fixed_reference_phase_offset": [
+      9,
+      -51
+    ],
+    "native_cell_origin": [
+      32,
+      104
+    ],
+    "native_canvas": [
+      128,
+      160
+    ],
+    "phases_share_exact_transform": true,
+    "phase_extraction": "equal-width original cells, no content recentering",
+    "scale_basis": "Manual visible material landmarks, fit from first phase only. Not auto-bbox scaling, a body mask, or solved anatomical contacts.",
+    "sampling": "one bicubic affine sampling of unchanged raw for diagnostic only",
+    "manual_landmarks": [
+      {
+        "feature": "crown_top_middle",
+        "source_raw_xy": [
+          15,
+          0
+        ],
+        "generated_raw_xy": [
+          273,
+          38
+        ],
+        "source_read_uncertainty_px": 2,
+        "generated_read_uncertainty_px": 12,
+        "mapped_source_raw_xy": [
+          15.027946963208645,
+          0.2304876086256824
+        ],
+        "residual_source_px": 0.23217573189842888
+      },
+      {
+        "feature": "overlapping_hands_middle",
+        "source_raw_xy": [
+          15,
+          39
+        ],
+        "generated_raw_xy": [
+          270,
+          377
+        ],
+        "source_read_uncertainty_px": 2,
+        "generated_read_uncertainty_px": 12,
+        "mapped_source_raw_xy": [
+          14.692583404704884,
+          38.126569719550716
+        ],
+        "residual_source_px": 0.925951088270086
+      },
+      {
+        "feature": "screen_left_boot_visible_toe",
+        "source_raw_xy": [
+          7,
+          70
+        ],
+        "generated_raw_xy": [
+          210,
+          665
+        ],
+        "source_read_uncertainty_px": 2,
+        "generated_read_uncertainty_px": 12,
+        "mapped_source_raw_xy": [
+          7.985312234629657,
+          70.32147133591181
+        ],
+        "residual_source_px": 1.0364284922385194
+      },
+      {
+        "feature": "screen_right_boot_visible_toe",
+        "source_raw_xy": [
+          23,
+          70
+        ],
+        "generated_raw_xy": [
+          338,
+          665
+        ],
+        "source_read_uncertainty_px": 2,
+        "generated_read_uncertainty_px": 12,
+        "mapped_source_raw_xy": [
+          22.29415739745681,
+          70.32147133591181
+        ],
+        "residual_source_px": 0.7756014436409114
+      }
+    ],
+    "max_landmark_residual_source_px": 1.0364284922385194,
+    "anatomical_contacts_solved": false
+  },
+  "alpha": {
+    "size": [
+      2172,
+      724
+    ],
+    "alpha_zero_pixels": 1177501,
+    "alpha_opaque_pixels": 541,
+    "alpha_1_to_7_pixels": 24935,
+    "alpha_8_to_254_pixels": 369551,
+    "bounds_by_minimum_alpha": {
+      "1": [
+        0,
+        29,
+        2163,
+        724
+      ],
+      "8": [
+        146,
+        35,
+        2024,
+        678
+      ],
+      "32": [
+        146,
+        37,
+        2024,
+        677
+      ],
+      "128": [
+        147,
+        37,
+        2023,
+        676
+      ],
+      "250": [
+        147,
+        39,
+        2020,
+        675
+      ]
+    },
+    "thresholds_are_measurements_only": true
+  },
+  "per_phase_alpha": [
+    {
+      "size": [
+        543,
+        724
+      ],
+      "alpha_zero_pixels": 292784,
+      "alpha_opaque_pixels": 133,
+      "alpha_1_to_7_pixels": 6001,
+      "alpha_8_to_254_pixels": 94214,
+      "bounds_by_minimum_alpha": {
+        "1": [
+          0,
+          29,
+          543,
+          700
+        ],
+        "8": [
+          146,
+          35,
+          399,
+          677
+        ],
+        "32": [
+          146,
+          37,
+          399,
+          677
+        ],
+        "128": [
+          147,
+          37,
+          398,
+          676
+        ],
+        "250": [
+          147,
+          39,
+          398,
+          675
+        ]
+      },
+      "thresholds_are_measurements_only": true
+    },
+    {
+      "size": [
+        543,
+        724
+      ],
+      "alpha_zero_pixels": 295811,
+      "alpha_opaque_pixels": 135,
+      "alpha_1_to_7_pixels": 6195,
+      "alpha_8_to_254_pixels": 90991,
+      "bounds_by_minimum_alpha": {
+        "1": [
+          0,
+          47,
+          543,
+          724
+        ],
+        "8": [
+          145,
+          56,
+          400,
+          678
+        ],
+        "32": [
+          146,
+          58,
+          400,
+          677
+        ],
+        "128": [
+          146,
+          58,
+          399,
+          676
+        ],
+        "250": [
+          147,
+          60,
+          396,
+          675
+        ]
+      },
+      "thresholds_are_measurements_only": true
+    },
+    {
+      "size": [
+        543,
+        724
+      ],
+      "alpha_zero_pixels": 296076,
+      "alpha_opaque_pixels": 122,
+      "alpha_1_to_7_pixels": 6583,
+      "alpha_8_to_254_pixels": 90351,
+      "bounds_by_minimum_alpha": {
+        "1": [
+          0,
+          53,
+          543,
+          724
+        ],
+        "8": [
+          144,
+          65,
+          400,
+          677
+        ],
+        "32": [
+          144,
+          66,
+          400,
+          677
+        ],
+        "128": [
+          145,
+          66,
+          399,
+          676
+        ],
+        "250": [
+          146,
+          67,
+          398,
+          675
+        ]
+      },
+      "thresholds_are_measurements_only": true
+    },
+    {
+      "size": [
+        543,
+        724
+      ],
+      "alpha_zero_pixels": 292830,
+      "alpha_opaque_pixels": 151,
+      "alpha_1_to_7_pixels": 6156,
+      "alpha_8_to_254_pixels": 93995,
+      "bounds_by_minimum_alpha": {
+        "1": [
+          0,
+          32,
+          534,
+          700
+        ],
+        "8": [
+          141,
+          35,
+          395,
+          678
+        ],
+        "32": [
+          142,
+          37,
+          395,
+          677
+        ],
+        "128": [
+          142,
+          38,
+          394,
+          676
+        ],
+        "250": [
+          145,
+          40,
+          391,
+          675
+        ]
+      },
+      "thresholds_are_measurements_only": true
+    }
+  ],
+  "phase_screen_vertical_checks": {
+    "source_top_deltas": [
+      0,
+      2,
+      2,
+      1
+    ],
+    "generated_top_deltas_native_scale": [
+      0.0,
+      2.3475449095263294,
+      3.241847732203026,
+      0.11178785283458711
+    ],
+    "source_visible_bottom_deltas": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "generated_alpha_bottom_deltas_native_scale": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "interpretation": "Crown/top and visible-foot extent checks only; source checker is not a body mask. Differences are not corrected by per-phase fitting."
+  },
+  "raw_unchanged": true,
+  "runtime_integrated": false,
+  "diagnostic_directory": "diagnostics/a13-npc/remaster-v1",
+  "review_notes_file": "REVIEW.md"
+}
