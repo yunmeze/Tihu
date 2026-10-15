@@ -1,0 +1,170 @@
+{
+  "status": "one approved generation; root-aligned diagnostic proposal only; no runtime/slices or second call",
+  "raw_size": [
+    1162,
+    1353
+  ],
+  "raw_sha256": "ada0e0fd8952fe1dcc6b60dafb9d64be96476ed7736a881f1e5e401436b3db0f",
+  "alpha": {
+    "0": {
+      "bbox_xyxy": [
+        0,
+        0,
+        1148,
+        1353
+      ],
+      "count": 776650,
+      "edge_top_bottom_left_right": [
+        50,
+        18,
+        59,
+        0
+      ]
+    },
+    "16": {
+      "bbox_xyxy": [
+        39,
+        9,
+        1118,
+        1338
+      ],
+      "count": 672385,
+      "edge_top_bottom_left_right": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "127": {
+      "bbox_xyxy": [
+        40,
+        11,
+        1117,
+        1337
+      ],
+      "count": 634139,
+      "edge_top_bottom_left_right": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "250": {
+      "bbox_xyxy": [
+        72,
+        34,
+        1086,
+        1336
+      ],
+      "count": 272142,
+      "edge_top_bottom_left_right": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "registration_study": {
+    "density": 4.5,
+    "scale": 0.2222222222222222,
+    "manual_raw_root_xy": [
+      560,
+      1329
+    ],
+    "candidate_root_uncertainty_raw_px": 9,
+    "source_local_root": [
+      125,
+      294
+    ],
+    "source_manual_uncertainty_logical_px": 4,
+    "bottom_world_root": [
+      2964,
+      1646
+    ],
+    "bottom_world_top_left": [
+      2839.5555555555557,
+      1350.6666666666667
+    ],
+    "left_world_root": [
+      2436,
+      1326
+    ],
+    "left_world_top_left": [
+      2311.5555555555557,
+      1030.6666666666667
+    ],
+    "world_translation_left_to_bottom": [
+      528,
+      320
+    ],
+    "rotation": 0,
+    "shear": 0,
+    "status": "proposal for source-shape/root overlay review only; no per-owner mapping or route acceptance",
+    "raw_logical_canvas_size": [
+      258.22222222222223,
+      300.6666666666667
+    ],
+    "alpha127_body_logical_size": [
+      239.33333333333334,
+      294.6666666666667
+    ],
+    "alpha127_body_height_density_ratio_source298": 4.449664429530201,
+    "root_is_manual_wood_band_not_bbox": true
+  },
+  "review": {
+    "positive": [
+      "Slender upright trunk, vertically separated side branches; different silhouette family from first tree",
+      "Actual detailed new bark/leaves, minimum2 density comfortably met",
+      "No obvious separate ground shadow, planter or background",
+      "Three standard alpha composites show complete visible tips/root and no conspicuous independent matte ring"
+    ],
+    "remaining": [
+      "Leaf masses denser than old source and warm-yellow highlights remain strong",
+      "Large transparent padding request not delivered; lowalpha touches top/left/bottom, mainalpha127 topmargin11px",
+      "Root/branch shape and both placements must be judged on overlays and later native routes; no exact shadow/body source segmentation asserted"
+    ],
+    "no_second_call": true
+  },
+  "inputs": [
+    {
+      "number": 1,
+      "path": "art_source/earth_vegetation_input_plan_v1/upright_tree_61_51_source_native.png",
+      "sha256": "45935146d49682ad81a98ef733ded333228828b6a3195b50d6e47cda479aebed",
+      "size": [
+        281,
+        298
+      ]
+    },
+    {
+      "number": 2,
+      "path": "art_source/earth_vegetation_input_plan_v1/concept_tree_branch_foliage.png",
+      "sha256": "46eb7b96e59f3c0fc4eafd224f13d485628e5333f2dd4aafb908b6e9356dd332",
+      "size": [
+        446,
+        356
+      ]
+    },
+    {
+      "number": 3,
+      "path": "art_source/earth_round_shrub_input_plan_v1/tree_v2_foliage_light_reference.png",
+      "sha256": "4fd8097ee97c22aeda4d7f43dde7cae27fbb3ed25ce746e78dfaaf9c6fe82c68",
+      "size": [
+        160,
+        160
+      ]
+    },
+    {
+      "number": 4,
+      "path": "art_source/earth_upright_tree_input_plan_v1/first_tree_bark_interior_reference.png",
+      "sha256": "4f898488976d631d46aa71eeaf7f7b88126cf3861e94d38f2260bf5f5ffc8928",
+      "size": [
+        50,
+        110
+      ]
+    }
+  ],
+  "frozen41_unchanged": true
+}

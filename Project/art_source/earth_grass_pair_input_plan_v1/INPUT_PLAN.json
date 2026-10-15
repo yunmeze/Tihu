@@ -1,0 +1,418 @@
+{
+  "status": "INPUT PLAN ONLY; no generation or registrations",
+  "scope": [
+    "239\u2013240@(54,30)",
+    "241\u2013242@(54,31)"
+  ],
+  "geometry_sheet_size": [
+    144,
+    48
+  ],
+  "classification": "Only exact opaque (8,0,0) checker palette removed in source interpretation sheet. Visible visual checker confirmed on native nearest enlargement. Other dark/neutral foliage retained. No hidden leaf reconstruction; dark non-checker pixels are not asserted to be botanically identified. This is NOT an RGB cleanup rule for generated assets.",
+  "records": [
+    {
+      "id": "grass239_54_30",
+      "source_native": "art_source/earth_vegetation_input_plan_v1/grass239_54_30_source_native.png",
+      "source_sha256": "7bcc792b39f8c3eb4080134bf9329a37fe7d66c21f47ad02636833f1662d4008",
+      "logical_canvas": [
+        64,
+        27
+      ],
+      "sheet_xy": [
+        8,
+        10
+      ],
+      "visible_non_checker_bbox_xyxy": [
+        0,
+        0,
+        53,
+        27
+      ],
+      "visible_non_checker_pixels": 366,
+      "excluded_exact_checker_pixels": 52,
+      "minimum_density2_body_dimensions": [
+        106,
+        54
+      ],
+      "recommended_density8_body_dimensions": [
+        424,
+        216
+      ],
+      "support_reads": [
+        {
+          "id": "B1_visible_green_basal_read",
+          "source_composite_xy": [
+            21,
+            24
+          ],
+          "world_xy": [
+            2629,
+            989
+          ],
+          "manual_uncertainty_px": 3,
+          "read_region_xyxy": [
+            18,
+            21,
+            25,
+            27
+          ],
+          "source_rgba_at_point": [
+            90,
+            156,
+            74,
+            255
+          ],
+          "contributors": [
+            "Plant:239@54,30"
+          ]
+        },
+        {
+          "id": "B2_visible_green_basal_read",
+          "source_composite_xy": [
+            40,
+            24
+          ],
+          "world_xy": [
+            2648,
+            989
+          ],
+          "manual_uncertainty_px": 3,
+          "read_region_xyxy": [
+            37,
+            21,
+            44,
+            27
+          ],
+          "source_rgba_at_point": [
+            49,
+            74,
+            24,
+            255
+          ],
+          "contributors": [
+            "Plant:240@55,30"
+          ]
+        }
+      ],
+      "owners": [
+        {
+          "key": "Plant:239@54,30",
+          "pack": "Map/Res/Plant",
+          "frame_index": 239,
+          "cell": [
+            54,
+            30
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            239
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 30,
+          "stable_source_order": 5430,
+          "original_canvas": [
+            48,
+            32
+          ],
+          "crop": [
+            16,
+            7
+          ],
+          "ignored_frame_offset": [
+            0,
+            0
+          ],
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            1111,
+            1,
+            32,
+            25
+          ],
+          "frame_rgba_sha256": "0c14a444210347b4aeedce4a3a0e9d1aee4af51b23adff0d7832c44c33b7a7c4",
+          "native_source_offset": 3666346,
+          "native_source_bytes": 2614,
+          "world_rect": [
+            2608,
+            967,
+            32,
+            25
+          ],
+          "viewport_aabb_intersects": true,
+          "viewport_nonzero_alpha_pixels": 178
+        },
+        {
+          "key": "Plant:240@55,30",
+          "pack": "Map/Res/Plant",
+          "frame_index": 240,
+          "cell": [
+            55,
+            30
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            240
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 30,
+          "stable_source_order": 5530,
+          "original_canvas": [
+            48,
+            32
+          ],
+          "crop": [
+            0,
+            5
+          ],
+          "ignored_frame_offset": [
+            0,
+            0
+          ],
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            1145,
+            1,
+            32,
+            27
+          ],
+          "frame_rgba_sha256": "2c9b597265c20be25a129b9773d436cb7b8d1ea94ba4a44b52c40add1ed66209",
+          "native_source_offset": 3668960,
+          "native_source_bytes": 2614,
+          "world_rect": [
+            2640,
+            965,
+            32,
+            27
+          ],
+          "viewport_aabb_intersects": true,
+          "viewport_nonzero_alpha_pixels": 240
+        }
+      ]
+    },
+    {
+      "id": "grass241_54_31",
+      "source_native": "art_source/earth_vegetation_input_plan_v1/grass241_54_31_source_native.png",
+      "source_sha256": "3a91e966b71e5e75a6d3d29dff911b5fb42979f7b8183538accea39874817065",
+      "logical_canvas": [
+        58,
+        26
+      ],
+      "sheet_xy": [
+        80,
+        10
+      ],
+      "visible_non_checker_bbox_xyxy": [
+        5,
+        0,
+        39,
+        23
+      ],
+      "visible_non_checker_pixels": 268,
+      "excluded_exact_checker_pixels": 244,
+      "minimum_density2_body_dimensions": [
+        68,
+        46
+      ],
+      "recommended_density8_body_dimensions": [
+        272,
+        184
+      ],
+      "support_reads": [
+        {
+          "id": "B1_visible_green_basal_read",
+          "source_composite_xy": [
+            21,
+            22
+          ],
+          "world_xy": [
+            2634,
+            1014
+          ],
+          "manual_uncertainty_px": 2,
+          "read_region_xyxy": [
+            19,
+            20,
+            24,
+            25
+          ],
+          "source_rgba_at_point": [
+            49,
+            74,
+            24,
+            255
+          ],
+          "contributors": [
+            "Plant:241@54,31"
+          ]
+        },
+        {
+          "id": "B2_visible_green_basal_read",
+          "source_composite_xy": [
+            34,
+            22
+          ],
+          "world_xy": [
+            2647,
+            1014
+          ],
+          "manual_uncertainty_px": 2,
+          "read_region_xyxy": [
+            32,
+            20,
+            37,
+            25
+          ],
+          "source_rgba_at_point": [
+            8,
+            24,
+            16,
+            255
+          ],
+          "contributors": [
+            "Plant:242@55,31"
+          ]
+        }
+      ],
+      "owners": [
+        {
+          "key": "Plant:241@54,31",
+          "pack": "Map/Res/Plant",
+          "frame_index": 241,
+          "cell": [
+            54,
+            31
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            241
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 31,
+          "stable_source_order": 5431,
+          "original_canvas": [
+            48,
+            32
+          ],
+          "crop": [
+            21,
+            0
+          ],
+          "ignored_frame_offset": [
+            0,
+            0
+          ],
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            1179,
+            1,
+            27,
+            26
+          ],
+          "frame_rgba_sha256": "45bdf6dff74887cfb27076a7d77d88b7a8f4802b29981dfb2c4ad787259f4ecb",
+          "native_source_offset": 3671574,
+          "native_source_bytes": 2614,
+          "world_rect": [
+            2613,
+            992,
+            27,
+            26
+          ],
+          "viewport_aabb_intersects": true,
+          "viewport_nonzero_alpha_pixels": 217
+        },
+        {
+          "key": "Plant:242@55,31",
+          "pack": "Map/Res/Plant",
+          "frame_index": 242,
+          "cell": [
+            55,
+            31
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            242
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 31,
+          "stable_source_order": 5531,
+          "original_canvas": [
+            48,
+            32
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "ignored_frame_offset": [
+            0,
+            0
+          ],
+          "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+          "atlas_rect": [
+            1208,
+            1,
+            31,
+            25
+          ],
+          "frame_rgba_sha256": "4e75963ad9d66cbe37e6a33e2868144d1bcec6bf71675de67c8dec36d63a288e",
+          "native_source_offset": 3674188,
+          "native_source_bytes": 2614,
+          "world_rect": [
+            2640,
+            992,
+            31,
+            25
+          ],
+          "viewport_aabb_intersects": true,
+          "viewport_nonzero_alpha_pixels": 295
+        }
+      ]
+    }
+  ],
+  "material_inputs": [
+    {
+      "input": "concept_short_grass_material.png",
+      "source": "art_source/earth_base_style_concept_v1/concept.png",
+      "source_sha256": "1beaf20bbda18d0e04fcf2f6e81a0028750e1b87224f21780393b00c36cc4fc5",
+      "crop_xyxy": [
+        230,
+        520,
+        400,
+        650
+      ],
+      "use": "material/light only; no source geometry or terrain patch transfer"
+    },
+    {
+      "input": "approved_ground_material.png",
+      "source": "art_source/earth_ground_plate_clean_regen_v4/raw.png",
+      "source_sha256": "a44d861c4485cb8596fb42681441675d1b9cefb3d8c48261113325c14492ae2f",
+      "crop_xyxy": [
+        650,
+        200,
+        906,
+        456
+      ],
+      "use": "material/light only; no source geometry or terrain patch transfer"
+    }
+  ],
+  "fixed_ratio": "Both source canvases at identical scale; A64x27, B58x26. A support centers local(21,24),(40,24); B(21,22),(34,22). Keep two entire clumps, not four owner plants.",
+  "density": "Minimum actual body density2 each axis after registration; aim8. At8 sheet1152x384, A512x216 logical canvas, B464x208. Tool output dimensions not guaranteed. No upscaled old pixels counted as new density.",
+  "registration_boundary": "Future uniform scale+translation per whole group, never per owner or anisotropic warp; use support bands not invented physical roots. Preserve flags0 and two identities/order; fullcanvas disjoint owner assignment and exact RGBA recomposition if approved. No new cast shadows.",
+  "inputs_for_one_generation": [
+    "pair_geometry_native.png",
+    "concept_short_grass_material.png",
+    "approved_ground_material.png"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "raw_sha256": "287d42602bee7f74eefd8b71f24577f737fb9f6e9e9e3122050dc96653346112",
+  "raw_size": [
+    2172,
+    724
+  ],
+  "status": "single authorized generation; review only; no owner split or runtime",
+  "generation_input_plan": "earth_grass_pair_input_plan_v1",
+  "registration": "Provisional common density21 based on both body dimensions; independently translated by leaf-support midpoint. No per-body scaling/warp. Manual support points uncertain30rawpx; physical roots unknown.",
+  "records": [
+    {
+      "id": "A",
+      "raw_region_xyxy": [
+        0,
+        0,
+        1300,
+        724
+      ],
+      "alpha_gt127_bbox": [
+        128,
+        90,
+        1211,
+        656
+      ],
+      "body_size": [
+        1083,
+        566
+      ],
+      "common_density": 21,
+      "uniform_scale": 0.047619047619047616,
+      "raw_support_read_points": [
+        [
+          445,
+          618
+        ],
+        [
+          885,
+          618
+        ]
+      ],
+      "manual_uncertainty_raw_px": 30,
+      "source_support_midpoint": [
+        30.5,
+        24
+      ],
+      "raw_origin_for_source_local_zero": [
+        24.5,
+        114.0
+      ],
+      "world_top_left_of_full_raw": [
+        2606.8333333333335,
+        959.5714285714286
+      ],
+      "registered_support_span": 20.952380952380953,
+      "registered_main_bbox_source_local": [
+        4.928571428571429,
+        -1.1428571428571428,
+        56.5,
+        25.80952380952381
+      ],
+      "physical_root": null
+    },
+    {
+      "id": "B",
+      "raw_region_xyxy": [
+        1300,
+        0,
+        2172,
+        724
+      ],
+      "alpha_gt127_bbox": [
+        1389,
+        130,
+        2047,
+        607
+      ],
+      "body_size": [
+        658,
+        477
+      ],
+      "common_density": 21,
+      "uniform_scale": 0.047619047619047616,
+      "raw_support_read_points": [
+        [
+          1676,
+          600
+        ],
+        [
+          1894,
+          600
+        ]
+      ],
+      "manual_uncertainty_raw_px": 30,
+      "source_support_midpoint": [
+        27.5,
+        22
+      ],
+      "raw_origin_for_source_local_zero": [
+        1207.5,
+        138.0
+      ],
+      "world_top_left_of_full_raw": [
+        2555.5,
+        985.4285714285714
+      ],
+      "registered_support_span": 10.380952380952381,
+      "registered_main_bbox_source_local": [
+        8.642857142857142,
+        -0.38095238095238093,
+        39.976190476190474,
+        22.333333333333332
+      ],
+      "physical_root": null
+    }
+  ],
+  "review": "Actual gray/dark/light composites required; preview RGB fringe alone is not a defect. A denser than old sparse source; both contain seedhead-like tips. B support span10.38logical vs original13, within combined uncertain band but needs parent acceptance. A support span20.95 vs19. No shadow/root/ground added. No automatic repair or second generation."
+}

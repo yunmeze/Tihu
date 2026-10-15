@@ -1,0 +1,180 @@
+{
+  "schema": "earth-grass-pair-candidate-registration-v1",
+  "status": "parent approved static candidate; runtime diagnostics pending; no ordinary promotion",
+  "approval_scope": "grass241_54_31",
+  "raw_texture": "res://art_source/earth_grass_pair_registration_v1/whole_B.png",
+  "raw_sha256": "b3c7d1de157bf540284f5f42a8c5eb14e3f63a0b11306407d02b23d74ffc6511",
+  "original_sheet_texture": "res://art_source/earth_grass_pair_candidate_v1/raw.png",
+  "original_sheet_sha256": "287d42602bee7f74eefd8b71f24577f737fb9f6e9e9e3122050dc96653346112",
+  "source_map_sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+  "source_contract_sha256": "f89127f321471e1b40b7edb147c690b42bb9069fbb9b561935868626a9725211",
+  "density": 21,
+  "whole_grass_registration": {
+    "scale": 0.047619047619047616,
+    "world_top_left": [
+      2555.5,
+      985.4285714285714
+    ],
+    "rotation": 0,
+    "shear": 0,
+    "physical_root": null,
+    "basis": "approved approximate visible leaf-support midpoint; same density21 for both groups",
+    "support_measurement": {
+      "id": "B",
+      "raw_region_xyxy": [
+        1300,
+        0,
+        2172,
+        724
+      ],
+      "alpha_gt127_bbox": [
+        1389,
+        130,
+        2047,
+        607
+      ],
+      "body_size": [
+        658,
+        477
+      ],
+      "common_density": 21,
+      "uniform_scale": 0.047619047619047616,
+      "raw_support_read_points": [
+        [
+          1676,
+          600
+        ],
+        [
+          1894,
+          600
+        ]
+      ],
+      "manual_uncertainty_raw_px": 30,
+      "source_support_midpoint": [
+        27.5,
+        22
+      ],
+      "raw_origin_for_source_local_zero": [
+        1207.5,
+        138.0
+      ],
+      "world_top_left_of_full_raw": [
+        2555.5,
+        985.4285714285714
+      ],
+      "registered_support_span": 10.380952380952381,
+      "registered_main_bbox_source_local": [
+        8.642857142857142,
+        -0.38095238095238093,
+        39.976190476190474,
+        22.333333333333332
+      ],
+      "physical_root": null
+    }
+  },
+  "suppress_source_keys": [
+    "Plant:241@54,31",
+    "Plant:242@55,31"
+  ],
+  "owners": [
+    {
+      "pack": "Map/Res/Plant",
+      "key": "Plant:241@54,31",
+      "cell": [
+        54,
+        31
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        241
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 31,
+      "stable_source_order": 5431,
+      "frame_index": 241,
+      "texture": "res://art_source/earth_grass_pair_registration_v1/owners/owner-241.png",
+      "texture_size": [
+        2172,
+        724
+      ],
+      "sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+      "texture_sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+      "scale": 0.047619047619047616,
+      "world_top_left": [
+        2555.5,
+        985.4285714285714
+      ],
+      "raw_rect": [
+        0,
+        0,
+        2172,
+        724
+      ],
+      "empty": false,
+      "assigned_raw_pixel_count": 345492,
+      "visible_pixel_count": 111792
+    },
+    {
+      "pack": "Map/Res/Plant",
+      "key": "Plant:242@55,31",
+      "cell": [
+        55,
+        31
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        242
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 31,
+      "stable_source_order": 5531,
+      "frame_index": 242,
+      "texture": "res://art_source/earth_grass_pair_registration_v1/owners/owner-242.png",
+      "texture_size": [
+        2172,
+        724
+      ],
+      "sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+      "texture_sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+      "scale": 0.047619047619047616,
+      "world_top_left": [
+        2555.5,
+        985.4285714285714
+      ],
+      "raw_rect": [
+        0,
+        0,
+        2172,
+        724
+      ],
+      "empty": false,
+      "assigned_raw_pixel_count": 285836,
+      "visible_pixel_count": 82513
+    }
+  ],
+  "partition": {
+    "method": "fixed sheet seam x1300 separates whole objects; nearest original owner rectangles within each whole group, ties draw order. All4 rawpixels allocated exactly once. Every owner uses full2172x724 canvas; each group has shared origin.",
+    "all_rgba_bytes_equal": true
+  },
+  "shadow": "No new shadow; original two source owners replaced atomically including baked checker",
+  "fallback": "each two-owner group independently validates complete original identity; any failure restores that whole source group",
+  "statistics": {
+    "instance": "grass241_54_31",
+    "main_alpha_gt127_outside_source_owner_rectangles": 49,
+    "lowalpha_far_count": 581,
+    "lowalpha_far_max": 1,
+    "body_actual_pixels": [
+      658,
+      477
+    ],
+    "uniform_density": 21,
+    "support_uncertainty_raw_px": 30,
+    "whole_reassembly_equal": true
+  }
+}

@@ -1,0 +1,7 @@
+# Two bounded grass groups, static diagnostic candidates
+
+Reproduce build_registration.py. Common density21 and independent whole-group translations are exactly those parent reviewed. Each group keeps two original owners, all textures full2172×724 with shared group origin. Whole_A/B are fullcanvas disjoint masks of the original raw sheet; not resized or retouched. Sheet seam x1300 is in transparent inter-object space. Four owners partition all1,572,528 pixels exactly once including hidden RGB; disk readback matches whole groups and total raw RGBA. All source arrays match current map. No source map/collision edits.
+
+A alpha>127 body1083×566 maps51.57×26.95 logical; B658×477 maps31.33×22.71. True sample density21 on both axes. No pixel enlargement counted as detail. Parent accepted approximate support spans20.95/10.38 and uncertainty±30raw (±1.43logical), not physical roots. A denser foliage/seedheads remain documented visual differences. New main pixels beyond old rectangles A673/B49 retained and assigned nearest original owner; no clipping. Isolated far alpha1 pixels356/581 retained. No new ground shadow; both old owner identities atomically suppressed including original checker.
+
+GPU nearest parity and original route/depth checks still required independently per group. A failed group restores its complete2original owners without affecting the other. No ordinary promotion or second generation authorized here.

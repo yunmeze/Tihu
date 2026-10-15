@@ -1,0 +1,65 @@
+{
+  "status": "three-instance bounded candidate closure; only center already ordinary approved",
+  "center": {
+    "registration": "res://assets/earth/environment/round_shrub_v1/registration.json",
+    "sha256": "c6343a01b7d6d798209dbfe55904d20a347530a1bb783e9b5689a2259f6de524"
+  },
+  "pending_diag": [
+    {
+      "instance": "round_shrub_51_44",
+      "registration": "res://art_source/earth_round_shrub_translations_v1/registration_51_44.json",
+      "sha256": "96c9ab688413d284bac1727657a1e2d3546484d85c45616bc53e75c38de187ea",
+      "world_top_left": [
+        2407.0,
+        1333.0
+      ],
+      "delta": [
+        -288,
+        192
+      ]
+    },
+    {
+      "instance": "round_shrub_64_45",
+      "registration": "res://art_source/earth_round_shrub_translations_v1/registration_64_45.json",
+      "sha256": "c40590051edf6a176032581dd10a6d7b46bc00c1b78796c9250c1757c3267b30",
+      "world_top_left": [
+        3031.0,
+        1365.0
+      ],
+      "delta": [
+        336,
+        224
+      ]
+    }
+  ],
+  "shared_textures": [
+    {
+      "path": "res://art_source/earth_round_shrub_registration_v1/owners/owner-143.png",
+      "sha256": "cb403b3fd286ff1c2ec1085902ff1203ec7ad6f47ceb4ae513352ecad110476d"
+    },
+    {
+      "path": "res://art_source/earth_round_shrub_registration_v1/owners/owner-144.png",
+      "sha256": "ab996e6449515eb2297fba8e33f0a3ef9dce4046652caa2901bc206ec0da3cd1"
+    },
+    {
+      "path": "res://art_source/earth_round_shrub_registration_v1/owners/owner-145.png",
+      "sha256": "4314beb965f4e7c1a99f26546b13eda03dff49e134fb37d4ba97d02e4d7a271c"
+    },
+    {
+      "path": "res://art_source/earth_round_shrub_registration_v1/owners/owner-146.png",
+      "sha256": "507a822bd45f359787a16c63804fae7a6ccab0d31c28655f10df10a890c35219"
+    }
+  ],
+  "raw": {
+    "path": "res://art_source/earth_round_shrub_candidate_v1/raw.png",
+    "sha256": "1c495a5434e3ad92164f7e829ffc93809475fb730c555b609896f09986427e42"
+  },
+  "partition": {
+    "method": "Nearest Euclidean original cropped owner rectangle, ties original draw order, all raw pixels allocated once; all4use identical fullcanvas size/world origin",
+    "owner_labels": "res://art_source/earth_round_shrub_registration_v1/owner-labels.png",
+    "owner_labels_sha256": "7a8b547f2f6c15b3852b2978983776220679c85701510765bb0360e250362047",
+    "all_rgba_bytes_equal": true
+  },
+  "all_rgba_ownership_unchanged": true,
+  "new_generation": false
+}
