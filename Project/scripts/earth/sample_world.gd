@@ -4,7 +4,7 @@ var follow_actor:=false
 var flat_map_bound:=false
 func setup(actor:RefCounted,map_path:String="res://data/maps/A13.json") -> bool:
 	candidate_texture=null;candidate_ready=false;walk_texture=null;walk_ready=false;idle_shadow_bound=false;walk_shadow_bound=false
-	fangzhang_texture=null;lingyunzi_texture=null;tree_owners={};shrub_owners={};hall_owners={};ground_owners={}
+	fangzhang_texture=null;lingyunzi_texture=null;tree_owners={};shrub_owners={};hall_owners={};ground_owners={};upright_groups=[{},{}]
 	hero_shadow.clear_frame()
 	flat_map_bound=false
 	var ok=super.setup(actor,map_path)
@@ -121,6 +121,24 @@ func uses_tree(entry:Variant) -> bool:
 	if not tree_owners.has(order):return false
 	return InstanceIdentity.entry(entry,2,"Map/Res/Plant",tree_owners[order].index,1,order%100,order,Vector2(order/100,order%100)*Vector2(48,32))
 
+const UprightCandidate=preload("res://scripts/earth/upright_candidate.gd")
+var upright_groups:Array=[{},{}]
+func prepare_upright_group(instance:Variant,path:Variant=null) -> bool:
+	if not Guard.integer(instance,0,1):return false
+	var n=int(instance)
+	if path==null:path=UprightCandidate.PATHS[n]
+	upright_groups[n]=UprightCandidate.prepare(n,path,map);queue_redraw();return upright_groups[n].size()==6
+func upright_item(entry:Variant) -> Dictionary:
+	if not entry is Dictionary or not prefer_tree:return {}
+	var order=entry.get("order")
+	if not Guard.integer(order,0,9999):return {}
+	order=int(order)
+	for group in upright_groups:
+		if group.size()!=6 or not group.has(order):continue
+		var item=group[order]
+		if InstanceIdentity.entry(entry,2,"Map/Res/Plant",item.index,1,order%100,order,Vector2(order/100,order%100)*Vector2(48,32)):return item
+	return {}
+
 const Lingyunzi=preload("res://scripts/earth/lingyunzi_candidate.gd")
 var lingyunzi_texture:CanvasTexture
 func prepare_lingyunzi(path:Variant=Lingyunzi.PATH) -> bool:
@@ -176,6 +194,10 @@ func _draw() -> void:
 	for entry in ordered_objects():
 		if entry.kind==-1:
 			_draw_hero(movement.position*Vector2(48,32)+offset,movement.source_frame());continue
+		var upright=upright_item(entry)
+		if not upright.is_empty():
+			if not upright.empty:draw_texture_rect(upright.texture,Rect2(upright.origin+offset,upright.size),false)
+			continue
 		if uses_shrub(entry):
 			var item=shrub_owners[entry.order]
 			draw_texture_rect(item.texture,Rect2(item.origin+offset,item.size),false)

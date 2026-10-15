@@ -1,0 +1,83 @@
+{
+  "scope": "only50,41 and61,51; no same-ID mapwide replacement",
+  "registrations": [
+    {
+      "instance": "left_50_41",
+      "registration": "res://assets/earth/environment/upright_tree_v1/registration_left_50_41.json",
+      "sha256": "e8b5fae705b312e910a4acb60eda616829b50c1f014fe9bb22453944a9745acd",
+      "source_registration_sha256": "0a2a6846f51b3dc31b5c9795c91c0aafd0a77f581b5297e411452376c663b0c2"
+    },
+    {
+      "instance": "bottom_61_51",
+      "registration": "res://assets/earth/environment/upright_tree_v1/registration_bottom_61_51.json",
+      "sha256": "f6af7e14f47455d6ae7f76daa28c0c48ba7f3cd3912aed45d6bd85a5ea04b875",
+      "source_registration_sha256": "e9257db54ef10dde4d783e5eec1b99466e52497a5e81b1e342898e406d1bcf70"
+    }
+  ],
+  "same_sha_copies": [
+    {
+      "path": "Project/assets/earth/environment/upright_tree_v1/raw.png",
+      "source": "Project/art_source/earth_upright_tree_candidate_v1/raw.png",
+      "sha256": "ada0e0fd8952fe1dcc6b60dafb9d64be96476ed7736a881f1e5e401436b3db0f",
+      "bytes": 2361236
+    },
+    {
+      "path": "Project/assets/earth/environment/upright_tree_v1/owner-labels.png",
+      "source": "Project/art_source/earth_upright_tree_registration_v1/owner-labels.png",
+      "sha256": "29f5fc9e5101ca5df2370c1d4ffc907729675e971ec40482fa31f3070b7cb9de",
+      "bytes": 6493
+    },
+    {
+      "path": "Project/assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+      "source": "Project/art_source/earth_upright_tree_registration_v1/owners/owner-299.png",
+      "sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+      "bytes": 723362
+    },
+    {
+      "path": "Project/assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+      "source": "Project/art_source/earth_upright_tree_registration_v1/owners/owner-300.png",
+      "sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+      "bytes": 130178
+    },
+    {
+      "path": "Project/assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+      "source": "Project/art_source/earth_upright_tree_registration_v1/owners/owner-301.png",
+      "sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+      "bytes": 483725
+    },
+    {
+      "path": "Project/assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+      "source": "Project/art_source/earth_upright_tree_registration_v1/owners/owner-302.png",
+      "sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+      "bytes": 566155
+    },
+    {
+      "path": "Project/assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+      "source": "Project/art_source/earth_upright_tree_registration_v1/owners/owner-303.png",
+      "sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+      "bytes": 364892
+    },
+    {
+      "path": "Project/assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+      "source": "Project/art_source/earth_upright_tree_registration_v1/owners/owner-304.png",
+      "sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+      "bytes": 6175
+    }
+  ],
+  "unchanged_fields_verified": true,
+  "shared_scale": 0.2222222222222222,
+  "world_delta": [
+    528,
+    320
+  ],
+  "owner304": "explicit empty identity suppresses original shadow; no new shadow",
+  "gpu_evidence_reported_by_runner": {
+    "left_different_pixels": 38,
+    "bottom_different_pixels": 39,
+    "max_channel_difference": 2,
+    "original_route_ticks": 1184,
+    "additional_front_ticks": 672
+  },
+  "visual_review": "Viewed both depth-detail boards and clear-front-detail. Rear foliage/trunk-front relation preserved. Other source tree at61,56 and source grass over boots at64,56 remain; not claimed unobstructed.",
+  "frozen_stage54_manifest_sha256": "00bf04b42d62fd31b201de6b4d4980575cc9964f7c1fec4d8c5365fa0dd385d6"
+}

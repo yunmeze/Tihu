@@ -1,0 +1,601 @@
+{
+  "schema": "earth-shadow-next-stage-cpu-v1",
+  "status": "CPU measurements only; parent authorized Fangzhang-only GPU diagnostic; no GPU result claimed",
+  "method": "same conservative full raw-texel plus half-texel bilinear support and 1.8 logical AABB growth as existing gate; includes visible proxies. No PNG emitted. Fixed Lingyunzi phase0 receiver; body phases untouched.",
+  "records": [
+    {
+      "name": "fangzhang0",
+      "raw_size": [
+        512,
+        640
+      ],
+      "density": 4,
+      "world_origin": [
+        3040,
+        1080
+      ],
+      "reference_logical": [
+        43.03396668477356,
+        116.66098954966046
+      ],
+      "proxy_points_logical": [
+        [
+          43.03396668477356,
+          116.66098954966046
+        ],
+        [
+          63.07546095989713,
+          130.17416108824037
+        ]
+      ],
+      "slope": 0.6742596810933946,
+      "determinant": 0.2591116173120733,
+      "matrix_rows": [
+        [
+          1.8091116173120736,
+          -1.2
+        ],
+        [
+          1.0451025056947616,
+          -0.55
+        ]
+      ],
+      "translation_logical": [
+        105.17390507592151,
+        135.84962738973195
+      ],
+      "cast": [
+        1.2,
+        0.55
+      ],
+      "blur_logical": 0.8,
+      "raw_blur": 3.2,
+      "frame_draw_bounds_world_xyxy": [
+        2951.3739050759214,
+        1126.049627389732,
+        3378.540192091867,
+        1351.4227481186615
+      ],
+      "alpha_support_bounds_world_xyxy": [
+        3076.3145087205685,
+        1191.9781154307343,
+        3176.6173561009787,
+        1245.892209963764
+      ],
+      "envelope_inside_sample": true,
+      "conservative_overlap_forbidden_cells": 0,
+      "overlap_bounds_world_xyxy": null,
+      "whole_shadow_gate_pass": true,
+      "positive_alpha_texels": 16253,
+      "helper_exact_region_compatible": true,
+      "opaque_proxy_height_range": [
+        -1.353085937111672,
+        58.76422613578126
+      ],
+      "opaque_below_receiver_fraction": 0.0050376227521999745
+    },
+    {
+      "name": "lingyunzi0",
+      "raw_size": [
+        512,
+        640
+      ],
+      "density": 4,
+      "world_origin": [
+        2944,
+        1048
+      ],
+      "reference_logical": [
+        47.947484989553544,
+        123.64698334539128
+      ],
+      "proxy_points_logical": [
+        [
+          47.947484989553544,
+          123.64698334539128
+        ],
+        [
+          63.71751582182194,
+          123.64698334539128
+        ]
+      ],
+      "slope": 0.0,
+      "determinant": -0.55,
+      "matrix_rows": [
+        [
+          1.0,
+          -1.2
+        ],
+        [
+          0.0,
+          -0.55
+        ]
+      ],
+      "translation_logical": [
+        148.37638001446953,
+        191.65282418535648
+      ],
+      "cast": [
+        1.2,
+        0.55
+      ],
+      "blur_logical": 0.8,
+      "raw_blur": 3.2,
+      "frame_draw_bounds_world_xyxy": [
+        2898.5763800144696,
+        1149.8528241853564,
+        3222.17638001447,
+        1241.4528241853563
+      ],
+      "alpha_support_bounds_world_xyxy": [
+        2985.9013800144694,
+        1168.7590741853564,
+        3074.7013800144696,
+        1206.0465741853563
+      ],
+      "envelope_inside_sample": true,
+      "conservative_overlap_forbidden_cells": 233,
+      "overlap_bounds_world_xyxy": [
+        3003.0,
+        1169.0,
+        3012.0,
+        1175.5
+      ],
+      "whole_shadow_gate_pass": false,
+      "positive_alpha_texels": 14700,
+      "helper_exact_region_compatible": true,
+      "fixed_boot_roi_observations": [
+        {
+          "roi_raw_xyxy": [
+            179,
+            486,
+            204,
+            503
+          ],
+          "alpha128_lower_edge_logical_y": 123.75,
+          "proxy_logical_y": 123.64698334539128
+        },
+        {
+          "roi_raw_xyxy": [
+            242,
+            486,
+            267,
+            503
+          ],
+          "alpha128_lower_edge_logical_y": 123.75,
+          "proxy_logical_y": 123.64698334539128
+        }
+      ],
+      "opaque_proxy_height_range": [
+        0.021983345391277,
+        58.52198334539128
+      ],
+      "opaque_below_receiver_fraction": 0.0
+    },
+    {
+      "name": "lingyunzi1",
+      "raw_size": [
+        512,
+        640
+      ],
+      "density": 4,
+      "world_origin": [
+        2944,
+        1048
+      ],
+      "reference_logical": [
+        47.947484989553544,
+        123.64698334539128
+      ],
+      "proxy_points_logical": [
+        [
+          47.947484989553544,
+          123.64698334539128
+        ],
+        [
+          63.71751582182194,
+          123.64698334539128
+        ]
+      ],
+      "slope": 0.0,
+      "determinant": -0.55,
+      "matrix_rows": [
+        [
+          1.0,
+          -1.2
+        ],
+        [
+          0.0,
+          -0.55
+        ]
+      ],
+      "translation_logical": [
+        148.37638001446953,
+        191.65282418535648
+      ],
+      "cast": [
+        1.2,
+        0.55
+      ],
+      "blur_logical": 0.8,
+      "raw_blur": 3.2,
+      "frame_draw_bounds_world_xyxy": [
+        2898.5763800144696,
+        1149.8528241853564,
+        3222.17638001447,
+        1241.4528241853563
+      ],
+      "alpha_support_bounds_world_xyxy": [
+        2969.101380014469,
+        1167.7965741853566,
+        3077.90138001447,
+        1206.3215741853564
+      ],
+      "envelope_inside_sample": true,
+      "conservative_overlap_forbidden_cells": 224,
+      "overlap_bounds_world_xyxy": [
+        3003.0,
+        1169.0,
+        3012.0,
+        1175.5
+      ],
+      "whole_shadow_gate_pass": false,
+      "positive_alpha_texels": 13929,
+      "helper_exact_region_compatible": true,
+      "fixed_boot_roi_observations": [
+        {
+          "roi_raw_xyxy": [
+            179,
+            486,
+            204,
+            503
+          ],
+          "alpha128_lower_edge_logical_y": 123.75,
+          "proxy_logical_y": 123.64698334539128
+        },
+        {
+          "roi_raw_xyxy": [
+            242,
+            486,
+            267,
+            503
+          ],
+          "alpha128_lower_edge_logical_y": 123.75,
+          "proxy_logical_y": 123.64698334539128
+        }
+      ],
+      "opaque_proxy_height_range": [
+        0.021983345391277,
+        55.27198334539128
+      ],
+      "opaque_below_receiver_fraction": 0.0
+    },
+    {
+      "name": "lingyunzi2",
+      "raw_size": [
+        512,
+        640
+      ],
+      "density": 4,
+      "world_origin": [
+        2944,
+        1048
+      ],
+      "reference_logical": [
+        47.947484989553544,
+        123.64698334539128
+      ],
+      "proxy_points_logical": [
+        [
+          47.947484989553544,
+          123.64698334539128
+        ],
+        [
+          63.71751582182194,
+          123.64698334539128
+        ]
+      ],
+      "slope": 0.0,
+      "determinant": -0.55,
+      "matrix_rows": [
+        [
+          1.0,
+          -1.2
+        ],
+        [
+          0.0,
+          -0.55
+        ]
+      ],
+      "translation_logical": [
+        148.37638001446953,
+        191.65282418535648
+      ],
+      "cast": [
+        1.2,
+        0.55
+      ],
+      "blur_logical": 0.8,
+      "raw_blur": 3.2,
+      "frame_draw_bounds_world_xyxy": [
+        2898.5763800144696,
+        1149.8528241853564,
+        3222.17638001447,
+        1241.4528241853563
+      ],
+      "alpha_support_bounds_world_xyxy": [
+        2987.2013800144696,
+        1169.3090741853566,
+        3089.55138001447,
+        1204.6715741853563
+      ],
+      "envelope_inside_sample": true,
+      "conservative_overlap_forbidden_cells": 211,
+      "overlap_bounds_world_xyxy": [
+        3003.0,
+        1169.5,
+        3012.0,
+        1175.5
+      ],
+      "whole_shadow_gate_pass": false,
+      "positive_alpha_texels": 13476,
+      "helper_exact_region_compatible": true,
+      "fixed_boot_roi_observations": [
+        {
+          "roi_raw_xyxy": [
+            179,
+            486,
+            204,
+            503
+          ],
+          "alpha128_lower_edge_logical_y": 123.75,
+          "proxy_logical_y": 123.64698334539128
+        },
+        {
+          "roi_raw_xyxy": [
+            242,
+            486,
+            267,
+            503
+          ],
+          "alpha128_lower_edge_logical_y": 123.75,
+          "proxy_logical_y": 123.64698334539128
+        }
+      ],
+      "opaque_proxy_height_range": [
+        0.021983345391277,
+        53.52198334539128
+      ],
+      "opaque_below_receiver_fraction": 0.0
+    },
+    {
+      "name": "lingyunzi3",
+      "raw_size": [
+        512,
+        640
+      ],
+      "density": 4,
+      "world_origin": [
+        2944,
+        1048
+      ],
+      "reference_logical": [
+        47.947484989553544,
+        123.64698334539128
+      ],
+      "proxy_points_logical": [
+        [
+          47.947484989553544,
+          123.64698334539128
+        ],
+        [
+          63.71751582182194,
+          123.64698334539128
+        ]
+      ],
+      "slope": 0.0,
+      "determinant": -0.55,
+      "matrix_rows": [
+        [
+          1.0,
+          -1.2
+        ],
+        [
+          0.0,
+          -0.55
+        ]
+      ],
+      "translation_logical": [
+        148.37638001446953,
+        191.65282418535648
+      ],
+      "cast": [
+        1.2,
+        0.55
+      ],
+      "blur_logical": 0.8,
+      "raw_blur": 3.2,
+      "frame_draw_bounds_world_xyxy": [
+        2898.5763800144696,
+        1149.8528241853564,
+        3222.17638001447,
+        1241.4528241853563
+      ],
+      "alpha_support_bounds_world_xyxy": [
+        2987.851380014469,
+        1169.4465741853564,
+        3072.40138001447,
+        1204.9465741853564
+      ],
+      "envelope_inside_sample": true,
+      "conservative_overlap_forbidden_cells": 211,
+      "overlap_bounds_world_xyxy": [
+        3003.0,
+        1169.5,
+        3012.0,
+        1175.5
+      ],
+      "whole_shadow_gate_pass": false,
+      "positive_alpha_texels": 14140,
+      "helper_exact_region_compatible": true,
+      "fixed_boot_roi_observations": [
+        {
+          "roi_raw_xyxy": [
+            179,
+            486,
+            204,
+            503
+          ],
+          "alpha128_lower_edge_logical_y": 123.75,
+          "proxy_logical_y": 123.64698334539128
+        },
+        {
+          "roi_raw_xyxy": [
+            242,
+            486,
+            267,
+            503
+          ],
+          "alpha128_lower_edge_logical_y": 123.75,
+          "proxy_logical_y": 123.64698334539128
+        }
+      ],
+      "opaque_proxy_height_range": [
+        0.021983345391277,
+        56.52198334539128
+      ],
+      "opaque_below_receiver_fraction": 0.0
+    },
+    {
+      "name": "first_tree",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "density": 4,
+      "world_origin": [
+        2630.25,
+        784.0
+      ],
+      "reference_logical": [
+        130.75,
+        306.0
+      ],
+      "proxy_points_logical": [
+        [
+          130.75,
+          306.0
+        ]
+      ],
+      "slope": 0,
+      "determinant": -0.55,
+      "matrix_rows": [
+        [
+          1.0,
+          -1.2
+        ],
+        [
+          0.0,
+          -0.55
+        ]
+      ],
+      "translation_logical": [
+        367.2,
+        474.3
+      ],
+      "cast": [
+        1.2,
+        0.55
+      ],
+      "blur_logical": 0.8,
+      "raw_blur": 3.2,
+      "frame_draw_bounds_world_xyxy": [
+        2619.45,
+        1084.075,
+        3312.75,
+        1260.1
+      ],
+      "alpha_support_bounds_world_xyxy": [
+        2633.4249999999997,
+        1084.0062500000001,
+        3253.8250000000003,
+        1260.16875
+      ],
+      "envelope_inside_sample": true,
+      "conservative_overlap_forbidden_cells": 1804,
+      "overlap_bounds_world_xyxy": [
+        3003.0,
+        1140.0,
+        3242.5,
+        1233.0
+      ],
+      "whole_shadow_gate_pass": false,
+      "positive_alpha_texels": 698689,
+      "helper_exact_region_compatible": false,
+      "opaque_proxy_height_range": [
+        -2.375,
+        302.625
+      ],
+      "opaque_below_receiver_fraction": 0.0007481853522691831
+    }
+  ],
+  "input_sha256": {
+    "assets/earth/npc/fangzhang_v1/manifest.json": "0239fc9ac1f662d7756710f4f824e9d7a25a474caa0206996b6c9b2e269f9d59",
+    "assets/earth/npc/lingyunzi_v2/manifest.json": "f9cf04374b533f225514215f6c798d4eac7592beb8b86bb5f715d3945278c9be",
+    "assets/earth/environment/first_tree_v1/registration.json": "a83f1f401b10394e13e7822f6eb04078cace3db3dc0bdca10e275b38d0bb9b27",
+    "art_source/earth_npc_fangzhang_candidate_v1/review.json": "3b815b96ffa4481be70f699232c1ede27e270fd3182b4335a80a10760c3180ca",
+    "art_source/earth_npc_lingyunzi_candidate_v2/review.json": "fb9165d29452da00c973679fe919479f3f133535f1450bac40288b98c81bfe21",
+    "art_source/earth_npc_lingyunzi_candidate_v2/x-only-registration.json": "9855bb4a6f1bdfb498e7aac356d86ec5fe76fe64dbfc6fbbf39167dd687765d8",
+    "art_source/earth_npc_lingyunzi_candidate_v2/phase-feature-measurements.json": "287a761b7d4365e3068e296b6c9d3c5484efa072c1b4e65f1764033481ad3827",
+    "assets/earth/shadows/se_flat_v1/manifest.json": "3c7ac445562535c706cd58ebef625880308860ddfa012686fee600223beaec48",
+    "assets/earth/shadows/se_flat_v1/allowed.png": "06d4a6fe1e8404c48619d51b72a67d82795fb178a34089e35b0661df5f9eb2dc",
+    "assets/earth/environment/training_hall_v1/owner-3967.png": "40c271540249c9981ae4340564cbf42d359957b7389d3b1b9ea12d588e6d9f8f",
+    "assets/earth/environment/training_hall_v1/owner-3968.png": "5c3bcf8d4afe72c74d588f8f9d763f292d8a6903f109447ae799221f02291e0d",
+    "assets/earth/environment/training_hall_v1/owner-3969.png": "9af2836b77f74c97ca3a7c4a09f504bacdde8cdf0e173312fe52944943d1062c",
+    "assets/earth/environment/training_hall_v1/owner-3970.png": "937969a147c8389e53ee931dd0c10354f2424d97649bc73e0adb078bd05a7fd8",
+    "assets/earth/environment/training_hall_v1/owner-3971.png": "bf8c3c2a4d1a65f3935dfcf4a81797f38487bbe5efdad61734cf3dec25cb5eb8",
+    "assets/earth/environment/training_hall_v1/owner-3972.png": "9a8c73705728ae1e9725eb5a98371767c618486f7743da97b32761bc57da6be9",
+    "assets/earth/environment/training_hall_v1/owner-3973.png": "048407117db692a2aad367c597d3532ea897ffdebffc0d0283586fcd2b672d10",
+    "assets/earth/environment/training_hall_v1/owner-3974.png": "f5229a5ca2869750110d0fc305c46f3f29b98556c57779e789f75e47ada432ad",
+    "assets/earth/environment/training_hall_v1/owner-3975.png": "4f5c931a75f01aea1b599e9d5e87e5b6f690df89dcfd2be1870ead8a9394befc",
+    "assets/earth/environment/training_hall_v1/owner-3976.png": "01c4b3a11397e702fe1de6f59c69fbfee94ef3e932ca4a403cc5e2b4a617bdf6",
+    "assets/earth/environment/training_hall_v1/owner-3977.png": "d30e217656e95fbb008a89fee9c5b022ad8f19ffdb40714b6d665b592a443cb5",
+    "assets/earth/environment/training_hall_v1/owner-3979.png": "2873987d5851bc6d8447a02aca78d36194ac8caa9eb9faefd7368926c0bd17b2",
+    "assets/earth/environment/training_hall_v1/owner-3980.png": "b430178191619833a0e43c6baa16fb66ce3e3f10e159003059ad9818c53b42aa",
+    "assets/earth/environment/training_hall_v1/owner-3981.png": "087e534ddb457d4e3521b3128dc4a151831ae12d400d905ab95331b9d0659199",
+    "assets/earth/environment/training_hall_v1/owner-3982.png": "216026b2cc0c70fff2b186f3095921acafe76582e2fc8d83a900e42005917314",
+    "assets/earth/environment/training_hall_v1/owner-3983.png": "f83b79acc6030c7de2c193d91dc2d60b5712e11b75e6a831117fbb926895fdb6",
+    "assets/earth/environment/training_hall_v1/owner-3984.png": "00b095852735002b5dda3662d9775333af20ef0a296d49b82797983154063ab7",
+    "assets/earth/environment/training_hall_v1/owner-3985.png": "430e3227462d43debfb30f76055b89ba615092a0c914828c1a5ad87909886a90",
+    "assets/earth/environment/training_hall_v1/owner-3986.png": "ef90181db2ace5b61a80ac83aede7e001febd27b1fb01ab67449d10dacf7c030",
+    "assets/earth/environment/training_hall_v1/owner-3987.png": "e4ee7ffa9240441b072db6efda4d6d47f6c17e770b0a6e8c3e6f1da38572df5a",
+    "assets/earth/environment/training_hall_v1/owner-3988.png": "d475e82a8a7b4fda607337b6d1f45533cf34a21f6f3f4563481c89fedc3f0675",
+    "assets/earth/environment/training_hall_v1/owner-3989.png": "77185d0dc86e99f14ae5ba9add6d8eb98388fdfa56abbcff9c8aee0e55df9661",
+    "assets/earth/environment/training_hall_v1/owner-3990.png": "477ceab276fbf928212fa6c2f18baa4e41072d6108816e52f428560d44f7a086",
+    "assets/earth/environment/training_hall_v1/owner-3991.png": "66b3c66e03abdb8d03483840da5b51d1474d13b1b97e0fb94d2a595211ecb6d6",
+    "assets/earth/environment/training_hall_v1/owner-3992.png": "00e0964b4a04a03a5a64e70e1f2372cd15fb17c58a13215863b8532dfbbe16e4",
+    "assets/earth/environment/training_hall_v1/owner-3993.png": "12db874c2329fc3f295362ea139a367f9e09a57c5cd9ddc4798e40871f6a7970",
+    "assets/earth/environment/training_hall_v1/owner-3994.png": "b1dec5c030bfff7038bf5f6e164e3470d6b8965e751ba3aea759f06982f194f5",
+    "assets/earth/environment/training_hall_v1/owner-3995.png": "dec23f8de636882ea6e4ffac026d6dedf8193e5641756a23ee0f61fcd3645ab6",
+    "assets/earth/environment/training_hall_v1/registration.json": "57072cc60ed9e33aa9afaeb0c7310733216e2884e0b042b043077551473e273c",
+    "assets/earth/hero/se_idle_v1/body.png": "60f89f65dd817ec80065de941e62e36e1068302c3f2bc4eb5014d8d56f450c02",
+    "assets/earth/hero/se_idle_v1/manifest.json": "3672409856c27b1e81d543b8a0a29063e16170b2cafbaf55f5d6351fb1e9b5a3",
+    "assets/earth/hero/se_walk_v1/body.png": "f4eee4ec3a35e6597eb3a1eb4f6e5122163845ca474673974af1531ac42489ac",
+    "assets/earth/hero/se_walk_v1/manifest.json": "127727940bd2651460bbe90396f80e7c75d89a7d8675f5d3467e5a5f46e229d7",
+    "assets/original/Map/Res/Building/0.png": "6fc88a1aa96eb18687eea798bcb4eae1f0ebf6d546a5a076fb1c2546550b3343",
+    "assets/original/manifest.json": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+    "data/earth/a13_hall_source_scope.json": "4288603a7dfd0ccc90a3bebf71473aca47a0bd57c448d6c33480b3f8952ff59e",
+    "data/maps/A13.json": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "scripts/art/density_alpha_ground_shadow.gd": "cfc61e6c2b647bee68b063c1eecd884e1ac0ffa545fc1a59b3c3af4397adaf47",
+    "scripts/art/hero_alpha_ground_shadow.gd": "3eeebe50bfdd235fee24b30bfbdaaad5517a5254bd7e318b73abc80adb5ccdd2",
+    "scripts/world_view.gd": "b404d8dd5e7e85a120fec00b7eb5f01e6bfc1fc37adf5e7878c1798432d4e285",
+    "shaders/density_alpha_ground_shadow.gdshader": "b4d976938acbb3b57df13bf85ade4ebf3173c0634b5e7ee4338e8b038bf51f3b",
+    "shaders/hero_alpha_ground_shadow.gdshader": "d8f4894fd16458a3a7aabb5db5af4a95f39320f5e2549c33467f79f5a5089c24",
+    "scripts/earth/sample_world.gd": "dc006cdef1459b9dd6758e341e11a82bd3f1dcac90c37834263be83acf17cacd",
+    "scripts/earth/flat_shadow_gate.gd": "bb31c6ab95c0950fecd196731f8c87d1e03e2c771b5427bc5d4ae8abf18d32c7",
+    "scripts/earth/fangzhang_candidate.gd": "8f3b21d4f24c73299b8685715f58b8a4f15cbb9b454e84a34c69d9a12831e6a8",
+    "assets/earth/npc/fangzhang_v1/body.png": "21cfcd0e60c40944c3623e2d9b989e3d7eeb006a3ebbd2be648a69f655cf04bc",
+    "assets/earth/npc/lingyunzi_v2/body.png": "541c6d0a7a1cf3dd1cd547be037cf17e2f9a6083b8de90c1641f13fbaf9bbb9e",
+    "assets/earth/environment/first_tree_v1/whole-review.png": "c639ad6e35e10f3a4c61d13a38258b2db1f077cea3f757ec8e064762601cc9e6"
+  }
+}
