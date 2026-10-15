@@ -1,0 +1,225 @@
+{
+  "status": "SCOPE PROPOSAL ONLY; no generation or candidate pixel modification",
+  "candidate_sha256": "6f4d9054ca1eb9969171f82b9b4c7dce5dd4e3269fd814d1060f493ca8002eb2",
+  "source_sha256": "72a0708c909bd09eb01898b28a4261380f4cea0ca520e51038c02b032c11c561",
+  "old_overlap_sha256": "922657fc72d2343ae485dbc84cd8fa191860c0e90ac531cd21a6a3e3ba2b1979",
+  "coordinate_contract": "All mask points in full candidate1536x1024 raw pixels; world=[2400,1408]+raw/2. Half-open bbox.",
+  "A": {
+    "source_center_proxy_points_raw": [
+      [
+        208,
+        558
+      ],
+      [
+        160,
+        590
+      ],
+      [
+        112,
+        622
+      ],
+      [
+        88,
+        638
+      ],
+      [
+        84,
+        704
+      ],
+      [
+        80,
+        770
+      ],
+      [
+        56,
+        786
+      ]
+    ],
+    "source_center_proxy_points_world": [
+      [
+        2504.0,
+        1687.0
+      ],
+      [
+        2480.0,
+        1703.0
+      ],
+      [
+        2456.0,
+        1719.0
+      ],
+      [
+        2444.0,
+        1727.0
+      ],
+      [
+        2442.0,
+        1760.0
+      ],
+      [
+        2440.0,
+        1793.0
+      ],
+      [
+        2428.0,
+        1801.0
+      ]
+    ],
+    "candidate_center_proxy_points_raw": [
+      [
+        208,
+        598
+      ],
+      [
+        160,
+        632
+      ],
+      [
+        112,
+        665
+      ],
+      [
+        102,
+        674
+      ],
+      [
+        100,
+        720
+      ],
+      [
+        94,
+        774
+      ],
+      [
+        56,
+        800
+      ]
+    ],
+    "source_manual_uncertainty_raw": 6,
+    "kink_manual_uncertainty_raw": 8,
+    "interpretation_limit": "Source thin curb center proxy versus candidate wider curb center; not exact physical survey. Top diagonal continues outside A with an unresolved mismatch.",
+    "fixed_binary_replace_mask": "A_fixed_replace_mask.png",
+    "fixed_mask_bbox_raw": [
+      48,
+      545,
+      218,
+      813
+    ],
+    "fixed_mask_bbox_world": [
+      [
+        2424.0,
+        1680.5
+      ],
+      [
+        2509.0,
+        1814.5
+      ]
+    ],
+    "context_raw": [
+      0,
+      497,
+      282,
+      861
+    ],
+    "replace_pixel_count": 17025,
+    "output_assembly": "Only future generated patch texels where fixed mask255; outside mask original candidate v1 exactly. No blend, warp or new resize.",
+    "blocked_constraint": "Upper diagonal source-vs-candidate offset persists at right context entry. Freezing outside A can force a new bend. Parent must approve a feasible local joint or bounded diagonal extension; A is not approved for generation yet."
+  },
+  "B": {
+    "allowed_mask": "B_grass_only_allowed_mask.png",
+    "proposed_weight": "B_PROPOSED_generation_weight_NOT_APPLIED.png",
+    "allowed_pixel_count": 46673,
+    "maximum_width_raw": 64,
+    "maximum_width_logical": 32,
+    "proposed_inner_transition_raw": 16,
+    "proposed_inner_transition_logical": 8,
+    "zones": [
+      {
+        "name": "west",
+        "polygon_raw": [
+          [
+            128,
+            0
+          ],
+          [
+            192,
+            0
+          ],
+          [
+            192,
+            128
+          ],
+          [
+            128,
+            128
+          ]
+        ],
+        "contact": "west old/new seam, new side only"
+      },
+      {
+        "name": "north_left_conservative",
+        "polygon_raw": [
+          [
+            160,
+            128
+          ],
+          [
+            224,
+            128
+          ],
+          [
+            160,
+            176
+          ]
+        ],
+        "contact": "north1 small grass wedge; narrowing avoids diagonal road"
+      },
+      {
+        "name": "north_right",
+        "polygon_raw": [
+          [
+            960,
+            128
+          ],
+          [
+            1536,
+            128
+          ],
+          [
+            1536,
+            192
+          ],
+          [
+            960,
+            192
+          ]
+        ],
+        "contact": "north5..7 grass"
+      }
+    ],
+    "excluded_contacts": "north2/3 paving, north4 curb/ambiguous roadside grass and nearby north1 road edge remain unchanged; cannot claim all8seams solved",
+    "patch_contexts_raw": [
+      [
+        96,
+        0,
+        288,
+        224
+      ],
+      [
+        896,
+        64,
+        1536,
+        224
+      ]
+    ],
+    "provenance_formula": "Within allowed B: round((weight*future_patch_RGB+(255-weight)*original_candidate_v1_RGB)/255). Weight0 and outside B use original candidate bytes. No old-v4 RGB sampled into blend. Actual future patch SHA must be recorded. Formula is proposed only, never applied.",
+    "boundary_requirement": "At old/new contact generated new-side pixels must visually match frozen original7; finite blend inside new side cannot rescue bad outer boundary. Reject if still discontinuous."
+  },
+  "invariants": {
+    "A_B_disjoint": true,
+    "frozen_old7_changed_pixels": 0,
+    "outside_new57_mask_pixels": 0,
+    "no_navigation_or_source_data_change": true,
+    "no_final_art_processed": true
+  }
+}

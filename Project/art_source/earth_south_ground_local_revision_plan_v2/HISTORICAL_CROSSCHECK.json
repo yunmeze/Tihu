@@ -1,0 +1,210 @@
+{
+  "status": "CROSSCHECK ONLY; no art change",
+  "mapping": {
+    "coordinate_type": "Continuous image edge coordinates used in manual readings; texel center adds0.5 before dividing by2. Never mix conventions for differences.",
+    "south_raw_to_world": "world=(2400,1408)+south_raw/2",
+    "old_v4_raw_to_world": "world=(2496,960)+old_raw/2",
+    "south_raw_to_old_v4_raw": "old_raw=south_raw+(-192,+896)",
+    "south_raw_to_south_source_native": "source_native=south_raw/2",
+    "south_raw_to_old_source_native": "old_source_native=(south_raw+(-192,+896))/2",
+    "interface": "south y128 => world y1472 => oldraw y1024 boundary. Last immutable old texel row1023 spans world1471.5..1472; new first row128 spans1472..1472.5. Compare one-sided extrapolated edges, not identical pixelrow.",
+    "south_overlap": "southraw[192,0,1536,128] corresponds oldraw[0,896,1344,1024]"
+  },
+  "overlap_source_byte_check": {
+    "old_native_crop": [
+      0,
+      448,
+      672,
+      512
+    ],
+    "south_native_crop": [
+      96,
+      0,
+      768,
+      64
+    ],
+    "rgb_unequal_pixels": 0
+  },
+  "historical_six_points_mapped": [
+    {
+      "source_center_raw": [
+        382,
+        834
+      ],
+      "v4_center_raw_approx": [
+        385,
+        833
+      ],
+      "delta_logical": [
+        1.5,
+        -0.5
+      ],
+      "distance_logical": 1.5811388300841898,
+      "source_world": [
+        2687.0,
+        1377.0
+      ],
+      "source_south_raw": [
+        574,
+        -62
+      ],
+      "v4_south_raw": [
+        577,
+        -63
+      ]
+    },
+    {
+      "source_center_raw": [
+        768,
+        578
+      ],
+      "v4_center_raw_approx": [
+        771,
+        576
+      ],
+      "delta_logical": [
+        1.5,
+        -1.0
+      ],
+      "distance_logical": 1.8027756377319946,
+      "source_world": [
+        2880.0,
+        1249.0
+      ],
+      "source_south_raw": [
+        960,
+        -318
+      ],
+      "v4_south_raw": [
+        963,
+        -320
+      ]
+    },
+    {
+      "source_center_raw": [
+        960,
+        582
+      ],
+      "v4_center_raw_approx": [
+        959,
+        576
+      ],
+      "delta_logical": [
+        -0.5,
+        -3.0
+      ],
+      "distance_logical": 3.0413812651491097,
+      "source_world": [
+        2976.0,
+        1251.0
+      ],
+      "source_south_raw": [
+        1152,
+        -314
+      ],
+      "v4_south_raw": [
+        1151,
+        -320
+      ]
+    },
+    {
+      "source_center_raw": [
+        1048,
+        636
+      ],
+      "v4_center_raw_approx": [
+        1050,
+        637
+      ],
+      "delta_logical": [
+        1.0,
+        0.5
+      ],
+      "distance_logical": 1.118033988749895,
+      "source_world": [
+        3020.0,
+        1278.0
+      ],
+      "source_south_raw": [
+        1240,
+        -260
+      ],
+      "v4_south_raw": [
+        1242,
+        -259
+      ]
+    },
+    {
+      "source_center_raw": [
+        1048,
+        774
+      ],
+      "v4_center_raw_approx": [
+        1050,
+        769
+      ],
+      "delta_logical": [
+        1.0,
+        -2.5
+      ],
+      "distance_logical": 2.692582403567252,
+      "source_world": [
+        3020.0,
+        1347.0
+      ],
+      "source_south_raw": [
+        1240,
+        -122
+      ],
+      "v4_south_raw": [
+        1242,
+        -127
+      ]
+    },
+    {
+      "source_center_raw": [
+        872,
+        896
+      ],
+      "v4_center_raw_approx": [
+        874,
+        896
+      ],
+      "delta_logical": [
+        1.0,
+        0.0
+      ],
+      "distance_logical": 1.0,
+      "source_world": [
+        2932.0,
+        1408.0
+      ],
+      "source_south_raw": [
+        1064,
+        0
+      ],
+      "v4_south_raw": [
+        1066,
+        0
+      ]
+    }
+  ],
+  "historical_conclusion_limit": "3.041381 max logical distance applies only to those six manually recorded center landmarks, not every curb point or every edge. None is the new interface at world y1472. Last old-source landmark maps south(1064,0),128raw above interface (approximately192raw horizontal progression along slope-2/3); exact visual definition needs independent re-read.",
+  "current_definition_limit": "Current five source points are thin dark/light curb feature proxies; current candidate center is average of newly wider paving/curb and curb/grass transitions. They are not proven homologous. Original source is geometric authority. Do not equate old7 freeze with source accuracy.",
+  "preliminary_interface_correction": "24–30raw horizontal gap was a provisional different-width center comparison, NOT established12–15logical source-geometry error. Horizontal intercept displacement must be converted to perpendicular distance for straight-line comparison: dx*|m|/sqrt(1+m*m), then /2 logical, approximately0.277*dx for m=-2/3. Material-width and source-read uncertainty remain.",
+  "required_disposition": "Independent review must identify homologous source/v4 boundaries and re-read last historical point before calling old-v4 wrong. If confirmed wrong, explicitly reopen affected old region preserving v4; do not curve source line or secretly edit old pixels.",
+  "inputs": [
+    {
+      "path": "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_ground_plate_source_v1/source-floor-native.png",
+      "sha256": "6a2e9cfc50ec743b8d346c5a3488fe8b082f73ae357d81bf984b6a22904e39bc"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_south_ground_input_plan_v1/source_floor_layout_native.png",
+      "sha256": "72a0708c909bd09eb01898b28a4261380f4cea0ca520e51038c02b032c11c561"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_ground_plate_clean_regen_v4/review.json",
+      "sha256": "89e9eefb1d324e3e8cc5455536fc8dbdfe7f46aa82f12d8d5902604f3824ed4e"
+    }
+  ]
+}

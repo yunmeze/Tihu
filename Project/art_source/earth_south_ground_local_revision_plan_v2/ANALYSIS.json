@@ -1,0 +1,169 @@
+{
+  "status": "PROPOSAL ONLY; blocked at frozen interface; no generation or final RGB assembly",
+  "coordinate_contract": "raw1536x1024; world=(2400,1408)+raw/2; boxes half-open",
+  "inputs": [
+    {
+      "path": "art_source/earth_south_ground_candidate_v1/raw.png",
+      "sha256": "6f4d9054ca1eb9969171f82b9b4c7dce5dd4e3269fd814d1060f493ca8002eb2"
+    },
+    {
+      "path": "art_source/earth_south_ground_input_plan_v1/source_floor_layout_native.png",
+      "sha256": "72a0708c909bd09eb01898b28a4261380f4cea0ca520e51038c02b032c11c561"
+    },
+    {
+      "path": "art_source/earth_south_ground_input_plan_v1/approved_overlap_2x.png",
+      "sha256": "922657fc72d2343ae485dbc84cd8fa191860c0e90ac531cd21a6a3e3ba2b1979"
+    }
+  ],
+  "five_read_points": [
+    {
+      "x": 208,
+      "source_y": 558,
+      "candidate_inner_y": 588,
+      "candidate_outer_y": 612,
+      "candidate_center_y": 600.0,
+      "source_uncertainty_raw": 6,
+      "candidate_edge_uncertainty_raw": 4,
+      "delta_center_y": 42.0
+    },
+    {
+      "x": 400,
+      "source_y": 430,
+      "candidate_inner_y": 448,
+      "candidate_outer_y": 470,
+      "candidate_center_y": 459.0,
+      "source_uncertainty_raw": 6,
+      "candidate_edge_uncertainty_raw": 4,
+      "delta_center_y": 29.0
+    },
+    {
+      "x": 600,
+      "source_y": 298,
+      "candidate_inner_y": 309,
+      "candidate_outer_y": 332,
+      "candidate_center_y": 320.5,
+      "source_uncertainty_raw": 6,
+      "candidate_edge_uncertainty_raw": 4,
+      "delta_center_y": 22.5
+    },
+    {
+      "x": 800,
+      "source_y": 166,
+      "candidate_inner_y": 166,
+      "candidate_outer_y": 188,
+      "candidate_center_y": 177.0,
+      "source_uncertainty_raw": 6,
+      "candidate_edge_uncertainty_raw": 4,
+      "delta_center_y": 11.0
+    },
+    {
+      "x": 900,
+      "source_y": 102,
+      "candidate_inner_y": 96,
+      "candidate_outer_y": 120,
+      "candidate_center_y": 108.0,
+      "source_uncertainty_raw": 6,
+      "candidate_edge_uncertainty_raw": 4,
+      "delta_center_y": 6.0
+    }
+  ],
+  "least_squares_y_equals_mx_plus_b": {
+    "source_y": [
+      -0.6595074342052946,
+      694.3695237337989
+    ],
+    "candidate_center_y": [
+      -0.7099181541703102,
+      745.788398465452
+    ]
+  },
+  "limits": "Manual source proxy +/-6raw, candidate edge +/-4raw. Different material widths mean centers are not identical physical semantics. Fits describe visible trend, not replacement geometry.",
+  "interpretation": "Continuous diagonal orientation drift plus visibly widened curb, and displaced upper kink. Not constant parallel translation, not an isolated corner defect.",
+  "source_intended_diagonal": "approx y=698-(2/3)x; use source uncertainty band, never fit replacement to erroneous candidate",
+  "proposed_strip": {
+    "file": "A2_PROPOSED_complete_strip_mask.png",
+    "source_control_polyline_raw": [
+      [
+        855,
+        128
+      ],
+      [
+        88,
+        638
+      ],
+      [
+        80,
+        770
+      ],
+      [
+        0,
+        824
+      ]
+    ],
+    "candidate_cover_polyline_raw": [
+      [
+        872,
+        128
+      ],
+      [
+        102,
+        674
+      ],
+      [
+        94,
+        774
+      ],
+      [
+        0,
+        842
+      ]
+    ],
+    "bbox_raw": [
+      0,
+      128,
+      885,
+      858
+    ],
+    "pixels": 66049,
+    "source_line_width_raw": 32,
+    "candidate_cover_line_width_raw": 40,
+    "purpose": "Smallest conservative complete ribbon under declared margins: source/candidate gap plus their curb material and 8raw neighborhood, tuft included. Not globally optimized pixel segmentation.",
+    "old7_mask_pixels": 0,
+    "row128_allowed_x_halfopen": [
+      827,
+      874
+    ],
+    "assembly": "Only after scope approval: fixed binary mask and generated patch texels; everything else candidate-v1 exactly; old7 final layer remains original assets."
+  },
+  "frozen_interface": {
+    "raw_y": 128,
+    "source_center_x_range": [
+      852,
+      870
+    ],
+    "old_v4_inner_edge_x_range": [
+      866,
+      874
+    ],
+    "old_v4_outer_edge_x_range": [
+      898,
+      906
+    ],
+    "old_v4_center_x_range": [
+      882,
+      890
+    ],
+    "candidate_v1_inner_edge_x_range": [
+      852,
+      860
+    ],
+    "candidate_v1_outer_edge_x_range": [
+      884,
+      892
+    ],
+    "result": "Compatibility unresolved. Different thin-source proxy / thick generated curb center definitions and finite uncertainty prohibit treating the initial horizontal gap as proven geometric error. See HISTORICAL_CROSSCHECK.json and await independent homologous-edge review.",
+    "decision_needed": "Review source feature meaning against old v4 INNER edge vs center; if inner-edge convention is accepted as source boundary, freeze that convention explicitly and measure continuation before generation. Otherwise stop A; relaxing old7 freeze requires separate approval and is not proposed here."
+  },
+  "B": "v1 grass-only plan remains pending, unchanged; no B weights applied",
+  "fallback_material_plan": "Generate separate local grass/slab/curb material patches only after approval; construct fixed source-geometry coverage masks, assemble texels from explicit generated patch coordinates at2x without repeated tile, mirror, warp or scale. Does not solve frozen-interface incompatibility; geometry convention must be agreed first."
+}

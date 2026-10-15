@@ -1,0 +1,898 @@
+{
+  "status": "INPUT/MASK PROPOSAL ONLY. No image generation or final assembly. Parent must approve five-old-owner reopen and source-faithful curb width convention.",
+  "world_xyxy": [
+    2400,
+    1296,
+    3168,
+    1872
+  ],
+  "native_pixels": [
+    1536,
+    1152
+  ],
+  "density": 2,
+  "mapping": {
+    "world": "[2400,1296]+localraw/2",
+    "from_old_raw": "localraw=oldraw+(192,-672)",
+    "from_south_raw": "localraw=southraw+(0,224)",
+    "interface_local_y": 352
+  },
+  "source_center_polyline_localraw": [
+    [
+      1238,
+      72
+    ],
+    [
+      1238,
+      100
+    ],
+    [
+      88,
+      862
+    ],
+    [
+      80,
+      994
+    ],
+    [
+      0,
+      1048
+    ]
+  ],
+  "source_center_polyline_world": [
+    [
+      3019.0,
+      1332.0
+    ],
+    [
+      3019.0,
+      1346.0
+    ],
+    [
+      2444.0,
+      1727.0
+    ],
+    [
+      2440.0,
+      1793.0
+    ],
+    [
+      2400.0,
+      1820.0
+    ]
+  ],
+  "source_uncertainty_raw": 6,
+  "corner_uncertainty_raw": 8,
+  "candidate_edge_uncertainty_raw": 4,
+  "candidate_cover_polyline_localraw": [
+    [
+      1241,
+      72
+    ],
+    [
+      1241,
+      95
+    ],
+    [
+      1057,
+      224
+    ],
+    [
+      970,
+      288
+    ],
+    [
+      886,
+      350
+    ],
+    [
+      872,
+      352
+    ],
+    [
+      102,
+      898
+    ],
+    [
+      94,
+      998
+    ],
+    [
+      0,
+      1066
+    ]
+  ],
+  "fixed_mask_pixels": 85420,
+  "fixed_mask_bbox": [
+    0,
+    72,
+    1262,
+    1082
+  ],
+  "old_reopen_keys": [
+    "Map/Res/FloorBig:581@58,44",
+    "Map/Res/FloorBig:581@60,42",
+    "Map/Res/FloorBig:588@62,40",
+    "Map/Res/FloorBig:604@60,44",
+    "Map/Res/FloorBig:604@62,42"
+  ],
+  "owners": [
+    {
+      "key": "Map/Res/FloorBig:581@50,52",
+      "cell": [
+        50,
+        52
+      ],
+      "source_cell": [
+        -581,
+        0,
+        0,
+        0
+      ],
+      "signed_floor_id": -581,
+      "crop": [
+        0,
+        0
+      ],
+      "original": [
+        96,
+        64
+      ],
+      "ignored_offset": [
+        0,
+        0
+      ],
+      "source_rect_world": [
+        2400,
+        1664,
+        2496,
+        1728
+      ],
+      "floor_pass": 0,
+      "sort_y": 52,
+      "stable_source_order": 5052,
+      "source_rgba_sha256": "c2105c08f3202ac07092cd9bf69c33ff1d0d3945628588016ceb1c00ed35f5d0",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "mask_pixels": 5832,
+      "raw_owner_rect": [
+        0,
+        736,
+        192,
+        864
+      ],
+      "status": "new_south_candidate_only",
+      "owner_mask": "owner_masks/581_50_52.png"
+    },
+    {
+      "key": "Map/Res/FloorBig:597@50,54",
+      "cell": [
+        50,
+        54
+      ],
+      "source_cell": [
+        -597,
+        0,
+        0,
+        0
+      ],
+      "signed_floor_id": -597,
+      "crop": [
+        0,
+        0
+      ],
+      "original": [
+        96,
+        64
+      ],
+      "ignored_offset": [
+        0,
+        0
+      ],
+      "source_rect_world": [
+        2400,
+        1728,
+        2496,
+        1792
+      ],
+      "floor_pass": 0,
+      "sort_y": 54,
+      "stable_source_order": 5054,
+      "source_rgba_sha256": "bb44cf3c97fa13961bcbff011517fdc075eb5883382f88017cb7822a3e648766",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "mask_pixels": 8507,
+      "raw_owner_rect": [
+        0,
+        864,
+        192,
+        992
+      ],
+      "status": "new_south_candidate_only",
+      "owner_mask": "owner_masks/597_50_54.png"
+    },
+    {
+      "key": "Map/Res/FloorBig:604@50,56",
+      "cell": [
+        50,
+        56
+      ],
+      "source_cell": [
+        -604,
+        0,
+        0,
+        0
+      ],
+      "signed_floor_id": -604,
+      "crop": [
+        0,
+        0
+      ],
+      "original": [
+        96,
+        64
+      ],
+      "ignored_offset": [
+        0,
+        0
+      ],
+      "source_rect_world": [
+        2400,
+        1792,
+        2496,
+        1856
+      ],
+      "floor_pass": 0,
+      "sort_y": 56,
+      "stable_source_order": 5056,
+      "source_rgba_sha256": "8d5fd8e9f2d5ca902402517ff5c8f415130c867f513c2c724380800d7c2ff94d",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "mask_pixels": 5337,
+      "raw_owner_rect": [
+        0,
+        992,
+        192,
+        1120
+      ],
+      "status": "new_south_candidate_only",
+      "owner_mask": "owner_masks/604_50_56.png"
+    },
+    {
+      "key": "Map/Res/FloorBig:581@52,50",
+      "cell": [
+        52,
+        50
+      ],
+      "source_cell": [
+        -581,
+        0,
+        0,
+        0
+      ],
+      "signed_floor_id": -581,
+      "crop": [
+        0,
+        0
+      ],
+      "original": [
+        96,
+        64
+      ],
+      "ignored_offset": [
+        0,
+        0
+      ],
+      "source_rect_world": [
+        2496,
+        1600,
+        2592,
+        1664
+      ],
+      "floor_pass": 0,
+      "sort_y": 50,
+      "stable_source_order": 5250,
+      "source_rgba_sha256": "c2105c08f3202ac07092cd9bf69c33ff1d0d3945628588016ceb1c00ed35f5d0",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "mask_pixels": 5709,
+      "raw_owner_rect": [
+        192,
+        608,
+        384,
+        736
+      ],
+      "status": "new_south_candidate_only",
+      "owner_mask": "owner_masks/581_52_50.png"
+    },
+    {
+      "key": "Map/Res/FloorBig:604@52,52",
+      "cell": [
+        52,
+        52
+      ],
+      "source_cell": [
+        -604,
+        0,
+        0,
+        0
+      ],
+      "signed_floor_id": -604,
+      "crop": [
+        0,
+        0
+      ],
+      "original": [
+        96,
+        64
+      ],
+      "ignored_offset": [
+        0,
+        0
+      ],
+      "source_rect_world": [
+        2496,
+        1664,
+        2592,
+        1728
+      ],
+      "floor_pass": 0,
+      "sort_y": 52,
+      "stable_source_order": 5252,
+      "source_rgba_sha256": "8d5fd8e9f2d5ca902402517ff5c8f415130c867f513c2c724380800d7c2ff94d",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "mask_pixels": 9488,
+      "raw_owner_rect": [
+        192,
+        736,
+        384,
+        864
+      ],
+      "status": "new_south_candidate_only",
+      "owner_mask": "owner_masks/604_52_52.png"
+    },
+    {
+      "key": "Map/Res/FloorBig:581@54,48",
+      "cell": [
+        54,
+        48
+      ],
+      "source_cell": [
+        -581,
+        0,
+        0,
+        0
+      ],
+      "signed_floor_id": -581,
+      "crop": [
+        0,
+        0
+      ],
+      "original": [
+        96,
+        64
+      ],
+      "ignored_offset": [
+        0,
+        0
+      ],
+      "source_rect_world": [
+        2592,
+        1536,
+        2688,
+        1600
+      ],
+      "floor_pass": 0,
+      "sort_y": 48,
+      "stable_source_order": 5448,
+      "source_rgba_sha256": "c2105c08f3202ac07092cd9bf69c33ff1d0d3945628588016ceb1c00ed35f5d0",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "mask_pixels": 5413,
+      "raw_owner_rect": [
+        384,
+        480,
+        576,
+        608
+      ],
+      "status": "new_south_candidate_only",
+      "owner_mask": "owner_masks/581_54_48.png"
+    },
+    {
+      "key": "Map/Res/FloorBig:604@54,50",
+      "cell": [
+        54,
+        50
+      ],
+      "source_cell": [
+        -604,
+        0,
+        0,
+        0
+      ],
+      "signed_floor_id": -604,
+      "crop": [
+        0,
+        0
+      ],
+      "original": [
+        96,
+        64
+      ],
+      "ignored_offset": [
+        0,
+        0
+      ],
+      "source_rect_world": [
+        2592,
+        1600,
+        2688,
+        1664
+      ],
+      "floor_pass": 0,
+      "sort_y": 50,
+      "stable_source_order": 5450,
+      "source_rgba_sha256": "8d5fd8e9f2d5ca902402517ff5c8f415130c867f513c2c724380800d7c2ff94d",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "mask_pixels": 8073,
+      "raw_owner_rect": [
+        384,
+        608,
+        576,
+        736
+      ],
+      "status": "new_south_candidate_only",
+      "owner_mask": "owner_masks/604_54_50.png"
+    },
+    {
+      "key": "Map/Res/FloorBig:581@56,46",
+      "cell": [
+        56,
+        46
+      ],
+      "source_cell": [
+        -581,
+        0,
+        0,
+        0
+      ],
+      "signed_floor_id": -581,
+      "crop": [
+        0,
+        0
+      ],
+      "original": [
+        96,
+        64
+      ],
+      "ignored_offset": [
+        0,
+        0
+      ],
+      "source_rect_world": [
+        2688,
+        1472,
+        2784,
+        1536
+      ],
+      "floor_pass": 0,
+      "sort_y": 46,
+      "stable_source_order": 5646,
+      "source_rgba_sha256": "c2105c08f3202ac07092cd9bf69c33ff1d0d3945628588016ceb1c00ed35f5d0",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "mask_pixels": 5014,
+      "raw_owner_rect": [
+        576,
+        352,
+        768,
+        480
+      ],
+      "status": "new_south_candidate_only",
+      "owner_mask": "owner_masks/581_56_46.png"
+    },
+    {
+      "key": "Map/Res/FloorBig:604@56,48",
+      "cell": [
+        56,
+        48
+      ],
+      "source_cell": [
+        -604,
+        0,
+        0,
+        0
+      ],
+      "signed_floor_id": -604,
+      "crop": [
+        0,
+        0
+      ],
+      "original": [
+        96,
+        64
+      ],
+      "ignored_offset": [
+        0,
+        0
+      ],
+      "source_rect_world": [
+        2688,
+        1536,
+        2784,
+        1600
+      ],
+      "floor_pass": 0,
+      "sort_y": 48,
+      "stable_source_order": 5648,
+      "source_rgba_sha256": "8d5fd8e9f2d5ca902402517ff5c8f415130c867f513c2c724380800d7c2ff94d",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "mask_pixels": 6753,
+      "raw_owner_rect": [
+        576,
+        480,
+        768,
+        608
+      ],
+      "status": "new_south_candidate_only",
+      "owner_mask": "owner_masks/604_56_48.png"
+    },
+    {
+      "key": "Map/Res/FloorBig:581@58,44",
+      "cell": [
+        58,
+        44
+      ],
+      "source_cell": [
+        -581,
+        0,
+        0,
+        0
+      ],
+      "signed_floor_id": -581,
+      "crop": [
+        0,
+        0
+      ],
+      "original": [
+        96,
+        64
+      ],
+      "ignored_offset": [
+        0,
+        0
+      ],
+      "source_rect_world": [
+        2784,
+        1408,
+        2880,
+        1472
+      ],
+      "floor_pass": 0,
+      "sort_y": 44,
+      "stable_source_order": 5844,
+      "source_rgba_sha256": "c2105c08f3202ac07092cd9bf69c33ff1d0d3945628588016ceb1c00ed35f5d0",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "mask_pixels": 4854,
+      "raw_owner_rect": [
+        768,
+        224,
+        960,
+        352
+      ],
+      "status": "explicit_old_reopen_proposal",
+      "preserved_original_texture": "assets/earth/environment/ground_plate_v4/tile-58-44.png",
+      "preserved_original_texture_sha256": "473535637ebda6092541782e3fd23e6fff0ea13b30b3c2fd909fd47bdeb47843",
+      "owner_mask": "owner_masks/581_58_44.png"
+    },
+    {
+      "key": "Map/Res/FloorBig:604@58,46",
+      "cell": [
+        58,
+        46
+      ],
+      "source_cell": [
+        -604,
+        0,
+        0,
+        0
+      ],
+      "signed_floor_id": -604,
+      "crop": [
+        0,
+        0
+      ],
+      "original": [
+        96,
+        64
+      ],
+      "ignored_offset": [
+        0,
+        0
+      ],
+      "source_rect_world": [
+        2784,
+        1472,
+        2880,
+        1536
+      ],
+      "floor_pass": 0,
+      "sort_y": 46,
+      "stable_source_order": 5846,
+      "source_rgba_sha256": "8d5fd8e9f2d5ca902402517ff5c8f415130c867f513c2c724380800d7c2ff94d",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "mask_pixels": 5724,
+      "raw_owner_rect": [
+        768,
+        352,
+        960,
+        480
+      ],
+      "status": "new_south_candidate_only",
+      "owner_mask": "owner_masks/604_58_46.png"
+    },
+    {
+      "key": "Map/Res/FloorBig:581@60,42",
+      "cell": [
+        60,
+        42
+      ],
+      "source_cell": [
+        -581,
+        0,
+        0,
+        0
+      ],
+      "signed_floor_id": -581,
+      "crop": [
+        0,
+        0
+      ],
+      "original": [
+        96,
+        64
+      ],
+      "ignored_offset": [
+        0,
+        0
+      ],
+      "source_rect_world": [
+        2880,
+        1344,
+        2976,
+        1408
+      ],
+      "floor_pass": 0,
+      "sort_y": 42,
+      "stable_source_order": 6042,
+      "source_rgba_sha256": "c2105c08f3202ac07092cd9bf69c33ff1d0d3945628588016ceb1c00ed35f5d0",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "mask_pixels": 4508,
+      "raw_owner_rect": [
+        960,
+        96,
+        1152,
+        224
+      ],
+      "status": "explicit_old_reopen_proposal",
+      "preserved_original_texture": "assets/earth/environment/ground_plate_v4/tile-60-42.png",
+      "preserved_original_texture_sha256": "b1e533d50bd02fddc1861c94eacd8dd35b0883ebfd10c14066a23b37f753890f",
+      "owner_mask": "owner_masks/581_60_42.png"
+    },
+    {
+      "key": "Map/Res/FloorBig:604@60,44",
+      "cell": [
+        60,
+        44
+      ],
+      "source_cell": [
+        -604,
+        0,
+        0,
+        0
+      ],
+      "signed_floor_id": -604,
+      "crop": [
+        0,
+        0
+      ],
+      "original": [
+        96,
+        64
+      ],
+      "ignored_offset": [
+        0,
+        0
+      ],
+      "source_rect_world": [
+        2880,
+        1408,
+        2976,
+        1472
+      ],
+      "floor_pass": 0,
+      "sort_y": 44,
+      "stable_source_order": 6044,
+      "source_rgba_sha256": "8d5fd8e9f2d5ca902402517ff5c8f415130c867f513c2c724380800d7c2ff94d",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "mask_pixels": 4977,
+      "raw_owner_rect": [
+        960,
+        224,
+        1152,
+        352
+      ],
+      "status": "explicit_old_reopen_proposal",
+      "preserved_original_texture": "assets/earth/environment/ground_plate_v4/tile-60-44.png",
+      "preserved_original_texture_sha256": "24f71bbb4dc12648d25091d1353d29b1cb3abfb8b953cd35ce4073058e6219bd",
+      "owner_mask": "owner_masks/604_60_44.png"
+    },
+    {
+      "key": "Map/Res/FloorBig:588@62,40",
+      "cell": [
+        62,
+        40
+      ],
+      "source_cell": [
+        -588,
+        0,
+        0,
+        0
+      ],
+      "signed_floor_id": -588,
+      "crop": [
+        0,
+        0
+      ],
+      "original": [
+        96,
+        64
+      ],
+      "ignored_offset": [
+        0,
+        0
+      ],
+      "source_rect_world": [
+        2976,
+        1280,
+        3072,
+        1344
+      ],
+      "floor_pass": 0,
+      "sort_y": 40,
+      "stable_source_order": 6240,
+      "source_rgba_sha256": "bb44cf3c97fa13961bcbff011517fdc075eb5883382f88017cb7822a3e648766",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "mask_pixels": 1045,
+      "raw_owner_rect": [
+        1152,
+        -32,
+        1344,
+        96
+      ],
+      "status": "explicit_old_reopen_proposal",
+      "preserved_original_texture": "assets/earth/environment/ground_plate_v4/tile-62-40.png",
+      "preserved_original_texture_sha256": "2123f2f4199765a73d8cc65a2f7caa961dc1c3a8fbf365043ece026b45fb650e",
+      "owner_mask": "owner_masks/588_62_40.png"
+    },
+    {
+      "key": "Map/Res/FloorBig:604@62,42",
+      "cell": [
+        62,
+        42
+      ],
+      "source_cell": [
+        -604,
+        0,
+        0,
+        0
+      ],
+      "signed_floor_id": -604,
+      "crop": [
+        0,
+        0
+      ],
+      "original": [
+        96,
+        64
+      ],
+      "ignored_offset": [
+        0,
+        0
+      ],
+      "source_rect_world": [
+        2976,
+        1344,
+        3072,
+        1408
+      ],
+      "floor_pass": 0,
+      "sort_y": 42,
+      "stable_source_order": 6242,
+      "source_rgba_sha256": "8d5fd8e9f2d5ca902402517ff5c8f415130c867f513c2c724380800d7c2ff94d",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "mask_pixels": 4186,
+      "raw_owner_rect": [
+        1152,
+        96,
+        1344,
+        224
+      ],
+      "status": "explicit_old_reopen_proposal",
+      "preserved_original_texture": "assets/earth/environment/ground_plate_v4/tile-62-42.png",
+      "preserved_original_texture_sha256": "f71799c0958ff6cf74f4d5724731f0d899de1c62857cfa2bdc69372dd7da0e83",
+      "owner_mask": "owner_masks/604_62_42.png"
+    }
+  ],
+  "protected_pixel_count": 1684052,
+  "protected_rules": [
+    "All nonmask RGB exact to original v4 or south raw by context provenance",
+    "Old plate and owner assets never overwritten; create versioned candidates only",
+    "Other road edge, road center, cap and distant grass remain protected",
+    "Original sourcecell/alpha/order unchanged; no frameID scope replacement",
+    "Debris pool remains independent and is not in any input art"
+  ],
+  "context_provenance": [
+    {
+      "source": "source native nearest2x",
+      "role": "base reference only; uncovered northwest area immutable"
+    },
+    {
+      "source": "south candidate raw",
+      "paste_local": [
+        0,
+        224
+      ],
+      "operation": "exact copy"
+    },
+    {
+      "source": "old v4 plate",
+      "paste_local": [
+        192,
+        -672
+      ],
+      "operation": "exact copy, later layer wins overlap"
+    }
+  ],
+  "generation_gate": "One local generation after explicit approval; requested native1536x1152 at2x. If actual output differs, reject, retain raw, no automatic resample/retry. Fixed mask applied only after visual geometry acceptance.",
+  "assembly_future": "Binary fixed-mask replace by corresponding generated texel at same local coordinate; outside exact original provenance. No feathering/color matching. Complete owners exported atomically into a separate candidate version; no production change authorized."
+}

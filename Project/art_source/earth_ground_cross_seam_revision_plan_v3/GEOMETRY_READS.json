@@ -1,0 +1,240 @@
+{
+  "readings": [
+    {
+      "read_space": "old",
+      "row_y": 744,
+      "local_row_y": 72,
+      "world_y": 1332.0,
+      "source_inner_outer_center_x": [
+        1042,
+        1052,
+        1047.0
+      ],
+      "existing_inner_outer_center_x": [
+        1040,
+        1058,
+        1049.0
+      ],
+      "source_center_world": [
+        3019.5,
+        1332.0
+      ],
+      "source_uncertainty_raw": 6,
+      "existing_edge_uncertainty_raw": 4,
+      "definition": "physical road-facing inner / grass-facing outer, exclude shadow and vegetation; approximate manual reads"
+    },
+    {
+      "read_space": "old",
+      "row_y": 896,
+      "local_row_y": 224,
+      "world_y": 1408.0,
+      "source_inner_outer_center_x": [
+        854,
+        866,
+        860.0
+      ],
+      "existing_inner_outer_center_x": [
+        850,
+        880,
+        865.0
+      ],
+      "source_center_world": [
+        2926.0,
+        1408.0
+      ],
+      "source_uncertainty_raw": 6,
+      "existing_edge_uncertainty_raw": 4,
+      "definition": "physical road-facing inner / grass-facing outer, exclude shadow and vegetation; approximate manual reads"
+    },
+    {
+      "read_space": "old",
+      "row_y": 960,
+      "local_row_y": 288,
+      "world_y": 1440.0,
+      "source_inner_outer_center_x": [
+        758,
+        770,
+        764.0
+      ],
+      "existing_inner_outer_center_x": [
+        766,
+        790,
+        778.0
+      ],
+      "source_center_world": [
+        2878.0,
+        1440.0
+      ],
+      "source_uncertainty_raw": 6,
+      "existing_edge_uncertainty_raw": 4,
+      "definition": "physical road-facing inner / grass-facing outer, exclude shadow and vegetation; approximate manual reads"
+    },
+    {
+      "read_space": "old",
+      "row_y": 1022,
+      "local_row_y": 350,
+      "world_y": 1471.0,
+      "source_inner_outer_center_x": [
+        660,
+        674,
+        667.0
+      ],
+      "existing_inner_outer_center_x": [
+        678,
+        710,
+        694.0
+      ],
+      "source_center_world": [
+        2829.5,
+        1471.0
+      ],
+      "source_uncertainty_raw": 6,
+      "existing_edge_uncertainty_raw": 4,
+      "definition": "physical road-facing inner / grass-facing outer, exclude shadow and vegetation; approximate manual reads"
+    },
+    {
+      "read_space": "south",
+      "row_y": 256,
+      "local_row_y": 480,
+      "world_y": 1536.0,
+      "source_inner_outer_center_x": [
+        660,
+        674,
+        667.0
+      ],
+      "existing_inner_outer_center_x": [
+        678,
+        710,
+        694.0
+      ],
+      "source_center_world": [
+        2733.5,
+        1536.0
+      ],
+      "source_uncertainty_raw": 6,
+      "existing_edge_uncertainty_raw": 4,
+      "definition": "physical road-facing inner / grass-facing outer, exclude shadow and vegetation; approximate manual reads"
+    },
+    {
+      "read_space": "south",
+      "row_y": 384,
+      "local_row_y": 608,
+      "world_y": 1600.0,
+      "source_inner_outer_center_x": [
+        468,
+        482,
+        475.0
+      ],
+      "existing_inner_outer_center_x": [
+        494,
+        526,
+        510.0
+      ],
+      "source_center_world": [
+        2637.5,
+        1600.0
+      ],
+      "source_uncertainty_raw": 6,
+      "existing_edge_uncertainty_raw": 4,
+      "definition": "physical road-facing inner / grass-facing outer, exclude shadow and vegetation; approximate manual reads"
+    },
+    {
+      "read_space": "south",
+      "row_y": 512,
+      "local_row_y": 736,
+      "world_y": 1664.0,
+      "source_inner_outer_center_x": [
+        276,
+        290,
+        283.0
+      ],
+      "existing_inner_outer_center_x": [
+        314,
+        346,
+        330.0
+      ],
+      "source_center_world": [
+        2541.5,
+        1664.0
+      ],
+      "source_uncertainty_raw": 6,
+      "existing_edge_uncertainty_raw": 4,
+      "definition": "physical road-facing inner / grass-facing outer, exclude shadow and vegetation; approximate manual reads"
+    },
+    {
+      "read_space": "south",
+      "row_y": 704,
+      "local_row_y": 928,
+      "world_y": 1760.0,
+      "source_inner_outer_center_x": [
+        80,
+        90,
+        85.0
+      ],
+      "existing_inner_outer_center_x": [
+        88,
+        110,
+        99.0
+      ],
+      "source_center_world": [
+        2442.5,
+        1760.0
+      ],
+      "source_uncertainty_raw": 6,
+      "existing_edge_uncertainty_raw": 4,
+      "definition": "physical road-facing inner / grass-facing outer, exclude shadow and vegetation; approximate manual reads"
+    }
+  ],
+  "warning": "Manual physical-edge ranges, not image segmentation or navigation geometry; old896/960 source edge endpoints are this worker supplemental exact-row readings, not quoted as independent audited edge values.",
+  "proposed_straight_control_against_source_reads": [
+    {
+      "space": "old",
+      "row": 744,
+      "target_local_x": 1238.0,
+      "horizontal_error_raw": -1.0
+    },
+    {
+      "space": "old",
+      "row": 896,
+      "target_local_x": 1050.8608923884515,
+      "horizontal_error_raw": -1.1391076115485248
+    },
+    {
+      "space": "old",
+      "row": 960,
+      "target_local_x": 954.272965879265,
+      "horizontal_error_raw": -1.7270341207349702
+    },
+    {
+      "space": "old",
+      "row": 1022,
+      "target_local_x": 860.7034120734909,
+      "horizontal_error_raw": 1.703412073490881
+    },
+    {
+      "space": "south",
+      "row": 256,
+      "target_local_x": 664.509186351706,
+      "horizontal_error_raw": -2.4908136482939653
+    },
+    {
+      "space": "south",
+      "row": 384,
+      "target_local_x": 471.33333333333337,
+      "horizontal_error_raw": -3.6666666666666288
+    },
+    {
+      "space": "south",
+      "row": 512,
+      "target_local_x": 278.1574803149606,
+      "horizontal_error_raw": -4.842519685039406
+    },
+    {
+      "space": "south",
+      "row": 704,
+      "target_local_x": 84.0,
+      "horizontal_error_raw": -1.0
+    }
+  ],
+  "max_abs_horizontal_error_raw": 4.842519685039406
+}
