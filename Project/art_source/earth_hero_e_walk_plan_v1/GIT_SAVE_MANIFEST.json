@@ -1,0 +1,40 @@
+{
+  "status": "archive_allowlist_only_no_git",
+  "files": [
+    {
+      "path": "INPUT_PROVENANCE.json",
+      "sha256": "e4577c53c9537b1b0b44592298ffbd59bc64b74917ab562b6603dbb44e2873b0"
+    },
+    {
+      "path": "PLAN.md",
+      "sha256": "bab93e7adc01a74655746be43dbaaf86e19f31ffc9014d9866d2026b6bf12e3d"
+    },
+    {
+      "path": "SOURCE_PHASE_ANALYSIS.json",
+      "sha256": "8dcbc4f9acb3fc06e260b3d3a86763f91caa68387642268aad51ccb23b8e0293"
+    },
+    {
+      "path": "approved-SE-material-swatches-only.png",
+      "sha256": "0656fc79adf556c85783af0f19b3d72472b68e993c309ee7c9c63f687d1a2f4e"
+    },
+    {
+      "path": "current-E-idle9-disconnected-parts.png",
+      "sha256": "9ceb851b0b99e75474e1c37d44c59ade8d2846ba3a488f66617f17d69650f9ee"
+    },
+    {
+      "path": "prepare_plan.py",
+      "sha256": "82cf31ec67ecd1c48d238d2cd4e62616ba92618321c558119a5d767720307507"
+    },
+    {
+      "path": "prompt-PENDING-APPROVAL.txt",
+      "sha256": "764ddf51924975b5be40cd70ca704301e14be1e530d7d04f3fda3eb2c8f3a50b"
+    },
+    {
+      "path": "source45-50-complete-pose-main-8x.png",
+      "sha256": "1a85ab1ef63c769d3014fbdbc5668adaf73fbbf9ecc3fc87c3b300c7ea9ddbb2"
+    }
+  ],
+  "exclude": [
+    "diagnostics/**"
+  ]
+}

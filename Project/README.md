@@ -1,8 +1,24 @@
-> 美术状态（2026-10-15）：此前庭院版和首屏 HD 技术图未获用户认可。当前转向《吞噬星空》地球区武者训练基地，整屏概念方向已获认可，正在定义规范和制作第一块实机样区；现有入口只代表已说明范围的技术检查点，新美术尚未完成集成。详见 docs/ART_DIRECTION_EARTH_RESET.md。
+> 当前画面入口（2026-10-15）：请打开 `scenes/earth_sample_preview.tscn` 并按 **F6**。地球区训练基地的首块实机样区已接入重制资产；风格概念已获认可，实机画质仍待验收。**F5 默认仍是原素材的 R1 逻辑预览**，不是最新美术入口。此前庭院美术只保留为历史技术探索。详见 `docs/EARTH_SOURCE_SAMPLE_ENTRY.md`。
 
 # Legend：Godot 2D 重建工程
 
-目标版本：Godot 4.6.x。当前重建采用原版素材验证玩法与数据，尚未恢复科幻重制美术。旧工作环境的源码和生成图未找回，本目录是依据原始材料和保留的实现记录重新实现的版本。
+目标版本：Godot 4.6.x。原素材入口验证玩法与数据，独立 Earth 入口验证重新生成的纯 2D 科幻美术。旧工作环境的源码和生成图未找回；本目录是依据原始材料重新实现并分阶段存档的版本。
+
+## 查看最新地球区画面
+
+1. 导入本目录的 `project.godot`，等待 Godot 完成资源导入。
+2. 在文件面板双击 `scenes/earth_sample_preview.tscn`，按 **F6（运行当前场景）**。
+3. 左键走路，空格停止；F 切固定/跟随镜头，H 隐藏说明。跟随走出样区后仍会看到未重制的外围原素材。
+
+命令行也可启动：`godot --path Project res://scenes/earth_sample_preview.tscn`（在仓库根目录执行；Godot 程序需在 PATH 中）。
+
+当前固定样区为 768×512 逻辑单位，直接渲染为 1536×1024。初始站位保持原 `(61,39)`：64 个地表块、30 个建筑 owner（含 2 个显式空项）、35 个植被 owner（3 树、3 灌木、2 草丛）和 2 个 NPC 已接入重制资产。初始画面已核查没有未替原素材的非透明像素进入这个矩形；**这不等于完整 A13 地图重制完成**。
+
+主角目前正式接入 SE 朝向 4 帧待机、6 帧步行；其他方向及跑步仍完整回退原素材。只有已核平地区域的 SE 主角新投影有效，NPC、环境及台阶投影尚未完成。此入口不执行完整剧情/战斗，R6 新游戏候选仍独立保留。
+
+对照键：B 主角、N 两个 NPC、P 地表、T 主楼、V 三株树、J 三株灌木、K 两组草丛；各键在新/原资产间切换。S 控制新投影，G 显示原碰撞格。资源组校验失败时整组回原素材，不混画半组。
+
+已验证 Linux / Godot 4.6.3 的干净资源导入与运行；Windows 尚未实测。不要把 Linux 验证当作 Windows 兼容性保证。
 
 ## 启动与当前范围
 
@@ -13,7 +29,7 @@
 - **地图加载诊断：** 打开 `scenes/map_load_candidate.tscn` 后按 F6，以 F1–F9 检查原脚本的 NPC 隐藏、门禁开闭和固定姿态彩蛋鸡。随机值为显式诊断输入，无 AI/战斗。
 - **NPC 剧情候选：** 打开 `scenes/opening_candidate.tscn` 后按 F6。点击方丈、凌云子，沿原按钮对话，可到 A00 房间。此入口显式预设 ET1/STOP；尚未执行完整地图加载脚本，不能等同完整新游戏。
 
-目前没有完整战斗、背包界面、存档或科幻美术。A01/A02、原动作和物品数据已提取存档，但数据存在不代表玩法已接入。Windows 尚未实测；已验证平台为 Linux / Godot 4.6.3。
+目前没有完整战斗、背包界面或完整游戏存档。新美术仅限上述独立样区。A01/A02、原动作和物品数据已提取存档，但数据存在不代表玩法已接入。Windows 尚未实测；已验证平台为 Linux / Godot 4.6.3。
 
 ## 已验证的小阶段
 
@@ -35,6 +51,10 @@
 在 Godot 4.6.3 打开 `scenes/new_game_candidate.tscn`，按 F6，点击“踏入江湖 · 创建角色”。阅读原五页，再依次与方丈、凌云子交谈，可到 A00 首房。默认 F5 仍是 R1 原图预览。
 
 此入口已有单一实例库存初始布衣、真实原地图加载脚本、STOP 与原 NPC 剧情。界面明确标记兼容 RNG，其算法并非原 VB 随机流；彩蛋鸡仅静态显示，无 AI。当前无保存、战斗或后续任务，Windows 未验证。完整事务边界见 `docs/R6_NATURAL_OPENING_CANDIDATE.md`。
+
+## 历史庭院技术入口（非当前美术方向）
+
+下面的 `art_preview.tscn` 及其 E/SE/S 美术来自已被否定的庭院探索，仅保留技术对照。请勿把它们当作上方 Earth 入口的画面或动作覆盖范围。
 
 Temple art preview: in `scenes/art_preview.tscn`, T toggles the selected A13 main-temple v2 cutouts and F5 shows its stair with the source hero. Only 30 source Building owners are replaced; no new building cast shadow or platform receiver is claimed. See `docs/A13_TEMPLE_ART_PREVIEW.md`.
 

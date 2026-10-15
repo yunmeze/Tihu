@@ -1,0 +1,116 @@
+{
+  "status": "prepared_not_generated_waiting_idle_runtime_review_and_parent_authorization",
+  "inputs": [
+    {
+      "path": "source45-50-complete-pose-main-8x.png",
+      "sha256": "1a85ab1ef63c769d3014fbdbc5668adaf73fbbf9ecc3fc87c3b300c7ea9ddbb2"
+    },
+    {
+      "path": "current-E-idle9-disconnected-parts.png",
+      "sha256": "9ceb851b0b99e75474e1c37d44c59ade8d2846ba3a488f66617f17d69650f9ee"
+    },
+    {
+      "path": "approved-SE-material-swatches-only.png",
+      "sha256": "0656fc79adf556c85783af0f19b3d72472b68e993c309ee7c9c63f687d1a2f4e"
+    }
+  ],
+  "E_raw": {
+    "path": "art_source/earth_hero_e_idle_v1/raw-v1.png",
+    "sha256": "92b5f869ef0cdc28062bb975afab76ce1846f52f644a06af5edfb3131704e035",
+    "crop_rects": {
+      "E_head_side_identity": [
+        217,
+        41,
+        322,
+        140
+      ],
+      "E_chest_side_black_layer": [
+        268,
+        153,
+        330,
+        272
+      ],
+      "E_red_shoulder": [
+        199,
+        146,
+        262,
+        236
+      ],
+      "E_waist_side_plate": [
+        240,
+        280,
+        330,
+        351
+      ],
+      "E_black_thigh_fabric": [
+        252,
+        402,
+        309,
+        461
+      ],
+      "E_glove": [
+        193,
+        351,
+        265,
+        419
+      ],
+      "E_knee": [
+        188,
+        509,
+        243,
+        572
+      ],
+      "E_boot": [
+        189,
+        637,
+        310,
+        703
+      ]
+    }
+  },
+  "SE_raw": {
+    "path": "art_source/earth_hero_se_idle_v1/raw-v1.png",
+    "sha256": "fe50c6b44f49218792433f56a249c37ded85bdbee447f3134e348e0bcae09b7e",
+    "crop_rects": {
+      "SE_red_paint": [
+        150,
+        193,
+        190,
+        225
+      ],
+      "SE_silver_plate": [
+        246,
+        210,
+        285,
+        242
+      ],
+      "SE_black_thigh_fabric": [
+        224,
+        410,
+        262,
+        449
+      ]
+    }
+  },
+  "source_common_crop": [
+    12,
+    8,
+    76,
+    96
+  ],
+  "source_grid": [
+    3,
+    2
+  ],
+  "source_scale": 8,
+  "logical_root": [
+    16,
+    64
+  ],
+  "crop_root": [
+    4,
+    56
+  ],
+  "ticks": 7,
+  "runtime_changed": false
+}
