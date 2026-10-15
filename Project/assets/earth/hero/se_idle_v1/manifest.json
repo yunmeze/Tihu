@@ -1,0 +1,93 @@
+{
+  "schema": "earth-hero-idle-v1",
+  "status": "bounded_Earth_SE_idle_body_approved",
+  "texture": "res://assets/earth/hero/se_idle_v1/body.png",
+  "texture_sha256": "60f89f65dd817ec80065de941e62e36e1068302c3f2bc4eb5014d8d56f450c02",
+  "texture_size": [
+    2048,
+    512
+  ],
+  "texture_density": 4,
+  "logical_frame_size": [
+    128,
+    128
+  ],
+  "logical_draw_offset": [
+    -16,
+    -64
+  ],
+  "logical_root": [
+    16,
+    64
+  ],
+  "texture_root": [
+    64,
+    256
+  ],
+  "texture_frame_size": [
+    512,
+    512
+  ],
+  "source_ids": [
+    13,
+    14,
+    15,
+    16
+  ],
+  "records": [
+    {
+      "source_id": 13,
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 14,
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 15,
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 16,
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ]
+    }
+  ],
+  "frame_ticks": 12,
+  "filter": "linear",
+  "sprite_scale": 0.25,
+  "shadow": "none; new cast not yet reviewed",
+  "fallback": "atomic whole four-frame group; all unsupported actions and directions use complete original body+head",
+  "provenance": {
+    "raw_sha256": "fe50c6b44f49218792433f56a249c37ded85bdbee447f3134e348e0bcae09b7e",
+    "registration_sha256": "d99fa43228caf56076958747dd0e600c38953b4c2aa188b2324b935d7085a367",
+    "prompt_sha256": "8ad0800d68a33134e270cc85c821d53e554865e457da9ba3e52bf9b4b9e642d8",
+    "input_provenance_sha256": "dac05ec577fab66b1bb0397ad9e06e605b257050a0f433816231a6f1fd6e414c",
+    "native_evidence": "shared/earth-se-idle/native.log; scene-native.log; two 12-tick cycles and original-source movement fallback",
+    "limitations": [
+      "boot terminal is a coarse visible endpoint proxy, not proven contact or homologous joint",
+      "cloth/armor surface centers are not anatomical joints",
+      "far shoulder red patch and thigh plate coverage vary from canonical; inspect at true size",
+      "warm upper-left key; no ground shadow; old right-up shadow parameters prohibited"
+    ]
+  }
+}

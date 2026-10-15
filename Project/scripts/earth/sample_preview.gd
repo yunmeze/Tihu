@@ -20,9 +20,10 @@ func _ready() -> void:
 	raster.size=RASTER;raster.size_2d_override=LOGICAL;raster.size_2d_override_stretch=true
 	raster.render_target_update_mode=SubViewport.UPDATE_ALWAYS
 	add_child(raster)
-	actor.position=Vector2(61,39)
+	actor.position=Vector2(61,39);actor.direction=3
 	ready_ok=world.setup(actor)
-	if ready_ok:raster.add_child(world)
+	if ready_ok:
+		raster.add_child(world);world.prepare_idle()
 	else:world.free()
 	display.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
 	display.texture=raster.get_texture();display.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
@@ -56,6 +57,7 @@ func _input(event:InputEvent) -> void:
 			KEY_SPACE:actor.stop()
 			KEY_G:world.show_grid=not world.show_grid
 			KEY_H:show_hud=not show_hud
+			KEY_B:world.prefer_candidate=not world.prefer_candidate
 		update_hud();world.queue_redraw()
 func _physics_process(delta:float) -> void:
 	if not ready_ok:return
@@ -63,5 +65,6 @@ func _physics_process(delta:float) -> void:
 	world.tick+=1;world.refresh();update_hud()
 func update_hud() -> void:
 	hud.visible=show_hud
-	hud.text="EARTH ENTRANCE FOUNDATION: SOURCE ART ONLY\n1536x1024 actual raster / 768x512 logical. New style assets pending.\nClick: original A* | Shift run | Space stop | F fixed/follow | G grid | H HUD\nCamera: %s | actor %s | Outside sample remains source."%["FOLLOW" if ready_ok and world.follow_actor else "FIXED [2496,960,768,512]",actor.position]
+	hud.text="EARTH ENTRANCE CANDIDATE: 4 NEW SE IDLE FRAMES / OTHER ART SOURCE\n1536x1024 raster / 768x512 logical | Building/ground pending | New shadow: none.\nClick A* | Shift run | Space stop | F follow | G grid | H HUD | B source/new idle\nCamera: %s | actor %s | Outside sample remains source."%["FOLLOW" if ready_ok and world.follow_actor else "FIXED [2496,960,768,512]",actor.position]
+	if ready_ok:hud.text+="\nSE candidate ready %s / preferred %s / active %s"%[world.candidate_ready,world.prefer_candidate,world.uses_candidate(actor.source_frame())]
 	if not ready_ok:hud.text+="\nSource preparation failed; no candidate published."
