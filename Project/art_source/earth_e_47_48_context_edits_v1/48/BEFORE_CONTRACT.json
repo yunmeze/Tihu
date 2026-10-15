@@ -1,0 +1,99 @@
+{
+  "phase": 48,
+  "logical_canvas": [
+    128,
+    128
+  ],
+  "HD4_canvas": [
+    512,
+    512
+  ],
+  "root_HD4": [
+    64,
+    256
+  ],
+  "view": "screen-right side, same core camera",
+  "support_polygon_logical": [
+    [
+      31,
+      46
+    ],
+    [
+      48,
+      46
+    ],
+    [
+      52,
+      55
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      49,
+      70
+    ],
+    [
+      39,
+      72
+    ],
+    [
+      36,
+      67
+    ],
+    [
+      30,
+      66
+    ],
+    [
+      24,
+      69
+    ],
+    [
+      25,
+      61
+    ],
+    [
+      29,
+      56
+    ]
+  ],
+  "fixed_union_pixels": 6648,
+  "real_solid_protection_intersection": 0,
+  "semi_alpha_underlap_pixels": 402,
+  "waist_hidden_overlap_logical": [
+    32,
+    46,
+    47,
+    50
+  ],
+  "fixed_shin_root_centers": [
+    [
+      32.765645410535484,
+      65.89279245814926
+    ],
+    [
+      43.69592844460222,
+      63.22861844754112
+    ]
+  ],
+  "knee_interface_note": "production roots, not bones; cloth must actually join both fixed roots, 2\u20133 logical hidden overlap only",
+  "original_density_and_matrices": "earth_e_four_phase_rigid_study_v1/GEOMETRY.json and ARMS.json unchanged",
+  "mapping": "single whole output scale512/raw_width, translation0, rotation0; no per-part fit",
+  "composition": "only union; original protected layer source-over donor when alpha>0; solid alpha>=128 excluded; final semi-alpha RGBA may change while original layer RGBA stays identical",
+  "inputs": [
+    {
+      "path": "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_e_47_48_context_edits_v1/48/input-context.png",
+      "sha256": "88f63414b1a00a7371f598edca46bb57defe8724542cdecda8901bfdd2a7ff8e"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_e_47_48_context_edits_v1/48/input-source.png",
+      "sha256": "d9ccbdedb97bd917fbce33c142e2fe6672eeda4dd250e0ea74ce063946de392a"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_e_47_48_context_edits_v1/48/input-union-guide.png",
+      "sha256": "9823253aec09c3b241909f555a1eb78fc9d2d7990dc4194fcfb198360581d61b"
+    }
+  ]
+}
