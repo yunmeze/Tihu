@@ -37,34 +37,69 @@ static func encode(inventory: Variant, catalogue: Variant, policy: Variant) -> D
 		"total_weight": verified.total_weight, "overweight": verified.overweight}
 
 static func decode(bytes: Variant, catalogue: Variant, policy: Variant) -> Dictionary:
-	if typeof(bytes) != TYPE_PACKED_BYTE_ARRAY:
-		return _error("invalid_bytes", "Decode requires a PackedByteArray.")
-	if bytes.is_empty() or bytes.size() > MAX_BYTES:
-		return _error("byte_limit", "Encoded inventory is empty or exceeds the byte limit.")
-	if not _valid_utf8(bytes) or (bytes.size() >= 3 and bytes[0] == 0xef and bytes[1] == 0xbb and bytes[2] == 0xbf):
-		return _error("invalid_utf8", "Input must be strict UTF-8 without a byte-order mark.")
-	if bytes.find(0) >= 0:
-		return _error("invalid_json", "Raw NUL bytes are not valid JSON text.")
-	var source: String = bytes.get_string_from_utf8()
-	# First pass checks syntax, duplicate keys, depth/nodes, and instance count
-	# before any instance-record dictionaries are materialized by the second pass.
-	var preflight := Parser.new(source, false).parse()
-	if not preflight.ok:
-		return preflight
-	var parsed := Parser.new(source, true).parse()
+	var probe := _probe_schema(bytes)
+	if not probe.ok:
+		return probe
+	# Establish schema before applying v1 admission; still enforce all v1 limits
+	# without allocating any inventory records before materializing the payload.
+	var admitted := Parser.new(probe.source, false).parse()
+	if not admitted.ok:
+		admitted.schema_status = "known"
+		return admitted
+	var parsed := Parser.new(probe.source, true).parse()
 	if not parsed.ok:
+		parsed.schema_status = "known"
 		return parsed
 	var envelope: Variant = parsed.value
 	if typeof(envelope) != TYPE_DICTIONARY or envelope.size() != 3 or not envelope.has_all(["format", "version", "inventory"]):
-		return _error("invalid_envelope", "Envelope requires exactly format, version, and inventory.")
-	if typeof(envelope.format) != TYPE_STRING or envelope.format != FORMAT:
-		return _error("unsupported_format", "This is not an inventory-only envelope.")
-	if typeof(envelope.version) != TYPE_INT or envelope.version != VERSION:
-		return _error("unsupported_version", "Inventory envelope version is unsupported.")
+		return _known_error("invalid_envelope", "Envelope requires exactly format, version, and inventory.")
 	var checked := Inventory.validate(envelope.inventory, catalogue, policy)
-	if not checked.ok:
-		return checked
+	checked.schema_status = "known"
 	return checked
+
+## Bounded schema discrimination, independent of current inventory fields,
+## instance limits, or fractional-number admission. Never returns an inventory.
+static func inspect_schema(bytes: Variant) -> Dictionary:
+	var result := _probe_schema(bytes)
+	result.erase("source")
+	return result
+
+static func _probe_schema(bytes: Variant) -> Dictionary:
+	if typeof(bytes) != TYPE_PACKED_BYTE_ARRAY:
+		return _unknown_error("invalid_bytes", "Decode requires a PackedByteArray.")
+	if bytes.is_empty() or bytes.size() > MAX_BYTES:
+		return _unknown_error("byte_limit", "Encoded inventory is empty or exceeds the byte limit.")
+	if not _valid_utf8(bytes) or (bytes.size() >= 3 and bytes[0] == 0xef and bytes[1] == 0xbb and bytes[2] == 0xbf):
+		return _unknown_error("invalid_utf8", "Input must be strict UTF-8 without a byte-order mark.")
+	if bytes.find(0) >= 0:
+		return _unknown_error("invalid_json", "Raw NUL bytes are not valid JSON text.")
+	var source: String = bytes.get_string_from_utf8()
+	var probe := Parser.new(source, false, true)
+	var preflight := probe.parse()
+	if probe.discriminators.has("format") and (typeof(probe.discriminators.format) != TYPE_STRING or probe.discriminators.format != FORMAT):
+		var failure := _unknown_error("unsupported_format", "This is not an inventory-only envelope.")
+		failure.schema_status = "incompatible"
+		return failure
+	if probe.discriminators.has("version") and (typeof(probe.discriminators.version) != TYPE_INT or probe.discriminators.version != VERSION):
+		var failure := _unknown_error("unsupported_version", "Inventory envelope version is unsupported.")
+		failure.schema_status = "incompatible"
+		return failure
+	if not preflight.ok:
+		preflight.schema_status = "unknown"
+		return preflight
+	if not probe.discriminators.has_all(["format", "version"]):
+		return _unknown_error("invalid_envelope", "Envelope schema could not be established.")
+	return {"ok": true, "schema_status": "known", "format": FORMAT, "version": VERSION, "source": source}
+
+static func _known_error(code: String, detail: String) -> Dictionary:
+	var result := _error(code, detail)
+	result.schema_status = "known"
+	return result
+
+static func _unknown_error(code: String, detail: String) -> Dictionary:
+	var result := _error(code, detail)
+	result.schema_status = "unknown"
+	return result
 
 static func _measure(value: Variant, budget: Array, depth: int) -> Dictionary:
 	budget[0] += 1
@@ -176,10 +211,13 @@ class Parser:
 	var position := 0
 	var nodes := 0
 	var failure: Dictionary = {}
+	var discriminators: Dictionary = {}
+	var schema_only := false
 
-	func _init(text: String, materialize: bool) -> void:
+	func _init(text: String, materialize: bool, inspect_schema: bool = false) -> void:
 		source = text
 		build = materialize
+		schema_only = inspect_schema
 
 	func parse() -> Dictionary:
 		var value: Variant = _value([], 0)
@@ -221,12 +259,14 @@ class Parser:
 			if not failure.is_empty(): return null
 			if seen.has(key): return _fail("duplicate_key", "Duplicate object keys are not accepted.")
 			seen[key] = true
-			if path == ["inventory", "instances"] and seen.size() > MAX_INSTANCES:
+			if not schema_only and path == ["inventory", "instances"] and seen.size() > MAX_INSTANCES:
 				return _fail("instance_limit", "Instance count exceeds the codec limit.")
 			_space()
 			if not _take(":"): return _fail("invalid_json", "Missing colon after object key.")
 			var value: Variant = _value(path + [key], depth + 1)
 			if not failure.is_empty(): return null
+			if path.is_empty() and key in ["format", "version"]:
+				discriminators[key] = value
 			if build: object[key] = value
 			_space()
 			if _take("}"): return object if build else null
@@ -303,9 +343,12 @@ class Parser:
 			if not _digit(true): return _fail("invalid_json", "Exponent requires digits.")
 			while _digit(true): pass
 		if position - start > MAX_NUMBER_CHARS:
+			if schema_only: return "<unbounded-number>"
 			return _fail("structure_limit", "Numeric token exceeds its character limit.")
 		var token := source.substr(start, position - start)
 		var integer: Variant = _exact_integer(token)
+		if schema_only:
+			return integer if integer != null else token
 		var integer_field := path == ["version"] or path in [["inventory", "next_serial"], ["inventory", "revision"]]
 		if path.size() == 5 and path[0] == "inventory" and path[1] == "instances" and path[3] == "properties" and path[4] in ["weight", "raw_proficiency"]:
 			integer_field = true

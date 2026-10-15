@@ -16,6 +16,10 @@ The empty object above only illustrates the envelope; a real `inventory` must sa
 
 `decode(bytes, catalogue, policy)` requires a PackedByteArray and returns the core's detached normalized `inventory`, `total_weight`, and `overweight`. Failures return `ok: false`, `error`, `detail`, and, for parser errors, a Unicode-character `offset`. No failed result exposes a partial inventory. `overweight: true` is a valid structural result; load does not prevent later non-increasing recovery actions under the core's established policy.
 
+`inspect_schema(bytes)` is a separate bounded discriminator for a surrounding store. It never returns an inventory or source text. Results identify `schema_status` as `known`, `incompatible`, or `unknown`. Decode also supplies this status on failures. Schema inspection recognizes the top-level format/version independently of v1 numeric metadata, instance count, or envelope-field constraints; an explicit future version cannot be hidden by a new fractional field or an additional envelope key. Unsupported schemas fail before any current-version payload admission.
+
+The probe still enforces strict UTF-8/JSON and byte/depth/node safety bounds. Incomplete or over-budget inspection does not imply compatibility. A surrounding generation store must distinguish that uncertainty from a known-schema corrupt body; it cannot infer future compatibility from a v1 decoder error alone.
+
 ## Strict and bounded input
 
 Technical admission limits, not original gameplay rules:
@@ -26,7 +30,7 @@ Technical admission limits, not original gameplay rules:
 - Numeric tokens have at most 128 characters.
 - All persisted numeric values must be exact bounded integers. Native integer-valued floats and mathematically integral decimal/exponent tokens can normalize to integers; genuinely fractional metadata is unsupported in codec v1.
 
-Before allocating normalized state or a JSON serialization, encode measures native containers with bounded traversal, rejecting cycles, excessive nodes/depth, and a conservative JSON-size estimate. That estimate reserves 256 bytes for the envelope, 32 bytes per scalar, and up to six bytes per string character; a near-limit native input can therefore be rejected even if a compact serialization might fit. Decode checks byte length before UTF-8 conversion, then makes a syntax/limits-only pass before materializing instance-record dictionaries in a second pass. The first pass still uses bounded key sets to detect duplicate object members; it does not construct instance payloads.
+Before allocating normalized state or a JSON serialization, encode measures native containers with bounded traversal, rejecting cycles, excessive nodes/depth, and a conservative JSON-size estimate. That estimate reserves 256 bytes for the envelope, 32 bytes per scalar, and up to six bytes per string character; a near-limit native input can therefore be rejected even if a compact serialization might fit. Decode checks byte length before UTF-8 conversion, then performs three bounded passes: independent syntax/schema discrimination; known-v1 syntax/admission without materialization; and finally payload construction. The nonmaterializing passes still use bounded key sets to detect duplicate object members; they do not construct instance payloads. The v1 instance limit is enforced before any instance-record payload is materialized.
 
 UTF-8 is validated byte by byte before using Godot's string conversion. Invalid continuation bytes, overlong encodings, surrogate encodings, values above U+10FFFF, truncated sequences, a leading BOM, and raw NUL are rejected. Escaped U+0000 is also deliberately rejected because this codec does not support embedded NUL text. Ordinary Unicode and valid escaped surrogate pairs are preserved.
 
@@ -44,7 +48,7 @@ Supporting arbitrary IEEE floating metadata later requires a new explicitly spec
 
 ## Fresh verification
 
-On 2026-10-15, Linux Godot 4.6.3 passed 10,142 fresh local codec assertions and all 1,664 inventory-core assertions, without script errors or engine warnings. Fixtures cover:
+On 2026-10-15, Linux Godot 4.6.3 passed 10,174 fresh local codec assertions and all 1,664 inventory-core assertions, without script errors or engine warnings. Fixtures cover:
 
 - Exact IDs, same-template/different-raw-property records, equipment/bag locations, Unicode, valid surrogate pairs, and valid overweight round trips.
 - Source/byte immutability and detached decode results.
@@ -52,8 +56,8 @@ On 2026-10-15, Linux Godot 4.6.3 passed 10,142 fresh local codec assertions and 
 - Exact decimal/exponent integer forms, maximal integers, fractional-rounding attacks, rejection of fractional/overflow/underflow tokens, nonfinite native fields, size/instance/depth/token bounds, and cyclic native input.
 - A fixed-seed 5,000-value native-float probe: every non-integer value is rejected without writable bytes, integral values preserve exact numeric meaning, and every input remains byte-identical. Explicit Unicode/ID/integer cases still round-trip successfully.
 
-The ignored harness is `Project/tests/test_inventory_codec.gd`. Tests use synthetic templates, not invented original-game initial items or old save contents. This checkpoint is not Windows runtime validation or disk durability verification.
+Schema-order tests also cover future versions combined with fractional metadata/counters, extra envelope fields, oversized numeric tokens, and excess instance entries, plus bounded unknown-schema failures. The ignored harness is `Project/tests/test_inventory_codec.gd`. Tests use synthetic templates, not invented original-game initial items or old save contents. This checkpoint is not Windows runtime validation or disk durability verification.
 
-## Next boundary: file store remains separate
+## Separate filesystem boundary
 
-No file store is implemented in this checkpoint. The next stage must take explicit caller-owned paths, validate bounded file lengths before reads, retain valid prior data, verify staged bytes after flush/reopen, report fallback source and rejected-candidate details without silent rewrites, and test ordinary failure points. Godot 4.6.3's Windows overwrite-rename implementation first removes the destination; a cross-platform store must not assume overwriting an existing primary is atomic. A generation-based, no-overwrite protocol is being evaluated separately rather than weakening this codec's completed boundary. Power-loss/fsync guarantees are not implied by FileAccess.flush.
+The codec performs no I/O. The append-only generation protocol is documented separately in `INVENTORY_GENERATION_STORE.md`. It uses an independently bounded preheader plus body schema cross-checking, explicit caller-owned directories, immutable prior generations, and verified staging before publishing to a fresh destination. This does not expand the inventory envelope into a complete character save, migrate old formats, or imply power-loss/fsync guarantees.
