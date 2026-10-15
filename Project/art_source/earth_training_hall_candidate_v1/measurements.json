@@ -1,0 +1,272 @@
+{
+  "status": "Structure/style candidate only. NOT registered, NOT production-ready, NO runtime change.",
+  "raw_sha256": "a81ff1d6ac235d80e5d948a804c2959b1b9b3babaed054897d396620b4bf9033",
+  "raw_size": [
+    1372,
+    1146
+  ],
+  "raw_mode": "RGBA",
+  "alpha": {
+    "zero_pixels": 698797,
+    "positive_pixels": 873515,
+    "partial_pixels": 873011,
+    "fully_opaque_pixels": 504,
+    "most_common_positive_values": [
+      [
+        253,
+        765268
+      ],
+      [
+        252,
+        74974
+      ],
+      [
+        251,
+        5751
+      ],
+      [
+        1,
+        5098
+      ],
+      [
+        254,
+        3489
+      ],
+      [
+        250,
+        1992
+      ],
+      [
+        2,
+        1793
+      ],
+      [
+        249,
+        1213
+      ]
+    ],
+    "threshold_bboxes_for_measurement_only": {
+      "0": {
+        "count": 873515,
+        "bbox_xyxy": [
+          0,
+          39,
+          1341,
+          1122
+        ]
+      },
+      "1": {
+        "count": 868417,
+        "bbox_xyxy": [
+          42,
+          48,
+          1341,
+          1119
+        ]
+      },
+      "8": {
+        "count": 863757,
+        "bbox_xyxy": [
+          45,
+          50,
+          1338,
+          1117
+        ]
+      },
+      "32": {
+        "count": 862641,
+        "bbox_xyxy": [
+          45,
+          50,
+          1338,
+          1117
+        ]
+      },
+      "128": {
+        "count": 860242,
+        "bbox_xyxy": [
+          45,
+          51,
+          1338,
+          1116
+        ]
+      },
+      "240": {
+        "count": 856877,
+        "bbox_xyxy": [
+          46,
+          52,
+          1337,
+          1115
+        ]
+      }
+    },
+    "interpretation": "Background is genuinely transparent, no visible detached ground-cast component. Most material alpha is 253, with low-alpha fringe/strays reaching x=0. Raw is preserved; no thresholding or opacity normalization performed."
+  },
+  "density": {
+    "requested_canvas": [
+      2048,
+      1792
+    ],
+    "actual_canvas": [
+      1372,
+      1146
+    ],
+    "source_coverage_target_at_2x": [
+      1592,
+      1330
+    ],
+    "actual_canvas_vs_old_full_canvas_ratio": [
+      1.7236180904522613,
+      1.7233082706766918
+    ],
+    "visible_alpha_gt_128_bbox_size": [
+      1293,
+      1065
+    ],
+    "conclusion": "The delivered raster is smaller than the requested full-coverage target. It cannot be certified at >=2 texels/logical unit until valid support correspondence exists. The diagnostic fit's ~2.07 ratio is NOT a passing density because its geometry residuals fail. No enlargement performed."
+  },
+  "manual_support_correspondence": [
+    {
+      "id": "C0",
+      "source_xy": [
+        437.0,
+        553.0
+      ],
+      "raw_xy": [
+        836,
+        996
+      ],
+      "raw_read_uncertainty_px": 10,
+      "source_read_uncertainty_px": 4,
+      "material_interpretation": "Bottom cap of the visible front-corner diagonal structural pier, above its concrete foundation; not the foundation's lower-most tip.",
+      "mapped_source_xy_under_diagnostic_fit": [
+        464.14143998749853,
+        571.3351504488678
+      ],
+      "source_residual_xy": [
+        27.14143998749853,
+        18.335150448867807
+      ],
+      "source_residual_distance": 32.75416777415664,
+      "combined_reading_budget_source_px": 8.8412931489724
+    },
+    {
+      "id": "S0",
+      "source_xy": [
+        258.0,
+        543.0
+      ],
+      "raw_xy": [
+        383,
+        884
+      ],
+      "raw_read_uncertainty_px": 8,
+      "source_read_uncertainty_px": 5,
+      "material_interpretation": "Lower front tread lip near the right side of the left stair, inside the side cheek.",
+      "mapped_source_xy_under_diagnostic_fit": [
+        244.83086033904883,
+        517.112667180377
+      ],
+      "source_residual_xy": [
+        -13.169139660951174,
+        -25.887332819622998
+      ],
+      "source_residual_distance": 29.044452825342866,
+      "combined_reading_budget_source_px": 8.873034519177919
+    },
+    {
+      "id": "S1",
+      "source_xy": [
+        231.0,
+        455.0
+      ],
+      "raw_xy": [
+        353,
+        748
+      ],
+      "raw_read_uncertainty_px": 8,
+      "source_read_uncertainty_px": 5,
+      "material_interpretation": "Upper left stair/landing junction, beside inner edge of the left cheek.",
+      "mapped_source_xy_under_diagnostic_fit": [
+        230.30698089213163,
+        451.2710803543524
+      ],
+      "source_residual_xy": [
+        -0.6930191078683663,
+        -3.7289196456475793
+      ],
+      "source_residual_distance": 3.7927717051738212,
+      "combined_reading_budget_source_px": 8.873034519177919
+    },
+    {
+      "id": "S2",
+      "source_xy": [
+        596.0,
+        578.0
+      ],
+      "raw_xy": [
+        1098,
+        1008
+      ],
+      "raw_read_uncertainty_px": 8,
+      "source_read_uncertainty_px": 5,
+      "material_interpretation": "Lowest right-stair tread/front lip near its left end; not the outer cheek foot.",
+      "mapped_source_xy_under_diagnostic_fit": [
+        590.9833204905755,
+        577.1447022276348
+      ],
+      "source_residual_xy": [
+        -5.0166795094245344,
+        -0.8552977723652475
+      ],
+      "source_residual_distance": 5.089067456783506,
+      "combined_reading_budget_source_px": 8.873034519177919
+    },
+    {
+      "id": "S3",
+      "source_xy": [
+        622.0,
+        489.0
+      ],
+      "raw_xy": [
+        1145,
+        851
+      ],
+      "raw_read_uncertainty_px": 8,
+      "source_read_uncertainty_px": 5,
+      "material_interpretation": "Upper right stair/landing junction near its far/right cheek.",
+      "mapped_source_xy_under_diagnostic_fit": [
+        613.7373982907457,
+        501.1363997887681
+      ],
+      "source_residual_xy": [
+        -8.26260170925434,
+        12.136399788768074
+      ],
+      "source_residual_distance": 14.682056628367244,
+      "combined_reading_budget_source_px": 8.873034519177919
+    }
+  ],
+  "common_scale_translation_diagnostic": {
+    "model": "raw_xy = density * source_xy + translation; no rotation, shear, per-plane scale or local warp",
+    "density_raw_px_per_source_unit": 2.0655638260869567,
+    "raw_translation": [
+      -122.71376862608702,
+      -184.1292193391306
+    ],
+    "source_space_rms": 20.843523013766227,
+    "source_space_max_residual": 32.75416777415664,
+    "gate": "FAIL: C0, S0 and S3 exceed conservative combined reading uncertainty. The front pier/left stair relationship is not source-compatible under one scale/translation. This is a diagnostic, not approved registration."
+  },
+  "visible_findings": [
+    "Both differently oriented entrances and both separate stairs exist; the approved black-gray sloping-pier/flat-canopy material language is present.",
+    "Relative stair/pier geometry has drifted; matching two stairs by count is insufficient.",
+    "The left visible door reads as a luminous largely closed leaf while the right opening is visibly open. Exact source-door access/threshold interpretation needs review.",
+    "Stairs/plinth are more monumental, canopies flatter and the upper silhouette lower than the old temple; roof-shape change itself is allowed.",
+    "Cyan accents and warm recesses are present, but cyan use is denser than the approved crop's restrained target.",
+    "No external ground plate, grass apron, trees, people or source checker shadow is visibly reproduced."
+  ],
+  "next_step": "Parent review of frozen raw and these real residuals; request a source-guided structural correction if approved. Do not use local warp, moved doors, actor offsets, sorting tricks or collision edits. Density/detail plan follows a valid structure.",
+  "reproduce": "python Project/art_source/earth_training_hall_candidate_v1/measure_candidate.py"
+}

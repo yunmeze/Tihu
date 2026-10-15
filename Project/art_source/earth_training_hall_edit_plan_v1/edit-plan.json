@@ -1,0 +1,1999 @@
+{
+  "status": "LOCAL STRUCTURE EDIT PLAN ONLY; awaits approval. No image generation/edit/warp/runtime change.",
+  "frozen_raw_sha256": "a81ff1d6ac235d80e5d948a804c2959b1b9b3babaed054897d396620b4bf9033",
+  "raw_size": [
+    1372,
+    1146
+  ],
+  "reference": {
+    "kind": "Freeze previous common scale+translation solely as an editing reference. It is NOT approved runtime registration. No refit to make new measurements pass.",
+    "density": 2.0655638260869567,
+    "raw_translation": [
+      -122.71376862608702,
+      -184.1292193391306
+    ],
+    "source_canvas_origin_world": [
+      2948,
+      642
+    ],
+    "why_usable_for_edit_plan": "Existing S1 and S2 fall inside conservative source+candidate read budgets; preserve those mouths/bottoms and correct deficient stair geometry. A valid remeasurement is mandatory after editing."
+  },
+  "C0_semantic_correction": {
+    "old_source": [
+      437,
+      553
+    ],
+    "old_candidate": [
+      836,
+      996
+    ],
+    "finding": "The source point is a vertical column face bottom; the previous candidate point is an outboard diagonal buttress toe. They are not strict homologues. Preserve old failed-fit files as historical evidence but do not force that new toe onto old C0.",
+    "new_vertical_core_sample": [
+      764,
+      982
+    ],
+    "core_uncertainty_raw_px": 8,
+    "core_status": "Visible vertical facade termination, useful context but not established as exact shared pillar axis. Do not force it to old C0.",
+    "replacement_control": "P0: continuous upper platform/plinth OUTSIDE front corner, original (449,600) +/-6 and new (797,1047) +/-8 raw. These identify the actual common platform perimeter, not a decorative toe.",
+    "P0_action": "Retain within uncertainty; no front-corner redesign required merely to reduce C0 residual. Retain blocked-area containment and inspect adjacent reachable feet."
+  },
+  "targets": [
+    {
+      "id": "S0",
+      "source_xy": [
+        258,
+        543
+      ],
+      "current_raw_xy": [
+        383,
+        884
+      ],
+      "target_raw_xy": [
+        410.20169850434775,
+        937.4719382260868
+      ],
+      "delta_raw_xy": [
+        27.201698504347746,
+        53.47193822608676
+      ],
+      "source_read_uncertainty_px": 5,
+      "current_raw_read_uncertainty_px": 8,
+      "combined_conservative_budget_raw_px": 18.327819130434783,
+      "instruction": "mandatory left lower tread correction"
+    },
+    {
+      "id": "S1",
+      "source_xy": [
+        231,
+        455
+      ],
+      "current_raw_xy": [
+        353,
+        748
+      ],
+      "target_raw_xy": [
+        354.43147519999997,
+        755.7023215304347
+      ],
+      "delta_raw_xy": [
+        1.4314751999999658,
+        7.702321530434688
+      ],
+      "source_read_uncertainty_px": 5,
+      "current_raw_read_uncertainty_px": 8,
+      "combined_conservative_budget_raw_px": 18.327819130434783,
+      "instruction": "preserve existing upper-left mouth within source uncertainty"
+    },
+    {
+      "id": "S2",
+      "source_xy": [
+        596,
+        578
+      ],
+      "current_raw_xy": [
+        1098,
+        1008
+      ],
+      "target_raw_xy": [
+        1108.362271721739,
+        1009.7666721391303
+      ],
+      "delta_raw_xy": [
+        10.362271721739035,
+        1.7666721391302644
+      ],
+      "source_read_uncertainty_px": 5,
+      "current_raw_read_uncertainty_px": 8,
+      "combined_conservative_budget_raw_px": 18.327819130434783,
+      "instruction": "preserve existing right lower tread within source uncertainty"
+    },
+    {
+      "id": "S3",
+      "source_xy": [
+        622,
+        489
+      ],
+      "current_raw_xy": [
+        1145,
+        851
+      ],
+      "target_raw_xy": [
+        1162.0669312,
+        825.9314916173912
+      ],
+      "delta_raw_xy": [
+        17.0669312,
+        -25.068508382608798
+      ],
+      "source_read_uncertainty_px": 5,
+      "current_raw_read_uncertainty_px": 8,
+      "combined_conservative_budget_raw_px": 18.327819130434783,
+      "instruction": "mandatory right upper tread/landing junction correction"
+    },
+    {
+      "id": "P0",
+      "source_xy": [
+        449,
+        600
+      ],
+      "current_raw_xy": [
+        797,
+        1047
+      ],
+      "target_raw_xy": [
+        804.7243892869565,
+        1055.2090763130432
+      ],
+      "delta_raw_xy": [
+        7.724389286956466,
+        8.20907631304317
+      ],
+      "source_read_uncertainty_px": 6,
+      "current_raw_read_uncertainty_px": 8,
+      "combined_conservative_budget_raw_px": 20.39338295652174,
+      "instruction": "shared upper plinth/platform outside front corner; preserve, no forced movement"
+    }
+  ],
+  "stair_boundary_guides": {
+    "left_stair": {
+      "source_visible_support_boundary": [
+        [
+          231,
+          455
+        ],
+        [
+          296,
+          495
+        ],
+        [
+          262,
+          546
+        ],
+        [
+          185,
+          503
+        ]
+      ],
+      "current_raw_boundary": [
+        [
+          353,
+          748
+        ],
+        [
+          477,
+          817
+        ],
+        [
+          396,
+          899
+        ],
+        [
+          277,
+          824
+        ]
+      ],
+      "source_boundary_uncertainty_px": 6,
+      "current_boundary_uncertainty_raw_px": 8,
+      "edit_roi_raw_xyxy": [
+        235,
+        700,
+        530,
+        975
+      ],
+      "target_raw_boundary": [
+        [
+          354.43147519999997,
+          755.7023215304347
+        ],
+        [
+          488.6931238956522,
+          838.3248745739129
+        ],
+        [
+          418.4639538086956,
+          943.6686297043478
+        ],
+        [
+          259.41553919999996,
+          854.8493851826087
+        ]
+      ],
+      "corner_deltas_raw": [
+        [
+          1.4314751999999658,
+          7.702321530434688
+        ],
+        [
+          11.693123895652207,
+          21.324874573912894
+        ],
+        [
+          22.463953808695578,
+          44.668629704347836
+        ],
+        [
+          -17.584460800000045,
+          30.84938518260867
+        ]
+      ],
+      "interpretation": "Manual visible stair support edge guide, includes narrow risers; finite uncertainty. Do not fill a solid quadrilateral or stretch these pixels. Repaint real steps/cheeks through approved image editing."
+    },
+    "right_stair": {
+      "source_visible_support_boundary": [
+        [
+          560,
+          532
+        ],
+        [
+          622,
+          489
+        ],
+        [
+          671,
+          538
+        ],
+        [
+          596,
+          578
+        ]
+      ],
+      "current_raw_boundary": [
+        [
+          1012,
+          912
+        ],
+        [
+          1145,
+          851
+        ],
+        [
+          1233,
+          940
+        ],
+        [
+          1098,
+          1008
+        ]
+      ],
+      "source_boundary_uncertainty_px": 6,
+      "current_boundary_uncertainty_raw_px": 8,
+      "edit_roi_raw_xyxy": [
+        980,
+        795,
+        1290,
+        1040
+      ],
+      "target_raw_boundary": [
+        [
+          1034.001973982609,
+          914.7507361391303
+        ],
+        [
+          1162.0669312,
+          825.9314916173912
+        ],
+        [
+          1263.2795586782609,
+          927.1441190956522
+        ],
+        [
+          1108.362271721739,
+          1009.7666721391303
+        ]
+      ],
+      "corner_deltas_raw": [
+        [
+          22.001973982608888,
+          2.750736139130254
+        ],
+        [
+          17.0669312,
+          -25.068508382608798
+        ],
+        [
+          30.279558678260855,
+          -12.855880904347828
+        ],
+        [
+          10.362271721739035,
+          1.7666721391302644
+        ]
+      ],
+      "interpretation": "Manual visible stair support edge guide, includes narrow risers; finite uncertainty. Do not fill a solid quadrilateral or stretch these pixels. Repaint real steps/cheeks through approved image editing."
+    }
+  },
+  "foot_evidence": {
+    "phase": 17,
+    "body_offset": [
+      7,
+      -47
+    ],
+    "local_boot_samples": [
+      [
+        10,
+        64
+      ],
+      [
+        24,
+        69
+      ]
+    ],
+    "relative_to_actor_origin": [
+      [
+        17,
+        17
+      ],
+      [
+        31,
+        22
+      ]
+    ],
+    "source_manifest_sha256": "b5eb981b005efedc5f071bb51f35240cabf91aa0d77143e70bcf4ee9b9c733f1",
+    "limitation": "Two stationary South-phase17 samples only. Original map flags and source owner/collision semantics remain unchanged. No full movement or native depth pass claimed."
+  },
+  "support_owner_rows": [
+    {
+      "owner": "Building:3971@66,34",
+      "cell": [
+        66,
+        34
+      ],
+      "source_flag": 1,
+      "source_layer": 0,
+      "static_no_corner_cut_route": [
+        [
+          61,
+          39
+        ],
+        [
+          62,
+          38
+        ],
+        [
+          63,
+          37
+        ],
+        [
+          64,
+          36
+        ],
+        [
+          65,
+          36
+        ],
+        [
+          66,
+          35
+        ],
+        [
+          66,
+          34
+        ]
+      ],
+      "samples": [
+        {
+          "phase17_foot_index": 0,
+          "source_canvas_xy": [
+            237,
+            463
+          ],
+          "candidate_raw_xy": [
+            366.8248581565217,
+            772.2268321391304
+          ],
+          "candidate_alpha": 253,
+          "source_material_read": "support",
+          "candidate_material_read": "tread",
+          "must_restore_support": true,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        },
+        {
+          "phase17_foot_index": 1,
+          "source_canvas_xy": [
+            251,
+            468
+          ],
+          "candidate_raw_xy": [
+            395.74275172173907,
+            782.5546512695652
+          ],
+          "candidate_alpha": 253,
+          "source_material_read": "support",
+          "candidate_material_read": "tread",
+          "must_restore_support": true,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        }
+      ]
+    },
+    {
+      "owner": "Building:3974@65,35",
+      "cell": [
+        65,
+        35
+      ],
+      "source_flag": 1,
+      "source_layer": 0,
+      "static_no_corner_cut_route": [
+        [
+          61,
+          39
+        ],
+        [
+          62,
+          38
+        ],
+        [
+          63,
+          37
+        ],
+        [
+          64,
+          36
+        ],
+        [
+          65,
+          36
+        ],
+        [
+          65,
+          35
+        ]
+      ],
+      "samples": [
+        {
+          "phase17_foot_index": 0,
+          "source_canvas_xy": [
+            189,
+            495
+          ],
+          "candidate_raw_xy": [
+            267.6777945043478,
+            838.3248745739129
+          ],
+          "candidate_alpha": 0,
+          "source_material_read": "uncertain_cheek_edge",
+          "candidate_material_read": "transparent",
+          "must_restore_support": false,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        },
+        {
+          "phase17_foot_index": 1,
+          "source_canvas_xy": [
+            203,
+            500
+          ],
+          "candidate_raw_xy": [
+            296.5956880695652,
+            848.6526937043478
+          ],
+          "candidate_alpha": 0,
+          "source_material_read": "support",
+          "candidate_material_read": "transparent",
+          "must_restore_support": true,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        }
+      ]
+    },
+    {
+      "owner": "Building:3975@66,35",
+      "cell": [
+        66,
+        35
+      ],
+      "source_flag": 1,
+      "source_layer": 0,
+      "static_no_corner_cut_route": [
+        [
+          61,
+          39
+        ],
+        [
+          62,
+          38
+        ],
+        [
+          63,
+          37
+        ],
+        [
+          64,
+          36
+        ],
+        [
+          65,
+          36
+        ],
+        [
+          66,
+          35
+        ]
+      ],
+      "samples": [
+        {
+          "phase17_foot_index": 0,
+          "source_canvas_xy": [
+            237,
+            495
+          ],
+          "candidate_raw_xy": [
+            366.8248581565217,
+            838.3248745739129
+          ],
+          "candidate_alpha": 253,
+          "source_material_read": "support",
+          "candidate_material_read": "tread",
+          "must_restore_support": true,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        },
+        {
+          "phase17_foot_index": 1,
+          "source_canvas_xy": [
+            251,
+            500
+          ],
+          "candidate_raw_xy": [
+            395.74275172173907,
+            848.6526937043478
+          ],
+          "candidate_alpha": 253,
+          "source_material_read": "support",
+          "candidate_material_read": "tread",
+          "must_restore_support": true,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        }
+      ]
+    },
+    {
+      "owner": "Building:3976@73,35",
+      "cell": [
+        73,
+        35
+      ],
+      "source_flag": 1,
+      "source_layer": 0,
+      "static_no_corner_cut_route": [
+        [
+          61,
+          39
+        ],
+        [
+          62,
+          38
+        ],
+        [
+          63,
+          37
+        ],
+        [
+          64,
+          36
+        ],
+        [
+          65,
+          37
+        ],
+        [
+          66,
+          38
+        ],
+        [
+          67,
+          39
+        ],
+        [
+          68,
+          40
+        ],
+        [
+          69,
+          41
+        ],
+        [
+          70,
+          41
+        ],
+        [
+          71,
+          41
+        ],
+        [
+          72,
+          41
+        ],
+        [
+          73,
+          40
+        ],
+        [
+          74,
+          39
+        ],
+        [
+          74,
+          38
+        ],
+        [
+          74,
+          37
+        ],
+        [
+          74,
+          36
+        ],
+        [
+          73,
+          36
+        ],
+        [
+          73,
+          35
+        ]
+      ],
+      "samples": [
+        {
+          "phase17_foot_index": 0,
+          "source_canvas_xy": [
+            573,
+            495
+          ],
+          "candidate_raw_xy": [
+            1060.8543037217391,
+            838.3248745739129
+          ],
+          "candidate_alpha": 252,
+          "source_material_read": "support",
+          "candidate_material_read": "landing",
+          "must_restore_support": true,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        },
+        {
+          "phase17_foot_index": 1,
+          "source_canvas_xy": [
+            587,
+            500
+          ],
+          "candidate_raw_xy": [
+            1089.7721972869567,
+            848.6526937043478
+          ],
+          "candidate_alpha": 253,
+          "source_material_read": "support",
+          "candidate_material_read": "landing",
+          "must_restore_support": true,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        }
+      ]
+    },
+    {
+      "owner": "Building:3979@65,36",
+      "cell": [
+        65,
+        36
+      ],
+      "source_flag": 1,
+      "source_layer": 0,
+      "static_no_corner_cut_route": [
+        [
+          61,
+          39
+        ],
+        [
+          62,
+          38
+        ],
+        [
+          63,
+          37
+        ],
+        [
+          64,
+          36
+        ],
+        [
+          65,
+          36
+        ]
+      ],
+      "samples": [
+        {
+          "phase17_foot_index": 0,
+          "source_canvas_xy": [
+            189,
+            527
+          ],
+          "candidate_raw_xy": [
+            267.6777945043478,
+            904.4229170086957
+          ],
+          "candidate_alpha": 0,
+          "source_material_read": "source_grass_apron",
+          "candidate_material_read": "transparent",
+          "must_restore_support": false,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        },
+        {
+          "phase17_foot_index": 1,
+          "source_canvas_xy": [
+            203,
+            532
+          ],
+          "candidate_raw_xy": [
+            296.5956880695652,
+            914.7507361391303
+          ],
+          "candidate_alpha": 0,
+          "source_material_read": "source_grass_apron",
+          "candidate_material_read": "transparent",
+          "must_restore_support": false,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        }
+      ]
+    },
+    {
+      "owner": "Building:3980@66,36",
+      "cell": [
+        66,
+        36
+      ],
+      "source_flag": 1,
+      "source_layer": 0,
+      "static_no_corner_cut_route": [
+        [
+          61,
+          39
+        ],
+        [
+          62,
+          38
+        ],
+        [
+          63,
+          37
+        ],
+        [
+          64,
+          36
+        ],
+        [
+          65,
+          36
+        ],
+        [
+          66,
+          36
+        ]
+      ],
+      "samples": [
+        {
+          "phase17_foot_index": 0,
+          "source_canvas_xy": [
+            237,
+            527
+          ],
+          "candidate_raw_xy": [
+            366.8248581565217,
+            904.4229170086957
+          ],
+          "candidate_alpha": 1,
+          "source_material_read": "support",
+          "candidate_material_read": "near_transparent",
+          "must_restore_support": true,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        },
+        {
+          "phase17_foot_index": 1,
+          "source_canvas_xy": [
+            251,
+            532
+          ],
+          "candidate_raw_xy": [
+            395.74275172173907,
+            914.7507361391303
+          ],
+          "candidate_alpha": 251,
+          "source_material_read": "support",
+          "candidate_material_read": "solid_side_cheek",
+          "must_restore_support": true,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        }
+      ]
+    },
+    {
+      "owner": "Building:3981@73,36",
+      "cell": [
+        73,
+        36
+      ],
+      "source_flag": 1,
+      "source_layer": 0,
+      "static_no_corner_cut_route": [
+        [
+          61,
+          39
+        ],
+        [
+          62,
+          38
+        ],
+        [
+          63,
+          37
+        ],
+        [
+          64,
+          36
+        ],
+        [
+          65,
+          37
+        ],
+        [
+          66,
+          38
+        ],
+        [
+          67,
+          39
+        ],
+        [
+          68,
+          40
+        ],
+        [
+          69,
+          41
+        ],
+        [
+          70,
+          41
+        ],
+        [
+          71,
+          41
+        ],
+        [
+          72,
+          41
+        ],
+        [
+          73,
+          40
+        ],
+        [
+          74,
+          39
+        ],
+        [
+          74,
+          38
+        ],
+        [
+          74,
+          37
+        ],
+        [
+          74,
+          36
+        ],
+        [
+          73,
+          36
+        ]
+      ],
+      "samples": [
+        {
+          "phase17_foot_index": 0,
+          "source_canvas_xy": [
+            573,
+            527
+          ],
+          "candidate_raw_xy": [
+            1060.8543037217391,
+            904.4229170086957
+          ],
+          "candidate_alpha": 253,
+          "source_material_read": "support",
+          "candidate_material_read": "tread",
+          "must_restore_support": true,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        },
+        {
+          "phase17_foot_index": 1,
+          "source_canvas_xy": [
+            587,
+            532
+          ],
+          "candidate_raw_xy": [
+            1089.7721972869567,
+            914.7507361391303
+          ],
+          "candidate_alpha": 253,
+          "source_material_read": "support",
+          "candidate_material_read": "tread",
+          "must_restore_support": true,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        }
+      ]
+    },
+    {
+      "owner": "Building:3982@74,36",
+      "cell": [
+        74,
+        36
+      ],
+      "source_flag": 1,
+      "source_layer": 0,
+      "static_no_corner_cut_route": [
+        [
+          61,
+          39
+        ],
+        [
+          62,
+          38
+        ],
+        [
+          63,
+          37
+        ],
+        [
+          64,
+          36
+        ],
+        [
+          65,
+          37
+        ],
+        [
+          66,
+          38
+        ],
+        [
+          67,
+          39
+        ],
+        [
+          68,
+          40
+        ],
+        [
+          69,
+          41
+        ],
+        [
+          70,
+          41
+        ],
+        [
+          71,
+          41
+        ],
+        [
+          72,
+          41
+        ],
+        [
+          73,
+          40
+        ],
+        [
+          74,
+          39
+        ],
+        [
+          74,
+          38
+        ],
+        [
+          74,
+          37
+        ],
+        [
+          74,
+          36
+        ]
+      ],
+      "samples": [
+        {
+          "phase17_foot_index": 0,
+          "source_canvas_xy": [
+            621,
+            527
+          ],
+          "candidate_raw_xy": [
+            1160.0013673739131,
+            904.4229170086957
+          ],
+          "candidate_alpha": 253,
+          "source_material_read": "support",
+          "candidate_material_read": "tread",
+          "must_restore_support": true,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        },
+        {
+          "phase17_foot_index": 1,
+          "source_canvas_xy": [
+            635,
+            532
+          ],
+          "candidate_raw_xy": [
+            1188.9192609391303,
+            914.7507361391303
+          ],
+          "candidate_alpha": 253,
+          "source_material_read": "support",
+          "candidate_material_read": "tread",
+          "must_restore_support": true,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        }
+      ]
+    },
+    {
+      "owner": "Building:3985@66,37",
+      "cell": [
+        66,
+        37
+      ],
+      "source_flag": 1,
+      "source_layer": 0,
+      "static_no_corner_cut_route": [
+        [
+          61,
+          39
+        ],
+        [
+          62,
+          38
+        ],
+        [
+          63,
+          37
+        ],
+        [
+          64,
+          36
+        ],
+        [
+          65,
+          36
+        ],
+        [
+          66,
+          37
+        ]
+      ],
+      "samples": [
+        {
+          "phase17_foot_index": 0,
+          "source_canvas_xy": [
+            237,
+            559
+          ],
+          "candidate_raw_xy": [
+            366.8248581565217,
+            970.5209594434781
+          ],
+          "candidate_alpha": 0,
+          "source_material_read": "source_grass_apron",
+          "candidate_material_read": "transparent",
+          "must_restore_support": false,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        },
+        {
+          "phase17_foot_index": 1,
+          "source_canvas_xy": [
+            251,
+            564
+          ],
+          "candidate_raw_xy": [
+            395.74275172173907,
+            980.8487785739129
+          ],
+          "candidate_alpha": 0,
+          "source_material_read": "source_grass_apron",
+          "candidate_material_read": "transparent",
+          "must_restore_support": false,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        }
+      ]
+    },
+    {
+      "owner": "Building:3986@74,37",
+      "cell": [
+        74,
+        37
+      ],
+      "source_flag": 1,
+      "source_layer": 0,
+      "static_no_corner_cut_route": [
+        [
+          61,
+          39
+        ],
+        [
+          62,
+          38
+        ],
+        [
+          63,
+          37
+        ],
+        [
+          64,
+          36
+        ],
+        [
+          65,
+          37
+        ],
+        [
+          66,
+          38
+        ],
+        [
+          67,
+          39
+        ],
+        [
+          68,
+          40
+        ],
+        [
+          69,
+          41
+        ],
+        [
+          70,
+          41
+        ],
+        [
+          71,
+          41
+        ],
+        [
+          72,
+          41
+        ],
+        [
+          73,
+          40
+        ],
+        [
+          74,
+          39
+        ],
+        [
+          74,
+          38
+        ],
+        [
+          74,
+          37
+        ]
+      ],
+      "samples": [
+        {
+          "phase17_foot_index": 0,
+          "source_canvas_xy": [
+            621,
+            559
+          ],
+          "candidate_raw_xy": [
+            1160.0013673739131,
+            970.5209594434781
+          ],
+          "candidate_alpha": 253,
+          "source_material_read": "support",
+          "candidate_material_read": "lower_tread",
+          "must_restore_support": true,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        },
+        {
+          "phase17_foot_index": 1,
+          "source_canvas_xy": [
+            635,
+            564
+          ],
+          "candidate_raw_xy": [
+            1188.9192609391303,
+            980.8487785739129
+          ],
+          "candidate_alpha": 0,
+          "source_material_read": "source_grass_apron",
+          "candidate_material_read": "transparent",
+          "must_restore_support": false,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        }
+      ]
+    },
+    {
+      "owner": "Building:3987@75,37",
+      "cell": [
+        75,
+        37
+      ],
+      "source_flag": 1,
+      "source_layer": 0,
+      "static_no_corner_cut_route": [
+        [
+          61,
+          39
+        ],
+        [
+          62,
+          38
+        ],
+        [
+          63,
+          37
+        ],
+        [
+          64,
+          36
+        ],
+        [
+          65,
+          37
+        ],
+        [
+          66,
+          38
+        ],
+        [
+          67,
+          39
+        ],
+        [
+          68,
+          40
+        ],
+        [
+          69,
+          41
+        ],
+        [
+          70,
+          41
+        ],
+        [
+          71,
+          41
+        ],
+        [
+          72,
+          41
+        ],
+        [
+          73,
+          40
+        ],
+        [
+          74,
+          39
+        ],
+        [
+          74,
+          38
+        ],
+        [
+          75,
+          37
+        ]
+      ],
+      "samples": [
+        {
+          "phase17_foot_index": 0,
+          "source_canvas_xy": [
+            669,
+            559
+          ],
+          "candidate_raw_xy": [
+            1259.148431026087,
+            970.5209594434781
+          ],
+          "candidate_alpha": 0,
+          "source_material_read": "source_grass_apron",
+          "candidate_material_read": "transparent",
+          "must_restore_support": false,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        },
+        {
+          "phase17_foot_index": 1,
+          "source_canvas_xy": [
+            683,
+            564
+          ],
+          "candidate_raw_xy": [
+            1288.0663245913042,
+            980.8487785739129
+          ],
+          "candidate_alpha": 0,
+          "source_material_read": "source_grass_apron",
+          "candidate_material_read": "transparent",
+          "must_restore_support": false,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        }
+      ]
+    },
+    {
+      "owner": "Building:3989@74,38",
+      "cell": [
+        74,
+        38
+      ],
+      "source_flag": 1,
+      "source_layer": 0,
+      "static_no_corner_cut_route": [
+        [
+          61,
+          39
+        ],
+        [
+          62,
+          38
+        ],
+        [
+          63,
+          37
+        ],
+        [
+          64,
+          36
+        ],
+        [
+          65,
+          37
+        ],
+        [
+          66,
+          38
+        ],
+        [
+          67,
+          39
+        ],
+        [
+          68,
+          40
+        ],
+        [
+          69,
+          41
+        ],
+        [
+          70,
+          41
+        ],
+        [
+          71,
+          41
+        ],
+        [
+          72,
+          41
+        ],
+        [
+          73,
+          40
+        ],
+        [
+          74,
+          39
+        ],
+        [
+          74,
+          38
+        ]
+      ],
+      "samples": [
+        {
+          "phase17_foot_index": 0,
+          "source_canvas_xy": [
+            621,
+            591
+          ],
+          "candidate_raw_xy": [
+            1160.0013673739131,
+            1036.6190018782609
+          ],
+          "candidate_alpha": 0,
+          "source_material_read": "source_grass_apron",
+          "candidate_material_read": "transparent",
+          "must_restore_support": false,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        },
+        {
+          "phase17_foot_index": 1,
+          "source_canvas_xy": [
+            635,
+            596
+          ],
+          "candidate_raw_xy": [
+            1188.9192609391303,
+            1046.9468210086957
+          ],
+          "candidate_alpha": 0,
+          "source_material_read": "source_grass_apron",
+          "candidate_material_read": "transparent",
+          "must_restore_support": false,
+          "manual_sample_uncertainty_source_px": 2,
+          "meaning": "Stationary source South phase17 toe/contact read; not all moving phases or full boot polygons."
+        }
+      ]
+    }
+  ],
+  "source_support_count": 12,
+  "all_source_support_cells_flag1": true,
+  "all_source_support_cells_static_route_found": true,
+  "clear_support_samples_currently_failing": [
+    {
+      "cell": [
+        65,
+        35
+      ],
+      "foot": 1,
+      "raw_xy": [
+        296.5956880695652,
+        848.6526937043478
+      ],
+      "candidate_material": "transparent"
+    },
+    {
+      "cell": [
+        66,
+        36
+      ],
+      "foot": 0,
+      "raw_xy": [
+        366.8248581565217,
+        904.4229170086957
+      ],
+      "candidate_material": "near_transparent"
+    },
+    {
+      "cell": [
+        66,
+        36
+      ],
+      "foot": 1,
+      "raw_xy": [
+        395.74275172173907,
+        914.7507361391303
+      ],
+      "candidate_material": "solid_side_cheek"
+    }
+  ],
+  "front_projected_samples": [
+    {
+      "label": "old_C0_outer_diagonal_foot",
+      "raw_xy": [
+        836,
+        996
+      ],
+      "mapped_world_xy": [
+        3412.1414399874984,
+        1213.3351504488678
+      ],
+      "screen_projected_cell": [
+        71,
+        37
+      ],
+      "source_flag_at_projected_cell": -1,
+      "warning": "Screen projection only; tall pixels can overlap other cells. Not sufficient collision evidence by itself."
+    },
+    {
+      "label": "visible_vertical_core_base",
+      "raw_xy": [
+        764,
+        982
+      ],
+      "mapped_world_xy": [
+        3377.284129314897,
+        1206.5573400403064
+      ],
+      "screen_projected_cell": [
+        70,
+        37
+      ],
+      "source_flag_at_projected_cell": -1,
+      "warning": "Screen projection only; tall pixels can overlap other cells. Not sufficient collision evidence by itself."
+    },
+    {
+      "label": "shared_outer_platform_corner_P0",
+      "raw_xy": [
+        797,
+        1047
+      ],
+      "mapped_world_xy": [
+        3393.260396706506,
+        1238.025745508627
+      ],
+      "screen_projected_cell": [
+        70,
+        38
+      ],
+      "source_flag_at_projected_cell": -1,
+      "warning": "Screen projection only; tall pixels can overlap other cells. Not sufficient collision evidence by itself."
+    }
+  ],
+  "front_adjacent_reachable_samples": [
+    {
+      "cell": [
+        67,
+        38
+      ],
+      "source_flag": 0,
+      "samples": [
+        {
+          "raw_xy": [
+            465.9719218086956,
+            1036.6190018782609
+          ],
+          "alpha": 0,
+          "outside_canvas": false
+        },
+        {
+          "raw_xy": [
+            494.88981537391305,
+            1046.9468210086957
+          ],
+          "alpha": 0,
+          "outside_canvas": false
+        }
+      ],
+      "static_route_exists": true
+    },
+    {
+      "cell": [
+        67,
+        39
+      ],
+      "source_flag": 0,
+      "samples": [
+        {
+          "raw_xy": [
+            465.9719218086956,
+            1102.7170443130435
+          ],
+          "alpha": 0,
+          "outside_canvas": false
+        },
+        {
+          "raw_xy": [
+            494.88981537391305,
+            1113.0448634434783
+          ],
+          "alpha": 0,
+          "outside_canvas": false
+        }
+      ],
+      "static_route_exists": true
+    },
+    {
+      "cell": [
+        68,
+        39
+      ],
+      "source_flag": 0,
+      "samples": [
+        {
+          "raw_xy": [
+            565.1189854608696,
+            1102.7170443130435
+          ],
+          "alpha": 0,
+          "outside_canvas": false
+        },
+        {
+          "raw_xy": [
+            594.0368790260869,
+            1113.0448634434783
+          ],
+          "alpha": 0,
+          "outside_canvas": false
+        }
+      ],
+      "static_route_exists": true
+    },
+    {
+      "cell": [
+        73,
+        39
+      ],
+      "source_flag": 0,
+      "samples": [
+        {
+          "raw_xy": [
+            1060.8543037217391,
+            1102.7170443130435
+          ],
+          "alpha": 0,
+          "outside_canvas": false
+        },
+        {
+          "raw_xy": [
+            1089.7721972869567,
+            1113.0448634434783
+          ],
+          "alpha": 0,
+          "outside_canvas": false
+        }
+      ],
+      "static_route_exists": true
+    },
+    {
+      "cell": [
+        67,
+        40
+      ],
+      "source_flag": 0,
+      "samples": [
+        {
+          "raw_xy": [
+            465.9719218086956,
+            1168.8150867478262
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        },
+        {
+          "raw_xy": [
+            494.88981537391305,
+            1179.142905878261
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        }
+      ],
+      "static_route_exists": true
+    },
+    {
+      "cell": [
+        68,
+        40
+      ],
+      "source_flag": 0,
+      "samples": [
+        {
+          "raw_xy": [
+            565.1189854608696,
+            1168.8150867478262
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        },
+        {
+          "raw_xy": [
+            594.0368790260869,
+            1179.142905878261
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        }
+      ],
+      "static_route_exists": true
+    },
+    {
+      "cell": [
+        69,
+        40
+      ],
+      "source_flag": 0,
+      "samples": [
+        {
+          "raw_xy": [
+            664.2660491130434,
+            1168.8150867478262
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        },
+        {
+          "raw_xy": [
+            693.1839426782609,
+            1179.142905878261
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        }
+      ],
+      "static_route_exists": true
+    },
+    {
+      "cell": [
+        72,
+        40
+      ],
+      "source_flag": 0,
+      "samples": [
+        {
+          "raw_xy": [
+            961.7072400695653,
+            1168.8150867478262
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        },
+        {
+          "raw_xy": [
+            990.6251336347826,
+            1179.142905878261
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        }
+      ],
+      "static_route_exists": true
+    },
+    {
+      "cell": [
+        73,
+        40
+      ],
+      "source_flag": 0,
+      "samples": [
+        {
+          "raw_xy": [
+            1060.8543037217391,
+            1168.8150867478262
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        },
+        {
+          "raw_xy": [
+            1089.7721972869567,
+            1179.142905878261
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        }
+      ],
+      "static_route_exists": true
+    },
+    {
+      "cell": [
+        67,
+        41
+      ],
+      "source_flag": 0,
+      "samples": [
+        {
+          "raw_xy": [
+            465.9719218086956,
+            1234.9131291826088
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        },
+        {
+          "raw_xy": [
+            494.88981537391305,
+            1245.2409483130432
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        }
+      ],
+      "static_route_exists": true
+    },
+    {
+      "cell": [
+        68,
+        41
+      ],
+      "source_flag": 0,
+      "samples": [
+        {
+          "raw_xy": [
+            565.1189854608696,
+            1234.9131291826088
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        },
+        {
+          "raw_xy": [
+            594.0368790260869,
+            1245.2409483130432
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        }
+      ],
+      "static_route_exists": true
+    },
+    {
+      "cell": [
+        69,
+        41
+      ],
+      "source_flag": 0,
+      "samples": [
+        {
+          "raw_xy": [
+            664.2660491130434,
+            1234.9131291826088
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        },
+        {
+          "raw_xy": [
+            693.1839426782609,
+            1245.2409483130432
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        }
+      ],
+      "static_route_exists": true
+    },
+    {
+      "cell": [
+        70,
+        41
+      ],
+      "source_flag": 0,
+      "samples": [
+        {
+          "raw_xy": [
+            763.4131127652174,
+            1234.9131291826088
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        },
+        {
+          "raw_xy": [
+            792.3310063304348,
+            1245.2409483130432
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        }
+      ],
+      "static_route_exists": true
+    },
+    {
+      "cell": [
+        71,
+        41
+      ],
+      "source_flag": 0,
+      "samples": [
+        {
+          "raw_xy": [
+            862.5601764173913,
+            1234.9131291826088
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        },
+        {
+          "raw_xy": [
+            891.4780699826086,
+            1245.2409483130432
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        }
+      ],
+      "static_route_exists": true
+    },
+    {
+      "cell": [
+        72,
+        41
+      ],
+      "source_flag": 0,
+      "samples": [
+        {
+          "raw_xy": [
+            961.7072400695653,
+            1234.9131291826088
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        },
+        {
+          "raw_xy": [
+            990.6251336347826,
+            1245.2409483130432
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        }
+      ],
+      "static_route_exists": true
+    },
+    {
+      "cell": [
+        73,
+        41
+      ],
+      "source_flag": 0,
+      "samples": [
+        {
+          "raw_xy": [
+            1060.8543037217391,
+            1234.9131291826088
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        },
+        {
+          "raw_xy": [
+            1089.7721972869567,
+            1245.2409483130432
+          ],
+          "alpha": 0,
+          "outside_canvas": true
+        }
+      ],
+      "static_route_exists": true
+    }
+  ],
+  "important_limits": [
+    "12 layer0 owner cells are NOT 12 solid replacement floor rectangles. Several source samples are grass/apron, so candidate transparency there is correct; do not fill them.",
+    "The source (65,35) first toe is a cheek/tread boundary with uncertainty. Its second toe is clear supporting stair material and currently falls into alpha=0; left flight needs real width as well as depth.",
+    "Both (66,36) source toes need step material; candidate first is near-transparent and second hits a solid side cheek. This is independent evidence of a deficient left staircase.",
+    "One (74,37) source sample is lower tread and the other source grass. Preserve that distinction; do not broaden right stairs into grass just to cover all markers.",
+    "The raw alpha of a sampled boot says only material presence, not surface height or correct depth; source/new material inspection and later native route/depth validation are required.",
+    "Blocked front-projected cells do not authorize ignoring physical overlap. Adjacent reachable foot probes are recorded separately, and finite probes do not prove the entire silhouette harmless."
+  ],
+  "planned_edit": "One localized generated structural edit of both complete staircase assemblies including appropriate tread/riser/side-cheek contours and immediately adjoining landing seams. Preserve full raw canvas/camera, roof, doors, main facade/piers, shared platform outer front corner, material/light, transparency and no ground cast. No pixel warp or global redraw.",
+  "parent_review_files": [
+    "raw-edit-targets.png",
+    "front-corner-semantic-review.png",
+    "source-candidate-support-feet.png",
+    "raw-source-foot-probes.png"
+  ],
+  "reproduce": "python Project/art_source/earth_training_hall_edit_plan_v1/build_plan.py",
+  "proposal": "EDIT_PROPOSAL.md",
+  "prompt_draft": "edit-prompt-draft.txt",
+  "prompt_draft_sha256": "7779909d23ff2d403cb0b6c5187959e9d7439acc315f52af9fb6dd3569f86b54"
+}

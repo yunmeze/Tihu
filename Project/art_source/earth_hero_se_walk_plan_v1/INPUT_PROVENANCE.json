@@ -1,0 +1,127 @@
+{
+  "main_role": "sole pose/camera authority",
+  "source_common_crop": [
+    12,
+    8,
+    68,
+    96
+  ],
+  "source_crop_root": [
+    4,
+    56
+  ],
+  "main_grid": [
+    3,
+    2
+  ],
+  "magnification": 8,
+  "logical_canvas": [
+    128,
+    128
+  ],
+  "logical_root": [
+    16,
+    64
+  ],
+  "source_frames": [
+    {
+      "source_id": 51,
+      "path": "source-51.png",
+      "sha256": "8a7decde7ee2db6aa605cd789bc240e3fb7413814f0bbdfdf4c68a9149fce206",
+      "rgba_sha256": "c067dfe42ce3ae808ad7d4cd660dd4aa0f35814a63a4ea51228ca06ee6023caa"
+    },
+    {
+      "source_id": 52,
+      "path": "source-52.png",
+      "sha256": "44ca5e84d703f113c1068913cb3526704a3e262fedce79d3caf4538d13259de6",
+      "rgba_sha256": "758f467bacdada3b4f2a516ecf30cbf265b00bd27c7a16b284bdb561c55e179c"
+    },
+    {
+      "source_id": 53,
+      "path": "source-53.png",
+      "sha256": "89baa14474ab36f1833582c2ba8e846b757c176bb555a4c28a021981742c2a8c",
+      "rgba_sha256": "e21fd3adf1cf6bc45105f96fe9e628ad49a52f1d5194bdd807a1ecc7048f405d"
+    },
+    {
+      "source_id": 54,
+      "path": "source-54.png",
+      "sha256": "72d054faf01c5e1076b4eb90db455213f3efa29e87787a075cede32d80bbedad",
+      "rgba_sha256": "9f132dd07b48cd205dd62be41e40ffc8e7defabd9b5cd4a2faba390417578bc2"
+    },
+    {
+      "source_id": 55,
+      "path": "source-55.png",
+      "sha256": "9ca1c54bbc39b3e065c92f0af0cbb708f0ae1ce1ef25c0a68f66ef8c8b8a693a",
+      "rgba_sha256": "e170d25f15fa68f46027691c13ef266b54681309acc4b2eccad46dccd67d947a"
+    },
+    {
+      "source_id": 56,
+      "path": "source-56.png",
+      "sha256": "76c756fe98878595e2d37907a229b30770a99eaf2f66de8f9b26ac4fcbc6a06a",
+      "rgba_sha256": "309b8fa365d6f0a121d0f63337b202be5ad123f8bfd2fd8c722975b4dc582f42"
+    }
+  ],
+  "identity_raw": "art_source/earth_hero_se_idle_v1/raw-v1.png",
+  "identity_raw_sha256": "fe50c6b44f49218792433f56a249c37ded85bdbee447f3134e348e0bcae09b7e",
+  "identity_crops": {
+    "head_face": [
+      213,
+      53,
+      319,
+      171
+    ],
+    "chest_black_abdomen": [
+      208,
+      174,
+      340,
+      317
+    ],
+    "red_shoulder": [
+      137,
+      157,
+      220,
+      258
+    ],
+    "low_waist": [
+      202,
+      303,
+      334,
+      367
+    ],
+    "black_thigh_small_side_plate": [
+      180,
+      352,
+      285,
+      466
+    ],
+    "fingerless_glove": [
+      119,
+      374,
+      183,
+      448
+    ],
+    "graphite_knee": [
+      151,
+      477,
+      240,
+      545
+    ],
+    "dark_boot": [
+      255,
+      553,
+      375,
+      649
+    ]
+  },
+  "identity_policy": "unmodified disconnected RGBA crops; no full new person, no paired full legs; current idle outfit outranks canonical thigh design",
+  "inputs": [
+    {
+      "path": "source-six-main-8x.png",
+      "sha256": "5903a685219a3df66112e93767bbbafa2fcd4141ffa116ba19bf7bd32b7afe26"
+    },
+    {
+      "path": "idle-disconnected-design-parts.png",
+      "sha256": "9d89d0bc5a99d72a4ca8a6c74e6449a7119b9dc14873102f316424e2978289e4"
+    }
+  ]
+}

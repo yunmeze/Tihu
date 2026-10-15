@@ -1,0 +1,694 @@
+{
+  "status": "source-only-analysis-no-imagegen",
+  "canvas": [
+    128,
+    128
+  ],
+  "native_draw_origin": [
+    16,
+    64
+  ],
+  "source_ids": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+  ],
+  "formula": "33 + SE_direction3 * 6 + phase0to5",
+  "confidence": {
+    "crown_boot_tip_surface_px": 1,
+    "hands_clothing_surfaces_px": 3,
+    "knees_ankles_clothing_proxies_px": 4,
+    "chain_A_B_identity": "medium confidence cross-frame tracking, not anatomical left/right proof",
+    "hips": "not annotated; hidden by clothing",
+    "bright_boot_pixel_rule": "exact listed pixels alpha>0 and min RGB>180 inside x18..63/y68..95; only a reproducible visible-foot aid, not whole foot mask"
+  },
+  "frames": [
+    {
+      "crown": [
+        40,
+        16
+      ],
+      "pelvis": [
+        40,
+        55
+      ],
+      "A_knee": [
+        43,
+        67
+      ],
+      "A_ankle": [
+        45,
+        82
+      ],
+      "A_boot": [
+        51,
+        89
+      ],
+      "B_knee": [
+        31,
+        63
+      ],
+      "B_ankle": [
+        33,
+        69
+      ],
+      "B_boot": [
+        36,
+        72
+      ],
+      "near_hand": [
+        26,
+        53
+      ],
+      "far_hand": [
+        56,
+        45
+      ],
+      "note": "First broad stride: one long projected leg down-right, other short folded behind-left. The short boot is visible.",
+      "source_id": 51,
+      "projected_lower_boot": "A",
+      "physical_contact": "not established from static projected sprite; projected lower boot is only a contact candidate",
+      "bright_boot_pixels": [
+        [
+          36,
+          71
+        ],
+        [
+          35,
+          72
+        ],
+        [
+          36,
+          72
+        ],
+        [
+          37,
+          72
+        ],
+        [
+          36,
+          73
+        ],
+        [
+          50,
+          88
+        ],
+        [
+          51,
+          88
+        ],
+        [
+          50,
+          89
+        ],
+        [
+          51,
+          89
+        ],
+        [
+          52,
+          89
+        ],
+        [
+          49,
+          90
+        ],
+        [
+          50,
+          90
+        ],
+        [
+          51,
+          90
+        ]
+      ],
+      "rgba_sha256": "c067dfe42ce3ae808ad7d4cd660dd4aa0f35814a63a4ea51228ca06ee6023caa"
+    },
+    {
+      "crown": [
+        40,
+        15
+      ],
+      "pelvis": [
+        40,
+        55
+      ],
+      "A_knee": [
+        37,
+        65
+      ],
+      "A_ankle": [
+        40,
+        81
+      ],
+      "A_boot": [
+        43,
+        87
+      ],
+      "B_knee": null,
+      "B_ankle": null,
+      "B_boot": null,
+      "near_hand": [
+        29,
+        54
+      ],
+      "far_hand": [
+        51,
+        46
+      ],
+      "note": "Passing transition with only one independently visible white boot; do not invent a visible high raised second boot.",
+      "source_id": 52,
+      "projected_lower_boot": "A",
+      "physical_contact": "not established from static projected sprite; projected lower boot is only a contact candidate",
+      "bright_boot_pixels": [
+        [
+          42,
+          86
+        ],
+        [
+          43,
+          86
+        ],
+        [
+          41,
+          87
+        ],
+        [
+          42,
+          87
+        ],
+        [
+          43,
+          87
+        ],
+        [
+          44,
+          87
+        ],
+        [
+          41,
+          88
+        ],
+        [
+          42,
+          88
+        ],
+        [
+          43,
+          88
+        ],
+        [
+          44,
+          88
+        ]
+      ],
+      "rgba_sha256": "758f467bacdada3b4f2a516ecf30cbf265b00bd27c7a16b284bdb561c55e179c"
+    },
+    {
+      "crown": [
+        40,
+        16
+      ],
+      "pelvis": [
+        41,
+        55
+      ],
+      "A_knee": [
+        34,
+        66
+      ],
+      "A_ankle": [
+        35,
+        79
+      ],
+      "A_boot": [
+        38,
+        84
+      ],
+      "B_knee": [
+        50,
+        65
+      ],
+      "B_ankle": [
+        48,
+        77
+      ],
+      "B_boot": [
+        51,
+        82
+      ],
+      "near_hand": [
+        35,
+        57
+      ],
+      "far_hand": null,
+      "note": "Both boots reappear with small vertical difference, not a wide split stance; hands partly occluded.",
+      "source_id": 53,
+      "projected_lower_boot": "A",
+      "physical_contact": "not established from static projected sprite; projected lower boot is only a contact candidate",
+      "bright_boot_pixels": [
+        [
+          51,
+          81
+        ],
+        [
+          50,
+          82
+        ],
+        [
+          51,
+          82
+        ],
+        [
+          52,
+          82
+        ],
+        [
+          37,
+          83
+        ],
+        [
+          38,
+          83
+        ],
+        [
+          39,
+          83
+        ],
+        [
+          51,
+          83
+        ],
+        [
+          52,
+          83
+        ],
+        [
+          36,
+          84
+        ],
+        [
+          37,
+          84
+        ],
+        [
+          38,
+          84
+        ],
+        [
+          39,
+          84
+        ],
+        [
+          37,
+          85
+        ],
+        [
+          38,
+          85
+        ],
+        [
+          39,
+          85
+        ]
+      ],
+      "rgba_sha256": "e21fd3adf1cf6bc45105f96fe9e628ad49a52f1d5194bdd807a1ecc7048f405d"
+    },
+    {
+      "crown": [
+        40,
+        16
+      ],
+      "pelvis": [
+        40,
+        55
+      ],
+      "A_knee": [
+        32,
+        65
+      ],
+      "A_ankle": [
+        26,
+        73
+      ],
+      "A_boot": [
+        29,
+        77
+      ],
+      "B_knee": [
+        49,
+        63
+      ],
+      "B_ankle": [
+        52,
+        79
+      ],
+      "B_boot": [
+        58,
+        85
+      ],
+      "near_hand": [
+        38,
+        58
+      ],
+      "far_hand": null,
+      "note": "Opposite broad stride: previously long tracked chain folds toward left-back, other chain projects down-right. Far hand cannot be independently located.",
+      "source_id": 54,
+      "projected_lower_boot": "B",
+      "physical_contact": "not established from static projected sprite; projected lower boot is only a contact candidate",
+      "bright_boot_pixels": [
+        [
+          30,
+          75
+        ],
+        [
+          27,
+          76
+        ],
+        [
+          28,
+          76
+        ],
+        [
+          29,
+          76
+        ],
+        [
+          30,
+          76
+        ],
+        [
+          27,
+          77
+        ],
+        [
+          28,
+          77
+        ],
+        [
+          29,
+          77
+        ],
+        [
+          30,
+          77
+        ],
+        [
+          56,
+          84
+        ],
+        [
+          57,
+          84
+        ],
+        [
+          58,
+          84
+        ],
+        [
+          59,
+          84
+        ],
+        [
+          57,
+          85
+        ],
+        [
+          58,
+          85
+        ]
+      ],
+      "rgba_sha256": "9f132dd07b48cd205dd62be41e40ffc8e7defabd9b5cd4a2faba390417578bc2"
+    },
+    {
+      "crown": [
+        40,
+        16
+      ],
+      "pelvis": [
+        40,
+        54
+      ],
+      "A_knee": [
+        39,
+        67
+      ],
+      "A_ankle": [
+        27,
+        74
+      ],
+      "A_boot": [
+        30,
+        77
+      ],
+      "B_knee": [
+        43,
+        65
+      ],
+      "B_ankle": [
+        45,
+        78
+      ],
+      "B_boot": [
+        50,
+        82
+      ],
+      "near_hand": [
+        31,
+        53
+      ],
+      "far_hand": null,
+      "note": "Not a duplicate of51 or54. Left-back boot remains near prior location while its knee shifts substantially right; lower leg folds left-back. Other boot draws inward.",
+      "source_id": 55,
+      "projected_lower_boot": "B",
+      "physical_contact": "not established from static projected sprite; projected lower boot is only a contact candidate",
+      "bright_boot_pixels": [
+        [
+          31,
+          76
+        ],
+        [
+          29,
+          77
+        ],
+        [
+          30,
+          77
+        ],
+        [
+          31,
+          77
+        ],
+        [
+          29,
+          78
+        ],
+        [
+          30,
+          78
+        ],
+        [
+          50,
+          81
+        ],
+        [
+          51,
+          81
+        ],
+        [
+          49,
+          82
+        ],
+        [
+          50,
+          82
+        ],
+        [
+          51,
+          82
+        ],
+        [
+          49,
+          83
+        ],
+        [
+          50,
+          83
+        ],
+        [
+          51,
+          83
+        ]
+      ],
+      "rgba_sha256": "e170d25f15fa68f46027691c13ef266b54681309acc4b2eccad46dccd67d947a"
+    },
+    {
+      "crown": [
+        40,
+        15
+      ],
+      "pelvis": [
+        40,
+        54
+      ],
+      "A_knee": [
+        40,
+        68
+      ],
+      "A_ankle": [
+        40,
+        82
+      ],
+      "A_boot": [
+        44,
+        87
+      ],
+      "B_knee": [
+        43,
+        67
+      ],
+      "B_ankle": [
+        43,
+        75
+      ],
+      "B_boot": [
+        45,
+        79
+      ],
+      "near_hand": [
+        29,
+        53
+      ],
+      "far_hand": [
+        53,
+        45
+      ],
+      "note": "Narrow passing phase with boots nearly overlapping horizontally; shorter boot near the other ankle, not high-knee running.",
+      "source_id": 56,
+      "projected_lower_boot": "A",
+      "physical_contact": "not established from static projected sprite; projected lower boot is only a contact candidate",
+      "bright_boot_pixels": [
+        [
+          44,
+          78
+        ],
+        [
+          45,
+          78
+        ],
+        [
+          46,
+          78
+        ],
+        [
+          44,
+          79
+        ],
+        [
+          45,
+          79
+        ],
+        [
+          46,
+          79
+        ],
+        [
+          45,
+          80
+        ],
+        [
+          46,
+          80
+        ],
+        [
+          43,
+          86
+        ],
+        [
+          44,
+          86
+        ],
+        [
+          45,
+          86
+        ],
+        [
+          42,
+          87
+        ],
+        [
+          43,
+          87
+        ],
+        [
+          44,
+          87
+        ],
+        [
+          45,
+          87
+        ],
+        [
+          43,
+          88
+        ],
+        [
+          44,
+          88
+        ]
+      ],
+      "rgba_sha256": "309b8fa365d6f0a121d0f63337b202be5ad123f8bfd2fd8c722975b4dc582f42"
+    }
+  ],
+  "phase_duration": {
+    "reference_actor_ticks": 7,
+    "reference_tick_rate": 50,
+    "nominal_seconds": 0.14,
+    "scope": "reference animation.js and current R1 movement.gd configuration; not independent EXE lifecycle confirmation"
+  },
+  "cycle_boundary": {
+    "56_to51_A_boot_delta": [
+      7,
+      2
+    ],
+    "56_to51_B_boot_delta": [
+      -9,
+      -7
+    ],
+    "note": "First and last frame must differ; do not force identical loop endpoints."
+  },
+  "idle_transition": {
+    "source_idle_ids": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "idle_boot_proxy": [
+      [
+        36,
+        86
+      ],
+      [
+        52,
+        81
+      ]
+    ],
+    "walk51_boot_proxy": [
+      [
+        51,
+        89
+      ],
+      [
+        36,
+        72
+      ]
+    ],
+    "observation": "Original walk entry expands stride and folds one leg; matching idle feet at first walk frame would erase the original action. Current R1 resets animation_tick on action changes; true EXE entry-phase timing is outside this source-shape analysis."
+  },
+  "current_scope": "Earth source-only preparation, no generation authorized",
+  "identity_strategy": "current Earth idle13 fragments only; omit canonical elongated silver thigh armor"
+}

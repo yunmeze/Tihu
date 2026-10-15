@@ -1,0 +1,36 @@
+{
+  "status": "one approved generation frozen and measured; support correspondence failed under one uniform scale/translation; not registered and not production-approved",
+  "generator": "built-in imagegen",
+  "transparent_background": true,
+  "inputs": [
+    {
+      "path": "art_source/earth_training_hall_source_v1/source-full.png",
+      "sha256": "375f5bb962fa5df8f6a305820f80b5f183864dc2492ca0827fe5fc71887130cc",
+      "role": "complete source geometry/camera only"
+    },
+    {
+      "path": "art_source/earth_training_hall_source_v1/concept-building-crop.png",
+      "sha256": "af7d9ff3ec0cd843909d1604973d6b60ad8379fcd5bffd43c773f33943f25624",
+      "role": "approved concept architecture/material/lighting only"
+    }
+  ],
+  "prompt_sha256": "5abd5ad549631f4360e05ae6af03ff385b980bd9f11332762b94d58d943ccf0c",
+  "source_input_contract": "art_source/earth_training_hall_source_v1/input-contract.json",
+  "source_input_contract_sha256": "f99d5cbd19cbe398396d8d1c90ec4f3511785fc3912886f98a4020ce7e3aaf14",
+  "scope": "One whole Earth-era training hall, first structural master. No runtime, no registration, no local warp. Original two doors/two stairs/12 support owner relations and camera preserved. Roof tips/red tiled identity replaced. Actual output density must be measured; no upscaling to claim 2 texels/logical unit.",
+  "raw": {
+    "path": "raw.png",
+    "sha256": "a81ff1d6ac235d80e5d948a804c2959b1b9b3babaed054897d396620b4bf9033",
+    "size": [
+      1372,
+      1146
+    ],
+    "mode": "RGBA",
+    "bytes": 2206840,
+    "generated_source_path": "/workspace/scratch/22c897619190/generated_images/exec-2cf2deda-21b8-43bd-8321-ce0fd6735ddd.png"
+  },
+  "generation_output_utc": "2026-10-15T07:58:30Z",
+  "review": "REVIEW.md",
+  "measurement": "measurements.json",
+  "raw_integrity_verified_after_measurements": true
+}

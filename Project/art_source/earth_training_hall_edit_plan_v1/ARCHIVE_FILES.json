@@ -1,0 +1,108 @@
+{
+  "scope": "Precise minimal archive inventory for source inputs + raw v1 + fixed-reference measurement/edit plan. No Git operation performed. Includes target board because it is an actual v2 imagegen input; other reproducible diagnostic boards omitted.",
+  "files": [
+    {
+      "path": "art_source/earth_training_hall_source_v1/README.md",
+      "bytes": 6153,
+      "sha256": "eeb2e3c5911d1b51d5059763f0c9379b51a667353767c0120dac1b083e17442e"
+    },
+    {
+      "path": "art_source/earth_training_hall_source_v1/build_inputs.py",
+      "bytes": 15222,
+      "sha256": "a7a975e77984857c798190a2c2283cd6f46ac0ebd47c48d1c9ada31d8a42e0b5"
+    },
+    {
+      "path": "art_source/earth_training_hall_source_v1/source-full.png",
+      "bytes": 534104,
+      "sha256": "375f5bb962fa5df8f6a305820f80b5f183864dc2492ca0827fe5fc71887130cc"
+    },
+    {
+      "path": "art_source/earth_training_hall_source_v1/concept-building-crop.png",
+      "bytes": 491248,
+      "sha256": "af7d9ff3ec0cd843909d1604973d6b60ad8379fcd5bffd43c773f33943f25624"
+    },
+    {
+      "path": "art_source/earth_training_hall_source_v1/input-contract.json",
+      "bytes": 53048,
+      "sha256": "f99d5cbd19cbe398396d8d1c90ec4f3511785fc3912886f98a4020ce7e3aaf14"
+    },
+    {
+      "path": "art_source/earth_training_hall_source_v1/prompt-draft.txt",
+      "bytes": 6134,
+      "sha256": "f03961cb7c0ccc6a350b9d5e3267f90c791232ff33edca2350a0fcf20287d534"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v1/raw.png",
+      "bytes": 2206840,
+      "sha256": "a81ff1d6ac235d80e5d948a804c2959b1b9b3babaed054897d396620b4bf9033"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v1/prompt.txt",
+      "bytes": 5902,
+      "sha256": "5abd5ad549631f4360e05ae6af03ff385b980bd9f11332762b94d58d943ccf0c"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v1/generation-input.json",
+      "bytes": 1836,
+      "sha256": "db041f903864503b7fd54213ee0e320a83487d8522b6c1286674f05413fa0346"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v1/measure_candidate.py",
+      "bytes": 9555,
+      "sha256": "f580dd645bd81eafd3a7a1be7ec312824f07c9caa66fc9cb7a19c1963ffb8212"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v1/measurements.json",
+      "bytes": 7744,
+      "sha256": "05d3c2bc529c20c96861ce984a608b49b66f9c612e08d3e56c0be84bbd2b1543"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v1/REVIEW.md",
+      "bytes": 4457,
+      "sha256": "89e0afd284fb62ddc2bf17d6e354080bd7f58a4cf5775afddec3ec3526815e34"
+    },
+    {
+      "path": "art_source/earth_training_hall_edit_plan_v1/build_plan.py",
+      "bytes": 16868,
+      "sha256": "4ca04c1619ba6c07041f85301d3c29d979c3719562216df8ace9acaddeb806e6"
+    },
+    {
+      "path": "art_source/earth_training_hall_edit_plan_v1/edit-plan.json",
+      "bytes": 43846,
+      "sha256": "e21f959981e3407306ac4c99b685cb8808c04b0737a59929ba2f0bb137271cfd"
+    },
+    {
+      "path": "art_source/earth_training_hall_edit_plan_v1/EDIT_PROPOSAL.md",
+      "bytes": 5819,
+      "sha256": "a467306bb4e58f1f65d9f43e76a0b2374a9c3ba265ad35f4ebe2c3fa386bfee0"
+    },
+    {
+      "path": "art_source/earth_training_hall_edit_plan_v1/edit-prompt-draft.txt",
+      "bytes": 4832,
+      "sha256": "7779909d23ff2d403cb0b6c5187959e9d7439acc315f52af9fb6dd3569f86b54"
+    },
+    {
+      "path": "art_source/earth_training_hall_edit_plan_v1/raw-edit-targets.png",
+      "bytes": 1814054,
+      "sha256": "cd2c15ed3df2ecbdcd4e40a0d74b39d5a4381bab207a5a2a5da7fb905faec921"
+    }
+  ],
+  "count": 17,
+  "bytes": 5227662,
+  "exclude_reproducible_diagnostics": [
+    "earth_training_hall_source_v1/source-geometry-review.png",
+    "earth_training_hall_candidate_v1/raw-on-gray.jpg",
+    "earth_training_hall_candidate_v1/candidate-support-points.png",
+    "earth_training_hall_candidate_v1/candidate-support-locals.png",
+    "earth_training_hall_candidate_v1/common-scale-diagnostic.jpg",
+    "earth_training_hall_edit_plan_v1/front-corner-semantic-review.png",
+    "earth_training_hall_edit_plan_v1/source-candidate-support-feet.png",
+    "earth_training_hall_edit_plan_v1/raw-source-foot-probes.png"
+  ],
+  "reproduce_in_order": [
+    "python Project/art_source/earth_training_hall_source_v1/build_inputs.py",
+    "python Project/art_source/earth_training_hall_candidate_v1/measure_candidate.py",
+    "python Project/art_source/earth_training_hall_edit_plan_v1/build_plan.py"
+  ],
+  "source_dependencies": "Already-existing A13.json, original Building atlas/manifest, original source-group-contract and approved concept; hashes are in source input-contract.json. No original EXE needed."
+}
