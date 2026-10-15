@@ -1,0 +1,49 @@
+{
+  "status": "frozen v2 measured under unchanged original reference; left width and right upper edge/ground exclusion still fail; non-target redraw detected; no runtime",
+  "approval_utc": "2026-10-15T08:20:22Z",
+  "scope": "One localized edit, no whole-building redraw, no warp, no refit. Keep S1/S2, common platform corner, main piers, building/doors/material/light. Return unchanged-canvas candidate then check same fixed reference.",
+  "generator": "built-in imagegen",
+  "transparent_background": true,
+  "inputs": [
+    {
+      "path": "art_source/earth_training_hall_candidate_v1/raw.png",
+      "role": "edit target; existing full transparent building, keep unrelated structure fixed",
+      "sha256": "a81ff1d6ac235d80e5d948a804c2959b1b9b3babaed054897d396620b4bf9033"
+    },
+    {
+      "path": "art_source/earth_training_hall_edit_plan_v1/raw-edit-targets.png",
+      "role": "same-raw-coordinate technical stair targets only; never render marks/background",
+      "sha256": "cd2c15ed3df2ecbdcd4e40a0d74b39d5a4381bab207a5a2a5da7fb905faec921"
+    }
+  ],
+  "prompt_sha256": "c6d753b9d6dcd665a00854adceaf228dfa665bd524c8f15a5152f9567d631c88",
+  "plan_path": "art_source/earth_training_hall_edit_plan_v1/edit-plan.json",
+  "plan_sha256": "e21f959981e3407306ac4c99b685cb8808c04b0737a59929ba2f0bb137271cfd",
+  "fixed_reference": {
+    "kind": "Freeze previous common scale+translation solely as an editing reference. It is NOT approved runtime registration. No refit to make new measurements pass.",
+    "density": 2.0655638260869567,
+    "raw_translation": [
+      -122.71376862608702,
+      -184.1292193391306
+    ],
+    "source_canvas_origin_world": [
+      2948,
+      642
+    ],
+    "why_usable_for_edit_plan": "Existing S1 and S2 fall inside conservative source+candidate read budgets; preserve those mouths/bottoms and correct deficient stair geometry. A valid remeasurement is mandatory after editing."
+  },
+  "raw": {
+    "path": "raw.png",
+    "sha256": "5dc43ba8c8f2b5c23832aa5e3178cde41546e5077dfb96ae7c5163d73e851d75",
+    "size": [
+      1372,
+      1147
+    ],
+    "mode": "RGBA",
+    "bytes": 2055190,
+    "generated_source_path": "/workspace/scratch/22c897619190/generated_images/exec-094765f9-966d-4793-b0a8-88a577b85391.png"
+  },
+  "output_utc": "2026-10-15T08:22:11Z",
+  "review": "REVIEW.md",
+  "measurements": "measurements.json"
+}

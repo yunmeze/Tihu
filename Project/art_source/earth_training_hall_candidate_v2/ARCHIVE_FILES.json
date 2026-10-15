@@ -1,0 +1,43 @@
+{
+  "scope": "Frozen v2 localized edit plus fixed-reference QA. No Git operations.",
+  "files": [
+    {
+      "path": "art_source/earth_training_hall_candidate_v2/raw.png",
+      "bytes": 2055190,
+      "sha256": "5dc43ba8c8f2b5c23832aa5e3178cde41546e5077dfb96ae7c5163d73e851d75"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v2/prompt.txt",
+      "bytes": 4527,
+      "sha256": "c6d753b9d6dcd665a00854adceaf228dfa665bd524c8f15a5152f9567d631c88"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v2/generation-input.json",
+      "bytes": 2359,
+      "sha256": "8eda0aabe71fc2a6b297897ab27bf61b6e530c0a2760d18752849e6667380edf"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v2/measure_fixed_reference.py",
+      "bytes": 8473,
+      "sha256": "6fba38335a4c55243ea7da7d436720883dc6094abc41b20f5971692d2f8da46a"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v2/measurements.json",
+      "bytes": 25239,
+      "sha256": "d951ea8ea3c1453193ce6517b47ebe54000d19c49a8f4716f1b7824a6e723394"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v2/REVIEW.md",
+      "bytes": 2930,
+      "sha256": "8e2dfb2969f85748ce3668f7024042db00c9a8b12591388a9b76071ce63ff0e9"
+    }
+  ],
+  "count": 6,
+  "bytes": 2098718,
+  "exclude_reproducible_diagnostics": [
+    "fixed-reference-support-feet.png",
+    "fixed-reference-points.png",
+    "v1-v2-native-review.jpg"
+  ],
+  "reproduce": "python Project/art_source/earth_training_hall_candidate_v2/measure_fixed_reference.py"
+}

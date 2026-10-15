@@ -41,3 +41,21 @@ func _draw_hero(origin:Vector2,index:int) -> void:
 	if uses_candidate(index):
 		draw_texture_rect_region(candidate_texture,Rect2(origin-Vector2(16,64),Vector2(128,128)),Rect2((index-13)*512,0,512,512))
 	else:super._draw_hero(origin,index)
+
+const Ground=preload("res://scripts/earth/ground_candidate.gd")
+var prefer_ground:=true
+var ground_owners:Dictionary={}
+func prepare_ground(path:String="res://assets/earth/environment/ground_plate_v2/registration.json") -> bool:
+	# One publication point; invalid preparation restores all 64 source owners.
+	ground_owners=Ground.read_prepare(path,map)
+	queue_redraw()
+	return ground_owners.size()==64
+func _draw_frame(pack_name:String,index:int,origin:Vector2,use_offset:bool,top:float) -> void:
+	if prefer_ground and ground_owners.size()==64 and pack_name==Ground.PACK:
+		var cell=(origin-screen_origin())/Vector2(48,32)
+		var order=roundi(cell.x)*100+roundi(cell.y)
+		if ground_owners.has(order):
+			var item=ground_owners[order]
+			draw_texture_rect(item.texture,Rect2(item.world_top_left+screen_origin(),Vector2(96,64)),false)
+			return
+	super._draw_frame(pack_name,index,origin,use_offset,top)
