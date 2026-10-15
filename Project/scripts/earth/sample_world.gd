@@ -63,6 +63,13 @@ func prepare_ground(path:String="res://assets/earth/environment/ground_plate_v4/
 	queue_redraw()
 	return ground_owners.size()==64
 func _draw_frame(pack_name:String,index:int,origin:Vector2,use_offset:bool,top:float) -> void:
+	if prefer_hall and hall_owners.size()==30 and pack_name==Hall.PACK:
+		var cell=(origin-screen_origin())/Vector2(48,32)
+		var order=roundi(cell.x)*100+roundi(cell.y)
+		if hall_owners.has(order):
+			var item=hall_owners[order]
+			if not item.empty:draw_texture_rect(item.texture,Rect2(item.world_top_left+screen_origin(),item.texture.get_size()*item.scale),false)
+			return
 	if prefer_ground and ground_owners.size()==64 and pack_name==Ground.PACK:
 		var cell=(origin-screen_origin())/Vector2(48,32)
 		var order=roundi(cell.x)*100+roundi(cell.y)
@@ -71,3 +78,11 @@ func _draw_frame(pack_name:String,index:int,origin:Vector2,use_offset:bool,top:f
 			draw_texture_rect(item.texture,Rect2(item.world_top_left+screen_origin(),Vector2(96,64)),false)
 			return
 	super._draw_frame(pack_name,index,origin,use_offset,top)
+
+const Hall=preload("res://scripts/earth/hall_candidate.gd")
+var prefer_hall:=true
+var hall_owners:Dictionary={}
+func prepare_hall(path:String="res://assets/earth/environment/training_hall_v1/registration.json") -> bool:
+	hall_owners=Hall.read_prepare(path,map)
+	queue_redraw()
+	return hall_owners.size()==30

@@ -18,4 +18,4 @@
 - Actual fixed sample and follow camera at true2×; actor starts61,39. The sample camera does not redefine doors or change collision geometry.
 - Whole-group missing/malformed dependency fallback, source toggle, map/flag immutability, fresh import, and unchanged R1/R6 entry regressions.
 
-As of this preparation, the new hall's stair widths/context seams have not passed the full geometry gate. The ordinary Earth entry continues rendering the original hall. The file supplies no guessed candidate transform.
+Historical preparation above preceded the selected local-stair assembly. The current independent Earth entry now loads the frozen ordinary training_hall_v1 candidate, with T restoring source. Actual eight-point depth / 896-tick original-route review and 184 guard checks are documented in EARTH_SOURCE_SAMPLE_ENTRY.md. This remains a bounded art candidate; no new building cast or elevated hero-shadow receiver has been accepted.

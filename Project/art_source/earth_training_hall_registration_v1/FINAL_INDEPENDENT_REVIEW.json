@@ -1,0 +1,41 @@
+{
+  "status": "PASS independent static source identity, complete pixel inverse and visible material partition; candidate native joint review pending",
+  "source_registration_sha256": "0b086e70162f6f79de76f311b662c7b66bb54ee6a3b4d7cf9a9cd806459a4c6c",
+  "ordinary_registration_sha256": "57072cc60ed9e33aa9afaeb0c7310733216e2884e0b042b043077551473e273c",
+  "review_utc": "2026-10-15T09:08:41Z",
+  "checks": {
+    "owner_metadata30_exact": true,
+    "support_owner_count": 12,
+    "upper_owner_count": 18,
+    "empty_upper_frames": [
+      3966,
+      3978
+    ],
+    "complete_rgba_reassembly_exact": true,
+    "overlap_pixels": 0,
+    "lost_pixels": 0,
+    "world_crop_compensation_error": 0,
+    "clear_support_feet_and_uncertainty_disks_layer0": 14,
+    "right_inner_floor_representative_points_layer0": 3,
+    "side_cheek_caps_front_end_doorframe_doorpanel_representative_points_layer1": true,
+    "retained_old_left_pier_pixels_layer1": 3770,
+    "critical66_36_owner": "Building:3980@66,36"
+  },
+  "resolved_material_partition_defects": [
+    "Left visible landing was incomplete; reclassified full visible horizontal surface.",
+    "Right upper landing/stair seam had a narrow unsupported wedge; shared material edge corrected.",
+    "Right left-side cheek cap was wrongly included in support; traced actual inner edge and excluded cap/front cheek.",
+    "Right visible inner golden floor was wrongly upper; actual horizontal plane moved to original support owner3976 while door/frame remain upper."
+  ],
+  "unchanged_artwork": "All fixes above change owner pixel assignment only; complete assembly RGBA remains be82bef2c8d7aa9e26675e69dc076acbca76f0878eaf78eee3a18e501a12464b.",
+  "retained_residuals": [
+    "Left thin upper-mouth seam and old main-pier/new-cheek contact notch.",
+    "Right source grass proxy edge uncertain within original +/-2source-pixel read budget, not fully transparent clearance."
+  ],
+  "not_certified": [
+    "Native actor/NPC walking and height ordering",
+    "Collision/path acceptance",
+    "Platform/cast-shadow receiver",
+    "Final effective-detail quality"
+  ]
+}

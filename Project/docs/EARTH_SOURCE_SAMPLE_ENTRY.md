@@ -2,7 +2,7 @@
 
 Run `godot --path Project res://scenes/earth_sample_preview.tscn` (or open that scene in Godot). The default R1 scene and R6 natural opening remain unchanged.
 
-This entry now offers the approved candidate SE idle sequence 13–16 and SE walk sequence 51–56, directly sampled from its density-4 atlas. The bounded v4 ground plate replaces exactly 64 original FloorBig owners. Building, NPCs, vegetation and every other actor action/direction still use original source artwork. It is not a completed new-style sample. SE walking uses all six approved candidate frames, never a translated single pose. New character shadows are deliberately absent pending the new lighting contract. Press B to compare source/new SE idle and walk.
+This entry now offers the approved candidate SE idle sequence 13–16 and SE walk sequence 51–56, directly sampled from its density-4 atlas. The bounded v4 ground plate replaces exactly 64 original FloorBig owners. The hall now has a bounded 30-owner candidate, while NPCs, vegetation and every other actor action/direction still use original source artwork. It is not a completed new-style sample. SE walking uses all six approved candidate frames, never a translated single pose. New character shadows are deliberately absent pending the new lighting contract. Press B to compare source/new SE idle and walk.
 
 ## Fixed review geometry
 
@@ -50,3 +50,10 @@ Native body diagnostics sampled idle16→two full walk loops→idle13 at indepen
 The independent entry now defaults to `assets/earth/environment/ground_plate_v4/registration.json`; P still restores original source ground. The 64 identities, floor order, flags, drawing rectangles and group-atomic failure behavior are unchanged. The old v2 resources remain historical. This v4 uses shorter grass detail; warm/yellow high-frequency highlights remain subject to joint lighting review. Six manually read road centers reach about 3.04 logical pixels difference, with source ±3 and candidate ±1.5 logical pixel reading uncertainty; this is not exact geometric agreement.
 
 Actual 1×/2× same-pose comparison was reviewed before promotion. The 101 malformed-resource/identity/source-immutability/original-route checks pass for v4. Fresh import of all 64 new v4 textures is tested in the existing isolated source checkout; historical caches there are retained. No new character or environment shadow is enabled by this stage.
+
+
+## Training hall candidate
+
+T toggles the selected new hall and its original source group. Preparation binds the registration SHA and the trusted original 30-owner identity table, checks all 28 imported textures, and retains empty upper owners 3966/3978 as explicit source suppression records. Any preparation failure restores the entire original 30-owner group. Replacement draws occur at the original object calls, preserving the original 12 support / 18 upper records, sort Y, stable order and source flags. No whole-building sprite substitutes for the layered renderer.
+
+Eight original A* destinations on both stairs and near doors were reached in 896 ticks. Source/new depth captures then intentionally used fixed original South17 for same-pose comparison; this does not certify all new actor poses on stairs. The independent 184 preparation/fallback assertions passed, including explicit empty owners and resource recovery. All 28 new textures were freshly imported into the existing isolated source checkout and the same 184 checks passed. R1 and R6 startup regressions remained clean. The ordinary entry still has no new shadow enabled at this checkpoint.

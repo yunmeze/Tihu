@@ -1,0 +1,40 @@
+{
+  "source_size": [
+    1448,
+    1086
+  ],
+  "source_sha256": "1beaf20bbda18d0e04fcf2f6e81a0028750e1b87224f21780393b00c36cc4fc5",
+  "coordinate_units": "native pixels; xyxy exclusive; no resize",
+  "references": [
+    {
+      "file": "concept_tree_branch_foliage.png",
+      "crop_xyxy": [
+        270,
+        0,
+        716,
+        356
+      ],
+      "use": "Natural green broadleaf crown, warm upper-left highlights, branching trunk. Crop includes background; do not transfer planter or layout."
+    },
+    {
+      "file": "concept_bark_detail.png",
+      "crop_xyxy": [
+        420,
+        190,
+        502,
+        354
+      ],
+      "use": "Bark and branch junction material only; no anchor evidence."
+    },
+    {
+      "file": "concept_shrub_material.png",
+      "crop_xyxy": [
+        547,
+        254,
+        714,
+        347
+      ],
+      "use": "Small natural green shrub clusters, leaf-scale and warm/cool separation. Includes planter edge; prohibit planter transfer."
+    }
+  ]
+}
