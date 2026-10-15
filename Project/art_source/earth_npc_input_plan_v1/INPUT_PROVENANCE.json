@@ -1,0 +1,102 @@
+{
+  "concept": {
+    "path": "art_source/earth_base_style_concept_v1/concept.png",
+    "sha256": "1beaf20bbda18d0e04fcf2f6e81a0028750e1b87224f21780393b00c36cc4fc5",
+    "size": [
+      1448,
+      1086
+    ]
+  },
+  "concept_crops_xyxy": {
+    "concept-fangzhang-context.png": [
+      902,
+      433,
+      1010,
+      566
+    ],
+    "concept-lingyunzi-context.png": [
+      775,
+      372,
+      856,
+      507
+    ],
+    "concept-fangzhang-head.png": [
+      943,
+      444,
+      968,
+      473
+    ],
+    "concept-fangzhang-upper-material.png": [
+      936,
+      471,
+      971,
+      495
+    ],
+    "concept-fangzhang-trouser-boot.png": [
+      946,
+      502,
+      979,
+      548
+    ],
+    "concept-lingyunzi-head.png": [
+      797,
+      382,
+      825,
+      408
+    ],
+    "concept-lingyunzi-upper-material.png": [
+      789,
+      405,
+      831,
+      437
+    ],
+    "concept-lingyunzi-trouser-boot.png": [
+      792,
+      450,
+      833,
+      495
+    ]
+  },
+  "concept_enlargements": "Nearest 4x is viewing convenience, not new detail; source concept character detail limited. Context crops are HUMAN REVIEW only; generation receives disconnected local patches plus original pose sheet.",
+  "hero": {
+    "path": "assets/earth/hero/se_idle_v1/body.png",
+    "sha256": "60f89f65dd817ec80065de941e62e36e1068302c3f2bc4eb5014d8d56f450c02",
+    "density": 4,
+    "crops_xyxy": {
+      "hero-black-cloth-material.png": [
+        164,
+        213,
+        185,
+        251
+      ],
+      "hero-gray-plate-material.png": [
+        149,
+        126,
+        177,
+        153
+      ],
+      "hero-boot-material.png": [
+        130,
+        310,
+        155,
+        336
+      ]
+    },
+    "use": "material/scale only; no hero face, full body, emblem or identity transfer"
+  },
+  "input_hashes": {
+    "data/maps/A13.json": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "assets/original/manifest.json": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+    "tools/lp_original.py": "c3471a8fda23ebbb079d2b0794c308af706a12fa77277447197f332efda86795",
+    "tools/extract_a13_original.py": "a5f7bb74feb201382ad912ce4eefeff5c2f7c69817d2995b6b0c30dda3f03b86",
+    "scripts/world_view.gd": "b404d8dd5e7e85a120fec00b7eb5f01e6bfc1fc37adf5e7878c1798432d4e285",
+    "scripts/art/selected_npc_pair.gd": "917c927306956ad1a2cf4613f0c3794b9f1326ba3d5c2fae561920cb1ebb8a61",
+    "docs/EARTH_ART_BIBLE_V1.md": "a71402566505906f9edd76b344630908e8be9373289f1cf61a982373d211f9c4",
+    "assets/earth/hero/se_idle_v1/manifest.json": "3672409856c27b1e81d543b8a0a29063e16170b2cafbaf55f5d6351fb1e9b5a3",
+    "assets/earth/hero/se_walk_v1/manifest.json": "127727940bd2651460bbe90396f80e7c75d89a7d8675f5d3467e5a5f46e229d7",
+    "assets/earth/hero/se_walk_v1/body.png": "f4eee4ec3a35e6597eb3a1eb4f6e5122163845ca474673974af1531ac42489ac",
+    "art_source/a13_npc_source/source-contract.json": "7e3fbbc9fbdf4601717c49c77562b6181db5341fc57e04eefd92a73e14c8ff71",
+    "../原版游戏/Data/Npc.lpRes": "a5c1ae8d4e87ccfa134ded0cfdd0b704c309ff3629b61082bc6382251aca6066",
+    "../原版游戏/Data/Map/A13.lpMap": "e1cc7189fc96e04312b935422ec511a078b1fbe6259b97b9e3c279732becb3e3"
+  }
+}

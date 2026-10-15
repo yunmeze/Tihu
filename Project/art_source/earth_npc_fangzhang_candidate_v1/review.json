@@ -1,0 +1,83 @@
+{
+  "status": "one_raw_candidate_only_hold_for_parent_pose_review_no_runtime",
+  "raw": {
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "d54b5cba880cf08efa5e0726012037aa90564641e8128c7fda44aa509ca7a74b",
+    "alpha0_pixels": 1077125,
+    "alpha1_to7_pixels": 19192,
+    "alpha128_bbox": [
+      50,
+      58,
+      949,
+      1489
+    ]
+  },
+  "transform": {
+    "uniform_scale_generated_to_logical": 0.045652606549256444,
+    "translation_to_registered_canvas": [
+      25.685976196056107,
+      62.4256929691438
+    ],
+    "rotation": 0,
+    "per_limb_adjustments": false,
+    "raw_pixels_per_logical_unit": 21.904554319829682,
+    "diagnostic_only": true
+  },
+  "landmarks": [
+    {
+      "name": "head_top_proxy",
+      "source_registered": [
+        55.0,
+        64.0
+      ],
+      "raw_generated": [
+        574.0,
+        60.0
+      ],
+      "residual_logical_px": 3.3204539318932342
+    },
+    {
+      "name": "screen_left_boot_lower_edge",
+      "source_registered": [
+        43.5,
+        119.0
+      ],
+      "raw_generated": [
+        380.0,
+        1188.0
+      ],
+      "residual_logical_px": 2.3849857311310148
+    },
+    {
+      "name": "screen_right_boot_lower_edge",
+      "source_registered": [
+        59.5,
+        129.0
+      ],
+      "raw_generated": [
+        819.0,
+        1484.0
+      ],
+      "residual_logical_px": 3.7633197229157
+    }
+  ],
+  "uncertainty": {
+    "source_px": 3,
+    "raw_px": 15,
+    "note": "visible extrema only, source baked shadow confounds boot endpoints; head clothing removed. No solved anatomical floor."
+  },
+  "generation": {
+    "built_in_imagegen_calls": 1,
+    "transparent_background_requested": true,
+    "inputs": [
+      "source261-pose-8x.png",
+      "../earth_npc_input_plan_v1/concept-fangzhang-disconnected-local-4x.png"
+    ],
+    "prompt_sha256": "a3ce4dd053823aa747c25dd40e3adc20312c0b658162473b5c5f93583dc03ce2",
+    "request_sha256": "1ff5e3c66699df891218b204baa0383a31d610cd949fa27f5210e71c246105eb"
+  },
+  "scope": "native references and input plan remain frozen; no second generation, no runtime, no shadow integration"
+}

@@ -1,0 +1,761 @@
+{
+  "status": "source_prepared_only; modern design boundary approved by parent 2026-10-15 09:13 UTC; no generation/runtime approval",
+  "sample_world_xywh": [
+    2496,
+    960,
+    768,
+    512
+  ],
+  "source_clock": {
+    "fps": 50,
+    "ticks_per_phase": 17,
+    "seconds_per_phase": 0.34,
+    "ticks_per_loop": 68,
+    "seconds_per_loop": 1.36,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "tick_windows_inclusive": [
+      [
+        0,
+        16
+      ],
+      [
+        17,
+        33
+      ],
+      [
+        34,
+        50
+      ],
+      [
+        51,
+        67
+      ]
+    ],
+    "phase_formula": "floor(tick / 17) % 4",
+    "sync": "shared current/reference global tick, not one per NPC",
+    "evidence": [
+      "Project/data/maps/A13.json render_contract",
+      "Project/scripts/world_view.gd",
+      "参考项目/src/map-effects.js",
+      "参考项目/src/game.js",
+      "参考项目/tools/inspect-map-effects.py"
+    ],
+    "scope": "Current/reference cadence. Reference inspection records a native 0x11 constant, but this preparation does not execute or independently trace native EXE lifecycle."
+  },
+  "registration": {
+    "canvas_size": [
+      128,
+      160
+    ],
+    "cell_draw_origin": [
+      32,
+      104
+    ],
+    "raw_world_top_left": "cell_world + original offset",
+    "atlas_world_top_left": "cell_world + original offset + atlas crop",
+    "registered_raw_top_left": "cell_draw_origin + original offset",
+    "root_warning": "Native cell draw origin is not anatomical foot/pelvis center. Do not align by alpha bbox, shadow extremum, or per-phase recentering.",
+    "direction_warning": "NPC has three stored direction slots. These are not the hero's 8-direction indices. No mirroring is authorized or introduced."
+  },
+  "render_contract": {
+    "floor_first": true,
+    "objects_sort": [
+      "layer",
+      "sort_y",
+      "stable_source_order"
+    ],
+    "ordinary_object_top": "32-original_height; ignore frame offset; add crop offset",
+    "floor_origin": "cell*[48,32]; ignore frame offset; add crop offset",
+    "npc_origin": "cell*[48,32] + original frame offset + crop offset",
+    "npc_layer": 1,
+    "npc_ticks": 17,
+    "source_fps": 50,
+    "dynamic_ticks": 8,
+    "kind8_top": -52,
+    "kind8_pingpong": [
+      55,
+      56,
+      57,
+      58,
+      59,
+      59,
+      58,
+      57,
+      56,
+      55
+    ],
+    "kind6": "spawn record, not scenery",
+    "kind7": "NPC-list reference, not extra scenery",
+    "scripts_preserved_not_executed": true
+  },
+  "npcs": [
+    {
+      "record_index": 0,
+      "name": "方丈",
+      "appearance": 21,
+      "direction": 2,
+      "x": 64,
+      "y": 37,
+      "source_record_offset": 80252,
+      "source_record_end": 81650,
+      "script_field_offset": 80268,
+      "script_sha256_utf8": "f8e05ab88ed46e2ea374fb5428fd26936aff70e0ff22c5a5bb1fa061279f38ba",
+      "source_indices": [
+        261,
+        262,
+        263,
+        264
+      ],
+      "source_group": "appearance-21-direction-2",
+      "world_cell_draw_origin": [
+        3072,
+        1184
+      ],
+      "layer": 1,
+      "sort_y": 37,
+      "stable_order": 10000,
+      "visibility_scope": "Native map record only. Actual visibility remains controlled by original scripts, not by art preparation."
+    },
+    {
+      "record_index": 1,
+      "name": "凌云子",
+      "appearance": 9,
+      "direction": 1,
+      "x": 62,
+      "y": 36,
+      "source_record_offset": 81650,
+      "source_record_end": 82592,
+      "script_field_offset": 81668,
+      "script_sha256_utf8": "6145ef6a2002aeeca2834face8967d41ff5b298de3b205162ca1859780df46c2",
+      "source_indices": [
+        113,
+        114,
+        115,
+        116
+      ],
+      "source_group": "appearance-09-direction-1",
+      "world_cell_draw_origin": [
+        2976,
+        1152
+      ],
+      "layer": 1,
+      "sort_y": 36,
+      "stable_order": 10001,
+      "visibility_scope": "Native map record only. Actual visibility remains controlled by original scripts, not by art preparation."
+    }
+  ],
+  "frames": {
+    "261": {
+      "original": [
+        64,
+        69
+      ],
+      "offset": [
+        -6,
+        -40
+      ],
+      "sourceOffset": 1066961,
+      "sourceBytes": 3769,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        64,
+        69
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "5cc25f0af2f0eb5ad2e1a226b636b2a866b27703d264ff45c2b79964180e795d",
+      "file": "fangzhang/source-261.png",
+      "file_sha256": "6608bad8b5ee33116938ea5b4388eba56ea924d289ed387e3e2013fb48aaec76",
+      "phase": 0,
+      "appearance": 21,
+      "direction_slot": 2,
+      "root_in_original_canvas": [
+        6,
+        40
+      ],
+      "registered_top_left": [
+        26,
+        64
+      ],
+      "visible_alpha_bbox_original_xyxy": [
+        0,
+        0,
+        63,
+        69
+      ],
+      "root_meaning": "Native cell draw origin; NOT a confirmed anatomical foot contact.",
+      "atlas_reference": {
+        "page": 0,
+        "rect": [
+          1309,
+          1,
+          64,
+          69
+        ],
+        "crop": [
+          0,
+          0
+        ]
+      },
+      "fresh_native_decode_verified": true
+    },
+    "262": {
+      "original": [
+        64,
+        69
+      ],
+      "offset": [
+        -6,
+        -40
+      ],
+      "sourceOffset": 1070734,
+      "sourceBytes": 3769,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        64,
+        69
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "5cc25f0af2f0eb5ad2e1a226b636b2a866b27703d264ff45c2b79964180e795d",
+      "file": "fangzhang/source-262.png",
+      "file_sha256": "6608bad8b5ee33116938ea5b4388eba56ea924d289ed387e3e2013fb48aaec76",
+      "phase": 1,
+      "appearance": 21,
+      "direction_slot": 2,
+      "root_in_original_canvas": [
+        6,
+        40
+      ],
+      "registered_top_left": [
+        26,
+        64
+      ],
+      "visible_alpha_bbox_original_xyxy": [
+        0,
+        0,
+        63,
+        69
+      ],
+      "root_meaning": "Native cell draw origin; NOT a confirmed anatomical foot contact.",
+      "atlas_reference": {
+        "page": 0,
+        "rect": [
+          1375,
+          1,
+          64,
+          69
+        ],
+        "crop": [
+          0,
+          0
+        ]
+      },
+      "fresh_native_decode_verified": true
+    },
+    "263": {
+      "original": [
+        64,
+        69
+      ],
+      "offset": [
+        -6,
+        -40
+      ],
+      "sourceOffset": 1074507,
+      "sourceBytes": 3769,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        64,
+        69
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "5cc25f0af2f0eb5ad2e1a226b636b2a866b27703d264ff45c2b79964180e795d",
+      "file": "fangzhang/source-263.png",
+      "file_sha256": "6608bad8b5ee33116938ea5b4388eba56ea924d289ed387e3e2013fb48aaec76",
+      "phase": 2,
+      "appearance": 21,
+      "direction_slot": 2,
+      "root_in_original_canvas": [
+        6,
+        40
+      ],
+      "registered_top_left": [
+        26,
+        64
+      ],
+      "visible_alpha_bbox_original_xyxy": [
+        0,
+        0,
+        63,
+        69
+      ],
+      "root_meaning": "Native cell draw origin; NOT a confirmed anatomical foot contact.",
+      "atlas_reference": {
+        "page": 0,
+        "rect": [
+          1441,
+          1,
+          64,
+          69
+        ],
+        "crop": [
+          0,
+          0
+        ]
+      },
+      "fresh_native_decode_verified": true
+    },
+    "264": {
+      "original": [
+        64,
+        69
+      ],
+      "offset": [
+        -6,
+        -40
+      ],
+      "sourceOffset": 1078280,
+      "sourceBytes": 3769,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        64,
+        69
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "5cc25f0af2f0eb5ad2e1a226b636b2a866b27703d264ff45c2b79964180e795d",
+      "file": "fangzhang/source-264.png",
+      "file_sha256": "6608bad8b5ee33116938ea5b4388eba56ea924d289ed387e3e2013fb48aaec76",
+      "phase": 3,
+      "appearance": 21,
+      "direction_slot": 2,
+      "root_in_original_canvas": [
+        6,
+        40
+      ],
+      "registered_top_left": [
+        26,
+        64
+      ],
+      "visible_alpha_bbox_original_xyxy": [
+        0,
+        0,
+        63,
+        69
+      ],
+      "root_meaning": "Native cell draw origin; NOT a confirmed anatomical foot contact.",
+      "atlas_reference": {
+        "page": 0,
+        "rect": [
+          1507,
+          1,
+          64,
+          69
+        ],
+        "crop": [
+          0,
+          0
+        ]
+      },
+      "fresh_native_decode_verified": true
+    },
+    "113": {
+      "original": [
+        60,
+        72
+      ],
+      "offset": [
+        9,
+        -51
+      ],
+      "sourceOffset": 437086,
+      "sourceBytes": 3729,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        60,
+        72
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "2893cd1fa1f54adf51e09f301aaf75d8509513135270054a2a61d3e58d888c99",
+      "file": "lingyunzi/source-113.png",
+      "file_sha256": "3807e38729940fe8d3008200abe74075fb9ea8a291c3332231696ba00b493dac",
+      "phase": 0,
+      "appearance": 9,
+      "direction_slot": 1,
+      "root_in_original_canvas": [
+        -9,
+        51
+      ],
+      "registered_top_left": [
+        41,
+        53
+      ],
+      "visible_alpha_bbox_original_xyxy": [
+        0,
+        0,
+        57,
+        72
+      ],
+      "root_meaning": "Native cell draw origin; NOT a confirmed anatomical foot contact.",
+      "atlas_reference": {
+        "page": 0,
+        "rect": [
+          245,
+          1,
+          60,
+          72
+        ],
+        "crop": [
+          0,
+          0
+        ]
+      },
+      "fresh_native_decode_verified": true
+    },
+    "114": {
+      "original": [
+        56,
+        71
+      ],
+      "offset": [
+        9,
+        -49
+      ],
+      "sourceOffset": 440819,
+      "sourceBytes": 3711,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        56,
+        71
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "ccca22bbdea872bf54170679138976a65fcdbddd5ccd1d940c71c227ca254818",
+      "file": "lingyunzi/source-114.png",
+      "file_sha256": "c1a22a3e1b05800f4844e0db79a31407877917a7c3eb89d284de5b91625ce93c",
+      "phase": 1,
+      "appearance": 9,
+      "direction_slot": 1,
+      "root_in_original_canvas": [
+        -9,
+        49
+      ],
+      "registered_top_left": [
+        41,
+        55
+      ],
+      "visible_alpha_bbox_original_xyxy": [
+        0,
+        0,
+        56,
+        71
+      ],
+      "root_meaning": "Native cell draw origin; NOT a confirmed anatomical foot contact.",
+      "atlas_reference": {
+        "page": 0,
+        "rect": [
+          307,
+          1,
+          56,
+          71
+        ],
+        "crop": [
+          0,
+          0
+        ]
+      },
+      "fresh_native_decode_verified": true
+    },
+    "115": {
+      "original": [
+        56,
+        71
+      ],
+      "offset": [
+        9,
+        -49
+      ],
+      "sourceOffset": 444534,
+      "sourceBytes": 3546,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        56,
+        71
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "3583b1a5b62e8017f10b46f90d96bf422a168b9b7603eeb4b878d5cc3896f879",
+      "file": "lingyunzi/source-115.png",
+      "file_sha256": "14c49799b84c484c91c47816e030a8b6f93fa52b0d064a8b229f332c2b5a25d9",
+      "phase": 2,
+      "appearance": 9,
+      "direction_slot": 1,
+      "root_in_original_canvas": [
+        -9,
+        49
+      ],
+      "registered_top_left": [
+        41,
+        55
+      ],
+      "visible_alpha_bbox_original_xyxy": [
+        0,
+        0,
+        54,
+        71
+      ],
+      "root_meaning": "Native cell draw origin; NOT a confirmed anatomical foot contact.",
+      "atlas_reference": {
+        "page": 0,
+        "rect": [
+          365,
+          1,
+          56,
+          71
+        ],
+        "crop": [
+          0,
+          0
+        ]
+      },
+      "fresh_native_decode_verified": true
+    },
+    "116": {
+      "original": [
+        56,
+        71
+      ],
+      "offset": [
+        9,
+        -50
+      ],
+      "sourceOffset": 448084,
+      "sourceBytes": 3716,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        56,
+        71
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "6096f6baaa6434f5ccd48aaf0300db9ff2855ca4959c7be9242b7d7611ae45c5",
+      "file": "lingyunzi/source-116.png",
+      "file_sha256": "0a0c731f5ec48b96e7b5091171318d56bd30ed77812bf3dd758dc8d1b2dbe1a9",
+      "phase": 3,
+      "appearance": 9,
+      "direction_slot": 1,
+      "root_in_original_canvas": [
+        -9,
+        50
+      ],
+      "registered_top_left": [
+        41,
+        54
+      ],
+      "visible_alpha_bbox_original_xyxy": [
+        0,
+        0,
+        55,
+        71
+      ],
+      "root_meaning": "Native cell draw origin; NOT a confirmed anatomical foot contact.",
+      "atlas_reference": {
+        "page": 0,
+        "rect": [
+          423,
+          1,
+          56,
+          71
+        ],
+        "crop": [
+          0,
+          0
+        ]
+      },
+      "fresh_native_decode_verified": true
+    }
+  },
+  "groups": [
+    {
+      "slug": "fangzhang",
+      "ids": [
+        261,
+        262,
+        263,
+        264
+      ],
+      "unique_registered_rgba": 1,
+      "pairs": [
+        {
+          "ids": [
+            261,
+            262
+          ],
+          "changed_rgba_pixels": 0,
+          "changed_visible_pixels": 0
+        },
+        {
+          "ids": [
+            261,
+            263
+          ],
+          "changed_rgba_pixels": 0,
+          "changed_visible_pixels": 0
+        },
+        {
+          "ids": [
+            261,
+            264
+          ],
+          "changed_rgba_pixels": 0,
+          "changed_visible_pixels": 0
+        },
+        {
+          "ids": [
+            262,
+            263
+          ],
+          "changed_rgba_pixels": 0,
+          "changed_visible_pixels": 0
+        },
+        {
+          "ids": [
+            262,
+            264
+          ],
+          "changed_rgba_pixels": 0,
+          "changed_visible_pixels": 0
+        },
+        {
+          "ids": [
+            263,
+            264
+          ],
+          "changed_rgba_pixels": 0,
+          "changed_visible_pixels": 0
+        }
+      ],
+      "phase_policy": "one static generated pose mapped to 4 unchanged IDs"
+    },
+    {
+      "slug": "lingyunzi",
+      "ids": [
+        113,
+        114,
+        115,
+        116
+      ],
+      "unique_registered_rgba": 4,
+      "pairs": [
+        {
+          "ids": [
+            113,
+            114
+          ],
+          "changed_rgba_pixels": 1030,
+          "changed_visible_pixels": 1030
+        },
+        {
+          "ids": [
+            113,
+            115
+          ],
+          "changed_rgba_pixels": 1130,
+          "changed_visible_pixels": 1130
+        },
+        {
+          "ids": [
+            113,
+            116
+          ],
+          "changed_rgba_pixels": 965,
+          "changed_visible_pixels": 965
+        },
+        {
+          "ids": [
+            114,
+            115
+          ],
+          "changed_rgba_pixels": 876,
+          "changed_visible_pixels": 876
+        },
+        {
+          "ids": [
+            114,
+            116
+          ],
+          "changed_rgba_pixels": 526,
+          "changed_visible_pixels": 526
+        },
+        {
+          "ids": [
+            115,
+            116
+          ],
+          "changed_rgba_pixels": 963,
+          "changed_visible_pixels": 963
+        }
+      ],
+      "phase_policy": "one complete four-phase generation, one common transform; never four independent fits"
+    }
+  ],
+  "design_approval": {
+    "fangzhang": "Adult male close-combat coach, dark sleeveless functional training top; preserve bent staggered stance and crossed/front arm occlusion. New design from concept, not sex/age inferred from name.",
+    "lingyunzi": "Adult male mission instructor, gray-black sleeved short training jacket, trousers; remove tall crown/robe. Preserve visible head/torso/feet motion, not old crown top height. Four distinct phases remain."
+  },
+  "contact_review": {
+    "exact_anatomical_contact": "unresolved; source alpha includes baked checker, do not derive sole from bbox",
+    "fangzhang_source261_raw_boot_rois_xyxy": [
+      [
+        14,
+        49,
+        25,
+        57
+      ],
+      [
+        29,
+        59,
+        40,
+        67
+      ]
+    ],
+    "fangzhang_roi_uncertainty_px": 3,
+    "lingyunzi_source113_raw_boot_rois_xyxy": [
+      [
+        4,
+        64,
+        11,
+        72
+      ],
+      [
+        19,
+        64,
+        26,
+        72
+      ]
+    ],
+    "lingyunzi_roi_uncertainty_px": 2,
+    "old_candidate_feet": "(44,118),(61,130) are legacy generated-candidate proxies, NOT authoritative new anchors",
+    "light": "warm upper-left, future independent lower-right cast; no baked cast/contact ellipse",
+    "old_shadow_params_rejected": [
+      0.5304659498207885,
+      -0.3978494623655914
+    ]
+  }
+}
