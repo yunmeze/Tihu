@@ -1,0 +1,33 @@
+{
+  "status": "pose_candidate_accepted_for_single_shadow_and_normal_depth_validation",
+  "atlas_sha256": "7c386900fe579018ef38cf00c7e160622abebef476f3ccebd9c6fd94923bcf38",
+  "actual_view": [
+    "all-six-native",
+    "15-state stepped transition board"
+  ],
+  "sequence": "idle16 ->51..56 twice at7tick ->idle13",
+  "observations": [
+    "54/55 excessive amplitude visibly reduced compared to v1",
+    "56 short boot visible at right near ankle",
+    "56to51 and idle transitions have no visible whole-body scale jump in sampled states",
+    "waist/shin armor layout differs from locked idle but silver-black-wine identity readable at native size",
+    "no shadow/depth verification for new walk yet"
+  ],
+  "scope": "discrete actual engine frames plus exact phase/tick record; not full continuous human real-time viewing; no original EXE movement event equivalence claimed",
+  "evidence": [
+    {
+      "path": "/workspace/shared/legend-rebuild-r5/walk-v3-all-six-native.png",
+      "sha256": "7c940487ce0e35b01fdcf1e7f3040748f88167c99a47ec573c8df7b7510476f1"
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-r5/walk-v3-stepped-transitions.jpg",
+      "sha256": "249b1a106373e783869a7ed685f7ffe39b0ea168ff8975558903bc0493e9c76d"
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-r5/walk-v3-native.log",
+      "sha256": "5cd45105420c72af14e680b372df0e1dfb6ebddfc7d308518c08382a8782ad02"
+    }
+  ],
+  "parent_review": "Parent actually viewed full-six and15-state native boards; accepts reduced54/55 amplitude, visible56shortboot and stable entry/exit scale; armor panel differences retained.",
+  "shadow_requirement": "Use source-informed fixed actor-relative receiver; do not fit both visible walk boots as planted contacts. Physical support cannot be inferred solely from static source poses."
+}

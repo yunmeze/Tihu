@@ -1,0 +1,3396 @@
+{
+  "status": "auditable_2d_receiver_trial_parameters_not_gpu_or_physical_contact_acceptance",
+  "scope": "source-only measurements; no body, registration, shader, runtime or GUI changes",
+  "input_files": [
+    {
+      "path": "Project/art_source/hero_se_walk_rebuild_v1/v3-registered-atlas-128.png",
+      "sha256": "7c386900fe579018ef38cf00c7e160622abebef476f3ccebd9c6fd94923bcf38"
+    },
+    {
+      "path": "Project/art_source/hero_se_walk_rebuild_v1/v3-registration.json",
+      "sha256": "7ac4da6162995b75561accf1d584c0be3a36c7b5a5ff8f00582346681939451c"
+    },
+    {
+      "path": "Project/art_source/hero_se_walk_rebuild_v1/raw-v3.png",
+      "sha256": "66248cb3176c0c076572160325961dfbcd07116618b2533390c4614238660ab9"
+    },
+    {
+      "path": "Project/art_source/hero_se_idle_rebuild_v1/v1-registered-atlas-128.png",
+      "sha256": "91e7fb445775116ae2894900b76811757eda3898e78bf1e6881e38f933670ac9"
+    },
+    {
+      "path": "Project/art_source/hero_se_idle_rebuild_v1/v1-registration.json",
+      "sha256": "317408c1fc94c5efb500757d4f1a4de50a0ff8bdf59f2beffa8daff8fc01fa25"
+    },
+    {
+      "path": "Project/art_source/hero_se_walk_source_r5/SE_WALK_SOURCE_ANALYSIS.json",
+      "sha256": "63892df3645b6fc0767d484d0f783e31d41f92a619286c3c9adf74ed911817aa"
+    },
+    {
+      "path": "Project/art_source/hero_se_walk_source_r5/source-51.png",
+      "sha256": "8a7decde7ee2db6aa605cd789bc240e3fb7413814f0bbdfdf4c68a9149fce206"
+    },
+    {
+      "path": "Project/art_source/hero_se_walk_source_r5/source-52.png",
+      "sha256": "44ca5e84d703f113c1068913cb3526704a3e262fedce79d3caf4538d13259de6"
+    },
+    {
+      "path": "Project/art_source/hero_se_walk_source_r5/source-53.png",
+      "sha256": "89baa14474ab36f1833582c2ba8e846b757c176bb555a4c28a021981742c2a8c"
+    },
+    {
+      "path": "Project/art_source/hero_se_walk_source_r5/source-54.png",
+      "sha256": "72d054faf01c5e1076b4eb90db455213f3efa29e87787a075cede32d80bbedad"
+    },
+    {
+      "path": "Project/art_source/hero_se_walk_source_r5/source-55.png",
+      "sha256": "9ca1c54bbc39b3e065c92f0af0cbb708f0ae1ce1ef25c0a68f66ef8c8b8a693a"
+    },
+    {
+      "path": "Project/art_source/hero_se_walk_source_r5/source-56.png",
+      "sha256": "76c756fe98878595e2d37907a229b30770a99eaf2f66de8f9b26ac4fcbc6a06a"
+    }
+  ],
+  "frame_size": [
+    128,
+    128
+  ],
+  "native_draw_origin_in_cell": [
+    16,
+    64
+  ],
+  "walk_source_ids": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+  ],
+  "idle_source_ids": [
+    13,
+    14,
+    15,
+    16
+  ],
+  "sampling_convention": {
+    "pixel_index": "Integer x/y index addresses texel; texel spans [x,x+1] by [y,y+1].",
+    "outsole_edge_proxy": "Within each explicitly recorded boot ROI, select the greatest y row containing alpha>=96; x is mean of those texel centers, y is bottom row index+1.",
+    "uncertainty_px": 1,
+    "alpha96_scope": "measurement only; runtime uses full continuous alpha, never threshold/re-encode the body",
+    "coordinate_audit_correction": "Use geometric lower edges consistently with old idle13-16 proxies: x=mean(column+0.5), y=last alpha>=96 row+1. Walk lower-edge y are92,90,87,89,85,90. Never substitute texel row indices for those edge coordinates."
+  },
+  "source_evidence": [
+    {
+      "source_id": 51,
+      "path": "Project/art_source/hero_se_walk_source_r5/source-51.png",
+      "png_sha256": "8a7decde7ee2db6aa605cd789bc240e3fb7413814f0bbdfdf4c68a9149fce206",
+      "decoded_rgba_sha256": "c067dfe42ce3ae808ad7d4cd660dd4aa0f35814a63a4ea51228ca06ee6023caa",
+      "safe_exposed_roi_xyxy_exclusive": [
+        64,
+        50,
+        96,
+        96
+      ],
+      "nontransparent_pixels": 127,
+      "every_nontransparent_rgba": [
+        16,
+        8,
+        8,
+        255
+      ],
+      "checker_parity": "(x+y)%2==0",
+      "bbox_inclusive": [
+        64,
+        59,
+        82,
+        79
+      ],
+      "bbox_actor_relative_inclusive": [
+        48,
+        -5,
+        66,
+        15
+      ],
+      "centroid": [
+        72.30708661417323,
+        67.2992125984252
+      ],
+      "centroid_actor_relative": [
+        56.30708661417323,
+        3.2992125984252
+      ],
+      "source_crown_surface_proxy": [
+        40,
+        16
+      ],
+      "source_crown_projection_at_87_5": [
+        77.92831541218638,
+        59.053763440860216
+      ],
+      "nearest_exposed_checker_to_projected_crown": {
+        "point": [
+          77,
+          59
+        ],
+        "distance_px": 0.9298709652827624,
+        "interpretation": "compatibility check only; no crown-to-shadow point correspondence is established"
+      }
+    },
+    {
+      "source_id": 52,
+      "path": "Project/art_source/hero_se_walk_source_r5/source-52.png",
+      "png_sha256": "44ca5e84d703f113c1068913cb3526704a3e262fedce79d3caf4538d13259de6",
+      "decoded_rgba_sha256": "758f467bacdada3b4f2a516ecf30cbf265b00bd27c7a16b284bdb561c55e179c",
+      "safe_exposed_roi_xyxy_exclusive": [
+        64,
+        50,
+        96,
+        96
+      ],
+      "nontransparent_pixels": 120,
+      "every_nontransparent_rgba": [
+        16,
+        8,
+        8,
+        255
+      ],
+      "checker_parity": "(x+y)%2==0",
+      "bbox_inclusive": [
+        64,
+        58,
+        81,
+        76
+      ],
+      "bbox_actor_relative_inclusive": [
+        48,
+        -6,
+        65,
+        12
+      ],
+      "centroid": [
+        71.56666666666666,
+        66.33333333333333
+      ],
+      "centroid_actor_relative": [
+        55.56666666666666,
+        2.3333333333333286
+      ],
+      "source_crown_surface_proxy": [
+        40,
+        15
+      ],
+      "source_crown_projection_at_87_5": [
+        78.45878136200716,
+        58.655913978494624
+      ],
+      "nearest_exposed_checker_to_projected_crown": {
+        "point": [
+          79,
+          59
+        ],
+        "distance_px": 0.6413367323849651,
+        "interpretation": "compatibility check only; no crown-to-shadow point correspondence is established"
+      }
+    },
+    {
+      "source_id": 53,
+      "path": "Project/art_source/hero_se_walk_source_r5/source-53.png",
+      "png_sha256": "89baa14474ab36f1833582c2ba8e846b757c176bb555a4c28a021981742c2a8c",
+      "decoded_rgba_sha256": "e21fd3adf1cf6bc45105f96fe9e628ad49a52f1d5194bdd807a1ecc7048f405d",
+      "safe_exposed_roi_xyxy_exclusive": [
+        64,
+        50,
+        96,
+        96
+      ],
+      "nontransparent_pixels": 146,
+      "every_nontransparent_rgba": [
+        16,
+        8,
+        8,
+        255
+      ],
+      "checker_parity": "(x+y)%2==0",
+      "bbox_inclusive": [
+        64,
+        58,
+        82,
+        81
+      ],
+      "bbox_actor_relative_inclusive": [
+        48,
+        -6,
+        66,
+        17
+      ],
+      "centroid": [
+        71.3013698630137,
+        66.79452054794521
+      ],
+      "centroid_actor_relative": [
+        55.301369863013704,
+        2.7945205479452113
+      ],
+      "source_crown_surface_proxy": [
+        40,
+        16
+      ],
+      "source_crown_projection_at_87_5": [
+        77.92831541218638,
+        59.053763440860216
+      ],
+      "nearest_exposed_checker_to_projected_crown": {
+        "point": [
+          77,
+          59
+        ],
+        "distance_px": 0.9298709652827624,
+        "interpretation": "compatibility check only; no crown-to-shadow point correspondence is established"
+      }
+    },
+    {
+      "source_id": 54,
+      "path": "Project/art_source/hero_se_walk_source_r5/source-54.png",
+      "png_sha256": "72d054faf01c5e1076b4eb90db455213f3efa29e87787a075cede32d80bbedad",
+      "decoded_rgba_sha256": "9f132dd07b48cd205dd62be41e40ffc8e7defabd9b5cd4a2faba390417578bc2",
+      "safe_exposed_roi_xyxy_exclusive": [
+        64,
+        50,
+        96,
+        96
+      ],
+      "nontransparent_pixels": 151,
+      "every_nontransparent_rgba": [
+        16,
+        8,
+        8,
+        255
+      ],
+      "checker_parity": "(x+y)%2==0",
+      "bbox_inclusive": [
+        64,
+        57,
+        82,
+        81
+      ],
+      "bbox_actor_relative_inclusive": [
+        48,
+        -7,
+        66,
+        17
+      ],
+      "centroid": [
+        71.10596026490066,
+        66.17880794701986
+      ],
+      "centroid_actor_relative": [
+        55.10596026490066,
+        2.1788079470198625
+      ],
+      "source_crown_surface_proxy": [
+        40,
+        16
+      ],
+      "source_crown_projection_at_87_5": [
+        77.92831541218638,
+        59.053763440860216
+      ],
+      "nearest_exposed_checker_to_projected_crown": {
+        "point": [
+          77,
+          59
+        ],
+        "distance_px": 0.9298709652827624,
+        "interpretation": "compatibility check only; no crown-to-shadow point correspondence is established"
+      }
+    },
+    {
+      "source_id": 55,
+      "path": "Project/art_source/hero_se_walk_source_r5/source-55.png",
+      "png_sha256": "9ca1c54bbc39b3e065c92f0af0cbb708f0ae1ce1ef25c0a68f66ef8c8b8a693a",
+      "decoded_rgba_sha256": "e170d25f15fa68f46027691c13ef266b54681309acc4b2eccad46dccd67d947a",
+      "safe_exposed_roi_xyxy_exclusive": [
+        64,
+        50,
+        96,
+        96
+      ],
+      "nontransparent_pixels": 131,
+      "every_nontransparent_rgba": [
+        16,
+        8,
+        8,
+        255
+      ],
+      "checker_parity": "(x+y)%2==0",
+      "bbox_inclusive": [
+        64,
+        57,
+        81,
+        78
+      ],
+      "bbox_actor_relative_inclusive": [
+        48,
+        -7,
+        65,
+        14
+      ],
+      "centroid": [
+        70.94656488549619,
+        65.3587786259542
+      ],
+      "centroid_actor_relative": [
+        54.94656488549619,
+        1.3587786259542014
+      ],
+      "source_crown_surface_proxy": [
+        40,
+        16
+      ],
+      "source_crown_projection_at_87_5": [
+        77.92831541218638,
+        59.053763440860216
+      ],
+      "nearest_exposed_checker_to_projected_crown": {
+        "point": [
+          77,
+          59
+        ],
+        "distance_px": 0.9298709652827624,
+        "interpretation": "compatibility check only; no crown-to-shadow point correspondence is established"
+      }
+    },
+    {
+      "source_id": 56,
+      "path": "Project/art_source/hero_se_walk_source_r5/source-56.png",
+      "png_sha256": "76c756fe98878595e2d37907a229b30770a99eaf2f66de8f9b26ac4fcbc6a06a",
+      "decoded_rgba_sha256": "309b8fa365d6f0a121d0f63337b202be5ad123f8bfd2fd8c722975b4dc582f42",
+      "safe_exposed_roi_xyxy_exclusive": [
+        64,
+        50,
+        96,
+        96
+      ],
+      "nontransparent_pixels": 123,
+      "every_nontransparent_rgba": [
+        16,
+        8,
+        8,
+        255
+      ],
+      "checker_parity": "(x+y)%2==0",
+      "bbox_inclusive": [
+        64,
+        58,
+        81,
+        78
+      ],
+      "bbox_actor_relative_inclusive": [
+        48,
+        -6,
+        65,
+        14
+      ],
+      "centroid": [
+        71.60975609756098,
+        66.53658536585365
+      ],
+      "centroid_actor_relative": [
+        55.609756097560975,
+        2.5365853658536537
+      ],
+      "source_crown_surface_proxy": [
+        40,
+        15
+      ],
+      "source_crown_projection_at_87_5": [
+        78.45878136200716,
+        58.655913978494624
+      ],
+      "nearest_exposed_checker_to_projected_crown": {
+        "point": [
+          79,
+          59
+        ],
+        "distance_px": 0.6413367323849651,
+        "interpretation": "compatibility check only; no crown-to-shadow point correspondence is established"
+      }
+    }
+  ],
+  "source_roi_summary": {
+    "centroid_x_span": 1.3605217286770426,
+    "centroid_y_span": 1.9404339724709985,
+    "root_relation": "All source canvases use the same actor draw origin (16,64). Exposed shadow remains right of root by 48..66 px; top is 5..7 px above root. Root is a draw anchor, not a proven contact point.",
+    "identifiable": "right/up exposed cast direction and stable actor-relative envelope",
+    "not_identifiable": "receiver slope, physical ground, support leg, exact crown-shadow correspondence, limb depth, true physical light or motion",
+    "no_color_mask": "No source RGB was removed or used as a global body mask. Exact RGB(16,8,8) is certified only inside the stated exposed ROI; matching RGB elsewhere is not safe evidence for deletion."
+  },
+  "initial_trial": {
+    "frame_local_receiver_point": [
+      40,
+      87.5
+    ],
+    "actor_relative_receiver_point": [
+      24,
+      23.5
+    ],
+    "slope": 0.0,
+    "line": "g(x)=87.5",
+    "same_for_all_frames_and_actions": true,
+    "cast_per_height": [
+      0.5304659498207885,
+      -0.3978494623655914
+    ],
+    "cast_exact": [
+      "148/279",
+      "-111/279"
+    ],
+    "opacity": 0.3,
+    "blur_px": 0.9,
+    "tint": [
+      0.035,
+      0.045,
+      0.055
+    ],
+    "compositing_passes": 1,
+    "body_to_parent": "Exactly the body transform; at native scale1, origin=actor_draw_origin-(16,64). No extra body shift, per-frame foot following or source-shadow pass.",
+    "affine_columns_and_origin": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        -0.5304659498207885,
+        0.3978494623655914
+      ],
+      [
+        46.415770609319,
+        52.68817204301075
+      ]
+    ],
+    "determinant": 0.3978494623655914,
+    "rationale": "Stable actor-relative 2D heuristic near the idle torso-center ground ordinate (~87.0), compatible with exposed source right/up lobe, and balancing foot-edge mismatch. It is not the exact walk-edge minimax.",
+    "status": "historical original y87.5 visual compromise; not the unique current decision or numerical optimum"
+  },
+  "projection_contract": {
+    "formula": "g=m*x+b; h=g-y; q=(x,g)+h*cast; q-p=h*(cast.x,1+cast.y)",
+    "displacement_per_h": [
+      0.5304659498207885,
+      0.6021505376344086
+    ],
+    "displacement_norm_per_abs_h": 0.8024832670484031,
+    "h_meaning": "screen-space projection residual, not physical foot height; positive and negative residuals are allowed and reported",
+    "receiver_semantics": "an actor-relative 2D receiver reference; never describe synthetic line points as two planted soles",
+    "singularity_note": "For slope0 and current cast, determinant=111/279, safely nonsingular."
+  },
+  "walk_lower_visible_edge_envelope": {
+    "per_frame_y": [
+      92.0,
+      90.0,
+      87.0,
+      89.0,
+      85.0,
+      90.0
+    ],
+    "min_y": 85.0,
+    "max_y": 92.0,
+    "strict_minimax_horizontal_edge_y": 88.5,
+    "scope": "Only the screen-lower independently visible boot per frame; this selection does not identify a support leg."
+  },
+  "walk_frames": [
+    {
+      "source_id": 51,
+      "kind": "walk",
+      "atlas_region": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "feet": {
+        "A": {
+          "window_xyxy_exclusive": [
+            45,
+            82,
+            57,
+            96
+          ],
+          "threshold": 96,
+          "bottom_row_index": 91,
+          "bottom_row_x_indices": [
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53
+          ],
+          "edge_proxy": [
+            50.5,
+            92.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              50.5,
+              92.0
+            ],
+            "96": [
+              50.5,
+              92.0
+            ],
+            "128": [
+              50.5,
+              92.0
+            ],
+            "192": [
+              50.5,
+              92.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": -6.0,
+              "shadow_point": [
+                47.31720430107527,
+                88.38709677419355
+              ],
+              "delta_shadow_minus_foot": [
+                -3.1827956989247284,
+                -3.6129032258064484
+              ],
+              "delta_norm": 4.8148996022904145
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": -5.0,
+              "shadow_point": [
+                47.84767025089606,
+                88.98924731182795
+              ],
+              "delta_shadow_minus_foot": [
+                -2.6523297491039415,
+                -3.0107526881720474
+              ],
+              "delta_norm": 4.012416335242018
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": -4.5,
+              "shadow_point": [
+                48.11290322580645,
+                89.29032258064517
+              ],
+              "delta_shadow_minus_foot": [
+                -2.3870967741935516,
+                -2.7096774193548328
+              ],
+              "delta_norm": 3.6111747017178115
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": -4.0,
+              "shadow_point": [
+                48.378136200716845,
+                89.59139784946237
+              ],
+              "delta_shadow_minus_foot": [
+                -2.1218637992831546,
+                -2.4086021505376323
+              ],
+              "delta_norm": 3.209933068193611
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": -3.5,
+              "shadow_point": [
+                48.64336917562724,
+                89.89247311827957
+              ],
+              "delta_shadow_minus_foot": [
+                -1.8566308243727576,
+                -2.107526881720432
+              ],
+              "delta_norm": 2.8086914346694107
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": -5.5,
+              "shadow_point": [
+                47.58243727598566,
+                88.68817204301075
+              ],
+              "delta_shadow_minus_foot": [
+                -2.917562724014337,
+                -3.3118279569892475
+              ],
+              "delta_norm": 4.413657968766217
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 81.75,
+            "h_screen_proxy": -10.25,
+            "shadow_point": [
+              45.062724014336915,
+              85.82795698924731
+            ],
+            "delta_shadow_minus_foot": [
+              -5.437275985663085,
+              -6.172043010752688
+            ],
+            "delta_norm": 8.225453487246133
+          }
+        },
+        "B": {
+          "window_xyxy_exclusive": [
+            29,
+            68,
+            39,
+            78
+          ],
+          "threshold": 96,
+          "bottom_row_index": 73,
+          "bottom_row_x_indices": [
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "edge_proxy": [
+            35.5,
+            74.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              35.5,
+              74.0
+            ],
+            "96": [
+              35.5,
+              74.0
+            ],
+            "128": [
+              35.5,
+              74.0
+            ],
+            "192": [
+              35.5,
+              74.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": 12.0,
+              "shadow_point": [
+                41.865591397849464,
+                81.2258064516129
+              ],
+              "delta_shadow_minus_foot": [
+                6.365591397849464,
+                7.225806451612897
+              ],
+              "delta_norm": 9.629799204580832
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": 13.0,
+              "shadow_point": [
+                42.39605734767025,
+                81.82795698924731
+              ],
+              "delta_shadow_minus_foot": [
+                6.896057347670251,
+                7.827956989247312
+              ],
+              "delta_norm": 10.432282471629241
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": 13.5,
+              "shadow_point": [
+                42.66129032258065,
+                82.12903225806451
+              ],
+              "delta_shadow_minus_foot": [
+                7.161290322580648,
+                8.129032258064512
+              ],
+              "delta_norm": 10.83352410515344
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": 14.0,
+              "shadow_point": [
+                42.92652329749104,
+                82.43010752688173
+              ],
+              "delta_shadow_minus_foot": [
+                7.426523297491038,
+                8.430107526881727
+              ],
+              "delta_norm": 11.234765738677648
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": 14.5,
+              "shadow_point": [
+                43.191756272401435,
+                82.73118279569893
+              ],
+              "delta_shadow_minus_foot": [
+                7.691756272401435,
+                8.731182795698928
+              ],
+              "delta_norm": 11.636007372201847
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": 12.5,
+              "shadow_point": [
+                42.130824372759854,
+                81.52688172043011
+              ],
+              "delta_shadow_minus_foot": [
+                6.630824372759856,
+                7.526881720430108
+              ],
+              "delta_norm": 10.031040838105039
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 89.25,
+            "h_screen_proxy": 15.25,
+            "shadow_point": [
+              43.58960573476703,
+              83.18279569892474
+            ],
+            "delta_shadow_minus_foot": [
+              8.089605734767026,
+              9.182795698924735
+            ],
+            "delta_norm": 12.237869822488152
+          }
+        }
+      },
+      "projected_lower_visible_foot_only": "A",
+      "naive_two_visible_feet_slope_rejected": 1.2,
+      "physical_contact": "unknown; higher or lower screen position is not proof of weight bearing, lift, or 3D ground depth"
+    },
+    {
+      "source_id": 52,
+      "kind": "walk",
+      "atlas_region": [
+        128,
+        0,
+        128,
+        128
+      ],
+      "feet": {
+        "A": {
+          "window_xyxy_exclusive": [
+            36,
+            81,
+            49,
+            94
+          ],
+          "threshold": 96,
+          "bottom_row_index": 89,
+          "bottom_row_x_indices": [
+            40,
+            41,
+            42,
+            43,
+            44
+          ],
+          "edge_proxy": [
+            42.5,
+            90.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              42.5,
+              90.0
+            ],
+            "96": [
+              42.5,
+              90.0
+            ],
+            "128": [
+              42.5,
+              90.0
+            ],
+            "192": [
+              42.5,
+              90.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": -4.0,
+              "shadow_point": [
+                40.378136200716845,
+                87.59139784946237
+              ],
+              "delta_shadow_minus_foot": [
+                -2.1218637992831546,
+                -2.4086021505376323
+              ],
+              "delta_norm": 3.209933068193611
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": -3.0,
+              "shadow_point": [
+                40.90860215053763,
+                88.19354838709677
+              ],
+              "delta_shadow_minus_foot": [
+                -1.5913978494623677,
+                -1.8064516129032313
+              ],
+              "delta_norm": 2.407449801145215
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": -2.5,
+              "shadow_point": [
+                41.17383512544803,
+                88.49462365591398
+              ],
+              "delta_shadow_minus_foot": [
+                -1.3261648745519707,
+                -1.5053763440860166
+              ],
+              "delta_norm": 2.0062081676210037
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": -2.0,
+              "shadow_point": [
+                41.439068100358426,
+                88.79569892473118
+              ],
+              "delta_shadow_minus_foot": [
+                -1.0609318996415738,
+                -1.2043010752688161
+              ],
+              "delta_norm": 1.6049665340968033
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": -1.5,
+              "shadow_point": [
+                41.704301075268816,
+                89.09677419354838
+              ],
+              "delta_shadow_minus_foot": [
+                -0.7956989247311839,
+                -0.9032258064516157
+              ],
+              "delta_norm": 1.2037249005726074
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": -3.5,
+              "shadow_point": [
+                40.64336917562724,
+                87.89247311827957
+              ],
+              "delta_shadow_minus_foot": [
+                -1.8566308243727598,
+                -2.10752688172043
+              ],
+              "delta_norm": 2.8086914346694107
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 85.75,
+            "h_screen_proxy": -4.25,
+            "shadow_point": [
+              40.24551971326165,
+              87.44086021505376
+            ],
+            "delta_shadow_minus_foot": [
+              -2.2544802867383495,
+              -2.5591397849462396
+            ],
+            "delta_norm": 3.410553884955714
+          }
+        }
+      },
+      "projected_lower_visible_foot_only": "A",
+      "naive_two_visible_feet_slope_rejected": null,
+      "physical_contact": "unknown; higher or lower screen position is not proof of weight bearing, lift, or 3D ground depth"
+    },
+    {
+      "source_id": 53,
+      "kind": "walk",
+      "atlas_region": [
+        256,
+        0,
+        128,
+        128
+      ],
+      "feet": {
+        "A": {
+          "window_xyxy_exclusive": [
+            31,
+            79,
+            44,
+            91
+          ],
+          "threshold": 96,
+          "bottom_row_index": 86,
+          "bottom_row_x_indices": [
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "edge_proxy": [
+            38.5,
+            87.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              38.5,
+              87.0
+            ],
+            "96": [
+              38.5,
+              87.0
+            ],
+            "128": [
+              38.0,
+              87.0
+            ],
+            "192": [
+              38.0,
+              87.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": -1.0,
+              "shadow_point": [
+                37.96953405017921,
+                86.39784946236558
+              ],
+              "delta_shadow_minus_foot": [
+                -0.5304659498207869,
+                -0.6021505376344152
+              ],
+              "delta_norm": 0.802483267048407
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": 0.0,
+              "shadow_point": [
+                38.5,
+                87.0
+              ],
+              "delta_shadow_minus_foot": [
+                0.0,
+                0.0
+              ],
+              "delta_norm": 0.0
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": 0.5,
+              "shadow_point": [
+                38.7652329749104,
+                87.3010752688172
+              ],
+              "delta_shadow_minus_foot": [
+                0.265232974910397,
+                0.3010752688172005
+              ],
+              "delta_norm": 0.4012416335242005
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": 1.0,
+              "shadow_point": [
+                39.03046594982079,
+                87.60215053763442
+              ],
+              "delta_shadow_minus_foot": [
+                0.5304659498207869,
+                0.6021505376344152
+              ],
+              "delta_norm": 0.802483267048407
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": 1.5,
+              "shadow_point": [
+                39.295698924731184,
+                87.90322580645162
+              ],
+              "delta_shadow_minus_foot": [
+                0.7956989247311839,
+                0.9032258064516157
+              ],
+              "delta_norm": 1.2037249005726074
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": -0.5,
+              "shadow_point": [
+                38.2347670250896,
+                86.6989247311828
+              ],
+              "delta_shadow_minus_foot": [
+                -0.26523297491039427,
+                -0.3010752688172043
+              ],
+              "delta_norm": 0.40124163352420156
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 87.75,
+            "h_screen_proxy": 0.75,
+            "shadow_point": [
+              38.89784946236559,
+              87.45161290322581
+            ],
+            "delta_shadow_minus_foot": [
+              0.39784946236559193,
+              0.4516129032258078
+            ],
+            "delta_norm": 0.6018624502863037
+          }
+        },
+        "B": {
+          "window_xyxy_exclusive": [
+            46,
+            77,
+            57,
+            89
+          ],
+          "threshold": 96,
+          "bottom_row_index": 84,
+          "bottom_row_x_indices": [
+            48,
+            49,
+            50,
+            51,
+            52,
+            53
+          ],
+          "edge_proxy": [
+            51.0,
+            85.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              51.0,
+              85.0
+            ],
+            "96": [
+              51.0,
+              85.0
+            ],
+            "128": [
+              51.0,
+              85.0
+            ],
+            "192": [
+              51.0,
+              85.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": 1.0,
+              "shadow_point": [
+                51.53046594982079,
+                85.60215053763442
+              ],
+              "delta_shadow_minus_foot": [
+                0.5304659498207869,
+                0.6021505376344152
+              ],
+              "delta_norm": 0.802483267048407
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": 2.0,
+              "shadow_point": [
+                52.060931899641574,
+                86.20430107526882
+              ],
+              "delta_shadow_minus_foot": [
+                1.0609318996415738,
+                1.2043010752688161
+              ],
+              "delta_norm": 1.6049665340968033
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": 2.5,
+              "shadow_point": [
+                52.32616487455197,
+                86.50537634408602
+              ],
+              "delta_shadow_minus_foot": [
+                1.3261648745519707,
+                1.5053763440860166
+              ],
+              "delta_norm": 2.0062081676210037
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": 3.0,
+              "shadow_point": [
+                52.59139784946237,
+                86.80645161290323
+              ],
+              "delta_shadow_minus_foot": [
+                1.5913978494623677,
+                1.8064516129032313
+              ],
+              "delta_norm": 2.407449801145215
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": 3.5,
+              "shadow_point": [
+                52.85663082437276,
+                87.10752688172043
+              ],
+              "delta_shadow_minus_foot": [
+                1.8566308243727576,
+                2.107526881720432
+              ],
+              "delta_norm": 2.8086914346694107
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": 1.5,
+              "shadow_point": [
+                51.795698924731184,
+                85.90322580645162
+              ],
+              "delta_shadow_minus_foot": [
+                0.7956989247311828,
+                0.903225806451613
+              ],
+              "delta_norm": 1.2037249005726047
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 81.5,
+            "h_screen_proxy": -3.5,
+            "shadow_point": [
+              49.14336917562724,
+              82.89247311827957
+            ],
+            "delta_shadow_minus_foot": [
+              -1.8566308243727576,
+              -2.107526881720432
+            ],
+            "delta_norm": 2.8086914346694107
+          }
+        }
+      },
+      "projected_lower_visible_foot_only": "A",
+      "naive_two_visible_feet_slope_rejected": -0.16,
+      "physical_contact": "unknown; higher or lower screen position is not proof of weight bearing, lift, or 3D ground depth"
+    },
+    {
+      "source_id": 54,
+      "kind": "walk",
+      "atlas_region": [
+        384,
+        0,
+        128,
+        128
+      ],
+      "feet": {
+        "A": {
+          "window_xyxy_exclusive": [
+            22,
+            71,
+            35,
+            83
+          ],
+          "threshold": 96,
+          "bottom_row_index": 78,
+          "bottom_row_x_indices": [
+            28,
+            29
+          ],
+          "edge_proxy": [
+            29.0,
+            79.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              29.0,
+              79.0
+            ],
+            "96": [
+              29.0,
+              79.0
+            ],
+            "128": [
+              29.0,
+              79.0
+            ],
+            "192": [
+              28.5,
+              78.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": 7.0,
+              "shadow_point": [
+                32.71326164874552,
+                83.21505376344086
+              ],
+              "delta_shadow_minus_foot": [
+                3.7132616487455223,
+                4.215053763440864
+              ],
+              "delta_norm": 5.617382869338826
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": 8.0,
+              "shadow_point": [
+                33.24372759856631,
+                83.81720430107526
+              ],
+              "delta_shadow_minus_foot": [
+                4.243727598566309,
+                4.8172043010752645
+              ],
+              "delta_norm": 6.419866136387222
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": 8.5,
+              "shadow_point": [
+                33.5089605734767,
+                84.11827956989248
+              ],
+              "delta_shadow_minus_foot": [
+                4.508960573476699,
+                5.118279569892479
+              ],
+              "delta_norm": 6.821107769911428
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": 9.0,
+              "shadow_point": [
+                33.774193548387096,
+                84.41935483870968
+              ],
+              "delta_shadow_minus_foot": [
+                4.774193548387096,
+                5.41935483870968
+              ],
+              "delta_norm": 7.222349403435629
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": 9.5,
+              "shadow_point": [
+                34.03942652329749,
+                84.72043010752688
+              ],
+              "delta_shadow_minus_foot": [
+                5.039426523297493,
+                5.72043010752688
+              ],
+              "delta_norm": 7.62359103695983
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": 7.5,
+              "shadow_point": [
+                32.97849462365591,
+                83.51612903225806
+              ],
+              "delta_shadow_minus_foot": [
+                3.978494623655914,
+                4.516129032258065
+              ],
+              "delta_norm": 6.018624502863024
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 92.5,
+            "h_screen_proxy": 13.5,
+            "shadow_point": [
+              36.16129032258065,
+              87.12903225806451
+            ],
+            "delta_shadow_minus_foot": [
+              7.161290322580648,
+              8.129032258064512
+            ],
+            "delta_norm": 10.83352410515344
+          }
+        },
+        "B": {
+          "window_xyxy_exclusive": [
+            51,
+            81,
+            64,
+            93
+          ],
+          "threshold": 96,
+          "bottom_row_index": 88,
+          "bottom_row_x_indices": [
+            56,
+            57,
+            58
+          ],
+          "edge_proxy": [
+            57.5,
+            89.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              57.5,
+              89.0
+            ],
+            "96": [
+              57.5,
+              89.0
+            ],
+            "128": [
+              57.5,
+              89.0
+            ],
+            "192": [
+              57.5,
+              89.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": -3.0,
+              "shadow_point": [
+                55.90860215053763,
+                87.19354838709677
+              ],
+              "delta_shadow_minus_foot": [
+                -1.5913978494623677,
+                -1.8064516129032313
+              ],
+              "delta_norm": 2.407449801145215
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": -2.0,
+              "shadow_point": [
+                56.439068100358426,
+                87.79569892473118
+              ],
+              "delta_shadow_minus_foot": [
+                -1.0609318996415738,
+                -1.2043010752688161
+              ],
+              "delta_norm": 1.6049665340968033
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": -1.5,
+              "shadow_point": [
+                56.704301075268816,
+                88.09677419354838
+              ],
+              "delta_shadow_minus_foot": [
+                -0.7956989247311839,
+                -0.9032258064516157
+              ],
+              "delta_norm": 1.2037249005726074
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": -1.0,
+              "shadow_point": [
+                56.96953405017921,
+                88.39784946236558
+              ],
+              "delta_shadow_minus_foot": [
+                -0.5304659498207869,
+                -0.6021505376344152
+              ],
+              "delta_norm": 0.802483267048407
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": -0.5,
+              "shadow_point": [
+                57.2347670250896,
+                88.6989247311828
+              ],
+              "delta_shadow_minus_foot": [
+                -0.265232974910397,
+                -0.3010752688172005
+              ],
+              "delta_norm": 0.4012416335242005
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": -2.5,
+              "shadow_point": [
+                56.17383512544803,
+                87.49462365591398
+              ],
+              "delta_shadow_minus_foot": [
+                -1.3261648745519714,
+                -1.5053763440860215
+              ],
+              "delta_norm": 2.0062081676210077
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 78.25,
+            "h_screen_proxy": -10.75,
+            "shadow_point": [
+              51.797491039426525,
+              82.52688172043011
+            ],
+            "delta_shadow_minus_foot": [
+              -5.702508960573475,
+              -6.4731182795698885
+            ],
+            "delta_norm": 8.62669512077033
+          }
+        }
+      },
+      "projected_lower_visible_foot_only": "B",
+      "naive_two_visible_feet_slope_rejected": 0.3508771929824561,
+      "physical_contact": "unknown; higher or lower screen position is not proof of weight bearing, lift, or 3D ground depth"
+    },
+    {
+      "source_id": 55,
+      "kind": "walk",
+      "atlas_region": [
+        512,
+        0,
+        128,
+        128
+      ],
+      "feet": {
+        "A": {
+          "window_xyxy_exclusive": [
+            24,
+            71,
+            36,
+            82
+          ],
+          "threshold": 96,
+          "bottom_row_index": 78,
+          "bottom_row_x_indices": [
+            29,
+            30,
+            31
+          ],
+          "edge_proxy": [
+            30.5,
+            79.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              30.5,
+              79.0
+            ],
+            "96": [
+              30.5,
+              79.0
+            ],
+            "128": [
+              30.5,
+              79.0
+            ],
+            "192": [
+              30.0,
+              79.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": 7.0,
+              "shadow_point": [
+                34.21326164874552,
+                83.21505376344086
+              ],
+              "delta_shadow_minus_foot": [
+                3.7132616487455223,
+                4.215053763440864
+              ],
+              "delta_norm": 5.617382869338826
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": 8.0,
+              "shadow_point": [
+                34.74372759856631,
+                83.81720430107526
+              ],
+              "delta_shadow_minus_foot": [
+                4.243727598566309,
+                4.8172043010752645
+              ],
+              "delta_norm": 6.419866136387222
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": 8.5,
+              "shadow_point": [
+                35.0089605734767,
+                84.11827956989248
+              ],
+              "delta_shadow_minus_foot": [
+                4.508960573476699,
+                5.118279569892479
+              ],
+              "delta_norm": 6.821107769911428
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": 9.0,
+              "shadow_point": [
+                35.274193548387096,
+                84.41935483870968
+              ],
+              "delta_shadow_minus_foot": [
+                4.774193548387096,
+                5.41935483870968
+              ],
+              "delta_norm": 7.222349403435629
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": 9.5,
+              "shadow_point": [
+                35.53942652329749,
+                84.72043010752688
+              ],
+              "delta_shadow_minus_foot": [
+                5.039426523297493,
+                5.72043010752688
+              ],
+              "delta_norm": 7.62359103695983
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": 7.5,
+              "shadow_point": [
+                34.47849462365591,
+                83.51612903225806
+              ],
+              "delta_shadow_minus_foot": [
+                3.978494623655914,
+                4.516129032258065
+              ],
+              "delta_norm": 6.018624502863024
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 91.75,
+            "h_screen_proxy": 12.75,
+            "shadow_point": [
+              37.263440860215056,
+              86.6774193548387
+            ],
+            "delta_shadow_minus_foot": [
+              6.763440860215056,
+              7.677419354838705
+            ],
+            "delta_norm": 10.231661654867137
+          }
+        },
+        "B": {
+          "window_xyxy_exclusive": [
+            44,
+            78,
+            57,
+            90
+          ],
+          "threshold": 96,
+          "bottom_row_index": 84,
+          "bottom_row_x_indices": [
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "edge_proxy": [
+            49.5,
+            85.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              49.0,
+              85.0
+            ],
+            "96": [
+              49.5,
+              85.0
+            ],
+            "128": [
+              49.5,
+              85.0
+            ],
+            "192": [
+              49.5,
+              85.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": 1.0,
+              "shadow_point": [
+                50.03046594982079,
+                85.60215053763442
+              ],
+              "delta_shadow_minus_foot": [
+                0.5304659498207869,
+                0.6021505376344152
+              ],
+              "delta_norm": 0.802483267048407
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": 2.0,
+              "shadow_point": [
+                50.560931899641574,
+                86.20430107526882
+              ],
+              "delta_shadow_minus_foot": [
+                1.0609318996415738,
+                1.2043010752688161
+              ],
+              "delta_norm": 1.6049665340968033
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": 2.5,
+              "shadow_point": [
+                50.82616487455197,
+                86.50537634408602
+              ],
+              "delta_shadow_minus_foot": [
+                1.3261648745519707,
+                1.5053763440860166
+              ],
+              "delta_norm": 2.0062081676210037
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": 3.0,
+              "shadow_point": [
+                51.09139784946237,
+                86.80645161290323
+              ],
+              "delta_shadow_minus_foot": [
+                1.5913978494623677,
+                1.8064516129032313
+              ],
+              "delta_norm": 2.407449801145215
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": 3.5,
+              "shadow_point": [
+                51.35663082437276,
+                87.10752688172043
+              ],
+              "delta_shadow_minus_foot": [
+                1.8566308243727576,
+                2.107526881720432
+              ],
+              "delta_norm": 2.8086914346694107
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": 1.5,
+              "shadow_point": [
+                50.295698924731184,
+                85.90322580645162
+              ],
+              "delta_shadow_minus_foot": [
+                0.7956989247311828,
+                0.903225806451613
+              ],
+              "delta_norm": 1.2037249005726047
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 82.25,
+            "h_screen_proxy": -2.75,
+            "shadow_point": [
+              48.041218637992834,
+              83.34408602150538
+            ],
+            "delta_shadow_minus_foot": [
+              -1.4587813620071657,
+              -1.655913978494624
+            ],
+            "delta_norm": 2.206828984383107
+          }
+        }
+      },
+      "projected_lower_visible_foot_only": "B",
+      "naive_two_visible_feet_slope_rejected": 0.3157894736842105,
+      "physical_contact": "unknown; higher or lower screen position is not proof of weight bearing, lift, or 3D ground depth"
+    },
+    {
+      "source_id": 56,
+      "kind": "walk",
+      "atlas_region": [
+        640,
+        0,
+        128,
+        128
+      ],
+      "feet": {
+        "A": {
+          "window_xyxy_exclusive": [
+            36,
+            82,
+            49,
+            95
+          ],
+          "threshold": 96,
+          "bottom_row_index": 89,
+          "bottom_row_x_indices": [
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "edge_proxy": [
+            43.5,
+            90.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              43.5,
+              90.0
+            ],
+            "96": [
+              43.5,
+              90.0
+            ],
+            "128": [
+              43.5,
+              90.0
+            ],
+            "192": [
+              43.5,
+              90.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": -4.0,
+              "shadow_point": [
+                41.378136200716845,
+                87.59139784946237
+              ],
+              "delta_shadow_minus_foot": [
+                -2.1218637992831546,
+                -2.4086021505376323
+              ],
+              "delta_norm": 3.209933068193611
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": -3.0,
+              "shadow_point": [
+                41.90860215053763,
+                88.19354838709677
+              ],
+              "delta_shadow_minus_foot": [
+                -1.5913978494623677,
+                -1.8064516129032313
+              ],
+              "delta_norm": 2.407449801145215
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": -2.5,
+              "shadow_point": [
+                42.17383512544803,
+                88.49462365591398
+              ],
+              "delta_shadow_minus_foot": [
+                -1.3261648745519707,
+                -1.5053763440860166
+              ],
+              "delta_norm": 2.0062081676210037
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": -2.0,
+              "shadow_point": [
+                42.439068100358426,
+                88.79569892473118
+              ],
+              "delta_shadow_minus_foot": [
+                -1.0609318996415738,
+                -1.2043010752688161
+              ],
+              "delta_norm": 1.6049665340968033
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": -1.5,
+              "shadow_point": [
+                42.704301075268816,
+                89.09677419354838
+              ],
+              "delta_shadow_minus_foot": [
+                -0.7956989247311839,
+                -0.9032258064516157
+              ],
+              "delta_norm": 1.2037249005726074
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": -3.5,
+              "shadow_point": [
+                41.64336917562724,
+                87.89247311827957
+              ],
+              "delta_shadow_minus_foot": [
+                -1.8566308243727598,
+                -2.10752688172043
+              ],
+              "delta_norm": 2.8086914346694107
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 85.25,
+            "h_screen_proxy": -4.75,
+            "shadow_point": [
+              40.98028673835125,
+              87.13978494623656
+            ],
+            "delta_shadow_minus_foot": [
+              -2.5197132616487465,
+              -2.86021505376344
+            ],
+            "delta_norm": 3.811795518479915
+          }
+        },
+        "B": {
+          "window_xyxy_exclusive": [
+            42,
+            73,
+            50,
+            82
+          ],
+          "threshold": 96,
+          "bottom_row_index": 79,
+          "bottom_row_x_indices": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "edge_proxy": [
+            46.0,
+            80.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              46.0,
+              80.0
+            ],
+            "96": [
+              46.0,
+              80.0
+            ],
+            "128": [
+              46.0,
+              80.0
+            ],
+            "192": [
+              46.0,
+              80.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": 6.0,
+              "shadow_point": [
+                49.18279569892473,
+                83.61290322580645
+              ],
+              "delta_shadow_minus_foot": [
+                3.1827956989247284,
+                3.6129032258064484
+              ],
+              "delta_norm": 4.8148996022904145
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": 7.0,
+              "shadow_point": [
+                49.71326164874552,
+                84.21505376344086
+              ],
+              "delta_shadow_minus_foot": [
+                3.7132616487455223,
+                4.215053763440864
+              ],
+              "delta_norm": 5.617382869338826
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": 7.5,
+              "shadow_point": [
+                49.97849462365591,
+                84.51612903225806
+              ],
+              "delta_shadow_minus_foot": [
+                3.978494623655912,
+                4.516129032258064
+              ],
+              "delta_norm": 6.018624502863022
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": 8.0,
+              "shadow_point": [
+                50.24372759856631,
+                84.81720430107526
+              ],
+              "delta_shadow_minus_foot": [
+                4.243727598566309,
+                4.8172043010752645
+              ],
+              "delta_norm": 6.419866136387222
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": 8.5,
+              "shadow_point": [
+                50.5089605734767,
+                85.11827956989248
+              ],
+              "delta_shadow_minus_foot": [
+                4.508960573476699,
+                5.118279569892479
+              ],
+              "delta_norm": 6.821107769911428
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": 6.5,
+              "shadow_point": [
+                49.448028673835125,
+                83.91397849462365
+              ],
+              "delta_shadow_minus_foot": [
+                3.4480286738351253,
+                3.913978494623656
+              ],
+              "delta_norm": 5.216141235814621
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 84.0,
+            "h_screen_proxy": 4.0,
+            "shadow_point": [
+              48.121863799283155,
+              82.40860215053763
+            ],
+            "delta_shadow_minus_foot": [
+              2.1218637992831546,
+              2.4086021505376323
+            ],
+            "delta_norm": 3.209933068193611
+          }
+        }
+      },
+      "projected_lower_visible_foot_only": "A",
+      "naive_two_visible_feet_slope_rejected": -4.0,
+      "physical_contact": "unknown; higher or lower screen position is not proof of weight bearing, lift, or 3D ground depth"
+    }
+  ],
+  "idle_frames": [
+    {
+      "source_id": 13,
+      "kind": "idle",
+      "atlas_region": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "feet": {
+        "near": {
+          "window_xyxy_exclusive": [
+            28,
+            83,
+            44,
+            94
+          ],
+          "threshold": 96,
+          "bottom_row_index": 88,
+          "bottom_row_x_indices": [
+            35,
+            36
+          ],
+          "edge_proxy": [
+            36.0,
+            89.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              36.0,
+              89.0
+            ],
+            "96": [
+              36.0,
+              89.0
+            ],
+            "128": [
+              36.0,
+              89.0
+            ],
+            "192": [
+              35.5,
+              89.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": -3.0,
+              "shadow_point": [
+                34.40860215053763,
+                87.19354838709677
+              ],
+              "delta_shadow_minus_foot": [
+                -1.5913978494623677,
+                -1.8064516129032313
+              ],
+              "delta_norm": 2.407449801145215
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": -2.0,
+              "shadow_point": [
+                34.939068100358426,
+                87.79569892473118
+              ],
+              "delta_shadow_minus_foot": [
+                -1.0609318996415738,
+                -1.2043010752688161
+              ],
+              "delta_norm": 1.6049665340968033
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": -1.5,
+              "shadow_point": [
+                35.204301075268816,
+                88.09677419354838
+              ],
+              "delta_shadow_minus_foot": [
+                -0.7956989247311839,
+                -0.9032258064516157
+              ],
+              "delta_norm": 1.2037249005726074
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": -1.0,
+              "shadow_point": [
+                35.46953405017921,
+                88.39784946236558
+              ],
+              "delta_shadow_minus_foot": [
+                -0.5304659498207869,
+                -0.6021505376344152
+              ],
+              "delta_norm": 0.802483267048407
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": -0.5,
+              "shadow_point": [
+                35.7347670250896,
+                88.6989247311828
+              ],
+              "delta_shadow_minus_foot": [
+                -0.265232974910397,
+                -0.3010752688172005
+              ],
+              "delta_norm": 0.4012416335242005
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": -2.5,
+              "shadow_point": [
+                34.67383512544803,
+                87.49462365591398
+              ],
+              "delta_shadow_minus_foot": [
+                -1.3261648745519714,
+                -1.5053763440860215
+              ],
+              "delta_norm": 2.0062081676210077
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 89.0,
+            "h_screen_proxy": 0.0,
+            "shadow_point": [
+              36.0,
+              89.0
+            ],
+            "delta_shadow_minus_foot": [
+              0.0,
+              0.0
+            ],
+            "delta_norm": 0.0
+          }
+        },
+        "far": {
+          "window_xyxy_exclusive": [
+            45,
+            75,
+            60,
+            85
+          ],
+          "threshold": 96,
+          "bottom_row_index": 80,
+          "bottom_row_x_indices": [
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ],
+          "edge_proxy": [
+            52.0,
+            81.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              52.0,
+              81.0
+            ],
+            "96": [
+              52.0,
+              81.0
+            ],
+            "128": [
+              52.0,
+              81.0
+            ],
+            "192": [
+              52.0,
+              81.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": 5.0,
+              "shadow_point": [
+                54.65232974910394,
+                84.01075268817205
+              ],
+              "delta_shadow_minus_foot": [
+                2.6523297491039415,
+                3.0107526881720474
+              ],
+              "delta_norm": 4.012416335242018
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": 6.0,
+              "shadow_point": [
+                55.18279569892473,
+                84.61290322580645
+              ],
+              "delta_shadow_minus_foot": [
+                3.1827956989247284,
+                3.6129032258064484
+              ],
+              "delta_norm": 4.8148996022904145
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": 6.5,
+              "shadow_point": [
+                55.448028673835125,
+                84.91397849462365
+              ],
+              "delta_shadow_minus_foot": [
+                3.4480286738351253,
+                3.913978494623649
+              ],
+              "delta_norm": 5.216141235814614
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": 7.0,
+              "shadow_point": [
+                55.71326164874552,
+                85.21505376344086
+              ],
+              "delta_shadow_minus_foot": [
+                3.7132616487455223,
+                4.215053763440864
+              ],
+              "delta_norm": 5.617382869338826
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": 7.5,
+              "shadow_point": [
+                55.97849462365591,
+                85.51612903225806
+              ],
+              "delta_shadow_minus_foot": [
+                3.978494623655912,
+                4.516129032258064
+              ],
+              "delta_norm": 6.018624502863022
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": 5.5,
+              "shadow_point": [
+                54.91756272401434,
+                84.31182795698925
+              ],
+              "delta_shadow_minus_foot": [
+                2.917562724014337,
+                3.3118279569892475
+              ],
+              "delta_norm": 4.413657968766217
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 81.0,
+            "h_screen_proxy": 0.0,
+            "shadow_point": [
+              52.0,
+              81.0
+            ],
+            "delta_shadow_minus_foot": [
+              0.0,
+              0.0
+            ],
+            "delta_norm": 0.0
+          }
+        }
+      },
+      "projected_lower_visible_foot_only": "near",
+      "naive_two_visible_feet_slope_rejected": -0.5,
+      "physical_contact": "unknown; higher or lower screen position is not proof of weight bearing, lift, or 3D ground depth"
+    },
+    {
+      "source_id": 14,
+      "kind": "idle",
+      "atlas_region": [
+        128,
+        0,
+        128,
+        128
+      ],
+      "feet": {
+        "near": {
+          "window_xyxy_exclusive": [
+            28,
+            83,
+            44,
+            94
+          ],
+          "threshold": 96,
+          "bottom_row_index": 88,
+          "bottom_row_x_indices": [
+            35,
+            36,
+            37
+          ],
+          "edge_proxy": [
+            36.5,
+            89.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              36.5,
+              89.0
+            ],
+            "96": [
+              36.5,
+              89.0
+            ],
+            "128": [
+              36.5,
+              89.0
+            ],
+            "192": [
+              36.0,
+              89.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": -3.0,
+              "shadow_point": [
+                34.90860215053763,
+                87.19354838709677
+              ],
+              "delta_shadow_minus_foot": [
+                -1.5913978494623677,
+                -1.8064516129032313
+              ],
+              "delta_norm": 2.407449801145215
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": -2.0,
+              "shadow_point": [
+                35.439068100358426,
+                87.79569892473118
+              ],
+              "delta_shadow_minus_foot": [
+                -1.0609318996415738,
+                -1.2043010752688161
+              ],
+              "delta_norm": 1.6049665340968033
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": -1.5,
+              "shadow_point": [
+                35.704301075268816,
+                88.09677419354838
+              ],
+              "delta_shadow_minus_foot": [
+                -0.7956989247311839,
+                -0.9032258064516157
+              ],
+              "delta_norm": 1.2037249005726074
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": -1.0,
+              "shadow_point": [
+                35.96953405017921,
+                88.39784946236558
+              ],
+              "delta_shadow_minus_foot": [
+                -0.5304659498207869,
+                -0.6021505376344152
+              ],
+              "delta_norm": 0.802483267048407
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": -0.5,
+              "shadow_point": [
+                36.2347670250896,
+                88.6989247311828
+              ],
+              "delta_shadow_minus_foot": [
+                -0.265232974910397,
+                -0.3010752688172005
+              ],
+              "delta_norm": 0.4012416335242005
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": -2.5,
+              "shadow_point": [
+                35.17383512544803,
+                87.49462365591398
+              ],
+              "delta_shadow_minus_foot": [
+                -1.3261648745519714,
+                -1.5053763440860215
+              ],
+              "delta_norm": 2.0062081676210077
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 88.75,
+            "h_screen_proxy": -0.25,
+            "shadow_point": [
+              36.367383512544805,
+              88.84946236559139
+            ],
+            "delta_shadow_minus_foot": [
+              -0.13261648745519494,
+              -0.15053763440860735
+            ],
+            "delta_norm": 0.20062081676210322
+          }
+        },
+        "far": {
+          "window_xyxy_exclusive": [
+            45,
+            75,
+            60,
+            85
+          ],
+          "threshold": 96,
+          "bottom_row_index": 80,
+          "bottom_row_x_indices": [
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ],
+          "edge_proxy": [
+            51.5,
+            81.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              52.5,
+              82.0
+            ],
+            "96": [
+              51.5,
+              81.0
+            ],
+            "128": [
+              51.5,
+              81.0
+            ],
+            "192": [
+              52.0,
+              81.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": 5.0,
+              "shadow_point": [
+                54.15232974910394,
+                84.01075268817205
+              ],
+              "delta_shadow_minus_foot": [
+                2.6523297491039415,
+                3.0107526881720474
+              ],
+              "delta_norm": 4.012416335242018
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": 6.0,
+              "shadow_point": [
+                54.68279569892473,
+                84.61290322580645
+              ],
+              "delta_shadow_minus_foot": [
+                3.1827956989247284,
+                3.6129032258064484
+              ],
+              "delta_norm": 4.8148996022904145
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": 6.5,
+              "shadow_point": [
+                54.948028673835125,
+                84.91397849462365
+              ],
+              "delta_shadow_minus_foot": [
+                3.4480286738351253,
+                3.913978494623649
+              ],
+              "delta_norm": 5.216141235814614
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": 7.0,
+              "shadow_point": [
+                55.21326164874552,
+                85.21505376344086
+              ],
+              "delta_shadow_minus_foot": [
+                3.7132616487455223,
+                4.215053763440864
+              ],
+              "delta_norm": 5.617382869338826
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": 7.5,
+              "shadow_point": [
+                55.47849462365591,
+                85.51612903225806
+              ],
+              "delta_shadow_minus_foot": [
+                3.978494623655912,
+                4.516129032258064
+              ],
+              "delta_norm": 6.018624502863022
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": 5.5,
+              "shadow_point": [
+                54.41756272401434,
+                84.31182795698925
+              ],
+              "delta_shadow_minus_foot": [
+                2.917562724014337,
+                3.3118279569892475
+              ],
+              "delta_norm": 4.413657968766217
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 81.25,
+            "h_screen_proxy": 0.25,
+            "shadow_point": [
+              51.632616487455195,
+              81.15053763440861
+            ],
+            "delta_shadow_minus_foot": [
+              0.13261648745519494,
+              0.15053763440860735
+            ],
+            "delta_norm": 0.20062081676210322
+          }
+        }
+      },
+      "projected_lower_visible_foot_only": "near",
+      "naive_two_visible_feet_slope_rejected": -0.5333333333333333,
+      "physical_contact": "unknown; higher or lower screen position is not proof of weight bearing, lift, or 3D ground depth"
+    },
+    {
+      "source_id": 15,
+      "kind": "idle",
+      "atlas_region": [
+        256,
+        0,
+        128,
+        128
+      ],
+      "feet": {
+        "near": {
+          "window_xyxy_exclusive": [
+            28,
+            83,
+            44,
+            94
+          ],
+          "threshold": 96,
+          "bottom_row_index": 88,
+          "bottom_row_x_indices": [
+            35,
+            36,
+            37
+          ],
+          "edge_proxy": [
+            36.5,
+            89.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              36.5,
+              89.0
+            ],
+            "96": [
+              36.5,
+              89.0
+            ],
+            "128": [
+              36.5,
+              89.0
+            ],
+            "192": [
+              36.5,
+              89.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": -3.0,
+              "shadow_point": [
+                34.90860215053763,
+                87.19354838709677
+              ],
+              "delta_shadow_minus_foot": [
+                -1.5913978494623677,
+                -1.8064516129032313
+              ],
+              "delta_norm": 2.407449801145215
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": -2.0,
+              "shadow_point": [
+                35.439068100358426,
+                87.79569892473118
+              ],
+              "delta_shadow_minus_foot": [
+                -1.0609318996415738,
+                -1.2043010752688161
+              ],
+              "delta_norm": 1.6049665340968033
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": -1.5,
+              "shadow_point": [
+                35.704301075268816,
+                88.09677419354838
+              ],
+              "delta_shadow_minus_foot": [
+                -0.7956989247311839,
+                -0.9032258064516157
+              ],
+              "delta_norm": 1.2037249005726074
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": -1.0,
+              "shadow_point": [
+                35.96953405017921,
+                88.39784946236558
+              ],
+              "delta_shadow_minus_foot": [
+                -0.5304659498207869,
+                -0.6021505376344152
+              ],
+              "delta_norm": 0.802483267048407
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": -0.5,
+              "shadow_point": [
+                36.2347670250896,
+                88.6989247311828
+              ],
+              "delta_shadow_minus_foot": [
+                -0.265232974910397,
+                -0.3010752688172005
+              ],
+              "delta_norm": 0.4012416335242005
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": -2.5,
+              "shadow_point": [
+                35.17383512544803,
+                87.49462365591398
+              ],
+              "delta_shadow_minus_foot": [
+                -1.3261648745519714,
+                -1.5053763440860215
+              ],
+              "delta_norm": 2.0062081676210077
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 88.75,
+            "h_screen_proxy": -0.25,
+            "shadow_point": [
+              36.367383512544805,
+              88.84946236559139
+            ],
+            "delta_shadow_minus_foot": [
+              -0.13261648745519494,
+              -0.15053763440860735
+            ],
+            "delta_norm": 0.20062081676210322
+          }
+        },
+        "far": {
+          "window_xyxy_exclusive": [
+            45,
+            75,
+            60,
+            85
+          ],
+          "threshold": 96,
+          "bottom_row_index": 80,
+          "bottom_row_x_indices": [
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ],
+          "edge_proxy": [
+            51.5,
+            81.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              51.5,
+              81.0
+            ],
+            "96": [
+              51.5,
+              81.0
+            ],
+            "128": [
+              51.5,
+              81.0
+            ],
+            "192": [
+              52.0,
+              81.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": 5.0,
+              "shadow_point": [
+                54.15232974910394,
+                84.01075268817205
+              ],
+              "delta_shadow_minus_foot": [
+                2.6523297491039415,
+                3.0107526881720474
+              ],
+              "delta_norm": 4.012416335242018
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": 6.0,
+              "shadow_point": [
+                54.68279569892473,
+                84.61290322580645
+              ],
+              "delta_shadow_minus_foot": [
+                3.1827956989247284,
+                3.6129032258064484
+              ],
+              "delta_norm": 4.8148996022904145
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": 6.5,
+              "shadow_point": [
+                54.948028673835125,
+                84.91397849462365
+              ],
+              "delta_shadow_minus_foot": [
+                3.4480286738351253,
+                3.913978494623649
+              ],
+              "delta_norm": 5.216141235814614
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": 7.0,
+              "shadow_point": [
+                55.21326164874552,
+                85.21505376344086
+              ],
+              "delta_shadow_minus_foot": [
+                3.7132616487455223,
+                4.215053763440864
+              ],
+              "delta_norm": 5.617382869338826
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": 7.5,
+              "shadow_point": [
+                55.47849462365591,
+                85.51612903225806
+              ],
+              "delta_shadow_minus_foot": [
+                3.978494623655912,
+                4.516129032258064
+              ],
+              "delta_norm": 6.018624502863022
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": 5.5,
+              "shadow_point": [
+                54.41756272401434,
+                84.31182795698925
+              ],
+              "delta_shadow_minus_foot": [
+                2.917562724014337,
+                3.3118279569892475
+              ],
+              "delta_norm": 4.413657968766217
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 81.25,
+            "h_screen_proxy": 0.25,
+            "shadow_point": [
+              51.632616487455195,
+              81.15053763440861
+            ],
+            "delta_shadow_minus_foot": [
+              0.13261648745519494,
+              0.15053763440860735
+            ],
+            "delta_norm": 0.20062081676210322
+          }
+        }
+      },
+      "projected_lower_visible_foot_only": "near",
+      "naive_two_visible_feet_slope_rejected": -0.5333333333333333,
+      "physical_contact": "unknown; higher or lower screen position is not proof of weight bearing, lift, or 3D ground depth"
+    },
+    {
+      "source_id": 16,
+      "kind": "idle",
+      "atlas_region": [
+        384,
+        0,
+        128,
+        128
+      ],
+      "feet": {
+        "near": {
+          "window_xyxy_exclusive": [
+            28,
+            83,
+            44,
+            94
+          ],
+          "threshold": 96,
+          "bottom_row_index": 88,
+          "bottom_row_x_indices": [
+            35,
+            36
+          ],
+          "edge_proxy": [
+            36.0,
+            89.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              36.5,
+              89.0
+            ],
+            "96": [
+              36.0,
+              89.0
+            ],
+            "128": [
+              36.0,
+              89.0
+            ],
+            "192": [
+              36.0,
+              89.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": -3.0,
+              "shadow_point": [
+                34.40860215053763,
+                87.19354838709677
+              ],
+              "delta_shadow_minus_foot": [
+                -1.5913978494623677,
+                -1.8064516129032313
+              ],
+              "delta_norm": 2.407449801145215
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": -2.0,
+              "shadow_point": [
+                34.939068100358426,
+                87.79569892473118
+              ],
+              "delta_shadow_minus_foot": [
+                -1.0609318996415738,
+                -1.2043010752688161
+              ],
+              "delta_norm": 1.6049665340968033
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": -1.5,
+              "shadow_point": [
+                35.204301075268816,
+                88.09677419354838
+              ],
+              "delta_shadow_minus_foot": [
+                -0.7956989247311839,
+                -0.9032258064516157
+              ],
+              "delta_norm": 1.2037249005726074
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": -1.0,
+              "shadow_point": [
+                35.46953405017921,
+                88.39784946236558
+              ],
+              "delta_shadow_minus_foot": [
+                -0.5304659498207869,
+                -0.6021505376344152
+              ],
+              "delta_norm": 0.802483267048407
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": -0.5,
+              "shadow_point": [
+                35.7347670250896,
+                88.6989247311828
+              ],
+              "delta_shadow_minus_foot": [
+                -0.265232974910397,
+                -0.3010752688172005
+              ],
+              "delta_norm": 0.4012416335242005
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": -2.5,
+              "shadow_point": [
+                34.67383512544803,
+                87.49462365591398
+              ],
+              "delta_shadow_minus_foot": [
+                -1.3261648745519714,
+                -1.5053763440860215
+              ],
+              "delta_norm": 2.0062081676210077
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 89.0,
+            "h_screen_proxy": 0.0,
+            "shadow_point": [
+              36.0,
+              89.0
+            ],
+            "delta_shadow_minus_foot": [
+              0.0,
+              0.0
+            ],
+            "delta_norm": 0.0
+          }
+        },
+        "far": {
+          "window_xyxy_exclusive": [
+            45,
+            75,
+            60,
+            85
+          ],
+          "threshold": 96,
+          "bottom_row_index": 80,
+          "bottom_row_x_indices": [
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "edge_proxy": [
+            52.5,
+            81.0
+          ],
+          "threshold_sensitivity": {
+            "64": [
+              52.5,
+              81.0
+            ],
+            "96": [
+              52.5,
+              81.0
+            ],
+            "128": [
+              52.5,
+              81.0
+            ],
+            "192": [
+              52.5,
+              81.0
+            ]
+          },
+          "candidates": {
+            "86.0": {
+              "g_at_x": 86.0,
+              "h_screen_proxy": 5.0,
+              "shadow_point": [
+                55.15232974910394,
+                84.01075268817205
+              ],
+              "delta_shadow_minus_foot": [
+                2.6523297491039415,
+                3.0107526881720474
+              ],
+              "delta_norm": 4.012416335242018
+            },
+            "87.0": {
+              "g_at_x": 87.0,
+              "h_screen_proxy": 6.0,
+              "shadow_point": [
+                55.68279569892473,
+                84.61290322580645
+              ],
+              "delta_shadow_minus_foot": [
+                3.1827956989247284,
+                3.6129032258064484
+              ],
+              "delta_norm": 4.8148996022904145
+            },
+            "87.5": {
+              "g_at_x": 87.5,
+              "h_screen_proxy": 6.5,
+              "shadow_point": [
+                55.948028673835125,
+                84.91397849462365
+              ],
+              "delta_shadow_minus_foot": [
+                3.4480286738351253,
+                3.913978494623649
+              ],
+              "delta_norm": 5.216141235814614
+            },
+            "88.0": {
+              "g_at_x": 88.0,
+              "h_screen_proxy": 7.0,
+              "shadow_point": [
+                56.21326164874552,
+                85.21505376344086
+              ],
+              "delta_shadow_minus_foot": [
+                3.7132616487455223,
+                4.215053763440864
+              ],
+              "delta_norm": 5.617382869338826
+            },
+            "88.5": {
+              "g_at_x": 88.5,
+              "h_screen_proxy": 7.5,
+              "shadow_point": [
+                56.47849462365591,
+                85.51612903225806
+              ],
+              "delta_shadow_minus_foot": [
+                3.978494623655912,
+                4.516129032258064
+              ],
+              "delta_norm": 6.018624502863022
+            },
+            "86.5": {
+              "g_at_x": 86.5,
+              "h_screen_proxy": 5.5,
+              "shadow_point": [
+                55.41756272401434,
+                84.31182795698925
+              ],
+              "delta_shadow_minus_foot": [
+                2.917562724014337,
+                3.3118279569892475
+              ],
+              "delta_norm": 4.413657968766217
+            }
+          },
+          "old_idle13_line_if_misapplied": {
+            "g_at_x": 80.75,
+            "h_screen_proxy": -0.25,
+            "shadow_point": [
+              52.367383512544805,
+              80.84946236559139
+            ],
+            "delta_shadow_minus_foot": [
+              -0.13261648745519494,
+              -0.15053763440860735
+            ],
+            "delta_norm": 0.20062081676210322
+          }
+        }
+      },
+      "projected_lower_visible_foot_only": "near",
+      "naive_two_visible_feet_slope_rejected": -0.48484848484848486,
+      "physical_contact": "unknown; higher or lower screen position is not proof of weight bearing, lift, or 3D ground depth"
+    }
+  ],
+  "candidate_summary": [
+    {
+      "receiver_y": 86.0,
+      "max_walk_lower_visible_foot_displacement": 4.8148996022904145,
+      "max_idle_any_visible_foot_displacement": 4.012416335242018,
+      "max_walk_any_visible_foot_displacement": 9.629799204580832,
+      "max_joint_idle_plus_walk_lower_visible_foot_displacement": 4.8148996022904145,
+      "per_walk_lower_visible_foot_displacement": [
+        4.8148996022904145,
+        3.209933068193611,
+        0.802483267048407,
+        2.407449801145215,
+        0.802483267048407,
+        3.209933068193611
+      ]
+    },
+    {
+      "receiver_y": 86.5,
+      "max_walk_lower_visible_foot_displacement": 4.413657968766217,
+      "max_idle_any_visible_foot_displacement": 4.413657968766217,
+      "max_walk_any_visible_foot_displacement": 10.031040838105039,
+      "max_joint_idle_plus_walk_lower_visible_foot_displacement": 4.413657968766217,
+      "per_walk_lower_visible_foot_displacement": [
+        4.413657968766217,
+        2.8086914346694107,
+        0.40124163352420156,
+        2.0062081676210077,
+        1.2037249005726047,
+        2.8086914346694107
+      ]
+    },
+    {
+      "receiver_y": 87.0,
+      "max_walk_lower_visible_foot_displacement": 4.012416335242018,
+      "max_idle_any_visible_foot_displacement": 4.8148996022904145,
+      "max_walk_any_visible_foot_displacement": 10.432282471629241,
+      "max_joint_idle_plus_walk_lower_visible_foot_displacement": 4.8148996022904145,
+      "per_walk_lower_visible_foot_displacement": [
+        4.012416335242018,
+        2.407449801145215,
+        0.0,
+        1.6049665340968033,
+        1.6049665340968033,
+        2.407449801145215
+      ]
+    },
+    {
+      "receiver_y": 87.5,
+      "max_walk_lower_visible_foot_displacement": 3.6111747017178115,
+      "max_idle_any_visible_foot_displacement": 5.216141235814614,
+      "max_walk_any_visible_foot_displacement": 10.83352410515344,
+      "max_joint_idle_plus_walk_lower_visible_foot_displacement": 5.216141235814614,
+      "per_walk_lower_visible_foot_displacement": [
+        3.6111747017178115,
+        2.0062081676210037,
+        0.4012416335242005,
+        1.2037249005726074,
+        2.0062081676210037,
+        2.0062081676210037
+      ]
+    },
+    {
+      "receiver_y": 88.0,
+      "max_walk_lower_visible_foot_displacement": 3.209933068193611,
+      "max_idle_any_visible_foot_displacement": 5.617382869338826,
+      "max_walk_any_visible_foot_displacement": 11.234765738677648,
+      "max_joint_idle_plus_walk_lower_visible_foot_displacement": 5.617382869338826,
+      "per_walk_lower_visible_foot_displacement": [
+        3.209933068193611,
+        1.6049665340968033,
+        0.802483267048407,
+        0.802483267048407,
+        2.407449801145215,
+        1.6049665340968033
+      ]
+    },
+    {
+      "receiver_y": 88.5,
+      "max_walk_lower_visible_foot_displacement": 2.8086914346694107,
+      "max_idle_any_visible_foot_displacement": 6.018624502863022,
+      "max_walk_any_visible_foot_displacement": 11.636007372201847,
+      "max_joint_idle_plus_walk_lower_visible_foot_displacement": 6.018624502863022,
+      "per_walk_lower_visible_foot_displacement": [
+        2.8086914346694107,
+        1.2037249005726074,
+        1.2037249005726074,
+        0.4012416335242005,
+        2.8086914346694107,
+        1.2037249005726074
+      ]
+    }
+  ],
+  "old_idle_to_fixed_trial_transform_only": [
+    {
+      "source_id": 13,
+      "old_idle_receiver": {
+        "slope": -0.5,
+        "intercept": 107.0,
+        "g_at_body_center_x40": 87.0
+      },
+      "new_minus_old_g_at_x40": 0.5,
+      "same_point_shadow_delta_at_x40": [
+        0.26523297491039427,
+        0.3010752688172043
+      ],
+      "same_point_shadow_delta_norm_at_x40": 0.40124163352420156,
+      "near_foot_same_point_delta": [
+        -0.7956989247311828,
+        -0.903225806451613
+      ],
+      "far_foot_same_point_delta": [
+        3.4480286738351253,
+        3.913978494623656
+      ]
+    },
+    {
+      "source_id": 14,
+      "old_idle_receiver": {
+        "slope": -0.5333333333333333,
+        "intercept": 108.46666666666667,
+        "g_at_body_center_x40": 87.13333333333334
+      },
+      "new_minus_old_g_at_x40": 0.36666666666666003,
+      "same_point_shadow_delta_at_x40": [
+        0.1945041816009523,
+        0.22078853046594585
+      ],
+      "same_point_shadow_delta_norm_at_x40": 0.29424386458440915,
+      "near_foot_same_point_delta": [
+        -0.7956989247311828,
+        -0.903225806451613
+      ],
+      "far_foot_same_point_delta": [
+        3.4480286738351253,
+        3.913978494623656
+      ]
+    },
+    {
+      "source_id": 15,
+      "old_idle_receiver": {
+        "slope": -0.5333333333333333,
+        "intercept": 108.46666666666667,
+        "g_at_body_center_x40": 87.13333333333334
+      },
+      "new_minus_old_g_at_x40": 0.36666666666666003,
+      "same_point_shadow_delta_at_x40": [
+        0.1945041816009523,
+        0.22078853046594585
+      ],
+      "same_point_shadow_delta_norm_at_x40": 0.29424386458440915,
+      "near_foot_same_point_delta": [
+        -0.7956989247311828,
+        -0.903225806451613
+      ],
+      "far_foot_same_point_delta": [
+        3.4480286738351253,
+        3.913978494623656
+      ]
+    },
+    {
+      "source_id": 16,
+      "old_idle_receiver": {
+        "slope": -0.48484848484848486,
+        "intercept": 106.45454545454545,
+        "g_at_body_center_x40": 87.06060606060606
+      },
+      "new_minus_old_g_at_x40": 0.43939393939393767,
+      "same_point_shadow_delta_at_x40": [
+        0.23308352340610314,
+        0.2645812968393603
+      ],
+      "same_point_shadow_delta_norm_at_x40": 0.35260628400611516,
+      "near_foot_same_point_delta": [
+        -0.7956989247311828,
+        -0.903225806451613
+      ],
+      "far_foot_same_point_delta": [
+        3.4480286738351253,
+        3.913978494623656
+      ]
+    }
+  ],
+  "acceptance_limits": [
+    "Source direction is observed; magnitude remains inherited visual estimate from source13.",
+    "52 has only one independently visible boot; do not invent a second anchor.",
+    "53 has two boots at nearby screen heights; neither two-contact nor one-lift interpretation is proven.",
+    "56 boots nearly share x; naive line is steep and unstable, not a ground estimate.",
+    "A higher-screen boot may be further in ground depth rather than raised. Horizontal reference conflates depth and height.",
+    "A fixed horizontal receiver cannot guarantee exact attachment for every boot in idle and walk; reported mismatches are expected 2D approximation cost, not body registration fixes.",
+    "Keep the old standalone two-foot idle pilot frozen. A joint fixed-receiver preview may use one unchanged line for all ten frames, eliminating action-dependent line switches but changing idle far-foot shadow by about 5.216 px at y87.5.",
+    "No contact ellipse, source checker, duplicate shadow, body deformation, per-frame y-offset, raw edit or registration edit.",
+    "Native single-shadow, alpha-region, depth ordering, terrain and full-loop visual acceptance remains with the sole GUI owner."
+  ],
+  "distinct_minimax_objectives": {
+    "walk_screen_lower_visible_boot_edges_only": {
+      "edge_y_envelope": [
+        85,
+        92
+      ],
+      "exact_horizontal_minimax_y": 88.5,
+      "max_edge_displacement_px": 2.8086914346694107,
+      "excludes": "Other visible walk foot and all idle feet; not support-leg selection"
+    },
+    "joint_idle_both_visible_outsoles_plus_walk_screen_lower_visible_boot_edges": {
+      "edge_y_envelope": [
+        81,
+        92
+      ],
+      "exact_horizontal_minimax_y": 86.5,
+      "max_edge_displacement_px": 4.413657968766217,
+      "excludes": "Other high-screen walk feet; no contact proof"
+    },
+    "all_visible_feet_joint": {
+      "edge_y_envelope": [
+        74,
+        92
+      ],
+      "exact_horizontal_minimax_y": 83.0,
+      "max_edge_displacement_px": 7.222349403435628,
+      "scope": "Mathematical contrast only; flattening all visible high-screen walk feet is not an intended visual objective or physical model"
+    },
+    "rule": "Do not call different measurement subsets the same minimax problem. Fixed y87.5 is an original visual compromise, not any claimed numerical optimum."
+  },
+  "native_ab_candidates": {
+    "shared_for_all_idle_and_walk_frames": true,
+    "current_native_handoff_reported": [
+      {
+        "receiver_y": 86.0,
+        "purpose": "existing native comparison candidate; not the theoretical joint-subset minimax"
+      },
+      {
+        "receiver_y": 87.5,
+        "purpose": "original torso-centered visual compromise; not numerical optimum"
+      }
+    ],
+    "theoretical_joint_reference_y": 86.5,
+    "additional_parameter_sweep_required": false,
+    "uncertainty_px": 1,
+    "status": "native owner comparison reported for86/87.5; final visual selection remains pending; no native acceptance claimed by this source-only report",
+    "evidence_provenance": "Native comparison range relayed by the shadow-helper integration handoff. This source-only analysis did not operate or directly validate the GUI. The relayed range is not visual acceptance."
+  }
+}

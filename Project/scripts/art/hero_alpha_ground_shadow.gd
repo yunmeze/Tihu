@@ -38,7 +38,35 @@ func configure_frame(body_atlas: Texture2D, region: Rect2i,
 		sole_b, cast_per_height, opacity, blur_px, tint)
 	if not last_error.is_empty():
 		return false
-	_projection = make_projection(sole_a, sole_b, cast_per_height)
+	return _apply_projection(body_atlas, region, body_to_parent,
+		make_projection(sole_a, sole_b, cast_per_height), cast_per_height,
+		opacity, blur_px, tint,
+		{"projection_mode": "two_sole_line", "sole_a": sole_a, "sole_b": sole_b})
+
+## A fixed receiver reference is distinct from current visible feet. Keep this
+## point and slope unchanged across a gait, even when a boot lifts or is hidden.
+## The helper does not infer contact/support state or refit the line from alpha.
+## Like configure_frame(), points and slope use frame-local image pixels.
+func configure_ground_frame(body_atlas: Texture2D, region: Rect2i,
+		body_to_parent: Transform2D, ground_reference: Vector2, ground_slope: float,
+		cast_per_height: Vector2, opacity: float = 0.30,
+		blur_px: float = 0.9, tint: Color = Color(0.035, 0.045, 0.055)) -> bool:
+	clear_frame()
+	last_error = validate_ground_inputs(body_atlas, region, body_to_parent,
+		ground_reference, ground_slope, cast_per_height, opacity, blur_px, tint)
+	if not last_error.is_empty():
+		return false
+	return _apply_projection(body_atlas, region, body_to_parent,
+		make_ground_projection(ground_reference, ground_slope, cast_per_height),
+		cast_per_height, opacity, blur_px, tint,
+		{"projection_mode": "fixed_receiver_line", "ground_reference": ground_reference,
+		"ground_slope": ground_slope})
+
+func _apply_projection(body_atlas: Texture2D, region: Rect2i,
+		body_to_parent: Transform2D, projection: Transform2D,
+		cast_per_height: Vector2, opacity: float, blur_px: float, tint: Color,
+		mode_parameters: Dictionary) -> bool:
+	_projection = projection
 	var inverse := _projection.affine_inverse()
 	var padding := clampf(blur_px, 0.0, MAX_BLUR_RADIUS_PX) + 1.0
 	_shadow_bounds = projected_bounds(Vector2(region.size), _projection).grow(padding)
@@ -52,12 +80,13 @@ func configure_frame(body_atlas: Texture2D, region: Rect2i,
 	_shadow_material.set_shader_parameter("blur_radius_px", clampf(blur_px, 0.0, MAX_BLUR_RADIUS_PX))
 	_shadow_material.set_shader_parameter("shadow_color", Color(clampf(tint.r, 0.0, 1.0), clampf(tint.g, 0.0, 1.0), clampf(tint.b, 0.0, 1.0), clampf(opacity, 0.0, MAX_OPACITY)))
 	_configuration = {
-		"region": region, "sole_a": sole_a, "sole_b": sole_b,
+		"region": region,
 		"cast_per_height": cast_per_height, "projection": _projection,
 		"bounds": _shadow_bounds, "opacity": clampf(opacity, 0.0, MAX_OPACITY),
 		"blur_radius_px": clampf(blur_px, 0.0, MAX_BLUR_RADIUS_PX),
 		"body_to_parent": body_to_parent, "compositing_passes": 1,
 	}
+	_configuration.merge(mode_parameters)
 	visible = true
 	queue_redraw()
 	return true
@@ -91,7 +120,12 @@ func _draw() -> void:
 ## Unlike flattening about one global y, a high-screen planted foot has h=0.
 static func make_projection(sole_a: Vector2, sole_b: Vector2, cast: Vector2) -> Transform2D:
 	var slope := (sole_b.y - sole_a.y) / (sole_b.x - sole_a.x)
-	var intercept := sole_a.y - slope * sole_a.x
+	return make_ground_projection(sole_a, slope, cast)
+
+## Fixed line g(x)=reference.y+slope*(x-reference.x). This reference is a
+## receiver parameter, not an instruction to plant any animated body landmark.
+static func make_ground_projection(reference: Vector2, slope: float, cast: Vector2) -> Transform2D:
+	var intercept := reference.y - slope * reference.x
 	return Transform2D(
 		Vector2(1.0 + cast.x * slope, slope * (1.0 + cast.y)),
 		Vector2(-cast.x, -cast.y),
@@ -131,6 +165,35 @@ static func validate_inputs(body_atlas: Texture2D, region: Rect2i,
 	if cast.length() > 2.0 or absf(make_projection(sole_a, sole_b, cast).determinant()) < MIN_DETERMINANT:
 		return "Cast projection is singular, too compressed, or outside the bounded flat-ground range."
 	var size := projected_bounds(Vector2(region.size), make_projection(sole_a, sole_b, cast)).size
+	if size.x > MAX_SHADOW_EXTENT_PX or size.y > MAX_SHADOW_EXTENT_PX:
+		return "Projected frame exceeds the bounded shadow extent."
+	if not is_finite(opacity) or not is_finite(blur_px) or not is_finite(tint.r) or not is_finite(tint.g) or not is_finite(tint.b):
+		return "Opacity, blur and tint must be finite."
+	return ""
+
+static func validate_ground_inputs(body_atlas: Texture2D, region: Rect2i,
+		body_to_parent: Transform2D, ground_reference: Vector2, ground_slope: float,
+		cast: Vector2, opacity: float, blur_px: float, tint: Color) -> String:
+	if body_atlas == null or body_atlas.get_width() <= 0 or body_atlas.get_height() <= 0:
+		return "A loaded, body-only alpha Texture2D is required."
+	if body_atlas is AtlasTexture:
+		return "Pass the underlying atlas Texture2D plus an explicit region, not a nested AtlasTexture."
+	if region.size.x <= 0 or region.size.y <= 0 or region.size.x > MAX_FRAME_SIZE_PX or region.size.y > MAX_FRAME_SIZE_PX:
+		return "Frame dimensions must be within 1..2048 pixels."
+	if region.position.x < 0 or region.position.y < 0 or region.end.x > body_atlas.get_width() or region.end.y > body_atlas.get_height():
+		return "Frame region must be entirely inside the explicit atlas."
+	if not finite_transform(body_to_parent) or absf(body_to_parent.determinant()) < MIN_DETERMINANT:
+		return "Body transform must be finite and invertible."
+	if not ground_reference.is_finite() or not is_finite(ground_slope) or not cast.is_finite():
+		return "Ground reference, slope and cast direction must be finite."
+	if absf(ground_slope) > MAX_CONTACT_SLOPE:
+		return "Ground-line slope is outside the bounded flat-ground range."
+	if not Rect2(Vector2.ZERO, Vector2(region.size)).grow(1.0).has_point(ground_reference):
+		return "Ground reference must lie within the frame, allowing one edge pixel."
+	var projection := make_ground_projection(ground_reference, ground_slope, cast)
+	if cast.length() > 2.0 or absf(projection.determinant()) < MIN_DETERMINANT:
+		return "Cast projection is singular, too compressed, or outside the bounded flat-ground range."
+	var size := projected_bounds(Vector2(region.size), projection).size
 	if size.x > MAX_SHADOW_EXTENT_PX or size.y > MAX_SHADOW_EXTENT_PX:
 		return "Projected frame exceeds the bounded shadow extent."
 	if not is_finite(opacity) or not is_finite(blur_px) or not is_finite(tint.r) or not is_finite(tint.g) or not is_finite(tint.b):
