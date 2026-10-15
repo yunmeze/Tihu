@@ -1,0 +1,186 @@
+{
+  "status": "single49_control_pending_parent_review_not_animation",
+  "raw_sha256": "7338f1181da26815cc9d2f3f4ec4437a6be303c112e160b00ec7d5d14c000cec",
+  "common_uniform_scale": 0.1028549998260168,
+  "translation": [
+    -1.4220149316246022,
+    -0.25108997251065546
+  ],
+  "fit": "crown-to-two toe-region centers vertical spans, single scale, crown translation; no body/local warp or independent fit",
+  "point_order": [
+    "crown_surface",
+    "left_toe_region_center",
+    "right_toe_region_center",
+    "near_hand_group"
+  ],
+  "raw_points": [
+    [
+      393.0,
+      158.0
+    ],
+    [
+      306.0,
+      802.0
+    ],
+    [
+      479.0,
+      759.0
+    ],
+    [
+      389.0,
+      548.0
+    ]
+  ],
+  "source_points": [
+    [
+      39.0,
+      16.0
+    ],
+    [
+      31.0,
+      83.0
+    ],
+    [
+      48.0,
+      77.0
+    ],
+    [
+      43.0,
+      56.0
+    ]
+  ],
+  "mapped_points": [
+    [
+      39.0,
+      16.0
+    ],
+    [
+      30.051615015136537,
+      82.23861988795481
+    ],
+    [
+      47.845529985037444,
+      77.81585489543609
+    ],
+    [
+      38.588580000695934,
+      56.11344993214655
+    ]
+  ],
+  "boot_delta": [
+    17.793914969900907,
+    -4.422764992518722
+  ],
+  "hand_dx_from_crown": -0.4114199993040672,
+  "raw_surface_regions": {
+    "left_ankle_surface": [
+      269,
+      738,
+      292,
+      768
+    ],
+    "right_ankle_surface": [
+      391,
+      714,
+      427,
+      741
+    ],
+    "left_toe_surface": [
+      294,
+      792,
+      318,
+      813
+    ],
+    "right_toe_surface": [
+      464,
+      747,
+      494,
+      771
+    ],
+    "left_heel_contour": [
+      228,
+      725,
+      257,
+      755
+    ],
+    "right_heel_contour": [
+      375,
+      749,
+      405,
+      773
+    ]
+  },
+  "mapped_surface_regions": {
+    "left_ankle_surface": [
+      26.245980021573917,
+      75.65589989908975,
+      28.611645017572304,
+      78.74154989387024
+    ],
+    "right_ankle_surface": [
+      38.794290000347964,
+      73.18737990326534,
+      42.49706999408457,
+      75.9644648985678
+    ],
+    "left_toe_surface": [
+      28.817355017224337,
+      81.21006988969465,
+      31.285875013048738,
+      83.37002488604101
+    ],
+    "right_toe_surface": [
+      46.30270498764719,
+      76.5815948975239,
+      49.3883549824277,
+      79.0501148933483
+    ],
+    "left_heel_contour": [
+      22.028925028707228,
+      74.31878490135152,
+      25.011720023661717,
+      77.40443489613203
+    ],
+    "right_heel_contour": [
+      37.1486100031317,
+      76.78730489717593,
+      40.234259997912204,
+      79.25582489300034
+    ]
+  },
+  "source_surface_regions": {
+    "left_ankle": [
+      24,
+      74,
+      28,
+      78
+    ],
+    "right_ankle": [
+      38,
+      73,
+      42,
+      77
+    ],
+    "left_toe": [
+      29,
+      81,
+      33,
+      85
+    ],
+    "right_toe": [
+      46,
+      75,
+      50,
+      79
+    ],
+    "left_heel": null,
+    "right_heel": null
+  },
+  "limits": [
+    "source heel not reliably separable into independent region; null, not fabricated",
+    "all regions are manually read clothing/boot surfaces, not joints or contact",
+    "source toes +/-2, ankles +/-3, raw regions approximate +/-8px",
+    "scale uses toe y so y residual is not independent validation",
+    "single pose cannot establish shared six-frame scale, timing or cycle"
+  ]
+}

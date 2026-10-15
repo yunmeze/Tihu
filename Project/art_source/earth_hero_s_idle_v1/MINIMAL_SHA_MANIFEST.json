@@ -1,0 +1,79 @@
+{
+  "purpose": "candidate allowlist only; no Git",
+  "files": [
+    {
+      "path": "REVIEW.md",
+      "sha256": "a39f5e7bf626d0e09ac9c3b88b4f215181ee4d7498120fd0110dc1c6b68ab461"
+    },
+    {
+      "path": "STATIC_REVIEW.json",
+      "sha256": "b4ec8d4f51b87b5416f5980061873c298de311797eba121e636661d4c25edf90"
+    },
+    {
+      "path": "body-density4-CANDIDATE.png",
+      "sha256": "98ff3bd82baaaa3138835e9efd22cca66f7f05d4744b665a71222617bcca16ba"
+    },
+    {
+      "path": "build_manifest.py",
+      "sha256": "470f1ecb6061e0e49f8c620c6131a804feb858f942ac05a282737d5902e4d71e"
+    },
+    {
+      "path": "pixel-distinctness.json",
+      "sha256": "a0582d7d13e39035c159e73f77ab4d9b50ee979e23d3aad2a5625b4faa3a0707"
+    },
+    {
+      "path": "prompt-v1.txt",
+      "sha256": "1133ee09cda019a0d9cc8fa528c4378a0afb429905e3e560aa3a4920f2cb7c01"
+    },
+    {
+      "path": "raw-v1.png",
+      "sha256": "ca5215a8413dea3752e9ab551262d2b5b6a777f24da14da26cdbe51dc3023785"
+    },
+    {
+      "path": "register_v1.py",
+      "sha256": "71a9d88e9dc6644f5af81867e6316d064bdf0f18b2626c5a048d2fe5cbcf033f"
+    },
+    {
+      "path": "registration-v1.json",
+      "sha256": "b66cabc59cececffee889922068c2b6404d700475e8bd3755f62d4cdb2a2fe14"
+    },
+    {
+      "path": "request-v1.json",
+      "sha256": "30731354063508f387abe1cda62bddff4ff16c5cc4daf3327d44ab0111fd25f1"
+    }
+  ],
+  "read_only_dependencies": [
+    {
+      "path": "Project/art_source/earth_hero_s_input_plan_v1/source-idle-full-128-4x.png",
+      "sha256": "e31b1d12c8cf2ce5d5f8ed547beaec139e92a734e5f37d3dbf1e7bdba24bfdac"
+    },
+    {
+      "path": "Project/art_source/earth_hero_s_input_plan_v1/approved-se_idle13-disconnected-parts.png",
+      "sha256": "747595287214d584c5eea9a6515d44866ba06fd5ffc49d171a8c450cd51a77a4"
+    },
+    {
+      "path": "Project/art_source/earth_hero_s_input_plan_v1/approved-e_idle9-disconnected-parts.png",
+      "sha256": "84e55f0238ae0170c23bae5ed210aa01e69f7dde9c2f6550d20d1cca48e2d489"
+    },
+    {
+      "path": "Project/art_source/earth_hero_s_input_plan_v1/INPUT_PROVENANCE.json",
+      "sha256": "a490e1cdd73f47031c90501b3c20ddfe85ce2df6f68a33d7dbc3c41b9785a428"
+    },
+    {
+      "path": "Project/art_source/earth_hero_s_input_plan_v1/SOURCE_PHASE_ANALYSIS.json",
+      "sha256": "a8965f58e758dfc943843726afb0d1f37d76209b3c5ca5da9da36c2d5ff67738"
+    },
+    {
+      "path": "Project/assets/earth/hero/se_idle_v1/body.png",
+      "sha256": "60f89f65dd817ec80065de941e62e36e1068302c3f2bc4eb5014d8d56f450c02"
+    },
+    {
+      "path": "Project/assets/earth/hero/e_idle_v1/body.png",
+      "sha256": "7cb81240d71f04dae8f6df9e06ef5c0d7dbc1d33c467fa3c646f8a54087da010"
+    }
+  ],
+  "excluded": [
+    "Project/diagnostics/**",
+    "runtime assets and manifests"
+  ]
+}

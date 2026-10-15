@@ -1,0 +1,163 @@
+{
+  "schema": "earth-four-caster-max-alpha-diagnostic-contract-v1",
+  "status": "numeric contract only; independent diagnostic Node2D+shader; no production renderer/helper/gate/art edits",
+  "slots": [
+    "SE_hero",
+    "Fangzhang_record0",
+    "Lingyunzi_record1",
+    "first_tree_root57_34"
+  ],
+  "common_light": {
+    "cast": [
+      1.2,
+      0.55
+    ],
+    "source_color_tint_rgb": [
+      0.035,
+      0.045,
+      0.055
+    ],
+    "opacity_each": 0.25,
+    "logical_blur_each": 0.8,
+    "raw_blur_each_at_density4": 3.2,
+    "single_final_compositing_pass": true
+  },
+  "formula": {
+    "per_slot": "if disabled return 0 before reading invalid uniforms; else a_i=clamp(sum_of_original 9-tap_weighted_alpha/16,0,1)*clamp(original_opacity_i,0,.42)",
+    "aggregate": "A=max(a_SE,a_Fang,a_Ling,a_tree)",
+    "output": "COLOR=vec4(common_original_source_color_tint,A), unshaded blend_mix, exactly once",
+    "order": "gate -> raw transform -> original inverse projection/guarded textureLod alpha -> original blur -> opacity -> max -> one blend",
+    "no_post_union_blur": true,
+    "no_sum_no_one_minus_product_no_alpha_add": true
+  },
+  "geometry_contract": {
+    "draw_parent": "same logical CanvasItem parent coordinate system as existing helper nodes; compositor identity transform",
+    "point_conversion": "q_raw_ground = inverse(helper body_to_parent transform) * shared logical parent point; do not scale world/camera origin again",
+    "sampling": "original raw atlas dimensions and raw frame region; original inverse projection vectors/origin; zero outside frame before half-texel center clamp; filter_linear repeat_disable textureLod 0",
+    "bounds": "union of existing helper raw shadow_bounds transformed into shared parent space; include existing padding, not body bbox; no receiver-mask clipping of aggregate",
+    "texture_density": 4,
+    "pixel_density": "existing 1536x1024 raster for 768x512 logical area; no intermediate lowres framebuffer"
+  },
+  "independent_eligibility": {
+    "SE": "unchanged original 10-phase gate, matching body/action and original flat_map binding",
+    "Fangzhang": "unchanged exact record 0 body and existing Fang gate",
+    "Lingyunzi_and_tree": "each existing candidate identity plus entire v2 receiver footprint and exact valid new hall; source hall/failed hall disables these two only",
+    "one_bad_slot": "zero that slot, keep other independently valid slots; shared compositor configuration/shader/tint contract failure disables composite entirely",
+    "disabled_nan_policy": "branch before sample; never multiply NaN by0"
+  },
+  "draw_ownership": {
+    "legacy_helpers": "continue configure/gate calculations, copy validated config, then suppress old draws for current frame",
+    "visibility_warning": "do not derive next-frame eligibility from helper.visible after suppressing old draw; no duplicateold+new draw",
+    "layer_order": "all floors -> one compositor -> existing unchanged support/building/body ordering",
+    "no_baked_checker_merge": true
+  },
+  "equivalence_budget": {
+    "math": "single caster and all non-overlap pixels identical alpha; adding identical caster idempotent; slot order invariant; disabling all transparent",
+    "gpu_single_or_nonoverlap_per_channel_RGB": 2,
+    "gpu_pixels_exceeding_budget": "must list count, max, bbox and explain; no automatic acceptance",
+    "forbidden_changed_RGB_gt2_required": 0,
+    "max_alpha_current_slots": 0.25,
+    "native_color_space": "same source_color qualifier and tint as original; CPU alpha is not inverse GPU opacity"
+  },
+  "synthetic_vectors": [
+    {
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "max": 0
+    },
+    {
+      "a": [
+        0.25,
+        0,
+        0,
+        0
+      ],
+      "max": 0.25
+    },
+    {
+      "a": [
+        0.25,
+        0.25,
+        0,
+        0
+      ],
+      "max": 0.25,
+      "independent": 0.4375
+    },
+    {
+      "a": [
+        0.25,
+        0.25,
+        0.25,
+        0
+      ],
+      "max": 0.25,
+      "independent": 0.578125
+    },
+    {
+      "a": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "max": 0.25,
+      "independent": 0.68359375
+    },
+    {
+      "a": [
+        0.1,
+        0.2,
+        0.15,
+        0
+      ],
+      "max": 0.2
+    }
+  ],
+  "implementation_scope": [
+    "one independent diagnostic Node2D",
+    "one explicit sampler2D-per-slot shader (4 slots, no generic registration)",
+    "minimal diagnostic driver binding and gate snapshot",
+    "no shared helper/gate edits; no art or movement changes"
+  ],
+  "performance_upper_bound": {
+    "texture_reads_per_fragment": 36,
+    "full1536x1024_quad_reads_per_frame": 56623104,
+    "warning": "count not timing; skip disabled slot and padded AABB before 9-tap; measure native Compatibility performance before promotion; no render texture caching system yet"
+  },
+  "cpu_measurements_sha256": "04316eee0e6db153a66b0594735ec9f526d8d8bda7287fa2f3c009cc48d66014",
+  "input_sha256": {
+    "art_source/earth_shadow_next_stage_v1/measurements.json": "0dc903c36ca309f47155feae402afa72592d5e39a26fe69090e3584c9bce60a8",
+    "assets/earth/shadows/se_flat_v1/manifest.json": "3c7ac445562535c706cd58ebef625880308860ddfa012686fee600223beaec48",
+    "assets/earth/shadows/se_flat_v1/allowed.png": "06d4a6fe1e8404c48619d51b72a67d82795fb178a34089e35b0661df5f9eb2dc",
+    "assets/earth/shadows/se_flat_v1/envelope.png": "1f7096d7c3689fdc9158cea3c21b28c8338771feb45530def39aaa737832f8e3",
+    "data/maps/A13.json": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "assets/earth/npc/fangzhang_v1/manifest.json": "0239fc9ac1f662d7756710f4f824e9d7a25a474caa0206996b6c9b2e269f9d59",
+    "assets/earth/npc/lingyunzi_v2/manifest.json": "f9cf04374b533f225514215f6c798d4eac7592beb8b86bb5f715d3945278c9be",
+    "assets/earth/environment/first_tree_v1/registration.json": "a83f1f401b10394e13e7822f6eb04078cace3db3dc0bdca10e275b38d0bb9b27",
+    "assets/earth/npc/fangzhang_v1/body.png": "21cfcd0e60c40944c3623e2d9b989e3d7eeb006a3ebbd2be648a69f655cf04bc",
+    "assets/earth/npc/lingyunzi_v2/body.png": "541c6d0a7a1cf3dd1cd547be037cf17e2f9a6083b8de90c1641f13fbaf9bbb9e",
+    "assets/earth/environment/first_tree_v1/whole-review.png": "c639ad6e35e10f3a4c61d13a38258b2db1f077cea3f757ec8e064762601cc9e6",
+    "assets/earth/hero/se_idle_v1/manifest.json": "3672409856c27b1e81d543b8a0a29063e16170b2cafbaf55f5d6351fb1e9b5a3",
+    "assets/earth/hero/se_idle_v1/body.png": "60f89f65dd817ec80065de941e62e36e1068302c3f2bc4eb5014d8d56f450c02",
+    "assets/earth/hero/se_walk_v1/manifest.json": "127727940bd2651460bbe90396f80e7c75d89a7d8675f5d3467e5a5f46e229d7",
+    "assets/earth/hero/se_walk_v1/body.png": "f4eee4ec3a35e6597eb3a1eb4f6e5122163845ca474673974af1531ac42489ac",
+    "scripts/earth/sample_world.gd": "75c13f913730e72ea26918047fbc7a50ff1f2129dbb56b983e3158bea6b7c26b",
+    "scripts/earth/flat_shadow_gate.gd": "bb31c6ab95c0950fecd196731f8c87d1e03e2c771b5427bc5d4ae8abf18d32c7",
+    "scripts/earth/fangzhang_shadow_gate.gd": "ca341a46e4b93dfb3742d72f5b422361242aa4c25a519f1c7d21ffd19528b210",
+    "scripts/art/density_alpha_ground_shadow.gd": "cfc61e6c2b647bee68b063c1eecd884e1ac0ffa545fc1a59b3c3af4397adaf47",
+    "shaders/density_alpha_ground_shadow.gdshader": "b4d976938acbb3b57df13bf85ade4ebf3173c0634b5e7ee4338e8b038bf51f3b"
+  },
+  "prior_gpu_observation": {
+    "gpu_difference_json_sha256": "d70019226dd4b552f7bae9586621c90ce2a30736fcdab724de7e5cb10ef51ed3",
+    "native_log_sha256": "0c199125300cd446a850dfbf4286b6696b75da80c482e968078fb1fdd5962a47",
+    "tree_ling_visible_overlap_pixels": 2150,
+    "max_additional_darkening_RGB": 40,
+    "not_an_opacity_measurement": true
+  },
+  "official_canvas_shader_reference": "https://docs.godotengine.org/en/4.6/tutorials/shaders/shader_reference/canvas_item_shader.html"
+}

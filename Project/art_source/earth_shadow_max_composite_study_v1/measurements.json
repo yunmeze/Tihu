@@ -1,0 +1,276 @@
+{
+  "schema": "earth-four-caster-max-alpha-study-v1",
+  "status": "CPU proposal only; production renderer/gates/art unchanged; noGUI/GPU",
+  "parameters": {
+    "cast": [
+      1.2,
+      0.55
+    ],
+    "opacity_each": 0.25,
+    "blur_logical": 0.8,
+    "sample_density": 2,
+    "ling_phase": 0,
+    "tree_padding": "2px right/bottom transparent, original1254 unchanged"
+  },
+  "definitions": {
+    "independent": "1-product(1-a_i)",
+    "proposed": "max(a_i) AFTER each existing9tap blur and its own gate",
+    "theoretical_n_full_casters": {
+      "one": 0.25,
+      "two": 0.4375,
+      "three": 0.578125,
+      "four": 0.68359375,
+      "proposed_any_1_to4": 0.25
+    },
+    "sample_scope": "five explicit actor states only; not exhaustive movement or native occlusion; rejected hero contributes zero"
+  },
+  "cases": [
+    {
+      "hero_cell": [
+        61,
+        39
+      ],
+      "action": "idle",
+      "source_id": 13,
+      "hero_original_gate_allows": true,
+      "source_flag": 0,
+      "static_three": {
+        "independent_blend_alpha_max": 0.43341110204153777,
+        "max_composite_alpha_max": 0.2484164704527911,
+        "max_extra_alpha_removed": 0.1856678318632039,
+        "overlap_samples_alpha_gt_1_255": 2932,
+        "triple_overlap_samples": 0,
+        "quad_overlap_samples": 0,
+        "pairs": {
+          "fang+ling": 0,
+          "fang+tree": 375,
+          "ling+tree": 2557
+        },
+        "single_caster_idempotent": true,
+        "order_independent": true,
+        "max_composite_opacity_le_025": true
+      },
+      "four_casters": {
+        "independent_blend_alpha_max": 0.43341110204153777,
+        "max_composite_alpha_max": 0.24846355860129207,
+        "max_extra_alpha_removed": 0.1856678318632039,
+        "overlap_samples_alpha_gt_1_255": 2932,
+        "triple_overlap_samples": 0,
+        "quad_overlap_samples": 0,
+        "pairs": {
+          "fang+ling": 0,
+          "fang+tree": 375,
+          "fang+hero": 0,
+          "ling+tree": 2557,
+          "ling+hero": 0,
+          "tree+hero": 0
+        },
+        "single_caster_idempotent": true,
+        "order_independent": true,
+        "max_composite_opacity_le_025": true
+      }
+    },
+    {
+      "hero_cell": [
+        61,
+        37
+      ],
+      "action": "idle",
+      "source_id": 13,
+      "hero_original_gate_allows": true,
+      "source_flag": 0,
+      "static_three": {
+        "independent_blend_alpha_max": 0.43341110204153777,
+        "max_composite_alpha_max": 0.2484164704527911,
+        "max_extra_alpha_removed": 0.1856678318632039,
+        "overlap_samples_alpha_gt_1_255": 2932,
+        "triple_overlap_samples": 0,
+        "quad_overlap_samples": 0,
+        "pairs": {
+          "fang+ling": 0,
+          "fang+tree": 375,
+          "ling+tree": 2557
+        },
+        "single_caster_idempotent": true,
+        "order_independent": true,
+        "max_composite_opacity_le_025": true
+      },
+      "four_casters": {
+        "independent_blend_alpha_max": 0.4343275689022976,
+        "max_composite_alpha_max": 0.24846355860129207,
+        "max_extra_alpha_removed": 0.18633263079683754,
+        "overlap_samples_alpha_gt_1_255": 8275,
+        "triple_overlap_samples": 0,
+        "quad_overlap_samples": 0,
+        "pairs": {
+          "fang+ling": 0,
+          "fang+tree": 375,
+          "fang+hero": 0,
+          "ling+tree": 2557,
+          "ling+hero": 0,
+          "tree+hero": 5343
+        },
+        "single_caster_idempotent": true,
+        "order_independent": true,
+        "max_composite_opacity_le_025": true
+      }
+    },
+    {
+      "hero_cell": [
+        63,
+        38
+      ],
+      "action": "idle",
+      "source_id": 13,
+      "hero_original_gate_allows": false,
+      "source_flag": 0,
+      "static_three": {
+        "independent_blend_alpha_max": 0.43341110204153777,
+        "max_composite_alpha_max": 0.2484164704527911,
+        "max_extra_alpha_removed": 0.1856678318632039,
+        "overlap_samples_alpha_gt_1_255": 2932,
+        "triple_overlap_samples": 0,
+        "quad_overlap_samples": 0,
+        "pairs": {
+          "fang+ling": 0,
+          "fang+tree": 375,
+          "ling+tree": 2557
+        },
+        "single_caster_idempotent": true,
+        "order_independent": true,
+        "max_composite_opacity_le_025": true
+      },
+      "four_casters": {
+        "independent_blend_alpha_max": 0.43341110204153777,
+        "max_composite_alpha_max": 0.2484164704527911,
+        "max_extra_alpha_removed": 0.1856678318632039,
+        "overlap_samples_alpha_gt_1_255": 2932,
+        "triple_overlap_samples": 0,
+        "quad_overlap_samples": 0,
+        "pairs": {
+          "fang+ling": 0,
+          "fang+tree": 375,
+          "fang+hero": 0,
+          "ling+tree": 2557,
+          "ling+hero": 0,
+          "tree+hero": 0
+        },
+        "single_caster_idempotent": true,
+        "order_independent": true,
+        "max_composite_opacity_le_025": true
+      }
+    },
+    {
+      "hero_cell": [
+        63,
+        38
+      ],
+      "action": "walk",
+      "source_id": 51,
+      "hero_original_gate_allows": false,
+      "source_flag": 0,
+      "static_three": {
+        "independent_blend_alpha_max": 0.43341110204153777,
+        "max_composite_alpha_max": 0.2484164704527911,
+        "max_extra_alpha_removed": 0.1856678318632039,
+        "overlap_samples_alpha_gt_1_255": 2932,
+        "triple_overlap_samples": 0,
+        "quad_overlap_samples": 0,
+        "pairs": {
+          "fang+ling": 0,
+          "fang+tree": 375,
+          "ling+tree": 2557
+        },
+        "single_caster_idempotent": true,
+        "order_independent": true,
+        "max_composite_opacity_le_025": true
+      },
+      "four_casters": {
+        "independent_blend_alpha_max": 0.43341110204153777,
+        "max_composite_alpha_max": 0.2484164704527911,
+        "max_extra_alpha_removed": 0.1856678318632039,
+        "overlap_samples_alpha_gt_1_255": 2932,
+        "triple_overlap_samples": 0,
+        "quad_overlap_samples": 0,
+        "pairs": {
+          "fang+ling": 0,
+          "fang+tree": 375,
+          "fang+hero": 0,
+          "ling+tree": 2557,
+          "ling+hero": 0,
+          "tree+hero": 0
+        },
+        "single_caster_idempotent": true,
+        "order_independent": true,
+        "max_composite_opacity_le_025": true
+      }
+    },
+    {
+      "hero_cell": [
+        62,
+        36
+      ],
+      "action": "idle",
+      "source_id": 13,
+      "hero_original_gate_allows": false,
+      "source_flag": 0,
+      "static_three": {
+        "independent_blend_alpha_max": 0.43341110204153777,
+        "max_composite_alpha_max": 0.2484164704527911,
+        "max_extra_alpha_removed": 0.1856678318632039,
+        "overlap_samples_alpha_gt_1_255": 2932,
+        "triple_overlap_samples": 0,
+        "quad_overlap_samples": 0,
+        "pairs": {
+          "fang+ling": 0,
+          "fang+tree": 375,
+          "ling+tree": 2557
+        },
+        "single_caster_idempotent": true,
+        "order_independent": true,
+        "max_composite_opacity_le_025": true
+      },
+      "four_casters": {
+        "independent_blend_alpha_max": 0.43341110204153777,
+        "max_composite_alpha_max": 0.2484164704527911,
+        "max_extra_alpha_removed": 0.1856678318632039,
+        "overlap_samples_alpha_gt_1_255": 2932,
+        "triple_overlap_samples": 0,
+        "quad_overlap_samples": 0,
+        "pairs": {
+          "fang+ling": 0,
+          "fang+tree": 375,
+          "fang+hero": 0,
+          "ling+tree": 2557,
+          "ling+hero": 0,
+          "tree+hero": 0
+        },
+        "single_caster_idempotent": true,
+        "order_independent": true,
+        "max_composite_opacity_le_025": true
+      }
+    }
+  ],
+  "input_sha256": {
+    "art_source/earth_shadow_next_stage_v1/measurements.json": "0dc903c36ca309f47155feae402afa72592d5e39a26fe69090e3584c9bce60a8",
+    "assets/earth/shadows/se_flat_v1/manifest.json": "3c7ac445562535c706cd58ebef625880308860ddfa012686fee600223beaec48",
+    "assets/earth/shadows/se_flat_v1/allowed.png": "06d4a6fe1e8404c48619d51b72a67d82795fb178a34089e35b0661df5f9eb2dc",
+    "assets/earth/shadows/se_flat_v1/envelope.png": "1f7096d7c3689fdc9158cea3c21b28c8338771feb45530def39aaa737832f8e3",
+    "data/maps/A13.json": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "assets/earth/npc/fangzhang_v1/manifest.json": "0239fc9ac1f662d7756710f4f824e9d7a25a474caa0206996b6c9b2e269f9d59",
+    "assets/earth/npc/lingyunzi_v2/manifest.json": "f9cf04374b533f225514215f6c798d4eac7592beb8b86bb5f715d3945278c9be",
+    "assets/earth/environment/first_tree_v1/registration.json": "a83f1f401b10394e13e7822f6eb04078cace3db3dc0bdca10e275b38d0bb9b27",
+    "assets/earth/npc/fangzhang_v1/body.png": "21cfcd0e60c40944c3623e2d9b989e3d7eeb006a3ebbd2be648a69f655cf04bc",
+    "assets/earth/npc/lingyunzi_v2/body.png": "541c6d0a7a1cf3dd1cd547be037cf17e2f9a6083b8de90c1641f13fbaf9bbb9e",
+    "assets/earth/environment/first_tree_v1/whole-review.png": "c639ad6e35e10f3a4c61d13a38258b2db1f077cea3f757ec8e064762601cc9e6",
+    "assets/earth/hero/se_idle_v1/manifest.json": "3672409856c27b1e81d543b8a0a29063e16170b2cafbaf55f5d6351fb1e9b5a3",
+    "assets/earth/hero/se_idle_v1/body.png": "60f89f65dd817ec80065de941e62e36e1068302c3f2bc4eb5014d8d56f450c02",
+    "assets/earth/hero/se_walk_v1/manifest.json": "127727940bd2651460bbe90396f80e7c75d89a7d8675f5d3467e5a5f46e229d7",
+    "assets/earth/hero/se_walk_v1/body.png": "f4eee4ec3a35e6597eb3a1eb4f6e5122163845ca474673974af1531ac42489ac",
+    "scripts/earth/sample_world.gd": "75c13f913730e72ea26918047fbc7a50ff1f2129dbb56b983e3158bea6b7c26b",
+    "scripts/earth/flat_shadow_gate.gd": "bb31c6ab95c0950fecd196731f8c87d1e03e2c771b5427bc5d4ae8abf18d32c7",
+    "scripts/earth/fangzhang_shadow_gate.gd": "ca341a46e4b93dfb3742d72f5b422361242aa4c25a519f1c7d21ffd19528b210",
+    "scripts/art/density_alpha_ground_shadow.gd": "cfc61e6c2b647bee68b063c1eecd884e1ac0ffa545fc1a59b3c3af4397adaf47",
+    "shaders/density_alpha_ground_shadow.gdshader": "b4d976938acbb3b57df13bf85ade4ebf3173c0634b5e7ee4338e8b038bf51f3b"
+  }
+}

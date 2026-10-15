@@ -1,0 +1,214 @@
+{
+  "status": "static_surface_only_no_exact_animation_certification",
+  "method": "alpha128 extrema inside fixed hand-outline ROIs and original global registration",
+  "uncertainty_raw_px": 4,
+  "source_crown_boot_uncertainty_logical_px": 1,
+  "source_hand_surface_uncertainty_logical_px": 3,
+  "boundary": "new hand outline ends only; not homologous to old source skin-patch centers; no direct swing subtraction",
+  "records": [
+    {
+      "source_id": 17,
+      "registered_crown_Lboot_Rboot": [
+        [
+          40.04125549688343,
+          14.841677703976945
+        ],
+        [
+          32.42961632189113,
+          83.16078054293217
+        ],
+        [
+          47.52912818122544,
+          86.9975417530909
+        ]
+      ],
+      "hands": {
+        "L": {
+          "raw_roi": [
+            130,
+            320,
+            180,
+            415
+          ],
+          "raw_outline_terminal": [
+            166.0,
+            383.0
+          ],
+          "registered_outline_terminal": [
+            26.86012424262848,
+            51.47655893646018
+          ]
+        },
+        "R": {
+          "raw_roi": [
+            355,
+            320,
+            410,
+            415
+          ],
+          "raw_outline_terminal": [
+            373.0,
+            383.0
+          ],
+          "registered_outline_terminal": [
+            52.47978780723669,
+            51.47655893646018
+          ]
+        }
+      }
+    },
+    {
+      "source_id": 18,
+      "registered_crown_Lboot_Rboot": [
+        [
+          40.206277484417136,
+          15.543021150995195
+        ],
+        [
+          31.975805856173437,
+          82.50069259279732
+        ],
+        [
+          47.817916659409434,
+          86.95628625620745
+        ]
+      ],
+      "hands": {
+        "L": {
+          "raw_roi": [
+            130,
+            320,
+            180,
+            415
+          ],
+          "raw_outline_terminal": [
+            173.5,
+            387.0
+          ],
+          "registered_outline_terminal": [
+            27.89151166471416,
+            51.930369402177874
+          ]
+        },
+        "R": {
+          "raw_roi": [
+            355,
+            320,
+            410,
+            415
+          ],
+          "raw_outline_terminal": [
+            372.5,
+            384.0
+          ],
+          "registered_outline_terminal": [
+            52.52104330412012,
+            51.559069930227025
+          ]
+        }
+      }
+    },
+    {
+      "source_id": 19,
+      "registered_crown_Lboot_Rboot": [
+        [
+          39.834978012466294,
+          15.419254660344917
+        ],
+        [
+          32.223338837474,
+          82.87199206474817
+        ],
+        [
+          47.94168315005971,
+          86.7087532749069
+        ]
+      ],
+      "hands": {
+        "L": {
+          "raw_roi": [
+            130,
+            320,
+            180,
+            415
+          ],
+          "raw_outline_terminal": [
+            172.0,
+            394.0
+          ],
+          "registered_outline_terminal": [
+            27.582095438088455,
+            52.54920185542928
+          ]
+        },
+        "R": {
+          "raw_roi": [
+            355,
+            320,
+            410,
+            415
+          ],
+          "raw_outline_terminal": [
+            367.5,
+            382.0
+          ],
+          "registered_outline_terminal": [
+            51.77844436021843,
+            51.06400396762591
+          ]
+        }
+      }
+    },
+    {
+      "source_id": 20,
+      "registered_crown_Lboot_Rboot": [
+        [
+          40.144394239091994,
+          14.841677703976945
+        ],
+        [
+          32.40898857344942,
+          83.16078054293217
+        ],
+        [
+          47.446617187458585,
+          86.9975417530909
+        ]
+      ],
+      "hands": {
+        "L": {
+          "raw_roi": [
+            130,
+            320,
+            180,
+            415
+          ],
+          "raw_outline_terminal": [
+            167.5,
+            384.0
+          ],
+          "registered_outline_terminal": [
+            27.02514623016219,
+            51.60032542711046
+          ]
+        },
+        "R": {
+          "raw_roi": [
+            355,
+            320,
+            410,
+            415
+          ],
+          "raw_outline_terminal": [
+            373.5,
+            383.0
+          ],
+          "registered_outline_terminal": [
+            52.52104330412012,
+            51.47655893646018
+          ]
+        }
+      }
+    }
+  ]
+}

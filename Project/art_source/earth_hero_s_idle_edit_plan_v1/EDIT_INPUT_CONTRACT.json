@@ -1,0 +1,71 @@
+{
+  "status": "plan_only_not_approved_for_edit",
+  "edit_target": "art_source/earth_hero_s_idle_v1/raw-v1.png",
+  "edit_target_sha256": "ca5215a8413dea3752e9ab551262d2b5b6a777f24da14da26cdbe51dc3023785",
+  "reference_parts": [
+    {
+      "path": "assets/earth/hero/se_idle_v1/body.png",
+      "sha256": "60f89f65dd817ec80065de941e62e36e1068302c3f2bc4eb5014d8d56f450c02",
+      "crop_rectangles_xyxy_native_hd4": {
+        "chest_black_abdomen_waist": [
+          131,
+          112,
+          202,
+          202
+        ],
+        "black_thigh_small_plate": [
+          125,
+          190,
+          169,
+          251
+        ]
+      }
+    },
+    {
+      "path": "assets/earth/hero/e_idle_v1/body.png",
+      "sha256": "7cb81240d71f04dae8f6df9e06ef5c0d7dbc1d33c467fa3c646f8a54087da010",
+      "crop_rectangles_xyxy_native_hd4": {
+        "chest_black_abdomen_waist": [
+          148,
+          109,
+          191,
+          193
+        ],
+        "black_thigh_small_plate": [
+          142,
+          192,
+          182,
+          244
+        ]
+      }
+    }
+  ],
+  "proposed_local_cell_rois": {
+    "abdomen_waist": [
+      219,
+      240,
+      310,
+      337
+    ],
+    "screen_left_thigh_plate": [
+      185,
+      347,
+      237,
+      431
+    ],
+    "screen_right_thigh_plate": [
+      307,
+      347,
+      355,
+      431
+    ]
+  },
+  "roi_boundary": "broad clothing area guide only; not tool-enforced mask; do not alter hands or outer body silhouette",
+  "constraints": [
+    "one whole four-frame edit only after parent approval",
+    "same2172x724 canvas and543x724 cells",
+    "face, hair, posture, hands, boots, lighting, frame placement unchanged",
+    "only reduce continuous silver abdomen chain and outer thigh plates",
+    "preserve original raw and use identical global registration for edited candidate; no refit to hide movement drift"
+  ]
+}
