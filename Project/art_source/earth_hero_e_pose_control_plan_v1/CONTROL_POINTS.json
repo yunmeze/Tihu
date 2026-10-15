@@ -1,0 +1,136 @@
+{
+  "status": "analysis_only_not_generated_art",
+  "frames": {
+    "45": {
+      "crown": [
+        40,
+        16
+      ],
+      "near_shoulder_cloth_proxy": [
+        37,
+        31
+      ],
+      "near_elbow_cloth_proxy_uncertain": [
+        33,
+        43
+      ],
+      "near_hand_surface": [
+        33,
+        57
+      ],
+      "left_chain": [
+        [
+          33,
+          64
+        ],
+        [
+          22,
+          73
+        ],
+        [
+          29,
+          78
+        ]
+      ],
+      "right_chain": [
+        [
+          49,
+          65
+        ],
+        [
+          49,
+          80
+        ],
+        [
+          60,
+          81
+        ]
+      ],
+      "far_hand": [
+        49,
+        40
+      ]
+    },
+    "49": {
+      "crown": [
+        39,
+        16
+      ],
+      "near_shoulder_cloth_proxy": [
+        36,
+        31
+      ],
+      "near_elbow_cloth_proxy_uncertain": [
+        38,
+        44
+      ],
+      "near_hand_surface": [
+        43,
+        56
+      ],
+      "left_chain": [
+        [
+          34,
+          66
+        ],
+        [
+          26,
+          76
+        ],
+        [
+          31,
+          83
+        ]
+      ],
+      "right_chain": [
+        [
+          44,
+          64
+        ],
+        [
+          40,
+          75
+        ],
+        [
+          48,
+          77
+        ]
+      ],
+      "far_hand": null
+    }
+  },
+  "uncertainty_logic_px": {
+    "boot": 2,
+    "hand": 3,
+    "shoulder_cloth": 3,
+    "elbow_cloth": 4,
+    "knee_ankle_cloth": 3
+  },
+  "reading_boundary": "screen-low boot is only a support candidate, not proved physical contact; no anatomical left/right or hidden skeleton inferred",
+  "inputs": [
+    {
+      "path": "approved-E-design-parts.png",
+      "sha256": "5a7108561f9c8aec39a25de76a4e5fea6d4ce5148e3649af5ad938724f749d38"
+    },
+    {
+      "path": "source-45-annotated-analysis.png",
+      "sha256": "9354cddd7d587ba3f643e8d17b06552b1aba361b6bb15975b137e4775fe3b5d9"
+    },
+    {
+      "path": "source-45-full128-8x.png",
+      "sha256": "4f914a6ab7efa57074379d4139e410f31c5e12cc99e14870132c778174afdd03"
+    },
+    {
+      "path": "source-49-annotated-analysis.png",
+      "sha256": "22f98b70e2dfd4ab4ff2c23a98ada2ce66497c946e9ce69bfc5588982330bbb0"
+    },
+    {
+      "path": "source-49-full128-8x.png",
+      "sha256": "583ae16ee4fa6be6bf08a1b9683e7259d9b800f93d2f78a1aab8abef05474ca8"
+    },
+    {
+      "path": "source45-and49-full128-pair-6x.png",
+      "sha256": "ffa1a21635c98631980263716c76194ff37fa7481e98777dc438f0f1bd77c6d2"
+    }
+  ]
+}

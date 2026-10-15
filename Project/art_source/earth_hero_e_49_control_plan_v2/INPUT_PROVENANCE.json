@@ -1,0 +1,68 @@
+{
+  "status": "source_preparation_no_generation",
+  "source_sha256": "78109c59d23aee39981036a65cfbb922ca30aeef7bbe9839f53f8c3054ecd802",
+  "full_canvas": [
+    128,
+    128
+  ],
+  "root": [
+    16,
+    64
+  ],
+  "full_display_scale": 8,
+  "analysis_crop": [
+    16,
+    32,
+    64,
+    96
+  ],
+  "analysis_scale": 12,
+  "observed_proxies": {
+    "left_knee_cloth": [
+      34,
+      66
+    ],
+    "left_ankle_region": [
+      26,
+      76
+    ],
+    "left_toe_region": [
+      31,
+      83
+    ],
+    "right_knee_cloth": [
+      44,
+      64
+    ],
+    "right_ankle_region": [
+      40,
+      75
+    ],
+    "right_toe_region": [
+      48,
+      77
+    ]
+  },
+  "approximate_graphic_relation": "right toe x~48 lies near torso front contour projection x~48, not anatomical or calibrated 3D",
+  "medium_confidence_inference": "more complete foreground trouser/knee surface continues into left/rear screen chain; obscured right upper segment not reconstructed",
+  "unknown": [
+    "anatomical left/right",
+    "physical load/contact",
+    "hidden joints",
+    "3D depth"
+  ],
+  "inputs": [
+    {
+      "path": "approved-E-design-only.png",
+      "sha256": "5a7108561f9c8aec39a25de76a4e5fea6d4ce5148e3649af5ad938724f749d38"
+    },
+    {
+      "path": "source49-full128-8x.png",
+      "sha256": "583ae16ee4fa6be6bf08a1b9683e7259d9b800f93d2f78a1aab8abef05474ca8"
+    },
+    {
+      "path": "source49-visible-chain-occlusion-analysis.png",
+      "sha256": "9e2bc02425528527de37d2d72e5c8510e76c9b324337b09baa1808ea847c23ed"
+    }
+  ]
+}

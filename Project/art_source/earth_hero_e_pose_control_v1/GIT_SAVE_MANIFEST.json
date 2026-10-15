@@ -1,0 +1,38 @@
+{
+  "status": "partial_improvement_not_passed_control_only",
+  "files": [
+    {
+      "path": "MEASUREMENTS.json",
+      "sha256": "1659c264a66ab9627fc1cf2372042484eecf03b2cecefbcdb4575261eb23404c"
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "01d7b782119108c037bf1dc362457f6b991ca9f0b7d20ea23ffde5cf95308db5"
+    },
+    {
+      "path": "measure_control.py",
+      "sha256": "21e630b426964c4cf43b70f681bf9653f784c5662d01f8ef3ece1fc58f33cd59"
+    },
+    {
+      "path": "prompt-v1.txt",
+      "sha256": "46eee4aa0739988a5e82401f0f1fbc4d9156ab3027a881d3ab1c9dc26086107d"
+    },
+    {
+      "path": "raw-v1.png",
+      "sha256": "30f479ada050725847e12cd2eacb65af8c74a787f070c4285acb66e997cbeff3"
+    },
+    {
+      "path": "request-v1.json",
+      "sha256": "1f8ef5e128c0a225f0f813099f0070fe611b96e7e8fad7280e5ae21719cb3e8b"
+    },
+    {
+      "path": "two-poses-HD4-DIAGNOSTIC-ONLY.png",
+      "sha256": "c88531114023081624980b7b2a9b31777d3a97449db9c51f87d76cc3ab53d0ac"
+    }
+  ],
+  "runtime_installed": false,
+  "calls": 1,
+  "exclude": [
+    "Project/diagnostics/**"
+  ]
+}

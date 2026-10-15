@@ -1,0 +1,526 @@
+{
+  "status": "preparation only; no generation/Git/runtime/GUI",
+  "direction_index": 4,
+  "source_formula": "base + 4*phases + p",
+  "root": [
+    16,
+    64
+  ],
+  "timing": {
+    "idle_ticks": 12,
+    "walk_ticks": 7,
+    "reference_hz": 50,
+    "idle_cycle_ticks": 48,
+    "walk_cycle_ticks": 42,
+    "boundary": "reference/current adapter only; original EXE clock producer/state lifecycle/speed not proven"
+  },
+  "records": [
+    {
+      "source_id": 17,
+      "action": "idle",
+      "phase": 0,
+      "reference_start_tick": 0,
+      "duration_ticks": 12,
+      "layers": {
+        "body": {
+          "offset": [
+            7,
+            -47
+          ],
+          "rect": [
+            1,
+            129,
+            64,
+            71
+          ],
+          "rgba_sha256": "a7e2e9a35809342e262075f0f6fd2077d08575f1eb4810ad4ba6ed72647e1bf6",
+          "decoded_directly_from_lpRes": true
+        },
+        "head": {
+          "offset": [
+            21,
+            -49
+          ],
+          "rect": [
+            1,
+            129,
+            8,
+            12
+          ],
+          "rgba_sha256": "1c9639904e36e51d6eaa9fa58ca070e7f2f864f86f5d50f4ce1ea39c270ac03b",
+          "decoded_directly_from_lpRes": true
+        }
+      },
+      "sha256": "7ccff6728f5d765c642c830f708b9832fe8478990d13a028fc4117715aede972",
+      "rgba_sha256": "741ab23887fd1d14d633a1375cd7b923546d562d9c09a27be0f405fd869c4359",
+      "historical_source_rgba_match": true
+    },
+    {
+      "source_id": 18,
+      "action": "idle",
+      "phase": 1,
+      "reference_start_tick": 12,
+      "duration_ticks": 12,
+      "layers": {
+        "body": {
+          "offset": [
+            7,
+            -47
+          ],
+          "rect": [
+            129,
+            129,
+            64,
+            71
+          ],
+          "rgba_sha256": "ff71cf066fcea3185e359ba99737ffc7cba77205411fe514c7ca5b75b9610c34",
+          "decoded_directly_from_lpRes": true
+        },
+        "head": {
+          "offset": [
+            20,
+            -49
+          ],
+          "rect": [
+            129,
+            129,
+            8,
+            12
+          ],
+          "rgba_sha256": "2acbaa07e3aa9e12efbb3b9e6387afc8c41d406039c575bbe64c4afb82201bd2",
+          "decoded_directly_from_lpRes": true
+        }
+      },
+      "sha256": "f5cd69bef585d4138a663ebd00eb235c26f8cae549b89b0aab2d803ce7744d75",
+      "rgba_sha256": "d3a897ab4c010440ccb0b473703718ce9340191a6c1f983c098adb1ee885c8c2",
+      "historical_source_rgba_match": true
+    },
+    {
+      "source_id": 19,
+      "action": "idle",
+      "phase": 2,
+      "reference_start_tick": 24,
+      "duration_ticks": 12,
+      "layers": {
+        "body": {
+          "offset": [
+            7,
+            -47
+          ],
+          "rect": [
+            257,
+            129,
+            64,
+            71
+          ],
+          "rgba_sha256": "09f9e448e4e24410b220042773900f3153090074e94fcf7b2754f45ff4c6a406",
+          "decoded_directly_from_lpRes": true
+        },
+        "head": {
+          "offset": [
+            20,
+            -49
+          ],
+          "rect": [
+            257,
+            129,
+            8,
+            12
+          ],
+          "rgba_sha256": "de08f4e227dc495f38144932936af5701c93035aec8621f1b8f7eab21f804f92",
+          "decoded_directly_from_lpRes": true
+        }
+      },
+      "sha256": "e06b728f704cfd128ede039925105ce0c1f54b0a390f9fe7c668a0ab5306c30f",
+      "rgba_sha256": "cf81146c6eb69ca0e4622d49429da81187cd29fcfd768f9e4240d7407f78b0ae",
+      "historical_source_rgba_match": true
+    },
+    {
+      "source_id": 20,
+      "action": "idle",
+      "phase": 3,
+      "reference_start_tick": 36,
+      "duration_ticks": 12,
+      "layers": {
+        "body": {
+          "offset": [
+            7,
+            -47
+          ],
+          "rect": [
+            385,
+            129,
+            64,
+            71
+          ],
+          "rgba_sha256": "621dd99c431cf5c5cdafec8e4fda60030073726923f2122d28f122c107effb29",
+          "decoded_directly_from_lpRes": true
+        },
+        "head": {
+          "offset": [
+            21,
+            -49
+          ],
+          "rect": [
+            385,
+            129,
+            8,
+            12
+          ],
+          "rgba_sha256": "74211e1d66f4e6186fdd7aa97ffe22b06e15a759e7160453c344d458d07145ed",
+          "decoded_directly_from_lpRes": true
+        }
+      },
+      "sha256": "0ae041ec4cd1a31625f4b4ee19cd211b2b2488c7bce3a85abd8ccc318a62b414",
+      "rgba_sha256": "f2adbc6b92eafb12cbc6c5df4f9e536d012005d265af40d15da33171afd0f98c",
+      "historical_source_rgba_match": true
+    },
+    {
+      "source_id": 57,
+      "action": "walk",
+      "phase": 0,
+      "reference_start_tick": 0,
+      "duration_ticks": 7,
+      "layers": {
+        "body": {
+          "offset": [
+            8,
+            -46
+          ],
+          "rect": [
+            1025,
+            385,
+            64,
+            74
+          ],
+          "rgba_sha256": "8a58e49a1e549bc811be76b159603927cc62d8bdab5369e13b17c9910fbf6058",
+          "decoded_directly_from_lpRes": true
+        },
+        "head": {
+          "offset": [
+            20,
+            -48
+          ],
+          "rect": [
+            1025,
+            385,
+            8,
+            12
+          ],
+          "rgba_sha256": "3c562cab8f9296fd4de11d07d09430761e02956b61e428b3f5d1a40d2b95e82e",
+          "decoded_directly_from_lpRes": true
+        }
+      },
+      "sha256": "1a474a3c34ca85abf08f067813519015165487bf43725acdb579f3d22ec0caeb",
+      "rgba_sha256": "6db1c0518a9d58267b79b0b37533630c8646f29b7348f663f504f2f8129f8536",
+      "historical_source_rgba_match": true
+    },
+    {
+      "source_id": 58,
+      "action": "walk",
+      "phase": 1,
+      "reference_start_tick": 7,
+      "duration_ticks": 7,
+      "layers": {
+        "body": {
+          "offset": [
+            8,
+            -47
+          ],
+          "rect": [
+            1153,
+            385,
+            64,
+            72
+          ],
+          "rgba_sha256": "8889bf7d9ceedfb412f74d95e6c02fc4fa0359c15ec89733014485bd101a97e7",
+          "decoded_directly_from_lpRes": true
+        },
+        "head": {
+          "offset": [
+            21,
+            -49
+          ],
+          "rect": [
+            1153,
+            385,
+            8,
+            11
+          ],
+          "rgba_sha256": "33b902f700a3eef261740e7124f13b83da4130f423f76d5e6485783b8ed9ea8f",
+          "decoded_directly_from_lpRes": true
+        }
+      },
+      "sha256": "7137f168350f5b910b8cc070b3814e79b11bae2cd4bcc81c96f3bf3c39b30deb",
+      "rgba_sha256": "9d2c030fadb80f19d1ecd5f9fb4f9eccecd3ff6258ebb16bc825c9d053607554",
+      "historical_source_rgba_match": true
+    },
+    {
+      "source_id": 59,
+      "action": "walk",
+      "phase": 2,
+      "reference_start_tick": 14,
+      "duration_ticks": 7,
+      "layers": {
+        "body": {
+          "offset": [
+            7,
+            -47
+          ],
+          "rect": [
+            1281,
+            385,
+            64,
+            72
+          ],
+          "rgba_sha256": "43b1e5d8a6029ba6f1078d8bf8747b614fb6a9ddcdf26326a2325aeae6856d3b",
+          "decoded_directly_from_lpRes": true
+        },
+        "head": {
+          "offset": [
+            21,
+            -49
+          ],
+          "rect": [
+            1281,
+            385,
+            8,
+            11
+          ],
+          "rgba_sha256": "0e8e950f8be09adcad6461b0a537bcdc3957f0cbd1bc342b934a58c1df0056ea",
+          "decoded_directly_from_lpRes": true
+        }
+      },
+      "sha256": "ffcd49bc0ccbc27cb4b034b9ba86039f47d5d8510ba9b8b41ec0ab30901be38e",
+      "rgba_sha256": "55b78d7d827f3be62b1037a649187fe859501df76f15a7482507bdcd73b0da87",
+      "historical_source_rgba_match": true
+    },
+    {
+      "source_id": 60,
+      "action": "walk",
+      "phase": 3,
+      "reference_start_tick": 21,
+      "duration_ticks": 7,
+      "layers": {
+        "body": {
+          "offset": [
+            8,
+            -46
+          ],
+          "rect": [
+            1409,
+            385,
+            60,
+            74
+          ],
+          "rgba_sha256": "c074fb6c23ad2f7f20db47600104329e6ab5536c786a571f5f447a246e5a4fe5",
+          "decoded_directly_from_lpRes": true
+        },
+        "head": {
+          "offset": [
+            21,
+            -48
+          ],
+          "rect": [
+            1409,
+            385,
+            8,
+            12
+          ],
+          "rgba_sha256": "e0cd51b56f3c454db66122fcdd93d2b766ba8d9eb1e79efab8a1904252a12d8a",
+          "decoded_directly_from_lpRes": true
+        }
+      },
+      "sha256": "a364df0c0a17975b49cdc15c21cdbfae27753ea15515b1b7474c464504dde01c",
+      "rgba_sha256": "6c324f4ec7e5ae86dd7fb105de6de0d9000575b2e8bd34b9a0f3fc958d1ae680",
+      "historical_source_rgba_match": true
+    },
+    {
+      "source_id": 61,
+      "action": "walk",
+      "phase": 4,
+      "reference_start_tick": 28,
+      "duration_ticks": 7,
+      "layers": {
+        "body": {
+          "offset": [
+            8,
+            -47
+          ],
+          "rect": [
+            1537,
+            385,
+            64,
+            72
+          ],
+          "rgba_sha256": "b919356d2151ded72ebe8282d6e9abd47c74f7246d51fc5a2da72f5b8a4e924f",
+          "decoded_directly_from_lpRes": true
+        },
+        "head": {
+          "offset": [
+            20,
+            -49
+          ],
+          "rect": [
+            1537,
+            385,
+            8,
+            12
+          ],
+          "rgba_sha256": "a45cbda8a8cdad158ede94bbe35a507cd5d40e4cd5107b7f09dd6a037c1db3a0",
+          "decoded_directly_from_lpRes": true
+        }
+      },
+      "sha256": "9e2e51ad728383c3dac71206b44f6b9e9968ef658eadb9e609980c0a888381db",
+      "rgba_sha256": "c84da8c00eaa4514bd597f30dec7ac48d4c303748a9c2f2a478de066ced32565",
+      "historical_source_rgba_match": true
+    },
+    {
+      "source_id": 62,
+      "action": "walk",
+      "phase": 5,
+      "reference_start_tick": 35,
+      "duration_ticks": 7,
+      "layers": {
+        "body": {
+          "offset": [
+            8,
+            -47
+          ],
+          "rect": [
+            1665,
+            385,
+            64,
+            71
+          ],
+          "rgba_sha256": "32127b4a4ad963fe0b62475a1a4db7c2588f903566fd3031006acba48d4bef5b",
+          "decoded_directly_from_lpRes": true
+        },
+        "head": {
+          "offset": [
+            21,
+            -49
+          ],
+          "rect": [
+            1665,
+            385,
+            8,
+            12
+          ],
+          "rgba_sha256": "d1017ebb704a730e11241454544b1463d81c5191e6033c9bc052f4492cc6ef9e",
+          "decoded_directly_from_lpRes": true
+        }
+      },
+      "sha256": "a659beb365f76e2064c290419a7124a34767782efc7bbe5238abe2afee42ece5",
+      "rgba_sha256": "fb9602f07748d1fb151cd3aadd5aa3493519a0ab62705906f4e1ae89e69e4934",
+      "historical_source_rgba_match": true
+    }
+  ],
+  "identity": [
+    {
+      "source": "assets/earth/hero/se_idle_v1/body.png",
+      "sha256": "60f89f65dd817ec80065de941e62e36e1068302c3f2bc4eb5014d8d56f450c02",
+      "parts_native_hd4_xyxy": {
+        "head_face": [
+          140,
+          60,
+          199,
+          118
+        ],
+        "small_chest": [
+          144,
+          121,
+          190,
+          171
+        ],
+        "red_shoulder": [
+          108,
+          117,
+          145,
+          157
+        ],
+        "black_thigh_sideplate": [
+          127,
+          199,
+          168,
+          251
+        ],
+        "glove": [
+          103,
+          205,
+          130,
+          236
+        ],
+        "knee": [
+          131,
+          249,
+          162,
+          278
+        ],
+        "boot": [
+          167,
+          295,
+          214,
+          326
+        ]
+      },
+      "role": "SE13 canonical identity"
+    },
+    {
+      "source": "assets/earth/hero/e_idle_v1/body.png",
+      "sha256": "7cb81240d71f04dae8f6df9e06ef5c0d7dbc1d33c467fa3c646f8a54087da010",
+      "parts_native_hd4_xyxy": {
+        "head_face": [
+          139,
+          57,
+          187,
+          106
+        ],
+        "chest_side": [
+          165,
+          112,
+          195,
+          158
+        ],
+        "red_shoulder": [
+          132,
+          106,
+          159,
+          139
+        ],
+        "black_thigh_sideplate": [
+          143,
+          201,
+          181,
+          242
+        ],
+        "glove": [
+          128,
+          193,
+          151,
+          215
+        ],
+        "knee": [
+          132,
+          263,
+          151,
+          290
+        ],
+        "boot": [
+          122,
+          318,
+          177,
+          351
+        ]
+      },
+      "role": "E9 secondary side construction only; not S pose"
+    }
+  ],
+  "excluded_identity": [
+    "all old hero_s rebuilt/generated artwork",
+    "courtyard",
+    "earlier long silver thigh canonical",
+    "E walk rejected candidates"
+  ],
+  "reproduction": "python Project/art_source/earth_hero_s_input_plan_v1/prepare_plan.py"
+}

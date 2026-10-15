@@ -1,0 +1,180 @@
+{
+  "status": "partial_control_improvement_not_passed_not_animation",
+  "common_scale": 0.08513928302542421,
+  "fit": "all four crown-to-boot vertical spans, one scale; per-pose crown rigid translation",
+  "exact_raw_reassembly": true,
+  "raw_sha256": "30f479ada050725847e12cd2eacb65af8c74a787f070c4285acb66e997cbeff3",
+  "uncertainty": {
+    "raw_points_px": 8,
+    "source_boot_logic_px": 2,
+    "source_hand_logic_px": 3
+  },
+  "records": [
+    {
+      "source_id": 45,
+      "raw_rect": [
+        0,
+        0,
+        887,
+        887
+      ],
+      "point_order": [
+        "crown",
+        "left_screen_boot",
+        "right_screen_boot",
+        "near_hand"
+      ],
+      "raw_points": [
+        [
+          485.0,
+          44.0
+        ],
+        [
+          315.0,
+          789.0
+        ],
+        [
+          701.0,
+          804.0
+        ],
+        [
+          330.0,
+          487.0
+        ]
+      ],
+      "source_points": [
+        [
+          40.0,
+          16.0
+        ],
+        [
+          29.0,
+          78.0
+        ],
+        [
+          60.0,
+          81.0
+        ],
+        [
+          33.0,
+          57.0
+        ]
+      ],
+      "translation": [
+        -1.2925522673307412,
+        12.253871546881335
+      ],
+      "mapped_points": [
+        [
+          40.0,
+          16.0
+        ],
+        [
+          25.526321885677888,
+          79.42876585394103
+        ],
+        [
+          58.39008513349163,
+          80.7058550993224
+        ],
+        [
+          26.80341113105925,
+          53.71670238026293
+        ]
+      ],
+      "boot_delta": [
+        32.86376324781374,
+        1.2770892453813758
+      ],
+      "target_boot_delta": [
+        31.0,
+        3.0
+      ],
+      "hand_dx_from_crown": -13.19658886894075,
+      "target_hand_dx": -7.0
+    },
+    {
+      "source_id": 49,
+      "raw_rect": [
+        887,
+        0,
+        1774,
+        887
+      ],
+      "point_order": [
+        "crown",
+        "left_screen_boot",
+        "right_screen_boot",
+        "near_hand"
+      ],
+      "raw_points": [
+        [
+          486.0,
+          51.0
+        ],
+        [
+          370.0,
+          813.0
+        ],
+        [
+          662.0,
+          780.0
+        ],
+        [
+          543.0,
+          491.0
+        ]
+      ],
+      "source_points": [
+        [
+          39.0,
+          16.0
+        ],
+        [
+          31.0,
+          83.0
+        ],
+        [
+          48.0,
+          77.0
+        ],
+        [
+          43.0,
+          56.0
+        ]
+      ],
+      "translation": [
+        -2.377691550356168,
+        11.657896565703364
+      ],
+      "mapped_points": [
+        [
+          39.0,
+          16.0
+        ],
+        [
+          29.12384316905079,
+          80.87613366537326
+        ],
+        [
+          53.98451381247466,
+          78.06653732553426
+        ],
+        [
+          43.85293913244918,
+          53.46128453118665
+        ]
+      ],
+      "boot_delta": [
+        24.86067064342387,
+        -2.809596339839004
+      ],
+      "target_boot_delta": [
+        17.0,
+        -6.0
+      ],
+      "hand_dx_from_crown": 4.85293913244918,
+      "target_hand_dx": 4.0
+    }
+  ]
+}
