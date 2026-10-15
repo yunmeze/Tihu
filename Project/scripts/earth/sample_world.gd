@@ -4,7 +4,7 @@ var follow_actor:=false
 var flat_map_bound:=false
 func setup(actor:RefCounted,map_path:String="res://data/maps/A13.json") -> bool:
 	candidate_texture=null;candidate_ready=false;walk_texture=null;walk_ready=false;idle_shadow_bound=false;walk_shadow_bound=false
-	fangzhang_texture=null;lingyunzi_texture=null;tree_owners={};shrub_owners={};hall_owners={};ground_owners={};upright_groups=[{},{}];translated_shrub_groups=[{},{}]
+	fangzhang_texture=null;lingyunzi_texture=null;tree_owners={};shrub_owners={};hall_owners={};ground_owners={};upright_groups=[{},{}];translated_shrub_groups=[{},{}];grass_groups=[{},{}]
 	hero_shadow.clear_frame()
 	flat_map_bound=false
 	var ok=super.setup(actor,map_path)
@@ -125,6 +125,25 @@ func translated_shrub_item(entry:Variant) -> Dictionary:
 		if InstanceIdentity.entry(entry,2,"Map/Res/Plant",item.index,1,order%100,order,Vector2(order/100,order%100)*Vector2(48,32)):return item
 	return {}
 
+const GrassCandidate=preload("res://scripts/earth/grass_candidate.gd")
+var prefer_grass:=true
+var grass_groups:Array=[{},{}]
+func prepare_grass_group(instance:Variant,path:Variant=null) -> bool:
+	if not Guard.integer(instance,0,1):return false
+	var n=int(instance)
+	if path==null:path=GrassCandidate.PATHS[n]
+	grass_groups[n]=GrassCandidate.prepare(n,path,map);queue_redraw();return grass_groups[n].size()==2
+func grass_item(entry:Variant) -> Dictionary:
+	if not entry is Dictionary or not prefer_grass:return {}
+	var order=entry.get("order")
+	if not Guard.integer(order,0,9999):return {}
+	order=int(order)
+	for group in grass_groups:
+		if group.size()!=2 or not group.has(order):continue
+		var item=group[order]
+		if InstanceIdentity.entry(entry,2,"Map/Res/Plant",item.index,1,order%100,order,Vector2(order/100,order%100)*Vector2(48,32)):return item
+	return {}
+
 const TreeCandidate=preload("res://scripts/earth/tree_candidate.gd")
 var prefer_tree:=true
 var tree_owners:Dictionary={}
@@ -215,6 +234,10 @@ func _draw() -> void:
 		var upright=upright_item(entry)
 		if not upright.is_empty():
 			if not upright.empty:draw_texture_rect(upright.texture,Rect2(upright.origin+offset,upright.size),false)
+			continue
+		var grass=grass_item(entry)
+		if not grass.is_empty():
+			draw_texture_rect(grass.texture,Rect2(grass.origin+offset,grass.size),false)
 			continue
 		var extra_shrub=translated_shrub_item(entry)
 		if not extra_shrub.is_empty():

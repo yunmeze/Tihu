@@ -23,7 +23,7 @@ func _ready() -> void:
 	actor.position=Vector2(61,39);actor.direction=3
 	ready_ok=world.setup(actor)
 	if ready_ok:
-		raster.add_child(world);world.prepare_idle();world.prepare_walk();world.prepare_ground();world.prepare_hall();world.prepare_fangzhang();world.prepare_lingyunzi();world.prepare_tree();world.prepare_shrub();world.prepare_upright_group(0);world.prepare_upright_group(1);world.prepare_translated_shrub(0);world.prepare_translated_shrub(1)
+		raster.add_child(world);world.prepare_idle();world.prepare_walk();world.prepare_ground();world.prepare_hall();world.prepare_fangzhang();world.prepare_lingyunzi();world.prepare_tree();world.prepare_shrub();world.prepare_upright_group(0);world.prepare_upright_group(1);world.prepare_translated_shrub(0);world.prepare_translated_shrub(1);world.prepare_grass_group(0);world.prepare_grass_group(1)
 	else:world.free()
 	display.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
 	display.texture=raster.get_texture();display.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
@@ -64,6 +64,7 @@ func _input(event:InputEvent) -> void:
 			KEY_N:world.prefer_npcs=not world.prefer_npcs
 			KEY_V:world.prefer_tree=not world.prefer_tree
 			KEY_J:world.prefer_shrub=not world.prefer_shrub
+			KEY_K:world.prefer_grass=not world.prefer_grass
 		update_hud();world.queue_redraw()
 func _physics_process(delta:float) -> void:
 	if not ready_ok:return
@@ -71,7 +72,7 @@ func _physics_process(delta:float) -> void:
 	world.tick+=1;world.refresh();update_hud()
 func update_hud() -> void:
 	hud.visible=show_hud
-	hud.text="EARTH ENTRANCE CANDIDATE: 10 NEW SE IDLE/WALK FRAMES / OTHER ART SOURCE\n1536x1024 raster / 768x512 logical | Hall + two NPCs + three trees/three shrubs candidates / other art source | SE shadow: bounded flat gate.\nClick A* | Shift run | Space stop | F follow | G grid | H HUD | B actor | P ground | T hall | S shadow | N NPCs | V trees | J shrubs\nCamera: %s | actor %s | Outside sample remains source."%["FOLLOW" if ready_ok and world.follow_actor else "FIXED [2496,960,768,512]",actor.position]
+	hud.text="EARTH ENTRANCE CANDIDATE: 10 NEW SE IDLE/WALK FRAMES / OTHER ART SOURCE\n1536x1024 raster / 768x512 logical | Hall + two NPCs + three trees/three shrubs/two grass groups / other art source | SE shadow: bounded flat gate.\nClick A* | Shift run | Space stop | F follow | G grid | H HUD | B actor | P ground | T hall | S shadow | N NPCs | V trees | J shrubs | K grass\nCamera: %s | actor %s | Outside sample remains source."%["FOLLOW" if ready_ok and world.follow_actor else "FIXED [2496,960,768,512]",actor.position]
 	if ready_ok:hud.text+="\nSE idle ready %s / preferred %s / active %s"%[world.candidate_ready,world.prefer_candidate,world.uses_candidate(actor.source_frame())]
 	if ready_ok:hud.text+=" / walk6 %s / ground64 %s / hall30 %s"%[world.walk_ready,world.prefer_ground and world.ground_owners.size()==64,world.prefer_hall and world.hall_owners.size()==30]
 	if ready_ok:hud.text+=" / shadow %s"%world.hero_shadow.visible
