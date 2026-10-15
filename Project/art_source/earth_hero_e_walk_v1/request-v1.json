@@ -1,0 +1,24 @@
+{
+  "prompt": "Create ONE coherent six-frame pure 2D game walking sprite sheet in a 3-column, 2-row layout: original phases 45,46,47 across the top and 48,49,50 across the bottom. Image 1 is the sole complete pose/camera/scale authority. Match EACH of its six distinct strict screen-right E side-profile walking silhouettes, leg bends, boot separations, arm swing and occlusions. Do not mirror SE or copy a standing pose. Frame45 and48 have equally wide foot spread but OPPOSITE screen-height order and different arm placement; never duplicate or mirror them. Frame46 and49 likewise differ despite similar horizontal spread. Frame47 and50 are different passing poses. The last-to-first expands from narrow passing to broad step, not identical endpoints.\nImage 2 consists ONLY of disconnected design details from the current E idle: same adult black-haired man, narrow E side face, compact silver-gray chest/abdomen plates on black technical underlayer, restrained red shoulder, low waist and small side plate, BLACK fabric thighs, separate knees/shins and practical boots/fingerless gloves. Transfer identity/material structures to the MOVING poses from image1; do not retain idle arm or leg placement. Image 3 is only tiny approved SE red paint/silver plate/black fabric samples, never a SE pose or face reference. No long silver thigh armor, skirt, cape, weapon, cyan trim or extra armor panels.\nFar-hand visibility follows source WALK, not idle: phase45 has small chest-side far hand;46 occluded;47 small opposite fragment at left torso;48 partial left waist hand;49 and50 no reliably separate endpoint. Do not force a matching second hand in occluded phases, and do not hide the fragments visible in source. Preserve the entire knee-ankle-boot chains, narrow passing silhouettes, gentle source head bob and complementary arm swing; no high-knee march or run. Equal per-cell body scale, no per-cell zoom, full bodies and generous transparent gutters.\nFixed warm screen-upper-left key light, subtle cool ambient fill, high-detail clean 2D sprite art. Truly transparent background; no floor, ground shadow, old checker, text or border. Actual visible body resolution preferably at least 288 pixels tall per raw cell; blank canvas is not density. All SIX frames together once, not six independent character redesigns. Preserve source clothes only as pose silhouettes, not the old colors or costume.\n",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_hero_e_walk_plan_v1/source45-50-complete-pose-main-8x.png",
+    "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_hero_e_walk_plan_v1/current-E-idle9-disconnected-parts.png",
+    "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_hero_e_walk_plan_v1/approved-SE-material-swatches-only.png"
+  ],
+  "input_sha256": [
+    {
+      "path": "source45-50-complete-pose-main-8x.png",
+      "sha256": "1a85ab1ef63c769d3014fbdbc5668adaf73fbbf9ecc3fc87c3b300c7ea9ddbb2"
+    },
+    {
+      "path": "current-E-idle9-disconnected-parts.png",
+      "sha256": "9ceb851b0b99e75474e1c37d44c59ade8d2846ba3a488f66617f17d69650f9ee"
+    },
+    {
+      "path": "approved-SE-material-swatches-only.png",
+      "sha256": "0656fc79adf556c85783af0f19b3d72472b68e993c309ee7c9c63f687d1a2f4e"
+    }
+  ],
+  "authorization": "parent approved exactly one E walk six-phase generation; no runtime or second attempt"
+}

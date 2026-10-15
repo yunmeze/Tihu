@@ -5,7 +5,7 @@ var flat_map_bound:=false
 func setup(actor:RefCounted,map_path:String="res://data/maps/A13.json") -> bool:
 	candidate_texture=null;candidate_ready=false;walk_texture=null;walk_ready=false;idle_shadow_bound=false;walk_shadow_bound=false
 	fangzhang_texture=null;lingyunzi_texture=null;tree_owners={};shrub_owners={};hall_owners={};ground_owners={};upright_groups=[{},{}];translated_shrub_groups=[{},{}];grass_groups=[{},{}]
-	hero_shadow.clear_frame()
+	hero_shadow.clear_frame();fangzhang_shadow.clear_frame();fangzhang_shadow_gate.ready=false
 	flat_map_bound=false
 	var ok=super.setup(actor,map_path)
 	flat_map_bound=ok and map_path=="res://data/maps/A13.json" and FileAccess.get_sha256(map_path)=="d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27"
@@ -211,13 +211,16 @@ const DensityShadow=preload("res://scripts/art/density_alpha_ground_shadow.gd")
 var floor_pass=preload("res://scripts/earth/sample_floor_pass.gd").new()
 var flat_gate=preload("res://scripts/earth/flat_shadow_gate.gd").new()
 var hero_shadow=DensityShadow.new()
+var fangzhang_shadow=DensityShadow.new()
+var fangzhang_shadow_gate=preload("res://scripts/earth/fangzhang_shadow_gate.gd").new()
 var prefer_shadow:=true
 func _ready():
 	floor_pass.world=self;floor_pass.z_index=-2;floor_pass.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST;add_child(floor_pass)
 	hero_shadow.z_index=-1;add_child(hero_shadow)
-	flat_gate.prepare()
+	fangzhang_shadow.z_index=-1;add_child(fangzhang_shadow)
+	flat_gate.prepare();fangzhang_shadow_gate.prepare()
 func refresh() -> void:
-	super.refresh();floor_pass.queue_redraw();update_shadow()
+	super.refresh();floor_pass.queue_redraw();update_shadow();update_fangzhang_shadow()
 func update_shadow() -> void:
 	var frame=movement.source_frame()
 	var bound=walk_shadow_bound if movement.action=="walk" else idle_shadow_bound
@@ -225,6 +228,17 @@ func update_shadow() -> void:
 		hero_shadow.clear_frame();return
 	var walking=movement.action=="walk";var tex=walk_texture if walking else candidate_texture;var first=51 if walking else 13
 	hero_shadow.configure_density_ground_frame(tex.diffuse_texture,Rect2i((frame-first)*128,0,128,128),4,Transform2D(0,movement.position*Vector2(48,32)+screen_origin()-Vector2(16,64)),Vector2(40,85.2463),-.342818,Vector2(1.2,.55),.25,.8)
+func update_fangzhang_shadow() -> void:
+	fangzhang_shadow.clear_frame()
+	if not prefer_shadow or not flat_map_bound or not fangzhang_shadow_gate.ready or not prefer_npcs or fangzhang_texture==null:return
+	var active_body=false
+	for entry in objects:
+		if uses_fangzhang(entry):active_body=true;break
+	if not active_body:return
+	# Only the source-bound record0 body can prepare; its position never follows hero.
+	var r=fangzhang_shadow_gate.configuration
+	var s=r.shadow
+	fangzhang_shadow.configure_density_ground_frame(fangzhang_texture.diffuse_texture,Rect2i(0,0,128,160),4,Transform2D(0,Vector2(3040,1080)+screen_origin()),Vector2(s.reference_logical[0],s.reference_logical[1]),s.slope,Vector2(1.2,.55),.25,.8)
 func _draw() -> void:
 	if not initialized:return
 	var offset=screen_origin()
