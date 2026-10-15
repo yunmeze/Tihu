@@ -1,5 +1,5 @@
 {
-  "status": "native_pose_review_supports_shadow_gate_pending_parent",
+  "status": "approved_bounded_optional_walk_preview",
   "files": [
     {
       "path": "raw-v1.png",
@@ -23,7 +23,7 @@
     },
     {
       "path": "v1-candidate-interface.json",
-      "sha256": "353dbe604f7e717a1f6d6ba8f728df54c83f4ae1564b7af12e2d195c6d686471"
+      "sha256": "f6666f70e15630ab9d8ec98d95089d0c953648ccd9a88d8a205987e792ecd486"
     },
     {
       "path": "README.md",
@@ -32,6 +32,10 @@
     {
       "path": "v1-native-pose-review.json",
       "sha256": "73a1dc36b8caff13d3ed5e4a216de2e60757b823e6ccab230121ce7c69253d16"
+    },
+    {
+      "path": "v1-native-shadow-review.json",
+      "sha256": "8627d336e9800dcdb291bd8671c113b7a09843f93cbeb5d0ff733f31a649b702"
     }
   ],
   "reproducer": "Project/tools/hero/register_adjacent_walk_v1.py",

@@ -13,10 +13,11 @@ var tree_cast_on:=true
 var body=Node2D.new()
 var atlas:Texture2D
 var walk_atlas:Texture2D
+var walk_atlases:Dictionary={}
 var idle_atlases:Dictionary={}
 var idle_start:=13
 var moving:=false
-const PHASES=[9,10,11,12,13,14,15,16,17,18,19,20,51,52,53,54,55,56]
+const PHASES=[9,10,11,12,13,14,15,16,17,18,19,20,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62]
 var phase:=13
 var new_body:=true
 var shadow_on:=true
@@ -30,8 +31,8 @@ var tree_ready:=true
 var tree_on:=false
 func _ready() -> void:
 	atlas=load(ATLAS)
-	walk_atlas=load("res://assets/scifi/hero/se_walk_v3/body.png")
-	assert(walk_atlas is Texture2D and walk_atlas.get_size()==Vector2(768,128))
+	walk_atlas=optional_walk("res://assets/scifi/hero/se_walk_v3/body.png")
+	walk_atlases={45:optional_walk("res://assets/scifi/hero/e_walk_v1/body.png"),51:walk_atlas,57:optional_walk("res://assets/scifi/hero/s_walk_v1/body.png")}
 	assert(atlas is Texture2D and atlas.get_size()==Vector2(512,128))
 	idle_atlases={9:load("res://assets/scifi/hero/e_idle_v1/body.png"),13:atlas,17:load("res://assets/scifi/hero/s_idle_v1/body.png")}
 	for tex in idle_atlases.values():assert(tex is Texture2D and tex.get_size()==Vector2(512,128))
@@ -60,12 +61,19 @@ func _ready() -> void:
 	canvas.add_child(label)
 	refresh()
 	print("R5_DEPTH_GPU_READY floor-shadow-backobjects-body-frontobjects")
+func optional_walk(path:String) -> Texture2D:
+	if not ResourceLoader.exists(path):return null
+	var tex=load(path)
+	return tex if tex is Texture2D and tex.get_size()==Vector2(768,128) else null
 func idle_base() -> int:
-	return 9 if phase<13 else (13 if phase<17 or phase>=51 else 17)
+	if phase>=45:return 9+((phase-45)/6)*4
+	return 9 if phase<13 else (13 if phase<17 else 17)
+func walk_base() -> int:
+	return 45+((phase-45)/6)*6 if phase>=45 else 45+((idle_base()-9)/4)*6
 func selected_texture() -> Texture2D:
-	return walk_atlas if phase>=51 else idle_atlases[idle_base()]
+	return walk_atlases.get(walk_base()) if phase>=45 else idle_atlases.get(idle_base())
 func frame_index() -> int:
-	return phase-51 if phase>=51 else phase-idle_base()
+	return phase-walk_base() if phase>=45 else phase-idle_base()
 func draw_body() -> void:
 	var origin=worlds[0].screen_origin()+actor.position*Vector2(48,32)
 	if new_body:
@@ -88,18 +96,21 @@ func refresh() -> void:
 	var origin=worlds[0].screen_origin()+actor.position*Vector2(48,32)-Vector2(16,64)
 	var tex=selected_texture()
 	var index=frame_index()
-	var ok=shadow.configure_ground_frame(tex,Rect2i(index*128,0,128,128),Transform2D(0,origin),Vector2(40,86),0.0,Vector2(148.0/279,-111.0/279))
+	var group_walk=walk_atlases.get(45+((idle_base()-9)/4)*6)
+	var group_idle=idle_atlases.get(idle_base())
+	var group_ok=group_walk is Texture2D and group_walk.get_size()==Vector2(768,128) and group_idle is Texture2D and group_idle.get_size()==Vector2(512,128)
+	var ok=group_ok and shadow.configure_ground_frame(tex,Rect2i(index*128,0,128,128),Transform2D(0,origin),Vector2(40,86),0.0,Vector2(148.0/279,-111.0/279))
 	if not ok:new_body=false
 	shadow.visible=new_body and shadow_on and ok
 	body.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR if new_body and linear else CanvasItem.TEXTURE_FILTER_NEAREST
 	body.queue_redraw()
-	label.text="ART PREVIEW E/SE/S idle + SE walk | cell%s frame%d new%s shadow%s linear%s\n1 E / 2 SE / 3 S | C idle cycle / P phase / M SE route | B source / S shadow / L filter\nT temple / F5 view | G tree+cast / H tree cast / F6 tree front | F2 back / F3 front / F4 road\nHero ground86; one selected tree ground cast. Building cast / platform receivers not included."%[actor.position,phase,new_body,shadow.visible,linear]
+	label.text="ART PREVIEW E/SE/S idle + walk | cell%s frame%d new%s shadow%s linear%s\n1 E / 2 SE / 3 S | C idle cycle / P phase / M selected E/SE/S route | B source / S shadow / L filter\nT temple / F5 view | G tree+cast / H tree cast / F6 tree front | F2 back / F3 front / F4 road\nHero ground86; one selected tree ground cast. Building cast / platform receivers not included."%[actor.position,phase,new_body,shadow.visible,linear]
 	print("R5_DEPTH_STATE ",JSON.stringify({"cell":[actor.position.x,actor.position.y],"phase":phase,"new":new_body,"shadow":shadow.visible,"linear":linear,"cycle":cycling,"temple":temple_on and temple_ready,"tree":tree_on and tree_ready,"tree_cast":tree_shadow.visible}))
 func _physics_process(delta:float) -> void:
 	if moving:
 		actor.step(delta)
 		phase=actor.source_frame()
-		if actor.path.is_empty():moving=false;phase=13
+		if actor.path.is_empty():moving=false;phase=idle_start
 		refresh()
 		return
 	if cycling:
@@ -130,7 +141,10 @@ func _unhandled_input(event:InputEvent) -> void:
 		KEY_C:cycling=not cycling;phase=idle_start;moving=false;actor.stop()
 		KEY_P:phase=PHASES[(PHASES.find(phase)+1)%PHASES.size()];idle_start=idle_base()
 		KEY_M:
-			actor.stop();actor.position=Vector2(59,40);actor.direction=3;actor.animation_tick=0;idle_start=13
-			cycling=false;moving=actor.request(Vector2i(61,42))
-			print("ART_PREVIEW_SE_ROUTE ",moving," ",actor.path)
+			actor.stop();actor.animation_tick=0;cycling=false
+			idle_start=idle_base();actor.direction=2+(idle_start-9)/4
+			actor.position=Vector2(59,40) if idle_start==13 else Vector2(60,41)
+			var target=Vector2i(61,42) if idle_start==13 else (Vector2i(62,41) if idle_start==9 else Vector2i(60,43))
+			phase=idle_start;moving=actor.request(target)
+			print("ART_PREVIEW_DIRECTION_ROUTE ",actor.direction," ",moving," ",actor.path)
 	refresh()

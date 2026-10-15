@@ -1,0 +1,47 @@
+{
+  "schema": "direction-walk-art-preview-v1",
+  "direction": "S",
+  "atlas": "res://assets/scifi/hero/s_walk_v1/body.png",
+  "sha256": "c2c276491c129375a2bee3c33cff40c180eab6fe04136dbceb239687e483d7cf",
+  "frames": [
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+  ],
+  "frame_size": [
+    128,
+    128
+  ],
+  "grid": [
+    6,
+    1
+  ],
+  "draw_offset": [
+    -16,
+    -64
+  ],
+  "body_filter": "linear",
+  "source_filter": "nearest",
+  "ticks_per_frame": 7,
+  "shadow": {
+    "helper": "res://scripts/art/hero_alpha_ground_shadow.gd",
+    "shader": "res://shaders/hero_alpha_ground_shadow.gdshader",
+    "receiver_mode": "fixed_horizontal",
+    "receiver_y": 86,
+    "cast": [
+      0.5304659498207885,
+      -0.3978494623655914
+    ],
+    "opacity": 0.3,
+    "blur": 0.9,
+    "approximation": "Actor-relative fixed 2D plane, not both-feet contact or elevated platform reconstruction."
+  },
+  "scope": "Optional art_preview verified same-direction two-cell routes only; source gameplay default remains intact.",
+  "residuals": [
+    "S59/62 relative boot-height amplitude about9.5/-8.5 versus source5/-4 pixels; do not infer contact from low boot.",
+    "S58/61 short boot portions remain compact but visible knee armor is more defined than source cloth; check phase reading and idle transition at original size."
+  ]
+}

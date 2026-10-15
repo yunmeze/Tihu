@@ -1,5 +1,5 @@
 {
-  "status": "native_pose_review_supports_shadow_gate_pending_parent",
+  "status": "approved_bounded_optional_walk_preview",
   "direction": "E",
   "source_ids": [
     45,
@@ -32,5 +32,8 @@
     "E50 boot horizontal spread about15 versus source10 pixels; passing knee/ankle contour stronger than original.",
     "E waist side plates and boot construction remain locally different; original-size idle transition required."
   ],
-  "native_pose_review": "v1-native-pose-review.json"
+  "native_pose_review": "v1-native-pose-review.json",
+  "runtime_asset": "res://assets/scifi/hero/e_walk_v1/body.png",
+  "runtime_manifest": "res://assets/scifi/hero/e_walk_v1/manifest.json",
+  "shadow_review": "v1-native-shadow-review.json"
 }
