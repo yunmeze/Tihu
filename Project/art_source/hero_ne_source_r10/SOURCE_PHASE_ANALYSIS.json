@@ -1,0 +1,81 @@
+{
+  "status": "source_actual_view_complete_preparation_only",
+  "direction": "NE",
+  "canvas": [
+    128,
+    128
+  ],
+  "root": [
+    16,
+    64
+  ],
+  "review_images": [
+    "diagnostics/hero/northeast-source-r10/idle-all-source.jpg",
+    "diagnostics/hero/northeast-source-r10/walk-all-source.jpg",
+    "diagnostics/hero/northeast-source-r10/lower-six-grid.jpg"
+  ],
+  "coordinate_confidence": "No anatomical L/R, support leg or invisible joint is asserted. Clothing contours are not skeleton; no independent anatomical knee/ankle estimates supplied.",
+  "idle": {
+    "ids": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "all_distinct": true,
+    "observation": "Rear-right three-quarter view, neck/head turned toward screen right; shoulder/back plane remains dominant. Screen-left forearm is foreshortened, its terminal blends with cuff; screen-right lowered sleeve/hand edge is visible. Legs narrow with unequal boot depths. Four distinct RGBA poses must remain distinct; no invented breathing, symmetry or front-facing portrait.",
+    "hidden_points": {
+      "screen_left_hand_endpoint": null,
+      "true_joints": null
+    },
+    "transition_to_walk": "Idle compact stance must expand into39 diagonal long shin; do not pin idle soles onto walk."
+  },
+  "walk": {
+    "ids": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "all_distinct": true,
+    "frames": [
+      {
+        "id": 39,
+        "legs": "Screen-left bright shin extends down-left to low boot. Opposite dark chain is bent with a small bright boot terminal toward screen-right at distinctly higher y.",
+        "hands": "Screen-right low hand edge visible; opposite terminal uncertain."
+      },
+      {
+        "id": 40,
+        "legs": "Two distinguishable lower-leg/boot outlines move closer: left diagonal shin retreats upward while right boot becomes lower. Not a duplicate39.",
+        "hands": "Screen-left arm shortened; exact hand endpoint uncertain."
+      },
+      {
+        "id": 41,
+        "legs": "Narrow passing overlap. One low dominant boot and a partly exposed pale lateral fragment; second full boot/ankle chain cannot reliably be separated. Do not convert fragment into high lifted full foot.",
+        "second_ankle": null,
+        "hands": "Screen-left small skin/cuff terminal exposed; right lowered hand edge visible."
+      },
+      {
+        "id": 42,
+        "legs": "Opposite extreme: long bright shin toward lower-left and short bent chain ending higher/right. Pants overlap differs from39; never duplicate39 or swap phase by mirror.",
+        "hands": "Left arm visibly farther out than39; small terminal visible."
+      },
+      {
+        "id": 43,
+        "legs": "Both shins converge/overlap diagonally, one dominant low terminal. Second boot terminal is not confidently isolatable from overlap; preserve original visible outline.",
+        "second_boot_endpoint": null,
+        "hands": "Left forearm/terminal outward; right hand edge low alongside coat."
+      },
+      {
+        "id": 44,
+        "legs": "Two short near-parallel lower chains and distinguishable low boot ends, narrow width compared with39. Preserve unequal outlines and small height difference.",
+        "hands": "Left forearm foreshortened; right hand edge low."
+      }
+    ],
+    "closure": "44 narrow two-chain passing ->39 open diagonal extreme. Source endpoints need not match. 39/42 have related silhouettes but different overlap/arm phase; no +3 mirror shortcut.",
+    "timing": "Current/reference12tick idle,7tick walk. Not movement-speed or EXE lifecycle evidence."
+  },
+  "transparency": "All source nonblack colors/checker retained. No automatic same-color deletion. Full128 source strips included even though body-focused main crops omit outer shadow portions."
+}

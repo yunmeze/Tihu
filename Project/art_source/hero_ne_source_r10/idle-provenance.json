@@ -1,0 +1,207 @@
+{
+  "status": "prepared_source_only_not_generated",
+  "direction": "NE",
+  "action": "idle",
+  "source_ids": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "canvas": [
+    128,
+    128
+  ],
+  "root": [
+    16,
+    64
+  ],
+  "common_crop": [
+    12,
+    8,
+    76,
+    96
+  ],
+  "crop_root": [
+    4,
+    56
+  ],
+  "frame_ticks": 12,
+  "timing_scope": "Current/reference clip, not movement speed or EXE lifecycle proof.",
+  "transparency": "Original RGBA, including checker and all nonblack colors, retained.",
+  "source_manifest_sha256": "b5eb981b005efedc5f071bb51f35240cabf91aa0d77143e70bcf4ee9b9c733f1",
+  "records": [
+    {
+      "source_id": 5,
+      "layers": {
+        "body": {
+          "original": [
+            60,
+            72
+          ],
+          "offset": [
+            9,
+            -48
+          ],
+          "rgba_sha256": "3a67bc459213fad9d38373ed585b920d0495c6c7de79e219189953c50a3dc05b",
+          "sourceOffset": 26114,
+          "sourceBytes": 5398
+        },
+        "head": {
+          "original": [
+            8,
+            10
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "ad9759c97d78e2c5c72199f98262dbdbe7f4c7368800f7e977d52c125ab87b52",
+          "sourceOffset": 8034,
+          "sourceBytes": 1158
+        }
+      },
+      "composite_rgba_sha256": "608fcc3c64067c16987dc9bb32e98f0b1fff3a59255f2e1230070fa314df417f"
+    },
+    {
+      "source_id": 6,
+      "layers": {
+        "body": {
+          "original": [
+            60,
+            72
+          ],
+          "offset": [
+            8,
+            -48
+          ],
+          "rgba_sha256": "ea583c0235b517d7f4da7b438a45df3e9241ebdda32d5be63b77a8c06ec9f52b",
+          "sourceOffset": 31516,
+          "sourceBytes": 5398
+        },
+        "head": {
+          "original": [
+            8,
+            10
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "816b5dbe222bd017dee9a4636cf57bf34b6a2d6abefb000dad80f12779ce67eb",
+          "sourceOffset": 9196,
+          "sourceBytes": 1158
+        }
+      },
+      "composite_rgba_sha256": "1b6db3951c2502c22438e2b3705e1e57b511717127fd44ca5fabe64fabba9c53"
+    },
+    {
+      "source_id": 7,
+      "layers": {
+        "body": {
+          "original": [
+            60,
+            72
+          ],
+          "offset": [
+            8,
+            -48
+          ],
+          "rgba_sha256": "f995ddf104dc89aff06099f7753b8051173b557f0f2af06e3db8c41e568a682d",
+          "sourceOffset": 36918,
+          "sourceBytes": 5398
+        },
+        "head": {
+          "original": [
+            8,
+            10
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "7ff98ecf86a7e134a634b9cb217b6382c7b32c71afd69659c5f31b460e14e407",
+          "sourceOffset": 10358,
+          "sourceBytes": 1158
+        }
+      },
+      "composite_rgba_sha256": "80517a97e8509dfeedf39fe5b73bafa4e3bde81b984f6436977ed57c1f12373b"
+    },
+    {
+      "source_id": 8,
+      "layers": {
+        "body": {
+          "original": [
+            60,
+            72
+          ],
+          "offset": [
+            8,
+            -48
+          ],
+          "rgba_sha256": "b2382221e78752c0584ab716fef0d6ac77f174b9e93c64f84fe08c1b6366fdae",
+          "sourceOffset": 42320,
+          "sourceBytes": 5398
+        },
+        "head": {
+          "original": [
+            8,
+            10
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "a1496d92a9c5731c66ae52bbabba4b1b4855fd05049a2d2ae4585acdb15d670b",
+          "sourceOffset": 11520,
+          "sourceBytes": 1158
+        }
+      },
+      "composite_rgba_sha256": "a89c1138e7f566bee99956b5e1eaf55cd9964e73897cad81313862d45817db16"
+    }
+  ],
+  "pairwise": [
+    {
+      "ids": [
+        5,
+        6
+      ],
+      "changed_pixels": 385
+    },
+    {
+      "ids": [
+        5,
+        7
+      ],
+      "changed_pixels": 505
+    },
+    {
+      "ids": [
+        5,
+        8
+      ],
+      "changed_pixels": 458
+    },
+    {
+      "ids": [
+        6,
+        7
+      ],
+      "changed_pixels": 348
+    },
+    {
+      "ids": [
+        6,
+        8
+      ],
+      "changed_pixels": 243
+    },
+    {
+      "ids": [
+        7,
+        8
+      ],
+      "changed_pixels": 294
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "status": "source_preparation_identity_proposal_only",
+  "files": [
+    {
+      "path": "IDENTITY_INPUT_PROPOSAL.json",
+      "sha256": "349a1e435170044e6c952c135c77ff4fd8485a7ee711926e82f9ff964780080a"
+    },
+    {
+      "path": "README.md",
+      "sha256": "e8dc6edd1f4140fe2d4dcc0125e8d3038417b45c7121598b1fc2780913480a05"
+    },
+    {
+      "path": "SOURCE_PHASE_ANALYSIS.json",
+      "sha256": "40efc0547400dd63773fb3b93944ac87641eaf273310f541ec3c43c37131f05b"
+    },
+    {
+      "path": "idle-full-native.png",
+      "sha256": "5112284e4618804fa92fdb47c29d9fedf033cad94b9adb34d4d8a8b0c2076334"
+    },
+    {
+      "path": "idle-provenance.json",
+      "sha256": "00e290aa1d3127004ee4a7e9b06eb9464f8145e0b73e3350d23dae19ae4aeebc"
+    },
+    {
+      "path": "idle-source-main-8x.png",
+      "sha256": "f5674fab6fe8d1fb00c6b2b03d241cd64f10755c60d1b77c3b15573b2f9dcc83"
+    },
+    {
+      "path": "proposed-rear-side-material-fragments.png",
+      "sha256": "214eba14885bf1093439a990e75dcefbbe32535bc3d13746b18d498d469520f4"
+    },
+    {
+      "path": "source-39.png",
+      "sha256": "1dde163ebccfa89474a86307bf982ffeb5c902025c0da9e57d9f87d220586870"
+    },
+    {
+      "path": "source-40.png",
+      "sha256": "62e4bf0ea73f2d321dcf131de4219a1d227a7a4331210eb6ca4b14b616fe6823"
+    },
+    {
+      "path": "source-41.png",
+      "sha256": "f9ee61054bd2afe829e22b340dd0368d60818b1c74512530b5dcac6e203d51ee"
+    },
+    {
+      "path": "source-42.png",
+      "sha256": "556cb80dc81381b8b6b1fe133912a3ba90c256fd1c8616b96ea5103241df0894"
+    },
+    {
+      "path": "source-43.png",
+      "sha256": "12449f27e422d7a9b13e646b431dc33b9d60f1307383d5ad2a7089ac9b14c8e4"
+    },
+    {
+      "path": "source-44.png",
+      "sha256": "f81470b9d5572509673a6f52fdd8311a8f6797301e60924faa6ec0689d335d66"
+    },
+    {
+      "path": "source-5.png",
+      "sha256": "36c27d6d7abe8e9c79e70ba2166350395ce8372e10d9a4267f806c6c2e171f42"
+    },
+    {
+      "path": "source-6.png",
+      "sha256": "690e01088990f185575c8a8e22cf3fd3a9aea5ddb517c268c86218527668d9d5"
+    },
+    {
+      "path": "source-7.png",
+      "sha256": "25995a71a73b4f815c8ae4b0666a601376bf4ff95a20f678e4e8c2c64872f41f"
+    },
+    {
+      "path": "source-8.png",
+      "sha256": "dc7d5e3e50678af62ba930fec415eb15fd76d909a3a1e8cbdbfc0c61da2bc85f"
+    },
+    {
+      "path": "walk-full-native.png",
+      "sha256": "119fcc2f7031913c8711f827cc29e3f53e066433504a3a7c93742abb8489cd7e"
+    },
+    {
+      "path": "walk-provenance.json",
+      "sha256": "f08d2fb213224b5d2466cf233b11a0c5b8888822c18f75e7b75ca9e6fad7b704"
+    },
+    {
+      "path": "walk-source-main-8x.png",
+      "sha256": "2707c972d55d3b1e29fb6f971be10cd3fed7fb4c726c5d35e4d062093a43746a"
+    }
+  ],
+  "tool": "tools/hero/prepare_northeast_sources.py",
+  "tool_sha256": "42f922249ad43ee3da05f50f3c9ea47a7b1d29a11b5e62c27ac12dce95689c47",
+  "review_tool": "tools/hero/prepare_northeast_source_review.py",
+  "review_tool_sha256": "b3f0bfcb34c0d244ad3f55d120d57d6f44e9cfbcf390aabb80b5cac79c531e99",
+  "exclude": [
+    "diagnostic JPG boards",
+    "generated candidate (none)"
+  ]
+}

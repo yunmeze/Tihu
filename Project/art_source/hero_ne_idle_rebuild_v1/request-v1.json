@@ -1,0 +1,16 @@
+{
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "prompt_file": "prompt-v1.txt",
+  "references": [
+    {
+      "path": "art_source/hero_ne_source_r10/idle-source-main-8x.png",
+      "sha256": "f5674fab6fe8d1fb00c6b2b03d241cd64f10755c60d1b77c3b15573b2f9dcc83"
+    },
+    {
+      "path": "art_source/hero_ne_source_r10/proposed-rear-side-material-fragments.png",
+      "sha256": "214eba14885bf1093439a990e75dcefbbe32535bc3d13746b18d498d469520f4"
+    }
+  ],
+  "scope": "One complete four-phase NE idle generation, parent approved after corrected rear waist/scapula inputs. No walk generation."
+}

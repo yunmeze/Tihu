@@ -1,0 +1,102 @@
+{
+  "status": "proposal_only_no_NE_generation_authorized",
+  "references": {
+    "back": {
+      "path": "art_source/hero_n_back_identity_rebuild_v1/raw-v1.png",
+      "sha256": "28c5eff1d32cda6141478a12049705ad09a5e525757518cc9216fb452bd27c2d"
+    },
+    "side": {
+      "path": "art_source/hero_e_idle_rebuild_v1/raw-v1.png",
+      "sha256": "5e3aa6237dd275e9279f1cd9c6d042aa71abd06c55dad887a9487929de7284a9"
+    },
+    "n_idle_v2": {
+      "path": "art_source/hero_n_idle_rebuild_v1/raw-v2.png",
+      "sha256": "093735d18d1489352304e7fbcb88149b751e7beda20c3e3922ac7aa9182ad598"
+    }
+  },
+  "parts": [
+    {
+      "name": "rear_hair",
+      "reference": "back",
+      "rectangle": [
+        410,
+        150,
+        565,
+        320
+      ]
+    },
+    {
+      "name": "paired_scapula_black_spine",
+      "reference": "n_idle_v2",
+      "rectangle": [
+        165,
+        145,
+        320,
+        288
+      ]
+    },
+    {
+      "name": "black_spine",
+      "reference": "back",
+      "rectangle": [
+        469,
+        440,
+        500,
+        552
+      ]
+    },
+    {
+      "name": "low_module_black_waist",
+      "reference": "n_idle_v2",
+      "rectangle": [
+        160,
+        260,
+        325,
+        365
+      ]
+    },
+    {
+      "name": "side_chest_material",
+      "reference": "side",
+      "rectangle": [
+        245,
+        205,
+        300,
+        290
+      ]
+    },
+    {
+      "name": "wine_side_shoulder",
+      "reference": "side",
+      "rectangle": [
+        185,
+        200,
+        246,
+        263
+      ]
+    },
+    {
+      "name": "side_glove",
+      "reference": "side",
+      "rectangle": [
+        185,
+        380,
+        233,
+        438
+      ]
+    },
+    {
+      "name": "heel_shell",
+      "reference": "back",
+      "rectangle": [
+        365,
+        1205,
+        444,
+        1275
+      ]
+    }
+  ],
+  "pose_authority": "Actual original NE complete source group only. Neither generated N body nor E body is a pose input.",
+  "design": "Selected N single back design supplies rear hair and black spine material; identity-reviewed N idle v2 supplies paired scapula relationship and complete low-waist modules with black fabric above/below. Source coat bands only govern silhouette/motion, NEVER copy them into silver armor rings. Locked E supplies only narrow side plate, shoulder and glove material. No full face/eyes portrait; source NE rear-right head silhouette governs any visible face margin.",
+  "boundary": "N v2 has passed identity/native pose review but still awaits shadow/promotion; only shoulder-blade and low-waist crops are used, never its complete body. No N/NE mirror or E-to-NE geometric conversion."
+}
