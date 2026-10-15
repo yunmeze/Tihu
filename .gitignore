@@ -1,0 +1,19 @@
+# Generated engine imports and local/editor state
+**/.godot/
+**/__pycache__/
+**/*.pyc
+**/.DS_Store
+# Local verification, temporary files, and runtime saves
+Project/tests/
+Project/diagnostics/
+Project/assets/scifi/diagnostics/
+Project/.validation/
+Project/.tmp/
+Project/tmp/
+Project/export/
+Project/exports/
+Project/*.log
+Project/*.tmp
+Project/*.bak
+Project/*_save.json
+# Production assets and reproducible production extraction tools stay tracked.
