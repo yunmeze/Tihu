@@ -180,3 +180,18 @@ Ordinary promotion verification: owner and fresh empty-cache projects each passe
 Test-history correction: the first cold startup command named nonexistent scenes/main.tscn; the recorded failure is a harness path error. The corrected command uses the unchanged default scenes/game.tscn and passes. The independent probe's first launch lacked writable HOME; its preserved log is a failed environment launch, followed by a clean successful isolated HOME/XDG retry. Neither failed attempt is counted as a passing run.
 
 Actual native S/B/N/V/T key toggles closed the expected individual or common contributions; all five restored captures are pixel-identical to the initial S state. The native window closed cleanly.
+
+## Four bounded south vegetation reuse groups
+
+Three additional upright groups at47,66 /55,57 /59,61 and one shrub group58,51 add22 exact source owners. They reuse the previously reviewed full-canvas PNGs, scale and per-pixel ownership without a new image. Each registration retains its actual target source_cell, original stable order and blocking flags; each tree includes explicit empty304 suppression. Existing context tree61,51 and shrubs51,44/64,45 are not registered twice.
+
+V controls the six selected tree instances, J the four shrubs. Each new group is staged atomically against a separately hash-pinned trusted scope and actual loose PNG bytes. Shared tree texture failure rejects each dependent tree group while an independent shrub may remain; one bad registration rejects only its group. Runtime live entries must still match every unique owner before any part of that group replaces source. Setup clears all four groups.
+
+These additions have no new casts and cannot inherit either tree patch or a compositor slot. Five existing slots,18 new action frames and all old gate masks/projection parameters remain unchanged; world-code bindings are rebuilt. The south terrain and other unselected vegetation/debris remain source. Follow mode preserves original A* and reveals that bounded mixed-art area, not an assertion of full-map replacement. The original fixed sample at61,39 remains pixel-identical after the additions.
+
+Ordinary native validation followed the original20 accepted A* stopping points for3264 ticks. Forty source/new full-raster captures match the approved diagnostic byte-for-byte; the fixed initial S-state frame also matches the immediately preceding ordinary stage with zero RGB differences. Physical V/J source switches and restoration were observed in the following camera at58,52. The earlier59,61 diagnostic crop was incorrectly positioned; its corrected actor-plus-camera ROI and complete source/new frames are the valid depth evidence, and the wrong crop remains historical.
+
+The isolated helper's2151 strict identity/resource assertions passed, including all ten shared PNG failures and repair. The unchanged five-shadow suite passed12480 assertions in both the working and clean-cache projects; R1/R6 tests and three100-tick startup checks also passed. No new shadow slot or whole-map terrain replacement is implied.
+
+An additional independent ordinary-scene matrix passed9814 assertions covering real V/J/S input events, individual malformed/missing/duplicate live owners, shared and independent resource failure/recovery, A13→A00→A13 setup cleanup and unchanged S nonlinear/five-slot state. The runtime-irrelevant S release checksum inventory was refreshed during that audit; the actual runtime code/assets remained frozen.
+The independent scene matrix was then rerun against the final checksum inventory:9814 assertions passed again with every measured production SHA unchanged.

@@ -1,0 +1,883 @@
+{
+  "purpose": "Fixed reviewed expectations for sole runner; do not derive trusted scope from incoming registration",
+  "groups": [
+    {
+      "id": "upright_47_66",
+      "family": "tree",
+      "root_cell": [
+        47,
+        66
+      ],
+      "expected_registration_path": "res://assets/earth/environment/south_reuse_v1/registration_upright_47_66.json",
+      "expected_registration_sha256": "e807ac0ca16145ad5ec6517d13fbad1587c1dfb07b7774216a18172a08239acc",
+      "source_map_sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+      "owner_count": 6,
+      "expected_owners": [
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:299@47,66",
+          "cell": [
+            47,
+            66
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            299
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 66,
+          "stable_source_order": 4766,
+          "frame_index": 299,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+          "texture_sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": false,
+          "world_top_left": [
+            2167.5555555555557,
+            1830.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:300@45,70",
+          "cell": [
+            45,
+            70
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            300
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 70,
+          "stable_source_order": 4570,
+          "frame_index": 300,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+          "texture_sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": false,
+          "world_top_left": [
+            2167.5555555555557,
+            1830.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:301@46,70",
+          "cell": [
+            46,
+            70
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            301
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 70,
+          "stable_source_order": 4670,
+          "frame_index": 301,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+          "texture_sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": false,
+          "world_top_left": [
+            2167.5555555555557,
+            1830.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:302@48,70",
+          "cell": [
+            48,
+            70
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            302
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 70,
+          "stable_source_order": 4870,
+          "frame_index": 302,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+          "texture_sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": false,
+          "world_top_left": [
+            2167.5555555555557,
+            1830.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:303@49,70",
+          "cell": [
+            49,
+            70
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            303
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 70,
+          "stable_source_order": 4970,
+          "frame_index": 303,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+          "texture_sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": false,
+          "world_top_left": [
+            2167.5555555555557,
+            1830.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:304@50,70",
+          "cell": [
+            50,
+            70
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            304
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 70,
+          "stable_source_order": 5070,
+          "frame_index": 304,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+          "texture_sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": true,
+          "world_top_left": [
+            2167.5555555555557,
+            1830.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        }
+      ],
+      "shadow_enabled": false,
+      "baseline_registration_sha256": "f6af7e14f47455d6ae7f76daa28c0c48ba7f3cd3912aed45d6bd85a5ea04b875"
+    },
+    {
+      "id": "upright_55_57",
+      "family": "tree",
+      "root_cell": [
+        55,
+        57
+      ],
+      "expected_registration_path": "res://assets/earth/environment/south_reuse_v1/registration_upright_55_57.json",
+      "expected_registration_sha256": "67c12f90f5872690c8a21cec953140b0d285823fbeed931083304b0d430d4b98",
+      "source_map_sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+      "owner_count": 6,
+      "expected_owners": [
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:299@55,57",
+          "cell": [
+            55,
+            57
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            299
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 57,
+          "stable_source_order": 5557,
+          "frame_index": 299,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+          "texture_sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": false,
+          "world_top_left": [
+            2551.5555555555557,
+            1542.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:300@53,61",
+          "cell": [
+            53,
+            61
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            300
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 61,
+          "stable_source_order": 5361,
+          "frame_index": 300,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+          "texture_sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": false,
+          "world_top_left": [
+            2551.5555555555557,
+            1542.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:301@54,61",
+          "cell": [
+            54,
+            61
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            301
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 61,
+          "stable_source_order": 5461,
+          "frame_index": 301,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+          "texture_sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": false,
+          "world_top_left": [
+            2551.5555555555557,
+            1542.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:302@56,61",
+          "cell": [
+            56,
+            61
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            302
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 61,
+          "stable_source_order": 5661,
+          "frame_index": 302,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+          "texture_sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": false,
+          "world_top_left": [
+            2551.5555555555557,
+            1542.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:303@57,61",
+          "cell": [
+            57,
+            61
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            303
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 61,
+          "stable_source_order": 5761,
+          "frame_index": 303,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+          "texture_sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": false,
+          "world_top_left": [
+            2551.5555555555557,
+            1542.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:304@58,61",
+          "cell": [
+            58,
+            61
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            304
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 61,
+          "stable_source_order": 5861,
+          "frame_index": 304,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+          "texture_sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": true,
+          "world_top_left": [
+            2551.5555555555557,
+            1542.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        }
+      ],
+      "shadow_enabled": false,
+      "baseline_registration_sha256": "f6af7e14f47455d6ae7f76daa28c0c48ba7f3cd3912aed45d6bd85a5ea04b875"
+    },
+    {
+      "id": "upright_59_61",
+      "family": "tree",
+      "root_cell": [
+        59,
+        61
+      ],
+      "expected_registration_path": "res://assets/earth/environment/south_reuse_v1/registration_upright_59_61.json",
+      "expected_registration_sha256": "9f329b4778d3351c3f870860f86085a7429948586c8a030062a7f9e539b12b8d",
+      "source_map_sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+      "owner_count": 6,
+      "expected_owners": [
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:299@59,61",
+          "cell": [
+            59,
+            61
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            299
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 61,
+          "stable_source_order": 5961,
+          "frame_index": 299,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+          "texture_sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": false,
+          "world_top_left": [
+            2743.5555555555557,
+            1670.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:300@57,65",
+          "cell": [
+            57,
+            65
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            300
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 65,
+          "stable_source_order": 5765,
+          "frame_index": 300,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+          "texture_sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": false,
+          "world_top_left": [
+            2743.5555555555557,
+            1670.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:301@58,65",
+          "cell": [
+            58,
+            65
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            301
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 65,
+          "stable_source_order": 5865,
+          "frame_index": 301,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+          "texture_sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": false,
+          "world_top_left": [
+            2743.5555555555557,
+            1670.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:302@60,65",
+          "cell": [
+            60,
+            65
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            302
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 65,
+          "stable_source_order": 6065,
+          "frame_index": 302,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+          "texture_sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": false,
+          "world_top_left": [
+            2743.5555555555557,
+            1670.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:303@61,65",
+          "cell": [
+            61,
+            65
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            303
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 65,
+          "stable_source_order": 6165,
+          "frame_index": 303,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+          "texture_sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": false,
+          "world_top_left": [
+            2743.5555555555557,
+            1670.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:304@62,65",
+          "cell": [
+            62,
+            65
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            304
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 65,
+          "stable_source_order": 6265,
+          "frame_index": 304,
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+          "texture_sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1162,
+            1353
+          ],
+          "empty": true,
+          "world_top_left": [
+            2743.5555555555557,
+            1670.6666666666667
+          ],
+          "scale": 0.2222222222222222
+        }
+      ],
+      "shadow_enabled": false,
+      "baseline_registration_sha256": "f6af7e14f47455d6ae7f76daa28c0c48ba7f3cd3912aed45d6bd85a5ea04b875"
+    },
+    {
+      "id": "shrub_58_51",
+      "family": "shrub",
+      "root_cell": [
+        58,
+        51
+      ],
+      "expected_registration_path": "res://assets/earth/environment/south_reuse_v1/registration_shrub_58_51.json",
+      "expected_registration_sha256": "1b84a0cafaee3188cd86d20df06fac22972bed7644e4015a9caf53bac09e66c9",
+      "source_map_sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+      "owner_count": 4,
+      "expected_owners": [
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:143@58,48",
+          "cell": [
+            58,
+            48
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            143
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 48,
+          "stable_source_order": 5848,
+          "frame_index": 143,
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-143.png",
+          "texture_sha256": "cb403b3fd286ff1c2ec1085902ff1203ec7ad6f47ceb4ae513352ecad110476d",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "empty": false,
+          "world_top_left": [
+            2743.0,
+            1557.0
+          ],
+          "scale": 0.09090909090909091
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:144@57,51",
+          "cell": [
+            57,
+            51
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            144
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 51,
+          "stable_source_order": 5751,
+          "frame_index": 144,
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-144.png",
+          "texture_sha256": "ab996e6449515eb2297fba8e33f0a3ef9dce4046652caa2901bc206ec0da3cd1",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "empty": false,
+          "world_top_left": [
+            2743.0,
+            1557.0
+          ],
+          "scale": 0.09090909090909091
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:145@58,51",
+          "cell": [
+            58,
+            51
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            145
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 51,
+          "stable_source_order": 5851,
+          "frame_index": 145,
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-145.png",
+          "texture_sha256": "4314beb965f4e7c1a99f26546b13eda03dff49e134fb37d4ba97d02e4d7a271c",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "empty": false,
+          "world_top_left": [
+            2743.0,
+            1557.0
+          ],
+          "scale": 0.09090909090909091
+        },
+        {
+          "pack": "Map/Res/Plant",
+          "key": "Plant:146@59,51",
+          "cell": [
+            59,
+            51
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            146
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 51,
+          "stable_source_order": 5951,
+          "frame_index": 146,
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-146.png",
+          "texture_sha256": "507a822bd45f359787a16c63804fae7a6ccab0d31c28655f10df10a890c35219",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "raw_rect": [
+            0,
+            0,
+            1363,
+            1154
+          ],
+          "empty": false,
+          "world_top_left": [
+            2743.0,
+            1557.0
+          ],
+          "scale": 0.09090909090909091
+        }
+      ],
+      "shadow_enabled": false,
+      "baseline_registration_sha256": "c6343a01b7d6d798209dbfe55904d20a347530a1bb783e9b5689a2259f6de524"
+    }
+  ]
+}

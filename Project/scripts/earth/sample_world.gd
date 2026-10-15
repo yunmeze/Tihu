@@ -4,7 +4,7 @@ var follow_actor:=false
 var flat_map_bound:=false
 func setup(actor:RefCounted,map_path:String="res://data/maps/A13.json") -> bool:
 	candidate_texture=null;candidate_ready=false;walk_texture=null;walk_ready=false;e_idle_texture=null;e_idle_ready=false;s_idle_texture=null;s_idle_ready=false;idle_shadow_bound=false;walk_shadow_bound=false
-	fangzhang_texture=null;lingyunzi_texture=null;tree_owners={};shrub_owners={};hall_owners={};ground_owners={};upright_groups=[{},{}];translated_shrub_groups=[{},{}];grass_groups=[{},{}]
+	south_groups.clear();south_active.clear();fangzhang_texture=null;lingyunzi_texture=null;tree_owners={};shrub_owners={};hall_owners={};ground_owners={};upright_groups=[{},{}];translated_shrub_groups=[{},{}];grass_groups=[{},{}]
 	hero_shadow.clear_frame();fangzhang_shadow.clear_frame();fangzhang_shadow_gate.ready=false
 	lingyunzi_shadow.clear_frame();first_tree_shadow.clear_frame();shadow_compositor.clear_frame();receiver_v2.reset();left_upright_shadow.clear_frame();left_upright_gate.reset();s_idle_shadow_gate.reset()
 	flat_map_bound=false
@@ -113,6 +113,39 @@ func _draw_frame(pack_name:String,index:int,origin:Vector2,use_offset:bool,top:f
 	super._draw_frame(pack_name,index,origin,use_offset,top)
 
 const InstanceIdentity=preload("res://scripts/earth/instance_identity_guard.gd")
+const SouthCandidate=preload("res://scripts/earth/south_vegetation_candidate.gd")
+var south_groups:Dictionary={}
+var south_active:Dictionary={}
+func prepare_south_group(id:Variant,path:Variant=null) -> bool:
+	if not id is String or not SouthCandidate.PATHS.has(id):return false
+	if path==null:path=SouthCandidate.PATHS[id]
+	south_groups[id]=SouthCandidate.prepare(id,path,map)
+	update_south_active();queue_redraw()
+	return south_groups[id].size()==SouthCandidate.COUNTS[id]
+func update_south_active() -> void:
+	south_active.clear()
+	for id in SouthCandidate.IDS:
+		var group=south_groups.get(id,{})
+		var found:Dictionary={};var valid=group.size()==SouthCandidate.COUNTS[id]
+		for entry in objects:
+			if not entry is Dictionary or not Guard.integer(entry.get("order"),0,9999) or not group.has(int(entry.order)):continue
+			var order=int(entry.order);var item=group[order]
+			if found.has(order) or not InstanceIdentity.entry(entry,2,"Map/Res/Plant",item.index,1,order%100,order,Vector2(order/100,order%100)*Vector2(48,32)):
+				valid=false;break
+			found[order]=true
+		south_active[id]=valid and found.size()==group.size()
+func south_item(entry:Variant) -> Dictionary:
+	if not entry is Dictionary or not Guard.integer(entry.get("order"),0,9999):return {}
+	var order=int(entry.order)
+	for id in SouthCandidate.IDS:
+		var preferred=prefer_shrub if id=="shrub_58_51" else prefer_tree
+		if not preferred or not south_active.get(id,false):continue
+		var group=south_groups.get(id,{})
+		if not group.has(order):continue
+		var item=group[order]
+		if InstanceIdentity.entry(entry,2,"Map/Res/Plant",item.index,1,order%100,order,Vector2(order/100,order%100)*Vector2(48,32)):return item
+	return {}
+
 const ShrubCandidate=preload("res://scripts/earth/shrub_candidate.gd")
 var prefer_shrub:=true
 var shrub_owners:Dictionary={}
@@ -251,6 +284,7 @@ func _ready():
 	add_child(left_upright_shadow);left_upright_gate.prepare(map)
 	add_child(shadow_compositor);shadow_compositor.prepare();receiver_v2.prepare(map);s_idle_shadow_gate.prepare()
 func refresh() -> void:
+	update_south_active()
 	super.refresh();floor_pass.queue_redraw();update_shadow();update_fangzhang_shadow();update_receiver_shadows();update_left_upright_shadow()
 	shadow_compositor.configure([hero_shadow,fangzhang_shadow,lingyunzi_shadow,first_tree_shadow,left_upright_shadow])
 	var s_frame=movement.source_frame()
@@ -308,6 +342,10 @@ func _draw() -> void:
 	for entry in ordered_objects():
 		if entry.kind==-1:
 			_draw_hero(movement.position*Vector2(48,32)+offset,movement.source_frame());continue
+		var south=south_item(entry)
+		if not south.is_empty():
+			if not south.empty:draw_texture_rect(south.texture,Rect2(south.origin+offset,south.size),false)
+			continue
 		var upright=upright_item(entry)
 		if not upright.is_empty():
 			if not upright.empty:draw_texture_rect(upright.texture,Rect2(upright.origin+offset,upright.size),false)

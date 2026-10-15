@@ -4,7 +4,7 @@ const Guard=preload("res://scripts/earth/asset_guard.gd")
 const Identity=preload("res://scripts/earth/instance_identity_guard.gd")
 const Flat=preload("res://scripts/earth/flat_shadow_gate.gd")
 const PATH="res://assets/earth/shadows/s_idle_contact_v1/manifest.json"
-const SHA="faf5b7f56c2555d1400c3d508b8c61226164484ffcaca1aba1d672104cb06667"
+const SHA="0af5254fe748796c1bcb9540d8378f71b7e19a082bac6b837fa8989f7b67eab5"
 const BODY="res://assets/earth/hero/s_idle_v1/body.png"
 var ready=false
 var texture:Texture2D
