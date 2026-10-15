@@ -1,0 +1,27 @@
+{
+  "request_type": "source-first full four-frame group",
+  "status": "generated_pending_registration_and_native_review",
+  "reference_inputs_order": [
+    {
+      "path": "source-13-16-reference-6x.png",
+      "sha256": "746a450e2837f2809b2d217fb7b8205807f0c5c5f5f1e26a515014e4d9426267",
+      "role": "only complete pose/camera/proportion source"
+    },
+    {
+      "path": "identity-v2-disconnected-parts.png",
+      "sha256": "eeeb9b13dee08e2993878e131b96c81fafb69f4fe244c28bdad9503fe4e126b9",
+      "role": "disconnected identity/material only"
+    }
+  ],
+  "prompt_file": "prompt-v1.txt",
+  "prompt_sha256": "d0b41c641a65eb8d9b5b7544c143b778eec90834c9a6f7586892b19f8ecfc805",
+  "full_concept_pose_excluded": true,
+  "runtime_use": false,
+  "raw_file": "raw-v1.png",
+  "raw_sha256": "8eb2326cc3524069acdd155a3314ced5629719a39d7bded0cea7d03a54a81480",
+  "raw_size": [
+    2172,
+    724
+  ],
+  "calls": 1
+}
