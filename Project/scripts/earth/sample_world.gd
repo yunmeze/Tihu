@@ -3,7 +3,7 @@ const SAMPLE_RECT=Rect2(2496,960,768,512)
 var follow_actor:=false
 var flat_map_bound:=false
 func setup(actor:RefCounted,map_path:String="res://data/maps/A13.json") -> bool:
-	candidate_texture=null;candidate_ready=false;walk_texture=null;walk_ready=false;e_idle_texture=null;e_idle_ready=false;idle_shadow_bound=false;walk_shadow_bound=false
+	candidate_texture=null;candidate_ready=false;walk_texture=null;walk_ready=false;e_idle_texture=null;e_idle_ready=false;s_idle_texture=null;s_idle_ready=false;idle_shadow_bound=false;walk_shadow_bound=false
 	fangzhang_texture=null;lingyunzi_texture=null;tree_owners={};shrub_owners={};hall_owners={};ground_owners={};upright_groups=[{},{}];translated_shrub_groups=[{},{}];grass_groups=[{},{}]
 	hero_shadow.clear_frame();fangzhang_shadow.clear_frame();fangzhang_shadow_gate.ready=false
 	lingyunzi_shadow.clear_frame();first_tree_shadow.clear_frame();shadow_compositor.clear_frame();receiver_v2.reset()
@@ -65,15 +65,24 @@ func prepare_e_idle(path:Variant="res://assets/earth/hero/e_idle_v1/manifest.jso
 	if not FileAccess.file_exists("res://assets/earth/hero/e_idle_v1/body.png"):return false
 	e_idle_texture=prepare_actor_group(path,9,4,12);e_idle_ready=e_idle_texture!=null
 	return e_idle_ready
+var s_idle_texture:CanvasTexture
+var s_idle_ready:=false
+func prepare_s_idle(path:Variant="res://assets/earth/hero/s_idle_v1/manifest.json") -> bool:
+	s_idle_texture=null;s_idle_ready=false
+	if not path is String or not FileAccess.file_exists(path) or FileAccess.get_sha256(path)!="cfd74e66ddb74fb4ce8fc46be747f6df9b8037713044b76a287baef343654b80":return false
+	if not FileAccess.file_exists("res://assets/earth/hero/s_idle_v1/body.png"):return false
+	s_idle_texture=prepare_actor_group(path,17,4,12);s_idle_ready=s_idle_texture!=null
+	return s_idle_ready
 func uses_candidate(index:int) -> bool:
 	if not prefer_candidate:return false
-	return (e_idle_ready and movement.action=="idle" and index>=9 and index<=12) or (candidate_ready and movement.action=="idle" and index>=13 and index<=16) or (walk_ready and movement.action=="walk" and index>=51 and index<=56)
+	return (s_idle_ready and movement.action=="idle" and index>=17 and index<=20) or (e_idle_ready and movement.action=="idle" and index>=9 and index<=12) or (candidate_ready and movement.action=="idle" and index>=13 and index<=16) or (walk_ready and movement.action=="walk" and index>=51 and index<=56)
 func _draw_hero(origin:Vector2,index:int) -> void:
 	if uses_candidate(index):
 		var walking=movement.action=="walk"
 		var eastern=not walking and index>=9 and index<=12
-		var atlas=e_idle_texture if eastern else (walk_texture if walking else candidate_texture)
-		var first=9 if eastern else (51 if walking else 13)
+		var southern=not walking and index>=17 and index<=20
+		var atlas=s_idle_texture if southern else (e_idle_texture if eastern else (walk_texture if walking else candidate_texture))
+		var first=17 if southern else (9 if eastern else (51 if walking else 13))
 		draw_texture_rect_region(atlas,Rect2(origin-Vector2(16,64),Vector2(128,128)),Rect2((index-first)*512,0,512,512))
 	else:super._draw_hero(origin,index)
 

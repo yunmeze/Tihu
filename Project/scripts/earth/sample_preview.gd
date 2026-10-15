@@ -23,7 +23,7 @@ func _ready() -> void:
 	actor.position=Vector2(61,39);actor.direction=3
 	ready_ok=world.setup(actor)
 	if ready_ok:
-		raster.add_child(world);world.prepare_idle();world.prepare_walk();world.prepare_e_idle();world.prepare_ground();world.prepare_hall();world.prepare_fangzhang();world.prepare_lingyunzi();world.prepare_tree();world.prepare_shrub();world.prepare_upright_group(0);world.prepare_upright_group(1);world.prepare_translated_shrub(0);world.prepare_translated_shrub(1);world.prepare_grass_group(0);world.prepare_grass_group(1)
+		raster.add_child(world);world.prepare_idle();world.prepare_walk();world.prepare_e_idle();world.prepare_s_idle();world.prepare_ground();world.prepare_hall();world.prepare_fangzhang();world.prepare_lingyunzi();world.prepare_tree();world.prepare_shrub();world.prepare_upright_group(0);world.prepare_upright_group(1);world.prepare_translated_shrub(0);world.prepare_translated_shrub(1);world.prepare_grass_group(0);world.prepare_grass_group(1)
 	else:world.free()
 	display.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
 	display.texture=raster.get_texture();display.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
@@ -73,7 +73,7 @@ func _physics_process(delta:float) -> void:
 	world.tick+=1;world.refresh();update_hud()
 func update_hud() -> void:
 	hud.visible=show_hud
-	hud.text="EARTH ENTRANCE CANDIDATE: 14 NEW E IDLE + SE IDLE/WALK FRAMES / OTHER ACTIONS SOURCE\n1536x1024 raster / 768x512 logical | Hall + two NPCs + three trees/three shrubs/two grass groups / other art source | Four bounded casts: one max-alpha light; Ling/tree require valid new hall.\nClick A* | Shift run | Space stop | F follow | G grid | H HUD | B actor | P ground | T hall | S new shadows | N NPCs | V trees | J shrubs | K grass\nCamera: %s | actor %s | Outside sample remains source."%["FOLLOW" if ready_ok and world.follow_actor else "FIXED [2496,960,768,512]",actor.position]
+	hud.text="EARTH ENTRANCE CANDIDATE: 18 NEW E/S IDLE + SE IDLE/WALK FRAMES / OTHER ACTIONS SOURCE\n1536x1024 raster / 768x512 logical | Hall + two NPCs + three trees/three shrubs/two grass groups / other art source | Four bounded casts: one max-alpha light; Ling/tree require valid new hall.\nClick A* | Shift run | Space stop | F follow | G grid | H HUD | B actor | P ground | T hall | S new shadows | N NPCs | V trees | J shrubs | K grass\nCamera: %s | actor %s | Outside sample remains source."%["FOLLOW" if ready_ok and world.follow_actor else "FIXED [2496,960,768,512]",actor.position]
 	if ready_ok:hud.text+="\nSE idle ready %s / preferred %s / active %s"%[world.candidate_ready,world.prefer_candidate,world.uses_candidate(actor.source_frame())]
 	if ready_ok:hud.text+=" / walk6 %s / ground64 %s / hall30 %s"%[world.walk_ready,world.prefer_ground and world.ground_owners.size()==64,world.prefer_hall and world.hall_owners.size()==30]
 	if ready_ok:hud.text+=" / max-shadow slots SE/Fang/Ling/tree %s"%[world.shadow_compositor.active_slots]

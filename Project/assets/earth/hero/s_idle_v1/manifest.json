@@ -1,0 +1,100 @@
+{
+  "schema": "earth-hero-idle-v1",
+  "status": "bounded_Earth_S_idle_body_approved",
+  "texture": "res://assets/earth/hero/s_idle_v1/body.png",
+  "texture_sha256": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e",
+  "texture_size": [
+    2048,
+    512
+  ],
+  "texture_density": 4,
+  "logical_frame_size": [
+    128,
+    128
+  ],
+  "logical_draw_offset": [
+    -16,
+    -64
+  ],
+  "logical_root": [
+    16,
+    64
+  ],
+  "texture_root": [
+    64,
+    256
+  ],
+  "texture_frame_size": [
+    512,
+    512
+  ],
+  "direction": "S",
+  "direction_index": 4,
+  "action": "idle",
+  "source_ids": [
+    17,
+    18,
+    19,
+    20
+  ],
+  "records": [
+    {
+      "source_id": 17,
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "rgba_sha256": "8c5a4bb8916e933e856432a5fb1b12b9a2be94bdb8be3d08c07afa04824458b2"
+    },
+    {
+      "source_id": 18,
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "rgba_sha256": "0fe098d7c1f82cf6bb2eb3017e7e2ef0a0c0975a0050de1fe026ba8159e0caf3"
+    },
+    {
+      "source_id": 19,
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "rgba_sha256": "7bc80eb42447a836254adcf2995676c5f93e35508b03f6c2d09a56045645e2b8"
+    },
+    {
+      "source_id": 20,
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "rgba_sha256": "c527106e01ff2c9a03986d8f83d9618a01cf325f3b21c89451263301e54d6096"
+    }
+  ],
+  "frame_ticks": 12,
+  "filter": "linear",
+  "sprite_scale": 0.25,
+  "composite_policy": "replacement image contains complete head+body; do not overlay original head",
+  "shadow": "NONE. S shadow unfinished: disable all candidate cast/contact shadows; NEVER borrow SE shadow or shader anchors.",
+  "shadow_enabled": false,
+  "fallback": "atomic whole four-phase group; complete original body+head for unapproved directions/actions; no mixed partial swap",
+  "runtime_installed": true,
+  "ordinary_world_modified": false,
+  "provenance": {
+    "raw_edit_sha256": "6572388fffad5f23fe1072af1758557de2bd2f13f48a19f519391e13270d563f",
+    "raw_original_sha256": "ca5215a8413dea3752e9ab551262d2b5b6a777f24da14da26cdbe51dc3023785",
+    "prompt_sha256": "e60306de79465d847ef480ad23382b5e02349bf469e0d4ae98d4c0dad29569db",
+    "request_sha256": "5fb1c2e5cc03d1fcd52a6fba238875e43ca9ccde79e037ec886aeb06a7ee0a9a",
+    "frozen_registration_sha256": "b66cabc59cececffee889922068c2b6404d700475e8bd3755f62d4cdb2a2fe14",
+    "registration_review_sha256": "f2cc2cfdaa3882ebdc8aab4931fad0c93298008d92ecfd28b9a9d12555e7cfad",
+    "candidate_manifest_sha256": "3f1e04c60063c9890afb94daa8f9815d04be0deca3cd3b7f3f42d1447648c932"
+  }
+}
