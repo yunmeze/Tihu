@@ -1,0 +1,28 @@
+{
+  "status": "native_pose_review_supports_shadow_gate_pending_parent",
+  "reviewed_at_utc": "2026-10-15T06:14:21Z",
+  "evidence": [
+    {
+      "path": "/workspace/shared/legend-rebuild-adjacent-walk/E-all-six.png",
+      "sha256": "b17b6276e4ee37ccaedc413fe4a0b83074a2f1e5c7dc853ef5a4ebaaca831fc8"
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-adjacent-walk/E-transitions.jpg",
+      "sha256": "2aa83cd09642d66c3f2522da69d07a3bbfa757be2dd5ba8108bdc8ad4777194e"
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-adjacent-walk/native.log",
+      "sha256": "be44f3dd471c521517209bd4c3dea1e42195020ec3b0cb6bd7e5650cbf57de22"
+    }
+  ],
+  "observations": [
+    "All six source/candidate phases and idle-entry/exit samples actually viewed.",
+    "E49 compact phase and50->45 expanding closure remain readable; opposite extreme steps not copied.",
+    "No obvious whole-body scale switch at idle transitions in these samples."
+  ],
+  "limits": [
+    "No new shadow in this diagnostic.",
+    "Continuous recorded state samples and actual board review are not uninterrupted human realtime viewing.",
+    "Original movement speed and EXE transition lifecycle not proven by this visual diagnostic."
+  ]
+}

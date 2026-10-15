@@ -1,0 +1,49 @@
+{
+  "status": "six_original_frames_actual_grid_review_complete_for_pose_conditioning",
+  "actual_viewed_board": "Project/diagnostics/hero/adjacent-walk-source/S-six-source-3x.png",
+  "direction": "S",
+  "frames": [
+    {
+      "source_id": 57,
+      "visible_observation": "Frontal torso; screen-left boot projects lower and screen-right boot higher/back. Both hands and boot ends distinguishable."
+    },
+    {
+      "source_id": 58,
+      "visible_observation": "Lower screen-left boot rises toward compact passing while screen-right boot remains higher; hands move subtly, not an identical copy57."
+    },
+    {
+      "source_id": 59,
+      "visible_observation": "Boot height order reverses: screen-right boot is lower and screen-left higher. Arms retain asymmetric swing."
+    },
+    {
+      "source_id": 60,
+      "visible_observation": "Opposite extreme step to57: screen-right boot reaches lowest, screen-left boot remains high/back. Do not mirror57 to manufacture this frame."
+    },
+    {
+      "source_id": 61,
+      "visible_observation": "Screen-right lower boot draws inward/up; screen-left boot remains higher. Original head contour/offset differ from58."
+    },
+    {
+      "source_id": 62,
+      "visible_observation": "Screen-left boot becomes lower again and screen-right remains higher before62\u219257 extension. Not a stationary stance or copy59."
+    }
+  ],
+  "uncertainties": [
+    "Screen-left/right labels do not prove persistent anatomical leg identity.",
+    "Clothing surfaces are not skeletal joints. Physical support/contact and hidden joints are not established by this single raster view.",
+    "Far/overlapped hand details require local source crops before any generation; no invented hidden hand coordinates."
+  ],
+  "source_phase_distinctness": "All fifteen pairwise full-RGBA comparisons differ; exact counts retained in provenance.",
+  "registration_contract": "Native128 square/root16,64 retained, one common scale if new art later, only frame-wise rigid translations; preserve source head/torso movement and relative feet, no bbox centering.",
+  "idle_transition": "Inspect corresponding idle direction at same root. Walking extremes differ from idle feet and must not be forced onto idle foot positions.",
+  "timing": {
+    "walk_ticks": 7,
+    "idle_ticks": 12,
+    "movement_speed": "not inferred from7/12",
+    "loop": "six phases in source order; last-to-first differs legitimately"
+  },
+  "generation_status": "Not authorized or executed for this source-preparation step.",
+  "detailed_visible_chains": "SOURCE_VISIBLE_CHAIN_ANALYSIS.json",
+  "detailed_review": "VISIBLE_CHAIN_REVIEW.md",
+  "visibility_summary": "Both screen-side hand skin endpoints and both boot terminals visible in every phase. 58-right/61-left shaft and narrowing proxy unresolved; never fill hidden anatomy."
+}

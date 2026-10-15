@@ -1,0 +1,36 @@
+{
+  "status": "native_pose_review_supports_shadow_gate_pending_parent",
+  "direction": "S",
+  "source_ids": [
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+  ],
+  "atlas": "v1-registered-atlas-128.png",
+  "atlas_sha256": "c2c276491c129375a2bee3c33cff40c180eab6fe04136dbceb239687e483d7cf",
+  "frame_size": [
+    128,
+    128
+  ],
+  "grid": [
+    6,
+    1
+  ],
+  "draw_offset": [
+    -16,
+    -64
+  ],
+  "frame_ticks": 7,
+  "sampling": "new linear, original nearest",
+  "registration": "v1-registration.json",
+  "raw_sha256": "bf726f3cf8fb920ce90416ed4b3cc4b5b35867b93b3728559f3d60a18d155d6b",
+  "scope": "Complete six-frame single generation. Original-size idle->two loops->idle and source comparison required; no shadow or preview promotion yet.",
+  "residuals": [
+    "S59/62 relative boot-height amplitude about9.5/-8.5 versus source5/-4 pixels; do not infer contact from low boot.",
+    "S58/61 short boot portions remain compact but visible knee armor is more defined than source cloth; check phase reading and idle transition at original size."
+  ],
+  "native_pose_review": "v1-native-pose-review.json"
+}

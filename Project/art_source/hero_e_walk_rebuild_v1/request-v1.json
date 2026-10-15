@@ -1,0 +1,33 @@
+{
+  "mode": "builtin_imagegen_single_authorized_generation",
+  "prompt_file": "prompt-v1.txt",
+  "transparent_background": true,
+  "input_roles": [
+    "primary_original_pose_edit_canvas",
+    "same_original_lower_detail",
+    "direction_matched_disconnected_identity_material_only"
+  ],
+  "referenced_images": [
+    {
+      "path": "art_source/hero_e_walk_source_r8/original-six-body-common-crop-main-8x.png",
+      "sha256": "1a85ab1ef63c769d3014fbdbc5668adaf73fbbf9ecc3fc87c3b300c7ea9ddbb2"
+    },
+    {
+      "path": "art_source/hero_e_walk_source_r8/original-six-lower-detail-8x.png",
+      "sha256": "b2a980e882663da49f9d193c347640d0ef910e65d01e3b0ea3e41bd6f4c759f1"
+    },
+    {
+      "path": "art_source/hero_e_walk_source_r8/direction-matched-identity-fragments.png",
+      "sha256": "a862417efa2b19f8d8dfde9069b6fc75546ef808cf9dd9fc36cff09a4a2e715c"
+    }
+  ],
+  "status": "generated_once_raw_saved",
+  "output": {
+    "path": "raw-v1.png",
+    "sha256": "679abfe35c31d92e790f4ac682b18b439c6f7ffb3bbd95bed5cc44128a23edcc",
+    "size": [
+      1310,
+      1201
+    ]
+  }
+}

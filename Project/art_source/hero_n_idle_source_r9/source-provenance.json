@@ -1,0 +1,206 @@
+{
+  "status": "source_prepared_pending_review_no_generation",
+  "source_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "direction": "N",
+  "canvas": [
+    128,
+    128
+  ],
+  "root": [
+    16,
+    64
+  ],
+  "crop": [
+    12,
+    8,
+    76,
+    96
+  ],
+  "crop_root": [
+    4,
+    56
+  ],
+  "source_manifest_sha256": "b5eb981b005efedc5f071bb51f35240cabf91aa0d77143e70bcf4ee9b9c733f1",
+  "records": [
+    {
+      "source_id": 1,
+      "layers": {
+        "body": {
+          "original": [
+            64,
+            72
+          ],
+          "offset": [
+            6,
+            -48
+          ],
+          "rgba_sha256": "9eddd560fce3b372cd7f61a5e41e7cbbd47e65101b8ecbc38aedeb7ecde7b167",
+          "sourceOffset": 3354,
+          "sourceBytes": 5686
+        },
+        "head": {
+          "original": [
+            8,
+            11
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "f7dd0bc1a36fb2ce57945a6c94ea9aa28783e375ac01b82abbd8195f3b6d9b19",
+          "sourceOffset": 3354,
+          "sourceBytes": 1166
+        }
+      },
+      "composite_rgba_sha256": "e65b8e751f8cdf14aff085122fac0f173cae70b25825459a1e1ca4fb7701cc05"
+    },
+    {
+      "source_id": 2,
+      "layers": {
+        "body": {
+          "original": [
+            64,
+            72
+          ],
+          "offset": [
+            6,
+            -48
+          ],
+          "rgba_sha256": "46953e614377a21f1ef951c634f495de2201afcfb8bfd3a0ae4dde9d00270e87",
+          "sourceOffset": 9044,
+          "sourceBytes": 5686
+        },
+        "head": {
+          "original": [
+            8,
+            11
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "5e04751cbbf9a4fb501080ae535258b1ba8e06dd138f06f4a8b5611e86a2d141",
+          "sourceOffset": 4524,
+          "sourceBytes": 1166
+        }
+      },
+      "composite_rgba_sha256": "8c6f3774fee2f340f6019259d5364c5d3770b49ca688803eb0eeef098672e95b"
+    },
+    {
+      "source_id": 3,
+      "layers": {
+        "body": {
+          "original": [
+            64,
+            72
+          ],
+          "offset": [
+            6,
+            -48
+          ],
+          "rgba_sha256": "f5901c1ab4b5d0e67c673f367293c46b7e04886eccbcd577191cf01842f9bf10",
+          "sourceOffset": 14734,
+          "sourceBytes": 5686
+        },
+        "head": {
+          "original": [
+            8,
+            11
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "a5836a1add71427ee9feda3db5c278d471cc25a0359378bcb8b6c05b6d71c150",
+          "sourceOffset": 5694,
+          "sourceBytes": 1166
+        }
+      },
+      "composite_rgba_sha256": "25dd158d9a8a045774cc3d5d28d248c70243fe832035755cd976a84f4b76cc8f"
+    },
+    {
+      "source_id": 4,
+      "layers": {
+        "body": {
+          "original": [
+            64,
+            72
+          ],
+          "offset": [
+            6,
+            -48
+          ],
+          "rgba_sha256": "7924c078bfc313681a8647fbf11c0f9d1d4659d4f4c329b3e036b18f52e22ccb",
+          "sourceOffset": 20424,
+          "sourceBytes": 5686
+        },
+        "head": {
+          "original": [
+            8,
+            11
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "7ea4558e8906a63f7cd2ba79fb83810730b27f73415e117f472eefdf200a008e",
+          "sourceOffset": 6864,
+          "sourceBytes": 1166
+        }
+      },
+      "composite_rgba_sha256": "644d69e168fac3a27c30b7aeb514c33d12c59b8f74b8763d362e3ffb2249c337"
+    }
+  ],
+  "pairwise": [
+    {
+      "source_ids": [
+        1,
+        2
+      ],
+      "changed_pixels": 375
+    },
+    {
+      "source_ids": [
+        1,
+        3
+      ],
+      "changed_pixels": 485
+    },
+    {
+      "source_ids": [
+        1,
+        4
+      ],
+      "changed_pixels": 403
+    },
+    {
+      "source_ids": [
+        2,
+        3
+      ],
+      "changed_pixels": 331
+    },
+    {
+      "source_ids": [
+        2,
+        4
+      ],
+      "changed_pixels": 171
+    },
+    {
+      "source_ids": [
+        3,
+        4
+      ],
+      "changed_pixels": 319
+    }
+  ],
+  "frame_ticks": 12,
+  "timing_scope": "Current/reference clip only, no new EXE lifecycle proof.",
+  "transparency": "All original nonblack RGBA/checker retained, no same-color removal."
+}

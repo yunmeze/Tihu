@@ -1,0 +1,75 @@
+{
+  "status": "source_six_phases_and_fragment_inputs_complete_pending_parent_visual_review",
+  "files": [
+    {
+      "path": "source-45.png",
+      "sha256": "85d0005b0db9b78990735be12ba5b93868662a139dd548f067d7f8f069225cac"
+    },
+    {
+      "path": "source-46.png",
+      "sha256": "58901c104dba88a49e85be68f14a5d0e2eb22e741b9de3783556a6b37e195892"
+    },
+    {
+      "path": "source-47.png",
+      "sha256": "570063f5764c00ede045a35ff560e31bd876d944042e281b50f693ffd3e0addb"
+    },
+    {
+      "path": "source-48.png",
+      "sha256": "de7db814821b505d353fbb6c017154f8facedfa6094bc30371c86a1e4d1e7f85"
+    },
+    {
+      "path": "source-49.png",
+      "sha256": "78109c59d23aee39981036a65cfbb922ca30aeef7bbe9839f53f8c3054ecd802"
+    },
+    {
+      "path": "source-50.png",
+      "sha256": "04fc07cd5d999def61225db9e48ded034d124eb856cf433251c15736decd7219"
+    },
+    {
+      "path": "original-six-native-strip.png",
+      "sha256": "33c5ac626752250a27644f93f9c1b7a2458e0aef416842bb5a0e439d86f758de"
+    },
+    {
+      "path": "original-six-complete-canvas-6x.png",
+      "sha256": "eb924cf3b7db18b48f303d7ed56f8416bdcddd5148510de6e4cd3c6115becc4c"
+    },
+    {
+      "path": "source-provenance.json",
+      "sha256": "2762303bac3fd14c7701120b87f1684bd84561760dfb40b1c6257db181677018"
+    },
+    {
+      "path": "SOURCE_PHASE_ANALYSIS.json",
+      "sha256": "bd526857654b80875a1c773c303234d9a61519086d2166caf87f4ad34210c69c"
+    },
+    {
+      "path": "README.md",
+      "sha256": "546abfac1c83b2e06d99d9886ffed0d1fab68e8725c8bd0867190dc7efb392d9"
+    },
+    {
+      "path": "original-six-body-common-crop-main-8x.png",
+      "sha256": "1a85ab1ef63c769d3014fbdbc5668adaf73fbbf9ecc3fc87c3b300c7ea9ddbb2"
+    },
+    {
+      "path": "original-six-lower-detail-8x.png",
+      "sha256": "b2a980e882663da49f9d193c347640d0ef910e65d01e3b0ea3e41bd6f4c759f1"
+    },
+    {
+      "path": "direction-matched-identity-fragments.png",
+      "sha256": "a862417efa2b19f8d8dfde9069b6fc75546ef808cf9dd9fc36cff09a4a2e715c"
+    },
+    {
+      "path": "identity-input-contract.json",
+      "sha256": "5f27deb4c0bdced8f577f616192ba15f31c7218c8b7523882220c1c9bc181852"
+    }
+  ],
+  "reproducer": "Project/tools/hero/prepare_adjacent_walk_sources.py",
+  "exclude": [
+    "diagnostic boards",
+    "tests",
+    "generated art"
+  ],
+  "reproducers": [
+    "Project/tools/hero/prepare_adjacent_walk_sources.py",
+    "Project/tools/hero/prepare_adjacent_walk_identity.py"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "native_pose_review_supports_shadow_gate_pending_parent",
+  "files": [
+    {
+      "path": "raw-v1.png",
+      "sha256": "bf726f3cf8fb920ce90416ed4b3cc4b5b35867b93b3728559f3d60a18d155d6b"
+    },
+    {
+      "path": "prompt-v1.txt",
+      "sha256": "09cb6b7056d044b1b6e3e0444aedd5758d2523d98992fb9bdbe7cefcca595617"
+    },
+    {
+      "path": "request-v1.json",
+      "sha256": "be67ebb6faa70ef6939cc9f72e0966f5f2a74ca0d647bcef2efc8585fe88f43e"
+    },
+    {
+      "path": "v1-registration.json",
+      "sha256": "fa3b9b4fdca7ae781ab55eb2d4e8de570575a72704897e23d7f46cca5871a255"
+    },
+    {
+      "path": "v1-registered-atlas-128.png",
+      "sha256": "c2c276491c129375a2bee3c33cff40c180eab6fe04136dbceb239687e483d7cf"
+    },
+    {
+      "path": "v1-candidate-interface.json",
+      "sha256": "353dbe604f7e717a1f6d6ba8f728df54c83f4ae1564b7af12e2d195c6d686471"
+    },
+    {
+      "path": "README.md",
+      "sha256": "fbb842187a05f81de3417977803e6e101d5ca79274fdaee0f684dd0904d864f8"
+    },
+    {
+      "path": "v1-native-pose-review.json",
+      "sha256": "73a1dc36b8caff13d3ed5e4a216de2e60757b823e6ccab230121ce7c69253d16"
+    }
+  ],
+  "reproducer": "Project/tools/hero/register_adjacent_walk_v1.py",
+  "exclude": [
+    "*.jpg",
+    "tool receipts",
+    "signed URLs"
+  ]
+}

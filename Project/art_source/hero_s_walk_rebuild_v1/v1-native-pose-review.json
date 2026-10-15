@@ -1,0 +1,28 @@
+{
+  "status": "native_pose_review_supports_shadow_gate_pending_parent",
+  "reviewed_at_utc": "2026-10-15T06:14:21Z",
+  "evidence": [
+    {
+      "path": "/workspace/shared/legend-rebuild-adjacent-walk/S-all-six.png",
+      "sha256": "12abe80eaa4cf4611e29964be491a263b05c3f0910deff15d940ecda01d5a998"
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-adjacent-walk/S-transitions.jpg",
+      "sha256": "8b389687d6611abd2cc7f2995894ecfd10d03377c2c6ca8f6d30c084b9c51b72"
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-adjacent-walk/native.log",
+      "sha256": "be44f3dd471c521517209bd4c3dea1e42195020ec3b0cb6bd7e5650cbf57de22"
+    }
+  ],
+  "observations": [
+    "All six source/candidate phases and idle-entry/exit samples actually viewed.",
+    "S short/long boot alternation remains readable;59/62 passing lift is visibly stronger than source, retain4-5px relative-height residual.",
+    "No obvious whole-body scale switch at idle transitions in these samples."
+  ],
+  "limits": [
+    "No new shadow in this diagnostic.",
+    "Continuous recorded state samples and actual board review are not uninterrupted human realtime viewing.",
+    "Original movement speed and EXE transition lifecycle not proven by this visual diagnostic."
+  ]
+}

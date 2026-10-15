@@ -1,0 +1,795 @@
+{
+  "status": "registered_research_pending_original_size_review",
+  "direction": "E",
+  "source_ids": [
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+  ],
+  "frame_size": [
+    128,
+    128
+  ],
+  "native_root": [
+    16,
+    64
+  ],
+  "common_uniform_scale": 0.14741764681599678,
+  "weights": {
+    "crown": 1.0,
+    "neck_surface": 0.6,
+    "sternum_clothing": 0.4,
+    "pelvis_clothing": 0.25,
+    "screen_left_boot": 1.0,
+    "screen_right_boot": 1.0
+  },
+  "registration": "Single group uniform scale; per-frame weighted surface-point rigid translation only. Clothing low weight due to armor displacement, not true skeleton.",
+  "uncertainty_px": {
+    "source_clothing": 3,
+    "source_boot": 2,
+    "candidate_raw": 8
+  },
+  "raw_sha256": "679abfe35c31d92e790f4ac682b18b439c6f7ffb3bbd95bed5cc44128a23edcc",
+  "atlas_sha256": "26a2a5d0b050f6d74133b6b2f3cd9478d8fb96ebf92a2ed12d8ceb551a52881b",
+  "raw_reassembles_byte_exact": true,
+  "records": [
+    {
+      "source_id": 45,
+      "raw_rectangle": [
+        0,
+        0,
+        437,
+        601
+      ],
+      "translation": [
+        10.273193894563725,
+        7.950733982011307
+      ],
+      "source_surface_points": {
+        "crown": [
+          40.0,
+          16.0
+        ],
+        "neck_surface": [
+          42.0,
+          27.0
+        ],
+        "sternum_clothing": [
+          44.0,
+          37.0
+        ],
+        "pelvis_clothing": [
+          42.0,
+          54.0
+        ],
+        "screen_left_boot": [
+          29.0,
+          78.0
+        ],
+        "screen_right_boot": [
+          60.0,
+          81.0
+        ]
+      },
+      "raw_surface_points": {
+        "crown": [
+          203.0,
+          52.0
+        ],
+        "neck_surface": [
+          201.0,
+          132.0
+        ],
+        "sternum_clothing": [
+          224.0,
+          192.0
+        ],
+        "pelvis_clothing": [
+          209.0,
+          315.0
+        ],
+        "screen_left_boot": [
+          128.0,
+          467.0
+        ],
+        "screen_right_boot": [
+          347.0,
+          506.0
+        ]
+      },
+      "mapped_surface_points": {
+        "crown": [
+          40.19897619821107,
+          15.61645161644314
+        ],
+        "neck_surface": [
+          39.90414090457908,
+          27.409863361722884
+        ],
+        "sternum_clothing": [
+          43.29474678134701,
+          36.25492217068269
+        ],
+        "pelvis_clothing": [
+          41.08348207910706,
+          54.387292729050294
+        ],
+        "screen_left_boot": [
+          29.142652687011314,
+          76.79477504508179
+        ],
+        "screen_right_boot": [
+          61.427117339714606,
+          82.54406327090567
+        ]
+      },
+      "residuals": {
+        "crown": [
+          0.1989761982110707,
+          -0.3835483835568603
+        ],
+        "neck_surface": [
+          -2.09585909542092,
+          0.4098633617228842
+        ],
+        "sternum_clothing": [
+          -0.7052532186529916,
+          -0.7450778293173101
+        ],
+        "pelvis_clothing": [
+          -0.916517920892943,
+          0.3872927290502943
+        ],
+        "screen_left_boot": [
+          0.14265268701131362,
+          -1.205224954918208
+        ],
+        "screen_right_boot": [
+          1.4271173397146057,
+          1.5440632709056672
+        ]
+      },
+      "boot_right_minus_left_source": [
+        31.0,
+        3.0
+      ],
+      "boot_right_minus_left_candidate": [
+        32.28446465270329,
+        5.749288225823875
+      ]
+    },
+    {
+      "source_id": 46,
+      "raw_rectangle": [
+        437,
+        0,
+        873,
+        601
+      ],
+      "translation": [
+        9.498046140227679,
+        8.780339518914843
+      ],
+      "source_surface_points": {
+        "crown": [
+          39.0,
+          16.0
+        ],
+        "neck_surface": [
+          41.0,
+          27.0
+        ],
+        "sternum_clothing": [
+          43.0,
+          37.0
+        ],
+        "pelvis_clothing": [
+          41.0,
+          54.0
+        ],
+        "screen_left_boot": [
+          31.0,
+          77.0
+        ],
+        "screen_right_boot": [
+          48.0,
+          87.0
+        ]
+      },
+      "raw_surface_points": {
+        "crown": [
+          201.0,
+          52.0
+        ],
+        "neck_surface": [
+          201.0,
+          132.0
+        ],
+        "sternum_clothing": [
+          224.0,
+          192.0
+        ],
+        "pelvis_clothing": [
+          210.0,
+          315.0
+        ],
+        "screen_left_boot": [
+          142.0,
+          465.0
+        ],
+        "screen_right_boot": [
+          274.0,
+          518.0
+        ]
+      },
+      "mapped_surface_points": {
+        "crown": [
+          39.12899315024303,
+          16.446057153346676
+        ],
+        "neck_surface": [
+          39.12899315024303,
+          28.23946889862642
+        ],
+        "sternum_clothing": [
+          42.51959902701096,
+          37.084527707586226
+        ],
+        "pelvis_clothing": [
+          40.455751971587006,
+          55.21689826595383
+        ],
+        "screen_left_boot": [
+          30.431351988099223,
+          77.32954528835334
+        ],
+        "screen_right_boot": [
+          49.8904813678108,
+          85.14268056960118
+        ]
+      },
+      "residuals": {
+        "crown": [
+          0.12899315024303348,
+          0.4460571533466755
+        ],
+        "neck_surface": [
+          -1.8710068497569665,
+          1.23946889862642
+        ],
+        "sternum_clothing": [
+          -0.48040097298903817,
+          0.08452770758622563
+        ],
+        "pelvis_clothing": [
+          -0.5442480284129942,
+          1.21689826595383
+        ],
+        "screen_left_boot": [
+          -0.5686480119007769,
+          0.3295452883533443
+        ],
+        "screen_right_boot": [
+          1.8904813678108,
+          -1.8573194303988174
+        ]
+      },
+      "boot_right_minus_left_source": [
+        17.0,
+        10.0
+      ],
+      "boot_right_minus_left_candidate": [
+        19.459129379711577,
+        7.813135281247838
+      ]
+    },
+    {
+      "source_id": 47,
+      "raw_rectangle": [
+        873,
+        0,
+        1310,
+        601
+      ],
+      "translation": [
+        7.355496669086158,
+        8.285040142083602
+      ],
+      "source_surface_points": {
+        "crown": [
+          40.0,
+          15.0
+        ],
+        "neck_surface": [
+          42.0,
+          26.0
+        ],
+        "sternum_clothing": [
+          44.0,
+          36.0
+        ],
+        "pelvis_clothing": [
+          42.0,
+          53.0
+        ],
+        "screen_left_boot": [
+          42.0,
+          87.0
+        ],
+        "screen_right_boot": [
+          51.0,
+          78.0
+        ]
+      },
+      "raw_surface_points": {
+        "crown": [
+          217.0,
+          52.0
+        ],
+        "neck_surface": [
+          216.0,
+          132.0
+        ],
+        "sternum_clothing": [
+          244.0,
+          194.0
+        ],
+        "pelvis_clothing": [
+          234.0,
+          315.0
+        ],
+        "screen_left_boot": [
+          242.0,
+          521.0
+        ],
+        "screen_right_boot": [
+          307.0,
+          467.0
+        ]
+      },
+      "mapped_surface_points": {
+        "crown": [
+          39.34512602815746,
+          15.950757776515434
+        ],
+        "neck_surface": [
+          39.197708381341464,
+          27.74416952179518
+        ],
+        "sternum_clothing": [
+          43.325402492189376,
+          36.88406362438698
+        ],
+        "pelvis_clothing": [
+          41.85122602402941,
+          54.72159888912259
+        ],
+        "screen_left_boot": [
+          43.03056719855738,
+          85.08963413321793
+        ],
+        "screen_right_boot": [
+          52.61271424159717,
+          77.1290812051541
+        ]
+      },
+      "residuals": {
+        "crown": [
+          -0.6548739718425409,
+          0.9507577765154345
+        ],
+        "neck_surface": [
+          -2.8022916186585363,
+          1.744169521795179
+        ],
+        "sternum_clothing": [
+          -0.6745975078106241,
+          0.8840636243869824
+        ],
+        "pelvis_clothing": [
+          -0.14877397597059172,
+          1.721598889122589
+        ],
+        "screen_left_boot": [
+          1.030567198557378,
+          -1.9103658667820724
+        ],
+        "screen_right_boot": [
+          1.6127142415971676,
+          -0.8709187948459061
+        ]
+      },
+      "boot_right_minus_left_source": [
+        9.0,
+        -9.0
+      ],
+      "boot_right_minus_left_candidate": [
+        9.58214704303979,
+        -7.960552928063834
+      ]
+    },
+    {
+      "source_id": 48,
+      "raw_rectangle": [
+        0,
+        601,
+        437,
+        1201
+      ],
+      "translation": [
+        9.75983361859273,
+        8.776846921439422
+      ],
+      "source_surface_points": {
+        "crown": [
+          40.0,
+          16.0
+        ],
+        "neck_surface": [
+          42.0,
+          27.0
+        ],
+        "sternum_clothing": [
+          44.0,
+          37.0
+        ],
+        "pelvis_clothing": [
+          42.0,
+          54.0
+        ],
+        "screen_left_boot": [
+          29.0,
+          84.0
+        ],
+        "screen_right_boot": [
+          60.0,
+          74.0
+        ]
+      },
+      "raw_surface_points": {
+        "crown": [
+          207.0,
+          44.0
+        ],
+        "neck_surface": [
+          207.0,
+          119.0
+        ],
+        "sternum_clothing": [
+          237.0,
+          180.0
+        ],
+        "pelvis_clothing": [
+          229.0,
+          315.0
+        ],
+        "screen_left_boot": [
+          131.0,
+          512.0
+        ],
+        "screen_right_boot": [
+          341.0,
+          451.0
+        ]
+      },
+      "mapped_surface_points": {
+        "crown": [
+          40.27528650950406,
+          15.26322338134328
+        ],
+        "neck_surface": [
+          40.27528650950406,
+          26.319546892543038
+        ],
+        "sternum_clothing": [
+          44.697815913983966,
+          35.312023348318846
+        ],
+        "pelvis_clothing": [
+          43.518474739455996,
+          55.21340566847841
+        ],
+        "screen_left_boot": [
+          29.071545351488307,
+          84.25468209122977
+        ],
+        "screen_right_boot": [
+          60.02925118284763,
+          75.26220563545397
+        ]
+      },
+      "residuals": {
+        "crown": [
+          0.2752865095040633,
+          -0.7367766186567195
+        ],
+        "neck_surface": [
+          -1.7247134904959367,
+          -0.6804531074569624
+        ],
+        "sternum_clothing": [
+          0.6978159139839661,
+          -1.6879766516811543
+        ],
+        "pelvis_clothing": [
+          1.5184747394559963,
+          1.2134056684784085
+        ],
+        "screen_left_boot": [
+          0.07154535148830732,
+          0.2546820912297676
+        ],
+        "screen_right_boot": [
+          0.02925118284763073,
+          1.2622056354539666
+        ]
+      },
+      "boot_right_minus_left_source": [
+        31.0,
+        -10.0
+      ],
+      "boot_right_minus_left_candidate": [
+        30.957705831359323,
+        -8.992476455775801
+      ]
+    },
+    {
+      "source_id": 49,
+      "raw_rectangle": [
+        437,
+        601,
+        873,
+        1201
+      ],
+      "translation": [
+        8.603134307791748,
+        8.727137579735903
+      ],
+      "source_surface_points": {
+        "crown": [
+          39.0,
+          16.0
+        ],
+        "neck_surface": [
+          41.0,
+          27.0
+        ],
+        "sternum_clothing": [
+          43.0,
+          37.0
+        ],
+        "pelvis_clothing": [
+          41.0,
+          54.0
+        ],
+        "screen_left_boot": [
+          31.0,
+          83.0
+        ],
+        "screen_right_boot": [
+          48.0,
+          77.0
+        ]
+      },
+      "raw_surface_points": {
+        "crown": [
+          202.0,
+          44.0
+        ],
+        "neck_surface": [
+          207.0,
+          119.0
+        ],
+        "sternum_clothing": [
+          237.0,
+          180.0
+        ],
+        "pelvis_clothing": [
+          222.0,
+          315.0
+        ],
+        "screen_left_boot": [
+          155.0,
+          505.0
+        ],
+        "screen_right_boot": [
+          274.0,
+          473.0
+        ]
+      },
+      "mapped_surface_points": {
+        "crown": [
+          38.3814989646231,
+          15.213514039639762
+        ],
+        "neck_surface": [
+          39.11858719870308,
+          26.26983755083952
+        ],
+        "sternum_clothing": [
+          43.541116603182985,
+          35.26231400661533
+        ],
+        "pelvis_clothing": [
+          41.329851900943034,
+          55.16369632677489
+        ],
+        "screen_left_boot": [
+          31.45286956427125,
+          83.17304922181427
+        ],
+        "screen_right_boot": [
+          48.99556953537487,
+          78.45568452370239
+        ]
+      },
+      "residuals": {
+        "crown": [
+          -0.6185010353769016,
+          -0.7864859603602383
+        ],
+        "neck_surface": [
+          -1.8814128012969178,
+          -0.7301624491604812
+        ],
+        "sternum_clothing": [
+          0.541116603182985,
+          -1.737685993384673
+        ],
+        "pelvis_clothing": [
+          0.3298519009430336,
+          1.1636963267748897
+        ],
+        "screen_left_boot": [
+          0.4528695642712499,
+          0.17304922181426718
+        ],
+        "screen_right_boot": [
+          0.9955695353748695,
+          1.4556845237023879
+        ]
+      },
+      "boot_right_minus_left_source": [
+        17.0,
+        -6.0
+      ],
+      "boot_right_minus_left_candidate": [
+        17.54269997110362,
+        -4.717364698111879
+      ]
+    },
+    {
+      "source_id": 50,
+      "raw_rectangle": [
+        873,
+        601,
+        1310,
+        1201
+      ],
+      "translation": [
+        7.5919390212502975,
+        8.83945010695588
+      ],
+      "source_surface_points": {
+        "crown": [
+          40.0,
+          15.0
+        ],
+        "neck_surface": [
+          42.0,
+          26.0
+        ],
+        "sternum_clothing": [
+          44.0,
+          36.0
+        ],
+        "pelvis_clothing": [
+          42.0,
+          53.0
+        ],
+        "screen_left_boot": [
+          41.0,
+          80.0
+        ],
+        "screen_right_boot": [
+          51.0,
+          86.0
+        ]
+      },
+      "raw_surface_points": {
+        "crown": [
+          225.0,
+          47.0
+        ],
+        "neck_surface": [
+          226.0,
+          124.0
+        ],
+        "sternum_clothing": [
+          250.0,
+          183.0
+        ],
+        "pelvis_clothing": [
+          238.0,
+          315.0
+        ],
+        "screen_left_boot": [
+          208.0,
+          480.0
+        ],
+        "screen_right_boot": [
+          310.0,
+          513.0
+        ]
+      },
+      "mapped_surface_points": {
+        "crown": [
+          40.760909554849576,
+          15.768079507307728
+        ],
+        "neck_surface": [
+          40.90832720166557,
+          27.11923831213948
+        ],
+        "sternum_clothing": [
+          44.446350725249495,
+          35.81687947428329
+        ],
+        "pelvis_clothing": [
+          42.67733896345753,
+          55.27600885399487
+        ],
+        "screen_left_boot": [
+          38.25480955897763,
+          79.59992057863434
+        ],
+        "screen_right_boot": [
+          53.2914095342093,
+          84.46470292356223
+        ]
+      },
+      "residuals": {
+        "crown": [
+          0.7609095548495759,
+          0.7680795073077284
+        ],
+        "neck_surface": [
+          -1.0916727983344288,
+          1.1192383121394798
+        ],
+        "sternum_clothing": [
+          0.44635072524949493,
+          -0.1831205257167099
+        ],
+        "pelvis_clothing": [
+          0.6773389634575295,
+          2.276008853994867
+        ],
+        "screen_left_boot": [
+          -2.7451904410223733,
+          -0.40007942136566044
+        ],
+        "screen_right_boot": [
+          2.2914095342093006,
+          -1.5352970764377716
+        ]
+      },
+      "boot_right_minus_left_source": [
+        10.0,
+        6.0
+      ],
+      "boot_right_minus_left_candidate": [
+        15.036599975231674,
+        4.864782344927889
+      ]
+    }
+  ],
+  "split_boundary_max_alpha": {
+    "x437": 1,
+    "x873": 1,
+    "y601": 1
+  }
+}

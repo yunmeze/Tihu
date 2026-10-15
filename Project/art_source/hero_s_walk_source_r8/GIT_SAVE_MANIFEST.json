@@ -1,0 +1,83 @@
+{
+  "status": "source_six_phases_and_fragment_inputs_complete_pending_parent_visual_review",
+  "files": [
+    {
+      "path": "source-57.png",
+      "sha256": "1a474a3c34ca85abf08f067813519015165487bf43725acdb579f3d22ec0caeb"
+    },
+    {
+      "path": "source-58.png",
+      "sha256": "7137f168350f5b910b8cc070b3814e79b11bae2cd4bcc81c96f3bf3c39b30deb"
+    },
+    {
+      "path": "source-59.png",
+      "sha256": "ffcd49bc0ccbc27cb4b034b9ba86039f47d5d8510ba9b8b41ec0ab30901be38e"
+    },
+    {
+      "path": "source-60.png",
+      "sha256": "a364df0c0a17975b49cdc15c21cdbfae27753ea15515b1b7474c464504dde01c"
+    },
+    {
+      "path": "source-61.png",
+      "sha256": "9e2e51ad728383c3dac71206b44f6b9e9968ef658eadb9e609980c0a888381db"
+    },
+    {
+      "path": "source-62.png",
+      "sha256": "a659beb365f76e2064c290419a7124a34767782efc7bbe5238abe2afee42ece5"
+    },
+    {
+      "path": "original-six-native-strip.png",
+      "sha256": "615a548c9c807c39ae16e91b825eb1b60b42fc92e221b8e887df44c9fdea14d1"
+    },
+    {
+      "path": "original-six-complete-canvas-6x.png",
+      "sha256": "a847b2118e26dd971ff15383b8f6bcf64378b852ffcf26efb9dc88d1868a626c"
+    },
+    {
+      "path": "source-provenance.json",
+      "sha256": "562a45ec93f5a1e308d478ce8c8aa341dbd1dd84e65ed52bf67d07ff532d97c4"
+    },
+    {
+      "path": "SOURCE_PHASE_ANALYSIS.json",
+      "sha256": "9b6d4704191b989652e07d1827b462891c310fc3c44736750cdb4f60375dec12"
+    },
+    {
+      "path": "README.md",
+      "sha256": "a0809031ecbdfc6ab54430ad76988b79bf37ace6606a6770457989c694bc3152"
+    },
+    {
+      "path": "original-six-body-common-crop-main-8x.png",
+      "sha256": "a6b6de787010cdeef1976329d92071d18e9e822689615e3bee3b8b33ff73cc96"
+    },
+    {
+      "path": "original-six-lower-detail-8x.png",
+      "sha256": "a53fa4f6dfc3ebf71b199693e711c4dcccda591888da561a3bb57e163b471f51"
+    },
+    {
+      "path": "direction-matched-identity-fragments.png",
+      "sha256": "b5fc28388f62fa382cc76923cf907ee38253620e59464fd7b4c05d6311126d7a"
+    },
+    {
+      "path": "identity-input-contract.json",
+      "sha256": "702c6a20630082b1ead519e67d0b6ed66c1fd6d2237e55425ec8a3ea3bc6aaab"
+    },
+    {
+      "path": "SOURCE_VISIBLE_CHAIN_ANALYSIS.json",
+      "sha256": "0d6cb5fce336aa1dab7dc99b67028f84b7419b4c75799e7ceec0fee4f86825ea"
+    },
+    {
+      "path": "VISIBLE_CHAIN_REVIEW.md",
+      "sha256": "c3a4c7cb97a4c2535bc4218c99dc471ba4e3f0a9451826dd1140a379005647c3"
+    }
+  ],
+  "reproducer": "Project/tools/hero/prepare_adjacent_walk_sources.py",
+  "exclude": [
+    "diagnostic boards",
+    "tests",
+    "generated art"
+  ],
+  "reproducers": [
+    "Project/tools/hero/prepare_adjacent_walk_sources.py",
+    "Project/tools/hero/prepare_adjacent_walk_identity.py"
+  ]
+}

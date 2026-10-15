@@ -1,0 +1,53 @@
+{
+  "status": "prepared_original_four_pending_parent_visual_review",
+  "files": [
+    {
+      "path": "source-1.png",
+      "sha256": "54cf7ef8e91996bdae4973f76e8d1dbe7b54bf3abec75a3801348967ffc69c54"
+    },
+    {
+      "path": "source-2.png",
+      "sha256": "5d039d81758c1263749a6694f327d0fbaa1c7f7893dce63a2ebe28bfe58ca611"
+    },
+    {
+      "path": "source-3.png",
+      "sha256": "e3001a6300cce978bb9dd36c6acb0aa5ee743f071c8415b0304d027e32dd6ffb"
+    },
+    {
+      "path": "source-4.png",
+      "sha256": "0437191d3d261bffc319cbcd57fbfb9c91ded15758c995bf2e3a11eb908820c4"
+    },
+    {
+      "path": "original-four-native-strip.png",
+      "sha256": "6cc4b1161e1dec00032a99892b9e4bbf85ff80414df82307037ffcdf7748fe3a"
+    },
+    {
+      "path": "original-four-common-crop-6x.png",
+      "sha256": "a89a4c0861cd5b779abc4d085d90623dc8ff3e67c2e7e657c24276ae88149220"
+    },
+    {
+      "path": "source-provenance.json",
+      "sha256": "8276ab0ef75ee14bf5a133f51349c691c7bc48a1f9abe0314440bca33c262825"
+    },
+    {
+      "path": "SOURCE_PHASE_ANALYSIS.json",
+      "sha256": "c1d1638480e7fab52b45846eb486e0806dc62859014675ab26bf1cd4464f9567"
+    },
+    {
+      "path": "rear-identity-disconnected-fragments.png",
+      "sha256": "a3cf8d881c43fad3eb4bb2994ce32beca701209a32377f504d54a41a285084a5"
+    },
+    {
+      "path": "identity-input-contract.json",
+      "sha256": "7adf38928434db8decfe169798f86c71347267785a55ecd5aadaee7eafd2b34b"
+    },
+    {
+      "path": "README.md",
+      "sha256": "6efe8f3606afc9e07aa82f2295d6c60db7b3e4fb7a67f63e93885bbbea730b72"
+    }
+  ],
+  "reproducer": "Project/tools/hero/prepare_north_idle_sources.py",
+  "exclude": [
+    "diagnostic jpg/grid/tests"
+  ]
+}

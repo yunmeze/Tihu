@@ -1,0 +1,28 @@
+{
+  "mode": "builtin_imagegen_single_authorized_generation",
+  "prompt_file": "prompt-v1.txt",
+  "transparent_background": true,
+  "input_roles": [
+    "original_N1_geometry_edit_target",
+    "no_face_material_fragments_only"
+  ],
+  "referenced_images": [
+    {
+      "path": "art_source/hero_n_back_identity_plan_r8/original-N-idle1-main-8x.png",
+      "sha256": "2fbf1c5f8dfa3293460e3dad777ac4f130a1c471bda5cf7fbd10c4cd1d1705c8"
+    },
+    {
+      "path": "art_source/hero_n_back_identity_plan_r8/no-face-material-fragments.png",
+      "sha256": "a053fdaaf63bf4168ee759ad9de8c38c34050af03613d273de5e3d746f33d90f"
+    }
+  ],
+  "status": "generated_once_raw_saved",
+  "output": {
+    "path": "raw-v1.png",
+    "sha256": "28c5eff1d32cda6141478a12049705ad09a5e525757518cc9216fb452bd27c2d",
+    "size": [
+      1069,
+      1471
+    ]
+  }
+}

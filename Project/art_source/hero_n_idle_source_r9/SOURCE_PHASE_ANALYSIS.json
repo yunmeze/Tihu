@@ -1,0 +1,234 @@
+{
+  "status": "original_N_four_phases_actual_review_complete_no_generation",
+  "source_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "direction": "N full rear view",
+  "actual_review": [
+    "original-four-common-crop-6x.png",
+    "Project/diagnostics/hero/north-idle-source-r9/all-four-native-grid.jpg"
+  ],
+  "layer_facts": "All four body and head RGBA hashes differ. Body dimensions64x72/offset6,-48; head8x11/offset20,-49 are constant across all four. Changes are real raster changes within fixed source layer anchors, not four duplicate frames.",
+  "phase_pair_changes": [
+    {
+      "source_ids": [
+        1,
+        2
+      ],
+      "changed_pixels": 375
+    },
+    {
+      "source_ids": [
+        1,
+        3
+      ],
+      "changed_pixels": 485
+    },
+    {
+      "source_ids": [
+        1,
+        4
+      ],
+      "changed_pixels": 403
+    },
+    {
+      "source_ids": [
+        2,
+        3
+      ],
+      "changed_pixels": 331
+    },
+    {
+      "source_ids": [
+        2,
+        4
+      ],
+      "changed_pixels": 171
+    },
+    {
+      "source_ids": [
+        3,
+        4
+      ],
+      "changed_pixels": 319
+    }
+  ],
+  "coordinate_contract": {
+    "canvas": [
+      128,
+      128
+    ],
+    "root": [
+      16,
+      64
+    ],
+    "source_crown_boot_read_uncertainty": 1,
+    "source_clothing_hand_proxy_uncertainty": 3
+  },
+  "frames": [
+    {
+      "source_id": 1,
+      "crown_surface": [
+        40,
+        15
+      ],
+      "neck_surface": [
+        40,
+        27
+      ],
+      "back_clothing_surface": [
+        40,
+        35
+      ],
+      "waist_clothing_surface": [
+        40,
+        44
+      ],
+      "pelvis_clothing_surface": [
+        40,
+        51
+      ],
+      "screen_left_boot_terminal": [
+        35,
+        82
+      ],
+      "screen_right_boot_terminal": [
+        45,
+        86
+      ],
+      "screen_left_hand_endpoint": null,
+      "screen_right_hand_surface": [
+        53,
+        50
+      ],
+      "visibility": "Rear view; left hand merges into dark sleeve and edge, cannot confidently locate fingertip. Small right hand skin end visible; both boot terminal outlines distinguishable from checker.",
+      "phase_note": "Coarse landmarks remain within read budget; original head/shoulder/sleeve/waist raster differs and must be individually followed, no invented larger breathing/nodding."
+    },
+    {
+      "source_id": 2,
+      "crown_surface": [
+        40,
+        15
+      ],
+      "neck_surface": [
+        40,
+        27
+      ],
+      "back_clothing_surface": [
+        40,
+        35
+      ],
+      "waist_clothing_surface": [
+        40,
+        44
+      ],
+      "pelvis_clothing_surface": [
+        40,
+        51
+      ],
+      "screen_left_boot_terminal": [
+        35,
+        82
+      ],
+      "screen_right_boot_terminal": [
+        45,
+        86
+      ],
+      "screen_left_hand_endpoint": null,
+      "screen_right_hand_surface": [
+        53,
+        50
+      ],
+      "visibility": "Rear view; left hand merges into dark sleeve and edge, cannot confidently locate fingertip. Small right hand skin end visible; both boot terminal outlines distinguishable from checker.",
+      "phase_note": "Coarse landmarks remain within read budget; original head/shoulder/sleeve/waist raster differs and must be individually followed, no invented larger breathing/nodding."
+    },
+    {
+      "source_id": 3,
+      "crown_surface": [
+        40,
+        15
+      ],
+      "neck_surface": [
+        40,
+        27
+      ],
+      "back_clothing_surface": [
+        40,
+        35
+      ],
+      "waist_clothing_surface": [
+        40,
+        44
+      ],
+      "pelvis_clothing_surface": [
+        40,
+        51
+      ],
+      "screen_left_boot_terminal": [
+        35,
+        82
+      ],
+      "screen_right_boot_terminal": [
+        45,
+        86
+      ],
+      "screen_left_hand_endpoint": null,
+      "screen_right_hand_surface": [
+        53,
+        50
+      ],
+      "visibility": "Rear view; left hand merges into dark sleeve and edge, cannot confidently locate fingertip. Small right hand skin end visible; both boot terminal outlines distinguishable from checker.",
+      "phase_note": "Coarse landmarks remain within read budget; original head/shoulder/sleeve/waist raster differs and must be individually followed, no invented larger breathing/nodding."
+    },
+    {
+      "source_id": 4,
+      "crown_surface": [
+        40,
+        15
+      ],
+      "neck_surface": [
+        40,
+        27
+      ],
+      "back_clothing_surface": [
+        40,
+        35
+      ],
+      "waist_clothing_surface": [
+        40,
+        44
+      ],
+      "pelvis_clothing_surface": [
+        40,
+        51
+      ],
+      "screen_left_boot_terminal": [
+        35,
+        82
+      ],
+      "screen_right_boot_terminal": [
+        45,
+        86
+      ],
+      "screen_left_hand_endpoint": null,
+      "screen_right_hand_surface": [
+        53,
+        50
+      ],
+      "visibility": "Rear view; left hand merges into dark sleeve and edge, cannot confidently locate fingertip. Small right hand skin end visible; both boot terminal outlines distinguishable from checker.",
+      "phase_note": "Coarse landmarks remain within read budget; original head/shoulder/sleeve/waist raster differs and must be individually followed, no invented larger breathing/nodding."
+    }
+  ],
+  "constraints": [
+    "Keep full back view without face/eye/cheek reveal.",
+    "Do not use one generated N design pose as all four animation frames. Original four bodies determine each phase.",
+    "Fixed root is not pelvis or a proven foot contact; do not bbox-center using checker extent.",
+    "Null hand means no reliable endpoint, not proof of missing hand; retain source silhouette without inventing a large exposed palm.",
+    "Preserve slightly unequal boot depth; do not symmetrize stance.",
+    "4->1 source difference403 pixels is legitimate; do not force last image identical to first."
+  ],
+  "timing": "12tick current/reference clip, not independent original EXE transition proof."
+}

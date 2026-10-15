@@ -1,0 +1,74 @@
+{
+  "status": "prepared_only_pending_parent_review_no_generation",
+  "direction": "S",
+  "source_raw": "art_source/hero_s_idle_rebuild_v1/raw-v1.png",
+  "source_raw_sha256": "aff234850d22e7748b7e0ab2c03f7fbcb4b842f52d0ca4fcfbc206fffba9f04d",
+  "rectangles": {
+    "direction_front_head": [
+      200,
+      55,
+      290,
+      175
+    ],
+    "chest_material": [
+      185,
+      195,
+      302,
+      266
+    ],
+    "wine_shoulder": [
+      125,
+      139,
+      181,
+      193
+    ],
+    "waist_modules": [
+      205,
+      307,
+      277,
+      340
+    ],
+    "fingerless_glove": [
+      97,
+      320,
+      143,
+      368
+    ],
+    "knee_material": [
+      165,
+      440,
+      219,
+      505
+    ],
+    "shin_material": [
+      175,
+      520,
+      208,
+      567
+    ],
+    "boot_material": [
+      166,
+      590,
+      206,
+      629
+    ]
+  },
+  "operations": "Exact rectangular crop and unscaled paste; no edited RGBA, no full body/whole standing leg/paired legs. Head is direction-matched identity only, not pose authority.",
+  "pose_inputs": [
+    "original-six-body-common-crop-main-8x.png",
+    "original-six-lower-detail-8x.png"
+  ],
+  "pose_crop_native": [
+    12,
+    8,
+    76,
+    96
+  ],
+  "pose_crop_root": [
+    4,
+    56
+  ],
+  "identity_input": "direction-matched-identity-fragments.png",
+  "priority": "All original six complete bodies are sole pose/camera/phase authority. Identity fragments only specify face/material/armor construction; never freeze head motion or copy idle leg silhouette.",
+  "source_shadow": "Original checker retained; partial checker outside common body crop may be omitted by rectangle only. No black/same-color subtraction."
+}

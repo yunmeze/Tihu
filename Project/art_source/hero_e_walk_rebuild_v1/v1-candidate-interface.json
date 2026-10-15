@@ -1,0 +1,36 @@
+{
+  "status": "native_pose_review_supports_shadow_gate_pending_parent",
+  "direction": "E",
+  "source_ids": [
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+  ],
+  "atlas": "v1-registered-atlas-128.png",
+  "atlas_sha256": "26a2a5d0b050f6d74133b6b2f3cd9478d8fb96ebf92a2ed12d8ceb551a52881b",
+  "frame_size": [
+    128,
+    128
+  ],
+  "grid": [
+    6,
+    1
+  ],
+  "draw_offset": [
+    -16,
+    -64
+  ],
+  "frame_ticks": 7,
+  "sampling": "new linear, original nearest",
+  "registration": "v1-registration.json",
+  "raw_sha256": "679abfe35c31d92e790f4ac682b18b439c6f7ffb3bbd95bed5cc44128a23edcc",
+  "scope": "Complete six-frame single generation. Original-size idle->two loops->idle and source comparison required; no shadow or preview promotion yet.",
+  "residuals": [
+    "E50 boot horizontal spread about15 versus source10 pixels; passing knee/ankle contour stronger than original.",
+    "E waist side plates and boot construction remain locally different; original-size idle transition required."
+  ],
+  "native_pose_review": "v1-native-pose-review.json"
+}

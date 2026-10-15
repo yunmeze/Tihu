@@ -1,0 +1,138 @@
+{
+  "status": "proposal_only_not_approved_for_generation",
+  "source_id": 1,
+  "direction": "N",
+  "source_canvas": [
+    128,
+    128
+  ],
+  "source_root": [
+    16,
+    64
+  ],
+  "common_crop": [
+    12,
+    8,
+    76,
+    96
+  ],
+  "crop_root": [
+    4,
+    56
+  ],
+  "source_layers": {
+    "body": {
+      "original": [
+        64,
+        72
+      ],
+      "offset": [
+        6,
+        -48
+      ],
+      "sourceOffset": 3354,
+      "sourceBytes": 5686,
+      "format": "BMP",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        62,
+        72
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "9eddd560fce3b372cd7f61a5e41e7cbbd47e65101b8ecbc38aedeb7ecde7b167",
+      "rect": [
+        1,
+        1,
+        64,
+        72
+      ]
+    },
+    "head": {
+      "original": [
+        8,
+        11
+      ],
+      "offset": [
+        20,
+        -49
+      ],
+      "sourceOffset": 3354,
+      "sourceBytes": 1166,
+      "format": "BMP",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        7,
+        11
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "f7dd0bc1a36fb2ce57945a6c94ea9aa28783e375ac01b82abbd8195f3b6d9b19",
+      "rect": [
+        1,
+        1,
+        8,
+        11
+      ]
+    }
+  },
+  "source_rgba_sha256": "e65b8e751f8cdf14aff085122fac0f173cae70b25825459a1e1ca4fb7701cc05",
+  "identity_raw": "art_source/hero_e_idle_rebuild_v1/raw-v1.png",
+  "identity_raw_sha256": "5e3aa6237dd275e9279f1cd9c6d042aa71abd06c55dad887a9487929de7284a9",
+  "identity_crops": {
+    "hair_texture_only": [
+      210,
+      80,
+      260,
+      115
+    ],
+    "collar_side_material": [
+      195,
+      175,
+      240,
+      200
+    ],
+    "shoulder_wine_shell": [
+      190,
+      210,
+      240,
+      255
+    ],
+    "silver_panel_material": [
+      250,
+      220,
+      290,
+      260
+    ],
+    "black_technical_fabric": [
+      235,
+      375,
+      265,
+      410
+    ],
+    "waist_module_material": [
+      230,
+      312,
+      265,
+      340
+    ],
+    "boot_shell_material": [
+      185,
+      635,
+      245,
+      668
+    ]
+  },
+  "scope": "One back-facing identity design only, no four-frame idle, no NE/NW and no runtime replacement.",
+  "geometry_authority": "Original N idle1 complete body/head silhouette and camera; no generated whole-body identity input.",
+  "design_proposal": [
+    "Compact paired silver-gray scapular armor panels following existing silver chest/side-panel thickness.",
+    "Narrow black technical spine channel and fitted rear torso underlayer; no broad robe/skirt.",
+    "Wine-red shoulder caps continuous with existing E/S shoulder shells; no new huge red back plate.",
+    "Segmented low-profile rear waist modules continuing existing belt construction, no pouch stack.",
+    "Tiny restrained cyan seams only; no large glowing core, backpack, wings, cloak or weapon.",
+    "Rear hair mass and collar follow original N silhouette; no eye, nose, cheek or front-face glimpse."
+  ],
+  "uncertainty": "Rear armor architecture is newly proposed, not recovered approved concept. Parent must view resulting one-design candidate before rear-direction animation expansion.",
+  "generation": "Not called. Await parent input review and explicit one-design authorization."
+}
