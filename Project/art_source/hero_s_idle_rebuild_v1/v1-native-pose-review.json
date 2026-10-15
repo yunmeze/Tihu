@@ -1,0 +1,36 @@
+{
+  "status": "pose_working_candidate_pending_single_shadow_normal_depth",
+  "reviewed_at_utc": "2026-10-15T05:32:40Z",
+  "evidence": [
+    {
+      "path": "/workspace/shared/legend-rebuild-adjacent-idle/all-twelve-native.png",
+      "sha256": "0ce9c962f69b4ff0d1f85ff6eb387907b0da4a38b2344bca0102c5bb19ce451b"
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-adjacent-idle/turns-twenty-native.jpg",
+      "sha256": "1d841d8843612bed394a72ad5620a0f54a480a05e6b7f86ea3369d086a58a816"
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-adjacent-idle/native.log",
+      "sha256": "bc0c1b37be88e56a38f964263ba84ac5834234d2be93be57ae448dab74409b85"
+    }
+  ],
+  "observations": [
+    "Direction and within-group phase scale remain stable in original-size boards.",
+    "E narrow profile, SE three-quarter and S front width change are direction-appropriate; no obvious whole-body size change in twenty sampled states.",
+    "S brighter symmetric chest/shoulder and E continuous pale waist panels remain visible identity residuals; no obvious full-outfit flash at this size."
+  ],
+  "limits": [
+    "Evidence is actual twelve-phase and twenty-state board review plus recorded native sequence, not a claim of uninterrupted human realtime viewing.",
+    "No E/S shadow or depth approval yet."
+  ],
+  "next_gate": {
+    "receiver_y": 86,
+    "cast": [
+      0.5304659498207885,
+      -0.3978494623655914
+    ],
+    "method": "One fixed actor-relative horizontal receiver shared with SE. Do not independently pin either elevated boot or both boots to ground.",
+    "required": "Original-size single-shadow direction turns and normal-depth tree-front/tree-back checks."
+  }
+}

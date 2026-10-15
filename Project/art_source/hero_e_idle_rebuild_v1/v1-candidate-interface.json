@@ -1,5 +1,5 @@
 {
-  "status": "diagnostic_only_pending_native",
+  "status": "approved_bounded_optional_idle_preview",
   "direction": "E",
   "source_ids": [
     9,
@@ -24,6 +24,10 @@
   "frame_ticks": 12,
   "sampling": "newlinear, source nearest",
   "registration": "v1-registration.json",
-  "required_review": "four source/native phases and E-SE-S adjacent turns at original size; no new shadow yet",
-  "identity_residual": "local armor panel/waist arrangement differs from SE; actual native review decides severity"
+  "required_review": "single-shadow receiver86 adjacent direction turns and normal-depth tree-front/tree-back",
+  "identity_residual": "local armor panel/waist arrangement differs from SE; actual native review decides severity",
+  "pose_review": "v1-native-pose-review.json",
+  "shadow_review": "v1-native-shadow-review.json",
+  "runtime_asset": "res://assets/scifi/hero/e_idle_v1/body.png",
+  "runtime_manifest": "res://assets/scifi/hero/e_idle_v1/manifest.json"
 }

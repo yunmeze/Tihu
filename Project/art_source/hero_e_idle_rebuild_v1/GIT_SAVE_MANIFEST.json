@@ -1,5 +1,5 @@
 {
-  "status": "candidate_pending_native_turns",
+  "status": "approved_bounded_optional_idle_preview",
   "files": [
     {
       "path": "raw-v1.png",
@@ -23,7 +23,7 @@
     },
     {
       "path": "v1-candidate-interface.json",
-      "sha256": "054fa728f33edcb9f31f0ded2a23562ef91130cd260081fc32f05994b95ac168"
+      "sha256": "baaf06fc651f6e259c2b213d9871dfa59c694578d1c10ff0bc55a1f1e8243d2b"
     },
     {
       "path": "v1-registered-atlas-128.png",
@@ -32,6 +32,14 @@
     {
       "path": "README.md",
       "sha256": "60c074eaa4e35ede42d1ae5f6a0f96646ccdad671b6c69ed1d5ceddb8dc5bb70"
+    },
+    {
+      "path": "v1-native-pose-review.json",
+      "sha256": "1b64dac0d5197ac6de998ffc3dfefcbe6d324a1150bc6e30269c43dfa15e4c8e"
+    },
+    {
+      "path": "v1-native-shadow-review.json",
+      "sha256": "c6dc4d721e960068d996a28436603414152a6e73179d6126d74b34c278c1e603"
     }
   ],
   "input_manifest": "../hero_e_idle_source_r7/GIT_SAVE_MANIFEST.json",

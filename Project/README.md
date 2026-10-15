@@ -39,3 +39,5 @@ Temple art preview: in `scenes/art_preview.tscn`, T toggles the selected A13 mai
 The optional art preview now includes selected SE idle13–16 plus walk51–56, with one fixed ground receiver across all ten phases. M runs the bounded two-cell SE demonstration; P steps poses. See `docs/SE_IDLE_WALK_ART_PREVIEW.md` for limits and controls. Gameplay entries still use the original character.
 
 The same optional art preview also has G for the reviewed first A13 golden tree and F6 for its trunk-front source-hero view. Only seven exact owners change; nearest sampling and original depth order remain. This is a structural preview without a replacement tree cast shadow. See `docs/A13_FIRST_TREE_ART_PREVIEW.md`.
+
+Art preview adjacent idle directions: 1 E, 2 SE, 3 S; C loops that direction, P advances selected phases. All use one fixed86 receiver. M is still SE-only walking. E/S walking and running are not replaced. See `docs/ADJACENT_IDLE_ART_PREVIEW.md`.

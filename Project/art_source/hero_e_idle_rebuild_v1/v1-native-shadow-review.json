@@ -1,0 +1,34 @@
+{
+  "status": "bounded_native_shadow_depth_review_pass_pending_promotion",
+  "reviewed_at_utc": "2026-10-15T05:36:29Z",
+  "evidence": [
+    {
+      "path": "/workspace/shared/legend-rebuild-adjacent-idle/soft-twenty-native.jpg",
+      "sha256": "83aed3b51b9728d6bbbbbfad7aef2b5a8dc94ad698d8a3042d0568e80901aa47"
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-adjacent-idle/soft-depth-native.jpg",
+      "sha256": "87fda4d65de69824a8de900f2cc04bc0cd3a3c0964f4978c3b6799bc178ebc8a"
+    },
+    {
+      "path": "/workspace/shared/legend-rebuild-adjacent-idle/shadow-native.log",
+      "sha256": "9a2726ba72632cd36ed5910fdb44a5f78a5c6a38dca2fa0981b05e598f3f1499"
+    }
+  ],
+  "receiver_y": 86,
+  "cast": [
+    0.5304659498207885,
+    -0.3978494623655914
+  ],
+  "observations": [
+    "Actual twenty-state board reviewed: one soft shadow follows E-SE-S-SE-E turns without obvious root jump, detached foot appearance or checker duplication.",
+    "E9/S17 tree-back and tree-front images reviewed: crown occludes body behind; body and one shadow visible in front.",
+    "S frontal shadow width tracks wider frontal silhouette."
+  ],
+  "limits": [
+    "Fixed receiver is a 2D flat-ground approximation, not two-foot physical contact reconstruction.",
+    "Only shown ground and tree routes checked; elevated platforms and all-scene receivers not established.",
+    "Continuous recorded states and boards, not uninterrupted human realtime observation."
+  ],
+  "unchanged_body_atlas_sha256": "93a81b249a96b922d39a57db7d929dd46f5d9f5b1741c357083b4092a06d7e4b"
+}

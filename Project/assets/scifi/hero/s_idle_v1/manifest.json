@@ -1,0 +1,46 @@
+{
+  "schema": "direction-idle-art-preview-v1",
+  "direction": "S",
+  "atlas": "res://assets/scifi/hero/s_idle_v1/body.png",
+  "sha256": "d828d0e0e7f7f27314fd41cb5033bd3495a636c896d4998ca72bdc340a78c025",
+  "frames": [
+    17,
+    18,
+    19,
+    20
+  ],
+  "frame_size": [
+    128,
+    128
+  ],
+  "grid": [
+    4,
+    1
+  ],
+  "draw_offset": [
+    -16,
+    -64
+  ],
+  "body_filter": "linear",
+  "source_filter": "nearest",
+  "ticks_per_frame": 12,
+  "shadow": {
+    "helper": "res://scripts/art/hero_alpha_ground_shadow.gd",
+    "shader": "res://shaders/hero_alpha_ground_shadow.gdshader",
+    "receiver_mode": "fixed_horizontal",
+    "receiver_y": 86,
+    "cast": [
+      0.5304659498207885,
+      -0.3978494623655914
+    ],
+    "opacity": 0.3,
+    "blur": 0.9,
+    "approximation": "Shared actor-relative 2D flat receiver; elevated boot screen coordinates are not physical contacts."
+  },
+  "scope": "Optional E/SE/S static idle preview only; each direction four phases. Default source gameplay unchanged. No new walk for this direction.",
+  "residuals": [
+    "S front chest/shoulder brighter and symmetric; E waist pale modules more continuous than SE; original-size turns retain readable shared identity."
+  ],
+  "registration": "res://art_source/hero_s_idle_rebuild_v1/v1-registration.json",
+  "provenance_note": "Registration is production provenance in ignored art_source, not a runtime dependency."
+}
