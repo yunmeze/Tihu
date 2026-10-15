@@ -1,0 +1,565 @@
+{
+  "status": "research_only_no_generation",
+  "grid": {
+    "cell_logical": [
+      128,
+      128
+    ],
+    "layout": [
+      3,
+      2
+    ],
+    "source_order": [
+      57,
+      58,
+      59,
+      60,
+      61,
+      62
+    ],
+    "root": [
+      16,
+      64
+    ],
+    "display_scale": 4,
+    "transform": "q=4*p+[512*(i%3),512*(i//3)]"
+  },
+  "legend": {
+    "blue": "visible sleeve core",
+    "pink": "visible hand skin core",
+    "green": "visible trouser core",
+    "gold": "visible distal boot core",
+    "gray": "unknown or uncertain; all torso/head/joints unclassified"
+  },
+  "semantic_limit": "index18 inferred checker shadow, not native renderer certified; shapes retain clothing exterior, not anatomical body",
+  "records": [
+    {
+      "frame": 57,
+      "input_sha256": "2e9809023e723569f8953d1e61f8e4c48617937f60e0833d67815e5e75698c64",
+      "regions": {
+        "L_sleeve_proposal": [
+          [
+            28,
+            29
+          ],
+          [
+            32,
+            29
+          ],
+          [
+            29,
+            40
+          ],
+          [
+            25,
+            40
+          ]
+        ],
+        "L_hand_proposal": [
+          25,
+          43,
+          28,
+          46
+        ],
+        "L_trouser_proposal": [
+          33,
+          62,
+          36,
+          66
+        ],
+        "L_distal_boot_proposal": [
+          33,
+          87,
+          38,
+          91
+        ],
+        "R_sleeve_proposal": [
+          [
+            47,
+            29
+          ],
+          [
+            51,
+            29
+          ],
+          [
+            55,
+            48
+          ],
+          [
+            51,
+            48
+          ]
+        ],
+        "R_hand_proposal": [
+          51,
+          51,
+          54,
+          55
+        ],
+        "R_trouser_proposal": [
+          43,
+          58,
+          46,
+          62
+        ],
+        "R_distal_boot_proposal": [
+          43,
+          69,
+          47,
+          73
+        ]
+      },
+      "alpha_byte_exact": true,
+      "support_xor_pixels": 0,
+      "core_pixel_counts": {
+        "0": 1081,
+        "1": 62,
+        "2": 5,
+        "3": 12,
+        "4": 12
+      },
+      "hidden_geometry_added": false
+    },
+    {
+      "frame": 58,
+      "input_sha256": "5e651f28cde307afaec816bc320a11097d5828ea5771a97dcc4fbac1c2bb50e3",
+      "regions": {
+        "L_sleeve_proposal": [
+          [
+            28,
+            29
+          ],
+          [
+            32,
+            29
+          ],
+          [
+            29,
+            42
+          ],
+          [
+            25,
+            42
+          ]
+        ],
+        "L_hand_proposal": [
+          25,
+          45,
+          28,
+          49
+        ],
+        "L_trouser_proposal": [
+          33,
+          60,
+          36,
+          64
+        ],
+        "L_distal_boot_proposal": [
+          33,
+          84,
+          38,
+          88
+        ],
+        "R_sleeve_proposal": [
+          [
+            47,
+            29
+          ],
+          [
+            51,
+            29
+          ],
+          [
+            55,
+            46
+          ],
+          [
+            51,
+            46
+          ]
+        ],
+        "R_hand_proposal": [
+          51,
+          49,
+          54,
+          52
+        ],
+        "R_trouser_proposal": [
+          43,
+          62,
+          46,
+          66
+        ],
+        "R_distal_boot_proposal": [
+          44,
+          70,
+          48,
+          73
+        ]
+      },
+      "alpha_byte_exact": true,
+      "support_xor_pixels": 0,
+      "core_pixel_counts": {
+        "0": 1070,
+        "1": 63,
+        "2": 3,
+        "3": 12,
+        "4": 10
+      },
+      "hidden_geometry_added": false
+    },
+    {
+      "frame": 59,
+      "input_sha256": "d1c9fe41c42782d23e0d3987c41000a25b3d966f89e039a32d40cc6baacc10a3",
+      "regions": {
+        "L_sleeve_proposal": [
+          [
+            28,
+            29
+          ],
+          [
+            32,
+            29
+          ],
+          [
+            29,
+            46
+          ],
+          [
+            25,
+            46
+          ]
+        ],
+        "L_hand_proposal": [
+          25,
+          49,
+          29,
+          53
+        ],
+        "L_trouser_proposal": [
+          33,
+          58,
+          36,
+          62
+        ],
+        "L_distal_boot_proposal": [
+          33,
+          79,
+          38,
+          83
+        ],
+        "R_sleeve_proposal": [
+          [
+            47,
+            29
+          ],
+          [
+            51,
+            29
+          ],
+          [
+            56,
+            42
+          ],
+          [
+            52,
+            42
+          ]
+        ],
+        "R_hand_proposal": [
+          52,
+          45,
+          55,
+          48
+        ],
+        "R_trouser_proposal": [
+          43,
+          62,
+          46,
+          66
+        ],
+        "R_distal_boot_proposal": [
+          43,
+          84,
+          48,
+          88
+        ]
+      },
+      "alpha_byte_exact": true,
+      "support_xor_pixels": 0,
+      "core_pixel_counts": {
+        "0": 1114,
+        "1": 64,
+        "2": 3,
+        "3": 12,
+        "4": 15
+      },
+      "hidden_geometry_added": false
+    },
+    {
+      "frame": 60,
+      "input_sha256": "8120a4eca7437e0c8fae1e768cd1d86699a8bf93d23a1f9b0580f4d21a9dc055",
+      "regions": {
+        "L_sleeve_proposal": [
+          [
+            28,
+            29
+          ],
+          [
+            32,
+            29
+          ],
+          [
+            30,
+            48
+          ],
+          [
+            26,
+            48
+          ]
+        ],
+        "L_hand_proposal": [
+          26,
+          51,
+          30,
+          55
+        ],
+        "L_trouser_proposal": [
+          33,
+          58,
+          36,
+          62
+        ],
+        "L_distal_boot_proposal": [
+          33,
+          69,
+          38,
+          73
+        ],
+        "R_sleeve_proposal": [
+          [
+            47,
+            29
+          ],
+          [
+            51,
+            29
+          ],
+          [
+            56,
+            41
+          ],
+          [
+            52,
+            41
+          ]
+        ],
+        "R_hand_proposal": [
+          52,
+          43,
+          56,
+          46
+        ],
+        "R_trouser_proposal": [
+          43,
+          62,
+          46,
+          66
+        ],
+        "R_distal_boot_proposal": [
+          42,
+          87,
+          48,
+          91
+        ]
+      },
+      "alpha_byte_exact": true,
+      "support_xor_pixels": 0,
+      "core_pixel_counts": {
+        "0": 1069,
+        "1": 68,
+        "2": 5,
+        "3": 12,
+        "4": 12
+      },
+      "hidden_geometry_added": false
+    },
+    {
+      "frame": 61,
+      "input_sha256": "1f0e21f9edf44de91f394f01dfa00bbf724af49cae0e2f5a9526354bb014cf37",
+      "regions": {
+        "L_sleeve_proposal": [
+          [
+            28,
+            29
+          ],
+          [
+            32,
+            29
+          ],
+          [
+            29,
+            46
+          ],
+          [
+            25,
+            46
+          ]
+        ],
+        "L_hand_proposal": [
+          26,
+          49,
+          29,
+          52
+        ],
+        "L_trouser_proposal": [
+          33,
+          61,
+          36,
+          65
+        ],
+        "L_distal_boot_proposal": [
+          33,
+          70,
+          37,
+          74
+        ],
+        "R_sleeve_proposal": [
+          [
+            47,
+            29
+          ],
+          [
+            51,
+            29
+          ],
+          [
+            56,
+            43
+          ],
+          [
+            52,
+            43
+          ]
+        ],
+        "R_hand_proposal": [
+          53,
+          46,
+          56,
+          48
+        ],
+        "R_trouser_proposal": [
+          43,
+          61,
+          46,
+          65
+        ],
+        "R_distal_boot_proposal": [
+          43,
+          84,
+          48,
+          88
+        ]
+      },
+      "alpha_byte_exact": true,
+      "support_xor_pixels": 0,
+      "core_pixel_counts": {
+        "0": 1071,
+        "1": 63,
+        "2": 3,
+        "3": 12,
+        "4": 12
+      },
+      "hidden_geometry_added": false
+    },
+    {
+      "frame": 62,
+      "input_sha256": "64f8544620477c0887eba0d52438add2d33180b17596114ec44a312efa81c640",
+      "regions": {
+        "L_sleeve_proposal": [
+          [
+            28,
+            29
+          ],
+          [
+            32,
+            29
+          ],
+          [
+            29,
+            42
+          ],
+          [
+            25,
+            42
+          ]
+        ],
+        "L_hand_proposal": [
+          25,
+          45,
+          28,
+          48
+        ],
+        "L_trouser_proposal": [
+          33,
+          62,
+          36,
+          66
+        ],
+        "L_distal_boot_proposal": [
+          33,
+          83,
+          38,
+          87
+        ],
+        "R_sleeve_proposal": [
+          [
+            47,
+            29
+          ],
+          [
+            51,
+            29
+          ],
+          [
+            56,
+            46
+          ],
+          [
+            52,
+            46
+          ]
+        ],
+        "R_hand_proposal": [
+          52,
+          49,
+          55,
+          52
+        ],
+        "R_trouser_proposal": [
+          43,
+          58,
+          46,
+          62
+        ],
+        "R_distal_boot_proposal": [
+          43,
+          79,
+          48,
+          83
+        ]
+      },
+      "alpha_byte_exact": true,
+      "support_xor_pixels": 0,
+      "core_pixel_counts": {
+        "0": 1118,
+        "1": 60,
+        "2": 2,
+        "3": 12,
+        "4": 16
+      },
+      "hidden_geometry_added": false
+    }
+  ]
+}

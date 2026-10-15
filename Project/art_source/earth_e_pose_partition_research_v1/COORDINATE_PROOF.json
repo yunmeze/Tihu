@@ -1,0 +1,459 @@
+{
+  "status": "analysis_only_not_final_art_not_generation_input_approval",
+  "semantic_limit": "index18 shadow role strongly inferred, not native renderer certified",
+  "grid": {
+    "cell_logical": [
+      128,
+      128
+    ],
+    "cell_display": [
+      512,
+      512
+    ],
+    "layout": [
+      3,
+      2
+    ],
+    "scale": 4,
+    "root": [
+      16,
+      64
+    ],
+    "transform": "q=4*p+[512*(i%3),512*(i//3)]"
+  },
+  "regions": "human-read conservative visible cores; gray includes source boundary uncertainty, unclassified torso, knees, shins, overlapping surfaces; no artificial outer boundaries",
+  "records": [
+    {
+      "frame": 45,
+      "input_sha256": "c9ed286687c1bdba09906aa22a7a9e8764b1ea967a151c15191beb8e1fc59637",
+      "full128_root": [
+        16,
+        64
+      ],
+      "alpha_unchanged": true,
+      "opaque_support_xor_pixels": 0,
+      "sleeve_core_proposal": [
+        [
+          35,
+          34
+        ],
+        [
+          38,
+          35
+        ],
+        [
+          35,
+          43
+        ],
+        [
+          33,
+          49
+        ],
+        [
+          30,
+          49
+        ],
+        [
+          32,
+          43
+        ]
+      ],
+      "hand_region": [
+        31,
+        55,
+        35,
+        59
+      ],
+      "trouser_core_box": [
+        35,
+        59,
+        44,
+        63
+      ],
+      "toe_surface_boxes": [
+        [
+          24,
+          74,
+          31,
+          80
+        ],
+        [
+          55,
+          77,
+          62,
+          83
+        ]
+      ],
+      "uncertainty_pixels": 970,
+      "class_pixel_counts": {
+        "0": 0,
+        "1": 17,
+        "2": 8,
+        "3": 22,
+        "4": 39,
+        "5": 20
+      },
+      "no_hidden_geometry": true
+    },
+    {
+      "frame": 46,
+      "input_sha256": "6810ab6fdb3e86853e31fa0878b4dca8a99ffa054a09324e0b70a9bfc0f37e24",
+      "full128_root": [
+        16,
+        64
+      ],
+      "alpha_unchanged": true,
+      "opaque_support_xor_pixels": 0,
+      "sleeve_core_proposal": [
+        [
+          35,
+          35
+        ],
+        [
+          39,
+          35
+        ],
+        [
+          38,
+          43
+        ],
+        [
+          37,
+          50
+        ],
+        [
+          34,
+          50
+        ],
+        [
+          34,
+          43
+        ]
+      ],
+      "hand_region": [
+        35,
+        54,
+        39,
+        58
+      ],
+      "trouser_core_box": [
+        35,
+        59,
+        44,
+        63
+      ],
+      "toe_surface_boxes": [
+        [
+          26,
+          73,
+          33,
+          79
+        ],
+        [
+          43,
+          83,
+          50,
+          89
+        ]
+      ],
+      "uncertainty_pixels": 848,
+      "class_pixel_counts": {
+        "0": 0,
+        "1": 35,
+        "2": 9,
+        "3": 23,
+        "4": 29,
+        "5": 20
+      },
+      "no_hidden_geometry": true
+    },
+    {
+      "frame": 47,
+      "input_sha256": "d91d39d90faa59312c2ad6378e96d7801237b47090c6bfcffe34962847783c43",
+      "full128_root": [
+        16,
+        64
+      ],
+      "alpha_unchanged": true,
+      "opaque_support_xor_pixels": 0,
+      "sleeve_core_proposal": [
+        [
+          38,
+          35
+        ],
+        [
+          41,
+          36
+        ],
+        [
+          42,
+          43
+        ],
+        [
+          43,
+          50
+        ],
+        [
+          39,
+          50
+        ],
+        [
+          37,
+          43
+        ]
+      ],
+      "hand_region": [
+        42,
+        54,
+        46,
+        58
+      ],
+      "trouser_core_box": [
+        35,
+        59,
+        44,
+        63
+      ],
+      "toe_surface_boxes": [
+        [
+          37,
+          83,
+          44,
+          89
+        ],
+        [
+          46,
+          74,
+          53,
+          80
+        ]
+      ],
+      "uncertainty_pixels": 899,
+      "class_pixel_counts": {
+        "0": 0,
+        "1": 38,
+        "2": 9,
+        "3": 24,
+        "4": 31,
+        "5": 20
+      },
+      "no_hidden_geometry": true
+    },
+    {
+      "frame": 48,
+      "input_sha256": "dbcc7bc71db38da4fb7f062b3b7bbd4be0d9449cb587e847e375fe577ae8902a",
+      "full128_root": [
+        16,
+        64
+      ],
+      "alpha_unchanged": true,
+      "opaque_support_xor_pixels": 0,
+      "sleeve_core_proposal": [
+        [
+          40,
+          35
+        ],
+        [
+          43,
+          36
+        ],
+        [
+          45,
+          44
+        ],
+        [
+          47,
+          51
+        ],
+        [
+          43,
+          51
+        ],
+        [
+          40,
+          43
+        ]
+      ],
+      "hand_region": [
+        47,
+        54,
+        51,
+        58
+      ],
+      "trouser_core_box": [
+        35,
+        59,
+        44,
+        63
+      ],
+      "toe_surface_boxes": [
+        [
+          24,
+          80,
+          31,
+          86
+        ],
+        [
+          55,
+          70,
+          62,
+          76
+        ]
+      ],
+      "uncertainty_pixels": 950,
+      "class_pixel_counts": {
+        "0": 0,
+        "1": 36,
+        "2": 9,
+        "3": 24,
+        "4": 38,
+        "5": 20
+      },
+      "no_hidden_geometry": true
+    },
+    {
+      "frame": 49,
+      "input_sha256": "33f413c8c71aff8678cf0e0c324070532fb048ed622e0d2508cf866e241f13e5",
+      "full128_root": [
+        16,
+        64
+      ],
+      "alpha_unchanged": true,
+      "opaque_support_xor_pixels": 0,
+      "sleeve_core_proposal": [
+        [
+          36,
+          35
+        ],
+        [
+          39,
+          35
+        ],
+        [
+          40,
+          43
+        ],
+        [
+          41,
+          50
+        ],
+        [
+          37,
+          50
+        ],
+        [
+          36,
+          43
+        ]
+      ],
+      "hand_region": [
+        41,
+        54,
+        45,
+        58
+      ],
+      "trouser_core_box": [
+        35,
+        59,
+        44,
+        63
+      ],
+      "toe_surface_boxes": [
+        [
+          26,
+          79,
+          33,
+          85
+        ],
+        [
+          43,
+          73,
+          50,
+          79
+        ]
+      ],
+      "uncertainty_pixels": 775,
+      "class_pixel_counts": {
+        "0": 0,
+        "1": 35,
+        "2": 9,
+        "3": 15,
+        "4": 40,
+        "5": 20
+      },
+      "no_hidden_geometry": true
+    },
+    {
+      "frame": 50,
+      "input_sha256": "cad1a056766354084830307f4a9da0bba4494f88e809a2c3ee2bb2d94b4a2611",
+      "full128_root": [
+        16,
+        64
+      ],
+      "alpha_unchanged": true,
+      "opaque_support_xor_pixels": 0,
+      "sleeve_core_proposal": [
+        [
+          35,
+          35
+        ],
+        [
+          38,
+          35
+        ],
+        [
+          37,
+          43
+        ],
+        [
+          37,
+          50
+        ],
+        [
+          33,
+          50
+        ],
+        [
+          34,
+          43
+        ]
+      ],
+      "hand_region": [
+        34,
+        55,
+        38,
+        59
+      ],
+      "trouser_core_box": [
+        35,
+        59,
+        44,
+        63
+      ],
+      "toe_surface_boxes": [
+        [
+          36,
+          76,
+          43,
+          82
+        ],
+        [
+          46,
+          82,
+          53,
+          88
+        ]
+      ],
+      "uncertainty_pixels": 876,
+      "class_pixel_counts": {
+        "0": 0,
+        "1": 27,
+        "2": 9,
+        "3": 20,
+        "4": 34,
+        "5": 20
+      },
+      "no_hidden_geometry": true
+    }
+  ]
+}

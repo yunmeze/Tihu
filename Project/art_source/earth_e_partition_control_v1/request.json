@@ -1,0 +1,19 @@
+{
+  "tool_arguments": {
+    "prompt": "Create ONE transparent high-detail 2D control sheet with two E-facing poses:45 LEFT,49 RIGHT. Image1 is the sole pose authority: two equal full128 cells enlarged6x, same body scale/root/camera. Its outer boundary is the actual source silhouette; blue marks visible sleeve cores,pink low hand groups,green upper trouser cores,gold boot surface cores. Gray is unknown/unclassified visible surface, NOT missing limbs. These colors are analysis only, never the costume. Preserve each complete outline, short stride and low descending sleeve-to-hand route without inventing hidden joints or smoothing into a generic walk.\n45: wider but SHORT spread, near hand low and behind; preserve rear-sloping left leg and long right shin.49: compact spread, short tucked right shin/ankle, left toe lower than right, left ankle-to-toe down-right; near hand LOW and modestly forward, below waist, NOT a high horizontal bent-elbow fist. Preserve the distinct leg chains and hand phases together.\nImage2 is the ONLY identity/clothing source: same adult black-haired man, compact silver chest/abdomen, red shoulder, black long sleeves, silver forearm guards,gloves,black thighs with small side plates,separate knees/shins/boots. No old white tunic,silver waist stripes,large side armor,or colored segmentation patches. Identity fragments must not override poses.\nRender genuinely detailed new artwork, preferably at least400 real body pixels tall per pose, not enlarged flat or pixelated silhouettes. Keep equal full cells and common scale, do not fill empty margins by changing proportions or spreading the feet. Fixed warm upper-left light. Transparent background,no ground shadow,haze,text,guides,weapons or cape. Two complete figures generated together once,not animation-ready.\n",
+    "referenced_image_paths": [
+      "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_e_partition_control_v1/pose45-left49-right-full128-6x.png",
+      "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_e_partition_control_v1/approved-E-design-only.png"
+    ],
+    "transparent_background": true
+  },
+  "input_sha256": {
+    "Project/art_source/earth_e_partition_control_v1/pose45-left49-right-full128-6x.png": "4920f9d6b749f470dbcf6bff43e9421b398592dfda6dc28f7904e5d854428b9e",
+    "Project/art_source/earth_e_partition_control_v1/approved-E-design-only.png": "5a7108561f9c8aec39a25de76a4e5fea6d4ce5148e3649af5ad938724f749d38"
+  },
+  "pose_sources": {
+    "Project/diagnostics/earth_e_pose_partition_research_v1/45-visible-core-partition.png": "ddeb5ff06c97ea48a1c32c2ac03d6a5a89dadbfb2706089ff2ba4d7ee7841b3c",
+    "Project/diagnostics/earth_e_pose_partition_research_v1/49-visible-core-partition.png": "72b5cb76e56ebadec832a2ff672165b65c8991e966eaa3dabb00599e1430449e"
+  },
+  "coordinate_transform": "each128 cell nearest6; q=6p+[768*i,0]; root96,384 per cell; no tight crop"
+}

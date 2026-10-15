@@ -1,0 +1,172 @@
+{
+  "status": "rejected_leg_hand_joint_gate",
+  "raw_sha256": "269ab2d575604d79a71a8db4b39674e69975d16dfa25fe438ab597c7ef91d40c",
+  "raw_size": [
+    1774,
+    887
+  ],
+  "scale": 0.08040355240126258,
+  "fit": "one shared crown-to-two-toe vertical scale across both; crown rigid translation per frame; x never fitted, no limb warp or rotation",
+  "uncertainty": "raw surface point +/-8px, source toe +/-2, hand +/-3, crown +/-1; surface locations not hidden bones/contact; y used in scale so y residual not independent",
+  "exact_partition_reassembly": true,
+  "records": [
+    {
+      "frame": 45,
+      "raw_rect": [
+        0,
+        0,
+        887,
+        887
+      ],
+      "raw_surface_points_crown_lefttoe_righttoe_hand": [
+        [
+          520.0,
+          18.0
+        ],
+        [
+          334.0,
+          788.0
+        ],
+        [
+          788.0,
+          805.0
+        ],
+        [
+          361.0,
+          474.0
+        ]
+      ],
+      "source_points": [
+        [
+          40.0,
+          16.0
+        ],
+        [
+          29.0,
+          78.0
+        ],
+        [
+          60.0,
+          81.0
+        ],
+        [
+          33.0,
+          57.0
+        ]
+      ],
+      "translation": [
+        -1.8098472486565456,
+        14.552736056777274
+      ],
+      "mapped_points": [
+        [
+          40.0,
+          16.0
+        ],
+        [
+          25.044939253365158,
+          77.91073534897218
+        ],
+        [
+          61.548152043538366,
+          79.27759573979365
+        ],
+        [
+          27.215835168199245,
+          52.66401989497574
+        ]
+      ],
+      "toe_difference": [
+        36.50321279017321,
+        1.366860390821472
+      ],
+      "source_toe_difference": [
+        31.0,
+        3.0
+      ],
+      "hand_residual": [
+        -5.784164831800755,
+        -4.335980105024262
+      ]
+    },
+    {
+      "frame": 49,
+      "raw_rect": [
+        887,
+        0,
+        1774,
+        887
+      ],
+      "raw_surface_points_crown_lefttoe_righttoe_hand": [
+        [
+          432.0,
+          18.0
+        ],
+        [
+          330.0,
+          809.0
+        ],
+        [
+          579.0,
+          839.0
+        ],
+        [
+          430.0,
+          460.0
+        ]
+      ],
+      "source_points": [
+        [
+          39.0,
+          16.0
+        ],
+        [
+          31.0,
+          83.0
+        ],
+        [
+          48.0,
+          77.0
+        ],
+        [
+          43.0,
+          56.0
+        ]
+      ],
+      "translation": [
+        4.265665362654566,
+        14.552736056777274
+      ],
+      "mapped_points": [
+        [
+          39.0,
+          16.0
+        ],
+        [
+          30.798837655071218,
+          79.59920994939871
+        ],
+        [
+          50.8193222029856,
+          82.01131652143658
+        ],
+        [
+          38.83919289519748,
+          51.53837016135806
+        ]
+      ],
+      "toe_difference": [
+        20.020484547914386,
+        2.412106572037871
+      ],
+      "source_toe_difference": [
+        17.0,
+        -6.0
+      ],
+      "hand_residual": [
+        -4.160807104802522,
+        -4.46162983864194
+      ]
+    }
+  ]
+}
