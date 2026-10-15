@@ -1,0 +1,57 @@
+{
+  "source_owner_count": 7,
+  "nonempty_owner_count": 6,
+  "empty_owner_count": 1,
+  "complete_raw_pixel_count": 1572516,
+  "coverage_min": 1,
+  "coverage_max": 1,
+  "reassembled_all_rgba_bytes_equal": true,
+  "written_slice_reassembly_equal": true,
+  "raw_rgba_sha256": "0476a0b5000a8ed87bbacbf683c6725cd921d1fe4c31aa771f791f9325008624",
+  "reassembled_rgba_sha256": "0476a0b5000a8ed87bbacbf683c6725cd921d1fe4c31aa771f791f9325008624",
+  "original_identities_match_current_map": true,
+  "source_map_sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+  "raw_png_sha256": "c639ad6e35e10f3a4c61d13a38258b2db1f077cea3f757ec8e064762601cc9e6",
+  "low_alpha": {
+    "definition": "0<alpha<=16 and distance>16raw pixels (4logical units) from alpha>16 body; statistics only, none removed",
+    "all_low_alpha_count": 83015,
+    "far_low_alpha_count": 2808,
+    "far_alpha_max": 1,
+    "by_owner": [
+      {
+        "key": "Plant:292@57,34",
+        "far_low_alpha_count": 5
+      },
+      {
+        "key": "Plant:293@55,37",
+        "far_low_alpha_count": 155
+      },
+      {
+        "key": "Plant:294@56,37",
+        "far_low_alpha_count": 146
+      },
+      {
+        "key": "Plant:295@58,37",
+        "far_low_alpha_count": 183
+      },
+      {
+        "key": "Plant:296@59,37",
+        "far_low_alpha_count": 913
+      },
+      {
+        "key": "Plant:297@60,37",
+        "far_low_alpha_count": 1406
+      },
+      {
+        "key": "Plant:298@61,37",
+        "far_low_alpha_count": 0
+      }
+    ]
+  },
+  "limits": [
+    "No runtime integration or route executed here",
+    "Expanded canvas is not new collision",
+    "Per-owner sorting still requires runner front/back review",
+    "Do not generalize this instance to other trees"
+  ]
+}

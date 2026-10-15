@@ -89,6 +89,16 @@ func _draw_frame(pack_name:String,index:int,origin:Vector2,use_offset:bool,top:f
 			return
 	super._draw_frame(pack_name,index,origin,use_offset,top)
 
+const Fangzhang=preload("res://scripts/earth/fangzhang_candidate.gd")
+var prefer_fangzhang:=true
+var fangzhang_texture:CanvasTexture
+func prepare_fangzhang(path:String=Fangzhang.PATH) -> bool:
+	fangzhang_texture=Fangzhang.prepare(path,map)
+	queue_redraw()
+	return fangzhang_texture!=null
+func uses_fangzhang(entry:Dictionary) -> bool:
+	return prefer_fangzhang and fangzhang_texture!=null and Fangzhang.matches(entry)
+
 const Hall=preload("res://scripts/earth/hall_candidate.gd")
 var prefer_hall:=true
 var hall_owners:Dictionary={}
@@ -123,6 +133,9 @@ func _draw() -> void:
 	for entry in ordered_objects():
 		if entry.kind==-1:
 			_draw_hero(movement.position*Vector2(48,32)+offset,movement.source_frame());continue
+		if uses_fangzhang(entry):
+			draw_texture_rect(fangzhang_texture,Rect2(entry.origin+offset+Vector2(-32,-104),Vector2(128,160)),false)
+			continue
 		var index:int=entry.index
 		if entry.kind==7:index+=(tick/17)%4
 		elif entry.kind==5:index+=(tick/8)%5
