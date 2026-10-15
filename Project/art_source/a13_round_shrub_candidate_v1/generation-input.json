@@ -1,0 +1,35 @@
+{
+  "status": "one authorized generation; parent accepted whole/common-native-scale working candidate; four-owner/native engine review pending",
+  "tool": "built-in imagegen",
+  "transparent_background": true,
+  "input_images": [
+    {
+      "path": "Project/art_source/a13_round_shrub_source/source-composite.png",
+      "role": "sole geometry/composition and camera reference; source dark dither explicitly excluded",
+      "sha256": "683d47438076abfbd04e3de9af3e1515a7d8a8c41076d9da5d604962d2803f0f"
+    }
+  ],
+  "source_contract_sha256": "042195fc2bce15d8f86ab83913cd88ad0ac63007810d2b8c95943f9bf2ae67c8",
+  "art_direction_sha256": "a6543cbe1c509334f607805ac877e1a0f4f192060e25ce7cf2711749d8c637be",
+  "actual_prompt_file": "prompt.txt",
+  "prompt_sha256": "608edcd14dd2928526e18f032ed50f17642e6b8a2921a0871b439e7342320f29",
+  "scope": "one complete static shrub; raw immutable; whole-image and single-scale native review only; no four-owner partition yet",
+  "generated_original_path": "/workspace/scratch/22c897619190/generated_images/exec-dc4b376d-fdb8-447f-b4ff-45926ad2e129.png",
+  "raw_sha256": "b093644c662a8d42f8beee8160b4fe2b4c200257bfb7d3ac5589683069f8b469",
+  "actual_size": [
+    1363,
+    1154
+  ],
+  "actual_mode": "RGBA",
+  "alpha_threshold_used_for_editing": false,
+  "tool_prompt_whitespace": "prompt.txt read with outer whitespace trimmed",
+  "whole_image_acceptance": {
+    "accepted_utc": "2026-10-15T06:38:32Z",
+    "scope": "whole/static native-scale silhouette and color working candidate only; no runtime/depth/single-shadow acceptance",
+    "retained_residuals": [
+      "real high-alpha white spots:555raw indicator pixels;3nearest/5bilinear at measured native scale",
+      "saturated green fringes all alpha1..15; raw remains unmodified",
+      "no source actual root proven; actual_root stays null"
+    ]
+  }
+}
