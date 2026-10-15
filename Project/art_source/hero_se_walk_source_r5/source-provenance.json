@@ -1,0 +1,193 @@
+{
+  "action": "walk",
+  "direction": "SE",
+  "source_ids": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+  ],
+  "formula": "33+3*6+p, p=0..5",
+  "native_draw_origin_in_canvas": [
+    16,
+    64
+  ],
+  "canvas": [
+    128,
+    128
+  ],
+  "source_frames": [
+    {
+      "source_id": 51,
+      "layers": {
+        "body": {
+          "offset": [
+            6,
+            -46
+          ],
+          "size": [
+            64,
+            73
+          ],
+          "rgba_sha256": "a7c9f517ca94962b77fb5e223b75e636bb8d865ba97d606d1dd75f641a6f091c"
+        },
+        "head": {
+          "offset": [
+            21,
+            -48
+          ],
+          "size": [
+            8,
+            11
+          ],
+          "rgba_sha256": "0d21f2f3ed930ac949f0125cbb281398c9e17e65feb100a527503bfaa91b6df2"
+        }
+      },
+      "composite_sha256": "c067dfe42ce3ae808ad7d4cd660dd4aa0f35814a63a4ea51228ca06ee6023caa"
+    },
+    {
+      "source_id": 52,
+      "layers": {
+        "body": {
+          "offset": [
+            7,
+            -47
+          ],
+          "size": [
+            60,
+            73
+          ],
+          "rgba_sha256": "2cb9f225fa6e71ef253cc06cbf5feab4b85606e5edfd33f2165e0cc9cabd867a"
+        },
+        "head": {
+          "offset": [
+            21,
+            -49
+          ],
+          "size": [
+            8,
+            11
+          ],
+          "rgba_sha256": "6aa67f128ecf1c4ba9fcab11f7bc7265d3174df23d95431bdea4cdf3376cbf45"
+        }
+      },
+      "composite_sha256": "758f467bacdada3b4f2a516ecf30cbf265b00bd27c7a16b284bdb561c55e179c"
+    },
+    {
+      "source_id": 53,
+      "layers": {
+        "body": {
+          "offset": [
+            11,
+            -47
+          ],
+          "size": [
+            56,
+            69
+          ],
+          "rgba_sha256": "5b4cecd3c119a680b185414f5c671a5b9cebcfd01b8a6c3dbf197a3beb73d028"
+        },
+        "head": {
+          "offset": [
+            21,
+            -48
+          ],
+          "size": [
+            8,
+            11
+          ],
+          "rgba_sha256": "0277d3e0fbe09025b050e92f57af7c43c0fe021fb7208f18e6da59b73fb0610d"
+        }
+      },
+      "composite_sha256": "e21fd3adf1cf6bc45105f96fe9e628ad49a52f1d5194bdd807a1ecc7048f405d"
+    },
+    {
+      "source_id": 54,
+      "layers": {
+        "body": {
+          "offset": [
+            7,
+            -46
+          ],
+          "size": [
+            60,
+            69
+          ],
+          "rgba_sha256": "a655a75f44bb09ebb6a091530a87e8baae7fdeca1154e7a84d56ee250e2b85e8"
+        },
+        "head": {
+          "offset": [
+            20,
+            -48
+          ],
+          "size": [
+            12,
+            11
+          ],
+          "rgba_sha256": "4cf9a299e086e223e50b68a1b7a7e72b660251e293de6a4c0ce9716efe111411"
+        }
+      },
+      "composite_sha256": "9f132dd07b48cd205dd62be41e40ffc8e7defabd9b5cd4a2faba390417578bc2"
+    },
+    {
+      "source_id": 55,
+      "layers": {
+        "body": {
+          "offset": [
+            10,
+            -47
+          ],
+          "size": [
+            56,
+            69
+          ],
+          "rgba_sha256": "6482013264e1ff134e3302d1a0e2022acb841ecee26290a14f02d28baaea31ec"
+        },
+        "head": {
+          "offset": [
+            21,
+            -48
+          ],
+          "size": [
+            8,
+            11
+          ],
+          "rgba_sha256": "fb6aa2cd03f1c8b504f1203f8d9059bcd0c4efe2752c68661986484b39d078de"
+        }
+      },
+      "composite_sha256": "e170d25f15fa68f46027691c13ef266b54681309acc4b2eccad46dccd67d947a"
+    },
+    {
+      "source_id": 56,
+      "layers": {
+        "body": {
+          "offset": [
+            8,
+            -47
+          ],
+          "size": [
+            60,
+            72
+          ],
+          "rgba_sha256": "59389424a92d9a746315d4b360b8caaa35baa193107fcb61278cd5ab5cbe67c9"
+        },
+        "head": {
+          "offset": [
+            21,
+            -49
+          ],
+          "size": [
+            8,
+            11
+          ],
+          "rgba_sha256": "051882d0144598b02cb33b809851da02b16dd9ad59c218f285406234c216b351"
+        }
+      },
+      "composite_sha256": "309b8fa365d6f0a121d0f63337b202be5ad123f8bfd2fd8c722975b4dc582f42"
+    }
+  ],
+  "source_checker_preserved": true,
+  "timing_reference": "12/7/5 from reference clips; gate transition semantics separately audited"
+}
