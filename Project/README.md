@@ -33,3 +33,5 @@
 在 Godot 4.6.3 打开 `scenes/new_game_candidate.tscn`，按 F6，点击“踏入江湖 · 创建角色”。阅读原五页，再依次与方丈、凌云子交谈，可到 A00 首房。默认 F5 仍是 R1 原图预览。
 
 此入口已有单一实例库存初始布衣、真实原地图加载脚本、STOP 与原 NPC 剧情。界面明确标记兼容 RNG，其算法并非原 VB 随机流；彩蛋鸡仅静态显示，无 AI。当前无保存、战斗或后续任务，Windows 未验证。完整事务边界见 `docs/R6_NATURAL_OPENING_CANDIDATE.md`。
+
+Temple art preview: in `scenes/art_preview.tscn`, T toggles the selected A13 main-temple v2 cutouts and F5 shows its stair with the source hero. Only 30 source Building owners are replaced; no new building cast shadow or platform receiver is claimed. See `docs/A13_TEMPLE_ART_PREVIEW.md`.

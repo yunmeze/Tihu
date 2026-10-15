@@ -15,6 +15,8 @@ var linear:=true
 var cycling:=false
 var ticks:=0
 var label=Label.new()
+var temple_ready:=true
+var temple_on:=false
 const SOLES=[[[36,89],[52,81]],[[36.5,89],[51.5,81]],[[36.5,89],[51.5,81]],[[36,89],[52.5,81]]]
 func _ready() -> void:
 	atlas=load(ATLAS)
@@ -24,6 +26,7 @@ func _ready() -> void:
 		var w=World.new()
 		assert(w.setup(actor))
 		w.pass_kind=i
+		temple_ready=w.prepare_temple() and temple_ready
 		worlds.append(w)
 	actor.position=Vector2(60,41)
 	add_child(worlds[0])
@@ -53,6 +56,7 @@ func refresh() -> void:
 	for w in worlds:
 		w.camera=actor.position
 		w.tick=0
+		w.temple_enabled=temple_on and temple_ready
 		w.queue_redraw()
 	var origin=worlds[0].screen_origin()+actor.position*Vector2(48,32)-Vector2(16,64)
 	var s=SOLES[phase-13]
@@ -61,8 +65,8 @@ func refresh() -> void:
 	shadow.visible=new_body and shadow_on and ok
 	body.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR if new_body and linear else CanvasItem.TEXTURE_FILTER_NEAREST
 	body.queue_redraw()
-	label.text="R5 SE13-16 ART PREVIEW cell%s frame%d | new=%s shadow=%s linear=%s cycle=%s\nF1 edge61,39 F4 clear60,41 F2 back61,49 F3 front61,53 | S shadow B source/new L sampling C cycle P phase\nOne floor shadow before all objects; source checker only in source mode. No platform claim."%[actor.position,phase,new_body,shadow.visible,linear,cycling]
-	print("R5_DEPTH_STATE ",JSON.stringify({"cell":[actor.position.x,actor.position.y],"phase":phase,"new":new_body,"shadow":shadow.visible,"linear":linear,"cycle":cycling}))
+	label.text="R5 SE13-16 ART PREVIEW cell%s frame%d | new=%s shadow=%s linear=%s cycle=%s\nF1 edge61,39 F4 clear60,41 F2 back61,49 F3 front61,53 | S shadow B source/new L sampling C cycle P phase\nT temple source/new (no new building cast); F5 temple/source hero. No platform shadow claim."%[actor.position,phase,new_body,shadow.visible,linear,cycling]
+	print("R5_DEPTH_STATE ",JSON.stringify({"cell":[actor.position.x,actor.position.y],"phase":phase,"new":new_body,"shadow":shadow.visible,"linear":linear,"cycle":cycling,"temple":temple_on and temple_ready}))
 func _physics_process(_delta:float) -> void:
 	if cycling:
 		ticks+=1
@@ -72,6 +76,8 @@ func _physics_process(_delta:float) -> void:
 func _unhandled_input(event:InputEvent) -> void:
 	if not event is InputEventKey or not event.pressed or event.echo:return
 	match event.keycode:
+		KEY_T:temple_on=not temple_on if temple_ready else false
+		KEY_F5:actor.position=Vector2(66,35);new_body=false
 		KEY_F1:actor.position=Vector2(61,39)
 		KEY_F4:actor.position=Vector2(60,41)
 		KEY_F2:actor.position=Vector2(61,49)
