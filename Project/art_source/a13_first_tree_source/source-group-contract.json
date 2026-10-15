@@ -1,0 +1,941 @@
+{
+  "schema": "a13-first-tree-original-group-v1",
+  "status": "source preparation only; no generated art, runtime changes or GUI walk validation",
+  "map_source_sha256": "e1cc7189fc96e04312b935422ec511a078b1fbe6259b97b9e3c279732becb3e3",
+  "map_json_sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+  "texture_manifest_sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+  "plant_resource_source_sha256": "4c461ae5c4b233bec0698bd0dc37ccc2c54c92e99106dccf1b79b9b301a82a69",
+  "selected_root_owner_cell": [
+    57,
+    34
+  ],
+  "frame_range": [
+    292,
+    298
+  ],
+  "owner_count": 7,
+  "coordinate_contract": {
+    "floor_first": true,
+    "objects_sort": [
+      "layer",
+      "sort_y",
+      "stable_source_order"
+    ],
+    "ordinary_object_top": "32-original_height; ignore frame offset; add crop offset",
+    "floor_origin": "cell*[48,32]; ignore frame offset; add crop offset",
+    "npc_origin": "cell*[48,32] + original frame offset + crop offset",
+    "npc_layer": 1,
+    "npc_ticks": 17,
+    "source_fps": 50,
+    "dynamic_ticks": 8,
+    "kind8_top": -52,
+    "kind8_pingpong": [
+      55,
+      56,
+      57,
+      58,
+      59,
+      59,
+      58,
+      57,
+      56,
+      55
+    ],
+    "kind6": "spawn record, not scenery",
+    "kind7": "NPC-list reference, not extra scenery",
+    "scripts_preserved_not_executed": true
+  },
+  "world_bounds_xyxy": [
+    2642,
+    790,
+    2954,
+    1101
+  ],
+  "composite_size": [
+    312,
+    311
+  ],
+  "owners_in_draw_order": [
+    {
+      "key": "Plant:292@57,34",
+      "pack": "Map/Res/Plant",
+      "frame_index": 292,
+      "cell": [
+        57,
+        34
+      ],
+      "source_cell": [
+        0,
+        -1,
+        2,
+        292
+      ],
+      "cell_linear_index": 5734,
+      "source_map_byte_offset": 45900,
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 34,
+      "stable_source_order": 5734,
+      "original_canvas": [
+        48,
+        352
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        23
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        341,
+        307,
+        48,
+        310
+      ],
+      "native_source_offset": 4297986,
+      "native_source_bytes": 17974,
+      "world_rect": [
+        2736,
+        791,
+        48,
+        310
+      ],
+      "role": "trunk and inner crown, baked cast pixels",
+      "group_draw_order": 0
+    },
+    {
+      "key": "Plant:293@55,37",
+      "pack": "Map/Res/Plant",
+      "frame_index": 293,
+      "cell": [
+        55,
+        37
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        293
+      ],
+      "cell_linear_index": 5537,
+      "source_map_byte_offset": 44324,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 37,
+      "stable_source_order": 5537,
+      "original_canvas": [
+        48,
+        352
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        2,
+        20
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        391,
+        307,
+        46,
+        113
+      ],
+      "native_source_offset": 4315960,
+      "native_source_bytes": 17974,
+      "world_rect": [
+        2642,
+        884,
+        46,
+        113
+      ],
+      "role": "left crown slice; no separate cast classification asserted",
+      "group_draw_order": 1
+    },
+    {
+      "key": "Plant:294@56,37",
+      "pack": "Map/Res/Plant",
+      "frame_index": 294,
+      "cell": [
+        56,
+        37
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        294
+      ],
+      "cell_linear_index": 5637,
+      "source_map_byte_offset": 45124,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 37,
+      "stable_source_order": 5637,
+      "original_canvas": [
+        48,
+        416
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        14
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        439,
+        307,
+        48,
+        273
+      ],
+      "native_source_offset": 4333934,
+      "native_source_bytes": 21046,
+      "world_rect": [
+        2688,
+        814,
+        48,
+        273
+      ],
+      "role": "crown slice and baked cast pixels",
+      "group_draw_order": 2
+    },
+    {
+      "key": "Plant:295@58,37",
+      "pack": "Map/Res/Plant",
+      "frame_index": 295,
+      "cell": [
+        58,
+        37
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        295
+      ],
+      "cell_linear_index": 5837,
+      "source_map_byte_offset": 46724,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 37,
+      "stable_source_order": 5837,
+      "original_canvas": [
+        48,
+        448
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        22
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        489,
+        307,
+        48,
+        292
+      ],
+      "native_source_offset": 4354980,
+      "native_source_bytes": 22582,
+      "world_rect": [
+        2784,
+        790,
+        48,
+        292
+      ],
+      "role": "crown slice and baked cast pixels",
+      "group_draw_order": 3
+    },
+    {
+      "key": "Plant:296@59,37",
+      "pack": "Map/Res/Plant",
+      "frame_index": 296,
+      "cell": [
+        59,
+        37
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        296
+      ],
+      "cell_linear_index": 5937,
+      "source_map_byte_offset": 47524,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 37,
+      "stable_source_order": 5937,
+      "original_canvas": [
+        48,
+        384
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        6
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        539,
+        307,
+        48,
+        228
+      ],
+      "native_source_offset": 4377562,
+      "native_source_bytes": 19510,
+      "world_rect": [
+        2832,
+        838,
+        48,
+        228
+      ],
+      "role": "crown slice and baked cast pixels",
+      "group_draw_order": 4
+    },
+    {
+      "key": "Plant:297@60,37",
+      "pack": "Map/Res/Plant",
+      "frame_index": 297,
+      "cell": [
+        60,
+        37
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        297
+      ],
+      "cell_linear_index": 6037,
+      "source_map_byte_offset": 48324,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 37,
+      "stable_source_order": 6037,
+      "original_canvas": [
+        48,
+        320
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        18
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        589,
+        307,
+        48,
+        143
+      ],
+      "native_source_offset": 4397072,
+      "native_source_bytes": 16438,
+      "world_rect": [
+        2880,
+        914,
+        48,
+        143
+      ],
+      "role": "crown slice and baked cast pixels",
+      "group_draw_order": 5
+    },
+    {
+      "key": "Plant:298@61,37",
+      "pack": "Map/Res/Plant",
+      "frame_index": 298,
+      "cell": [
+        61,
+        37
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        298
+      ],
+      "cell_linear_index": 6137,
+      "source_map_byte_offset": 49124,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 37,
+      "stable_source_order": 6137,
+      "original_canvas": [
+        48,
+        224
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        15
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        639,
+        307,
+        26,
+        27
+      ],
+      "native_source_offset": 4413510,
+      "native_source_bytes": 11830,
+      "world_rect": [
+        2928,
+        1007,
+        26,
+        27
+      ],
+      "role": "outer baked cast shadow slice",
+      "group_draw_order": 6
+    }
+  ],
+  "manual_root_landmark": {
+    "id": "R0_woody_root_ground_contact",
+    "source_composite_xy": [
+      119,
+      300
+    ],
+    "world_xy": [
+      2761,
+      1090
+    ],
+    "manual_read_uncertainty_px": 4,
+    "read_region_xyxy": [
+      115,
+      296,
+      123,
+      304
+    ],
+    "contributors_in_draw_order": [
+      "Plant:292@57,34"
+    ],
+    "material_interpretation": "Center of visible woody root-flare contact band; approximate ground contact inferred from painted wood boundary. Excludes checker cast, lower grass/soil tuft, transparency bbox and tile/canvas bottom.",
+    "certainty": "Manual material read +/-4 original pixels, not exact surveyed ground coordinate."
+  },
+  "instance_family": [
+    {
+      "root_owner_cell": [
+        57,
+        34
+      ],
+      "complete": true,
+      "slots": [
+        {
+          "frame_index": 292,
+          "cell": [
+            57,
+            34
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            292
+          ]
+        },
+        {
+          "frame_index": 293,
+          "cell": [
+            55,
+            37
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            293
+          ]
+        },
+        {
+          "frame_index": 294,
+          "cell": [
+            56,
+            37
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            294
+          ]
+        },
+        {
+          "frame_index": 295,
+          "cell": [
+            58,
+            37
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            295
+          ]
+        },
+        {
+          "frame_index": 296,
+          "cell": [
+            59,
+            37
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            296
+          ]
+        },
+        {
+          "frame_index": 297,
+          "cell": [
+            60,
+            37
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            297
+          ]
+        },
+        {
+          "frame_index": 298,
+          "cell": [
+            61,
+            37
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            298
+          ]
+        }
+      ]
+    },
+    {
+      "root_owner_cell": [
+        70,
+        47
+      ],
+      "complete": true,
+      "slots": [
+        {
+          "frame_index": 292,
+          "cell": [
+            70,
+            47
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            292
+          ]
+        },
+        {
+          "frame_index": 293,
+          "cell": [
+            68,
+            50
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            293
+          ]
+        },
+        {
+          "frame_index": 294,
+          "cell": [
+            69,
+            50
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            294
+          ]
+        },
+        {
+          "frame_index": 295,
+          "cell": [
+            71,
+            50
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            295
+          ]
+        },
+        {
+          "frame_index": 296,
+          "cell": [
+            72,
+            50
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            296
+          ]
+        },
+        {
+          "frame_index": 297,
+          "cell": [
+            73,
+            50
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            297
+          ]
+        },
+        {
+          "frame_index": 298,
+          "cell": [
+            74,
+            50
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            298
+          ]
+        }
+      ]
+    }
+  ],
+  "animation": {
+    "proven": "Seven simultaneous spatial pieces, not seven animation phases. kind2 is static.",
+    "phase_count": 1
+  },
+  "shadow": {
+    "proven": "Baked checker/stipple cast exists within Plant frames of this group; no separate shadow owner is supplied by kind2 renderer.",
+    "manual_interpretation": "292 has trunk/cast; 293 is left crown (cast not separately established); 294-297 have foliage/cast; 298 is outer cast only. Exact per-pixel material masks have not been segmented.",
+    "preservation": "Keep all original owner keys, layer1, y34 for292 and y37 for293-298. Do not assign all art/shadow to root y34 or flatten into one sprite."
+  },
+  "reference_evidence": [
+    {
+      "path": "参考项目/src/map-effects.js",
+      "lines_hint": "6-22",
+      "sha256": "a936db5939440b3a52aa6e3c9e2e2f5e8b807a6e9617840eb47bd66d2a1e0134",
+      "claim": "kind2 yields one base frame; top=32-original[1]. Only kinds5/8 animate."
+    },
+    {
+      "path": "参考项目/src/game.js",
+      "lines_hint": "152",
+      "sha256": "04c7c32827e205f39dba7c0091ba96ebcd14e19f4ed841a8c347bdd2e9788577",
+      "claim": "drawWorld calls batch.frame(...,false); map objects and hero sort together."
+    },
+    {
+      "path": "参考项目/src/batch.js",
+      "lines_hint": "19",
+      "sha256": "5ec84c5d724017fa78f713d8da0e1a5426840806315523fa92e03540b99ea6d2",
+      "claim": "frame anchor=false ignores resource offset, always adds crop."
+    },
+    {
+      "path": "参考项目/src/map-flags.js",
+      "lines_hint": "9-18",
+      "sha256": "d785dd844dbd23ca6e93b7dbbdb85315eb4ce1d3d4d6a7327dcd8386cef6b789",
+      "claim": "flag -1 is blocked layer1; 0 is enterable layer1; comparison layer then y."
+    },
+    {
+      "path": "Project/scripts/world_view.gd",
+      "lines_hint": "45-58,75-78,91-101,115-140",
+      "sha256": "b404d8dd5e7e85a120fec00b7eb5f01e6bfc1fc37adf5e7878c1798432d4e285",
+      "claim": "Current runtime preserves source order and static kind2 dispatch."
+    },
+    {
+      "path": "Project/scripts/core/movement.gd",
+      "lines_hint": "15-31",
+      "sha256": "90185510aca061709ad4e7ac2a3c8668efc850d44fcce4bcee68e08c4e2b8a48",
+      "claim": "Current movement blocks -1/-2/-3 and forbids corner cutting."
+    }
+  ],
+  "recommended_static_route": {
+    "start": [
+      61,
+      39
+    ],
+    "checked_unit_steps": [
+      {
+        "cell": [
+          61,
+          39
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          60,
+          39
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          59,
+          39
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          59,
+          38
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          59,
+          37
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          58,
+          37
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          58,
+          36
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          58,
+          35
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          58,
+          34
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          58,
+          33
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          58,
+          32
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          57,
+          32
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          56,
+          32
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          56,
+          33
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          56,
+          34
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          56,
+          35
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          57,
+          35
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          58,
+          35
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          58,
+          36
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          59,
+          36
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          59,
+          37
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          59,
+          38
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          59,
+          39
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          60,
+          39
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      },
+      {
+        "cell": [
+          61,
+          39
+        ],
+        "flag": 0,
+        "npc_occupied": false
+      }
+    ],
+    "back_probe": [
+      57,
+      32
+    ],
+    "front_probe": [
+      57,
+      35
+    ],
+    "side_probes": [
+      [
+        58,
+        33
+      ],
+      [
+        58,
+        34
+      ],
+      [
+        58,
+        35
+      ],
+      [
+        56,
+        33
+      ],
+      [
+        56,
+        34
+      ],
+      [
+        56,
+        35
+      ]
+    ],
+    "full_group_front_probe": [
+      59,
+      38
+    ],
+    "expectations": [
+      "At back y32 actor sorts before all seven tree owners.",
+      "At y35 actor sorts after trunk292 (y34), but before crown/cast293-298 (y37). This mixed owner depth is intentional original behavior.",
+      "At y38 actor sorts after all group owners.",
+      "At equal y the existing stable source order remains; avoid equality as primary proof."
+    ],
+    "verification": "All route cells are nonblocked original flags and not original NPC cells; cardinal unit moves checked. Static feasibility only: actual head/body overlap, movement, camera and neighboring occlusion remain untested."
+  },
+  "limits": [
+    "Woody contact is a manual +/-4px region; grass, checker and alpha bbox are not physical root anchors.",
+    "Golden-tree visual identity is inferred from the composite, not a botanical species claim.",
+    "Family is exact frame-ID+offset match within A13 only; not a claim of global game inventory.",
+    "No source game/reference files modified. No runtime art installed. No image generation or GUI performed."
+  ]
+}
