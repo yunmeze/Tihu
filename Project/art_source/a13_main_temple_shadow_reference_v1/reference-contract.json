@@ -1,0 +1,403 @@
+{
+  "schema": "a13-temple-source-referenced-ground-shadow-research-v1",
+  "status": "offline evidence only; no runtime integration or native acceptance",
+  "meaning": "Source-referenced 2D ground-shadow fragment, not physical illumination reconstructed for the new roof.",
+  "inputs": {
+    "source_contract": {
+      "path": "art_source/a13_main_temple_source/source-group-contract.json",
+      "sha256": "30a726db95de66c5ec266ebea7d5d0903a84ebd5f478b3f2778f9e649123d0d3"
+    },
+    "candidate_raw": {
+      "path": "art_source/a13_main_temple_candidate_v2/raw.png",
+      "sha256": "3bf1876fd6b76831216668a645f4120dcbc737cfa2ba258e0fc3d2fee705c3e1"
+    },
+    "registration": {
+      "path": "assets/scifi/environment/a13_temple_v2/registration.json",
+      "sha256": "ccd287a99b3ca2e5732890208a3f482125deba989e244bb4277fb027c38d4599"
+    },
+    "map": {
+      "path": "data/maps/A13.json",
+      "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27"
+    },
+    "manifest": {
+      "path": "assets/original/manifest.json",
+      "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837"
+    }
+  },
+  "source_texture_pages": {
+    "res://assets/original/Map/Res/Building/0.png": {
+      "sha256": "6fc88a1aa96eb18687eea798bcb4eae1f0ebf6d546a5a076fb1c2546550b3343"
+    },
+    "res://assets/original/Map/Res/FloorBig/0.png": {
+      "sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+    },
+    "res://assets/original/Map/Res/FloorSmall/0.png": {
+      "sha256": "741a0daca4ccc8e9ac1eeac3ae391a07189d90fed115b42fd0d8b55b376f79bb"
+    }
+  },
+  "source_rgba_reconstruction_sha256": "b5a499e6c2285f5ed2cbee9c73fa83be03af26a9cb8a0d1d447155cd005c990a",
+  "canvas": {
+    "size": [
+      796,
+      665
+    ],
+    "world_top_left": [
+      2948,
+      642
+    ],
+    "pixel_center_convention": "x+0.5,y+0.5; rectangles upper bounds exclusive"
+  },
+  "source_rois": [
+    {
+      "source_xyxy_exclusive": [
+        680,
+        310,
+        796,
+        350
+      ],
+      "world_xyxy_exclusive": [
+        3628,
+        952,
+        3744,
+        992
+      ],
+      "checker_count": 1284,
+      "rgba": [
+        8,
+        0,
+        0,
+        255
+      ],
+      "checker_parity": "(source_x+source_y)%2 == 1",
+      "contributors": [
+        {
+          "key": "Building:3978@77,35",
+          "pixels": 280
+        },
+        {
+          "key": "Building:3983@75,36",
+          "pixels": 383
+        },
+        {
+          "key": "Building:3984@76,36",
+          "pixels": 621
+        }
+      ]
+    },
+    {
+      "source_xyxy_exclusive": [
+        684,
+        350,
+        796,
+        360
+      ],
+      "world_xyxy_exclusive": [
+        3632,
+        992,
+        3744,
+        1002
+      ],
+      "checker_count": 495,
+      "rgba": [
+        8,
+        0,
+        0,
+        255
+      ],
+      "checker_parity": "(source_x+source_y)%2 == 1",
+      "contributors": [
+        {
+          "key": "Building:3978@77,35",
+          "pixels": 175
+        },
+        {
+          "key": "Building:3983@75,36",
+          "pixels": 80
+        },
+        {
+          "key": "Building:3984@76,36",
+          "pixels": 240
+        }
+      ]
+    },
+    {
+      "source_xyxy_exclusive": [
+        700,
+        360,
+        796,
+        370
+      ],
+      "world_xyxy_exclusive": [
+        3648,
+        1002,
+        3744,
+        1012
+      ],
+      "checker_count": 249,
+      "rgba": [
+        8,
+        0,
+        0,
+        255
+      ],
+      "checker_parity": "(source_x+source_y)%2 == 1",
+      "contributors": [
+        {
+          "key": "Building:3978@77,35",
+          "pixels": 20
+        },
+        {
+          "key": "Building:3984@76,36",
+          "pixels": 229
+        }
+      ]
+    },
+    {
+      "source_xyxy_exclusive": [
+        728,
+        370,
+        796,
+        390
+      ],
+      "world_xyxy_exclusive": [
+        3676,
+        1012,
+        3744,
+        1032
+      ],
+      "checker_count": 24,
+      "rgba": [
+        8,
+        0,
+        0,
+        255
+      ],
+      "checker_parity": "(source_x+source_y)%2 == 1",
+      "contributors": [
+        {
+          "key": "Building:3984@76,36",
+          "pixels": 24
+        }
+      ]
+    }
+  ],
+  "floor_receiver_provenance": [
+    {
+      "cell": [
+        74,
+        28
+      ],
+      "pack": "Map/Res/FloorBig",
+      "frame": 406,
+      "world_rect": [
+        3552,
+        896,
+        96,
+        64
+      ],
+      "roi_pixels": 160
+    },
+    {
+      "cell": [
+        74,
+        30
+      ],
+      "pack": "Map/Res/FloorBig",
+      "frame": 406,
+      "world_rect": [
+        3552,
+        960,
+        96,
+        64
+      ],
+      "roi_pixels": 800
+    },
+    {
+      "cell": [
+        76,
+        28
+      ],
+      "pack": "Map/Res/FloorBig",
+      "frame": 406,
+      "world_rect": [
+        3648,
+        896,
+        96,
+        64
+      ],
+      "roi_pixels": 768
+    },
+    {
+      "cell": [
+        76,
+        30
+      ],
+      "pack": "Map/Res/FloorBig",
+      "frame": 406,
+      "world_rect": [
+        3648,
+        960,
+        96,
+        64
+      ],
+      "roi_pixels": 5808
+    },
+    {
+      "cell": [
+        76,
+        32
+      ],
+      "pack": "Map/Res/FloorBig",
+      "frame": 406,
+      "world_rect": [
+        3648,
+        1024,
+        96,
+        64
+      ],
+      "roi_pixels": 544
+    }
+  ],
+  "all_scene_receiver_audit": {
+    "placements_including_animation_frames_scanned": 1189,
+    "only_visible_intersections": [
+      {
+        "pack": "Map/Res/Building",
+        "frame": 3983,
+        "cell": [
+          75,
+          36
+        ],
+        "visible_checker_pixels": 463
+      },
+      {
+        "pack": "Map/Res/Building",
+        "frame": 3984,
+        "cell": [
+          76,
+          36
+        ],
+        "visible_checker_pixels": 1114
+      },
+      {
+        "pack": "Map/Res/Building",
+        "frame": 3978,
+        "cell": [
+          77,
+          35
+        ],
+        "visible_checker_pixels": 475
+      }
+    ],
+    "non_temple_or_structural_obstructions": 0
+  },
+  "raw_to_world": {
+    "scale": 0.533687668884736,
+    "world_top_left": [
+      2979.8431118835333,
+      665.2144416536717
+    ],
+    "rotation": 0,
+    "shear": 0
+  },
+  "classification": {
+    "scope": "Only the listed external-ground rectangles; exact RGBA is verified inside each rectangle, never searched globally.",
+    "unconfirmed_regions": "zero; no extrapolation to hidden or lower checker fragments",
+    "source_checker_isolation": "original transparent/opaque odd-parity checker pattern; all nontransparent pixels inside every fence must match",
+    "receiver_assumption": "FloorBig406 visible grass with no other original scenery/NPC coverage; this is rendered flat ground, not surveyed terrain elevation"
+  },
+  "source_safety_exclusion": {
+    "source": "All source nonzero alpha except the spatially verified checker; unknown shadow/apron also treated conservatively as blocked",
+    "safety_band_native_px": 2,
+    "metric": "Euclidean disk radius2",
+    "global_rgb_segmentation": false
+  },
+  "structure_exclusion": {
+    "source": "new raw sampled by registered nearest pixel-center mapping, all alpha>0",
+    "fill_enclosed_holes": true,
+    "safety_band_native_px": 2,
+    "metric": "Euclidean disk radius2",
+    "purpose": "Protect all visible building material, enclosed doors/interiors and edges. Not a ground/contact footprint."
+  },
+  "softening": {
+    "diagnostic_tint_rgb_bytes": [
+      9,
+      11,
+      14
+    ],
+    "passes": 1,
+    "kernel": "normalized Gaussian",
+    "sigma_native_px": 1.25,
+    "truncate_sigma": 3.0,
+    "input": "original binary half-density checker only",
+    "density_compensation": 2.0,
+    "opacity_cap": 0.3,
+    "finite_support": "Within the source safety receiver, only original checker pixels or transparent gaps bracketed on opposite sides by original checker within one pixel",
+    "order": "Gaussian, density compensation, opacity cap, then observed-envelope AND verified-receiver AND NOT structural-exclusion",
+    "quantization": "round(alpha*255); mathematical cap .30 may serialize as byte77"
+  },
+  "counts": {
+    "roi_pixels": 8080,
+    "receiver_after_source_safety_pixels": 7902,
+    "checker_pixels_excluded_by_source_structure_or_unknown": 117,
+    "original_checker_pixels": 2052,
+    "bracketed_checker_gaps": 1963,
+    "observed_plus_bracketed_envelope_pixels": 3898,
+    "checker_pixels_excluded_by_new_structure": 87,
+    "final_nonzero_pixels": 3765,
+    "final_max_alpha_byte": 76,
+    "final_max_float_alpha": 0.3,
+    "final_alpha_sum_in_opaque_pixel_equivalents": 1097.929411764706,
+    "protected_pixel_leak_count": 0,
+    "unknown_receiver_leak_count": 0,
+    "outside_observed_envelope_leak_count": 0
+  },
+  "source_checker_bbox": [
+    680,
+    310,
+    796,
+    378
+  ],
+  "final_alpha_bbox": [
+    681,
+    314,
+    796,
+    376
+  ],
+  "runtime": {
+    "connected": false,
+    "proposed_order": "floor -> one reference-shadow pass -> original interleaved scenery-and-actor ordering, including layer0 stair objects before layer1 actors where the original rules require",
+    "source_group_rule": "if later used, suppress all30 original owners together; never retain old checker beside the new pass",
+    "ordinary_dependency_gate": "research paths are not runtime dependencies; any future integration must close normal resource paths and test complete source fallback"
+  },
+  "limitations": [
+    "Only an exposed right-side fragment survives; it is not a full building shadow.",
+    "Left ROI fences and source 2px safety guard intentionally truncate unknown/structural areas; no hidden support is filled. The stepped lower-left truncation remains visibly artificial in the enlarged board.",
+    "Source exterior edge itself ends at the original grouped canvas boundary; nothing beyond is inferred.",
+    "New roof shape differs, so preserving source outer extent does not reproduce new-roof physical lighting.",
+    "Nearest CPU diagnostic is not GPU sampler parity. No native alpha/receiver/character or stair-route acceptance yet.",
+    "Exclusion prevents underlying material leakage at measured native pixels, but camera subpixels and filter footprints need later GPU validation."
+  ],
+  "artifacts": {
+    "source_checker_support.png": {
+      "sha256": "35785a8aa036c1b762473392a1c3f678a4350c656a95dafa7f98ef0512bffacd",
+      "kind": "single-channel L8 technical mask"
+    },
+    "receiver_allowed.png": {
+      "sha256": "edb5ff6ef34b93180f4f1e1732ccfb89af9dd57081634d84d19b6ba207732a7f",
+      "kind": "single-channel L8 technical mask"
+    },
+    "source_structure_or_unknown_exclusion.png": {
+      "sha256": "4fecbf0c83337be62b86d7565c377e0e2a4130bdc855bf783998f5dc39077941",
+      "kind": "single-channel L8 technical mask"
+    },
+    "new_structure_exclusion.png": {
+      "sha256": "6194db8d94dc2222ef0e1c03444f10d0383da657af56b843c861333240611d6e",
+      "kind": "single-channel L8 technical mask"
+    },
+    "soft_reference_alpha.png": {
+      "sha256": "c9ae3e8f2b3714be2ca115dc2bf726b5c19c4b2e01a9c59625ba97bf6ecc9bf8",
+      "kind": "single-channel L8 technical mask"
+    }
+  }
+}
