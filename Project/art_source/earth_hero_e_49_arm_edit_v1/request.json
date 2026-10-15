@@ -1,0 +1,16 @@
+{
+  "tool_arguments": {
+    "prompt": "One local arm-edit control study, single frame49.\nImage1 is the ONLY edit base. Keep its exact canvas, placement, scale, head, red shoulder, chest, waist, hips, both complete legs and boots. Images2/3 are original49 pose evidence only; never repaint the base as the old costume.\nChange ONLY the visible near black sleeve BELOW the shoulder, silver forearm guard, wrist and glove: a small forward-reaching low arm, following the original visible sleeve and cuff contour. Keep the hand BELOW the waist reference band, beside the upper thigh and modestly forward of its current hanging location. The forearm remains descending, not a high horizontal bent-elbow fist. Image3 boxes describe uncertain surface regions, NOT hidden joints. Do not invent an elbow skeleton or expose the far hand.\nPreserve the same long black sleeve, forearm armor design, glove and upper-left warm light. Only minimal newly revealed underlying surface may be reconstructed; do not redesign the torso or side armor to hide the arm. Preserve both leg chains and ankle/toe/heel silhouettes unchanged. No local body scaling, pose smoothing, background, ground shadow, text or markings. Transparent background. Output one full-canvas edited image, no comparison sheet.\n",
+    "referenced_image_paths": [
+      "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_hero_e_49_arm_edit_plan_v1/edit-base-raw49-UNCHANGED.png",
+      "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_hero_e_49_arm_edit_plan_v1/source49-full128-8x.png",
+      "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_hero_e_49_arm_edit_plan_v1/source49-sleeve-wrist-hand-regions.png"
+    ],
+    "transparent_background": true
+  },
+  "input_sha256": {
+    "Project/art_source/earth_hero_e_49_arm_edit_plan_v1/edit-base-raw49-UNCHANGED.png": "7338f1181da26815cc9d2f3f4ec4437a6be303c112e160b00ec7d5d14c000cec",
+    "Project/art_source/earth_hero_e_49_arm_edit_plan_v1/source49-full128-8x.png": "583ae16ee4fa6be6bf08a1b9683e7259d9b800f93d2f78a1aab8abef05474ca8",
+    "Project/art_source/earth_hero_e_49_arm_edit_plan_v1/source49-sleeve-wrist-hand-regions.png": "8126fbd3375b1301cff25da89984e443d637a562bc2315e6809aab693667e211"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "status": "failed_local_preservation",
+  "raw_sha256": "1d03b523e7961ef211cb68e82cd576f7d4bc1b8e64b31f87e7012b6dfce9a33a",
+  "base_sha256": "7338f1181da26815cc9d2f3f4ec4437a6be303c112e160b00ec7d5d14c000cec",
+  "base_size": [
+    1254,
+    1254
+  ],
+  "output_size": [
+    1254,
+    1254
+  ],
+  "registration": "EXACT prior scale and translation reused, no refit",
+  "scale": 0.1028549998260168,
+  "translation": [
+    -1.4220149316246022,
+    -0.25108997251065546
+  ],
+  "base_alpha128_bbox": [
+    230,
+    158,
+    510,
+    826
+  ],
+  "new_alpha128_bbox": [
+    183,
+    166,
+    552,
+    1024
+  ],
+  "raw_manual_surface_points": {
+    "crown": [
+      404,
+      168
+    ],
+    "left_toe_surface": [
+      288,
+      997
+    ],
+    "right_toe_surface": [
+      515,
+      945
+    ],
+    "near_hand_group": [
+      511,
+      629
+    ]
+  },
+  "mapped_surface_points": {
+    "crown": [
+      40.13140499808618,
+      17.028549998260168
+    ],
+    "left_toe_surface": [
+      28.200225018268235,
+      102.29534485402809
+    ],
+    "right_toe_surface": [
+      51.54830997877405,
+      96.94688486307523
+    ],
+    "near_hand_group": [
+      51.136889979469984,
+      64.44470491805392
+    ]
+  },
+  "raw_point_uncertainty_px": 8,
+  "protected_region": "everything outside [330,365,485,580]; torso within also protected semantically",
+  "protected_visible_union_pixels": 129918,
+  "protected_visible_pixels_premultiplied_delta_gt8": 125920,
+  "protected_visible_changed_fraction": 0.9692267430225219,
+  "limits": [
+    "changed-pixel statistic alone cannot separate global resynthesis from geometry; silhouette/bbox and same-registration image corroborate clear enlargement",
+    "source sleeve regions are approximate, no exact elbow inferred",
+    "do not rescale candidate to match base or composite old legs"
+  ]
+}

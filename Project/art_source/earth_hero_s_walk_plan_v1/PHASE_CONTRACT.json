@@ -1,0 +1,1185 @@
+{
+  "status": "input_plan_only_do_not_generate_before_S_idle_native_pass_and_parent_approval",
+  "direction": "S",
+  "index": 4,
+  "ids": [
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+  ],
+  "native_canvas": [
+    128,
+    128
+  ],
+  "native_root": [
+    16,
+    64
+  ],
+  "main_board_order": "3 columns,2 rows;57,58,59 /60,61,62",
+  "source_formula": "33+4*6+p",
+  "ticks": 7,
+  "cycle_ticks": 42,
+  "reference_hz": 50,
+  "reference_cycle_ms": 840,
+  "timing_boundary": "reference/current adapter only; no EXE clock/entry/speed proof",
+  "phases": [
+    {
+      "source_id": 57,
+      "input_source_sha256": "1a474a3c34ca85abf08f067813519015165487bf43725acdb579f3d22ec0caeb",
+      "rgba_sha256": "6db1c0518a9d58267b79b0b37533630c8646f29b7348f663f504f2f8129f8536",
+      "source_cell_origin": [
+        0,
+        0
+      ],
+      "duration_ticks": 7,
+      "visible_chains": {
+        "L": {
+          "visible_material_chain": [
+            {
+              "id": "P",
+              "xy": [
+                34,
+                65
+              ],
+              "meaning": "裤管局部暗折/轮廓外扩区域的可见衣物代理；非膝关节点",
+              "uncertainty_px": 3
+            },
+            {
+              "id": "C",
+              "xy": [
+                35,
+                71
+              ],
+              "meaning": "裤口到靴材质的可见转换",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "S",
+              "xy": [
+                35,
+                82
+              ],
+              "meaning": "靴筒中段色带/轮廓追踪点；非胫骨折点",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "A",
+              "xy": [
+                35,
+                88
+              ],
+              "meaning": "白趾上方收窄段的可见靴面代理；非踝关节定位",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "T",
+              "xy": [
+                35,
+                91
+              ],
+              "meaning": "靴末端最低可见边缘的代表点；非接地点",
+              "uncertainty_px": 1
+            }
+          ],
+          "boot_region_inclusive_bbox_xyxy": [
+            33,
+            71,
+            38,
+            91
+          ],
+          "boot_region_boundary_tolerance_px": 1,
+          "anatomical_knee_xy": null,
+          "anatomical_shin_axis": null,
+          "anatomical_ankle_xy": null,
+          "support_or_contact_state": "not_observable",
+          "hidden_anatomy_policy": "保留源遮挡；不外推真实膝弯、胫骨方向或承重。",
+          "shaft_ankle_separately_resolvable": true,
+          "terminal_y": 91
+        },
+        "R": {
+          "visible_material_chain": [
+            {
+              "id": "P",
+              "xy": [
+                44,
+                61
+              ],
+              "meaning": "裤管局部暗折/轮廓外扩区域的可见衣物代理；非膝关节点",
+              "uncertainty_px": 3
+            },
+            {
+              "id": "C",
+              "xy": [
+                44,
+                66
+              ],
+              "meaning": "裤口到靴材质的可见转换",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "S",
+              "xy": [
+                44,
+                68
+              ],
+              "meaning": "靴筒中段色带/轮廓追踪点；非胫骨折点",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "A",
+              "xy": [
+                45,
+                70
+              ],
+              "meaning": "白趾上方收窄段的可见靴面代理；非踝关节定位",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "T",
+              "xy": [
+                45,
+                73
+              ],
+              "meaning": "靴末端最低可见边缘的代表点；非接地点",
+              "uncertainty_px": 1
+            }
+          ],
+          "boot_region_inclusive_bbox_xyxy": [
+            43,
+            66,
+            47,
+            73
+          ],
+          "boot_region_boundary_tolerance_px": 1,
+          "anatomical_knee_xy": null,
+          "anatomical_shin_axis": null,
+          "anatomical_ankle_xy": null,
+          "support_or_contact_state": "not_observable",
+          "hidden_anatomy_policy": "保留源遮挡；不外推真实膝弯、胫骨方向或承重。",
+          "shaft_ankle_separately_resolvable": true,
+          "terminal_y": 73
+        }
+      },
+      "hands": {
+        "L": {
+          "visible": true,
+          "skin_patch_inclusive_bbox_xyxy": [
+            25,
+            43,
+            28,
+            46
+          ],
+          "skin_patch_tolerance_px": 2,
+          "cuff_proxy_xy": [
+            27,
+            42
+          ],
+          "cuff_tolerance_px": 3,
+          "finger_count_and_articulation": "unresolved",
+          "wrist_joint_xy": null,
+          "occlusion": "袖口遮住近端；仅以可见肤色末端作轮廓条件，不补隐藏手指/掌面。"
+        },
+        "R": {
+          "visible": true,
+          "skin_patch_inclusive_bbox_xyxy": [
+            51,
+            51,
+            54,
+            55
+          ],
+          "skin_patch_tolerance_px": 2,
+          "cuff_proxy_xy": [
+            53,
+            50
+          ],
+          "cuff_tolerance_px": 3,
+          "finger_count_and_articulation": "unresolved",
+          "wrist_joint_xy": null,
+          "occlusion": "袖口遮住近端；仅以可见肤色末端作轮廓条件，不补隐藏手指/掌面。"
+        }
+      },
+      "chest_surface_band_y": [
+        32,
+        39
+      ],
+      "waist_clothing_band_y": [
+        46,
+        53
+      ],
+      "band_uncertainty_px": 3,
+      "height_band_rule": "coarse source garment bands only, not new costume exact joints. Visible hands stay below chest region; alternate sleeve silhouette and cuff/hand regions, no raised fighting elbows."
+    },
+    {
+      "source_id": 58,
+      "input_source_sha256": "7137f168350f5b910b8cc070b3814e79b11bae2cd4bcc81c96f3bf3c39b30deb",
+      "rgba_sha256": "9d2c030fadb80f19d1ecd5f9fb4f9eccecd3ff6258ebb16bc825c9d053607554",
+      "source_cell_origin": [
+        128,
+        0
+      ],
+      "duration_ticks": 7,
+      "visible_chains": {
+        "L": {
+          "visible_material_chain": [
+            {
+              "id": "P",
+              "xy": [
+                34,
+                63
+              ],
+              "meaning": "裤管局部暗折/轮廓外扩区域的可见衣物代理；非膝关节点",
+              "uncertainty_px": 3
+            },
+            {
+              "id": "C",
+              "xy": [
+                35,
+                69
+              ],
+              "meaning": "裤口到靴材质的可见转换",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "S",
+              "xy": [
+                35,
+                77
+              ],
+              "meaning": "靴筒中段色带/轮廓追踪点；非胫骨折点",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "A",
+              "xy": [
+                35,
+                83
+              ],
+              "meaning": "白趾上方收窄段的可见靴面代理；非踝关节定位",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "T",
+              "xy": [
+                35,
+                88
+              ],
+              "meaning": "靴末端最低可见边缘的代表点；非接地点",
+              "uncertainty_px": 1
+            }
+          ],
+          "boot_region_inclusive_bbox_xyxy": [
+            33,
+            69,
+            38,
+            88
+          ],
+          "boot_region_boundary_tolerance_px": 1,
+          "anatomical_knee_xy": null,
+          "anatomical_shin_axis": null,
+          "anatomical_ankle_xy": null,
+          "support_or_contact_state": "not_observable",
+          "hidden_anatomy_policy": "保留源遮挡；不外推真实膝弯、胫骨方向或承重。",
+          "shaft_ankle_separately_resolvable": true,
+          "terminal_y": 88
+        },
+        "R": {
+          "visible_material_chain": [
+            {
+              "id": "P",
+              "xy": [
+                44,
+                65
+              ],
+              "meaning": "裤管局部暗折/轮廓外扩区域的可见衣物代理；非膝关节点",
+              "uncertainty_px": 3
+            },
+            {
+              "id": "C",
+              "xy": [
+                45,
+                70
+              ],
+              "meaning": "裤口到靴材质的可见转换",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "T",
+              "xy": [
+                46,
+                73
+              ],
+              "meaning": "靴末端最低可见边缘的代表点；非接地点",
+              "uncertainty_px": 1
+            }
+          ],
+          "boot_region_inclusive_bbox_xyxy": [
+            44,
+            70,
+            48,
+            73
+          ],
+          "boot_region_boundary_tolerance_px": 1,
+          "anatomical_knee_xy": null,
+          "anatomical_shin_axis": null,
+          "anatomical_ankle_xy": null,
+          "support_or_contact_state": "not_observable",
+          "hidden_anatomy_policy": "保留源遮挡；不外推真实膝弯、胫骨方向或承重。",
+          "shaft_ankle_separately_resolvable": false,
+          "terminal_y": 73
+        }
+      },
+      "hands": {
+        "L": {
+          "visible": true,
+          "skin_patch_inclusive_bbox_xyxy": [
+            25,
+            45,
+            28,
+            49
+          ],
+          "skin_patch_tolerance_px": 2,
+          "cuff_proxy_xy": [
+            27,
+            44
+          ],
+          "cuff_tolerance_px": 3,
+          "finger_count_and_articulation": "unresolved",
+          "wrist_joint_xy": null,
+          "occlusion": "袖口遮住近端；仅以可见肤色末端作轮廓条件，不补隐藏手指/掌面。"
+        },
+        "R": {
+          "visible": true,
+          "skin_patch_inclusive_bbox_xyxy": [
+            51,
+            49,
+            54,
+            52
+          ],
+          "skin_patch_tolerance_px": 2,
+          "cuff_proxy_xy": [
+            53,
+            48
+          ],
+          "cuff_tolerance_px": 3,
+          "finger_count_and_articulation": "unresolved",
+          "wrist_joint_xy": null,
+          "occlusion": "袖口遮住近端；仅以可见肤色末端作轮廓条件，不补隐藏手指/掌面。"
+        }
+      },
+      "chest_surface_band_y": [
+        32,
+        39
+      ],
+      "waist_clothing_band_y": [
+        46,
+        53
+      ],
+      "band_uncertainty_px": 3,
+      "height_band_rule": "coarse source garment bands only, not new costume exact joints. Visible hands stay below chest region; alternate sleeve silhouette and cuff/hand regions, no raised fighting elbows."
+    },
+    {
+      "source_id": 59,
+      "input_source_sha256": "ffcd49bc0ccbc27cb4b034b9ba86039f47d5d8510ba9b8b41ec0ab30901be38e",
+      "rgba_sha256": "55b78d7d827f3be62b1037a649187fe859501df76f15a7482507bdcd73b0da87",
+      "source_cell_origin": [
+        256,
+        0
+      ],
+      "duration_ticks": 7,
+      "visible_chains": {
+        "L": {
+          "visible_material_chain": [
+            {
+              "id": "P",
+              "xy": [
+                34,
+                61
+              ],
+              "meaning": "裤管局部暗折/轮廓外扩区域的可见衣物代理；非膝关节点",
+              "uncertainty_px": 3
+            },
+            {
+              "id": "C",
+              "xy": [
+                35,
+                66
+              ],
+              "meaning": "裤口到靴材质的可见转换",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "S",
+              "xy": [
+                35,
+                73
+              ],
+              "meaning": "靴筒中段色带/轮廓追踪点；非胫骨折点",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "A",
+              "xy": [
+                35,
+                79
+              ],
+              "meaning": "白趾上方收窄段的可见靴面代理；非踝关节定位",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "T",
+              "xy": [
+                35,
+                83
+              ],
+              "meaning": "靴末端最低可见边缘的代表点；非接地点",
+              "uncertainty_px": 1
+            }
+          ],
+          "boot_region_inclusive_bbox_xyxy": [
+            33,
+            66,
+            38,
+            83
+          ],
+          "boot_region_boundary_tolerance_px": 1,
+          "anatomical_knee_xy": null,
+          "anatomical_shin_axis": null,
+          "anatomical_ankle_xy": null,
+          "support_or_contact_state": "not_observable",
+          "hidden_anatomy_policy": "保留源遮挡；不外推真实膝弯、胫骨方向或承重。",
+          "shaft_ankle_separately_resolvable": true,
+          "terminal_y": 83
+        },
+        "R": {
+          "visible_material_chain": [
+            {
+              "id": "P",
+              "xy": [
+                44,
+                65
+              ],
+              "meaning": "裤管局部暗折/轮廓外扩区域的可见衣物代理；非膝关节点",
+              "uncertainty_px": 3
+            },
+            {
+              "id": "C",
+              "xy": [
+                45,
+                71
+              ],
+              "meaning": "裤口到靴材质的可见转换",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "S",
+              "xy": [
+                45,
+                78
+              ],
+              "meaning": "靴筒中段色带/轮廓追踪点；非胫骨折点",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "A",
+              "xy": [
+                45,
+                84
+              ],
+              "meaning": "白趾上方收窄段的可见靴面代理；非踝关节定位",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "T",
+              "xy": [
+                46,
+                88
+              ],
+              "meaning": "靴末端最低可见边缘的代表点；非接地点",
+              "uncertainty_px": 1
+            }
+          ],
+          "boot_region_inclusive_bbox_xyxy": [
+            43,
+            71,
+            48,
+            88
+          ],
+          "boot_region_boundary_tolerance_px": 1,
+          "anatomical_knee_xy": null,
+          "anatomical_shin_axis": null,
+          "anatomical_ankle_xy": null,
+          "support_or_contact_state": "not_observable",
+          "hidden_anatomy_policy": "保留源遮挡；不外推真实膝弯、胫骨方向或承重。",
+          "shaft_ankle_separately_resolvable": true,
+          "terminal_y": 88
+        }
+      },
+      "hands": {
+        "L": {
+          "visible": true,
+          "skin_patch_inclusive_bbox_xyxy": [
+            25,
+            49,
+            29,
+            53
+          ],
+          "skin_patch_tolerance_px": 2,
+          "cuff_proxy_xy": [
+            27,
+            48
+          ],
+          "cuff_tolerance_px": 3,
+          "finger_count_and_articulation": "unresolved",
+          "wrist_joint_xy": null,
+          "occlusion": "袖口遮住近端；仅以可见肤色末端作轮廓条件，不补隐藏手指/掌面。"
+        },
+        "R": {
+          "visible": true,
+          "skin_patch_inclusive_bbox_xyxy": [
+            52,
+            45,
+            55,
+            48
+          ],
+          "skin_patch_tolerance_px": 2,
+          "cuff_proxy_xy": [
+            54,
+            44
+          ],
+          "cuff_tolerance_px": 3,
+          "finger_count_and_articulation": "unresolved",
+          "wrist_joint_xy": null,
+          "occlusion": "袖口遮住近端；仅以可见肤色末端作轮廓条件，不补隐藏手指/掌面。"
+        }
+      },
+      "chest_surface_band_y": [
+        32,
+        39
+      ],
+      "waist_clothing_band_y": [
+        46,
+        53
+      ],
+      "band_uncertainty_px": 3,
+      "height_band_rule": "coarse source garment bands only, not new costume exact joints. Visible hands stay below chest region; alternate sleeve silhouette and cuff/hand regions, no raised fighting elbows."
+    },
+    {
+      "source_id": 60,
+      "input_source_sha256": "a364df0c0a17975b49cdc15c21cdbfae27753ea15515b1b7474c464504dde01c",
+      "rgba_sha256": "6c324f4ec7e5ae86dd7fb105de6de0d9000575b2e8bd34b9a0f3fc958d1ae680",
+      "source_cell_origin": [
+        0,
+        128
+      ],
+      "duration_ticks": 7,
+      "visible_chains": {
+        "L": {
+          "visible_material_chain": [
+            {
+              "id": "P",
+              "xy": [
+                34,
+                61
+              ],
+              "meaning": "裤管局部暗折/轮廓外扩区域的可见衣物代理；非膝关节点",
+              "uncertainty_px": 3
+            },
+            {
+              "id": "C",
+              "xy": [
+                35,
+                66
+              ],
+              "meaning": "裤口到靴材质的可见转换",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "S",
+              "xy": [
+                35,
+                68
+              ],
+              "meaning": "靴筒中段色带/轮廓追踪点；非胫骨折点",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "A",
+              "xy": [
+                35,
+                70
+              ],
+              "meaning": "白趾上方收窄段的可见靴面代理；非踝关节定位",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "T",
+              "xy": [
+                35,
+                73
+              ],
+              "meaning": "靴末端最低可见边缘的代表点；非接地点",
+              "uncertainty_px": 1
+            }
+          ],
+          "boot_region_inclusive_bbox_xyxy": [
+            33,
+            66,
+            38,
+            73
+          ],
+          "boot_region_boundary_tolerance_px": 1,
+          "anatomical_knee_xy": null,
+          "anatomical_shin_axis": null,
+          "anatomical_ankle_xy": null,
+          "support_or_contact_state": "not_observable",
+          "hidden_anatomy_policy": "保留源遮挡；不外推真实膝弯、胫骨方向或承重。",
+          "shaft_ankle_separately_resolvable": true,
+          "terminal_y": 73
+        },
+        "R": {
+          "visible_material_chain": [
+            {
+              "id": "P",
+              "xy": [
+                44,
+                65
+              ],
+              "meaning": "裤管局部暗折/轮廓外扩区域的可见衣物代理；非膝关节点",
+              "uncertainty_px": 3
+            },
+            {
+              "id": "C",
+              "xy": [
+                44,
+                71
+              ],
+              "meaning": "裤口到靴材质的可见转换",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "S",
+              "xy": [
+                45,
+                82
+              ],
+              "meaning": "靴筒中段色带/轮廓追踪点；非胫骨折点",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "A",
+              "xy": [
+                45,
+                88
+              ],
+              "meaning": "白趾上方收窄段的可见靴面代理；非踝关节定位",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "T",
+              "xy": [
+                46,
+                91
+              ],
+              "meaning": "靴末端最低可见边缘的代表点；非接地点",
+              "uncertainty_px": 1
+            }
+          ],
+          "boot_region_inclusive_bbox_xyxy": [
+            42,
+            71,
+            48,
+            91
+          ],
+          "boot_region_boundary_tolerance_px": 1,
+          "anatomical_knee_xy": null,
+          "anatomical_shin_axis": null,
+          "anatomical_ankle_xy": null,
+          "support_or_contact_state": "not_observable",
+          "hidden_anatomy_policy": "保留源遮挡；不外推真实膝弯、胫骨方向或承重。",
+          "shaft_ankle_separately_resolvable": true,
+          "terminal_y": 91
+        }
+      },
+      "hands": {
+        "L": {
+          "visible": true,
+          "skin_patch_inclusive_bbox_xyxy": [
+            26,
+            51,
+            30,
+            55
+          ],
+          "skin_patch_tolerance_px": 2,
+          "cuff_proxy_xy": [
+            28,
+            50
+          ],
+          "cuff_tolerance_px": 3,
+          "finger_count_and_articulation": "unresolved",
+          "wrist_joint_xy": null,
+          "occlusion": "袖口遮住近端；仅以可见肤色末端作轮廓条件，不补隐藏手指/掌面。"
+        },
+        "R": {
+          "visible": true,
+          "skin_patch_inclusive_bbox_xyxy": [
+            52,
+            43,
+            56,
+            46
+          ],
+          "skin_patch_tolerance_px": 2,
+          "cuff_proxy_xy": [
+            54,
+            43
+          ],
+          "cuff_tolerance_px": 3,
+          "finger_count_and_articulation": "unresolved",
+          "wrist_joint_xy": null,
+          "occlusion": "袖口遮住近端；仅以可见肤色末端作轮廓条件，不补隐藏手指/掌面。"
+        }
+      },
+      "chest_surface_band_y": [
+        32,
+        39
+      ],
+      "waist_clothing_band_y": [
+        46,
+        53
+      ],
+      "band_uncertainty_px": 3,
+      "height_band_rule": "coarse source garment bands only, not new costume exact joints. Visible hands stay below chest region; alternate sleeve silhouette and cuff/hand regions, no raised fighting elbows."
+    },
+    {
+      "source_id": 61,
+      "input_source_sha256": "9e2e51ad728383c3dac71206b44f6b9e9968ef658eadb9e609980c0a888381db",
+      "rgba_sha256": "c84da8c00eaa4514bd597f30dec7ac48d4c303748a9c2f2a478de066ced32565",
+      "source_cell_origin": [
+        128,
+        128
+      ],
+      "duration_ticks": 7,
+      "visible_chains": {
+        "L": {
+          "visible_material_chain": [
+            {
+              "id": "P",
+              "xy": [
+                34,
+                64
+              ],
+              "meaning": "裤管局部暗折/轮廓外扩区域的可见衣物代理；非膝关节点",
+              "uncertainty_px": 3
+            },
+            {
+              "id": "C",
+              "xy": [
+                35,
+                70
+              ],
+              "meaning": "裤口到靴材质的可见转换",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "T",
+              "xy": [
+                35,
+                74
+              ],
+              "meaning": "靴末端最低可见边缘的代表点；非接地点",
+              "uncertainty_px": 1
+            }
+          ],
+          "boot_region_inclusive_bbox_xyxy": [
+            33,
+            70,
+            37,
+            74
+          ],
+          "boot_region_boundary_tolerance_px": 1,
+          "anatomical_knee_xy": null,
+          "anatomical_shin_axis": null,
+          "anatomical_ankle_xy": null,
+          "support_or_contact_state": "not_observable",
+          "hidden_anatomy_policy": "保留源遮挡；不外推真实膝弯、胫骨方向或承重。",
+          "shaft_ankle_separately_resolvable": false,
+          "terminal_y": 74
+        },
+        "R": {
+          "visible_material_chain": [
+            {
+              "id": "P",
+              "xy": [
+                44,
+                64
+              ],
+              "meaning": "裤管局部暗折/轮廓外扩区域的可见衣物代理；非膝关节点",
+              "uncertainty_px": 3
+            },
+            {
+              "id": "C",
+              "xy": [
+                45,
+                69
+              ],
+              "meaning": "裤口到靴材质的可见转换",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "S",
+              "xy": [
+                45,
+                77
+              ],
+              "meaning": "靴筒中段色带/轮廓追踪点；非胫骨折点",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "A",
+              "xy": [
+                45,
+                84
+              ],
+              "meaning": "白趾上方收窄段的可见靴面代理；非踝关节定位",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "T",
+              "xy": [
+                46,
+                88
+              ],
+              "meaning": "靴末端最低可见边缘的代表点；非接地点",
+              "uncertainty_px": 1
+            }
+          ],
+          "boot_region_inclusive_bbox_xyxy": [
+            43,
+            69,
+            48,
+            88
+          ],
+          "boot_region_boundary_tolerance_px": 1,
+          "anatomical_knee_xy": null,
+          "anatomical_shin_axis": null,
+          "anatomical_ankle_xy": null,
+          "support_or_contact_state": "not_observable",
+          "hidden_anatomy_policy": "保留源遮挡；不外推真实膝弯、胫骨方向或承重。",
+          "shaft_ankle_separately_resolvable": true,
+          "terminal_y": 88
+        }
+      },
+      "hands": {
+        "L": {
+          "visible": true,
+          "skin_patch_inclusive_bbox_xyxy": [
+            26,
+            49,
+            29,
+            52
+          ],
+          "skin_patch_tolerance_px": 2,
+          "cuff_proxy_xy": [
+            27,
+            48
+          ],
+          "cuff_tolerance_px": 3,
+          "finger_count_and_articulation": "unresolved",
+          "wrist_joint_xy": null,
+          "occlusion": "袖口遮住近端；仅以可见肤色末端作轮廓条件，不补隐藏手指/掌面。"
+        },
+        "R": {
+          "visible": true,
+          "skin_patch_inclusive_bbox_xyxy": [
+            53,
+            46,
+            56,
+            48
+          ],
+          "skin_patch_tolerance_px": 2,
+          "cuff_proxy_xy": [
+            54,
+            45
+          ],
+          "cuff_tolerance_px": 3,
+          "finger_count_and_articulation": "unresolved",
+          "wrist_joint_xy": null,
+          "occlusion": "袖口遮住近端；仅以可见肤色末端作轮廓条件，不补隐藏手指/掌面。"
+        }
+      },
+      "chest_surface_band_y": [
+        32,
+        39
+      ],
+      "waist_clothing_band_y": [
+        46,
+        53
+      ],
+      "band_uncertainty_px": 3,
+      "height_band_rule": "coarse source garment bands only, not new costume exact joints. Visible hands stay below chest region; alternate sleeve silhouette and cuff/hand regions, no raised fighting elbows."
+    },
+    {
+      "source_id": 62,
+      "input_source_sha256": "a659beb365f76e2064c290419a7124a34767782efc7bbe5238abe2afee42ece5",
+      "rgba_sha256": "fb9602f07748d1fb151cd3aadd5aa3493519a0ab62705906f4e1ae89e69e4934",
+      "source_cell_origin": [
+        256,
+        128
+      ],
+      "duration_ticks": 7,
+      "visible_chains": {
+        "L": {
+          "visible_material_chain": [
+            {
+              "id": "P",
+              "xy": [
+                34,
+                65
+              ],
+              "meaning": "裤管局部暗折/轮廓外扩区域的可见衣物代理；非膝关节点",
+              "uncertainty_px": 3
+            },
+            {
+              "id": "C",
+              "xy": [
+                35,
+                71
+              ],
+              "meaning": "裤口到靴材质的可见转换",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "S",
+              "xy": [
+                35,
+                78
+              ],
+              "meaning": "靴筒中段色带/轮廓追踪点；非胫骨折点",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "A",
+              "xy": [
+                35,
+                84
+              ],
+              "meaning": "白趾上方收窄段的可见靴面代理；非踝关节定位",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "T",
+              "xy": [
+                35,
+                87
+              ],
+              "meaning": "靴末端最低可见边缘的代表点；非接地点",
+              "uncertainty_px": 1
+            }
+          ],
+          "boot_region_inclusive_bbox_xyxy": [
+            33,
+            71,
+            38,
+            87
+          ],
+          "boot_region_boundary_tolerance_px": 1,
+          "anatomical_knee_xy": null,
+          "anatomical_shin_axis": null,
+          "anatomical_ankle_xy": null,
+          "support_or_contact_state": "not_observable",
+          "hidden_anatomy_policy": "保留源遮挡；不外推真实膝弯、胫骨方向或承重。",
+          "shaft_ankle_separately_resolvable": true,
+          "terminal_y": 87
+        },
+        "R": {
+          "visible_material_chain": [
+            {
+              "id": "P",
+              "xy": [
+                44,
+                61
+              ],
+              "meaning": "裤管局部暗折/轮廓外扩区域的可见衣物代理；非膝关节点",
+              "uncertainty_px": 3
+            },
+            {
+              "id": "C",
+              "xy": [
+                45,
+                65
+              ],
+              "meaning": "裤口到靴材质的可见转换",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "S",
+              "xy": [
+                45,
+                72
+              ],
+              "meaning": "靴筒中段色带/轮廓追踪点；非胫骨折点",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "A",
+              "xy": [
+                45,
+                79
+              ],
+              "meaning": "白趾上方收窄段的可见靴面代理；非踝关节定位",
+              "uncertainty_px": 1
+            },
+            {
+              "id": "T",
+              "xy": [
+                46,
+                83
+              ],
+              "meaning": "靴末端最低可见边缘的代表点；非接地点",
+              "uncertainty_px": 1
+            }
+          ],
+          "boot_region_inclusive_bbox_xyxy": [
+            43,
+            65,
+            48,
+            83
+          ],
+          "boot_region_boundary_tolerance_px": 1,
+          "anatomical_knee_xy": null,
+          "anatomical_shin_axis": null,
+          "anatomical_ankle_xy": null,
+          "support_or_contact_state": "not_observable",
+          "hidden_anatomy_policy": "保留源遮挡；不外推真实膝弯、胫骨方向或承重。",
+          "shaft_ankle_separately_resolvable": true,
+          "terminal_y": 83
+        }
+      },
+      "hands": {
+        "L": {
+          "visible": true,
+          "skin_patch_inclusive_bbox_xyxy": [
+            25,
+            45,
+            28,
+            48
+          ],
+          "skin_patch_tolerance_px": 2,
+          "cuff_proxy_xy": [
+            27,
+            44
+          ],
+          "cuff_tolerance_px": 3,
+          "finger_count_and_articulation": "unresolved",
+          "wrist_joint_xy": null,
+          "occlusion": "袖口遮住近端；仅以可见肤色末端作轮廓条件，不补隐藏手指/掌面。"
+        },
+        "R": {
+          "visible": true,
+          "skin_patch_inclusive_bbox_xyxy": [
+            52,
+            49,
+            55,
+            52
+          ],
+          "skin_patch_tolerance_px": 2,
+          "cuff_proxy_xy": [
+            54,
+            48
+          ],
+          "cuff_tolerance_px": 3,
+          "finger_count_and_articulation": "unresolved",
+          "wrist_joint_xy": null,
+          "occlusion": "袖口遮住近端；仅以可见肤色末端作轮廓条件，不补隐藏手指/掌面。"
+        }
+      },
+      "chest_surface_band_y": [
+        32,
+        39
+      ],
+      "waist_clothing_band_y": [
+        46,
+        53
+      ],
+      "band_uncertainty_px": 3,
+      "height_band_rule": "coarse source garment bands only, not new costume exact joints. Visible hands stay below chest region; alternate sleeve silhouette and cuff/hand regions, no raised fighting elbows."
+    }
+  ],
+  "loop62to57": {
+    "terminal_deltas_LR_xy": [
+      [
+        0,
+        4
+      ],
+      [
+        -1,
+        -10
+      ]
+    ],
+    "head_layer_rectangle_delta_xy": [
+      -1,
+      1
+    ],
+    "clothing_cuff_delta_xy_LR": [
+      [
+        0,
+        0
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    "interpretation": "同root下，左靴更长展示，右靴短展示；末端由4px差扩大为18px差。保持这个相差，不强制首尾重复。"
+  },
+  "uncertainty": "P/cuff3px; material boundaries1–2px; hand skin bbox2px. Hidden knees/ankles null; not support state.",
+  "identity_source": "art_source/earth_hero_s_idle_edit_v1/raw-edit-v1.png",
+  "identity_sha256": "6572388fffad5f23fe1072af1758557de2bd2f13f48a19f519391e13270d563f",
+  "identity_crops": {
+    "face_hair": [
+      228,
+      80,
+      310,
+      190
+    ],
+    "short_chest_black_abdomen": [
+      218,
+      190,
+      309,
+      336
+    ],
+    "red_shoulder": [
+      162,
+      160,
+      216,
+      216
+    ],
+    "black_thigh_small_sideplate": [
+      185,
+      347,
+      243,
+      455
+    ],
+    "glove": [
+      137,
+      330,
+      180,
+      392
+    ],
+    "knee": [
+      185,
+      463,
+      253,
+      527
+    ],
+    "boot": [
+      181,
+      563,
+      248,
+      641
+    ]
+  },
+  "prohibited_identity": "old unedited S raw with long silver abdomen chain; old courtyard S; rejected E walk"
+}

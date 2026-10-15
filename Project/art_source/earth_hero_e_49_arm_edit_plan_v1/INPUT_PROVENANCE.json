@@ -1,0 +1,58 @@
+{
+  "edit_target": "edit-base-raw49-UNCHANGED.png",
+  "source_crop": [
+    24,
+    24,
+    58,
+    62
+  ],
+  "nearest_scale": 16,
+  "source_region_boxes": {
+    "sleeve surface (approx)": [
+      34,
+      39,
+      43,
+      51
+    ],
+    "cuff / wrist transition": [
+      35,
+      50,
+      43,
+      54
+    ],
+    "hand group envelope": [
+      40,
+      53,
+      46,
+      59
+    ],
+    "waist reference band": [
+      43,
+      47,
+      50,
+      51
+    ]
+  },
+  "raw_edit_envelope_context_not_mask": [
+    330,
+    365,
+    485,
+    580
+  ],
+  "source_boxes_uncertainty": "approx +/-2 to3 logical px, overlapping surface categories; no joint centers",
+  "raw_envelope_note": "near black sleeve below shoulder, forearm guard, glove and minimal revealed underlying surface only; torso inside envelope is not globally editable",
+  "inputs": [
+    {
+      "path": "edit-base-raw49-UNCHANGED.png",
+      "sha256": "7338f1181da26815cc9d2f3f4ec4437a6be303c112e160b00ec7d5d14c000cec"
+    },
+    {
+      "path": "source49-full128-8x.png",
+      "sha256": "583ae16ee4fa6be6bf08a1b9683e7259d9b800f93d2f78a1aab8abef05474ca8"
+    },
+    {
+      "path": "source49-sleeve-wrist-hand-regions.png",
+      "sha256": "8126fbd3375b1301cff25da89984e443d637a562bc2315e6809aab693667e211"
+    }
+  ]
+}

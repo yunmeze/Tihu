@@ -1,0 +1,35 @@
+{
+  "purpose": "EXPLANATION ONLY; does not replace fixed registration or failure",
+  "fit": "one whole-image alpha-silhouette similarity transform, all foreground equally weighted, no limb/point fits",
+  "map": "base_yx = scale * R(theta) * output_yx + [ty,tx]",
+  "new_to_base_scale": 0.7747502035577176,
+  "rotation_degrees_yx_convention": 0.18559182985966238,
+  "translation_xy_raw": [
+    82.04606405008846,
+    32.00039124406446
+  ],
+  "implied_linear_enlargement": 1.2907386089192574,
+  "silhouette_regions_after_same_global_transform": {
+    "full": {
+      "silhouette_iou": 0.9220068389732659,
+      "xor_pixels": 7025
+    },
+    "head": {
+      "silhouette_iou": 0.9548798430603237,
+      "xor_pixels": 552
+    },
+    "legs_and_boots": {
+      "silhouette_iou": 0.922186717333103,
+      "xor_pixels": 2703
+    },
+    "upper_body_including_edited_arm": {
+      "silhouette_iou": 0.9138905781922202,
+      "xor_pixels": 3823
+    }
+  },
+  "limitations": [
+    "fit includes changed arm and may compromise other areas",
+    "alpha silhouette cannot prove internal armor/pants texture or joint invariance",
+    "optimized transform is diagnostic only; not candidate registration or edited artwork"
+  ]
+}
