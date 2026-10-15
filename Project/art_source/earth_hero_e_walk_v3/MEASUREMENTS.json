@@ -1,0 +1,504 @@
+{
+  "status": "STATIC_REJECTED_NOT_RUNTIME",
+  "raw_sha256": "56fd5cfba38882beaa2cf87aa9a152bb76367e5df07dbf75a26dc8b57a7c1e0d",
+  "common_scale_raw_to_logical": 0.15808201104533726,
+  "registration": "One shared least-squares vertical crown-to-toe span scale, all six phases; per-frame crown translation only. No x fit, no per-frame scale or warp. Diagnostic, not production.",
+  "logical_root": [
+    16,
+    64
+  ],
+  "hd4_root": [
+    64,
+    256
+  ],
+  "exact_raw_reassembly": true,
+  "uncertainty": "raw surface regions +/-8 px; source crown +/-1, toe +/-2, hand +/-3. Residuals are surface locations, NOT precise bone offsets. Source contact/hidden elbows remain unknown.",
+  "records": [
+    {
+      "source_id": 45,
+      "raw_rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "raw_points_crown_lefttoe_righttoe_nearhand": [
+        [
+          270.0,
+          40.0
+        ],
+        [
+          161.0,
+          452.0
+        ],
+        [
+          406.0,
+          453.0
+        ],
+        [
+          189.0,
+          273.0
+        ]
+      ],
+      "source_points": [
+        [
+          40.0,
+          16.0
+        ],
+        [
+          29.0,
+          78.0
+        ],
+        [
+          60.0,
+          81.0
+        ],
+        [
+          33.0,
+          57.0
+        ]
+      ],
+      "translation_logical": [
+        -2.6821429822410607,
+        9.676719558186509
+      ],
+      "mapped_points": [
+        [
+          40.0,
+          16.0
+        ],
+        [
+          22.769060796058238,
+          81.12978855067894
+        ],
+        [
+          61.49915350216587,
+          81.28787056172428
+        ],
+        [
+          27.19535710532768,
+          52.83310857356358
+        ]
+      ],
+      "right_minus_left_toe": [
+        38.73009270610763,
+        0.15808201104533737
+      ],
+      "source_right_minus_left_toe": [
+        31.0,
+        3.0
+      ],
+      "near_hand_residual": [
+        -5.80464289467232,
+        -4.166891426436422
+      ],
+      "raw_body_height": 448,
+      "raw_effective_density": 6.136986301369863
+    },
+    {
+      "source_id": 46,
+      "raw_rect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "raw_points_crown_lefttoe_righttoe_nearhand": [
+        [
+          266.0,
+          40.0
+        ],
+        [
+          185.0,
+          431.0
+        ],
+        [
+          291.0,
+          474.0
+        ],
+        [
+          303.0,
+          241.0
+        ]
+      ],
+      "source_points": [
+        [
+          39.0,
+          16.0
+        ],
+        [
+          31.0,
+          77.0
+        ],
+        [
+          48.0,
+          87.0
+        ],
+        [
+          37.0,
+          56.0
+        ]
+      ],
+      "translation_logical": [
+        -3.0498149380597113,
+        9.676719558186509
+      ],
+      "mapped_points": [
+        [
+          39.0,
+          16.0
+        ],
+        [
+          26.19535710532768,
+          77.81006631872687
+        ],
+        [
+          42.95205027613343,
+          84.60759279367636
+        ],
+        [
+          44.849034408677475,
+          47.77448422011278
+        ]
+      ],
+      "right_minus_left_toe": [
+        16.756693170805747,
+        6.797526474949493
+      ],
+      "source_right_minus_left_toe": [
+        17.0,
+        10.0
+      ],
+      "near_hand_residual": [
+        7.8490344086774755,
+        -8.225515779887218
+      ],
+      "raw_body_height": 454,
+      "raw_effective_density": 6.219178082191781
+    },
+    {
+      "source_id": 47,
+      "raw_rect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "raw_points_crown_lefttoe_righttoe_nearhand": [
+        [
+          268.0,
+          40.0
+        ],
+        [
+          260.0,
+          477.0
+        ],
+        [
+          300.0,
+          429.0
+        ],
+        [
+          313.0,
+          222.0
+        ]
+      ],
+      "source_points": [
+        [
+          40.0,
+          15.0
+        ],
+        [
+          42.0,
+          87.0
+        ],
+        [
+          51.0,
+          78.0
+        ],
+        [
+          44.0,
+          56.0
+        ]
+      ],
+      "translation_logical": [
+        -2.365978960150386,
+        8.676719558186509
+      ],
+      "mapped_points": [
+        [
+          40.0,
+          15.0
+        ],
+        [
+          38.7353439116373,
+          84.08183882681237
+        ],
+        [
+          45.05862435345079,
+          76.4939022966362
+        ],
+        [
+          47.113690497040174,
+          43.77092601025139
+        ]
+      ],
+      "right_minus_left_toe": [
+        6.323280441813488,
+        -7.587936530176179
+      ],
+      "source_right_minus_left_toe": [
+        9.0,
+        -9.0
+      ],
+      "near_hand_residual": [
+        3.1136904970401744,
+        -12.229073989748613
+      ],
+      "raw_body_height": 456,
+      "raw_effective_density": 6.2465753424657535
+    },
+    {
+      "source_id": 48,
+      "raw_rect": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "raw_points_crown_lefttoe_righttoe_nearhand": [
+        [
+          282.0,
+          27.0
+        ],
+        [
+          163.0,
+          452.0
+        ],
+        [
+          397.0,
+          405.0
+        ],
+        [
+          358.0,
+          205.0
+        ]
+      ],
+      "source_points": [
+        [
+          40.0,
+          16.0
+        ],
+        [
+          29.0,
+          84.0
+        ],
+        [
+          60.0,
+          74.0
+        ],
+        [
+          49.0,
+          56.0
+        ]
+      ],
+      "translation_logical": [
+        -4.579127114785109,
+        11.731785701775895
+      ],
+      "mapped_points": [
+        [
+          40.0,
+          16.0
+        ],
+        [
+          21.188240685604864,
+          83.18485469426832
+        ],
+        [
+          58.17943127021378,
+          75.75500017513748
+        ],
+        [
+          52.014232839445626,
+          44.13859796607004
+        ]
+      ],
+      "right_minus_left_toe": [
+        36.991190584608916,
+        -7.429854519130842
+      ],
+      "source_right_minus_left_toe": [
+        31.0,
+        -10.0
+      ],
+      "near_hand_residual": [
+        3.0142328394456257,
+        -11.861402033929963
+      ],
+      "raw_body_height": 443,
+      "raw_effective_density": 6.068493150684931
+    },
+    {
+      "source_id": 49,
+      "raw_rect": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "raw_points_crown_lefttoe_righttoe_nearhand": [
+        [
+          268.0,
+          28.0
+        ],
+        [
+          192.0,
+          448.0
+        ],
+        [
+          283.0,
+          451.0
+        ],
+        [
+          315.0,
+          203.0
+        ]
+      ],
+      "source_points": [
+        [
+          39.0,
+          16.0
+        ],
+        [
+          31.0,
+          83.0
+        ],
+        [
+          48.0,
+          77.0
+        ],
+        [
+          43.0,
+          56.0
+        ]
+      ],
+      "translation_logical": [
+        -3.365978960150386,
+        11.573703690730557
+      ],
+      "mapped_points": [
+        [
+          39.0,
+          16.0
+        ],
+        [
+          26.985767160554367,
+          82.39444463904164
+        ],
+        [
+          41.37123016568006,
+          82.86869067217765
+        ],
+        [
+          46.42985451913085,
+          43.664351932934025
+        ]
+      ],
+      "right_minus_left_toe": [
+        14.385463005125693,
+        0.4742460331360121
+      ],
+      "source_right_minus_left_toe": [
+        17.0,
+        -6.0
+      ],
+      "near_hand_residual": [
+        3.429854519130849,
+        -12.335648067065975
+      ],
+      "raw_body_height": 444,
+      "raw_effective_density": 6.082191780821918
+    },
+    {
+      "source_id": 50,
+      "raw_rect": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "raw_points_crown_lefttoe_righttoe_nearhand": [
+        [
+          268.0,
+          27.0
+        ],
+        [
+          239.0,
+          442.0
+        ],
+        [
+          314.0,
+          452.0
+        ],
+        [
+          182.0,
+          247.0
+        ]
+      ],
+      "source_points": [
+        [
+          40.0,
+          15.0
+        ],
+        [
+          41.0,
+          80.0
+        ],
+        [
+          51.0,
+          86.0
+        ],
+        [
+          36.0,
+          57.0
+        ]
+      ],
+      "translation_logical": [
+        -2.365978960150386,
+        10.731785701775895
+      ],
+      "mapped_points": [
+        [
+          40.0,
+          15.0
+        ],
+        [
+          35.415621679685216,
+          80.60403458381496
+        ],
+        [
+          47.27177250808551,
+          82.18485469426832
+        ],
+        [
+          26.404947050100994,
+          49.77804242997419
+        ]
+      ],
+      "right_minus_left_toe": [
+        11.856150828400295,
+        1.5808201104533595
+      ],
+      "source_right_minus_left_toe": [
+        10.0,
+        6.0
+      ],
+      "near_hand_residual": [
+        -9.595052949899006,
+        -7.221957570025808
+      ],
+      "raw_body_height": 442,
+      "raw_effective_density": 6.054794520547945
+    }
+  ]
+}

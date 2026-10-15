@@ -1,0 +1,100 @@
+{
+  "status": "static_candidate_submitted_for_parent_review_not_runtime",
+  "files": [
+    {
+      "path": "NATIVE_HANDOFF.md",
+      "sha256": "85b4eec485c33aaa2465948505b2896acb39f097131584e24c19b45b1632d27c"
+    },
+    {
+      "path": "PARENT_ACCEPTANCE.md",
+      "sha256": "24dac5862125adcad9a00522f644eaccfdd6877c80139861835ec2dbcbf29d08"
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "5b890c90cc891aa58429ac189972b7877199062fa42383dd309f3955d6bd0ffc"
+    },
+    {
+      "path": "body-density4-CANDIDATE.png",
+      "sha256": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e"
+    },
+    {
+      "path": "build_archive_allowlist.py",
+      "sha256": "b13a5fcbde8a5c3608d2e6784f1e6e7bc110a26e72441b87b2160732e73d1ee6"
+    },
+    {
+      "path": "build_manifest.py",
+      "sha256": "51b166cb860abbc5286edc9f77bb7ee13d149ab7d9aec8f1fd7067965bbe7648"
+    },
+    {
+      "path": "candidate/body.png",
+      "sha256": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e"
+    },
+    {
+      "path": "candidate/manifest.json",
+      "sha256": "3f1e04c60063c9890afb94daa8f9815d04be0deca3cd3b7f3f42d1447648c932"
+    },
+    {
+      "path": "frozen-original-registration.json",
+      "sha256": "b66cabc59cececffee889922068c2b6404d700475e8bd3755f62d4cdb2a2fe14"
+    },
+    {
+      "path": "package_candidate.py",
+      "sha256": "1385f73040f85d4bbb78af31f56ada9777adfb7d404468c659a0e420dab9c388"
+    },
+    {
+      "path": "prompt-v1.txt",
+      "sha256": "e60306de79465d847ef480ad23382b5e02349bf469e0d4ae98d4c0dad29569db"
+    },
+    {
+      "path": "raw-edit-v1.png",
+      "sha256": "6572388fffad5f23fe1072af1758557de2bd2f13f48a19f519391e13270d563f"
+    },
+    {
+      "path": "registration-review.json",
+      "sha256": "f2cc2cfdaa3882ebdc8aab4931fad0c93298008d92ecfd28b9a9d12555e7cfad"
+    },
+    {
+      "path": "request-v1.json",
+      "sha256": "5fb1c2e5cc03d1fcd52a6fba238875e43ca9ccde79e037ec886aeb06a7ee0a9a"
+    },
+    {
+      "path": "review_edit.py",
+      "sha256": "397edec41f3adc7e0727f683c829dd2b47acc46715f8b2945258f4085ac33424"
+    }
+  ],
+  "read_only_dependencies": [
+    {
+      "path": "Project/art_source/earth_hero_s_idle_v1/raw-v1.png",
+      "sha256": "ca5215a8413dea3752e9ab551262d2b5b6a777f24da14da26cdbe51dc3023785"
+    },
+    {
+      "path": "Project/art_source/earth_hero_s_idle_edit_plan_v1/approved-SE-E-torso-thigh-fragments.png",
+      "sha256": "a866765293b806aa63948889eed73d51494a8e7010430509181c296c38ca3ea6"
+    },
+    {
+      "path": "Project/art_source/earth_hero_s_idle_v1/registration-v1.json",
+      "sha256": "b66cabc59cececffee889922068c2b6404d700475e8bd3755f62d4cdb2a2fe14"
+    },
+    {
+      "path": "Project/art_source/earth_hero_s_idle_edit_plan_v1/EDIT_PLAN.md",
+      "sha256": "727df5c1003188cce5bdfa03e08d3fa56603ff17741e19683c4f3cdd614e90e6"
+    },
+    {
+      "path": "Project/art_source/earth_hero_s_input_plan_v1/SOURCE_PHASE_ANALYSIS.json",
+      "sha256": "a8965f58e758dfc943843726afb0d1f37d76209b3c5ca5da9da36c2d5ff67738"
+    },
+    {
+      "path": "Project/assets/earth/hero/se_idle_v1/body.png",
+      "sha256": "60f89f65dd817ec80065de941e62e36e1068302c3f2bc4eb5014d8d56f450c02"
+    },
+    {
+      "path": "Project/assets/earth/hero/e_idle_v1/body.png",
+      "sha256": "7cb81240d71f04dae8f6df9e06ef5c0d7dbc1d33c467fa3c646f8a54087da010"
+    }
+  ],
+  "exclude": [
+    "Project/diagnostics/**",
+    "runtime assets/manifests"
+  ],
+  "git_performed": false
+}

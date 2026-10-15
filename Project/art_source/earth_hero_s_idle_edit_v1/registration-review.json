@@ -1,0 +1,426 @@
+{
+  "status": "candidate_static_review_only_no_runtime",
+  "same_dimensions": true,
+  "old_new_raw_size": [
+    2172,
+    724
+  ],
+  "frozen_registration_sha256": "b66cabc59cececffee889922068c2b6404d700475e8bd3755f62d4cdb2a2fe14",
+  "old_raw_sha256": "ca5215a8413dea3752e9ab551262d2b5b6a777f24da14da26cdbe51dc3023785",
+  "new_raw_sha256": "6572388fffad5f23fe1072af1758557de2bd2f13f48a19f519391e13270d563f",
+  "one_common_scale_from_original": 0.12376649065028121,
+  "refit_performed": false,
+  "warp_or_independent_scale": false,
+  "density_ge2_all": true,
+  "records": [
+    {
+      "source_id": 17,
+      "raw_body_height_span": 587,
+      "density_vs_source72": 8.152777777777779,
+      "new_crown_Lboot_Rboot_raw": [
+        [
+          272.2857142857143,
+          85.0
+        ],
+        [
+          208.5,
+          641.0
+        ],
+        [
+          334.0,
+          672.0
+        ]
+      ],
+      "new_crown_Lboot_Rboot_registered": [
+        [
+          40.01473410602979,
+          14.594144722676383
+        ],
+        [
+          32.12020009526543,
+          83.40831352423274
+        ],
+        [
+          47.65289467187572,
+          87.24507473439147
+        ]
+      ],
+      "delta_edit_minus_original_logical": [
+        [
+          -0.026521390853632695,
+          -0.24753298130056242
+        ],
+        [
+          -0.309416226625703,
+          0.24753298130056242
+        ],
+        [
+          0.12376649065028121,
+          0.24753298130056242
+        ]
+      ],
+      "protected_regions": {
+        "face_hair": {
+          "max_mask_to_mask_distance_raw": 3.0,
+          "p95_bidirectional_distance_raw": 0.0,
+          "bbox_new_raw": [
+            225,
+            85,
+            310,
+            190
+          ]
+        },
+        "Lhand": {
+          "max_mask_to_mask_distance_raw": 2.23606797749979,
+          "p95_bidirectional_distance_raw": 0.0,
+          "bbox_new_raw": [
+            133,
+            320,
+            179,
+            385
+          ]
+        },
+        "Rhand": {
+          "max_mask_to_mask_distance_raw": 2.0,
+          "p95_bidirectional_distance_raw": 0.0,
+          "bbox_new_raw": [
+            362,
+            320,
+            405,
+            385
+          ]
+        },
+        "Lboot": {
+          "max_mask_to_mask_distance_raw": 3.1622776601683795,
+          "p95_bidirectional_distance_raw": 0.0,
+          "bbox_new_raw": [
+            184,
+            500,
+            258,
+            642
+          ]
+        },
+        "Rboot": {
+          "max_mask_to_mask_distance_raw": 2.23606797749979,
+          "p95_bidirectional_distance_raw": 0.0,
+          "bbox_new_raw": [
+            284,
+            500,
+            360,
+            673
+          ]
+        }
+      },
+      "outside_roi_visible_pixels": 67136,
+      "outside_roi_rgb_max_channel_diff_gt16_pixels": 24662,
+      "outside_roi_mean_max_channel_rgb_diff": 17.82367135367016
+    },
+    {
+      "source_id": 18,
+      "raw_body_height_span": 582,
+      "density_vs_source72": 8.083333333333334,
+      "new_crown_Lboot_Rboot_raw": [
+        [
+          274.5,
+          90.0
+        ],
+        [
+          205.5,
+          636.0
+        ],
+        [
+          336.5,
+          672.0
+        ]
+      ],
+      "new_crown_Lboot_Rboot_registered": [
+        [
+          40.39192722039256,
+          15.171721679044351
+        ],
+        [
+          31.852039365523158,
+          82.74822557409789
+        ],
+        [
+          48.06544964070999,
+          87.20381923750801
+        ]
+      ],
+      "delta_edit_minus_original_logical": [
+        [
+          0.1856497359754218,
+          -0.3712994719508436
+        ],
+        [
+          -0.12376649065028121,
+          0.24753298130056242
+        ],
+        [
+          0.24753298130056242,
+          0.24753298130056242
+        ]
+      ],
+      "protected_regions": {
+        "face_hair": {
+          "max_mask_to_mask_distance_raw": 4.0,
+          "p95_bidirectional_distance_raw": 0.0,
+          "bbox_new_raw": [
+            225,
+            90,
+            310,
+            190
+          ]
+        },
+        "Lhand": {
+          "max_mask_to_mask_distance_raw": 2.23606797749979,
+          "p95_bidirectional_distance_raw": 0.0,
+          "bbox_new_raw": [
+            138,
+            320,
+            180,
+            388
+          ]
+        },
+        "Rhand": {
+          "max_mask_to_mask_distance_raw": 3.1622776601683795,
+          "p95_bidirectional_distance_raw": 1.0,
+          "bbox_new_raw": [
+            362,
+            320,
+            407,
+            385
+          ]
+        },
+        "Lboot": {
+          "max_mask_to_mask_distance_raw": 2.23606797749979,
+          "p95_bidirectional_distance_raw": 0.0,
+          "bbox_new_raw": [
+            181,
+            500,
+            256,
+            637
+          ]
+        },
+        "Rboot": {
+          "max_mask_to_mask_distance_raw": 3.605551275463989,
+          "p95_bidirectional_distance_raw": 0.0,
+          "bbox_new_raw": [
+            286,
+            500,
+            362,
+            673
+          ]
+        }
+      },
+      "outside_roi_visible_pixels": 66513,
+      "outside_roi_rgb_max_channel_diff_gt16_pixels": 25688,
+      "outside_roi_mean_max_channel_rgb_diff": 18.518906078510966
+    },
+    {
+      "source_id": 19,
+      "raw_body_height_span": 583,
+      "density_vs_source72": 8.097222222222221,
+      "new_crown_Lboot_Rboot_raw": [
+        [
+          267.5,
+          91.0
+        ],
+        [
+          208.0,
+          642.0
+        ],
+        [
+          336.5,
+          674.0
+        ]
+      ],
+      "new_crown_Lboot_Rboot_registered": [
+        [
+          39.40179529519031,
+          15.047955188394074
+        ],
+        [
+          32.03768910149858,
+          83.24329153669902
+        ],
+        [
+          47.94168315005971,
+          87.20381923750801
+        ]
+      ],
+      "delta_edit_minus_original_logical": [
+        [
+          -0.43318271727598423,
+          -0.3712994719508436
+        ],
+        [
+          -0.1856497359754218,
+          0.3712994719508436
+        ],
+        [
+          0.0,
+          0.49506596260112484
+        ]
+      ],
+      "protected_regions": {
+        "face_hair": {
+          "max_mask_to_mask_distance_raw": 3.605551275463989,
+          "p95_bidirectional_distance_raw": 0.0,
+          "bbox_new_raw": [
+            225,
+            91,
+            310,
+            190
+          ]
+        },
+        "Lhand": {
+          "max_mask_to_mask_distance_raw": 3.0,
+          "p95_bidirectional_distance_raw": 0.0,
+          "bbox_new_raw": [
+            133,
+            320,
+            180,
+            395
+          ]
+        },
+        "Rhand": {
+          "max_mask_to_mask_distance_raw": 4.123105625617661,
+          "p95_bidirectional_distance_raw": 1.0,
+          "bbox_new_raw": [
+            359,
+            320,
+            402,
+            384
+          ]
+        },
+        "Lboot": {
+          "max_mask_to_mask_distance_raw": 3.0,
+          "p95_bidirectional_distance_raw": 0.0,
+          "bbox_new_raw": [
+            184,
+            500,
+            257,
+            643
+          ]
+        },
+        "Rboot": {
+          "max_mask_to_mask_distance_raw": 4.0,
+          "p95_bidirectional_distance_raw": 0.0,
+          "bbox_new_raw": [
+            285,
+            500,
+            362,
+            675
+          ]
+        }
+      },
+      "outside_roi_visible_pixels": 67101,
+      "outside_roi_rgb_max_channel_diff_gt16_pixels": 26210,
+      "outside_roi_mean_max_channel_rgb_diff": 18.814920791046333
+    },
+    {
+      "source_id": 20,
+      "raw_body_height_span": 589,
+      "density_vs_source72": 8.180555555555555,
+      "new_crown_Lboot_Rboot_raw": [
+        [
+          277.75,
+          84.0
+        ],
+        [
+          209.5,
+          641.0
+        ],
+        [
+          336.5,
+          673.0
+        ]
+      ],
+      "new_crown_Lboot_Rboot_registered": [
+        [
+          40.67040182435569,
+          14.470378232026102
+        ],
+        [
+          32.223338837474,
+          83.40831352423274
+        ],
+        [
+          47.94168315005971,
+          87.36884122504173
+        ]
+      ],
+      "delta_edit_minus_original_logical": [
+        [
+          0.5260075852636952,
+          -0.3712994719508436
+        ],
+        [
+          -0.1856497359754218,
+          0.24753298130056242
+        ],
+        [
+          0.49506596260112484,
+          0.3712994719508436
+        ]
+      ],
+      "protected_regions": {
+        "face_hair": {
+          "max_mask_to_mask_distance_raw": 5.0,
+          "p95_bidirectional_distance_raw": 0.0,
+          "bbox_new_raw": [
+            225,
+            84,
+            310,
+            190
+          ]
+        },
+        "Lhand": {
+          "max_mask_to_mask_distance_raw": 5.0990195135927845,
+          "p95_bidirectional_distance_raw": 2.0,
+          "bbox_new_raw": [
+            138,
+            320,
+            180,
+            385
+          ]
+        },
+        "Rhand": {
+          "max_mask_to_mask_distance_raw": 4.47213595499958,
+          "p95_bidirectional_distance_raw": 1.4142135623730951,
+          "bbox_new_raw": [
+            364,
+            320,
+            409,
+            385
+          ]
+        },
+        "Lboot": {
+          "max_mask_to_mask_distance_raw": 4.0,
+          "p95_bidirectional_distance_raw": 0.0,
+          "bbox_new_raw": [
+            185,
+            500,
+            261,
+            642
+          ]
+        },
+        "Rboot": {
+          "max_mask_to_mask_distance_raw": 5.830951894845301,
+          "p95_bidirectional_distance_raw": 1.0,
+          "bbox_new_raw": [
+            286,
+            500,
+            362,
+            674
+          ]
+        }
+      },
+      "outside_roi_visible_pixels": 68542,
+      "outside_roi_rgb_max_channel_diff_gt16_pixels": 33350,
+      "outside_roi_mean_max_channel_rgb_diff": 24.30607510723352
+    }
+  ],
+  "boundary": "Mask distances measure visible alpha geometry only. RGB differences outside ROIs mean not pixel-locked; assess whether lighting/identity changed materially. No bone/contact inference."
+}
