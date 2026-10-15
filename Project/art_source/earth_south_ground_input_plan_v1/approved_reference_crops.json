@@ -1,0 +1,121 @@
+{
+  "original_shared_plate_sha256": "a44d861c4485cb8596fb42681441675d1b9cefb3d8c48261113325c14492ae2f",
+  "reference_crops": [
+    {
+      "file": "approved_overlap_2x.png",
+      "world_bounds_xyxy": [
+        2496,
+        1408,
+        3168,
+        1472
+      ],
+      "density": 2,
+      "source": "assets/earth/environment/ground_plate_v4/plate.png",
+      "source_raw_pixel_crop_xyxy": [
+        0,
+        896,
+        1344,
+        1024
+      ],
+      "pixel_operation": "integer crop only; no resize, recolor, blend, seam fix or changed alpha",
+      "rgba_sha256": "21a9c284304c8feec7376ec0197c440554c931a6e7ef8fa0da2b04dc7127528c"
+    },
+    {
+      "file": "approved_north_seam_band_2x.png",
+      "world_bounds_xyxy": [
+        2496,
+        1440,
+        3168,
+        1472
+      ],
+      "density": 2,
+      "source": "assets/earth/environment/ground_plate_v4/plate.png",
+      "source_raw_pixel_crop_xyxy": [
+        0,
+        960,
+        1344,
+        1024
+      ],
+      "pixel_operation": "integer crop only; no resize, recolor, blend, seam fix or changed alpha",
+      "rgba_sha256": "26573a81dd8e50255fd4d089be690cc23fb167025cecbb264830dd758d748f11"
+    },
+    {
+      "file": "approved_west_seam_band_2x.png",
+      "world_bounds_xyxy": [
+        2496,
+        1408,
+        2528,
+        1472
+      ],
+      "density": 2,
+      "source": "assets/earth/environment/ground_plate_v4/plate.png",
+      "source_raw_pixel_crop_xyxy": [
+        0,
+        896,
+        64,
+        1024
+      ],
+      "pixel_operation": "integer crop only; no resize, recolor, blend, seam fix or changed alpha",
+      "rgba_sha256": "765029920f97280197aa7f4f6a9a386413f218705e573cd9c002d177a23ea6b0"
+    },
+    {
+      "file": "approved_material_context_2x.png",
+      "world_bounds_xyxy": [
+        2496,
+        1344,
+        3264,
+        1472
+      ],
+      "density": 2,
+      "source": "assets/earth/environment/ground_plate_v4/plate.png",
+      "source_raw_pixel_crop_xyxy": [
+        0,
+        768,
+        1536,
+        1024
+      ],
+      "pixel_operation": "integer crop only; no resize, recolor, blend, seam fix or changed alpha",
+      "rgba_sha256": "1562174942b269e5caca803c0779cc12202a99649eaa780031dffd332b1b6a60"
+    },
+    {
+      "file": "approved_grass_scale_patch_2x.png",
+      "world_bounds_xyxy": [
+        3072,
+        1408,
+        3136,
+        1472
+      ],
+      "density": 2,
+      "source": "assets/earth/environment/ground_plate_v4/plate.png",
+      "source_raw_pixel_crop_xyxy": [
+        1152,
+        896,
+        1280,
+        1024
+      ],
+      "pixel_operation": "integer crop only; no resize, recolor, blend, seam fix or changed alpha",
+      "rgba_sha256": "5a2f92ba7941b749c4be1f5a215244a2eb1185a4c2741ee037f9f0d5e796ff7c"
+    },
+    {
+      "file": "approved_slab_scale_patch_2x.png",
+      "world_bounds_xyxy": [
+        2704,
+        1408,
+        2768,
+        1472
+      ],
+      "density": 2,
+      "source": "assets/earth/environment/ground_plate_v4/plate.png",
+      "source_raw_pixel_crop_xyxy": [
+        416,
+        896,
+        544,
+        1024
+      ],
+      "pixel_operation": "integer crop only; no resize, recolor, blend, seam fix or changed alpha",
+      "rgba_sha256": "28f964400ddd724799ef3bb6e12aa0308ecf575b7fd6f3157f3481ee054fb469"
+    }
+  ],
+  "seven_existing_tiles_equal_overlap": true,
+  "no_pixels_changed_in_approved_assets": true
+}

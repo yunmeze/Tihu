@@ -1,0 +1,205 @@
+{
+  "status": "pending review; no generation or art modification",
+  "canvas": {
+    "world_xyxy": [
+      2400,
+      1408,
+      3168,
+      1920
+    ],
+    "native_required_pixels": [
+      1536,
+      1024
+    ],
+    "density": 2,
+    "world_top_left": [
+      2400,
+      1408
+    ],
+    "sampling": "world = [2400,1408] + (texel_index + 0.5)/2"
+  },
+  "frozen_region_on_south_raw_xyxy": [
+    192,
+    0,
+    1536,
+    128
+  ],
+  "new_region_rectangles_on_south_raw_xyxy": [
+    [
+      0,
+      0,
+      192,
+      128
+    ],
+    [
+      0,
+      128,
+      1536,
+      1024
+    ]
+  ],
+  "exact_seam_coordinate_anchors": [
+    {
+      "world_corner_xy": [
+        2496,
+        1472
+      ],
+      "role": "L-junction of frozen north and west contact",
+      "old_v4_pixel_edge_xy": [
+        0,
+        1024
+      ],
+      "proposed_south_pixel_edge_xy": [
+        192,
+        128
+      ],
+      "note": "Pixel-edge anchor, not pixel center. No claim that a curb or real-height feature lies exactly here."
+    },
+    {
+      "world_corner_xy": [
+        2592,
+        1472
+      ],
+      "role": "north seam tile boundary1",
+      "old_v4_pixel_edge_xy": [
+        192,
+        1024
+      ],
+      "proposed_south_pixel_edge_xy": [
+        384,
+        128
+      ],
+      "note": "Pixel-edge anchor, not pixel center. No claim that a curb or real-height feature lies exactly here."
+    },
+    {
+      "world_corner_xy": [
+        2688,
+        1472
+      ],
+      "role": "north seam tile boundary2",
+      "old_v4_pixel_edge_xy": [
+        384,
+        1024
+      ],
+      "proposed_south_pixel_edge_xy": [
+        576,
+        128
+      ],
+      "note": "Pixel-edge anchor, not pixel center. No claim that a curb or real-height feature lies exactly here."
+    },
+    {
+      "world_corner_xy": [
+        2784,
+        1472
+      ],
+      "role": "north seam tile boundary3",
+      "old_v4_pixel_edge_xy": [
+        576,
+        1024
+      ],
+      "proposed_south_pixel_edge_xy": [
+        768,
+        128
+      ],
+      "note": "Pixel-edge anchor, not pixel center. No claim that a curb or real-height feature lies exactly here."
+    },
+    {
+      "world_corner_xy": [
+        2880,
+        1472
+      ],
+      "role": "north seam tile boundary4",
+      "old_v4_pixel_edge_xy": [
+        768,
+        1024
+      ],
+      "proposed_south_pixel_edge_xy": [
+        960,
+        128
+      ],
+      "note": "Pixel-edge anchor, not pixel center. No claim that a curb or real-height feature lies exactly here."
+    },
+    {
+      "world_corner_xy": [
+        2976,
+        1472
+      ],
+      "role": "north seam tile boundary5",
+      "old_v4_pixel_edge_xy": [
+        960,
+        1024
+      ],
+      "proposed_south_pixel_edge_xy": [
+        1152,
+        128
+      ],
+      "note": "Pixel-edge anchor, not pixel center. No claim that a curb or real-height feature lies exactly here."
+    },
+    {
+      "world_corner_xy": [
+        3072,
+        1472
+      ],
+      "role": "north seam tile boundary6",
+      "old_v4_pixel_edge_xy": [
+        1152,
+        1024
+      ],
+      "proposed_south_pixel_edge_xy": [
+        1344,
+        128
+      ],
+      "note": "Pixel-edge anchor, not pixel center. No claim that a curb or real-height feature lies exactly here."
+    },
+    {
+      "world_corner_xy": [
+        3168,
+        1472
+      ],
+      "role": "east end north seam",
+      "old_v4_pixel_edge_xy": [
+        1344,
+        1024
+      ],
+      "proposed_south_pixel_edge_xy": [
+        1536,
+        128
+      ],
+      "note": "Pixel-edge anchor, not pixel center. No claim that a curb or real-height feature lies exactly here."
+    },
+    {
+      "world_corner_xy": [
+        2496,
+        1408
+      ],
+      "role": "top end west contact",
+      "old_v4_pixel_edge_xy": [
+        0,
+        896
+      ],
+      "proposed_south_pixel_edge_xy": [
+        192,
+        0
+      ],
+      "note": "Pixel-edge anchor, not pixel center. No claim that a curb or real-height feature lies exactly here."
+    }
+  ],
+  "generation_inputs": {
+    "geometry": "source_floor_layout_native.png",
+    "owner_identity": "source_owner_evidence.json and source_owner_index_native.png",
+    "pixel_identity_reference": "approved_overlap_2x.png",
+    "material_scale_reference": [
+      "approved_material_context_2x.png",
+      "approved_grass_scale_patch_2x.png",
+      "approved_slab_scale_patch_2x.png"
+    ],
+    "object_exclusion_context": [
+      "debris_pool_complete_source_native.png",
+      "debris_pool_source_context_native.png"
+    ]
+  },
+  "required_final_ownership": "Keep 7 frozen v4 owners, add only 57 exact new owners. Discard generated overlap; never register a whole 64-owner override on top. No final blend/composite has been prepared.",
+  "seam_policy": "First compare candidate directly against frozen old pixels. If unacceptable, regenerate or seek explicit review of a new-side-only correction; no automatic blend, recolor or overwrite of old art.",
+  "alpha_policy": "All selected original alpha255. Preserve exact source nearest2x per-owner alpha, never infer from generated RGB or material guides.",
+  "casting": "No cast baked into floor; no receiver/gate expansion licensed by this proposal."
+}

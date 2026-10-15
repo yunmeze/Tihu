@@ -1,0 +1,93 @@
+{
+  "status": "fixed-density rigid assembly research not source passed",
+  "core_actual_cap_anchor_raw": [
+    190.0,
+    250.0
+  ],
+  "core_cap_anchor_uncertainty_raw": [
+    175,
+    235,
+    205,
+    265
+  ],
+  "anchor_logical": [
+    30.30232558139535,
+    34.84496124031008
+  ],
+  "arm_attachment_raw": [
+    226.5,
+    137.5
+  ],
+  "arm_hand_proxy_raw": [
+    321.5,
+    434.0
+  ],
+  "fixed_arm_scale": 0.079,
+  "screen_rotation_deg": -13.207314172088843,
+  "rotation_convention": "x right y down; negative counterclockwise on screen",
+  "translation_logical": [
+    10.40030189172634,
+    28.357997269710776
+  ],
+  "hand_logical": [
+    42.96050413231255,
+    55.93419766610558
+  ],
+  "source_hand_region": [
+    40,
+    53,
+    46,
+    59
+  ],
+  "source_hand_center": [
+    43.0,
+    56.0
+  ],
+  "arm_proxy_span_logical": 24.596450501037747,
+  "cap_to_target_span_logical": 24.673195994132374,
+  "hand_center_residual": [
+    -0.039495867687449504,
+    -0.06580233389441759
+  ],
+  "no_scale_fit": true,
+  "unchanged_layers": [
+    "lower",
+    "core-back",
+    "core-front"
+  ],
+  "source_uncertainty": "cap authoring anchor and hand surface region; not anatomical shoulder/elbow",
+  "inputs": [
+    {
+      "path": "art_source/earth_e_49_cloth_patch_v1/assembled49-HD4-RESEARCH.png",
+      "sha256": "fb66607ee60783fe10f81878c3071d679247817de955140c4bd06577dece6c30"
+    },
+    {
+      "path": "art_source/earth_e_layered_parts_v1/raw.png",
+      "sha256": "e18a7ef247abee3ca8f66737b84a8c07b8c1d70617a36ea69782976300532553"
+    },
+    {
+      "path": "diagnostics/earth_e_49_cloth_patch_v1/layer49-lower.png",
+      "sha256": "23a45cb39f96e60c8124be458c6d956ac286ae9b8112a9536016dab4b1093097"
+    },
+    {
+      "path": "diagnostics/earth_e_49_cloth_patch_v1/layer49-core-back.png",
+      "sha256": "50366ca52c88c1dab55b9c062652002a013cf090a7c5c2be69a1df63d34617cf"
+    },
+    {
+      "path": "diagnostics/earth_e_49_cloth_patch_v1/layer49-core-front.png",
+      "sha256": "4b05b3057ee74cce64881f24ac36479441a0dc6cb950d2c39a253f4304e48256"
+    }
+  ],
+  "patch_visibility": {
+    "zero": {
+      "patch_visible_alpha_weight_sum_HD4_pixels": 797.5488820963635,
+      "patch_visible_gt_half_HD4_pixels": 796
+    },
+    "rigid": {
+      "patch_visible_alpha_weight_sum_HD4_pixels": 490.3111166105486,
+      "patch_visible_gt_half_HD4_pixels": 482
+    }
+  },
+  "unchanged_legs_pixels_y_ge248": 0,
+  "patch_visibility_caveat": "Transmittance estimates patch-source contribution, not a measure of visual quality or missing anatomy."
+}

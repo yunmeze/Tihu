@@ -1,0 +1,18 @@
+{
+  "tool_arguments": {
+    "prompt": "Precisely edit this close-up crop of an existing 2D game character. Keep the exact 200:175 canvas aspect ratio and identical framing, positions, garment scale, belt, right small silver hip plate and all surrounding surfaces. Remove the foreground hanging hand/glove and lower wrist/forearm remnant from the left side of the trousers. Reveal only the missing black trouser cloth beneath and a small natural waist interface; match existing finely rendered black fabric, seams and warm upper-left light. Where the removed hand extends outside the plausible trouser silhouette, leave genuinely transparent background, not extra trouser bulk. No new armor, no enlarged hip plate, no hand or fingers remaining in the lower-left trouser region. Do not redesign the trousers or crop/zoom/recenter. This is a small cloth-completion patch study; no full character, no leg/boot changes, no text, no shadow. Output the same complete close-up composition with transparent exterior.",
+    "referenced_image_paths": [
+      "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_e_49_cloth_patch_v1/input-context.png"
+    ],
+    "transparent_background": true
+  },
+  "input_sha256": "43375742a3b3346f83b3bac9deca037f1b0819aadfb0b97ebdbf63a35d933761",
+  "mask_sha256": "52490dc2cdd55331022dc4c9d27f198646b7576b914ab0549a803963f9ed6c15",
+  "source_crop": [
+    300,
+    425,
+    500,
+    600
+  ],
+  "source_raw": "earth_hero_e_49_control_v2/raw.png"
+}

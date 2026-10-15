@@ -1,0 +1,195 @@
+{
+  "status": "density_and_mask_proposal_only_not_passed",
+  "inputs": [
+    {
+      "path": "art_source/earth_e_layered_parts_v1/raw.png",
+      "sha256": "e18a7ef247abee3ca8f66737b84a8c07b8c1d70617a36ea69782976300532553"
+    },
+    {
+      "path": "art_source/earth_hero_e_49_control_v2/raw.png",
+      "sha256": "7338f1181da26815cc9d2f3f4ec4437a6be303c112e160b00ec7d5d14c000cec"
+    }
+  ],
+  "core_density": {
+    "logical_per_raw_pixel": 0.08527131782945736,
+    "anchor_y_raw": [
+      29,
+      416
+    ],
+    "anchor_y_logical": [
+      16,
+      49
+    ],
+    "waist_interface_is_authored": true
+  },
+  "arms_family": {
+    "proposed_fixed_logical_per_raw_pixel": 0.079,
+    "exploratory_interval": [
+      0.069,
+      0.089
+    ],
+    "raw_attachment_and_hand_regions_local": {
+      "46": [
+        [
+          218,
+          115,
+          243,
+          150
+        ],
+        [
+          251,
+          414,
+          291,
+          459
+        ]
+      ],
+      "49": [
+        [
+          211,
+          120,
+          242,
+          155
+        ],
+        [
+          300,
+          414,
+          343,
+          454
+        ]
+      ]
+    },
+    "source_attachment_region": [
+      33,
+      29,
+      40,
+      35
+    ],
+    "source_hand_centers": {
+      "46": [
+        37,
+        56
+      ],
+      "49": [
+        43,
+        56
+      ]
+    },
+    "rule": "one shared scalar for BOTH arm assets and all future uses; never per phase. Regions are surface/production interfaces not skeleton."
+  },
+  "old49_lower": {
+    "retain_existing_scale": 0.1028549998260168,
+    "retain_existing_translation": [
+      -1.4220149316246022,
+      -0.25108997251065546
+    ],
+    "toe_delta": [
+      17.7939149699,
+      -4.4227649925
+    ],
+    "source_toe_delta": [
+      17,
+      -6
+    ],
+    "old_hand_occluded_region_raw": [
+      337,
+      492,
+      417,
+      571
+    ],
+    "missing_region_is_not_recoverable_by_mask": true
+  },
+  "background_proposal": {
+    "rectangles_global": [
+      [
+        115,
+        8,
+        393,
+        440
+      ],
+      [
+        690,
+        73,
+        838,
+        505
+      ],
+      [
+        1205,
+        84,
+        1404,
+        496
+      ],
+      [
+        61,
+        522,
+        476,
+        996
+      ],
+      [
+        601,
+        527,
+        963,
+        990
+      ]
+    ],
+    "removed_nonzero_alpha": 20439,
+    "removed_alpha_ge128": 0,
+    "max_removed_alpha": 127,
+    "note": "Conservative manually chosen outer rectangles; close brown fringe retained. Not an applied production mask."
+  },
+  "cloth_patch_pending_approval": {
+    "context_crop_raw": [
+      300,
+      425,
+      500,
+      600
+    ],
+    "replacement_polygon_raw": [
+      [
+        333,
+        476
+      ],
+      [
+        359,
+        475
+      ],
+      [
+        389,
+        483
+      ],
+      [
+        414,
+        503
+      ],
+      [
+        421,
+        541
+      ],
+      [
+        414,
+        570
+      ],
+      [
+        401,
+        578
+      ],
+      [
+        370,
+        575
+      ],
+      [
+        348,
+        560
+      ],
+      [
+        333,
+        536
+      ]
+    ],
+    "fixed_logical_per_raw_pixel": 0.1028549998260168,
+    "mask_feather_max_raw_px": 2,
+    "feather_inside_only": true,
+    "protected": "all pixels outside mask, especially entire legs below y578; no regenerated leg/boot used",
+    "uncertainty": "under-glove trouser surface and hidden outer contour must be newly authored; not recovered original anatomy",
+    "approval": "parent review of exact region required before one imagegen call"
+  }
+}

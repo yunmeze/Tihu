@@ -1,0 +1,123 @@
+{
+  "status": "raw_gate_failed_before_assembly",
+  "raw_sha256": "e18a7ef247abee3ca8f66737b84a8c07b8c1d70617a36ea69782976300532553",
+  "raw_size": [
+    1536,
+    1024
+  ],
+  "common_explanatory_core_scale": 0.08527131782945736,
+  "scale_assumption": "core crown y29 to belt bottom416 maps source crown16 to authored waist49; waist is uncertain production interface, NOT a bone fit",
+  "parts": [
+    {
+      "name": "core",
+      "raw_rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "alpha128_bbox": [
+        133,
+        26,
+        375,
+        422
+      ],
+      "bbox_height_logical_at_core_scale": 33.76744186046511
+    },
+    {
+      "name": "arm46",
+      "raw_rect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "alpha128_bbox": [
+        196,
+        91,
+        308,
+        487
+      ],
+      "bbox_height_logical_at_core_scale": 33.76744186046511
+    },
+    {
+      "name": "arm49",
+      "raw_rect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "alpha128_bbox": [
+        199,
+        102,
+        362,
+        478
+      ],
+      "bbox_height_logical_at_core_scale": 32.06201550387597
+    },
+    {
+      "name": "lower46",
+      "raw_rect": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "alpha128_bbox": [
+        79,
+        28,
+        458,
+        466
+      ],
+      "bbox_height_logical_at_core_scale": 37.348837209302324,
+      "toe_delta_at_common_core_scale": [
+        22.767441860465116,
+        2.558139534883721
+      ],
+      "source_toe_delta": [
+        17.0,
+        10.0
+      ]
+    },
+    {
+      "name": "lower49",
+      "raw_rect": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "alpha128_bbox": [
+        107,
+        33,
+        433,
+        460
+      ],
+      "bbox_height_logical_at_core_scale": 36.41085271317829,
+      "toe_delta_at_common_core_scale": [
+        17.73643410852713,
+        3.1550387596899223
+      ],
+      "source_toe_delta": [
+        17.0,
+        -6.0
+      ]
+    },
+    {
+      "name": "empty",
+      "raw_rect": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "alpha128_bbox": null,
+      "bbox_height_logical_at_core_scale": null
+    }
+  ],
+  "arm_uncertainty": "raw tip-to-hand approx350px =29.8 logical at core scale; source shoulder29..35 to hand56 is21..27 before hand uncertainty; size mismatch suspected, not proven precise anatomy. Full-arm lengths and independently recentered cells violate requested layout; permitted hidden overlap2-3px must be assessed before assembly.",
+  "no_masks_or_edge_changes_performed": true,
+  "no_assembled_pose": true,
+  "no_retry": true
+}
