@@ -2,12 +2,18 @@ extends Node2D
 const World=preload("res://scripts/art/preview_world_pass.gd")
 const Movement=preload("res://scripts/core/movement.gd")
 const Shadow=preload("res://scripts/art/hero_alpha_ground_shadow.gd")
+const NPCPair=preload("res://scripts/art/selected_npc_pair.gd")
 const TreeShadow=preload("res://scripts/art/selected_tree_shadow.gd")
 const ATLAS="res://assets/scifi/hero/se_idle_v1/body.png"
 var worlds:Array=[]
 var actor=Movement.new()
 var shadow=Shadow.new()
 var tree_shadow=TreeShadow.new()
+var npc_pair=NPCPair.new()
+var npc_on:=false
+var npc_shadow_on:=true
+var npc_tick:=0
+var extra_passes:Array=[]
 var tree_cast_ready:=false
 var tree_cast_on:=true
 var body=Node2D.new()
@@ -30,6 +36,10 @@ var temple_on:=false
 var tree_ready:=true
 var tree_on:=false
 func _ready() -> void:
+	get_window().mode=Window.MODE_WINDOWED
+	get_window().size=Vector2i(1024,768)
+	get_window().unresizable=true
+	get_window().content_scale_size=Vector2i(1024,768)
 	atlas=load(ATLAS)
 	walk_atlas=optional_walk("res://assets/scifi/hero/se_walk_v3/body.png")
 	walk_atlases={45:optional_walk("res://assets/scifi/hero/e_walk_v1/body.png"),51:walk_atlas,57:optional_walk("res://assets/scifi/hero/s_walk_v1/body.png")}
@@ -53,6 +63,12 @@ func _ready() -> void:
 	body.draw.connect(draw_body)
 	add_child(body)
 	add_child(worlds[2])
+	for i in 2:
+		var w=World.new();assert(w.setup(actor));w.pass_kind=1;w.visible=false
+		w.prepare_temple();w.prepare_tree();extra_passes.append(w);add_child(w)
+	add_child(npc_pair)
+	npc_pair.prepare(worlds[0].map)
+	for sprite in npc_pair.bodies:add_child(sprite)
 	var canvas=CanvasLayer.new()
 	add_child(canvas)
 	label.position=Vector2(12,12)
@@ -84,14 +100,14 @@ func draw_body() -> void:
 			var f=layer.frames[str(phase)]
 			body.draw_texture_rect_region(worlds[0].textures[layer.atlas],Rect2(origin+Vector2(f.offset[0],f.offset[1]),Vector2(f.rect[2],f.rect[3])),Rect2(f.rect[0],f.rect[1],f.rect[2],f.rect[3]))
 func refresh() -> void:
-	for w in worlds:
+	for w in worlds+extra_passes:
 		w.camera=actor.position
 		w.tick=0
 		w.temple_enabled=temple_on and temple_ready
 		w.queue_redraw()
 	var tree_ok=tree_ready and tree_cast_ready and tree_shadow.configure_at(worlds[0].screen_origin())
 	if not tree_ok:tree_on=false
-	for w in worlds:w.tree_enabled=tree_on and tree_ok
+	for w in worlds+extra_passes:w.tree_enabled=tree_on and tree_ok
 	tree_shadow.visible=tree_on and tree_cast_on and tree_ok
 	var origin=worlds[0].screen_origin()+actor.position*Vector2(48,32)-Vector2(16,64)
 	var tex=selected_texture()
@@ -104,9 +120,12 @@ func refresh() -> void:
 	shadow.visible=new_body and shadow_on and ok
 	body.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR if new_body and linear else CanvasItem.TEXTURE_FILTER_NEAREST
 	body.queue_redraw()
-	label.text="ART PREVIEW E/SE/S idle + walk | cell%s frame%d new%s shadow%s linear%s\n1 E / 2 SE / 3 S | C idle cycle / P phase / M selected E/SE/S route | B source / S shadow / L filter\nT temple / F5 view | G tree+cast / H tree cast / F6 tree front | F2 back / F3 front / F4 road\nHero ground86; one selected tree ground cast. Building cast / platform receivers not included."%[actor.position,phase,new_body,shadow.visible,linear]
-	print("R5_DEPTH_STATE ",JSON.stringify({"cell":[actor.position.x,actor.position.y],"phase":phase,"new":new_body,"shadow":shadow.visible,"linear":linear,"cycle":cycling,"temple":temple_on and temple_ready,"tree":tree_on and tree_ready,"tree_cast":tree_shadow.visible}))
+	arrange_npcs()
+	label.text="ART PREVIEW E/SE/S idle + walk | cell%s frame%d new%s shadow%s linear%s\n1 E / 2 SE / 3 S | C idle cycle / P phase / M selected E/SE/S route | B source / S shadow / L filter\nT temple / F5 view | G tree+cast / H tree cast / F6 tree front | F2 back / F3 front / F4 road\nJ two NPCs / K NPC shadows / F7 NPC view / F8 HUD; same17tick. Flat receivers only."%[actor.position,phase,new_body,shadow.visible,linear]
+	print("R5_DEPTH_STATE ",JSON.stringify({"cell":[actor.position.x,actor.position.y],"phase":phase,"new":new_body,"shadow":shadow.visible,"linear":linear,"cycle":cycling,"temple":temple_on and temple_ready,"tree":tree_on and tree_ready,"tree_cast":tree_shadow.visible,"npc_pair":npc_on,"npc_shadows":npc_pair.visible,"npc_phase":(npc_tick/17)%4}))
 func _physics_process(delta:float) -> void:
+	npc_tick+=1
+	if npc_tick%17==0 and not moving:refresh()
 	if moving:
 		actor.step(delta)
 		phase=actor.source_frame()
@@ -120,12 +139,16 @@ func _physics_process(delta:float) -> void:
 			refresh()
 func _unhandled_input(event:InputEvent) -> void:
 	if not event is InputEventKey or not event.pressed or event.echo:return
-	if event.keycode in [KEY_F1,KEY_F2,KEY_F3,KEY_F4,KEY_F5,KEY_F6,KEY_P,KEY_1,KEY_2,KEY_3]:
+	if event.keycode in [KEY_F1,KEY_F2,KEY_F3,KEY_F4,KEY_F5,KEY_F6,KEY_F7,KEY_P,KEY_1,KEY_2,KEY_3]:
 		moving=false;actor.stop()
 	match event.keycode:
 		KEY_1:idle_start=9;phase=9;actor.direction=2
 		KEY_2:idle_start=13;phase=13;actor.direction=3
 		KEY_3:idle_start=17;phase=17;actor.direction=4
+		KEY_F8:label.visible=not label.visible
+		KEY_J:npc_on=not npc_on
+		KEY_K:npc_shadow_on=not npc_shadow_on
+		KEY_F7:actor.position=Vector2(63,39)
 		KEY_T:temple_on=not temple_on if temple_ready else false
 		KEY_H:tree_cast_on=not tree_cast_on
 		KEY_G:tree_on=not tree_on if tree_ready else false
@@ -148,3 +171,27 @@ func _unhandled_input(event:InputEvent) -> void:
 			phase=idle_start;moving=actor.request(target)
 			print("ART_PREVIEW_DIRECTION_ROUTE ",actor.direction," ",moving," ",actor.path)
 	refresh()
+
+func arrange_npcs() -> void:
+	var ready=npc_pair.configure_at(worlds[0].screen_origin(),npc_tick)
+	if not ready:npc_on=false
+	npc_pair.visible=npc_on and npc_shadow_on and ready
+	for sprite in npc_pair.bodies:sprite.visible=npc_on and ready
+	var passes=[worlds[1],extra_passes[0],extra_passes[1],worlds[2]]
+	for i in passes.size():
+		passes[i].npc_cut_mode=npc_on and ready
+		passes[i].slice_index=i
+		passes[i].tick=npc_tick
+		extra_passes[0].visible=npc_on and ready
+		extra_passes[1].visible=npc_on and ready
+	var ordered:Array=[worlds[0],tree_shadow,shadow,npc_pair]
+	if npc_on and ready:
+		var cut:Array=[]
+		for entry in worlds[0].ordered_objects():
+			if entry.kind==-1:cut.append(body)
+			elif entry.kind==7 and entry.order in [10000,10001]:cut.append(npc_pair.bodies[entry.order-10000])
+		assert(cut.size()==3)
+		for i in 3:ordered.append(passes[i]);ordered.append(cut[i])
+		ordered.append(passes[3])
+	else:ordered.append(worlds[1]);ordered.append(body);ordered.append(worlds[2])
+	for i in ordered.size():move_child(ordered[i],i)

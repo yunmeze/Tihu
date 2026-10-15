@@ -41,3 +41,8 @@ The same optional art preview also has G for the reviewed first A13 golden tree 
 
 
 The optional art preview has30 selected phases: E/SE/S each four idle plus six walking. Select1/2/3, C cycles idle, P advances all poses, and M for that direction's verified two-cell route. All three share fixed86 single-shadow sampling; each returns to its own idle. B switches to original body/head, S toggles hero shadow. Other directions and run remain outside this optional preview. See `docs/ADJACENT_IDLE_ART_PREVIEW.md` for bounded movement/depth review and retained pose differences.
+
+The optional art preview also offers **J** to switch the two exact A13 NPC records
+(方丈 / 凌云子) together, **K** for their single ground shadows, and **F7** to view
+them. Their shared four-phase clock is17 updates/phase. This is an art-only preview;
+R1 and R6 NPC dialogue/gameplay remain source. See `docs/A13_NPC_ART_PREVIEW.md`.

@@ -1,5 +1,8 @@
 extends "res://scripts/world_view.gd"
 var pass_kind:=0
+var npc_cut_mode:=false
+var slice_index:=0
+const NPC_ORDERS=[10000,10001]
 var temple_enabled:=false
 var temple_owners:Dictionary={}
 var tree_enabled:=false
@@ -54,11 +57,17 @@ func _draw() -> void:
 		for f in floors:_draw_frame(f.pack,f.index,f.origin+offset,false,0)
 		return
 	var after:=false
+	var current_slice:=0
 	for entry in ordered_objects():
+		if npc_cut_mode:
+			if entry.kind==-1 or (entry.kind==7 and entry.order in NPC_ORDERS):
+				current_slice+=1
+				continue
+			if current_slice!=slice_index:continue
 		if entry.kind==-1:
 			after=true
 			continue
-		if (pass_kind==1 and after) or (pass_kind==2 and not after):continue
+		if not npc_cut_mode and ((pass_kind==1 and after) or (pass_kind==2 and not after)):continue
 		if temple_enabled and entry.kind==4 and temple_owners.has(entry.order):
 			draw_temple(temple_owners[entry.order],offset)
 			continue
