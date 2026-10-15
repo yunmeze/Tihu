@@ -1,0 +1,59 @@
+{
+  "status": "original_source_preparation",
+  "files": [
+    {
+      "path": "source-9.png",
+      "sha256": "b63efc54d3a0220933c1be922e30307bd83c087761b28822b3496003f972d624"
+    },
+    {
+      "path": "source-10.png",
+      "sha256": "2f4bd324b466c057eb0282df6e5828c15df2fa7b015e98270e0c194f2db160d4"
+    },
+    {
+      "path": "source-11.png",
+      "sha256": "70a7ed5be1a27c8fe857efaa7acbd9316ea8713e8f8e8eb881b33f8187a2d255"
+    },
+    {
+      "path": "source-12.png",
+      "sha256": "47460cc7480af67a31d05fe6b26c7ed31ba0d32330c0ba9a533bdadab448d1f1"
+    },
+    {
+      "path": "original-four-native-strip.png",
+      "sha256": "c30c34440a1c94856d0abb2075ead5c65dc2a68a2626055b8806fffe2cb34752"
+    },
+    {
+      "path": "original-four-common-crop-6x.png",
+      "sha256": "c97233dc699a532a372f373c9e79509e40aaf7df29c9b3ad28ae0992636a2c7d"
+    },
+    {
+      "path": "source-provenance.json",
+      "sha256": "ab0ab6fa5d149b93b5286627c60a98e1d0334ae498e0e5f76bafb344095c1113"
+    },
+    {
+      "path": "identity-small-material-features.png",
+      "sha256": "ea4431c26d10d8e47b2d5080b1be3fdb7044c0f6478bd83f8882aaf00c401b21"
+    },
+    {
+      "path": "identity-input-contract.json",
+      "sha256": "e1265426e7f1b56314b75685393ccb70039ab32d60209cd182357b3c03e986ea"
+    },
+    {
+      "path": "SOURCE_PHASE_ANALYSIS.json",
+      "sha256": "0611efdeebbd84f5dca7d9b902a60d9e64479d47df147b5d2bb1b694be4c7b21"
+    },
+    {
+      "path": "README.md",
+      "sha256": "3a0fb79ab36a2adf3d8616a6aabed5663dddc137210b734f245e4f31b93c1d76"
+    }
+  ],
+  "pending": [],
+  "shared_tools": [
+    "../../tools/hero/prepare_adjacent_idle_sources.py",
+    "../../tools/hero/prepare_direction_identity_fragments.py"
+  ],
+  "exclude": [
+    "diagnostic grids or jpgs",
+    "Godot .import files",
+    "test outputs"
+  ]
+}

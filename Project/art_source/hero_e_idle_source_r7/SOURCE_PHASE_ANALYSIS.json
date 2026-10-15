@@ -1,0 +1,356 @@
+{
+  "status": "source_only_actual_four_images_and_grid_reviewed",
+  "source_ids": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "canvas": [
+    128,
+    128
+  ],
+  "native_draw_origin": [
+    16,
+    64
+  ],
+  "common_edit_crop": [
+    12,
+    8,
+    76,
+    96
+  ],
+  "cropped_native_origin": [
+    4,
+    56
+  ],
+  "frame_ticks": 12,
+  "timing_scope": "reference/current clip cadence, not independently proven original EXE transition lifecycle",
+  "all_four_composites_distinct": true,
+  "pairwise_comparison": [
+    {
+      "source_ids": [
+        9,
+        10
+      ],
+      "identical_rgba": false,
+      "changed_pixel_count": 371
+    },
+    {
+      "source_ids": [
+        9,
+        11
+      ],
+      "identical_rgba": false,
+      "changed_pixel_count": 449
+    },
+    {
+      "source_ids": [
+        9,
+        12
+      ],
+      "identical_rgba": false,
+      "changed_pixel_count": 444
+    },
+    {
+      "source_ids": [
+        10,
+        11
+      ],
+      "identical_rgba": false,
+      "changed_pixel_count": 265
+    },
+    {
+      "source_ids": [
+        10,
+        12
+      ],
+      "identical_rgba": false,
+      "changed_pixel_count": 265
+    },
+    {
+      "source_ids": [
+        11,
+        12
+      ],
+      "identical_rgba": false,
+      "changed_pixel_count": 285
+    }
+  ],
+  "uncertainty_px": {
+    "crown_and_bright_boot_surface": 1,
+    "neck_chest_pelvis_hand_clothing_proxy": 3
+  },
+  "point_semantics": "visible surface proxies, not reconstructed joints, bones or support/contact proofs",
+  "frames": [
+    {
+      "source_id": 9,
+      "direction": "E strict right-facing side profile",
+      "crown_surface": [
+        40,
+        15
+      ],
+      "neck_surface": [
+        42,
+        26
+      ],
+      "sternum_clothing_proxy": [
+        44,
+        38
+      ],
+      "pelvis_clothing_proxy": [
+        42,
+        54
+      ],
+      "near_hand_surface": [
+        37,
+        55
+      ],
+      "far_hand_surface": null,
+      "near_boot_tip": [
+        41,
+        86
+      ],
+      "far_boot_tip": [
+        48,
+        77
+      ],
+      "boots_visible": 2,
+      "second_hand_independently_visible": false,
+      "head_observation": "Hair crown remains y15; slight head/neck surface change, does not turn toward camera. Do not amplify into nod or new front-facing portrait.",
+      "stance_observation": "Two boots project to different y levels; same bright toe pixels in all4. No step/pivot. Higher-screen boot is not established as raised or planted from image alone.",
+      "source_layers": {
+        "body": {
+          "original": [
+            52,
+            72
+          ],
+          "offset": [
+            15,
+            -48
+          ],
+          "rgba_sha256": "fc3e380f1e173a2c49a8d6fbb2ab04529613c9a8ab3a2bac31cc6f7c8c74893a",
+          "sourceOffset": 47722,
+          "sourceBytes": 4822
+        },
+        "head": {
+          "original": [
+            12,
+            10
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "7342288e07842bcf1b2e26ba1ff40fbab076fd60762adb217011278ee04cee34",
+          "sourceOffset": 12682,
+          "sourceBytes": 1198
+        }
+      }
+    },
+    {
+      "source_id": 10,
+      "direction": "E strict right-facing side profile",
+      "crown_surface": [
+        40,
+        15
+      ],
+      "neck_surface": [
+        42,
+        27
+      ],
+      "sternum_clothing_proxy": [
+        44,
+        38
+      ],
+      "pelvis_clothing_proxy": [
+        42,
+        54
+      ],
+      "near_hand_surface": [
+        37,
+        55
+      ],
+      "far_hand_surface": null,
+      "near_boot_tip": [
+        41,
+        86
+      ],
+      "far_boot_tip": [
+        48,
+        77
+      ],
+      "boots_visible": 2,
+      "second_hand_independently_visible": false,
+      "head_observation": "Hair crown remains y15; slight head/neck surface change, does not turn toward camera. Do not amplify into nod or new front-facing portrait.",
+      "stance_observation": "Two boots project to different y levels; same bright toe pixels in all4. No step/pivot. Higher-screen boot is not established as raised or planted from image alone.",
+      "source_layers": {
+        "body": {
+          "original": [
+            52,
+            71
+          ],
+          "offset": [
+            15,
+            -47
+          ],
+          "rgba_sha256": "0ba464f992a934974b1901b625ea9c26ee0b5876af5bbf81222aef0f2a61e116",
+          "sourceOffset": 52548,
+          "sourceBytes": 4770
+        },
+        "head": {
+          "original": [
+            12,
+            11
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "559df7347ab292864c16f6cbb07a1c22a5c9cc6ca00b889c8f2e6b858d317e57",
+          "sourceOffset": 13884,
+          "sourceBytes": 1210
+        }
+      }
+    },
+    {
+      "source_id": 11,
+      "direction": "E strict right-facing side profile",
+      "crown_surface": [
+        40,
+        15
+      ],
+      "neck_surface": [
+        42,
+        27
+      ],
+      "sternum_clothing_proxy": [
+        44,
+        38
+      ],
+      "pelvis_clothing_proxy": [
+        42,
+        54
+      ],
+      "near_hand_surface": [
+        37,
+        55
+      ],
+      "far_hand_surface": null,
+      "near_boot_tip": [
+        41,
+        86
+      ],
+      "far_boot_tip": [
+        48,
+        77
+      ],
+      "boots_visible": 2,
+      "second_hand_independently_visible": false,
+      "head_observation": "Hair crown remains y15; slight head/neck surface change, does not turn toward camera. Do not amplify into nod or new front-facing portrait.",
+      "stance_observation": "Two boots project to different y levels; same bright toe pixels in all4. No step/pivot. Higher-screen boot is not established as raised or planted from image alone.",
+      "source_layers": {
+        "body": {
+          "original": [
+            52,
+            71
+          ],
+          "offset": [
+            15,
+            -47
+          ],
+          "rgba_sha256": "acc80921ffee15de780fd9c097fdd3303300b6fb3c4090f204c3f2106aa3c49c",
+          "sourceOffset": 57322,
+          "sourceBytes": 4770
+        },
+        "head": {
+          "original": [
+            12,
+            11
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "1152607bd476e64833e5c9901430a77635730eed8c54a45c752c87170a6caa8f",
+          "sourceOffset": 15098,
+          "sourceBytes": 1210
+        }
+      }
+    },
+    {
+      "source_id": 12,
+      "direction": "E strict right-facing side profile",
+      "crown_surface": [
+        40,
+        15
+      ],
+      "neck_surface": [
+        42,
+        26
+      ],
+      "sternum_clothing_proxy": [
+        44,
+        38
+      ],
+      "pelvis_clothing_proxy": [
+        42,
+        54
+      ],
+      "near_hand_surface": [
+        37,
+        55
+      ],
+      "far_hand_surface": null,
+      "near_boot_tip": [
+        41,
+        86
+      ],
+      "far_boot_tip": [
+        48,
+        77
+      ],
+      "boots_visible": 2,
+      "second_hand_independently_visible": false,
+      "head_observation": "Hair crown remains y15; slight head/neck surface change, does not turn toward camera. Do not amplify into nod or new front-facing portrait.",
+      "stance_observation": "Two boots project to different y levels; same bright toe pixels in all4. No step/pivot. Higher-screen boot is not established as raised or planted from image alone.",
+      "source_layers": {
+        "body": {
+          "original": [
+            52,
+            72
+          ],
+          "offset": [
+            15,
+            -48
+          ],
+          "rgba_sha256": "b58933821e8a74adfc3825620941cd7eae18e51b4b6118ade6b1106fca60ac6c",
+          "sourceOffset": 62096,
+          "sourceBytes": 4822
+        },
+        "head": {
+          "original": [
+            12,
+            10
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "7ba21f18a15717a86e4081847fdbd698124b124b4759cfd55ae2b210f393e4ad",
+          "sourceOffset": 16312,
+          "sourceBytes": 1198
+        }
+      }
+    }
+  ],
+  "generation_constraints": [
+    "source complete four figures are the actual edit canvas and only camera/pose authority",
+    "strict right-facing side silhouette; do not turn head/chest toward SE",
+    "near hand is visible, far hand is occluded/indistinct; do not force it out",
+    "two boots visible and their screen-y separation preserved",
+    "no mirrored source direction or independently scaled phase",
+    "current identity source has no approved E full-face design; tiny material/features only, no full SE portrait/body input"
+  ],
+  "original_pixels": "RGBA unchanged; exact black alpha already established by audited extraction; checker retained, no RGB16,8,8 global removal"
+}

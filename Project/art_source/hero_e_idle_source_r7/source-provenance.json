@@ -1,0 +1,217 @@
+{
+  "status": "original_source_only_no_generation",
+  "direction": "E",
+  "source_ids": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "canvas": [
+    128,
+    128
+  ],
+  "native_draw_origin": [
+    16,
+    64
+  ],
+  "reference_common_crop": [
+    12,
+    8,
+    76,
+    96
+  ],
+  "cropped_native_origin": [
+    4,
+    56
+  ],
+  "magnification": 6,
+  "frame_ticks": 12,
+  "timing_scope": "reference/current clip cadence, not independently proven original EXE transition lifecycle",
+  "original_manifest_sha256": "b5eb981b005efedc5f071bb51f35240cabf91aa0d77143e70bcf4ee9b9c733f1",
+  "records": [
+    {
+      "source_id": 9,
+      "layers": {
+        "body": {
+          "original": [
+            52,
+            72
+          ],
+          "offset": [
+            15,
+            -48
+          ],
+          "rgba_sha256": "fc3e380f1e173a2c49a8d6fbb2ab04529613c9a8ab3a2bac31cc6f7c8c74893a",
+          "sourceOffset": 47722,
+          "sourceBytes": 4822
+        },
+        "head": {
+          "original": [
+            12,
+            10
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "7342288e07842bcf1b2e26ba1ff40fbab076fd60762adb217011278ee04cee34",
+          "sourceOffset": 12682,
+          "sourceBytes": 1198
+        }
+      },
+      "composite_rgba_sha256": "ae8514009fc150961b888675f484d95923484a2da402cf8169ebfdd0c138babe",
+      "composite_file_sha256": "b63efc54d3a0220933c1be922e30307bd83c087761b28822b3496003f972d624"
+    },
+    {
+      "source_id": 10,
+      "layers": {
+        "body": {
+          "original": [
+            52,
+            71
+          ],
+          "offset": [
+            15,
+            -47
+          ],
+          "rgba_sha256": "0ba464f992a934974b1901b625ea9c26ee0b5876af5bbf81222aef0f2a61e116",
+          "sourceOffset": 52548,
+          "sourceBytes": 4770
+        },
+        "head": {
+          "original": [
+            12,
+            11
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "559df7347ab292864c16f6cbb07a1c22a5c9cc6ca00b889c8f2e6b858d317e57",
+          "sourceOffset": 13884,
+          "sourceBytes": 1210
+        }
+      },
+      "composite_rgba_sha256": "ab169c924dbfe6e7d65250fd17b18e0a6e9bb23230dfc2cab2f25f730e076fc3",
+      "composite_file_sha256": "2f4bd324b466c057eb0282df6e5828c15df2fa7b015e98270e0c194f2db160d4"
+    },
+    {
+      "source_id": 11,
+      "layers": {
+        "body": {
+          "original": [
+            52,
+            71
+          ],
+          "offset": [
+            15,
+            -47
+          ],
+          "rgba_sha256": "acc80921ffee15de780fd9c097fdd3303300b6fb3c4090f204c3f2106aa3c49c",
+          "sourceOffset": 57322,
+          "sourceBytes": 4770
+        },
+        "head": {
+          "original": [
+            12,
+            11
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "1152607bd476e64833e5c9901430a77635730eed8c54a45c752c87170a6caa8f",
+          "sourceOffset": 15098,
+          "sourceBytes": 1210
+        }
+      },
+      "composite_rgba_sha256": "b59d71be4b7bb06baa6fc1758fafc78651e9194a13070a7677339d9c38699324",
+      "composite_file_sha256": "70a7ed5be1a27c8fe857efaa7acbd9316ea8713e8f8e8eb881b33f8187a2d255"
+    },
+    {
+      "source_id": 12,
+      "layers": {
+        "body": {
+          "original": [
+            52,
+            72
+          ],
+          "offset": [
+            15,
+            -48
+          ],
+          "rgba_sha256": "b58933821e8a74adfc3825620941cd7eae18e51b4b6118ade6b1106fca60ac6c",
+          "sourceOffset": 62096,
+          "sourceBytes": 4822
+        },
+        "head": {
+          "original": [
+            12,
+            10
+          ],
+          "offset": [
+            20,
+            -49
+          ],
+          "rgba_sha256": "7ba21f18a15717a86e4081847fdbd698124b124b4759cfd55ae2b210f393e4ad",
+          "sourceOffset": 16312,
+          "sourceBytes": 1198
+        }
+      },
+      "composite_rgba_sha256": "59cae7f2160ebf1b361448cfe2eb22968de3b42e965665a26d000d455c8cc30b",
+      "composite_file_sha256": "47460cc7480af67a31d05fe6b26c7ed31ba0d32330c0ba9a533bdadab448d1f1"
+    }
+  ],
+  "pairwise_composite_comparison": [
+    {
+      "source_ids": [
+        9,
+        10
+      ],
+      "identical_rgba": false,
+      "changed_pixel_count": 371
+    },
+    {
+      "source_ids": [
+        9,
+        11
+      ],
+      "identical_rgba": false,
+      "changed_pixel_count": 449
+    },
+    {
+      "source_ids": [
+        9,
+        12
+      ],
+      "identical_rgba": false,
+      "changed_pixel_count": 444
+    },
+    {
+      "source_ids": [
+        10,
+        11
+      ],
+      "identical_rgba": false,
+      "changed_pixel_count": 265
+    },
+    {
+      "source_ids": [
+        10,
+        12
+      ],
+      "identical_rgba": false,
+      "changed_pixel_count": 265
+    },
+    {
+      "source_ids": [
+        11,
+        12
+      ],
+      "identical_rgba": false,
+      "changed_pixel_count": 285
+    }
+  ],
+  "transparency": "exactblack already transparent in audited original atlas; no additional color removal, checker and darkbody/head retained"
+}

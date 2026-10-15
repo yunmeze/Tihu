@@ -1,0 +1,127 @@
+{
+  "status": "reference_only_no_direction_design_generated",
+  "direction": "E",
+  "source": "hero_identity_rebuild_candidate_v1/identity-rebuild-v2-raw.png",
+  "source_sha256": "5d21f8db16f0fd0151d5d226ba62f826c06f5571aa2c92f65de348eda42f9512",
+  "parts": [
+    {
+      "label": "hair texture only",
+      "source_box": [
+        500,
+        35,
+        590,
+        108
+      ],
+      "destination": [
+        20,
+        40
+      ],
+      "resampling": "none"
+    },
+    {
+      "label": "eye eyebrow detail",
+      "source_box": [
+        567,
+        126,
+        631,
+        158
+      ],
+      "destination": [
+        270,
+        40
+      ],
+      "resampling": "none"
+    },
+    {
+      "label": "silver chest material",
+      "source_box": [
+        520,
+        293,
+        610,
+        373
+      ],
+      "destination": [
+        520,
+        40
+      ],
+      "resampling": "none"
+    },
+    {
+      "label": "wine shoulder material",
+      "source_box": [
+        382,
+        256,
+        465,
+        330
+      ],
+      "destination": [
+        770,
+        40
+      ],
+      "resampling": "none"
+    },
+    {
+      "label": "waist module",
+      "source_box": [
+        510,
+        505,
+        620,
+        575
+      ],
+      "destination": [
+        20,
+        260
+      ],
+      "resampling": "none"
+    },
+    {
+      "label": "fingerless glove",
+      "source_box": [
+        724,
+        548,
+        800,
+        650
+      ],
+      "destination": [
+        270,
+        260
+      ],
+      "resampling": "none"
+    },
+    {
+      "label": "knee material",
+      "source_box": [
+        470,
+        812,
+        535,
+        878
+      ],
+      "destination": [
+        520,
+        260
+      ],
+      "resampling": "none"
+    },
+    {
+      "label": "boot armor detail",
+      "source_box": [
+        700,
+        1060,
+        784,
+        1109
+      ],
+      "destination": [
+        770,
+        260
+      ],
+      "resampling": "none"
+    }
+  ],
+  "excluded": [
+    "complete generated face/head silhouette",
+    "complete generated body or pairedlegs",
+    "SE stance/camera"
+  ],
+  "direction_rule": "Original E four figures determine strict screen-right profile",
+  "identity_uncertainty": "Current design has only SE fullbody reference. These small features/materials do not constitute an already-approved E/S head or plate projection; new direction must be independently reviewed."
+}
