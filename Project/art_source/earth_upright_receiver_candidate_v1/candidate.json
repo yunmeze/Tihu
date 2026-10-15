@@ -1,0 +1,357 @@
+{
+  "schema": "earth-upright-receiver-two-patch-cpu-candidate-v1",
+  "status": "parent material/overlay review required; no runtime/GPU promotion",
+  "left_road_border_semantics": "parent-approved coplanar decorative approximation; not physical elevation evidence",
+  "density": 4.5,
+  "root_raw": [
+    560,
+    1329
+  ],
+  "cast": [
+    1.2,
+    0.55
+  ],
+  "opacity": 0.25,
+  "blur_logical": 0.8,
+  "dilation_logical": 4,
+  "uncertainty_expansion_logical_xy": [
+    7.2,
+    9.3
+  ],
+  "traces": [
+    {
+      "frame": 57,
+      "world_origin": [
+        3168,
+        1803
+      ],
+      "source_cell": [
+        -406,
+        1,
+        1,
+        57
+      ],
+      "source_order": 6662,
+      "reviewed_apron_upper_open_y_curve": [
+        [
+          0,
+          32
+        ],
+        [
+          8,
+          28
+        ],
+        [
+          16,
+          23
+        ],
+        [
+          24,
+          18
+        ],
+        [
+          32,
+          14
+        ],
+        [
+          40,
+          10
+        ],
+        [
+          47,
+          8
+        ]
+      ],
+      "known_nonflat_seed_lower_closed_y_curve": [
+        [
+          0,
+          48
+        ],
+        [
+          8,
+          44
+        ],
+        [
+          16,
+          39
+        ],
+        [
+          24,
+          34
+        ],
+        [
+          32,
+          28
+        ],
+        [
+          40,
+          22
+        ],
+        [
+          47,
+          18
+        ]
+      ],
+      "apron_texels": 416,
+      "known_nonflat_seed_texels": 541,
+      "unknown_forbidden_texels": 7920,
+      "rule": "only positive-alpha pixels above the apron curve are admitted as reviewed grass/soil; all other positive alpha remains forbidden, known core or unknown"
+    },
+    {
+      "frame": 58,
+      "world_origin": [
+        3216,
+        1800
+      ],
+      "source_cell": [
+        0,
+        1,
+        1,
+        58
+      ],
+      "source_order": 6763,
+      "reviewed_apron_upper_open_y_curve": [
+        [
+          0,
+          8
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          10,
+          9
+        ],
+        [
+          15,
+          6
+        ],
+        [
+          20,
+          5
+        ],
+        [
+          25,
+          7
+        ],
+        [
+          30,
+          11
+        ],
+        [
+          35,
+          15
+        ],
+        [
+          40,
+          17
+        ],
+        [
+          47,
+          20
+        ]
+      ],
+      "known_nonflat_seed_lower_closed_y_curve": [
+        [
+          0,
+          18
+        ],
+        [
+          5,
+          18
+        ],
+        [
+          10,
+          17
+        ],
+        [
+          15,
+          13
+        ],
+        [
+          20,
+          11
+        ],
+        [
+          25,
+          15
+        ],
+        [
+          30,
+          21
+        ],
+        [
+          35,
+          25
+        ],
+        [
+          40,
+          28
+        ],
+        [
+          47,
+          34
+        ]
+      ],
+      "apron_texels": 286,
+      "known_nonflat_seed_texels": 1185,
+      "unknown_forbidden_texels": 9364,
+      "rule": "only positive-alpha pixels above the apron curve are admitted as reviewed grass/soil; all other positive alpha remains forbidden, known core or unknown"
+    },
+    {
+      "frame": 59,
+      "world_origin": [
+        3264,
+        1813
+      ],
+      "source_cell": [
+        0,
+        -2,
+        1,
+        59
+      ],
+      "source_order": 6863,
+      "reviewed_apron_upper_open_y_curve": [
+        [
+          0,
+          12
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          10,
+          21
+        ],
+        [
+          15,
+          28
+        ],
+        [
+          20,
+          35
+        ],
+        [
+          25,
+          40
+        ],
+        [
+          47,
+          40
+        ]
+      ],
+      "known_nonflat_seed_lower_closed_y_curve": [
+        [
+          0,
+          24
+        ],
+        [
+          5,
+          29
+        ],
+        [
+          10,
+          36
+        ],
+        [
+          15,
+          43
+        ],
+        [
+          20,
+          50
+        ],
+        [
+          25,
+          58
+        ],
+        [
+          47,
+          70
+        ]
+      ],
+      "apron_texels": 508,
+      "known_nonflat_seed_texels": 190,
+      "unknown_forbidden_texels": 8960,
+      "rule": "only positive-alpha pixels above the apron curve are admitted as reviewed grass/soil; all other positive alpha remains forbidden, known core or unknown"
+    }
+  ],
+  "patches": [
+    {
+      "instance": "left_50_41",
+      "world_rect": [
+        2319,
+        1311,
+        605,
+        190
+      ],
+      "nominal_envelope_cells": 134420,
+      "uncertainty_envelope_cells": 213244,
+      "forbidden_cells": 0,
+      "full_nominal_bounds_xyxy": [
+        2329.2888888888892,
+        1321.2055555555555,
+        2913.1555555555556,
+        1490.2944444444445
+      ],
+      "full_uncertainty_bounds_xyxy": [
+        2322.0888888888894,
+        1311.9055555555556,
+        2920.3555555555554,
+        1499.5944444444444
+      ],
+      "complete_error_envelope_inside_patch": true,
+      "nominal_known_nonflat_seed_min_center_distance": null,
+      "error_known_nonflat_seed_min_center_distance": null,
+      "nominal_overlap_forbidden": 0,
+      "nominal_overlap_known_core_plus4": 0,
+      "nominal_overlap_unknown_plus4": 0,
+      "uncertainty_overlap_forbidden": 0,
+      "uncertainty_overlap_known_core_plus4": 0,
+      "uncertainty_overlap_unknown_plus4": 0,
+      "nominal_min_forbidden_cell_center_distance": null,
+      "uncertainty_min_forbidden_cell_center_distance": null,
+      "nominal_pass": true,
+      "uncertainty_pass": true
+    },
+    {
+      "instance": "bottom_61_51",
+      "world_rect": [
+        2847,
+        1631,
+        605,
+        190
+      ],
+      "nominal_envelope_cells": 134420,
+      "uncertainty_envelope_cells": 213244,
+      "forbidden_cells": 4464,
+      "full_nominal_bounds_xyxy": [
+        2857.2888888888892,
+        1641.2055555555555,
+        3441.1555555555556,
+        1810.2944444444445
+      ],
+      "full_uncertainty_bounds_xyxy": [
+        2850.0888888888894,
+        1631.9055555555556,
+        3448.3555555555554,
+        1819.5944444444444
+      ],
+      "complete_error_envelope_inside_patch": true,
+      "nominal_known_nonflat_seed_min_center_distance": 7.0,
+      "error_known_nonflat_seed_min_center_distance": 0.0,
+      "nominal_overlap_forbidden": 165,
+      "nominal_overlap_known_core_plus4": 0,
+      "nominal_overlap_unknown_plus4": 165,
+      "uncertainty_overlap_forbidden": 2747,
+      "uncertainty_overlap_known_core_plus4": 522,
+      "uncertainty_overlap_unknown_plus4": 2747,
+      "nominal_min_forbidden_cell_center_distance": 0.0,
+      "uncertainty_min_forbidden_cell_center_distance": 0.0,
+      "nominal_pass": false,
+      "uncertainty_pass": false
+    }
+  ]
+}

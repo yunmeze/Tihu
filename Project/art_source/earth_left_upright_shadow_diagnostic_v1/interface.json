@@ -1,0 +1,296 @@
+{
+  "schema": "earth-left-upright-shadow-diagnostic-interface-v1",
+  "status": "parent-approved independent GPU diagnostic only; no production enable",
+  "slot": "left_upright_only",
+  "slot_count": "existing four plus one; if fixed six, slot5 hard disabled without bottom texture binding",
+  "body_texture": {
+    "path": "res://assets/earth/environment/upright_tree_v1/raw.png",
+    "sha256": "ada0e0fd8952fe1dcc6b60dafb9d64be96476ed7736a881f1e5e401436b3db0f",
+    "texture_size": [
+      1162,
+      1353
+    ]
+  },
+  "body_rgba_policy": "raw bytes and all decoded RGBA unchanged; no padding, resizing, root shift or density rounding",
+  "raw_region_xywh": [
+    0,
+    0,
+    1162,
+    1353
+  ],
+  "density": 4.5,
+  "logical_size": [
+    258.22222222222223,
+    300.6666666666667
+  ],
+  "world_body_origin": [
+    2311.5555555555557,
+    1030.6666666666667
+  ],
+  "raw_root_xy": [
+    560,
+    1329
+  ],
+  "logical_ground_reference": [
+    124.44444444444444,
+    295.3333333333333
+  ],
+  "slope": 0,
+  "cast": [
+    1.2,
+    0.55
+  ],
+  "opacity": 0.25,
+  "blur_logical": 0.8,
+  "blur_raw": 3.6,
+  "tint_rgb": [
+    0.035,
+    0.045,
+    0.055
+  ],
+  "raw_projection_matrix_rows": [
+    [
+      1,
+      -1.2
+    ],
+    [
+      0,
+      -0.55
+    ]
+  ],
+  "raw_projection_translation": [
+    1594.8,
+    2059.9500000000003
+  ],
+  "raw_projection_inverse_matrix_rows": [
+    [
+      1,
+      -2.1818181818181817
+    ],
+    [
+      0,
+      -1.8181818181818181
+    ]
+  ],
+  "raw_projection_inverse_translation": [
+    2899.6363636363635,
+    3745.3636363636365
+  ],
+  "transform": "raw_body_to_parent = Transform2D(scale=Vector2(1/4.5,1/4.5), origin=world_body_origin+screen_origin()); apply camera once; compositor local logical point goes through this inverse then inverse raw projection",
+  "receiver": {
+    "world_rect": [
+      2319,
+      1311,
+      605,
+      190
+    ],
+    "mask_density": 2,
+    "files": {
+      "allowed": {
+        "path": "res://diagnostics/earth-upright-receiver-candidate/left_50_41-allowed.png",
+        "sha256": "93e5a918b6151976758e139ee9dd4c88226ef2799fcfff0cc7fce15015a89c65",
+        "texture_size": [
+          1210,
+          380
+        ]
+      },
+      "forbidden": {
+        "path": "res://diagnostics/earth-upright-receiver-candidate/left_50_41-forbidden.png",
+        "sha256": "abf3f4a113e2eb88bb0b26aaf7181bd83140d8b645102d03c14db3d707af4a9c",
+        "texture_size": [
+          1210,
+          380
+        ]
+      },
+      "nominal-envelope": {
+        "path": "res://diagnostics/earth-upright-receiver-candidate/left_50_41-nominal-envelope.png",
+        "sha256": "7f5a3b8079ec0f666347c508333cc6f648306b0571dfc632ee0b439cc89d6d13",
+        "texture_size": [
+          1210,
+          380
+        ]
+      },
+      "root-error-envelope": {
+        "path": "res://diagnostics/earth-upright-receiver-candidate/left_50_41-root-error-envelope.png",
+        "sha256": "00725f17d3501153e6130149a523cc03d5e959cf6a777e8062d27449262a0ace",
+        "texture_size": [
+          1210,
+          380
+        ]
+      }
+    },
+    "nominal_cells": 134420,
+    "root_error_cells": 213244,
+    "require_complete_envelope": true,
+    "candidate_sha256": "71e13870364b9a229e0fcf69499c29f71ac2f5b266215aa4f7baae68b392414f",
+    "material_assumption": "parent-approved coplanar stone road border approximation, not recovered physical height",
+    "nominal_world_bounds": [
+      2329.2888888888892,
+      1321.2055555555555,
+      2913.1555555555556,
+      1490.2944444444445
+    ],
+    "root_error_world_bounds": [
+      2322.0888888888894,
+      1311.9055555555556,
+      2920.3555555555554,
+      1499.5944444444444
+    ]
+  },
+  "identity": {
+    "map_id": "A13",
+    "instance_index": 0,
+    "registration_path": "res://assets/earth/environment/upright_tree_v1/registration_left_50_41.json",
+    "six_source_keys": [
+      "Plant:299@50,41",
+      "Plant:300@48,45",
+      "Plant:301@49,45",
+      "Plant:302@51,45",
+      "Plant:303@52,45",
+      "Plant:304@53,45"
+    ],
+    "owners": [
+      {
+        "key": "Plant:299@50,41",
+        "pack": "Map/Res/Plant",
+        "cell": [
+          50,
+          41
+        ],
+        "source_cell": [
+          0,
+          -1,
+          2,
+          299
+        ],
+        "frame_index": 299,
+        "layer": 1,
+        "sort_y": 41,
+        "stable_source_order": 5041,
+        "empty": false
+      },
+      {
+        "key": "Plant:300@48,45",
+        "pack": "Map/Res/Plant",
+        "cell": [
+          48,
+          45
+        ],
+        "source_cell": [
+          0,
+          0,
+          2,
+          300
+        ],
+        "frame_index": 300,
+        "layer": 1,
+        "sort_y": 45,
+        "stable_source_order": 4845,
+        "empty": false
+      },
+      {
+        "key": "Plant:301@49,45",
+        "pack": "Map/Res/Plant",
+        "cell": [
+          49,
+          45
+        ],
+        "source_cell": [
+          0,
+          0,
+          2,
+          301
+        ],
+        "frame_index": 301,
+        "layer": 1,
+        "sort_y": 45,
+        "stable_source_order": 4945,
+        "empty": false
+      },
+      {
+        "key": "Plant:302@51,45",
+        "pack": "Map/Res/Plant",
+        "cell": [
+          51,
+          45
+        ],
+        "source_cell": [
+          0,
+          0,
+          2,
+          302
+        ],
+        "frame_index": 302,
+        "layer": 1,
+        "sort_y": 45,
+        "stable_source_order": 5145,
+        "empty": false
+      },
+      {
+        "key": "Plant:303@52,45",
+        "pack": "Map/Res/Plant",
+        "cell": [
+          52,
+          45
+        ],
+        "source_cell": [
+          0,
+          0,
+          2,
+          303
+        ],
+        "frame_index": 303,
+        "layer": 1,
+        "sort_y": 45,
+        "stable_source_order": 5245,
+        "empty": false
+      },
+      {
+        "key": "Plant:304@53,45",
+        "pack": "Map/Res/Plant",
+        "cell": [
+          53,
+          45
+        ],
+        "source_cell": [
+          0,
+          0,
+          2,
+          304
+        ],
+        "frame_index": 304,
+        "layer": 1,
+        "sort_y": 45,
+        "stable_source_order": 5345,
+        "empty": true
+      }
+    ]
+  },
+  "enabling_conditions": [
+    "global shadow preference true",
+    "V candidate upright group0 is currently active and its six unique original identities are complete",
+    "source map, registration, five nonempty owner textures and shared raw match bound hashes; intentional sixth empty owner still validated",
+    "complete nominal and root-error world envelopes pass this explicit patch, independent of camera",
+    "current helper/body logical origin and exact4.5 density/root/cast/blur remain bound"
+  ],
+  "failure_policy": "disable whole new left slot; keep other independently gated four slots unchanged; source V disables left immediately; never clip a cast or use viewport visibility as validity",
+  "sampling": "same reject-before-clamp raw region, bilinear LOD0, weighted9tap/16 using raw3.6 then opacity.25; max with existing independently blurred four alpha values; one common tint/blend; never a second shadow draw",
+  "bottom_policy": "always disabled, even though same raw and six-source family; never reuse left gate for bottom instance",
+  "input_sha256": {
+    "res://data/maps/A13.json": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "res://assets/original/manifest.json": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+    "res://assets/earth/environment/upright_tree_v1/raw.png": "ada0e0fd8952fe1dcc6b60dafb9d64be96476ed7736a881f1e5e401436b3db0f",
+    "res://assets/earth/environment/upright_tree_v1/registration_left_50_41.json": "e8b5fae705b312e910a4acb60eda616829b50c1f014fe9bb22453944a9745acd",
+    "res://scripts/earth/upright_candidate.gd": "83d79c0484b186bdf1c160be4da5c18a8395f9cf6d6f2110b7f3d42ba39413a0",
+    "res://scripts/earth/sample_world.gd": "c43169e21bc4b23d34ae1a4992253b05720897449e3e420e138b4f5c71e5b9cc",
+    "res://scripts/earth/max_ground_shadow.gd": "73b692478417e70e82a563d6cffca9062164cccb34225537d07af3f50094ac91",
+    "res://shaders/earth_max_ground_shadow.gdshader": "468a56b98e5eb57bac5c3cf9c554f0bf31c22bbfd4d5969b1e4719a64d88a85a",
+    "res://assets/earth/shadows/receiver_v2/manifest.json": "47ec132ca5ca0dc2103c293bf5344e4a08efd100621b863a2e8892b032f2d3a0",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d"
+  }
+}

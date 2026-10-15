@@ -1,0 +1,2234 @@
+[
+  {
+    "family": "first_tree",
+    "baseline_root": [
+      57,
+      34
+    ],
+    "frame_indices": [
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298
+    ],
+    "owner_count_per_group": 7,
+    "instance_count": 2,
+    "unconverted_instances": 1,
+    "instances": [
+      {
+        "root_cell": [
+          57,
+          34
+        ],
+        "converted": true,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          0,
+          0
+        ],
+        "bounds_xyxy": [
+          2642,
+          790,
+          2954,
+          1101
+        ],
+        "owners": [
+          "Map/Res/Plant:292@57,34",
+          "Map/Res/Plant:293@55,37",
+          "Map/Res/Plant:294@56,37",
+          "Map/Res/Plant:295@58,37",
+          "Map/Res/Plant:296@59,37",
+          "Map/Res/Plant:297@60,37",
+          "Map/Res/Plant:298@61,37"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@54,24",
+          "Map/Res/FloorBig:406@54,26",
+          "Map/Res/FloorBig:406@54,28",
+          "Map/Res/FloorBig:406@54,30",
+          "Map/Res/FloorBig:406@54,32",
+          "Map/Res/FloorBig:406@54,34",
+          "Map/Res/Plant:321@55,24",
+          "Map/Res/Plant:240@55,25",
+          "Map/Res/Plant:242@55,26",
+          "Map/Res/Plant:240@55,30",
+          "Map/Res/Plant:242@55,31",
+          "Map/Res/FloorBig:406@56,24",
+          "Map/Res/FloorBig:406@56,26",
+          "Map/Res/FloorBig:406@56,28",
+          "Map/Res/FloorBig:406@56,30",
+          "Map/Res/FloorBig:406@56,32",
+          "Map/Res/FloorBig:406@56,34",
+          "Map/Res/FloorBig:406@58,24",
+          "Map/Res/FloorBig:406@58,26",
+          "Map/Res/FloorBig:406@58,28",
+          "Map/Res/FloorBig:406@58,30",
+          "Map/Res/FloorBig:406@58,32",
+          "Map/Res/FloorBig:406@58,34",
+          "Map/Res/Plant:244@59,24",
+          "Map/Res/FloorBig:406@60,24",
+          "Map/Res/FloorBig:406@60,26",
+          "Map/Res/FloorBig:406@60,28",
+          "Map/Res/FloorBig:406@60,30",
+          "Map/Res/FloorBig:406@60,32",
+          "Map/Res/FloorBig:406@60,34",
+          "Map/Res/Plant:321@61,24",
+          "Map/Res/Building:3966@61,32"
+        ],
+        "classification": "already_bounded"
+      },
+      {
+        "root_cell": [
+          70,
+          47
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": false,
+        "flag_differences": [],
+        "source_cell_differences": [
+          {
+            "frame": 293,
+            "baseline": [
+              0,
+              0,
+              2,
+              293
+            ],
+            "target": [
+              -406,
+              0,
+              2,
+              293
+            ]
+          },
+          {
+            "frame": 296,
+            "baseline": [
+              0,
+              0,
+              2,
+              296
+            ],
+            "target": [
+              -406,
+              0,
+              2,
+              296
+            ]
+          },
+          {
+            "frame": 298,
+            "baseline": [
+              0,
+              0,
+              2,
+              298
+            ],
+            "target": [
+              -406,
+              0,
+              2,
+              298
+            ]
+          }
+        ],
+        "world_translation_from_baseline": [
+          624,
+          416
+        ],
+        "bounds_xyxy": [
+          3266,
+          1206,
+          3578,
+          1517
+        ],
+        "owners": [
+          "Map/Res/Plant:292@70,47",
+          "Map/Res/Plant:293@68,50",
+          "Map/Res/Plant:294@69,50",
+          "Map/Res/Plant:295@71,50",
+          "Map/Res/Plant:296@72,50",
+          "Map/Res/Plant:297@73,50",
+          "Map/Res/Plant:298@74,50"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@68,36",
+          "Map/Res/FloorBig:399@68,38",
+          "Map/Res/Building:3990@68,39",
+          "Map/Res/FloorBig:399@68,40",
+          "Map/Res/FloorBig:399@68,42",
+          "Map/Res/FloorBig:406@68,44",
+          "Map/Res/FloorBig:406@68,46",
+          "Map/Res/Building:3992@69,40",
+          "Map/Res/FloorBig:406@70,36",
+          "Map/Res/FloorBig:406@70,38",
+          "Map/Res/FloorBig:406@70,40",
+          "Map/Res/Building:3993@70,40",
+          "Map/Res/FloorBig:406@70,42",
+          "Map/Res/FloorBig:406@70,44",
+          "Map/Res/FloorBig:406@70,46",
+          "Map/Res/Building:3994@71,40",
+          "Map/Res/FloorBig:406@72,36",
+          "Map/Res/FloorBig:406@72,38",
+          "Map/Res/FloorBig:406@72,40",
+          "Map/Res/Building:3995@72,40",
+          "Map/Res/FloorBig:406@72,42",
+          "Map/Res/FloorBig:406@72,44",
+          "Map/Res/FloorBig:406@72,46",
+          "Map/Res/Building:3991@73,39",
+          "Map/Res/Plant:248@73,48",
+          "Map/Res/FloorBig:406@74,36",
+          "Map/Res/Building:3986@74,37",
+          "Map/Res/FloorBig:406@74,38",
+          "Map/Res/Building:3989@74,38",
+          "Map/Res/FloorBig:406@74,40",
+          "Map/Res/FloorBig:406@74,42",
+          "Map/Res/FloorBig:406@74,44",
+          "Map/Res/FloorBig:406@74,46",
+          "Map/Res/Plant:249@74,48",
+          "Map/Res/Plant:321@74,56"
+        ],
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      }
+    ]
+  },
+  {
+    "family": "upright_tree",
+    "baseline_root": [
+      50,
+      41
+    ],
+    "frame_indices": [
+      299,
+      300,
+      301,
+      302,
+      303,
+      304
+    ],
+    "owner_count_per_group": 6,
+    "instance_count": 10,
+    "unconverted_instances": 8,
+    "instances": [
+      {
+        "root_cell": [
+          30,
+          61
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          -960,
+          640
+        ],
+        "bounds_xyxy": [
+          1351,
+          1672,
+          1632,
+          1970
+        ],
+        "owners": [
+          "Map/Res/Plant:299@30,61",
+          "Map/Res/Plant:300@28,65",
+          "Map/Res/Plant:301@29,65",
+          "Map/Res/Plant:302@31,65",
+          "Map/Res/Plant:303@32,65",
+          "Map/Res/Plant:304@33,65"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@28,52",
+          "Map/Res/FloorBig:406@28,54",
+          "Map/Res/FloorBig:406@28,56",
+          "Map/Res/FloorBig:406@28,58",
+          "Map/Res/FloorBig:406@28,60",
+          "Map/Res/FloorBig:406@30,52",
+          "Map/Res/FloorBig:406@30,54",
+          "Map/Res/FloorBig:406@30,56",
+          "Map/Res/FloorBig:406@30,58",
+          "Map/Res/FloorBig:406@30,60",
+          "Map/Res/FloorBig:406@32,52",
+          "Map/Res/FloorBig:406@32,54",
+          "Map/Res/FloorBig:406@32,56",
+          "Map/Res/FloorBig:406@32,58",
+          "Map/Res/FloorBig:406@32,60",
+          "Map/Res/Plant:144@32,62",
+          "Map/Res/Plant:143@33,59",
+          "Map/Res/Plant:145@33,62"
+        ],
+        "classification": "rgba_crop_flags_sourcecell_exact_translation_context_unverified"
+      },
+      {
+        "root_cell": [
+          36,
+          55
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          -672,
+          448
+        ],
+        "bounds_xyxy": [
+          1639,
+          1480,
+          1920,
+          1778
+        ],
+        "owners": [
+          "Map/Res/Plant:299@36,55",
+          "Map/Res/Plant:300@34,59",
+          "Map/Res/Plant:301@35,59",
+          "Map/Res/Plant:302@37,59",
+          "Map/Res/Plant:303@38,59",
+          "Map/Res/Plant:304@39,59"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:409@34,46",
+          "Map/Res/FloorBig:406@34,48",
+          "Map/Res/FloorBig:406@34,50",
+          "Map/Res/FloorBig:406@34,52",
+          "Map/Res/FloorBig:406@34,54",
+          "Map/Res/FloorBig:392@36,46",
+          "Map/Res/FloorBig:409@36,48",
+          "Map/Res/FloorBig:406@36,50",
+          "Map/Res/FloorBig:406@36,52",
+          "Map/Res/FloorBig:406@36,54",
+          "Map/Res/FloorBig:395@38,46",
+          "Map/Res/FloorBig:392@38,48",
+          "Map/Res/FloorBig:409@38,50",
+          "Map/Res/FloorBig:406@38,52",
+          "Map/Res/FloorBig:406@38,54",
+          "Map/Res/Plant:144@38,56",
+          "Map/Res/Plant:143@39,53",
+          "Map/Res/Plant:145@39,56"
+        ],
+        "classification": "rgba_crop_flags_sourcecell_exact_translation_context_unverified"
+      },
+      {
+        "root_cell": [
+          40,
+          72
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": false,
+        "flag_differences": [],
+        "source_cell_differences": [
+          {
+            "frame": 299,
+            "baseline": [
+              0,
+              -1,
+              2,
+              299
+            ],
+            "target": [
+              -406,
+              -1,
+              2,
+              299
+            ]
+          },
+          {
+            "frame": 300,
+            "baseline": [
+              0,
+              0,
+              2,
+              300
+            ],
+            "target": [
+              -406,
+              0,
+              2,
+              300
+            ]
+          },
+          {
+            "frame": 303,
+            "baseline": [
+              0,
+              0,
+              2,
+              303
+            ],
+            "target": [
+              -406,
+              0,
+              2,
+              303
+            ]
+          }
+        ],
+        "world_translation_from_baseline": [
+          -480,
+          992
+        ],
+        "bounds_xyxy": [
+          1831,
+          2024,
+          2112,
+          2322
+        ],
+        "owners": [
+          "Map/Res/Plant:299@40,72",
+          "Map/Res/Plant:300@38,76",
+          "Map/Res/Plant:301@39,76",
+          "Map/Res/Plant:302@41,76",
+          "Map/Res/Plant:303@42,76",
+          "Map/Res/Plant:304@43,76"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:586@38,62",
+          "Map/Res/FloorBig:581@38,64",
+          "Map/Res/FloorBig:604@38,66",
+          "Map/Res/FloorBig:406@38,68",
+          "Map/Res/FloorBig:406@38,70",
+          "Map/Res/FloorBig:406@38,72",
+          "Map/Res/Plant:144@39,69",
+          "Map/Res/FloorBig:581@40,62",
+          "Map/Res/FloorBig:604@40,64",
+          "Map/Res/FloorBig:406@40,66",
+          "Map/Res/Plant:143@40,66",
+          "Map/Res/FloorBig:406@40,68",
+          "Map/Res/Plant:145@40,69",
+          "Map/Res/FloorBig:406@40,70",
+          "Map/Res/FloorBig:406@40,72",
+          "Map/Res/Plant:146@41,69",
+          "Map/Res/FloorBig:604@42,62",
+          "Map/Res/FloorBig:406@42,64",
+          "Map/Res/FloorBig:406@42,66",
+          "Map/Res/FloorBig:406@42,68",
+          "Map/Res/FloorBig:406@42,70",
+          "Map/Res/FloorBig:406@42,72"
+        ],
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      },
+      {
+        "root_cell": [
+          45,
+          46
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": false,
+        "flag_differences": [],
+        "source_cell_differences": [
+          {
+            "frame": 301,
+            "baseline": [
+              0,
+              0,
+              2,
+              301
+            ],
+            "target": [
+              -577,
+              0,
+              2,
+              301
+            ]
+          },
+          {
+            "frame": 302,
+            "baseline": [
+              0,
+              0,
+              2,
+              302
+            ],
+            "target": [
+              -607,
+              0,
+              2,
+              302
+            ]
+          },
+          {
+            "frame": 304,
+            "baseline": [
+              0,
+              0,
+              2,
+              304
+            ],
+            "target": [
+              -608,
+              0,
+              2,
+              304
+            ]
+          }
+        ],
+        "world_translation_from_baseline": [
+          -240,
+          160
+        ],
+        "bounds_xyxy": [
+          2071,
+          1192,
+          2352,
+          1490
+        ],
+        "owners": [
+          "Map/Res/Plant:299@45,46",
+          "Map/Res/Plant:300@43,50",
+          "Map/Res/Plant:301@44,50",
+          "Map/Res/Plant:302@46,50",
+          "Map/Res/Plant:303@47,50",
+          "Map/Res/Plant:304@48,50"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:395@42,36",
+          "Map/Res/FloorBig:389@42,38",
+          "Map/Res/FloorBig:412@42,40",
+          "Map/Res/FloorBig:406@42,42",
+          "Map/Res/FloorBig:406@42,44",
+          "Map/Res/FloorBig:388@42,46",
+          "Map/Res/FloorBig:389@44,36",
+          "Map/Res/FloorBig:412@44,38",
+          "Map/Res/FloorBig:406@44,40",
+          "Map/Res/FloorBig:406@44,42",
+          "Map/Res/FloorBig:406@44,44",
+          "Map/Res/FloorBig:406@44,46",
+          "Map/Res/FloorBig:412@46,36",
+          "Map/Res/FloorBig:406@46,38",
+          "Map/Res/FloorBig:406@46,40",
+          "Map/Res/FloorBig:406@46,42",
+          "Map/Res/FloorBig:406@46,44",
+          "Map/Res/FloorBig:406@46,46",
+          "Map/Res/FloorBig:406@48,36",
+          "Map/Res/FloorBig:406@48,38",
+          "Map/Res/FloorBig:406@48,40",
+          "Map/Res/FloorBig:406@48,42",
+          "Map/Res/FloorBig:406@48,44",
+          "Map/Res/Plant:300@48,45",
+          "Map/Res/FloorBig:406@48,46"
+        ],
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      },
+      {
+        "root_cell": [
+          47,
+          66
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": false,
+        "flag_differences": [],
+        "source_cell_differences": [
+          {
+            "frame": 301,
+            "baseline": [
+              0,
+              0,
+              2,
+              301
+            ],
+            "target": [
+              -406,
+              0,
+              2,
+              301
+            ]
+          },
+          {
+            "frame": 302,
+            "baseline": [
+              0,
+              0,
+              2,
+              302
+            ],
+            "target": [
+              -406,
+              0,
+              2,
+              302
+            ]
+          },
+          {
+            "frame": 304,
+            "baseline": [
+              0,
+              0,
+              2,
+              304
+            ],
+            "target": [
+              -406,
+              0,
+              2,
+              304
+            ]
+          }
+        ],
+        "world_translation_from_baseline": [
+          -144,
+          800
+        ],
+        "bounds_xyxy": [
+          2167,
+          1832,
+          2448,
+          2130
+        ],
+        "owners": [
+          "Map/Res/Plant:299@47,66",
+          "Map/Res/Plant:300@45,70",
+          "Map/Res/Plant:301@46,70",
+          "Map/Res/Plant:302@48,70",
+          "Map/Res/Plant:303@49,70",
+          "Map/Res/Plant:304@50,70"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:594@44,56",
+          "Map/Res/FloorBig:581@44,58",
+          "Map/Res/FloorBig:604@44,60",
+          "Map/Res/FloorBig:406@44,62",
+          "Map/Res/FloorBig:406@44,64",
+          "Map/Res/FloorBig:406@44,66",
+          "Map/Res/Plant:144@45,63",
+          "Map/Res/FloorBig:394@46,56",
+          "Map/Res/FloorBig:582@46,58",
+          "Map/Res/FloorBig:598@46,60",
+          "Map/Res/Plant:143@46,60",
+          "Map/Res/FloorBig:406@46,62",
+          "Map/Res/Plant:145@46,63",
+          "Map/Res/FloorBig:406@46,64",
+          "Map/Res/FloorBig:406@46,66",
+          "Map/Res/Plant:146@47,63",
+          "Map/Res/FloorBig:581@48,56",
+          "Map/Res/FloorBig:604@48,58",
+          "Map/Res/FloorBig:598@48,60",
+          "Map/Res/FloorBig:406@48,62",
+          "Map/Res/FloorBig:406@48,64",
+          "Map/Res/FloorBig:406@48,66",
+          "Map/Res/Plant:300@49,74",
+          "Map/Res/FloorBig:604@50,56",
+          "Map/Res/FloorBig:385@50,58",
+          "Map/Res/FloorBig:401@50,60",
+          "Map/Res/FloorBig:409@50,62",
+          "Map/Res/FloorBig:406@50,64",
+          "Map/Res/FloorBig:406@50,66",
+          "Map/Res/Plant:301@50,74"
+        ],
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      },
+      {
+        "root_cell": [
+          50,
+          41
+        ],
+        "converted": true,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          0,
+          0
+        ],
+        "bounds_xyxy": [
+          2311,
+          1032,
+          2592,
+          1330
+        ],
+        "owners": [
+          "Map/Res/Plant:299@50,41",
+          "Map/Res/Plant:300@48,45",
+          "Map/Res/Plant:301@49,45",
+          "Map/Res/Plant:302@51,45",
+          "Map/Res/Plant:303@52,45",
+          "Map/Res/Plant:304@53,45"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@48,32",
+          "Map/Res/FloorBig:406@48,34",
+          "Map/Res/FloorBig:406@48,36",
+          "Map/Res/FloorBig:406@48,38",
+          "Map/Res/FloorBig:406@48,40",
+          "Map/Res/Plant:304@48,50",
+          "Map/Res/FloorBig:406@50,32",
+          "Map/Res/FloorBig:406@50,34",
+          "Map/Res/FloorBig:406@50,36",
+          "Map/Res/FloorBig:406@50,38",
+          "Map/Res/FloorBig:406@50,40",
+          "Map/Res/FloorBig:406@52,32",
+          "Map/Res/FloorBig:406@52,34",
+          "Map/Res/FloorBig:406@52,36",
+          "Map/Res/FloorBig:406@52,38",
+          "Map/Res/FloorBig:406@52,40"
+        ],
+        "classification": "already_bounded"
+      },
+      {
+        "root_cell": [
+          51,
+          70
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": false,
+        "full_source_cell_equal": false,
+        "flag_differences": [
+          {
+            "frame": 301,
+            "baseline": 0,
+            "target": -1
+          },
+          {
+            "frame": 302,
+            "baseline": 0,
+            "target": -1
+          },
+          {
+            "frame": 303,
+            "baseline": 0,
+            "target": -1
+          }
+        ],
+        "source_cell_differences": [
+          {
+            "frame": 301,
+            "baseline": [
+              0,
+              0,
+              2,
+              301
+            ],
+            "target": [
+              -406,
+              -1,
+              2,
+              301
+            ]
+          },
+          {
+            "frame": 302,
+            "baseline": [
+              0,
+              0,
+              2,
+              302
+            ],
+            "target": [
+              -406,
+              -1,
+              2,
+              302
+            ]
+          },
+          {
+            "frame": 303,
+            "baseline": [
+              0,
+              0,
+              2,
+              303
+            ],
+            "target": [
+              0,
+              -1,
+              2,
+              303
+            ]
+          },
+          {
+            "frame": 304,
+            "baseline": [
+              0,
+              0,
+              2,
+              304
+            ],
+            "target": [
+              -406,
+              0,
+              2,
+              304
+            ]
+          }
+        ],
+        "world_translation_from_baseline": [
+          48,
+          928
+        ],
+        "bounds_xyxy": [
+          2359,
+          1960,
+          2640,
+          2258
+        ],
+        "owners": [
+          "Map/Res/Plant:299@51,70",
+          "Map/Res/Plant:300@49,74",
+          "Map/Res/Plant:301@50,74",
+          "Map/Res/Plant:302@52,74",
+          "Map/Res/Plant:303@53,74",
+          "Map/Res/Plant:304@54,74"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:598@48,60",
+          "Map/Res/FloorBig:406@48,62",
+          "Map/Res/FloorBig:406@48,64",
+          "Map/Res/FloorBig:406@48,66",
+          "Map/Res/FloorBig:406@48,68",
+          "Map/Res/FloorBig:406@48,70",
+          "Map/Res/Plant:303@49,70",
+          "Map/Res/FloorBig:401@50,60",
+          "Map/Res/FloorBig:409@50,62",
+          "Map/Res/FloorBig:406@50,64",
+          "Map/Res/FloorBig:406@50,66",
+          "Map/Res/FloorBig:406@50,68",
+          "Map/Res/FloorBig:406@50,70",
+          "Map/Res/Plant:304@50,70",
+          "Map/Res/FloorBig:403@52,60",
+          "Map/Res/FloorBig:392@52,62",
+          "Map/Res/FloorBig:409@52,64",
+          "Map/Res/FloorBig:406@52,66",
+          "Map/Res/FloorBig:406@52,68",
+          "Map/Res/FloorBig:406@52,70",
+          "Map/Res/FloorBig:413@54,60",
+          "Map/Res/FloorBig:395@54,62",
+          "Map/Res/FloorBig:392@54,64",
+          "Map/Res/FloorBig:409@54,66",
+          "Map/Res/FloorBig:406@54,68",
+          "Map/Res/FloorBig:406@54,70",
+          "Npc:837@55,72#npc9"
+        ],
+        "classification": "rgba_crop_translation_flag_context_differs"
+      },
+      {
+        "root_cell": [
+          55,
+          57
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          240,
+          512
+        ],
+        "bounds_xyxy": [
+          2551,
+          1544,
+          2832,
+          1842
+        ],
+        "owners": [
+          "Map/Res/Plant:299@55,57",
+          "Map/Res/Plant:300@53,61",
+          "Map/Res/Plant:301@54,61",
+          "Map/Res/Plant:302@56,61",
+          "Map/Res/Plant:303@57,61",
+          "Map/Res/Plant:304@58,61"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:594@52,48",
+          "Map/Res/FloorBig:581@52,50",
+          "Map/Res/FloorBig:604@52,52",
+          "Map/Res/FloorBig:598@52,54",
+          "Map/Res/FloorBig:598@52,56",
+          "Map/Res/FloorBig:581@54,48",
+          "Map/Res/FloorBig:604@54,50",
+          "Map/Res/FloorBig:406@54,52",
+          "Map/Res/FloorBig:406@54,54",
+          "Map/Res/FloorBig:406@54,56",
+          "Map/Res/FloorBig:604@56,48",
+          "Map/Res/FloorBig:406@56,50",
+          "Map/Res/FloorBig:406@56,52",
+          "Map/Res/FloorBig:406@56,54",
+          "Map/Res/FloorBig:406@56,56",
+          "Map/Res/Plant:144@57,51",
+          "Map/Res/Plant:300@57,65",
+          "Map/Res/FloorBig:406@58,48",
+          "Map/Res/Plant:143@58,48",
+          "Map/Res/FloorBig:406@58,50",
+          "Map/Res/Plant:145@58,51",
+          "Map/Res/FloorBig:406@58,52",
+          "Map/Res/FloorBig:406@58,54",
+          "Map/Res/FloorBig:406@58,56",
+          "Map/Res/Plant:301@58,65"
+        ],
+        "classification": "rgba_crop_flags_sourcecell_exact_translation_context_unverified"
+      },
+      {
+        "root_cell": [
+          59,
+          61
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          432,
+          640
+        ],
+        "bounds_xyxy": [
+          2743,
+          1672,
+          3024,
+          1970
+        ],
+        "owners": [
+          "Map/Res/Plant:299@59,61",
+          "Map/Res/Plant:300@57,65",
+          "Map/Res/Plant:301@58,65",
+          "Map/Res/Plant:302@60,65",
+          "Map/Res/Plant:303@61,65",
+          "Map/Res/Plant:304@62,65"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@56,52",
+          "Map/Res/FloorBig:406@56,54",
+          "Map/Res/FloorBig:406@56,56",
+          "Map/Res/FloorBig:406@56,58",
+          "Map/Res/FloorBig:388@56,60",
+          "Map/Res/Plant:303@57,61",
+          "Map/Res/FloorBig:406@58,52",
+          "Map/Res/FloorBig:406@58,54",
+          "Map/Res/FloorBig:406@58,56",
+          "Map/Res/FloorBig:406@58,58",
+          "Map/Res/FloorBig:406@58,60",
+          "Map/Res/Plant:304@58,61",
+          "Map/Res/FloorBig:406@60,52",
+          "Map/Res/FloorBig:406@60,54",
+          "Map/Res/FloorBig:406@60,56",
+          "Map/Res/FloorBig:406@60,58",
+          "Map/Res/FloorBig:406@60,60",
+          "Map/Res/Plant:239@60,60",
+          "Map/Res/Plant:241@60,61",
+          "Map/Res/Plant:240@61,60",
+          "Map/Res/Plant:242@61,61",
+          "Map/Res/FloorBig:406@62,52",
+          "Map/Res/FloorBig:406@62,54",
+          "Map/Res/FloorBig:406@62,56",
+          "Map/Res/FloorBig:406@62,58",
+          "Map/Res/FloorBig:406@62,60"
+        ],
+        "classification": "rgba_crop_flags_sourcecell_exact_translation_context_unverified"
+      },
+      {
+        "root_cell": [
+          61,
+          51
+        ],
+        "converted": true,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          528,
+          320
+        ],
+        "bounds_xyxy": [
+          2839,
+          1352,
+          3120,
+          1650
+        ],
+        "owners": [
+          "Map/Res/Plant:299@61,51",
+          "Map/Res/Plant:300@59,55",
+          "Map/Res/Plant:301@60,55",
+          "Map/Res/Plant:302@62,55",
+          "Map/Res/Plant:303@63,55",
+          "Map/Res/Plant:304@64,55"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:587@58,42",
+          "Map/Res/FloorBig:581@58,44",
+          "Map/Res/FloorBig:604@58,46",
+          "Map/Res/FloorBig:406@58,48",
+          "Map/Res/FloorBig:406@58,50",
+          "Map/Res/Plant:146@59,51",
+          "Map/Res/FloorBig:581@60,42",
+          "Map/Res/FloorBig:604@60,44",
+          "Map/Res/FloorBig:406@60,46",
+          "Map/Res/FloorBig:406@60,48",
+          "Map/Res/FloorBig:406@60,50",
+          "Map/Res/FloorBig:604@62,42",
+          "Map/Res/FloorBig:406@62,44",
+          "Map/Res/FloorBig:406@62,46",
+          "Map/Res/FloorBig:406@62,48",
+          "Map/Res/FloorBig:406@62,50",
+          "Map/Res/Plant:144@63,45",
+          "Map/Res/FloorBig:406@64,42",
+          "Map/Res/Plant:143@64,42",
+          "Map/Res/FloorBig:406@64,44",
+          "Map/Res/Plant:145@64,45",
+          "Map/Res/FloorBig:406@64,46",
+          "Map/Res/FloorBig:406@64,48",
+          "Map/Res/FloorBig:406@64,50"
+        ],
+        "classification": "already_bounded"
+      }
+    ]
+  },
+  {
+    "family": "round_shrub",
+    "baseline_root": [
+      57,
+      38
+    ],
+    "frame_indices": [
+      143,
+      144,
+      145,
+      146
+    ],
+    "owner_count_per_group": 4,
+    "instance_count": 8,
+    "unconverted_instances": 5,
+    "instances": [
+      {
+        "root_cell": [
+          33,
+          62
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          -1152,
+          768
+        ],
+        "bounds_xyxy": [
+          1543,
+          1911,
+          1667,
+          2016
+        ],
+        "owners": [
+          "Map/Res/Plant:143@33,59",
+          "Map/Res/Plant:144@32,62",
+          "Map/Res/Plant:145@33,62",
+          "Map/Res/Plant:146@34,62"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@32,58",
+          "Map/Res/FloorBig:406@32,60",
+          "Map/Res/FloorBig:406@32,62",
+          "Map/Res/Plant:303@32,65",
+          "Map/Res/FloorBig:406@34,58",
+          "Map/Res/FloorBig:406@34,60",
+          "Map/Res/FloorBig:577@34,62"
+        ],
+        "classification": "rgba_crop_flags_sourcecell_exact_translation_context_unverified"
+      },
+      {
+        "root_cell": [
+          39,
+          56
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          -864,
+          576
+        ],
+        "bounds_xyxy": [
+          1831,
+          1719,
+          1955,
+          1824
+        ],
+        "owners": [
+          "Map/Res/Plant:143@39,53",
+          "Map/Res/Plant:144@38,56",
+          "Map/Res/Plant:145@39,56",
+          "Map/Res/Plant:146@40,56"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@38,52",
+          "Map/Res/FloorBig:406@38,54",
+          "Map/Res/FloorBig:406@38,56",
+          "Map/Res/Plant:303@38,59",
+          "Map/Res/FloorBig:591@40,52",
+          "Map/Res/FloorBig:406@40,54",
+          "Map/Res/FloorBig:577@40,56"
+        ],
+        "classification": "rgba_crop_flags_sourcecell_exact_translation_context_unverified"
+      },
+      {
+        "root_cell": [
+          40,
+          69
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": false,
+        "flag_differences": [],
+        "source_cell_differences": [
+          {
+            "frame": 143,
+            "baseline": [
+              0,
+              0,
+              2,
+              143
+            ],
+            "target": [
+              -406,
+              0,
+              2,
+              143
+            ]
+          },
+          {
+            "frame": 144,
+            "baseline": [
+              -406,
+              -1,
+              2,
+              144
+            ],
+            "target": [
+              0,
+              -1,
+              2,
+              144
+            ]
+          },
+          {
+            "frame": 146,
+            "baseline": [
+              -577,
+              -1,
+              2,
+              146
+            ],
+            "target": [
+              0,
+              -1,
+              2,
+              146
+            ]
+          }
+        ],
+        "world_translation_from_baseline": [
+          -816,
+          992
+        ],
+        "bounds_xyxy": [
+          1879,
+          2135,
+          2003,
+          2240
+        ],
+        "owners": [
+          "Map/Res/Plant:143@40,66",
+          "Map/Res/Plant:144@39,69",
+          "Map/Res/Plant:145@40,69",
+          "Map/Res/Plant:146@41,69"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:604@38,66",
+          "Map/Res/FloorBig:406@38,68",
+          "Map/Res/Plant:301@39,76",
+          "Map/Res/FloorBig:406@40,66",
+          "Map/Res/FloorBig:406@40,68",
+          "Map/Res/Plant:299@40,72",
+          "Map/Res/Plant:302@41,76"
+        ],
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      },
+      {
+        "root_cell": [
+          46,
+          63
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": false,
+        "flag_differences": [],
+        "source_cell_differences": [
+          {
+            "frame": 143,
+            "baseline": [
+              0,
+              0,
+              2,
+              143
+            ],
+            "target": [
+              -598,
+              0,
+              2,
+              143
+            ]
+          },
+          {
+            "frame": 144,
+            "baseline": [
+              -406,
+              -1,
+              2,
+              144
+            ],
+            "target": [
+              0,
+              -1,
+              2,
+              144
+            ]
+          },
+          {
+            "frame": 146,
+            "baseline": [
+              -577,
+              -1,
+              2,
+              146
+            ],
+            "target": [
+              0,
+              -1,
+              2,
+              146
+            ]
+          }
+        ],
+        "world_translation_from_baseline": [
+          -528,
+          800
+        ],
+        "bounds_xyxy": [
+          2167,
+          1943,
+          2291,
+          2048
+        ],
+        "owners": [
+          "Map/Res/Plant:143@46,60",
+          "Map/Res/Plant:144@45,63",
+          "Map/Res/Plant:145@46,63",
+          "Map/Res/Plant:146@47,63"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:604@44,60",
+          "Map/Res/FloorBig:406@44,62",
+          "Map/Res/Plant:300@45,70",
+          "Map/Res/FloorBig:598@46,60",
+          "Map/Res/FloorBig:406@46,62",
+          "Map/Res/Plant:301@46,70",
+          "Map/Res/Plant:299@47,66"
+        ],
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      },
+      {
+        "root_cell": [
+          51,
+          44
+        ],
+        "converted": true,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          -288,
+          192
+        ],
+        "bounds_xyxy": [
+          2407,
+          1335,
+          2531,
+          1440
+        ],
+        "owners": [
+          "Map/Res/Plant:143@51,41",
+          "Map/Res/Plant:144@50,44",
+          "Map/Res/Plant:145@51,44",
+          "Map/Res/Plant:146@52,44"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@50,40",
+          "Map/Res/FloorBig:406@50,42",
+          "Map/Res/FloorBig:406@50,44",
+          "Map/Res/FloorBig:406@52,40",
+          "Map/Res/FloorBig:406@52,42",
+          "Map/Res/FloorBig:577@52,44"
+        ],
+        "classification": "already_bounded"
+      },
+      {
+        "root_cell": [
+          57,
+          38
+        ],
+        "converted": true,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          0,
+          0
+        ],
+        "bounds_xyxy": [
+          2695,
+          1143,
+          2819,
+          1248
+        ],
+        "owners": [
+          "Map/Res/Plant:143@57,35",
+          "Map/Res/Plant:144@56,38",
+          "Map/Res/Plant:145@57,38",
+          "Map/Res/Plant:146@58,38"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@56,34",
+          "Map/Res/FloorBig:406@56,36",
+          "Map/Res/FloorBig:406@56,38",
+          "Map/Res/FloorBig:406@58,34",
+          "Map/Res/FloorBig:406@58,36",
+          "Map/Res/FloorBig:577@58,38"
+        ],
+        "classification": "already_bounded"
+      },
+      {
+        "root_cell": [
+          58,
+          51
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": false,
+        "flag_differences": [],
+        "source_cell_differences": [
+          {
+            "frame": 143,
+            "baseline": [
+              0,
+              0,
+              2,
+              143
+            ],
+            "target": [
+              -406,
+              0,
+              2,
+              143
+            ]
+          },
+          {
+            "frame": 144,
+            "baseline": [
+              -406,
+              -1,
+              2,
+              144
+            ],
+            "target": [
+              0,
+              -1,
+              2,
+              144
+            ]
+          },
+          {
+            "frame": 146,
+            "baseline": [
+              -577,
+              -1,
+              2,
+              146
+            ],
+            "target": [
+              0,
+              -1,
+              2,
+              146
+            ]
+          }
+        ],
+        "world_translation_from_baseline": [
+          48,
+          416
+        ],
+        "bounds_xyxy": [
+          2743,
+          1559,
+          2867,
+          1664
+        ],
+        "owners": [
+          "Map/Res/Plant:143@58,48",
+          "Map/Res/Plant:144@57,51",
+          "Map/Res/Plant:145@58,51",
+          "Map/Res/Plant:146@59,51"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:604@56,48",
+          "Map/Res/FloorBig:406@56,50",
+          "Map/Res/Plant:303@57,61",
+          "Map/Res/FloorBig:406@58,48",
+          "Map/Res/FloorBig:406@58,50",
+          "Map/Res/Plant:304@58,61"
+        ],
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      },
+      {
+        "root_cell": [
+          64,
+          45
+        ],
+        "converted": true,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": false,
+        "flag_differences": [],
+        "source_cell_differences": [
+          {
+            "frame": 143,
+            "baseline": [
+              0,
+              0,
+              2,
+              143
+            ],
+            "target": [
+              -406,
+              0,
+              2,
+              143
+            ]
+          },
+          {
+            "frame": 144,
+            "baseline": [
+              -406,
+              -1,
+              2,
+              144
+            ],
+            "target": [
+              0,
+              -1,
+              2,
+              144
+            ]
+          },
+          {
+            "frame": 146,
+            "baseline": [
+              -577,
+              -1,
+              2,
+              146
+            ],
+            "target": [
+              0,
+              -1,
+              2,
+              146
+            ]
+          }
+        ],
+        "world_translation_from_baseline": [
+          336,
+          224
+        ],
+        "bounds_xyxy": [
+          3031,
+          1367,
+          3155,
+          1472
+        ],
+        "owners": [
+          "Map/Res/Plant:143@64,42",
+          "Map/Res/Plant:144@63,45",
+          "Map/Res/Plant:145@64,45",
+          "Map/Res/Plant:146@65,45"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:604@62,42",
+          "Map/Res/FloorBig:406@62,44",
+          "Map/Res/Plant:303@63,55",
+          "Map/Res/FloorBig:406@64,42",
+          "Map/Res/FloorBig:406@64,44",
+          "Map/Res/Plant:304@64,55"
+        ],
+        "classification": "already_bounded"
+      }
+    ]
+  },
+  {
+    "family": "grass_A",
+    "baseline_root": [
+      54,
+      30
+    ],
+    "frame_indices": [
+      239,
+      240
+    ],
+    "owner_count_per_group": 2,
+    "instance_count": 8,
+    "unconverted_instances": 7,
+    "instances": [
+      {
+        "root_cell": [
+          14,
+          28
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          -1920,
+          -64
+        ],
+        "bounds_xyxy": [
+          688,
+          901,
+          752,
+          928
+        ],
+        "owners": [
+          "Map/Res/Plant:239@14,28",
+          "Map/Res/Plant:240@15,28"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@14,28",
+          "Map/Res/Wall:2671@14,35"
+        ],
+        "classification": "rgba_crop_flags_sourcecell_exact_translation_context_unverified"
+      },
+      {
+        "root_cell": [
+          16,
+          22
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          -1824,
+          -256
+        ],
+        "bounds_xyxy": [
+          784,
+          709,
+          848,
+          736
+        ],
+        "owners": [
+          "Map/Res/Plant:239@16,22",
+          "Map/Res/Plant:240@17,22"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@16,22",
+          "Map/Res/Plant:271@16,25"
+        ],
+        "classification": "rgba_crop_flags_sourcecell_exact_translation_context_unverified"
+      },
+      {
+        "root_cell": [
+          54,
+          25
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": false,
+        "flag_differences": [],
+        "source_cell_differences": [
+          {
+            "frame": 239,
+            "baseline": [
+              -406,
+              0,
+              2,
+              239
+            ],
+            "target": [
+              0,
+              0,
+              2,
+              239
+            ]
+          }
+        ],
+        "world_translation_from_baseline": [
+          0,
+          -160
+        ],
+        "bounds_xyxy": [
+          2608,
+          805,
+          2672,
+          832
+        ],
+        "owners": [
+          "Map/Res/Plant:239@54,25",
+          "Map/Res/Plant:240@55,25"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@54,24"
+        ],
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      },
+      {
+        "root_cell": [
+          54,
+          30
+        ],
+        "converted": true,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          0,
+          0
+        ],
+        "bounds_xyxy": [
+          2608,
+          965,
+          2672,
+          992
+        ],
+        "owners": [
+          "Map/Res/Plant:239@54,30",
+          "Map/Res/Plant:240@55,30"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@54,30",
+          "Map/Res/Plant:293@55,37"
+        ],
+        "classification": "already_bounded"
+      },
+      {
+        "root_cell": [
+          60,
+          60
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          288,
+          960
+        ],
+        "bounds_xyxy": [
+          2896,
+          1925,
+          2960,
+          1952
+        ],
+        "owners": [
+          "Map/Res/Plant:239@60,60",
+          "Map/Res/Plant:240@61,60"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@60,60",
+          "Map/Res/Plant:302@60,65",
+          "Map/Res/Plant:303@61,65"
+        ],
+        "classification": "rgba_crop_flags_sourcecell_exact_translation_context_unverified"
+      },
+      {
+        "root_cell": [
+          64,
+          23
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": false,
+        "flag_differences": [],
+        "source_cell_differences": [
+          {
+            "frame": 239,
+            "baseline": [
+              -406,
+              0,
+              2,
+              239
+            ],
+            "target": [
+              0,
+              0,
+              2,
+              239
+            ]
+          }
+        ],
+        "world_translation_from_baseline": [
+          480,
+          -224
+        ],
+        "bounds_xyxy": [
+          3088,
+          741,
+          3152,
+          768
+        ],
+        "owners": [
+          "Map/Res/Plant:239@64,23",
+          "Map/Res/Plant:240@65,23"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@64,22",
+          "Map/Res/Building:3970@65,34"
+        ],
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      },
+      {
+        "root_cell": [
+          65,
+          67
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": false,
+        "flag_differences": [],
+        "source_cell_differences": [
+          {
+            "frame": 239,
+            "baseline": [
+              -406,
+              0,
+              2,
+              239
+            ],
+            "target": [
+              0,
+              0,
+              2,
+              239
+            ]
+          }
+        ],
+        "world_translation_from_baseline": [
+          528,
+          1184
+        ],
+        "bounds_xyxy": [
+          3136,
+          2149,
+          3200,
+          2176
+        ],
+        "owners": [
+          "Map/Res/Plant:239@65,67",
+          "Map/Res/Plant:240@66,67"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@64,66",
+          "Map/Res/FloorBig:406@66,66",
+          "Map/Res/Plant:317@66,71"
+        ],
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      },
+      {
+        "root_cell": [
+          79,
+          34
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": false,
+        "flag_differences": [],
+        "source_cell_differences": [
+          {
+            "frame": 239,
+            "baseline": [
+              -406,
+              0,
+              2,
+              239
+            ],
+            "target": [
+              0,
+              0,
+              2,
+              239
+            ]
+          },
+          {
+            "frame": 240,
+            "baseline": [
+              0,
+              0,
+              2,
+              240
+            ],
+            "target": [
+              -406,
+              0,
+              2,
+              240
+            ]
+          }
+        ],
+        "world_translation_from_baseline": [
+          1200,
+          128
+        ],
+        "bounds_xyxy": [
+          3808,
+          1093,
+          3872,
+          1120
+        ],
+        "owners": [
+          "Map/Res/Plant:239@79,34",
+          "Map/Res/Plant:240@80,34"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@78,34",
+          "Map/Res/FloorBig:406@80,34",
+          "Map/Res/Plant:317@80,38"
+        ],
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      }
+    ]
+  },
+  {
+    "family": "grass_B",
+    "baseline_root": [
+      54,
+      31
+    ],
+    "frame_indices": [
+      241,
+      242
+    ],
+    "owner_count_per_group": 2,
+    "instance_count": 8,
+    "unconverted_instances": 7,
+    "instances": [
+      {
+        "root_cell": [
+          14,
+          29
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          -1920,
+          -64
+        ],
+        "bounds_xyxy": [
+          693,
+          928,
+          751,
+          954
+        ],
+        "owners": [
+          "Map/Res/Plant:241@14,29",
+          "Map/Res/Plant:242@15,29"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@14,28",
+          "Map/Res/Wall:2671@14,35",
+          "Map/Res/Wall:2670@15,34"
+        ],
+        "classification": "rgba_crop_flags_sourcecell_exact_translation_context_unverified"
+      },
+      {
+        "root_cell": [
+          16,
+          23
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          -1824,
+          -256
+        ],
+        "bounds_xyxy": [
+          789,
+          736,
+          847,
+          762
+        ],
+        "owners": [
+          "Map/Res/Plant:241@16,23",
+          "Map/Res/Plant:242@17,23"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@16,22",
+          "Map/Res/Plant:271@16,25"
+        ],
+        "classification": "rgba_crop_flags_sourcecell_exact_translation_context_unverified"
+      },
+      {
+        "root_cell": [
+          54,
+          26
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": false,
+        "flag_differences": [],
+        "source_cell_differences": [
+          {
+            "frame": 241,
+            "baseline": [
+              0,
+              0,
+              2,
+              241
+            ],
+            "target": [
+              -406,
+              0,
+              2,
+              241
+            ]
+          }
+        ],
+        "world_translation_from_baseline": [
+          0,
+          -160
+        ],
+        "bounds_xyxy": [
+          2613,
+          832,
+          2671,
+          858
+        ],
+        "owners": [
+          "Map/Res/Plant:241@54,26",
+          "Map/Res/Plant:242@55,26"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@54,26"
+        ],
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      },
+      {
+        "root_cell": [
+          54,
+          31
+        ],
+        "converted": true,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          0,
+          0
+        ],
+        "bounds_xyxy": [
+          2613,
+          992,
+          2671,
+          1018
+        ],
+        "owners": [
+          "Map/Res/Plant:241@54,31",
+          "Map/Res/Plant:242@55,31"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@54,30",
+          "Map/Res/Plant:293@55,37"
+        ],
+        "classification": "already_bounded"
+      },
+      {
+        "root_cell": [
+          60,
+          61
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          288,
+          960
+        ],
+        "bounds_xyxy": [
+          2901,
+          1952,
+          2959,
+          1978
+        ],
+        "owners": [
+          "Map/Res/Plant:241@60,61",
+          "Map/Res/Plant:242@61,61"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@60,60",
+          "Map/Res/Plant:302@60,65"
+        ],
+        "classification": "rgba_crop_flags_sourcecell_exact_translation_context_unverified"
+      },
+      {
+        "root_cell": [
+          64,
+          24
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": false,
+        "flag_differences": [],
+        "source_cell_differences": [
+          {
+            "frame": 241,
+            "baseline": [
+              0,
+              0,
+              2,
+              241
+            ],
+            "target": [
+              -406,
+              0,
+              2,
+              241
+            ]
+          }
+        ],
+        "world_translation_from_baseline": [
+          480,
+          -224
+        ],
+        "bounds_xyxy": [
+          3093,
+          768,
+          3151,
+          794
+        ],
+        "owners": [
+          "Map/Res/Plant:241@64,24",
+          "Map/Res/Plant:242@65,24"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@64,24",
+          "Map/Res/Building:3970@65,34"
+        ],
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      },
+      {
+        "root_cell": [
+          65,
+          68
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": false,
+        "flag_differences": [],
+        "source_cell_differences": [
+          {
+            "frame": 242,
+            "baseline": [
+              0,
+              0,
+              2,
+              242
+            ],
+            "target": [
+              -399,
+              0,
+              2,
+              242
+            ]
+          }
+        ],
+        "world_translation_from_baseline": [
+          528,
+          1184
+        ],
+        "bounds_xyxy": [
+          3141,
+          2176,
+          3199,
+          2202
+        ],
+        "owners": [
+          "Map/Res/Plant:241@65,68",
+          "Map/Res/Plant:242@66,68"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:399@64,68",
+          "Map/Res/Plant:314@65,76",
+          "Map/Res/FloorBig:399@66,68",
+          "Map/Res/Plant:317@66,71"
+        ],
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      },
+      {
+        "root_cell": [
+          79,
+          35
+        ],
+        "converted": false,
+        "complete": true,
+        "rgba_crop_original_equal": true,
+        "relative_layout_and_layers_equal": true,
+        "flags_equal": true,
+        "full_source_cell_equal": true,
+        "flag_differences": [],
+        "source_cell_differences": [],
+        "world_translation_from_baseline": [
+          1200,
+          128
+        ],
+        "bounds_xyxy": [
+          3813,
+          1120,
+          3871,
+          1146
+        ],
+        "owners": [
+          "Map/Res/Plant:241@79,35",
+          "Map/Res/Plant:242@80,35"
+        ],
+        "overlapping_source_context_owner_keys": [
+          "Map/Res/FloorBig:406@78,34",
+          "Map/Res/FloorBig:406@80,34",
+          "Map/Res/Plant:317@80,38"
+        ],
+        "classification": "rgba_crop_flags_sourcecell_exact_translation_context_unverified"
+      }
+    ]
+  }
+]

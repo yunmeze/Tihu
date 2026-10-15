@@ -1,0 +1,463 @@
+{
+  "status": "CPU uncertainty bounds only; no additional permission or receiver area",
+  "runtime_static_descriptor_comparison": true,
+  "directions": {
+    "e": {
+      "opaque_plane_diagnostics": [
+        {
+          "source_id": 9,
+          "opaque_below_proxy_line_fraction": 0.022985052204612035,
+          "opaque_min_proxy_height": -6.073296840575779,
+          "opaque_max_proxy_height": 78.776521237072,
+          "note": "negative proxy height retained; no clipping or foot pinning"
+        },
+        {
+          "source_id": 10,
+          "opaque_below_proxy_line_fraction": 0.022124564327928475,
+          "opaque_min_proxy_height": -5.933213676071901,
+          "opaque_max_proxy_height": 78.81652643485349,
+          "note": "negative proxy height retained; no clipping or foot pinning"
+        },
+        {
+          "source_id": 11,
+          "opaque_below_proxy_line_fraction": 0.02132163919552397,
+          "opaque_min_proxy_height": -5.933213676071901,
+          "opaque_max_proxy_height": 78.9865160392905,
+          "note": "negative proxy height retained; no clipping or foot pinning"
+        },
+        {
+          "source_id": 12,
+          "opaque_below_proxy_line_fraction": 0.019197470450952346,
+          "opaque_min_proxy_height": -5.433213676071901,
+          "opaque_max_proxy_height": 78.56652643485349,
+          "note": "negative proxy height retained; no clipping or foot pinning"
+        }
+      ],
+      "proxy_uncertainty_pair_mean_slope_interval": [
+        -4.175115207373277,
+        -1.0282861896838607
+      ],
+      "uncertainty_method": "adversarial +/-1 x and +/-0.75 y per visible proxy; combine pair means as systematic bounds, not confidence interval or alternate approved line",
+      "helper_absolute_slope_limit": 2,
+      "slope_uncertainty_exceeds_helper_limit": true,
+      "static_envelope_potential_overlap": {
+        "lingyunzi": {
+          "eligible_positions_with_envelope_overlap": 5,
+          "largest_five": [
+            {
+              "cell": [
+                61,
+                36
+              ],
+              "overlap_d2_envelope_cells": 597
+            },
+            {
+              "cell": [
+                60,
+                35
+              ],
+              "overlap_d2_envelope_cells": 490
+            },
+            {
+              "cell": [
+                60,
+                34
+              ],
+              "overlap_d2_envelope_cells": 61
+            },
+            {
+              "cell": [
+                59,
+                32
+              ],
+              "overlap_d2_envelope_cells": 8
+            },
+            {
+              "cell": [
+                64,
+                37
+              ],
+              "overlap_d2_envelope_cells": 2
+            }
+          ]
+        },
+        "first_tree": {
+          "eligible_positions_with_envelope_overlap": 48,
+          "largest_five": [
+            {
+              "cell": [
+                60,
+                35
+              ],
+              "overlap_d2_envelope_cells": 15193
+            },
+            {
+              "cell": [
+                59,
+                35
+              ],
+              "overlap_d2_envelope_cells": 15081
+            },
+            {
+              "cell": [
+                58,
+                35
+              ],
+              "overlap_d2_envelope_cells": 14853
+            },
+            {
+              "cell": [
+                61,
+                36
+              ],
+              "overlap_d2_envelope_cells": 14809
+            },
+            {
+              "cell": [
+                59,
+                34
+              ],
+              "overlap_d2_envelope_cells": 14045
+            }
+          ]
+        },
+        "fangzhang": {
+          "eligible_positions_with_envelope_overlap": 2,
+          "largest_five": [
+            {
+              "cell": [
+                64,
+                37
+              ],
+              "overlap_d2_envelope_cells": 3946
+            },
+            {
+              "cell": [
+                65,
+                38
+              ],
+              "overlap_d2_envelope_cells": 1078
+            }
+          ]
+        }
+      }
+    },
+    "s": {
+      "opaque_plane_diagnostics": [
+        {
+          "source_id": 17,
+          "opaque_below_proxy_line_fraction": 0.0008830888485502625,
+          "opaque_min_proxy_height": -0.3530503648775607,
+          "opaque_max_proxy_height": 70.85213389733282,
+          "note": "negative proxy height retained; no clipping or foot pinning"
+        },
+        {
+          "source_id": 18,
+          "opaque_below_proxy_line_fraction": 9.903441445902451e-05,
+          "opaque_min_proxy_height": -0.04527397156198276,
+          "opaque_max_proxy_height": 70.41654304643308,
+          "note": "negative proxy height retained; no clipping or foot pinning"
+        },
+        {
+          "source_id": 19,
+          "opaque_below_proxy_line_fraction": 0.000245664029872746,
+          "opaque_min_proxy_height": -0.16745951397780345,
+          "opaque_max_proxy_height": 70.28772474823258,
+          "note": "negative proxy height retained; no clipping or foot pinning"
+        },
+        {
+          "source_id": 20,
+          "opaque_below_proxy_line_fraction": 0.0011760670358210417,
+          "opaque_min_proxy_height": -0.41745951397780345,
+          "opaque_max_proxy_height": 70.97331559913233,
+          "note": "negative proxy height retained; no clipping or foot pinning"
+        }
+      ],
+      "proxy_uncertainty_pair_mean_slope_interval": [
+        0.14558058925476602,
+        0.40089086859688194
+      ],
+      "uncertainty_method": "adversarial +/-1 x and +/-0.75 y per visible proxy; combine pair means as systematic bounds, not confidence interval or alternate approved line",
+      "helper_absolute_slope_limit": 2,
+      "slope_uncertainty_exceeds_helper_limit": false,
+      "static_envelope_potential_overlap": {
+        "lingyunzi": {
+          "eligible_positions_with_envelope_overlap": 3,
+          "largest_five": [
+            {
+              "cell": [
+                60,
+                35
+              ],
+              "overlap_d2_envelope_cells": 422
+            },
+            {
+              "cell": [
+                64,
+                37
+              ],
+              "overlap_d2_envelope_cells": 118
+            },
+            {
+              "cell": [
+                61,
+                36
+              ],
+              "overlap_d2_envelope_cells": 4
+            }
+          ]
+        },
+        "first_tree": {
+          "eligible_positions_with_envelope_overlap": 36,
+          "largest_five": [
+            {
+              "cell": [
+                58,
+                35
+              ],
+              "overlap_d2_envelope_cells": 4549
+            },
+            {
+              "cell": [
+                59,
+                35
+              ],
+              "overlap_d2_envelope_cells": 4549
+            },
+            {
+              "cell": [
+                60,
+                35
+              ],
+              "overlap_d2_envelope_cells": 4549
+            },
+            {
+              "cell": [
+                60,
+                36
+              ],
+              "overlap_d2_envelope_cells": 4549
+            },
+            {
+              "cell": [
+                61,
+                36
+              ],
+              "overlap_d2_envelope_cells": 4549
+            }
+          ]
+        },
+        "fangzhang": {
+          "eligible_positions_with_envelope_overlap": 3,
+          "largest_five": [
+            {
+              "cell": [
+                64,
+                37
+              ],
+              "overlap_d2_envelope_cells": 3335
+            },
+            {
+              "cell": [
+                63,
+                36
+              ],
+              "overlap_d2_envelope_cells": 762
+            },
+            {
+              "cell": [
+                65,
+                38
+              ],
+              "overlap_d2_envelope_cells": 48
+            }
+          ]
+        }
+      }
+    }
+  },
+  "receiver": {
+    "sample_world_rect": [
+      2496,
+      960,
+      768,
+      512
+    ],
+    "allowed_d2_cells": 1330424,
+    "forbidden_d2_cells": 242440,
+    "allowed_logical_area": 332606.0,
+    "allowed_fraction": 0.8458607991536459,
+    "runtime_input_checks": [
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3967.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3968.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3969.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3970.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3971.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3972.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3973.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3974.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3975.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3976.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3977.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3979.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3980.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3981.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3982.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3983.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3984.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3985.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3986.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3987.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3988.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3989.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3990.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3991.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3992.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3993.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3994.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3995.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/registration.json",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/hero/se_idle_v1/body.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/hero/se_idle_v1/manifest.json",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/hero/se_walk_v1/body.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/hero/se_walk_v1/manifest.json",
+        "matches": true
+      },
+      {
+        "path": "assets/original/Map/Res/Building/0.png",
+        "matches": true
+      },
+      {
+        "path": "assets/original/manifest.json",
+        "matches": true
+      },
+      {
+        "path": "data/earth/a13_hall_source_scope.json",
+        "matches": true
+      },
+      {
+        "path": "data/maps/A13.json",
+        "matches": true
+      },
+      {
+        "path": "scripts/art/density_alpha_ground_shadow.gd",
+        "matches": true
+      },
+      {
+        "path": "scripts/art/hero_alpha_ground_shadow.gd",
+        "matches": true
+      },
+      {
+        "path": "scripts/world_view.gd",
+        "matches": true
+      },
+      {
+        "path": "shaders/density_alpha_ground_shadow.gdshader",
+        "matches": true
+      },
+      {
+        "path": "shaders/hero_alpha_ground_shadow.gdshader",
+        "matches": true
+      }
+    ],
+    "no_envelope_reuse": true
+  },
+  "limitation": "Envelope overlap is an upper-bound opportunity, not actual visible shadow pixels. Actual alpha overlaps in measurements.json use 9-tap CPU kernel. Static shaders can be gated independently off."
+}

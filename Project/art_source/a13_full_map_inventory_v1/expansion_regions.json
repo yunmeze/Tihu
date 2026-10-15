@@ -1,0 +1,711 @@
+[
+  {
+    "priority": 1,
+    "id": "south_continuity",
+    "bounds_xyxy": [
+      2400,
+      1408,
+      3168,
+      1920
+    ],
+    "target_cell": [
+      56,
+      50
+    ],
+    "source_grid_route": [
+      [
+        61,
+        39
+      ],
+      [
+        62,
+        40
+      ],
+      [
+        63,
+        41
+      ],
+      [
+        64,
+        42
+      ],
+      [
+        63,
+        43
+      ],
+      [
+        62,
+        44
+      ],
+      [
+        61,
+        45
+      ],
+      [
+        60,
+        46
+      ],
+      [
+        59,
+        47
+      ],
+      [
+        58,
+        48
+      ],
+      [
+        57,
+        49
+      ],
+      [
+        56,
+        50
+      ]
+    ],
+    "potential_owner_count_by_category": {
+      "floor": 64,
+      "object": 34
+    },
+    "remaining_count_by_pack": {
+      "Map/Res/FloorBig": 57,
+      "Map/Res/Plant": 20,
+      "Map/Res/Debris": 2
+    },
+    "known_reusable_groups": [
+      {
+        "family": "upright_tree",
+        "root_cell": [
+          47,
+          66
+        ],
+        "converted": false,
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      },
+      {
+        "family": "upright_tree",
+        "root_cell": [
+          55,
+          57
+        ],
+        "converted": false,
+        "classification": "rgba_crop_flags_sourcecell_exact_translation_context_unverified"
+      },
+      {
+        "family": "upright_tree",
+        "root_cell": [
+          59,
+          61
+        ],
+        "converted": false,
+        "classification": "rgba_crop_flags_sourcecell_exact_translation_context_unverified"
+      },
+      {
+        "family": "upright_tree",
+        "root_cell": [
+          61,
+          51
+        ],
+        "converted": true,
+        "classification": "already_bounded"
+      },
+      {
+        "family": "round_shrub",
+        "root_cell": [
+          51,
+          44
+        ],
+        "converted": true,
+        "classification": "already_bounded"
+      },
+      {
+        "family": "round_shrub",
+        "root_cell": [
+          58,
+          51
+        ],
+        "converted": false,
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      },
+      {
+        "family": "round_shrub",
+        "root_cell": [
+          64,
+          45
+        ],
+        "converted": true,
+        "classification": "already_bounded"
+      }
+    ],
+    "npcs": [],
+    "intersecting_owner_keys": [
+      "Map/Res/FloorBig:406@50,44",
+      "Map/Res/Plant:144@50,44",
+      "Map/Res/FloorBig:577@50,46",
+      "Map/Res/FloorBig:608@50,48",
+      "Map/Res/FloorBig:594@50,50",
+      "Map/Res/FloorBig:581@50,52",
+      "Map/Res/FloorBig:597@50,54",
+      "Map/Res/FloorBig:604@50,56",
+      "Map/Res/FloorBig:385@50,58",
+      "Map/Res/Plant:304@50,70",
+      "Map/Res/Plant:145@51,44",
+      "Map/Res/FloorBig:577@52,44",
+      "Map/Res/Plant:146@52,44",
+      "Map/Res/FloorBig:608@52,46",
+      "Map/Res/FloorBig:594@52,48",
+      "Map/Res/FloorBig:581@52,50",
+      "Map/Res/FloorBig:604@52,52",
+      "Map/Res/FloorBig:598@52,54",
+      "Map/Res/FloorBig:598@52,56",
+      "Map/Res/FloorBig:386@52,58",
+      "Map/Res/Plant:300@53,61",
+      "Map/Res/FloorBig:608@54,44",
+      "Map/Res/FloorBig:586@54,46",
+      "Map/Res/FloorBig:581@54,48",
+      "Map/Res/FloorBig:604@54,50",
+      "Map/Res/FloorBig:406@54,52",
+      "Map/Res/FloorBig:406@54,54",
+      "Map/Res/FloorBig:406@54,56",
+      "Map/Res/FloorBig:388@54,58",
+      "Map/Res/Plant:301@54,61",
+      "Map/Res/Plant:299@55,57",
+      "Map/Res/FloorBig:594@56,44",
+      "Map/Res/FloorBig:581@56,46",
+      "Map/Res/FloorBig:604@56,48",
+      "Map/Res/FloorBig:406@56,50",
+      "Map/Res/FloorBig:406@56,52",
+      "Map/Res/FloorBig:406@56,54",
+      "Map/Res/FloorBig:406@56,56",
+      "Map/Res/FloorBig:406@56,58",
+      "Map/Res/Plant:302@56,61",
+      "Map/Res/Plant:144@57,51",
+      "Map/Res/Plant:303@57,61",
+      "Map/Res/Plant:300@57,65",
+      "Map/Res/FloorBig:581@58,44",
+      "Map/Res/FloorBig:604@58,46",
+      "Map/Res/FloorBig:406@58,48",
+      "Map/Res/Plant:143@58,48",
+      "Map/Res/FloorBig:406@58,50",
+      "Map/Res/Plant:145@58,51",
+      "Map/Res/FloorBig:406@58,52",
+      "Map/Res/FloorBig:406@58,54",
+      "Map/Res/FloorBig:406@58,56",
+      "Map/Res/FloorBig:406@58,58",
+      "Map/Res/Plant:304@58,61",
+      "Map/Res/Plant:301@58,65",
+      "Map/Res/Plant:146@59,51",
+      "Map/Res/Plant:300@59,55",
+      "Map/Res/Plant:299@59,61",
+      "Map/Res/FloorBig:604@60,44",
+      "Map/Res/FloorBig:406@60,46",
+      "Map/Res/FloorBig:406@60,48",
+      "Map/Res/FloorBig:406@60,50",
+      "Map/Res/FloorBig:406@60,52",
+      "Map/Res/FloorBig:406@60,54",
+      "Map/Res/Plant:301@60,55",
+      "Map/Res/FloorBig:406@60,56",
+      "Map/Res/FloorBig:406@60,58",
+      "Map/Res/Plant:302@60,65",
+      "Map/Res/Plant:299@61,51",
+      "Map/Res/Plant:303@61,65",
+      "Map/Res/FloorBig:406@62,44",
+      "Map/Res/FloorBig:406@62,46",
+      "Map/Res/FloorBig:406@62,48",
+      "Map/Res/FloorBig:406@62,50",
+      "Map/Res/FloorBig:406@62,52",
+      "Map/Res/FloorBig:406@62,54",
+      "Map/Res/Plant:302@62,55",
+      "Map/Res/FloorBig:406@62,56",
+      "Map/Res/FloorBig:406@62,58",
+      "Map/Res/Plant:304@62,65",
+      "Map/Res/Plant:144@63,45",
+      "Map/Res/Plant:303@63,55",
+      "Map/Res/Plant:248@63,57",
+      "Map/Res/FloorBig:406@64,44",
+      "Map/Res/Plant:145@64,45",
+      "Map/Res/FloorBig:406@64,46",
+      "Map/Res/FloorBig:406@64,48",
+      "Map/Res/FloorBig:406@64,50",
+      "Map/Res/FloorBig:406@64,52",
+      "Map/Res/FloorBig:406@64,54",
+      "Map/Res/Plant:304@64,55",
+      "Map/Res/FloorBig:406@64,56",
+      "Map/Res/Plant:249@64,57",
+      "Map/Res/FloorBig:406@64,58",
+      "Map/Res/Debris:55@64,60",
+      "Map/Res/Plant:146@65,45",
+      "Map/Res/Plant:250@65,57",
+      "Map/Res/Debris:56@65,61"
+    ],
+    "source_composite": "diagnostics/art_source/a13-full-map-inventory-v1/south_continuity-source.png"
+  },
+  {
+    "priority": 2,
+    "id": "east_hall_daotong",
+    "bounds_xyxy": [
+      3168,
+      1024,
+      3936,
+      1536
+    ],
+    "target_cell": [
+      74,
+      39
+    ],
+    "source_grid_route": [
+      [
+        61,
+        39
+      ],
+      [
+        62,
+        38
+      ],
+      [
+        63,
+        37
+      ],
+      [
+        64,
+        36
+      ],
+      [
+        65,
+        37
+      ],
+      [
+        66,
+        38
+      ],
+      [
+        67,
+        39
+      ],
+      [
+        68,
+        40
+      ],
+      [
+        69,
+        41
+      ],
+      [
+        70,
+        41
+      ],
+      [
+        71,
+        41
+      ],
+      [
+        72,
+        41
+      ],
+      [
+        73,
+        40
+      ],
+      [
+        74,
+        39
+      ]
+    ],
+    "potential_owner_count_by_category": {
+      "floor": 64,
+      "object": 61,
+      "npc": 1
+    },
+    "remaining_count_by_pack": {
+      "Map/Res/FloorBig": 57,
+      "Map/Res/Plant": 35,
+      "Map/Res/Wall": 3,
+      "Npc": 1
+    },
+    "known_reusable_groups": [
+      {
+        "family": "first_tree",
+        "root_cell": [
+          70,
+          47
+        ],
+        "converted": false,
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      },
+      {
+        "family": "grass_A",
+        "root_cell": [
+          79,
+          34
+        ],
+        "converted": false,
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      },
+      {
+        "family": "grass_B",
+        "root_cell": [
+          79,
+          35
+        ],
+        "converted": false,
+        "classification": "rgba_crop_flags_sourcecell_exact_translation_context_unverified"
+      }
+    ],
+    "npcs": [
+      {
+        "name": "道童",
+        "record": 3,
+        "converted": false
+      }
+    ],
+    "intersecting_owner_keys": [
+      "Map/Res/FloorBig:406@66,32",
+      "Map/Res/Building:3968@66,33",
+      "Map/Res/FloorBig:406@66,34",
+      "Map/Res/Building:3971@66,34",
+      "Map/Res/Building:3975@66,35",
+      "Map/Res/FloorBig:399@66,36",
+      "Map/Res/Building:3980@66,36",
+      "Map/Res/Building:3985@66,37",
+      "Map/Res/FloorBig:406@66,38",
+      "Map/Res/FloorBig:406@66,40",
+      "Map/Res/FloorBig:406@66,42",
+      "Map/Res/FloorBig:406@66,44",
+      "Map/Res/FloorBig:406@66,46",
+      "Map/Res/Building:3988@67,38",
+      "Map/Res/FloorBig:406@68,32",
+      "Map/Res/FloorBig:406@68,34",
+      "Map/Res/FloorBig:406@68,36",
+      "Map/Res/FloorBig:399@68,38",
+      "Map/Res/Building:3990@68,39",
+      "Map/Res/FloorBig:399@68,40",
+      "Map/Res/FloorBig:399@68,42",
+      "Map/Res/FloorBig:406@68,44",
+      "Map/Res/FloorBig:406@68,46",
+      "Map/Res/Plant:293@68,50",
+      "Map/Res/Building:3992@69,40",
+      "Map/Res/Plant:294@69,50",
+      "Map/Res/FloorBig:406@70,32",
+      "Map/Res/FloorBig:406@70,34",
+      "Map/Res/FloorBig:406@70,36",
+      "Map/Res/FloorBig:406@70,38",
+      "Map/Res/FloorBig:406@70,40",
+      "Map/Res/Building:3993@70,40",
+      "Map/Res/FloorBig:406@70,42",
+      "Map/Res/FloorBig:406@70,44",
+      "Map/Res/FloorBig:406@70,46",
+      "Map/Res/Plant:292@70,47",
+      "Map/Res/Building:3994@71,40",
+      "Map/Res/Plant:295@71,50",
+      "Map/Res/FloorBig:406@72,32",
+      "Map/Res/FloorBig:406@72,34",
+      "Map/Res/FloorBig:406@72,36",
+      "Map/Res/FloorBig:406@72,38",
+      "Map/Res/FloorBig:406@72,40",
+      "Map/Res/Building:3995@72,40",
+      "Map/Res/FloorBig:406@72,42",
+      "Map/Res/FloorBig:406@72,44",
+      "Map/Res/FloorBig:406@72,46",
+      "Map/Res/Plant:296@72,50",
+      "Map/Res/Building:3972@73,34",
+      "Map/Res/Building:3976@73,35",
+      "Map/Res/Building:3981@73,36",
+      "Map/Res/Building:3991@73,39",
+      "Map/Res/Plant:248@73,48",
+      "Map/Res/Plant:297@73,50",
+      "Map/Res/Plant:319@73,55",
+      "Map/Res/FloorBig:406@74,32",
+      "Map/Res/FloorBig:406@74,34",
+      "Map/Res/Building:3977@74,35",
+      "Map/Res/FloorBig:406@74,36",
+      "Map/Res/Building:3982@74,36",
+      "Map/Res/Building:3986@74,37",
+      "Map/Res/FloorBig:406@74,38",
+      "Map/Res/Building:3989@74,38",
+      "Map/Res/FloorBig:406@74,40",
+      "Map/Res/FloorBig:406@74,42",
+      "Map/Res/FloorBig:406@74,44",
+      "Map/Res/FloorBig:406@74,46",
+      "Map/Res/Plant:249@74,48",
+      "Map/Res/Plant:298@74,50",
+      "Map/Res/Plant:321@74,56",
+      "Map/Res/Building:3983@75,36",
+      "Map/Res/Building:3987@75,37",
+      "Map/Res/Plant:250@75,48",
+      "Map/Res/Plant:317@75,49",
+      "Map/Res/Plant:322@75,56",
+      "Map/Res/FloorBig:406@76,32",
+      "Map/Res/FloorBig:406@76,34",
+      "Map/Res/FloorBig:406@76,36",
+      "Map/Res/Building:3984@76,36",
+      "Map/Res/FloorBig:406@76,38",
+      "Map/Res/FloorBig:406@76,40",
+      "Map/Res/FloorBig:406@76,42",
+      "Map/Res/FloorBig:406@76,44",
+      "Map/Res/FloorBig:406@76,46",
+      "Map/Res/Plant:319@76,50",
+      "Map/Res/Plant:320@76,55",
+      "Map/Res/Building:3978@77,35",
+      "Map/Res/Plant:321@77,51",
+      "Map/Res/Plant:318@77,54",
+      "Map/Res/FloorBig:406@78,32",
+      "Map/Res/FloorBig:406@78,34",
+      "Map/Res/FloorBig:406@78,36",
+      "Map/Res/FloorBig:406@78,38",
+      "Map/Res/FloorBig:406@78,40",
+      "Map/Res/FloorBig:406@78,42",
+      "Map/Res/FloorBig:406@78,44",
+      "Map/Res/FloorBig:406@78,46",
+      "Map/Res/Plant:322@78,51",
+      "Map/Res/Plant:311@79,32",
+      "Map/Res/Plant:239@79,34",
+      "Map/Res/Plant:241@79,35",
+      "Map/Res/Plant:320@79,50",
+      "Map/Res/Wall:2682@79,51",
+      "Map/Res/FloorBig:406@80,32",
+      "Map/Res/Plant:313@80,33",
+      "Map/Res/FloorBig:406@80,34",
+      "Map/Res/Plant:240@80,34",
+      "Map/Res/Plant:242@80,35",
+      "Map/Res/FloorBig:406@80,36",
+      "Map/Res/FloorBig:406@80,38",
+      "Map/Res/Plant:317@80,38",
+      "Map/Res/FloorBig:406@80,40",
+      "Map/Res/Plant:246@80,41",
+      "Map/Res/FloorBig:406@80,42",
+      "Map/Res/FloorBig:406@80,44",
+      "Map/Res/FloorBig:406@80,46",
+      "Map/Res/Plant:317@80,46",
+      "Map/Res/Plant:318@80,49",
+      "Map/Res/Wall:2683@80,51",
+      "Map/Res/Plant:314@81,33",
+      "Map/Res/Plant:319@81,39",
+      "Map/Res/Plant:247@81,41",
+      "Map/Res/Plant:319@81,47",
+      "Map/Res/Plant:316@81,48",
+      "Map/Res/Wall:2685@81,52",
+      "Npc:293@76,37#npc3"
+    ],
+    "source_composite": "diagnostics/art_source/a13-full-map-inventory-v1/east_hall_daotong-source.png"
+  },
+  {
+    "priority": 3,
+    "id": "west_path_link",
+    "bounds_xyxy": [
+      1920,
+      1024,
+      2688,
+      1536
+    ],
+    "target_cell": [
+      45,
+      42
+    ],
+    "source_grid_route": [
+      [
+        61,
+        39
+      ],
+      [
+        60,
+        40
+      ],
+      [
+        59,
+        41
+      ],
+      [
+        58,
+        42
+      ],
+      [
+        57,
+        43
+      ],
+      [
+        56,
+        44
+      ],
+      [
+        55,
+        45
+      ],
+      [
+        54,
+        46
+      ],
+      [
+        53,
+        47
+      ],
+      [
+        52,
+        48
+      ],
+      [
+        51,
+        48
+      ],
+      [
+        50,
+        47
+      ],
+      [
+        49,
+        46
+      ],
+      [
+        48,
+        45
+      ],
+      [
+        47,
+        44
+      ],
+      [
+        46,
+        43
+      ],
+      [
+        45,
+        42
+      ]
+    ],
+    "potential_owner_count_by_category": {
+      "floor": 64,
+      "object": 22
+    },
+    "remaining_count_by_pack": {
+      "Map/Res/FloorBig": 50,
+      "Map/Res/Building": 6,
+      "Map/Res/Plant": 6
+    },
+    "known_reusable_groups": [
+      {
+        "family": "first_tree",
+        "root_cell": [
+          57,
+          34
+        ],
+        "converted": true,
+        "classification": "already_bounded"
+      },
+      {
+        "family": "upright_tree",
+        "root_cell": [
+          45,
+          46
+        ],
+        "converted": false,
+        "classification": "rgba_crop_flags_exact_translation_ground_context_differs"
+      },
+      {
+        "family": "upright_tree",
+        "root_cell": [
+          50,
+          41
+        ],
+        "converted": true,
+        "classification": "already_bounded"
+      },
+      {
+        "family": "round_shrub",
+        "root_cell": [
+          51,
+          44
+        ],
+        "converted": true,
+        "classification": "already_bounded"
+      }
+    ],
+    "npcs": [],
+    "intersecting_owner_keys": [
+      "Map/Res/FloorBig:406@40,32",
+      "Map/Res/FloorBig:406@40,34",
+      "Map/Res/FloorBig:395@40,36",
+      "Map/Res/Building:252@40,37",
+      "Map/Res/FloorBig:394@40,38",
+      "Map/Res/FloorBig:410@40,40",
+      "Map/Res/FloorBig:406@40,42",
+      "Map/Res/FloorBig:388@40,44",
+      "Map/Res/FloorBig:413@40,46",
+      "Map/Res/Building:253@41,37",
+      "Map/Res/FloorBig:395@42,32",
+      "Map/Res/FloorBig:395@42,34",
+      "Map/Res/FloorBig:395@42,36",
+      "Map/Res/Building:249@42,36",
+      "Map/Res/FloorBig:389@42,38",
+      "Map/Res/FloorBig:412@42,40",
+      "Map/Res/FloorBig:406@42,42",
+      "Map/Res/FloorBig:406@42,44",
+      "Map/Res/FloorBig:388@42,46",
+      "Map/Res/Building:245@43,35",
+      "Map/Res/Plant:300@43,50",
+      "Map/Res/FloorBig:402@44,32",
+      "Map/Res/FloorBig:402@44,34",
+      "Map/Res/FloorBig:389@44,36",
+      "Map/Res/Building:250@44,36",
+      "Map/Res/FloorBig:412@44,38",
+      "Map/Res/FloorBig:406@44,40",
+      "Map/Res/FloorBig:406@44,42",
+      "Map/Res/FloorBig:406@44,44",
+      "Map/Res/FloorBig:406@44,46",
+      "Map/Res/Plant:301@44,50",
+      "Map/Res/Building:246@45,35",
+      "Map/Res/Plant:299@45,46",
+      "Map/Res/FloorBig:404@46,32",
+      "Map/Res/FloorBig:404@46,34",
+      "Map/Res/FloorBig:412@46,36",
+      "Map/Res/FloorBig:406@46,38",
+      "Map/Res/FloorBig:406@46,40",
+      "Map/Res/FloorBig:406@46,42",
+      "Map/Res/FloorBig:406@46,44",
+      "Map/Res/FloorBig:406@46,46",
+      "Map/Res/Plant:302@46,50",
+      "Map/Res/Plant:303@47,50",
+      "Map/Res/FloorBig:406@48,32",
+      "Map/Res/FloorBig:406@48,34",
+      "Map/Res/FloorBig:406@48,36",
+      "Map/Res/FloorBig:406@48,38",
+      "Map/Res/FloorBig:406@48,40",
+      "Map/Res/FloorBig:406@48,42",
+      "Map/Res/FloorBig:406@48,44",
+      "Map/Res/Plant:300@48,45",
+      "Map/Res/FloorBig:406@48,46",
+      "Map/Res/Plant:304@48,50",
+      "Map/Res/Plant:301@49,45",
+      "Map/Res/FloorBig:406@50,32",
+      "Map/Res/FloorBig:406@50,34",
+      "Map/Res/FloorBig:406@50,36",
+      "Map/Res/FloorBig:406@50,38",
+      "Map/Res/FloorBig:406@50,40",
+      "Map/Res/Plant:299@50,41",
+      "Map/Res/FloorBig:406@50,42",
+      "Map/Res/FloorBig:406@50,44",
+      "Map/Res/Plant:144@50,44",
+      "Map/Res/FloorBig:577@50,46",
+      "Map/Res/Plant:143@51,41",
+      "Map/Res/Plant:145@51,44",
+      "Map/Res/Plant:302@51,45",
+      "Map/Res/FloorBig:406@52,32",
+      "Map/Res/FloorBig:406@52,34",
+      "Map/Res/FloorBig:406@52,36",
+      "Map/Res/FloorBig:406@52,38",
+      "Map/Res/FloorBig:406@52,40",
+      "Map/Res/FloorBig:406@52,42",
+      "Map/Res/FloorBig:577@52,44",
+      "Map/Res/Plant:146@52,44",
+      "Map/Res/Plant:303@52,45",
+      "Map/Res/FloorBig:608@52,46",
+      "Map/Res/Plant:304@53,45",
+      "Map/Res/FloorBig:406@54,32",
+      "Map/Res/FloorBig:406@54,34",
+      "Map/Res/FloorBig:406@54,36",
+      "Map/Res/FloorBig:406@54,38",
+      "Map/Res/FloorBig:406@54,40",
+      "Map/Res/FloorBig:577@54,42",
+      "Map/Res/FloorBig:608@54,44",
+      "Map/Res/FloorBig:586@54,46"
+    ],
+    "source_composite": "diagnostics/art_source/a13-full-map-inventory-v1/west_path_link-source.png"
+  }
+]

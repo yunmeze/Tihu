@@ -1,0 +1,3107 @@
+{
+  "status": "CPU_ONLY_PROPOSAL_NOT_APPROVED_NOT_RUNTIME",
+  "parameters": {
+    "cast": [
+      1.2,
+      0.55
+    ],
+    "opacity": 0.25,
+    "logical_blur": 0.8,
+    "raw_blur_d4": 3.2,
+    "density": 4,
+    "unchanged_idle_ticks": 12,
+    "walk_run_excluded": true
+  },
+  "source_byte_proof": [
+    {
+      "direction": "e",
+      "source_id": 9,
+      "full128_matches_frozen_source": true,
+      "layers": [
+        {
+          "layer": 0,
+          "native_offset": [
+            15,
+            -48
+          ],
+          "index18_count": 343,
+          "non18_pixels_unchanged": true,
+          "partition_recomposes_exactly": true
+        },
+        {
+          "layer": 1,
+          "native_offset": [
+            20,
+            -49
+          ],
+          "index18_count": 0,
+          "non18_pixels_unchanged": true,
+          "partition_recomposes_exactly": true
+        }
+      ]
+    },
+    {
+      "direction": "e",
+      "source_id": 10,
+      "full128_matches_frozen_source": true,
+      "layers": [
+        {
+          "layer": 0,
+          "native_offset": [
+            15,
+            -47
+          ],
+          "index18_count": 347,
+          "non18_pixels_unchanged": true,
+          "partition_recomposes_exactly": true
+        },
+        {
+          "layer": 1,
+          "native_offset": [
+            20,
+            -49
+          ],
+          "index18_count": 1,
+          "non18_pixels_unchanged": true,
+          "partition_recomposes_exactly": true
+        }
+      ]
+    },
+    {
+      "direction": "e",
+      "source_id": 11,
+      "full128_matches_frozen_source": true,
+      "layers": [
+        {
+          "layer": 0,
+          "native_offset": [
+            15,
+            -47
+          ],
+          "index18_count": 347,
+          "non18_pixels_unchanged": true,
+          "partition_recomposes_exactly": true
+        },
+        {
+          "layer": 1,
+          "native_offset": [
+            20,
+            -49
+          ],
+          "index18_count": 1,
+          "non18_pixels_unchanged": true,
+          "partition_recomposes_exactly": true
+        }
+      ]
+    },
+    {
+      "direction": "e",
+      "source_id": 12,
+      "full128_matches_frozen_source": true,
+      "layers": [
+        {
+          "layer": 0,
+          "native_offset": [
+            15,
+            -48
+          ],
+          "index18_count": 347,
+          "non18_pixels_unchanged": true,
+          "partition_recomposes_exactly": true
+        },
+        {
+          "layer": 1,
+          "native_offset": [
+            20,
+            -49
+          ],
+          "index18_count": 0,
+          "non18_pixels_unchanged": true,
+          "partition_recomposes_exactly": true
+        }
+      ]
+    },
+    {
+      "direction": "s",
+      "source_id": 17,
+      "full128_matches_frozen_source": true,
+      "layers": [
+        {
+          "layer": 0,
+          "native_offset": [
+            7,
+            -47
+          ],
+          "index18_count": 336,
+          "non18_pixels_unchanged": true,
+          "partition_recomposes_exactly": true
+        },
+        {
+          "layer": 1,
+          "native_offset": [
+            21,
+            -49
+          ],
+          "index18_count": 0,
+          "non18_pixels_unchanged": true,
+          "partition_recomposes_exactly": true
+        }
+      ]
+    },
+    {
+      "direction": "s",
+      "source_id": 18,
+      "full128_matches_frozen_source": true,
+      "layers": [
+        {
+          "layer": 0,
+          "native_offset": [
+            7,
+            -47
+          ],
+          "index18_count": 332,
+          "non18_pixels_unchanged": true,
+          "partition_recomposes_exactly": true
+        },
+        {
+          "layer": 1,
+          "native_offset": [
+            20,
+            -49
+          ],
+          "index18_count": 0,
+          "non18_pixels_unchanged": true,
+          "partition_recomposes_exactly": true
+        }
+      ]
+    },
+    {
+      "direction": "s",
+      "source_id": 19,
+      "full128_matches_frozen_source": true,
+      "layers": [
+        {
+          "layer": 0,
+          "native_offset": [
+            7,
+            -47
+          ],
+          "index18_count": 329,
+          "non18_pixels_unchanged": true,
+          "partition_recomposes_exactly": true
+        },
+        {
+          "layer": 1,
+          "native_offset": [
+            20,
+            -49
+          ],
+          "index18_count": 0,
+          "non18_pixels_unchanged": true,
+          "partition_recomposes_exactly": true
+        }
+      ]
+    },
+    {
+      "direction": "s",
+      "source_id": 20,
+      "full128_matches_frozen_source": true,
+      "layers": [
+        {
+          "layer": 0,
+          "native_offset": [
+            7,
+            -47
+          ],
+          "index18_count": 327,
+          "non18_pixels_unchanged": true,
+          "partition_recomposes_exactly": true
+        },
+        {
+          "layer": 1,
+          "native_offset": [
+            21,
+            -49
+          ],
+          "index18_count": 0,
+          "non18_pixels_unchanged": true,
+          "partition_recomposes_exactly": true
+        }
+      ]
+    }
+  ],
+  "source_index18_role": "exact index partition only; shadow semantics inferred; candidate alpha never removes index/color/low alpha",
+  "receiver": {
+    "sample_world_rect": [
+      2496,
+      960,
+      768,
+      512
+    ],
+    "allowed_d2_cells": 1330424,
+    "forbidden_d2_cells": 242440,
+    "allowed_logical_area": 332606.0,
+    "allowed_fraction": 0.8458607991536459,
+    "runtime_input_checks": [
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3967.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3968.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3969.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3970.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3971.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3972.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3973.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3974.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3975.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3976.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3977.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3979.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3980.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3981.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3982.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3983.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3984.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3985.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3986.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3987.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3988.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3989.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3990.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3991.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3992.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3993.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3994.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/owner-3995.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/environment/training_hall_v1/registration.json",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/hero/se_idle_v1/body.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/hero/se_idle_v1/manifest.json",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/hero/se_walk_v1/body.png",
+        "matches": true
+      },
+      {
+        "path": "assets/earth/hero/se_walk_v1/manifest.json",
+        "matches": true
+      },
+      {
+        "path": "assets/original/Map/Res/Building/0.png",
+        "matches": true
+      },
+      {
+        "path": "assets/original/manifest.json",
+        "matches": true
+      },
+      {
+        "path": "data/earth/a13_hall_source_scope.json",
+        "matches": true
+      },
+      {
+        "path": "data/maps/A13.json",
+        "matches": true
+      },
+      {
+        "path": "scripts/art/density_alpha_ground_shadow.gd",
+        "matches": true
+      },
+      {
+        "path": "scripts/art/hero_alpha_ground_shadow.gd",
+        "matches": true
+      },
+      {
+        "path": "scripts/world_view.gd",
+        "matches": true
+      },
+      {
+        "path": "shaders/density_alpha_ground_shadow.gdshader",
+        "matches": true
+      },
+      {
+        "path": "shaders/hero_alpha_ground_shadow.gdshader",
+        "matches": true
+      }
+    ],
+    "no_envelope_reuse": true
+  },
+  "directions": {
+    "e": {
+      "ids": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "frames": [
+        {
+          "source_id": 9,
+          "visible_bottom_edge_points_logical": [
+            [
+              40.875,
+              87.5
+            ],
+            [
+              44.875,
+              79.75
+            ]
+          ],
+          "alpha_threshold_sensitivity": {
+            "64": [
+              [
+                40.708333333333336,
+                87.5
+              ],
+              [
+                45.125,
+                79.75
+              ]
+            ],
+            "128": [
+              [
+                40.875,
+                87.5
+              ],
+              [
+                44.875,
+                79.75
+              ]
+            ],
+            "192": [
+              [
+                40.375,
+                87.5
+              ],
+              [
+                44.875,
+                79.5
+              ]
+            ],
+            "254": [
+              [
+                38.125,
+                87.0
+              ],
+              [
+                44.875,
+                79.25
+              ]
+            ]
+          },
+          "alpha_positive_texels": 14425,
+          "alpha_1_to15_texels": 832
+        },
+        {
+          "source_id": 10,
+          "visible_bottom_edge_points_logical": [
+            [
+              40.625,
+              87.5
+            ],
+            [
+              44.75,
+              79.5
+            ]
+          ],
+          "alpha_threshold_sensitivity": {
+            "64": [
+              [
+                40.479166666666664,
+                87.5
+              ],
+              [
+                45.125,
+                79.75
+              ]
+            ],
+            "128": [
+              [
+                40.625,
+                87.5
+              ],
+              [
+                44.75,
+                79.5
+              ]
+            ],
+            "192": [
+              [
+                40.416666666666664,
+                87.5
+              ],
+              [
+                44.875,
+                79.5
+              ]
+            ],
+            "254": [
+              [
+                40.225,
+                87.25
+              ],
+              [
+                45.041666666666664,
+                79.5
+              ]
+            ]
+          },
+          "alpha_positive_texels": 14101,
+          "alpha_1_to15_texels": 606
+        },
+        {
+          "source_id": 11,
+          "visible_bottom_edge_points_logical": [
+            [
+              40.458333333333336,
+              87.5
+            ],
+            [
+              44.75,
+              79.5
+            ]
+          ],
+          "alpha_threshold_sensitivity": {
+            "64": [
+              [
+                40.325,
+                87.5
+              ],
+              [
+                44.75,
+                79.75
+              ]
+            ],
+            "128": [
+              [
+                40.458333333333336,
+                87.5
+              ],
+              [
+                44.75,
+                79.5
+              ]
+            ],
+            "192": [
+              [
+                40.513888888888886,
+                87.5
+              ],
+              [
+                44.75,
+                79.5
+              ]
+            ],
+            "254": [
+              [
+                40.0625,
+                87.5
+              ],
+              [
+                44.517857142857146,
+                79.5
+              ]
+            ]
+          },
+          "alpha_positive_texels": 14262,
+          "alpha_1_to15_texels": 719
+        },
+        {
+          "source_id": 12,
+          "visible_bottom_edge_points_logical": [
+            [
+              40.0,
+              87.5
+            ],
+            [
+              44.625,
+              79.5
+            ]
+          ],
+          "alpha_threshold_sensitivity": {
+            "64": [
+              [
+                40.25,
+                87.5
+              ],
+              [
+                44.625,
+                79.5
+              ]
+            ],
+            "128": [
+              [
+                40.0,
+                87.5
+              ],
+              [
+                44.625,
+                79.5
+              ]
+            ],
+            "192": [
+              [
+                39.875,
+                87.5
+              ],
+              [
+                44.625,
+                79.5
+              ]
+            ],
+            "254": [
+              [
+                40.375,
+                87.25
+              ],
+              [
+                44.625,
+                79.5
+              ]
+            ]
+          },
+          "alpha_positive_texels": 14306,
+          "alpha_1_to15_texels": 758
+        }
+      ],
+      "fixed_line": {
+        "reference_logical": [
+          40,
+          88.35161219824812
+        ],
+        "slope": -1.8399792088740314,
+        "intercept": 161.95078055320937,
+        "matrix_rows": [
+          [
+            -1.2079750506488378,
+            -1.2
+          ],
+          [
+            -2.851967773754749,
+            -0.55
+          ]
+        ],
+        "translation_logical": [
+          194.34093666385124,
+          251.02370985747453
+        ],
+        "determinant": -2.757975050648837,
+        "fits_all_four_phases_once": true,
+        "maximum_vertical_residual": 0.8516121982481195,
+        "rms_vertical_residual": 0.45645676223768955,
+        "maximum_projected_sole_offset": 1.6693554203247705,
+        "threshold_fits": [
+          {
+            "threshold": "64",
+            "slope": -1.7337116756859523,
+            "reference_y_at_x40": 88.22871980796666,
+            "determinant": -2.6304540108231427
+          },
+          {
+            "threshold": "128",
+            "slope": -1.8399792088740314,
+            "reference_y_at_x40": 88.35161219824812,
+            "determinant": -2.757975050648837
+          },
+          {
+            "threshold": "192",
+            "slope": -1.7705914962158562,
+            "reference_y_at_x40": 87.99410549907564,
+            "determinant": -2.6747097954590275
+          },
+          {
+            "threshold": "254",
+            "slope": -1.4345475976063313,
+            "reference_y_at_x40": 86.54405064129688,
+            "determinant": -2.2714571171275972
+          }
+        ],
+        "per_phase_point_residuals_y": [
+          [
+            0.758369609516663,
+            0.3682864450127852
+          ],
+          [
+            0.2983748072981598,
+            -0.11171095609645931
+          ],
+          [
+            -0.0082883941808376,
+            -0.11171095609645931
+          ],
+          [
+            -0.8516121982481195,
+            -0.341708357205718
+          ]
+        ],
+        "visible_proxy_uncertainty_logical_xy": [
+          1,
+          0.75
+        ],
+        "uncertainty_not_a_statistical_confidence_interval": true
+      },
+      "envelope": {
+        "offset_logical": [
+          33.0,
+          64.0
+        ],
+        "size_logical": [
+          122.0,
+          144.5
+        ],
+        "mask_density": 2,
+        "positive_cells": 15686,
+        "logical_area": 3921.5,
+        "includes_all_alpha_gt0": true,
+        "full_raw_texel_footprints_and_half_texel_linear_support": true,
+        "padding_logical": 1.8,
+        "independent_rectangle_coverage_check": true
+      },
+      "eligible_integer_cells_in_scan_x50_69_y28_47": [
+        [
+          52,
+          30
+        ],
+        [
+          52,
+          31
+        ],
+        [
+          52,
+          32
+        ],
+        [
+          52,
+          33
+        ],
+        [
+          52,
+          34
+        ],
+        [
+          52,
+          35
+        ],
+        [
+          52,
+          36
+        ],
+        [
+          52,
+          37
+        ],
+        [
+          52,
+          38
+        ],
+        [
+          52,
+          39
+        ],
+        [
+          52,
+          40
+        ],
+        [
+          52,
+          41
+        ],
+        [
+          53,
+          30
+        ],
+        [
+          53,
+          31
+        ],
+        [
+          53,
+          32
+        ],
+        [
+          53,
+          33
+        ],
+        [
+          53,
+          34
+        ],
+        [
+          53,
+          35
+        ],
+        [
+          53,
+          36
+        ],
+        [
+          53,
+          37
+        ],
+        [
+          53,
+          38
+        ],
+        [
+          53,
+          39
+        ],
+        [
+          53,
+          40
+        ],
+        [
+          53,
+          41
+        ],
+        [
+          54,
+          30
+        ],
+        [
+          54,
+          31
+        ],
+        [
+          54,
+          32
+        ],
+        [
+          54,
+          33
+        ],
+        [
+          54,
+          34
+        ],
+        [
+          54,
+          35
+        ],
+        [
+          54,
+          36
+        ],
+        [
+          54,
+          37
+        ],
+        [
+          54,
+          38
+        ],
+        [
+          54,
+          39
+        ],
+        [
+          54,
+          40
+        ],
+        [
+          54,
+          41
+        ],
+        [
+          55,
+          30
+        ],
+        [
+          55,
+          31
+        ],
+        [
+          55,
+          32
+        ],
+        [
+          55,
+          33
+        ],
+        [
+          55,
+          34
+        ],
+        [
+          55,
+          35
+        ],
+        [
+          55,
+          36
+        ],
+        [
+          55,
+          37
+        ],
+        [
+          55,
+          38
+        ],
+        [
+          55,
+          39
+        ],
+        [
+          55,
+          40
+        ],
+        [
+          55,
+          41
+        ],
+        [
+          56,
+          30
+        ],
+        [
+          56,
+          31
+        ],
+        [
+          56,
+          32
+        ],
+        [
+          56,
+          33
+        ],
+        [
+          56,
+          34
+        ],
+        [
+          56,
+          35
+        ],
+        [
+          56,
+          36
+        ],
+        [
+          56,
+          37
+        ],
+        [
+          56,
+          38
+        ],
+        [
+          56,
+          39
+        ],
+        [
+          56,
+          40
+        ],
+        [
+          56,
+          41
+        ],
+        [
+          57,
+          30
+        ],
+        [
+          57,
+          31
+        ],
+        [
+          57,
+          32
+        ],
+        [
+          57,
+          33
+        ],
+        [
+          57,
+          34
+        ],
+        [
+          57,
+          35
+        ],
+        [
+          57,
+          36
+        ],
+        [
+          57,
+          37
+        ],
+        [
+          57,
+          38
+        ],
+        [
+          57,
+          39
+        ],
+        [
+          57,
+          40
+        ],
+        [
+          57,
+          41
+        ],
+        [
+          58,
+          30
+        ],
+        [
+          58,
+          31
+        ],
+        [
+          58,
+          32
+        ],
+        [
+          58,
+          33
+        ],
+        [
+          58,
+          34
+        ],
+        [
+          58,
+          35
+        ],
+        [
+          58,
+          36
+        ],
+        [
+          58,
+          37
+        ],
+        [
+          58,
+          38
+        ],
+        [
+          58,
+          39
+        ],
+        [
+          58,
+          40
+        ],
+        [
+          58,
+          41
+        ],
+        [
+          59,
+          31
+        ],
+        [
+          59,
+          32
+        ],
+        [
+          59,
+          33
+        ],
+        [
+          59,
+          34
+        ],
+        [
+          59,
+          35
+        ],
+        [
+          59,
+          36
+        ],
+        [
+          59,
+          37
+        ],
+        [
+          59,
+          38
+        ],
+        [
+          59,
+          39
+        ],
+        [
+          59,
+          40
+        ],
+        [
+          59,
+          41
+        ],
+        [
+          60,
+          33
+        ],
+        [
+          60,
+          34
+        ],
+        [
+          60,
+          35
+        ],
+        [
+          60,
+          36
+        ],
+        [
+          60,
+          37
+        ],
+        [
+          60,
+          38
+        ],
+        [
+          60,
+          39
+        ],
+        [
+          60,
+          40
+        ],
+        [
+          60,
+          41
+        ],
+        [
+          61,
+          36
+        ],
+        [
+          61,
+          37
+        ],
+        [
+          61,
+          38
+        ],
+        [
+          61,
+          39
+        ],
+        [
+          61,
+          40
+        ],
+        [
+          61,
+          41
+        ],
+        [
+          62,
+          38
+        ],
+        [
+          62,
+          39
+        ],
+        [
+          62,
+          40
+        ],
+        [
+          62,
+          41
+        ],
+        [
+          63,
+          38
+        ],
+        [
+          63,
+          39
+        ],
+        [
+          63,
+          40
+        ],
+        [
+          63,
+          41
+        ],
+        [
+          64,
+          37
+        ],
+        [
+          64,
+          38
+        ],
+        [
+          64,
+          39
+        ],
+        [
+          64,
+          40
+        ],
+        [
+          64,
+          41
+        ],
+        [
+          65,
+          38
+        ],
+        [
+          65,
+          39
+        ],
+        [
+          65,
+          40
+        ],
+        [
+          65,
+          41
+        ]
+      ],
+      "eligible_count": 127,
+      "probe_results": [
+        {
+          "cell": [
+            61,
+            39
+          ],
+          "whole_envelope_allowed": true
+        },
+        {
+          "cell": [
+            63,
+            41
+          ],
+          "whole_envelope_allowed": true
+        },
+        {
+          "cell": [
+            61,
+            37
+          ],
+          "whole_envelope_allowed": true
+        },
+        {
+          "cell": [
+            63,
+            38
+          ],
+          "whole_envelope_allowed": true
+        },
+        {
+          "cell": [
+            62,
+            36
+          ],
+          "whole_envelope_allowed": false
+        },
+        {
+          "cell": [
+            66,
+            35
+          ],
+          "whole_envelope_allowed": false
+        },
+        {
+          "cell": [
+            66,
+            36
+          ],
+          "whole_envelope_allowed": false
+        },
+        {
+          "cell": [
+            61.6875,
+            39.6875
+          ],
+          "whole_envelope_allowed": true
+        },
+        {
+          "cell": [
+            51,
+            39
+          ],
+          "whole_envelope_allowed": false
+        },
+        {
+          "cell": [
+            67,
+            45
+          ],
+          "whole_envelope_allowed": false
+        }
+      ],
+      "source_flags_at_eligible_cells": {
+        "flag_-1": 6,
+        "flag_0": 121
+      }
+    },
+    "s": {
+      "ids": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "frames": [
+        {
+          "source_id": 17,
+          "visible_bottom_edge_points_logical": [
+            [
+              32.125,
+              83.5
+            ],
+            [
+              47.875,
+              87.25
+            ]
+          ],
+          "alpha_threshold_sensitivity": {
+            "64": [
+              [
+                32.0,
+                83.5
+              ],
+              [
+                47.625,
+                87.5
+              ]
+            ],
+            "128": [
+              [
+                32.125,
+                83.5
+              ],
+              [
+                47.875,
+                87.25
+              ]
+            ],
+            "192": [
+              [
+                32.125,
+                83.5
+              ],
+              [
+                47.875,
+                87.25
+              ]
+            ],
+            "254": [
+              [
+                32.125,
+                83.25
+              ],
+              [
+                47.875,
+                87.25
+              ]
+            ]
+          },
+          "alpha_positive_texels": 22166,
+          "alpha_1_to15_texels": 1264
+        },
+        {
+          "source_id": 18,
+          "visible_bottom_edge_points_logical": [
+            [
+              31.75,
+              82.75
+            ],
+            [
+              48.125,
+              87.5
+            ]
+          ],
+          "alpha_threshold_sensitivity": {
+            "64": [
+              [
+                31.75,
+                82.75
+              ],
+              [
+                48.0,
+                87.5
+              ]
+            ],
+            "128": [
+              [
+                31.75,
+                82.75
+              ],
+              [
+                48.125,
+                87.5
+              ]
+            ],
+            "192": [
+              [
+                31.75,
+                82.75
+              ],
+              [
+                48.25,
+                87.25
+              ]
+            ],
+            "254": [
+              [
+                31.75,
+                82.75
+              ],
+              [
+                48.125,
+                87.25
+              ]
+            ]
+          },
+          "alpha_positive_texels": 22012,
+          "alpha_1_to15_texels": 1310
+        },
+        {
+          "source_id": 19,
+          "visible_bottom_edge_points_logical": [
+            [
+              32.0,
+              83.25
+            ],
+            [
+              48.125,
+              87.25
+            ]
+          ],
+          "alpha_threshold_sensitivity": {
+            "64": [
+              [
+                32.0,
+                83.25
+              ],
+              [
+                48.125,
+                87.25
+              ]
+            ],
+            "128": [
+              [
+                32.0,
+                83.25
+              ],
+              [
+                48.125,
+                87.25
+              ]
+            ],
+            "192": [
+              [
+                32.125,
+                83.25
+              ],
+              [
+                48.125,
+                87.25
+              ]
+            ],
+            "254": [
+              [
+                32.125,
+                83.25
+              ],
+              [
+                48.0,
+                87.25
+              ]
+            ]
+          },
+          "alpha_positive_texels": 22194,
+          "alpha_1_to15_texels": 1314
+        },
+        {
+          "source_id": 20,
+          "visible_bottom_edge_points_logical": [
+            [
+              32.125,
+              83.5
+            ],
+            [
+              48.0,
+              87.5
+            ]
+          ],
+          "alpha_threshold_sensitivity": {
+            "64": [
+              [
+                32.25,
+                83.5
+              ],
+              [
+                48.125,
+                87.5
+              ]
+            ],
+            "128": [
+              [
+                32.125,
+                83.5
+              ],
+              [
+                48.0,
+                87.5
+              ]
+            ],
+            "192": [
+              [
+                32.25,
+                83.5
+              ],
+              [
+                48.0,
+                87.5
+              ]
+            ],
+            "254": [
+              [
+                32.25,
+                83.5
+              ],
+              [
+                48.325,
+                87.25
+              ]
+            ]
+          },
+          "alpha_positive_texels": 21987,
+          "alpha_1_to15_texels": 1077
+        }
+      ],
+      "fixed_line": {
+        "reference_logical": [
+          40,
+          85.30847442818121
+        ],
+        "slope": 0.2576365964009885,
+        "intercept": 75.00301057214168,
+        "matrix_rows": [
+          [
+            1.3091639156811863,
+            -1.2
+          ],
+          [
+            0.39933672442153223,
+            -0.55
+          ]
+        ],
+        "translation_logical": [
+          90.00361268657001,
+          116.25466638681961
+        ],
+        "determinant": -0.24083608431881384,
+        "fits_all_four_phases_once": true,
+        "maximum_vertical_residual": 0.4329725078730604,
+        "rms_vertical_residual": 0.20675012285843872,
+        "maximum_projected_sole_offset": 0.8487255165630183,
+        "threshold_fits": [
+          {
+            "threshold": "64",
+            "slope": 0.2623712543680691,
+            "reference_y_at_x40": 85.34784955084947,
+            "determinant": -0.2351544947583171
+          },
+          {
+            "threshold": "128",
+            "slope": 0.2576365964009885,
+            "reference_y_at_x40": 85.30847442818121,
+            "determinant": -0.24083608431881384
+          },
+          {
+            "threshold": "192",
+            "slope": 0.25419437496187,
+            "reference_y_at_x40": 85.26536285156489,
+            "determinant": -0.24496675004575594
+          },
+          {
+            "threshold": "254",
+            "slope": 0.2538806360078533,
+            "reference_y_at_x40": 85.20050232928693,
+            "determinant": -0.2453432367905761
+          }
+        ],
+        "per_phase_point_residuals_y": [
+          [
+            0.22041376847656124,
+            -0.08736262483900248
+          ],
+          [
+            -0.4329725078730604,
+            0.09822822606075476
+          ],
+          [
+            0.0026183430266968344,
+            -0.15177177393924524
+          ],
+          [
+            0.22041376847656124,
+            0.13043280061087614
+          ]
+        ],
+        "visible_proxy_uncertainty_logical_xy": [
+          1,
+          0.75
+        ],
+        "uncertainty_not_a_statistical_confidence_interval": true
+      },
+      "envelope": {
+        "offset_logical": [
+          25.5,
+          80.0
+        ],
+        "size_logical": [
+          106.0,
+          47.5
+        ],
+        "mask_density": 2,
+        "positive_cells": 4549,
+        "logical_area": 1137.25,
+        "includes_all_alpha_gt0": true,
+        "full_raw_texel_footprints_and_half_texel_linear_support": true,
+        "padding_logical": 1.8,
+        "independent_rectangle_coverage_check": true
+      },
+      "eligible_integer_cells_in_scan_x50_69_y28_47": [
+        [
+          52,
+          30
+        ],
+        [
+          52,
+          31
+        ],
+        [
+          52,
+          32
+        ],
+        [
+          52,
+          33
+        ],
+        [
+          52,
+          34
+        ],
+        [
+          52,
+          35
+        ],
+        [
+          52,
+          36
+        ],
+        [
+          52,
+          37
+        ],
+        [
+          52,
+          38
+        ],
+        [
+          52,
+          39
+        ],
+        [
+          52,
+          40
+        ],
+        [
+          52,
+          41
+        ],
+        [
+          52,
+          42
+        ],
+        [
+          52,
+          43
+        ],
+        [
+          52,
+          44
+        ],
+        [
+          53,
+          30
+        ],
+        [
+          53,
+          31
+        ],
+        [
+          53,
+          32
+        ],
+        [
+          53,
+          33
+        ],
+        [
+          53,
+          34
+        ],
+        [
+          53,
+          35
+        ],
+        [
+          53,
+          36
+        ],
+        [
+          53,
+          37
+        ],
+        [
+          53,
+          38
+        ],
+        [
+          53,
+          39
+        ],
+        [
+          53,
+          40
+        ],
+        [
+          53,
+          41
+        ],
+        [
+          53,
+          42
+        ],
+        [
+          53,
+          43
+        ],
+        [
+          53,
+          44
+        ],
+        [
+          54,
+          30
+        ],
+        [
+          54,
+          31
+        ],
+        [
+          54,
+          32
+        ],
+        [
+          54,
+          33
+        ],
+        [
+          54,
+          34
+        ],
+        [
+          54,
+          35
+        ],
+        [
+          54,
+          36
+        ],
+        [
+          54,
+          37
+        ],
+        [
+          54,
+          38
+        ],
+        [
+          54,
+          39
+        ],
+        [
+          54,
+          40
+        ],
+        [
+          54,
+          41
+        ],
+        [
+          54,
+          42
+        ],
+        [
+          54,
+          43
+        ],
+        [
+          54,
+          44
+        ],
+        [
+          55,
+          30
+        ],
+        [
+          55,
+          31
+        ],
+        [
+          55,
+          32
+        ],
+        [
+          55,
+          33
+        ],
+        [
+          55,
+          34
+        ],
+        [
+          55,
+          35
+        ],
+        [
+          55,
+          36
+        ],
+        [
+          55,
+          37
+        ],
+        [
+          55,
+          38
+        ],
+        [
+          55,
+          39
+        ],
+        [
+          55,
+          40
+        ],
+        [
+          55,
+          41
+        ],
+        [
+          55,
+          42
+        ],
+        [
+          55,
+          43
+        ],
+        [
+          55,
+          44
+        ],
+        [
+          56,
+          30
+        ],
+        [
+          56,
+          31
+        ],
+        [
+          56,
+          32
+        ],
+        [
+          56,
+          33
+        ],
+        [
+          56,
+          34
+        ],
+        [
+          56,
+          35
+        ],
+        [
+          56,
+          36
+        ],
+        [
+          56,
+          37
+        ],
+        [
+          56,
+          38
+        ],
+        [
+          56,
+          39
+        ],
+        [
+          56,
+          40
+        ],
+        [
+          56,
+          41
+        ],
+        [
+          56,
+          42
+        ],
+        [
+          56,
+          43
+        ],
+        [
+          56,
+          44
+        ],
+        [
+          57,
+          30
+        ],
+        [
+          57,
+          31
+        ],
+        [
+          57,
+          32
+        ],
+        [
+          57,
+          33
+        ],
+        [
+          57,
+          34
+        ],
+        [
+          57,
+          35
+        ],
+        [
+          57,
+          36
+        ],
+        [
+          57,
+          37
+        ],
+        [
+          57,
+          38
+        ],
+        [
+          57,
+          39
+        ],
+        [
+          57,
+          40
+        ],
+        [
+          57,
+          41
+        ],
+        [
+          57,
+          42
+        ],
+        [
+          57,
+          43
+        ],
+        [
+          57,
+          44
+        ],
+        [
+          58,
+          30
+        ],
+        [
+          58,
+          31
+        ],
+        [
+          58,
+          32
+        ],
+        [
+          58,
+          33
+        ],
+        [
+          58,
+          34
+        ],
+        [
+          58,
+          35
+        ],
+        [
+          58,
+          36
+        ],
+        [
+          58,
+          37
+        ],
+        [
+          58,
+          38
+        ],
+        [
+          58,
+          39
+        ],
+        [
+          58,
+          40
+        ],
+        [
+          58,
+          41
+        ],
+        [
+          58,
+          42
+        ],
+        [
+          58,
+          43
+        ],
+        [
+          58,
+          44
+        ],
+        [
+          59,
+          31
+        ],
+        [
+          59,
+          32
+        ],
+        [
+          59,
+          33
+        ],
+        [
+          59,
+          34
+        ],
+        [
+          59,
+          35
+        ],
+        [
+          59,
+          36
+        ],
+        [
+          59,
+          37
+        ],
+        [
+          59,
+          38
+        ],
+        [
+          59,
+          39
+        ],
+        [
+          59,
+          40
+        ],
+        [
+          59,
+          41
+        ],
+        [
+          59,
+          42
+        ],
+        [
+          59,
+          43
+        ],
+        [
+          59,
+          44
+        ],
+        [
+          60,
+          32
+        ],
+        [
+          60,
+          33
+        ],
+        [
+          60,
+          34
+        ],
+        [
+          60,
+          35
+        ],
+        [
+          60,
+          36
+        ],
+        [
+          60,
+          37
+        ],
+        [
+          60,
+          38
+        ],
+        [
+          60,
+          39
+        ],
+        [
+          60,
+          40
+        ],
+        [
+          60,
+          41
+        ],
+        [
+          60,
+          42
+        ],
+        [
+          60,
+          43
+        ],
+        [
+          60,
+          44
+        ],
+        [
+          61,
+          33
+        ],
+        [
+          61,
+          36
+        ],
+        [
+          61,
+          37
+        ],
+        [
+          61,
+          38
+        ],
+        [
+          61,
+          39
+        ],
+        [
+          61,
+          40
+        ],
+        [
+          61,
+          41
+        ],
+        [
+          61,
+          42
+        ],
+        [
+          61,
+          43
+        ],
+        [
+          61,
+          44
+        ],
+        [
+          62,
+          35
+        ],
+        [
+          62,
+          37
+        ],
+        [
+          62,
+          38
+        ],
+        [
+          62,
+          39
+        ],
+        [
+          62,
+          40
+        ],
+        [
+          62,
+          41
+        ],
+        [
+          62,
+          42
+        ],
+        [
+          62,
+          43
+        ],
+        [
+          62,
+          44
+        ],
+        [
+          63,
+          36
+        ],
+        [
+          63,
+          38
+        ],
+        [
+          63,
+          39
+        ],
+        [
+          63,
+          40
+        ],
+        [
+          63,
+          41
+        ],
+        [
+          63,
+          42
+        ],
+        [
+          63,
+          43
+        ],
+        [
+          63,
+          44
+        ],
+        [
+          64,
+          37
+        ],
+        [
+          64,
+          38
+        ],
+        [
+          64,
+          39
+        ],
+        [
+          64,
+          40
+        ],
+        [
+          64,
+          41
+        ],
+        [
+          64,
+          42
+        ],
+        [
+          64,
+          43
+        ],
+        [
+          64,
+          44
+        ],
+        [
+          65,
+          37
+        ],
+        [
+          65,
+          38
+        ],
+        [
+          65,
+          39
+        ],
+        [
+          65,
+          40
+        ],
+        [
+          65,
+          41
+        ],
+        [
+          65,
+          42
+        ],
+        [
+          65,
+          43
+        ],
+        [
+          65,
+          44
+        ]
+      ],
+      "eligible_count": 175,
+      "probe_results": [
+        {
+          "cell": [
+            61,
+            39
+          ],
+          "whole_envelope_allowed": true
+        },
+        {
+          "cell": [
+            63,
+            41
+          ],
+          "whole_envelope_allowed": true
+        },
+        {
+          "cell": [
+            61,
+            37
+          ],
+          "whole_envelope_allowed": true
+        },
+        {
+          "cell": [
+            63,
+            38
+          ],
+          "whole_envelope_allowed": true
+        },
+        {
+          "cell": [
+            62,
+            36
+          ],
+          "whole_envelope_allowed": false
+        },
+        {
+          "cell": [
+            66,
+            35
+          ],
+          "whole_envelope_allowed": false
+        },
+        {
+          "cell": [
+            66,
+            36
+          ],
+          "whole_envelope_allowed": false
+        },
+        {
+          "cell": [
+            61.6875,
+            39.6875
+          ],
+          "whole_envelope_allowed": true
+        },
+        {
+          "cell": [
+            51,
+            39
+          ],
+          "whole_envelope_allowed": false
+        },
+        {
+          "cell": [
+            67,
+            45
+          ],
+          "whole_envelope_allowed": false
+        }
+      ],
+      "source_flags_at_eligible_cells": {
+        "flag_-1": 8,
+        "flag_0": 167
+      }
+    }
+  },
+  "overlap": [
+    {
+      "direction": "e",
+      "cell": [
+        61,
+        39
+      ],
+      "hero_enabled": true,
+      "phases": [
+        {
+          "source_id": 9,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 10,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 11,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.24842036380834037
+        },
+        {
+          "source_id": 12,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        }
+      ]
+    },
+    {
+      "direction": "e",
+      "cell": [
+        61,
+        37
+      ],
+      "hero_enabled": true,
+      "phases": [
+        {
+          "source_id": 9,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 5930,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 10,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 5909,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 11,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 5882,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.24842036380834037
+        },
+        {
+          "source_id": 12,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 5798,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        }
+      ]
+    },
+    {
+      "direction": "e",
+      "cell": [
+        63,
+        38
+      ],
+      "hero_enabled": true,
+      "phases": [
+        {
+          "source_id": 9,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 759,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 10,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 762,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 11,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 750,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.24842036380834037
+        },
+        {
+          "source_id": 12,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 686,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        }
+      ]
+    },
+    {
+      "direction": "e",
+      "cell": [
+        62,
+        36
+      ],
+      "hero_enabled": false,
+      "phases": [
+        {
+          "source_id": 9,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 10,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 11,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 12,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        }
+      ]
+    },
+    {
+      "direction": "e",
+      "cell": [
+        63,
+        41
+      ],
+      "hero_enabled": true,
+      "phases": [
+        {
+          "source_id": 9,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 10,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 11,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.24842036380834037
+        },
+        {
+          "source_id": 12,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        }
+      ]
+    },
+    {
+      "direction": "s",
+      "cell": [
+        61,
+        39
+      ],
+      "hero_enabled": true,
+      "phases": [
+        {
+          "source_id": 17,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 18,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 19,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 20,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        }
+      ]
+    },
+    {
+      "direction": "s",
+      "cell": [
+        61,
+        37
+      ],
+      "hero_enabled": true,
+      "phases": [
+        {
+          "source_id": 17,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 2191,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 18,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 2186,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 19,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 2200,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 20,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 2184,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        }
+      ]
+    },
+    {
+      "direction": "s",
+      "cell": [
+        63,
+        38
+      ],
+      "hero_enabled": true,
+      "phases": [
+        {
+          "source_id": 17,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 18,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 19,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 20,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        }
+      ]
+    },
+    {
+      "direction": "s",
+      "cell": [
+        62,
+        36
+      ],
+      "hero_enabled": false,
+      "phases": [
+        {
+          "source_id": 17,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 18,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 19,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 20,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        }
+      ]
+    },
+    {
+      "direction": "s",
+      "cell": [
+        63,
+        41
+      ],
+      "hero_enabled": true,
+      "phases": [
+        {
+          "source_id": 17,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 18,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 19,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        },
+        {
+          "source_id": 20,
+          "pair_overlap_d2_samples_alpha_gt_1_255": {
+            "fang": 0,
+            "tree": 0,
+            "ling0": 0,
+            "ling1": 0,
+            "ling2": 0,
+            "ling3": 0
+          },
+          "max_composite_alpha": 0.2484164704527911
+        }
+      ]
+    }
+  ],
+  "input_sha256": {
+    "tools/earth/build_flat_shadow_gate.py": "19dbee82e321c64ab2952d7e4f02660fa8f622d2b9ae3ad0a05ea1142f3fddcb",
+    "assets/earth/shadows/se_flat_v1/manifest.json": "3c7ac445562535c706cd58ebef625880308860ddfa012686fee600223beaec48",
+    "assets/earth/shadows/se_flat_v1/allowed.png": "06d4a6fe1e8404c48619d51b72a67d82795fb178a34089e35b0661df5f9eb2dc",
+    "assets/earth/shadows/se_flat_v1/forbidden.png": "605ba15e50e5c1a710b1bab004ac824bb764f446dee29cdd1f9664f806426277",
+    "assets/earth/environment/training_hall_v1/owner-3967.png": "40c271540249c9981ae4340564cbf42d359957b7389d3b1b9ea12d588e6d9f8f",
+    "assets/earth/environment/training_hall_v1/owner-3968.png": "5c3bcf8d4afe72c74d588f8f9d763f292d8a6903f109447ae799221f02291e0d",
+    "assets/earth/environment/training_hall_v1/owner-3969.png": "9af2836b77f74c97ca3a7c4a09f504bacdde8cdf0e173312fe52944943d1062c",
+    "assets/earth/environment/training_hall_v1/owner-3970.png": "937969a147c8389e53ee931dd0c10354f2424d97649bc73e0adb078bd05a7fd8",
+    "assets/earth/environment/training_hall_v1/owner-3971.png": "bf8c3c2a4d1a65f3935dfcf4a81797f38487bbe5efdad61734cf3dec25cb5eb8",
+    "assets/earth/environment/training_hall_v1/owner-3972.png": "9a8c73705728ae1e9725eb5a98371767c618486f7743da97b32761bc57da6be9",
+    "assets/earth/environment/training_hall_v1/owner-3973.png": "048407117db692a2aad367c597d3532ea897ffdebffc0d0283586fcd2b672d10",
+    "assets/earth/environment/training_hall_v1/owner-3974.png": "f5229a5ca2869750110d0fc305c46f3f29b98556c57779e789f75e47ada432ad",
+    "assets/earth/environment/training_hall_v1/owner-3975.png": "4f5c931a75f01aea1b599e9d5e87e5b6f690df89dcfd2be1870ead8a9394befc",
+    "assets/earth/environment/training_hall_v1/owner-3976.png": "01c4b3a11397e702fe1de6f59c69fbfee94ef3e932ca4a403cc5e2b4a617bdf6",
+    "assets/earth/environment/training_hall_v1/owner-3977.png": "d30e217656e95fbb008a89fee9c5b022ad8f19ffdb40714b6d665b592a443cb5",
+    "assets/earth/environment/training_hall_v1/owner-3979.png": "2873987d5851bc6d8447a02aca78d36194ac8caa9eb9faefd7368926c0bd17b2",
+    "assets/earth/environment/training_hall_v1/owner-3980.png": "b430178191619833a0e43c6baa16fb66ce3e3f10e159003059ad9818c53b42aa",
+    "assets/earth/environment/training_hall_v1/owner-3981.png": "087e534ddb457d4e3521b3128dc4a151831ae12d400d905ab95331b9d0659199",
+    "assets/earth/environment/training_hall_v1/owner-3982.png": "216026b2cc0c70fff2b186f3095921acafe76582e2fc8d83a900e42005917314",
+    "assets/earth/environment/training_hall_v1/owner-3983.png": "f83b79acc6030c7de2c193d91dc2d60b5712e11b75e6a831117fbb926895fdb6",
+    "assets/earth/environment/training_hall_v1/owner-3984.png": "00b095852735002b5dda3662d9775333af20ef0a296d49b82797983154063ab7",
+    "assets/earth/environment/training_hall_v1/owner-3985.png": "430e3227462d43debfb30f76055b89ba615092a0c914828c1a5ad87909886a90",
+    "assets/earth/environment/training_hall_v1/owner-3986.png": "ef90181db2ace5b61a80ac83aede7e001febd27b1fb01ab67449d10dacf7c030",
+    "assets/earth/environment/training_hall_v1/owner-3987.png": "e4ee7ffa9240441b072db6efda4d6d47f6c17e770b0a6e8c3e6f1da38572df5a",
+    "assets/earth/environment/training_hall_v1/owner-3988.png": "d475e82a8a7b4fda607337b6d1f45533cf34a21f6f3f4563481c89fedc3f0675",
+    "assets/earth/environment/training_hall_v1/owner-3989.png": "77185d0dc86e99f14ae5ba9add6d8eb98388fdfa56abbcff9c8aee0e55df9661",
+    "assets/earth/environment/training_hall_v1/owner-3990.png": "477ceab276fbf928212fa6c2f18baa4e41072d6108816e52f428560d44f7a086",
+    "assets/earth/environment/training_hall_v1/owner-3991.png": "66b3c66e03abdb8d03483840da5b51d1474d13b1b97e0fb94d2a595211ecb6d6",
+    "assets/earth/environment/training_hall_v1/owner-3992.png": "00e0964b4a04a03a5a64e70e1f2372cd15fb17c58a13215863b8532dfbbe16e4",
+    "assets/earth/environment/training_hall_v1/owner-3993.png": "12db874c2329fc3f295362ea139a367f9e09a57c5cd9ddc4798e40871f6a7970",
+    "assets/earth/environment/training_hall_v1/owner-3994.png": "b1dec5c030bfff7038bf5f6e164e3470d6b8965e751ba3aea759f06982f194f5",
+    "assets/earth/environment/training_hall_v1/owner-3995.png": "dec23f8de636882ea6e4ffac026d6dedf8193e5641756a23ee0f61fcd3645ab6",
+    "assets/earth/environment/training_hall_v1/registration.json": "57072cc60ed9e33aa9afaeb0c7310733216e2884e0b042b043077551473e273c",
+    "assets/earth/hero/se_idle_v1/body.png": "60f89f65dd817ec80065de941e62e36e1068302c3f2bc4eb5014d8d56f450c02",
+    "assets/earth/hero/se_idle_v1/manifest.json": "3672409856c27b1e81d543b8a0a29063e16170b2cafbaf55f5d6351fb1e9b5a3",
+    "assets/earth/hero/se_walk_v1/body.png": "f4eee4ec3a35e6597eb3a1eb4f6e5122163845ca474673974af1531ac42489ac",
+    "assets/earth/hero/se_walk_v1/manifest.json": "127727940bd2651460bbe90396f80e7c75d89a7d8675f5d3467e5a5f46e229d7",
+    "assets/original/Map/Res/Building/0.png": "6fc88a1aa96eb18687eea798bcb4eae1f0ebf6d546a5a076fb1c2546550b3343",
+    "assets/original/manifest.json": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+    "data/earth/a13_hall_source_scope.json": "4288603a7dfd0ccc90a3bebf71473aca47a0bd57c448d6c33480b3f8952ff59e",
+    "data/maps/A13.json": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "scripts/art/density_alpha_ground_shadow.gd": "cfc61e6c2b647bee68b063c1eecd884e1ac0ffa545fc1a59b3c3af4397adaf47",
+    "scripts/art/hero_alpha_ground_shadow.gd": "3eeebe50bfdd235fee24b30bfbdaaad5517a5254bd7e318b73abc80adb5ccdd2",
+    "scripts/world_view.gd": "b404d8dd5e7e85a120fec00b7eb5f01e6bfc1fc37adf5e7878c1798432d4e285",
+    "shaders/density_alpha_ground_shadow.gdshader": "b4d976938acbb3b57df13bf85ade4ebf3173c0634b5e7ee4338e8b038bf51f3b",
+    "shaders/hero_alpha_ground_shadow.gdshader": "d8f4894fd16458a3a7aabb5db5af4a95f39320f5e2549c33467f79f5a5089c24",
+    "/workspace/scratch/22c897619190/tihu-legend/原版游戏/Data/Hero/2.lpRes": "28bea90dd1230e5053c1437a9889bf3f7522872963cfc0d3e9560cc2492aa5ed",
+    "/workspace/scratch/22c897619190/tihu-legend/原版游戏/Data/Hero/Head/0.lpRes": "ae3a555d3e0522e7800c8650747a62df6b74dfd19f1cdc6e826ff8477fb380d1",
+    "art_source/earth_hero_e_input_plan_v1/source-9.png": "b63efc54d3a0220933c1be922e30307bd83c087761b28822b3496003f972d624",
+    "art_source/earth_hero_e_input_plan_v1/source-10.png": "2f4bd324b466c057eb0282df6e5828c15df2fa7b015e98270e0c194f2db160d4",
+    "art_source/earth_hero_e_input_plan_v1/source-11.png": "70a7ed5be1a27c8fe857efaa7acbd9316ea8713e8f8e8eb881b33f8187a2d255",
+    "art_source/earth_hero_e_input_plan_v1/source-12.png": "47460cc7480af67a31d05fe6b26c7ed31ba0d32330c0ba9a533bdadab448d1f1",
+    "art_source/earth_hero_s_input_plan_v1/source-17.png": "7ccff6728f5d765c642c830f708b9832fe8478990d13a028fc4117715aede972",
+    "art_source/earth_hero_s_input_plan_v1/source-18.png": "f5cd69bef585d4138a663ebd00eb235c26f8cae549b89b0aab2d803ce7744d75",
+    "art_source/earth_hero_s_input_plan_v1/source-19.png": "e06b728f704cfd128ede039925105ce0c1f54b0a390f9fe7c668a0ab5306c30f",
+    "art_source/earth_hero_s_input_plan_v1/source-20.png": "0ae041ec4cd1a31625f4b4ee19cd211b2b2488c7bce3a85abd8ccc318a62b414",
+    "art_source/earth_hero_e_idle_v1/registration-v1.json": "719a32179e4422e7e670778c8b1d8814491d541cc7073fd23043220e9d46477d",
+    "art_source/earth_hero_s_idle_edit_v1/registration-review.json": "f2cc2cfdaa3882ebdc8aab4931fad0c93298008d92ecfd28b9a9d12555e7cfad",
+    "assets/earth/hero/e_idle_v1/manifest.json": "8c24bc9430c293a30b1ed0f699a6e3be1390c297e434259dd6b60c4fe39b2025",
+    "assets/earth/hero/e_idle_v1/body.png": "7cb81240d71f04dae8f6df9e06ef5c0d7dbc1d33c467fa3c646f8a54087da010",
+    "assets/earth/hero/s_idle_v1/manifest.json": "cfd74e66ddb74fb4ce8fc46be747f6df9b8037713044b76a287baef343654b80",
+    "assets/earth/hero/s_idle_v1/body.png": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e",
+    "art_source/earth_shadow_next_stage_v1/measurements.json": "0dc903c36ca309f47155feae402afa72592d5e39a26fe69090e3584c9bce60a8",
+    "assets/earth/npc/fangzhang_v1/manifest.json": "0239fc9ac1f662d7756710f4f824e9d7a25a474caa0206996b6c9b2e269f9d59",
+    "assets/earth/npc/lingyunzi_v2/manifest.json": "f9cf04374b533f225514215f6c798d4eac7592beb8b86bb5f715d3945278c9be",
+    "assets/earth/environment/first_tree_v1/registration.json": "a83f1f401b10394e13e7822f6eb04078cace3db3dc0bdca10e275b38d0bb9b27",
+    "assets/earth/npc/fangzhang_v1/body.png": "21cfcd0e60c40944c3623e2d9b989e3d7eeb006a3ebbd2be648a69f655cf04bc",
+    "assets/earth/npc/lingyunzi_v2/body.png": "541c6d0a7a1cf3dd1cd547be037cf17e2f9a6083b8de90c1641f13fbaf9bbb9e",
+    "assets/earth/environment/first_tree_v1/whole-review.png": "c639ad6e35e10f3a4c61d13a38258b2db1f077cea3f757ec8e064762601cc9e6",
+    "scripts/earth/flat_shadow_gate.gd": "bb31c6ab95c0950fecd196731f8c87d1e03e2c771b5427bc5d4ae8abf18d32c7",
+    "scripts/earth/max_ground_shadow.gd": "73b692478417e70e82a563d6cffca9062164cccb34225537d07af3f50094ac91",
+    "scripts/earth/sample_world.gd": "c43169e21bc4b23d34ae1a4992253b05720897449e3e420e138b4f5c71e5b9cc",
+    "shaders/earth_max_ground_shadow.gdshader": "468a56b98e5eb57bac5c3cf9c554f0bf31c22bbfd4d5969b1e4719a64d88a85a",
+    "docs/EARTH_SOURCE_SAMPLE_ENTRY.md": "1e263b563341a6f23b712302ebe14395a1d6f2120cb7e4d99e70c496be383c6c",
+    "docs/EARTH_ART_BIBLE_V1.md": "a71402566505906f9edd76b344630908e8be9373289f1cf61a982373d211f9c4",
+    "art_source/earth_es_idle_shadow_study_v1/measure.py": "55d4b8cf37c1c2c135ddd44248c737a8dd529e2814db256b3af3d8e258bd6b3c"
+  }
+}
