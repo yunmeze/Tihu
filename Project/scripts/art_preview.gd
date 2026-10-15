@@ -20,6 +20,8 @@ var ticks:=0
 var label=Label.new()
 var temple_ready:=true
 var temple_on:=false
+var tree_ready:=true
+var tree_on:=false
 func _ready() -> void:
 	atlas=load(ATLAS)
 	walk_atlas=load("res://assets/scifi/hero/se_walk_v3/body.png")
@@ -31,6 +33,7 @@ func _ready() -> void:
 		assert(w.setup(actor))
 		w.pass_kind=i
 		temple_ready=w.prepare_temple() and temple_ready
+		tree_ready=w.prepare_tree() and tree_ready
 		worlds.append(w)
 	actor.position=Vector2(60,41)
 	add_child(worlds[0])
@@ -61,6 +64,7 @@ func refresh() -> void:
 		w.camera=actor.position
 		w.tick=0
 		w.temple_enabled=temple_on and temple_ready
+		w.tree_enabled=tree_on and tree_ready
 		w.queue_redraw()
 	var origin=worlds[0].screen_origin()+actor.position*Vector2(48,32)-Vector2(16,64)
 	var tex=atlas if phase<50 else walk_atlas
@@ -70,8 +74,8 @@ func refresh() -> void:
 	shadow.visible=new_body and shadow_on and ok
 	body.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR if new_body and linear else CanvasItem.TEXTURE_FILTER_NEAREST
 	body.queue_redraw()
-	label.text="SE IDLE + WALK ART PREVIEW cell%s frame%d | new=%s shadow=%s linear=%s cycle=%s\nF1 edge61,39 F4 clear60,41 F2 back61,49 F3 front61,53 | S shadow B source/new L sampling C idle-cycle P ten phases M SE route\nT temple source/new; F5 temple/source hero. Fixed ground86; no platform shadow claim."%[actor.position,phase,new_body,shadow.visible,linear,cycling]
-	print("R5_DEPTH_STATE ",JSON.stringify({"cell":[actor.position.x,actor.position.y],"phase":phase,"new":new_body,"shadow":shadow.visible,"linear":linear,"cycle":cycling,"temple":temple_on and temple_ready}))
+	label.text="SE IDLE + WALK ART PREVIEW cell%s frame%d | new=%s shadow=%s linear=%s cycle=%s\nF1 edge61,39 F4 clear60,41 F2 back61,49 F3 front61,53 | S shadow B source/new L sampling C idle-cycle P ten phases M SE route\nT temple/F5 source hero; G first tree/F6 tree front. Fixed ground86; no building/tree cast or platform shadow claim."%[actor.position,phase,new_body,shadow.visible,linear,cycling]
+	print("R5_DEPTH_STATE ",JSON.stringify({"cell":[actor.position.x,actor.position.y],"phase":phase,"new":new_body,"shadow":shadow.visible,"linear":linear,"cycle":cycling,"temple":temple_on and temple_ready,"tree":tree_on and tree_ready}))
 func _physics_process(delta:float) -> void:
 	if moving:
 		actor.step(delta)
@@ -86,10 +90,12 @@ func _physics_process(delta:float) -> void:
 			refresh()
 func _unhandled_input(event:InputEvent) -> void:
 	if not event is InputEventKey or not event.pressed or event.echo:return
-	if event.keycode in [KEY_F1,KEY_F2,KEY_F3,KEY_F4,KEY_F5,KEY_P]:
+	if event.keycode in [KEY_F1,KEY_F2,KEY_F3,KEY_F4,KEY_F5,KEY_F6,KEY_P]:
 		moving=false;actor.stop()
 	match event.keycode:
 		KEY_T:temple_on=not temple_on if temple_ready else false
+		KEY_G:tree_on=not tree_on if tree_ready else false
+		KEY_F6:actor.position=Vector2(57,35);new_body=false
 		KEY_F5:actor.position=Vector2(66,35);new_body=false
 		KEY_F1:actor.position=Vector2(61,39)
 		KEY_F4:actor.position=Vector2(60,41)

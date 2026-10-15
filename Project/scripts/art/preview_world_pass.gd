@@ -2,6 +2,8 @@ extends "res://scripts/world_view.gd"
 var pass_kind:=0
 var temple_enabled:=false
 var temple_owners:Dictionary={}
+var tree_enabled:=false
+var tree_owners:Dictionary={}
 func prepare_temple() -> bool:
 	var path="res://assets/scifi/environment/a13_temple_v2/registration.json"
 	var reg=read_json(path)
@@ -20,6 +22,25 @@ func prepare_temple() -> bool:
 		staged[order]=owner
 	if staged.size()!=30:return false
 	temple_owners=staged
+	return true
+func prepare_tree() -> bool:
+	var path="res://assets/scifi/environment/a13_first_tree_v1/registration.json"
+	var reg=read_json(path)
+	if reg.is_empty() or not reg.get("owners") is Array:return false
+	var staged={}
+	for owner in reg.owners:
+		var order=int(owner.stable_source_order)
+		var cell:Vector2i=Vector2i(owner.cell[0],owner.cell[1])
+		var original:Array=map.cells[cell.x*int(map.height)+cell.y]
+		if original!=owner.source_cell or order!=cell.x*int(map.height)+cell.y:return false
+		if staged.has(order):return false
+		if owner.texture!=null:
+			_load_texture(owner.texture)
+			if not textures.has(owner.texture):return false
+			if textures[owner.texture].get_size()!=Vector2(owner.raw_rect[2],owner.raw_rect[3]):return false
+		staged[order]=owner
+	if staged.size()!=7:return false
+	tree_owners=staged
 	return true
 func draw_temple(owner:Dictionary,offset:Vector2) -> void:
 	if owner.texture==null:return
@@ -40,6 +61,9 @@ func _draw() -> void:
 		if (pass_kind==1 and after) or (pass_kind==2 and not after):continue
 		if temple_enabled and entry.kind==4 and temple_owners.has(entry.order):
 			draw_temple(temple_owners[entry.order],offset)
+			continue
+		if tree_enabled and entry.kind==2 and tree_owners.has(entry.order):
+			draw_temple(tree_owners[entry.order],offset)
 			continue
 		var index:int=entry.index
 		if entry.kind==7:index+=(tick/17)%4
