@@ -1,0 +1,25 @@
+{
+  "schema": "earth-lingyunzi-v2-ordinary-candidate-handoff",
+  "status": "assets prepared; runner owns bounded integration",
+  "approval": "Parent 2026-10-15 09:47 UTC viewed two cycles actual2x; 9 states stable boots/outfit; phase115 head low +2.26logical residual retained; recovery order correct; only original cell62,36 order10001, no new shadow, no global ID substitution. Stop NPC generation.",
+  "texture_identical": true,
+  "files": [
+    {
+      "path": "Project/assets/earth/npc/lingyunzi_v2/body.png",
+      "bytes": 174506,
+      "sha256": "541c6d0a7a1cf3dd1cd547be037cf17e2f9a6083b8de90c1641f13fbaf9bbb9e"
+    },
+    {
+      "path": "Project/assets/earth/npc/lingyunzi_v2/manifest.json",
+      "bytes": 4284,
+      "sha256": "f9cf04374b533f225514215f6c798d4eac7592beb8b86bb5f715d3945278c9be"
+    }
+  ],
+  "source_interface_sha256": "0eb0e95622c2c7555a5eb72e8ad424ec5fea8120398b278157fd111a72b9aba3",
+  "frozen_archive_sha256": "3a1ff2ecbf1d62204381e1f4c9e0002760b4058cfa6608bb46700d099e5351ed",
+  "runner_evidence_readonly": [
+    "/workspace/shared/earth-lingyunzi/two-cycles-actual2x.png",
+    "/workspace/shared/earth-lingyunzi/verification.json"
+  ],
+  "scope": "N unified source switch for both NPCs supported by runner; source113-116 complete four phases/shared17tick; no runtime edits in asset worker"
+}

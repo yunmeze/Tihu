@@ -100,8 +100,19 @@ func uses_tree(entry:Dictionary) -> bool:
 	if not tree_owners.has(order):return false
 	return entry.get("index")==tree_owners[order].index and entry.get("y")==int(order)%100 and entry.get("origin")==Vector2(int(order)/100,int(order)%100)*Vector2(48,32)
 
+const Lingyunzi=preload("res://scripts/earth/lingyunzi_candidate.gd")
+var lingyunzi_texture:CanvasTexture
+func prepare_lingyunzi(path:String=Lingyunzi.PATH) -> bool:
+	lingyunzi_texture=Lingyunzi.prepare(path,map);queue_redraw();return lingyunzi_texture!=null
+func uses_lingyunzi(entry:Dictionary) -> bool:
+	return prefer_npcs and lingyunzi_texture!=null and Lingyunzi.matches(entry)
+
 const Fangzhang=preload("res://scripts/earth/fangzhang_candidate.gd")
-var prefer_fangzhang:=true
+var prefer_npcs:=true
+# Compatibility property for the earlier single-NPC candidate; N now controls both.
+var prefer_fangzhang:bool:
+	get:return prefer_npcs
+	set(value):prefer_npcs=value
 var fangzhang_texture:CanvasTexture
 func prepare_fangzhang(path:String=Fangzhang.PATH) -> bool:
 	fangzhang_texture=Fangzhang.prepare(path,map)
@@ -147,6 +158,10 @@ func _draw() -> void:
 		if uses_tree(entry):
 			var item=tree_owners[entry.order]
 			if not item.empty:draw_texture_rect(item.texture,Rect2(item.origin+offset,item.size),false)
+			continue
+		if uses_lingyunzi(entry):
+			var phase:int=(tick/17)%4
+			draw_texture_rect_region(lingyunzi_texture,Rect2(entry.origin+offset+Vector2(-32,-104),Vector2(128,160)),Rect2(phase*512,0,512,640))
 			continue
 		if uses_fangzhang(entry):
 			draw_texture_rect(fangzhang_texture,Rect2(entry.origin+offset+Vector2(-32,-104),Vector2(128,160)),false)
