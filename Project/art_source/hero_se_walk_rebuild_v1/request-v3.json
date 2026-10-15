@@ -1,0 +1,35 @@
+{
+  "status": "raw_and_structure_reviewed_pending_native",
+  "prompt": "prompt-v3.txt",
+  "prompt_sha256": "394c556ea471e31b3cd513136e4112e96ce711fdc1f38e734d8e3fa4a0befb7c",
+  "references": [
+    {
+      "path": "source_only_plan/original-six-common-crop-main-8x.png",
+      "sha256": "5903a685219a3df66112e93767bbbafa2fcd4141ffa116ba19bf7bd32b7afe26",
+      "role": "actual original six-figure edit canvas and only pose authority"
+    },
+    {
+      "path": "source_only_plan/identity-disconnected-small-panels.png",
+      "sha256": "f00143a2f951919b7afdc32b5462a9711722a47c5011eae19f89245797af4249",
+      "role": "small disconnected identity material swatches only"
+    }
+  ],
+  "excluded_all_generated_full_bodies": true,
+  "source_ids": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+  ],
+  "runtime_use": false,
+  "raw": {
+    "path": "raw-v3.png",
+    "sha256": "66248cb3176c0c076572160325961dfbcd07116618b2533390c4614238660ab9",
+    "size": [
+      1226,
+      1283
+    ]
+  }
+}

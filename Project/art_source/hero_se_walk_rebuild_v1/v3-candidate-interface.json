@@ -1,0 +1,35 @@
+{
+  "status": "diagnostic_only_pending_native_review",
+  "atlas": "v3-registered-atlas-128.png",
+  "atlas_sha256": "7c386900fe579018ef38cf00c7e160622abebef476f3ccebd9c6fd94923bcf38",
+  "source_ids": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+  ],
+  "frame_size": [
+    128,
+    128
+  ],
+  "grid": [
+    6,
+    1
+  ],
+  "draw_offset": [
+    -16,
+    -64
+  ],
+  "frame_ticks": 7,
+  "sampling": "linear candidate, nearest original",
+  "idle_interface": "../hero_se_idle_rebuild_v1/v1-registration.json",
+  "registration": "v3-registration.json",
+  "required_sequence": "same v1 native idle16 ->51to56 twice->idle13; include full six board and exact stepped transitions",
+  "limitations": [
+    "waist/shin panel rearrangement relative to idle",
+    "54/55 boot relative residuals lower than previous",
+    "56 right-near-ankle boot restored; do not infer physical contact"
+  ]
+}
