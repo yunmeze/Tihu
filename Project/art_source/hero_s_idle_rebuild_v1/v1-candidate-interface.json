@@ -1,0 +1,29 @@
+{
+  "status": "diagnostic_only_pending_native",
+  "direction": "S",
+  "source_ids": [
+    17,
+    18,
+    19,
+    20
+  ],
+  "atlas": "v1-registered-atlas-128.png",
+  "atlas_sha256": "d828d0e0e7f7f27314fd41cb5033bd3495a636c896d4998ca72bdc340a78c025",
+  "frame_size": [
+    128,
+    128
+  ],
+  "grid": [
+    4,
+    1
+  ],
+  "draw_offset": [
+    -16,
+    -64
+  ],
+  "frame_ticks": 12,
+  "sampling": "newlinear, source nearest",
+  "registration": "v1-registration.json",
+  "required_review": "four source/native phases and E-SE-S adjacent turns at original size; no new shadow yet",
+  "identity_residual": "local armor panel/waist arrangement differs from SE; actual native review decides severity"
+}

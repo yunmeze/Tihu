@@ -1,0 +1,3 @@
+S idle source-only four-phase v1 candidate
+=======================================
+One authorized complete strip generated using only original4figure edit canvas and tiny disconnected identity/features. Full generated body/head silhouette excluded. Raw RGBA preserved. Shared uniform scale 0.118536231264 with per-frame multipoint rigid translations, no rotation/warp/independent scale. Native128cells/root16,64;12ticks reference cadence. Source checker retained solely in comparison. Actual raw alpha-gray and source/common-canvas comparison reviewed; correct direction and body size approximately retained. Costume plate arrangement differs locally from SE, awaiting native adjacent-direction judgment. No generated shadow or default runtime integration.

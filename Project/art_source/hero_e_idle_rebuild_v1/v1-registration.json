@@ -1,0 +1,506 @@
+{
+  "status": "direction_pose_candidate_pending_native",
+  "source_ids": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "direction": "E",
+  "atlas": "v1-registered-atlas-128.png",
+  "atlas_sha256": "93a81b249a96b922d39a57db7d929dd46f5d9f5b1741c357083b4092a06d7e4b",
+  "raw_sha256": "5e3aa6237dd275e9279f1cd9c6d042aa71abd06c55dad887a9487929de7284a9",
+  "frame_size": [
+    128,
+    128
+  ],
+  "grid": [
+    4,
+    1
+  ],
+  "native_draw_origin_in_cell": [
+    16,
+    64
+  ],
+  "frame_ticks": 12,
+  "common_uniform_scale": 0.12002467320757935,
+  "registration_method": "one group uniformscale and each frame rigid multipoint translation; no rotation/deformation/perframe scale",
+  "weights": {
+    "crown": 1.0,
+    "neck_surface": 0.6,
+    "sternum_clothing_proxy": 0.4,
+    "pelvis_clothing_proxy": 0.25,
+    "boot_a": 1.0,
+    "boot_b": 1.0
+  },
+  "weight_reason": "Armor/clothing surfaces may shift with costume construction, therefore lowerweight than crown/boots; no inferred joints",
+  "measurement_uncertainty": {
+    "source_crown_boot_px": 1,
+    "source_surface_proxy_px": 3,
+    "candidate_raw_manual_px": 8
+  },
+  "raw_cell_x_edges": [
+    0,
+    535,
+    1069,
+    1604,
+    2138
+  ],
+  "exact_rectangle_raw_rebuild": true,
+  "records": [
+    {
+      "source_id": 9,
+      "translation": [
+        11.194895425447662,
+        6.251709215703528
+      ],
+      "source_points": {
+        "crown": [
+          40.0,
+          15.0
+        ],
+        "neck_surface": [
+          42.0,
+          26.0
+        ],
+        "sternum_clothing_proxy": [
+          44.0,
+          38.0
+        ],
+        "pelvis_clothing_proxy": [
+          42.0,
+          54.0
+        ],
+        "boot_a": [
+          41.0,
+          86.0
+        ],
+        "boot_b": [
+          48.0,
+          77.0
+        ]
+      },
+      "candidate_raw_points": {
+        "crown": [
+          245.0,
+          75.0
+        ],
+        "neck_surface": [
+          255.0,
+          180.0
+        ],
+        "sternum_clothing_proxy": [
+          283.0,
+          245.0
+        ],
+        "pelvis_clothing_proxy": [
+          265.0,
+          375.0
+        ],
+        "boot_a": [
+          245.0,
+          665.0
+        ],
+        "boot_b": [
+          300.0,
+          591.0
+        ]
+      },
+      "mapped_points": {
+        "crown": [
+          40.60094036130461,
+          15.253559706271979
+        ],
+        "neck_surface": [
+          41.8011870933804,
+          27.85615039306781
+        ],
+        "sternum_clothing_proxy": [
+          45.16187794319262,
+          35.65775415156047
+        ],
+        "pelvis_clothing_proxy": [
+          43.00143382545619,
+          51.26096166854579
+        ],
+        "boot_a": [
+          40.60094036130461,
+          86.0681168987438
+        ],
+        "boot_b": [
+          47.202297387721465,
+          77.18629108138293
+        ]
+      },
+      "residuals": {
+        "crown": [
+          0.6009403613046089,
+          0.25355970627197877
+        ],
+        "neck_surface": [
+          -0.19881290661960094,
+          1.8561503930678107
+        ],
+        "sternum_clothing_proxy": [
+          1.1618779431926214,
+          -2.342245848439532
+        ],
+        "pelvis_clothing_proxy": [
+          1.0014338254561892,
+          -2.7390383314542106
+        ],
+        "boot_a": [
+          -0.3990596386953911,
+          0.06811689874379567
+        ],
+        "boot_b": [
+          -0.7977026122785347,
+          0.18629108138293304
+        ]
+      },
+      "weighted_rms": 1.3900458939628741
+    },
+    {
+      "source_id": 10,
+      "translation": [
+        7.122528866263437,
+        6.30816238755699
+      ],
+      "source_points": {
+        "crown": [
+          40.0,
+          15.0
+        ],
+        "neck_surface": [
+          42.0,
+          27.0
+        ],
+        "sternum_clothing_proxy": [
+          44.0,
+          38.0
+        ],
+        "pelvis_clothing_proxy": [
+          42.0,
+          54.0
+        ],
+        "boot_a": [
+          41.0,
+          86.0
+        ],
+        "boot_b": [
+          48.0,
+          77.0
+        ]
+      },
+      "candidate_raw_points": {
+        "crown": [
+          280.0,
+          75.0
+        ],
+        "neck_surface": [
+          290.0,
+          180.0
+        ],
+        "sternum_clothing_proxy": [
+          316.0,
+          245.0
+        ],
+        "pelvis_clothing_proxy": [
+          297.0,
+          375.0
+        ],
+        "boot_a": [
+          280.0,
+          667.0
+        ],
+        "boot_b": [
+          332.0,
+          592.0
+        ]
+      },
+      "mapped_points": {
+        "crown": [
+          40.72943736438565,
+          15.310012878125441
+        ],
+        "neck_surface": [
+          41.92968409646145,
+          27.912603564921273
+        ],
+        "sternum_clothing_proxy": [
+          45.05032559985851,
+          35.71420732341393
+        ],
+        "pelvis_clothing_proxy": [
+          42.769856808914504,
+          51.31741484039925
+        ],
+        "boot_a": [
+          40.72943736438565,
+          86.36461941701242
+        ],
+        "boot_b": [
+          46.97072037117978,
+          77.36276892644396
+        ]
+      },
+      "residuals": {
+        "crown": [
+          0.7294373643856531,
+          0.3100128781254412
+        ],
+        "neck_surface": [
+          -0.07031590353854966,
+          0.9126035649212731
+        ],
+        "sternum_clothing_proxy": [
+          1.0503255998585104,
+          -2.2857926765860697
+        ],
+        "pelvis_clothing_proxy": [
+          0.7698568089145041,
+          -2.682585159600748
+        ],
+        "boot_a": [
+          -0.2705626356143469,
+          0.3646194170124204
+        ],
+        "boot_b": [
+          -1.0292796288202197,
+          0.3627689264439624
+        ]
+      },
+      "weighted_rms": 1.2839716313451464
+    },
+    {
+      "source_id": 11,
+      "translation": [
+        8.327011763275976,
+        6.223439088822232
+      ],
+      "source_points": {
+        "crown": [
+          40.0,
+          15.0
+        ],
+        "neck_surface": [
+          42.0,
+          27.0
+        ],
+        "sternum_clothing_proxy": [
+          44.0,
+          38.0
+        ],
+        "pelvis_clothing_proxy": [
+          42.0,
+          54.0
+        ],
+        "boot_a": [
+          41.0,
+          86.0
+        ],
+        "boot_b": [
+          48.0,
+          77.0
+        ]
+      },
+      "candidate_raw_points": {
+        "crown": [
+          270.0,
+          75.0
+        ],
+        "neck_surface": [
+          280.0,
+          180.0
+        ],
+        "sternum_clothing_proxy": [
+          305.0,
+          245.0
+        ],
+        "pelvis_clothing_proxy": [
+          288.0,
+          375.0
+        ],
+        "boot_a": [
+          269.0,
+          668.0
+        ],
+        "boot_b": [
+          323.0,
+          594.0
+        ]
+      },
+      "mapped_points": {
+        "crown": [
+          40.7336735293224,
+          15.225289579390683
+        ],
+        "neck_surface": [
+          41.93392026139819,
+          27.827880266186515
+        ],
+        "sternum_clothing_proxy": [
+          44.93453709158768,
+          35.62948402467917
+        ],
+        "pelvis_clothing_proxy": [
+          42.89411764705883,
+          51.232691541664494
+        ],
+        "boot_a": [
+          40.61364885611482,
+          86.39992079148524
+        ],
+        "boot_b": [
+          47.09498120932411,
+          77.51809497412437
+        ]
+      },
+      "residuals": {
+        "crown": [
+          0.7336735293224024,
+          0.22528957939068306
+        ],
+        "neck_surface": [
+          -0.06607973860180749,
+          0.827880266186515
+        ],
+        "sternum_clothing_proxy": [
+          0.9345370915876785,
+          -2.370515975320828
+        ],
+        "pelvis_clothing_proxy": [
+          0.8941176470588275,
+          -2.7673084583355063
+        ],
+        "boot_a": [
+          -0.38635114388517877,
+          0.3999207914852434
+        ],
+        "boot_b": [
+          -0.9050187906758893,
+          0.5180949741243666
+        ]
+      },
+      "weighted_rms": 1.293514292465324
+    },
+    {
+      "source_id": 12,
+      "translation": [
+        6.25411505423213,
+        6.251709215703528
+      ],
+      "source_points": {
+        "crown": [
+          40.0,
+          15.0
+        ],
+        "neck_surface": [
+          42.0,
+          26.0
+        ],
+        "sternum_clothing_proxy": [
+          44.0,
+          38.0
+        ],
+        "pelvis_clothing_proxy": [
+          42.0,
+          54.0
+        ],
+        "boot_a": [
+          41.0,
+          86.0
+        ],
+        "boot_b": [
+          48.0,
+          77.0
+        ]
+      },
+      "candidate_raw_points": {
+        "crown": [
+          285.0,
+          75.0
+        ],
+        "neck_surface": [
+          295.0,
+          180.0
+        ],
+        "sternum_clothing_proxy": [
+          321.0,
+          245.0
+        ],
+        "pelvis_clothing_proxy": [
+          304.0,
+          375.0
+        ],
+        "boot_a": [
+          285.0,
+          667.0
+        ],
+        "boot_b": [
+          346.0,
+          589.0
+        ]
+      },
+      "mapped_points": {
+        "crown": [
+          40.461146918392245,
+          15.253559706271979
+        ],
+        "neck_surface": [
+          41.66139365046804,
+          27.85615039306781
+        ],
+        "sternum_clothing_proxy": [
+          44.7820351538651,
+          35.65775415156047
+        ],
+        "pelvis_clothing_proxy": [
+          42.74161570933625,
+          51.26096166854579
+        ],
+        "boot_a": [
+          40.461146918392245,
+          86.30816624515896
+        ],
+        "boot_b": [
+          47.78265198405459,
+          76.94624173496777
+        ]
+      },
+      "residuals": {
+        "crown": [
+          0.4611469183922452,
+          0.25355970627197877
+        ],
+        "neck_surface": [
+          -0.33860634953195756,
+          1.8561503930678107
+        ],
+        "sternum_clothing_proxy": [
+          0.7820351538651025,
+          -2.342245848439532
+        ],
+        "pelvis_clothing_proxy": [
+          0.7416157093362514,
+          -2.7390383314542106
+        ],
+        "boot_a": [
+          -0.5388530816077548,
+          0.30816624515895796
+        ],
+        "boot_b": [
+          -0.21734801594541153,
+          -0.05375826503222925
+        ]
+      },
+      "weighted_rms": 1.3106384944406269
+    }
+  ],
+  "limitations": [
+    "original source checker retained in source comparison only",
+    "no physical support/contact inferred",
+    "new armor panel arrangement differs from SE and requires native adjacent-turn identity review",
+    "readpoint RMS is not a standalone visual acceptance criterion"
+  ]
+}
