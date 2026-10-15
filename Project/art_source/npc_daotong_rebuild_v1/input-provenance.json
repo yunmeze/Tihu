@@ -1,0 +1,37 @@
+{
+  "status": "prepared_for_one_authorized_complete_group_generation",
+  "subject": "daotong",
+  "generation_budget": 1,
+  "source_ids": [
+    293,
+    294,
+    295,
+    296
+  ],
+  "source_contract_sha256": "6bb847805c6fe3bd47486f673c44a2e872d5e365a925c5e57862447b50131438",
+  "art_direction_sha256": "a6543cbe1c509334f607805ac877e1a0f4f192060e25ce7cf2711749d8c637be",
+  "inputs": [
+    {
+      "path": "Project/art_source/npc_daotong_source_v1/source-four-pose-canvas-4x.png",
+      "sha256": "895b4049e15c475485c819e034b668375fdec44e0eed74c97ac3102cd82a2e15",
+      "role": "SOLE full-body geometry/camera/four-phase reference"
+    },
+    {
+      "path": "Project/art_source/npc_daotong_source_v1/source-local-head-collar-8x.png",
+      "sha256": "9d7181e9c10fa577ea8d5daf744e678e9d8431fe8411ae00c0df72b2d4838604",
+      "role": "local color/material/visible identity only; never replace whole four-phase geometry"
+    },
+    {
+      "path": "Project/art_source/npc_daotong_source_v1/source-local-forearm-material-8x.png",
+      "sha256": "1246c49ad9094c94a8810d75f813dc2e0624081461d1969a75b86e7ba860cc41",
+      "role": "local color/material/visible identity only; never replace whole four-phase geometry"
+    },
+    {
+      "path": "Project/art_source/npc_daotong_source_v1/source-local-front-bands-material-8x.png",
+      "sha256": "58daacb6324f74472d8e3c7203bf7fca7032b87c0df5d2843d96f02b9afd7512",
+      "role": "local color/material/visible identity only; never replace whole four-phase geometry"
+    }
+  ],
+  "transparency_requested": true,
+  "runtime_integrated": false
+}

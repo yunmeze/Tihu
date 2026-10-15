@@ -1,0 +1,463 @@
+{
+  "status": "read-only color/alpha audit; no cleanup or regeneration",
+  "raw_sha256": "b093644c662a8d42f8beee8160b4fe2b4c200257bfb7d3ac5589683069f8b469",
+  "white_indicator": "min(R,G,B)>=210 and max-min<=30, measurement only",
+  "white_alpha_histogram": [
+    {
+      "alpha_range": [
+        0,
+        0
+      ],
+      "pixels": 0
+    },
+    {
+      "alpha_range": [
+        1,
+        15
+      ],
+      "pixels": 237
+    },
+    {
+      "alpha_range": [
+        16,
+        63
+      ],
+      "pixels": 0
+    },
+    {
+      "alpha_range": [
+        64,
+        191
+      ],
+      "pixels": 0
+    },
+    {
+      "alpha_range": [
+        192,
+        255
+      ],
+      "pixels": 555
+    }
+  ],
+  "high_alpha_white_components_at_least3pixels": [
+    {
+      "count": 158,
+      "raw_xyxy": [
+        400,
+        687,
+        421,
+        702
+      ],
+      "alpha_min": 236,
+      "alpha_max": 250,
+      "median_rgb": [
+        221.5,
+        222.0,
+        218.0
+      ]
+    },
+    {
+      "count": 123,
+      "raw_xyxy": [
+        443,
+        283,
+        458,
+        298
+      ],
+      "alpha_min": 245,
+      "alpha_max": 251,
+      "median_rgb": [
+        242.0,
+        242.0,
+        237.0
+      ]
+    },
+    {
+      "count": 56,
+      "raw_xyxy": [
+        650,
+        518,
+        661,
+        527
+      ],
+      "alpha_min": 250,
+      "alpha_max": 252,
+      "median_rgb": [
+        225.5,
+        226.0,
+        225.0
+      ]
+    },
+    {
+      "count": 28,
+      "raw_xyxy": [
+        172,
+        465,
+        178,
+        472
+      ],
+      "alpha_min": 251,
+      "alpha_max": 252,
+      "median_rgb": [
+        247.5,
+        250.5,
+        247.5
+      ]
+    },
+    {
+      "count": 24,
+      "raw_xyxy": [
+        423,
+        288,
+        431,
+        294
+      ],
+      "alpha_min": 248,
+      "alpha_max": 250,
+      "median_rgb": [
+        237.5,
+        238.5,
+        236.5
+      ]
+    },
+    {
+      "count": 17,
+      "raw_xyxy": [
+        756,
+        303,
+        763,
+        307
+      ],
+      "alpha_min": 237,
+      "alpha_max": 242,
+      "median_rgb": [
+        220.0,
+        225.0,
+        213.0
+      ]
+    },
+    {
+      "count": 11,
+      "raw_xyxy": [
+        249,
+        422,
+        253,
+        426
+      ],
+      "alpha_min": 249,
+      "alpha_max": 251,
+      "median_rgb": [
+        239.0,
+        241.0,
+        239.0
+      ]
+    },
+    {
+      "count": 10,
+      "raw_xyxy": [
+        389,
+        308,
+        393,
+        314
+      ],
+      "alpha_min": 241,
+      "alpha_max": 244,
+      "median_rgb": [
+        244.0,
+        248.0,
+        237.5
+      ]
+    },
+    {
+      "count": 10,
+      "raw_xyxy": [
+        217,
+        608,
+        222,
+        612
+      ],
+      "alpha_min": 247,
+      "alpha_max": 250,
+      "median_rgb": [
+        243.5,
+        244.5,
+        235.5
+      ]
+    },
+    {
+      "count": 9,
+      "raw_xyxy": [
+        777,
+        312,
+        785,
+        314
+      ],
+      "alpha_min": 238,
+      "alpha_max": 245,
+      "median_rgb": [
+        222.0,
+        222.0,
+        221.0
+      ]
+    },
+    {
+      "count": 9,
+      "raw_xyxy": [
+        264,
+        398,
+        269,
+        402
+      ],
+      "alpha_min": 242,
+      "alpha_max": 249,
+      "median_rgb": [
+        229.0,
+        236.0,
+        218.0
+      ]
+    },
+    {
+      "count": 9,
+      "raw_xyxy": [
+        460,
+        687,
+        463,
+        693
+      ],
+      "alpha_min": 246,
+      "alpha_max": 249,
+      "median_rgb": [
+        219.0,
+        229.0,
+        226.0
+      ]
+    },
+    {
+      "count": 8,
+      "raw_xyxy": [
+        767,
+        314,
+        773,
+        317
+      ],
+      "alpha_min": 238,
+      "alpha_max": 244,
+      "median_rgb": [
+        221.5,
+        222.0,
+        219.5
+      ]
+    },
+    {
+      "count": 8,
+      "raw_xyxy": [
+        377,
+        321,
+        380,
+        327
+      ],
+      "alpha_min": 239,
+      "alpha_max": 244,
+      "median_rgb": [
+        225.5,
+        229.0,
+        216.5
+      ]
+    },
+    {
+      "count": 8,
+      "raw_xyxy": [
+        413,
+        707,
+        419,
+        710
+      ],
+      "alpha_min": 236,
+      "alpha_max": 244,
+      "median_rgb": [
+        214.0,
+        215.5,
+        213.0
+      ]
+    },
+    {
+      "count": 4,
+      "raw_xyxy": [
+        756,
+        301,
+        759,
+        303
+      ],
+      "alpha_min": 239,
+      "alpha_max": 241,
+      "median_rgb": [
+        236.5,
+        235.5,
+        218.5
+      ]
+    },
+    {
+      "count": 4,
+      "raw_xyxy": [
+        299,
+        432,
+        302,
+        434
+      ],
+      "alpha_min": 250,
+      "alpha_max": 251,
+      "median_rgb": [
+        239.0,
+        251.0,
+        236.5
+      ]
+    },
+    {
+      "count": 4,
+      "raw_xyxy": [
+        418,
+        712,
+        420,
+        715
+      ],
+      "alpha_min": 245,
+      "alpha_max": 247,
+      "median_rgb": [
+        215.0,
+        222.5,
+        219.5
+      ]
+    },
+    {
+      "count": 4,
+      "raw_xyxy": [
+        166,
+        744,
+        169,
+        746
+      ],
+      "alpha_min": 249,
+      "alpha_max": 251,
+      "median_rgb": [
+        225.5,
+        235.5,
+        234.5
+      ]
+    },
+    {
+      "count": 3,
+      "raw_xyxy": [
+        767,
+        313,
+        770,
+        314
+      ],
+      "alpha_min": 239,
+      "alpha_max": 241,
+      "median_rgb": [
+        217.0,
+        222.0,
+        215.0
+      ]
+    },
+    {
+      "count": 3,
+      "raw_xyxy": [
+        419,
+        710,
+        421,
+        712
+      ],
+      "alpha_min": 245,
+      "alpha_max": 248,
+      "median_rgb": [
+        216.0,
+        221.0,
+        218.0
+      ]
+    }
+  ],
+  "bright_green_indicator": "G>=220,R<=70,B<=100, measurement only",
+  "bright_green_alpha_histogram": [
+    {
+      "alpha_range": [
+        0,
+        0
+      ],
+      "pixels": 0
+    },
+    {
+      "alpha_range": [
+        1,
+        15
+      ],
+      "pixels": 2829
+    },
+    {
+      "alpha_range": [
+        16,
+        63
+      ],
+      "pixels": 0
+    },
+    {
+      "alpha_range": [
+        64,
+        191
+      ],
+      "pixels": 0
+    },
+    {
+      "alpha_range": [
+        192,
+        255
+      ],
+      "pixels": 0
+    }
+  ],
+  "native_render_samples": {
+    "nearest": {
+      "white_pixels_high_alpha": 3,
+      "canvas_xy": [
+        [
+          46,
+          31
+        ],
+        [
+          75,
+          32
+        ],
+        [
+          43,
+          69
+        ]
+      ]
+    },
+    "linear": {
+      "white_pixels_high_alpha": 5,
+      "canvas_xy": [
+        [
+          46,
+          31
+        ],
+        [
+          75,
+          32
+        ],
+        [
+          76,
+          33
+        ],
+        [
+          42,
+          69
+        ],
+        [
+          43,
+          69
+        ]
+      ]
+    }
+  },
+  "conclusion": "White star/spot regions include real high-alpha near-white pixels, not merely transparent display. Saturated green fringe samples are alpha1..15 only. Raw immutable."
+}

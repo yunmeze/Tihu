@@ -1,0 +1,90 @@
+{
+  "status": "one generation; parent accepted whole/native working candidate 2026-10-15T06:38:32Z; runtime depth pending",
+  "raw_sha256": "b093644c662a8d42f8beee8160b4fe2b4c200257bfb7d3ac5589683069f8b469",
+  "source_composite_sha256": "683d47438076abfbd04e3de9af3e1515a7d8a8c41076d9da5d604962d2803f0f",
+  "raw_size": [
+    1363,
+    1154
+  ],
+  "raw_mode": "RGBA",
+  "source_measurement": {
+    "criterion": "alpha>0 and G>R and G>B; measurement only, not image segmentation/removal",
+    "bbox_xyxy": [
+      0,
+      0,
+      120,
+      100
+    ],
+    "meaning": "visible green foliage envelope; excludes no source data in delivered source art; not a physical footprint or root"
+  },
+  "candidate_alpha_bboxes_measurement_only": {
+    "1": [
+      0,
+      15,
+      1349,
+      1154
+    ],
+    "32": [
+      45,
+      44,
+      1311,
+      1104
+    ],
+    "96": [
+      46,
+      44,
+      1310,
+      1103
+    ],
+    "192": [
+      47,
+      45,
+      1309,
+      1102
+    ]
+  },
+  "common_transform": {
+    "scale": 0.09442870632672333,
+    "translation_to_source_composite": [
+      -4.022662889518415,
+      -4.15486307837584
+    ],
+    "rotation": 0,
+    "shear": 0,
+    "anisotropic_scale": false,
+    "rule": "fit alpha>=96 diagnostic bbox within source120x100 visible foliage envelope; center horizontally and align lower envelope y100",
+    "physical_root_claim": false
+  },
+  "native_diagnostic_canvas": {
+    "size": [
+      140,
+      121
+    ],
+    "source_padding": [
+      8,
+      8
+    ],
+    "sampling": [
+      "nearest",
+      "bilinear"
+    ],
+    "rgba_body_edited": false
+  },
+  "candidate_alpha96_edges_over_canvas": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "cautions": [
+    "Very low alpha fringes touch left/bottom canvas; raw preserved exactly, not cleaned",
+    "Warm yellow-green new-leaf tips are more numerous than the requested small accent; parent accepted native working color, retained without cleanup",
+    "Current envelope fit does not establish physical root/contact, owner assignment or receiver plane",
+    "Source and generated crown gaps differ; judge natural volume and native silhouette rather than force pixel correspondence"
+  ],
+  "diagnostic_outputs": [
+    "diagnostics/art_source/a13-round-shrub/native-neutral-strip.png",
+    "diagnostics/art_source/a13-round-shrub/native-grass-strip.png",
+    "diagnostics/art_source/a13-round-shrub/whole-and-native-review.png"
+  ]
+}

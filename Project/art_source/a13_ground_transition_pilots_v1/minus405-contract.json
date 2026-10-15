@@ -1,0 +1,317 @@
+{
+  "id": -405,
+  "cell": [
+    28,
+    46
+  ],
+  "grass_rects": [
+    [
+      76,
+      4,
+      92,
+      18
+    ],
+    [
+      80,
+      43,
+      94,
+      60
+    ]
+  ],
+  "soil_rects": [
+    [
+      2,
+      4,
+      14,
+      16
+    ],
+    [
+      4,
+      40,
+      18,
+      58
+    ]
+  ],
+  "read_polyline": [
+    [
+      30,
+      0
+    ],
+    [
+      38,
+      16
+    ],
+    [
+      46,
+      32
+    ],
+    [
+      53,
+      48
+    ],
+    [
+      61,
+      63
+    ]
+  ],
+  "line_uncertainty_px": 10,
+  "read": "A broad irregular diagonal transition: tan soil at left, greener vegetation at right. Line is an approximate visual mid-band, not a measured contour or curb. Natural grass fingers and tan pixels within grass remain mixed.",
+  "mode": "two-anchor-local-rgb-projection",
+  "owner": {
+    "key": "-405@28,46",
+    "signed_id": -405,
+    "cell": [
+      28,
+      46
+    ],
+    "world_rect": [
+      1344,
+      1472,
+      96,
+      64
+    ],
+    "order": 2846
+  },
+  "actual_touching_edges": [
+    {
+      "axis": "vertical",
+      "line": [
+        1344,
+        1472,
+        1344,
+        1536
+      ],
+      "length_px": 64,
+      "before": "-403@26,46",
+      "after": "-405@28,46",
+      "ids": [
+        -403,
+        -405
+      ]
+    },
+    {
+      "axis": "horizontal",
+      "line": [
+        1344,
+        1472,
+        1440,
+        1472
+      ],
+      "length_px": 96,
+      "before": "-389@28,44",
+      "after": "-405@28,46",
+      "ids": [
+        -389,
+        -405
+      ]
+    },
+    {
+      "axis": "vertical",
+      "line": [
+        1440,
+        1472,
+        1440,
+        1536
+      ],
+      "length_px": 64,
+      "before": "-405@28,46",
+      "after": "-406@30,46",
+      "ids": [
+        -405,
+        -406
+      ]
+    },
+    {
+      "axis": "horizontal",
+      "line": [
+        1344,
+        1536,
+        1440,
+        1536
+      ],
+      "length_px": 96,
+      "before": "-405@28,46",
+      "after": "-405@28,48",
+      "ids": [
+        -405,
+        -405
+      ]
+    }
+  ],
+  "world_context_bounds": [
+    1248,
+    1408,
+    1536,
+    1600
+  ],
+  "context_owners": [
+    {
+      "key": "-395@26,44",
+      "signed_id": -395,
+      "cell": [
+        26,
+        44
+      ],
+      "world_rect": [
+        1248,
+        1408,
+        96,
+        64
+      ],
+      "order": 2644
+    },
+    {
+      "key": "-403@26,46",
+      "signed_id": -403,
+      "cell": [
+        26,
+        46
+      ],
+      "world_rect": [
+        1248,
+        1472,
+        96,
+        64
+      ],
+      "order": 2646
+    },
+    {
+      "key": "-395@26,48",
+      "signed_id": -395,
+      "cell": [
+        26,
+        48
+      ],
+      "world_rect": [
+        1248,
+        1536,
+        96,
+        64
+      ],
+      "order": 2648
+    },
+    {
+      "key": "-389@28,44",
+      "signed_id": -389,
+      "cell": [
+        28,
+        44
+      ],
+      "world_rect": [
+        1344,
+        1408,
+        96,
+        64
+      ],
+      "order": 2844
+    },
+    {
+      "key": "-405@28,46",
+      "signed_id": -405,
+      "cell": [
+        28,
+        46
+      ],
+      "world_rect": [
+        1344,
+        1472,
+        96,
+        64
+      ],
+      "order": 2846
+    },
+    {
+      "key": "-405@28,48",
+      "signed_id": -405,
+      "cell": [
+        28,
+        48
+      ],
+      "world_rect": [
+        1344,
+        1536,
+        96,
+        64
+      ],
+      "order": 2848
+    },
+    {
+      "key": "-412@30,44",
+      "signed_id": -412,
+      "cell": [
+        30,
+        44
+      ],
+      "world_rect": [
+        1440,
+        1408,
+        96,
+        64
+      ],
+      "order": 3044
+    },
+    {
+      "key": "-406@30,46",
+      "signed_id": -406,
+      "cell": [
+        30,
+        46
+      ],
+      "world_rect": [
+        1440,
+        1472,
+        96,
+        64
+      ],
+      "order": 3046
+    },
+    {
+      "key": "-406@30,48",
+      "signed_id": -406,
+      "cell": [
+        30,
+        48
+      ],
+      "world_rect": [
+        1440,
+        1536,
+        96,
+        64
+      ],
+      "order": 3048
+    }
+  ],
+  "rgb_anchor_grass": [
+    109.44588744588745,
+    116.26839826839827,
+    58.675324675324674
+  ],
+  "rgb_anchor_soil": [
+    163.42676767676767,
+    142.5479797979798,
+    107.84848484848484
+  ],
+  "source_rgba_sha256": "d5888e463327d7051a7c5dc9fa10a9ce03fb94619d293df9d48f5ffcf908801d",
+  "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+  "alpha_distribution": {
+    "255": 6144
+  },
+  "soil_weight_mean": 0.4994702308006536,
+  "uncertain_fraction_weight_gt_half": 0.43505859375,
+  "facts_vs_inference": {
+    "facts": [
+      "Original dimensions, RGBA, selected owner world rectangle, touching edges and source alpha.",
+      "Visible original grass/earth texture spatial variation and its actual neighboring tiles."
+    ],
+    "manual_read": [
+      "Seed rectangles and approximate transition read polyline. Polyline is diagnostic only and does not force the weight field."
+    ],
+    "inferred": [
+      "Weights are local RGB projection between hand-selected means after Gaussian radius1 smoothing, not semantic ground truth or alpha matting.",
+      "Residual/mid-mixture uncertainty is a diagnostic heuristic. No global hue threshold is used.",
+      "For -407 only: no soil anchor means soil weights intentionally remain zero; this does not prove all original pixels are pure grass."
+    ]
+  },
+  "mask_contract": "8bit grayscale soil+grass=255 at every pixel. Do not multiply source alpha into weights. Source alpha PNG copied exactly and must be applied independently. No alpha or source RGB is changed.",
+  "validation": "Diagnostic only. No candidate material composite, source-neighbor semantic matching, full30 propagation, runtime or seam acceptance performed."
+}

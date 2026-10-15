@@ -1,0 +1,978 @@
+{
+  "schema": "hero-hd-density-diagnostic-v1",
+  "status": "reproducible_registration_density_contract_pending_engine",
+  "method": "Replay identical frozen uniform scale + per-frame rigid translation directly from original generated RGBA. No new image generation, deformation, crop change or enlarged128 intermediate.",
+  "groups": [
+    {
+      "name": "se_idle",
+      "atlas": "res://assets/scifi/diagnostics/hero_hd4/se_idle_body.png",
+      "sha256": "679eb4e06aea506562ace958a8261d7a1337233b3d14b0e31b0245b3dd458c50",
+      "raw": "art_source/hero_se_idle_rebuild_v1/raw-v1.png",
+      "raw_sha256": "8eb2326cc3524069acdd155a3314ced5629719a39d7bded0cea7d03a54a81480",
+      "registration": "art_source/hero_se_idle_rebuild_v1/v1-registration.json",
+      "registration_sha256": "317408c1fc94c5efb500757d4f1a4de50a0ff8bdf59f2beffa8daff8fc01fa25",
+      "logical_frame_size": [
+        128,
+        128
+      ],
+      "texture_frame_size": [
+        512,
+        512
+      ],
+      "texels_per_logical_pixel": 4,
+      "logical_root": [
+        16,
+        64
+      ],
+      "texture_root": [
+        64,
+        256
+      ],
+      "logical_draw_offset": [
+        -16,
+        -64
+      ],
+      "sprite_scale": [
+        0.25,
+        0.25
+      ],
+      "texture_offset_if_scaled_sprite": [
+        -64,
+        -256
+      ],
+      "common_logical_scale": 0.11237332235541099,
+      "common_raw_to_texture_scale": 0.44949328942164396,
+      "frame_ticks": 12,
+      "records": [
+        {
+          "source_id": 13,
+          "region_px": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            0,
+            0,
+            543,
+            724
+          ],
+          "logical_translation": [
+            5.593406518878588,
+            10.678241824131852
+          ],
+          "texture_translation": [
+            22.373626075514352,
+            42.71296729652741
+          ]
+        },
+        {
+          "source_id": 14,
+          "region_px": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            543,
+            0,
+            1086,
+            724
+          ],
+          "logical_translation": [
+            6.40200586017513,
+            10.678241824131852
+          ],
+          "texture_translation": [
+            25.60802344070052,
+            42.71296729652741
+          ]
+        },
+        {
+          "source_id": 15,
+          "region_px": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            1086,
+            0,
+            1629,
+            724
+          ],
+          "logical_translation": [
+            6.692710759311957,
+            10.60835894515047
+          ],
+          "texture_translation": [
+            26.77084303724783,
+            42.43343578060188
+          ]
+        },
+        {
+          "source_id": 16,
+          "region_px": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            1629,
+            0,
+            2172,
+            724
+          ],
+          "logical_translation": [
+            8.164216778969049,
+            10.727099790373337
+          ],
+          "texture_translation": [
+            32.656867115876196,
+            42.90839916149335
+          ]
+        }
+      ],
+      "old128_replay_rgba_exact": true,
+      "raw_rectangle_rebuild_rgba_exact": true
+    },
+    {
+      "name": "se_walk",
+      "atlas": "res://assets/scifi/diagnostics/hero_hd4/se_walk_body.png",
+      "sha256": "2213c9e8f88445421a5d2acadf54a5f19df2807b5975897a931e6e123e52bbf7",
+      "raw": "art_source/hero_se_walk_rebuild_v1/raw-v3.png",
+      "raw_sha256": "66248cb3176c0c076572160325961dfbcd07116618b2533390c4614238660ab9",
+      "registration": "art_source/hero_se_walk_rebuild_v1/v3-registration.json",
+      "registration_sha256": "7ac4da6162995b75561accf1d584c0be3a36c7b5a5ff8f00582346681939451c",
+      "logical_frame_size": [
+        128,
+        128
+      ],
+      "texture_frame_size": [
+        512,
+        512
+      ],
+      "texels_per_logical_pixel": 4,
+      "logical_root": [
+        16,
+        64
+      ],
+      "texture_root": [
+        64,
+        256
+      ],
+      "logical_draw_offset": [
+        -16,
+        -64
+      ],
+      "sprite_scale": [
+        0.25,
+        0.25
+      ],
+      "texture_offset_if_scaled_sprite": [
+        -64,
+        -256
+      ],
+      "common_logical_scale": 0.1366696436239896,
+      "common_raw_to_texture_scale": 0.5466785744959584,
+      "frame_ticks": 7,
+      "records": [
+        {
+          "source_id": 51,
+          "region_px": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            0,
+            0,
+            409,
+            642
+          ],
+          "logical_translation": [
+            11.599917531289965,
+            8.842313226389585
+          ],
+          "texture_translation": [
+            46.39967012515986,
+            35.36925290555834
+          ]
+        },
+        {
+          "source_id": 52,
+          "region_px": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            409,
+            0,
+            817,
+            642
+          ],
+          "logical_translation": [
+            11.718796956226708,
+            8.312329650270868
+          ],
+          "texture_translation": [
+            46.87518782490683,
+            33.24931860108347
+          ]
+        },
+        {
+          "source_id": 53,
+          "region_px": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            817,
+            0,
+            1226,
+            642
+          ],
+          "logical_translation": [
+            10.604376761785037,
+            8.7854042525801
+          ],
+          "texture_translation": [
+            42.41750704714015,
+            35.1416170103204
+          ]
+        },
+        {
+          "source_id": 54,
+          "region_px": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            0,
+            642,
+            409,
+            1283
+          ],
+          "logical_translation": [
+            11.385999828226328,
+            9.852982679598384
+          ],
+          "texture_translation": [
+            45.543999312905314,
+            39.411930718393535
+          ]
+        },
+        {
+          "source_id": 55,
+          "region_px": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            409,
+            642,
+            817,
+            1283
+          ],
+          "logical_translation": [
+            10.990299718084856,
+            10.057713857376577
+          ],
+          "texture_translation": [
+            43.96119887233942,
+            40.230855429506306
+          ]
+        },
+        {
+          "source_id": 56,
+          "region_px": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            817,
+            642,
+            1226,
+            1283
+          ],
+          "logical_translation": [
+            10.561044852213907,
+            9.502458801090441
+          ],
+          "texture_translation": [
+            42.24417940885563,
+            38.009835204361764
+          ]
+        }
+      ],
+      "old128_replay_rgba_exact": true,
+      "raw_rectangle_rebuild_rgba_exact": true
+    },
+    {
+      "name": "e_idle",
+      "atlas": "res://assets/scifi/diagnostics/hero_hd4/e_idle_body.png",
+      "sha256": "2f3cf7eee8f609ba3e3a76ec9e98e3337cd047f63c2d9b01e2da039b5ebd9346",
+      "raw": "art_source/hero_e_idle_rebuild_v1/raw-v1.png",
+      "raw_sha256": "5e3aa6237dd275e9279f1cd9c6d042aa71abd06c55dad887a9487929de7284a9",
+      "registration": "art_source/hero_e_idle_rebuild_v1/v1-registration.json",
+      "registration_sha256": "287c491e8b0a92b0afcf7e56bb027f98aaa3b1e4b2a0b2b7e93b86b4aa1a67cd",
+      "logical_frame_size": [
+        128,
+        128
+      ],
+      "texture_frame_size": [
+        512,
+        512
+      ],
+      "texels_per_logical_pixel": 4,
+      "logical_root": [
+        16,
+        64
+      ],
+      "texture_root": [
+        64,
+        256
+      ],
+      "logical_draw_offset": [
+        -16,
+        -64
+      ],
+      "sprite_scale": [
+        0.25,
+        0.25
+      ],
+      "texture_offset_if_scaled_sprite": [
+        -64,
+        -256
+      ],
+      "common_logical_scale": 0.12002467320757935,
+      "common_raw_to_texture_scale": 0.4800986928303174,
+      "frame_ticks": 12,
+      "records": [
+        {
+          "source_id": 9,
+          "region_px": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            0,
+            0,
+            535,
+            735
+          ],
+          "logical_translation": [
+            11.194895425447662,
+            6.251709215703528
+          ],
+          "texture_translation": [
+            44.77958170179065,
+            25.00683686281411
+          ]
+        },
+        {
+          "source_id": 10,
+          "region_px": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            535,
+            0,
+            1069,
+            735
+          ],
+          "logical_translation": [
+            7.122528866263437,
+            6.30816238755699
+          ],
+          "texture_translation": [
+            28.490115465053748,
+            25.23264955022796
+          ]
+        },
+        {
+          "source_id": 11,
+          "region_px": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            1069,
+            0,
+            1604,
+            735
+          ],
+          "logical_translation": [
+            8.327011763275976,
+            6.223439088822232
+          ],
+          "texture_translation": [
+            33.308047053103905,
+            24.89375635528893
+          ]
+        },
+        {
+          "source_id": 12,
+          "region_px": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            1604,
+            0,
+            2138,
+            735
+          ],
+          "logical_translation": [
+            6.25411505423213,
+            6.251709215703528
+          ],
+          "texture_translation": [
+            25.01646021692852,
+            25.00683686281411
+          ]
+        }
+      ],
+      "old128_replay_rgba_exact": true,
+      "raw_rectangle_rebuild_rgba_exact": true
+    },
+    {
+      "name": "e_walk",
+      "atlas": "res://assets/scifi/diagnostics/hero_hd4/e_walk_body.png",
+      "sha256": "252023a70c45d33d48a1126ecdd8cc819fcdb9704465632bc1abe589f595d449",
+      "raw": "art_source/hero_e_walk_rebuild_v1/raw-v1.png",
+      "raw_sha256": "679abfe35c31d92e790f4ac682b18b439c6f7ffb3bbd95bed5cc44128a23edcc",
+      "registration": "art_source/hero_e_walk_rebuild_v1/v1-registration.json",
+      "registration_sha256": "d76f50b0c3a81ec55f36fd4315e1908ec59bb6b2e6fc123aeadacc502c6d2406",
+      "logical_frame_size": [
+        128,
+        128
+      ],
+      "texture_frame_size": [
+        512,
+        512
+      ],
+      "texels_per_logical_pixel": 4,
+      "logical_root": [
+        16,
+        64
+      ],
+      "texture_root": [
+        64,
+        256
+      ],
+      "logical_draw_offset": [
+        -16,
+        -64
+      ],
+      "sprite_scale": [
+        0.25,
+        0.25
+      ],
+      "texture_offset_if_scaled_sprite": [
+        -64,
+        -256
+      ],
+      "common_logical_scale": 0.14741764681599678,
+      "common_raw_to_texture_scale": 0.5896705872639871,
+      "frame_ticks": 7,
+      "records": [
+        {
+          "source_id": 45,
+          "region_px": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            0,
+            0,
+            437,
+            601
+          ],
+          "logical_translation": [
+            10.273193894563725,
+            7.950733982011307
+          ],
+          "texture_translation": [
+            41.0927755782549,
+            31.80293592804523
+          ]
+        },
+        {
+          "source_id": 46,
+          "region_px": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            437,
+            0,
+            873,
+            601
+          ],
+          "logical_translation": [
+            9.498046140227679,
+            8.780339518914843
+          ],
+          "texture_translation": [
+            37.992184560910715,
+            35.12135807565937
+          ]
+        },
+        {
+          "source_id": 47,
+          "region_px": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            873,
+            0,
+            1310,
+            601
+          ],
+          "logical_translation": [
+            7.355496669086158,
+            8.285040142083602
+          ],
+          "texture_translation": [
+            29.42198667634463,
+            33.14016056833441
+          ]
+        },
+        {
+          "source_id": 48,
+          "region_px": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            0,
+            601,
+            437,
+            1201
+          ],
+          "logical_translation": [
+            9.75983361859273,
+            8.776846921439422
+          ],
+          "texture_translation": [
+            39.03933447437092,
+            35.107387685757686
+          ]
+        },
+        {
+          "source_id": 49,
+          "region_px": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            437,
+            601,
+            873,
+            1201
+          ],
+          "logical_translation": [
+            8.603134307791748,
+            8.727137579735903
+          ],
+          "texture_translation": [
+            34.41253723116699,
+            34.90855031894361
+          ]
+        },
+        {
+          "source_id": 50,
+          "region_px": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            873,
+            601,
+            1310,
+            1201
+          ],
+          "logical_translation": [
+            7.5919390212502975,
+            8.83945010695588
+          ],
+          "texture_translation": [
+            30.36775608500119,
+            35.35780042782352
+          ]
+        }
+      ],
+      "old128_replay_rgba_exact": true,
+      "raw_rectangle_rebuild_rgba_exact": true
+    },
+    {
+      "name": "s_idle",
+      "atlas": "res://assets/scifi/diagnostics/hero_hd4/s_idle_body.png",
+      "sha256": "8c1fb37b227cf0b430509c7fc25380b190e180bbdca601c8913f84e38a71ac5d",
+      "raw": "art_source/hero_s_idle_rebuild_v1/raw-v1.png",
+      "raw_sha256": "aff234850d22e7748b7e0ab2c03f7fbcb4b842f52d0ca4fcfbc206fffba9f04d",
+      "registration": "art_source/hero_s_idle_rebuild_v1/v1-registration.json",
+      "registration_sha256": "690c23fdb45c78a7caeab72d64610421de97a543e3a3e258377f0a4c318336c4",
+      "logical_frame_size": [
+        128,
+        128
+      ],
+      "texture_frame_size": [
+        512,
+        512
+      ],
+      "texels_per_logical_pixel": 4,
+      "logical_root": [
+        16,
+        64
+      ],
+      "texture_root": [
+        64,
+        256
+      ],
+      "logical_draw_offset": [
+        -16,
+        -64
+      ],
+      "sprite_scale": [
+        0.25,
+        0.25
+      ],
+      "texture_offset_if_scaled_sprite": [
+        -64,
+        -256
+      ],
+      "common_logical_scale": 0.11853623126394598,
+      "common_raw_to_texture_scale": 0.47414492505578393,
+      "frame_ticks": 12,
+      "records": [
+        {
+          "source_id": 17,
+          "region_px": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            0,
+            0,
+            535,
+            736
+          ],
+          "logical_translation": [
+            10.945941330003023,
+            7.901489238732665
+          ],
+          "texture_translation": [
+            43.783765320012094,
+            31.60595695493066
+          ]
+        },
+        {
+          "source_id": 18,
+          "region_px": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            535,
+            0,
+            1069,
+            736
+          ],
+          "logical_translation": [
+            8.073180901723866,
+            7.6504713372325455
+          ],
+          "texture_translation": [
+            32.292723606895464,
+            30.601885348930182
+          ]
+        },
+        {
+          "source_id": 19,
+          "region_px": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            1069,
+            0,
+            1604,
+            736
+          ],
+          "logical_translation": [
+            6.462482700431416,
+            6.918335791190522
+          ],
+          "texture_translation": [
+            25.849930801725662,
+            27.673343164762088
+          ]
+        },
+        {
+          "source_id": 20,
+          "region_px": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            1604,
+            0,
+            2138,
+            736
+          ],
+          "logical_translation": [
+            5.053993364236298,
+            7.7620348490103765
+          ],
+          "texture_translation": [
+            20.215973456945193,
+            31.048139396041506
+          ]
+        }
+      ],
+      "old128_replay_rgba_exact": true,
+      "raw_rectangle_rebuild_rgba_exact": true
+    },
+    {
+      "name": "s_walk",
+      "atlas": "res://assets/scifi/diagnostics/hero_hd4/s_walk_body.png",
+      "sha256": "e28201a4a5e729be3a8e4d1673e60cd448b78323fd75fc7dc4859630bd0faf20",
+      "raw": "art_source/hero_s_walk_rebuild_v1/raw-v1.png",
+      "raw_sha256": "bf726f3cf8fb920ce90416ed4b3cc4b5b35867b93b3728559f3d60a18d155d6b",
+      "registration": "art_source/hero_s_walk_rebuild_v1/v1-registration.json",
+      "registration_sha256": "fa3b9b4fdca7ae781ab55eb2d4e8de570575a72704897e23d7f46cca5871a255",
+      "logical_frame_size": [
+        128,
+        128
+      ],
+      "texture_frame_size": [
+        512,
+        512
+      ],
+      "texels_per_logical_pixel": 4,
+      "logical_root": [
+        16,
+        64
+      ],
+      "texture_root": [
+        64,
+        256
+      ],
+      "logical_draw_offset": [
+        -16,
+        -64
+      ],
+      "sprite_scale": [
+        0.25,
+        0.25
+      ],
+      "texture_offset_if_scaled_sprite": [
+        -64,
+        -256
+      ],
+      "common_logical_scale": 0.14884897228340344,
+      "common_raw_to_texture_scale": 0.5953958891336137,
+      "frame_ticks": 7,
+      "records": [
+        {
+          "source_id": 57,
+          "region_px": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            0,
+            0,
+            437,
+            601
+          ],
+          "logical_translation": [
+            10.955187596558478,
+            6.721708104849007
+          ],
+          "texture_translation": [
+            43.82075038623391,
+            26.88683241939603
+          ]
+        },
+        {
+          "source_id": 58,
+          "region_px": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            437,
+            0,
+            873,
+            601
+          ],
+          "logical_translation": [
+            11.159520877373904,
+            6.439047409815721
+          ],
+          "texture_translation": [
+            44.638083509495615,
+            25.756189639262885
+          ]
+        },
+        {
+          "source_id": 59,
+          "region_px": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            873,
+            0,
+            1310,
+            601
+          ],
+          "logical_translation": [
+            10.742743754980367,
+            6.354367769598106
+          ],
+          "texture_translation": [
+            42.97097501992147,
+            25.417471078392424
+          ]
+        },
+        {
+          "source_id": 60,
+          "region_px": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            0,
+            601,
+            437,
+            1201
+          ],
+          "logical_translation": [
+            11.063206836484643,
+            7.380145911655589
+          ],
+          "texture_translation": [
+            44.25282734593857,
+            29.520583646622356
+          ]
+        },
+        {
+          "source_id": 61,
+          "region_px": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            437,
+            601,
+            873,
+            1201
+          ],
+          "logical_translation": [
+            9.924389867606703,
+            7.045588375981396
+          ],
+          "texture_translation": [
+            39.69755947042681,
+            28.182353503925583
+          ]
+        },
+        {
+          "source_id": 62,
+          "region_px": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "raw_rectangle": [
+            873,
+            601,
+            1310,
+            1201
+          ],
+          "logical_translation": [
+            10.62891807029306,
+            6.595390363257934
+          ],
+          "texture_translation": [
+            42.51567228117224,
+            26.381561453031736
+          ]
+        }
+      ],
+      "old128_replay_rgba_exact": true,
+      "raw_rectangle_rebuild_rgba_exact": true
+    }
+  ],
+  "shadow_contract": {
+    "logical_receiver_y": 86,
+    "logical_cast": [
+      0.5304659498207885,
+      -0.3978494623655914
+    ],
+    "texture_receiver_y_if_projecting_in_texture_units": 344,
+    "texture_blur_for_logical_0_9": 3.6,
+    "note": "Prefer retain ground projection geometry in logical128 units and sample512 texture UV. If using texture units multiply ALL positions/heights/root/blur by4 then scale drawing0.25. Never feed512 height into logical128 projection unchanged."
+  },
+  "scope": "E/SE/S approved idle+walk only. Density preserves character world/screen footprint; visual improvement must be tested at real HD viewport, not by scaling character geometry."
+}

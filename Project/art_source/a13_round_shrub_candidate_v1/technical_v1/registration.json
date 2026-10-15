@@ -1,0 +1,376 @@
+{
+  "schema": "a13-round-shrub-four-owner-registration-v1",
+  "status": "whole/native art accepted as working candidate; technical CPU parity passed; native GPU/depth pending",
+  "source_contract": "res://art_source/a13_round_shrub_source/source-group-contract.json",
+  "source_contract_sha256": "042195fc2bce15d8f86ab83913cd88ad0ac63007810d2b8c95943f9bf2ae67c8",
+  "selected_group_center": [
+    57,
+    38
+  ],
+  "whole_shrub_registration": {
+    "texture": "res://art_source/a13_round_shrub_candidate_v1/raw.png",
+    "sha256": "b093644c662a8d42f8beee8160b4fe2b4c200257bfb7d3ac5589683069f8b469",
+    "size": [
+      1363,
+      1154
+    ],
+    "scale": 0.09442870632672333,
+    "translation_to_source_composite": [
+      -4.022662889518415,
+      -4.15486307837584
+    ],
+    "source_composite_world_origin": [
+      2695,
+      1143
+    ],
+    "world_origin": [
+      2690.9773371104816,
+      1138.845136921624
+    ],
+    "rotation": 0,
+    "shear": 0,
+    "actual_woody_root": null,
+    "ground_reference": null,
+    "alignment_meaning": "visible foliage envelope, not a physical root/contact or receiver plane"
+  },
+  "suppress_source_keys": [
+    "Plant:143@57,35",
+    "Plant:144@56,38",
+    "Plant:145@57,38",
+    "Plant:146@58,38"
+  ],
+  "owners": [
+    {
+      "key": "Plant:143@57,35",
+      "frame_id": 143,
+      "cell": [
+        57,
+        35
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        143
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 35,
+      "stable_source_order": 5735,
+      "sort_tuple": [
+        1,
+        35,
+        5735
+      ],
+      "texture": "res://art_source/a13_round_shrub_candidate_v1/technical_v1/owner-143.png",
+      "texture_sha256": "05376646abcb17f6c8a07f761779d4402c1d38ff27ccd1b7d6ce7fca745fe914",
+      "raw_rect_xywh": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_support_bbox_xyxy": [
+        450,
+        25,
+        964,
+        150
+      ],
+      "world_rect_xywh": [
+        2690.9773371104816,
+        1138.845136921624,
+        128.7063267233239,
+        108.97072710103872
+      ],
+      "world_origin": [
+        2690.9773371104816,
+        1138.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "stored_rgba_pixels": 21509,
+      "nonzero_alpha_pixels": 21476,
+      "direct_source_provenance_alpha_pixels": 13635,
+      "extrapolated_source_provenance_alpha_pixels": 7841,
+      "alpha96_raw_bbox_xyxy": [
+        504,
+        44,
+        952,
+        150
+      ]
+    },
+    {
+      "key": "Plant:144@56,38",
+      "frame_id": 144,
+      "cell": [
+        56,
+        38
+      ],
+      "source_cell": [
+        -406,
+        -1,
+        2,
+        144
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 38,
+      "stable_source_order": 5638,
+      "sort_tuple": [
+        1,
+        38,
+        5638
+      ],
+      "texture": "res://art_source/a13_round_shrub_candidate_v1/technical_v1/owner-144.png",
+      "texture_sha256": "8026725bb18e5d50d521d8d7e5b4e626a0f0f1a17f35684f5845f20470fedc98",
+      "raw_rect_xywh": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_support_bbox_xyxy": [
+        0,
+        15,
+        487,
+        1154
+      ],
+      "world_rect_xywh": [
+        2690.9773371104816,
+        1138.845136921624,
+        128.7063267233239,
+        108.97072710103872
+      ],
+      "world_origin": [
+        2690.9773371104816,
+        1138.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "stored_rgba_pixels": 275266,
+      "nonzero_alpha_pixels": 274979,
+      "direct_source_provenance_alpha_pixels": 219828,
+      "extrapolated_source_provenance_alpha_pixels": 55151,
+      "alpha96_raw_bbox_xyxy": [
+        46,
+        142,
+        487,
+        1057
+      ]
+    },
+    {
+      "key": "Plant:145@57,38",
+      "frame_id": 145,
+      "cell": [
+        57,
+        38
+      ],
+      "source_cell": [
+        0,
+        -1,
+        2,
+        145
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 38,
+      "stable_source_order": 5738,
+      "sort_tuple": [
+        1,
+        38,
+        5738
+      ],
+      "texture": "res://art_source/a13_round_shrub_candidate_v1/technical_v1/owner-145.png",
+      "texture_sha256": "5d6127a18a3110daed1fe43af85371d242536e8082e9c0d3b0bb120a989803d7",
+      "raw_rect_xywh": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_support_bbox_xyxy": [
+        466,
+        129,
+        996,
+        1130
+      ],
+      "world_rect_xywh": [
+        2690.9773371104816,
+        1138.845136921624,
+        128.7063267233239,
+        108.97072710103872
+      ],
+      "world_origin": [
+        2690.9773371104816,
+        1138.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "stored_rgba_pixels": 476860,
+      "nonzero_alpha_pixels": 476762,
+      "direct_source_provenance_alpha_pixels": 385907,
+      "extrapolated_source_provenance_alpha_pixels": 90855,
+      "alpha96_raw_bbox_xyxy": [
+        466,
+        129,
+        996,
+        1103
+      ]
+    },
+    {
+      "key": "Plant:146@58,38",
+      "frame_id": 146,
+      "cell": [
+        58,
+        38
+      ],
+      "source_cell": [
+        -577,
+        -1,
+        2,
+        146
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 38,
+      "stable_source_order": 5838,
+      "sort_tuple": [
+        1,
+        38,
+        5838
+      ],
+      "texture": "res://art_source/a13_round_shrub_candidate_v1/technical_v1/owner-146.png",
+      "texture_sha256": "a29c2517be00f8ad070ee9f2ce8ececa94ba0ac1946d47f107881568cb256f14",
+      "raw_rect_xywh": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "stored_support_bbox_xyxy": [
+        985,
+        23,
+        1349,
+        1154
+      ],
+      "world_rect_xywh": [
+        2690.9773371104816,
+        1138.845136921624,
+        128.7063267233239,
+        108.97072710103872
+      ],
+      "world_origin": [
+        2690.9773371104816,
+        1138.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "stored_rgba_pixels": 204408,
+      "nonzero_alpha_pixels": 204101,
+      "direct_source_provenance_alpha_pixels": 151747,
+      "extrapolated_source_provenance_alpha_pixels": 52354,
+      "alpha96_raw_bbox_xyxy": [
+        985,
+        156,
+        1310,
+        1081
+      ]
+    }
+  ],
+  "partition_method": {
+    "rule": "source-alpha owner provenance; raw texel center mapped to source integer grid; nearest nonzero original owner fills gaps by scipy.ndimage.distance_transform_edt",
+    "owner_index_texture": "res://art_source/a13_round_shrub_candidate_v1/technical_v1/owner-index.png",
+    "owner_index_sha256": "4c98a994cfd5c4025d6a6ea7ca383666ccc9700e39b7eb298c239b8c8e44e687",
+    "owner_index_values": {
+      "1": "Plant:143@57,35",
+      "2": "Plant:144@56,38",
+      "3": "Plant:145@57,38",
+      "4": "Plant:146@58,38"
+    },
+    "source_grid_bounds_xyxy": [
+      -5,
+      -5,
+      125,
+      105
+    ],
+    "source_alpha_owner_overlap_pixels": 0,
+    "source_gap_extrapolation_is_draw_ownership_only": true,
+    "scipy_version": "1.17.0",
+    "source_color_filtering": false,
+    "all_raw_rgba_preserved_including_invisible_rgb": true
+  },
+  "sampling": {
+    "body_filter": "nearest",
+    "mipmaps": false,
+    "independent_linear_cutouts_accepted": false,
+    "shared_canvas_required": true,
+    "shared_canvas_reason": "All four owner textures keep the exact full-raw size and origin to avoid independent cropped-quad rounding at nearest-texel ties.",
+    "rgba8_gpu_bytes_four_textures_without_mipmaps": 25166432,
+    "gpu_requirement": "whole vs four-owner exact same-phase native render parity before promotion"
+  },
+  "validation": {
+    "raw_rgba_byte_exact_reassembly": true,
+    "nonzero_alpha_pixels": 977318,
+    "stored_rgba_pixels": 978043,
+    "coverage_min_stored": 1,
+    "coverage_max_stored": 1,
+    "native_nearest_cpu_cases": 25,
+    "native_nearest_cpu_differing_pixels": 0,
+    "gpu_parity": "pending",
+    "runtime_depth": "pending"
+  },
+  "activation_contract": {
+    "authorized_instance_only": [
+      57,
+      38
+    ],
+    "automatically_replace_other_seven_groups": false,
+    "atomic_group": "Use all four new bodies and suppress all four original owners together; invalid resource restores all four source owners.",
+    "sorting": "Preserve original layer/sort_y/stable_source_order. Do not merge body into one sorted object.",
+    "shadow": "No new cast in this stage. Source checker disappears only with atomic suppression of the four entire source bodies.",
+    "default_entry": "unchanged; isolated review only"
+  },
+  "first_screen_context": {
+    "camera": [
+      61,
+      39
+    ],
+    "viewport": [
+      1024,
+      768
+    ],
+    "screen_origin": [
+      -2416.0,
+      -833.28
+    ],
+    "origin_formula": "viewport*(0.5,0.54)-camera*(48,32)",
+    "geometric_visibility_only": true,
+    "full_groups": [
+      [
+        57,
+        38
+      ],
+      [
+        64,
+        45
+      ]
+    ],
+    "partial_groups": [
+      [
+        51,
+        44
+      ],
+      [
+        58,
+        51
+      ]
+    ],
+    "actual_occlusion_not_proven": true,
+    "context_board": "first-screen-source-context.jpg",
+    "context_note": "Original environment/NPC frames, integer CPU sampling of fractional origin; no hero or native-GPU parity claim."
+  },
+  "limits": [
+    "Actual woody root remains unknown/null.",
+    "Nearest source ownership in changed crown gaps is a technical approximation, not verified botanical depth.",
+    "Four full-canvas RGBA8 textures use 25,166,432 uncompressed bytes before runtime overhead; do not silently crop them or enable linear filtering.",
+    "White opaque points and alpha1..15 green fringe are retained from approved raw.",
+    "No shadow/receiver or actor front/back acceptance follows from byte-exact reassembly.",
+    "Other seven instances are not automatically approved; inspect original remaining first-screen shrubs as context."
+  ]
+}

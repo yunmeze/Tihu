@@ -1,0 +1,411 @@
+{
+  "id": 385,
+  "cell": [
+    76,
+    20
+  ],
+  "grass_rects": [
+    [
+      2,
+      2,
+      12,
+      10
+    ]
+  ],
+  "soil_rects": [
+    [
+      36,
+      23,
+      46,
+      31
+    ]
+  ],
+  "read_polyline": [
+    [
+      0,
+      24
+    ],
+    [
+      12,
+      22
+    ],
+    [
+      24,
+      19
+    ],
+    [
+      36,
+      16
+    ],
+    [
+      47,
+      14
+    ]
+  ],
+  "line_uncertainty_px": 7,
+  "read": "Small soft grass-to-earth transition: greener upper-left and lighter earth lower-right. Low-resolution source has substantial mixed pixels. Soil patch is a visual reading, not a semantic tag. Right source edge has alpha240.",
+  "mode": "two-anchor-local-rgb-projection",
+  "owner": {
+    "key": "385@76,20",
+    "signed_id": 385,
+    "cell": [
+      76,
+      20
+    ],
+    "world_rect": [
+      3648,
+      640,
+      48,
+      32
+    ],
+    "order": 7620
+  },
+  "actual_touching_edges": [
+    {
+      "axis": "vertical",
+      "line": [
+        3648,
+        640,
+        3648,
+        672
+      ],
+      "length_px": 32,
+      "before": "-406@74,20",
+      "after": "385@76,20",
+      "ids": [
+        -406,
+        385
+      ]
+    },
+    {
+      "axis": "horizontal",
+      "line": [
+        3648,
+        640,
+        3696,
+        640
+      ],
+      "length_px": 48,
+      "before": "-406@76,18",
+      "after": "385@76,20",
+      "ids": [
+        -406,
+        385
+      ]
+    },
+    {
+      "axis": "vertical",
+      "line": [
+        3696,
+        640,
+        3696,
+        672
+      ],
+      "length_px": 32,
+      "before": "385@76,20",
+      "after": "416@77,20",
+      "ids": [
+        385,
+        416
+      ]
+    },
+    {
+      "axis": "horizontal",
+      "line": [
+        3648,
+        672,
+        3696,
+        672
+      ],
+      "length_px": 48,
+      "before": "385@76,20",
+      "after": "401@76,21",
+      "ids": [
+        385,
+        401
+      ]
+    }
+  ],
+  "world_context_bounds": [
+    3552,
+    576,
+    3792,
+    736
+  ],
+  "context_owners": [
+    {
+      "key": "-406@74,18",
+      "signed_id": -406,
+      "cell": [
+        74,
+        18
+      ],
+      "world_rect": [
+        3552,
+        576,
+        96,
+        64
+      ],
+      "order": 7418
+    },
+    {
+      "key": "-406@74,20",
+      "signed_id": -406,
+      "cell": [
+        74,
+        20
+      ],
+      "world_rect": [
+        3552,
+        640,
+        96,
+        64
+      ],
+      "order": 7420
+    },
+    {
+      "key": "-406@74,22",
+      "signed_id": -406,
+      "cell": [
+        74,
+        22
+      ],
+      "world_rect": [
+        3552,
+        704,
+        96,
+        64
+      ],
+      "order": 7422
+    },
+    {
+      "key": "-406@76,18",
+      "signed_id": -406,
+      "cell": [
+        76,
+        18
+      ],
+      "world_rect": [
+        3648,
+        576,
+        96,
+        64
+      ],
+      "order": 7618
+    },
+    {
+      "key": "385@76,20",
+      "signed_id": 385,
+      "cell": [
+        76,
+        20
+      ],
+      "world_rect": [
+        3648,
+        640,
+        48,
+        32
+      ],
+      "order": 7620
+    },
+    {
+      "key": "401@76,21",
+      "signed_id": 401,
+      "cell": [
+        76,
+        21
+      ],
+      "world_rect": [
+        3648,
+        672,
+        48,
+        32
+      ],
+      "order": 7621
+    },
+    {
+      "key": "401@76,22",
+      "signed_id": 401,
+      "cell": [
+        76,
+        22
+      ],
+      "world_rect": [
+        3648,
+        704,
+        48,
+        32
+      ],
+      "order": 7622
+    },
+    {
+      "key": "385@77,19",
+      "signed_id": 385,
+      "cell": [
+        77,
+        19
+      ],
+      "world_rect": [
+        3696,
+        608,
+        48,
+        32
+      ],
+      "order": 7719
+    },
+    {
+      "key": "416@77,20",
+      "signed_id": 416,
+      "cell": [
+        77,
+        20
+      ],
+      "world_rect": [
+        3696,
+        640,
+        48,
+        32
+      ],
+      "order": 7720
+    },
+    {
+      "key": "133@77,21",
+      "signed_id": 133,
+      "cell": [
+        77,
+        21
+      ],
+      "world_rect": [
+        3696,
+        672,
+        48,
+        32
+      ],
+      "order": 7721
+    },
+    {
+      "key": "141@77,22",
+      "signed_id": 141,
+      "cell": [
+        77,
+        22
+      ],
+      "world_rect": [
+        3696,
+        704,
+        48,
+        32
+      ],
+      "order": 7722
+    },
+    {
+      "key": "385@78,18",
+      "signed_id": 385,
+      "cell": [
+        78,
+        18
+      ],
+      "world_rect": [
+        3744,
+        576,
+        48,
+        32
+      ],
+      "order": 7818
+    },
+    {
+      "key": "416@78,19",
+      "signed_id": 416,
+      "cell": [
+        78,
+        19
+      ],
+      "world_rect": [
+        3744,
+        608,
+        48,
+        32
+      ],
+      "order": 7819
+    },
+    {
+      "key": "133@78,20",
+      "signed_id": 133,
+      "cell": [
+        78,
+        20
+      ],
+      "world_rect": [
+        3744,
+        640,
+        48,
+        32
+      ],
+      "order": 7820
+    },
+    {
+      "key": "156@78,21",
+      "signed_id": 156,
+      "cell": [
+        78,
+        21
+      ],
+      "world_rect": [
+        3744,
+        672,
+        48,
+        32
+      ],
+      "order": 7821
+    },
+    {
+      "key": "118@78,22",
+      "signed_id": 118,
+      "cell": [
+        78,
+        22
+      ],
+      "world_rect": [
+        3744,
+        704,
+        48,
+        32
+      ],
+      "order": 7822
+    }
+  ],
+  "rgb_anchor_grass": [
+    104.3375,
+    112.125,
+    47.025
+  ],
+  "rgb_anchor_soil": [
+    146.2125,
+    130.8375,
+    90.775
+  ],
+  "source_rgba_sha256": "c846b28d3eec2ffe0710499485c7cc0837ad01655ea3c9db40408f92cad3d69c",
+  "source_alpha_sha256": "4c37d80d1e7f7a39215a0afd5bab85375a4dbe0f71e7cd5d774caf812faff86f",
+  "alpha_distribution": {
+    "240": 32,
+    "255": 1504
+  },
+  "soil_weight_mean": 0.3788781658496732,
+  "uncertain_fraction_weight_gt_half": 0.3919270833333333,
+  "facts_vs_inference": {
+    "facts": [
+      "Original dimensions, RGBA, selected owner world rectangle, touching edges and source alpha.",
+      "Visible original grass/earth texture spatial variation and its actual neighboring tiles."
+    ],
+    "manual_read": [
+      "Seed rectangles and approximate transition read polyline. Polyline is diagnostic only and does not force the weight field."
+    ],
+    "inferred": [
+      "Weights are local RGB projection between hand-selected means after Gaussian radius1 smoothing, not semantic ground truth or alpha matting.",
+      "Residual/mid-mixture uncertainty is a diagnostic heuristic. No global hue threshold is used.",
+      "For -407 only: no soil anchor means soil weights intentionally remain zero; this does not prove all original pixels are pure grass."
+    ]
+  },
+  "mask_contract": "8bit grayscale soil+grass=255 at every pixel. Do not multiply source alpha into weights. Source alpha PNG copied exactly and must be applied independently. No alpha or source RGB is changed.",
+  "validation": "Diagnostic only. No candidate material composite, source-neighbor semantic matching, full30 propagation, runtime or seam acceptance performed."
+}

@@ -1,0 +1,285 @@
+{
+  "id": -407,
+  "cell": [
+    62,
+    36
+  ],
+  "grass_rects": [
+    [
+      4,
+      4,
+      20,
+      16
+    ],
+    [
+      72,
+      6,
+      90,
+      20
+    ],
+    [
+      68,
+      44,
+      88,
+      58
+    ]
+  ],
+  "soil_rects": [],
+  "read_polyline": [],
+  "line_uncertainty_px": null,
+  "read": "Near-continuous grass with warmer mottled/sparse texture. No confidently bare earth region identified. Do not equate every brown pixel with soil. Candidate is all-grass, with uncertain warm patches flagged rather than carved out.",
+  "mode": "conservative-grass-only-no-earth-seed",
+  "owner": {
+    "key": "-407@62,36",
+    "signed_id": -407,
+    "cell": [
+      62,
+      36
+    ],
+    "world_rect": [
+      2976,
+      1152,
+      96,
+      64
+    ],
+    "order": 6236
+  },
+  "actual_touching_edges": [
+    {
+      "axis": "vertical",
+      "line": [
+        2976,
+        1152,
+        2976,
+        1216
+      ],
+      "length_px": 64,
+      "before": "-406@60,36",
+      "after": "-407@62,36",
+      "ids": [
+        -406,
+        -407
+      ]
+    },
+    {
+      "axis": "horizontal",
+      "line": [
+        2976,
+        1152,
+        3072,
+        1152
+      ],
+      "length_px": 96,
+      "before": "-406@62,34",
+      "after": "-407@62,36",
+      "ids": [
+        -406,
+        -407
+      ]
+    },
+    {
+      "axis": "vertical",
+      "line": [
+        3072,
+        1152,
+        3072,
+        1216
+      ],
+      "length_px": 64,
+      "before": "-407@62,36",
+      "after": "-399@64,36",
+      "ids": [
+        -407,
+        -399
+      ]
+    },
+    {
+      "axis": "horizontal",
+      "line": [
+        2976,
+        1216,
+        3072,
+        1216
+      ],
+      "length_px": 96,
+      "before": "-407@62,36",
+      "after": "-580@62,38",
+      "ids": [
+        -407,
+        -580
+      ]
+    }
+  ],
+  "world_context_bounds": [
+    2880,
+    1088,
+    3168,
+    1280
+  ],
+  "context_owners": [
+    {
+      "key": "-406@60,34",
+      "signed_id": -406,
+      "cell": [
+        60,
+        34
+      ],
+      "world_rect": [
+        2880,
+        1088,
+        96,
+        64
+      ],
+      "order": 6034
+    },
+    {
+      "key": "-406@60,36",
+      "signed_id": -406,
+      "cell": [
+        60,
+        36
+      ],
+      "world_rect": [
+        2880,
+        1152,
+        96,
+        64
+      ],
+      "order": 6036
+    },
+    {
+      "key": "-579@60,38",
+      "signed_id": -579,
+      "cell": [
+        60,
+        38
+      ],
+      "world_rect": [
+        2880,
+        1216,
+        96,
+        64
+      ],
+      "order": 6038
+    },
+    {
+      "key": "-406@62,34",
+      "signed_id": -406,
+      "cell": [
+        62,
+        34
+      ],
+      "world_rect": [
+        2976,
+        1088,
+        96,
+        64
+      ],
+      "order": 6234
+    },
+    {
+      "key": "-407@62,36",
+      "signed_id": -407,
+      "cell": [
+        62,
+        36
+      ],
+      "world_rect": [
+        2976,
+        1152,
+        96,
+        64
+      ],
+      "order": 6236
+    },
+    {
+      "key": "-580@62,38",
+      "signed_id": -580,
+      "cell": [
+        62,
+        38
+      ],
+      "world_rect": [
+        2976,
+        1216,
+        96,
+        64
+      ],
+      "order": 6238
+    },
+    {
+      "key": "-407@64,34",
+      "signed_id": -407,
+      "cell": [
+        64,
+        34
+      ],
+      "world_rect": [
+        3072,
+        1088,
+        96,
+        64
+      ],
+      "order": 6434
+    },
+    {
+      "key": "-399@64,36",
+      "signed_id": -399,
+      "cell": [
+        64,
+        36
+      ],
+      "world_rect": [
+        3072,
+        1152,
+        96,
+        64
+      ],
+      "order": 6436
+    },
+    {
+      "key": "-398@64,38",
+      "signed_id": -398,
+      "cell": [
+        64,
+        38
+      ],
+      "world_rect": [
+        3072,
+        1216,
+        96,
+        64
+      ],
+      "order": 6438
+    }
+  ],
+  "rgb_anchor_grass": [
+    103.32872928176796,
+    113.1146408839779,
+    50.46270718232044
+  ],
+  "rgb_anchor_soil": null,
+  "source_rgba_sha256": "b16267298daf5a6f66092dc2939ec8740f323d49831cddd8833681898c4038fd",
+  "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+  "alpha_distribution": {
+    "255": 6144
+  },
+  "soil_weight_mean": 0.0,
+  "uncertain_fraction_weight_gt_half": 0.5760091145833334,
+  "facts_vs_inference": {
+    "facts": [
+      "Original dimensions, RGBA, selected owner world rectangle, touching edges and source alpha.",
+      "Visible original grass/earth texture spatial variation and its actual neighboring tiles."
+    ],
+    "manual_read": [
+      "Seed rectangles and approximate transition read polyline. Polyline is diagnostic only and does not force the weight field."
+    ],
+    "inferred": [
+      "Weights are local RGB projection between hand-selected means after Gaussian radius1 smoothing, not semantic ground truth or alpha matting.",
+      "Residual/mid-mixture uncertainty is a diagnostic heuristic. No global hue threshold is used.",
+      "For -407 only: no soil anchor means soil weights intentionally remain zero; this does not prove all original pixels are pure grass."
+    ]
+  },
+  "mask_contract": "8bit grayscale soil+grass=255 at every pixel. Do not multiply source alpha into weights. Source alpha PNG copied exactly and must be applied independently. No alpha or source RGB is changed.",
+  "validation": "Diagnostic only. No candidate material composite, source-neighbor semantic matching, full30 propagation, runtime or seam acceptance performed."
+}

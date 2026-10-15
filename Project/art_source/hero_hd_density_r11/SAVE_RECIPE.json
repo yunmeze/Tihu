@@ -1,0 +1,19 @@
+{
+  "status": "reproducible_registration_density_contract_pending_engine",
+  "production_recipe": [
+    {
+      "path": "art_source/hero_hd_density_r11/README.md",
+      "sha256": "66474fcd29de7cfa37099ef07f462892aa8efe2ce61518ba4bb4c78f86d1dba3"
+    },
+    {
+      "path": "art_source/hero_hd_density_r11/HD4_SOURCE_AND_UNIT_CONTRACT.json",
+      "sha256": "b0b947b12b1566cf628d4ac99cdf13db3f5224745c5fc19bbb28c87a265cc14d"
+    },
+    {
+      "path": "tools/hero/build_hd_registered_atlases.py",
+      "sha256": "06bf4cb6893a973acdfe2f32c39faccf0906a599aa6584db84f10a61a2682bfb"
+    }
+  ],
+  "reproducible_diagnostic_outputs": "assets/scifi/diagnostics/hero_hd4/manifest.json and six PNG; do not promote until nativeHD review",
+  "excluded": "diagnostic JPG boards"
+}
