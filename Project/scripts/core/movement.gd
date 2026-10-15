@@ -8,7 +8,15 @@ var position := Vector2(61,39)
 var path: Array[Vector2i] = []
 var direction := 4
 var action := "idle"
-var animation_tick := 0
+# One moving cycle = 210 exact units: walk tick=5, run tick=7.
+# Public clock remains writable in the current action's tick units.
+var _animation_units: float = 0.0
+var animation_tick: float:
+	get: return _animation_units / _clock_scale()
+	set(value): _animation_units = value * _clock_scale()
+
+func _clock_scale() -> float:
+	return 5.0 if action == "walk" else (7.0 if action == "run" else 1.0)
 var width := 0
 var height := 0
 
@@ -46,7 +54,7 @@ func stop() -> void:
 
 func step(delta: float, run: bool = false) -> void:
 	_set_action("idle" if path.is_empty() else ("run" if run else "walk"))
-	animation_tick += 1
+	_animation_units += _clock_scale()
 	var budget := delta * (RUN_SPEED if run else WALK_SPEED)
 	while not path.is_empty() and budget > 0.000001:
 		var goal := Vector2(path[0])
@@ -69,10 +77,15 @@ func step(delta: float, run: bool = false) -> void:
 
 func _set_action(value: String) -> void:
 	if action != value:
+		# Reference moving-action phase preservation, without rounding fractional ticks.
+		# Shared units avoid repeated divide/multiply drift at exact frame boundaries.
+		var next_units := 0.0
+		if action in ["walk", "run"] and value in ["walk", "run"]:
+			next_units = fposmod(_animation_units, 210.0)
 		action = value
-		animation_tick = 0
+		_animation_units = next_units
 
 func source_frame() -> int:
-	if action == "walk": return 33+direction*6+(animation_tick/7)%6
-	if action == "run": return 81+direction*6+(animation_tick/5)%6
-	return 1+direction*4+(animation_tick/12)%4
+	if action == "walk": return 33+direction*6+floori(_animation_units/35.0)%6
+	if action == "run": return 81+direction*6+floori(_animation_units/35.0)%6
+	return 1+direction*4+floori(animation_tick/12.0)%4
