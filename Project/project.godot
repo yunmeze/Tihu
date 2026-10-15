@@ -3,6 +3,8 @@ config_version=5
 
 [application]
 config/name="Legend · R1 Source Preview"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="Tihu-Legend-Godot"
 run/main_scene="res://scenes/game.tscn"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 

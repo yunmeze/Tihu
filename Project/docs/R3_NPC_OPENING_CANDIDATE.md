@@ -28,6 +28,6 @@ Only A13 two-NPC interaction is enabled, within five cells. Click hit-testing us
 
 ## UI and platform
 
-Original dialog texture is copied byte-for-byte from `参考项目/public/assets/ui/native/dialog.png` (523×216). Position and text/button controls are an adaptation; source button coordinates currently map to a 16px grid, not claimed as proven native coordinate units. Source U+E810 indentation renders as spaces. System Noto Sans CJK SC is used without packaging the reference font; Windows font availability and rendering are untested.
+Original dialog texture is copied byte-for-byte from `参考项目/public/assets/ui/native/dialog.png` (523×216). Position and text/button controls are an adaptation; source button coordinates currently map to a 16px grid, not claimed as proven native coordinate units. The VM removes source U+E810/private-use indentation and trims text edges; native indentation is not preserved. System Noto Sans CJK SC is used without packaging the reference font; Windows font availability and rendering are untested.
 
 No original EXE was run. Initial import without isolated XDG logged editor-settings errors; it is retained as `import-first-no-xdg.log`. Subsequent isolated-XDG import, headless tests and actual native runtime have zero ERROR/SCRIPT ERROR. Vsync warning is cloud display-driver only.

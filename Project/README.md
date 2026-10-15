@@ -8,6 +8,7 @@
 
 - **F5 默认入口：** `scenes/game.tscn`。A13 原版场景走动预览；左键走路，按住 Shift 跑步，空格停止，G 显示碰撞格。
 - **屋门预览：** 打开 `scenes/portal_preview.tscn` 后按 F6。A00 房间出门、返门的原传送点可用。
+- **地图加载诊断：** 打开 `scenes/map_load_candidate.tscn` 后按 F6，以 F1–F9 检查原脚本的 NPC 隐藏、门禁开闭和固定姿态彩蛋鸡。随机值为显式诊断输入，无 AI/战斗。
 - **NPC 剧情候选：** 打开 `scenes/opening_candidate.tscn` 后按 F6。点击方丈、凌云子，沿原按钮对话，可到 A00 房间。此入口显式预设 ET1/STOP；尚未执行完整地图加载脚本，不能等同完整新游戏。
 
 目前没有完整战斗、背包界面、存档或科幻美术。A01/A02、原动作和物品数据已提取存档，但数据存在不代表玩法已接入。Windows 尚未实测；已验证平台为 Linux / Godot 4.6.3。
