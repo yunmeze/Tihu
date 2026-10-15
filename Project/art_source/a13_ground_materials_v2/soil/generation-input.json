@@ -1,0 +1,27 @@
+{
+  "status": "one source-driven v2 generation; unverified tiling/density",
+  "tool": "image_gen.imagegen",
+  "original_output": "/workspace/scratch/22c897619190/generated_images/exec-6411e371-ce1b-49b2-a8c1-39ff673337f0.png",
+  "actual_size": [
+    1254,
+    1254
+  ],
+  "actual_mode": "RGB",
+  "raw_sha256": "a2a88d3e10c8a9c38214e7706357e7c2bae753f64cf380655e05341940d43e2f",
+  "actual_prompt_file": "prompt.txt",
+  "actual_prompt_sha256": "fa1c9a6855258103cc6d23bf817d94a2bbe2a54137b9d2affec0fb10bd9ac92a",
+  "prompt_tool_argument": "file text stripped of trailing newline",
+  "transparent_background": false,
+  "references": [
+    {
+      "path": "Project/art_source/a13_ground_materials_v2/inputs/source-soil.png",
+      "sha256": "9a5bb41aed45c3f56cea23e0f693665c3047398fa892ce96f4d3029699ad83e9"
+    },
+    {
+      "path": "Project/art_source/a13_ground_materials_v2/inputs/accepted-context-soil-crop.png",
+      "sha256": "bd005233a9e515ac31e6ca45abdbe39709073fca84ba93c0d11dcf329e74bdfc"
+    }
+  ],
+  "source_rectangles": "../inputs/manifest.json",
+  "generation_count_this_version": 1
+}

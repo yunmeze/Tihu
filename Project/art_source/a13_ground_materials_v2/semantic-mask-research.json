@@ -1,0 +1,265 @@
+{
+  "status": "offline diagnostic, semantic ribbons require visual review; not runtime accepted",
+  "source_curb_centerline": [
+    [
+      -1,
+      225
+    ],
+    [
+      192,
+      97
+    ],
+    [
+      288,
+      99
+    ],
+    [
+      332,
+      126
+    ],
+    [
+      332,
+      195
+    ],
+    [
+      244,
+      256
+    ]
+  ],
+  "source_read_uncertainty_px": 3,
+  "generated_curb_centerline": [
+    [
+      0,
+      225.32
+    ],
+    [
+      192.8946,
+      97.0064
+    ],
+    [
+      289.0623,
+      97.28596
+    ],
+    [
+      334.07,
+      126.919
+    ],
+    [
+      333.231,
+      192.895
+    ],
+    [
+      242.94,
+      256.0745
+    ]
+  ],
+  "stone_faces": [
+    {
+      "name": "left_long_face",
+      "polygon": [
+        [
+          0,
+          222
+        ],
+        [
+          191,
+          94
+        ],
+        [
+          194,
+          100
+        ],
+        [
+          0,
+          229
+        ]
+      ]
+    },
+    {
+      "name": "top_cap",
+      "polygon": [
+        [
+          193,
+          94
+        ],
+        [
+          289,
+          94
+        ],
+        [
+          290,
+          100
+        ],
+        [
+          193,
+          101
+        ]
+      ]
+    },
+    {
+      "name": "upper_right_cap",
+      "polygon": [
+        [
+          291,
+          95
+        ],
+        [
+          337,
+          124
+        ],
+        [
+          333,
+          130
+        ],
+        [
+          287,
+          102
+        ]
+      ]
+    },
+    {
+      "name": "right_visible_upper",
+      "polygon": [
+        [
+          332,
+          130
+        ],
+        [
+          335,
+          131
+        ],
+        [
+          335,
+          157
+        ],
+        [
+          332,
+          158
+        ]
+      ]
+    },
+    {
+      "name": "right_visible_lower",
+      "polygon": [
+        [
+          332,
+          175
+        ],
+        [
+          335,
+          174
+        ],
+        [
+          335,
+          191
+        ],
+        [
+          332,
+          194
+        ]
+      ]
+    },
+    {
+      "name": "lower_right_face",
+      "polygon": [
+        [
+          332,
+          191
+        ],
+        [
+          336,
+          195
+        ],
+        [
+          246,
+          256
+        ],
+        [
+          237,
+          256
+        ]
+      ]
+    }
+  ],
+  "manual_stone_boundary_uncertainty_px": 1,
+  "curb_rgb": "unchanged uniform sampled generated context pixels, selected same-ID occurrence",
+  "soil_grass_boundary": "original source visible road centerline; retained stone is individually bounded visible generated faces",
+  "missing_ids": {
+    "-594": 3,
+    "-586": 1
+  },
+  "missing_semantics": "original images pure interior road soil; same world soil field; no synthetic curb",
+  "grass_aliases": [
+    -406,
+    -399
+  ],
+  "mask_edge_warning": "binary face bounds are manually read +/-1 native px; right occluded stretch is excluded, no hidden stone reconstruction; inspect fringe before runtime",
+  "world_uv_origin": [
+    0,
+    0
+  ],
+  "sampling": "raw uniformly resampled once to explicit period, integer modulo world coords; no per-tile RGB changes",
+  "tests": [
+    {
+      "period_world_pixels": 512,
+      "scope": "context20",
+      "placements": 20,
+      "uncovered_pixels": 0,
+      "multiply_owned_pixels": 0
+    },
+    {
+      "period_world_pixels": 512,
+      "scope": "first143",
+      "placements": 143,
+      "uncovered_pixels": 0,
+      "multiply_owned_pixels": 0
+    },
+    {
+      "period_world_pixels": 768,
+      "scope": "context20",
+      "placements": 20,
+      "uncovered_pixels": 0,
+      "multiply_owned_pixels": 0
+    },
+    {
+      "period_world_pixels": 768,
+      "scope": "first143",
+      "placements": 143,
+      "uncovered_pixels": 0,
+      "multiply_owned_pixels": 0
+    },
+    {
+      "period_world_pixels": 1024,
+      "scope": "context20",
+      "placements": 20,
+      "uncovered_pixels": 0,
+      "multiply_owned_pixels": 0
+    },
+    {
+      "period_world_pixels": 1024,
+      "scope": "first143",
+      "placements": 143,
+      "uncovered_pixels": 0,
+      "multiply_owned_pixels": 0
+    }
+  ],
+  "raw_hashes": {
+    "grass": "0a1ecb4c13280510a6d9179058f82cc51021cbc86d2736b3cc052fa1c5d06c9f",
+    "soil": "a2a88d3e10c8a9c38214e7706357e7c2bae753f64cf380655e05341940d43e2f"
+  },
+  "same_id_curb_sample_selection": {
+    "-406": "Map/Res/FloorBig:406@60,36",
+    "-577": "Map/Res/FloorBig:577@56,40",
+    "-608": "Map/Res/FloorBig:608@58,40",
+    "-587": "Map/Res/FloorBig:587@58,42",
+    "-579": "Map/Res/FloorBig:579@60,38",
+    "-595": "Map/Res/FloorBig:595@60,40",
+    "-581": "Map/Res/FloorBig:581@60,42",
+    "-407": "Map/Res/FloorBig:407@62,36",
+    "-580": "Map/Res/FloorBig:580@62,38",
+    "-588": "Map/Res/FloorBig:588@62,40",
+    "-604": "Map/Res/FloorBig:604@62,42",
+    "-399": "Map/Res/FloorBig:399@64,36",
+    "-398": "Map/Res/FloorBig:398@64,38"
+  }
+}

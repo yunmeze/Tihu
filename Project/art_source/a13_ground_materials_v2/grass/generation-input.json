@@ -1,0 +1,27 @@
+{
+  "status": "one source-driven v2 generation; unverified tiling/density",
+  "tool": "image_gen.imagegen",
+  "original_output": "/workspace/scratch/22c897619190/generated_images/exec-dfb4d420-8fb4-4417-bcc2-52fe8604ec88.png",
+  "actual_size": [
+    1254,
+    1254
+  ],
+  "actual_mode": "RGB",
+  "raw_sha256": "0a1ecb4c13280510a6d9179058f82cc51021cbc86d2736b3cc052fa1c5d06c9f",
+  "actual_prompt_file": "prompt.txt",
+  "actual_prompt_sha256": "db0334be4c4f9284a012de8e690ec6d392f5b73ec745e9dfdd01da2d8102f095",
+  "prompt_tool_argument": "file text stripped of trailing newline",
+  "transparent_background": false,
+  "references": [
+    {
+      "path": "Project/art_source/a13_ground_materials_v2/inputs/source-grass.png",
+      "sha256": "a72a1a823895809cf04c543ba58ab5a1a99363551953b9c388d2a04486b82667"
+    },
+    {
+      "path": "Project/art_source/a13_ground_materials_v2/inputs/accepted-context-grass-crop.png",
+      "sha256": "31f46cb303dcbbf65d59fc3173df1f603257aa7735a52e88343a9882bf9355c4"
+    }
+  ],
+  "source_rectangles": "../inputs/manifest.json",
+  "generation_count_this_version": 1
+}
