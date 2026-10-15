@@ -1,0 +1,221 @@
+{
+  "status": "one generated candidate; source unchanged; registration research only; no owner slicing/runtime install",
+  "raw_native_size": [
+    1087,
+    1447
+  ],
+  "raw_sha256": "1837eda6d9f5bfc4e310bbcfbf6bfac73561b31f7c5fe225b009b99ba9e66cd4",
+  "raw_never_upscaled": true,
+  "generator": "built-in image_gen; one call; transparent_background=true",
+  "requested_size": "1536 square via prompt only; actual tool output1087x1447",
+  "native_alpha": {
+    "1": {
+      "count": 924779,
+      "bbox": [
+        0,
+        0,
+        1087,
+        1447
+      ]
+    },
+    "16": {
+      "count": 827425,
+      "bbox": [
+        7,
+        1,
+        1075,
+        1374
+      ]
+    },
+    "64": {
+      "count": 798976,
+      "bbox": [
+        10,
+        2,
+        1072,
+        1374
+      ]
+    },
+    "128": {
+      "count": 772471,
+      "bbox": [
+        12,
+        3,
+        1070,
+        1373
+      ]
+    },
+    "250": {
+      "count": 464047,
+      "bbox": [
+        39,
+        43,
+        992,
+        1372
+      ]
+    },
+    "255": {
+      "count": 142,
+      "bbox": [
+        94,
+        303,
+        904,
+        1372
+      ]
+    }
+  },
+  "source_body_nonzero_pixels": 34552,
+  "density_method": "least-squares single isotropic scale and translation fitted to six manually corresponding culm endpoints; not bbox fit",
+  "density": 3.801626241115137,
+  "raw_from_source_translation": [
+    -5.784849406753949,
+    79.65115284269518
+  ],
+  "world_top_left_for_raw_pixel_0": [
+    3474.521677576872,
+    1462.048136825957
+  ],
+  "landmarks": [
+    {
+      "id": "end_1",
+      "source_group_xy": [
+        34.0,
+        279.0
+      ],
+      "raw_xy": [
+        130.0,
+        1140.0
+      ],
+      "manual_source_uncertainty_px": 4,
+      "manual_raw_uncertainty_px": 6,
+      "residual_logical_xy": [
+        1.7175694807188506,
+        -0.08019570954166966
+      ],
+      "residual_logical_norm": 1.7194406860737343
+    },
+    {
+      "id": "end_2",
+      "source_group_xy": [
+        59.0,
+        302.0
+      ],
+      "raw_xy": [
+        210.0,
+        1222.0
+      ],
+      "manual_source_uncertainty_px": 4,
+      "manual_raw_uncertainty_px": 6,
+      "residual_logical_xy": [
+        -2.238804732298604,
+        -1.5104792778845422
+      ],
+      "residual_logical_norm": 2.70070255272239
+    },
+    {
+      "id": "end_3",
+      "source_group_xy": [
+        85.0,
+        320.0
+      ],
+      "raw_xy": [
+        320.0,
+        1305.0
+      ],
+      "manual_source_uncertainty_px": 4,
+      "manual_raw_uncertainty_px": 6,
+      "residual_logical_xy": [
+        0.6961807248023888,
+        2.3222824761098195
+      ],
+      "residual_logical_norm": 2.4243893046359393
+    },
+    {
+      "id": "end_4",
+      "source_group_xy": [
+        112.0,
+        340.0
+      ],
+      "raw_xy": [
+        422.0,
+        1374.0
+      ],
+      "manual_source_uncertainty_px": 4,
+      "manual_raw_uncertainty_px": 6,
+      "residual_logical_xy": [
+        0.5268036032051242,
+        0.472409717382277
+      ],
+      "residual_logical_norm": 0.7075966205594151
+    },
+    {
+      "id": "end_5",
+      "source_group_xy": [
+        172.0,
+        291.0
+      ],
+      "raw_xy": [
+        645.0,
+        1181.0
+      ],
+      "manual_source_uncertainty_px": 4,
+      "manual_raw_uncertainty_px": 6,
+      "residual_logical_xy": [
+        -0.8140895155810597,
+        -1.2953374937130775
+      ],
+      "residual_logical_norm": 1.5299153447161322
+    },
+    {
+      "id": "end_6",
+      "source_group_xy": [
+        220.0,
+        247.0
+      ],
+      "raw_xy": [
+        831.0,
+        1019.0
+      ],
+      "manual_source_uncertainty_px": 4,
+      "manual_raw_uncertainty_px": 6,
+      "residual_logical_xy": [
+        0.11234043915334269,
+        0.09132028764724964
+      ],
+      "residual_logical_norm": 0.14477489148724065
+    }
+  ],
+  "max_endpoint_residual_logical": 2.7007025527223893,
+  "independent_crown_test": {
+    "source_top_y": 0,
+    "raw_alpha128_top_y": 3,
+    "registered_candidate_top_y": -20.162727207031004,
+    "excess_height_logical": 20.162727207031004,
+    "source_body_bbox": [
+      0,
+      0,
+      271,
+      341
+    ],
+    "candidate_alpha128_registered_bbox": [
+      4.678221444919607,
+      -20.162727207031004,
+      282.9801724777637,
+      340.209364395045
+    ]
+  },
+  "opaqueish_coverage_ratio_at_fit": 1.5469282109954892,
+  "current_earth_view_standard": {
+    "logical": [
+      768,
+      512
+    ],
+    "physical": [
+      1536,
+      1024
+    ]
+  },
+  "review_images_are_extra_diagnostics_not_runtime_screenshots": true,
+  "no_source_index52_mask_used_in_production": true,
+  "decision": "Hold before slicing. Base endpoints fit within manual uncertainty but canopy exceeds source by about20 logical units, coverage much denser and faint edge alpha requires review. No automatic regenerate."
+}

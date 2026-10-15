@@ -1,0 +1,277 @@
+{
+  "status": "one generated candidate; source unchanged; registration research only; no owner slicing/runtime install",
+  "raw_native_size": [
+    1254,
+    1254
+  ],
+  "raw_sha256": "88a844660ccfc3c21f151d098f2e524290a4d3c8c55864f705e7d45116cb18da",
+  "raw_never_upscaled": true,
+  "generator": "built-in image_gen targeted edit; one call; transparent_background=true",
+  "requested_size": "1792 square or larger via prompt only; actual tool output1254x1254",
+  "native_alpha": {
+    "1": {
+      "count": 597997,
+      "bbox": [
+        0,
+        17,
+        1212,
+        1254
+      ]
+    },
+    "16": {
+      "count": 521668,
+      "bbox": [
+        179,
+        95,
+        1063,
+        1185
+      ]
+    },
+    "64": {
+      "count": 496881,
+      "bbox": [
+        183,
+        98,
+        1061,
+        1185
+      ]
+    },
+    "128": {
+      "count": 475244,
+      "bbox": [
+        186,
+        101,
+        1058,
+        1184
+      ]
+    },
+    "250": {
+      "count": 286952,
+      "bbox": [
+        224,
+        134,
+        1025,
+        1183
+      ]
+    },
+    "255": {
+      "count": 329,
+      "bbox": [
+        289,
+        269,
+        880,
+        1165
+      ]
+    }
+  },
+  "source_body_nonzero_pixels": 34552,
+  "density_method": "least-squares single isotropic scale and translation fitted to six manually corresponding culm endpoints; not bbox fit",
+  "density": 3.066360594075836,
+  "raw_from_source_translation": [
+    184.45701247337996,
+    144.15741718984782
+  ],
+  "world_top_left_for_raw_pixel_0": [
+    3412.8449703437527,
+    1435.9874544212582
+  ],
+  "landmarks": [
+    {
+      "id": "end_1",
+      "source_group_xy": [
+        34.0,
+        279.0
+      ],
+      "raw_xy": [
+        294.0,
+        996.0
+      ],
+      "manual_source_uncertainty_px": 4,
+      "manual_raw_uncertainty_px": 6,
+      "residual_logical_xy": [
+        1.7241049008572205,
+        -1.1975183036529984
+      ],
+      "residual_logical_norm": 2.0991874134397435
+    },
+    {
+      "id": "end_2",
+      "source_group_xy": [
+        59.0,
+        302.0
+      ],
+      "raw_xy": [
+        355.0,
+        1064.0
+      ],
+      "manual_source_uncertainty_px": 4,
+      "manual_raw_uncertainty_px": 6,
+      "residual_logical_xy": [
+        -3.3826052760700733,
+        -2.021391943506387
+      ],
+      "residual_logical_norm": 3.940563899110079
+    },
+    {
+      "id": "end_3",
+      "source_group_xy": [
+        85.0,
+        320.0
+      ],
+      "raw_xy": [
+        453.0,
+        1131.0
+      ],
+      "manual_source_uncertainty_px": 4,
+      "manual_raw_uncertainty_px": 6,
+      "residual_logical_xy": [
+        2.57710624296476,
+        1.8286149113439478
+      ],
+      "residual_logical_norm": 3.159953968259249
+    },
+    {
+      "id": "end_4",
+      "source_group_xy": [
+        112.0,
+        340.0
+      ],
+      "raw_xy": [
+        526.0,
+        1185.0
+      ],
+      "manual_source_uncertainty_px": 4,
+      "manual_raw_uncertainty_px": 6,
+      "residual_logical_xy": [
+        -0.6161698704072478,
+        -0.560931802657251
+      ],
+      "residual_logical_norm": 0.8332525406081867
+    },
+    {
+      "id": "end_5",
+      "source_group_xy": [
+        172.0,
+        291.0
+      ],
+      "raw_xy": [
+        708.0,
+        1041.0
+      ],
+      "manual_source_uncertainty_px": 4,
+      "manual_raw_uncertainty_px": 6,
+      "residual_logical_xy": [
+        -1.2624199064854338,
+        1.477859434679317
+      ],
+      "residual_logical_norm": 1.9436492813677477
+    },
+    {
+      "id": "end_6",
+      "source_group_xy": [
+        220.0,
+        247.0
+      ],
+      "raw_xy": [
+        862.0,
+        903.0
+      ],
+      "manual_source_uncertainty_px": 4,
+      "manual_raw_uncertainty_px": 6,
+      "residual_logical_xy": [
+        0.9599839091407318,
+        0.4733677037935422
+      ],
+      "residual_logical_norm": 1.070348582847612
+    }
+  ],
+  "max_endpoint_residual_logical": 3.940563899110079,
+  "independent_crown_test": {
+    "source_top_y": 0,
+    "raw_alpha128_top_y": 101,
+    "registered_candidate_top_y": -14.074475543818076,
+    "excess_height_logical": 14.074475543818076,
+    "source_body_bbox": [
+      0,
+      0,
+      271,
+      341
+    ],
+    "candidate_alpha128_registered_bbox": [
+      0.5031983288596481,
+      -14.074475543818076,
+      284.87940694721044,
+      339.1129486920465
+    ]
+  },
+  "opaqueish_coverage_ratio_at_fit": 1.4628405861692315,
+  "current_earth_view_standard": {
+    "logical": [
+      768,
+      512
+    ],
+    "physical": [
+      1536,
+      1024
+    ]
+  },
+  "review_images_are_extra_diagnostics_not_runtime_screenshots": true,
+  "no_source_index52_mask_used_in_production": true,
+  "decision": "Hold before slicing. Base endpoints fit within manual uncertainty but canopy exceeds source by about14 logical units, coverage much denser and faint edge alpha requires review. No automatic regenerate.",
+  "v1_comparison": {
+    "density_ratio_v2_over_v1": 0.8065918108710171,
+    "v1_max_endpoint_residual": 2.7007025527223893,
+    "v1_crown_excess": 20.162727207031004,
+    "v1_coverage_ratio": 1.5469282109954892,
+    "requested_native_scale_preservation_met": false,
+    "notes": "Tool changed native content scale despite request. V2 meaningful crown still exceeds source; do not call canvas padding alone a corrected shape."
+  },
+  "alpha_edge_nonzero_counts": {
+    "top": 0,
+    "bottom": 105,
+    "left": 12,
+    "right": 0
+  },
+  "alpha128_safe_margins_ltrb": [
+    186,
+    101,
+    196,
+    70
+  ],
+  "strict_clear_80px_border_met": false,
+  "v1_to_v2_endpoint_fit": {
+    "raw_scale": 0.8065759976315943,
+    "raw_translation": [
+      189.12976634306364,
+      79.93053352493769
+    ],
+    "residuals_logical": [
+      [
+        0.00500722741440346,
+        -1.1176672540002026
+      ],
+      [
+        -1.1449161760300057,
+        -0.510834451033625
+      ],
+      [
+        1.8803771565437835,
+        -0.4931613186947585
+      ],
+      [
+        -1.1429958206375528,
+        -1.0324794405669595
+      ],
+      [
+        -0.44720272563219415,
+        2.77306370574208
+      ],
+      [
+        0.8497303383416028,
+        0.3810787585535026
+      ]
+    ],
+    "max_residual_logical": 2.80889170206273,
+    "limitation": "Manual matches, no evidence of pixel-preserved editing; lower native content scale and upper twig redraw are observable."
+  }
+}
