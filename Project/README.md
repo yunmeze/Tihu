@@ -20,3 +20,7 @@ Further checkpoints will restore original quest logic, instance inventory, save/
 See `docs/RECOVERY_PLAN.md` for evidence and boundaries.
 
 See `docs/R1_SOURCE_PREVIEW.md` for controls, tested behavior, and deliberate limits. Linux Godot 4.6.3 was tested; Windows has not yet been tested.
+
+## Optional A00 house preview
+
+Open `scenes/portal_preview.tscn` and run the current scene (F6) to inspect the source-art room and walk through the original house door portals. Default F5 remains A13. This optional preview does not execute story scripts or load/save progression. See `docs/R2_HOUSE_PORTAL_PREVIEW.md`.

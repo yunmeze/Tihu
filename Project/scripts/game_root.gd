@@ -1,6 +1,9 @@
 extends Node2D
 const Movement = preload("res://scripts/core/movement.gd")
 const WorldView = preload("res://scripts/world_view.gd")
+@export var initial_map_path := "res://data/maps/A13.json"
+@export var initial_cell := Vector2(61,39)
+@export var preview_title := "R1 · original A13 source preview · story/STOP not yet implemented"
 var movement = Movement.new()
 var world = WorldView.new()
 var status := Label.new()
@@ -19,12 +22,13 @@ func _ready() -> void:
 	status.add_theme_font_size_override("font_size",16)
 	status.mouse_filter=Control.MOUSE_FILTER_IGNORE
 	panel.add_child(status)
-	ready_ok=world.setup(movement)
+	movement.position=initial_cell
+	ready_ok=world.setup(movement,initial_map_path)
 	if not ready_ok:
 		status.text="R1 RESOURCE PREFLIGHT FAILED\n"+"\n".join(world.loading_errors)
 		push_error(status.text)
 		return
-	print("R1_SOURCE_READY map=A13 cell=61,39 floors=%d objects=%d"%[world.floors.size(),world.objects.size()])
+	print("R1_SOURCE_READY map=%s cell=%s floors=%d objects=%d"%[world.map.id,movement.position,world.floors.size(),world.objects.size()])
 	_update_status()
 
 func _physics_process(delta: float) -> void:
@@ -47,4 +51,4 @@ func _unhandled_input(event: InputEvent) -> void:
 		if event.keycode==KEY_G: world.show_grid=not world.show_grid
 
 func _update_status() -> void:
-	status.text="R1 · original A13 source preview · story/STOP not yet implemented\nCell %.3f, %.3f | %s d%d frame%d | remaining %d\n%s"%[movement.position.x,movement.position.y,movement.action,movement.direction,movement.source_frame(),movement.path.size(),notice]
+	status.text=preview_title+"\nCell %.3f, %.3f | %s d%d frame%d | remaining %d\n%s"%[movement.position.x,movement.position.y,movement.action,movement.direction,movement.source_frame(),movement.path.size(),notice]

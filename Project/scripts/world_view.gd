@@ -23,11 +23,16 @@ func read_json(path: String) -> Dictionary:
 		return {}
 	return value
 
-func setup(actor: RefCounted) -> bool:
+func setup(actor: RefCounted, map_path: String = "res://data/maps/A13.json") -> bool:
+	initialized = false
+	loading_errors.clear()
+	floors.clear()
+	objects.clear()
+	textures.clear()
 	movement = actor
 	texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
-	map = read_json("res://data/maps/A13.json")
-	packs = read_json("res://assets/original/manifest.json").get("packs",{})
+	map = read_json(map_path)
+	packs = read_json(map.get("texture_manifest","res://assets/original/manifest.json")).get("packs",{})
 	hero = read_json("res://data/hero/movement.json")
 	if map.is_empty() or packs.is_empty() or hero.is_empty(): return false
 	for pack in packs.values():
