@@ -1,0 +1,65 @@
+{
+  "status": "raw frozen and fixed-frame measured; selected material pixels used only in approved joint-review assembly, final native acceptance pending",
+  "approval_utc": "2026-10-15T08:37:06Z",
+  "generator": "built-in imagegen",
+  "transparent_background": true,
+  "scope": "Only left staircase and necessary local seam. Right stair waiting; no whole-building generation or runtime.",
+  "inputs": [
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/left/current-2x-reference.png",
+      "sha256": "7a545f305da07e868d814015e8a86984c85eca95131c3400220d095ead080627",
+      "role": "edit target; fixed canvas and current material/light",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/left/local-target-guide-2x.png",
+      "sha256": "ab54e869d617dabb7fe3cdbc04fd29114240d7a4db1124ce413d3555d67c5859",
+      "role": "same-canvas technical geometry, foot and ground constraints",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/left/source-context-4x-reference.png",
+      "sha256": "8cb2986fdeb03e34916e587bd7a2e7640664a2ce37a6f081eb7c216ac187870b",
+      "role": "original geometry and material/grass boundary only",
+      "size": [
+        996,
+        996
+      ]
+    }
+  ],
+  "prompt_sha256": "adbce9ee25815f1bd6c99d9a5ede4c2096fdd42f099ce4b8f625f290abb90ce0",
+  "local_plan_path": "art_source/earth_training_hall_local_stair_plan_v1/local-input-contract.json",
+  "local_plan_sha256": "249ca4821b6b67b98e9de9888b2ffc94b71feb44b5b11d4475c6566fc27646b1",
+  "frozen_whole_v2_raw_sha256": "5dc43ba8c8f2b5c23832aa5e3178cde41546e5077dfb96ae7c5163d73e851d75",
+  "fixed_crop_origin_raw": [
+    130,
+    550
+  ],
+  "input_canvas": [
+    1024,
+    1024
+  ],
+  "fixed_output_mapping": "For NxN output: whole_v2_raw = local * (512/N) + [130,550]. Only full-canvas ratio; no bbox/control refit, no warp. Reject changed aspect or independent context drift.",
+  "raw": {
+    "path": "raw.png",
+    "sha256": "81b0436388e6abec2a1c14b38a5a7779fd884cd7651b7fe2709ce6d295de7ee1",
+    "bytes": 1925813,
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "generated_source_path": "/workspace/scratch/22c897619190/generated_images/exec-046066f9-13ec-45d7-af79-dbc9144da672.png"
+  },
+  "output_utc": "2026-10-15T08:40:33Z",
+  "actual_local_to_whole_scale": 0.4082934609250399,
+  "review": "REVIEW.md",
+  "measurements": "measurements.json",
+  "reproduce_measurements": "python Project/art_source/earth_training_hall_local_stair_plan_v1/measure_local_candidates.py"
+}

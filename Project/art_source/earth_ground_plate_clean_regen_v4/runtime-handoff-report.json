@@ -1,0 +1,120 @@
+{
+  "schema": "earth-ground-v4-runtime-handoff-report-v1",
+  "status": "designated runtime owner promoted independent Earth default to separate v4 candidate; native/guard/original-route regression verified from local evidence",
+  "production_registration": {
+    "path": "assets/earth/environment/ground_plate_v4/registration.json",
+    "sha256": "146969f204793dae2cf0cc762e55c665d392062d914066037c8fe0ff38e727f1",
+    "owner_count": 64
+  },
+  "default_candidate": "res://assets/earth/environment/ground_plate_v4/registration.json",
+  "P_original_source_binding_retained": true,
+  "old_v2_files_preserved": true,
+  "tests": {
+    "warm_guard_assertions": 101,
+    "cold_guard_assertions": 101,
+    "native_owner_count": 64,
+    "native_route_ticks_total": 576,
+    "original_routes": [
+      {
+        "target_cell": [
+          66,
+          35
+        ],
+        "ticks": 160
+      },
+      {
+        "target_cell": [
+          61,
+          39
+        ],
+        "ticks": 160
+      },
+      {
+        "target_cell": [
+          61,
+          43
+        ],
+        "ticks": 128
+      },
+      {
+        "target_cell": [
+          61,
+          39
+        ],
+        "ticks": 128
+      }
+    ],
+    "native_candidate_and_original_source_captures_at_1x_and_2x": true,
+    "promoted_64_slice_2x_capture_sha_identical_to_approved_sharedplate_diagnostic": true,
+    "source_map_and_original_manifest_hashes_unchanged": true
+  },
+  "runtime_file_snapshots": [
+    {
+      "path": "scripts/earth/sample_world.gd",
+      "sha256": "dd4386ea41f77025cbaf9e56f1e2c234b91b0b7a1fcdd50d0ee33fdb4f67f1f8"
+    },
+    {
+      "path": "scripts/earth/sample_preview.gd",
+      "sha256": "11877640cca0238e854df2ec4615aac6a5bf303d123e334812fbf3dcaa6657f5"
+    },
+    {
+      "path": "scripts/earth/ground_candidate.gd",
+      "sha256": "b31fecb614594f21acd0b34fb0e5857f35e2c6e7fc1f5c8b03393bae10c6f6c8"
+    },
+    {
+      "path": "docs/EARTH_SOURCE_SAMPLE_ENTRY.md",
+      "sha256": "82b66485f92bfb9116ed58a8e60765b6e1d62c64fcc556c3930aa6063055c24c"
+    }
+  ],
+  "local_evidence": [
+    {
+      "local_path": "/workspace/shared/earth-ground-v4-promoted/test.log",
+      "sha256": "e66a4860e8003ad67dc8372acfc7aadaa37f1d49860d5e38c0f1d5f4c0e22296",
+      "bytes": 290,
+      "archive": false
+    },
+    {
+      "local_path": "/workspace/shared/earth-ground-v4-promoted/cold-test.log",
+      "sha256": "e66a4860e8003ad67dc8372acfc7aadaa37f1d49860d5e38c0f1d5f4c0e22296",
+      "bytes": 290,
+      "archive": false
+    },
+    {
+      "local_path": "/workspace/shared/earth-ground-v4-promoted/native.log",
+      "sha256": "09bf8d45fbdd6663c5161cd46af9f0a412bf18f91b4a9f0432fe6eada11cc0db",
+      "bytes": 1510,
+      "archive": false
+    },
+    {
+      "local_path": "/workspace/shared/earth-ground-v4-promoted/new-2x.png",
+      "sha256": "fbbd382cbddecf9fec0b54f97472cb80557bf66fd607143b196dc711c807d110",
+      "bytes": 3467246,
+      "archive": false
+    },
+    {
+      "local_path": "/workspace/shared/earth-ground-v4-promoted/source-2x.png",
+      "sha256": "f42bcf7adc86de635a5082209c32668c0030de3d35b3027601f426739aa4017d",
+      "bytes": 627881,
+      "archive": false
+    },
+    {
+      "local_path": "/workspace/shared/earth-ground-v4-promoted/new-1x.png",
+      "sha256": "4398239043a5df15bda988941795ab68c4cb9ce311d2b11b4772605732878fe8",
+      "bytes": 1157012,
+      "archive": false
+    },
+    {
+      "local_path": "/workspace/shared/earth-ground-v4-promoted/source-1x.png",
+      "sha256": "ce0ab7ebb71e503144c55befae480fa8e571d22f49cc63622c07c18beddba2d6",
+      "bytes": 698710,
+      "archive": false
+    }
+  ],
+  "archival_policy": "Report only. Runtime screenshots/logs/test scripts are local-only and excluded from archive closure. Runtime source changes belong to designated runtime worker separate allowlist.",
+  "limitations": [
+    "Bounded independent sample, not entire Earth map art completion.",
+    "Warm/yellow grass highlights remain for shared-light/hall review.",
+    "Top-right cap center retains3.04 logical finite-read uncertainty, not exact outer-edge alignment.",
+    "No new static/actor cast shadow or revised collision/portal/map geometry."
+  ]
+}

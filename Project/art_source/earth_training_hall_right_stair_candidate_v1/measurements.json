@@ -1,0 +1,544 @@
+{
+  "status": "fixed-frame local candidate review only; no runtime or final registration",
+  "side": "right",
+  "raw_sha256": "02c406984828c636887fc64d82e7292cede74581e2056b12e2d14c5a1ed34495",
+  "actual_size": [
+    1254,
+    1254
+  ],
+  "mapping": {
+    "candidate_to_whole_raw_scale": 0.4082934609250399,
+    "candidate_to_whole_raw_translation": [
+      850,
+      635
+    ],
+    "basis": "full input/output canvas ratio only, no bbox fit or control refit",
+    "unchanged_whole_raw_to_source": {
+      "kind": "Freeze previous common scale+translation solely as an editing reference. It is NOT approved runtime registration. No refit to make new measurements pass.",
+      "density": 2.0655638260869567,
+      "raw_translation": [
+        -122.71376862608702,
+        -184.1292193391306
+      ],
+      "source_canvas_origin_world": [
+        2948,
+        642
+      ],
+      "why_usable_for_edit_plan": "Existing S1 and S2 fall inside conservative source+candidate read budgets; preserve those mouths/bottoms and correct deficient stair geometry. A valid remeasurement is mandatory after editing."
+    }
+  },
+  "foot_rows": [
+    {
+      "owner": "Building:3976@73,35",
+      "cell": [
+        73,
+        35
+      ],
+      "source_flag": 1,
+      "samples": [
+        {
+          "source_cell": [
+            73,
+            35
+          ],
+          "foot": 0,
+          "raw_xy": [
+            1060.8543037217391,
+            838.3248745739129
+          ],
+          "local_2x_xy": [
+            421.7086074434783,
+            406.6497491478258
+          ],
+          "source_material": "support",
+          "required_support": true,
+          "required_ground_transparency": false,
+          "critical_for_this_edit": false,
+          "local_read_radius_px": 8.262255304347827,
+          "candidate_output_xy": [
+            516.4283141934783,
+            497.9870951478257
+          ],
+          "candidate_center_alpha": 253,
+          "original_plus_minus_2_source_px_disk": {
+            "radius_output_px": 10.118035304347826,
+            "min_alpha": 253,
+            "max_alpha": 253,
+            "opaque_fraction": 1.0
+          },
+          "nearest_visible_alpha128_silhouette_signed_distance_output_px": -406.84055257870574,
+          "nearest_visible_silhouette_signed_distance_source_px": -80.41888377358835,
+          "distance_convention": "positive outside alpha>128, negative inside; nearest edge midpoint sampling, +/-0.5 output px discretization; this is not a physics boundary",
+          "manual_material_read": "landing_surface"
+        },
+        {
+          "source_cell": [
+            73,
+            35
+          ],
+          "foot": 1,
+          "raw_xy": [
+            1089.7721972869567,
+            848.6526937043478
+          ],
+          "local_2x_xy": [
+            479.54439457391345,
+            427.30538740869565
+          ],
+          "source_material": "support",
+          "required_support": true,
+          "required_ground_transparency": false,
+          "critical_for_this_edit": false,
+          "local_read_radius_px": 8.262255304347827,
+          "candidate_output_xy": [
+            587.2545613239135,
+            523.2821834086957
+          ],
+          "candidate_center_alpha": 253,
+          "original_plus_minus_2_source_px_disk": {
+            "radius_output_px": 10.118035304347826,
+            "min_alpha": 253,
+            "max_alpha": 253,
+            "opaque_fraction": 1.0
+          },
+          "nearest_visible_alpha128_silhouette_signed_distance_output_px": -332.4715914473811,
+          "nearest_visible_silhouette_signed_distance_source_px": -65.71860671498439,
+          "distance_convention": "positive outside alpha>128, negative inside; nearest edge midpoint sampling, +/-0.5 output px discretization; this is not a physics boundary",
+          "manual_material_read": "landing_surface"
+        }
+      ]
+    },
+    {
+      "owner": "Building:3981@73,36",
+      "cell": [
+        73,
+        36
+      ],
+      "source_flag": 1,
+      "samples": [
+        {
+          "source_cell": [
+            73,
+            36
+          ],
+          "foot": 0,
+          "raw_xy": [
+            1060.8543037217391,
+            904.4229170086957
+          ],
+          "local_2x_xy": [
+            421.7086074434783,
+            538.8458340173913
+          ],
+          "source_material": "support",
+          "required_support": true,
+          "required_ground_transparency": false,
+          "critical_for_this_edit": false,
+          "local_read_radius_px": 8.262255304347827,
+          "candidate_output_xy": [
+            516.4283141934783,
+            659.8756600173913
+          ],
+          "candidate_center_alpha": 253,
+          "original_plus_minus_2_source_px_disk": {
+            "radius_output_px": 10.118035304347826,
+            "min_alpha": 252,
+            "max_alpha": 253,
+            "opaque_fraction": 1.0
+          },
+          "nearest_visible_alpha128_silhouette_signed_distance_output_px": -271.8027448014565,
+          "nearest_visible_silhouette_signed_distance_source_px": -53.726387905497816,
+          "distance_convention": "positive outside alpha>128, negative inside; nearest edge midpoint sampling, +/-0.5 output px discretization; this is not a physics boundary",
+          "manual_material_read": "stair_tread_or_narrow_riser"
+        },
+        {
+          "source_cell": [
+            73,
+            36
+          ],
+          "foot": 1,
+          "raw_xy": [
+            1089.7721972869567,
+            914.7507361391303
+          ],
+          "local_2x_xy": [
+            479.54439457391345,
+            559.5014722782605
+          ],
+          "source_material": "support",
+          "required_support": true,
+          "required_ground_transparency": false,
+          "critical_for_this_edit": false,
+          "local_read_radius_px": 8.262255304347827,
+          "candidate_output_xy": [
+            587.2545613239135,
+            685.1707482782605
+          ],
+          "candidate_center_alpha": 253,
+          "original_plus_minus_2_source_px_disk": {
+            "radius_output_px": 10.118035304347826,
+            "min_alpha": 252,
+            "max_alpha": 253,
+            "opaque_fraction": 1.0
+          },
+          "nearest_visible_alpha128_silhouette_signed_distance_output_px": -259.1743942914375,
+          "nearest_visible_silhouette_signed_distance_source_px": -51.230181847669094,
+          "distance_convention": "positive outside alpha>128, negative inside; nearest edge midpoint sampling, +/-0.5 output px discretization; this is not a physics boundary",
+          "manual_material_read": "stair_tread_or_narrow_riser"
+        }
+      ]
+    },
+    {
+      "owner": "Building:3982@74,36",
+      "cell": [
+        74,
+        36
+      ],
+      "source_flag": 1,
+      "samples": [
+        {
+          "source_cell": [
+            74,
+            36
+          ],
+          "foot": 0,
+          "raw_xy": [
+            1160.0013673739131,
+            904.4229170086957
+          ],
+          "local_2x_xy": [
+            620.0027347478263,
+            538.8458340173913
+          ],
+          "source_material": "support",
+          "required_support": true,
+          "required_ground_transparency": false,
+          "critical_for_this_edit": false,
+          "local_read_radius_px": 8.262255304347827,
+          "candidate_output_xy": [
+            759.2611614978263,
+            659.8756600173913
+          ],
+          "candidate_center_alpha": 253,
+          "original_plus_minus_2_source_px_disk": {
+            "radius_output_px": 10.118035304347826,
+            "min_alpha": 253,
+            "max_alpha": 253,
+            "opaque_fraction": 1.0
+          },
+          "nearest_visible_alpha128_silhouette_signed_distance_output_px": -173.67704339563215,
+          "nearest_visible_silhouette_signed_distance_source_px": -34.33019122220325,
+          "distance_convention": "positive outside alpha>128, negative inside; nearest edge midpoint sampling, +/-0.5 output px discretization; this is not a physics boundary",
+          "manual_material_read": "stair_tread_or_narrow_riser"
+        },
+        {
+          "source_cell": [
+            74,
+            36
+          ],
+          "foot": 1,
+          "raw_xy": [
+            1188.9192609391303,
+            914.7507361391303
+          ],
+          "local_2x_xy": [
+            677.8385218782605,
+            559.5014722782605
+          ],
+          "source_material": "support",
+          "required_support": true,
+          "required_ground_transparency": false,
+          "critical_for_this_edit": false,
+          "local_read_radius_px": 8.262255304347827,
+          "candidate_output_xy": [
+            830.0874086282604,
+            685.1707482782605
+          ],
+          "candidate_center_alpha": 253,
+          "original_plus_minus_2_source_px_disk": {
+            "radius_output_px": 10.118035304347826,
+            "min_alpha": 253,
+            "max_alpha": 253,
+            "opaque_fraction": 1.0
+          },
+          "nearest_visible_alpha128_silhouette_signed_distance_output_px": -129.83571783907738,
+          "nearest_visible_silhouette_signed_distance_source_px": -25.66421522235361,
+          "distance_convention": "positive outside alpha>128, negative inside; nearest edge midpoint sampling, +/-0.5 output px discretization; this is not a physics boundary",
+          "manual_material_read": "stair_tread_or_narrow_riser"
+        }
+      ]
+    },
+    {
+      "owner": "Building:3986@74,37",
+      "cell": [
+        74,
+        37
+      ],
+      "source_flag": 1,
+      "samples": [
+        {
+          "source_cell": [
+            74,
+            37
+          ],
+          "foot": 0,
+          "raw_xy": [
+            1160.0013673739131,
+            970.5209594434781
+          ],
+          "local_2x_xy": [
+            620.0027347478263,
+            671.0419188869562
+          ],
+          "source_material": "support",
+          "required_support": true,
+          "required_ground_transparency": false,
+          "critical_for_this_edit": false,
+          "local_read_radius_px": 8.262255304347827,
+          "candidate_output_xy": [
+            759.2611614978263,
+            821.7642248869561
+          ],
+          "candidate_center_alpha": 253,
+          "original_plus_minus_2_source_px_disk": {
+            "radius_output_px": 10.118035304347826,
+            "min_alpha": 253,
+            "max_alpha": 253,
+            "opaque_fraction": 1.0
+          },
+          "nearest_visible_alpha128_silhouette_signed_distance_output_px": -56.00120653643331,
+          "nearest_visible_silhouette_signed_distance_source_px": -11.069581169057397,
+          "distance_convention": "positive outside alpha>128, negative inside; nearest edge midpoint sampling, +/-0.5 output px discretization; this is not a physics boundary",
+          "manual_material_read": "stair_tread_or_narrow_riser"
+        },
+        {
+          "source_cell": [
+            74,
+            37
+          ],
+          "foot": 1,
+          "raw_xy": [
+            1188.9192609391303,
+            980.8487785739129
+          ],
+          "local_2x_xy": [
+            677.8385218782605,
+            691.6975571478258
+          ],
+          "source_material": "source_grass_apron",
+          "required_support": false,
+          "required_ground_transparency": true,
+          "critical_for_this_edit": true,
+          "local_read_radius_px": 8.262255304347827,
+          "candidate_output_xy": [
+            830.0874086282604,
+            847.0593131478257
+          ],
+          "candidate_center_alpha": 84,
+          "original_plus_minus_2_source_px_disk": {
+            "radius_output_px": 10.118035304347826,
+            "min_alpha": 0,
+            "max_alpha": 253,
+            "opaque_fraction": 0.4722222222222222
+          },
+          "nearest_visible_alpha128_silhouette_signed_distance_output_px": 0.5661019922461659,
+          "nearest_visible_silhouette_signed_distance_source_px": 0.11189958825364167,
+          "distance_convention": "positive outside alpha>128, negative inside; nearest edge midpoint sampling, +/-0.5 output px discretization; this is not a physics boundary",
+          "manual_material_read": "front_riser_outer_silhouette_edge; not fully transparent, within original toe-read uncertainty"
+        }
+      ]
+    },
+    {
+      "owner": "Building:3987@75,37",
+      "cell": [
+        75,
+        37
+      ],
+      "source_flag": 1,
+      "samples": [
+        {
+          "source_cell": [
+            75,
+            37
+          ],
+          "foot": 0,
+          "raw_xy": [
+            1259.148431026087,
+            970.5209594434781
+          ],
+          "local_2x_xy": [
+            818.2968620521742,
+            671.0419188869562
+          ],
+          "source_material": "source_grass_apron",
+          "required_support": false,
+          "required_ground_transparency": true,
+          "critical_for_this_edit": false,
+          "local_read_radius_px": 8.262255304347827,
+          "candidate_output_xy": [
+            1002.0940088021742,
+            821.7642248869561
+          ],
+          "candidate_center_alpha": 0,
+          "original_plus_minus_2_source_px_disk": {
+            "radius_output_px": 10.118035304347826,
+            "min_alpha": 0,
+            "max_alpha": 0,
+            "opaque_fraction": 0.0
+          },
+          "nearest_visible_alpha128_silhouette_signed_distance_output_px": 49.67053453168331,
+          "nearest_visible_silhouette_signed_distance_source_px": 9.818217279858542,
+          "distance_convention": "positive outside alpha>128, negative inside; nearest edge midpoint sampling, +/-0.5 output px discretization; this is not a physics boundary",
+          "manual_material_read": "transparent_ground"
+        },
+        {
+          "source_cell": [
+            75,
+            37
+          ],
+          "foot": 1,
+          "raw_xy": [
+            1288.0663245913042,
+            980.8487785739129
+          ],
+          "local_2x_xy": [
+            876.1326491826085,
+            691.6975571478258
+          ],
+          "source_material": "source_grass_apron",
+          "required_support": false,
+          "required_ground_transparency": true,
+          "critical_for_this_edit": false,
+          "local_read_radius_px": 8.262255304347827,
+          "candidate_output_xy": [
+            1072.9202559326084,
+            847.0593131478257
+          ],
+          "candidate_center_alpha": 0,
+          "original_plus_minus_2_source_px_disk": {
+            "radius_output_px": 10.118035304347826,
+            "min_alpha": 0,
+            "max_alpha": 0,
+            "opaque_fraction": 0.0
+          },
+          "nearest_visible_alpha128_silhouette_signed_distance_output_px": 110.64868714477065,
+          "nearest_visible_silhouette_signed_distance_source_px": 21.871575620461364,
+          "distance_convention": "positive outside alpha>128, negative inside; nearest edge midpoint sampling, +/-0.5 output px discretization; this is not a physics boundary",
+          "manual_material_read": "transparent_ground"
+        }
+      ]
+    },
+    {
+      "owner": "Building:3989@74,38",
+      "cell": [
+        74,
+        38
+      ],
+      "source_flag": 1,
+      "samples": [
+        {
+          "source_cell": [
+            74,
+            38
+          ],
+          "foot": 0,
+          "raw_xy": [
+            1160.0013673739131,
+            1036.6190018782609
+          ],
+          "local_2x_xy": [
+            620.0027347478263,
+            803.2380037565217
+          ],
+          "source_material": "source_grass_apron",
+          "required_support": false,
+          "required_ground_transparency": true,
+          "critical_for_this_edit": false,
+          "local_read_radius_px": 8.262255304347827,
+          "candidate_output_xy": [
+            759.2611614978263,
+            983.6527897565218
+          ],
+          "candidate_center_alpha": 0,
+          "original_plus_minus_2_source_px_disk": {
+            "radius_output_px": 10.118035304347826,
+            "min_alpha": 0,
+            "max_alpha": 0,
+            "opaque_fraction": 0.0
+          },
+          "nearest_visible_alpha128_silhouette_signed_distance_output_px": 84.37770649780052,
+          "nearest_visible_silhouette_signed_distance_source_px": 16.678674062649797,
+          "distance_convention": "positive outside alpha>128, negative inside; nearest edge midpoint sampling, +/-0.5 output px discretization; this is not a physics boundary",
+          "manual_material_read": "transparent_ground"
+        },
+        {
+          "source_cell": [
+            74,
+            38
+          ],
+          "foot": 1,
+          "raw_xy": [
+            1188.9192609391303,
+            1046.9468210086957
+          ],
+          "local_2x_xy": [
+            677.8385218782605,
+            823.8936420173914
+          ],
+          "source_material": "source_grass_apron",
+          "required_support": false,
+          "required_ground_transparency": true,
+          "critical_for_this_edit": false,
+          "local_read_radius_px": 8.262255304347827,
+          "candidate_output_xy": [
+            830.0874086282604,
+            1008.9478780173914
+          ],
+          "candidate_center_alpha": 0,
+          "original_plus_minus_2_source_px_disk": {
+            "radius_output_px": 10.118035304347826,
+            "min_alpha": 0,
+            "max_alpha": 0,
+            "opaque_fraction": 0.0
+          },
+          "nearest_visible_alpha128_silhouette_signed_distance_output_px": 141.31201995064043,
+          "nearest_visible_silhouette_signed_distance_source_px": 27.93269952120392,
+          "distance_convention": "positive outside alpha>128, negative inside; nearest edge midpoint sampling, +/-0.5 output px discretization; this is not a physics boundary",
+          "manual_material_read": "transparent_ground"
+        }
+      ]
+    }
+  ],
+  "visible_alpha": {
+    "zero_count": 568322,
+    "positive_count": 1004194,
+    "most_common_nonzero_alpha": 253,
+    "raw_untouched": true
+  },
+  "non_target_upper_context_change": {
+    "comparison": "Only full-canvas fixed resize to512 for QA; original upper150 rows",
+    "opaque_overlap_pixels": 68447,
+    "mean_absolute_RGB_difference": 4.869042227319434,
+    "fraction_mean_RGB_difference_gt12": 0.0843864595964761,
+    "note": "Pixel re-rendering exists. These differences do not estimate a transform or establish seam fit."
+  },
+  "native_detail_note": "1254 output is native generated output; input was enlarged reading aid. Local size alone does not certify entire building density or source registration.",
+  "critical_ground_edge_interpretation": {
+    "source_read_uncertainty_px": 2,
+    "center_alpha": 84,
+    "signed_silhouette_distance_source_px": 0.11189958825364167,
+    "manual_lowest_tread_front_top_edge_output_xy": [
+      [
+        594,
+        943
+      ],
+      [
+        949,
+        749
+      ]
+    ],
+    "manual_edge_read_uncertainty_output_px": 6,
+    "distance_from_front_top_edge_toward_vertical_front_riser_output_px": 29.024849262504432,
+    "interpretation": "The proxy falls at the vertical front riser outer silhouette, not safely clear. Its silhouette offset is much smaller than the original +/-2 source px toe-read budget. Classify edge-uncertain for joint review, not completely transparent and not a proven out-of-budget obstruction. Do not redraw merely to remove antialias coverage. Original flags/route remain unchanged."
+  }
+}

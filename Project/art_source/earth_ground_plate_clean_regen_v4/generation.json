@@ -1,0 +1,48 @@
+{
+  "status": "single clean-source v4 generation; parent approved bounded independent Earth sample after native joint2x review",
+  "mode": "built-in imagegen",
+  "attempt_limit": 1,
+  "target_size": [
+    1536,
+    1024
+  ],
+  "world_bounds": [
+    2496,
+    960,
+    3264,
+    1472
+  ],
+  "references": [
+    {
+      "file": "art_source/earth_ground_clean_regen_plan_v4/inputs/source-layout-empty-2x.png",
+      "sha256": "cd343ef42b70e3bd58111af3a6a75da004ec6aacf2074bb1d6abdcc4fd955ad8"
+    },
+    {
+      "file": "art_source/earth_ground_clean_regen_plan_v4/inputs/source-layout-with-scale-actor-2x.png",
+      "sha256": "36ffb86ad7cff0be1176ee5c6fcbd480866b4d5272b1b070d8e24a33ed5eb753"
+    },
+    {
+      "file": "art_source/earth_ground_clean_regen_plan_v4/inputs/concept-only-material-and-scale.png",
+      "sha256": "072aeddfb224f65c8f23b9d5294cba852a0168d6157ad924b83378b11b6fc97d"
+    }
+  ],
+  "prompt_sha256": "e2da09f8b0fe7ccd8cf007314b42c6a3cc9e1a2844fd3241d919b88fb09117f1",
+  "v2_v3_grass_inputs": false,
+  "pavement_material_redraw_allowed": true,
+  "runtime_installation_authorized": "designated runtime owner only; separate v4 path, P original-source fallback, preserve old v2",
+  "further_generation_authorized": false,
+  "raw": "raw.png",
+  "raw_size": [
+    1536,
+    1024
+  ],
+  "raw_mode": "RGB",
+  "raw_sha256": "a44d861c4485cb8596fb42681441675d1b9cefb3d8c48261113325c14492ae2f",
+  "tool_output_path": "/workspace/scratch/22c897619190/generated_images/exec-7ae9f335-82ed-4c28-99dc-5c94b8125b72.png",
+  "effective_density": [
+    2.0,
+    2.0
+  ],
+  "raw_edited_after_generation": false,
+  "review": "review.json"
+}

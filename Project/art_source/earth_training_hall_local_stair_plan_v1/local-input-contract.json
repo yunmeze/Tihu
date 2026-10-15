@@ -1,0 +1,893 @@
+{
+  "status": "LOCAL INPUT PLAN ONLY. No new imagegen/edit call, no composite replacement, no runtime changes.",
+  "raw_v2_sha256": "5dc43ba8c8f2b5c23832aa5e3178cde41546e5077dfb96ae7c5163d73e851d75",
+  "fixed_reference_from_plan_sha256": "e21f959981e3407306ac4c99b685cb8808c04b0737a59929ba2f0bb137271cfd",
+  "fixed_reference": {
+    "kind": "Freeze previous common scale+translation solely as an editing reference. It is NOT approved runtime registration. No refit to make new measurements pass.",
+    "density": 2.0655638260869567,
+    "raw_translation": [
+      -122.71376862608702,
+      -184.1292193391306
+    ],
+    "source_canvas_origin_world": [
+      2948,
+      642
+    ],
+    "why_usable_for_edit_plan": "Existing S1 and S2 fall inside conservative source+candidate read budgets; preserve those mouths/bottoms and correct deficient stair geometry. A valid remeasurement is mandatory after editing."
+  },
+  "scope": "Prefer one left-stair local edit first, inspect it under unchanged mapping; only then consider a separate right-stair edit. No third whole-building regeneration.",
+  "sides": {
+    "left": {
+      "raw_v2_crop_xyxy_half_open": [
+        130,
+        550,
+        642,
+        1062
+      ],
+      "raw_crop_size": [
+        512,
+        512
+      ],
+      "source_context_xyxy_half_open": [
+        122,
+        355,
+        371,
+        604
+      ],
+      "source_crop_size": [
+        249,
+        249
+      ],
+      "input_reference_enlargement": {
+        "current": 2,
+        "source": 4,
+        "filter": "nearest",
+        "meaning": "technical reading enlargement only; no synthesized pixels/detail and no density credit"
+      },
+      "recommended_future_inputs": [
+        "current-2x-reference.png",
+        "local-target-guide-2x.png",
+        "source-context-4x-reference.png"
+      ],
+      "target_support_boundary_local_2x": [
+        [
+          448.86295039999993,
+          411.4046430608694
+        ],
+        [
+          717.3862477913044,
+          576.6497491478258
+        ],
+        [
+          576.9279076173912,
+          787.3372594086957
+        ],
+        [
+          258.8310783999999,
+          609.6987703652173
+        ]
+      ],
+      "current_support_boundary_local_2x": [
+        [
+          446.0,
+          388.0
+        ],
+        [
+          708.0,
+          534.0
+        ],
+        [
+          506.0,
+          758.0
+        ],
+        [
+          238.0,
+          594.0
+        ]
+      ],
+      "source_foot_and_ground_constraints": [
+        {
+          "owner": "Building:3971@66,34",
+          "cell": [
+            66,
+            34
+          ],
+          "source_flag": 1,
+          "samples": [
+            {
+              "source_cell": [
+                66,
+                34
+              ],
+              "foot": 0,
+              "raw_xy": [
+                366.8248581565217,
+                772.2268321391304
+              ],
+              "local_2x_xy": [
+                473.6497163130434,
+                444.4536642782607
+              ],
+              "source_material": "support",
+              "required_support": true,
+              "required_ground_transparency": false,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            },
+            {
+              "source_cell": [
+                66,
+                34
+              ],
+              "foot": 1,
+              "raw_xy": [
+                395.74275172173907,
+                782.5546512695652
+              ],
+              "local_2x_xy": [
+                531.4855034434781,
+                465.10930253913034
+              ],
+              "source_material": "support",
+              "required_support": true,
+              "required_ground_transparency": false,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            }
+          ]
+        },
+        {
+          "owner": "Building:3974@65,35",
+          "cell": [
+            65,
+            35
+          ],
+          "source_flag": 1,
+          "samples": [
+            {
+              "source_cell": [
+                65,
+                35
+              ],
+              "foot": 0,
+              "raw_xy": [
+                267.6777945043478,
+                838.3248745739129
+              ],
+              "local_2x_xy": [
+                275.3555890086956,
+                576.6497491478258
+              ],
+              "source_material": "uncertain_cheek_edge",
+              "required_support": false,
+              "required_ground_transparency": false,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            },
+            {
+              "source_cell": [
+                65,
+                35
+              ],
+              "foot": 1,
+              "raw_xy": [
+                296.5956880695652,
+                848.6526937043478
+              ],
+              "local_2x_xy": [
+                333.1913761391304,
+                597.3053874086957
+              ],
+              "source_material": "support",
+              "required_support": true,
+              "required_ground_transparency": false,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            }
+          ]
+        },
+        {
+          "owner": "Building:3975@66,35",
+          "cell": [
+            66,
+            35
+          ],
+          "source_flag": 1,
+          "samples": [
+            {
+              "source_cell": [
+                66,
+                35
+              ],
+              "foot": 0,
+              "raw_xy": [
+                366.8248581565217,
+                838.3248745739129
+              ],
+              "local_2x_xy": [
+                473.6497163130434,
+                576.6497491478258
+              ],
+              "source_material": "support",
+              "required_support": true,
+              "required_ground_transparency": false,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            },
+            {
+              "source_cell": [
+                66,
+                35
+              ],
+              "foot": 1,
+              "raw_xy": [
+                395.74275172173907,
+                848.6526937043478
+              ],
+              "local_2x_xy": [
+                531.4855034434781,
+                597.3053874086957
+              ],
+              "source_material": "support",
+              "required_support": true,
+              "required_ground_transparency": false,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            }
+          ]
+        },
+        {
+          "owner": "Building:3979@65,36",
+          "cell": [
+            65,
+            36
+          ],
+          "source_flag": 1,
+          "samples": [
+            {
+              "source_cell": [
+                65,
+                36
+              ],
+              "foot": 0,
+              "raw_xy": [
+                267.6777945043478,
+                904.4229170086957
+              ],
+              "local_2x_xy": [
+                275.3555890086956,
+                708.8458340173913
+              ],
+              "source_material": "source_grass_apron",
+              "required_support": false,
+              "required_ground_transparency": true,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            },
+            {
+              "source_cell": [
+                65,
+                36
+              ],
+              "foot": 1,
+              "raw_xy": [
+                296.5956880695652,
+                914.7507361391303
+              ],
+              "local_2x_xy": [
+                333.1913761391304,
+                729.5014722782605
+              ],
+              "source_material": "source_grass_apron",
+              "required_support": false,
+              "required_ground_transparency": true,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            }
+          ]
+        },
+        {
+          "owner": "Building:3980@66,36",
+          "cell": [
+            66,
+            36
+          ],
+          "source_flag": 1,
+          "samples": [
+            {
+              "source_cell": [
+                66,
+                36
+              ],
+              "foot": 0,
+              "raw_xy": [
+                366.8248581565217,
+                904.4229170086957
+              ],
+              "local_2x_xy": [
+                473.6497163130434,
+                708.8458340173913
+              ],
+              "source_material": "support",
+              "required_support": true,
+              "required_ground_transparency": false,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            },
+            {
+              "source_cell": [
+                66,
+                36
+              ],
+              "foot": 1,
+              "raw_xy": [
+                395.74275172173907,
+                914.7507361391303
+              ],
+              "local_2x_xy": [
+                531.4855034434781,
+                729.5014722782605
+              ],
+              "source_material": "support",
+              "required_support": true,
+              "required_ground_transparency": false,
+              "critical_for_this_edit": true,
+              "local_read_radius_px": 8.262255304347827
+            }
+          ]
+        },
+        {
+          "owner": "Building:3985@66,37",
+          "cell": [
+            66,
+            37
+          ],
+          "source_flag": 1,
+          "samples": [
+            {
+              "source_cell": [
+                66,
+                37
+              ],
+              "foot": 0,
+              "raw_xy": [
+                366.8248581565217,
+                970.5209594434781
+              ],
+              "local_2x_xy": [
+                473.6497163130434,
+                841.0419188869562
+              ],
+              "source_material": "source_grass_apron",
+              "required_support": false,
+              "required_ground_transparency": true,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            },
+            {
+              "source_cell": [
+                66,
+                37
+              ],
+              "foot": 1,
+              "raw_xy": [
+                395.74275172173907,
+                980.8487785739129
+              ],
+              "local_2x_xy": [
+                531.4855034434781,
+                861.6975571478258
+              ],
+              "source_material": "source_grass_apron",
+              "required_support": false,
+              "required_ground_transparency": true,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            }
+          ]
+        }
+      ],
+      "files": {
+        "current-native.png": {
+          "sha256": "dca557af3e50962f64fb4a62b33d2ac2663dd7f94c0a7fe03a0c5f53578ca0f6",
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGBA"
+        },
+        "current-2x-reference.png": {
+          "sha256": "7a545f305da07e868d814015e8a86984c85eca95131c3400220d095ead080627",
+          "size": [
+            1024,
+            1024
+          ],
+          "mode": "RGBA"
+        },
+        "source-context-native.png": {
+          "sha256": "c173de8377e26c662d2685307fe8f5549cdc5366ef6fa973592de061b3850c36",
+          "size": [
+            249,
+            249
+          ],
+          "mode": "RGBA"
+        },
+        "source-context-4x-reference.png": {
+          "sha256": "8cb2986fdeb03e34916e587bd7a2e7640664a2ce37a6f081eb7c216ac187870b",
+          "size": [
+            996,
+            996
+          ],
+          "mode": "RGBA"
+        },
+        "local-target-guide-2x.png": {
+          "sha256": "ab54e869d617dabb7fe3cdbc04fd29114240d7a4db1124ce413d3555d67c5859",
+          "size": [
+            1024,
+            1024
+          ],
+          "mode": "RGB"
+        }
+      },
+      "fixed_return_contract": {
+        "expected_output_canvas": [
+          1024,
+          1024
+        ],
+        "local_generated_to_frozen_raw_scale": 0.5,
+        "local_generated_to_frozen_raw_translation": [
+          130,
+          550
+        ],
+        "raw_to_source_scale": 0.4841293148972399,
+        "raw_to_source_translation": [
+          59.409332733405925,
+          89.14235281121692
+        ],
+        "condition": "For 1024x1024 output use 0.5. If actual output is another square NxN canvas, use the single full-canvas scale 512/N on both axes and record it. If aspect ratio changes or context shifts independently, reject; never bbox-fit, refit controls, or warp. Context anchors must verify framing after the canvas-ratio mapping.",
+        "do_not_claim_density": "Enlarged input is not new detail. Any native generated local detail and eventual imported density require independent measurement."
+      }
+    },
+    "right": {
+      "raw_v2_crop_xyxy_half_open": [
+        850,
+        635,
+        1362,
+        1147
+      ],
+      "raw_crop_size": [
+        512,
+        512
+      ],
+      "source_context_xyxy_half_open": [
+        470,
+        396,
+        719,
+        645
+      ],
+      "source_crop_size": [
+        249,
+        249
+      ],
+      "input_reference_enlargement": {
+        "current": 2,
+        "source": 4,
+        "filter": "nearest",
+        "meaning": "technical reading enlargement only; no synthesized pixels/detail and no density credit"
+      },
+      "recommended_future_inputs": [
+        "current-2x-reference.png",
+        "local-target-guide-2x.png",
+        "source-context-4x-reference.png"
+      ],
+      "target_support_boundary_local_2x": [
+        [
+          368.0039479652178,
+          559.5014722782605
+        ],
+        [
+          624.1338624,
+          381.8629832347824
+        ],
+        [
+          826.5591173565217,
+          584.2882381913043
+        ],
+        [
+          516.7245434434781,
+          749.5333442782605
+        ]
+      ],
+      "current_support_boundary_local_2x": [
+        [
+          336.0,
+          562.0
+        ],
+        [
+          590.0,
+          426.0
+        ],
+        [
+          786.0,
+          630.0
+        ],
+        [
+          510.0,
+          794.0
+        ]
+      ],
+      "source_foot_and_ground_constraints": [
+        {
+          "owner": "Building:3976@73,35",
+          "cell": [
+            73,
+            35
+          ],
+          "source_flag": 1,
+          "samples": [
+            {
+              "source_cell": [
+                73,
+                35
+              ],
+              "foot": 0,
+              "raw_xy": [
+                1060.8543037217391,
+                838.3248745739129
+              ],
+              "local_2x_xy": [
+                421.7086074434783,
+                406.6497491478258
+              ],
+              "source_material": "support",
+              "required_support": true,
+              "required_ground_transparency": false,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            },
+            {
+              "source_cell": [
+                73,
+                35
+              ],
+              "foot": 1,
+              "raw_xy": [
+                1089.7721972869567,
+                848.6526937043478
+              ],
+              "local_2x_xy": [
+                479.54439457391345,
+                427.30538740869565
+              ],
+              "source_material": "support",
+              "required_support": true,
+              "required_ground_transparency": false,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            }
+          ]
+        },
+        {
+          "owner": "Building:3981@73,36",
+          "cell": [
+            73,
+            36
+          ],
+          "source_flag": 1,
+          "samples": [
+            {
+              "source_cell": [
+                73,
+                36
+              ],
+              "foot": 0,
+              "raw_xy": [
+                1060.8543037217391,
+                904.4229170086957
+              ],
+              "local_2x_xy": [
+                421.7086074434783,
+                538.8458340173913
+              ],
+              "source_material": "support",
+              "required_support": true,
+              "required_ground_transparency": false,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            },
+            {
+              "source_cell": [
+                73,
+                36
+              ],
+              "foot": 1,
+              "raw_xy": [
+                1089.7721972869567,
+                914.7507361391303
+              ],
+              "local_2x_xy": [
+                479.54439457391345,
+                559.5014722782605
+              ],
+              "source_material": "support",
+              "required_support": true,
+              "required_ground_transparency": false,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            }
+          ]
+        },
+        {
+          "owner": "Building:3982@74,36",
+          "cell": [
+            74,
+            36
+          ],
+          "source_flag": 1,
+          "samples": [
+            {
+              "source_cell": [
+                74,
+                36
+              ],
+              "foot": 0,
+              "raw_xy": [
+                1160.0013673739131,
+                904.4229170086957
+              ],
+              "local_2x_xy": [
+                620.0027347478263,
+                538.8458340173913
+              ],
+              "source_material": "support",
+              "required_support": true,
+              "required_ground_transparency": false,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            },
+            {
+              "source_cell": [
+                74,
+                36
+              ],
+              "foot": 1,
+              "raw_xy": [
+                1188.9192609391303,
+                914.7507361391303
+              ],
+              "local_2x_xy": [
+                677.8385218782605,
+                559.5014722782605
+              ],
+              "source_material": "support",
+              "required_support": true,
+              "required_ground_transparency": false,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            }
+          ]
+        },
+        {
+          "owner": "Building:3986@74,37",
+          "cell": [
+            74,
+            37
+          ],
+          "source_flag": 1,
+          "samples": [
+            {
+              "source_cell": [
+                74,
+                37
+              ],
+              "foot": 0,
+              "raw_xy": [
+                1160.0013673739131,
+                970.5209594434781
+              ],
+              "local_2x_xy": [
+                620.0027347478263,
+                671.0419188869562
+              ],
+              "source_material": "support",
+              "required_support": true,
+              "required_ground_transparency": false,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            },
+            {
+              "source_cell": [
+                74,
+                37
+              ],
+              "foot": 1,
+              "raw_xy": [
+                1188.9192609391303,
+                980.8487785739129
+              ],
+              "local_2x_xy": [
+                677.8385218782605,
+                691.6975571478258
+              ],
+              "source_material": "source_grass_apron",
+              "required_support": false,
+              "required_ground_transparency": true,
+              "critical_for_this_edit": true,
+              "local_read_radius_px": 8.262255304347827
+            }
+          ]
+        },
+        {
+          "owner": "Building:3987@75,37",
+          "cell": [
+            75,
+            37
+          ],
+          "source_flag": 1,
+          "samples": [
+            {
+              "source_cell": [
+                75,
+                37
+              ],
+              "foot": 0,
+              "raw_xy": [
+                1259.148431026087,
+                970.5209594434781
+              ],
+              "local_2x_xy": [
+                818.2968620521742,
+                671.0419188869562
+              ],
+              "source_material": "source_grass_apron",
+              "required_support": false,
+              "required_ground_transparency": true,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            },
+            {
+              "source_cell": [
+                75,
+                37
+              ],
+              "foot": 1,
+              "raw_xy": [
+                1288.0663245913042,
+                980.8487785739129
+              ],
+              "local_2x_xy": [
+                876.1326491826085,
+                691.6975571478258
+              ],
+              "source_material": "source_grass_apron",
+              "required_support": false,
+              "required_ground_transparency": true,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            }
+          ]
+        },
+        {
+          "owner": "Building:3989@74,38",
+          "cell": [
+            74,
+            38
+          ],
+          "source_flag": 1,
+          "samples": [
+            {
+              "source_cell": [
+                74,
+                38
+              ],
+              "foot": 0,
+              "raw_xy": [
+                1160.0013673739131,
+                1036.6190018782609
+              ],
+              "local_2x_xy": [
+                620.0027347478263,
+                803.2380037565217
+              ],
+              "source_material": "source_grass_apron",
+              "required_support": false,
+              "required_ground_transparency": true,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            },
+            {
+              "source_cell": [
+                74,
+                38
+              ],
+              "foot": 1,
+              "raw_xy": [
+                1188.9192609391303,
+                1046.9468210086957
+              ],
+              "local_2x_xy": [
+                677.8385218782605,
+                823.8936420173914
+              ],
+              "source_material": "source_grass_apron",
+              "required_support": false,
+              "required_ground_transparency": true,
+              "critical_for_this_edit": false,
+              "local_read_radius_px": 8.262255304347827
+            }
+          ]
+        }
+      ],
+      "files": {
+        "current-native.png": {
+          "sha256": "04726f55758962b1fb29de7e44e6ec75e2dbb556020ffff8a68a18ab90598ab5",
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGBA"
+        },
+        "current-2x-reference.png": {
+          "sha256": "85ea97e1ed31795a933e899961bd539c63c630e7b6c3f3e1089edc125ece6503",
+          "size": [
+            1024,
+            1024
+          ],
+          "mode": "RGBA"
+        },
+        "source-context-native.png": {
+          "sha256": "36f805741219de2b77fd0c966be75d237d14867c890bbb80984e349e39fd2b98",
+          "size": [
+            249,
+            249
+          ],
+          "mode": "RGBA"
+        },
+        "source-context-4x-reference.png": {
+          "sha256": "435d157df6e4cbfdd8bfea85757153cffff1b78d173c4c710d9b499701954466",
+          "size": [
+            996,
+            996
+          ],
+          "mode": "RGBA"
+        },
+        "local-target-guide-2x.png": {
+          "sha256": "9c3182455909152ae9461bba94ff0107a8ffc2f30947973f1c9e2079a5cae56d",
+          "size": [
+            1024,
+            1024
+          ],
+          "mode": "RGB"
+        }
+      },
+      "fixed_return_contract": {
+        "expected_output_canvas": [
+          1024,
+          1024
+        ],
+        "local_generated_to_frozen_raw_scale": 0.5,
+        "local_generated_to_frozen_raw_translation": [
+          850,
+          635
+        ],
+        "raw_to_source_scale": 0.4841293148972399,
+        "raw_to_source_translation": [
+          59.409332733405925,
+          89.14235281121692
+        ],
+        "condition": "For 1024x1024 output use 0.5. If actual output is another square NxN canvas, use the single full-canvas scale 512/N on both axes and record it. If aspect ratio changes or context shifts independently, reject; never bbox-fit, refit controls, or warp. Context anchors must verify framing after the canvas-ratio mapping.",
+        "do_not_claim_density": "Enlarged input is not new detail. Any native generated local detail and eventual imported density require independent measurement."
+      }
+    }
+  },
+  "replacement_constraints": [
+    "Current whole-building v2 remains untouched. Future result must be archived raw before any placement work.",
+    "A local generated context crop must not be pasted as a rectangle over the building. Keep context for alignment; replace only the actual stair/side-cheek/necessary landing-seam material with documented transparent ownership.",
+    "Old staircase pixels must be explicitly retired where the approved new assembly replaces them. Do not overlay a new flight while retaining ghost old cheeks/steps underneath.",
+    "Allowed pixel operations after approval: fixed scale/translation, crop and transparent material partition only. No mesh warp, local affine pull, perspective correction, procedural stair drawing, RGB retouch or blur to hide a seam.",
+    "Any newly exposed part needs genuine generated material or true transparency; never invent hidden geometry with code.",
+    "Compare seam joins at raw 100% and source-logical scale. Door sill, landing plane, side-cheek connection and adjoining main pier/foundation must match. Reject if a seam or change outside the stairs cannot be resolved by the fixed placement.",
+    "Inspect the full stair edge, all 24 source foot samples and source grass boundary. A point/alpha pass alone is not a support, collision, height or native depth pass."
+  ],
+  "reproduce": "python Project/art_source/earth_training_hall_local_stair_plan_v1/build_local_inputs.py"
+}

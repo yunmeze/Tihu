@@ -1,0 +1,7 @@
+Use case: sketch-to-render. Asset: high-density pure-2D game ground plate.
+
+Create one continuous pure-2D ground plate at native 1536×1024, same camera and framing as image 1. Image 1 contains ONLY source geometry labels: green=lawn, gray=paving, magenta=uncertain curb boundary band, not a physical colored or raised border. Preserve the capped diagonal road, bottom opening and grass gap; do not connect or enlarge the route. Render new materials throughout; no previous pavement texture or pixel identity must be retained.
+
+Image 2 adds one correctly sized game protagonist only as a scale ruler: his visible body is 144 px tall. Final output contains NO person or human shadow. Image 3 is accepted concept material/scale reference only.
+
+Make a short-cut natural medium-green training-ground lawn, mostly a quiet flat plane with tiny distinct grass grain, ordinary visible tips about 1–3 px and rare 4–6 px. Add broad gentle low-contrast color/density variation and a few sparse patches. No curled wiry grass, large leaf rosettes, tuft-pits, plush fur, moss, plastic, blur or repeating patterns. Use neutral-gray engineered slabs with restrained joints and a thin flush drainage edge. Warm upper-left light, cool fill, tiny grass self-shading only. No buildings, trees, bushes, flowers, planters, new steps, large cast shadows, labels or panels.

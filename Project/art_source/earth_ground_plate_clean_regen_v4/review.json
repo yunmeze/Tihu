@@ -1,0 +1,192 @@
+{
+  "status": "Parent viewed raw and native joint2x and approved v4 as the independent Earth sample candidate. Warm highlight/lighting review remains; not global final-art approval.",
+  "raw": {
+    "sha256": "a44d861c4485cb8596fb42681441675d1b9cefb3d8c48261113325c14492ae2f",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "world_bounds_xyxy": [
+      2496,
+      960,
+      3264,
+      1472
+    ],
+    "effective_texels_per_logical": [
+      2,
+      2
+    ],
+    "modified_after_generation": false
+  },
+  "generation_input_check": "Only clean source semantic geometry, same-geometry actual actor-scale reference and concept-only material/scale panel; no v2/v3 grass supplied to imagegen.",
+  "source_layout": {
+    "samples": [
+      {
+        "source_center_raw": [
+          382,
+          834
+        ],
+        "v4_center_raw_approx": [
+          385,
+          833
+        ],
+        "delta_logical": [
+          1.5,
+          -0.5
+        ],
+        "distance_logical": 1.5811388300841898
+      },
+      {
+        "source_center_raw": [
+          768,
+          578
+        ],
+        "v4_center_raw_approx": [
+          771,
+          576
+        ],
+        "delta_logical": [
+          1.5,
+          -1.0
+        ],
+        "distance_logical": 1.8027756377319946
+      },
+      {
+        "source_center_raw": [
+          960,
+          582
+        ],
+        "v4_center_raw_approx": [
+          959,
+          576
+        ],
+        "delta_logical": [
+          -0.5,
+          -3.0
+        ],
+        "distance_logical": 3.0413812651491097
+      },
+      {
+        "source_center_raw": [
+          1048,
+          636
+        ],
+        "v4_center_raw_approx": [
+          1050,
+          637
+        ],
+        "delta_logical": [
+          1.0,
+          0.5
+        ],
+        "distance_logical": 1.118033988749895
+      },
+      {
+        "source_center_raw": [
+          1048,
+          774
+        ],
+        "v4_center_raw_approx": [
+          1050,
+          769
+        ],
+        "delta_logical": [
+          1.0,
+          -2.5
+        ],
+        "distance_logical": 2.692582403567252
+      },
+      {
+        "source_center_raw": [
+          872,
+          896
+        ],
+        "v4_center_raw_approx": [
+          874,
+          896
+        ],
+        "delta_logical": [
+          1.0,
+          0.0
+        ],
+        "distance_logical": 1.0
+      }
+    ],
+    "maximum_center_distance_logical": 3.0413812651491097,
+    "source_manual_read_uncertainty_logical": 3,
+    "v4_manual_read_uncertainty_raw": 3,
+    "edge_case": "Third/top-right cap-center read is approximately(959,576) versus source(960,582), 3.041 logical pixels. Given original±3 logical and current±1.5 logical reading uncertainty, this is a boundary-precision caveat, not a proven hard failure or proof of exact alignment.",
+    "parent_disposition": "Approved as bounded independent-sample candidate after native joint2x review with this uncertainty disclosed; do not warp or regenerate for this read.",
+    "shape": "Same capped diagonal route, bottom opening and approximately186-logical-pixel grass gap before left stairs. No new connector, step, planter or obstacle. New top curb is somewhat more horizontal; edge thickness and exact outer silhouette are finite-precision visual reads."
+  },
+  "material_review": {
+    "grass": "Object scale clearly changed: dense large curled leaf rosettes and deep tuft-pits are largely replaced by much finer short grass/granular ground texture and broad flat variation. Still warm/yellow-highlighted; needs joint actual1x/2x visual judgment, no independent color reroll.",
+    "pavement": "Entire neutral engineered slab surface, seams and small flush drain details were regenerated, as explicitly authorized. No pixel-identity claim to v2/v3 and no restoration/compositing.",
+    "content": "No person, person shadow, building, tree, flowerbed, new raised planter or large object cast observed."
+  },
+  "grass_descriptive_metrics": {
+    "v2": {
+      "mean_srgb": [
+        71.39348860540461,
+        82.39972740716196,
+        37.65217414647915
+      ],
+      "mean_display_luma_neighbor_difference": 14.044022462594661
+    },
+    "v3": {
+      "mean_srgb": [
+        85.24238979702035,
+        93.88180331590702,
+        43.139408149866235
+      ],
+      "mean_display_luma_neighbor_difference": 16.476865611896898
+    },
+    "v4": {
+      "mean_srgb": [
+        106.8520274955207,
+        115.69774102299782,
+        47.148567698745794
+      ],
+      "mean_display_luma_neighbor_difference": 19.600936684014904
+    },
+    "limitation": "Display-space descriptive proxies only. Cannot establish blade length, perceptual quietness, physical lighting or final acceptance."
+  },
+  "runtime_boundary": "Parent approved separate ground_plate_v4 direct64-owner export and designated runtime owner switching the independent Earth sample default to v4; keep P original-source fallback and retain old v2 files. No automatic further generation.",
+  "native_evidence": {
+    "conclusion": "Real same-camera actor61,39/SE13 1x/2x comparison completed; parent viewed joint2x and approved bounded independent-sample v4 candidate. Warm/yellow highlights remain for unified lighting review.",
+    "archive_policy": "Runtime screenshots/logs local-only; retain hashes and conclusions, no archive closure.",
+    "files": [
+      {
+        "local_path": "/workspace/shared/earth-ground-v4/v2-1x.png",
+        "sha256": "f75c99ee2839657122953c24e5d327f98cc8272f4a800e3ab9423050dba0d5b5",
+        "bytes": 1112484,
+        "archive": false
+      },
+      {
+        "local_path": "/workspace/shared/earth-ground-v4/v4-1x.png",
+        "sha256": "0d2ea950eb06cad1f6c496bc67b3495e17ae80c1cc831768db844385bb093ea2",
+        "bytes": 1154260,
+        "archive": false
+      },
+      {
+        "local_path": "/workspace/shared/earth-ground-v4/v2-2x.png",
+        "sha256": "dd3e673a2954ad6fd1616fe4a416007e8122b3b89dd3adf0c70ce13590eaeabb",
+        "bytes": 3210027,
+        "archive": false
+      },
+      {
+        "local_path": "/workspace/shared/earth-ground-v4/v4-2x.png",
+        "sha256": "fbbd382cbddecf9fec0b54f97472cb80557bf66fd607143b196dc711c807d110",
+        "bytes": 3467246,
+        "archive": false
+      },
+      {
+        "local_path": "/workspace/shared/earth-ground-v4/native.log",
+        "sha256": "9ca02316c2adff944d2bf4a9be4334499c7bd861cb44e83bdf5ced8770ef6016",
+        "bytes": 917,
+        "archive": false
+      }
+    ]
+  }
+}

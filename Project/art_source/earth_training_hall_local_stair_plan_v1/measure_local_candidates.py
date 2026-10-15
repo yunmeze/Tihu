@@ -1,0 +1,29 @@
+"""Read-only raw QA, fixed full-canvas ratio only; never fits/warps any candidate."""
+from pathlib import Path
+from PIL import Image,ImageDraw,ImageFont
+import json,hashlib,math
+import numpy as np
+L=Path(__file__).resolve().parent;P=L.parents[1];contract=json.loads((L/'local-input-contract.json').read_text());d=contract['fixed_reference']['density'];t=np.array(contract['fixed_reference']['raw_translation'])
+for side in ['left','right']:
+ C=L.parent/f'earth_training_hall_{side}_stair_candidate_v1';s=contract['sides'][side];raw=Image.open(C/'raw.png').convert('RGBA');a=np.asarray(raw);n=raw.width;factor=n/1024;scale=512/n;alpha=a[:,:,3];solid=alpha>128
+ # Edge-midpoint samples of the discrete alpha>128 silhouette. Half-pixel discretization retained in reported uncertainty.
+ ys,xs=np.where(solid[:,:-1]!=solid[:,1:]);e1=np.column_stack([xs+.5,ys]);ys,xs=np.where(solid[:-1,:]!=solid[1:,:]);e2=np.column_stack([xs,ys+.5]);edge=np.concatenate([e1,e2])
+ rows=[]
+ for row in s['source_foot_and_ground_constraints']:
+  rr={k:v for k,v in row.items()if k!='samples'};rr['samples']=[]
+  for q in row['samples']:
+   x,y=np.array(q['local_2x_xy'])*factor;r=q['local_read_radius_px']*factor;ix,iy=round(x),round(y);ys,xs=np.mgrid[max(0,math.floor(y-r)):min(n,math.ceil(y+r)+1),max(0,math.floor(x-r)):min(n,math.ceil(x+r)+1)];vals=alpha[ys,xs][(xs-x)**2+(ys-y)**2<=r*r];dist=float(np.sqrt(((edge-np.array([x,y]))**2).sum(1)).min());sign=-1 if alpha[iy,ix]>128 else 1
+   material='stair_tread_or_narrow_riser'if q['required_support']else'transparent_ground';material='landing_surface'if row['cell'] in [[66,34],[73,35]]else material
+   if q['source_material']=='uncertain_cheek_edge':material='tread_at_uncertain_source_edge'
+   if side=='right'and q['critical_for_this_edit']:material='front_riser_outer_silhouette_edge; not fully transparent, within original toe-read uncertainty'
+   rr['samples'].append({**q,'candidate_output_xy':[x,y],'candidate_center_alpha':int(alpha[iy,ix]),'original_plus_minus_2_source_px_disk':{'radius_output_px':r,'min_alpha':int(vals.min()),'max_alpha':int(vals.max()),'opaque_fraction':float((vals>128).mean())},'nearest_visible_alpha128_silhouette_signed_distance_output_px':sign*dist,'nearest_visible_silhouette_signed_distance_source_px':sign*dist*scale/d,'distance_convention':'positive outside alpha>128, negative inside; nearest edge midpoint sampling, +/-0.5 output px discretization; this is not a physics boundary','manual_material_read':material})
+  rows.append(rr)
+ old=Image.open(L/side/'current-native.png').convert('RGBA');new=raw.resize((512,512),Image.Resampling.LANCZOS);oldarr=np.asarray(old).astype(float);newarr=np.asarray(new).astype(float)
+ # A context region well above either stair; never use it to estimate/apply new transforms.
+ keep=np.zeros((512,512),bool);keep[:150,:]=True;both=(oldarr[:,:,3]>128)&(newarr[:,:,3]>128)&keep;diff=np.abs(oldarr[:,:,:3]-newarr[:,:,:3]).mean(2)
+ report={'status':'fixed-frame local candidate review only; no runtime or final registration','side':side,'raw_sha256':hashlib.sha256((C/'raw.png').read_bytes()).hexdigest(),'actual_size':list(raw.size),'mapping':{'candidate_to_whole_raw_scale':scale,'candidate_to_whole_raw_translation':s['raw_v2_crop_xyxy_half_open'][:2],'basis':'full input/output canvas ratio only, no bbox fit or control refit','unchanged_whole_raw_to_source':contract['fixed_reference']},'foot_rows':rows,'visible_alpha':{'zero_count':int((alpha==0).sum()),'positive_count':int((alpha>0).sum()),'most_common_nonzero_alpha':int(np.bincount(alpha[alpha>0]).argmax()),'raw_untouched':True},'non_target_upper_context_change':{'comparison':'Only full-canvas fixed resize to512 for QA; original upper150 rows','opaque_overlap_pixels':int(both.sum()),'mean_absolute_RGB_difference':float(diff[both].mean()),'fraction_mean_RGB_difference_gt12':float((diff[both]>12).mean()),'note':'Pixel re-rendering exists. These differences do not estimate a transform or establish seam fit.'},'native_detail_note':'1254 output is native generated output; input was enlarged reading aid. Local size alone does not certify entire building density or source registration.'}
+ if side=='right':
+  q=[q for r in rows for q in r['samples']if q['critical_for_this_edit']][0];point=np.array(q['candidate_output_xy']);top_a=np.array([594,943]);top_b=np.array([949,749]);v=top_b-top_a;cross=v[0]*(point[1]-top_a[1])-v[1]*(point[0]-top_a[0]);report['critical_ground_edge_interpretation']={'source_read_uncertainty_px':2,'center_alpha':q['candidate_center_alpha'],'signed_silhouette_distance_source_px':q['nearest_visible_silhouette_signed_distance_source_px'],'manual_lowest_tread_front_top_edge_output_xy':[top_a.tolist(),top_b.tolist()],'manual_edge_read_uncertainty_output_px':6,'distance_from_front_top_edge_toward_vertical_front_riser_output_px':float(cross/np.linalg.norm(v)),'interpretation':'The proxy falls at the vertical front riser outer silhouette, not safely clear. Its silhouette offset is much smaller than the original +/-2 source px toe-read budget. Classify edge-uncertain for joint review, not completely transparent and not a proven out-of-budget obstruction. Do not redraw merely to remove antialias coverage. Original flags/route remain unchanged.'}
+ else:report['interpretation']='All seven clear source support toes land on actual stair/landing and all four source grass toes have zero alpha throughout original +/-2 source px disks. The eighth toe is originally uncertain edge. Context pier foot changed, so do not paste rectangle. Preserve original pier and select only actual staircase/cheek material for a diagnostic assembly.'
+ (C/'measurements.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+ print(side,'critical',[(q['candidate_center_alpha'],q['nearest_visible_silhouette_signed_distance_source_px'])for r in rows for q in r['samples']if q['critical_for_this_edit']])

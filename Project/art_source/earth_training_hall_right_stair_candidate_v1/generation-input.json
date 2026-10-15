@@ -1,0 +1,64 @@
+{
+  "status": "raw frozen and fixed-frame measured; selected material pixels used only in approved joint-review assembly, final native acceptance pending",
+  "approval_utc": "2026-10-15T08:43:05Z",
+  "scope": "Right staircase and its own cheeks/necessary seam only. Candidate review, no runtime/automatic promotion.",
+  "generator": "built-in imagegen",
+  "transparent_background": true,
+  "inputs": [
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/right/current-2x-reference.png",
+      "sha256": "85ea97e1ed31795a933e899961bd539c63c630e7b6c3f3e1089edc125ece6503",
+      "size": [
+        1024,
+        1024
+      ],
+      "role": "edit target, fixed composition and current material/light"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/right/local-target-guide-2x.png",
+      "sha256": "9c3182455909152ae9461bba94ff0107a8ffc2f30947973f1c9e2079a5cae56d",
+      "size": [
+        1024,
+        1024
+      ],
+      "role": "same-frame source-boundary and ground/sample constraints"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/right/source-context-4x-reference.png",
+      "sha256": "435d157df6e4cbfdd8bfea85757153cffff1b78d173c4c710d9b499701954466",
+      "size": [
+        996,
+        996
+      ],
+      "role": "original geometry/material-boundary only"
+    }
+  ],
+  "prompt_sha256": "c6a6fb31a352886163ba10e9d5e45251be98e657efa9cd5474f7955f08c3d84a",
+  "local_plan_sha256": "249ca4821b6b67b98e9de9888b2ffc94b71feb44b5b11d4475c6566fc27646b1",
+  "frozen_whole_v2_raw_sha256": "5dc43ba8c8f2b5c23832aa5e3178cde41546e5077dfb96ae7c5163d73e851d75",
+  "fixed_crop_origin_raw": [
+    850,
+    635
+  ],
+  "input_canvas": [
+    1024,
+    1024
+  ],
+  "fixed_output_mapping": "For NxN output: whole_v2_raw = local*(512/N)+[850,635]. Single full-canvas ratio only; no bbox/control refit, no warp. Reject changed aspect or independent context drift.",
+  "raw": {
+    "path": "raw.png",
+    "sha256": "02c406984828c636887fc64d82e7292cede74581e2056b12e2d14c5a1ed34495",
+    "bytes": 1756115,
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "generated_source_path": "/workspace/scratch/22c897619190/generated_images/exec-293b102b-e366-4a48-8b07-c058e188e9ea.png"
+  },
+  "output_utc": "2026-10-15T08:45:24Z",
+  "actual_local_to_whole_scale": 0.4082934609250399,
+  "review": "REVIEW.md",
+  "measurements": "measurements.json",
+  "reproduce_measurements": "python Project/art_source/earth_training_hall_local_stair_plan_v1/measure_local_candidates.py"
+}

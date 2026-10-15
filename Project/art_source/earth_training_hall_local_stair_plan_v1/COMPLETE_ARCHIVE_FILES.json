@@ -1,0 +1,445 @@
+{
+  "scope": "Complete Earth training-hall source package, v1/v2 raw history, local input/edit raws, approved joint-review assembly and30-owner candidate. Excludes temporary/reproducible image diagnostics; never excludes actual imagegen inputs. Ordinary runtime-assets bundle, if later approved, has its own inventory.",
+  "files": [
+    {
+      "path": "art_source/earth_training_hall_source_v1/README.md",
+      "bytes": 6153,
+      "sha256": "eeb2e3c5911d1b51d5059763f0c9379b51a667353767c0120dac1b083e17442e"
+    },
+    {
+      "path": "art_source/earth_training_hall_source_v1/build_inputs.py",
+      "bytes": 15222,
+      "sha256": "a7a975e77984857c798190a2c2283cd6f46ac0ebd47c48d1c9ada31d8a42e0b5"
+    },
+    {
+      "path": "art_source/earth_training_hall_source_v1/source-full.png",
+      "bytes": 534104,
+      "sha256": "375f5bb962fa5df8f6a305820f80b5f183864dc2492ca0827fe5fc71887130cc"
+    },
+    {
+      "path": "art_source/earth_training_hall_source_v1/concept-building-crop.png",
+      "bytes": 491248,
+      "sha256": "af7d9ff3ec0cd843909d1604973d6b60ad8379fcd5bffd43c773f33943f25624"
+    },
+    {
+      "path": "art_source/earth_training_hall_source_v1/input-contract.json",
+      "bytes": 53048,
+      "sha256": "f99d5cbd19cbe398396d8d1c90ec4f3511785fc3912886f98a4020ce7e3aaf14"
+    },
+    {
+      "path": "art_source/earth_training_hall_source_v1/prompt-draft.txt",
+      "bytes": 6134,
+      "sha256": "f03961cb7c0ccc6a350b9d5e3267f90c791232ff33edca2350a0fcf20287d534"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v1/raw.png",
+      "bytes": 2206840,
+      "sha256": "a81ff1d6ac235d80e5d948a804c2959b1b9b3babaed054897d396620b4bf9033"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v1/prompt.txt",
+      "bytes": 5902,
+      "sha256": "5abd5ad549631f4360e05ae6af03ff385b980bd9f11332762b94d58d943ccf0c"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v1/generation-input.json",
+      "bytes": 1836,
+      "sha256": "db041f903864503b7fd54213ee0e320a83487d8522b6c1286674f05413fa0346"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v1/measure_candidate.py",
+      "bytes": 9555,
+      "sha256": "f580dd645bd81eafd3a7a1be7ec312824f07c9caa66fc9cb7a19c1963ffb8212"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v1/measurements.json",
+      "bytes": 7744,
+      "sha256": "05d3c2bc529c20c96861ce984a608b49b66f9c612e08d3e56c0be84bbd2b1543"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v1/REVIEW.md",
+      "bytes": 4457,
+      "sha256": "89e0afd284fb62ddc2bf17d6e354080bd7f58a4cf5775afddec3ec3526815e34"
+    },
+    {
+      "path": "art_source/earth_training_hall_edit_plan_v1/build_plan.py",
+      "bytes": 16868,
+      "sha256": "4ca04c1619ba6c07041f85301d3c29d979c3719562216df8ace9acaddeb806e6"
+    },
+    {
+      "path": "art_source/earth_training_hall_edit_plan_v1/edit-plan.json",
+      "bytes": 43846,
+      "sha256": "e21f959981e3407306ac4c99b685cb8808c04b0737a59929ba2f0bb137271cfd"
+    },
+    {
+      "path": "art_source/earth_training_hall_edit_plan_v1/EDIT_PROPOSAL.md",
+      "bytes": 5819,
+      "sha256": "a467306bb4e58f1f65d9f43e76a0b2374a9c3ba265ad35f4ebe2c3fa386bfee0"
+    },
+    {
+      "path": "art_source/earth_training_hall_edit_plan_v1/edit-prompt-draft.txt",
+      "bytes": 4832,
+      "sha256": "7779909d23ff2d403cb0b6c5187959e9d7439acc315f52af9fb6dd3569f86b54"
+    },
+    {
+      "path": "art_source/earth_training_hall_edit_plan_v1/raw-edit-targets.png",
+      "bytes": 1814054,
+      "sha256": "cd2c15ed3df2ecbdcd4e40a0d74b39d5a4381bab207a5a2a5da7fb905faec921"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v2/raw.png",
+      "bytes": 2055190,
+      "sha256": "5dc43ba8c8f2b5c23832aa5e3178cde41546e5077dfb96ae7c5163d73e851d75"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v2/prompt.txt",
+      "bytes": 4527,
+      "sha256": "c6d753b9d6dcd665a00854adceaf228dfa665bd524c8f15a5152f9567d631c88"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v2/generation-input.json",
+      "bytes": 2359,
+      "sha256": "8eda0aabe71fc2a6b297897ab27bf61b6e530c0a2760d18752849e6667380edf"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v2/measure_fixed_reference.py",
+      "bytes": 8473,
+      "sha256": "6fba38335a4c55243ea7da7d436720883dc6094abc41b20f5971692d2f8da46a"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v2/measurements.json",
+      "bytes": 25239,
+      "sha256": "d951ea8ea3c1453193ce6517b47ebe54000d19c49a8f4716f1b7824a6e723394"
+    },
+    {
+      "path": "art_source/earth_training_hall_candidate_v2/REVIEW.md",
+      "bytes": 2930,
+      "sha256": "8e2dfb2969f85748ce3668f7024042db00c9a8b12591388a9b76071ce63ff0e9"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/build_local_inputs.py",
+      "bytes": 8965,
+      "sha256": "570140fa046c224abd4f4269491f62121d216cf8fa0f76451795512d43021d06"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/measure_local_candidates.py",
+      "bytes": 5897,
+      "sha256": "05feda1d0cfb3f82cc070ea6d73f95e064ad4830f95d09e6950ae9eee0c02c31"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/build_archive_inventory.py",
+      "bytes": 4354,
+      "sha256": "5d712a58a24866dd00b27adb719c068c95e014b6b15c438ea0201cf9162c0f83"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/local-input-contract.json",
+      "bytes": 26638,
+      "sha256": "249ca4821b6b67b98e9de9888b2ffc94b71feb44b5b11d4475c6566fc27646b1"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/LOCAL_EDIT_PROPOSAL.md",
+      "bytes": 4512,
+      "sha256": "175e439e1ade0ab75038c66a10993574304c7e96e5bd1c43d2e4ebe14fe849b7"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/left/prompt-draft.txt",
+      "bytes": 3992,
+      "sha256": "adbce9ee25815f1bd6c99d9a5ede4c2096fdd42f099ce4b8f625f290abb90ce0"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/left/current-2x-reference.png",
+      "bytes": 502061,
+      "sha256": "7a545f305da07e868d814015e8a86984c85eca95131c3400220d095ead080627"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/left/local-target-guide-2x.png",
+      "bytes": 501513,
+      "sha256": "ab54e869d617dabb7fe3cdbc04fd29114240d7a4db1124ce413d3555d67c5859"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/left/source-context-4x-reference.png",
+      "bytes": 127754,
+      "sha256": "8cb2986fdeb03e34916e587bd7a2e7640664a2ce37a6f081eb7c216ac187870b"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/right/prompt-draft.txt",
+      "bytes": 1888,
+      "sha256": "c493f1c343cc250de91842fcdebcb9ac2c756feade0755307f841247e4d7582f"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/right/current-2x-reference.png",
+      "bytes": 450285,
+      "sha256": "85ea97e1ed31795a933e899961bd539c63c630e7b6c3f3e1089edc125ece6503"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/right/local-target-guide-2x.png",
+      "bytes": 457764,
+      "sha256": "9c3182455909152ae9461bba94ff0107a8ffc2f30947973f1c9e2079a5cae56d"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_stair_plan_v1/right/source-context-4x-reference.png",
+      "bytes": 125742,
+      "sha256": "435d157df6e4cbfdd8bfea85757153cffff1b78d173c4c710d9b499701954466"
+    },
+    {
+      "path": "art_source/earth_training_hall_left_stair_candidate_v1/raw.png",
+      "bytes": 1925813,
+      "sha256": "81b0436388e6abec2a1c14b38a5a7779fd884cd7651b7fe2709ce6d295de7ee1"
+    },
+    {
+      "path": "art_source/earth_training_hall_left_stair_candidate_v1/prompt.txt",
+      "bytes": 3992,
+      "sha256": "adbce9ee25815f1bd6c99d9a5ede4c2096fdd42f099ce4b8f625f290abb90ce0"
+    },
+    {
+      "path": "art_source/earth_training_hall_left_stair_candidate_v1/generation-input.json",
+      "bytes": 2654,
+      "sha256": "20a2f0a976080533573a09f31c833a926e4c83320f4622f1e05ecd61d623ff57"
+    },
+    {
+      "path": "art_source/earth_training_hall_left_stair_candidate_v1/measurements.json",
+      "bytes": 18890,
+      "sha256": "cdcf56f9d69ec3118403ac64d6fdde7a03a93f117cee80d6248ce1448acb4959"
+    },
+    {
+      "path": "art_source/earth_training_hall_left_stair_candidate_v1/REVIEW.md",
+      "bytes": 1570,
+      "sha256": "bb5bba9bc350bdefece4b9840c56901a1854972fdf09961df079f406d8a4b1fc"
+    },
+    {
+      "path": "art_source/earth_training_hall_right_stair_candidate_v1/raw.png",
+      "bytes": 1756115,
+      "sha256": "02c406984828c636887fc64d82e7292cede74581e2056b12e2d14c5a1ed34495"
+    },
+    {
+      "path": "art_source/earth_training_hall_right_stair_candidate_v1/prompt.txt",
+      "bytes": 2295,
+      "sha256": "c6a6fb31a352886163ba10e9d5e45251be98e657efa9cd5474f7955f08c3d84a"
+    },
+    {
+      "path": "art_source/earth_training_hall_right_stair_candidate_v1/generation-input.json",
+      "bytes": 2549,
+      "sha256": "a1d3bd4813100a00cbc9d678719e3bf725e085d3aaecbf6b611306e6aa125bea"
+    },
+    {
+      "path": "art_source/earth_training_hall_right_stair_candidate_v1/measurements.json",
+      "bytes": 19459,
+      "sha256": "95c62cd8006931bf5f08d71bdb197867198fc4bef023bf3fc3c617be14a4cb80"
+    },
+    {
+      "path": "art_source/earth_training_hall_right_stair_candidate_v1/REVIEW.md",
+      "bytes": 1493,
+      "sha256": "e655ce3a61d282598443523f8a4bc5d3e6fe964835f3bca7a4f5327abad6d388"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_assembly_review_v1/build_review.py",
+      "bytes": 5853,
+      "sha256": "0188314ca01733266a79ea7b040c132b5948ccbe712d81138df16b517e6882cb"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_assembly_review_v1/measure_assembly.py",
+      "bytes": 3289,
+      "sha256": "68660bad334f3d76c1798a9d72e836de97f2cd2290bdea3a333628f6b1dbc19d"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_assembly_review_v1/partition-contract.json",
+      "bytes": 7307,
+      "sha256": "8c19a45e3ce72019003ade19c08a89cc3de4b507877c65531ff7f26d762af9af"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_assembly_review_v1/measurements.json",
+      "bytes": 13297,
+      "sha256": "0c1176ab2c6c132d27c91510e82c2d70ef616b14843b2f4a70d15f0637a242f3"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_assembly_review_v1/REVIEW.md",
+      "bytes": 1356,
+      "sha256": "bce16bd568939bef02e7d478dcbd1449c38d7786f2d6e0156d85d81fcf543810"
+    },
+    {
+      "path": "art_source/earth_training_hall_local_assembly_review_v1/full-building-candidate-review.png",
+      "bytes": 1933870,
+      "sha256": "be82bef2c8d7aa9e26675e69dc076acbca76f0878eaf78eee3a18e501a12464b"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/build_registration.py",
+      "bytes": 9161,
+      "sha256": "bd64175ed1cb5d691b4f854ce9367c5ee64998eb9dc3e8c8868a5bb0eb4cad11"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/verify_registration.py",
+      "bytes": 3763,
+      "sha256": "d01e4299f7bda17986a0400e5d81d22649f789e59ddcb7444b901682d11a6f78"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/registration.json",
+      "bytes": 37276,
+      "sha256": "0b086e70162f6f79de76f311b662c7b66bb54ee6a3b4d7cf9a9cd806459a4c6c"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/validation.json",
+      "bytes": 9225,
+      "sha256": "922baa240cbab02cc1a4c99244c727336b54ad6993ef287be3ab345e783d63c7"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/HANDOFF.md",
+      "bytes": 3053,
+      "sha256": "eb83b778ec1b72187fba4052ff891127ec0ea1f465d4ec5bebcd7b2d41a1157a"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3967.png",
+      "bytes": 109,
+      "sha256": "40c271540249c9981ae4340564cbf42d359957b7389d3b1b9ea12d588e6d9f8f"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3968.png",
+      "bytes": 111986,
+      "sha256": "5c3bcf8d4afe72c74d588f8f9d763f292d8a6903f109447ae799221f02291e0d"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3969.png",
+      "bytes": 55087,
+      "sha256": "9af2836b77f74c97ca3a7c4a09f504bacdde8cdf0e173312fe52944943d1062c"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3970.png",
+      "bytes": 125133,
+      "sha256": "937969a147c8389e53ee931dd0c10354f2424d97649bc73e0adb078bd05a7fd8"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3971.png",
+      "bytes": 36902,
+      "sha256": "bf8c3c2a4d1a65f3935dfcf4a81797f38487bbe5efdad61734cf3dec25cb5eb8"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3972.png",
+      "bytes": 83717,
+      "sha256": "9a8c73705728ae1e9725eb5a98371767c618486f7743da97b32761bc57da6be9"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3973.png",
+      "bytes": 109992,
+      "sha256": "048407117db692a2aad367c597d3532ea897ffdebffc0d0283586fcd2b672d10"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3974.png",
+      "bytes": 13153,
+      "sha256": "f5229a5ca2869750110d0fc305c46f3f29b98556c57779e789f75e47ada432ad"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3975.png",
+      "bytes": 21437,
+      "sha256": "4f5c931a75f01aea1b599e9d5e87e5b6f690df89dcfd2be1870ead8a9394befc"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3976.png",
+      "bytes": 26186,
+      "sha256": "01c4b3a11397e702fe1de6f59c69fbfee94ef3e932ca4a403cc5e2b4a617bdf6"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3977.png",
+      "bytes": 86852,
+      "sha256": "d30e217656e95fbb008a89fee9c5b022ad8f19ffdb40714b6d665b592a443cb5"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3979.png",
+      "bytes": 3811,
+      "sha256": "2873987d5851bc6d8447a02aca78d36194ac8caa9eb9faefd7368926c0bd17b2"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3980.png",
+      "bytes": 15786,
+      "sha256": "b430178191619833a0e43c6baa16fb66ce3e3f10e159003059ad9818c53b42aa"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3981.png",
+      "bytes": 29158,
+      "sha256": "087e534ddb457d4e3521b3128dc4a151831ae12d400d905ab95331b9d0659199"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3982.png",
+      "bytes": 13378,
+      "sha256": "216026b2cc0c70fff2b186f3095921acafe76582e2fc8d83a900e42005917314"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3983.png",
+      "bytes": 74455,
+      "sha256": "f83b79acc6030c7de2c193d91dc2d60b5712e11b75e6a831117fbb926895fdb6"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3984.png",
+      "bytes": 3795,
+      "sha256": "00b095852735002b5dda3662d9775333af20ef0a296d49b82797983154063ab7"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3985.png",
+      "bytes": 1608,
+      "sha256": "430e3227462d43debfb30f76055b89ba615092a0c914828c1a5ad87909886a90"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3986.png",
+      "bytes": 16260,
+      "sha256": "ef90181db2ace5b61a80ac83aede7e001febd27b1fb01ab67449d10dacf7c030"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3987.png",
+      "bytes": 1056,
+      "sha256": "e4ee7ffa9240441b072db6efda4d6d47f6c17e770b0a6e8c3e6f1da38572df5a"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3988.png",
+      "bytes": 180198,
+      "sha256": "d475e82a8a7b4fda607337b6d1f45533cf34a21f6f3f4563481c89fedc3f0675"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3989.png",
+      "bytes": 2374,
+      "sha256": "77185d0dc86e99f14ae5ba9add6d8eb98388fdfa56abbcff9c8aee0e55df9661"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3990.png",
+      "bytes": 185738,
+      "sha256": "477ceab276fbf928212fa6c2f18baa4e41072d6108816e52f428560d44f7a086"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3991.png",
+      "bytes": 13833,
+      "sha256": "66b3c66e03abdb8d03483840da5b51d1474d13b1b97e0fb94d2a595211ecb6d6"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3992.png",
+      "bytes": 205220,
+      "sha256": "00e0964b4a04a03a5a64e70e1f2372cd15fb17c58a13215863b8532dfbbe16e4"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3993.png",
+      "bytes": 186267,
+      "sha256": "12db874c2329fc3f295362ea139a367f9e09a57c5cd9ddc4798e40871f6a7970"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3994.png",
+      "bytes": 174737,
+      "sha256": "b1dec5c030bfff7038bf5f6e164e3470d6b8965e751ba3aea759f06982f194f5"
+    },
+    {
+      "path": "art_source/earth_training_hall_registration_v1/owners/owner-3995.png",
+      "bytes": 130153,
+      "sha256": "dec23f8de636882ea6e4ffac026d6dedf8193e5641756a23ee0f61fcd3645ab6"
+    }
+  ],
+  "count": 85,
+  "bytes": 17218406,
+  "reproduce_order": [
+    "python Project/art_source/earth_training_hall_source_v1/build_inputs.py",
+    "python Project/art_source/earth_training_hall_candidate_v1/measure_candidate.py",
+    "python Project/art_source/earth_training_hall_edit_plan_v1/build_plan.py",
+    "python Project/art_source/earth_training_hall_candidate_v2/measure_fixed_reference.py",
+    "python Project/art_source/earth_training_hall_local_stair_plan_v1/build_local_inputs.py",
+    "python Project/art_source/earth_training_hall_local_stair_plan_v1/measure_local_candidates.py",
+    "python Project/art_source/earth_training_hall_local_assembly_review_v1/build_review.py",
+    "python Project/art_source/earth_training_hall_local_assembly_review_v1/measure_assembly.py",
+    "python Project/art_source/earth_training_hall_registration_v1/build_registration.py",
+    "python Project/art_source/earth_training_hall_registration_v1/verify_registration.py"
+  ],
+  "ai_reproducibility": "Image generation is stochastic, not replay-byte deterministic. Actual input bytes, exact prompts, raw outputs and hashes are archived; technical crop/measurement/partition steps are deterministic."
+}

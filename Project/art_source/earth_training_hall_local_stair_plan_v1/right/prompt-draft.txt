@@ -1,0 +1,11 @@
+DRAFT ONLY. Right stair generation is not authorized yet; inspect left local result first.
+
+Use case: precise-object-edit. Edit only the right staircase, its own side cheeks and immediately necessary landing seam in the 1024-square current crop. Preserve exact canvas, camera, scale, door/threshold, main piers, foundation context, metal/concrete materials and upper-left warm light.
+
+Inputs: current-2x-reference.png is the edit target/material master; local-target-guide-2x.png is same-canvas geometry guidance; source-context-4x-reference.png is original geometry/material-boundary evidence only, never a temple-style or grass-apron reference.
+
+Restore the full source-derived stair support boundary shown in magenta: approximately (368,560), (624,382), (827,584), (517,750). Raise the upper-right stair/landing junction toward the magenta target without moving the door or main pier. Preserve the lower-left junction within the original reading tolerance. Build real coherent treads, narrow risers and local side cheeks; do not use a flat slab, ramp, third stair or extended platform.
+
+Critically, the orange sample at local (678,692) is ORIGINAL GRASS/GROUND. It must be transparent, with a small clear radius of about 9 pixels, not occupied by the lowest tread, a thick front lip, side cheek, shadow or new ground. Retract the present lowest/front stair edge toward the magenta boundary. Green source support samples must remain genuine tread or landing; yellow ground samples remain transparent. Do not achieve the upper-edge change by simply enlarging the whole staircase.
+
+Keep context fixed. Return one RGBA local crop, ideally exactly 1024x1024, genuine transparent exterior, no external cast shadow, grass/apron, paving, planter, labels, colored lines/circles, gray background, UI or watermark. Do not shift, rescale, rotate, recenter or repaint the surrounding architecture.

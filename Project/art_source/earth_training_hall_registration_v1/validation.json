@@ -1,0 +1,408 @@
+{
+  "status": "PASS static metadata, complete RGBA inverse and nearest-world-grid parity; native joint review pending",
+  "registration_sha256": "0b086e70162f6f79de76f311b662c7b66bb54ee6a3b4d7cf9a9cd806459a4c6c",
+  "whole_raw_sha256": "be82bef2c8d7aa9e26675e69dc076acbca76f0878eaf78eee3a18e501a12464b",
+  "source_metadata_30_exact": true,
+  "layer_counts": {
+    "0": 12,
+    "1": 18
+  },
+  "whole_rgba_bytes_equal": true,
+  "nonzero_rgba_pixels_unique": true,
+  "source_key_set_exact": true,
+  "crop_world_compensation_max_error": 0,
+  "nearest_world_grid_parity": true,
+  "clear_support_probes_all_layer0": true,
+  "foot_probes": [
+    {
+      "source_cell": [
+        66,
+        34
+      ],
+      "foot": 0,
+      "source_material": "support",
+      "raw_xy": [
+        366.8248581565217,
+        772.2268321391304
+      ],
+      "alpha_at_nearest_raw_pixel": 253,
+      "candidate_owner": "Building:3971@66,34",
+      "candidate_layer": 0,
+      "required_support": true
+    },
+    {
+      "source_cell": [
+        66,
+        34
+      ],
+      "foot": 1,
+      "source_material": "support",
+      "raw_xy": [
+        395.74275172173907,
+        782.5546512695652
+      ],
+      "alpha_at_nearest_raw_pixel": 253,
+      "candidate_owner": "Building:3971@66,34",
+      "candidate_layer": 0,
+      "required_support": true
+    },
+    {
+      "source_cell": [
+        65,
+        35
+      ],
+      "foot": 0,
+      "source_material": "uncertain_cheek_edge",
+      "raw_xy": [
+        267.6777945043478,
+        838.3248745739129
+      ],
+      "alpha_at_nearest_raw_pixel": 253,
+      "candidate_owner": "Building:3974@65,35",
+      "candidate_layer": 0,
+      "required_support": false
+    },
+    {
+      "source_cell": [
+        65,
+        35
+      ],
+      "foot": 1,
+      "source_material": "support",
+      "raw_xy": [
+        296.5956880695652,
+        848.6526937043478
+      ],
+      "alpha_at_nearest_raw_pixel": 253,
+      "candidate_owner": "Building:3974@65,35",
+      "candidate_layer": 0,
+      "required_support": true
+    },
+    {
+      "source_cell": [
+        66,
+        35
+      ],
+      "foot": 0,
+      "source_material": "support",
+      "raw_xy": [
+        366.8248581565217,
+        838.3248745739129
+      ],
+      "alpha_at_nearest_raw_pixel": 253,
+      "candidate_owner": "Building:3975@66,35",
+      "candidate_layer": 0,
+      "required_support": true
+    },
+    {
+      "source_cell": [
+        66,
+        35
+      ],
+      "foot": 1,
+      "source_material": "support",
+      "raw_xy": [
+        395.74275172173907,
+        848.6526937043478
+      ],
+      "alpha_at_nearest_raw_pixel": 253,
+      "candidate_owner": "Building:3975@66,35",
+      "candidate_layer": 0,
+      "required_support": true
+    },
+    {
+      "source_cell": [
+        65,
+        36
+      ],
+      "foot": 0,
+      "source_material": "source_grass_apron",
+      "raw_xy": [
+        267.6777945043478,
+        904.4229170086957
+      ],
+      "alpha_at_nearest_raw_pixel": 0,
+      "candidate_owner": null,
+      "candidate_layer": null,
+      "required_support": false
+    },
+    {
+      "source_cell": [
+        65,
+        36
+      ],
+      "foot": 1,
+      "source_material": "source_grass_apron",
+      "raw_xy": [
+        296.5956880695652,
+        914.7507361391303
+      ],
+      "alpha_at_nearest_raw_pixel": 0,
+      "candidate_owner": null,
+      "candidate_layer": null,
+      "required_support": false
+    },
+    {
+      "source_cell": [
+        66,
+        36
+      ],
+      "foot": 0,
+      "source_material": "support",
+      "raw_xy": [
+        366.8248581565217,
+        904.4229170086957
+      ],
+      "alpha_at_nearest_raw_pixel": 253,
+      "candidate_owner": "Building:3980@66,36",
+      "candidate_layer": 0,
+      "required_support": true
+    },
+    {
+      "source_cell": [
+        66,
+        36
+      ],
+      "foot": 1,
+      "source_material": "support",
+      "raw_xy": [
+        395.74275172173907,
+        914.7507361391303
+      ],
+      "alpha_at_nearest_raw_pixel": 253,
+      "candidate_owner": "Building:3980@66,36",
+      "candidate_layer": 0,
+      "required_support": true
+    },
+    {
+      "source_cell": [
+        66,
+        37
+      ],
+      "foot": 0,
+      "source_material": "source_grass_apron",
+      "raw_xy": [
+        366.8248581565217,
+        970.5209594434781
+      ],
+      "alpha_at_nearest_raw_pixel": 0,
+      "candidate_owner": null,
+      "candidate_layer": null,
+      "required_support": false
+    },
+    {
+      "source_cell": [
+        66,
+        37
+      ],
+      "foot": 1,
+      "source_material": "source_grass_apron",
+      "raw_xy": [
+        395.74275172173907,
+        980.8487785739129
+      ],
+      "alpha_at_nearest_raw_pixel": 0,
+      "candidate_owner": null,
+      "candidate_layer": null,
+      "required_support": false
+    },
+    {
+      "source_cell": [
+        73,
+        35
+      ],
+      "foot": 0,
+      "source_material": "support",
+      "raw_xy": [
+        1060.8543037217391,
+        838.3248745739129
+      ],
+      "alpha_at_nearest_raw_pixel": 253,
+      "candidate_owner": "Building:3976@73,35",
+      "candidate_layer": 0,
+      "required_support": true
+    },
+    {
+      "source_cell": [
+        73,
+        35
+      ],
+      "foot": 1,
+      "source_material": "support",
+      "raw_xy": [
+        1089.7721972869567,
+        848.6526937043478
+      ],
+      "alpha_at_nearest_raw_pixel": 253,
+      "candidate_owner": "Building:3976@73,35",
+      "candidate_layer": 0,
+      "required_support": true
+    },
+    {
+      "source_cell": [
+        73,
+        36
+      ],
+      "foot": 0,
+      "source_material": "support",
+      "raw_xy": [
+        1060.8543037217391,
+        904.4229170086957
+      ],
+      "alpha_at_nearest_raw_pixel": 253,
+      "candidate_owner": "Building:3981@73,36",
+      "candidate_layer": 0,
+      "required_support": true
+    },
+    {
+      "source_cell": [
+        73,
+        36
+      ],
+      "foot": 1,
+      "source_material": "support",
+      "raw_xy": [
+        1089.7721972869567,
+        914.7507361391303
+      ],
+      "alpha_at_nearest_raw_pixel": 253,
+      "candidate_owner": "Building:3981@73,36",
+      "candidate_layer": 0,
+      "required_support": true
+    },
+    {
+      "source_cell": [
+        74,
+        36
+      ],
+      "foot": 0,
+      "source_material": "support",
+      "raw_xy": [
+        1160.0013673739131,
+        904.4229170086957
+      ],
+      "alpha_at_nearest_raw_pixel": 253,
+      "candidate_owner": "Building:3982@74,36",
+      "candidate_layer": 0,
+      "required_support": true
+    },
+    {
+      "source_cell": [
+        74,
+        36
+      ],
+      "foot": 1,
+      "source_material": "support",
+      "raw_xy": [
+        1188.9192609391303,
+        914.7507361391303
+      ],
+      "alpha_at_nearest_raw_pixel": 253,
+      "candidate_owner": "Building:3982@74,36",
+      "candidate_layer": 0,
+      "required_support": true
+    },
+    {
+      "source_cell": [
+        74,
+        37
+      ],
+      "foot": 0,
+      "source_material": "support",
+      "raw_xy": [
+        1160.0013673739131,
+        970.5209594434781
+      ],
+      "alpha_at_nearest_raw_pixel": 253,
+      "candidate_owner": "Building:3986@74,37",
+      "candidate_layer": 0,
+      "required_support": true
+    },
+    {
+      "source_cell": [
+        74,
+        37
+      ],
+      "foot": 1,
+      "source_material": "source_grass_apron",
+      "raw_xy": [
+        1188.9192609391303,
+        980.8487785739129
+      ],
+      "alpha_at_nearest_raw_pixel": 0,
+      "candidate_owner": null,
+      "candidate_layer": null,
+      "required_support": false
+    },
+    {
+      "source_cell": [
+        75,
+        37
+      ],
+      "foot": 0,
+      "source_material": "source_grass_apron",
+      "raw_xy": [
+        1259.148431026087,
+        970.5209594434781
+      ],
+      "alpha_at_nearest_raw_pixel": 0,
+      "candidate_owner": null,
+      "candidate_layer": null,
+      "required_support": false
+    },
+    {
+      "source_cell": [
+        75,
+        37
+      ],
+      "foot": 1,
+      "source_material": "source_grass_apron",
+      "raw_xy": [
+        1288.0663245913042,
+        980.8487785739129
+      ],
+      "alpha_at_nearest_raw_pixel": 0,
+      "candidate_owner": null,
+      "candidate_layer": null,
+      "required_support": false
+    },
+    {
+      "source_cell": [
+        74,
+        38
+      ],
+      "foot": 0,
+      "source_material": "source_grass_apron",
+      "raw_xy": [
+        1160.0013673739131,
+        1036.6190018782609
+      ],
+      "alpha_at_nearest_raw_pixel": 0,
+      "candidate_owner": null,
+      "candidate_layer": null,
+      "required_support": false
+    },
+    {
+      "source_cell": [
+        74,
+        38
+      ],
+      "foot": 1,
+      "source_material": "source_grass_apron",
+      "raw_xy": [
+        1188.9192609391303,
+        1046.9468210086957
+      ],
+      "alpha_at_nearest_raw_pixel": 0,
+      "candidate_owner": null,
+      "candidate_layer": null,
+      "required_support": false
+    }
+  ],
+  "empty_owner_ids": [
+    3966,
+    3978
+  ],
+  "runtime_modified": false,
+  "known_uncertainty": "Right74,37 foot1 is a source edge proxy within +/-2px uncertainty; nearest-pixel alpha is not a clearance proof."
+}
