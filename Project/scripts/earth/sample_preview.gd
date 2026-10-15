@@ -23,7 +23,7 @@ func _ready() -> void:
 	actor.position=Vector2(61,39);actor.direction=3
 	ready_ok=world.setup(actor)
 	if ready_ok:
-		raster.add_child(world);world.prepare_idle();world.prepare_ground()
+		raster.add_child(world);world.prepare_idle();world.prepare_walk();world.prepare_ground()
 	else:world.free()
 	display.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
 	display.texture=raster.get_texture();display.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
@@ -66,7 +66,7 @@ func _physics_process(delta:float) -> void:
 	world.tick+=1;world.refresh();update_hud()
 func update_hud() -> void:
 	hud.visible=show_hud
-	hud.text="EARTH ENTRANCE CANDIDATE: 4 NEW SE IDLE FRAMES / OTHER ART SOURCE\n1536x1024 raster / 768x512 logical | Building source | New shadow: none.\nClick A* | Shift run | Space stop | F follow | G grid | H HUD | B actor | P ground\nCamera: %s | actor %s | Outside sample remains source."%["FOLLOW" if ready_ok and world.follow_actor else "FIXED [2496,960,768,512]",actor.position]
-	if ready_ok:hud.text+="\nSE candidate ready %s / preferred %s / active %s"%[world.candidate_ready,world.prefer_candidate,world.uses_candidate(actor.source_frame())]
-	if ready_ok:hud.text+=" / ground64 %s"%[world.prefer_ground and world.ground_owners.size()==64]
+	hud.text="EARTH ENTRANCE CANDIDATE: 10 NEW SE IDLE/WALK FRAMES / OTHER ART SOURCE\n1536x1024 raster / 768x512 logical | Building source | New shadow: none.\nClick A* | Shift run | Space stop | F follow | G grid | H HUD | B actor | P ground\nCamera: %s | actor %s | Outside sample remains source."%["FOLLOW" if ready_ok and world.follow_actor else "FIXED [2496,960,768,512]",actor.position]
+	if ready_ok:hud.text+="\nSE idle ready %s / preferred %s / active %s"%[world.candidate_ready,world.prefer_candidate,world.uses_candidate(actor.source_frame())]
+	if ready_ok:hud.text+=" / walk6 %s / ground64 %s"%[world.walk_ready,world.prefer_ground and world.ground_owners.size()==64]
 	if not ready_ok:hud.text+="\nSource preparation failed; no candidate published."

@@ -16,30 +16,42 @@ static func exact_numbers(value:Variant,expected:Array) -> bool:
 		if not Guard.number(value[i],-16384,16384) or value[i]!=expected[i]:return false
 	return true
 
-func prepare_idle(path:String="res://assets/earth/hero/se_idle_v1/manifest.json") -> bool:
-	candidate_ready=false;candidate_texture=null;candidate_error="missing or invalid four-frame candidate"
-	if not FileAccess.file_exists(path):return false
+func prepare_actor_group(path:String,first:int,count:int,phase_ticks:int) -> CanvasTexture:
+	if not FileAccess.file_exists(path):return null
 	var parser=JSON.new()
-	if parser.parse(FileAccess.get_file_as_string(path))!=OK or not parser.data is Dictionary:return false
+	if parser.parse(FileAccess.get_file_as_string(path))!=OK or not parser.data is Dictionary:return null
 	var reg:Dictionary=parser.data
-	if not Guard.integer(reg.get("texture_density"),4,4) or not Guard.integer(reg.get("frame_ticks"),12,12):return false
-	if not exact_numbers(reg.get("texture_size"),[2048,512]) or not exact_numbers(reg.get("logical_frame_size"),[128,128]) or not exact_numbers(reg.get("logical_draw_offset"),[-16,-64]) or not exact_numbers(reg.get("source_ids"),[13,14,15,16]):return false
-	if not reg.get("records") is Array or reg.records.size()!=4:return false
-	for i in 4:
+	var ids=[]
+	for i in count:ids.append(first+i)
+	if not Guard.integer(reg.get("texture_density"),4,4) or not Guard.integer(reg.get("frame_ticks"),phase_ticks,phase_ticks):return null
+	if not exact_numbers(reg.get("texture_size"),[count*512,512]) or not exact_numbers(reg.get("logical_frame_size"),[128,128]) or not exact_numbers(reg.get("logical_draw_offset"),[-16,-64]) or not exact_numbers(reg.get("source_ids"),ids):return null
+	if not reg.get("records") is Array or reg.records.size()!=count:return null
+	for i in count:
 		var record=reg.records[i]
-		if not record is Dictionary or not Guard.integer(record.get("source_id"),13+i,13+i) or not exact_numbers(record.get("region_px"),[i*512,0,512,512]):return false
+		if not record is Dictionary or not Guard.integer(record.get("source_id"),first+i,first+i) or not exact_numbers(record.get("region_px"),[i*512,0,512,512]):return null
 	var tex=Guard.texture(reg.get("texture"),reg.get("texture_size"),reg.get("texture_sha256"))
-	if tex==null:return false
+	if tex==null:return null
 	var prepared=CanvasTexture.new();prepared.diffuse_texture=tex;prepared.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
-	candidate_texture=prepared;candidate_ready=true;candidate_error=""
-	return true
-
+	return prepared
+func prepare_idle(path:String="res://assets/earth/hero/se_idle_v1/manifest.json") -> bool:
+	candidate_texture=prepare_actor_group(path,13,4,12)
+	candidate_ready=candidate_texture!=null
+	candidate_error="" if candidate_ready else "missing or invalid four-frame candidate"
+	return candidate_ready
+var walk_texture:CanvasTexture
+var walk_ready:=false
+func prepare_walk(path:String="res://assets/earth/hero/se_walk_v1/manifest.json") -> bool:
+	walk_texture=prepare_actor_group(path,51,6,7);walk_ready=walk_texture!=null
+	return walk_ready
 func uses_candidate(index:int) -> bool:
-	return candidate_ready and prefer_candidate and movement.action=="idle" and index in [13,14,15,16]
-
+	if not prefer_candidate:return false
+	return (candidate_ready and movement.action=="idle" and index>=13 and index<=16) or (walk_ready and movement.action=="walk" and index>=51 and index<=56)
 func _draw_hero(origin:Vector2,index:int) -> void:
 	if uses_candidate(index):
-		draw_texture_rect_region(candidate_texture,Rect2(origin-Vector2(16,64),Vector2(128,128)),Rect2((index-13)*512,0,512,512))
+		var walking=movement.action=="walk"
+		var atlas=walk_texture if walking else candidate_texture
+		var first=51 if walking else 13
+		draw_texture_rect_region(atlas,Rect2(origin-Vector2(16,64),Vector2(128,128)),Rect2((index-first)*512,0,512,512))
 	else:super._draw_hero(origin,index)
 
 const Ground=preload("res://scripts/earth/ground_candidate.gd")

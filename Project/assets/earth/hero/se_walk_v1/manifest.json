@@ -1,0 +1,111 @@
+{
+  "schema": "earth-hero-walk-v1",
+  "status": "bounded_Earth_SE_walk_body_approved",
+  "texture": "res://assets/earth/hero/se_walk_v1/body.png",
+  "texture_sha256": "f4eee4ec3a35e6597eb3a1eb4f6e5122163845ca474673974af1531ac42489ac",
+  "texture_size": [
+    3072,
+    512
+  ],
+  "texture_density": 4,
+  "logical_frame_size": [
+    128,
+    128
+  ],
+  "logical_draw_offset": [
+    -16,
+    -64
+  ],
+  "logical_root": [
+    16,
+    64
+  ],
+  "texture_root": [
+    64,
+    256
+  ],
+  "texture_frame_size": [
+    512,
+    512
+  ],
+  "source_ids": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+  ],
+  "records": [
+    {
+      "source_id": 51,
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 52,
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 53,
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 54,
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 55,
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 56,
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ]
+    }
+  ],
+  "frame_ticks": 7,
+  "filter": "linear",
+  "sprite_scale": 0.25,
+  "shadow": "none; new cast not yet reviewed",
+  "fallback": "atomic whole six-frame walk group; unsupported run/actions/directions retain complete original body+head",
+  "provenance": {
+    "raw_sha256": "e1aa543e77d310a9848bfb1c7cef9918fe92ffe5f7a34fb933eeec758835b86f",
+    "registration_sha256": "195b7e7cca95eb7a76964e907f5ef5df0971551a6dc2c0c4880927e13c28f1af",
+    "prompt_sha256": "ef8575d118db1ab925399bbe901fa7b32242df88553f6f0f8d291858ff500030",
+    "native_body_review_sha256": "90a632411c45672510be07cdd1b07a4b1d0c1bfa50134861508083f1b5dd71e8",
+    "limitations": [
+      "54 stride and rear boot thickness residual",
+      "per-state boards and logged route, not continuous human playback proof",
+      "no new shadow or platform receiver approval"
+    ]
+  }
+}
