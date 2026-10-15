@@ -107,5 +107,33 @@ float caster4(vec2 v){
  for(int y=-1;y<=1;y++)for(int x=-1;x<=1;x++){float w=(x==0?2.:1.)*(y==0?2.:1.);a+=w*sample4(q+vec2(float(x),float(y))*blur4);}
  return clamp(a/16.,0.,1.)*clamp(opacity4,0.,.42);
 }
+uniform bool s_contact_active=false;
+uniform sampler2D s_body:filter_linear,repeat_disable;
+uniform vec2 s_origin;
+uniform float s_phase=0.;
+vec2 s_inverse(vec2 q){
+ float t=1.55*q.x-1.2*q.y;
+ float f=-2.0625+4.125*clamp((t+39.46875)/4.,0.,1.);
+ float y;
+ float q1=88.234375+1.55*f;
+ if(q.y>=99.234375)y=(132.234375-q.y)/.55;
+ else if(q.y>q1)y=(q.y-132.234375+4.65*f)/(-.55+.0775*f);
+ else y=(132.234375+1.55*f-q.y)/.55;
+ return vec2((t+1.2*y)/1.55,y);
+}
+float s_sample(vec2 q){
+ vec2 p=s_inverse(q)*4.;
+ if(any(lessThan(p,vec2(0.)))||any(greaterThanEqual(p,vec2(512.))))return 0.;
+ return textureLod(s_body,(vec2(s_phase*512.,0.)+clamp(p,vec2(.5),vec2(511.5)))/vec2(2048.,512.),0.).a;
+}
+float s_caster(vec2 v){
+ if(!s_contact_active)return 0.;
+ vec2 q=v-s_origin;
+ // Frozen complete four-phase alpha/filter/read-error union AABB.
+ if(any(lessThan(q,vec2(26.5,79.)))||any(greaterThanEqual(q,vec2(130.5,127.))))return 0.;
+ float a=0.;
+ for(int y=-1;y<=1;y++)for(int x=-1;x<=1;x++){float w=(x==0?2.:1.)*(y==0?2.:1.);a+=w*s_sample(q+vec2(float(x),float(y))*.8);}
+ return clamp(a/16.,0.,1.)*.25;
+}
 void vertex(){logical_position=VERTEX;}
-void fragment(){float a=max(max(caster0(logical_position),caster1(logical_position)),max(caster2(logical_position),caster3(logical_position)));a=max(a,caster4(logical_position));COLOR=vec4(tint.rgb,a);}
+void fragment(){float a=max(max((s_contact_active?s_caster(logical_position):caster0(logical_position)),caster1(logical_position)),max(caster2(logical_position),caster3(logical_position)));a=max(a,caster4(logical_position));COLOR=vec4(tint.rgb,a);}

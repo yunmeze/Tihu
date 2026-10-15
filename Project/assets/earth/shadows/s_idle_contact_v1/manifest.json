@@ -1,0 +1,1151 @@
+{
+  "direction": "S",
+  "action": "idle",
+  "source_ids": [
+    17,
+    18,
+    19,
+    20
+  ],
+  "frame_ticks": 12,
+  "body": {
+    "texture": "res://assets/earth/hero/s_idle_v1/body.png",
+    "sha256": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e",
+    "texture_size": [
+      2048,
+      512
+    ],
+    "density": 4,
+    "raw_regions": [
+      [
+        0,
+        0,
+        512,
+        512
+      ],
+      [
+        512,
+        0,
+        512,
+        512
+      ],
+      [
+        1024,
+        0,
+        512,
+        512
+      ],
+      [
+        1536,
+        0,
+        512,
+        512
+      ]
+    ],
+    "logical_origin": "actor_cell*(48,32)+(-16,-64)",
+    "body_rgba_unchanged": true
+  },
+  "constants": {
+    "b0": 85.3125,
+    "left_b": 83.25,
+    "right_b": 87.375,
+    "y_transition": [
+      60.0,
+      80.0
+    ],
+    "invariant_t_blend": [
+      -39.46875,
+      -35.46875
+    ],
+    "cast": [
+      1.2,
+      0.55
+    ],
+    "logical_blur": 0.8,
+    "opacity": 0.25,
+    "constant_across_phases": true,
+    "tint": [
+      0.035,
+      0.045,
+      0.055
+    ]
+  },
+  "sampling": {
+    "space": "q is logical projected ground position relative to unchanged body frame origin; p is logical body-frame coordinate",
+    "tap_rule": "q_ij=q+(0.8*i,0.8*j), i,j=-1,0,1; invert each q_ij independently, then sample alpha",
+    "raw_equivalent": "If ground varying is raw*d4, add(3.2*i,3.2*j) before converting ground position /4 for analytic inverse. Never offset source p by0.8 and never offset UV directly.",
+    "kernel_weights": [
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        4,
+        2
+      ],
+      [
+        1,
+        2,
+        1
+      ]
+    ],
+    "normalization": 16,
+    "raw_source": "p_raw=4*p. Reject outside[0,512)^2 BEFORE clamp. Clamp to[.5,511.5], add raw phase region origin, divide by(2048,512). Bilinear LOD0, no atlas-neighbor/mipmap mixing.",
+    "ownership": "For y>=60 and t<=tL use left; for y>=60 and t>=tR use right; all else body/remainder. All restrict same original bilinear alpha, so no cut-atlas filtering seam.",
+    "single_caster_order": "owner union at each tap -> normalized9tap kernel -> opacity.25 once -> max against current independently gated other casters. No new compositor slot."
+  },
+  "proof": {
+    "analytic_det_interval": [
+      -0.70984375,
+      -0.39015625
+    ],
+    "numeric_det_minmax": [
+      -0.7098437499999999,
+      -0.39015625
+    ],
+    "roundtrip_200000_points_max_error": 1.5631940186722204e-13,
+    "numeric_jacobian_max_error": 3.218802113735819e-09,
+    "boundary_epsilon_tests": [
+      {
+        "boundary": "y60",
+        "across_epsilon_distance": 2.820730564597192e-07
+      },
+      {
+        "boundary": "y80",
+        "across_epsilon_distance": 7.489065024564809e-07
+      },
+      {
+        "boundary": "tL",
+        "across_epsilon_distance": 4.635741557102902e-07
+      },
+      {
+        "boundary": "tR",
+        "across_epsilon_distance": 4.635741557102902e-07
+      }
+    ],
+    "global_inverse": "t invariant; q_y strictly decreasing continuous for fixedt. Exactly one global inverse including transition, not multi-branch choice.",
+    "alpha_partition": "original bilinear full alpha restricted by unique source ownership; same-transform max and sum both exactly reconstruct. No independently filtered cut atlases.",
+    "nonlinear_fulltexel_interval_coverage_verified": true,
+    "inputs_unchanged_after_run": true
+  },
+  "envelope": {
+    "path": "res://assets/earth/shadows/s_idle_contact_v1/envelope.png",
+    "sha256": "a731de3104eccc3e35aa50b2a2cce5ac994b781cee19ea3e027fd3b57a0a9047",
+    "offset_logical": [
+      26.5,
+      79.0
+    ],
+    "size_logical": [
+      104.0,
+      48.0
+    ],
+    "density": 2,
+    "positive_cells": 6901,
+    "method": "interval bounds of every full-alpha texel plus .125bilinear support,1.8padding, visible and mapped proxy read-error boxes; one union all4 phases",
+    "eligible_integer_count": 171,
+    "eligible_integer_cells": [
+      [
+        52,
+        30
+      ],
+      [
+        52,
+        31
+      ],
+      [
+        52,
+        32
+      ],
+      [
+        52,
+        33
+      ],
+      [
+        52,
+        34
+      ],
+      [
+        52,
+        35
+      ],
+      [
+        52,
+        36
+      ],
+      [
+        52,
+        37
+      ],
+      [
+        52,
+        38
+      ],
+      [
+        52,
+        39
+      ],
+      [
+        52,
+        40
+      ],
+      [
+        52,
+        41
+      ],
+      [
+        52,
+        42
+      ],
+      [
+        52,
+        43
+      ],
+      [
+        52,
+        44
+      ],
+      [
+        53,
+        30
+      ],
+      [
+        53,
+        31
+      ],
+      [
+        53,
+        32
+      ],
+      [
+        53,
+        33
+      ],
+      [
+        53,
+        34
+      ],
+      [
+        53,
+        35
+      ],
+      [
+        53,
+        36
+      ],
+      [
+        53,
+        37
+      ],
+      [
+        53,
+        38
+      ],
+      [
+        53,
+        39
+      ],
+      [
+        53,
+        40
+      ],
+      [
+        53,
+        41
+      ],
+      [
+        53,
+        42
+      ],
+      [
+        53,
+        43
+      ],
+      [
+        53,
+        44
+      ],
+      [
+        54,
+        30
+      ],
+      [
+        54,
+        31
+      ],
+      [
+        54,
+        32
+      ],
+      [
+        54,
+        33
+      ],
+      [
+        54,
+        34
+      ],
+      [
+        54,
+        35
+      ],
+      [
+        54,
+        36
+      ],
+      [
+        54,
+        37
+      ],
+      [
+        54,
+        38
+      ],
+      [
+        54,
+        39
+      ],
+      [
+        54,
+        40
+      ],
+      [
+        54,
+        41
+      ],
+      [
+        54,
+        42
+      ],
+      [
+        54,
+        43
+      ],
+      [
+        54,
+        44
+      ],
+      [
+        55,
+        30
+      ],
+      [
+        55,
+        31
+      ],
+      [
+        55,
+        32
+      ],
+      [
+        55,
+        33
+      ],
+      [
+        55,
+        34
+      ],
+      [
+        55,
+        35
+      ],
+      [
+        55,
+        36
+      ],
+      [
+        55,
+        37
+      ],
+      [
+        55,
+        38
+      ],
+      [
+        55,
+        39
+      ],
+      [
+        55,
+        40
+      ],
+      [
+        55,
+        41
+      ],
+      [
+        55,
+        42
+      ],
+      [
+        55,
+        43
+      ],
+      [
+        55,
+        44
+      ],
+      [
+        56,
+        30
+      ],
+      [
+        56,
+        31
+      ],
+      [
+        56,
+        32
+      ],
+      [
+        56,
+        33
+      ],
+      [
+        56,
+        34
+      ],
+      [
+        56,
+        35
+      ],
+      [
+        56,
+        36
+      ],
+      [
+        56,
+        37
+      ],
+      [
+        56,
+        38
+      ],
+      [
+        56,
+        39
+      ],
+      [
+        56,
+        40
+      ],
+      [
+        56,
+        41
+      ],
+      [
+        56,
+        42
+      ],
+      [
+        56,
+        43
+      ],
+      [
+        56,
+        44
+      ],
+      [
+        57,
+        30
+      ],
+      [
+        57,
+        31
+      ],
+      [
+        57,
+        32
+      ],
+      [
+        57,
+        33
+      ],
+      [
+        57,
+        34
+      ],
+      [
+        57,
+        35
+      ],
+      [
+        57,
+        36
+      ],
+      [
+        57,
+        37
+      ],
+      [
+        57,
+        38
+      ],
+      [
+        57,
+        39
+      ],
+      [
+        57,
+        40
+      ],
+      [
+        57,
+        41
+      ],
+      [
+        57,
+        42
+      ],
+      [
+        57,
+        43
+      ],
+      [
+        57,
+        44
+      ],
+      [
+        58,
+        30
+      ],
+      [
+        58,
+        31
+      ],
+      [
+        58,
+        32
+      ],
+      [
+        58,
+        33
+      ],
+      [
+        58,
+        34
+      ],
+      [
+        58,
+        35
+      ],
+      [
+        58,
+        36
+      ],
+      [
+        58,
+        37
+      ],
+      [
+        58,
+        38
+      ],
+      [
+        58,
+        39
+      ],
+      [
+        58,
+        40
+      ],
+      [
+        58,
+        41
+      ],
+      [
+        58,
+        42
+      ],
+      [
+        58,
+        43
+      ],
+      [
+        58,
+        44
+      ],
+      [
+        59,
+        31
+      ],
+      [
+        59,
+        32
+      ],
+      [
+        59,
+        33
+      ],
+      [
+        59,
+        34
+      ],
+      [
+        59,
+        35
+      ],
+      [
+        59,
+        36
+      ],
+      [
+        59,
+        37
+      ],
+      [
+        59,
+        38
+      ],
+      [
+        59,
+        39
+      ],
+      [
+        59,
+        40
+      ],
+      [
+        59,
+        41
+      ],
+      [
+        59,
+        42
+      ],
+      [
+        59,
+        43
+      ],
+      [
+        59,
+        44
+      ],
+      [
+        60,
+        32
+      ],
+      [
+        60,
+        33
+      ],
+      [
+        60,
+        34
+      ],
+      [
+        60,
+        35
+      ],
+      [
+        60,
+        36
+      ],
+      [
+        60,
+        37
+      ],
+      [
+        60,
+        38
+      ],
+      [
+        60,
+        39
+      ],
+      [
+        60,
+        40
+      ],
+      [
+        60,
+        41
+      ],
+      [
+        60,
+        42
+      ],
+      [
+        60,
+        43
+      ],
+      [
+        60,
+        44
+      ],
+      [
+        61,
+        36
+      ],
+      [
+        61,
+        37
+      ],
+      [
+        61,
+        38
+      ],
+      [
+        61,
+        39
+      ],
+      [
+        61,
+        40
+      ],
+      [
+        61,
+        41
+      ],
+      [
+        61,
+        42
+      ],
+      [
+        61,
+        43
+      ],
+      [
+        61,
+        44
+      ],
+      [
+        62,
+        38
+      ],
+      [
+        62,
+        39
+      ],
+      [
+        62,
+        40
+      ],
+      [
+        62,
+        41
+      ],
+      [
+        62,
+        42
+      ],
+      [
+        62,
+        43
+      ],
+      [
+        62,
+        44
+      ],
+      [
+        63,
+        36
+      ],
+      [
+        63,
+        38
+      ],
+      [
+        63,
+        39
+      ],
+      [
+        63,
+        40
+      ],
+      [
+        63,
+        41
+      ],
+      [
+        63,
+        42
+      ],
+      [
+        63,
+        43
+      ],
+      [
+        63,
+        44
+      ],
+      [
+        64,
+        37
+      ],
+      [
+        64,
+        38
+      ],
+      [
+        64,
+        39
+      ],
+      [
+        64,
+        40
+      ],
+      [
+        64,
+        41
+      ],
+      [
+        64,
+        42
+      ],
+      [
+        64,
+        43
+      ],
+      [
+        64,
+        44
+      ],
+      [
+        65,
+        38
+      ],
+      [
+        65,
+        39
+      ],
+      [
+        65,
+        40
+      ],
+      [
+        65,
+        41
+      ],
+      [
+        65,
+        42
+      ],
+      [
+        65,
+        43
+      ],
+      [
+        65,
+        44
+      ]
+    ],
+    "probes": [
+      {
+        "cell": [
+          61,
+          39
+        ],
+        "allows": true
+      },
+      {
+        "cell": [
+          63,
+          41
+        ],
+        "allows": true
+      },
+      {
+        "cell": [
+          61,
+          37
+        ],
+        "allows": true
+      },
+      {
+        "cell": [
+          63,
+          38
+        ],
+        "allows": true
+      },
+      {
+        "cell": [
+          62,
+          36
+        ],
+        "allows": false
+      },
+      {
+        "cell": [
+          66,
+          35
+        ],
+        "allows": false
+      },
+      {
+        "cell": [
+          66,
+          36
+        ],
+        "allows": false
+      },
+      {
+        "cell": [
+          61.6875,
+          39.6875
+        ],
+        "allows": true
+      },
+      {
+        "cell": [
+          51,
+          39
+        ],
+        "allows": false
+      },
+      {
+        "cell": [
+          67,
+          45
+        ],
+        "allows": false
+      }
+    ],
+    "texture": "res://assets/earth/shadows/s_idle_contact_v1/envelope.png",
+    "texture_size": [
+      208,
+      96
+    ],
+    "set_pixel_count": 6901
+  },
+  "receiver": {
+    "world_rect": [
+      2496,
+      960,
+      768,
+      512
+    ],
+    "mask_density": 2,
+    "allowed": {
+      "texture": "res://assets/earth/shadows/se_flat_v1/allowed.png",
+      "texture_size": [
+        1536,
+        1024
+      ],
+      "sha256": "06d4a6fe1e8404c48619d51b72a67d82795fb178a34089e35b0661df5f9eb2dc",
+      "set_pixel_count": 1330424
+    },
+    "forbidden": {
+      "texture": "res://assets/earth/shadows/se_flat_v1/forbidden.png",
+      "texture_size": [
+        1536,
+        1024
+      ],
+      "sha256": "605ba15e50e5c1a710b1bab004ac824bb764f446dee29cdd1f9664f806426277",
+      "set_pixel_count": 242440
+    },
+    "whole_caster_only": true,
+    "eligibility_count": 171,
+    "no_old_s_or_se_envelope_reuse": true
+  },
+  "high_shear_locations": [
+    {
+      "source_id": 17,
+      "opaque_count_high_anisotropy": 235,
+      "opaque_fraction": 0.011529215522739538,
+      "source_bbox_logical_xyxy": [
+        32.125,
+        71.125,
+        36.875,
+        78.875
+      ],
+      "source_raw_y_rows_inclusive": [
+        284,
+        315
+      ],
+      "projected_bbox_logical_xyxy": [
+        41.05801464843752,
+        85.89264392089846,
+        50.46648730468751,
+        94.81608776855471
+      ],
+      "source_logical_row_counts": {
+        "71": 7,
+        "72": 20,
+        "73": 32,
+        "74": 42,
+        "75": 41,
+        "76": 42,
+        "77": 36,
+        "78": 15
+      }
+    },
+    {
+      "source_id": 18,
+      "opaque_count_high_anisotropy": 231,
+      "opaque_fraction": 0.011438474870017331,
+      "source_bbox_logical_xyxy": [
+        31.625,
+        70.625,
+        36.125,
+        78.125
+      ],
+      "source_raw_y_rows_inclusive": [
+        282,
+        312
+      ],
+      "projected_bbox_logical_xyxy": [
+        41.670919921875,
+        86.60385192871094,
+        50.46648730468751,
+        94.86605773925783
+      ],
+      "source_logical_row_counts": {
+        "70": 3,
+        "71": 15,
+        "72": 28,
+        "73": 39,
+        "74": 42,
+        "75": 41,
+        "76": 39,
+        "77": 22,
+        "78": 2
+      }
+    },
+    {
+      "source_id": 19,
+      "opaque_count_high_anisotropy": 233,
+      "opaque_fraction": 0.011447943792069966,
+      "source_bbox_logical_xyxy": [
+        31.875,
+        71.125,
+        36.875,
+        78.875
+      ],
+      "source_raw_y_rows_inclusive": [
+        284,
+        315
+      ],
+      "projected_bbox_logical_xyxy": [
+        41.05801464843752,
+        85.89264392089846,
+        50.46648730468751,
+        94.81608776855471
+      ],
+      "source_logical_row_counts": {
+        "71": 7,
+        "72": 20,
+        "73": 34,
+        "74": 42,
+        "75": 41,
+        "76": 42,
+        "77": 35,
+        "78": 12
+      }
+    },
+    {
+      "source_id": 20,
+      "opaque_count_high_anisotropy": 234,
+      "opaque_fraction": 0.011466653599255158,
+      "source_bbox_logical_xyxy": [
+        32.125,
+        71.625,
+        36.875,
+        79.125
+      ],
+      "source_raw_y_rows_inclusive": [
+        286,
+        316
+      ],
+      "projected_bbox_logical_xyxy": [
+        41.05801464843752,
+        85.84967651367188,
+        50.1526923828125,
+        94.42008105468749
+      ],
+      "source_logical_row_counts": {
+        "71": 3,
+        "72": 19,
+        "73": 31,
+        "74": 42,
+        "75": 41,
+        "76": 42,
+        "77": 38,
+        "78": 17,
+        "79": 1
+      }
+    }
+  ],
+  "schema": "earth-s-idle-contact-shadow-v1",
+  "status": "S_ONLY_ORDINARY_IMPLEMENTATION_APPROVED_PENDING_COLD_IMPORT_AND_FAILURE_TESTS",
+  "runtime_activation": true,
+  "mapping": {
+    "forward": [
+      "t=1.55*x-1.2*y",
+      "f=-2.0625+4.125*clamp((t+39.46875)/4,0,1)",
+      "w=clamp((y-60)/20,0,1)",
+      "b=85.3125+w*f; h=b-y",
+      "q=(x,y)+(1.2,1.55)*h"
+    ],
+    "inverse": [
+      "t=1.55*q.x-1.2*q.y; f=-2.0625+4.125*clamp((t+39.46875)/4,0,1)",
+      "if q.y>=99.234375: y=(132.234375-q.y)/0.55",
+      "else if q.y>88.234375+1.55*f: y=(q.y-132.234375+4.65*f)/(-0.55+0.0775*f)",
+      "else: y=(132.234375+1.55*f-q.y)/0.55",
+      "x=(t+1.2*y)/1.55"
+    ],
+    "aabb_logical_xywh": [
+      26.5,
+      79,
+      104,
+      48
+    ],
+    "aabb_rule": "Reject q outside [26.5,130.5) x [79,127) before the nine ground-space taps. Bounds include full-alpha support, filtering and read-error union; never threshold opaque alpha."
+  },
+  "failure_conditions": [
+    "S idle source IDs17..20 only; SE uses existing projection, E and all S non-idle shadows remain disabled.",
+    "Changed/missing dependency, invalid body texture or region/phase/origin, unsupported source or receiver disables whole S hero contribution.",
+    "Common compositor unprepared/material/shader failure disables all slots by the existing common contract; no automatic fallback.",
+    "Whole envelope only, fractional floor/ceil area tests; unknown/outside/forbidden/cross-platform receivers reject whole S caster without clipping.",
+    "Constants must match exactly and be finite; no slope clamp, per-phase foot pinning, alpha threshold removal or parameter fitting.",
+    "No runtime art_source or diagnostics reads. Body RGBA, placement and source timing are unchanged."
+  ],
+  "residual_risks": {
+    "boot_proxy_error_logical_xy": [
+      1,
+      0.75
+    ],
+    "max_boot_displacement_by_phase": [
+      0.4901,
+      0.9801,
+      0.245,
+      0.4901
+    ],
+    "worst_phase": 18,
+    "opaque_high_anisotropy_fraction_approx": 0.0115,
+    "max_opaque_anisotropy": 53.18,
+    "source_logical_y_range": [
+      70.625,
+      79.125
+    ],
+    "shadow_local_bbox_xyxy": [
+      41.058,
+      85.85,
+      50.467,
+      94.867
+    ],
+    "interpretation": "Fixed 2D coverage approximation, not accurate physical height recovery. Thin stretched local shin/contact segment remains; native visual acceptance is bounded to this S idle sample.",
+    "performance": "AABB bounds nonlinear nine-tap work to about 180k evaluations per 1536x1024 frame; workload estimate only, no frame-time benchmark."
+  },
+  "input_sha256": {
+    "res://assets/earth/hero/s_idle_v1/body.png": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e",
+    "res://assets/earth/hero/s_idle_v1/manifest.json": "cfd74e66ddb74fb4ce8fc46be747f6df9b8037713044b76a287baef343654b80",
+    "res://assets/earth/shadows/se_flat_v1/manifest.json": "3c7ac445562535c706cd58ebef625880308860ddfa012686fee600223beaec48",
+    "res://assets/earth/shadows/se_flat_v1/allowed.png": "06d4a6fe1e8404c48619d51b72a67d82795fb178a34089e35b0661df5f9eb2dc",
+    "res://assets/earth/shadows/se_flat_v1/forbidden.png": "605ba15e50e5c1a710b1bab004ac824bb764f446dee29cdd1f9664f806426277",
+    "res://data/maps/A13.json": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "res://assets/earth/shadows/s_idle_contact_v1/envelope.png": "a731de3104eccc3e35aa50b2a2cce5ac994b781cee19ea3e027fd3b57a0a9047",
+    "res://scripts/earth/sample_world.gd": "0e59809aeea5e93bea2c873711b14569edd7d2822f34a3a7071e31a53b9cca92",
+    "res://scripts/earth/max_ground_shadow.gd": "eb066c816e807bd542cf5338eab161aff9bf4ca34771764ac2a938f5edc3a5bb",
+    "res://shaders/earth_max_ground_shadow.gdshader": "232997a561d4451f4ecfc2da7cd4a0e821a751722392806c1d41fe2777ead22b"
+  },
+  "provenance": {
+    "research_interface_sha256": "9ed25e946ddc7a20b130def1ebdfa84b7ef8ecd3cb89f22bd9941d383a4463fd",
+    "map_contract_sha256": "111492685a21ce03e4f98dda0a7d804e06bcec5b3daafc77ba3d82706bba3f5b",
+    "cpu_report_sha256": "c74cbfd8340b47490142d060e8efe4b6acfe67e7481adecacde2d82caa4da263",
+    "runtime_read_required": false,
+    "body_manifest_shadow_note": "Body manifest shadow_enabled=false describes its original body-only delivery. This independent shadow contract exclusively authorizes S idle sampling without altering body source."
+  }
+}

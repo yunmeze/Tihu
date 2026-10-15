@@ -2,7 +2,7 @@ extends RefCounted
 ## Fixed record-0 world footprint; never use the moving hero's envelope.
 const Guard=preload("res://scripts/earth/asset_guard.gd")
 const PATH="res://assets/earth/shadows/fangzhang_flat_v1/manifest.json"
-const SHA="fe9d394f688ecbbf87698541a33ecbf04b7e273113205c64ef38b6e4bc1842d7"
+const SHA="e12e69419aeb7c5751837922d29d42b6488ede62653ffb5cb5584ef668c5e766"
 var ready=false
 var configuration:Dictionary={}
 func prepare(path:Variant=PATH) -> bool:

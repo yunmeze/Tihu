@@ -1,0 +1,29 @@
+{
+  "schema": "earth-s-idle-contact-package-checksums-v1",
+  "runtime_manifest_sha256": "faf5b7f56c2555d1400c3d508b8c61226164484ffcaca1aba1d672104cb06667",
+  "note": "Non-runtime release inventory. Excludes this file itself. Gate embeds manifest SHA; gate SHA is intentionally recorded here rather than cyclically in manifest.",
+  "files": {
+    "assets/earth/hero/s_idle_v1/body.png": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e",
+    "assets/earth/hero/s_idle_v1/manifest.json": "cfd74e66ddb74fb4ce8fc46be747f6df9b8037713044b76a287baef343654b80",
+    "assets/earth/shadows/s_idle_contact_v1/README.md": "ab08c180602468a694a98aed1b355d82ed55175cdb9f87f0c335618c3d297a43",
+    "assets/earth/shadows/s_idle_contact_v1/envelope.png": "a731de3104eccc3e35aa50b2a2cce5ac994b781cee19ea3e027fd3b57a0a9047",
+    "assets/earth/shadows/s_idle_contact_v1/manifest.json": "faf5b7f56c2555d1400c3d508b8c61226164484ffcaca1aba1d672104cb06667",
+    "assets/earth/shadows/se_flat_v1/allowed.png": "06d4a6fe1e8404c48619d51b72a67d82795fb178a34089e35b0661df5f9eb2dc",
+    "assets/earth/shadows/se_flat_v1/forbidden.png": "605ba15e50e5c1a710b1bab004ac824bb764f446dee29cdd1f9664f806426277",
+    "assets/earth/shadows/se_flat_v1/manifest.json": "3c7ac445562535c706cd58ebef625880308860ddfa012686fee600223beaec48",
+    "data/maps/A13.json": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "scripts/earth/max_ground_shadow.gd": "eb066c816e807bd542cf5338eab161aff9bf4ca34771764ac2a938f5edc3a5bb",
+    "scripts/earth/s_idle_shadow_gate.gd": "938cc80237c521d857c203d9825b6d8194bfdc845c2703b26a74f85a9354be31",
+    "scripts/earth/sample_world.gd": "0e59809aeea5e93bea2c873711b14569edd7d2822f34a3a7071e31a53b9cca92",
+    "shaders/earth_max_ground_shadow.gdshader": "232997a561d4451f4ecfc2da7cd4a0e821a751722392806c1d41fe2777ead22b"
+  },
+  "validation_evidence": {
+    "/workspace/shared/earth-s-contact-promoted/equivalence.json": "99dcf6548e69419adcecca1eb2ac746a6cc859e5140f99497a41c7dbb1b46ae3",
+    "/workspace/shared/earth-s-contact-promoted/native.log": "2d91140ac4b2ed6962b95c6e4f78cdd223f531d36620cc23922bfc881285b8a0",
+    "/workspace/shared/earth-s-contact-cold/import.log": "868bd4a1ae92b1fbedf7619b511da6d50c09b0568d7b038cb3575369aec604ff",
+    "/workspace/shared/earth-s-contact-cold/regression.log": "c4e62567bf2a275d8c759b6b82d0ceafc81c7f267f57131bd260b41838f05003",
+    "/workspace/shared/earth-s-contact-cold/startup-corrected.log": "f8c66ae7283a46414f4835e9516080b640b48e9008776dcc16ff52e4a357c56b",
+    "/workspace/shared/earth-s-contact-missing-probe/probe.gd": "9268bf5f4ca5d7db700e4df3df84e551a10c44e3bdd5918bf2dad6bf6c26a609",
+    "/workspace/shared/earth-s-contact-missing-probe/probe-retry.log": "e0c9081bf4bfa79316988ee13b6f73989db56c78409b7cfd9488e2f574ad12da"
+  }
+}

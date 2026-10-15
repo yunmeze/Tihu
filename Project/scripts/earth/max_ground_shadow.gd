@@ -4,7 +4,8 @@ const Density=preload("res://scripts/art/density_alpha_ground_shadow.gd")
 const Raw=preload("res://scripts/earth/raw_ground_shadow.gd")
 const Guard=preload("res://scripts/earth/asset_guard.gd")
 const SHADER_PATH="res://shaders/earth_max_ground_shadow.gdshader"
-const SHADER_SHA="273309ffbc426414782d21f8229fd02ee90152c0865b0fb144ef9e125daad103"
+const SHADER_SHA="232997a561d4451f4ecfc2da7cd4a0e821a751722392806c1d41fe2777ead22b"
+var s_body_bound:Texture2D
 var prepared=false
 var _expected_shader:Shader
 var active_slots:Array=[false,false,false,false,false]
@@ -13,6 +14,7 @@ var _material=ShaderMaterial.new()
 func _init():material=_material;z_index=-1;visible=false
 func clear_frame():
  visible=false;active_slots=[false,false,false,false,false]
+ _material.set_shader_parameter("s_contact_active",false)
  for i in 5:_material.set_shader_parameter("active%d"%i,false)
  queue_redraw()
 func prepare(path:Variant=SHADER_PATH) -> bool:
@@ -23,7 +25,7 @@ func prepare(path:Variant=SHADER_PATH) -> bool:
  _expected_shader=shader;_material.shader=shader;material=_material;_material.set_shader_parameter("tint",Color(.035,.045,.055,1));prepared=true;error="";return true
 func configure(nodes:Variant) -> bool:
  clear_frame()
- if not prepared or material!=_material or _material.shader!=_expected_shader or _expected_shader==null:return false
+ if not prepared or material!=_material or _material.shader!=_expected_shader or _expected_shader==null:clear_frame();return false
  var tint=_material.get_shader_parameter("tint")
  if not tint is Color or tint!=Color(.035,.045,.055,1):error="invalid common tint";return false
  if not nodes is Array or nodes.size()!=5:return false
@@ -61,3 +63,22 @@ func configure(nodes:Variant) -> bool:
  visible=true;error="";queue_redraw();return true
 func _draw():
  if prepared:draw_rect(Rect2(0,0,768,512),Color.WHITE)
+
+func bind_s_body(body:Variant) -> bool:
+ s_body_bound=null
+ if not is_instance_valid(body) or not body is Texture2D or body is AtlasTexture:return false
+ const PATH="res://assets/earth/hero/s_idle_v1/body.png"
+ if body.resource_path!=PATH or body.get_size()!=Vector2(2048,512):return false
+ if not FileAccess.file_exists(PATH) or FileAccess.get_sha256(PATH)!="f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e":return false
+ s_body_bound=body;return true
+func set_s_contact(enabled:Variant,body:Variant,origin:Variant,phase:Variant) -> bool:
+ if _material.get_shader_parameter("s_contact_active")==true:active_slots[0]=false
+ _material.set_shader_parameter("s_contact_active",false)
+ if not enabled is bool or not enabled:return false
+ if not prepared or material!=_material or _material.shader!=_expected_shader or _expected_shader==null:clear_frame();return false
+ if _material.get_shader_parameter("tint")!=Color(.035,.045,.055,1):clear_frame();return false
+ if not is_instance_valid(body) or not body is Texture2D or body!=s_body_bound or body is AtlasTexture or body.get_size()!=Vector2(2048,512):return false
+ if not origin is Vector2 or not origin.is_finite() or absf(origin.x)>Guard.MAX_COORD or absf(origin.y)>Guard.MAX_COORD:return false
+ if not phase is int or phase<0 or phase>3:return false
+ _material.set_shader_parameter("s_body",body);_material.set_shader_parameter("s_origin",origin);_material.set_shader_parameter("s_phase",float(phase))
+ _material.set_shader_parameter("s_contact_active",true);active_slots[0]=true;visible=true;return true
