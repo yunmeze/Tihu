@@ -1,0 +1,71 @@
+{
+  "status": "FAILED output pose/layout; no corrective fit or retry",
+  "raw_sha256": "7b65f814877224468e22f1fdfc67ca74d55ace65e6acc5d458577e3805aa429a",
+  "raw_size": [
+    1964,
+    801
+  ],
+  "one_uniform_density_raw_to_logical": 0.038696537678207736,
+  "target_origin": [
+    20,
+    44
+  ],
+  "actual_logical_canvas_per_cell": [
+    38.0,
+    30.995926680244395
+  ],
+  "requested_logical_canvas_per_cell": [
+    38,
+    31
+  ],
+  "alpha_zero_pixels": 1017651,
+  "alpha_max": 255,
+  "records": {
+    "45": {
+      "raw_cell": [
+        0,
+        0,
+        982,
+        801
+      ],
+      "mapped_nonzero_pixels_outside_frozen_support": 1758,
+      "unmasked_bbox": [
+        95,
+        185,
+        232,
+        292
+      ],
+      "mapped_fixed_mask_bbox": [
+        100,
+        187,
+        217,
+        274
+      ],
+      "original_pants_used": false
+    },
+    "47": {
+      "raw_cell": [
+        982,
+        0,
+        1964,
+        801
+      ],
+      "mapped_nonzero_pixels_outside_frozen_support": 1579,
+      "unmasked_bbox": [
+        139,
+        186,
+        222,
+        297
+      ],
+      "mapped_fixed_mask_bbox": [
+        139,
+        187,
+        201,
+        286
+      ],
+      "original_pants_used": false
+    }
+  },
+  "all_core_and_shin_modules_referenced_unchanged": true,
+  "no_old_upper_pants_in_assembly": true
+}

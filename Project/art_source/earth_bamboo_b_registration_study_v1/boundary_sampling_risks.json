@@ -1,0 +1,285 @@
+{
+  "analysis": "Four native columns around each strip boundary; alpha only at halftexel is a theoretical linear source-over risk. Not native GPU validation.",
+  "boundaries": [
+    {
+      "source_group_x": 31,
+      "world_x": 3504,
+      "raw_continuous_boundary_x": 279.5141908897309,
+      "first_right_pixel_x": 280,
+      "left_owner": 317,
+      "right_owner": 319,
+      "left_sort_y": 54,
+      "right_sort_y": 55,
+      "native_pixel_center_boundary_error_logical": 0.15843182670937786,
+      "border_alpha_stats_4px": [
+        {
+          "raw_y_interval": [
+            0,
+            300
+          ],
+          "nonzero_alpha_pixels": 40,
+          "alpha_1_to15_pixels": 18,
+          "alpha128plus_pixels": 16,
+          "max_half_texel_alpha_deficit": 0.11899653979238756
+        },
+        {
+          "raw_y_interval": [
+            300,
+            600
+          ],
+          "nonzero_alpha_pixels": 1095,
+          "alpha_1_to15_pixels": 148,
+          "alpha128plus_pixels": 810,
+          "max_half_texel_alpha_deficit": 0.24415224913494815
+        },
+        {
+          "raw_y_interval": [
+            600,
+            900
+          ],
+          "nonzero_alpha_pixels": 1169,
+          "alpha_1_to15_pixels": 130,
+          "alpha128plus_pixels": 973,
+          "max_half_texel_alpha_deficit": 0.24415224913494815
+        },
+        {
+          "raw_y_interval": [
+            900,
+            1254
+          ],
+          "nonzero_alpha_pixels": 126,
+          "alpha_1_to15_pixels": 126,
+          "alpha128plus_pixels": 0,
+          "max_half_texel_alpha_deficit": 3.844675124951846e-06
+        }
+      ],
+      "max_half_texel_alpha_deficit": 0.24415224913494815,
+      "y_at_max_deficit": 588,
+      "max_deficit_byte_equivalent": 62.25882352941178
+    },
+    {
+      "source_group_x": 79,
+      "world_x": 3552,
+      "raw_continuous_boundary_x": 426.699499405371,
+      "first_right_pixel_x": 427,
+      "left_owner": 319,
+      "right_owner": 321,
+      "left_sort_y": 55,
+      "right_sort_y": 56,
+      "native_pixel_center_boundary_error_logical": 0.09799910526164554,
+      "border_alpha_stats_4px": [
+        {
+          "raw_y_interval": [
+            0,
+            300
+          ],
+          "nonzero_alpha_pixels": 72,
+          "alpha_1_to15_pixels": 68,
+          "alpha128plus_pixels": 0,
+          "max_half_texel_alpha_deficit": 0.002191464821222594
+        },
+        {
+          "raw_y_interval": [
+            300,
+            600
+          ],
+          "nonzero_alpha_pixels": 1190,
+          "alpha_1_to15_pixels": 86,
+          "alpha128plus_pixels": 1036,
+          "max_half_texel_alpha_deficit": 0.24609381007304887
+        },
+        {
+          "raw_y_interval": [
+            600,
+            900
+          ],
+          "nonzero_alpha_pixels": 1200,
+          "alpha_1_to15_pixels": 0,
+          "alpha128plus_pixels": 1200,
+          "max_half_texel_alpha_deficit": 0.24609381007304887
+        },
+        {
+          "raw_y_interval": [
+            900,
+            1254
+          ],
+          "nonzero_alpha_pixels": 602,
+          "alpha_1_to15_pixels": 124,
+          "alpha128plus_pixels": 363,
+          "max_half_texel_alpha_deficit": 0.24415224913494815
+        }
+      ],
+      "max_half_texel_alpha_deficit": 0.24609381007304887,
+      "y_at_max_deficit": 588,
+      "max_deficit_byte_equivalent": 62.75392156862746
+    },
+    {
+      "source_group_x": 127,
+      "world_x": 3600,
+      "raw_continuous_boundary_x": 573.8848079210111,
+      "first_right_pixel_x": 574,
+      "left_owner": 321,
+      "right_owner": 322,
+      "left_sort_y": 56,
+      "right_sort_y": 56,
+      "native_pixel_center_boundary_error_logical": 0.03756638381391322,
+      "border_alpha_stats_4px": [
+        {
+          "raw_y_interval": [
+            0,
+            300
+          ],
+          "nonzero_alpha_pixels": 289,
+          "alpha_1_to15_pixels": 81,
+          "alpha128plus_pixels": 179,
+          "max_half_texel_alpha_deficit": 0.23266435986159173
+        },
+        {
+          "raw_y_interval": [
+            300,
+            600
+          ],
+          "nonzero_alpha_pixels": 1198,
+          "alpha_1_to15_pixels": 51,
+          "alpha128plus_pixels": 1069,
+          "max_half_texel_alpha_deficit": 0.24609381007304887
+        },
+        {
+          "raw_y_interval": [
+            600,
+            900
+          ],
+          "nonzero_alpha_pixels": 1200,
+          "alpha_1_to15_pixels": 0,
+          "alpha128plus_pixels": 1200,
+          "max_half_texel_alpha_deficit": 0.24609381007304887
+        },
+        {
+          "raw_y_interval": [
+            900,
+            1254
+          ],
+          "nonzero_alpha_pixels": 729,
+          "alpha_1_to15_pixels": 394,
+          "alpha128plus_pixels": 248,
+          "max_half_texel_alpha_deficit": 0.24609381007304887
+        }
+      ],
+      "max_half_texel_alpha_deficit": 0.24609381007304887,
+      "y_at_max_deficit": 446,
+      "max_deficit_byte_equivalent": 62.75392156862746
+    },
+    {
+      "source_group_x": 175,
+      "world_x": 3648,
+      "raw_continuous_boundary_x": 721.0701164366512,
+      "first_right_pixel_x": 721,
+      "left_owner": 322,
+      "right_owner": 320,
+      "left_sort_y": 56,
+      "right_sort_y": 55,
+      "native_pixel_center_boundary_error_logical": -0.022866337633837636,
+      "border_alpha_stats_4px": [
+        {
+          "raw_y_interval": [
+            0,
+            300
+          ],
+          "nonzero_alpha_pixels": 239,
+          "alpha_1_to15_pixels": 97,
+          "alpha128plus_pixels": 81,
+          "max_half_texel_alpha_deficit": 0.2317185697808536
+        },
+        {
+          "raw_y_interval": [
+            300,
+            600
+          ],
+          "nonzero_alpha_pixels": 1200,
+          "alpha_1_to15_pixels": 56,
+          "alpha128plus_pixels": 1016,
+          "max_half_texel_alpha_deficit": 0.24609381007304887
+        },
+        {
+          "raw_y_interval": [
+            600,
+            900
+          ],
+          "nonzero_alpha_pixels": 1200,
+          "alpha_1_to15_pixels": 259,
+          "alpha128plus_pixels": 877,
+          "max_half_texel_alpha_deficit": 0.24609381007304887
+        },
+        {
+          "raw_y_interval": [
+            900,
+            1254
+          ],
+          "nonzero_alpha_pixels": 438,
+          "alpha_1_to15_pixels": 302,
+          "alpha128plus_pixels": 62,
+          "max_half_texel_alpha_deficit": 0.0517262591311034
+        }
+      ],
+      "max_half_texel_alpha_deficit": 0.24609381007304887,
+      "y_at_max_deficit": 508,
+      "max_deficit_byte_equivalent": 62.75392156862746
+    },
+    {
+      "source_group_x": 223,
+      "world_x": 3696,
+      "raw_continuous_boundary_x": 868.2554249522914,
+      "first_right_pixel_x": 868,
+      "left_owner": 320,
+      "right_owner": 318,
+      "left_sort_y": 55,
+      "right_sort_y": 54,
+      "native_pixel_center_boundary_error_logical": -0.0832990590815885,
+      "border_alpha_stats_4px": [
+        {
+          "raw_y_interval": [
+            0,
+            300
+          ],
+          "nonzero_alpha_pixels": 2,
+          "alpha_1_to15_pixels": 2,
+          "alpha128plus_pixels": 0,
+          "max_half_texel_alpha_deficit": 0.0
+        },
+        {
+          "raw_y_interval": [
+            300,
+            600
+          ],
+          "nonzero_alpha_pixels": 1116,
+          "alpha_1_to15_pixels": 127,
+          "alpha128plus_pixels": 698,
+          "max_half_texel_alpha_deficit": 0.24318339100346031
+        },
+        {
+          "raw_y_interval": [
+            600,
+            900
+          ],
+          "nonzero_alpha_pixels": 1200,
+          "alpha_1_to15_pixels": 6,
+          "alpha128plus_pixels": 1152,
+          "max_half_texel_alpha_deficit": 0.245121107266436
+        },
+        {
+          "raw_y_interval": [
+            900,
+            1254
+          ],
+          "nonzero_alpha_pixels": 18,
+          "alpha_1_to15_pixels": 6,
+          "alpha128plus_pixels": 8,
+          "max_half_texel_alpha_deficit": 0.24125336409073428
+        }
+      ],
+      "max_half_texel_alpha_deficit": 0.245121107266436,
+      "y_at_max_deficit": 634,
+      "max_deficit_byte_equivalent": 62.50588235294118
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "transparent_background": true,
+  "prompt": "Generate ONE transparent two-cell sprite PARTS sheet, left upper45 and right upper47, coordinated matching assets. Each equal cell uses precisely the same logical crop and pixel density as inputs 1 and 2. Do not independently enlarge either piece to fill space. Output only two separate BLACK FABRIC UPPER-PANTS pieces from waist insertion to knee-cuff interfaces: no head, torso, arms, hands, belt, side armor, shin armor or boots.\nInput1 is the original visible pose authority: left short spread-step pants, right narrow passing-step pants. Preserve each distinct visible thigh/crotch silhouette; do not copy one into the other. Do not copy original white clothing or silver waist stripe. Input2 is ONLY a technical attachment guide: magenta maximum support, yellow hidden waist insertion 2\u20133 logical units, cyan frozen lower-module joining zones with only 2 units hidden overlap. Existing armor/core shown there are context and must NOT appear in output. The knees are visible surface regions, not invented hidden bones. Keep compact black thighs; no big side plates.\nInput3 is the only costume/material reference. Match detailed black woven/soft armored fabric, restrained seams, coherent upper-left warm light, no gold trim. Make genuine high-definition painted 2D game-art cloth detail, not magnified low-resolution pixels. Both pieces share identical fabric, view, light, scale. Empty outside pants must be real transparent alpha, including the leg gap. No shadow, labels, guide colors, background, full character, extra fragments, stretched texture or duplicate old pants. Preserve the intended equal-cell positions and generous transparent margins.",
+  "referenced_image_paths": [
+    "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_e_upper45_47_v1/input-source45-47-fixed-crop.png",
+    "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_e_upper45_47_v1/input-interfaces-support.png",
+    "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_e_upper45_47_v1/input-approved-identity.png"
+  ],
+  "inputs": [
+    {
+      "path": "input-source45-47-fixed-crop.png",
+      "sha256": "130b18f6fe005574c65f626553f1f08dfaf3ab8f6ddbfc7b86ba7cc259aa3882"
+    },
+    {
+      "path": "input-interfaces-support.png",
+      "sha256": "cda7cb98c84d4faf77ded50e124be007b4369fdcad7fbf8124a3a8b1723e5083"
+    },
+    {
+      "path": "input-approved-identity.png",
+      "sha256": "5a7108561f9c8aec39a25de76a4e5fea6d4ce5148e3649af5ad938724f749d38"
+    }
+  ]
+}

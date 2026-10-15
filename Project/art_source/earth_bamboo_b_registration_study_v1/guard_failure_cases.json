@@ -1,0 +1,94 @@
+{
+  "read_only_CPU_gate_only": true,
+  "valid_complete_set_passed": true,
+  "failure_cases": [
+    {
+      "mutated_owner": 317,
+      "field": "cell",
+      "gate_rejected": true,
+      "would_publish_owner_count": 0
+    },
+    {
+      "mutated_owner": 317,
+      "field": "source_cell",
+      "gate_rejected": true,
+      "would_publish_owner_count": 0
+    },
+    {
+      "mutated_owner": 317,
+      "field": "flag",
+      "gate_rejected": true,
+      "would_publish_owner_count": 0
+    },
+    {
+      "mutated_owner": 317,
+      "field": "layer",
+      "gate_rejected": true,
+      "would_publish_owner_count": 0
+    },
+    {
+      "mutated_owner": 317,
+      "field": "sort_y",
+      "gate_rejected": true,
+      "would_publish_owner_count": 0
+    },
+    {
+      "mutated_owner": 317,
+      "field": "stable_source_order",
+      "gate_rejected": true,
+      "would_publish_owner_count": 0
+    },
+    {
+      "mutated_owner": 317,
+      "field": "source_frame_crop",
+      "gate_rejected": true,
+      "would_publish_owner_count": 0
+    },
+    {
+      "mutated_owner": 317,
+      "field": "source_frame_offset_preserved_ignored_for_ordinary_objects",
+      "gate_rejected": true,
+      "would_publish_owner_count": 0
+    },
+    {
+      "mutated_owner": 317,
+      "field": "empty",
+      "gate_rejected": true,
+      "would_publish_owner_count": 0
+    },
+    {
+      "mutated_owner": 317,
+      "field": "scale",
+      "gate_rejected": true,
+      "would_publish_owner_count": 0
+    },
+    {
+      "mutated_owner": 317,
+      "field": "world_top_left",
+      "gate_rejected": true,
+      "would_publish_owner_count": 0
+    },
+    {
+      "mutated_owner": 317,
+      "field": "texture_sha256",
+      "gate_rejected": true,
+      "would_publish_owner_count": 0
+    },
+    {
+      "field": "missing owner",
+      "gate_rejected": true,
+      "would_publish_owner_count": 0
+    },
+    {
+      "field": "316 must be explicit empty",
+      "gate_rejected": true,
+      "would_publish_owner_count": 0
+    },
+    {
+      "field": "live map flag changed",
+      "gate_rejected": true,
+      "would_publish_owner_count": 0
+    }
+  ],
+  "no_runtime_gate_installed": true
+}

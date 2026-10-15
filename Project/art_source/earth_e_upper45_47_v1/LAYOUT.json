@@ -1,0 +1,182 @@
+{
+  "status": "pre-generation frozen support; not hidden anatomical model",
+  "two_cells": [
+    [
+      0,
+      0,
+      760,
+      620
+    ],
+    [
+      760,
+      0,
+      1520,
+      620
+    ]
+  ],
+  "logical_context": [
+    20,
+    44,
+    58,
+    75
+  ],
+  "input_pixels_per_logical": 20,
+  "intended_mapping": "one sheet common density 38/(raw width/2), target origin(20,44) each cell; if geometry drifts report, never separately fit",
+  "params": {
+    "45": {
+      "support_polygon_logical": [
+        [
+          32,
+          46
+        ],
+        [
+          47,
+          46
+        ],
+        [
+          51,
+          54
+        ],
+        [
+          54,
+          63
+        ],
+        [
+          49,
+          68
+        ],
+        [
+          48,
+          73
+        ],
+        [
+          39,
+          73
+        ],
+        [
+          37,
+          67
+        ],
+        [
+          31,
+          65
+        ],
+        [
+          25,
+          65
+        ],
+        [
+          28,
+          58
+        ]
+      ],
+      "waist_overlap_logical": [
+        33,
+        46,
+        47,
+        49
+      ],
+      "cuff_centers": [
+        [
+          29.899120311997784,
+          61.62975648162877
+        ],
+        [
+          43.11127301291069,
+          70.28767547590313
+        ]
+      ],
+      "cuff_overlap_assumption_halfheight": 2,
+      "core_shift_HD4": [
+        4,
+        0
+      ],
+      "source_knee_proxies": [
+        [
+          33.0,
+          64.0
+        ],
+        [
+          49.0,
+          65.0
+        ]
+      ]
+    },
+    "47": {
+      "support_polygon_logical": [
+        [
+          32,
+          45
+        ],
+        [
+          47,
+          45
+        ],
+        [
+          50,
+          54
+        ],
+        [
+          50,
+          62
+        ],
+        [
+          49,
+          68
+        ],
+        [
+          41,
+          69
+        ],
+        [
+          40,
+          73
+        ],
+        [
+          30,
+          73
+        ],
+        [
+          30,
+          65
+        ],
+        [
+          30,
+          55
+        ]
+      ],
+      "waist_overlap_logical": [
+        33,
+        45,
+        47,
+        48
+      ],
+      "cuff_centers": [
+        [
+          36.15389876765052,
+          68.69532328060525
+        ],
+        [
+          44.40762730809408,
+          65.85983944858755
+        ]
+      ],
+      "cuff_overlap_assumption_halfheight": 2,
+      "core_shift_HD4": [
+        4,
+        -4
+      ],
+      "source_knee_proxies": [
+        [
+          36.0,
+          64.0
+        ],
+        [
+          46.0,
+          61.0
+        ]
+      ]
+    }
+  },
+  "limits": "source knee proxies differ from frozen armor interface centers; visible cloth transition is authoring hypothesis, not proof of original anatomy; cuff overlap only 2 logical px"
+}

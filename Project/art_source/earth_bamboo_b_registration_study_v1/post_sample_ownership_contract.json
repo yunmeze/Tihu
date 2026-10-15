@@ -1,0 +1,123 @@
+{
+  "status": "research only; shader not compiled or GPU-tested; no production installation",
+  "shader": "post_sample_ownership.gdshader",
+  "shared_texture": "raw_frozen.png",
+  "texture_sha256": "36731fe0e2ffad2ee8c6772ff8433b14d60fb66f4ae1b5a4455251815eb858c2",
+  "raw_canvas_width": 1254.0,
+  "transform": {
+    "scale": 0.3261195052962738,
+    "world_top_left": [
+      3412.8449703437527,
+      1435.9874544212582
+    ],
+    "raw_from_source_translation": [
+      184.45701247337996,
+      144.15741718984782
+    ],
+    "rotation": 0,
+    "shear": 0,
+    "refit_performed": false
+  },
+  "sprite_contract": {
+    "centered": false,
+    "region_enabled": false,
+    "flip_h": false,
+    "flip_v": false,
+    "modulate": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "self_modulate": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "texture_filter": "LINEAR, identical for whole and split",
+    "texture_repeat": "DISABLED",
+    "mipmaps": "same texture resource/import settings; record actual settings",
+    "vertex_geometry": "same full 1254x1254 quad for all six; no scissor/crop",
+    "snap": "same global transform; record project/camera snap; do not independently snap owners"
+  },
+  "owners": [
+    {
+      "frame_index": 317,
+      "key": "Plant:317@72,54",
+      "raw_x_begin": 0,
+      "raw_x_end": 279.5141908897309,
+      "interval": "[begin,end); exact edge assigned to right owner",
+      "layer": 1,
+      "sort_y": 54,
+      "stable_source_order": 7254
+    },
+    {
+      "frame_index": 319,
+      "key": "Plant:319@73,55",
+      "raw_x_begin": 279.5141908897309,
+      "raw_x_end": 426.699499405371,
+      "interval": "[begin,end); exact edge assigned to right owner",
+      "layer": 1,
+      "sort_y": 55,
+      "stable_source_order": 7355
+    },
+    {
+      "frame_index": 321,
+      "key": "Plant:321@74,56",
+      "raw_x_begin": 426.699499405371,
+      "raw_x_end": 573.8848079210111,
+      "interval": "[begin,end); exact edge assigned to right owner",
+      "layer": 1,
+      "sort_y": 56,
+      "stable_source_order": 7456
+    },
+    {
+      "frame_index": 322,
+      "key": "Plant:322@75,56",
+      "raw_x_begin": 573.8848079210111,
+      "raw_x_end": 721.0701164366512,
+      "interval": "[begin,end); exact edge assigned to right owner",
+      "layer": 1,
+      "sort_y": 56,
+      "stable_source_order": 7556
+    },
+    {
+      "frame_index": 320,
+      "key": "Plant:320@76,55",
+      "raw_x_begin": 721.0701164366512,
+      "raw_x_end": 868.2554249522914,
+      "interval": "[begin,end); exact edge assigned to right owner",
+      "layer": 1,
+      "sort_y": 55,
+      "stable_source_order": 7655
+    },
+    {
+      "frame_index": 318,
+      "key": "Plant:318@77,54",
+      "raw_x_begin": 868.2554249522914,
+      "raw_x_end": 1254,
+      "interval": "[begin,end); exact edge assigned to right owner",
+      "layer": 1,
+      "sort_y": 54,
+      "stable_source_order": 7754
+    }
+  ],
+  "owner316": "no draw, only with atomic complete-seven source suppression",
+  "comparison_modes": [
+    "whole intact texture, same shader [0,1254)",
+    "precut fullcanvas textures baseline",
+    "intact texture with post-sample continuous source-edge ownership",
+    "optional intact texture with rounded integer cut ownership, isolates sampling from boundary geometry"
+  ],
+  "rounded_control_edges": [
+    0,
+    280,
+    427,
+    574,
+    721,
+    868,
+    1254
+  ],
+  "unverified": "Native/GPU precision, filtering, batching, screen capture and moving-actor interleave require runner validation."
+}
