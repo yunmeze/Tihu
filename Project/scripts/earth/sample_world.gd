@@ -89,6 +89,17 @@ func _draw_frame(pack_name:String,index:int,origin:Vector2,use_offset:bool,top:f
 			return
 	super._draw_frame(pack_name,index,origin,use_offset,top)
 
+const TreeCandidate=preload("res://scripts/earth/tree_candidate.gd")
+var prefer_tree:=true
+var tree_owners:Dictionary={}
+func prepare_tree(path:String=TreeCandidate.PATH) -> bool:
+	tree_owners=TreeCandidate.prepare(path,map);queue_redraw();return tree_owners.size()==7
+func uses_tree(entry:Dictionary) -> bool:
+	if not prefer_tree or tree_owners.size()!=7 or entry.get("kind")!=2 or entry.get("pack")!="Map/Res/Plant" or entry.get("layer")!=1:return false
+	var order=entry.get("order")
+	if not tree_owners.has(order):return false
+	return entry.get("index")==tree_owners[order].index and entry.get("y")==int(order)%100 and entry.get("origin")==Vector2(int(order)/100,int(order)%100)*Vector2(48,32)
+
 const Fangzhang=preload("res://scripts/earth/fangzhang_candidate.gd")
 var prefer_fangzhang:=true
 var fangzhang_texture:CanvasTexture
@@ -133,6 +144,10 @@ func _draw() -> void:
 	for entry in ordered_objects():
 		if entry.kind==-1:
 			_draw_hero(movement.position*Vector2(48,32)+offset,movement.source_frame());continue
+		if uses_tree(entry):
+			var item=tree_owners[entry.order]
+			if not item.empty:draw_texture_rect(item.texture,Rect2(item.origin+offset,item.size),false)
+			continue
 		if uses_fangzhang(entry):
 			draw_texture_rect(fangzhang_texture,Rect2(entry.origin+offset+Vector2(-32,-104),Vector2(128,160)),false)
 			continue

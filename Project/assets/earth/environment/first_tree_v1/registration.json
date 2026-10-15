@@ -1,0 +1,402 @@
+{
+  "schema": "earth-first-tree-candidate-registration-v1",
+  "status": "approved ordinary candidate: only original7owners root57,34; no new tree shadow; not all-map final art",
+  "approval_scope": "Only Plant292–298 rooted57,34; small crown extension approved for review. No source flags/collision/order changed; no new tree shadow.",
+  "raw_texture": "res://assets/earth/environment/first_tree_v1/whole-review.png",
+  "raw_sha256": "c639ad6e35e10f3a4c61d13a38258b2db1f077cea3f757ec8e064762601cc9e6",
+  "source_contract_sha256": "f89127f321471e1b40b7edb147c690b42bb9069fbb9b561935868626a9725211",
+  "source_map_sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+  "density": 4,
+  "whole_tree_registration": {
+    "scale": 0.25,
+    "world_top_left": [
+      2630.25,
+      784.0
+    ],
+    "rotation": 0,
+    "shear": 0,
+    "manual_root_raw_xy": [
+      523,
+      1224
+    ],
+    "root_world_xy": [
+      2761,
+      1090
+    ],
+    "manual_uncertainty_raw_px": 8,
+    "source_manual_uncertainty_logical_px": 4
+  },
+  "suppress_source_keys": [
+    "Plant:292@57,34",
+    "Plant:293@55,37",
+    "Plant:294@56,37",
+    "Plant:295@58,37",
+    "Plant:296@59,37",
+    "Plant:297@60,37",
+    "Plant:298@61,37"
+  ],
+  "owners": [
+    {
+      "pack": "Map/Res/Plant",
+      "key": "Plant:292@57,34",
+      "cell": [
+        57,
+        34
+      ],
+      "source_cell": [
+        0,
+        -1,
+        2,
+        292
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 34,
+      "stable_source_order": 5734,
+      "frame_index": 292,
+      "scale": 0.25,
+      "raw_rect": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "world_top_left": [
+        2630.25,
+        784.0
+      ],
+      "empty": false,
+      "assigned_raw_pixel_count": 250585,
+      "visible_pixel_count": 198736,
+      "nonzero_rgba_pixel_count": 198842,
+      "alpha_gt127_count": 179383,
+      "source_rectangle_expanded": true,
+      "texture": "res://assets/earth/environment/first_tree_v1/owner-292.png",
+      "texture_size": [
+        1254,
+        1254
+      ],
+      "sha256": "975a1fc551685e481ef34409ecc9f8db085b4cca45acd4317a632133ef7a38ed",
+      "texture_sha256": "975a1fc551685e481ef34409ecc9f8db085b4cca45acd4317a632133ef7a38ed"
+    },
+    {
+      "pack": "Map/Res/Plant",
+      "key": "Plant:293@55,37",
+      "cell": [
+        55,
+        37
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        293
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 37,
+      "stable_source_order": 5537,
+      "frame_index": 293,
+      "scale": 0.25,
+      "raw_rect": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "world_top_left": [
+        2630.25,
+        784.0
+      ],
+      "empty": false,
+      "assigned_raw_pixel_count": 157788,
+      "visible_pixel_count": 70442,
+      "nonzero_rgba_pixel_count": 70497,
+      "alpha_gt127_count": 55985,
+      "source_rectangle_expanded": true,
+      "texture": "res://assets/earth/environment/first_tree_v1/owner-293.png",
+      "texture_size": [
+        1254,
+        1254
+      ],
+      "sha256": "913d6d58db380b32487274fabb2d32c393ccaa5c7b310a4f2d12ad9ef49f11b0",
+      "texture_sha256": "913d6d58db380b32487274fabb2d32c393ccaa5c7b310a4f2d12ad9ef49f11b0"
+    },
+    {
+      "pack": "Map/Res/Plant",
+      "key": "Plant:294@56,37",
+      "cell": [
+        56,
+        37
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        294
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 37,
+      "stable_source_order": 5637,
+      "frame_index": 294,
+      "scale": 0.25,
+      "raw_rect": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "world_top_left": [
+        2630.25,
+        784.0
+      ],
+      "empty": false,
+      "assigned_raw_pixel_count": 364541,
+      "visible_pixel_count": 166084,
+      "nonzero_rgba_pixel_count": 166168,
+      "alpha_gt127_count": 142471,
+      "source_rectangle_expanded": true,
+      "texture": "res://assets/earth/environment/first_tree_v1/owner-294.png",
+      "texture_size": [
+        1254,
+        1254
+      ],
+      "sha256": "eb2429a22104baa43d724425372b231e6dbb1e8266c59fcc4883adaf28722d75",
+      "texture_sha256": "eb2429a22104baa43d724425372b231e6dbb1e8266c59fcc4883adaf28722d75"
+    },
+    {
+      "pack": "Map/Res/Plant",
+      "key": "Plant:295@58,37",
+      "cell": [
+        58,
+        37
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        295
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 37,
+      "stable_source_order": 5837,
+      "frame_index": 295,
+      "scale": 0.25,
+      "raw_rect": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "world_top_left": [
+        2630.25,
+        784.0
+      ],
+      "empty": false,
+      "assigned_raw_pixel_count": 270087,
+      "visible_pixel_count": 152556,
+      "nonzero_rgba_pixel_count": 152602,
+      "alpha_gt127_count": 130074,
+      "source_rectangle_expanded": true,
+      "texture": "res://assets/earth/environment/first_tree_v1/owner-295.png",
+      "texture_size": [
+        1254,
+        1254
+      ],
+      "sha256": "3d743ceffeda223272e18ed2343035f9aec38d435591c178526b15ebff14555b",
+      "texture_sha256": "3d743ceffeda223272e18ed2343035f9aec38d435591c178526b15ebff14555b"
+    },
+    {
+      "pack": "Map/Res/Plant",
+      "key": "Plant:296@59,37",
+      "cell": [
+        59,
+        37
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        296
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 37,
+      "stable_source_order": 5937,
+      "frame_index": 296,
+      "scale": 0.25,
+      "raw_rect": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "world_top_left": [
+        2630.25,
+        784.0
+      ],
+      "empty": false,
+      "assigned_raw_pixel_count": 320115,
+      "visible_pixel_count": 83296,
+      "nonzero_rgba_pixel_count": 83323,
+      "alpha_gt127_count": 60482,
+      "source_rectangle_expanded": true,
+      "texture": "res://assets/earth/environment/first_tree_v1/owner-296.png",
+      "texture_size": [
+        1254,
+        1254
+      ],
+      "sha256": "a40346e0ccc3e8dfe87d2d255a1192566ab986421c17f8067d120d9ee12ffb11",
+      "texture_sha256": "a40346e0ccc3e8dfe87d2d255a1192566ab986421c17f8067d120d9ee12ffb11"
+    },
+    {
+      "pack": "Map/Res/Plant",
+      "key": "Plant:297@60,37",
+      "cell": [
+        60,
+        37
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        297
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 37,
+      "stable_source_order": 6037,
+      "frame_index": 297,
+      "scale": 0.25,
+      "raw_rect": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "world_top_left": [
+        2630.25,
+        784.0
+      ],
+      "empty": false,
+      "assigned_raw_pixel_count": 209400,
+      "visible_pixel_count": 27575,
+      "nonzero_rgba_pixel_count": 27598,
+      "alpha_gt127_count": 18358,
+      "source_rectangle_expanded": true,
+      "texture": "res://assets/earth/environment/first_tree_v1/owner-297.png",
+      "texture_size": [
+        1254,
+        1254
+      ],
+      "sha256": "ad51b9394ac0d7418734be11b122028c5afe574db89627aa2320a206967865aa",
+      "texture_sha256": "ad51b9394ac0d7418734be11b122028c5afe574db89627aa2320a206967865aa"
+    },
+    {
+      "pack": "Map/Res/Plant",
+      "key": "Plant:298@61,37",
+      "cell": [
+        61,
+        37
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        298
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 37,
+      "stable_source_order": 6137,
+      "frame_index": 298,
+      "scale": 0.25,
+      "raw_rect": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "world_top_left": [
+        2630.25,
+        784.0
+      ],
+      "empty": true,
+      "assigned_raw_pixel_count": 0,
+      "visible_pixel_count": 0,
+      "nonzero_rgba_pixel_count": 0,
+      "alpha_gt127_count": 0,
+      "empty_reason": "Original298 is cast-only. No new cast is made; identity remains to suppress original shadow, with no new crown allocation.",
+      "texture": "res://assets/earth/environment/first_tree_v1/owner-298.png",
+      "texture_size": [
+        1254,
+        1254
+      ],
+      "sha256": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+      "texture_sha256": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473"
+    }
+  ],
+  "partition": {
+    "method": "Nearest Euclidean original cropped source rectangle among292..297; retain owner inside rect; ties original draw order; applies every raw pixel including alpha0.298 explicit empty.",
+    "owner_labels": "res://assets/earth/environment/first_tree_v1/owner-labels.png",
+    "owner_labels_sha256": "14ea580f756d59692825dc93aab90728a20a6f01013a8500ebff88d7b059fd75",
+    "no_pixels_dropped": true,
+    "no_pixels_duplicated": true,
+    "no_rgb_cleanup": true,
+    "empty_owner_298": true
+  },
+  "shadow": "None. Suppress all seven original source sprites atomically, including original baked checker cast; do not generate a new environmental shadow.",
+  "low_alpha_statistics": {
+    "definition": "0<alpha<=16 and distance>16raw pixels (4logical units) from alpha>16 body; statistics only, none removed",
+    "all_low_alpha_count": 83015,
+    "far_low_alpha_count": 2808,
+    "far_alpha_max": 1,
+    "by_owner": [
+      {
+        "key": "Plant:292@57,34",
+        "far_low_alpha_count": 5
+      },
+      {
+        "key": "Plant:293@55,37",
+        "far_low_alpha_count": 155
+      },
+      {
+        "key": "Plant:294@56,37",
+        "far_low_alpha_count": 146
+      },
+      {
+        "key": "Plant:295@58,37",
+        "far_low_alpha_count": 183
+      },
+      {
+        "key": "Plant:296@59,37",
+        "far_low_alpha_count": 913
+      },
+      {
+        "key": "Plant:297@60,37",
+        "far_low_alpha_count": 1406
+      },
+      {
+        "key": "Plant:298@61,37",
+        "far_low_alpha_count": 0
+      }
+    ]
+  },
+  "technical_alias": {
+    "source_registration_sha256": "9a1b056989dfb483b9bb644475375b768c185186c4865f69cf760cd4ac048180",
+    "all_owner_canvas": [
+      1254,
+      1254
+    ],
+    "all_world_top_left": [
+      2630.25,
+      784.0
+    ],
+    "all_scale": 0.25,
+    "owner_assignment_unchanged": true,
+    "all_rgba_reassembly_equal": true,
+    "empty298_fullsize_transparent": true
+  }
+}
