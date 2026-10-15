@@ -1,26 +1,28 @@
-# Legend — Godot 2D reconstruction
+# Legend：Godot 2D 重建工程
 
-Target: Godot 4.6.x. This directory is a new reconstruction following the loss of the previous local workspace. Historical screenshots and test reports are not evidence that the missing implementation has been restored.
+目标版本：Godot 4.6.x。当前重建采用原版素材验证玩法与数据，尚未恢复科幻重制美术。旧工作环境的源码和生成图未找回，本目录是依据原始材料和保留的实现记录重新实现的版本。
 
-## Current checkpoint: R1 — source-art movement preview
+## 启动与当前范围
 
-Original materials have been retrieved from the existing `Legend` branch. The original game and web reference directories are retained unchanged. The A13 source-art preview is now runnable in Godot 4.6.x. Open `Project/project.godot` and press F5. Left-click to move, hold Shift to run, Space to stop. This is a bounded movement preview: story, inventory, combat, saving, and remade art are not implemented yet.
+使用 Godot 编辑器导入本目录的 `project.godot`，等待资源导入完成。
 
-The implementation belongs in this directory. Production assets and reproducible extraction tools are versioned. Local test fixtures, temporary files, editor caches, and runtime saves are excluded.
+- **F5 默认入口：** `scenes/game.tscn`。A13 原版场景走动预览；左键走路，按住 Shift 跑步，空格停止，G 显示碰撞格。
+- **屋门预览：** 打开 `scenes/portal_preview.tscn` 后按 F6。A00 房间出门、返门的原传送点可用。
+- **NPC 剧情候选：** 打开 `scenes/opening_candidate.tscn` 后按 F6。点击方丈、凌云子，沿原按钮对话，可到 A00 房间。此入口显式预设 ET1/STOP；尚未执行完整地图加载脚本，不能等同完整新游戏。
 
-## R1 verified scope
+目前没有完整战斗、背包界面、存档或科幻美术。A01/A02、原动作和物品数据已提取存档，但数据存在不代表玩法已接入。Windows 尚未实测；已验证平台为 Linux / Godot 4.6.3。
 
-- Parse the original A13 map and sprite containers without executing the original executable.
-- Render the original map with original layer, placement, and sprite offsets.
-- Display the original protagonist and implement verified movement/obstruction behavior.
-- Verify import, startup, movement, and representative occlusion in Godot before marking the checkpoint runnable.
+## 已验证的小阶段
 
-Further checkpoints will restore original quest logic, instance inventory, save/load, combat, and the approved science-fiction 2D art direction. New art is image-generated from analyzed original frame sequences, not Blender models.
+- R1：原 A13 地表、物件与 NPC 绘制；原角色128移动相位；寻路、阻挡及树前后遮挡。
+- R2：独立 A00 屋门往返；九处原门禁保持关闭。
+- R3：独立两 NPC 对话链 ET1→2→3；换图前先检查全部候选事件和目标资源，失败不提交一半进度。
+- 纯对话内核：原脚本分支、按钮、ET/BT、候选事件及失败回滚；尚未支持所有原脚本指令。
 
-See `docs/RECOVERY_PLAN.md` for evidence and boundaries.
+范围和已知适配差异见 `docs/R1_SOURCE_PREVIEW.md`、`docs/R2_HOUSE_PORTAL_PREVIEW.md`、`docs/R3_NPC_OPENING_CANDIDATE.md`。
 
-See `docs/R1_SOURCE_PREVIEW.md` for controls, tested behavior, and deliberate limits. Linux Godot 4.6.3 was tested; Windows has not yet been tested.
+## 文件与存档规则
 
-## Optional A00 house preview
+原版游戏和参考项目位于仓库上一级的同名目录，保持不变。生产资产、实际代码、可复现提取工具及必要设计说明纳入 Git；测试夹具、诊断截图、临时文件、引擎缓存和游戏存档不上传。
 
-Open `scenes/portal_preview.tscn` and run the current scene (F6) to inspect the source-art room and walk through the original house door portals. Default F5 remains A13. This optional preview does not execute story scripts or load/save progression. See `docs/R2_HOUSE_PORTAL_PREVIEW.md`.
+每个小阶段验证后提交至 Legend，并核对远端提交与文件树。工作目录内的副本不作为独立备份。详见 `docs/RECOVERY_PLAN.md`。
