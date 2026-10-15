@@ -1,0 +1,308 @@
+{
+  "status": "one raw candidate only; source-layout/material review pending; not approved or installed",
+  "raw": {
+    "file": "raw.png",
+    "sha256": "c1970f3dc599c43dc47dff6f1d41f3051949e4c730fd53c5fcdadcd188d55fc7",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "opaque": true,
+    "world_bounds": [
+      2496,
+      960,
+      3264,
+      1472
+    ],
+    "logical_size": [
+      768,
+      512
+    ],
+    "effective_texels_per_logical": [
+      2.0,
+      2.0
+    ],
+    "raw_resized_or_warped": false,
+    "generated_attempts": 1
+  },
+  "manual_visual_findings": {
+    "topology": "Original capped diagonal road remains in lower field; the grass gap to the left stairs is retained. No connector path, people, buildings, large trees or their cast silhouettes are baked in.",
+    "centerline": "Six manual central-curb samples remain near the prior source read within its approximate precision; this is not zero-error registration or exact boundary approval.",
+    "edge_limit": "Generated curb has more pronounced width/contact contrast; local outer material edges fluctuate against the approximate source band. No warp was applied. Source guide has per-frame approximation steps and cannot prove exact original curb geometry.",
+    "style": "Concrete slabs are coherent and restrained; grass remains too busy/high-contrast and warm-yellow relative to the desired quiet natural green. Needs joint review with hall/actor before acceptance.",
+    "light": "Warm upper-left material lighting is plausible; no shared hall/actor composite has been tested. No claim of accepted unified lighting.",
+    "repetition": "No obvious exact mirror/tile seams seen in this plate; natural-looking density variation and visual quietness are still insufficiently established at game scale."
+  },
+  "manual_curb_samples": [
+    {
+      "source_raw_center": [
+        382,
+        834
+      ],
+      "generated_raw_center_approx": [
+        386,
+        832
+      ],
+      "delta_logical": [
+        2.0,
+        -1.0
+      ],
+      "source_uncertainty_logical": 3,
+      "generated_read_uncertainty_raw_px": 3
+    },
+    {
+      "source_raw_center": [
+        768,
+        578
+      ],
+      "generated_raw_center_approx": [
+        771,
+        577
+      ],
+      "delta_logical": [
+        1.5,
+        -0.5
+      ],
+      "source_uncertainty_logical": 3,
+      "generated_read_uncertainty_raw_px": 3
+    },
+    {
+      "source_raw_center": [
+        960,
+        582
+      ],
+      "generated_raw_center_approx": [
+        963,
+        578
+      ],
+      "delta_logical": [
+        1.5,
+        -2.0
+      ],
+      "source_uncertainty_logical": 3,
+      "generated_read_uncertainty_raw_px": 3
+    },
+    {
+      "source_raw_center": [
+        1048,
+        636
+      ],
+      "generated_raw_center_approx": [
+        1052,
+        638
+      ],
+      "delta_logical": [
+        2.0,
+        1.0
+      ],
+      "source_uncertainty_logical": 3,
+      "generated_read_uncertainty_raw_px": 3
+    },
+    {
+      "source_raw_center": [
+        1048,
+        774
+      ],
+      "generated_raw_center_approx": [
+        1051,
+        772
+      ],
+      "delta_logical": [
+        1.5,
+        -1.0
+      ],
+      "source_uncertainty_logical": 3,
+      "generated_read_uncertainty_raw_px": 3
+    },
+    {
+      "source_raw_center": [
+        872,
+        896
+      ],
+      "generated_raw_center_approx": [
+        874,
+        897
+      ],
+      "delta_logical": [
+        1.0,
+        0.5
+      ],
+      "source_uncertainty_logical": 3,
+      "generated_read_uncertainty_raw_px": 3
+    }
+  ],
+  "color_proxy_diagnostics": {
+    "definition": "largest connected neutral-color component, B/G>=.69 and R/G>=.94 and R-G<55; NOT exact material alpha",
+    "scanlines": [
+      {
+        "raw_y": 578,
+        "source_guide_including_review_band_x": [
+          754,
+          969
+        ],
+        "generated_neutral_material_proxy_x": [
+          753,
+          981
+        ]
+      },
+      {
+        "raw_y": 600,
+        "source_guide_including_review_band_x": [
+          720,
+          1005
+        ],
+        "generated_neutral_material_proxy_x": [
+          720,
+          1015
+        ]
+      },
+      {
+        "raw_y": 636,
+        "source_guide_including_review_band_x": [
+          666,
+          1055
+        ],
+        "generated_neutral_material_proxy_x": [
+          667,
+          1059
+        ]
+      },
+      {
+        "raw_y": 650,
+        "source_guide_including_review_band_x": [
+          646,
+          1055
+        ],
+        "generated_neutral_material_proxy_x": [
+          646,
+          1060
+        ]
+      },
+      {
+        "raw_y": 700,
+        "source_guide_including_review_band_x": [
+          572,
+          1055
+        ],
+        "generated_neutral_material_proxy_x": [
+          571,
+          1051
+        ]
+      },
+      {
+        "raw_y": 750,
+        "source_guide_including_review_band_x": [
+          496,
+          1055
+        ],
+        "generated_neutral_material_proxy_x": [
+          500,
+          1060
+        ]
+      },
+      {
+        "raw_y": 774,
+        "source_guide_including_review_band_x": [
+          460,
+          1055
+        ],
+        "generated_neutral_material_proxy_x": [
+          462,
+          1056
+        ]
+      },
+      {
+        "raw_y": 800,
+        "source_guide_including_review_band_x": [
+          422,
+          1021
+        ],
+        "generated_neutral_material_proxy_x": [
+          425,
+          1018
+        ]
+      },
+      {
+        "raw_y": 834,
+        "source_guide_including_review_band_x": [
+          370,
+          973
+        ],
+        "generated_neutral_material_proxy_x": [
+          375,
+          970
+        ]
+      },
+      {
+        "raw_y": 850,
+        "source_guide_including_review_band_x": [
+          346,
+          949
+        ],
+        "generated_neutral_material_proxy_x": [
+          352,
+          941
+        ]
+      },
+      {
+        "raw_y": 896,
+        "source_guide_including_review_band_x": [
+          278,
+          863
+        ],
+        "generated_neutral_material_proxy_x": [
+          283,
+          880
+        ]
+      },
+      {
+        "raw_y": 950,
+        "source_guide_including_review_band_x": [
+          196,
+          797
+        ],
+        "generated_neutral_material_proxy_x": [
+          204,
+          801
+        ]
+      },
+      {
+        "raw_y": 1000,
+        "source_guide_including_review_band_x": [
+          120,
+          725
+        ],
+        "generated_neutral_material_proxy_x": [
+          131,
+          731
+        ]
+      },
+      {
+        "raw_y": 1023,
+        "source_guide_including_review_band_x": [
+          88,
+          693
+        ],
+        "generated_neutral_material_proxy_x": [
+          96,
+          698
+        ]
+      }
+    ],
+    "road_guide_core_pixels": 213052,
+    "core_pixels_not_in_proxy": 526,
+    "proxy_pixels_beyond_review_band": 3131,
+    "limitations": "Colored blades can hide edge pixels; old semantic guide uses manual source centerline and per-frame copies. Neither metric authorizes width changes, trimming or runtime masks."
+  },
+  "not_performed": [
+    "raw warp",
+    "raw color correction",
+    "second generation",
+    "64-owner export",
+    "static shadow generation",
+    "runtime edit",
+    "native scene validation"
+  ],
+  "decision": "Keep immutable raw for parent review. Do not promote to production or claim source-edge acceptance. Any follow-up generation/retouch must be separately scoped."
+}

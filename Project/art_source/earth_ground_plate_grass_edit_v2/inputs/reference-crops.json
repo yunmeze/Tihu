@@ -1,0 +1,36 @@
+{
+  "source": "art_source/earth_base_style_concept_v1/concept.png",
+  "source_sha256": "1beaf20bbda18d0e04fcf2f6e81a0028750e1b87224f21780393b00c36cc4fc5",
+  "crops": [
+    {
+      "file": "art_source/earth_ground_plate_grass_edit_v2/inputs/concept-grass-green-material.png",
+      "crop_xyxy": [
+        240,
+        230,
+        315,
+        300
+      ],
+      "size": [
+        75,
+        70
+      ],
+      "sha256": "a208baccfa19c63345225b9141fa296bb15172e9818c7162056cebdd2bfcf7f0",
+      "derivation": "exact unscaled source crop; material tone/density reference only"
+    },
+    {
+      "file": "art_source/earth_ground_plate_grass_edit_v2/inputs/concept-grass-midgreen-material.png",
+      "crop_xyxy": [
+        285,
+        330,
+        355,
+        392
+      ],
+      "size": [
+        70,
+        62
+      ],
+      "sha256": "f8efab080a44da7ef5bac9444c1b2085ca4df0bd0c8c4b0dc3eff0c2c8609640",
+      "derivation": "exact unscaled source crop; material tone/density reference only"
+    }
+  ]
+}

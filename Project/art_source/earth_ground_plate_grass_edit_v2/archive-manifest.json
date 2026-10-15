@@ -1,0 +1,557 @@
+{
+  "schema": "earth-ground-archive-allowlist-v1",
+  "status": "explicit archival allowlist only; no Git operation performed",
+  "files": [
+    {
+      "path": "Project/art_source/earth_ground_plate_candidate_v1/README.md",
+      "bytes": 3303,
+      "sha256": "70983d692b980672c4b58ff96269ee8025e46edffff30c1dc1d5d9574fcc4adf"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_candidate_v1/generation.json",
+      "bytes": 1731,
+      "sha256": "7e560d476e9e2326f8fa58693d9a1a9d17255db330748abf0d58a2f6954d01b7"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_candidate_v1/inputs/concept-grass-material.png",
+      "bytes": 14186,
+      "sha256": "bc1387ad75fcbfd2c917863f729ed2555c2a2fbd42714e4abba8b3c9626ade2e"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_candidate_v1/inputs/concept-paving-material.png",
+      "bytes": 26198,
+      "sha256": "ac74527916bb987b9ae98a09abdedb4cf6a2bb12dd8c417a0985f2cc654b2887"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_candidate_v1/inputs/reference-crops.json",
+      "bytes": 1085,
+      "sha256": "5281fd74f5e11ec2bcbdb15b84a3d846abc50bb76243e62299159100c81345f3"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_candidate_v1/prompt.txt",
+      "bytes": 3598,
+      "sha256": "d92195174a37ef0352e33c1924387466471468ed609a904aa64fb20e879759b3"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_candidate_v1/raw.png",
+      "bytes": 4319064,
+      "sha256": "c1970f3dc599c43dc47dff6f1d41f3051949e4c730fd53c5fcdadcd188d55fc7"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_candidate_v1/review.json",
+      "bytes": 7516,
+      "sha256": "d3d6b69d34611bca44d8160e42756e42a21178c066de0ed0da155a6c2b003361"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_candidate_v1/review_candidate.py",
+      "bytes": 6155,
+      "sha256": "33b355db171b0515dd16124d1358d1acc79ee672f4a913d0c27e738427870547"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_grass_edit_v2/README.md",
+      "bytes": 4226,
+      "sha256": "2148bce9d3382bd626f4d9b0249488a46a20676aeb3271d8c64e0fca07e44d15"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_grass_edit_v2/export-review.json",
+      "bytes": 729,
+      "sha256": "a5c9c5faeb5db2ea8084680e46eeaa45c601b26c375af47093ccbdaf079c9cec"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_grass_edit_v2/export_candidate.py",
+      "bytes": 8339,
+      "sha256": "4613ffa59981c2aa5a3f210712e5bfeb4d336d2473e5cd95c46e058557593619"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_grass_edit_v2/generation.json",
+      "bytes": 2132,
+      "sha256": "cb55acf896a6f810d093a30de523335a5b8ee25ff8c33c080472a9134b2ae67b"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_grass_edit_v2/inputs/concept-grass-green-material.png",
+      "bytes": 10597,
+      "sha256": "a208baccfa19c63345225b9141fa296bb15172e9818c7162056cebdd2bfcf7f0"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_grass_edit_v2/inputs/concept-grass-midgreen-material.png",
+      "bytes": 9449,
+      "sha256": "f8efab080a44da7ef5bac9444c1b2085ca4df0bd0c8c4b0dc3eff0c2c8609640"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_grass_edit_v2/inputs/protected-road-mask.png",
+      "bytes": 5166,
+      "sha256": "a7904252e6a0cc3c1202370201f0d9d699166f463a8ecf186681aebd5ebcab1d"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_grass_edit_v2/inputs/reference-crops.json",
+      "bytes": 1004,
+      "sha256": "a98dde4d898ea74b66491837404e5aeff6072691e429fff4ae7309d003f859c3"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_grass_edit_v2/layout-review.json",
+      "bytes": 3114,
+      "sha256": "1db9392cd4c2b368e3f3817550b5ed40f2fa90861374ccc30a09fdbf7a342b21"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_grass_edit_v2/make_archive_manifest.py",
+      "bytes": 4507,
+      "sha256": "efe2ce0d8591a0228dd9b554dcd29b80c5eb3572770e16108c6691808e16294d"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_grass_edit_v2/prompt.txt",
+      "bytes": 2657,
+      "sha256": "61afef83e67b595fdee04633d2c7c94ccf1a0f903c4e1a3bcd954cebd6a138ce"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_grass_edit_v2/raw.png",
+      "bytes": 3786268,
+      "sha256": "7dd080bb54897b878ac7743cad1dfb865217bdb76266fc441adb56d750edcb7b"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_grass_edit_v2/review.json",
+      "bytes": 3628,
+      "sha256": "25e1f452016f0e8f9bdce0e73f83ce0273ccf41fb7eea3fea958c0c1ab217d02"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_grass_edit_v2/review_edit.py",
+      "bytes": 5503,
+      "sha256": "25c706355f445ccb645ebaa18e24f49d02abc6179637be398ae89f99c1fa0601"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_grass_edit_v2/review_layout.py",
+      "bytes": 2758,
+      "sha256": "d4c1dfb1a45ccb64ffa17f55d24aafd9334444dc3fba53334fdded658347a92a"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_source_v1/material-layout-board.png",
+      "bytes": 3690,
+      "sha256": "ecb10972fe74c5389f83474b3796e98e2bf9a5be7272288e81018bb16412750f"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_source_v1/prepare_source.py",
+      "bytes": 18369,
+      "sha256": "9c0200e2cb6d7ed2f97a72440cb4a0816d09887e497e719aafd5a8288261b65b"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_source_v1/source-alpha-native.png",
+      "bytes": 1429,
+      "sha256": "90891613e50d59a71af91e4a128056d57c2f465a5dc27653d8018571f3b69ec2"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_source_v1/source-floor-native.png",
+      "bytes": 280696,
+      "sha256": "6a2e9cfc50ec743b8d346c5a3488fe8b082f73ae357d81bf984b6a22904e39bc"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_source_v1/source-layout-contract.json",
+      "bytes": 148118,
+      "sha256": "4bc8be5b1a10296f80c14b947d5f41db732b587155bca2fda4075e7c45d92f68"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_source_v1/source-material-zones-native.png",
+      "bytes": 3914,
+      "sha256": "7a388198c914d6d352ec88e62e1cbc68568850a87bb84e04792b161507c881b4"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/plate.png",
+      "bytes": 3786268,
+      "sha256": "7dd080bb54897b878ac7743cad1dfb865217bdb76266fc441adb56d750edcb7b"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/registration.json",
+      "bytes": 93293,
+      "sha256": "fd8c44654f46bd30547c9898e6fc97ca8cab3e4eb1be102e604c7a718881331a"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-52-30.png",
+      "bytes": 59257,
+      "sha256": "e08acf9d0f5a66915499701d347c5485a0b4f87ecfd591ee9c36545cab820b25"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-52-32.png",
+      "bytes": 60513,
+      "sha256": "8b0ac350d28e22eae5c630737ecae7b5129b2ef95547778e439afc05572294b0"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-52-34.png",
+      "bytes": 59443,
+      "sha256": "63190b542ca924d4861a21b3be96c330a6d08a81df916ff731b1965e011c50fb"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-52-36.png",
+      "bytes": 63130,
+      "sha256": "144911a77ea5381891b488dd79d28c2c58176826a5421124f375481a97637363"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-52-38.png",
+      "bytes": 63508,
+      "sha256": "9b6169fc7cd247988ffb03a326a8ad0ca4591816b06a3ab9160dd81097d629b1"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-52-40.png",
+      "bytes": 64841,
+      "sha256": "bf06d023ca3b1669915a218cb491352fd201f06f05a2785a74918fc5f5d989df"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-52-42.png",
+      "bytes": 65750,
+      "sha256": "9e7771c17537fddcf6ef07f633e582d4eeff9a41717964c97e6999b7f0ceea98"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-52-44.png",
+      "bytes": 65524,
+      "sha256": "59da0d53d4bf87f3f9b68d7054010a01639ab2cba83a674ad606f5adebd5b96d"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-54-30.png",
+      "bytes": 56048,
+      "sha256": "8d6ecb2cdaff1b31f4e1dd9aadd97546a9aca4c967b2948aa0d14ff56300bcf9"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-54-32.png",
+      "bytes": 59740,
+      "sha256": "26249deca981734c7041cfb572bab8c5951fe4cdbecec4b4bb673fb34558b50d"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-54-34.png",
+      "bytes": 61484,
+      "sha256": "c8f6e409519d7e940406954821e787bfb6ccb543de9956ae370902d41d0ae8de"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-54-36.png",
+      "bytes": 61724,
+      "sha256": "d01f333b15598389f14f9771791f7f58d646b1cd8de825c435c578d213ead6a4"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-54-38.png",
+      "bytes": 64174,
+      "sha256": "616e09029efbf57fc2f4bfc9ab21133dd15166db5519d1ef0e36a450e482b667"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-54-40.png",
+      "bytes": 64985,
+      "sha256": "b99be12ff0f3038d399ef1892a3b5fe28ee578160ed42b232416f8d46a0bd8fd"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-54-42.png",
+      "bytes": 64660,
+      "sha256": "23733c28b103cd63a2da991e190db10b1d02b2a90323e9ce1da4c77a9ad30c48"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-54-44.png",
+      "bytes": 52493,
+      "sha256": "5b5d8edb4340cbbbb314b40e12fc4d2bdf9a401daca0a21a4e48fb242f818ad1"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-56-30.png",
+      "bytes": 56530,
+      "sha256": "88615d93205bc107085503e98f31eae2ae1ab9fa68ff8c88e7ace873240705b2"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-56-32.png",
+      "bytes": 60667,
+      "sha256": "97dfa7c1a89b8b31253cda271615b7d507760574cf5c7c3e34f4a97207f0187e"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-56-34.png",
+      "bytes": 63416,
+      "sha256": "45b55e7273529b90df2aa973768e59cd6c5b5fdc7c523ee1be4e6c205e162349"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-56-36.png",
+      "bytes": 62557,
+      "sha256": "0e67641d34f13a07578e3f4b435766d05713aaf3e45e45cbf2c010353645704f"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-56-38.png",
+      "bytes": 65283,
+      "sha256": "f2903081caf30dd892b97ce1da84231b467e99e14f582761a0dbdeed80d5246a"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-56-40.png",
+      "bytes": 64193,
+      "sha256": "e6cdcd8191b5173df13025f36bf6f71aaa94aa6fff09148bfe77389945787040"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-56-42.png",
+      "bytes": 53985,
+      "sha256": "d9da456421061d1fcbbbec2822c0de674e632406c2ba9931d49dcd6ddba836a9"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-56-44.png",
+      "bytes": 48828,
+      "sha256": "f1fabbca7f2a89f44627f78a330cd441fd9fb33742d3739495cc0793059eb3fb"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-58-30.png",
+      "bytes": 56007,
+      "sha256": "bba2ebe43c009ef27e1222efb0870d245428338dd573d869a9ba509bdfd7528e"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-58-32.png",
+      "bytes": 58202,
+      "sha256": "7ddcc0fa4b6d45e7bec7c8f2c49b9976e232c27a61f4790560eef3d1edab4525"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-58-34.png",
+      "bytes": 62540,
+      "sha256": "867de77c5b17f0ab43bd3c3fe832ef8a66db111d16f2aa90f43998a010e32a90"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-58-36.png",
+      "bytes": 63863,
+      "sha256": "682796c7320ef74e6848ec1e9576a39d4f14ab5a0184e341dc600068548f21ed"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-58-38.png",
+      "bytes": 65644,
+      "sha256": "b7fd7acc584b4758401dcbe8eabb9b07eef9219ea2fdb35ca9ef3c4a40f5cce8"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-58-40.png",
+      "bytes": 52998,
+      "sha256": "44ed32e2aef83969133981fa5d0b2509cbbd015d7785f1bf169595142e732df9"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-58-42.png",
+      "bytes": 47840,
+      "sha256": "92dd4b86d9090e28714dbd9bf5bb97dcbf9d3c90040da267ac077eaf53e403e3"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-58-44.png",
+      "bytes": 51898,
+      "sha256": "71c921d004b6954bb71872c67c1fe9d51ea94d113aeff2cddaadde3da47573d1"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-60-30.png",
+      "bytes": 54858,
+      "sha256": "afd7b79c5d02238c1302895f984274995bb9935fd599c11045ef94fefd79d90e"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-60-32.png",
+      "bytes": 58835,
+      "sha256": "86129cc4a61f08ad2d9dff39c8b89a957537aaf3d7f2e97574e143fc41ce1678"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-60-34.png",
+      "bytes": 60994,
+      "sha256": "a63fab174a07274e7b5e179ef96d9ad3b133b76a656098d2e73afa21a3a1f54e"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-60-36.png",
+      "bytes": 62922,
+      "sha256": "73da0a869865b3577b59edfa6f2f67f7aa6dcb1837aad6375791566662ca67ea"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-60-38.png",
+      "bytes": 55143,
+      "sha256": "2346614b70770eb37ab9a477a809a12c20dc126403055085991896ec6d241f3a"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-60-40.png",
+      "bytes": 47999,
+      "sha256": "d2d5ed99c2819952b023de551f81837d121e9b527d9fdf495c2aef0ad793ba48"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-60-42.png",
+      "bytes": 52210,
+      "sha256": "51f46cd1c25678bc0fdc8cfe5981721d919b5078686de7fe4301fa500f993ff3"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-60-44.png",
+      "bytes": 62721,
+      "sha256": "df4e4daf1428d373f125932c6e3be179044c626e87cb0b8b875e0e6e0aab0314"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-62-30.png",
+      "bytes": 55606,
+      "sha256": "92bb4a2be5f245526e573d56858a522943f83ebf0f3e8cb058054503dc368730"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-62-32.png",
+      "bytes": 58733,
+      "sha256": "6d14e0e17a57262e26314f30d6750a07764d634eb613f12cb0258a92cc67c046"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-62-34.png",
+      "bytes": 61219,
+      "sha256": "a3c6eadb425cdc0cde6809409556aa77f20915c128c37425c30e3dd0a14c6ec1"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-62-36.png",
+      "bytes": 62184,
+      "sha256": "9f04c8ab41e40fbf382a8be5d7a1094c869709ffdbc47820863796d995b83f2b"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-62-38.png",
+      "bytes": 62882,
+      "sha256": "b77c64c29a500ef2ec0c84192a5ce1f313dacfb14d5eb50f16d463fab931eb76"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-62-40.png",
+      "bytes": 58412,
+      "sha256": "27d32edb41d6b43547c54f72ffdf125034ca599e69ebaa47a95fe3916c8c289d"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-62-42.png",
+      "bytes": 62316,
+      "sha256": "dc8bd61835e3cedf6a8072a58f60487abd1475f4767f29ccbe2d05ed6a7cd303"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-62-44.png",
+      "bytes": 63382,
+      "sha256": "e3d1c7c13025aad22a8facaf8c2b1631b89275849714b6f90557d0b97a599bc7"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-64-30.png",
+      "bytes": 55365,
+      "sha256": "f4d2efa7590a0603eb64203c6f7ff5d132087536b4ce9c804e723898a8768e76"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-64-32.png",
+      "bytes": 58335,
+      "sha256": "309fd39b3d3fd029ecfd3bbdbedff9f7ccdb4bb9a9a6b40f4adb2249ea07eb4a"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-64-34.png",
+      "bytes": 60190,
+      "sha256": "4c66d399abf51e7956f93f21fccd631eaa231b27b42f7ab6d19171140e400077"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-64-36.png",
+      "bytes": 61000,
+      "sha256": "dd5f2f57401e00508a43db8d8ca32451c04a1bb912ad872c46c0352a67b885a4"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-64-38.png",
+      "bytes": 63466,
+      "sha256": "521c465f9613b0de404af68faa044be70e299520d6cd36b29e3566b2b045d1d5"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-64-40.png",
+      "bytes": 64349,
+      "sha256": "99cf66b81d90d61c123b2bab92fa1317fc3ffdc0cb2d50464ac35db960ba528b"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-64-42.png",
+      "bytes": 63297,
+      "sha256": "31bc6b5db6fc14bfef390a4f0330f3d05bf2be0a2c4ffb48be70a308f0ed756d"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-64-44.png",
+      "bytes": 63397,
+      "sha256": "79c03033d63b982228aab19538cc5a8f5588a2aa7b5b4243367f2ce00c87a8d7"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-66-30.png",
+      "bytes": 54958,
+      "sha256": "7aa33d6af8d4495121a2c05a029b0930e4f82b643d344eebb72990277ceaac1d"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-66-32.png",
+      "bytes": 57465,
+      "sha256": "886c6260ca9427dc9e069678af22d321c8f46b96c885af3f2835bf704a0620e2"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-66-34.png",
+      "bytes": 60854,
+      "sha256": "0834c4cd0841c972da59aac625b3d3e1760674f9cf0501e73865bfe5eb592000"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-66-36.png",
+      "bytes": 60906,
+      "sha256": "086fd4f87bf341139b80003568efcb1de870cb5ed48a7935913fcf22c3786615"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-66-38.png",
+      "bytes": 62972,
+      "sha256": "7eea25bae0aa1351ca44b738f7ab1cfc2a4ed63b67e57ac3da402dfc003d48aa"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-66-40.png",
+      "bytes": 63166,
+      "sha256": "d15fd2ca538207d7d32d2e791f2e75a5e5da771c96e3f05917931763400a0084"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-66-42.png",
+      "bytes": 62690,
+      "sha256": "f61b50d24c77c9eeec0ba78e7653be6c883a68b3ad342ee49e963fe207644bdc"
+    },
+    {
+      "path": "Project/assets/earth/environment/ground_plate_v2/tile-66-44.png",
+      "bytes": 62109,
+      "sha256": "4bff450b881a62b4f639f61dbbc95ef1a5342cb0295e62617e6df09077cf6fa8"
+    },
+    {
+      "path": "Project/docs/EARTH_GROUND_PLATE_V1.md",
+      "bytes": 13017,
+      "sha256": "082f8516d4a3768ac4f1f50e8e9bce65931d3a83392bce8593ed16e8418d439b"
+    }
+  ],
+  "also_archive_manifest_files": [
+    "Project/art_source/earth_ground_plate_grass_edit_v2/archive-manifest.json",
+    "Project/art_source/earth_ground_plate_grass_edit_v2/ARCHIVE_FILES.txt"
+  ],
+  "listed_payload_files": 97,
+  "payload_bytes": 16418367,
+  "scope": "Source layout, both immutable raws, their exact prompts/references, deterministic review/export recipes, complete64-owner production candidate resource closure.",
+  "excluded": [
+    "All temporary *diagnostic.png comparisons/overlays",
+    "source-owners-board.png and source-layout-routes-board.png",
+    "selected-floor-native.png duplicate of source-floor-native.png",
+    "reproducible guide/receiver/2x-alpha derivatives not used as generation inputs",
+    "Godot .import and .godot cache",
+    "unrelated source/game files and runtime integration changes owned by another task"
+  ],
+  "baseline_read_only_dependencies_not_new_deliverables": [
+    {
+      "path": "Project/data/maps/A13.json",
+      "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27"
+    },
+    {
+      "path": "Project/assets/original/manifest.json",
+      "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837"
+    },
+    {
+      "path": "Project/assets/original/Map/Res/FloorBig/0.png",
+      "sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+    },
+    {
+      "path": "Project/assets/original/Map/Res/Building/0.png",
+      "sha256": "6fc88a1aa96eb18687eea798bcb4eae1f0ebf6d546a5a076fb1c2546550b3343"
+    },
+    {
+      "path": "Project/scripts/world_view.gd",
+      "sha256": "b404d8dd5e7e85a120fec00b7eb5f01e6bfc1fc37adf5e7878c1798432d4e285"
+    },
+    {
+      "path": "Project/scripts/core/movement.gd",
+      "sha256": "90185510aca061709ad4e7ac2a3c8668efc850d44fcce4bcee68e08c4e2b8a48"
+    },
+    {
+      "path": "Project/project.godot",
+      "sha256": "fd978ccd0f9932d6bf2be436eac6419631f6b6e1c7ceba410d34afbdc7f52d58"
+    },
+    {
+      "path": "Project/art_source/a13_main_temple_source/source-group-contract.json",
+      "sha256": "30a726db95de66c5ec266ebea7d5d0903a84ebd5f478b3f2778f9e649123d0d3"
+    },
+    {
+      "path": "Project/art_source/a13_ground_source/source-group-contract.json",
+      "sha256": "9bcf5ccc735f097a4cb55f364eb2ef5ba7b523f68c2fd944b17e171910b87705"
+    },
+    {
+      "path": "Project/art_source/a13_ground_materials_v2/semantic-mask-research.json",
+      "sha256": "933ee0a6e37ea90a22bacc74175ecb780a9043284bc88899675bf5c48ddd0a94"
+    },
+    {
+      "path": "Project/art_source/earth_training_hall_source_v1/input-contract.json",
+      "sha256": "f99d5cbd19cbe398396d8d1c90ec4f3511785fc3912886f98a4020ce7e3aaf14"
+    },
+    {
+      "path": "Project/art_source/earth_base_style_concept_v1/concept.png",
+      "sha256": "1beaf20bbda18d0e04fcf2f6e81a0028750e1b87224f21780393b00c36cc4fc5"
+    }
+  ],
+  "archive_note": "Copy the exact listed files plus the two manifest files. Baseline dependencies must remain available from the existing project; do not add unrelated game/reference directories."
+}

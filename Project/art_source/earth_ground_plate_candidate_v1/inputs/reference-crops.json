@@ -1,0 +1,38 @@
+{
+  "source": "art_source/earth_base_style_concept_v1/concept.png",
+  "source_sha256": "1beaf20bbda18d0e04fcf2f6e81a0028750e1b87224f21780393b00c36cc4fc5",
+  "crops": [
+    {
+      "file": "art_source/earth_ground_plate_candidate_v1/inputs/concept-paving-material.png",
+      "crop_xyxy": [
+        366,
+        796,
+        502,
+        900
+      ],
+      "size": [
+        136,
+        104
+      ],
+      "sha256": "ac74527916bb987b9ae98a09abdedb4cf6a2bb12dd8c417a0985f2cc654b2887",
+      "role": "material and illumination reference only; no layout authority",
+      "derivation": "exact unscaled crop; no RGB edit"
+    },
+    {
+      "file": "art_source/earth_ground_plate_candidate_v1/inputs/concept-grass-material.png",
+      "crop_xyxy": [
+        197,
+        638,
+        309,
+        690
+      ],
+      "size": [
+        112,
+        52
+      ],
+      "sha256": "bc1387ad75fcbfd2c917863f729ed2555c2a2fbd42714e4abba8b3c9626ade2e",
+      "role": "material and illumination reference only; no layout authority",
+      "derivation": "exact unscaled crop; no RGB edit"
+    }
+  ]
+}

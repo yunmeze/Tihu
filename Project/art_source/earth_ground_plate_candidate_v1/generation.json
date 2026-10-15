@@ -1,0 +1,57 @@
+{
+  "status": "one raw candidate only; source-layout/material review pending; not approved or installed",
+  "mode": "built-in imagegen",
+  "use_case": "style-transfer",
+  "world_bounds": [
+    2496,
+    960,
+    3264,
+    1472
+  ],
+  "logical_size": [
+    768,
+    512
+  ],
+  "target_raw_size": [
+    1536,
+    1024
+  ],
+  "minimum_effective_density": 2,
+  "attempt_limit": 1,
+  "references": [
+    {
+      "file": "art_source/earth_ground_plate_source_v1/source-floor-native.png",
+      "sha256": "6a2e9cfc50ec743b8d346c5a3488fe8b082f73ae357d81bf984b6a22904e39bc"
+    },
+    {
+      "file": "art_source/earth_ground_plate_source_v1/material-layout-board.png",
+      "sha256": "ecb10972fe74c5389f83474b3796e98e2bf9a5be7272288e81018bb16412750f"
+    },
+    {
+      "file": "art_source/earth_ground_plate_candidate_v1/inputs/concept-paving-material.png",
+      "sha256": "ac74527916bb987b9ae98a09abdedb4cf6a2bb12dd8c417a0985f2cc654b2887"
+    },
+    {
+      "file": "art_source/earth_ground_plate_candidate_v1/inputs/concept-grass-material.png",
+      "sha256": "bc1387ad75fcbfd2c917863f729ed2555c2a2fbd42714e4abba8b3c9626ade2e"
+    }
+  ],
+  "prompt_sha256": "d92195174a37ef0352e33c1924387466471468ed609a904aa64fb20e879759b3",
+  "raw_edits_allowed": false,
+  "runtime_installation_authorized": false,
+  "raw": "raw.png",
+  "raw_sha256": "c1970f3dc599c43dc47dff6f1d41f3051949e4c730fd53c5fcdadcd188d55fc7",
+  "raw_size": [
+    1536,
+    1024
+  ],
+  "raw_mode": "RGB",
+  "effective_density_texels_per_logical": [
+    2.0,
+    2.0
+  ],
+  "tool_output_path": "/workspace/scratch/22c897619190/generated_images/exec-d8ff8aa3-a7a7-45da-96dd-d7e966ba9835.png",
+  "raw_modified": false,
+  "runtime_installed": false,
+  "review": "review.json"
+}

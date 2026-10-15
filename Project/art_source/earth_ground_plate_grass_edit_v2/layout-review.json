@@ -1,0 +1,128 @@
+{
+  "status": "v2 independently reviewed as complete plate; source-layout candidate within manual source-read budget, not exact boundary or native approval",
+  "raw_sha256": "7dd080bb54897b878ac7743cad1dfb865217bdb76266fc441adb56d750edcb7b",
+  "world_bounds": [
+    2496,
+    960,
+    3264,
+    1472
+  ],
+  "effective_density": [
+    2,
+    2
+  ],
+  "samples": [
+    {
+      "source_center_raw": [
+        382,
+        834
+      ],
+      "v2_center_raw_approx": [
+        386,
+        832
+      ],
+      "delta_logical": [
+        2.0,
+        -1.0
+      ],
+      "distance_logical": 2.23606797749979,
+      "source_uncertainty_logical": 3,
+      "v2_manual_read_uncertainty_raw": 3
+    },
+    {
+      "source_center_raw": [
+        768,
+        578
+      ],
+      "v2_center_raw_approx": [
+        771,
+        577
+      ],
+      "delta_logical": [
+        1.5,
+        -0.5
+      ],
+      "distance_logical": 1.5811388300841898,
+      "source_uncertainty_logical": 3,
+      "v2_manual_read_uncertainty_raw": 3
+    },
+    {
+      "source_center_raw": [
+        960,
+        582
+      ],
+      "v2_center_raw_approx": [
+        963,
+        579
+      ],
+      "delta_logical": [
+        1.5,
+        -1.5
+      ],
+      "distance_logical": 2.1213203435596424,
+      "source_uncertainty_logical": 3,
+      "v2_manual_read_uncertainty_raw": 3
+    },
+    {
+      "source_center_raw": [
+        1048,
+        636
+      ],
+      "v2_center_raw_approx": [
+        1052,
+        639
+      ],
+      "delta_logical": [
+        2.0,
+        1.5
+      ],
+      "distance_logical": 2.5,
+      "source_uncertainty_logical": 3,
+      "v2_manual_read_uncertainty_raw": 3
+    },
+    {
+      "source_center_raw": [
+        1048,
+        774
+      ],
+      "v2_center_raw_approx": [
+        1051,
+        772
+      ],
+      "delta_logical": [
+        1.5,
+        -1.0
+      ],
+      "distance_logical": 1.8027756377319946,
+      "source_uncertainty_logical": 3,
+      "v2_manual_read_uncertainty_raw": 3
+    },
+    {
+      "source_center_raw": [
+        872,
+        896
+      ],
+      "v2_center_raw_approx": [
+        875,
+        897
+      ],
+      "delta_logical": [
+        1.5,
+        0.5
+      ],
+      "distance_logical": 1.5811388300841898,
+      "source_uncertainty_logical": 3,
+      "v2_manual_read_uncertainty_raw": 3
+    }
+  ],
+  "maximum_center_distance_logical": 2.5,
+  "manual_shape_check": [
+    "Same bottom-opening diagonal road, short near-horizontal cap, upper-right chamfer, right vertical edge and lower-right diagonal.",
+    "No added connector toward source left stair; approximately186-logical-pixel horizontal grass interval remains.",
+    "All broad paving lies in original lower-field footprint; upper/right remains low grass.",
+    "Curb thickness and material edge read differ at fine scale; center correspondence is within finite source-read precision, not zero-error outer-edge approval."
+  ],
+  "no_v1_pixels_mixed": true,
+  "no_warp_or_resize": true,
+  "next": "After parent report, export every one of64 original floor owners only from immutable v2 raw, with source alpha and exact2x crop."
+}

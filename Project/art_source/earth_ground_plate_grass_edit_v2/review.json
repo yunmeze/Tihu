@@ -1,0 +1,84 @@
+{
+  "status": "grass is visually improved, but edit failed exact non-target pavement preservation; not accepted or installed",
+  "review_scope": "Grass-only edit invariance checkpoint. A later independent whole-plate review/export is tracked separately in layout-review.json and export-review.json.",
+  "raw": {
+    "v1_sha256": "c1970f3dc599c43dc47dff6f1d41f3051949e4c730fd53c5fcdadcd188d55fc7",
+    "v2_sha256": "7dd080bb54897b878ac7743cad1dfb865217bdb76266fc441adb56d750edcb7b",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "effective_texels_per_logical": [
+      2,
+      2
+    ],
+    "raw_resized_blurred_recolored_warped_or_composited": false
+  },
+  "protected_pixels": {
+    "pixels": 245083,
+    "changed_pixels": 244865,
+    "unchanged_pixels": 218,
+    "changed_fraction": 0.9991105054206126,
+    "mean_absolute_channel_difference_0_255": 9.131573113326233,
+    "max_channel_difference": 205,
+    "p95_max_channel_difference": 32.0
+  },
+  "road_core_eroded_16_raw_pixels": {
+    "pixels": 211705,
+    "changed_pixels": 211496,
+    "unchanged_pixels": 209,
+    "changed_fraction": 0.9990127772135755,
+    "mean_absolute_channel_difference_0_255": 8.040271446903317,
+    "max_channel_difference": 195,
+    "p95_max_channel_difference": 25.0
+  },
+  "grass_descriptive_metrics": {
+    "v1": {
+      "mean_srgb": [
+        102.82087260388288,
+        110.4205722455391,
+        43.59458756718946
+      ],
+      "mean_red_over_green": 0.9311749659768381,
+      "mean_display_luma_neighbor_difference": 20.42620702659299,
+      "note": "Descriptive sRGB/display-luma proxies only; not a perceptual acceptance or physical lighting metric."
+    },
+    "v2": {
+      "mean_srgb": [
+        71.39348860540461,
+        82.39972740716196,
+        37.65217414647915
+      ],
+      "mean_red_over_green": 0.8664286988794004,
+      "mean_display_luma_neighbor_difference": 14.044022462594661,
+      "note": "Descriptive sRGB/display-luma proxies only; not a perceptual acceptance or physical lighting metric."
+    }
+  },
+  "geometry": {
+    "material_proxy_iou": 0.9940561573246398,
+    "proxy_symmetric_difference_pixels": 1413,
+    "limitation": "Color-based footprint diagnostic only. Does not establish pixel-exact curb layout or source registration."
+  },
+  "mask_definition": "Read-only v1 largest neutral-material connected component, holes filled and dilated 5 raw pixels. White = entire road/curb plus safety fringe. Core is eroded 16 pixels to exclude fringe/grass.",
+  "manual_review": {
+    "grass": "Clearly deeper green with fewer golden bright needle strands and calmer contrast; it remains a fairly dense low leafy grass field, so final density/quietness needs joint scene review.",
+    "paving": "Capped shape and major seams are visually close, but concrete surface detail was re-rendered. This is real non-target change, not only grass overlap near the border.",
+    "scene_content": "No added people, buildings, trees, planters, route connectors or large cast shadows observed.",
+    "lighting": "Upper-left warm material light remains, with a greener body tone. No common hall/actor scene lighting validation performed."
+  },
+  "actions_taken": [
+    "one built-in imagegen edit",
+    "unchanged raw copy to separate v2 directory",
+    "read-only pixel comparison"
+  ],
+  "actions_not_taken": [
+    "third imagegen call",
+    "programmatic recolor",
+    "blur",
+    "warp",
+    "composite v1 pavement back",
+    "runtime modification by this review"
+  ],
+  "next_boundary": "Return both immutable candidates and this evidence to parent. Do not promote v2 as a successful grass-only edit."
+}

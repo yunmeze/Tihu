@@ -1,0 +1,59 @@
+{
+  "status": "whole-v2 bounded source-layout candidate staged for native joint review; grass-only pixel preservation failure separately recorded",
+  "mode": "built-in imagegen",
+  "attempt_limit": 1,
+  "parent_raw": "art_source/earth_ground_plate_candidate_v1/raw.png",
+  "target_size": [
+    1536,
+    1024
+  ],
+  "world_bounds": [
+    2496,
+    960,
+    3264,
+    1472
+  ],
+  "references": [
+    {
+      "file": "art_source/earth_ground_plate_candidate_v1/raw.png",
+      "sha256": "c1970f3dc599c43dc47dff6f1d41f3051949e4c730fd53c5fcdadcd188d55fc7"
+    },
+    {
+      "file": "art_source/earth_ground_plate_grass_edit_v2/inputs/concept-grass-green-material.png",
+      "sha256": "a208baccfa19c63345225b9141fa296bb15172e9818c7162056cebdd2bfcf7f0"
+    },
+    {
+      "file": "art_source/earth_ground_plate_grass_edit_v2/inputs/concept-grass-midgreen-material.png",
+      "sha256": "f8efab080a44da7ef5bac9444c1b2085ca4df0bd0c8c4b0dc3eff0c2c8609640"
+    },
+    {
+      "file": "art_source/earth_ground_plate_grass_edit_v2/inputs/protected-road-mask.png",
+      "sha256": "a7904252e6a0cc3c1202370201f0d9d699166f463a8ecf186681aebd5ebcab1d"
+    }
+  ],
+  "prompt_sha256": "61afef83e67b595fdee04633d2c7c94ccf1a0f903c4e1a3bcd954cebd6a138ce",
+  "runtime_installation_authorized": false,
+  "programmatic_color_edit_or_blur": false,
+  "raw": "raw.png",
+  "raw_size": [
+    1536,
+    1024
+  ],
+  "raw_mode": "RGB",
+  "raw_sha256": "7dd080bb54897b878ac7743cad1dfb865217bdb76266fc441adb56d750edcb7b",
+  "tool_output_path": "/workspace/scratch/22c897619190/generated_images/exec-0b1d35db-bf45-4dba-b132-2a004b4d9b04.png",
+  "effective_density": [
+    2.0,
+    2.0
+  ],
+  "raw_edited_after_generation": false,
+  "review": "review.json",
+  "whole_plate_candidate": {
+    "layout_review": "layout-review.json",
+    "production_registration": "assets/earth/environment/ground_plate_v2/registration.json",
+    "owner_count": 64,
+    "v1_pixels_mixed": false,
+    "runtime_installed_by_exporter": false
+  },
+  "grass_only_review_status": "grass is visually improved, but edit failed exact non-target pavement preservation; not accepted or installed"
+}

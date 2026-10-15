@@ -1,0 +1,13 @@
+Use case: precise-object-edit / style-transfer. Edit ONLY the grass material in input image 1. This is the second and only correction pass to a game ground plate.
+
+Input 1 is the target image, exactly 1536x1024 pixels, 3:2. Output the same 1536x1024 dimensions, camera, framing, world layout, scale and every road boundary. Do not crop, recenter, zoom, rotate or recompose.
+Input 2 and input 3 are small exact grass crops from the accepted Earth-base concept. They provide the NATURAL MEDIUM/DEEP GREEN grass body color, quieter low growth and restrained texture variation only. They do not authorize a new layout or new cast shadows.
+Input 4 is a protection guide matching the target canvas: WHITE is the entire pavement/curb and a very narrow safety fringe, which must remain identical to image 1; BLACK is grass that may be edited. The guide is not an output image and must not appear in the result.
+
+KEEP EXACTLY UNCHANGED: the complete concrete path, every slab seam, concrete texture, curb stone, path shape, capped end, path opening at the bottom edge, road lighting and shading, and every protected white-mask pixel. Preserve these original RGB pixels; do not redesign, re-render, recolor or sharpen the road. Keep the road's existing original bounds pixel-aligned.
+
+CHANGE ONLY GRASS: replace the current bright golden, wiry, excessively dense/high-contrast lawn with shorter, more open, naturally medium-to-deep green grass. Reduce yellow needle highlights, curly hair-like fine strands and glinting edge contrast substantially. Broader calm tonal/density changes across the continuous field, with small clean blade groups visible only at close inspection. Grass is still detailed and photorealistic, never blurred or flat color, and must not look procedurally recolored. The overall effect is quieter, softer in contrast and genuinely green while retaining natural surface structure. Use both accepted grass material crops as the visual identity. Do not turn all grass into a uniform dark shadow patch.
+
+Maintain the same upper-left warm daylight and gentle cool sky fill as the target, but grass highlights should stay restrained green with only subtle warm tips, not gold. No painted large tree/building/character shadows. No repeated/mirrored tuft islands, no grid/cellular patches, no striping, no obvious tiling.
+
+Do NOT add buildings, trees, bushes, flowers, raised planters, people, objects, lamps, new paving, connector paths or barriers. Keep the original grass interval toward the off-image building stairs entirely grass. No text, labels, guide colors, watermark, frame or borders. Opaque image. Preserve all non-grass pixels exactly.
