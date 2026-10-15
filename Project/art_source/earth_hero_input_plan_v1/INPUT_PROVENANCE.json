@@ -1,0 +1,206 @@
+{
+  "status": "prepared_only_pending_parent_generation_approval",
+  "concept": {
+    "path": "art_source/earth_base_style_concept_v1/concept.png",
+    "sha256": "1beaf20bbda18d0e04fcf2f6e81a0028750e1b87224f21780393b00c36cc4fc5",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "full_direction_accepted": "2026-10-15 07:38UTC per parent; no isolated exact face specification implied"
+  },
+  "concept_local_crops": {
+    "concept-hero-local.png": [
+      715,
+      515,
+      775,
+      636
+    ],
+    "concept-hero-light-context.png": [
+      705,
+      510,
+      880,
+      685
+    ]
+  },
+  "disconnected_appearance_rects": {
+    "head_unknown_detail": [
+      733,
+      519,
+      760,
+      546
+    ],
+    "chest_black_underlayer": [
+      728,
+      540,
+      761,
+      577
+    ],
+    "visible_red_shoulder": [
+      721,
+      541,
+      739,
+      560
+    ],
+    "hip_thigh_material": [
+      728,
+      574,
+      760,
+      601
+    ],
+    "shin_boot_material": [
+      722,
+      593,
+      769,
+      632
+    ]
+  },
+  "technical_enlargement": "Nearest only, no recovered/invented detail",
+  "source_manifest_sha256": "b5eb981b005efedc5f071bb51f35240cabf91aa0d77143e70bcf4ee9b9c733f1",
+  "source_canvas": [
+    128,
+    128
+  ],
+  "source_root": [
+    16,
+    64
+  ],
+  "common_body_crop": [
+    12,
+    8,
+    76,
+    96
+  ],
+  "source_records": [
+    {
+      "source_id": 13,
+      "layers": {
+        "body": {
+          "rect": [
+            1537,
+            1,
+            60,
+            70
+          ],
+          "offset": [
+            8,
+            -47
+          ],
+          "rgba_sha256": "d36c73bf6353fe49294f92792fcbd531627f228832103a52bbf0c342a24208e2"
+        },
+        "head": {
+          "rect": [
+            1537,
+            1,
+            8,
+            11
+          ],
+          "offset": [
+            21,
+            -49
+          ],
+          "rgba_sha256": "c9bfea3e200f60e34605407e02ced3beb648a9b77bc8fcbfdb07517140740c58"
+        }
+      },
+      "composite_rgba_sha256": "64d9f7d4c5076bd35163b97a79e65a6c071e2c80e85868f450f26c9e0ea4bfb9"
+    },
+    {
+      "source_id": 14,
+      "layers": {
+        "body": {
+          "rect": [
+            1665,
+            1,
+            60,
+            70
+          ],
+          "offset": [
+            8,
+            -47
+          ],
+          "rgba_sha256": "14c1918675b0a4d42223467f31fe3a8d02cc2458d5f7ecd6e0d4f7b41c2b5254"
+        },
+        "head": {
+          "rect": [
+            1665,
+            1,
+            8,
+            11
+          ],
+          "offset": [
+            21,
+            -49
+          ],
+          "rgba_sha256": "1a01be9d08c3308c60f800af90cedc0380ba370f59147512c8249c6d7e751948"
+        }
+      },
+      "composite_rgba_sha256": "f0a502a39a65b5f723b27db86bbcab6ff52139fb7bd6c10cd7e743387b8a1dda"
+    },
+    {
+      "source_id": 15,
+      "layers": {
+        "body": {
+          "rect": [
+            1793,
+            1,
+            60,
+            70
+          ],
+          "offset": [
+            8,
+            -47
+          ],
+          "rgba_sha256": "a676a0cec61dcf7ba94da2c26b4b5e6a7beb14b0c0150b70952c985c36ed1ab3"
+        },
+        "head": {
+          "rect": [
+            1793,
+            1,
+            8,
+            13
+          ],
+          "offset": [
+            21,
+            -49
+          ],
+          "rgba_sha256": "fc3ff2b9e64dd2611ac2f6fc0b5652f51aa11e1405ed8a94251ad156c6ca0e21"
+        }
+      },
+      "composite_rgba_sha256": "e8ae32099e81be77b449b00eee86879537f19052aba0ad424295823ced709bba"
+    },
+    {
+      "source_id": 16,
+      "layers": {
+        "body": {
+          "rect": [
+            1921,
+            1,
+            60,
+            70
+          ],
+          "offset": [
+            9,
+            -47
+          ],
+          "rgba_sha256": "ec03b448ea7ab3a48bf31d401c1e7e6f9327ead9c5cec9ab2d1e281d39002349"
+        },
+        "head": {
+          "rect": [
+            1921,
+            1,
+            8,
+            11
+          ],
+          "offset": [
+            21,
+            -49
+          ],
+          "rgba_sha256": "c8b57e1578b9b19a155d5a160970829136add5e6f37575f8ffb7c2d90eb478b5"
+        }
+      },
+      "composite_rgba_sha256": "a9839075cbce61c9b2a42b9a6dd76224edb55b8c77e73fb2dcd77cbf44181cac"
+    }
+  ],
+  "source_rgba_policy": "Original body then head including nonblack checker/colors preserved. No semantic deletion.",
+  "old_generated_body_inputs": []
+}

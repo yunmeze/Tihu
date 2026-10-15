@@ -1,0 +1,25 @@
+{
+  "status": "authorized_one_whole_four_phase_generation",
+  "inputs": [
+    {
+      "path": "source13-16-pose-main-6x.png",
+      "sha256": "5e2a6c14ce9588706667857385a4da16a383dd60a532732110be9d29a03c8ef9"
+    },
+    {
+      "path": "canonical-v2-disconnected-parts.png",
+      "sha256": "6bd637d38096bbddb17e7c26976d97db7c0568eb5671a4de6760c2b12088fb40"
+    }
+  ],
+  "transparent_background": true,
+  "source_ids": [
+    13,
+    14,
+    15,
+    16
+  ],
+  "cadence_actor_updates": 12,
+  "scope": "SE idle pilot; no runtime approval",
+  "prompt_file": "prompt-v1.txt",
+  "prompt_sha256": "8ad0800d68a33134e270cc85c821d53e554865e457da9ba3e52bf9b4b9e642d8",
+  "raw_sha256": "fe50c6b44f49218792433f56a249c37ded85bdbee447f3134e348e0bcae09b7e"
+}

@@ -1,0 +1,61 @@
+{
+  "status": "input_plan_only_no_generation",
+  "files": [
+    {
+      "path": "art_source/earth_hero_input_plan_v1/INPUT_PLAN.md",
+      "sha256": "a88b3da7ef45993fd980904bce3766ddad8d387e69e7915b200d3c92ce4ea463"
+    },
+    {
+      "path": "art_source/earth_hero_input_plan_v1/INPUT_PROVENANCE.json",
+      "sha256": "d411106d9bb52131d3657232f19c00b31fd5bda0fd2afd275201576d2e8d77e1"
+    },
+    {
+      "path": "art_source/earth_hero_input_plan_v1/concept-disconnected-appearance-3x.png",
+      "sha256": "0bad7d28f87faabf4da1d4c13cd87a80ecb60ae62a3843fd3ab13586c46bbc3d"
+    },
+    {
+      "path": "art_source/earth_hero_input_plan_v1/concept-hero-light-context.png",
+      "sha256": "ea23b872a706f0413ca8ddbc4ae4bf3dbfb37c1e2b9a3227ae81b0603df15bb5"
+    },
+    {
+      "path": "art_source/earth_hero_input_plan_v1/concept-hero-local.png",
+      "sha256": "2c09534860958b7cc21bec6ef5285d7672b156354615bd061e05f65ccf8a3739"
+    },
+    {
+      "path": "art_source/earth_hero_input_plan_v1/source-13.png",
+      "sha256": "655b7fd161b04fc8f29f91985a2911b7a6b5b13a54db461c1c0b69f5c933bd0d"
+    },
+    {
+      "path": "art_source/earth_hero_input_plan_v1/source-14.png",
+      "sha256": "c979e7b1aa2a6f5b97bffb8790654ed01262130859a7abd6013143a900af5015"
+    },
+    {
+      "path": "art_source/earth_hero_input_plan_v1/source-15.png",
+      "sha256": "ae7d8148b86588371bd1a91317db061d8f47048625adbfbeab72cdb1a8fe5d4b"
+    },
+    {
+      "path": "art_source/earth_hero_input_plan_v1/source-16.png",
+      "sha256": "58692a12f5e4f8fbfe2851cb470f7ce0177e4039d9510d1e5dd96959cce4f16a"
+    },
+    {
+      "path": "art_source/earth_hero_input_plan_v1/source13-16-native.png",
+      "sha256": "43a591cfcc9abaa7c5433306ca01eaf0ce0246ae85f2a959c3ee0cbdca0a5e27"
+    },
+    {
+      "path": "art_source/earth_hero_input_plan_v1/source13-16-pose-main-6x.png",
+      "sha256": "5e2a6c14ce9588706667857385a4da16a383dd60a532732110be9d29a03c8ef9"
+    },
+    {
+      "path": "art_source/earth_hero_input_plan_v1/source13-pose-main-8x.png",
+      "sha256": "5788d64cc82f5a362b467e1b4c0fbc0cb701aeeefbee77f6c25d5f50183615f2"
+    },
+    {
+      "path": "tools/hero/prepare_earth_hero_inputs.py",
+      "sha256": "cce0348452268d2f288a31be586f7823548c9b1922a8b9a483d301834d70ba92"
+    }
+  ],
+  "exclude": [
+    "diagnostic enlarged JPEG/PNG boards",
+    "old identity render as input (not used)"
+  ]
+}

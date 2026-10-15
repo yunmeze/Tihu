@@ -1,0 +1,55 @@
+{
+  "canonical_raw": "art_source/earth_hero_se_canonical_v1/raw-v2.png",
+  "canonical_sha256": "3849e5274b0928d602cb49fb63396a28954b920b6c38f82d65a908e36423cbb1",
+  "crop_rectangles": {
+    "head_identity": [
+      440,
+      95,
+      640,
+      310
+    ],
+    "chest_black_underlayer": [
+      415,
+      315,
+      645,
+      590
+    ],
+    "shoulder": [
+      300,
+      290,
+      435,
+      465
+    ],
+    "low_waist": [
+      412,
+      590,
+      650,
+      708
+    ],
+    "fingerless_hand": [
+      270,
+      715,
+      393,
+      851
+    ],
+    "dark_shin_boot": [
+      533,
+      973,
+      747,
+      1235
+    ]
+  },
+  "method": "unaltered RGBA technical crops, disconnected; no full person identity input",
+  "source": "art_source/earth_hero_input_plan_v1/source13-16-pose-main-6x.png",
+  "source_sha256": "5e2a6c14ce9588706667857385a4da16a383dd60a532732110be9d29a03c8ef9",
+  "inputs": [
+    {
+      "path": "source13-16-pose-main-6x.png",
+      "sha256": "5e2a6c14ce9588706667857385a4da16a383dd60a532732110be9d29a03c8ef9"
+    },
+    {
+      "path": "canonical-v2-disconnected-parts.png",
+      "sha256": "6bd637d38096bbddb17e7c26976d97db7c0568eb5671a4de6760c2b12088fb40"
+    }
+  ]
+}

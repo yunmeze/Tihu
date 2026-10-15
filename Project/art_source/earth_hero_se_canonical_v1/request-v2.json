@@ -1,0 +1,21 @@
+{
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "prompt_file": "prompt-v2.txt",
+  "prompt_sha256": "def7f163170d7420d347c682fa460cc0b380453a85e79efb35bef9f435c67f39",
+  "inputs": [
+    {
+      "path": "art_source/earth_hero_se_canonical_v1/raw-v1.png",
+      "sha256": "a173fc6cef6e163797466721e5d26e775808a5c85561d38a6da9b23ffc6df707"
+    },
+    {
+      "path": "art_source/earth_hero_input_plan_v1/source13-pose-main-8x.png",
+      "sha256": "5788d64cc82f5a362b467e1b4c0fbc0cb701aeeefbee77f6c25d5f50183615f2"
+    },
+    {
+      "path": "art_source/earth_hero_input_plan_v1/concept-disconnected-appearance-3x.png",
+      "sha256": "0bad7d28f87faabf4da1d4c13cd87a80ecb60ae62a3843fd3ab13586c46bbc3d"
+    }
+  ],
+  "scope": "Single targeted head direction edit; non-head regions require actual comparison, no assumed pixel lock."
+}

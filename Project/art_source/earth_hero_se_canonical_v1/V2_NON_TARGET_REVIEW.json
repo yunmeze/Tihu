@@ -1,0 +1,71 @@
+{
+  "raw_v1_sha256": "a173fc6cef6e163797466721e5d26e775808a5c85561d38a6da9b23ffc6df707",
+  "raw_v2_sha256": "3849e5274b0928d602cb49fb63396a28954b920b6c38f82d65a908e36423cbb1",
+  "measurements": [
+    {
+      "size": [
+        1069,
+        1471
+      ],
+      "alpha128_bbox": [
+        263,
+        97,
+        736,
+        1327
+      ],
+      "boots": [
+        [
+          420.2127659574468,
+          1326
+        ],
+        [
+          668.7741935483871,
+          1195
+        ]
+      ]
+    },
+    {
+      "size": [
+        1068,
+        1472
+      ],
+      "alpha128_bbox": [
+        267,
+        102,
+        758,
+        1358
+      ],
+      "boots": [
+        [
+          428.1,
+          1357
+        ],
+        [
+          690.21875,
+          1222
+        ]
+      ]
+    }
+  ],
+  "diagnostic_nonhead_translation_search": {
+    "region_v1": [
+      220,
+      350,
+      830,
+      1400
+    ],
+    "alpha_threshold": 128,
+    "sampling_step": 4,
+    "best_iou": 0.917765440666204,
+    "v1_to_v2_translation": [
+      12,
+      20
+    ],
+    "meaning": "Coarse silhouette check after layout translation, not deformation or acceptance. Assets unchanged."
+  },
+  "observations": [
+    "Head now faces screen-right/down, matching SE torso instead of looking left.",
+    "Non-target body regenerated: lower body/boots shifted down and armor edge highlights differ; not pixel-locked.",
+    "Main chest/black abdomen/waist/limb armor topology and empty-hand pose retained; original-size registration still needed."
+  ]
+}

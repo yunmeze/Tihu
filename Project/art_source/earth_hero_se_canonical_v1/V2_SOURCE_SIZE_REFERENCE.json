@@ -1,0 +1,144 @@
+{
+  "status": "single_canonical_design_visual_reference_only_not_runtime_frame",
+  "raw_sha256": "3849e5274b0928d602cb49fb63396a28954b920b6c38f82d65a908e36423cbb1",
+  "uniform_scale": 0.05722180711438503,
+  "translation": [
+    11.071476118720383,
+    10.057863353913035
+  ],
+  "logical_canvas": [
+    128,
+    128
+  ],
+  "logical_root": [
+    16,
+    64
+  ],
+  "points": {
+    "crown_surface": {
+      "raw": [
+        543.6274509803922,
+        102.0
+      ],
+      "source": [
+        40.0,
+        15.0
+      ],
+      "mapped": [
+        42.17882126080519,
+        15.894487679580308
+      ],
+      "delta": [
+        2.1788212608051865,
+        0.8944876795803083
+      ],
+      "weight": 1.0
+    },
+    "neck_surface": {
+      "raw": [
+        540.0,
+        315.0
+      ],
+      "source": [
+        42.0,
+        27.0
+      ],
+      "mapped": [
+        41.9712519604883,
+        28.082732594944318
+      ],
+      "delta": [
+        -0.028748039511697243,
+        1.0827325949443178
+      ],
+      "weight": 0.6
+    },
+    "sternum_armor_surface": {
+      "raw": [
+        550.0,
+        430.0
+      ],
+      "source": [
+        43.0,
+        38.0
+      ],
+      "mapped": [
+        42.543470031632154,
+        34.6632404130986
+      ],
+      "delta": [
+        -0.4565299683678461,
+        -3.336759586901401
+      ],
+      "weight": 0.4
+    },
+    "pelvis_clothing_surface": {
+      "raw": [
+        550.0,
+        705.0
+      ],
+      "source": [
+        43.0,
+        54.0
+      ],
+      "mapped": [
+        42.543470031632154,
+        50.39923736955448
+      ],
+      "delta": [
+        -0.4565299683678461,
+        -3.600762630445523
+      ],
+      "weight": 0.25
+    },
+    "left_boot_coarse_terminal": {
+      "raw": [
+        428.1,
+        1357.0
+      ],
+      "source": [
+        36.0,
+        86.0
+      ],
+      "mapped": [
+        35.568131744388616,
+        87.70785560813351
+      ],
+      "delta": [
+        -0.4318682556113842,
+        1.7078556081335137
+      ],
+      "weight": 1.0
+    },
+    "right_boot_coarse_terminal": {
+      "raw": [
+        690.21875,
+        1222.0
+      ],
+      "source": [
+        52.0,
+        81.0
+      ],
+      "mapped": [
+        50.567040297952325,
+        79.98291164769154
+      ],
+      "delta": [
+        -1.4329597020476754,
+        -1.0170883523084626
+      ],
+      "weight": 1.0
+    }
+  },
+  "uncertainty": {
+    "source_clothing_proxy_px": 3,
+    "source_boot_coarse_terminal_px": 2,
+    "candidate_manual_surface_raw_px": 12,
+    "candidate_alpha_pixel_edge_raw_px": 2
+  },
+  "limits": "Source boot tip and new sole centroid are not homologous anatomy; broad terminal proxy only. Fit is a view aid, not proof of pose acceptance or a physical contact measurement. No frame-wise warp or body edits. Full4 source sequence still required.",
+  "outputs_sha256": {
+    "1": "73f95bf42a17ddae069e6ee8a386c31268fbaad4d456d2d29b55a24aabd6e9b7",
+    "4": "b964a9b32a8238367e9b8e48c27aa2911283d30367115b8f29ded6a5a9a19ec3"
+  }
+}

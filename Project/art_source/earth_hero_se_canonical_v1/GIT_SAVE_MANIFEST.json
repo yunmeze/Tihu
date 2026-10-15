@@ -1,0 +1,26 @@
+{
+  "status": "one_canonical_trial_pending_parent_review",
+  "files": [
+    {
+      "path": "raw-v1.png",
+      "sha256": "a173fc6cef6e163797466721e5d26e775808a5c85561d38a6da9b23ffc6df707"
+    },
+    {
+      "path": "prompt.txt",
+      "sha256": "479c095834ecf83f19c5da09cb439eb480aa2d10bf9fbf60ba6aa992228a5faf"
+    },
+    {
+      "path": "request.json",
+      "sha256": "750ead27a43187f2ba348229ca04b1682ca6080a804d1f1d8e52889bf764d81e"
+    },
+    {
+      "path": "STATIC_REVIEW.json",
+      "sha256": "123ef25c24aae9d4196a1d33257b9db67bb22bd8140f5a15c92f6dc44241691a"
+    }
+  ],
+  "exclude": [
+    "diagnostic gray JPG",
+    "tool receipt",
+    "signed URL"
+  ]
+}
