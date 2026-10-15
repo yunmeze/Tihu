@@ -1,0 +1,33 @@
+{
+  "status": "two approved independent research steps, not pose/material passed",
+  "waist_final_composite_changed_pixels": 89,
+  "knee_incremental_final_composite_changed_pixels": 178,
+  "outside_waist_mask_changes": 0,
+  "outside_knee_mask_changes": 0,
+  "original_solid_protected_alpha_ge128_final_changes": 0,
+  "original_protected_texture_layer_RGBA_changed": 0,
+  "final_original_semtransparent_protected_pixels_changed": 100,
+  "new_donor_mapping": "existing mapped raw; waist shift0,0; knee shift+5,+45 HD4, rotation0, no scale change",
+  "inputs": [
+    {
+      "path": "art_source/earth_e_upper45_context_edit_v1/45-HD4-CONTEXT-EDIT-RESEARCH.png",
+      "sha256": "71878fcf96360bd4ed45c0e8ac7daee5dd975f78e04ca2b64682c6dbc3b17e8f"
+    },
+    {
+      "path": "art_source/earth_e_upper45_context_edit_v1/mapped-whole-image-UNMASKED.png",
+      "sha256": "45e16aaa0dc13ed6d9477a44cfadd0ce53f09d0c3147c95a20caea87dc663719"
+    },
+    {
+      "path": "art_source/earth_e_upper45_context_edit_plan_v1/protected-core-arm-shins.png",
+      "sha256": "0a423981af23b6f260bc975f9b8b50e2cc77248b7067045502d492daacdd2cee"
+    },
+    {
+      "path": "art_source/earth_e_45_gap_donor_proposal_v1/waist-UNDERLAP-PROPOSED-mask.png",
+      "sha256": "22f99581f522fd59d31cf178f915c64ab050507d261f9c284aa3faf4ab7c5f92"
+    },
+    {
+      "path": "art_source/earth_e_45_gap_donor_proposal_v1/knee-GAP-PROPOSED-mask.png",
+      "sha256": "75d6d3f99b01353b666aa1bf78ae391c5866f35a3f72ea5dee468063289538b9"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "prompt": "Edit only the pink upper-pants region shown in image3 on the COMPLETE character in image1. Preserve this exact RIGHT-FACING SIDE VIEW and short walking spread-step; image2 is the original phase45 pose reference. Replace the old upper pants with compact black woven fabric naturally connecting the existing waist opening to BOTH fixed shin-root interfaces. Never a front-facing pants product view. Do not widen the pants. Keep head, body, hands, armor, belt, legs, boots, pose, size, placement and camera unchanged. No extra side plates, no gold trim. Same upper-left warm light, true transparent background, no shadow. Pink is a guide only. Only black pants fabric or necessary exterior transparency inside that marked region may change. The final image will take pixels ONLY from the fixed pants mask, so do not move or resize anything to fit.",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_e_upper45_context_edit_plan_v1/input-complete45-context.png",
+    "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_e_upper45_context_edit_plan_v1/input-source45-full128.png",
+    "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_e_upper45_context_edit_plan_v1/input-union-guide.png"
+  ],
+  "inputs": [
+    {
+      "path": "Project/art_source/earth_e_upper45_context_edit_plan_v1/input-complete45-context.png",
+      "sha256": "30a453854f56c8274987f2696b6d270318910b9d6a62440eb571ff1e1e5e342f"
+    },
+    {
+      "path": "Project/art_source/earth_e_upper45_context_edit_plan_v1/input-source45-full128.png",
+      "sha256": "046e8c6de1ac72da7d2842b0a38d85c5e947a06e7b15bc80769b107486aadef9"
+    },
+    {
+      "path": "Project/art_source/earth_e_upper45_context_edit_plan_v1/input-union-guide.png",
+      "sha256": "62246237af635d82187c82d6c4d51bf0570326f9a977440344ef9a19ccedf8e1"
+    }
+  ],
+  "mask_sha256": "e28912c0850f001ec82eb0275566f1e9fecf25c59375a92e89996d0be1de08e6",
+  "approved_union_pixels": 5743
+}
