@@ -1,0 +1,5 @@
+# Second golden-tree exact-family reuse
+
+Run export_candidate.py. Original292–298 object frames/flags/type and relative owner coordinates exactly match the selected first tree under(+13,+13)cells=(624,416)world pixels. Original floor fields at three target cells differ; the exporter retains target source_cell rather than copying the whole first cell. Target keys292@70,47;293@68,50;294@69,50;295@71,50;296@72,50;297@73,50;298@74,50. First-screen AABB intersects only4 pieces but all7 are mapped to avoid a screen-edge cut.
+
+Reference original selected PNGs unchanged, identical uniform scale and each original owner y/order. Do not mirror or flatten to a single root sprite. Wood root moves from2761,1090 to3385,1506. Shadow references the same full alpha and projection settings with translated world origin, exactly one cast per instance, source checker suppressed with the entire7-owner group. Existing first-instance native evidence is explicitly historical, second-instance native is pending. No map/runtime change or new image generation is performed by this recipe.
