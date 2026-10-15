@@ -1,0 +1,492 @@
+{
+  "status": "read_only_route_foot_diagnostic_not_native",
+  "registration": {
+    "kind": "single uniform scale+translation for whole candidate",
+    "scale": 0.533687668884736,
+    "translation_source_canvas": [
+      31.843111883533425,
+      23.2144416536716
+    ],
+    "world_origin_of_source_canvas": [
+      2948,
+      642
+    ],
+    "raw_rgba_changed": false
+  },
+  "hero_evidence": {
+    "manifest": "res://data/hero/movement.json",
+    "phase": 17,
+    "body_original": [
+      64,
+      71
+    ],
+    "body_offset": [
+      7,
+      -47
+    ],
+    "actual_boot_read_local": [
+      [
+        10,
+        64
+      ],
+      [
+        24,
+        69
+      ]
+    ],
+    "actual_boot_relative_to_actor_origin": [
+      [
+        17,
+        17
+      ],
+      [
+        31,
+        22
+      ]
+    ],
+    "uncertainty_px": 2,
+    "read_method": "Manual visible pale boot toe pixels; excludes checker shadow and does not use alpha bbox as feet.",
+    "limitation": "Two stationary south-facing toe/contact samples, not all movement foot phases or full anatomical contact polygons."
+  },
+  "samples": [
+    {
+      "cell": [
+        66,
+        34
+      ],
+      "flag": 1,
+      "source_owner": "Building:3971@66,34",
+      "original_layer": 0,
+      "sort_y": 34,
+      "actor_draw_origin_source_canvas": [
+        220,
+        446
+      ],
+      "phase17_boot_samples": [
+        {
+          "source_canvas": [
+            237,
+            463
+          ],
+          "candidate_raw": [
+            384.41376872204944,
+            824.0504399611897
+          ]
+        },
+        {
+          "source_canvas": [
+            251,
+            468
+          ],
+          "candidate_raw": [
+            410.6463403481772,
+            833.4192155419496
+          ]
+        }
+      ]
+    },
+    {
+      "cell": [
+        65,
+        35
+      ],
+      "flag": 1,
+      "source_owner": "Building:3974@65,35",
+      "original_layer": 0,
+      "sort_y": 35,
+      "actor_draw_origin_source_canvas": [
+        172,
+        478
+      ],
+      "phase17_boot_samples": [
+        {
+          "source_canvas": [
+            189,
+            495
+          ],
+          "candidate_raw": [
+            294.4735231467542,
+            884.0106036780531
+          ]
+        },
+        {
+          "source_canvas": [
+            203,
+            500
+          ],
+          "candidate_raw": [
+            320.70609477288195,
+            893.3793792588132
+          ]
+        }
+      ]
+    },
+    {
+      "cell": [
+        66,
+        35
+      ],
+      "flag": 1,
+      "source_owner": "Building:3975@66,35",
+      "original_layer": 0,
+      "sort_y": 35,
+      "actor_draw_origin_source_canvas": [
+        220,
+        478
+      ],
+      "phase17_boot_samples": [
+        {
+          "source_canvas": [
+            237,
+            495
+          ],
+          "candidate_raw": [
+            384.41376872204944,
+            884.0106036780531
+          ]
+        },
+        {
+          "source_canvas": [
+            251,
+            500
+          ],
+          "candidate_raw": [
+            410.6463403481772,
+            893.3793792588132
+          ]
+        }
+      ]
+    },
+    {
+      "cell": [
+        73,
+        35
+      ],
+      "flag": 1,
+      "source_owner": "Building:3976@73,35",
+      "original_layer": 0,
+      "sort_y": 35,
+      "actor_draw_origin_source_canvas": [
+        556,
+        478
+      ],
+      "phase17_boot_samples": [
+        {
+          "source_canvas": [
+            573,
+            495
+          ],
+          "candidate_raw": [
+            1013.995487749116,
+            884.0106036780531
+          ]
+        },
+        {
+          "source_canvas": [
+            587,
+            500
+          ],
+          "candidate_raw": [
+            1040.228059375244,
+            893.3793792588132
+          ]
+        }
+      ]
+    },
+    {
+      "cell": [
+        65,
+        36
+      ],
+      "flag": 1,
+      "source_owner": "Building:3979@65,36",
+      "original_layer": 0,
+      "sort_y": 36,
+      "actor_draw_origin_source_canvas": [
+        172,
+        510
+      ],
+      "phase17_boot_samples": [
+        {
+          "source_canvas": [
+            189,
+            527
+          ],
+          "candidate_raw": [
+            294.4735231467542,
+            943.9707673949167
+          ]
+        },
+        {
+          "source_canvas": [
+            203,
+            532
+          ],
+          "candidate_raw": [
+            320.70609477288195,
+            953.3395429756766
+          ]
+        }
+      ]
+    },
+    {
+      "cell": [
+        66,
+        36
+      ],
+      "flag": 1,
+      "source_owner": "Building:3980@66,36",
+      "original_layer": 0,
+      "sort_y": 36,
+      "actor_draw_origin_source_canvas": [
+        220,
+        510
+      ],
+      "phase17_boot_samples": [
+        {
+          "source_canvas": [
+            237,
+            527
+          ],
+          "candidate_raw": [
+            384.41376872204944,
+            943.9707673949167
+          ]
+        },
+        {
+          "source_canvas": [
+            251,
+            532
+          ],
+          "candidate_raw": [
+            410.6463403481772,
+            953.3395429756766
+          ]
+        }
+      ]
+    },
+    {
+      "cell": [
+        73,
+        36
+      ],
+      "flag": 1,
+      "source_owner": "Building:3981@73,36",
+      "original_layer": 0,
+      "sort_y": 36,
+      "actor_draw_origin_source_canvas": [
+        556,
+        510
+      ],
+      "phase17_boot_samples": [
+        {
+          "source_canvas": [
+            573,
+            527
+          ],
+          "candidate_raw": [
+            1013.995487749116,
+            943.9707673949167
+          ]
+        },
+        {
+          "source_canvas": [
+            587,
+            532
+          ],
+          "candidate_raw": [
+            1040.228059375244,
+            953.3395429756766
+          ]
+        }
+      ]
+    },
+    {
+      "cell": [
+        74,
+        36
+      ],
+      "flag": 1,
+      "source_owner": "Building:3982@74,36",
+      "original_layer": 0,
+      "sort_y": 36,
+      "actor_draw_origin_source_canvas": [
+        604,
+        510
+      ],
+      "phase17_boot_samples": [
+        {
+          "source_canvas": [
+            621,
+            527
+          ],
+          "candidate_raw": [
+            1103.9357333244113,
+            943.9707673949167
+          ]
+        },
+        {
+          "source_canvas": [
+            635,
+            532
+          ],
+          "candidate_raw": [
+            1130.168304950539,
+            953.3395429756766
+          ]
+        }
+      ]
+    },
+    {
+      "cell": [
+        66,
+        37
+      ],
+      "flag": 1,
+      "source_owner": "Building:3985@66,37",
+      "original_layer": 0,
+      "sort_y": 37,
+      "actor_draw_origin_source_canvas": [
+        220,
+        542
+      ],
+      "phase17_boot_samples": [
+        {
+          "source_canvas": [
+            237,
+            559
+          ],
+          "candidate_raw": [
+            384.41376872204944,
+            1003.9309311117801
+          ]
+        },
+        {
+          "source_canvas": [
+            251,
+            564
+          ],
+          "candidate_raw": [
+            410.6463403481772,
+            1013.29970669254
+          ]
+        }
+      ]
+    },
+    {
+      "cell": [
+        74,
+        37
+      ],
+      "flag": 1,
+      "source_owner": "Building:3986@74,37",
+      "original_layer": 0,
+      "sort_y": 37,
+      "actor_draw_origin_source_canvas": [
+        604,
+        542
+      ],
+      "phase17_boot_samples": [
+        {
+          "source_canvas": [
+            621,
+            559
+          ],
+          "candidate_raw": [
+            1103.9357333244113,
+            1003.9309311117801
+          ]
+        },
+        {
+          "source_canvas": [
+            635,
+            564
+          ],
+          "candidate_raw": [
+            1130.168304950539,
+            1013.29970669254
+          ]
+        }
+      ]
+    },
+    {
+      "cell": [
+        75,
+        37
+      ],
+      "flag": 1,
+      "source_owner": "Building:3987@75,37",
+      "original_layer": 0,
+      "sort_y": 37,
+      "actor_draw_origin_source_canvas": [
+        652,
+        542
+      ],
+      "phase17_boot_samples": [
+        {
+          "source_canvas": [
+            669,
+            559
+          ],
+          "candidate_raw": [
+            1193.8759788997065,
+            1003.9309311117801
+          ]
+        },
+        {
+          "source_canvas": [
+            683,
+            564
+          ],
+          "candidate_raw": [
+            1220.1085505258343,
+            1013.29970669254
+          ]
+        }
+      ]
+    },
+    {
+      "cell": [
+        74,
+        38
+      ],
+      "flag": 1,
+      "source_owner": "Building:3989@74,38",
+      "original_layer": 0,
+      "sort_y": 38,
+      "actor_draw_origin_source_canvas": [
+        604,
+        574
+      ],
+      "phase17_boot_samples": [
+        {
+          "source_canvas": [
+            621,
+            591
+          ],
+          "candidate_raw": [
+            1103.9357333244113,
+            1063.8910948286436
+          ]
+        },
+        {
+          "source_canvas": [
+            635,
+            596
+          ],
+          "candidate_raw": [
+            1130.168304950539,
+            1073.2598704094034
+          ]
+        }
+      ]
+    }
+  ],
+  "source_connectivity": "All12 layer0 cells have static no-corner-cut paths from61,39 in prior support-analysis.json; no runtime route claimed here.",
+  "depth_limits": [
+    "Whole candidate shown only as geometric context; no full-building layer assignment is proposed.",
+    "Original twelve layer0 support strips must be re-partitioned by true top/riser/rail boundaries, preserving source keys and y/layer.",
+    "New generated rail/riser boundaries cannot be assigned by old rectangles alone.",
+    "Original source faces sometimes occlude paths; native source/new draw order must be compared before acceptance."
+  ]
+}

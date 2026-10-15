@@ -1,0 +1,29 @@
+{
+  "status": "one_generation_complete_geometry_pending",
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "inputs": [
+    {
+      "path": "Project/diagnostics/art_source/a13-main-temple/source-composite.png",
+      "sha256": "375f5bb962fa5df8f6a305820f80b5f183864dc2492ca0827fe5fc71887130cc",
+      "role": "sole geometry"
+    },
+    {
+      "path": "Project/art_source/a13_main_temple_candidate_v1/raw.png",
+      "sha256": "3c33a3ed9c80ad9031b524f73b494c9276386d9c7f7c82e763420d31211eb0fe",
+      "role": "material only"
+    }
+  ],
+  "prompt_sha256": "0292911d096c9abd904fffe1e9486da6e52c5419cc58366660c10bb47811ab1c",
+  "raw_sha256": "3bf1876fd6b76831216668a645f4120dcbc737cfa2ba258e0fc3d2fee705c3e1",
+  "size": [
+    1372,
+    1147
+  ],
+  "alpha_bbox": [
+    44,
+    11,
+    1346,
+    1147
+  ]
+}
