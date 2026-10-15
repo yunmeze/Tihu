@@ -1,0 +1,1785 @@
+{
+  "schema": "a13-main-temple-original-group-v1",
+  "status": "source preparation only; generated building and registration not yet approved",
+  "map_source_sha256": "e1cc7189fc96e04312b935422ec511a078b1fbe6259b97b9e3c279732becb3e3",
+  "map_json_sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+  "texture_manifest_sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+  "building_resource_source_sha256": "7688cfe076ecd9726d37d7604cdc5a56b2cd0a9cdade3f4972dfaba970019cab",
+  "frame_range": [
+    3966,
+    3995
+  ],
+  "owner_count": 30,
+  "layer_counts": {
+    "0": 12,
+    "1": 18
+  },
+  "world_bounds_xyxy": [
+    2948,
+    642,
+    3744,
+    1307
+  ],
+  "composite_size": [
+    796,
+    665
+  ],
+  "coordinate_contract": {
+    "floor_first": true,
+    "objects_sort": [
+      "layer",
+      "sort_y",
+      "stable_source_order"
+    ],
+    "ordinary_object_top": "32-original_height; ignore frame offset; add crop offset",
+    "floor_origin": "cell*[48,32]; ignore frame offset; add crop offset",
+    "npc_origin": "cell*[48,32] + original frame offset + crop offset",
+    "npc_layer": 1,
+    "npc_ticks": 17,
+    "source_fps": 50,
+    "dynamic_ticks": 8,
+    "kind8_top": -52,
+    "kind8_pingpong": [
+      55,
+      56,
+      57,
+      58,
+      59,
+      59,
+      58,
+      57,
+      56,
+      55
+    ],
+    "kind6": "spawn record, not scenery",
+    "kind7": "NPC-list reference, not extra scenery",
+    "scripts_preserved_not_executed": true
+  },
+  "owners_in_draw_order": [
+    {
+      "key": "Building:3971@66,34",
+      "cell": [
+        66,
+        34
+      ],
+      "cell_linear_index": 6634,
+      "source_map_byte_offset": 53100,
+      "source_cell": [
+        -406,
+        1,
+        4,
+        3971
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3971,
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 34,
+      "stable_source_order": 6634,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        201,
+        623,
+        48,
+        32
+      ],
+      "world_rect": [
+        3168,
+        1088,
+        48,
+        32
+      ],
+      "native_source_offset": 28739314,
+      "native_source_bytes": 2614,
+      "visible_alpha_pixels": 1536,
+      "group_draw_order": 0
+    },
+    {
+      "key": "Building:3974@65,35",
+      "cell": [
+        65,
+        35
+      ],
+      "cell_linear_index": 6535,
+      "source_map_byte_offset": 52308,
+      "source_cell": [
+        0,
+        1,
+        4,
+        3974
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3974,
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 35,
+      "stable_source_order": 6535,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        351,
+        623,
+        48,
+        32
+      ],
+      "world_rect": [
+        3120,
+        1120,
+        48,
+        32
+      ],
+      "native_source_offset": 28778308,
+      "native_source_bytes": 2614,
+      "visible_alpha_pixels": 1526,
+      "group_draw_order": 1
+    },
+    {
+      "key": "Building:3975@66,35",
+      "cell": [
+        66,
+        35
+      ],
+      "cell_linear_index": 6635,
+      "source_map_byte_offset": 53108,
+      "source_cell": [
+        0,
+        1,
+        4,
+        3975
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3975,
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 35,
+      "stable_source_order": 6635,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        401,
+        623,
+        48,
+        32
+      ],
+      "world_rect": [
+        3168,
+        1120,
+        48,
+        32
+      ],
+      "native_source_offset": 28780922,
+      "native_source_bytes": 2614,
+      "visible_alpha_pixels": 1536,
+      "group_draw_order": 2
+    },
+    {
+      "key": "Building:3976@73,35",
+      "cell": [
+        73,
+        35
+      ],
+      "cell_linear_index": 7335,
+      "source_map_byte_offset": 58708,
+      "source_cell": [
+        0,
+        1,
+        4,
+        3976
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3976,
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 35,
+      "stable_source_order": 7335,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        451,
+        623,
+        48,
+        32
+      ],
+      "world_rect": [
+        3504,
+        1120,
+        48,
+        32
+      ],
+      "native_source_offset": 28783536,
+      "native_source_bytes": 2614,
+      "visible_alpha_pixels": 1536,
+      "group_draw_order": 3
+    },
+    {
+      "key": "Building:3979@65,36",
+      "cell": [
+        65,
+        36
+      ],
+      "cell_linear_index": 6536,
+      "source_map_byte_offset": 52316,
+      "source_cell": [
+        0,
+        1,
+        4,
+        3979
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3979,
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 36,
+      "stable_source_order": 6536,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        601,
+        623,
+        48,
+        32
+      ],
+      "world_rect": [
+        3120,
+        1152,
+        48,
+        32
+      ],
+      "native_source_offset": 28815474,
+      "native_source_bytes": 2614,
+      "visible_alpha_pixels": 1201,
+      "group_draw_order": 4
+    },
+    {
+      "key": "Building:3980@66,36",
+      "cell": [
+        66,
+        36
+      ],
+      "cell_linear_index": 6636,
+      "source_map_byte_offset": 53116,
+      "source_cell": [
+        -399,
+        1,
+        4,
+        3980
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3980,
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 36,
+      "stable_source_order": 6636,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        651,
+        623,
+        48,
+        32
+      ],
+      "world_rect": [
+        3168,
+        1152,
+        48,
+        32
+      ],
+      "native_source_offset": 28818088,
+      "native_source_bytes": 2614,
+      "visible_alpha_pixels": 1536,
+      "group_draw_order": 5
+    },
+    {
+      "key": "Building:3981@73,36",
+      "cell": [
+        73,
+        36
+      ],
+      "cell_linear_index": 7336,
+      "source_map_byte_offset": 58716,
+      "source_cell": [
+        0,
+        1,
+        4,
+        3981
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3981,
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 36,
+      "stable_source_order": 7336,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        701,
+        623,
+        48,
+        32
+      ],
+      "world_rect": [
+        3504,
+        1152,
+        48,
+        32
+      ],
+      "native_source_offset": 28820702,
+      "native_source_bytes": 2614,
+      "visible_alpha_pixels": 1536,
+      "group_draw_order": 6
+    },
+    {
+      "key": "Building:3982@74,36",
+      "cell": [
+        74,
+        36
+      ],
+      "cell_linear_index": 7436,
+      "source_map_byte_offset": 59516,
+      "source_cell": [
+        -406,
+        1,
+        4,
+        3982
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3982,
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 36,
+      "stable_source_order": 7436,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        751,
+        623,
+        48,
+        32
+      ],
+      "world_rect": [
+        3552,
+        1152,
+        48,
+        32
+      ],
+      "native_source_offset": 28823316,
+      "native_source_bytes": 2614,
+      "visible_alpha_pixels": 1536,
+      "group_draw_order": 7
+    },
+    {
+      "key": "Building:3985@66,37",
+      "cell": [
+        66,
+        37
+      ],
+      "cell_linear_index": 6637,
+      "source_map_byte_offset": 53124,
+      "source_cell": [
+        0,
+        1,
+        4,
+        3985
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3985,
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 37,
+      "stable_source_order": 6637,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        901,
+        623,
+        48,
+        32
+      ],
+      "world_rect": [
+        3168,
+        1184,
+        48,
+        32
+      ],
+      "native_source_offset": 28854918,
+      "native_source_bytes": 2614,
+      "visible_alpha_pixels": 1180,
+      "group_draw_order": 8
+    },
+    {
+      "key": "Building:3986@74,37",
+      "cell": [
+        74,
+        37
+      ],
+      "cell_linear_index": 7437,
+      "source_map_byte_offset": 59524,
+      "source_cell": [
+        0,
+        1,
+        4,
+        3986
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3986,
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 37,
+      "stable_source_order": 7437,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        951,
+        623,
+        48,
+        32
+      ],
+      "world_rect": [
+        3552,
+        1184,
+        48,
+        32
+      ],
+      "native_source_offset": 28857532,
+      "native_source_bytes": 2614,
+      "visible_alpha_pixels": 1526,
+      "group_draw_order": 9
+    },
+    {
+      "key": "Building:3987@75,37",
+      "cell": [
+        75,
+        37
+      ],
+      "cell_linear_index": 7537,
+      "source_map_byte_offset": 60324,
+      "source_cell": [
+        0,
+        1,
+        4,
+        3987
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3987,
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 37,
+      "stable_source_order": 7537,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        1001,
+        623,
+        39,
+        28
+      ],
+      "world_rect": [
+        3600,
+        1184,
+        39,
+        28
+      ],
+      "native_source_offset": 28860146,
+      "native_source_bytes": 2614,
+      "visible_alpha_pixels": 605,
+      "group_draw_order": 10
+    },
+    {
+      "key": "Building:3989@74,38",
+      "cell": [
+        74,
+        38
+      ],
+      "cell_linear_index": 7438,
+      "source_map_byte_offset": 59532,
+      "source_cell": [
+        -406,
+        1,
+        4,
+        3989
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3989,
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 38,
+      "stable_source_order": 7438,
+      "original_canvas": [
+        48,
+        32
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        1092,
+        623,
+        42,
+        27
+      ],
+      "world_rect": [
+        3552,
+        1216,
+        42,
+        27
+      ],
+      "native_source_offset": 28890670,
+      "native_source_bytes": 2614,
+      "visible_alpha_pixels": 513,
+      "group_draw_order": 11
+    },
+    {
+      "key": "Building:3966@61,32",
+      "cell": [
+        61,
+        32
+      ],
+      "cell_linear_index": 6132,
+      "source_map_byte_offset": 49084,
+      "source_cell": [
+        0,
+        0,
+        4,
+        3966
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3966,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 32,
+      "stable_source_order": 6132,
+      "original_canvas": [
+        48,
+        145
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        20,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        2018,
+        1,
+        28,
+        144
+      ],
+      "world_rect": [
+        2948,
+        911,
+        28,
+        144
+      ],
+      "native_source_offset": 28662740,
+      "native_source_bytes": 8038,
+      "visible_alpha_pixels": 1789,
+      "group_draw_order": 12
+    },
+    {
+      "key": "Building:3967@62,33",
+      "cell": [
+        62,
+        33
+      ],
+      "cell_linear_index": 6233,
+      "source_map_byte_offset": 49892,
+      "source_cell": [
+        0,
+        -1,
+        4,
+        3967
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3967,
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 33,
+      "stable_source_order": 6233,
+      "original_canvas": [
+        48,
+        252
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        1,
+        623,
+        48,
+        252
+      ],
+      "world_rect": [
+        2976,
+        836,
+        48,
+        252
+      ],
+      "native_source_offset": 28670778,
+      "native_source_bytes": 13174,
+      "visible_alpha_pixels": 9481,
+      "group_draw_order": 13
+    },
+    {
+      "key": "Building:3968@66,33",
+      "cell": [
+        66,
+        33
+      ],
+      "cell_linear_index": 6633,
+      "source_map_byte_offset": 53092,
+      "source_cell": [
+        0,
+        -1,
+        4,
+        3968
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3968,
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 33,
+      "stable_source_order": 6633,
+      "original_canvas": [
+        48,
+        408
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        51,
+        623,
+        48,
+        408
+      ],
+      "world_rect": [
+        3168,
+        680,
+        48,
+        408
+      ],
+      "native_source_offset": 28683952,
+      "native_source_bytes": 20662,
+      "visible_alpha_pixels": 18464,
+      "group_draw_order": 14
+    },
+    {
+      "key": "Building:3969@63,34",
+      "cell": [
+        63,
+        34
+      ],
+      "cell_linear_index": 6334,
+      "source_map_byte_offset": 50700,
+      "source_cell": [
+        0,
+        -1,
+        4,
+        3969
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3969,
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 34,
+      "stable_source_order": 6334,
+      "original_canvas": [
+        48,
+        298
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        101,
+        623,
+        48,
+        298
+      ],
+      "world_rect": [
+        3024,
+        822,
+        48,
+        298
+      ],
+      "native_source_offset": 28704614,
+      "native_source_bytes": 15382,
+      "visible_alpha_pixels": 13236,
+      "group_draw_order": 15
+    },
+    {
+      "key": "Building:3970@65,34",
+      "cell": [
+        65,
+        34
+      ],
+      "cell_linear_index": 6534,
+      "source_map_byte_offset": 52300,
+      "source_cell": [
+        0,
+        -1,
+        4,
+        3970
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3970,
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 34,
+      "stable_source_order": 6534,
+      "original_canvas": [
+        48,
+        380
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        151,
+        623,
+        48,
+        380
+      ],
+      "world_rect": [
+        3120,
+        740,
+        48,
+        380
+      ],
+      "native_source_offset": 28719996,
+      "native_source_bytes": 19318,
+      "visible_alpha_pixels": 16739,
+      "group_draw_order": 16
+    },
+    {
+      "key": "Building:3972@73,34",
+      "cell": [
+        73,
+        34
+      ],
+      "cell_linear_index": 7334,
+      "source_map_byte_offset": 58700,
+      "source_cell": [
+        0,
+        0,
+        4,
+        3972
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3972,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 34,
+      "stable_source_order": 7334,
+      "original_canvas": [
+        48,
+        358
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        2
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        251,
+        623,
+        48,
+        356
+      ],
+      "world_rect": [
+        3504,
+        764,
+        48,
+        356
+      ],
+      "native_source_offset": 28741928,
+      "native_source_bytes": 18262,
+      "visible_alpha_pixels": 14578,
+      "group_draw_order": 17
+    },
+    {
+      "key": "Building:3973@64,35",
+      "cell": [
+        64,
+        35
+      ],
+      "cell_linear_index": 6435,
+      "source_map_byte_offset": 51508,
+      "source_cell": [
+        0,
+        -1,
+        4,
+        3973
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3973,
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 35,
+      "stable_source_order": 6435,
+      "original_canvas": [
+        48,
+        355
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        301,
+        623,
+        48,
+        342
+      ],
+      "world_rect": [
+        3072,
+        797,
+        48,
+        342
+      ],
+      "native_source_offset": 28760190,
+      "native_source_bytes": 18118,
+      "visible_alpha_pixels": 15435,
+      "group_draw_order": 18
+    },
+    {
+      "key": "Building:3977@74,35",
+      "cell": [
+        74,
+        35
+      ],
+      "cell_linear_index": 7435,
+      "source_map_byte_offset": 59508,
+      "source_cell": [
+        0,
+        -1,
+        4,
+        3977
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3977,
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 35,
+      "stable_source_order": 7435,
+      "original_canvas": [
+        48,
+        389
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        2
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        501,
+        623,
+        48,
+        387
+      ],
+      "world_rect": [
+        3552,
+        765,
+        48,
+        387
+      ],
+      "native_source_offset": 28786150,
+      "native_source_bytes": 19750,
+      "visible_alpha_pixels": 12965,
+      "group_draw_order": 19
+    },
+    {
+      "key": "Building:3978@77,35",
+      "cell": [
+        77,
+        35
+      ],
+      "cell_linear_index": 7735,
+      "source_map_byte_offset": 61908,
+      "source_cell": [
+        0,
+        0,
+        4,
+        3978
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3978,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 35,
+      "stable_source_order": 7735,
+      "original_canvas": [
+        48,
+        177
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        551,
+        623,
+        48,
+        163
+      ],
+      "world_rect": [
+        3696,
+        975,
+        48,
+        163
+      ],
+      "native_source_offset": 28805900,
+      "native_source_bytes": 9574,
+      "visible_alpha_pixels": 2368,
+      "group_draw_order": 20
+    },
+    {
+      "key": "Building:3983@75,36",
+      "cell": [
+        75,
+        36
+      ],
+      "cell_linear_index": 7536,
+      "source_map_byte_offset": 60316,
+      "source_cell": [
+        0,
+        -1,
+        4,
+        3983
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3983,
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 36,
+      "stable_source_order": 7536,
+      "original_canvas": [
+        48,
+        286
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        801,
+        623,
+        48,
+        286
+      ],
+      "world_rect": [
+        3600,
+        898,
+        48,
+        286
+      ],
+      "native_source_offset": 28825930,
+      "native_source_bytes": 14806,
+      "visible_alpha_pixels": 12367,
+      "group_draw_order": 21
+    },
+    {
+      "key": "Building:3984@76,36",
+      "cell": [
+        76,
+        36
+      ],
+      "cell_linear_index": 7636,
+      "source_map_byte_offset": 61116,
+      "source_cell": [
+        -406,
+        0,
+        4,
+        3984
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3984,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 36,
+      "stable_source_order": 7636,
+      "original_canvas": [
+        48,
+        273
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        851,
+        623,
+        48,
+        265
+      ],
+      "world_rect": [
+        3648,
+        911,
+        48,
+        265
+      ],
+      "native_source_offset": 28840736,
+      "native_source_bytes": 14182,
+      "visible_alpha_pixels": 7916,
+      "group_draw_order": 22
+    },
+    {
+      "key": "Building:3988@67,38",
+      "cell": [
+        67,
+        38
+      ],
+      "cell_linear_index": 6738,
+      "source_map_byte_offset": 53932,
+      "source_cell": [
+        0,
+        0,
+        4,
+        3988
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3988,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 38,
+      "stable_source_order": 6738,
+      "original_canvas": [
+        48,
+        559
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        1042,
+        623,
+        48,
+        550
+      ],
+      "world_rect": [
+        3216,
+        689,
+        48,
+        550
+      ],
+      "native_source_offset": 28862760,
+      "native_source_bytes": 27910,
+      "visible_alpha_pixels": 25268,
+      "group_draw_order": 23
+    },
+    {
+      "key": "Building:3990@68,39",
+      "cell": [
+        68,
+        39
+      ],
+      "cell_linear_index": 6839,
+      "source_map_byte_offset": 54740,
+      "source_cell": [
+        0,
+        0,
+        4,
+        3990
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3990,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 39,
+      "stable_source_order": 6839,
+      "original_canvas": [
+        48,
+        638
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        1136,
+        623,
+        48,
+        638
+      ],
+      "world_rect": [
+        3264,
+        642,
+        48,
+        638
+      ],
+      "native_source_offset": 28893284,
+      "native_source_bytes": 31702,
+      "visible_alpha_pixels": 27950,
+      "group_draw_order": 24
+    },
+    {
+      "key": "Building:3991@73,39",
+      "cell": [
+        73,
+        39
+      ],
+      "cell_linear_index": 7339,
+      "source_map_byte_offset": 58740,
+      "source_cell": [
+        0,
+        0,
+        4,
+        3991
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3991,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 39,
+      "stable_source_order": 7339,
+      "original_canvas": [
+        48,
+        96
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        1186,
+        623,
+        48,
+        84
+      ],
+      "world_rect": [
+        3504,
+        1184,
+        48,
+        84
+      ],
+      "native_source_offset": 28924986,
+      "native_source_bytes": 5686,
+      "visible_alpha_pixels": 3123,
+      "group_draw_order": 25
+    },
+    {
+      "key": "Building:3992@69,40",
+      "cell": [
+        69,
+        40
+      ],
+      "cell_linear_index": 6940,
+      "source_map_byte_offset": 55548,
+      "source_cell": [
+        0,
+        0,
+        4,
+        3992
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3992,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 40,
+      "stable_source_order": 6940,
+      "original_canvas": [
+        48,
+        612
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        1236,
+        623,
+        48,
+        595
+      ],
+      "world_rect": [
+        3312,
+        700,
+        48,
+        595
+      ],
+      "native_source_offset": 28930672,
+      "native_source_bytes": 30454,
+      "visible_alpha_pixels": 27159,
+      "group_draw_order": 26
+    },
+    {
+      "key": "Building:3993@70,40",
+      "cell": [
+        70,
+        40
+      ],
+      "cell_linear_index": 7040,
+      "source_map_byte_offset": 56348,
+      "source_cell": [
+        -406,
+        -1,
+        4,
+        3993
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3993,
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 40,
+      "stable_source_order": 7040,
+      "original_canvas": [
+        48,
+        596
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        1286,
+        623,
+        48,
+        591
+      ],
+      "world_rect": [
+        3360,
+        716,
+        48,
+        591
+      ],
+      "native_source_offset": 28961126,
+      "native_source_bytes": 29686,
+      "visible_alpha_pixels": 27379,
+      "group_draw_order": 27
+    },
+    {
+      "key": "Building:3994@71,40",
+      "cell": [
+        71,
+        40
+      ],
+      "cell_linear_index": 7140,
+      "source_map_byte_offset": 57148,
+      "source_cell": [
+        0,
+        -1,
+        4,
+        3994
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3994,
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 40,
+      "stable_source_order": 7140,
+      "original_canvas": [
+        48,
+        651
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        1336,
+        623,
+        48,
+        646
+      ],
+      "world_rect": [
+        3408,
+        661,
+        48,
+        646
+      ],
+      "native_source_offset": 28990812,
+      "native_source_bytes": 32326,
+      "visible_alpha_pixels": 29024,
+      "group_draw_order": 28
+    },
+    {
+      "key": "Building:3995@72,40",
+      "cell": [
+        72,
+        40
+      ],
+      "cell_linear_index": 7240,
+      "source_map_byte_offset": 57948,
+      "source_cell": [
+        -406,
+        0,
+        4,
+        3995
+      ],
+      "pack": "Map/Res/Building",
+      "frame_index": 3995,
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 40,
+      "stable_source_order": 7240,
+      "original_canvas": [
+        48,
+        649
+      ],
+      "source_frame_offset_ignored": [
+        0,
+        0
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "atlas_page": "res://assets/original/Map/Res/Building/0.png",
+      "atlas_rect": [
+        1386,
+        623,
+        48,
+        635
+      ],
+      "world_rect": [
+        3456,
+        663,
+        48,
+        635
+      ],
+      "native_source_offset": 29023138,
+      "native_source_bytes": 32230,
+      "visible_alpha_pixels": 25687,
+      "group_draw_order": 29
+    }
+  ],
+  "manual_visible_landmarks": [
+    {
+      "id": "C0_front_column_foot",
+      "source_composite_xy": [
+        437,
+        553
+      ],
+      "world_xy": [
+        3385,
+        1195
+      ],
+      "manual_read_uncertainty_px": 4,
+      "read_region_xyxy": [
+        433,
+        549,
+        441,
+        557
+      ],
+      "alpha_at_point": 255,
+      "material_interpretation": "white corner column cut bottom; not front railing post or stone apron",
+      "contributors_in_draw_order": [
+        "Building:3993@70,40"
+      ],
+      "certainty": "visible feature with finite pixel region; not exact surveyed coordinate"
+    },
+    {
+      "id": "S0_left_stair_ground_edge",
+      "source_composite_xy": [
+        258,
+        543
+      ],
+      "world_xy": [
+        3206,
+        1185
+      ],
+      "manual_read_uncertainty_px": 5,
+      "read_region_xyxy": [
+        253,
+        538,
+        263,
+        548
+      ],
+      "alpha_at_point": 255,
+      "material_interpretation": "front lower stone tread edge; adjacent grass excluded",
+      "contributors_in_draw_order": [
+        "Building:3985@66,37"
+      ],
+      "certainty": "visible feature with finite pixel region; not exact surveyed coordinate"
+    },
+    {
+      "id": "S1_left_stair_top",
+      "source_composite_xy": [
+        231,
+        455
+      ],
+      "world_xy": [
+        3179,
+        1097
+      ],
+      "manual_read_uncertainty_px": 5,
+      "read_region_xyxy": [
+        226,
+        450,
+        236,
+        460
+      ],
+      "alpha_at_point": 255,
+      "material_interpretation": "upper tread/platform junction, partly bordered by railing",
+      "contributors_in_draw_order": [
+        "Building:3971@66,34"
+      ],
+      "certainty": "visible feature with finite pixel region; not exact surveyed coordinate"
+    },
+    {
+      "id": "S2_right_stair_ground_edge",
+      "source_composite_xy": [
+        596,
+        578
+      ],
+      "world_xy": [
+        3544,
+        1220
+      ],
+      "manual_read_uncertainty_px": 5,
+      "read_region_xyxy": [
+        591,
+        573,
+        601,
+        583
+      ],
+      "alpha_at_point": 255,
+      "material_interpretation": "lowest right stone tread edge; adjacent grass excluded",
+      "contributors_in_draw_order": [
+        "Building:3991@73,39"
+      ],
+      "certainty": "visible feature with finite pixel region; not exact surveyed coordinate"
+    },
+    {
+      "id": "S3_right_stair_top",
+      "source_composite_xy": [
+        622,
+        489
+      ],
+      "world_xy": [
+        3570,
+        1131
+      ],
+      "manual_read_uncertainty_px": 5,
+      "read_region_xyxy": [
+        617,
+        484,
+        627,
+        494
+      ],
+      "alpha_at_point": 255,
+      "material_interpretation": "upper right tread/platform junction",
+      "contributors_in_draw_order": [
+        "Building:3977@74,35"
+      ],
+      "certainty": "visible feature with finite pixel region; not exact surveyed coordinate"
+    },
+    {
+      "id": "E0_left_eave_lip",
+      "source_composite_xy": [
+        43,
+        209
+      ],
+      "world_xy": [
+        2991,
+        851
+      ],
+      "manual_read_uncertainty_px": 4,
+      "read_region_xyxy": [
+        39,
+        205,
+        47,
+        213
+      ],
+      "alpha_at_point": 255,
+      "material_interpretation": "visible upturned wooden eave lip sample, not extreme tip or ground foot",
+      "contributors_in_draw_order": [
+        "Building:3967@62,33"
+      ],
+      "certainty": "visible feature with finite pixel region; not exact surveyed coordinate"
+    },
+    {
+      "id": "E1_front_eave_corner",
+      "source_composite_xy": [
+        437,
+        472
+      ],
+      "world_xy": [
+        3385,
+        1114
+      ],
+      "manual_read_uncertainty_px": 4,
+      "read_region_xyxy": [
+        433,
+        468,
+        441,
+        476
+      ],
+      "alpha_at_point": 255,
+      "material_interpretation": "front eave end above corner column, not its foot",
+      "contributors_in_draw_order": [
+        "Building:3993@70,40"
+      ],
+      "certainty": "visible feature with finite pixel region; not exact surveyed coordinate"
+    },
+    {
+      "id": "E2_right_eave_lip",
+      "source_composite_xy": [
+        733,
+        281
+      ],
+      "world_xy": [
+        3681,
+        923
+      ],
+      "manual_read_uncertainty_px": 4,
+      "read_region_xyxy": [
+        729,
+        277,
+        737,
+        285
+      ],
+      "alpha_at_point": 255,
+      "material_interpretation": "visible right wooden eave lip sample, not a claimed extremal tip",
+      "contributors_in_draw_order": [
+        "Building:3984@76,36"
+      ],
+      "certainty": "visible feature with finite pixel region; not exact surveyed coordinate"
+    }
+  ],
+  "nearby_original_npcs": [
+    {
+      "x": 64,
+      "y": 37,
+      "name": "方丈",
+      "appearance": 21,
+      "direction": 2
+    },
+    {
+      "x": 62,
+      "y": 36,
+      "name": "凌云子",
+      "appearance": 9,
+      "direction": 1
+    },
+    {
+      "x": 76,
+      "y": 37,
+      "name": "道童",
+      "appearance": 24,
+      "direction": 1
+    }
+  ],
+  "limits": [
+    "Landmarks are material-specific manual read regions, uncertainty 4-5 source pixels. No zero-error geometry claim.",
+    "Source has baked checker cast and grass/stone apron. They are visible evidence, not structural foot anchors or desired generated ground.",
+    "Two stair/platform directions and compound roofs are distinct planes. A global affine fit cannot prove their separate correspondence.",
+    "Layer0 support owners must remain ahead of original layer1 actor depth; never put whole generated building in one background/foreground sprite.",
+    "No collisions, flags, cells, NPC scripts or runtime changed.",
+    "Nearby actor routes and landing visibility require runtime evidence after any generated candidate exists."
+  ]
+}
