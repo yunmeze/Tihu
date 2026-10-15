@@ -1,0 +1,2412 @@
+{
+  "schema": "earth-upright-shadow-readonly-cpu-v1",
+  "method": "All alpha>0 texels expanded half a raw texel for bilinear support; density4.5 exact; transformed per-texel AABBs expanded logical1.8; fixed wood root included. Raster cell density2. No clipping used for eligibility.",
+  "instances": [
+    {
+      "instance": "left_50_41",
+      "density": 4.5,
+      "raw_size_wh": [
+        1162,
+        1353
+      ],
+      "alpha_positive_texels": 776650,
+      "world_origin": [
+        2311.5555555555557,
+        1030.6666666666667
+      ],
+      "root_raw": [
+        560,
+        1329
+      ],
+      "root_logical": [
+        124.44444444444444,
+        295.3333333333333
+      ],
+      "root_world": [
+        2436.0,
+        1326.0
+      ],
+      "root_uncertainty_raw": 9,
+      "source_root_uncertainty_logical": 4,
+      "cast": [
+        1.2,
+        0.55
+      ],
+      "slope_hypothesis": 0,
+      "opacity": 0.25,
+      "blur_logical": 0.8,
+      "blur_raw": 3.6,
+      "projection_matrix": [
+        [
+          1.0,
+          -1.2
+        ],
+        [
+          0.0,
+          -0.55
+        ]
+      ],
+      "projection_translation_logical": [
+        354.4,
+        457.76666666666665
+      ],
+      "determinant": -0.55,
+      "full_conservative_world_bounds_xyxy": [
+        2329.2888888888892,
+        1321.2055555555555,
+        2913.1555555555556,
+        1490.2944444444445
+      ],
+      "full_envelope_cells_density2": 134420,
+      "envelope_cells_inside_current_sample": 103860,
+      "envelope_cells_outside_current_sample": 30560,
+      "full_envelope_passes_current_sample": false,
+      "current_receiver_forbidden_overlap_inside_sample": 0,
+      "overlap_existing_envelope_cells_inside_sample": {
+        "lingyunzi": 0,
+        "first_tree": 0
+      },
+      "source_keys": [
+        "Plant:299@50,41",
+        "Plant:300@48,45",
+        "Plant:301@49,45",
+        "Plant:302@51,45",
+        "Plant:303@52,45",
+        "Plant:304@53,45"
+      ],
+      "owners": [
+        {
+          "key": "Plant:299@50,41",
+          "cell": [
+            50,
+            41
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            299
+          ],
+          "layer": 1,
+          "sort_y": 41,
+          "stable_source_order": 5041,
+          "frame_index": 299
+        },
+        {
+          "key": "Plant:300@48,45",
+          "cell": [
+            48,
+            45
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            300
+          ],
+          "layer": 1,
+          "sort_y": 45,
+          "stable_source_order": 4845,
+          "frame_index": 300
+        },
+        {
+          "key": "Plant:301@49,45",
+          "cell": [
+            49,
+            45
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            301
+          ],
+          "layer": 1,
+          "sort_y": 45,
+          "stable_source_order": 4945,
+          "frame_index": 301
+        },
+        {
+          "key": "Plant:302@51,45",
+          "cell": [
+            51,
+            45
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            302
+          ],
+          "layer": 1,
+          "sort_y": 45,
+          "stable_source_order": 5145,
+          "frame_index": 302
+        },
+        {
+          "key": "Plant:303@52,45",
+          "cell": [
+            52,
+            45
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            303
+          ],
+          "layer": 1,
+          "sort_y": 45,
+          "stable_source_order": 5245,
+          "frame_index": 303
+        },
+        {
+          "key": "Plant:304@53,45",
+          "cell": [
+            53,
+            45
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            304
+          ],
+          "layer": 1,
+          "sort_y": 45,
+          "stable_source_order": 5345,
+          "frame_index": 304
+        }
+      ],
+      "minimal_integer_validation_world_rect": [
+        2329,
+        1321,
+        585,
+        170
+      ],
+      "root_uncertainty_review_world_rect": [
+        2319,
+        1311,
+        605,
+        190
+      ],
+      "source_records_aabb_review_superset": [
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            48,
+            40
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 4840,
+          "world_rgba_rect": [
+            2304,
+            1280,
+            2400,
+            1344
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            48,
+            42
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 4842,
+          "world_rgba_rect": [
+            2304,
+            1344,
+            2400,
+            1408
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            48,
+            44
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 4844,
+          "world_rgba_rect": [
+            2304,
+            1408,
+            2400,
+            1472
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            48,
+            46
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 4846,
+          "world_rgba_rect": [
+            2304,
+            1472,
+            2400,
+            1536
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 304,
+          "cell": [
+            48,
+            50
+          ],
+          "source_cell": [
+            -608,
+            0,
+            2,
+            304
+          ],
+          "order": 4850,
+          "world_rgba_rect": [
+            2304,
+            1279,
+            2352,
+            1427
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            50,
+            40
+          ],
+          "source_cell": [
+            -406,
+            -1,
+            0,
+            0
+          ],
+          "order": 5040,
+          "world_rgba_rect": [
+            2400,
+            1280,
+            2496,
+            1344
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 299,
+          "cell": [
+            50,
+            41
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            299
+          ],
+          "order": 5041,
+          "world_rgba_rect": [
+            2400,
+            1032,
+            2448,
+            1330
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            50,
+            42
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 5042,
+          "world_rgba_rect": [
+            2400,
+            1344,
+            2496,
+            1408
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            50,
+            44
+          ],
+          "source_cell": [
+            -406,
+            -1,
+            2,
+            144
+          ],
+          "order": 5044,
+          "world_rgba_rect": [
+            2400,
+            1408,
+            2496,
+            1472
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 144,
+          "cell": [
+            50,
+            44
+          ],
+          "source_cell": [
+            -406,
+            -1,
+            2,
+            144
+          ],
+          "order": 5044,
+          "world_rgba_rect": [
+            2407,
+            1344,
+            2448,
+            1437
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 577,
+          "cell": [
+            50,
+            46
+          ],
+          "source_cell": [
+            -577,
+            0,
+            0,
+            0
+          ],
+          "order": 5046,
+          "world_rgba_rect": [
+            2400,
+            1472,
+            2496,
+            1536
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 143,
+          "cell": [
+            51,
+            41
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            143
+          ],
+          "order": 5141,
+          "world_rgba_rect": [
+            2449,
+            1335,
+            2492,
+            1344
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 145,
+          "cell": [
+            51,
+            44
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            145
+          ],
+          "order": 5144,
+          "world_rgba_rect": [
+            2448,
+            1344,
+            2496,
+            1440
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 302,
+          "cell": [
+            51,
+            45
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            302
+          ],
+          "order": 5145,
+          "world_rgba_rect": [
+            2448,
+            1036,
+            2496,
+            1330
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            52,
+            40
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 5240,
+          "world_rgba_rect": [
+            2496,
+            1280,
+            2592,
+            1344
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            52,
+            42
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 5242,
+          "world_rgba_rect": [
+            2496,
+            1344,
+            2592,
+            1408
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 577,
+          "cell": [
+            52,
+            44
+          ],
+          "source_cell": [
+            -577,
+            -1,
+            2,
+            146
+          ],
+          "order": 5244,
+          "world_rgba_rect": [
+            2496,
+            1408,
+            2592,
+            1472
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 146,
+          "cell": [
+            52,
+            44
+          ],
+          "source_cell": [
+            -577,
+            -1,
+            2,
+            146
+          ],
+          "order": 5244,
+          "world_rgba_rect": [
+            2496,
+            1344,
+            2531,
+            1438
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 608,
+          "cell": [
+            52,
+            46
+          ],
+          "source_cell": [
+            -608,
+            0,
+            0,
+            0
+          ],
+          "order": 5246,
+          "world_rgba_rect": [
+            2496,
+            1472,
+            2592,
+            1536
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            54,
+            40
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 5440,
+          "world_rgba_rect": [
+            2592,
+            1280,
+            2688,
+            1344
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 577,
+          "cell": [
+            54,
+            42
+          ],
+          "source_cell": [
+            -577,
+            0,
+            0,
+            0
+          ],
+          "order": 5442,
+          "world_rgba_rect": [
+            2592,
+            1344,
+            2688,
+            1408
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 608,
+          "cell": [
+            54,
+            44
+          ],
+          "source_cell": [
+            -608,
+            0,
+            0,
+            0
+          ],
+          "order": 5444,
+          "world_rgba_rect": [
+            2592,
+            1408,
+            2688,
+            1472
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 586,
+          "cell": [
+            54,
+            46
+          ],
+          "source_cell": [
+            -586,
+            0,
+            0,
+            0
+          ],
+          "order": 5446,
+          "world_rgba_rect": [
+            2592,
+            1472,
+            2688,
+            1536
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 577,
+          "cell": [
+            56,
+            40
+          ],
+          "source_cell": [
+            -577,
+            0,
+            0,
+            0
+          ],
+          "order": 5640,
+          "world_rgba_rect": [
+            2688,
+            1280,
+            2784,
+            1344
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 608,
+          "cell": [
+            56,
+            42
+          ],
+          "source_cell": [
+            -608,
+            0,
+            0,
+            0
+          ],
+          "order": 5642,
+          "world_rgba_rect": [
+            2688,
+            1344,
+            2784,
+            1408
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 594,
+          "cell": [
+            56,
+            44
+          ],
+          "source_cell": [
+            -594,
+            0,
+            0,
+            0
+          ],
+          "order": 5644,
+          "world_rgba_rect": [
+            2688,
+            1408,
+            2784,
+            1472
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 581,
+          "cell": [
+            56,
+            46
+          ],
+          "source_cell": [
+            -581,
+            0,
+            0,
+            0
+          ],
+          "order": 5646,
+          "world_rgba_rect": [
+            2688,
+            1472,
+            2784,
+            1536
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 608,
+          "cell": [
+            58,
+            40
+          ],
+          "source_cell": [
+            -608,
+            0,
+            0,
+            0
+          ],
+          "order": 5840,
+          "world_rgba_rect": [
+            2784,
+            1280,
+            2880,
+            1344
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 587,
+          "cell": [
+            58,
+            42
+          ],
+          "source_cell": [
+            -587,
+            0,
+            0,
+            0
+          ],
+          "order": 5842,
+          "world_rgba_rect": [
+            2784,
+            1344,
+            2880,
+            1408
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 581,
+          "cell": [
+            58,
+            44
+          ],
+          "source_cell": [
+            -581,
+            0,
+            0,
+            0
+          ],
+          "order": 5844,
+          "world_rgba_rect": [
+            2784,
+            1408,
+            2880,
+            1472
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 604,
+          "cell": [
+            58,
+            46
+          ],
+          "source_cell": [
+            -604,
+            0,
+            0,
+            0
+          ],
+          "order": 5846,
+          "world_rgba_rect": [
+            2784,
+            1472,
+            2880,
+            1536
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 300,
+          "cell": [
+            59,
+            55
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            300
+          ],
+          "order": 5955,
+          "world_rgba_rect": [
+            2839,
+            1399,
+            2880,
+            1553
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 595,
+          "cell": [
+            60,
+            40
+          ],
+          "source_cell": [
+            -595,
+            0,
+            0,
+            0
+          ],
+          "order": 6040,
+          "world_rgba_rect": [
+            2880,
+            1280,
+            2976,
+            1344
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 581,
+          "cell": [
+            60,
+            42
+          ],
+          "source_cell": [
+            -581,
+            0,
+            0,
+            0
+          ],
+          "order": 6042,
+          "world_rgba_rect": [
+            2880,
+            1344,
+            2976,
+            1408
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 604,
+          "cell": [
+            60,
+            44
+          ],
+          "source_cell": [
+            -604,
+            0,
+            0,
+            0
+          ],
+          "order": 6044,
+          "world_rgba_rect": [
+            2880,
+            1408,
+            2976,
+            1472
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            60,
+            46
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6046,
+          "world_rgba_rect": [
+            2880,
+            1472,
+            2976,
+            1536
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 301,
+          "cell": [
+            60,
+            55
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            301
+          ],
+          "order": 6055,
+          "world_rgba_rect": [
+            2880,
+            1355,
+            2928,
+            1610
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        }
+      ],
+      "source_record_counts": {
+        "Map/Res/FloorBig": 28,
+        "Map/Res/Plant": 9
+      }
+    },
+    {
+      "instance": "bottom_61_51",
+      "density": 4.5,
+      "raw_size_wh": [
+        1162,
+        1353
+      ],
+      "alpha_positive_texels": 776650,
+      "world_origin": [
+        2839.5555555555557,
+        1350.6666666666667
+      ],
+      "root_raw": [
+        560,
+        1329
+      ],
+      "root_logical": [
+        124.44444444444444,
+        295.3333333333333
+      ],
+      "root_world": [
+        2964.0,
+        1646.0
+      ],
+      "root_uncertainty_raw": 9,
+      "source_root_uncertainty_logical": 4,
+      "cast": [
+        1.2,
+        0.55
+      ],
+      "slope_hypothesis": 0,
+      "opacity": 0.25,
+      "blur_logical": 0.8,
+      "blur_raw": 3.6,
+      "projection_matrix": [
+        [
+          1.0,
+          -1.2
+        ],
+        [
+          0.0,
+          -0.55
+        ]
+      ],
+      "projection_translation_logical": [
+        354.4,
+        457.76666666666665
+      ],
+      "determinant": -0.55,
+      "full_conservative_world_bounds_xyxy": [
+        2857.2888888888892,
+        1641.2055555555555,
+        3441.1555555555556,
+        1810.2944444444445
+      ],
+      "full_envelope_cells_density2": 134420,
+      "envelope_cells_inside_current_sample": 0,
+      "envelope_cells_outside_current_sample": 134420,
+      "full_envelope_passes_current_sample": false,
+      "current_receiver_forbidden_overlap_inside_sample": 0,
+      "overlap_existing_envelope_cells_inside_sample": {
+        "lingyunzi": 0,
+        "first_tree": 0
+      },
+      "source_keys": [
+        "Plant:299@61,51",
+        "Plant:300@59,55",
+        "Plant:301@60,55",
+        "Plant:302@62,55",
+        "Plant:303@63,55",
+        "Plant:304@64,55"
+      ],
+      "owners": [
+        {
+          "key": "Plant:299@61,51",
+          "cell": [
+            61,
+            51
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            299
+          ],
+          "layer": 1,
+          "sort_y": 51,
+          "stable_source_order": 6151,
+          "frame_index": 299
+        },
+        {
+          "key": "Plant:300@59,55",
+          "cell": [
+            59,
+            55
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            300
+          ],
+          "layer": 1,
+          "sort_y": 55,
+          "stable_source_order": 5955,
+          "frame_index": 300
+        },
+        {
+          "key": "Plant:301@60,55",
+          "cell": [
+            60,
+            55
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            301
+          ],
+          "layer": 1,
+          "sort_y": 55,
+          "stable_source_order": 6055,
+          "frame_index": 301
+        },
+        {
+          "key": "Plant:302@62,55",
+          "cell": [
+            62,
+            55
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            302
+          ],
+          "layer": 1,
+          "sort_y": 55,
+          "stable_source_order": 6255,
+          "frame_index": 302
+        },
+        {
+          "key": "Plant:303@63,55",
+          "cell": [
+            63,
+            55
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            303
+          ],
+          "layer": 1,
+          "sort_y": 55,
+          "stable_source_order": 6355,
+          "frame_index": 303
+        },
+        {
+          "key": "Plant:304@64,55",
+          "cell": [
+            64,
+            55
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            304
+          ],
+          "layer": 1,
+          "sort_y": 55,
+          "stable_source_order": 6455,
+          "frame_index": 304
+        }
+      ],
+      "minimal_integer_validation_world_rect": [
+        2857,
+        1641,
+        585,
+        170
+      ],
+      "root_uncertainty_review_world_rect": [
+        2847,
+        1631,
+        605,
+        190
+      ],
+      "source_records_aabb_review_superset": [
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            58,
+            50
+          ],
+          "source_cell": [
+            -406,
+            -1,
+            0,
+            0
+          ],
+          "order": 5850,
+          "world_rgba_rect": [
+            2784,
+            1600,
+            2880,
+            1664
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            58,
+            52
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 5852,
+          "world_rgba_rect": [
+            2784,
+            1664,
+            2880,
+            1728
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            58,
+            54
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 5854,
+          "world_rgba_rect": [
+            2784,
+            1728,
+            2880,
+            1792
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            58,
+            56
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 5856,
+          "world_rgba_rect": [
+            2784,
+            1792,
+            2880,
+            1856
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 146,
+          "cell": [
+            59,
+            51
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            146
+          ],
+          "order": 5951,
+          "world_rgba_rect": [
+            2832,
+            1568,
+            2867,
+            1662
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 299,
+          "cell": [
+            59,
+            61
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            299
+          ],
+          "order": 5961,
+          "world_rgba_rect": [
+            2832,
+            1672,
+            2880,
+            1970
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            60,
+            50
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6050,
+          "world_rgba_rect": [
+            2880,
+            1600,
+            2976,
+            1664
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            60,
+            52
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6052,
+          "world_rgba_rect": [
+            2880,
+            1664,
+            2976,
+            1728
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            60,
+            54
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6054,
+          "world_rgba_rect": [
+            2880,
+            1728,
+            2976,
+            1792
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            60,
+            56
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6056,
+          "world_rgba_rect": [
+            2880,
+            1792,
+            2976,
+            1856
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 302,
+          "cell": [
+            60,
+            65
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            302
+          ],
+          "order": 6065,
+          "world_rgba_rect": [
+            2880,
+            1676,
+            2928,
+            1970
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 299,
+          "cell": [
+            61,
+            51
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            299
+          ],
+          "order": 6151,
+          "world_rgba_rect": [
+            2928,
+            1352,
+            2976,
+            1650
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 303,
+          "cell": [
+            61,
+            65
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            303
+          ],
+          "order": 6165,
+          "world_rgba_rect": [
+            2928,
+            1675,
+            2976,
+            1950
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            62,
+            50
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6250,
+          "world_rgba_rect": [
+            2976,
+            1600,
+            3072,
+            1664
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            62,
+            52
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6252,
+          "world_rgba_rect": [
+            2976,
+            1664,
+            3072,
+            1728
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            62,
+            54
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6254,
+          "world_rgba_rect": [
+            2976,
+            1728,
+            3072,
+            1792
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 302,
+          "cell": [
+            62,
+            55
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            302
+          ],
+          "order": 6255,
+          "world_rgba_rect": [
+            2976,
+            1356,
+            3024,
+            1650
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            62,
+            56
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6256,
+          "world_rgba_rect": [
+            2976,
+            1792,
+            3072,
+            1856
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 304,
+          "cell": [
+            62,
+            65
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            304
+          ],
+          "order": 6265,
+          "world_rgba_rect": [
+            2976,
+            1759,
+            3024,
+            1907
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 248,
+          "cell": [
+            63,
+            57
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            248
+          ],
+          "order": 6357,
+          "world_rgba_rect": [
+            3037,
+            1788,
+            3072,
+            1837
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            64,
+            50
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6450,
+          "world_rgba_rect": [
+            3072,
+            1600,
+            3168,
+            1664
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            64,
+            52
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6452,
+          "world_rgba_rect": [
+            3072,
+            1664,
+            3168,
+            1728
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            64,
+            54
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6454,
+          "world_rgba_rect": [
+            3072,
+            1728,
+            3168,
+            1792
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            64,
+            56
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6456,
+          "world_rgba_rect": [
+            3072,
+            1792,
+            3168,
+            1856
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 249,
+          "cell": [
+            64,
+            57
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            249
+          ],
+          "order": 6457,
+          "world_rgba_rect": [
+            3072,
+            1772,
+            3120,
+            1844
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 250,
+          "cell": [
+            65,
+            57
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            250
+          ],
+          "order": 6557,
+          "world_rgba_rect": [
+            3120,
+            1777,
+            3154,
+            1833
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            66,
+            50
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6650,
+          "world_rgba_rect": [
+            3168,
+            1600,
+            3264,
+            1664
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            66,
+            52
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6652,
+          "world_rgba_rect": [
+            3168,
+            1664,
+            3264,
+            1728
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            66,
+            54
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6654,
+          "world_rgba_rect": [
+            3168,
+            1728,
+            3264,
+            1792
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            66,
+            56
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6656,
+          "world_rgba_rect": [
+            3168,
+            1792,
+            3264,
+            1856
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Debris",
+          "frame_index": 57,
+          "cell": [
+            66,
+            62
+          ],
+          "source_cell": [
+            -406,
+            1,
+            1,
+            57
+          ],
+          "order": 6662,
+          "world_rgba_rect": [
+            3168,
+            1803,
+            3216,
+            2015
+          ],
+          "page": "res://assets/original/Map/Res/Debris/0.png",
+          "page_sha256": "1a40e7affec8b5ef82ee902dda23261e67dd2ddf499301adbcfea4dea0c1b87e"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 246,
+          "cell": [
+            67,
+            56
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            246
+          ],
+          "order": 6756,
+          "world_rgba_rect": [
+            3217,
+            1741,
+            3264,
+            1806
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Debris",
+          "frame_index": 58,
+          "cell": [
+            67,
+            63
+          ],
+          "source_cell": [
+            0,
+            1,
+            1,
+            58
+          ],
+          "order": 6763,
+          "world_rgba_rect": [
+            3216,
+            1800,
+            3264,
+            2041
+          ],
+          "page": "res://assets/original/Map/Res/Debris/0.png",
+          "page_sha256": "1a40e7affec8b5ef82ee902dda23261e67dd2ddf499301adbcfea4dea0c1b87e"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            68,
+            50
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            293
+          ],
+          "order": 6850,
+          "world_rgba_rect": [
+            3264,
+            1600,
+            3360,
+            1664
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            68,
+            52
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6852,
+          "world_rgba_rect": [
+            3264,
+            1664,
+            3360,
+            1728
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            68,
+            54
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 6854,
+          "world_rgba_rect": [
+            3264,
+            1728,
+            3360,
+            1792
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            68,
+            56
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            247
+          ],
+          "order": 6856,
+          "world_rgba_rect": [
+            3264,
+            1792,
+            3360,
+            1856
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 247,
+          "cell": [
+            68,
+            56
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            247
+          ],
+          "order": 6856,
+          "world_rgba_rect": [
+            3264,
+            1744,
+            3310,
+            1810
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 246,
+          "cell": [
+            68,
+            58
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            246
+          ],
+          "order": 6858,
+          "world_rgba_rect": [
+            3265,
+            1805,
+            3312,
+            1870
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Debris",
+          "frame_index": 59,
+          "cell": [
+            68,
+            63
+          ],
+          "source_cell": [
+            0,
+            -2,
+            1,
+            59
+          ],
+          "order": 6863,
+          "world_rgba_rect": [
+            3264,
+            1813,
+            3312,
+            2048
+          ],
+          "page": "res://assets/original/Map/Res/Debris/0.png",
+          "page_sha256": "1a40e7affec8b5ef82ee902dda23261e67dd2ddf499301adbcfea4dea0c1b87e"
+        },
+        {
+          "kind": "object",
+          "pack": "Map/Res/Plant",
+          "frame_index": 247,
+          "cell": [
+            69,
+            58
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            247
+          ],
+          "order": 6958,
+          "world_rgba_rect": [
+            3312,
+            1808,
+            3358,
+            1874
+          ],
+          "page": "res://assets/original/Map/Res/Plant/0.png",
+          "page_sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            70,
+            50
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 7050,
+          "world_rgba_rect": [
+            3360,
+            1600,
+            3456,
+            1664
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            70,
+            52
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 7052,
+          "world_rgba_rect": [
+            3360,
+            1664,
+            3456,
+            1728
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            70,
+            54
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 7054,
+          "world_rgba_rect": [
+            3360,
+            1728,
+            3456,
+            1792
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        },
+        {
+          "kind": "floor",
+          "pack": "Map/Res/FloorBig",
+          "frame_index": 406,
+          "cell": [
+            70,
+            56
+          ],
+          "source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "order": 7056,
+          "world_rgba_rect": [
+            3360,
+            1792,
+            3456,
+            1856
+          ],
+          "page": "res://assets/original/Map/Res/FloorBig/0.png",
+          "page_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59"
+        }
+      ],
+      "source_record_counts": {
+        "Map/Res/Debris": 3,
+        "Map/Res/FloorBig": 28,
+        "Map/Res/Plant": 14
+      }
+    }
+  ],
+  "two_upright_full_envelope_overlap_cells": 0,
+  "root_neighborhood_alpha_5x5": [
+    [
+      251,
+      251,
+      251,
+      251,
+      251
+    ],
+    [
+      251,
+      250,
+      251,
+      251,
+      251
+    ],
+    [
+      250,
+      249,
+      251,
+      250,
+      250
+    ],
+    [
+      251,
+      250,
+      250,
+      248,
+      249
+    ],
+    [
+      248,
+      247,
+      247,
+      247,
+      250
+    ]
+  ],
+  "input_sha256": {
+    "assets/earth/environment/upright_tree_v1/registration_left_50_41.json": "e8b5fae705b312e910a4acb60eda616829b50c1f014fe9bb22453944a9745acd",
+    "assets/earth/environment/upright_tree_v1/registration_bottom_61_51.json": "f6af7e14f47455d6ae7f76daa28c0c48ba7f3cd3912aed45d6bd85a5ea04b875",
+    "assets/earth/environment/upright_tree_v1/raw.png": "ada0e0fd8952fe1dcc6b60dafb9d64be96476ed7736a881f1e5e401436b3db0f",
+    "assets/earth/shadows/receiver_v2/manifest.json": "94378c86a0c41b6f62aa9b9e06c46c346160c70936834b3a97ce884c7f61f330",
+    "data/maps/A13.json": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "scripts/earth/upright_candidate.gd": "83d79c0484b186bdf1c160be4da5c18a8395f9cf6d6f2110b7f3d42ba39413a0",
+    "tools/earth/build_flat_shadow_gate.py": "19dbee82e321c64ab2952d7e4f02660fa8f622d2b9ae3ad0a05ea1142f3fddcb"
+  }
+}

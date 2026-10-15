@@ -1,0 +1,318 @@
+{
+  "status": "prepared_not_generated",
+  "inputs": [
+    {
+      "path": "edit-base-v2-UNCHANGED.png",
+      "sha256": "7dac4bd83626ab3e9347c0bccefc92a0306d9f534486e6922f09a315703c3517"
+    },
+    {
+      "path": "source45-50-full128-equal-grid-4x.png",
+      "sha256": "133cdc367b9564de7cc20647a5ac9939860e55f2657dafba4dc23e0661bc8369"
+    },
+    {
+      "path": "source-sixphase-sleeve-waist-leg-regions.png",
+      "sha256": "6e6fa78ab5addc41e945d695e8fd4f229dd8c384032074d97976c8888b5aa5e5"
+    }
+  ],
+  "source_regions": [
+    {
+      "source_id": 45,
+      "hand_group_region": [
+        30,
+        54,
+        36,
+        60
+      ],
+      "waist_reference_approx": [
+        43,
+        47,
+        50,
+        51
+      ],
+      "ankle_toe_proxies": {
+        "screen_left_boot_chain": [
+          [
+            22,
+            73
+          ],
+          [
+            29,
+            78
+          ]
+        ],
+        "screen_right_boot_chain": [
+          [
+            49,
+            80
+          ],
+          [
+            60,
+            81
+          ]
+        ]
+      }
+    },
+    {
+      "source_id": 46,
+      "hand_group_region": [
+        34,
+        53,
+        40,
+        59
+      ],
+      "waist_reference_approx": [
+        43,
+        47,
+        50,
+        51
+      ],
+      "ankle_toe_proxies": {
+        "screen_left_boot_chain": [
+          [
+            26,
+            72
+          ],
+          [
+            31,
+            77
+          ]
+        ],
+        "screen_right_boot_chain": [
+          [
+            40,
+            84
+          ],
+          [
+            48,
+            87
+          ]
+        ]
+      }
+    },
+    {
+      "source_id": 47,
+      "hand_group_region": [
+        41,
+        53,
+        47,
+        59
+      ],
+      "waist_reference_approx": [
+        43,
+        47,
+        50,
+        51
+      ],
+      "ankle_toe_proxies": {
+        "screen_left_boot_chain": [
+          [
+            33,
+            80
+          ],
+          [
+            42,
+            87
+          ]
+        ],
+        "screen_right_boot_chain": [
+          [
+            43,
+            74
+          ],
+          [
+            51,
+            78
+          ]
+        ]
+      }
+    },
+    {
+      "source_id": 48,
+      "hand_group_region": [
+        46,
+        53,
+        52,
+        59
+      ],
+      "waist_reference_approx": [
+        43,
+        47,
+        50,
+        51
+      ],
+      "ankle_toe_proxies": {
+        "screen_left_boot_chain": [
+          [
+            23,
+            78
+          ],
+          [
+            29,
+            84
+          ]
+        ],
+        "screen_right_boot_chain": [
+          [
+            49,
+            75
+          ],
+          [
+            60,
+            74
+          ]
+        ]
+      }
+    },
+    {
+      "source_id": 49,
+      "hand_group_region": [
+        40,
+        53,
+        46,
+        59
+      ],
+      "waist_reference_approx": [
+        43,
+        47,
+        50,
+        51
+      ],
+      "ankle_toe_proxies": {
+        "screen_left_boot_chain": [
+          [
+            26,
+            76
+          ],
+          [
+            31,
+            83
+          ]
+        ],
+        "screen_right_boot_chain": [
+          [
+            40,
+            75
+          ],
+          [
+            48,
+            77
+          ]
+        ]
+      }
+    },
+    {
+      "source_id": 50,
+      "hand_group_region": [
+        33,
+        54,
+        39,
+        60
+      ],
+      "waist_reference_approx": [
+        43,
+        47,
+        50,
+        51
+      ],
+      "ankle_toe_proxies": {
+        "screen_left_boot_chain": [
+          [
+            32,
+            76
+          ],
+          [
+            41,
+            80
+          ]
+        ],
+        "screen_right_boot_chain": [
+          [
+            42,
+            81
+          ],
+          [
+            51,
+            86
+          ]
+        ]
+      }
+    }
+  ],
+  "source_upper_crop": [
+    24,
+    24,
+    58,
+    62
+  ],
+  "upper_nearest_scale": 10,
+  "source_lower_crop": [
+    12,
+    58,
+    68,
+    92
+  ],
+  "lower_nearest_scale": 8,
+  "base_cell_local_context_envelopes": {
+    "45": {
+      "legs": [
+        55,
+        296,
+        405,
+        486
+      ]
+    },
+    "46": {
+      "near_arm": [
+        184,
+        163,
+        291,
+        312
+      ]
+    },
+    "47": {
+      "near_arm": [
+        210,
+        164,
+        327,
+        310
+      ]
+    },
+    "48": {
+      "legs": [
+        55,
+        296,
+        405,
+        493
+      ],
+      "near_arm": [
+        155,
+        163,
+        343,
+        315
+      ]
+    },
+    "49": {
+      "right_shin_ankle_boot": [
+        224,
+        338,
+        329,
+        480
+      ],
+      "near_arm": [
+        182,
+        164,
+        319,
+        320
+      ]
+    },
+    "50": {
+      "passing_legs": [
+        185,
+        300,
+        335,
+        492
+      ]
+    }
+  },
+  "note": "envelopes are inspection context, not masks; torso within arm rectangles protected; no programmatic final-art editing"
+}

@@ -1,0 +1,128 @@
+{
+  "schema": "earth-hero-walk-v1",
+  "status": "MOTION_RESEARCH_ONLY_static_not_passed_NO_PRODUCTION_PROMOTION",
+  "texture": "res://art_source/earth_hero_s_walk_v1/motion_research_candidate/body.png",
+  "texture_sha256": "34a2a3717a93cb04bfed7ea0e245de098a0c91c4a21cbd17815889cc7c1fbc22",
+  "texture_size": [
+    3072,
+    512
+  ],
+  "texture_density": 4,
+  "logical_frame_size": [
+    128,
+    128
+  ],
+  "logical_draw_offset": [
+    -16,
+    -64
+  ],
+  "logical_root": [
+    16,
+    64
+  ],
+  "texture_root": [
+    64,
+    256
+  ],
+  "texture_frame_size": [
+    512,
+    512
+  ],
+  "direction": "S",
+  "direction_index": 4,
+  "action": "walk",
+  "source_ids": [
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+  ],
+  "records": [
+    {
+      "source_id": 57,
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "rgba_sha256": "e411c5b27e639d3237ccce91a779f7ab3dca1dc634ba8da2a29aabf2328ea690"
+    },
+    {
+      "source_id": 58,
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "rgba_sha256": "8e8a57c797a781412b079f442e18274a28b04a67d4944d3b7a3f7fd6d0e0a772"
+    },
+    {
+      "source_id": 59,
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "rgba_sha256": "71f2cee159789e975f6c87f3d0ce92a4b14fd0ec836fe687199bf863c3accbdf"
+    },
+    {
+      "source_id": 60,
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "rgba_sha256": "37e69f85a3752d5bcb1fe22c1e2ab14dc16583daf0225ec3440ed42a34bb68a4"
+    },
+    {
+      "source_id": 61,
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "rgba_sha256": "b4cb8b898240f54ee0e079266dfe89da994d450939aa0e10fe06409491b778bd"
+    },
+    {
+      "source_id": 62,
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "rgba_sha256": "c403e1c36963ff0167e23acceaa82a1c04cfae432e786c24d0e8864c86ed120e"
+    }
+  ],
+  "frame_ticks": 7,
+  "filter": "linear",
+  "sprite_scale": 0.25,
+  "shadow_enabled": false,
+  "shadow": "NONE. All S cast/contact shadows off; never borrow SE shadow.",
+  "composite_policy": "complete body+head replacement for research only; do not overlay original head",
+  "fallback": "atomic six-frame group to complete original body+head; unrequested run/actions untouched",
+  "runtime_installed": false,
+  "ordinary_world_modified": false,
+  "known_issues": [
+    "61 retains near60 boot terminal separation; motion may appear held",
+    "62 projected foot separation wider than source; inspect62to57",
+    "58/59 intermediate foot spacing also overextended",
+    "new silver waist side bands and long thigh sideplates; metallic warm boot surface differs approved S idle",
+    "foot terminals are visible proxies, not knee/ankle/contact/weight proof"
+  ],
+  "provenance": {
+    "raw_sha256": "d1d0b6f096ea64e5e5b64a8a9374efdf9bd8466593138adcae2899d654a098eb",
+    "prompt_sha256": "973f3a720dac0e6ad83ae7e9dc82f1ab62e94cd718680332f9a651d8a56ffc30",
+    "request_sha256": "bb0591b9ca72060aa646c68db920273cd76de59a0b5369bcc5b4812582db47d7",
+    "registration_sha256": "6493bfac2ab462cd5efb7896fb53e8e401b4c5e7d441b296bc150a19bc04b5fa",
+    "review_sha256": "ae20d1d766ae515326feda8163b0e5dc7ef8927cc0db6e10d2da618bf8bb0c1a"
+  },
+  "test_scope": "unique runner isolated motion study: source/new two cycles and real A* move/stop; do not approve clothes, source fidelity or production from this test alone"
+}

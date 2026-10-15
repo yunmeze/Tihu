@@ -1,0 +1,78 @@
+{
+  "status": "static_not_passed_parent_authorized_isolated_motion_research_only_no_production",
+  "files": [
+    {
+      "path": "MOTION_RESEARCH_HANDOFF.md",
+      "sha256": "8e067188748912a211697f2dee1a9497196b3b6f1feac64648fd0e69a3dd4708"
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "ae20d1d766ae515326feda8163b0e5dc7ef8927cc0db6e10d2da618bf8bb0c1a"
+    },
+    {
+      "path": "body-density4-DIAGNOSTIC.png",
+      "sha256": "34a2a3717a93cb04bfed7ea0e245de098a0c91c4a21cbd17815889cc7c1fbc22"
+    },
+    {
+      "path": "build_manifest.py",
+      "sha256": "3783ec57a56f9cedeef2cc665c877f8d7e98ceae58d5e218685a9756a3c7c15b"
+    },
+    {
+      "path": "motion_research_candidate/body.png",
+      "sha256": "34a2a3717a93cb04bfed7ea0e245de098a0c91c4a21cbd17815889cc7c1fbc22"
+    },
+    {
+      "path": "motion_research_candidate/manifest.json",
+      "sha256": "d512b3c31779fdfd8466161084afa7250bd5a0738d0c4a2843fd74a9accae7a4"
+    },
+    {
+      "path": "package_motion_research.py",
+      "sha256": "ac960926cc3815a6952ded9e0020db923351754fac7f85a7051168589f5585dc"
+    },
+    {
+      "path": "prompt-v1.txt",
+      "sha256": "973f3a720dac0e6ad83ae7e9dc82f1ab62e94cd718680332f9a651d8a56ffc30"
+    },
+    {
+      "path": "raw-v1.png",
+      "sha256": "d1d0b6f096ea64e5e5b64a8a9374efdf9bd8466593138adcae2899d654a098eb"
+    },
+    {
+      "path": "register_v1.py",
+      "sha256": "0ee060eba79c37c6a9d9173266a3d808aee6fdb31f64bcbbc80c9a81104dd45b"
+    },
+    {
+      "path": "registration-v1.json",
+      "sha256": "6493bfac2ab462cd5efb7896fb53e8e401b4c5e7d441b296bc150a19bc04b5fa"
+    },
+    {
+      "path": "request-v1.json",
+      "sha256": "bb0591b9ca72060aa646c68db920273cd76de59a0b5369bcc5b4812582db47d7"
+    }
+  ],
+  "read_only_dependencies": [
+    {
+      "path": "Project/art_source/earth_hero_s_walk_plan_v1/source-six-full-128-3x2-4x.png",
+      "sha256": "0c095267285163e02178ea43124869f789678bc5e723fa26784019cc73b1e65b"
+    },
+    {
+      "path": "Project/art_source/earth_hero_s_walk_plan_v1/approved-S17-edited-identity-parts.png",
+      "sha256": "1ee342a82299c7beba12454a52e0137745e4c080ab5a2256de690e82d8ce3c67"
+    },
+    {
+      "path": "Project/art_source/earth_hero_s_input_plan_v1/SOURCE_PHASE_ANALYSIS.json",
+      "sha256": "a8965f58e758dfc943843726afb0d1f37d76209b3c5ca5da9da36c2d5ff67738"
+    },
+    {
+      "path": "Project/assets/earth/hero/s_idle_v1/body.png",
+      "sha256": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e"
+    }
+  ],
+  "exclude": [
+    "Project/diagnostics/**",
+    "runtime assets"
+  ],
+  "generation_calls": 1,
+  "edit_calls": 0,
+  "git_performed": false
+}
