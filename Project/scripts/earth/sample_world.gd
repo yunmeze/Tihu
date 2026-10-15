@@ -3,6 +3,9 @@ const SAMPLE_RECT=Rect2(2496,960,768,512)
 var follow_actor:=false
 var flat_map_bound:=false
 func setup(actor:RefCounted,map_path:String="res://data/maps/A13.json") -> bool:
+	candidate_texture=null;candidate_ready=false;walk_texture=null;walk_ready=false;idle_shadow_bound=false;walk_shadow_bound=false
+	fangzhang_texture=null;lingyunzi_texture=null;tree_owners={};shrub_owners={};hall_owners={};ground_owners={}
+	hero_shadow.clear_frame()
 	flat_map_bound=false
 	var ok=super.setup(actor,map_path)
 	flat_map_bound=ok and map_path=="res://data/maps/A13.json" and FileAccess.get_sha256(map_path)=="d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27"
@@ -89,22 +92,40 @@ func _draw_frame(pack_name:String,index:int,origin:Vector2,use_offset:bool,top:f
 			return
 	super._draw_frame(pack_name,index,origin,use_offset,top)
 
+const InstanceIdentity=preload("res://scripts/earth/instance_identity_guard.gd")
+const ShrubCandidate=preload("res://scripts/earth/shrub_candidate.gd")
+var prefer_shrub:=true
+var shrub_owners:Dictionary={}
+func prepare_shrub(path:Variant=ShrubCandidate.PATH) -> bool:
+	shrub_owners=ShrubCandidate.prepare(path,map);queue_redraw();return shrub_owners.size()==4
+func uses_shrub(entry:Variant) -> bool:
+	if not entry is Dictionary:return false
+	if not prefer_shrub or shrub_owners.size()!=4:return false
+	var order=entry.get("order")
+	if not Guard.integer(order,0,9999):return false
+	order=int(order)
+	if not shrub_owners.has(order):return false
+	return InstanceIdentity.entry(entry,2,"Map/Res/Plant",shrub_owners[order].index,1,order%100,order,Vector2(order/100,order%100)*Vector2(48,32))
+
 const TreeCandidate=preload("res://scripts/earth/tree_candidate.gd")
 var prefer_tree:=true
 var tree_owners:Dictionary={}
-func prepare_tree(path:String=TreeCandidate.PATH) -> bool:
+func prepare_tree(path:Variant=TreeCandidate.PATH) -> bool:
 	tree_owners=TreeCandidate.prepare(path,map);queue_redraw();return tree_owners.size()==7
-func uses_tree(entry:Dictionary) -> bool:
-	if not prefer_tree or tree_owners.size()!=7 or entry.get("kind")!=2 or entry.get("pack")!="Map/Res/Plant" or entry.get("layer")!=1:return false
+func uses_tree(entry:Variant) -> bool:
+	if not entry is Dictionary:return false
+	if not prefer_tree or tree_owners.size()!=7:return false
 	var order=entry.get("order")
+	if not Guard.integer(order,0,9999):return false
+	order=int(order)
 	if not tree_owners.has(order):return false
-	return entry.get("index")==tree_owners[order].index and entry.get("y")==int(order)%100 and entry.get("origin")==Vector2(int(order)/100,int(order)%100)*Vector2(48,32)
+	return InstanceIdentity.entry(entry,2,"Map/Res/Plant",tree_owners[order].index,1,order%100,order,Vector2(order/100,order%100)*Vector2(48,32))
 
 const Lingyunzi=preload("res://scripts/earth/lingyunzi_candidate.gd")
 var lingyunzi_texture:CanvasTexture
-func prepare_lingyunzi(path:String=Lingyunzi.PATH) -> bool:
+func prepare_lingyunzi(path:Variant=Lingyunzi.PATH) -> bool:
 	lingyunzi_texture=Lingyunzi.prepare(path,map);queue_redraw();return lingyunzi_texture!=null
-func uses_lingyunzi(entry:Dictionary) -> bool:
+func uses_lingyunzi(entry:Variant) -> bool:
 	return prefer_npcs and lingyunzi_texture!=null and Lingyunzi.matches(entry)
 
 const Fangzhang=preload("res://scripts/earth/fangzhang_candidate.gd")
@@ -114,11 +135,11 @@ var prefer_fangzhang:bool:
 	get:return prefer_npcs
 	set(value):prefer_npcs=value
 var fangzhang_texture:CanvasTexture
-func prepare_fangzhang(path:String=Fangzhang.PATH) -> bool:
+func prepare_fangzhang(path:Variant=Fangzhang.PATH) -> bool:
 	fangzhang_texture=Fangzhang.prepare(path,map)
 	queue_redraw()
 	return fangzhang_texture!=null
-func uses_fangzhang(entry:Dictionary) -> bool:
+func uses_fangzhang(entry:Variant) -> bool:
 	return prefer_fangzhang and fangzhang_texture!=null and Fangzhang.matches(entry)
 
 const Hall=preload("res://scripts/earth/hall_candidate.gd")
@@ -155,6 +176,10 @@ func _draw() -> void:
 	for entry in ordered_objects():
 		if entry.kind==-1:
 			_draw_hero(movement.position*Vector2(48,32)+offset,movement.source_frame());continue
+		if uses_shrub(entry):
+			var item=shrub_owners[entry.order]
+			draw_texture_rect(item.texture,Rect2(item.origin+offset,item.size),false)
+			continue
 		if uses_tree(entry):
 			var item=tree_owners[entry.order]
 			if not item.empty:draw_texture_rect(item.texture,Rect2(item.origin+offset,item.size),false)
