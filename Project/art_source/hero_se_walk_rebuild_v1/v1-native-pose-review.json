@@ -1,0 +1,86 @@
+{
+  "status": "structure_revision_needed_not_runtime",
+  "evidence": "/workspace/shared/legend-rebuild-r5/walk-all-six-native.png",
+  "atlas_sha256": "aa5b4a0b3cbc2accdc62bf4581554b823ac98ab12e99eb53c95523750ad4f31e",
+  "actual_view": "all six native scale source/candidate board",
+  "translation_invariants": [
+    {
+      "source_id": 54,
+      "B_minus_A_source": [
+        29.0,
+        8.0
+      ],
+      "B_minus_A_candidate": [
+        37.12775402643961,
+        16.691889415248056
+      ],
+      "delta": [
+        8.12775402643961,
+        8.691889415248056
+      ]
+    },
+    {
+      "source_id": 55,
+      "B_minus_A_source": [
+        20.0,
+        5.0
+      ],
+      "B_minus_A_candidate": [
+        24.95983463962327,
+        12.011920420318688
+      ],
+      "delta": [
+        4.959834639623271,
+        7.011920420318688
+      ]
+    }
+  ],
+  "decision": "Keep v1 research; propose one complete six-frame structural imagegen revision, awaiting parent authorization. No shadow/preview promotion.",
+  "uncertainty": "source boots +/-1px each; candidate manual endpoints +/-6raw (~.936native) each. Clothing landmarks lower confidence; endpoints are visible surface proxies, not physical contact.",
+  "proportion_proxies": [
+    {
+      "source_id": 51,
+      "crown_to_pelvis_source": 39.0,
+      "crown_to_pelvis_candidate": 36.50375816044904,
+      "pelvis_to_lowest_boot_source": 34.0,
+      "pelvis_to_lowest_boot_candidate": 35.87976229445845
+    },
+    {
+      "source_id": 52,
+      "crown_to_pelvis_source": 40.0,
+      "crown_to_pelvis_candidate": 36.50375816044904,
+      "pelvis_to_lowest_boot_source": 32.0,
+      "pelvis_to_lowest_boot_candidate": 34.63177056247728
+    },
+    {
+      "source_id": 53,
+      "crown_to_pelvis_source": 39.0,
+      "crown_to_pelvis_candidate": 36.50375816044904,
+      "pelvis_to_lowest_boot_source": 29.0,
+      "pelvis_to_lowest_boot_candidate": 34.78776952897493
+    },
+    {
+      "source_id": 54,
+      "crown_to_pelvis_source": 39.0,
+      "crown_to_pelvis_candidate": 34.475771595979644,
+      "pelvis_to_lowest_boot_source": 30.0,
+      "pelvis_to_lowest_boot_candidate": 32.915781931003174
+    },
+    {
+      "source_id": 55,
+      "crown_to_pelvis_source": 38.0,
+      "crown_to_pelvis_candidate": 35.56776436146316,
+      "pelvis_to_lowest_boot_source": 28.0,
+      "pelvis_to_lowest_boot_candidate": 33.22777986399847
+    },
+    {
+      "source_id": 56,
+      "crown_to_pelvis_source": 39.0,
+      "crown_to_pelvis_candidate": 35.87976229445845,
+      "pelvis_to_lowest_boot_source": 33.0,
+      "pelvis_to_lowest_boot_candidate": 34.787769528974934
+    }
+  ],
+  "transition_evidence": "/workspace/shared/legend-rebuild-r5/walk-stepped-transitions.jpg",
+  "transition_observation": "Actual 15-state board reviewed: idle16,51to56 twice,thenidle13.54to55to56 stride amplitude visibly larger than source;56to51 and returningidle do not show whole-body scale swap. Discrete native samples, not a claim of continuous human real-time viewing."
+}

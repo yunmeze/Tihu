@@ -1,0 +1,46 @@
+{
+  "status": "failed-v2-evidence-and-prepared-plan-no-third-generation",
+  "files": [
+    {
+      "path": "raw-v2.png",
+      "sha256": "4a92f35c07b50e70f8bc0f1ff0491d07aaea6cac08f326d0cdea272eb34db62f"
+    },
+    {
+      "path": "prompt-v2.txt",
+      "sha256": "5705bbe707d991eba743603a689b599382fb9ef68d6f4fb2a9829118c4c2954d"
+    },
+    {
+      "path": "request-v2.json",
+      "sha256": "af131162421cc9f3fc01927b1a8d35d794a7e36df8ed682e86b5858aa3c2beb6"
+    },
+    {
+      "path": "v1-native-pose-review.json",
+      "sha256": "73337d05ad368c9bd85ac93f4b14e46f54db0dbbd6b16229dcf8c15541e168cc"
+    },
+    {
+      "path": "SOURCE_ONLY_NEXT_PLAN.md",
+      "sha256": "a1e12b11377265bdb02aafa1176b6f65a7159e843241e050f0517180933135d9"
+    },
+    {
+      "path": "prepare_source_only_plan.py",
+      "sha256": "a0fb2aee2c3f0bde43644d3361535d678e107c643a32399dec605c481588442a"
+    },
+    {
+      "path": "source_only_plan/original-six-common-crop-main-8x.png",
+      "sha256": "5903a685219a3df66112e93767bbbafa2fcd4141ffa116ba19bf7bd32b7afe26"
+    },
+    {
+      "path": "source_only_plan/identity-disconnected-small-panels.png",
+      "sha256": "f00143a2f951919b7afdc32b5462a9711722a47c5011eae19f89245797af4249"
+    },
+    {
+      "path": "source_only_plan/input-provenance.json",
+      "sha256": "57e84425435b003d0434f2bc7ef9210706736aab7ee78903d76d44f046dead75"
+    }
+  ],
+  "exclude": [
+    "v2-registered-atlas-128.png",
+    "diagnostic JPGs",
+    "tool receipts"
+  ]
+}

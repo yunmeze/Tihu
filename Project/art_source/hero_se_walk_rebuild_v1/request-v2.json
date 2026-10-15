@@ -1,0 +1,70 @@
+{
+  "status": "rejected_structure_inherited_failed_pose_not_runtime",
+  "prompt": "prompt-v2.txt",
+  "prompt_sha256": "5705bbe707d991eba743603a689b599382fb9ef68d6f4fb2a9829118c4c2954d",
+  "references": [
+    {
+      "path": "../hero_se_walk_source_r5/source-six-complete-pose-main-6x.png",
+      "sha256": "55cc0dad848d291c8e170ef3a2cd1b254351f718fa6ef5f3d7ed34470664e32d",
+      "role": "ONLY complete pose/camera/proportion authority"
+    },
+    {
+      "path": "../hero_se_walk_source_r5/source-six-lower-detail-8x.png",
+      "sha256": "4743fc46ccae7dd7761b2959099626ec93d42aada87ae89e0332196491425df0",
+      "role": "same original lower-body silhouettes"
+    },
+    {
+      "path": "raw-v1.png",
+      "sha256": "43a6bd3eaf99a9aa1d1cccb2f2bce3fd1eb0f52cadd130bd4bd83ddcd38268f9",
+      "role": "generated identity/material retention only; failed lower proportions excluded"
+    },
+    {
+      "path": "../hero_se_idle_rebuild_v1/identity-v2-disconnected-parts.png",
+      "sha256": "eeeb9b13dee08e2993878e131b96c81fafb69f4fe244c28bdad9503fe4e126b9",
+      "role": "identity detail only"
+    }
+  ],
+  "source_ids": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+  ],
+  "layout": [
+    3,
+    2
+  ],
+  "runtime_use": false,
+  "raw": {
+    "path": "raw-v2.png",
+    "sha256": "4a92f35c07b50e70f8bc0f1ff0491d07aaea6cac08f326d0cdea272eb34db62f",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "rejection": {
+    "54_boot_relative_source": [
+      29,
+      8
+    ],
+    "54_boot_relative_candidate": [
+      37.32,
+      14.75
+    ],
+    "55_boot_relative_source": [
+      20,
+      5
+    ],
+    "55_boot_relative_candidate": [
+      28.74,
+      15.35
+    ],
+    "56": "short boot remains left-behind rather than source right-near-ankle",
+    "55_hand": "far hand remains more exposed",
+    "raw_preserved": true,
+    "no_additional_generation": true
+  }
+}

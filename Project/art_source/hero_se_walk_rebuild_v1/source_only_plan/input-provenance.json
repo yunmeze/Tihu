@@ -1,0 +1,169 @@
+{
+  "status": "prepared_only_no_generation_authorized_yet",
+  "main_crop_per_frame": [
+    12,
+    8,
+    68,
+    96
+  ],
+  "cropped_native_root": [
+    4,
+    56
+  ],
+  "main_magnification": 8,
+  "source_frames": [
+    {
+      "source_id": 51,
+      "path": "hero_se_walk_source_r5/source-51.png",
+      "sha256": "8a7decde7ee2db6aa605cd789bc240e3fb7413814f0bbdfdf4c68a9149fce206"
+    },
+    {
+      "source_id": 52,
+      "path": "hero_se_walk_source_r5/source-52.png",
+      "sha256": "44ca5e84d703f113c1068913cb3526704a3e262fedce79d3caf4538d13259de6"
+    },
+    {
+      "source_id": 53,
+      "path": "hero_se_walk_source_r5/source-53.png",
+      "sha256": "89baa14474ab36f1833582c2ba8e846b757c176bb555a4c28a021981742c2a8c"
+    },
+    {
+      "source_id": 54,
+      "path": "hero_se_walk_source_r5/source-54.png",
+      "sha256": "72d054faf01c5e1076b4eb90db455213f3efa29e87787a075cede32d80bbedad"
+    },
+    {
+      "source_id": 55,
+      "path": "hero_se_walk_source_r5/source-55.png",
+      "sha256": "9ca1c54bbc39b3e065c92f0af0cbb708f0ae1ce1ef25c0a68f66ef8c8b8a693a"
+    },
+    {
+      "source_id": 56,
+      "path": "hero_se_walk_source_r5/source-56.png",
+      "sha256": "76c756fe98878595e2d37907a229b30770a99eaf2f66de8f9b26ac4fcbc6a06a"
+    }
+  ],
+  "identity_source": "hero_identity_rebuild_candidate_v1/identity-rebuild-v2-raw.png",
+  "identity_sha256": "5d21f8db16f0fd0151d5d226ba62f826c06f5571aa2c92f65de348eda42f9512",
+  "identity_parts": [
+    {
+      "label": "face hair",
+      "source_box": [
+        470,
+        15,
+        665,
+        217
+      ],
+      "destination": [
+        15,
+        30
+      ],
+      "resampling": "none"
+    },
+    {
+      "label": "wine shoulder",
+      "source_box": [
+        350,
+        230,
+        495,
+        390
+      ],
+      "destination": [
+        265,
+        30
+      ],
+      "resampling": "none"
+    },
+    {
+      "label": "chest panel",
+      "source_box": [
+        510,
+        270,
+        640,
+        405
+      ],
+      "destination": [
+        515,
+        30
+      ],
+      "resampling": "none"
+    },
+    {
+      "label": "waist module",
+      "source_box": [
+        490,
+        490,
+        665,
+        590
+      ],
+      "destination": [
+        765,
+        30
+      ],
+      "resampling": "none"
+    },
+    {
+      "label": "fingerless glove",
+      "source_box": [
+        724,
+        535,
+        805,
+        654
+      ],
+      "destination": [
+        15,
+        330
+      ],
+      "resampling": "none"
+    },
+    {
+      "label": "knee panel",
+      "source_box": [
+        450,
+        795,
+        555,
+        905
+      ],
+      "destination": [
+        265,
+        330
+      ],
+      "resampling": "none"
+    },
+    {
+      "label": "shin panel",
+      "source_box": [
+        620,
+        865,
+        706,
+        995
+      ],
+      "destination": [
+        515,
+        330
+      ],
+      "resampling": "none"
+    },
+    {
+      "label": "boot",
+      "source_box": [
+        618,
+        1014,
+        805,
+        1130
+      ],
+      "destination": [
+        765,
+        330
+      ],
+      "resampling": "none"
+    }
+  ],
+  "exclusions": [
+    "raw-v1",
+    "raw-v2",
+    "all other generated complete bodies",
+    "whole paired legs"
+  ],
+  "preservation": "all source pixel RGBA unchanged; no semantic masking or color key; same rectangle crop per sourceframe; body+head complete, source ground checker partly remains"
+}
