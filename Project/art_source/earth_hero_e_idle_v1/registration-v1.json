@@ -1,0 +1,396 @@
+{
+  "status": "candidate_pending_parent_review_not_runtime",
+  "raw_sha256": "92b5f869ef0cdc28062bb975afab76ce1846f52f644a06af5edfb3131704e035",
+  "atlas_sha256": "7cb81240d71f04dae8f6df9e06ef5c0d7dbc1d33c467fa3c646f8a54087da010",
+  "logical_frame_size": [
+    128,
+    128
+  ],
+  "logical_root": [
+    16,
+    64
+  ],
+  "texture_frame_size": [
+    512,
+    512
+  ],
+  "texture_root": [
+    64,
+    256
+  ],
+  "texture_density": 4,
+  "frame_ticks": 12,
+  "common_uniform_scale_raw_to_logical": 0.11040569658993409,
+  "method": "global least squares crown and two visible boot terminals; one common isotropic scale + each cell rigid translation; raw directly resampled to HD4",
+  "no_rotation_warp_independent_scale_or_bbox_normalization": true,
+  "exact_raw_reassembly": true,
+  "uncertainty": {
+    "raw_manual_anchor_px": 8,
+    "source_crown_px": 1,
+    "source_boot_px": 2
+  },
+  "limits": [
+    "visible surface anchors are not anatomical joints or ground contacts",
+    "source small breathing changes still require visual assessment",
+    "low-alpha raw speckles retained unchanged",
+    "HD4 canvas alone does not prove density; raw body measurements supplied"
+  ],
+  "records": [
+    {
+      "source_id": 9,
+      "raw_rect": [
+        0,
+        0,
+        535,
+        735
+      ],
+      "raw_anchor_names": [
+        "crown",
+        "near_boot_terminal",
+        "far_boot_terminal"
+      ],
+      "raw_anchor_points": [
+        [
+          270,
+          44
+        ],
+        [
+          282,
+          684
+        ],
+        [
+          326,
+          613
+        ]
+      ],
+      "source_points": [
+        [
+          40.0,
+          15.0
+        ],
+        [
+          41.0,
+          86.0
+        ],
+        [
+          48.0,
+          77.0
+        ]
+      ],
+      "translation_logical": [
+        10.687932798012625,
+        9.981986957632799
+      ],
+      "mapped_points": [
+        [
+          40.49747087729483,
+          14.8398376075899
+        ],
+        [
+          41.822339236374034,
+          85.49948342514772
+        ],
+        [
+          46.680189886331135,
+          77.6606789672624
+        ]
+      ],
+      "residuals": [
+        [
+          0.4974708772948304,
+          -0.16016239241010055
+        ],
+        [
+          0.8223392363740345,
+          -0.5005165748522842
+        ],
+        [
+          -1.319810113668865,
+          0.6606789672623989
+        ]
+      ],
+      "alpha128_body_bbox": [
+        181,
+        44,
+        343,
+        702
+      ],
+      "raw_body_height": 658,
+      "raw_density_vs_source_72": 9.13888888888889,
+      "alpha_1_to_15_count": 6621,
+      "texture_region": [
+        0,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 10,
+      "raw_rect": [
+        535,
+        0,
+        1070,
+        735
+      ],
+      "raw_anchor_names": [
+        "crown",
+        "near_boot_terminal",
+        "far_boot_terminal"
+      ],
+      "raw_anchor_points": [
+        [
+          278,
+          44
+        ],
+        [
+          287,
+          684
+        ],
+        [
+          334,
+          612
+        ]
+      ],
+      "source_points": [
+        [
+          40.0,
+          15.0
+        ],
+        [
+          41.0,
+          86.0
+        ],
+        [
+          48.0,
+          77.0
+        ]
+      ],
+      "translation_logical": [
+        9.915092921883087,
+        10.018788856496109
+      ],
+      "mapped_points": [
+        [
+          40.60787657388477,
+          14.876639506453209
+        ],
+        [
+          41.60152784319417,
+          85.53628532401103
+        ],
+        [
+          46.79059558292107,
+          77.58707516953578
+        ]
+      ],
+      "residuals": [
+        [
+          0.6078765738847665,
+          -0.1233604935467909
+        ],
+        [
+          0.6015278431941695,
+          -0.46371467598896743
+        ],
+        [
+          -1.2094044170789289,
+          0.5870751695357797
+        ]
+      ],
+      "alpha128_body_bbox": [
+        187,
+        44,
+        351,
+        702
+      ],
+      "raw_body_height": 658,
+      "raw_density_vs_source_72": 9.13888888888889,
+      "alpha_1_to_15_count": 4778,
+      "texture_region": [
+        512,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 11,
+      "raw_rect": [
+        1070,
+        0,
+        1604,
+        735
+      ],
+      "raw_anchor_names": [
+        "crown",
+        "near_boot_terminal",
+        "far_boot_terminal"
+      ],
+      "raw_anchor_points": [
+        [
+          281,
+          43
+        ],
+        [
+          289,
+          684
+        ],
+        [
+          336,
+          612
+        ]
+      ],
+      "source_points": [
+        [
+          40.0,
+          15.0
+        ],
+        [
+          41.0,
+          86.0
+        ],
+        [
+          48.0,
+          77.0
+        ]
+      ],
+      "translation_logical": [
+        9.657479629839905,
+        10.055590755359425
+      ],
+      "mapped_points": [
+        [
+          40.681480371611386,
+          14.80303570872659
+        ],
+        [
+          41.56472594433086,
+          85.57308722287434
+        ],
+        [
+          46.753793684057754,
+          77.62387706839908
+        ]
+      ],
+      "residuals": [
+        [
+          0.6814803716113857,
+          -0.1969642912734102
+        ],
+        [
+          0.5647259443308599,
+          -0.4269127771256649
+        ],
+        [
+          -1.2462063159422456,
+          0.6238770683990822
+        ]
+      ],
+      "alpha128_body_bbox": [
+        189,
+        43,
+        353,
+        701
+      ],
+      "raw_body_height": 658,
+      "raw_density_vs_source_72": 9.13888888888889,
+      "alpha_1_to_15_count": 5683,
+      "texture_region": [
+        1024,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 12,
+      "raw_rect": [
+        1604,
+        0,
+        2139,
+        735
+      ],
+      "raw_anchor_names": [
+        "crown",
+        "near_boot_terminal",
+        "far_boot_terminal"
+      ],
+      "raw_anchor_points": [
+        [
+          286,
+          44
+        ],
+        [
+          292,
+          685
+        ],
+        [
+          340,
+          613
+        ]
+      ],
+      "source_points": [
+        [
+          40.0,
+          15.0
+        ],
+        [
+          41.0,
+          86.0
+        ],
+        [
+          48.0,
+          77.0
+        ]
+      ],
+      "translation_logical": [
+        9.215856843480168,
+        9.94518505876949
+      ],
+      "mapped_points": [
+        [
+          40.791886068201315,
+          14.80303570872659
+        ],
+        [
+          41.454320247740924,
+          85.57308722287434
+        ],
+        [
+          46.753793684057754,
+          77.62387706839908
+        ]
+      ],
+      "residuals": [
+        [
+          0.7918860682013147,
+          -0.1969642912734102
+        ],
+        [
+          0.45432024774092383,
+          -0.4269127771256649
+        ],
+        [
+          -1.2462063159422456,
+          0.6238770683990822
+        ]
+      ],
+      "alpha128_body_bbox": [
+        191,
+        44,
+        356,
+        702
+      ],
+      "raw_body_height": 658,
+      "raw_density_vs_source_72": 9.13888888888889,
+      "alpha_1_to_15_count": 6076,
+      "texture_region": [
+        1536,
+        0,
+        512,
+        512
+      ]
+    }
+  ]
+}

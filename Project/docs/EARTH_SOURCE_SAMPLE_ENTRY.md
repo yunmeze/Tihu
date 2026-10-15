@@ -2,7 +2,7 @@
 
 Run `godot --path Project res://scenes/earth_sample_preview.tscn` (or open that scene in Godot). The default R1 scene and R6 natural opening remain unchanged.
 
-This entry now offers the approved candidate SE idle sequence 13–16 and SE walk sequence 51–56, directly sampled from its density-4 atlas. The bounded v4 ground plate replaces exactly 64 original FloorBig owners. The hall now has a bounded 30-owner candidate, along with the two exact opening NPCs, the first tree and center shrub described below. Other NPCs/vegetation and unsupported actor actions/directions remain source. It is not a completed new-style sample. SE walking uses all six approved candidate frames, never a translated single pose. A single candidate SE shadow is now enabled only inside the SHA-bound conservative flat-ground gate; S toggles it independently. Press B to compare source/new SE idle and walk.
+This entry now offers the approved candidate SE idle sequence 13–16 and SE walk sequence 51–56, directly sampled from its density-4 atlas. The bounded v4 ground plate replaces exactly 64 original FloorBig owners. The hall now has a bounded 30-owner candidate, along with the two exact opening NPCs, the three exact trees and three exact shrubs described below. Other NPCs/vegetation and unsupported actor actions/directions remain source. It is not a completed new-style sample. SE walking uses all six approved candidate frames, never a translated single pose. A single candidate SE shadow is now enabled only inside the SHA-bound conservative flat-ground gate; S toggles it independently. Press B to compare source/new SE idle and walk.
 
 ## Fixed review geometry
 
@@ -12,7 +12,7 @@ This entry now offers the approved candidate SE idle sequence 13–16 and SE wal
 - Original A13 cells, collision flags, A*, actor frames, NPC shared 17-tick clock and layer/Y/stable order remain in use.
 - The window is resizable. A 3:2 letterbox preserves this exact visible rectangle; screen input is converted through its display rectangle and inverse 2× stretch.
 
-Click to request an original-map route. Shift uses the existing reference-adapted run speed; Space stops. F switches fixed/follow camera, G toggles the source grid, H hides the explanatory HUD; B changes the retained source/new SE-body preference; P independently switches all 64 ground owners; T the hall, N the two NPC preferences, V the first tree and J the center shrub. Routes are not restricted to the sample rectangle. Follow mode explicitly leaves unconverted surroundings as source. This is an art sample, not execution of map load scripts, NPC conversations or portals.
+Click to request an original-map route. Shift uses the existing reference-adapted run speed; Space stops. F switches fixed/follow camera, G toggles the source grid, H hides the explanatory HUD; B changes the retained source/new SE-body preference; P independently switches all 64 ground owners; T the hall, N the two NPC preferences, V the three trees and J the three shrubs. Routes are not restricted to the sample rectangle. Follow mode explicitly leaves unconverted surroundings as source. This is an art sample, not execution of map load scripts, NPC conversations or portals.
 
 ## New asset preparation interface
 
@@ -104,3 +104,9 @@ V now retains one shared source/new preference for the first tree and the two ap
 The two instances use the same full 1162×1353 canvases at scale 2/9, translated by original world (528,320). Source cells, flags, layer/Y/order are matched separately. Actual whole/full-canvas GPU comparisons differ at 38 and 39 pixels, maximum2 RGB, with none above2. Original A* routes total 1184 ticks, plus a 672-tick side-front visibility route. The blocked (50,40)/(61,50) cells were rejected; reachable adjacent cells were used instead. Existing unconverted tree/grass occlusion remains visible at some front samples. Same-pose depth samples used source South17 after actual movement, not a claim that all new actions were tested. Early camera-clipped front captures were superseded by captures that include the character; the rejected evidence is retained locally.
 
 The ordinary guard/route checks pass 1221 assertions and repeat after importing only the new upright textures in the existing isolated checkout. V source switching, each independent missing-group recovery, and setup clearing are checked. Actual PNG bytes are required even when an old import cache exists. Runtime dependencies use ordinary assets only.
+
+## Two translated shrub instances
+
+J now switches the center shrub and only two additional approved groups at (51,44) and (64,45). Each four-owner group independently binds its original source cells, layer/Y/order and registration SHA. The right-hand group's original ground fields differ from the center group and are preserved. Both reuse the same four full-canvas PNGs, at world origins (2407,1333) and (3031,1365), scale 1/11; body pixels and sizes are unchanged. No new shrub shadow is added.
+
+The two diagnostic whole/full-canvas comparisons differ at four and three pixels respectively, max1 RGB. Nine original A* destinations over 1184 ticks cover rear, partial occlusion, side and front positions. Existing source vegetation may obscure the actor and is not hidden for review. Preparation/route tests pass 1205 assertions; the isolated checkout repeats the new registrations/code using the already imported, byte-identical center textures. Each invalid group restores its complete four original owners while the other groups remain available. Other same-ID shrubs remain source.

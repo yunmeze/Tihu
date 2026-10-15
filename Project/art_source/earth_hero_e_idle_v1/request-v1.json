@@ -1,0 +1,15 @@
+{
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "prompt": "Create ONE coherent four-frame 2D game sprite sheet, in order matching original source frames 9,10,11,12, all in a single generation. First image is the sole authority for the strict screen-right E side-facing camera, complete body silhouette, tiny idle phase changes, projected feet separation and occlusion. Do not mirror or rotate SE. Keep all four original poses, shared proportions and scale; do not repeat one static image translated. Source clothing colors and checker shadow are not design references.\nSecond image contains disconnected material/design fragments from the approved current Earth SE idle13, never a new pose reference. Same adult short black-haired man, fitted black technical underlayer, compact silver-gray chest and small abdominal armor, restrained red shoulder caps, low waist details, predominantly BLACK FABRIC THIGHS with SMALL UPPER SIDE plates, independent knee/shin armor and matching practical boots/fingerless gloves. No long silver thigh armor, skirt, cape, weapon or cyan trim. Reinterpret these same structures as a narrow E side profile; never turn face or torso into SE to display chest details. The far hand is occluded in all four source idle phases; do not expose it. Both staggered boot tips remain visible at the source-relative positions. Four subtly different upper-body phases, not nodding or stepping.\nConsistent warm light from screen upper-left, cool subtle ambient fill. High-detail clean pure 2D painted/pre-rendered-style transparent sprite art. NO ground shadow, checker pattern, floor, text, decorative border or background. Whole bodies fully visible with generous transparent gutters, four equal horizontal cells, no per-cell zoom or crop. Actual body detail resolution preferably at least 288 pixels tall in each raw cell; never satisfy density merely with blank canvas. No runtime, animation code or new frames requested.\n",
+  "referenced_image_paths": [
+    "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_hero_e_input_plan_v1/source-idle-complete-pose-main-6x.png",
+    "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_hero_e_input_plan_v1/approved-se-idle13-disconnected-parts.png"
+  ],
+  "input_sha256": {
+    "source-idle-complete-pose-main-6x.png": "c97233dc699a532a372f373c9e79509e40aaf7df29c9b3ad28ae0992636a2c7d",
+    "approved-se-idle13-disconnected-parts.png": "9d89d0bc5a99d72a4ca8a6c74e6449a7119b9dc14873102f316424e2978289e4"
+  },
+  "frozen_source_manifest_sha256": "cf225495b2226c16ff6829e0469d51c40458b54dac264051d3841c9e51aa7369",
+  "authorization": "parent approved one 4-phase E idle generation; no walk, runtime or second generation"
+}
