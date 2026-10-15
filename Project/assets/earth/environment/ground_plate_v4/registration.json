@@ -1,0 +1,3520 @@
+{
+  "schema": "earth-ground-plate-v4",
+  "status": "bounded64-owner independent Earth sample candidate approved after native joint2x; warm highlights/shared lighting remain under review",
+  "map": "A13",
+  "world_bounds_xyxy_half_open": [
+    2496,
+    960,
+    3264,
+    1472
+  ],
+  "logical_size": [
+    768,
+    512
+  ],
+  "texture_density": 2,
+  "owner_count": 64,
+  "atomic_group": "earth-ground-plate-v4-bounded64",
+  "source_map_sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+  "source_manifest_sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+  "source_contract": "art_source/earth_ground_plate_source_v1/source-layout-contract.json",
+  "source_contract_sha256": "4bc8be5b1a10296f80c14b947d5f41db732b587155bca2fda4075e7c45d92f68",
+  "scope_rule": "exact listed original owner keys only; not all occurrences of their signed IDs; original outside scope",
+  "shared_plate": {
+    "texture": "res://assets/earth/environment/ground_plate_v4/plate.png",
+    "texture_size": [
+      1536,
+      1024
+    ],
+    "texture_sha256": "a44d861c4485cb8596fb42681441675d1b9cefb3d8c48261113325c14492ae2f",
+    "world_top_left": [
+      2496,
+      960
+    ],
+    "scale": 0.5,
+    "sampling": "all owners use shared_region_px on this single continuous image; world-locked, no modulo/mirror/repeat"
+  },
+  "owners": [
+    {
+      "key": "Map/Res/FloorBig:406@52,30",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        52,
+        30
+      ],
+      "stable_source_order": 5230,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 41868,
+      "world_rect": [
+        2496,
+        960,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 30,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2496,
+        960
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-52-30.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "5dbb997564721f613de5f4c2202206d91b73599dd80306275efd13069ed2466f",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        0,
+        0,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@52,32",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        52,
+        32
+      ],
+      "stable_source_order": 5232,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 41884,
+      "world_rect": [
+        2496,
+        1024,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 32,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2496,
+        1024
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-52-32.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "090948284d350220af8718dec1c258b2341e70e6e90ac107142972c387be7531",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        0,
+        128,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@52,34",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        52,
+        34
+      ],
+      "stable_source_order": 5234,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 41900,
+      "world_rect": [
+        2496,
+        1088,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 34,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2496,
+        1088
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-52-34.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "57f7adfbc3f458b618e5389b84bf6929445ea947c62fde61de723982d67f09e4",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        0,
+        256,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@52,36",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        52,
+        36
+      ],
+      "stable_source_order": 5236,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 41916,
+      "world_rect": [
+        2496,
+        1152,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 36,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2496,
+        1152
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-52-36.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "51c7e5ae89aefa6c9ae419dc8f80712ad9f68bbc5ce9aa61c8ddc9cc0e35292e",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        0,
+        384,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@52,38",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        52,
+        38
+      ],
+      "stable_source_order": 5238,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 41932,
+      "world_rect": [
+        2496,
+        1216,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 38,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2496,
+        1216
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-52-38.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "e9d724d5f0d193df12e9f6c1bb466a465f265e2ff3aff3e6792be72a9ab6c76a",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        0,
+        512,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@52,40",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        52,
+        40
+      ],
+      "stable_source_order": 5240,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 41948,
+      "world_rect": [
+        2496,
+        1280,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 40,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2496,
+        1280
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-52-40.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "cbb3d202de07d50ab448ed30fa960793f8151642b157b0869c46a46c78777f11",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        0,
+        640,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@52,42",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        52,
+        42
+      ],
+      "stable_source_order": 5242,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 41964,
+      "world_rect": [
+        2496,
+        1344,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 42,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2496,
+        1344
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-52-42.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "8e319db988cf24c25203b279a9f202b897263232f8ec47b10ffff13f1ca61e79",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        0,
+        768,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:577@52,44",
+      "signed_id": -577,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 577,
+      "cell": [
+        52,
+        44
+      ],
+      "stable_source_order": 5244,
+      "source_cell": [
+        -577,
+        -1,
+        2,
+        146
+      ],
+      "source_map_byte_offset": 41980,
+      "world_rect": [
+        2496,
+        1408,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:577",
+      "layer": 0,
+      "sort_y": 44,
+      "source_flag": -1,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2496,
+        1408
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-52-44.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "bca13c5e4912a38af3ec71cbd4bd15c80c9c8d19f65de7a1b58254866970e39d",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        0,
+        896,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@54,30",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        54,
+        30
+      ],
+      "stable_source_order": 5430,
+      "source_cell": [
+        -406,
+        0,
+        2,
+        239
+      ],
+      "source_map_byte_offset": 43468,
+      "world_rect": [
+        2592,
+        960,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 30,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2592,
+        960
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-54-30.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "f488c2e2ee2534073a547e47473f4db0345f5c37eeec264253d63dbe2f7d13f7",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        192,
+        0,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@54,32",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        54,
+        32
+      ],
+      "stable_source_order": 5432,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 43484,
+      "world_rect": [
+        2592,
+        1024,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 32,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2592,
+        1024
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-54-32.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "c4c7f32bba017f059aedc503a3755727fa37478fb49d00c6bd8561b93a2bc29f",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        192,
+        128,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@54,34",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        54,
+        34
+      ],
+      "stable_source_order": 5434,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 43500,
+      "world_rect": [
+        2592,
+        1088,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 34,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2592,
+        1088
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-54-34.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "b672bb568ff8637a3e192832b2bffca36edbe55d5296505323a2b47a579f9840",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        192,
+        256,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@54,36",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        54,
+        36
+      ],
+      "stable_source_order": 5436,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 43516,
+      "world_rect": [
+        2592,
+        1152,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 36,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2592,
+        1152
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-54-36.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "fa0de4f220a96a5eefe63c9416651236ce7a990da90aeb383af7a37bcc27ba7c",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        192,
+        384,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@54,38",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        54,
+        38
+      ],
+      "stable_source_order": 5438,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 43532,
+      "world_rect": [
+        2592,
+        1216,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 38,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2592,
+        1216
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-54-38.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "a893aa62432ac72932468230e42b268d36c330fbfb7126a5a547464aeceed43f",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        192,
+        512,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@54,40",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        54,
+        40
+      ],
+      "stable_source_order": 5440,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 43548,
+      "world_rect": [
+        2592,
+        1280,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 40,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2592,
+        1280
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-54-40.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "3514fd920201261edb7dd56fb6b0a71b5082bb33ebdf338a1b0974b4ecf9528c",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        192,
+        640,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:577@54,42",
+      "signed_id": -577,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 577,
+      "cell": [
+        54,
+        42
+      ],
+      "stable_source_order": 5442,
+      "source_cell": [
+        -577,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 43564,
+      "world_rect": [
+        2592,
+        1344,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:577",
+      "layer": 0,
+      "sort_y": 42,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2592,
+        1344
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-54-42.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "609db3fad59e037bf04117b31a0a84a9cb87e4d0ecca027660bc61d9020e17e2",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        192,
+        768,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:608@54,44",
+      "signed_id": -608,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 608,
+      "cell": [
+        54,
+        44
+      ],
+      "stable_source_order": 5444,
+      "source_cell": [
+        -608,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 43580,
+      "world_rect": [
+        2592,
+        1408,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:608",
+      "layer": 0,
+      "sort_y": 44,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2592,
+        1408
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-54-44.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "6185275370116d42c669406d63c5ea48a5cd94691a9e61366dde72d00e8f7b8c",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        192,
+        896,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@56,30",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        56,
+        30
+      ],
+      "stable_source_order": 5630,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 45068,
+      "world_rect": [
+        2688,
+        960,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 30,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2688,
+        960
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-56-30.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "fe3e7936feff206a377c3ad1aa8070345c1b285a85b05340ce92087f4816c013",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        384,
+        0,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@56,32",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        56,
+        32
+      ],
+      "stable_source_order": 5632,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 45084,
+      "world_rect": [
+        2688,
+        1024,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 32,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2688,
+        1024
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-56-32.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "0ea8958cb88091f92820d4a72657ec221f391d8af261e3fa4cc9f291d1e15ca6",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        384,
+        128,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@56,34",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        56,
+        34
+      ],
+      "stable_source_order": 5634,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 45100,
+      "world_rect": [
+        2688,
+        1088,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 34,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2688,
+        1088
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-56-34.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "0a2ed6121fee48435c6d7d94cb71858b6a1d91ddebe33aff3a1b316633cf86f6",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        384,
+        256,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@56,36",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        56,
+        36
+      ],
+      "stable_source_order": 5636,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 45116,
+      "world_rect": [
+        2688,
+        1152,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 36,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2688,
+        1152
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-56-36.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "8406eeb7ed935f615b28f608d03421a8225347f9af3e993df917c9d9f3728cbb",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        384,
+        384,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@56,38",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        56,
+        38
+      ],
+      "stable_source_order": 5638,
+      "source_cell": [
+        -406,
+        -1,
+        2,
+        144
+      ],
+      "source_map_byte_offset": 45132,
+      "world_rect": [
+        2688,
+        1216,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 38,
+      "source_flag": -1,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2688,
+        1216
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-56-38.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "32136d36da5fd49c627631ca85458d256c60722608003f51978eb6d5212daad8",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        384,
+        512,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:577@56,40",
+      "signed_id": -577,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 577,
+      "cell": [
+        56,
+        40
+      ],
+      "stable_source_order": 5640,
+      "source_cell": [
+        -577,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 45148,
+      "world_rect": [
+        2688,
+        1280,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:577",
+      "layer": 0,
+      "sort_y": 40,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2688,
+        1280
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-56-40.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "8e21cc3f8318d1447655692af4896aa6982e6222cdc5d72e5186d89fe4da4b98",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        384,
+        640,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:608@56,42",
+      "signed_id": -608,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 608,
+      "cell": [
+        56,
+        42
+      ],
+      "stable_source_order": 5642,
+      "source_cell": [
+        -608,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 45164,
+      "world_rect": [
+        2688,
+        1344,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:608",
+      "layer": 0,
+      "sort_y": 42,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2688,
+        1344
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-56-42.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "14f7dbaba1a76873ea9da9caea40ff66ab7b0103e9f92851b53d6c98a3c94ca7",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        384,
+        768,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:594@56,44",
+      "signed_id": -594,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 594,
+      "cell": [
+        56,
+        44
+      ],
+      "stable_source_order": 5644,
+      "source_cell": [
+        -594,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 45180,
+      "world_rect": [
+        2688,
+        1408,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:594",
+      "layer": 0,
+      "sort_y": 44,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2688,
+        1408
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-56-44.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "22c148e3e62b4aa2010ad4110a80645b2c6dccc457650f02a90b23c8254f330a",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        384,
+        896,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@58,30",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        58,
+        30
+      ],
+      "stable_source_order": 5830,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 46668,
+      "world_rect": [
+        2784,
+        960,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 30,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2784,
+        960
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-58-30.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "45059279e52b8e51eaa5d0fb8815236a0a3802f0ae19dd7c9dafb492bcddf09d",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        576,
+        0,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@58,32",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        58,
+        32
+      ],
+      "stable_source_order": 5832,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 46684,
+      "world_rect": [
+        2784,
+        1024,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 32,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2784,
+        1024
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-58-32.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "04db00d3f392b9287bcadf848cc21e5d967c641ae2fdad39cf1c75a341bd5ffe",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        576,
+        128,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@58,34",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        58,
+        34
+      ],
+      "stable_source_order": 5834,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 46700,
+      "world_rect": [
+        2784,
+        1088,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 34,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2784,
+        1088
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-58-34.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "baa7df782b884696c906898d4966b5692341c76ef8e068266da7b972195d607a",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        576,
+        256,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@58,36",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        58,
+        36
+      ],
+      "stable_source_order": 5836,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 46716,
+      "world_rect": [
+        2784,
+        1152,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 36,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2784,
+        1152
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-58-36.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "927eb6a288309a921ebb00c0b0b49510f11d187d9ca117ba05ed0251bb0e3821",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        576,
+        384,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:577@58,38",
+      "signed_id": -577,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 577,
+      "cell": [
+        58,
+        38
+      ],
+      "stable_source_order": 5838,
+      "source_cell": [
+        -577,
+        -1,
+        2,
+        146
+      ],
+      "source_map_byte_offset": 46732,
+      "world_rect": [
+        2784,
+        1216,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:577",
+      "layer": 0,
+      "sort_y": 38,
+      "source_flag": -1,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2784,
+        1216
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-58-38.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "497a65e1b29cea4ca2fd00ff9b1488810916873918130e3165fa26d90aa386f3",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        576,
+        512,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:608@58,40",
+      "signed_id": -608,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 608,
+      "cell": [
+        58,
+        40
+      ],
+      "stable_source_order": 5840,
+      "source_cell": [
+        -608,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 46748,
+      "world_rect": [
+        2784,
+        1280,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:608",
+      "layer": 0,
+      "sort_y": 40,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2784,
+        1280
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-58-40.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "0a573c00142ae0d75a11ad7c18c302f6832486521b7a26452fe728e89b024048",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        576,
+        640,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:587@58,42",
+      "signed_id": -587,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 587,
+      "cell": [
+        58,
+        42
+      ],
+      "stable_source_order": 5842,
+      "source_cell": [
+        -587,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 46764,
+      "world_rect": [
+        2784,
+        1344,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:587",
+      "layer": 0,
+      "sort_y": 42,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2784,
+        1344
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-58-42.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "7ee0056f169c98ffb9302354fc1912f9d99ff95ba09f1413202be68e8c9c7006",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        576,
+        768,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:581@58,44",
+      "signed_id": -581,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 581,
+      "cell": [
+        58,
+        44
+      ],
+      "stable_source_order": 5844,
+      "source_cell": [
+        -581,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 46780,
+      "world_rect": [
+        2784,
+        1408,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:581",
+      "layer": 0,
+      "sort_y": 44,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2784,
+        1408
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-58-44.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "473535637ebda6092541782e3fd23e6fff0ea13b30b3c2fd909fd47bdeb47843",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        576,
+        896,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@60,30",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        60,
+        30
+      ],
+      "stable_source_order": 6030,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 48268,
+      "world_rect": [
+        2880,
+        960,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 30,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2880,
+        960
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-60-30.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "a3eae389035a4a8ba51da66ba2e11fc814d8abacded2577c68ea4f63aa3255de",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        768,
+        0,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@60,32",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        60,
+        32
+      ],
+      "stable_source_order": 6032,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 48284,
+      "world_rect": [
+        2880,
+        1024,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 32,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2880,
+        1024
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-60-32.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "b162ab3dc8ce94eedb181adece954b37af9875272b6a23e961475dedad2e1b94",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        768,
+        128,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@60,34",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        60,
+        34
+      ],
+      "stable_source_order": 6034,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 48300,
+      "world_rect": [
+        2880,
+        1088,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 34,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2880,
+        1088
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-60-34.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "7558208ef26431ba204bedcc1c16c9fc1d1aaf4e57a543623c90f3f35ae6ca71",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        768,
+        256,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@60,36",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        60,
+        36
+      ],
+      "stable_source_order": 6036,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 48316,
+      "world_rect": [
+        2880,
+        1152,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 36,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2880,
+        1152
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-60-36.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "7874fde675dc6b0503acb7610fcf4d83e7d0b6c3c19a5290f90e3904aee9d371",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        768,
+        384,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:579@60,38",
+      "signed_id": -579,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 579,
+      "cell": [
+        60,
+        38
+      ],
+      "stable_source_order": 6038,
+      "source_cell": [
+        -579,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 48332,
+      "world_rect": [
+        2880,
+        1216,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:579",
+      "layer": 0,
+      "sort_y": 38,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2880,
+        1216
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-60-38.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "185ca2fa65d838c9a0e2493f0a6c080d0f28ac54aa150e0e1934e220a82263bc",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        768,
+        512,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:595@60,40",
+      "signed_id": -595,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 595,
+      "cell": [
+        60,
+        40
+      ],
+      "stable_source_order": 6040,
+      "source_cell": [
+        -595,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 48348,
+      "world_rect": [
+        2880,
+        1280,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:595",
+      "layer": 0,
+      "sort_y": 40,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2880,
+        1280
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-60-40.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "118b860c7971883841421633757f3c687d068d6b521b36537d8a25367005e6bc",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        768,
+        640,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:581@60,42",
+      "signed_id": -581,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 581,
+      "cell": [
+        60,
+        42
+      ],
+      "stable_source_order": 6042,
+      "source_cell": [
+        -581,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 48364,
+      "world_rect": [
+        2880,
+        1344,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:581",
+      "layer": 0,
+      "sort_y": 42,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2880,
+        1344
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-60-42.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "b1e533d50bd02fddc1861c94eacd8dd35b0883ebfd10c14066a23b37f753890f",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        768,
+        768,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:604@60,44",
+      "signed_id": -604,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 604,
+      "cell": [
+        60,
+        44
+      ],
+      "stable_source_order": 6044,
+      "source_cell": [
+        -604,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 48380,
+      "world_rect": [
+        2880,
+        1408,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:604",
+      "layer": 0,
+      "sort_y": 44,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2880,
+        1408
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-60-44.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "24f71bbb4dc12648d25091d1353d29b1cb3abfb8b953cd35ce4073058e6219bd",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        768,
+        896,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@62,30",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        62,
+        30
+      ],
+      "stable_source_order": 6230,
+      "source_cell": [
+        -406,
+        -1,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 49868,
+      "world_rect": [
+        2976,
+        960,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 30,
+      "source_flag": -1,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2976,
+        960
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-62-30.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "84f5d078e1e4cead3a56232d123b220bfb640d9f9fcaf8300d0fbf9427c27fee",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        960,
+        0,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:398@62,32",
+      "signed_id": -398,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 398,
+      "cell": [
+        62,
+        32
+      ],
+      "stable_source_order": 6232,
+      "source_cell": [
+        -398,
+        -1,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 49884,
+      "world_rect": [
+        2976,
+        1024,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:398",
+      "layer": 0,
+      "sort_y": 32,
+      "source_flag": -1,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2976,
+        1024
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-62-32.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "bcc52e652559349bc691bb982486e6ded3a454f2586bd874c439e12afdbb20cd",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        960,
+        128,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@62,34",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        62,
+        34
+      ],
+      "stable_source_order": 6234,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 49900,
+      "world_rect": [
+        2976,
+        1088,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 34,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2976,
+        1088
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-62-34.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "a0bf1212bba3bcd0db930db4b7cf8e70c54d0d0fddcfa328e28cf1d3e27082d4",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        960,
+        256,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:407@62,36",
+      "signed_id": -407,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 407,
+      "cell": [
+        62,
+        36
+      ],
+      "stable_source_order": 6236,
+      "source_cell": [
+        -407,
+        0,
+        7,
+        2
+      ],
+      "source_map_byte_offset": 49916,
+      "world_rect": [
+        2976,
+        1152,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:407",
+      "layer": 0,
+      "sort_y": 36,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2976,
+        1152
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-62-36.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "8e3430e57ad9583804c949af3c28f526d07928db3925425577ee13ca36339f33",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        960,
+        384,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:580@62,38",
+      "signed_id": -580,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 580,
+      "cell": [
+        62,
+        38
+      ],
+      "stable_source_order": 6238,
+      "source_cell": [
+        -580,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 49932,
+      "world_rect": [
+        2976,
+        1216,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:580",
+      "layer": 0,
+      "sort_y": 38,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2976,
+        1216
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-62-38.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "62925763f1ab535c2a4e5ab829f2bc89052dd5c008aa3a856c0ac945d0e52dfb",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        960,
+        512,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:588@62,40",
+      "signed_id": -588,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 588,
+      "cell": [
+        62,
+        40
+      ],
+      "stable_source_order": 6240,
+      "source_cell": [
+        -588,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 49948,
+      "world_rect": [
+        2976,
+        1280,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:588",
+      "layer": 0,
+      "sort_y": 40,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2976,
+        1280
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-62-40.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "2123f2f4199765a73d8cc65a2f7caa961dc1c3a8fbf365043ece026b45fb650e",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        960,
+        640,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:604@62,42",
+      "signed_id": -604,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 604,
+      "cell": [
+        62,
+        42
+      ],
+      "stable_source_order": 6242,
+      "source_cell": [
+        -604,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 49964,
+      "world_rect": [
+        2976,
+        1344,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:604",
+      "layer": 0,
+      "sort_y": 42,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2976,
+        1344
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-62-42.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "f71799c0958ff6cf74f4d5724731f0d899de1c62857cfa2bdc69372dd7da0e83",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        960,
+        768,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@62,44",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        62,
+        44
+      ],
+      "stable_source_order": 6244,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 49980,
+      "world_rect": [
+        2976,
+        1408,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 44,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        2976,
+        1408
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-62-44.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "403ca717257e6b263b0863f97f8688ff98256f5882ed3c06ed4f7a75e822cc94",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        960,
+        896,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@64,30",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        64,
+        30
+      ],
+      "stable_source_order": 6430,
+      "source_cell": [
+        -406,
+        -1,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 51468,
+      "world_rect": [
+        3072,
+        960,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 30,
+      "source_flag": -1,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        3072,
+        960
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-64-30.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "a656bb3ba1b29c2a1e430b11afc15da7704346bdeb1ac6c5c06388b3b698b7d4",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        1152,
+        0,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@64,32",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        64,
+        32
+      ],
+      "stable_source_order": 6432,
+      "source_cell": [
+        -406,
+        -1,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 51484,
+      "world_rect": [
+        3072,
+        1024,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 32,
+      "source_flag": -1,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        3072,
+        1024
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-64-32.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "0bf9af5d8666016b63a30bc66de12b1afd4ea49466dcc40666b8ed85e0c63706",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        1152,
+        128,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:407@64,34",
+      "signed_id": -407,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 407,
+      "cell": [
+        64,
+        34
+      ],
+      "stable_source_order": 6434,
+      "source_cell": [
+        -407,
+        -1,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 51500,
+      "world_rect": [
+        3072,
+        1088,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:407",
+      "layer": 0,
+      "sort_y": 34,
+      "source_flag": -1,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        3072,
+        1088
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-64-34.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "368ce3c264fcac0206866f70dc7771e9242c5d7201a62e08d19960557fb72a77",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        1152,
+        256,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:399@64,36",
+      "signed_id": -399,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 399,
+      "cell": [
+        64,
+        36
+      ],
+      "stable_source_order": 6436,
+      "source_cell": [
+        -399,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 51516,
+      "world_rect": [
+        3072,
+        1152,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:399",
+      "layer": 0,
+      "sort_y": 36,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        3072,
+        1152
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-64-36.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "9586dd63dc006ec5cff3280c1d39f933cbf150963462888a75b4b44ab23641b0",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        1152,
+        384,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:398@64,38",
+      "signed_id": -398,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 398,
+      "cell": [
+        64,
+        38
+      ],
+      "stable_source_order": 6438,
+      "source_cell": [
+        -398,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 51532,
+      "world_rect": [
+        3072,
+        1216,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:398",
+      "layer": 0,
+      "sort_y": 38,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        3072,
+        1216
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-64-38.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "31d4b66f9f312e3cb6a12fd1a9f16d67c0f8b41a2194ac8b30c2be955670f9e4",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        1152,
+        512,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@64,40",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        64,
+        40
+      ],
+      "stable_source_order": 6440,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 51548,
+      "world_rect": [
+        3072,
+        1280,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 40,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        3072,
+        1280
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-64-40.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "7132bfb3a95b2152a3cac0ba7d253610d16e78127d461e0d91f3b057c7a2a47d",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        1152,
+        640,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@64,42",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        64,
+        42
+      ],
+      "stable_source_order": 6442,
+      "source_cell": [
+        -406,
+        0,
+        2,
+        143
+      ],
+      "source_map_byte_offset": 51564,
+      "world_rect": [
+        3072,
+        1344,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 42,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        3072,
+        1344
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-64-42.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "6ffdee15d975aecfbe4721f812fdd1639e91693e4919efec8f908c402d0ad8cd",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        1152,
+        768,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@64,44",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        64,
+        44
+      ],
+      "stable_source_order": 6444,
+      "source_cell": [
+        -406,
+        -1,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 51580,
+      "world_rect": [
+        3072,
+        1408,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 44,
+      "source_flag": -1,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        3072,
+        1408
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-64-44.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "981f4b67fd2e2e7cd1400d1b9f0b91e353b9d76279971ae5c2e15607f84aa159",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        1152,
+        896,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@66,30",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        66,
+        30
+      ],
+      "stable_source_order": 6630,
+      "source_cell": [
+        -406,
+        -1,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 53068,
+      "world_rect": [
+        3168,
+        960,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 30,
+      "source_flag": -1,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        3168,
+        960
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-66-30.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "d4e811d8f7bdbb5ede601fbacdfa026862e8d98f14ce6f5869ae93493007e89d",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        1344,
+        0,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@66,32",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        66,
+        32
+      ],
+      "stable_source_order": 6632,
+      "source_cell": [
+        -406,
+        -1,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 53084,
+      "world_rect": [
+        3168,
+        1024,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 32,
+      "source_flag": -1,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        3168,
+        1024
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-66-32.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "eb5a0c81d3b34cfb3f2d5562b8c4c39be9eb04ba3bbf1298dfa6db864d585428",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        1344,
+        128,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@66,34",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        66,
+        34
+      ],
+      "stable_source_order": 6634,
+      "source_cell": [
+        -406,
+        1,
+        4,
+        3971
+      ],
+      "source_map_byte_offset": 53100,
+      "world_rect": [
+        3168,
+        1088,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 34,
+      "source_flag": 1,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        3168,
+        1088
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-66-34.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "701d4ba9d553708c9e9d954735993a3eac4825de1da22a50fe7875f4d3cd38d0",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        1344,
+        256,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:399@66,36",
+      "signed_id": -399,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 399,
+      "cell": [
+        66,
+        36
+      ],
+      "stable_source_order": 6636,
+      "source_cell": [
+        -399,
+        1,
+        4,
+        3980
+      ],
+      "source_map_byte_offset": 53116,
+      "world_rect": [
+        3168,
+        1152,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:399",
+      "layer": 0,
+      "sort_y": 36,
+      "source_flag": 1,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        3168,
+        1152
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-66-36.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "b395281bd69a2f884f197d6ffd81e18d5ba62bb1af8ad2a7363a71abd10c518a",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        1344,
+        384,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@66,38",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        66,
+        38
+      ],
+      "stable_source_order": 6638,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 53132,
+      "world_rect": [
+        3168,
+        1216,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 38,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        3168,
+        1216
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-66-38.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "ff5c9a14045f5c158252a62bfe82ff2f9ce47d7ec114b39b3c198982583c8a28",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        1344,
+        512,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@66,40",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        66,
+        40
+      ],
+      "stable_source_order": 6640,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 53148,
+      "world_rect": [
+        3168,
+        1280,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 40,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        3168,
+        1280
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-66-40.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "6b0fd44d797332cf01bfbc08871ca78b68018a9f1776b8a840c8daa3748a0f9b",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        1344,
+        640,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@66,42",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        66,
+        42
+      ],
+      "stable_source_order": 6642,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 53164,
+      "world_rect": [
+        3168,
+        1344,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 42,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        3168,
+        1344
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-66-42.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "faabe89473b0966324bc79ca81e5d35f98e4fcf55eea441324c2bd10ace1d875",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        1344,
+        768,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    },
+    {
+      "key": "Map/Res/FloorBig:406@66,44",
+      "signed_id": -406,
+      "pack": "Map/Res/FloorBig",
+      "frame_index": 406,
+      "cell": [
+        66,
+        44
+      ],
+      "stable_source_order": 6644,
+      "source_cell": [
+        -406,
+        0,
+        0,
+        0
+      ],
+      "source_map_byte_offset": 53180,
+      "world_rect": [
+        3168,
+        1408,
+        96,
+        64
+      ],
+      "source_frame_key": "Map/Res/FloorBig:406",
+      "layer": 0,
+      "sort_y": 44,
+      "source_flag": 0,
+      "layer_semantics": "floor pass tag, not object layer_for_flag; source floors always precede objects",
+      "world_top_left": [
+        3168,
+        1408
+      ],
+      "logical_size": [
+        96,
+        64
+      ],
+      "scale": 0.5,
+      "texture_density": 2,
+      "texture": "res://assets/earth/environment/ground_plate_v4/tile-66-44.png",
+      "texture_size": [
+        192,
+        128
+      ],
+      "texture_sha256": "1bfd57bc9bde4617225f24ccb6bdef5b0a1619472b1dded622ff61a9a0c7a234",
+      "source_alpha_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+      "texture_alpha_sha256": "1df8949b2e345ab8c00cb81fb6b83686e20a4080f969e5cd8b8d520a07cdaba2",
+      "shared_region_px": [
+        1344,
+        896,
+        192,
+        128
+      ],
+      "raw_derivation": "direct integer crop of full v4 raw; no resample or earlier-generated RGB"
+    }
+  ],
+  "floor_order": "source x-major stable order; all floor owners before original object/actor stream",
+  "alpha_policy": "every exact original owner alpha nearest-expanded2x; all source alpha255 verified within this scope",
+  "filter": "nearest safe initial true2x view; linear requires native shared-canvas seam check. Split textures have no gutters.",
+  "fallback": "validate entire64-owner exact trusted source scope before publication; on any failure use all64 original floors, never partial replacement",
+  "shadow": "none supplied; no new cast baked in plate; separate shared-light static/actor receiver checks remain",
+  "provenance": {
+    "v4_raw": "art_source/earth_ground_plate_clean_regen_v4/raw.png",
+    "v4_raw_sha256": "a44d861c4485cb8596fb42681441675d1b9cefb3d8c48261113325c14492ae2f",
+    "generation": "art_source/earth_ground_plate_clean_regen_v4/generation.json",
+    "generation_sha256": "f36928798bd8ea149658ddc33af2fa06a612ff2d4c6a25fd2904219e0970b068",
+    "prompt_sha256": "e2da09f8b0fe7ccd8cf007314b42c6a3cc9e1a2844fd3241d919b88fb09117f1",
+    "source_layout_review_sha256": "89e9eefb1d324e3e8cc5455536fc8dbdfe7f46aa82f12d8d5902604f3824ed4e",
+    "earlier_generated_pixels_mixed": false,
+    "resampled_or_warped": false,
+    "clean_source_semantic_generation": true,
+    "entire_pavement_material_redraw_authorized": true,
+    "whole_plate_reassessment": "Native joint2x reviewed and bounded sample approved. Largest six-center read is3.041 logicalpx against source+/-3 and current+/-1.5 logical read uncertainty; not proven exact outer-edge alignment or hard excess. No new route; grass gap retained."
+  },
+  "limitations": [
+    "Not installed by export script; imported/GPU dimensions and source toggle need unique runtime owner's verification.",
+    "Warm yellow grass highlights remain for later shared-light/hall review; do not independently reroll color.",
+    "Top-right cap center is at the finite read-budget boundary; no precise outer-edge/curb thickness claim.",
+    "No new shadow, actor environment shading, or elevated receiver proof.",
+    "Scene outside small plate remains original."
+  ]
+}

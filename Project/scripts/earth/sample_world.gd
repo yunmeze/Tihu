@@ -57,7 +57,7 @@ func _draw_hero(origin:Vector2,index:int) -> void:
 const Ground=preload("res://scripts/earth/ground_candidate.gd")
 var prefer_ground:=true
 var ground_owners:Dictionary={}
-func prepare_ground(path:String="res://assets/earth/environment/ground_plate_v2/registration.json") -> bool:
+func prepare_ground(path:String="res://assets/earth/environment/ground_plate_v4/registration.json") -> bool:
 	# One publication point; invalid preparation restores all 64 source owners.
 	ground_owners=Ground.read_prepare(path,map)
 	queue_redraw()

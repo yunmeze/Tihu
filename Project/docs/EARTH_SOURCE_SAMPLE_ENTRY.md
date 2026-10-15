@@ -2,7 +2,7 @@
 
 Run `godot --path Project res://scenes/earth_sample_preview.tscn` (or open that scene in Godot). The default R1 scene and R6 natural opening remain unchanged.
 
-This entry now offers the approved candidate SE idle sequence 13–16 and SE walk sequence 51–56, directly sampled from its density-4 atlas. The bounded v2 ground plate replaces exactly 64 original FloorBig owners. Building, NPCs, vegetation and every other actor action/direction still use original source artwork. It is not a completed new-style sample. SE walking uses all six approved candidate frames, never a translated single pose. New character shadows are deliberately absent pending the new lighting contract. Press B to compare source/new SE idle and walk.
+This entry now offers the approved candidate SE idle sequence 13–16 and SE walk sequence 51–56, directly sampled from its density-4 atlas. The bounded v4 ground plate replaces exactly 64 original FloorBig owners. Building, NPCs, vegetation and every other actor action/direction still use original source artwork. It is not a completed new-style sample. SE walking uses all six approved candidate frames, never a translated single pose. New character shadows are deliberately absent pending the new lighting contract. Press B to compare source/new SE idle and walk.
 
 ## Fixed review geometry
 
@@ -43,3 +43,10 @@ Parent review accepts this as an engineering candidate checkpoint only: grass sc
 The same raw-density4 body atlas now supplies all six frames 51–56, with unchanged logical 128×128 draw rectangle and offset (-16,-64). Runtime does not add per-frame position corrections, change original movement speed or change the 7-tick schedule. Frame54 retains a visibly larger boot relationship (approximately +2.7 X/+3.6 Y logical pixels versus source); absence of a new shadow limits contact assessment. This is bounded body acceptance, not complete eight-direction replacement.
 
 Native body diagnostics sampled idle16→two full walk loops→idle13 at independent 1× and true2×. A real original-map route 61,39→63,41 stopped after22 updates at (61.6875,39.6875): frame54→idle13 kept actor position unchanged; resuming covered all six phases and arrived in idle13. Returning NW used source. Ordinary renderer then repeated this route using only production asset paths. Preparation/malformed/unsupported/retained preference/recovery tests passed821 checks, plus128 idle regression; a newly imported walk texture in the isolated prior source checkout passed the same821. No environment art approval is implied.
+
+
+## Ground v4 current bounded candidate
+
+The independent entry now defaults to `assets/earth/environment/ground_plate_v4/registration.json`; P still restores original source ground. The 64 identities, floor order, flags, drawing rectangles and group-atomic failure behavior are unchanged. The old v2 resources remain historical. This v4 uses shorter grass detail; warm/yellow high-frequency highlights remain subject to joint lighting review. Six manually read road centers reach about 3.04 logical pixels difference, with source ±3 and candidate ±1.5 logical pixel reading uncertainty; this is not exact geometric agreement.
+
+Actual 1×/2× same-pose comparison was reviewed before promotion. The 101 malformed-resource/identity/source-immutability/original-route checks pass for v4. Fresh import of all 64 new v4 textures is tested in the existing isolated source checkout; historical caches there are retained. No new character or environment shadow is enabled by this stage.
