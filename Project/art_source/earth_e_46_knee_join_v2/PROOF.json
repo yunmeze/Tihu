@@ -1,0 +1,43 @@
+{
+  "status": "49-pixel authorized same-donor completion; research only",
+  "additional_mask_pixels": 49,
+  "complete_mask_pixels": 407,
+  "changed_RGBA_pixels_from_failed": 49,
+  "outside_additional_mask_RGBA_changes": 0,
+  "original_alpha_ge128_RGBA_changes": 0,
+  "protected_core_arm_and_feet_unchanged_from_failed": true,
+  "no_new_generation_or_resampling_of_donor": true,
+  "mapping": "same 60/1298 uniform mapping, placement HD4(128,244)",
+  "coordinate_list_source": "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_e_46_knee_gap_mask_addendum_v1/PROPOSAL.json",
+  "inputs": [
+    {
+      "path": "art_source/earth_e_46_knee_join_v1/raw.png",
+      "sha256": "86724222ab21e3c276b779608a874d180b1b87849e29dd8300a097fe3da012bb"
+    },
+    {
+      "path": "art_source/earth_e_46_knee_join_v1/patch-mapped-HD4-crop.png",
+      "sha256": "f5829e7cb126b28c52f76651edf20dd61a6f7445a2cf989049c8e3c1d1cfd388"
+    },
+    {
+      "path": "art_source/earth_e_46_knee_join_v1/46-HD4-RIGID-JOIN-RESEARCH.png",
+      "sha256": "42312e3ef146fda7773d3be2e379c8b3a06c509c9e520cb98351ccfcc9cf35aa"
+    },
+    {
+      "path": "art_source/earth_e_46_knee_join_v1/rigid46-BEFORE-JOIN.png",
+      "sha256": "f5265ca17d1ebc03c4425ceffa4a45c76f090f1537cf56ffcfcc74c2088e7cd2"
+    },
+    {
+      "path": "art_source/earth_e_46_knee_join_v1/actual-gap-only-replacement-mask.png",
+      "sha256": "09d03b80d6edba39596c8897c02f857c3c5193609f760095764a297da47fa287"
+    },
+    {
+      "path": "art_source/earth_e_46_knee_gap_mask_addendum_v1/ADDITIONAL-GAP-ONLY-PROPOSED-mask.png",
+      "sha256": "62658757db5a276567df3f508d1a83380a9cfea52066773769a138850eb06676"
+    },
+    {
+      "path": "art_source/earth_e_46_knee_gap_mask_addendum_v1/PROPOSAL.json",
+      "sha256": "9c342db500a4498ce06fad9d593e77a8040bf2c44f67f8479c4de9afbdb358b1"
+    }
+  ],
+  "outside_complete_mask_RGBA_changes_from_before_join": 0
+}

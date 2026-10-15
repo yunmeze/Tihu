@@ -1,0 +1,24 @@
+{
+  "status": "research single local generation only; not source pass",
+  "raw_sha256": "86724222ab21e3c276b779608a874d180b1b87849e29dd8300a097fe3da012bb",
+  "raw_size": [
+    1298,
+    1212
+  ],
+  "crop_size": [
+    60,
+    56
+  ],
+  "single_uniform_scale": 0.046224961479198766,
+  "mapped_height": 56.02465331278891,
+  "actual_mask_pixels": 358,
+  "outside_actual_mask_RGBA_changes": 0,
+  "all_preexisting_alpha_ge128_surface_RGBA_changes": 0,
+  "below_HD4_y292_changes_from_rigid": 0,
+  "rear_root_no_generation": true,
+  "actual_mask_rule": "frozen polygon intersect preexisting alpha<128 gap/antialias; existing alpha>=128 surfaces fully protected; patch underlays old antialias only inside mask",
+  "rigid_matrices_source": "earth_e_46_leg_rigid_plan_v1/PLAN.json",
+  "rear_and_main_density_unchanged": true,
+  "no_extra_retry": true,
+  "old_static_to_new_above_HD4_y228_RGBA_changes": 0
+}

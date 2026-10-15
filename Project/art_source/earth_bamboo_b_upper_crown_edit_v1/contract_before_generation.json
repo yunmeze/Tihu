@@ -1,0 +1,67 @@
+{
+  "status": "fixed before one image_gen call",
+  "base_raw_sha256": "88a844660ccfc3c21f151d098f2e524290a4d3c8c55864f705e7d45116cb18da",
+  "crop_xyxy": [
+    240,
+    0,
+    1000,
+    760
+  ],
+  "crop_size": [
+    760,
+    760
+  ],
+  "density": 3.066360594075836,
+  "translation": [
+    184.45701247337996,
+    144.15741718984782
+  ],
+  "connections": [
+    {
+      "id": "left_branch_join",
+      "raw_xy": [
+        390,
+        440
+      ],
+      "radius": 14
+    },
+    {
+      "id": "central_culm_join",
+      "raw_xy": [
+        638,
+        439
+      ],
+      "radius": 16
+    },
+    {
+      "id": "right_branch_join",
+      "raw_xy": [
+        749,
+        440
+      ],
+      "radius": 14
+    },
+    {
+      "id": "left_outer_boundary",
+      "raw_xy": [
+        315,
+        348
+      ],
+      "radius": 12
+    },
+    {
+      "id": "right_outer_boundary",
+      "raw_xy": [
+        931,
+        345
+      ],
+      "radius": 12
+    }
+  ],
+  "mask_sha256": "3e2f78a29fd260b8eb92557050f1da61a4ddfd652e60e1b3aa7dc7469fb76ce5",
+  "feather_native_px": 12,
+  "feather_rule": "only inward within approved A editable minus guard/hold and added connection disks",
+  "mapping_rule": "square model image maps uniformly to exact760x760 crop; scale760/output_width; no image-content fitting or independent x/y scaling. Non-square output fails without compositing.",
+  "composition": "premultiplied RGBA blend using frozen weight; every weight0 pixel restored bit-exact fromv2. No source silhouette multiplication.",
+  "not_approved": "B/C edits, owner partition, production, shadow"
+}

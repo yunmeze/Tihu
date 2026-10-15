@@ -1,0 +1,116 @@
+{
+  "status": "AC candidate; awaiting visual join judgement; no production",
+  "generated_native_size": [
+    1254,
+    1254
+  ],
+  "frozen_crop_size": [
+    900,
+    900
+  ],
+  "single_uniform_downsample": 0.7177033492822966,
+  "generator_crop_equivalent_density": 4.272462427745665,
+  "composite_density_unchanged": 3.066360594075836,
+  "base_sha256": "d8a4610e68aad0e41c5090e6d8d77faf0fffe8a9c5ea0824af21aee8e7dab468",
+  "frozen_mask_sha256": "102f8a0c63cb2a69a01e95ae3c27a42645093940371e76b2050159ab3c5da452",
+  "generated_raw_sha256": "4b2a863865bce1746f9c2880cc01fe0509249b669a67418fd88e0af5c5f5f0f9",
+  "composite_sha256": "36731fe0e2ffad2ee8c6772ff8433b14d60fb66f4ae1b5a4455251815eb858c2",
+  "RGBA_checks": {
+    "outside_final_mask_changed_pixels": 0,
+    "fixed_guard_changed_pixels": 0,
+    "hold_changed_pixels": 0,
+    "connection_guard_changed_pixels": 0,
+    "previous_A_region_changed_pixels": 0
+  },
+  "generator_donor_changed_protected_pixels_before_restore": 265560,
+  "six_end_neighborhoods": [
+    {
+      "id": "end_1",
+      "raw_xy": [
+        294.0,
+        996.0
+      ],
+      "radius": 20,
+      "circumscribed_square_RGBA_equal": true,
+      "protected_disk_RGBA_equal": true,
+      "protected_disk_changed_pixels": 0
+    },
+    {
+      "id": "end_2",
+      "raw_xy": [
+        355.0,
+        1064.0
+      ],
+      "radius": 20,
+      "circumscribed_square_RGBA_equal": true,
+      "protected_disk_RGBA_equal": true,
+      "protected_disk_changed_pixels": 0
+    },
+    {
+      "id": "end_3",
+      "raw_xy": [
+        453.0,
+        1131.0
+      ],
+      "radius": 20,
+      "circumscribed_square_RGBA_equal": true,
+      "protected_disk_RGBA_equal": true,
+      "protected_disk_changed_pixels": 0
+    },
+    {
+      "id": "end_4",
+      "raw_xy": [
+        526.0,
+        1185.0
+      ],
+      "radius": 20,
+      "circumscribed_square_RGBA_equal": true,
+      "protected_disk_RGBA_equal": true,
+      "protected_disk_changed_pixels": 0
+    },
+    {
+      "id": "end_5",
+      "raw_xy": [
+        708.0,
+        1041.0
+      ],
+      "radius": 20,
+      "circumscribed_square_RGBA_equal": true,
+      "protected_disk_RGBA_equal": true,
+      "protected_disk_changed_pixels": 0
+    },
+    {
+      "id": "end_6",
+      "raw_xy": [
+        862.0,
+        903.0
+      ],
+      "radius": 20,
+      "circumscribed_square_RGBA_equal": false,
+      "protected_disk_RGBA_equal": true,
+      "protected_disk_changed_pixels": 0
+    }
+  ],
+  "composite_alpha128_bbox": [
+    186,
+    182,
+    999,
+    1184
+  ],
+  "crown_top_logical_relative_source0": 12.341204385180106,
+  "right_over_source_logical": -5.361643865269741,
+  "C_region_counts": {
+    "source_C_alpha128": 28966,
+    "base_C_alpha128": 46228,
+    "C_candidate_alpha128": 34624
+  },
+  "C_candidate_over_source_occupancy": 1.1953324587447351,
+  "C_reduction_vs_base": 0.2510166998355975,
+  "global_coverage_ratio": 1.3375133494098692,
+  "limits": "Counts not leaf counts; no sourcepixel hard alpha. B and A unchanged. Do not accept raw donor: guard restoration was required and junctions still require visual review.",
+  "crop_local_tri_backgrounds": [
+    "C-window-on-white.png",
+    "C-window-on-gray.png",
+    "C-window-on-dark.png"
+  ]
+}

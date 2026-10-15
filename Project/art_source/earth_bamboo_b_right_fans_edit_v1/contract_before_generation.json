@@ -1,0 +1,59 @@
+{
+  "status": "fixed before one image_gen call",
+  "base_raw_sha256": "d8a4610e68aad0e41c5090e6d8d77faf0fffe8a9c5ea0824af21aee8e7dab468",
+  "crop_xyxy": [
+    354,
+    100,
+    1254,
+    1000
+  ],
+  "crop_size": [
+    900,
+    900
+  ],
+  "density": 3.066360594075836,
+  "translation": [
+    184.45701247337996,
+    144.15741718984782
+  ],
+  "connections": [
+    {
+      "id": "outer_right_upper_culm",
+      "raw_xy": [
+        946,
+        325
+      ],
+      "radius": 14
+    },
+    {
+      "id": "right_front_culm",
+      "raw_xy": [
+        884,
+        420
+      ],
+      "radius": 16
+    },
+    {
+      "id": "right_back_junction",
+      "raw_xy": [
+        790,
+        470
+      ],
+      "radius": 14
+    },
+    {
+      "id": "lower_right_culm",
+      "raw_xy": [
+        862,
+        895
+      ],
+      "radius": 16
+    }
+  ],
+  "mask_sha256": "102f8a0c63cb2a69a01e95ae3c27a42645093940371e76b2050159ab3c5da452",
+  "feather_native_px": 12,
+  "feather_rule": "only inward within approved C editable minus guard/hold and added connection disks",
+  "mapping_rule": "square model image maps uniformly to exact900x900 crop; scale900/output_width; no image-content fitting or independent x/y scaling. Non-square output fails without compositing.",
+  "composition": "premultiplied RGBA blend using frozen weight; every weight0 pixel restored bit-exact from approved A candidate. No source silhouette multiplication.",
+  "not_approved": "B edits, further A edits, owner partition, production, shadow"
+}
