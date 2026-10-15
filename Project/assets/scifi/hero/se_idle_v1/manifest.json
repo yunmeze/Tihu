@@ -1,0 +1,80 @@
+{
+  "schema": "se-idle-art-preview-v1",
+  "atlas": "res://assets/scifi/hero/se_idle_v1/body.png",
+  "sha256": "91e7fb445775116ae2894900b76811757eda3898e78bf1e6881e38f933670ac9",
+  "frames": [
+    13,
+    14,
+    15,
+    16
+  ],
+  "frame_size": [
+    128,
+    128
+  ],
+  "draw_offset": [
+    -16,
+    -64
+  ],
+  "body_filter": "linear",
+  "source_filter": "nearest",
+  "ticks_per_frame": 12,
+  "shadow": {
+    "helper": "res://scripts/art/hero_alpha_ground_shadow.gd",
+    "shader": "res://shaders/hero_alpha_ground_shadow.gdshader",
+    "cast": [
+      0.5304659498207885,
+      -0.3978494623655914
+    ],
+    "opacity": 0.3,
+    "blur": 0.9,
+    "soles": [
+      [
+        [
+          36,
+          89
+        ],
+        [
+          52,
+          81
+        ]
+      ],
+      [
+        [
+          36.5,
+          89
+        ],
+        [
+          51.5,
+          81
+        ]
+      ],
+      [
+        [
+          36.5,
+          89
+        ],
+        [
+          51.5,
+          81
+        ]
+      ],
+      [
+        [
+          36,
+          89
+        ],
+        [
+          52.5,
+          81
+        ]
+      ]
+    ]
+  },
+  "scope": "Optional fixed SE idle art viewer; no gameplay replacement or platform receiver claim",
+  "residuals": [
+    "Frame15 nod more pronounced than source",
+    "Boot projection difference about 2.9 source pixels",
+    "Downsampled armor remains visually detailed"
+  ]
+}
