@@ -1,0 +1,32 @@
+{
+  "status": "generated_pending_review",
+  "source_ids": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "prompt": "prompt-v1.txt",
+  "prompt_sha256": "d585270cddf8330125924f90e909cb184cb4a4fba323ec7e4dc8df65bedc18ea",
+  "references": [
+    {
+      "path": "../hero_e_idle_source_r7/original-four-common-crop-6x.png",
+      "sha256": "c97233dc699a532a372f373c9e79509e40aaf7df29c9b3ad28ae0992636a2c7d",
+      "role": "original complete four figure edit canvas and only pose/camera authority"
+    },
+    {
+      "path": "../hero_e_idle_source_r7/identity-small-material-features.png",
+      "sha256": "ea4431c26d10d8e47b2d5080b1be3fdb7044c0f6478bd83f8882aaf00c401b21",
+      "role": "tiny disconnected identity material features; no wholehead/body"
+    }
+  ],
+  "runtime_use": false,
+  "raw": {
+    "path": "raw-v1.png",
+    "sha256": "5e3aa6237dd275e9279f1cd9c6d042aa71abd06c55dad887a9487929de7284a9",
+    "size": [
+      2138,
+      735
+    ]
+  }
+}
