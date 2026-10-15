@@ -1,0 +1,160 @@
+{
+  "schema": "earth-ground-scale-edit-input-plan-v1",
+  "status": "proposal only; no imagegen call, no runtime or production resource change",
+  "target": {
+    "path": "art_source/earth_ground_plate_grass_edit_v2/raw.png",
+    "sha256": "7dd080bb54897b878ac7743cad1dfb865217bdb76266fc441adb56d750edcb7b",
+    "bytes": 3786268
+  },
+  "concept": {
+    "path": "art_source/earth_base_style_concept_v1/concept.png",
+    "sha256": "1beaf20bbda18d0e04fcf2f6e81a0028750e1b87224f21780393b00c36cc4fc5",
+    "bytes": 3878764
+  },
+  "scene_evidence": {
+    "path": "art_source/earth_ground_scale_edit_plan_v3/evidence/scene-joint-new-2x.png",
+    "sha256": "dd3e673a2954ad6fd1616fe4a416007e8122b3b89dd3adf0c70ce13590eaeabb",
+    "bytes": 3210027
+  },
+  "world_bounds_xyxy": [
+    2496,
+    960,
+    3264,
+    1472
+  ],
+  "logical_size": [
+    768,
+    512
+  ],
+  "required_actual_output_size": [
+    1536,
+    1024
+  ],
+  "texels_per_logical_unit": 2,
+  "same_frame_reference": {
+    "path": "art_source/earth_ground_scale_edit_plan_v3/inputs/same-frame-actor-scale-reference.png",
+    "sha256": "3f845d81e0a04c0da8a68351b582fd745c2b6c7774fbb3ded1f733a23eba5e72",
+    "bytes": 3398939,
+    "construction": "exact unscaled scene crop pasted at identical coordinates on immutable v2 raw; reference only",
+    "scene_crop_xyxy": [
+      850,
+      470,
+      984,
+      642
+    ],
+    "changed_pixels_from_target": 5574,
+    "changed_bounds_xyxy": [
+      861,
+      479,
+      976,
+      631
+    ],
+    "four_pixel_crop_border_matches_target_exactly": true,
+    "main_connected_visible_body_bbox_xyxy": [
+      882,
+      479,
+      945,
+      623
+    ],
+    "main_body_height_actual_px": 144,
+    "main_body_height_logical": 72,
+    "body_measurement_limit": "Visible body core, not alpha canvas, anatomical height, foot contact, collision or movement anchor.",
+    "original_actor_cell": [
+      61,
+      39
+    ],
+    "original_world_root": [
+      2928,
+      1248
+    ],
+    "root_in_output_px": [
+      864,
+      576
+    ],
+    "root_limit": "Existing source draw anchor is not the visible foot endpoint; do not recenter actor or alter registration."
+  },
+  "concept_crops": [
+    {
+      "path": "art_source/earth_ground_scale_edit_plan_v3/inputs/concept-lawn-native.png",
+      "sha256": "a68a310eef8c203e30414daaca848a1419777d93cc462392916961398c92dfa2",
+      "bytes": 44587,
+      "crop_xyxy": [
+        350,
+        470,
+        505,
+        590
+      ],
+      "role": "Material grain and ground-plane character only; not cast-shadow/layout authority."
+    },
+    {
+      "path": "art_source/earth_ground_scale_edit_plan_v3/inputs/concept-person-scale-native.png",
+      "sha256": "1dc6e92738e0a4e66a5f784d3edf8994fbcc1e9e9f5028f7e7967d216a7d9944",
+      "bytes": 21814,
+      "crop_xyxy": [
+        705,
+        510,
+        785,
+        640
+      ],
+      "role": "Reference ruler only; do not generate or composite this person into ground."
+    },
+    {
+      "path": "art_source/earth_ground_scale_edit_plan_v3/inputs/concept-green-tone-native.png",
+      "sha256": "a208baccfa19c63345225b9141fa296bb15172e9818c7162056cebdd2bfcf7f0",
+      "bytes": 10597,
+      "crop_xyxy": [
+        240,
+        230,
+        315,
+        300
+      ],
+      "role": "Secondary green-tone reference only; small crop must not define macro leaf size."
+    }
+  ],
+  "comparison": {
+    "path": "art_source/earth_ground_scale_edit_plan_v3/scale-comparison-reference.png",
+    "sha256": "3b0f326e7d19d59bc8987f77909b0b5bc9630a3dc18c6749a956c2b6ca40c6f8",
+    "bytes": 223603,
+    "derivation": "native-pixel crops only, no scaling; concept approximate visible actor height111px versus current144px, ratio1.30; not a geometry alignment"
+  },
+  "current_grass_patch": {
+    "path": "art_source/earth_ground_scale_edit_plan_v3/inputs/current-grass-native-2x.png",
+    "sha256": "650ac380c10e999b8852d149b0955722b6cac14d41c0e858007de4d88afb98ae",
+    "bytes": 95190,
+    "crop_xyxy": [
+      1080,
+      600,
+      1300,
+      790
+    ]
+  },
+  "proposed_visual_budget_actual_px": {
+    "ordinary_resolvable_grass_stroke_length": [
+      1,
+      3
+    ],
+    "rare_grass_stroke_length": [
+      4,
+      6
+    ],
+    "broad_low_contrast_material_variation": [
+      80,
+      240
+    ],
+    "qualification": "New proposed art targets, not measurements extracted from concept or a guarantee of generation precision. Most lawn need not resolve individual blades."
+  },
+  "generation_input_order_if_separately_approved": [
+    "1: immutable v2 raw, sole edit target and full camera/layout authority",
+    "2: same-frame-actor-scale-reference.png, single human size ruler only; output excludes him",
+    "3: scale-comparison-reference.png, native-pixel relative scale comparison, reference only",
+    "4: concept-green-tone-native.png, secondary quiet green tone, not leaf-size authority",
+    "5: existing v2 protected-road-mask.png, advisory only, not an enforced mask"
+  ],
+  "frozen_v2_archive": "art_source/earth_ground_plate_grass_edit_v2/archive-manifest.json",
+  "limitations": [
+    "No third generation authorized or performed.",
+    "The advisory mask failed pavement pixel preservation in v2; any future non-target change must be reported, never silently restored from v1/v2.",
+    "Do not feed the full scene evidence or full concept as target: their buildings, trees, actors and shadows are excluded.",
+    "This plan does not replace or modify the already registered 64-owner v2 candidate."
+  ]
+}

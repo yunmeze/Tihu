@@ -1,0 +1,111 @@
+{
+  "schema": "earth-ground-v3-minimal-archive-v2",
+  "status": "Frozen minimal assets/raw/prompts/geometry reports/recipes plus clean-source v4 inputs; runtime screenshots/logs excluded",
+  "files": [
+    {
+      "path": "Project/art_source/earth_ground_plate_scale_edit_v3/raw.png",
+      "bytes": 3991042,
+      "sha256": "230071981a79e850b8b0dd99aa0c4fa8e69408770cde2620aa451bc609be87d3"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_scale_edit_v3/prompt.txt",
+      "bytes": 3256,
+      "sha256": "58da25fbe146419d4f65019a96c757c96cb9af626870fd510813f36c900759fe"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_scale_edit_v3/generation.json",
+      "bytes": 1916,
+      "sha256": "846aba24153553cf99df1c25e219af5ae6d2cf93d78fce1560be92d05c7192ab"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_scale_edit_v3/review_candidate.py",
+      "bytes": 5649,
+      "sha256": "0522c261eaa51363702a854412a4522c33a27383e9699287278ec555819fd9f1"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_scale_edit_v3/review.json",
+      "bytes": 6475,
+      "sha256": "2470d648ae753aaf7890ee594fe932d0c68d44be683950783e7a854d16c32150"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_scale_edit_v3/README.md",
+      "bytes": 2939,
+      "sha256": "fa1e9ab4ebca74e4d21639c301c1080c5b282fab72dbd7d0949b497cc9247758"
+    },
+    {
+      "path": "Project/art_source/earth_ground_plate_scale_edit_v3/make_archive_manifest.py",
+      "bytes": 2623,
+      "sha256": "52cf8eee79a76ae8ed0827d659426938a6c0afa1bc576b8ec4a950c53e7e7ec8"
+    },
+    {
+      "path": "Project/art_source/earth_ground_scale_edit_plan_v3/input-plan.json",
+      "bytes": 5490,
+      "sha256": "bd9b65baefa22b0486cf4ff737c72a62ee6e614b97279126d6f67b138545f18d"
+    },
+    {
+      "path": "Project/art_source/earth_ground_scale_edit_plan_v3/inputs/same-frame-actor-scale-reference.png",
+      "bytes": 3398939,
+      "sha256": "3f845d81e0a04c0da8a68351b582fd745c2b6c7774fbb3ded1f733a23eba5e72"
+    },
+    {
+      "path": "Project/art_source/earth_ground_scale_edit_plan_v3/scale-comparison-reference.png",
+      "bytes": 223603,
+      "sha256": "3b0f326e7d19d59bc8987f77909b0b5bc9630a3dc18c6749a956c2b6ca40c6f8"
+    },
+    {
+      "path": "Project/art_source/earth_ground_scale_edit_plan_v3/inputs/concept-green-tone-native.png",
+      "bytes": 10597,
+      "sha256": "a208baccfa19c63345225b9141fa296bb15172e9818c7162056cebdd2bfcf7f0"
+    },
+    {
+      "path": "Project/art_source/earth_ground_clean_regen_plan_v4/README.md",
+      "bytes": 3126,
+      "sha256": "a040e03cb85a3ea3a59a3167c024d26e7ed4a8b2d077625ee1cad5d2b6c58b11"
+    },
+    {
+      "path": "Project/art_source/earth_ground_clean_regen_plan_v4/prepare_inputs.py",
+      "bytes": 5180,
+      "sha256": "b7e8c83810d3efcfa1008fd84a66ae7c2a2d91883f756f45dbae5ae68bcd2166"
+    },
+    {
+      "path": "Project/art_source/earth_ground_clean_regen_plan_v4/prompt-draft.txt",
+      "bytes": 1310,
+      "sha256": "6c420955da25467b39a9478b1dab1427e9fdc06633a623c23340eb253bb23867"
+    },
+    {
+      "path": "Project/art_source/earth_ground_clean_regen_plan_v4/input-plan.json",
+      "bytes": 4939,
+      "sha256": "cc9dcc5db1a7484fecf184faca01a35c2bc69239810b5c5dd262a0844bfa5893"
+    },
+    {
+      "path": "Project/art_source/earth_ground_clean_regen_plan_v4/inputs/source-layout-empty-2x.png",
+      "bytes": 8522,
+      "sha256": "cd343ef42b70e3bd58111af3a6a75da004ec6aacf2074bb1d6abdcc4fd955ad8"
+    },
+    {
+      "path": "Project/art_source/earth_ground_clean_regen_plan_v4/inputs/source-layout-with-scale-actor-2x.png",
+      "bytes": 28963,
+      "sha256": "36ffb86ad7cff0be1176ee5c6fcbd480866b4d5272b1b070d8e24a33ed5eb753"
+    },
+    {
+      "path": "Project/art_source/earth_ground_clean_regen_plan_v4/inputs/concept-only-material-and-scale.png",
+      "bytes": 84539,
+      "sha256": "072aeddfb224f65c8f23b9d5294cba852a0168d6157ad924b83378b11b6fc97d"
+    }
+  ],
+  "payload_count": 18,
+  "payload_bytes": 7789108,
+  "baseline_dependencies": [
+    "Project/art_source/earth_ground_plate_grass_edit_v2/archive-manifest.json",
+    "Project/art_source/earth_ground_plate_source_v1/source-layout-contract.json",
+    "Project/art_source/earth_base_style_concept_v1/concept.png"
+  ],
+  "excluded": [
+    "ALL evidence/ runtime screenshots and native.log; SHA/conclusions retained in review.json only",
+    "Any test scripts or temporary diagnostic PNGs",
+    "Godot caches/imports",
+    "Redundant concept crop PNGs reproducible from accepted concept",
+    "Unrelated runtime changes"
+  ],
+  "reproduction_note": "Prepared generation inputs are the archival authority. Actor-only references are frozen GPU-derived inputs; their original full test scene screenshots/logs are deliberately local-only. Source-semantic/concept derivatives can be reproduced from included recipe and existing baseline assets."
+}

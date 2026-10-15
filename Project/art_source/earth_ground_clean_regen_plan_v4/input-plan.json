@@ -1,0 +1,135 @@
+{
+  "schema": "earth-clean-ground-generation-input-plan-v1",
+  "status": "input proposal only; no generation authorized or performed",
+  "source_geometry": {
+    "path": "art_source/earth_ground_plate_source_v1/material-layout-board.png",
+    "sha256": "ecb10972fe74c5389f83474b3796e98e2bf9a5be7272288e81018bb16412750f",
+    "bytes": 3690
+  },
+  "source_contract": {
+    "path": "art_source/earth_ground_plate_source_v1/source-layout-contract.json",
+    "sha256": "4bc8be5b1a10296f80c14b947d5f41db732b587155bca2fda4075e7c45d92f68",
+    "bytes": 148118
+  },
+  "source_alpha": {
+    "path": "art_source/earth_ground_plate_source_v1/source-alpha-2x.png",
+    "sha256": "6ee0937622900d5349ab2bdcbce5b1c322a8a234e37d75bb9faf0803f4f26f0d",
+    "bytes": 3669
+  },
+  "concept": {
+    "path": "art_source/earth_base_style_concept_v1/concept.png",
+    "sha256": "1beaf20bbda18d0e04fcf2f6e81a0028750e1b87224f21780393b00c36cc4fc5",
+    "bytes": 3878764
+  },
+  "world_bounds_xyxy": [
+    2496,
+    960,
+    3264,
+    1472
+  ],
+  "logical_size": [
+    768,
+    512
+  ],
+  "required_actual_generated_size": [
+    1536,
+    1024
+  ],
+  "empty_layout": {
+    "path": "art_source/earth_ground_clean_regen_plan_v4/inputs/source-layout-empty-2x.png",
+    "sha256": "cd343ef42b70e3bd58111af3a6a75da004ec6aacf2074bb1d6abdcc4fd955ad8",
+    "bytes": 8522,
+    "derivation": "Nearest2x semantic labels, not art upscaling and not proof of generated texel density."
+  },
+  "actor_reference": {
+    "path": "art_source/earth_ground_clean_regen_plan_v4/inputs/source-layout-with-scale-actor-2x.png",
+    "sha256": "36ffb86ad7cff0be1176ee5c6fcbd480866b4d5272b1b070d8e24a33ed5eb753",
+    "bytes": 28963,
+    "origin": "Designated runtime owner rendered same source semantic board and actual hero only, original cell61,39 / SE13 / true2x GPU output. No world objects or new shadow.",
+    "changed_pixels_vs_empty": 5620,
+    "difference_bounds_xyxy": [
+      861,
+      479,
+      976,
+      631
+    ],
+    "main_body_height_actual_px": 144,
+    "role": "Human scale only; final output contains no person or person shadow."
+  },
+  "concept_crops": [
+    {
+      "path": "art_source/earth_ground_clean_regen_plan_v4/inputs/concept-fine-lawn.png",
+      "sha256": "a68a310eef8c203e30414daaca848a1419777d93cc462392916961398c92dfa2",
+      "bytes": 44587,
+      "crop_xyxy": [
+        350,
+        470,
+        505,
+        590
+      ]
+    },
+    {
+      "path": "art_source/earth_ground_clean_regen_plan_v4/inputs/concept-quiet-green.png",
+      "sha256": "a208baccfa19c63345225b9141fa296bb15172e9818c7162056cebdd2bfcf7f0",
+      "bytes": 10597,
+      "crop_xyxy": [
+        240,
+        230,
+        315,
+        300
+      ]
+    },
+    {
+      "path": "art_source/earth_ground_clean_regen_plan_v4/inputs/concept-person-scale.png",
+      "sha256": "1dc6e92738e0a4e66a5f784d3edf8994fbcc1e9e9f5028f7e7967d216a7d9944",
+      "bytes": 21814,
+      "crop_xyxy": [
+        705,
+        510,
+        785,
+        640
+      ]
+    }
+  ],
+  "concept_board": {
+    "path": "art_source/earth_ground_clean_regen_plan_v4/inputs/concept-only-material-and-scale.png",
+    "sha256": "072aeddfb224f65c8f23b9d5294cba852a0168d6157ad924b83378b11b6fc97d",
+    "bytes": 84539
+  },
+  "allowed_generation_inputs": [
+    "inputs/source-layout-empty-2x.png",
+    "inputs/source-layout-with-scale-actor-2x.png",
+    "inputs/concept-only-material-and-scale.png"
+  ],
+  "forbidden_visual_inputs": [
+    "Any v1/v2/v3 generated grass, full frame or patch",
+    "Previous concept/current comparison boards that include generated grass",
+    "Full original source floor texture with repeating grass",
+    "Full concept scene or full runtime scene with buildings, trees and shadows"
+  ],
+  "semantic_palette": {
+    "green": [
+      67,
+      117,
+      72
+    ],
+    "gray": [
+      170,
+      170,
+      166
+    ],
+    "magenta": [
+      220,
+      85,
+      186
+    ]
+  },
+  "semantic_palette_meaning": "Grass region / paved region / uncertain curb review band. Magenta is a geometry label, not a physical magenta curb, raised rail, collision or decorative stripe.",
+  "geometry_limits": {
+    "source_manual_center_read_budget_logical": 3,
+    "curb_band_logical_width": 7,
+    "note": "Existing source-only per-frame semantic interpretation has finite-precision edge notches; do not turn those tiny review-mask steps into ornamental geometry. Same original six centerpoints and capped route remain the geometric audit authority; exact outer boundary is not claimed."
+  },
+  "material_change_scope": "Generate an entire new continuous plate. Repaint BOTH lawn and pavement material from scratch while preserving source path layout. No pixel-identity requirement to any rejected plate; no pavement restoration/compositing.",
+  "production": "Current v2 registration and all64 owners remain unchanged. Any future output needs independent raw/layout and actual1x/2x joint review before new registration."
+}

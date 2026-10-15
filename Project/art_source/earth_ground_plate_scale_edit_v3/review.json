@@ -1,0 +1,195 @@
+{
+  "status": "Parent inspected raw and rejected replacement of production v2: short-cut lawn scale not achieved. Joint same-camera comparison requested as evidence only.",
+  "raw": {
+    "v2_sha256": "7dd080bb54897b878ac7743cad1dfb865217bdb76266fc441adb56d750edcb7b",
+    "v3_sha256": "230071981a79e850b8b0dd99aa0c4fa8e69408770cde2620aa451bc609be87d3",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "effective_texels_per_logical": [
+      2,
+      2
+    ],
+    "modified_after_generation": false
+  },
+  "protected_pixels": {
+    "pixels": 245083,
+    "changed_pixels": 244245,
+    "changed_fraction": 0.9965807501948319,
+    "mean_absolute_channel_difference_0_255": 6.366624096054534,
+    "max_channel_difference": 167,
+    "p95_max_channel_difference": 24.0
+  },
+  "road_core_eroded_16_raw_pixels": {
+    "pixels": 211705,
+    "changed_pixels": 210900,
+    "changed_fraction": 0.9961975390283649,
+    "mean_absolute_channel_difference_0_255": 5.638989789250766,
+    "max_channel_difference": 167,
+    "p95_max_channel_difference": 19.0
+  },
+  "grass_descriptive_metrics": {
+    "v2": {
+      "mean_srgb": [
+        71.39348860540461,
+        82.39972740716196,
+        37.65217414647915
+      ],
+      "mean_display_luma_neighbor_difference": 14.044022462594661,
+      "limitation": "Descriptive display-space proxy; cannot establish blade scale or perceptual acceptance."
+    },
+    "v3": {
+      "mean_srgb": [
+        85.24238979702035,
+        93.88180331590702,
+        43.139408149866235
+      ],
+      "mean_display_luma_neighbor_difference": 16.476865611896898,
+      "limitation": "Descriptive display-space proxy; cannot establish blade scale or perceptual acceptance."
+    }
+  },
+  "layout": {
+    "source_center_read_budget_logical": 3,
+    "v3_manual_read_uncertainty_raw": 3,
+    "samples": [
+      {
+        "source_center_raw": [
+          382,
+          834
+        ],
+        "v3_center_raw_approx": [
+          386,
+          832
+        ],
+        "delta_logical": [
+          2.0,
+          -1.0
+        ],
+        "distance_logical": 2.23606797749979
+      },
+      {
+        "source_center_raw": [
+          768,
+          578
+        ],
+        "v3_center_raw_approx": [
+          771,
+          576
+        ],
+        "delta_logical": [
+          1.5,
+          -1.0
+        ],
+        "distance_logical": 1.8027756377319946
+      },
+      {
+        "source_center_raw": [
+          960,
+          582
+        ],
+        "v3_center_raw_approx": [
+          963,
+          579
+        ],
+        "delta_logical": [
+          1.5,
+          -1.5
+        ],
+        "distance_logical": 2.1213203435596424
+      },
+      {
+        "source_center_raw": [
+          1048,
+          636
+        ],
+        "v3_center_raw_approx": [
+          1052,
+          639
+        ],
+        "delta_logical": [
+          2.0,
+          1.5
+        ],
+        "distance_logical": 2.5
+      },
+      {
+        "source_center_raw": [
+          1048,
+          774
+        ],
+        "v3_center_raw_approx": [
+          1051,
+          772
+        ],
+        "delta_logical": [
+          1.5,
+          -1.0
+        ],
+        "distance_logical": 1.8027756377319946
+      },
+      {
+        "source_center_raw": [
+          872,
+          896
+        ],
+        "v3_center_raw_approx": [
+          875,
+          897
+        ],
+        "delta_logical": [
+          1.5,
+          0.5
+        ],
+        "distance_logical": 1.5811388300841898
+      }
+    ],
+    "maximum_center_distance_logical": 2.5,
+    "shape_read": "Same capped diagonal lower-field path, top short cap, upper-right chamfer, right edge, lower-right diagonal and bottom opening. No connector toward left stairs; about186 logical pixels of grass interval remains.",
+    "precision_limit": "Approximate correspondence within finite original manual source-read budget. Not exact curb outer-edge/thickness registration, and not visual acceptance."
+  },
+  "manual_visual_review": {
+    "grass": "Some dark hollows and mound contrast are reduced, but curled wire-like grass and identifiable leafy clusters still occupy most of the field. The requested fine short-cut lawn scale has not been achieved; lower contrast alone is insufficient.",
+    "pavement": "Surface material has been re-rendered; capped path layout remains visually close. Pixel differences are disclosed separately from geometric and style judgment.",
+    "content": "No person, figure-shaped shadow, building, tree, new planter or new connector observed in raw.",
+    "decision": "Preserve v2 production unchanged. No automatic fourth generation or pixel restoration/compositing."
+  },
+  "next_direction": "Prepare a new-generation input using clean original source semantic geometry and concept fine-grass/human scale references, excluding v2/v3 grass as primary imagery. Repainting road material is allowed in that proposed input; generation still needs separate approval.",
+  "native_evidence": {
+    "conclusion": "Same-camera same-actor61,39/SE13 native1x/2x comparison completed; production v2 unchanged; v3 lawn scale remains rejected.",
+    "archival_policy": "Local-only runtime screenshots and log, excluded from all archive closure. Hashes retained for identification.",
+    "files": [
+      {
+        "local_path": "art_source/earth_ground_plate_scale_edit_v3/evidence/native.log",
+        "sha256": "bd82650e5fd46754eba1f7d50d41e297a8236dac89831ddb84194b25b6532143",
+        "bytes": 1009,
+        "archive": false
+      },
+      {
+        "local_path": "art_source/earth_ground_plate_scale_edit_v3/evidence/v2-1x.png",
+        "sha256": "f75c99ee2839657122953c24e5d327f98cc8272f4a800e3ab9423050dba0d5b5",
+        "bytes": 1112484,
+        "archive": false
+      },
+      {
+        "local_path": "art_source/earth_ground_plate_scale_edit_v3/evidence/v2-2x.png",
+        "sha256": "dd3e673a2954ad6fd1616fe4a416007e8122b3b89dd3adf0c70ce13590eaeabb",
+        "bytes": 3210027,
+        "archive": false
+      },
+      {
+        "local_path": "art_source/earth_ground_plate_scale_edit_v3/evidence/v3-1x.png",
+        "sha256": "9e7b02491d63cf73e117d0cd38ce5ba6b16c5f11192ecb48bd04e510ec1a328f",
+        "bytes": 1134277,
+        "archive": false
+      },
+      {
+        "local_path": "art_source/earth_ground_plate_scale_edit_v3/evidence/v3-2x.png",
+        "sha256": "c3f0994818898745911a0cacf7e78dd51cc05ad6e1eca99bfdd51fefa7043480",
+        "bytes": 3312957,
+        "archive": false
+      }
+    ]
+  }
+}
