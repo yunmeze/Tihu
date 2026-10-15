@@ -1,0 +1,94 @@
+{
+  "status": "NEW_UNAPPROVED_IDENTITY_RECONSTRUCTION_NOT_RECOVERED_CONCEPT",
+  "source_frame": 13,
+  "reference_role": "Original SE idle posture, camera, compact projected body proportions only; historical clothing and shadow are not new design requirements.",
+  "reference_sha256": "03c6c13c68a993c920641b4bba64275b358261fa7012da5b781ffb4a6cda43f0",
+  "source_manifest_sha256": "b5eb981b005efedc5f071bb51f35240cabf91aa0d77143e70bcf4ee9b9c733f1",
+  "tool": "built-in imagegen",
+  "authorized_rounds": 1,
+  "raw_file": "identity-rebuild-v1-raw.png",
+  "raw_sha256": "ec89bf839b7d611c63791f8c2ff7d702c35fee29789a1532d7737295c48ce67c",
+  "raw_dimensions": [
+    1254,
+    1254
+  ],
+  "raw_mode": "RGBA",
+  "alpha_zero_pixels": 1323396,
+  "alpha_partial_pixels": 248865,
+  "alpha_opaque_pixels": 255,
+  "alpha_bbox": [
+    39,
+    21,
+    1240,
+    1147
+  ],
+  "prompt_file": "prompt.txt",
+  "prompt_sha256": "995f3ec8a181fe86dfbe6ecd3c6f2f5de0c35abc112c7ab619d65583283494b3",
+  "generation_calls": 1,
+  "runtime_use": false,
+  "approval_status": "UNAPPROVED_NEW_IDENTITY_CANDIDATE",
+  "alpha_histogram_top10": [
+    [
+      0,
+      1323396
+    ],
+    [
+      253,
+      154499
+    ],
+    [
+      252,
+      50085
+    ],
+    [
+      251,
+      8452
+    ],
+    [
+      1,
+      7757
+    ],
+    [
+      250,
+      3325
+    ],
+    [
+      2,
+      2512
+    ],
+    [
+      249,
+      1972
+    ],
+    [
+      3,
+      1587
+    ],
+    [
+      248,
+      1345
+    ]
+  ],
+  "review": {
+    "viewed": [
+      "raw generated image",
+      "actual alpha composite over gray"
+    ],
+    "matches": [
+      "adult East Asian appearance",
+      "short black hair",
+      "silver-gray black layered armor",
+      "muted red shoulder and knee accents",
+      "restrained cyan lines",
+      "fingerless armored gloves",
+      "no weapon wings cape"
+    ],
+    "residuals": [
+      "more elongated head-to-body and legs than original small sprite",
+      "some worn-metal surface marks",
+      "hanging waist panels beyond a minimal narrow belt",
+      "low-alpha distant pixels extend bbox; raw retained without programmatic cleanup"
+    ],
+    "decision": "unapproved identity study only; no animation registration or runtime use"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "status": "UNAPPROVED_NEW_IDENTITY_RESEARCH_V2",
+  "tool": "built-in imagegen",
+  "generation_calls_this_revision": 1,
+  "edit_target": "identity-rebuild-v1-raw.png",
+  "edit_target_sha256": "ec89bf839b7d611c63791f8c2ff7d702c35fee29789a1532d7737295c48ce67c",
+  "prompt_file": "prompt-v2.txt",
+  "prompt_sha256": "a2523ca245f2cff68d317ac2997a33e7ebec5983a854f0d53e974b3129a22ea7",
+  "raw_file": "identity-rebuild-v2-raw.png",
+  "raw_sha256": "5d21f8db16f0fd0151d5d226ba62f826c06f5571aa2c92f65de348eda42f9512",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alpha_top10": [
+    [
+      0,
+      1246982
+    ],
+    [
+      253,
+      222430
+    ],
+    [
+      252,
+      52385
+    ],
+    [
+      251,
+      9840
+    ],
+    [
+      1,
+      8353
+    ],
+    [
+      250,
+      4059
+    ],
+    [
+      2,
+      2975
+    ],
+    [
+      249,
+      2160
+    ],
+    [
+      3,
+      1751
+    ],
+    [
+      248,
+      1560
+    ]
+  ],
+  "pixel_processing": "raw byte-copy only; gray JPEG is alpha visualization, not asset",
+  "runtime_use": false,
+  "actual_visual_review": {
+    "inspected": [
+      "generated raw",
+      "actual-alpha gray composite"
+    ],
+    "improvements": [
+      "hanging skirt/tabard panels removed",
+      "leather waist belt replaced by fitted modular waist/hip armor",
+      "black undersuit and thigh coverage more fitted",
+      "integrated tactical boot soles"
+    ],
+    "retained": [
+      "adult East Asian face/short black hair",
+      "SE three-quarter view",
+      "silver/black/wine-red palette",
+      "fingerless gloves and empty hands"
+    ],
+    "remaining": [
+      "shoulder buckles remain",
+      "boot top still has horizontal armor sections",
+      "faint metal surface texture remains",
+      "cyan seams slightly more extensive",
+      "overall framing/scale changed; not pixel-locked pose"
+    ],
+    "decision": "unapproved single identity study for parent review; no runtime or animation approval"
+  }
+}
