@@ -1,0 +1,58 @@
+{
+  "schema": "lp-catalogue-adapter-v1",
+  "catalogue": "res://data/items/catalogue.json",
+  "id_is_original_record_index": true,
+  "ordinary_equipment_type_to_named_slots": {
+    "7": [
+      "helmet"
+    ],
+    "8": [
+      "necklace"
+    ],
+    "9": [
+      "armor"
+    ],
+    "10": [
+      "boots"
+    ],
+    "11": [
+      "braceletLeft",
+      "braceletRight"
+    ],
+    "12": [
+      "ringLeft",
+      "ringRight"
+    ],
+    "13": [
+      "shield"
+    ],
+    "14": [
+      "weapon"
+    ]
+  },
+  "slot_mapping_evidence": {
+    "path": "参考项目/src/character.js",
+    "sha256": "76a51e6e4720dd0e8df084ba14dfb6b947478702ae4c65a2d6998ea34aec83e7",
+    "bytes": 6626
+  },
+  "native_numeric_slot_ids": null,
+  "unresolved": [
+    "Native numeric slot IDs and appearance slots 13/14 require their own native slot contract; named shield/weapon type13/14 are item TYPES, not appearance SLOT13/14."
+  ],
+  "instance_rules": [
+    "Template is immutable; instance fieldOverrides/raw record values take precedence for weight, requirements and stats.",
+    "raw36 maps to runtime +0x7c usage counter; it is not heroAP or an aggregated attack value.",
+    "Keep unknown raw28/raw29/reserved. Loader reportedly writes raw28 then raw29 to +0x6c; do not silently merge them in the source catalogue.",
+    "Do not pack serialized template bytes as a 140-byte instance. Runtime name/pointer/layout data must have a separately verified schema.",
+    "Do not grant wood sword298 or potions automatically: the reference legacy fixture differs from normal creation.",
+    "Reject placeholder name0 as a usable item while retaining its original ID."
+  ],
+  "inventory_state_adapter_proposal": {
+    "contract": "Dictionary[int, {weight:int, equipment_slots:Array[String], consumable:bool}]",
+    "weight": "Use rawFields[38] when nonnegative; instance properties.weight overrides when supplied. Never derive from icon/type.",
+    "equipment_slots": "Named list from ordinary_equipment_type_to_named_slots is reference-supported; numeric native slots remain a separate contract.",
+    "consumable": "Unresolved by this data stage. Do not coerce unknown to false; build only an explicitly reviewed item subset or require an external verified consumption policy.",
+    "raw_proficiency": "rawFields[36] may seed raw_proficiency only when the instance schema explicitly preserves original usage semantics, not heroAP.",
+    "initial_grants": "No grants in catalogue adapter. Initial profile remains separate reference-derived evidence."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schema": "lp-initial-character-reference-v1",
+  "status": "reference-derived profile; not a complete independently reconstructed native save",
+  "sources": [
+    {
+      "path": "参考项目/src/character.js",
+      "sha256": "76a51e6e4720dd0e8df084ba14dfb6b947478702ae4c65a2d6998ea34aec83e7",
+      "bytes": 6626
+    },
+    {
+      "path": "参考项目/tools/inspect-entry.py",
+      "sha256": "03f6154028bd444944fd858f0dc783cc05ff1f792db172e25676a4431c5be45b",
+      "bytes": 2412
+    },
+    {
+      "path": "原版游戏/LP传奇单机版_重生.exe",
+      "sha256": "21dc753d3aa828fb29dc171e595857be234833edc43a1d80833540ae7e355b84",
+      "bytes": 2502656
+    }
+  ],
+  "native_creation_va": "0x591980",
+  "class_cached_totals_reference": {
+    "战士": {
+      "hp": 25,
+      "mp": 5,
+      "attack": [
+        1,
+        3
+      ],
+      "tao": [
+        0,
+        1
+      ],
+      "magic": [
+        0,
+        1
+      ],
+      "defense": [
+        0,
+        3
+      ],
+      "magicDefense": [
+        0,
+        1
+      ],
+      "accuracy": 7,
+      "capacity": 25
+    },
+    "道士": {
+      "hp": 22,
+      "mp": 15,
+      "attack": [
+        0,
+        2
+      ],
+      "tao": [
+        1,
+        2
+      ],
+      "magic": [
+        0,
+        2
+      ],
+      "defense": [
+        0,
+        2
+      ],
+      "magicDefense": [
+        0,
+        2
+      ],
+      "accuracy": 7,
+      "capacity": 22
+    },
+    "法师": {
+      "hp": 17,
+      "mp": 15,
+      "attack": [
+        0,
+        1
+      ],
+      "tao": [
+        0,
+        1
+      ],
+      "magic": [
+        1,
+        3
+      ],
+      "defense": [
+        0,
+        1
+      ],
+      "magicDefense": [
+        0,
+        3
+      ],
+      "accuracy": 6,
+      "capacity": 20
+    }
+  },
+  "normal_creation_reference": {
+    "armor_template_id": 252,
+    "inventory": [],
+    "skills": [],
+    "skill_points": 1,
+    "attribute_points": 1
+  },
+  "initial_state_unknowns": {
+    "heroAP": null,
+    "full_native_record": null
+  },
+  "notes": [
+    "Class cached totals include starter cloth defense. Do not add cloth defense twice.",
+    "Legacy createCharacter fixture grants weapon and potions; createNewCharacter normal path does not.",
+    "Static EXE ranges supplied for further independent field verification; all class values here are explicitly attributed to the reference implementation."
+  ]
+}
