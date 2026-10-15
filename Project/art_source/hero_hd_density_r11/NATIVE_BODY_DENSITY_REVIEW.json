@@ -1,0 +1,22 @@
+{
+  "status": "actual2048_body_density_review_pass_shadow_visual_pending",
+  "evidence_directory": "/workspace/shared/legend-hd-prototype",
+  "actually_viewed": [
+    "actual2048-low-density-assets-baseline.png",
+    "actual2048-hero-HD4-body-only.png",
+    "hd-phase-56.png"
+  ],
+  "additional_unscaled_native_crops": [
+    "hd-phase-13.png",
+    "hd-phase-54.png",
+    "hd-phase-56.png"
+  ],
+  "technical_crop_board": "diagnostics/hero/hd4/native-HD-density-phase-crops.png",
+  "canvas": [
+    2048,
+    1536
+  ],
+  "finding": "Direct raw HD4 preserves visible hair/face/armor/boot detail while original character footprint and registered position remain consistent. Existing pose residuals are unchanged.",
+  "shadow_boundary": "Runner reports density-aware shadows enabled for phase images, but low opacity is not clearly separable in these screenshots. Thirty-phase call/PASS is not visual shadow acceptance; same-frame on/off required. Earlier body-only and baseline deliberately had HD shadows disabled.",
+  "scope": "Body density review only, not complete first-screen HD/art coverage."
+}

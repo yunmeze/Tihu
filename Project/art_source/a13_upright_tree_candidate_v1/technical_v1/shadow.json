@@ -1,0 +1,157 @@
+{
+  "schema": "a13-upright-tree-single-alpha-cast-v1",
+  "status": "flat-ground candidate; contact/on-off/depth native pending",
+  "texture": "res://art_source/a13_upright_tree_candidate_v1/raw.png",
+  "texture_sha256": "fd4568162fad5d2e695d3d9c62d65be5d2ef2e6f7d6ae801b74bb1ce9442df35",
+  "texture_size": [
+    1218,
+    1292
+  ],
+  "region": [
+    0,
+    0,
+    1218,
+    1292
+  ],
+  "helper": "res://scripts/art/hero_alpha_ground_shadow.gd",
+  "method": "configure_ground_frame",
+  "ground_reference": [
+    570.0,
+    1260.0
+  ],
+  "ground_reference_uncertainty_raw_px": 12,
+  "ground_slope": 0.0,
+  "cast_per_height": [
+    0.5304659498207885,
+    -0.3978494623655914
+  ],
+  "cast_exact": [
+    "148/279",
+    "-111/279"
+  ],
+  "opacity": 0.3,
+  "blur_radius_px": 3.0,
+  "blur_radius_native_px": 0.6830995061296659,
+  "tint": [
+    0.035,
+    0.045,
+    0.055
+  ],
+  "whole_tree_registration": {
+    "world_top_left": [
+      2834.2110938353635,
+      1359.0982074255403
+    ],
+    "scale": 0.22769983537655528,
+    "rotation": 0,
+    "shear": 0
+  },
+  "world_wood_root": [
+    2964,
+    1646
+  ],
+  "draw_contract": {
+    "passes_per_instance": 1,
+    "after": "all floor draws",
+    "before": "all original/replacement objects and actors",
+    "alpha_input": "whole raw once; never per-owner or checker304",
+    "requires_suppressed_source_keys": [
+      "Plant:300@59,55",
+      "Plant:301@60,55",
+      "Plant:299@61,51",
+      "Plant:302@62,55",
+      "Plant:303@63,55",
+      "Plant:304@64,55"
+    ]
+  },
+  "instances": [
+    {
+      "family_anchor_cell": [
+        61,
+        51
+      ],
+      "world_wood_root": [
+        2964,
+        1646
+      ],
+      "whole_tree_registration": {
+        "scale": 0.22769983537655528,
+        "world_top_left": [
+          2834.2110938353635,
+          1359.0982074255403
+        ],
+        "rotation": 0,
+        "shear": 0
+      },
+      "requires_suppressed_source_keys": [
+        "Plant:300@59,55",
+        "Plant:301@60,55",
+        "Plant:299@61,51",
+        "Plant:302@62,55",
+        "Plant:303@63,55",
+        "Plant:304@64,55"
+      ]
+    },
+    {
+      "family_anchor_cell": [
+        50,
+        41
+      ],
+      "world_wood_root": [
+        2436,
+        1326
+      ],
+      "whole_tree_registration": {
+        "scale": 0.22769983537655528,
+        "world_top_left": [
+          2306.2110938353635,
+          1039.0982074255403
+        ],
+        "rotation": 0,
+        "shear": 0
+      },
+      "requires_suppressed_source_keys": [
+        "Plant:300@48,45",
+        "Plant:301@49,45",
+        "Plant:299@50,41",
+        "Plant:302@51,45",
+        "Plant:303@52,45",
+        "Plant:304@53,45"
+      ]
+    },
+    {
+      "family_anchor_cell": [
+        55,
+        57
+      ],
+      "world_wood_root": [
+        2676,
+        1838
+      ],
+      "whole_tree_registration": {
+        "scale": 0.22769983537655528,
+        "world_top_left": [
+          2546.2110938353635,
+          1551.0982074255403
+        ],
+        "rotation": 0,
+        "shear": 0
+      },
+      "requires_suppressed_source_keys": [
+        "Plant:300@53,61",
+        "Plant:301@54,61",
+        "Plant:299@55,57",
+        "Plant:302@56,61",
+        "Plant:303@57,61",
+        "Plant:304@58,61"
+      ]
+    }
+  ],
+  "limits": [
+    "Flat ground approximation, not physical crown depth or exact source shadow.",
+    "Source checker cannot remain or be projected again.",
+    "Do not threshold any faint alpha.",
+    "First61,51 instance native gate before other two.",
+    "Ground opacity is a compositing parameter, not scene pixel difference."
+  ]
+}

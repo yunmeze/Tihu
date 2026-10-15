@@ -1,0 +1,121 @@
+{
+  "status": "independent uniform registrations for two static assets; parent/native pending",
+  "raw_sha256": "5d7af06980261c9e3dacfa3a7f8a739e65f18c477e8c7f0ce68a702a665222ab",
+  "groups": [
+    {
+      "id": "grass239-240",
+      "region": [
+        0,
+        0,
+        1250,
+        764
+      ],
+      "source_bbox": [
+        0,
+        0,
+        53,
+        27
+      ],
+      "candidate_bbox": [
+        65,
+        108,
+        1170,
+        602
+      ],
+      "source_base": [
+        30.5,
+        24
+      ],
+      "candidate_base_whole": [
+        610,
+        578
+      ],
+      "source_uncertainty": 3,
+      "world_source_origin": [
+        2608,
+        965
+      ],
+      "uniform_scale": 0.04907850253334162,
+      "whole_sheet_world_origin": [
+        2608.562113454662,
+        960.6326255357285
+      ],
+      "isolated_region_world_origin": [
+        2608.562113454662,
+        960.6326255357285
+      ],
+      "candidate_base_uncertainty_raw_px": 15,
+      "mapped_visible_extent": [
+        54.231745299342485,
+        24.244780251470758
+      ],
+      "visible_extent_delta": [
+        1.2317452993424851,
+        -2.7552197485292425
+      ],
+      "base_proxy_note": "center proxy of generated green basal junction group aligned to mean of two source visible basal readings; not corresponding wood roots or survey",
+      "source_envelope_method": "alpha>32 excluding exact original checker RGB8,0,0 for measurement only; original image untouched",
+      "candidate_envelope_method": "alpha>32 for measurement only; no output alpha threshold",
+      "design_difference": "new blades resolve wider leaf surfaces; individual basal blade count and directions differ"
+    },
+    {
+      "id": "grass241-242",
+      "region": [
+        1250,
+        0,
+        808,
+        764
+      ],
+      "source_bbox": [
+        5,
+        0,
+        39,
+        23
+      ],
+      "candidate_bbox": [
+        1340,
+        146,
+        1992,
+        640
+      ],
+      "source_base": [
+        27.5,
+        22
+      ],
+      "candidate_base_whole": [
+        1694,
+        618
+      ],
+      "source_uncertainty": 2,
+      "world_source_origin": [
+        2613,
+        832
+      ],
+      "uniform_scale": 0.05010909525659802,
+      "whole_sheet_world_origin": [
+        2555.615192635323,
+        823.0325791314224
+      ],
+      "isolated_region_world_origin": [
+        2618.251561706071,
+        823.0325791314224
+      ],
+      "candidate_base_uncertainty_raw_px": 15,
+      "mapped_visible_extent": [
+        32.671130107301906,
+        24.753893056759424
+      ],
+      "visible_extent_delta": [
+        -1.3288698926980942,
+        1.7538930567594235
+      ],
+      "base_proxy_note": "center proxy of generated green basal junction group aligned to mean of two source visible basal readings; not corresponding wood roots or survey",
+      "source_envelope_method": "alpha>32 excluding exact original checker RGB8,0,0 for measurement only; original image untouched",
+      "candidate_envelope_method": "alpha>32 for measurement only; no output alpha threshold",
+      "design_difference": "new blades resolve wider leaf surfaces; individual basal blade count and directions differ"
+    }
+  ],
+  "raw_partition": "two rectangular regions split x1250, full height; all sheet pixels including very faint alpha retained once",
+  "no_affine_warp": true,
+  "scope": "only first-screen3 complete2-owner instances after parent gate"
+}

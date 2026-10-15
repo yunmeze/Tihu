@@ -1,0 +1,328 @@
+{
+  "schema": "a13-round-shrub-limited-foliage-band-cast-v1",
+  "status": "conservativeB candidate; nativeHD A/B pending",
+  "base_contract": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/shadow.json",
+  "base_contract_sha256": "050057e62081d8526696e605f95b0ed61e66d1bc089d14d4e15e18bc82418584",
+  "texture": "res://assets/scifi/environment/a13_round_shrub_shadow_v1/whole_shrub.png",
+  "texture_sha256": "b093644c662a8d42f8beee8160b4fe2b4c200257bfb7d3ac5589683069f8b469",
+  "helper": "res://scripts/art/foliage_band_ground_shadow.gd",
+  "method": "configure_foliage_band_frame",
+  "shader": "res://shaders/foliage_band_ground_shadow.gdshader",
+  "region": [
+    0,
+    0,
+    1363,
+    1154
+  ],
+  "ground_reference": [
+    778.0,
+    1103.0
+  ],
+  "ground_slope": 0.0,
+  "actual_woody_root": null,
+  "cast_per_height": [
+    0.5304659498207885,
+    -0.3978494623655914
+  ],
+  "opacity": 0.3,
+  "blur_radius_px": 3.0,
+  "alpha_band_start_y": 900.0,
+  "alpha_band_fade_px": 64.0,
+  "band_coordinate_units": "raw texels, frame local",
+  "alpha_rule": "Within the same guarded whole-raw alpha sample, multiply only the shadow by smoothstep(900,964,p.y). No body/channel rewrite and no RGB classification.",
+  "logical_band_start_y_source_composite": 80.83097261567515,
+  "logical_fade_extent_px": 6.043437204910293,
+  "design_meaning": "Limited contact-shadow design adaptation from near-ground visible foliage; no upper-crown height inference, no full original-cast recovery.",
+  "alpha96_projected_bound_before_fade_source_local": [
+    24.257042384612518,
+    92.39239696609705,
+    116.97553991897409,
+    99.98121579497801
+  ],
+  "max_positive_logical_y_gap_cast_as_height": 19.169027384324835,
+  "coordinate_contract": {
+    "helper_frame_space": "raw image pixels; density1 within a dedicated raw-space parent",
+    "helper_body_to_parent": "Transform2D.IDENTITY",
+    "raw_space_parent_basis": [
+      0.09442870632672333,
+      0,
+      0,
+      0.09442870632672333
+    ],
+    "raw_space_parent_origin": "per-instance whole_raw_world_origin plus logical camera offset",
+    "composed_mapping": "parent_transform * helper_transform * projected_raw_point; total raw-to-logical scale is exactly the body scale",
+    "hd_transform": "Apply the same outer2x world canvas as the body; do not multiply reference or scale again.",
+    "reason": "The whole high-resolution shrub uses scale.0944287. A raw-space parent preserves a well-conditioned identity helper transform and the exact total body mapping, without changing frozen helper limits.",
+    "blur_note": "3raw texels equals0.283286 logical pixels. This is an initial candidate softness, not the hero0.9logical setting."
+  },
+  "instances": [
+    {
+      "center_owner_cell": [
+        51,
+        44
+      ],
+      "whole_raw_world_origin": [
+        2402.9773371104816,
+        1330.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "actual_woody_root": null,
+      "leaf_proxy_world": [
+        2476.4428706326726,
+        1435.0
+      ],
+      "nominal_first_screen_visibility": "partial",
+      "source_owners": [
+        {
+          "key": "Plant:143@51,41",
+          "sort_tuple": [
+            1,
+            41,
+            5141
+          ],
+          "flag": 0
+        },
+        {
+          "key": "Plant:144@50,44",
+          "sort_tuple": [
+            1,
+            44,
+            5044
+          ],
+          "flag": -1
+        },
+        {
+          "key": "Plant:145@51,44",
+          "sort_tuple": [
+            1,
+            44,
+            5144
+          ],
+          "flag": -1
+        },
+        {
+          "key": "Plant:146@52,44",
+          "sort_tuple": [
+            1,
+            44,
+            5244
+          ],
+          "flag": -1
+        }
+      ],
+      "requires_suppressed_source_keys": [
+        "Plant:143@51,41",
+        "Plant:144@50,44",
+        "Plant:145@51,44",
+        "Plant:146@52,44"
+      ],
+      "activation": "pilot57,38 first; other first-screen groups only after separate body/depth approval",
+      "casts_per_instance": 1
+    },
+    {
+      "center_owner_cell": [
+        57,
+        38
+      ],
+      "whole_raw_world_origin": [
+        2690.9773371104816,
+        1138.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "actual_woody_root": null,
+      "leaf_proxy_world": [
+        2764.4428706326726,
+        1243.0
+      ],
+      "nominal_first_screen_visibility": "full",
+      "source_owners": [
+        {
+          "key": "Plant:143@57,35",
+          "sort_tuple": [
+            1,
+            35,
+            5735
+          ],
+          "flag": 0
+        },
+        {
+          "key": "Plant:144@56,38",
+          "sort_tuple": [
+            1,
+            38,
+            5638
+          ],
+          "flag": -1
+        },
+        {
+          "key": "Plant:145@57,38",
+          "sort_tuple": [
+            1,
+            38,
+            5738
+          ],
+          "flag": -1
+        },
+        {
+          "key": "Plant:146@58,38",
+          "sort_tuple": [
+            1,
+            38,
+            5838
+          ],
+          "flag": -1
+        }
+      ],
+      "requires_suppressed_source_keys": [
+        "Plant:143@57,35",
+        "Plant:144@56,38",
+        "Plant:145@57,38",
+        "Plant:146@58,38"
+      ],
+      "activation": "pilot57,38 first; other first-screen groups only after separate body/depth approval",
+      "casts_per_instance": 1
+    },
+    {
+      "center_owner_cell": [
+        58,
+        51
+      ],
+      "whole_raw_world_origin": [
+        2738.9773371104816,
+        1554.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "actual_woody_root": null,
+      "leaf_proxy_world": [
+        2812.4428706326726,
+        1659.0
+      ],
+      "nominal_first_screen_visibility": "partial",
+      "source_owners": [
+        {
+          "key": "Plant:143@58,48",
+          "sort_tuple": [
+            1,
+            48,
+            5848
+          ],
+          "flag": 0
+        },
+        {
+          "key": "Plant:144@57,51",
+          "sort_tuple": [
+            1,
+            51,
+            5751
+          ],
+          "flag": -1
+        },
+        {
+          "key": "Plant:145@58,51",
+          "sort_tuple": [
+            1,
+            51,
+            5851
+          ],
+          "flag": -1
+        },
+        {
+          "key": "Plant:146@59,51",
+          "sort_tuple": [
+            1,
+            51,
+            5951
+          ],
+          "flag": -1
+        }
+      ],
+      "requires_suppressed_source_keys": [
+        "Plant:143@58,48",
+        "Plant:144@57,51",
+        "Plant:145@58,51",
+        "Plant:146@59,51"
+      ],
+      "activation": "pilot57,38 first; other first-screen groups only after separate body/depth approval",
+      "casts_per_instance": 1
+    },
+    {
+      "center_owner_cell": [
+        64,
+        45
+      ],
+      "whole_raw_world_origin": [
+        3026.9773371104816,
+        1362.845136921624
+      ],
+      "scale": 0.09442870632672333,
+      "actual_woody_root": null,
+      "leaf_proxy_world": [
+        3100.4428706326726,
+        1467.0
+      ],
+      "nominal_first_screen_visibility": "full",
+      "source_owners": [
+        {
+          "key": "Plant:143@64,42",
+          "sort_tuple": [
+            1,
+            42,
+            6442
+          ],
+          "flag": 0
+        },
+        {
+          "key": "Plant:144@63,45",
+          "sort_tuple": [
+            1,
+            45,
+            6345
+          ],
+          "flag": -1
+        },
+        {
+          "key": "Plant:145@64,45",
+          "sort_tuple": [
+            1,
+            45,
+            6445
+          ],
+          "flag": -1
+        },
+        {
+          "key": "Plant:146@65,45",
+          "sort_tuple": [
+            1,
+            45,
+            6545
+          ],
+          "flag": -1
+        }
+      ],
+      "requires_suppressed_source_keys": [
+        "Plant:143@64,42",
+        "Plant:144@63,45",
+        "Plant:145@64,45",
+        "Plant:146@65,45"
+      ],
+      "activation": "pilot57,38 first; other first-screen groups only after separate body/depth approval",
+      "casts_per_instance": 1
+    }
+  ],
+  "draw_contract": {
+    "passes_per_selected_instance": 1,
+    "after": "all floors",
+    "before": "all original/replacement objects and actors",
+    "alpha_input": "one whole texture, never one per owner slice",
+    "atomic_group": "Only activate a cast with its complete four-owner replacement, suppressing all four original checker-bearing source owners. A source body must never get this new cast.",
+    "failure": "A missing common texture/config disables all affected casts and restores all four source owners of each affected instance. Never leave partial body/source or duplicate checker.",
+    "diagnostic_off": "An explicit same-phase shadow-off comparison may retain the new body; this deliberate A/B is distinct from failure fallback.",
+    "scope": "Only four nominal first-screen groups; pilot57,38 first. No distant groups automatically enabled."
+  },
+  "limits": [
+    "This chooses a lower image band as an explicit design envelope, not a proven physical receiver/height.",
+    "The fade can reduce an already mostly-hidden shadow too far; judge same-positionHD A/B rather than forcing visible darkness.",
+    "One pass only; do not layer this on top of full-shadowA. Select A or B.",
+    "Shared raw texture, original-source atomic suppression and failure fallback remain mandatory."
+  ]
+}
