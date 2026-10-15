@@ -8,4 +8,10 @@ Nearest sampling is retained. A native whole-image versus seven-piece comparison
 
 Eight captured moving samples showed no whole-cluster disappearance, cutout seam or trunk/crown displacement. Fine leaf brightness varies under nearest sampling; this is a bounded sample review, not a continuous-video proof of zero shimmer. Source/new foliage silhouette and color differences remain intentional visual changes.
 
-This acceptance is structural only. Suppressing the original seven sprites also removes their baked checker shadow; no new tree cast has yet been accepted. Do not present the current tree as a completed lighting replacement. Future tree shadow work must preserve one whole-tree alpha projection on the ground below all object layers, rather than projecting each cutout independently.
+## Accepted bounded ground cast
+
+The later shadow stage uses `assets/scifi/environment/a13_first_tree_shadow_v1/shadow.json` and its byte-identical whole raw PNG. A single alpha projection is drawn after all floors and before every object/body pass. It is never repeated for the seven cutouts. G toggles the whole selected tree and cast together; H explicitly disables/enables only the new cast for comparison. Any failed shadow-resource preparation or configuration restores all seven source owners and hides the new cast.
+
+The accepted explicit parameters are raw root(498,1224), horizontal receiver, common scale0.2472072097078169, cast(148/279,-111/279), opacity.30 and blur3raw pixels (about.742 native). Native same-phase on/off checks at(57,32),(57,35),(59,38) retained the original depth categories and placed the cast on grass toward screen-right/up. The observed RGB differences prove visible changes, not a direct measurement of shader opacity. ShaderMaterial reads independently confirmed color alpha.30, blur3 and one pass. Invalid texture testing restored the complete source tree.
+
+This is a stable2D silhouette approximation for this one ground instance. It does not establish physical tree height, canopy self-shadow, platform receiving, or exact original checker shape. The original opaque checker belongs only to source mode; no checker overlay or contact ellipse is added to the selected tree.

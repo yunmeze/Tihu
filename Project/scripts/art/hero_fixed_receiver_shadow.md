@@ -1,7 +1,8 @@
 # Fixed receiver extension: SE idle + walk joint preview
 
-Status: technical candidate; native receiver selection and moving/depth acceptance
-belong to the runtime owner. No default entry or renderer is changed by this work.
+Status: the joint SE preview was accepted with actual receiver y86.0 after native
+flat-ground movement and depth review. This is a working visual approximation,
+not a physical-ground calibration. The default source entry remains unchanged.
 The existing R5 standalone idle viewer and its two-sole projection remain the
 historical comparison. The new joint preview may use one fixed receiver for all
 idle 13–16 and walk 51–56 frames, avoiding a projection change at start/stop.
@@ -62,11 +63,18 @@ line, slope 0. It is a stable 2D rendering approximation, not a recovered physic
 ground plane. Visible y offsets mix ground depth and elevation; the model cannot
 separate those from a single source sprite.
 
-The initial review value is reference=(40,87.5). The native owner has compared horizontal
-y86 and y87.5 using the same value across all ten frames. Final selection follows
-actual movement and contact appearance; no extra sweep is required for a subpixel
-theoretical optimum. Record the chosen value and native evidence. For y87.5 the actor-relative reference is
-(24,23.5). x40 is a documented coordinate reference, not an inferred physical root.
+The selected joint-preview reference is (40,86), slope 0, giving actor-relative
+reference (24,22). It is used unchanged through all ten idle/walk phases in
+`scripts/art_preview.gd`. Native comparisons used y86 and y87.5; 86 was selected for
+its observed contact appearance and stable movement, not because it is the exact
+minimax value 86.5. No further subpixel sweep was required.
+
+Native evidence includes the all-ten-phase comparison, an actual two-cell SE route
+lasting 64 ticks through 56→51 and back to idle, and front/back tree probes. Evidence
+is retained in `/workspace/shared/legend-rebuild-r5/walk-ground-long-route.jpg` and
+`walk-cold-combined.log`; the production preview is documented in
+`docs/SE_IDLE_WALK_ART_PREVIEW.md`. The small 51 foot/shadow interval remains an
+acknowledged 2D approximation boundary, not a reason to move or deform the body.
 
 ## Pixel convention and bounded visible error
 
@@ -127,8 +135,9 @@ Run headless with a writable HOME/XDG_DATA_HOME as described in the idle contrac
 - `tests/test_hero_fixed_receiver_shadow_source.py`: immutable walk/source/shader
   hashes, exposed checker evidence and row-index versus lower-edge convention
 
-Native acceptance still requires GPU rendering, all ten native-size phases,
-actual flat-ground movement, starting/stopping, same-phase shadow off/on, and real
-objects before/behind the actor. It must assess the high-screen idle foot and 51/55
-lower-boot residuals explicitly. There is no stairs, platform, elevation, geometric
-receiver, arbitrary direction, original EXE movement, or full walking-physics claim.
+The runtime owner completed GPU rendering, all ten native-size phases, a 64-tick
+actual flat-ground route including 56→51, starting/stopping, same-phase off/on and
+real front/back object checks for the selected y86 preview. This does not extend
+to stairs, platforms, elevation, geometric receivers, arbitrary directions,
+original EXE movement equivalence or full walking physics. Future changes must
+recheck high-screen idle-foot appearance and 51/55 lower-boot residuals.

@@ -2,10 +2,14 @@ extends Node2D
 const World=preload("res://scripts/art/preview_world_pass.gd")
 const Movement=preload("res://scripts/core/movement.gd")
 const Shadow=preload("res://scripts/art/hero_alpha_ground_shadow.gd")
+const TreeShadow=preload("res://scripts/art/selected_tree_shadow.gd")
 const ATLAS="res://assets/scifi/hero/se_idle_v1/body.png"
 var worlds:Array=[]
 var actor=Movement.new()
 var shadow=Shadow.new()
+var tree_shadow=TreeShadow.new()
+var tree_cast_ready:=false
+var tree_cast_on:=true
 var body=Node2D.new()
 var atlas:Texture2D
 var walk_atlas:Texture2D
@@ -40,7 +44,9 @@ func _ready() -> void:
 		tree_ready=w.prepare_tree() and tree_ready
 		worlds.append(w)
 	actor.position=Vector2(60,41)
+	tree_cast_ready=tree_shadow.prepare()
 	add_child(worlds[0])
+	add_child(tree_shadow)
 	add_child(shadow)
 	add_child(worlds[1])
 	body.draw.connect(draw_body)
@@ -74,8 +80,11 @@ func refresh() -> void:
 		w.camera=actor.position
 		w.tick=0
 		w.temple_enabled=temple_on and temple_ready
-		w.tree_enabled=tree_on and tree_ready
 		w.queue_redraw()
+	var tree_ok=tree_ready and tree_cast_ready and tree_shadow.configure_at(worlds[0].screen_origin())
+	if not tree_ok:tree_on=false
+	for w in worlds:w.tree_enabled=tree_on and tree_ok
+	tree_shadow.visible=tree_on and tree_cast_on and tree_ok
 	var origin=worlds[0].screen_origin()+actor.position*Vector2(48,32)-Vector2(16,64)
 	var tex=selected_texture()
 	var index=frame_index()
@@ -84,8 +93,8 @@ func refresh() -> void:
 	shadow.visible=new_body and shadow_on and ok
 	body.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR if new_body and linear else CanvasItem.TEXTURE_FILTER_NEAREST
 	body.queue_redraw()
-	label.text="ART PREVIEW E/SE/S idle + SE walk | cell%s frame%d new%s shadow%s linear%s\n1 E / 2 SE / 3 S | C idle cycle / P phase / M SE route | B source / S shadow / L filter\nT temple / F5 temple view | G first tree / F6 tree front | F2 back / F3 front / F4 road\nFixed ground86; building/tree cast and platform receivers are not included."%[actor.position,phase,new_body,shadow.visible,linear]
-	print("R5_DEPTH_STATE ",JSON.stringify({"cell":[actor.position.x,actor.position.y],"phase":phase,"new":new_body,"shadow":shadow.visible,"linear":linear,"cycle":cycling,"temple":temple_on and temple_ready,"tree":tree_on and tree_ready}))
+	label.text="ART PREVIEW E/SE/S idle + SE walk | cell%s frame%d new%s shadow%s linear%s\n1 E / 2 SE / 3 S | C idle cycle / P phase / M SE route | B source / S shadow / L filter\nT temple / F5 view | G tree+cast / H tree cast / F6 tree front | F2 back / F3 front / F4 road\nHero ground86; one selected tree ground cast. Building cast / platform receivers not included."%[actor.position,phase,new_body,shadow.visible,linear]
+	print("R5_DEPTH_STATE ",JSON.stringify({"cell":[actor.position.x,actor.position.y],"phase":phase,"new":new_body,"shadow":shadow.visible,"linear":linear,"cycle":cycling,"temple":temple_on and temple_ready,"tree":tree_on and tree_ready,"tree_cast":tree_shadow.visible}))
 func _physics_process(delta:float) -> void:
 	if moving:
 		actor.step(delta)
@@ -107,6 +116,7 @@ func _unhandled_input(event:InputEvent) -> void:
 		KEY_2:idle_start=13;phase=13;actor.direction=3
 		KEY_3:idle_start=17;phase=17;actor.direction=4
 		KEY_T:temple_on=not temple_on if temple_ready else false
+		KEY_H:tree_cast_on=not tree_cast_on
 		KEY_G:tree_on=not tree_on if tree_ready else false
 		KEY_F6:actor.position=Vector2(57,35);new_body=false
 		KEY_F5:actor.position=Vector2(66,35);new_body=false
