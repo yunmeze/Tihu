@@ -1,0 +1,53 @@
+{
+  "status": "plan_only_new_part_generation_pending",
+  "base_identity_source": "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_hero_e_idle_v1/body-density4.png",
+  "identity_crops_logical": {
+    "head_identity": [
+      32,
+      14,
+      48,
+      29
+    ],
+    "torso_waist_identity": [
+      31,
+      25,
+      49,
+      49
+    ],
+    "sleeve_forearm_glove_identity": [
+      30,
+      29,
+      41,
+      56
+    ],
+    "trouser_boot_material_identity": [
+      29,
+      47,
+      50,
+      88
+    ]
+  },
+  "five_art_items": [
+    "shared_head_torso_waist",
+    "near_arm46_whole_sleeve_guard_hand",
+    "near_arm49_whole_sleeve_guard_hand",
+    "lower_pair46_pelvis_to_both_boots",
+    "lower_pair49_pelvis_to_both_boots"
+  ],
+  "display_inputs": [
+    {
+      "path": "approved-E-idle-design-only.png",
+      "sha256": "5a7108561f9c8aec39a25de76a4e5fea6d4ce5148e3649af5ad938724f749d38"
+    },
+    {
+      "path": "approved-E-idle9-HD4-full128.png",
+      "sha256": "e4b4e5af889473190c4ba00dbac24efce0afae666a7053f9238f0ffe8a53b157"
+    },
+    {
+      "path": "source46-left49-right-full128-6x.png",
+      "sha256": "564f19762d2db56e96a9daab8171ed73be02952ec500192cd8775ebbeb05e640"
+    }
+  ],
+  "rig_scope": "future separate diagnostic only, no runtime changes",
+  "input_transform": "source full128 nearest6; idle HD4 full128; identity fragment image is design only"
+}

@@ -6,7 +6,7 @@ func setup(actor:RefCounted,map_path:String="res://data/maps/A13.json") -> bool:
 	candidate_texture=null;candidate_ready=false;walk_texture=null;walk_ready=false;e_idle_texture=null;e_idle_ready=false;s_idle_texture=null;s_idle_ready=false;idle_shadow_bound=false;walk_shadow_bound=false
 	fangzhang_texture=null;lingyunzi_texture=null;tree_owners={};shrub_owners={};hall_owners={};ground_owners={};upright_groups=[{},{}];translated_shrub_groups=[{},{}];grass_groups=[{},{}]
 	hero_shadow.clear_frame();fangzhang_shadow.clear_frame();fangzhang_shadow_gate.ready=false
-	lingyunzi_shadow.clear_frame();first_tree_shadow.clear_frame();shadow_compositor.clear_frame();receiver_v2.reset()
+	lingyunzi_shadow.clear_frame();first_tree_shadow.clear_frame();shadow_compositor.clear_frame();receiver_v2.reset();left_upright_shadow.clear_frame();left_upright_gate.reset()
 	flat_map_bound=false
 	var ok=super.setup(actor,map_path)
 	flat_map_bound=ok and map_path=="res://data/maps/A13.json" and FileAccess.get_sha256(map_path)=="d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27"
@@ -236,6 +236,8 @@ var prefer_shadow:=true
 var lingyunzi_shadow=DensityShadow.new()
 var first_tree_shadow=DensityShadow.new()
 var receiver_v2=preload("res://scripts/earth/receiver_v2_gate.gd").new()
+var left_upright_shadow=preload("res://scripts/earth/raw_ground_shadow.gd").new()
+var left_upright_gate=preload("res://scripts/earth/left_upright_shadow_gate.gd").new()
 var shadow_compositor=preload("res://scripts/earth/max_ground_shadow.gd").new()
 func _ready():
 	floor_pass.world=self;floor_pass.z_index=-2;floor_pass.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST;add_child(floor_pass)
@@ -244,12 +246,17 @@ func _ready():
 	flat_gate.prepare();fangzhang_shadow_gate.prepare()
 	lingyunzi_shadow.z_index=-1;add_child(lingyunzi_shadow)
 	first_tree_shadow.z_index=-1;add_child(first_tree_shadow)
+	add_child(left_upright_shadow);left_upright_gate.prepare(map)
 	add_child(shadow_compositor);shadow_compositor.prepare();receiver_v2.prepare(map)
 func refresh() -> void:
-	super.refresh();floor_pass.queue_redraw();update_shadow();update_fangzhang_shadow();update_receiver_shadows()
-	shadow_compositor.configure([hero_shadow,fangzhang_shadow,lingyunzi_shadow,first_tree_shadow])
+	super.refresh();floor_pass.queue_redraw();update_shadow();update_fangzhang_shadow();update_receiver_shadows();update_left_upright_shadow()
+	shadow_compositor.configure([hero_shadow,fangzhang_shadow,lingyunzi_shadow,first_tree_shadow,left_upright_shadow])
 	# Descriptor helpers retain configurations, never their old draw pass.
-	for node in [hero_shadow,fangzhang_shadow,lingyunzi_shadow,first_tree_shadow]:node.visible=false
+	for node in [hero_shadow,fangzhang_shadow,lingyunzi_shadow,first_tree_shadow,left_upright_shadow]:node.visible=false
+func update_left_upright_shadow() -> void:
+	left_upright_shadow.clear_frame()
+	if not prefer_shadow or not prefer_tree or not flat_map_bound or not left_upright_gate.matches(map,objects,upright_groups[0]):return
+	left_upright_shadow.prepare(left_upright_gate.texture,Vector2(2311.5555555555557,1030.6666666666667)+screen_origin())
 func update_shadow() -> void:
 	var frame=movement.source_frame()
 	var supported=(movement.action=="idle" and frame>=13 and frame<=16) or (movement.action=="walk" and frame>=51 and frame<=56)

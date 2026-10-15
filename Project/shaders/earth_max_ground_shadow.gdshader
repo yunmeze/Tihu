@@ -86,5 +86,26 @@ float caster3(vec2 v){
  for(int y=-1;y<=1;y++)for(int x=-1;x<=1;x++){float w=(x==0?2.:1.)*(y==0?2.:1.);a+=w*sample3(q+vec2(float(x),float(y))*blur3);}
  return clamp(a/16.,0.,1.)*clamp(opacity3,0.,.42);
 }
+uniform bool active4=false;
+uniform sampler2D atlas4:filter_linear,repeat_disable;
+uniform vec2 size4;
+uniform vec4 region4;
+uniform vec2 bx4;uniform vec2 by4;uniform vec2 bo4;
+uniform vec2 px4;uniform vec2 py4;uniform vec2 po4;
+uniform vec4 bounds4;
+uniform float blur4;uniform float opacity4;
+float sample4(vec2 q){
+ vec2 p=px4*q.x+py4*q.y+po4;
+ if(any(lessThan(p,vec2(0.)))||any(greaterThanEqual(p,region4.zw)))return 0.;
+ return textureLod(atlas4,(region4.xy+clamp(p,vec2(.5),region4.zw-vec2(.5)))/size4,0.).a;
+}
+float caster4(vec2 v){
+ if(!active4)return 0.;
+ vec2 q=bx4*v.x+by4*v.y+bo4;
+ if(any(lessThan(q,bounds4.xy))||any(greaterThanEqual(q,bounds4.xy+bounds4.zw)))return 0.;
+ float a=0.;
+ for(int y=-1;y<=1;y++)for(int x=-1;x<=1;x++){float w=(x==0?2.:1.)*(y==0?2.:1.);a+=w*sample4(q+vec2(float(x),float(y))*blur4);}
+ return clamp(a/16.,0.,1.)*clamp(opacity4,0.,.42);
+}
 void vertex(){logical_position=VERTEX;}
-void fragment(){float a=max(max(caster0(logical_position),caster1(logical_position)),max(caster2(logical_position),caster3(logical_position)));COLOR=vec4(tint.rgb,a);}
+void fragment(){float a=max(max(caster0(logical_position),caster1(logical_position)),max(caster2(logical_position),caster3(logical_position)));a=max(a,caster4(logical_position));COLOR=vec4(tint.rgb,a);}

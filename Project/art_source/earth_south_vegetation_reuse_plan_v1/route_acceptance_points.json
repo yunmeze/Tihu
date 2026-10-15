@@ -1,0 +1,1607 @@
+{
+  "method": "Read-only source flags, 8-neighbor no corner-cut BFS; not executed Godot A* or visual acceptance",
+  "groups": [
+    {
+      "instance": "upright_47_66",
+      "start_cell": [
+        61,
+        39
+      ],
+      "points": [
+        {
+          "id": "rear_before_trunk",
+          "desired_cell": [
+            47,
+            65
+          ],
+          "actual_reachable_cell": [
+            46,
+            65
+          ],
+          "adjusted_for_source_blocking": true,
+          "target_source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "route_from_previous": [
+            [
+              61,
+              39
+            ],
+            [
+              62,
+              40
+            ],
+            [
+              63,
+              41
+            ],
+            [
+              64,
+              42
+            ],
+            [
+              63,
+              43
+            ],
+            [
+              62,
+              44
+            ],
+            [
+              61,
+              45
+            ],
+            [
+              60,
+              46
+            ],
+            [
+              59,
+              47
+            ],
+            [
+              58,
+              48
+            ],
+            [
+              57,
+              49
+            ],
+            [
+              56,
+              50
+            ],
+            [
+              55,
+              51
+            ],
+            [
+              54,
+              52
+            ],
+            [
+              53,
+              53
+            ],
+            [
+              52,
+              54
+            ],
+            [
+              51,
+              55
+            ],
+            [
+              50,
+              56
+            ],
+            [
+              49,
+              57
+            ],
+            [
+              48,
+              58
+            ],
+            [
+              47,
+              59
+            ],
+            [
+              46,
+              60
+            ],
+            [
+              45,
+              61
+            ],
+            [
+              44,
+              62
+            ],
+            [
+              44,
+              63
+            ],
+            [
+              44,
+              64
+            ],
+            [
+              45,
+              64
+            ],
+            [
+              46,
+              65
+            ]
+          ],
+          "route_steps": 27,
+          "source_sort_relation": [
+            {
+              "frame_index": 299,
+              "owner_sort_y": 66,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 300,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 301,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 302,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 303,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 304,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": false
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        },
+        {
+          "id": "side_left",
+          "desired_cell": [
+            44,
+            67
+          ],
+          "actual_reachable_cell": [
+            44,
+            67
+          ],
+          "adjusted_for_source_blocking": false,
+          "target_source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "route_from_previous": [
+            [
+              46,
+              65
+            ],
+            [
+              45,
+              66
+            ],
+            [
+              44,
+              67
+            ]
+          ],
+          "route_steps": 2,
+          "source_sort_relation": [
+            {
+              "frame_index": 299,
+              "owner_sort_y": 66,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 300,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 301,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 302,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 303,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 304,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": false
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        },
+        {
+          "id": "middle_split_depth",
+          "desired_cell": [
+            47,
+            68
+          ],
+          "actual_reachable_cell": [
+            47,
+            68
+          ],
+          "adjusted_for_source_blocking": false,
+          "target_source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "route_from_previous": [
+            [
+              44,
+              67
+            ],
+            [
+              45,
+              66
+            ],
+            [
+              46,
+              67
+            ],
+            [
+              47,
+              68
+            ]
+          ],
+          "route_steps": 3,
+          "source_sort_relation": [
+            {
+              "frame_index": 299,
+              "owner_sort_y": 66,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 300,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 301,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 302,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 303,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 304,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": false
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        },
+        {
+          "id": "front_crown_sort_tie",
+          "desired_cell": [
+            48,
+            70
+          ],
+          "actual_reachable_cell": [
+            48,
+            70
+          ],
+          "adjusted_for_source_blocking": false,
+          "target_source_cell": [
+            -406,
+            0,
+            2,
+            302
+          ],
+          "route_from_previous": [
+            [
+              47,
+              68
+            ],
+            [
+              48,
+              69
+            ],
+            [
+              48,
+              70
+            ]
+          ],
+          "route_steps": 2,
+          "source_sort_relation": [
+            {
+              "frame_index": 299,
+              "owner_sort_y": 66,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 300,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 301,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 302,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 303,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 304,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": true
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        },
+        {
+          "id": "front_after_all",
+          "desired_cell": [
+            47,
+            71
+          ],
+          "actual_reachable_cell": [
+            47,
+            71
+          ],
+          "adjusted_for_source_blocking": false,
+          "target_source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "route_from_previous": [
+            [
+              48,
+              70
+            ],
+            [
+              47,
+              71
+            ]
+          ],
+          "route_steps": 1,
+          "source_sort_relation": [
+            {
+              "frame_index": 299,
+              "owner_sort_y": 66,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 300,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 301,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 302,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 303,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 304,
+              "owner_sort_y": 70,
+              "actor_after_owner_at_same_layer": true
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        }
+      ],
+      "total_steps": 35,
+      "camera_requirement": "Follow or separately labeled audit camera; include whole actor and relevant full group. World-fixed window cannot contain all cross-edge tests.",
+      "shadow_requirement": "All four NEW candidate instances remain without cast in every state; do not disable or copy existing scene casters."
+    },
+    {
+      "instance": "upright_55_57",
+      "start_cell": [
+        61,
+        39
+      ],
+      "points": [
+        {
+          "id": "rear_before_trunk",
+          "desired_cell": [
+            55,
+            56
+          ],
+          "actual_reachable_cell": [
+            54,
+            56
+          ],
+          "adjusted_for_source_blocking": true,
+          "target_source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "route_from_previous": [
+            [
+              61,
+              39
+            ],
+            [
+              62,
+              40
+            ],
+            [
+              63,
+              41
+            ],
+            [
+              64,
+              42
+            ],
+            [
+              63,
+              43
+            ],
+            [
+              62,
+              44
+            ],
+            [
+              61,
+              45
+            ],
+            [
+              60,
+              46
+            ],
+            [
+              59,
+              47
+            ],
+            [
+              58,
+              48
+            ],
+            [
+              57,
+              49
+            ],
+            [
+              56,
+              50
+            ],
+            [
+              56,
+              51
+            ],
+            [
+              56,
+              52
+            ],
+            [
+              56,
+              53
+            ],
+            [
+              55,
+              54
+            ],
+            [
+              54,
+              55
+            ],
+            [
+              54,
+              56
+            ]
+          ],
+          "route_steps": 17,
+          "source_sort_relation": [
+            {
+              "frame_index": 299,
+              "owner_sort_y": 57,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 300,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 301,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 302,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 303,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 304,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": false
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        },
+        {
+          "id": "side_left",
+          "desired_cell": [
+            52,
+            58
+          ],
+          "actual_reachable_cell": [
+            52,
+            58
+          ],
+          "adjusted_for_source_blocking": false,
+          "target_source_cell": [
+            -386,
+            0,
+            0,
+            0
+          ],
+          "route_from_previous": [
+            [
+              54,
+              56
+            ],
+            [
+              53,
+              57
+            ],
+            [
+              52,
+              58
+            ]
+          ],
+          "route_steps": 2,
+          "source_sort_relation": [
+            {
+              "frame_index": 299,
+              "owner_sort_y": 57,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 300,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 301,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 302,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 303,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 304,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": false
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        },
+        {
+          "id": "middle_split_depth",
+          "desired_cell": [
+            55,
+            59
+          ],
+          "actual_reachable_cell": [
+            55,
+            59
+          ],
+          "adjusted_for_source_blocking": false,
+          "target_source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "route_from_previous": [
+            [
+              52,
+              58
+            ],
+            [
+              53,
+              57
+            ],
+            [
+              54,
+              58
+            ],
+            [
+              55,
+              59
+            ]
+          ],
+          "route_steps": 3,
+          "source_sort_relation": [
+            {
+              "frame_index": 299,
+              "owner_sort_y": 57,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 300,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 301,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 302,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 303,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 304,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": false
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        },
+        {
+          "id": "front_crown_sort_tie",
+          "desired_cell": [
+            56,
+            61
+          ],
+          "actual_reachable_cell": [
+            56,
+            61
+          ],
+          "adjusted_for_source_blocking": false,
+          "target_source_cell": [
+            0,
+            0,
+            2,
+            302
+          ],
+          "route_from_previous": [
+            [
+              55,
+              59
+            ],
+            [
+              56,
+              60
+            ],
+            [
+              56,
+              61
+            ]
+          ],
+          "route_steps": 2,
+          "source_sort_relation": [
+            {
+              "frame_index": 299,
+              "owner_sort_y": 57,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 300,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 301,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 302,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 303,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 304,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": true
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        },
+        {
+          "id": "front_after_all",
+          "desired_cell": [
+            55,
+            62
+          ],
+          "actual_reachable_cell": [
+            55,
+            62
+          ],
+          "adjusted_for_source_blocking": false,
+          "target_source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "route_from_previous": [
+            [
+              56,
+              61
+            ],
+            [
+              55,
+              62
+            ]
+          ],
+          "route_steps": 1,
+          "source_sort_relation": [
+            {
+              "frame_index": 299,
+              "owner_sort_y": 57,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 300,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 301,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 302,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 303,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 304,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": true
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        }
+      ],
+      "total_steps": 25,
+      "camera_requirement": "Follow or separately labeled audit camera; include whole actor and relevant full group. World-fixed window cannot contain all cross-edge tests.",
+      "shadow_requirement": "All four NEW candidate instances remain without cast in every state; do not disable or copy existing scene casters."
+    },
+    {
+      "instance": "upright_59_61",
+      "start_cell": [
+        61,
+        39
+      ],
+      "points": [
+        {
+          "id": "rear_before_trunk",
+          "desired_cell": [
+            59,
+            60
+          ],
+          "actual_reachable_cell": [
+            58,
+            60
+          ],
+          "adjusted_for_source_blocking": true,
+          "target_source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "route_from_previous": [
+            [
+              61,
+              39
+            ],
+            [
+              62,
+              40
+            ],
+            [
+              63,
+              41
+            ],
+            [
+              64,
+              42
+            ],
+            [
+              65,
+              43
+            ],
+            [
+              66,
+              44
+            ],
+            [
+              67,
+              45
+            ],
+            [
+              68,
+              46
+            ],
+            [
+              69,
+              47
+            ],
+            [
+              69,
+              48
+            ],
+            [
+              68,
+              49
+            ],
+            [
+              67,
+              50
+            ],
+            [
+              66,
+              51
+            ],
+            [
+              65,
+              52
+            ],
+            [
+              64,
+              53
+            ],
+            [
+              63,
+              54
+            ],
+            [
+              62,
+              55
+            ],
+            [
+              61,
+              56
+            ],
+            [
+              60,
+              57
+            ],
+            [
+              59,
+              58
+            ],
+            [
+              58,
+              59
+            ],
+            [
+              58,
+              60
+            ]
+          ],
+          "route_steps": 21,
+          "source_sort_relation": [
+            {
+              "frame_index": 299,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 300,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 301,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 302,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 303,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 304,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": false
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        },
+        {
+          "id": "side_left",
+          "desired_cell": [
+            56,
+            62
+          ],
+          "actual_reachable_cell": [
+            56,
+            62
+          ],
+          "adjusted_for_source_blocking": false,
+          "target_source_cell": [
+            -413,
+            0,
+            0,
+            0
+          ],
+          "route_from_previous": [
+            [
+              58,
+              60
+            ],
+            [
+              57,
+              61
+            ],
+            [
+              56,
+              62
+            ]
+          ],
+          "route_steps": 2,
+          "source_sort_relation": [
+            {
+              "frame_index": 299,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 300,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 301,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 302,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 303,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 304,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": false
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        },
+        {
+          "id": "middle_split_depth",
+          "desired_cell": [
+            59,
+            63
+          ],
+          "actual_reachable_cell": [
+            59,
+            63
+          ],
+          "adjusted_for_source_blocking": false,
+          "target_source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "route_from_previous": [
+            [
+              56,
+              62
+            ],
+            [
+              57,
+              61
+            ],
+            [
+              58,
+              62
+            ],
+            [
+              59,
+              63
+            ]
+          ],
+          "route_steps": 3,
+          "source_sort_relation": [
+            {
+              "frame_index": 299,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 300,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 301,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 302,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 303,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 304,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": false
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        },
+        {
+          "id": "front_crown_sort_tie",
+          "desired_cell": [
+            60,
+            65
+          ],
+          "actual_reachable_cell": [
+            60,
+            65
+          ],
+          "adjusted_for_source_blocking": false,
+          "target_source_cell": [
+            0,
+            0,
+            2,
+            302
+          ],
+          "route_from_previous": [
+            [
+              59,
+              63
+            ],
+            [
+              60,
+              64
+            ],
+            [
+              60,
+              65
+            ]
+          ],
+          "route_steps": 2,
+          "source_sort_relation": [
+            {
+              "frame_index": 299,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 300,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 301,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 302,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 303,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 304,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": true
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        },
+        {
+          "id": "front_after_all",
+          "desired_cell": [
+            59,
+            66
+          ],
+          "actual_reachable_cell": [
+            59,
+            66
+          ],
+          "adjusted_for_source_blocking": false,
+          "target_source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "route_from_previous": [
+            [
+              60,
+              65
+            ],
+            [
+              59,
+              66
+            ]
+          ],
+          "route_steps": 1,
+          "source_sort_relation": [
+            {
+              "frame_index": 299,
+              "owner_sort_y": 61,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 300,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 301,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 302,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 303,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 304,
+              "owner_sort_y": 65,
+              "actor_after_owner_at_same_layer": true
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        }
+      ],
+      "total_steps": 29,
+      "camera_requirement": "Follow or separately labeled audit camera; include whole actor and relevant full group. World-fixed window cannot contain all cross-edge tests.",
+      "shadow_requirement": "All four NEW candidate instances remain without cast in every state; do not disable or copy existing scene casters."
+    },
+    {
+      "instance": "shrub_58_51",
+      "start_cell": [
+        61,
+        39
+      ],
+      "points": [
+        {
+          "id": "rear_before_shadow_owner",
+          "desired_cell": [
+            58,
+            47
+          ],
+          "actual_reachable_cell": [
+            58,
+            47
+          ],
+          "adjusted_for_source_blocking": false,
+          "target_source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "route_from_previous": [
+            [
+              61,
+              39
+            ],
+            [
+              62,
+              40
+            ],
+            [
+              63,
+              41
+            ],
+            [
+              63,
+              42
+            ],
+            [
+              62,
+              43
+            ],
+            [
+              61,
+              44
+            ],
+            [
+              60,
+              45
+            ],
+            [
+              59,
+              46
+            ],
+            [
+              58,
+              47
+            ]
+          ],
+          "route_steps": 8,
+          "source_sort_relation": [
+            {
+              "frame_index": 143,
+              "owner_sort_y": 48,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 144,
+              "owner_sort_y": 51,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 145,
+              "owner_sort_y": 51,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 146,
+              "owner_sort_y": 51,
+              "actor_after_owner_at_same_layer": false
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        },
+        {
+          "id": "middle_split_depth",
+          "desired_cell": [
+            58,
+            50
+          ],
+          "actual_reachable_cell": [
+            57,
+            50
+          ],
+          "adjusted_for_source_blocking": true,
+          "target_source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "route_from_previous": [
+            [
+              58,
+              47
+            ],
+            [
+              58,
+              48
+            ],
+            [
+              57,
+              49
+            ],
+            [
+              57,
+              50
+            ]
+          ],
+          "route_steps": 3,
+          "source_sort_relation": [
+            {
+              "frame_index": 143,
+              "owner_sort_y": 48,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 144,
+              "owner_sort_y": 51,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 145,
+              "owner_sort_y": 51,
+              "actor_after_owner_at_same_layer": false
+            },
+            {
+              "frame_index": 146,
+              "owner_sort_y": 51,
+              "actor_after_owner_at_same_layer": false
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        },
+        {
+          "id": "side_left",
+          "desired_cell": [
+            56,
+            51
+          ],
+          "actual_reachable_cell": [
+            56,
+            51
+          ],
+          "adjusted_for_source_blocking": false,
+          "target_source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "route_from_previous": [
+            [
+              57,
+              50
+            ],
+            [
+              56,
+              50
+            ],
+            [
+              56,
+              51
+            ]
+          ],
+          "route_steps": 2,
+          "source_sort_relation": [
+            {
+              "frame_index": 143,
+              "owner_sort_y": 48,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 144,
+              "owner_sort_y": 51,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 145,
+              "owner_sort_y": 51,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 146,
+              "owner_sort_y": 51,
+              "actor_after_owner_at_same_layer": true
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        },
+        {
+          "id": "front_sort_tie",
+          "desired_cell": [
+            60,
+            51
+          ],
+          "actual_reachable_cell": [
+            60,
+            51
+          ],
+          "adjusted_for_source_blocking": false,
+          "target_source_cell": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "route_from_previous": [
+            [
+              56,
+              51
+            ],
+            [
+              56,
+              50
+            ],
+            [
+              57,
+              49
+            ],
+            [
+              58,
+              48
+            ],
+            [
+              59,
+              49
+            ],
+            [
+              60,
+              50
+            ],
+            [
+              60,
+              51
+            ]
+          ],
+          "route_steps": 6,
+          "source_sort_relation": [
+            {
+              "frame_index": 143,
+              "owner_sort_y": 48,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 144,
+              "owner_sort_y": 51,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 145,
+              "owner_sort_y": 51,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 146,
+              "owner_sort_y": 51,
+              "actor_after_owner_at_same_layer": true
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        },
+        {
+          "id": "front_after_all",
+          "desired_cell": [
+            58,
+            52
+          ],
+          "actual_reachable_cell": [
+            58,
+            52
+          ],
+          "adjusted_for_source_blocking": false,
+          "target_source_cell": [
+            -406,
+            0,
+            0,
+            0
+          ],
+          "route_from_previous": [
+            [
+              60,
+              51
+            ],
+            [
+              60,
+              52
+            ],
+            [
+              59,
+              53
+            ],
+            [
+              58,
+              52
+            ]
+          ],
+          "route_steps": 3,
+          "source_sort_relation": [
+            {
+              "frame_index": 143,
+              "owner_sort_y": 48,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 144,
+              "owner_sort_y": 51,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 145,
+              "owner_sort_y": 51,
+              "actor_after_owner_at_same_layer": true
+            },
+            {
+              "frame_index": 146,
+              "owner_sort_y": 51,
+              "actor_after_owner_at_same_layer": true
+            }
+          ],
+          "visual_requirement": "At the same tick and source South17 pose, compare source/candidate. Sort relation is not proof of actual alpha overlap; runner must verify body/canopy silhouette exposure and may add reachable flank points without moving source objects."
+        }
+      ],
+      "total_steps": 22,
+      "camera_requirement": "Follow or separately labeled audit camera; include whole actor and relevant full group. World-fixed window cannot contain all cross-edge tests.",
+      "shadow_requirement": "All four NEW candidate instances remain without cast in every state; do not disable or copy existing scene casters."
+    }
+  ]
+}

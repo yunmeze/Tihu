@@ -73,10 +73,10 @@ func _physics_process(delta:float) -> void:
 	world.tick+=1;world.refresh();update_hud()
 func update_hud() -> void:
 	hud.visible=show_hud
-	hud.text="EARTH ENTRANCE CANDIDATE: 18 NEW E/S IDLE + SE IDLE/WALK FRAMES / OTHER ACTIONS SOURCE\n1536x1024 raster / 768x512 logical | Hall + two NPCs + three trees/three shrubs/two grass groups / other art source | Four bounded casts: one max-alpha light; Ling/tree require valid new hall.\nClick A* | Shift run | Space stop | F follow | G grid | H HUD | B actor | P ground | T hall | S new shadows | N NPCs | V trees | J shrubs | K grass\nCamera: %s | actor %s | Outside sample remains source."%["FOLLOW" if ready_ok and world.follow_actor else "FIXED [2496,960,768,512]",actor.position]
+	hud.text="EARTH ENTRANCE CANDIDATE: 18 NEW E/S IDLE + SE IDLE/WALK FRAMES / OTHER ACTIONS SOURCE\n1536x1024 raster / 768x512 logical | Hall + two NPCs + three trees/three shrubs/two grass groups / other art source | Five bounded casts: one max-alpha light; Ling/first tree require valid new hall; left upright uses its own patch.\nClick A* | Shift run | Space stop | F follow | G grid | H HUD | B actor | P ground | T hall | S new shadows | N NPCs | V trees | J shrubs | K grass\nCamera: %s | actor %s | Outside sample remains source."%["FOLLOW" if ready_ok and world.follow_actor else "FIXED [2496,960,768,512]",actor.position]
 	if ready_ok:hud.text+="\nSE idle ready %s / preferred %s / active %s"%[world.candidate_ready,world.prefer_candidate,world.uses_candidate(actor.source_frame())]
 	if ready_ok:hud.text+=" / walk6 %s / ground64 %s / hall30 %s"%[world.walk_ready,world.prefer_ground and world.ground_owners.size()==64,world.prefer_hall and world.hall_owners.size()==30]
-	if ready_ok:hud.text+=" / max-shadow slots SE/Fang/Ling/tree %s"%[world.shadow_compositor.active_slots]
+	if ready_ok:hud.text+=" / max-shadow slots SE/Fang/Ling/first/left %s"%[world.shadow_compositor.active_slots]
 	if ready_ok:hud.text+=" / Fangzhang %s"%[world.prefer_fangzhang and world.fangzhang_texture!=null]
 	if ready_ok:hud.text+=" / tree7 %s upright6/6 %s/%s"%[world.prefer_tree and world.tree_owners.size()==7,world.prefer_tree and world.upright_groups[0].size()==6,world.prefer_tree and world.upright_groups[1].size()==6]
 	if ready_ok:hud.text+=" / Lingyunzi %s"%[world.prefer_npcs and world.lingyunzi_texture!=null]

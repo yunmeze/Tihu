@@ -1,0 +1,299 @@
+{
+  "status": "detached planning only",
+  "review_window_xyxy": [
+    2400,
+    1408,
+    3168,
+    1920
+  ],
+  "new_groups": [
+    {
+      "id": "upright_47_66",
+      "family": "tree",
+      "root_cell": [
+        47,
+        66
+      ],
+      "owner_count": 6,
+      "source_bounds_xyxy": [
+        2167,
+        1832,
+        2448,
+        2130
+      ],
+      "crosses_window": true,
+      "whole_registration": {
+        "scale": 0.2222222222222222,
+        "world_top_left": [
+          2167.5555555555557,
+          1830.6666666666667
+        ],
+        "rotation": 0,
+        "shear": 0,
+        "root_raw_xy": [
+          560,
+          1329
+        ],
+        "root_world_xy": [
+          2292,
+          2126
+        ],
+        "manual_root_uncertainty_raw_px": 9,
+        "source_root_uncertainty_logical_px": 4
+      },
+      "world_translation": [
+        -672,
+        480
+      ],
+      "full_source_cell_equal": false,
+      "source_cell_differences": [
+        {
+          "frame_index": 301,
+          "baseline": [
+            0,
+            0,
+            2,
+            301
+          ],
+          "target": [
+            -406,
+            0,
+            2,
+            301
+          ]
+        },
+        {
+          "frame_index": 302,
+          "baseline": [
+            0,
+            0,
+            2,
+            302
+          ],
+          "target": [
+            -406,
+            0,
+            2,
+            302
+          ]
+        },
+        {
+          "frame_index": 304,
+          "baseline": [
+            0,
+            0,
+            2,
+            304
+          ],
+          "target": [
+            -406,
+            0,
+            2,
+            304
+          ]
+        }
+      ],
+      "candidate_registration": "registration_upright_47_66.json",
+      "candidate_registration_sha256": "2fe62220cc35c3c736e5987e78b05c97936582a6852f6842ed081abbdf99d7ce"
+    },
+    {
+      "id": "upright_55_57",
+      "family": "tree",
+      "root_cell": [
+        55,
+        57
+      ],
+      "owner_count": 6,
+      "source_bounds_xyxy": [
+        2551,
+        1544,
+        2832,
+        1842
+      ],
+      "crosses_window": false,
+      "whole_registration": {
+        "scale": 0.2222222222222222,
+        "world_top_left": [
+          2551.5555555555557,
+          1542.6666666666667
+        ],
+        "rotation": 0,
+        "shear": 0,
+        "root_raw_xy": [
+          560,
+          1329
+        ],
+        "root_world_xy": [
+          2676,
+          1838
+        ],
+        "manual_root_uncertainty_raw_px": 9,
+        "source_root_uncertainty_logical_px": 4
+      },
+      "world_translation": [
+        -288,
+        192
+      ],
+      "full_source_cell_equal": true,
+      "source_cell_differences": [],
+      "candidate_registration": "registration_upright_55_57.json",
+      "candidate_registration_sha256": "dcb6ecf754f23b61138b856e4af9b71e1f58df6b9fb42b122ccc1f75c3930c31"
+    },
+    {
+      "id": "upright_59_61",
+      "family": "tree",
+      "root_cell": [
+        59,
+        61
+      ],
+      "owner_count": 6,
+      "source_bounds_xyxy": [
+        2743,
+        1672,
+        3024,
+        1970
+      ],
+      "crosses_window": true,
+      "whole_registration": {
+        "scale": 0.2222222222222222,
+        "world_top_left": [
+          2743.5555555555557,
+          1670.6666666666667
+        ],
+        "rotation": 0,
+        "shear": 0,
+        "root_raw_xy": [
+          560,
+          1329
+        ],
+        "root_world_xy": [
+          2868,
+          1966
+        ],
+        "manual_root_uncertainty_raw_px": 9,
+        "source_root_uncertainty_logical_px": 4
+      },
+      "world_translation": [
+        -96,
+        320
+      ],
+      "full_source_cell_equal": true,
+      "source_cell_differences": [],
+      "candidate_registration": "registration_upright_59_61.json",
+      "candidate_registration_sha256": "0561ec86d30545b078c578867f43c158e0fadd5fffe8105e8add7a63514e50ad"
+    },
+    {
+      "id": "shrub_58_51",
+      "family": "shrub",
+      "root_cell": [
+        58,
+        51
+      ],
+      "owner_count": 4,
+      "source_bounds_xyxy": [
+        2743,
+        1559,
+        2867,
+        1664
+      ],
+      "crosses_window": false,
+      "whole_registration": {
+        "scale": 0.09090909090909091,
+        "world_top_left": [
+          2743.0,
+          1557.0
+        ],
+        "rotation": 0,
+        "shear": 0,
+        "physical_root": null,
+        "registration_basis": "Source lower green leaf support band; candidate manual rawband440,1060..1040,1120 maps to source-local40,94.36..94.55,99.82 with origin y=-2logical. No bbox-bottom/root anchor.",
+        "manual_candidate_band_uncertainty_raw_px": 15,
+        "source_band_approximate": true
+      },
+      "world_translation": [
+        48,
+        416
+      ],
+      "full_source_cell_equal": false,
+      "source_cell_differences": [
+        {
+          "frame_index": 143,
+          "baseline": [
+            0,
+            0,
+            2,
+            143
+          ],
+          "target": [
+            -406,
+            0,
+            2,
+            143
+          ]
+        },
+        {
+          "frame_index": 144,
+          "baseline": [
+            -406,
+            -1,
+            2,
+            144
+          ],
+          "target": [
+            0,
+            -1,
+            2,
+            144
+          ]
+        },
+        {
+          "frame_index": 146,
+          "baseline": [
+            -577,
+            -1,
+            2,
+            146
+          ],
+          "target": [
+            0,
+            -1,
+            2,
+            146
+          ]
+        }
+      ],
+      "candidate_registration": "registration_shrub_58_51.json",
+      "candidate_registration_sha256": "f3cb1f9e6d7359b82b2da3c598572a0d2b0db51df6918413bdafe13531337048"
+    }
+  ],
+  "new_owner_count": 22,
+  "existing_context_only": [
+    {
+      "family": "tree",
+      "root": [
+        61,
+        51
+      ]
+    },
+    {
+      "family": "shrub",
+      "root": [
+        51,
+        44
+      ]
+    },
+    {
+      "family": "shrub",
+      "root": [
+        64,
+        45
+      ]
+    }
+  ],
+  "shadow_policy": {
+    "new_groups_enabled": false,
+    "observed_sample_world_sha256": "c2a39897383d2e1291e76966dc785f64fc78b29f2336827856b0647026c4d6d8",
+    "observed_configuration_line": "shadow_compositor.configure([hero_shadow,fangzhang_shadow,lingyunzi_shadow,first_tree_shadow,left_upright_shadow])",
+    "baseline_discrepancy": "Parent mentioned four casters; current source contains five. Freeze with sole runner; this plan does not alter existing slots."
+  }
+}

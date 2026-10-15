@@ -1,0 +1,227 @@
+{
+  "schema": "earth-round-shrub-candidate-registration-v1",
+  "status": "DETACHED RESEARCH CANDIDATE ONLY; not runtime integrated or visually accepted",
+  "raw_texture": "res://assets/earth/environment/round_shrub_v1/whole-review.png",
+  "raw_sha256": "1c495a5434e3ad92164f7e829ffc93809475fb730c555b609896f09986427e42",
+  "source_contract_sha256": "f89127f321471e1b40b7edb147c690b42bb9069fbb9b561935868626a9725211",
+  "source_map_sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+  "density": 11,
+  "whole_shrub_registration": {
+    "scale": 0.09090909090909091,
+    "world_top_left": [
+      2743.0,
+      1557.0
+    ],
+    "rotation": 0,
+    "shear": 0,
+    "physical_root": null,
+    "registration_basis": "Source lower green leaf support band; candidate manual rawband440,1060..1040,1120 maps to source-local40,94.36..94.55,99.82 with origin y=-2logical. No bbox-bottom/root anchor.",
+    "manual_candidate_band_uncertainty_raw_px": 15,
+    "source_band_approximate": true
+  },
+  "suppress_source_keys": [
+    "Plant:143@58,48",
+    "Plant:144@57,51",
+    "Plant:145@58,51",
+    "Plant:146@59,51"
+  ],
+  "owners": [
+    {
+      "pack": "Map/Res/Plant",
+      "key": "Plant:143@58,48",
+      "cell": [
+        58,
+        48
+      ],
+      "source_cell": [
+        -406,
+        0,
+        2,
+        143
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 48,
+      "stable_source_order": 5848,
+      "frame_index": 143,
+      "texture": "res://assets/earth/environment/round_shrub_v1/owner-143.png",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "sha256": "cb403b3fd286ff1c2ec1085902ff1203ec7ad6f47ceb4ae513352ecad110476d",
+      "texture_sha256": "cb403b3fd286ff1c2ec1085902ff1203ec7ad6f47ceb4ae513352ecad110476d",
+      "scale": 0.09090909090909091,
+      "world_top_left": [
+        2743.0,
+        1557.0
+      ],
+      "raw_rect": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "empty": false,
+      "visible_pixel_count": 23207,
+      "nonzero_rgba_pixel_count": 23240,
+      "assigned_raw_pixel_count": 71883
+    },
+    {
+      "pack": "Map/Res/Plant",
+      "key": "Plant:144@57,51",
+      "cell": [
+        57,
+        51
+      ],
+      "source_cell": [
+        0,
+        -1,
+        2,
+        144
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 51,
+      "stable_source_order": 5751,
+      "frame_index": 144,
+      "texture": "res://assets/earth/environment/round_shrub_v1/owner-144.png",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "sha256": "ab996e6449515eb2297fba8e33f0a3ef9dce4046652caa2901bc206ec0da3cd1",
+      "texture_sha256": "ab996e6449515eb2297fba8e33f0a3ef9dce4046652caa2901bc206ec0da3cd1",
+      "scale": 0.09090909090909091,
+      "world_top_left": [
+        2743.0,
+        1557.0
+      ],
+      "raw_rect": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "empty": false,
+      "visible_pixel_count": 304951,
+      "nonzero_rgba_pixel_count": 305061,
+      "assigned_raw_pixel_count": 514354
+    },
+    {
+      "pack": "Map/Res/Plant",
+      "key": "Plant:145@58,51",
+      "cell": [
+        58,
+        51
+      ],
+      "source_cell": [
+        0,
+        -1,
+        2,
+        145
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 51,
+      "stable_source_order": 5851,
+      "frame_index": 145,
+      "texture": "res://assets/earth/environment/round_shrub_v1/owner-145.png",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "sha256": "4314beb965f4e7c1a99f26546b13eda03dff49e134fb37d4ba97d02e4d7a271c",
+      "texture_sha256": "4314beb965f4e7c1a99f26546b13eda03dff49e134fb37d4ba97d02e4d7a271c",
+      "scale": 0.09090909090909091,
+      "world_top_left": [
+        2743.0,
+        1557.0
+      ],
+      "raw_rect": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "empty": false,
+      "visible_pixel_count": 519125,
+      "nonzero_rgba_pixel_count": 519160,
+      "assigned_raw_pixel_count": 546488
+    },
+    {
+      "pack": "Map/Res/Plant",
+      "key": "Plant:146@59,51",
+      "cell": [
+        59,
+        51
+      ],
+      "source_cell": [
+        0,
+        -1,
+        2,
+        146
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 51,
+      "stable_source_order": 5951,
+      "frame_index": 146,
+      "texture": "res://assets/earth/environment/round_shrub_v1/owner-146.png",
+      "texture_size": [
+        1363,
+        1154
+      ],
+      "sha256": "507a822bd45f359787a16c63804fae7a6ccab0d31c28655f10df10a890c35219",
+      "texture_sha256": "507a822bd45f359787a16c63804fae7a6ccab0d31c28655f10df10a890c35219",
+      "scale": 0.09090909090909091,
+      "world_top_left": [
+        2743.0,
+        1557.0
+      ],
+      "raw_rect": [
+        0,
+        0,
+        1363,
+        1154
+      ],
+      "empty": false,
+      "visible_pixel_count": 253195,
+      "nonzero_rgba_pixel_count": 253288,
+      "assigned_raw_pixel_count": 440177
+    }
+  ],
+  "partition": {
+    "method": "Reuse unchanged baseline fullcanvas owner partition, translated with the complete group; explicit empty owner remains present.",
+    "owner_labels": "res://assets/earth/environment/round_shrub_v1/owner-labels.png",
+    "owner_labels_sha256": "7a8b547f2f6c15b3852b2978983776220679c85701510765bb0360e250362047",
+    "all_rgba_bytes_equal": true
+  },
+  "shadow": "DISABLED for this candidate; no gate, receiver, mask, compositor slot or cast inherited",
+  "low_alpha_far_pixels": {
+    "criterion": "alpha1..16 and >44rawpixels(4logical) fromalpha>16; retained",
+    "count": 1736,
+    "max_alpha": 1
+  },
+  "instance": "shrub_58_51",
+  "approval_scope": "Preparation only for exact shrub_58_51; no frame-ID/global replacement authorization",
+  "registration_unit": "Atomic exact-instance group; any invalid owner returns every source owner of this group",
+  "reuse_provenance": {
+    "baseline_registration": "assets/earth/environment/round_shrub_v1/registration.json",
+    "baseline_registration_sha256": "c6343a01b7d6d798209dbfe55904d20a347530a1bb783e9b5689a2259f6de524",
+    "baseline_root": [
+      57,
+      38
+    ],
+    "target_root": [
+      58,
+      51
+    ],
+    "world_translation": [
+      48,
+      416
+    ],
+    "transforms": "Translation only; no resize, rotation, mirror, shear, trim, recrop or new texture",
+    "current_candidate_scope": "Independent study; ordinary entry unchanged"
+  }
+}
