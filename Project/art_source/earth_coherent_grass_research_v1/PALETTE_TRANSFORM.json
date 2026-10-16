@@ -1,0 +1,97 @@
+{
+  "method": "One global per-channel affine in encoded sRGB unit range; match accepted-v4 reference channel means and standard deviations; no local or pixelwise fit",
+  "reference": {
+    "mean_RGB": [
+      110.80476379394531,
+      119.14683024088542,
+      48.4054209391276
+    ],
+    "luminance_mean": 112.26577716267904,
+    "luminance_std": 33.959814748794194,
+    "mean_HSV_saturation": 0.6048456329146241,
+    "x": {
+      "wrap_MAE": 47.102213541666664,
+      "ordinary_MAE": 16.061462150515744,
+      "ratio": 2.932623014035754,
+      "wrap_p95": 119.0,
+      "ordinary_p95": 45.0,
+      "wrap_mean_percentile_of_interior_lines": 100.0
+    },
+    "y": {
+      "wrap_MAE": 32.203342013888886,
+      "ordinary_MAE": 16.63506120556099,
+      "ratio": 1.9358715676455414,
+      "wrap_p95": 90.0,
+      "ordinary_p95": 47.0,
+      "wrap_mean_percentile_of_interior_lines": 100.0
+    }
+  },
+  "formula": "round255(clip(gain*RGB/255+bias,0,1)); gain=std_ref/std_tile; bias=mean_ref-gain*mean_tile",
+  "gain_rgb": [
+    0.8910818574512701,
+    0.8733941836778478,
+    0.899700263950368
+  ],
+  "bias_rgb": [
+    0.08599077854143994,
+    0.05856649093649219,
+    0.0838099046949888
+  ],
+  "clipped_pixels": 0,
+  "clipped_fraction": 0.0,
+  "raw_tile": {
+    "mean_RGB": [
+      99.74068546295166,
+      119.31883335113525,
+      30.04766845703125
+    ],
+    "luminance_mean": 108.7111410047531,
+    "luminance_std": 38.52973153011317,
+    "mean_HSV_saturation": 0.7694749645158356,
+    "x": {
+      "wrap_MAE": 31.01171875,
+      "ordinary_MAE": 23.86014568568752,
+      "ratio": 1.2997288096443746,
+      "wrap_p95": 95.0,
+      "ordinary_p95": 74.0,
+      "wrap_mean_percentile_of_interior_lines": 100.0
+    },
+    "y": {
+      "wrap_MAE": 26.570963541666668,
+      "ordinary_MAE": 24.827783250855326,
+      "ratio": 1.070210871151829,
+      "wrap_p95": 75.0,
+      "ordinary_p95": 76.0,
+      "wrap_mean_percentile_of_interior_lines": 92.66862170087975
+    }
+  },
+  "corrected": {
+    "mean_RGB": [
+      110.80974292755127,
+      119.15390872955322,
+      48.39211463928223
+    ],
+    "luminance_mean": 112.27093754673004,
+    "luminance_std": 33.85239959238949,
+    "mean_HSV_saturation": 0.6015090157003964,
+    "x": {
+      "wrap_MAE": 27.455078125,
+      "ordinary_MAE": 21.14009678437602,
+      "ratio": 1.2987205501013215,
+      "wrap_p95": 83.0,
+      "ordinary_p95": 65.0,
+      "wrap_mean_percentile_of_interior_lines": 100.0
+    },
+    "y": {
+      "wrap_MAE": 23.526041666666668,
+      "ordinary_MAE": 21.99745565534376,
+      "ratio": 1.0694892189020766,
+      "wrap_p95": 66.44999999999982,
+      "ordinary_p95": 67.0,
+      "wrap_mean_percentile_of_interior_lines": 92.57086999022482
+    }
+  },
+  "raw_preserved_sha256": "ede87deba47e8f5103b9468479fd3d2d5c8483dbb4e99eef8ff391b692d710f6",
+  "tile_preserved_sha256": "1721d1c105559485afb4a7db2e96cb3be8eae5a04e205f02eb429e9a93b69a2d",
+  "reference_scope": "Entire approved1536x512 initial-v4 grass crop; no road, includes mild existing illumination variation"
+}

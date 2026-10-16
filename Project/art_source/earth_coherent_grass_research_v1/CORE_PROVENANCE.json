@@ -1,0 +1,76 @@
+{
+  "status": "Root-reviewed conservative diagnostic core only; not full semantic grass alpha. No production changes.",
+  "world_bbox_half_open": [
+    2400,
+    960,
+    3264,
+    1920
+  ],
+  "world_origin": [
+    2400,
+    960
+  ],
+  "density": 2,
+  "canvas_xy": [
+    1728,
+    1920
+  ],
+  "mapping": "world center=[2400,960]+(texel_index+0.5)/2",
+  "periodic_tile_phase_origin_world": [
+    0,
+    0
+  ],
+  "tile768_at_density2_local_offset_mod768": [
+    192,
+    384
+  ],
+  "counts_native2x": {
+    "confirmed_grass_base": 2039808,
+    "reviewed_mixed_grass_interiors": 333768,
+    "pre_subtraction_union": 2373576,
+    "removed_by_explicit_protection": 0,
+    "core_v2": 2373576,
+    "core_v1": 2341516,
+    "added_vs_v1": 51648,
+    "removed_vs_v1": 19588,
+    "retained_from_v1": 2321928,
+    "coverage": 2973696
+  },
+  "protection_overlap_counts": {
+    "earth_transition": 0,
+    "reviewed_uncertainty": 0,
+    "reviewed_road_interior": 0,
+    "reviewed_curb_interior": 0,
+    "confirmed_tan_base": 0,
+    "authored_corrected_curb_protect": 0,
+    "seam_protect": 0,
+    "lip_protect": 0,
+    "grass_contact_protect": 0
+  },
+  "subtracted_overlap_by_protection": {
+    "earth": 0,
+    "authored_corrected_curb_protect": 0,
+    "seam_protect": 0,
+    "lip_protect": 0,
+    "grass_contact_protect": 0
+  },
+  "mask_filename": "grass_core_DIAGNOSTIC_ONLY_native2x.png",
+  "mask_file_sha256": "d40582eddfc1b8b86c57aabcdf420c954e7f96cc7e2b1c53b2493f8674b9cb84",
+  "mask_pixel_sha256": "8d37421c60775a7c836595d74d6504acac8e6c3e7abc7b575df46a420601c4ba",
+  "input_sha256": {
+    "confirmed_grass_base_native2x.png": "0cec049270d820a265db3c5bdc2fa5decc9bb5211999e559b1efba302b7a3f0e",
+    "frame-review-v2/grass_interior_review_ONLY_native2x.png": "54ad4f3be159e7ddbaed2b1b89da2a97dc9b3b1c35d8aab4ea02c4f72683478d",
+    "frame-review-v2/earth_transition_whole_owner_holdout_native2x.png": "1886087ccccfd00ba0b4c65e4a4247c59ff258fece01035af2e3eea4dc889055",
+    "frame-review-v2/boundary_uncertainty_native2x.png": "8e701287c6e96a97dab7004cd68cb8ade9a951ae111a4466b550f7ade994d46f",
+    "frame-review-v2/road_interior_native2x.png": "d4bae7688de194a899395f81570f5952000093aad6480dcff2a8e408a2e91803",
+    "frame-review-v2/curb_interior_native2x.png": "f485e545d9d471f9d047a00711c6dc0a9088f9f95844ac2be0eca1391744af9c",
+    "confirmed_non_grass_tan_base_native2x.png": "06015d67a641ce4716b80230f54df0496ac8a136e4eddd99ca28f5d99a61458c",
+    "authored_corrected_curb_protect_native2x.png": "243021bb92096a105dcb28b7c3412d00981734e2727f7e0a34a24dd3be4bf42c",
+    "seam_protect_native2x.png": "ead490fb2647f1b4292f114423fceeeb7b34175b13673514e8a58eab57f854b6",
+    "lip_protect_native2x.png": "61ec3145321d22dd14343dfc48b3ec6d26821e55b4e75be63e06dad96ed2fe5f",
+    "grass_contact_protect_native2x.png": "878e17dab0d0154712fcbc03b0b190809b833b7c738774d470ae4eb7757abe5e",
+    "candidate_grass_core_review_ONLY_native2x.png": "70aab7bc4affb69e54738b1952a7631eec5c7e62519c1a171e9efddd488be2a9",
+    "owner-index-logical.png": "c3931e04db4af6750e62256d15c8e89e5acef4ca1d55f1e806d9500ef67dba6a"
+  },
+  "rule": "confirmed grass-base ownership UNION reviewed mixed-frame grass interiors MINUS entire earth-transition owners MINUS authored curb and all frozen lighting support pixels. Orange uncertainty never filled. Source road/curb polygons only classify exclusions; no road/curb geometry changes."
+}

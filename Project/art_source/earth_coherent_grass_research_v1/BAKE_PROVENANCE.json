@@ -1,0 +1,80 @@
+{
+  "status": "Frozen research material; CPU-only diagnostic bake, not production or seam acceptance",
+  "world_bbox": [
+    2400,
+    960,
+    3264,
+    1920
+  ],
+  "density": 2,
+  "period_world": 384,
+  "tile_size": [
+    768,
+    768
+  ],
+  "phase_world": [
+    0,
+    0
+  ],
+  "sample": "tile[(1920+y)%768,(4800+x)%768]",
+  "tile_sha256": "d151a5f735eacb556215de7cfe3aa7477b4e9c86032382c0ce46bd973e161ad8",
+  "tile_path": "/workspace/scratch/22c897619190/recovery-work/ground-material-seam/seamless-tile-v1/palette-diagnostic/period-comparison/corrected-period384-density2.png",
+  "mask_sha256": "d40582eddfc1b8b86c57aabcdf420c954e7f96cc7e2b1c53b2493f8674b9cb84",
+  "mask_path": "/workspace/scratch/22c897619190/recovery-work/grass-domain-review/diagnostic-core-v2/grass_core_DIAGNOSTIC_ONLY_native2x.png",
+  "base_sha256": "4488f76b4d187b0943a8c34c6d93042fa33907110213cca753620e8d40be3fb0",
+  "base_path": "/workspace/scratch/22c897619190/recovery-work/grass-domain-review/generated-current-union-native2x.png",
+  "active_mask_pixels": 2373576,
+  "changed_pixels": 2373527,
+  "unchanged_inside_mask": 49,
+  "outside_mask_changed": 0,
+  "alpha_changed": 0,
+  "protections": {
+    "authored_corrected_curb_protect_native2x.png": {
+      "mask_overlap": 0,
+      "changed_pixels": 0,
+      "sha256": "243021bb92096a105dcb28b7c3412d00981734e2727f7e0a34a24dd3be4bf42c"
+    },
+    "seam_protect_native2x.png": {
+      "mask_overlap": 0,
+      "changed_pixels": 0,
+      "sha256": "ead490fb2647f1b4292f114423fceeeb7b34175b13673514e8a58eab57f854b6"
+    },
+    "lip_protect_native2x.png": {
+      "mask_overlap": 0,
+      "changed_pixels": 0,
+      "sha256": "61ec3145321d22dd14343dfc48b3ec6d26821e55b4e75be63e06dad96ed2fe5f"
+    },
+    "grass_contact_protect_native2x.png": {
+      "mask_overlap": 0,
+      "changed_pixels": 0,
+      "sha256": "878e17dab0d0154712fcbc03b0b190809b833b7c738774d470ae4eb7757abe5e"
+    },
+    "confirmed_non_grass_tan_base_native2x.png": {
+      "mask_overlap": 0,
+      "changed_pixels": 0,
+      "sha256": "06015d67a641ce4716b80230f54df0496ac8a136e4eddd99ca28f5d99a61458c"
+    },
+    "earth_transition_whole_owner_holdout_native2x.png": {
+      "mask_overlap": 0,
+      "changed_pixels": 0,
+      "sha256": "1886087ccccfd00ba0b4c65e4a4247c59ff258fece01035af2e3eea4dc889055"
+    },
+    "boundary_uncertainty_native2x.png": {
+      "mask_overlap": 0,
+      "changed_pixels": 0,
+      "sha256": "8e701287c6e96a97dab7004cd68cb8ade9a951ae111a4466b550f7ade994d46f"
+    },
+    "road_interior_native2x.png": {
+      "mask_overlap": 0,
+      "changed_pixels": 0,
+      "sha256": "d4bae7688de194a899395f81570f5952000093aad6480dcff2a8e408a2e91803"
+    },
+    "curb_interior_native2x.png": {
+      "mask_overlap": 0,
+      "changed_pixels": 0,
+      "sha256": "f485e545d9d471f9d047a00711c6dc0a9088f9f95844ac2be0eca1391744af9c"
+    }
+  },
+  "after_sha256": "d6bf26a3bd518798ca1ecdde9ebc3be9e722f64034acc42303bc87128a72a4c4",
+  "palette_transform": "See ../seamless-tile-v1/palette-diagnostic/REVIEW.md. Frozen encoded-sRGB affine then uniform 1024->768 LANCZOS; no further transform here."
+}

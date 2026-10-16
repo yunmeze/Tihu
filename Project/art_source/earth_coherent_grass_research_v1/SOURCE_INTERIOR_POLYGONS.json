@@ -1,0 +1,1421 @@
+{
+  "status": "Manual conservative interior polygon proposals, pending root visual review. No material adoption.",
+  "source_map_sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+  "source_manifest_sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+  "byte_identical_frame_proof": {
+    "frames": [
+      588,
+      597
+    ],
+    "RGBA_different_pixels": 0,
+    "RGBA_sha256": "bb44cf3c97fa13961bcbff011517fdc075eb5883382f88017cb7822a3e648766"
+  },
+  "uncertainty_method": "Every unassigned source pixel in reviewed frames remains uncertain. The region is deliberately broader than an antialias fringe; it includes contact shading, seams, irregular stone margins and mixed earth. No RGB thresholds; no invented certainty from centerlines.",
+  "mapping": "world [2400,960] + native2x texel center /2; only exact registered occurrences copied",
+  "counts_native2x": {
+    "reviewed_coverage": 786432,
+    "uncertainty": 184144,
+    "grass_interiors_excluding_all_earth_transition_owners": 333768,
+    "earth_transition_whole_owner_holdout": 73728
+  },
+  "frames": [
+    {
+      "frame_id": 577,
+      "atlas_page": "res://assets/original/Map/Res/FloorBig/0.png",
+      "atlas_rect_xywh": [
+        687,
+        67,
+        96,
+        64
+      ],
+      "source_RGBA_sha256": "53a3652e0535f7709bfd03aecfd587013902be408b0f7fb7b2dc97a037966388",
+      "manual_interior_polygons_source_pixel_centers": {
+        "grass": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              95,
+              0
+            ],
+            [
+              95,
+              24
+            ],
+            [
+              36,
+              63
+            ],
+            [
+              0,
+              63
+            ]
+          ]
+        ],
+        "road": [
+          [
+            [
+              72,
+              63
+            ],
+            [
+              95,
+              47
+            ],
+            [
+              95,
+              63
+            ]
+          ]
+        ],
+        "curb": [
+          [
+            [
+              70,
+              47
+            ],
+            [
+              78,
+              42
+            ],
+            [
+              80,
+              43
+            ],
+            [
+              73,
+              48
+            ]
+          ]
+        ]
+      },
+      "counts_logical": {
+        "uncertain": 941,
+        "grass": 4964,
+        "road": 212,
+        "curb": 27,
+        "earth": 0
+      },
+      "owner_occurrences": [
+        {
+          "key": "Map/Res/FloorBig:577@50,46",
+          "world_top_left": [
+            2400,
+            1472
+          ],
+          "world_half_open_xyxy": [
+            2400,
+            1472,
+            2496,
+            1536
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5046
+        },
+        {
+          "key": "Map/Res/FloorBig:577@52,44",
+          "world_top_left": [
+            2496,
+            1408
+          ],
+          "world_half_open_xyxy": [
+            2496,
+            1408,
+            2592,
+            1472
+          ],
+          "source_flag": -1,
+          "stable_source_order": 5244
+        },
+        {
+          "key": "Map/Res/FloorBig:577@54,42",
+          "world_top_left": [
+            2592,
+            1344
+          ],
+          "world_half_open_xyxy": [
+            2592,
+            1344,
+            2688,
+            1408
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5442
+        },
+        {
+          "key": "Map/Res/FloorBig:577@56,40",
+          "world_top_left": [
+            2688,
+            1280
+          ],
+          "world_half_open_xyxy": [
+            2688,
+            1280,
+            2784,
+            1344
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5640
+        },
+        {
+          "key": "Map/Res/FloorBig:577@58,38",
+          "world_top_left": [
+            2784,
+            1216
+          ],
+          "world_half_open_xyxy": [
+            2784,
+            1216,
+            2880,
+            1280
+          ],
+          "source_flag": -1,
+          "stable_source_order": 5838
+        }
+      ],
+      "earth_transition_entire_owner_holdout": false
+    },
+    {
+      "frame_id": 608,
+      "atlas_page": "res://assets/original/Map/Res/FloorBig/0.png",
+      "atlas_rect_xywh": [
+        589,
+        133,
+        96,
+        64
+      ],
+      "source_RGBA_sha256": "43dbdcc2781a5923530866487323664ece523c70d532519b11f47dea94a8c54b",
+      "manual_interior_polygons_source_pixel_centers": {
+        "grass": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              34,
+              0
+            ],
+            [
+              0,
+              22
+            ]
+          ]
+        ],
+        "road": [
+          [
+            [
+              0,
+              45
+            ],
+            [
+              67,
+              0
+            ],
+            [
+              95,
+              0
+            ],
+            [
+              95,
+              63
+            ],
+            [
+              0,
+              63
+            ]
+          ]
+        ],
+        "curb": [
+          [
+            [
+              15,
+              20
+            ],
+            [
+              27,
+              12
+            ],
+            [
+              29,
+              13
+            ],
+            [
+              17,
+              21
+            ]
+          ]
+        ]
+      },
+      "counts_logical": {
+        "uncertain": 1093,
+        "grass": 414,
+        "road": 4603,
+        "curb": 34,
+        "earth": 0
+      },
+      "owner_occurrences": [
+        {
+          "key": "Map/Res/FloorBig:608@50,48",
+          "world_top_left": [
+            2400,
+            1536
+          ],
+          "world_half_open_xyxy": [
+            2400,
+            1536,
+            2496,
+            1600
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5048
+        },
+        {
+          "key": "Map/Res/FloorBig:608@52,46",
+          "world_top_left": [
+            2496,
+            1472
+          ],
+          "world_half_open_xyxy": [
+            2496,
+            1472,
+            2592,
+            1536
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5246
+        },
+        {
+          "key": "Map/Res/FloorBig:608@54,44",
+          "world_top_left": [
+            2592,
+            1408
+          ],
+          "world_half_open_xyxy": [
+            2592,
+            1408,
+            2688,
+            1472
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5444
+        },
+        {
+          "key": "Map/Res/FloorBig:608@56,42",
+          "world_top_left": [
+            2688,
+            1344
+          ],
+          "world_half_open_xyxy": [
+            2688,
+            1344,
+            2784,
+            1408
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5642
+        },
+        {
+          "key": "Map/Res/FloorBig:608@58,40",
+          "world_top_left": [
+            2784,
+            1280
+          ],
+          "world_half_open_xyxy": [
+            2784,
+            1280,
+            2880,
+            1344
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5840
+        }
+      ],
+      "earth_transition_entire_owner_holdout": false
+    },
+    {
+      "frame_id": 579,
+      "atlas_page": "res://assets/original/Map/Res/FloorBig/0.png",
+      "atlas_rect_xywh": [
+        785,
+        67,
+        96,
+        64
+      ],
+      "source_RGBA_sha256": "9d39251cb4248dcaa28e35f75df65844b1dae3da08209295851f4c3020cf12b1",
+      "manual_interior_polygons_source_pixel_centers": {
+        "grass": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              95,
+              0
+            ],
+            [
+              95,
+              24
+            ],
+            [
+              0,
+              24
+            ]
+          ]
+        ],
+        "road": [
+          [
+            [
+              0,
+              44
+            ],
+            [
+              95,
+              44
+            ],
+            [
+              95,
+              63
+            ],
+            [
+              0,
+              63
+            ]
+          ]
+        ],
+        "curb": [
+          [
+            [
+              5,
+              33
+            ],
+            [
+              44,
+              33
+            ],
+            [
+              44,
+              35
+            ],
+            [
+              5,
+              35
+            ]
+          ]
+        ]
+      },
+      "counts_logical": {
+        "uncertain": 1704,
+        "grass": 2400,
+        "road": 1920,
+        "curb": 120,
+        "earth": 0
+      },
+      "owner_occurrences": [
+        {
+          "key": "Map/Res/FloorBig:579@60,38",
+          "world_top_left": [
+            2880,
+            1216
+          ],
+          "world_half_open_xyxy": [
+            2880,
+            1216,
+            2976,
+            1280
+          ],
+          "source_flag": 0,
+          "stable_source_order": 6038
+        }
+      ],
+      "earth_transition_entire_owner_holdout": false
+    },
+    {
+      "frame_id": 580,
+      "atlas_page": "res://assets/original/Map/Res/FloorBig/0.png",
+      "atlas_rect_xywh": [
+        883,
+        67,
+        96,
+        64
+      ],
+      "source_RGBA_sha256": "5eabe9e86f62a54f7810b4db9659174a790458d7e11232f879c6b004c89f4945",
+      "manual_interior_polygons_source_pixel_centers": {
+        "grass": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              95,
+              0
+            ],
+            [
+              95,
+              63
+            ],
+            [
+              64,
+              63
+            ],
+            [
+              0,
+              21
+            ]
+          ]
+        ],
+        "road": [
+          [
+            [
+              0,
+              44
+            ],
+            [
+              28,
+              63
+            ],
+            [
+              0,
+              63
+            ]
+          ]
+        ],
+        "curb": [
+          [
+            [
+              15,
+              40
+            ],
+            [
+              22,
+              45
+            ],
+            [
+              21,
+              47
+            ],
+            [
+              13,
+              41
+            ]
+          ]
+        ]
+      },
+      "counts_logical": {
+        "uncertain": 1049,
+        "grass": 4768,
+        "road": 300,
+        "curb": 27,
+        "earth": 0
+      },
+      "owner_occurrences": [
+        {
+          "key": "Map/Res/FloorBig:580@62,38",
+          "world_top_left": [
+            2976,
+            1216
+          ],
+          "world_half_open_xyxy": [
+            2976,
+            1216,
+            3072,
+            1280
+          ],
+          "source_flag": 0,
+          "stable_source_order": 6238
+        }
+      ],
+      "earth_transition_entire_owner_holdout": false
+    },
+    {
+      "frame_id": 581,
+      "atlas_page": "res://assets/original/Map/Res/FloorBig/0.png",
+      "atlas_rect_xywh": [
+        981,
+        67,
+        96,
+        64
+      ],
+      "source_RGBA_sha256": "c2105c08f3202ac07092cd9bf69c33ff1d0d3945628588016ceb1c00ed35f5d0",
+      "manual_interior_polygons_source_pixel_centers": {
+        "grass": [
+          [
+            [
+              74,
+              63
+            ],
+            [
+              95,
+              49
+            ],
+            [
+              95,
+              63
+            ]
+          ]
+        ],
+        "road": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              95,
+              0
+            ],
+            [
+              95,
+              23
+            ],
+            [
+              34,
+              63
+            ],
+            [
+              0,
+              63
+            ]
+          ]
+        ],
+        "curb": [
+          [
+            [
+              70,
+              49
+            ],
+            [
+              78,
+              43
+            ],
+            [
+              80,
+              44
+            ],
+            [
+              72,
+              50
+            ]
+          ]
+        ]
+      },
+      "counts_logical": {
+        "uncertain": 1054,
+        "grass": 169,
+        "road": 4893,
+        "curb": 28,
+        "earth": 0
+      },
+      "owner_occurrences": [
+        {
+          "key": "Map/Res/FloorBig:581@50,52",
+          "world_top_left": [
+            2400,
+            1664
+          ],
+          "world_half_open_xyxy": [
+            2400,
+            1664,
+            2496,
+            1728
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5052
+        },
+        {
+          "key": "Map/Res/FloorBig:581@52,50",
+          "world_top_left": [
+            2496,
+            1600
+          ],
+          "world_half_open_xyxy": [
+            2496,
+            1600,
+            2592,
+            1664
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5250
+        },
+        {
+          "key": "Map/Res/FloorBig:581@54,48",
+          "world_top_left": [
+            2592,
+            1536
+          ],
+          "world_half_open_xyxy": [
+            2592,
+            1536,
+            2688,
+            1600
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5448
+        },
+        {
+          "key": "Map/Res/FloorBig:581@56,46",
+          "world_top_left": [
+            2688,
+            1472
+          ],
+          "world_half_open_xyxy": [
+            2688,
+            1472,
+            2784,
+            1536
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5646
+        },
+        {
+          "key": "Map/Res/FloorBig:581@58,44",
+          "world_top_left": [
+            2784,
+            1408
+          ],
+          "world_half_open_xyxy": [
+            2784,
+            1408,
+            2880,
+            1472
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5844
+        },
+        {
+          "key": "Map/Res/FloorBig:581@60,42",
+          "world_top_left": [
+            2880,
+            1344
+          ],
+          "world_half_open_xyxy": [
+            2880,
+            1344,
+            2976,
+            1408
+          ],
+          "source_flag": 0,
+          "stable_source_order": 6042
+        }
+      ],
+      "earth_transition_entire_owner_holdout": false
+    },
+    {
+      "frame_id": 588,
+      "atlas_page": "res://assets/original/Map/Res/FloorBig/0.png",
+      "atlas_rect_xywh": [
+        1471,
+        67,
+        96,
+        64
+      ],
+      "source_RGBA_sha256": "bb44cf3c97fa13961bcbff011517fdc075eb5883382f88017cb7822a3e648766",
+      "manual_interior_polygons_source_pixel_centers": {
+        "grass": [
+          [
+            [
+              58,
+              0
+            ],
+            [
+              95,
+              0
+            ],
+            [
+              95,
+              63
+            ],
+            [
+              58,
+              63
+            ]
+          ]
+        ],
+        "road": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              30,
+              0
+            ],
+            [
+              32,
+              20
+            ],
+            [
+              30,
+              40
+            ],
+            [
+              33,
+              63
+            ],
+            [
+              0,
+              63
+            ]
+          ]
+        ],
+        "curb": [
+          [
+            [
+              45,
+              48
+            ],
+            [
+              46,
+              48
+            ],
+            [
+              46,
+              51
+            ],
+            [
+              45,
+              51
+            ]
+          ]
+        ]
+      },
+      "counts_logical": {
+        "uncertain": 1646,
+        "grass": 2432,
+        "road": 2058,
+        "curb": 8,
+        "earth": 0
+      },
+      "owner_occurrences": [
+        {
+          "key": "Map/Res/FloorBig:588@62,40",
+          "world_top_left": [
+            2976,
+            1280
+          ],
+          "world_half_open_xyxy": [
+            2976,
+            1280,
+            3072,
+            1344
+          ],
+          "source_flag": 0,
+          "stable_source_order": 6240
+        }
+      ],
+      "earth_transition_entire_owner_holdout": false
+    },
+    {
+      "frame_id": 604,
+      "atlas_page": "res://assets/original/Map/Res/FloorBig/0.png",
+      "atlas_rect_xywh": [
+        393,
+        133,
+        96,
+        64
+      ],
+      "source_RGBA_sha256": "8d5fd8e9f2d5ca902402517ff5c8f415130c867f513c2c724380800d7c2ff94d",
+      "manual_interior_polygons_source_pixel_centers": {
+        "grass": [
+          [
+            [
+              62,
+              0
+            ],
+            [
+              95,
+              0
+            ],
+            [
+              95,
+              63
+            ],
+            [
+              0,
+              63
+            ],
+            [
+              0,
+              45
+            ]
+          ]
+        ],
+        "road": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              33,
+              0
+            ],
+            [
+              0,
+              21
+            ]
+          ]
+        ],
+        "curb": [
+          [
+            [
+              14,
+              20
+            ],
+            [
+              24,
+              13
+            ],
+            [
+              26,
+              14
+            ],
+            [
+              16,
+              21
+            ]
+          ]
+        ]
+      },
+      "counts_logical": {
+        "uncertain": 1008,
+        "grass": 4718,
+        "road": 385,
+        "curb": 33,
+        "earth": 0
+      },
+      "owner_occurrences": [
+        {
+          "key": "Map/Res/FloorBig:604@50,56",
+          "world_top_left": [
+            2400,
+            1792
+          ],
+          "world_half_open_xyxy": [
+            2400,
+            1792,
+            2496,
+            1856
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5056
+        },
+        {
+          "key": "Map/Res/FloorBig:604@52,52",
+          "world_top_left": [
+            2496,
+            1664
+          ],
+          "world_half_open_xyxy": [
+            2496,
+            1664,
+            2592,
+            1728
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5252
+        },
+        {
+          "key": "Map/Res/FloorBig:604@54,50",
+          "world_top_left": [
+            2592,
+            1600
+          ],
+          "world_half_open_xyxy": [
+            2592,
+            1600,
+            2688,
+            1664
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5450
+        },
+        {
+          "key": "Map/Res/FloorBig:604@56,48",
+          "world_top_left": [
+            2688,
+            1536
+          ],
+          "world_half_open_xyxy": [
+            2688,
+            1536,
+            2784,
+            1600
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5648
+        },
+        {
+          "key": "Map/Res/FloorBig:604@58,46",
+          "world_top_left": [
+            2784,
+            1472
+          ],
+          "world_half_open_xyxy": [
+            2784,
+            1472,
+            2880,
+            1536
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5846
+        },
+        {
+          "key": "Map/Res/FloorBig:604@60,44",
+          "world_top_left": [
+            2880,
+            1408
+          ],
+          "world_half_open_xyxy": [
+            2880,
+            1408,
+            2976,
+            1472
+          ],
+          "source_flag": 0,
+          "stable_source_order": 6044
+        },
+        {
+          "key": "Map/Res/FloorBig:604@62,42",
+          "world_top_left": [
+            2976,
+            1344
+          ],
+          "world_half_open_xyxy": [
+            2976,
+            1344,
+            3072,
+            1408
+          ],
+          "source_flag": 0,
+          "stable_source_order": 6242
+        }
+      ],
+      "earth_transition_entire_owner_holdout": false
+    },
+    {
+      "frame_id": 598,
+      "atlas_page": "res://assets/original/Map/Res/FloorBig/0.png",
+      "atlas_rect_xywh": [
+        99,
+        133,
+        96,
+        64
+      ],
+      "source_RGBA_sha256": "4b141f9a5216c992e0621af8a7ab0c0d375432efb9b14a0f568a9ee879fdcb79",
+      "manual_interior_polygons_source_pixel_centers": {
+        "grass": [
+          [
+            [
+              16,
+              8
+            ],
+            [
+              95,
+              8
+            ],
+            [
+              95,
+              63
+            ],
+            [
+              0,
+              63
+            ],
+            [
+              0,
+              24
+            ]
+          ]
+        ],
+        "road": [],
+        "curb": []
+      },
+      "counts_logical": {
+        "uncertain": 904,
+        "grass": 5240,
+        "road": 0,
+        "curb": 0,
+        "earth": 0
+      },
+      "owner_occurrences": [
+        {
+          "key": "Map/Res/FloorBig:598@52,54",
+          "world_top_left": [
+            2496,
+            1728
+          ],
+          "world_half_open_xyxy": [
+            2496,
+            1728,
+            2592,
+            1792
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5254
+        },
+        {
+          "key": "Map/Res/FloorBig:598@52,56",
+          "world_top_left": [
+            2496,
+            1792
+          ],
+          "world_half_open_xyxy": [
+            2496,
+            1792,
+            2592,
+            1856
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5256
+        }
+      ],
+      "earth_transition_entire_owner_holdout": false
+    },
+    {
+      "frame_id": 385,
+      "atlas_page": "res://assets/original/Map/Res/FloorBig/0.png",
+      "atlas_rect_xywh": [
+        99,
+        1,
+        96,
+        64
+      ],
+      "source_RGBA_sha256": "e841cde5436a34ee8bf2ad0c1934e4d5f26a321a99659899940009214e6faf6e",
+      "manual_interior_polygons_source_pixel_centers": {
+        "grass": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              37,
+              0
+            ],
+            [
+              28,
+              22
+            ],
+            [
+              0,
+              30
+            ]
+          ]
+        ],
+        "earth": [
+          [
+            [
+              76,
+              51
+            ],
+            [
+              95,
+              51
+            ],
+            [
+              95,
+              63
+            ],
+            [
+              67,
+              63
+            ]
+          ]
+        ]
+      },
+      "counts_logical": {
+        "uncertain": 4953,
+        "grass": 874,
+        "road": 0,
+        "curb": 0,
+        "earth": 317
+      },
+      "owner_occurrences": [
+        {
+          "key": "Map/Res/FloorBig:385@50,58",
+          "world_top_left": [
+            2400,
+            1856
+          ],
+          "world_half_open_xyxy": [
+            2400,
+            1856,
+            2496,
+            1920
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5058
+        }
+      ],
+      "earth_transition_entire_owner_holdout": true
+    },
+    {
+      "frame_id": 386,
+      "atlas_page": "res://assets/original/Map/Res/FloorBig/0.png",
+      "atlas_rect_xywh": [
+        197,
+        1,
+        96,
+        64
+      ],
+      "source_RGBA_sha256": "20d3cdb4f7e811dd8bddc7220afc0e6cfadac385dd87ce8efe6fd9799e37094f",
+      "manual_interior_polygons_source_pixel_centers": {
+        "grass": [
+          [
+            [
+              26,
+              0
+            ],
+            [
+              83,
+              0
+            ],
+            [
+              83,
+              8
+            ],
+            [
+              26,
+              8
+            ]
+          ]
+        ],
+        "earth": [
+          [
+            [
+              0,
+              51
+            ],
+            [
+              95,
+              51
+            ],
+            [
+              95,
+              63
+            ],
+            [
+              0,
+              63
+            ]
+          ]
+        ]
+      },
+      "counts_logical": {
+        "uncertain": 4374,
+        "grass": 522,
+        "road": 0,
+        "curb": 0,
+        "earth": 1248
+      },
+      "owner_occurrences": [
+        {
+          "key": "Map/Res/FloorBig:386@52,58",
+          "world_top_left": [
+            2496,
+            1856
+          ],
+          "world_half_open_xyxy": [
+            2496,
+            1856,
+            2592,
+            1920
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5258
+        }
+      ],
+      "earth_transition_entire_owner_holdout": true
+    },
+    {
+      "frame_id": 388,
+      "atlas_page": "res://assets/original/Map/Res/FloorBig/0.png",
+      "atlas_rect_xywh": [
+        295,
+        1,
+        96,
+        64
+      ],
+      "source_RGBA_sha256": "c1ff0d05a12bf01f686af6cfbdf23c548313e143633ca606514ac55b4c308ddd",
+      "manual_interior_polygons_source_pixel_centers": {
+        "grass": [
+          [
+            [
+              70,
+              0
+            ],
+            [
+              95,
+              0
+            ],
+            [
+              95,
+              30
+            ],
+            [
+              76,
+              24
+            ]
+          ]
+        ],
+        "earth": [
+          [
+            [
+              0,
+              49
+            ],
+            [
+              18,
+              56
+            ],
+            [
+              18,
+              63
+            ],
+            [
+              0,
+              63
+            ]
+          ]
+        ]
+      },
+      "counts_logical": {
+        "uncertain": 5306,
+        "grass": 625,
+        "road": 0,
+        "curb": 0,
+        "earth": 213
+      },
+      "owner_occurrences": [
+        {
+          "key": "Map/Res/FloorBig:388@54,58",
+          "world_top_left": [
+            2592,
+            1856
+          ],
+          "world_half_open_xyxy": [
+            2592,
+            1856,
+            2688,
+            1920
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5458
+        }
+      ],
+      "earth_transition_entire_owner_holdout": true
+    },
+    {
+      "frame_id": 597,
+      "atlas_page": "res://assets/original/Map/Res/FloorBig/0.png",
+      "atlas_rect_xywh": [
+        1,
+        133,
+        96,
+        64
+      ],
+      "source_RGBA_sha256": "bb44cf3c97fa13961bcbff011517fdc075eb5883382f88017cb7822a3e648766",
+      "manual_interior_polygons_source_pixel_centers": {
+        "grass": [
+          [
+            [
+              58,
+              0
+            ],
+            [
+              95,
+              0
+            ],
+            [
+              95,
+              63
+            ],
+            [
+              58,
+              63
+            ]
+          ]
+        ],
+        "road": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              30,
+              0
+            ],
+            [
+              32,
+              20
+            ],
+            [
+              30,
+              40
+            ],
+            [
+              33,
+              63
+            ],
+            [
+              0,
+              63
+            ]
+          ]
+        ],
+        "curb": [
+          [
+            [
+              45,
+              48
+            ],
+            [
+              46,
+              48
+            ],
+            [
+              46,
+              51
+            ],
+            [
+              45,
+              51
+            ]
+          ]
+        ]
+      },
+      "counts_logical": {
+        "uncertain": 1646,
+        "grass": 2432,
+        "road": 2058,
+        "curb": 8,
+        "earth": 0
+      },
+      "owner_occurrences": [
+        {
+          "key": "Map/Res/FloorBig:597@50,54",
+          "world_top_left": [
+            2400,
+            1728
+          ],
+          "world_half_open_xyxy": [
+            2400,
+            1728,
+            2496,
+            1792
+          ],
+          "source_flag": 0,
+          "stable_source_order": 5054
+        }
+      ],
+      "earth_transition_entire_owner_holdout": false
+    }
+  ]
+}

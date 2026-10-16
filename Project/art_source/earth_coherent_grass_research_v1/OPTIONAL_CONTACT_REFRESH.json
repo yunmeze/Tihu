@@ -1,0 +1,21 @@
+{
+  "status": "CPU-only exact grass-contact material refresh diagnostic; baseline preserved",
+  "baseline_sha256": "d6bf26a3bd518798ca1ecdde9ebc3be9e722f64034acc42303bc87128a72a4c4",
+  "tile_sha256": "d151a5f735eacb556215de7cfe3aa7477b4e9c86032382c0ce46bd973e161ad8",
+  "original_support_sha256": "30a7f6abc8b4dc1116d1eef09c6cd6d20f0b64309a8972e27f71ad2d65900f0d",
+  "mapped_support_sha256": "878e17dab0d0154712fcbc03b0b190809b833b7c738774d470ae4eb7757abe5e",
+  "parameters_sha256": "565f1b2c8717a02a4832d5352e613274c91fac0b9f613d7fdb1789724e8275e1",
+  "support_count": 3283,
+  "changed_pixels": 3282,
+  "outside_support_changed": 0,
+  "alpha_changed": 0,
+  "seam_lip_curb_changed": {
+    "seam": 0,
+    "lip": 0,
+    "authored_corrected_curb": 0
+  },
+  "k_linear_RGB": 0.5314862566564135,
+  "formula": "fresh unshaded frozen world-phase0 tile -> sRGB decode -> multiply linear RGB by existing k once -> sRGB encode -> floor(255*v+.5); no baseline-shaded RGB used as donor",
+  "after_sha256": "8d936f99af4308cf028a905db79e7a7d39b71fee316308cbe20871f8cf6ede6d",
+  "clipped_values": 0
+}

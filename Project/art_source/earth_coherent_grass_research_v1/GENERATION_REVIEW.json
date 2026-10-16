@@ -1,0 +1,105 @@
+{
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "raw_density_for_512_world_period": 2.44921875,
+  "effective_density": 2,
+  "tile_size": [
+    1024,
+    1024
+  ],
+  "world_period": [
+    512,
+    512
+  ],
+  "world_map": "tile texel coordinate=2*(world-origin) mod1024; origin=(2400,960) proposed fixed phase; no perowner phase reset",
+  "density_conversion": "one uniform full-canvas Pillow 12.3.0 LANCZOS1254->1024",
+  "raw_sha256": "ede87deba47e8f5103b9468479fd3d2d5c8483dbb4e99eef8ff391b692d710f6",
+  "tile_sha256": "1721d1c105559485afb4a7db2e96cb3be8eae5a04e205f02eb429e9a93b69a2d",
+  "statistics": {
+    "x": {
+      "wrap_RGB_MAE": 31.01171875,
+      "ordinary_adjacent_RGB_MAE": 23.86014568568752,
+      "seam_to_interior_mean_ratio": 1.2997288096443746,
+      "wrap_RGB_p95": 95.0,
+      "interior_RGB_p95": 74.0,
+      "wrap_mean_percentile_among_interior_line_means": 100.0,
+      "interior_line_mean_range": [
+        17.153971354166668,
+        28.899739583333332
+      ]
+    },
+    "y": {
+      "wrap_RGB_MAE": 26.570963541666668,
+      "ordinary_adjacent_RGB_MAE": 24.827783250855326,
+      "seam_to_interior_mean_ratio": 1.070210871151829,
+      "wrap_RGB_p95": 75.0,
+      "interior_RGB_p95": 76.0,
+      "wrap_mean_percentile_among_interior_line_means": 92.66862170087975,
+      "interior_line_mean_range": [
+        16.989908854166668,
+        28.8251953125
+      ]
+    },
+    "style": {
+      "RGB_mean": [
+        99.74068546295166,
+        119.31883335113525,
+        30.04766845703125
+      ],
+      "luminance_mean": 108.7111410047531,
+      "luminance_std": 38.52973153011317,
+      "macro128_luminance_range": [
+        103.42705327148437,
+        114.69539720458984
+      ],
+      "mean_HSV_saturation": 0.7694749645158356
+    },
+    "reference-initial-v4-native2x.png": {
+      "mean_HSV_saturation": 0.6048456329146241,
+      "luminance_mean": 112.26577716267904,
+      "luminance_std": 33.959814748794194
+    },
+    "reference-G2-selected-grain-native2x.png": {
+      "mean_HSV_saturation": 0.6611350975285948,
+      "luminance_mean": 108.15904556510417,
+      "luminance_std": 30.10641020054284
+    }
+  },
+  "scope": "new standalone material research only; no existing grass mask or art change, no runtime/native Godot claim",
+  "raw_gradient_check": {
+    "x": {
+      "wrap_MAE": 29.584263689526846,
+      "interior_MAE": 21.599190544500747,
+      "ratio": 1.3696931664441072
+    },
+    "y": {
+      "wrap_MAE": 25.537214247740565,
+      "interior_MAE": 22.481002531722908,
+      "ratio": 1.135946415721676
+    }
+  },
+  "prompt_sha256": "1c98117d595ce11d9a11d87e3274143d921d905e945060ce04287fa49510745e",
+  "inputs": {
+    "reference-initial-v4-native2x.png": {
+      "source": "tihu-legend/Project/art_source/earth_ground_grass_material_g_v2/INPUT_approved_wide_grass_native2x.png",
+      "size": [
+        1536,
+        512
+      ],
+      "sha256": "8a54ae53b8cf9e39c34466c9e2511d83601c12d17bb10cddd0cfe40b0fd08157",
+      "role": "scale/material reference only, no copying or layout lock"
+    },
+    "reference-G2-selected-grain-native2x.png": {
+      "source": "tihu-legend/Project/art_source/earth_grass_downsample_sampling_plan_v1/INPUT_G2_downsample_0625.png",
+      "size": [
+        960,
+        640
+      ],
+      "sha256": "6aab1606c02a5214e9addef3221c39b124578a4bba6f973a2408636d4f9f4494",
+      "role": "scale/material reference only, no copying or layout lock"
+    }
+  },
+  "status": "research only; not accepted for style or certified seamlessness"
+}

@@ -1,0 +1,11 @@
+Use case: stylized-concept. Asset: one genuinely seamless, opaque, square grass material tile for a clean near-future Earth training-base lawn in a pure2D overhead/isometric game.
+
+Both inputs are SCALE AND MATERIAL REFERENCES ONLY, not edit targets or layouts to reproduce. Reference1 is accepted initial-v4 fine lawn at2texels per world unit,1536pixels wide. Reference2 is a finer-grain G2 material study at2texels/world unit,960pixels wide. The new square covers512x512 world units at intended1024x1024 final pixels: blades must stay fine at this SAME world scale, not be enlarged to occupy the square. Higher square output is allowed only with the same field of view and world-size of details, for later one uniform downsample.
+
+Create dense maintained short turf, restrained olive/natural green, fine clean blade detail with narrow modest contrast, sparse tiny natural soil glimpses. Grass texture is viewed from the distant game camera, not macro photography: most fine tips are around1-3pixels at final1024 output, not large curled yellow loops, clover disks or big leaf clusters. Natural irregularity without conspicuous recognizable clumps that will visibly repeat.
+
+True wrap-around continuity across left/right and top/bottom edges AND all four corners. Blades crossing one edge continue naturally at the opposite edge; local detail and gradients should behave like ordinary neighboring grass anywhere inside the tile. The finished image must repeat as an unrotated, unmirrored3x3 field with no grid, seams, dark bands, framing border or obvious repeated spotlight. Do not draw a3x3 contact sheet: output ONE tile only. No forced flat edge strips.
+
+Neutral diffuse material lighting across the whole square. Do not copy the references' broad directional illumination, left-to-right brightness variation or large soil patches. No baked cast shadows, AO blobs, vignette, broad dark stains or sunny hot spots. No fluorescent/neon yellow outlining or high-contrast yellow scratches. No stones, flowers, objects, trees, roads, curb, buildings, characters, text, grid, medieval grime or distressed mud. Clean realistic game-ground material, not plastic flat color.
+
+Output one opaque square, target1024x1024 or higher square resolution. Preserve fine world-scale texture and seamless edge continuity; no labels or guides.
