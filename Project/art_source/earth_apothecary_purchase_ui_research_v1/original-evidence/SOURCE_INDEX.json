@@ -1,0 +1,1386 @@
+{
+  "files": [
+    {
+      "path": "Project/data/maps/A13.json",
+      "bytes": 618373,
+      "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+      "matches": [
+        {
+          "needle": "\"name\": \"老药师\"",
+          "lines": [
+            70112
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Project/data/items/catalogue.json",
+      "bytes": 7159031,
+      "sha256": "284d0946ce9c9dda164472397c42fdd5207a0723abd2f9afac702de5ab8adf57",
+      "matches": [
+        {
+          "needle": "\"source\":",
+          "lines": [
+            3
+          ]
+        },
+        {
+          "needle": "\"name\": \"强效金创药\"",
+          "lines": [
+            1294
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Project/data/items/native-static-evidence.json",
+      "bytes": 75311,
+      "sha256": "08c01e8a47701a402c8e7716190b52b9f4950c7f828906c45edc1f1ede49661c",
+      "matches": [
+        {
+          "needle": "593105",
+          "lines": [
+            642
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Project/data/items/initial-character-reference.json",
+      "bytes": 2391,
+      "sha256": "e56e0db6442635c3a7311fd41a5a4f9a441971024041282d715b0b5ac4aa0cb6",
+      "matches": [
+        {
+          "needle": "\"capacity\": 25",
+          "lines": [
+            47
+          ]
+        }
+      ]
+    },
+    {
+      "path": "原版游戏/Help/Mod_4_6.htm",
+      "bytes": 81146,
+      "sha256": "4ef7b77151b54d7f57e55f39cde1327369524f7ca4213637a71ff11b27451ef9",
+      "matches": [
+        {
+          "needle": "#BUY",
+          "lines": [
+            136,
+            717,
+            722,
+            731
+          ]
+        },
+        {
+          "needle": "PKCOUNT",
+          "lines": [
+            526
+          ]
+        },
+        {
+          "needle": "本语句同样支持嵌套使用",
+          "lines": [
+            914
+          ]
+        },
+        {
+          "needle": "角色将减少相应数量的金币",
+          "lines": [
+            882
+          ]
+        }
+      ]
+    },
+    {
+      "path": "原版游戏/Help/Mod_2_1.htm",
+      "bytes": 13625,
+      "sha256": "c78499b6790be8f98718471b9d39a43ab5f6fd5e8d0b17a6684a1cd5f890478d",
+      "matches": [
+        {
+          "needle": "道具的重量",
+          "lines": [
+            229
+          ]
+        },
+        {
+          "needle": "道具在商店的购买价格",
+          "lines": [
+            239
+          ]
+        }
+      ]
+    },
+    {
+      "path": "原版游戏/Help/Game_Index.htm",
+      "bytes": 18855,
+      "sha256": "0cac6ca881e1ec9ec7e4d8bebba1567f27d99cd3d8ab28dcb58cbee33640e04f",
+      "matches": [
+        {
+          "needle": "数字1 - 6",
+          "lines": [
+            132
+          ]
+        },
+        {
+          "needle": "设置快捷道具",
+          "lines": [
+            144
+          ]
+        },
+        {
+          "needle": "负重+2",
+          "lines": [
+            185
+          ]
+        },
+        {
+          "needle": "负重+1",
+          "lines": [
+            191,
+            237,
+            242
+          ]
+        }
+      ]
+    },
+    {
+      "path": "参考项目/src/native-stats.js",
+      "bytes": 4234,
+      "sha256": "cdf637abc9bbb0772c748dd4261f25eb6817cc44c3580a0d0abbf3c79de94557",
+      "matches": [
+        {
+          "needle": "Portrait inventory override",
+          "lines": [
+            39
+          ]
+        }
+      ]
+    },
+    {
+      "path": "参考项目/src/bag-capacity.js",
+      "bytes": 1084,
+      "sha256": "bd8798876665c25597d7a237337144389d4badd60d873d1c1ca10c1cc3923bb2",
+      "matches": [
+        {
+          "needle": "BAG_CAPACITIES",
+          "lines": [
+            3,
+            5
+          ]
+        },
+        {
+          "needle": "carriedReceiveAmount",
+          "lines": [
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "path": "参考项目/src/inventory.js",
+      "bytes": 4732,
+      "sha256": "5d464995ff7f08c69c3fbec3d8ec75a270815bfed8db3eabc62cfdf65cf5876a",
+      "matches": [
+        {
+          "needle": "carriedItems=",
+          "lines": [
+            9
+          ]
+        },
+        {
+          "needle": "mergeCarriedItem",
+          "lines": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "path": "参考项目/src/services.js",
+      "bytes": 4254,
+      "sha256": "5cbe44dbc6f62335d3cccabc8a64431e2748822799ec26b864d669aa3b9de502",
+      "matches": [
+        {
+          "needle": "function buyItem",
+          "lines": [
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "path": "参考项目/src/service-ui.js",
+      "bytes": 7088,
+      "sha256": "583e694c9254a2df876a5e9491459e26211555ad5e6e938975e77822853383b9",
+      "matches": [
+        {
+          "needle": "function serviceAction",
+          "lines": [
+            9
+          ]
+        },
+        {
+          "needle": "function drawService",
+          "lines": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "path": "参考项目/src/script-services.js",
+      "bytes": 4592,
+      "sha256": "3edab88dacb9fc61f175d1b3397f78531e77dfbea4fe4ff93f8198a25df3a17c",
+      "matches": [
+        {
+          "needle": "companions=",
+          "lines": [
+            11
+          ]
+        },
+        {
+          "needle": "if(e.kind==='reme')",
+          "lines": [
+            47
+          ]
+        },
+        {
+          "needle": "e.kind==='repet'",
+          "lines": [
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "path": "参考项目/src/npc-dialogue.js",
+      "bytes": 12052,
+      "sha256": "3c04159885acffb5207183e5851c4c4640634b5f6a5e402bc2660b72af4e2f84",
+      "matches": [
+        {
+          "needle": "command==='buy'",
+          "lines": [
+            55
+          ]
+        },
+        {
+          "needle": "command==='itemck'",
+          "lines": [
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "path": "参考项目/src/belt.js",
+      "bytes": 2537,
+      "sha256": "afe89df4f2008a10f79514492b40926edf7e3cef8dfc0a3c0a5471764b8e00e1",
+      "matches": [
+        {
+          "needle": "BELT_SIZE",
+          "lines": [
+            6,
+            11,
+            13,
+            22
+          ]
+        },
+        {
+          "needle": "putInBelt",
+          "lines": [
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "path": "参考项目/tools/inspect-numerics.py",
+      "bytes": 4537,
+      "sha256": "a20c6cbf8accd46373c5c8cadcd5ee2d362a47465593d78cec99571748f9a6d5",
+      "matches": [
+        {
+          "needle": "capacity",
+          "lines": [
+            29,
+            32
+          ]
+        },
+        {
+          "needle": "fixed class stack",
+          "lines": [
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "path": "参考项目/tools/inspect-growth.py",
+      "bytes": 7270,
+      "sha256": "323bce0ed82a7318c3b8b5942f2236bfdfcdef57694a6827254451a12f56f043",
+      "matches": [
+        {
+          "needle": "User-requested fixed stack",
+          "lines": [
+            74
+          ]
+        }
+      ]
+    },
+    {
+      "path": "参考项目/tools/inspect-npc-quests.py",
+      "bytes": 2836,
+      "sha256": "18b69b544280efa4656c6f45b3cb3677dd9f4a97f4c4f1582a850da40a4c1a1c",
+      "matches": [
+        {
+          "needle": "42 physical",
+          "lines": [
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "path": "参考项目/tools/inspect-refining.py",
+      "bytes": 5611,
+      "sha256": "425b0748885e1d1221e5ac9d08419fed0da2725f78438d53bff1775085fe1066",
+      "matches": [
+        {
+          "needle": "raw38",
+          "lines": [
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "path": "参考项目/public/assets/ui/native/index.json",
+      "bytes": 29240,
+      "sha256": "e303ce13f9bcf27eb0b1a69171c7171a2e9bf038e8cef5045ef1f4a9049c028a",
+      "matches": [
+        {
+          "needle": "\"dialog\"",
+          "lines": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Project/scripts/core/inventory_state.gd",
+      "bytes": 22788,
+      "sha256": "b717d98ea82d9f7e623fddd60fb7b4c2d0a2153583446fb1a4a42d7fcdc2705a",
+      "matches": [
+        {
+          "needle": "BAG_SIZE",
+          "lines": [
+            5,
+            20,
+            149,
+            226,
+            297
+          ]
+        },
+        {
+          "needle": "static func stage",
+          "lines": [
+            36
+          ]
+        },
+        {
+          "needle": "static func commit",
+          "lines": [
+            70
+          ]
+        },
+        {
+          "needle": "static func _acquire",
+          "lines": [
+            269
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Project/scripts/core/default_warrior.gd",
+      "bytes": 12581,
+      "sha256": "3ee70156411aa51053469b659569f6ebbab20cf0aa758959b7f712390a215722",
+      "matches": [
+        {
+          "needle": "CACHED_TOTALS",
+          "lines": [
+            10,
+            64
+          ]
+        },
+        {
+          "needle": "static func adapt_cloth",
+          "lines": [
+            17
+          ]
+        },
+        {
+          "needle": "static func project",
+          "lines": [
+            89
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Project/scripts/core/npc_source_identity.gd",
+      "bytes": 4428,
+      "sha256": "267193e102332827cd8ff18cf32aec585be9410622e3ca41c641598defd2a8e0",
+      "matches": [
+        {
+          "needle": "static func resolve",
+          "lines": [
+            52
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Project/scripts/new_game_candidate.gd",
+      "bytes": 17367,
+      "sha256": "edeaac7690d891931f10a59c018ff47af32e7f5599a51c25342f07ff760ce846",
+      "matches": [
+        {
+          "needle": "const POLICY",
+          "lines": [
+            9
+          ]
+        },
+        {
+          "needle": "func source_npc",
+          "lines": [
+            236
+          ]
+        },
+        {
+          "needle": "func choose",
+          "lines": [
+            246
+          ]
+        },
+        {
+          "needle": "func commit_candidate",
+          "lines": [
+            268
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Project/scripts/opening_candidate.gd",
+      "bytes": 7952,
+      "sha256": "5aef7ba6536689c83204104ce5300977a6546e196e3f69e3bfca5c9ddad79850",
+      "matches": [
+        {
+          "needle": "func render_dialog",
+          "lines": [
+            194
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Project/scripts/earth/new_game_snapshot_controller.gd",
+      "bytes": 3618,
+      "sha256": "673cda5f9b09781934944e5ade6afeb56b4fb2faa1783f9f7f92283780f8f7ac",
+      "matches": [
+        {
+          "needle": "extends",
+          "lines": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Project/scenes/earth_new_game_candidate.tscn",
+      "bytes": 202,
+      "sha256": "d663d684055488f2ff38a3c51724ae5ca288e962e67741860d2700cc3275a41d",
+      "matches": [
+        {
+          "needle": "ext_resource",
+          "lines": [
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "npc": {
+    "source_index": 2,
+    "fields": {
+      "x": 20,
+      "y": 26,
+      "appearance": 2,
+      "direction": 2,
+      "name": "老药师"
+    },
+    "script_utf8_sha256": "78fdc3d3044ef40d2d7de1cb36804de64349131d22e3c9036391b723db3ae2ad",
+    "web_record_equal": true
+  },
+  "items": [
+    {
+      "id": 3,
+      "name": "强效金创药",
+      "price": 35,
+      "weight": 1,
+      "type": 3,
+      "icon": 9,
+      "hp": 80,
+      "mp": 0,
+      "record_canonical_sha256": "b06589cca8f98294b6f2f89b54e1507e7582042f603b4a955da67ffe2acd6bbe",
+      "rawFields": [
+        3,
+        9,
+        0,
+        0,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "name": "绝强金创药",
+      "price": 60,
+      "weight": 1,
+      "type": 3,
+      "icon": 10,
+      "hp": 110,
+      "mp": 0,
+      "record_canonical_sha256": "046598ffb1440eeec14e31cc2a672fdaff3962f64155aa4ee10545f3e5bb2456",
+      "rawFields": [
+        3,
+        10,
+        0,
+        0,
+        110,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 42,
+      "name": "精炼金创药",
+      "price": 120,
+      "weight": 2,
+      "type": 3,
+      "icon": 76,
+      "hp": 150,
+      "mp": 0,
+      "record_canonical_sha256": "0d9468d1c59556e9da07cc737a9266116ad81f6916682a3feb928a2fcc08434b",
+      "rawFields": [
+        3,
+        76,
+        0,
+        0,
+        150,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "id": 8,
+      "name": "强效魔法药",
+      "price": 30,
+      "weight": 1,
+      "type": 3,
+      "icon": 16,
+      "hp": 0,
+      "mp": 100,
+      "record_canonical_sha256": "8f73981bc17a3fb5534e0167bd9cd594bde12cd0d8a794ac02506fcffed28010",
+      "rawFields": [
+        3,
+        16,
+        0,
+        0,
+        0,
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "name": "绝强魔法药",
+      "price": 55,
+      "weight": 1,
+      "type": 3,
+      "icon": 17,
+      "hp": 0,
+      "mp": 130,
+      "record_canonical_sha256": "0c7fb56227dd92bf51af4116bc3a735edf2351ca0dbb17a3f7ba599bfb9f9285",
+      "rawFields": [
+        3,
+        17,
+        0,
+        0,
+        0,
+        130,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 44,
+      "name": "精炼魔法药",
+      "price": 110,
+      "weight": 2,
+      "type": 3,
+      "icon": 77,
+      "hp": 0,
+      "mp": 180,
+      "record_canonical_sha256": "a7df103589a144118d8ef1f7187d25f2ea1cad8c17a9a62362417eb8bb802448",
+      "rawFields": [
+        3,
+        77,
+        0,
+        0,
+        0,
+        180,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "id": 13,
+      "name": "强效金创药包",
+      "price": 210,
+      "weight": 7,
+      "type": 6,
+      "icon": 23,
+      "hp": 0,
+      "mp": 0,
+      "record_canonical_sha256": "f90e74f67e7b4d810a2c11ede9186172044275473e67ac5af2463615a01069f3",
+      "rawFields": [
+        6,
+        23,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "id": 14,
+      "name": "绝强金创药包",
+      "price": 360,
+      "weight": 7,
+      "type": 6,
+      "icon": 24,
+      "hp": 0,
+      "mp": 0,
+      "record_canonical_sha256": "93e73ef16781edffc40bdf85cb227a6bceef0e5fcf503bbea3cda0678634c003",
+      "rawFields": [
+        6,
+        24,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "id": 18,
+      "name": "强效魔法药包",
+      "price": 180,
+      "weight": 7,
+      "type": 6,
+      "icon": 30,
+      "hp": 0,
+      "mp": 0,
+      "record_canonical_sha256": "93619e8a20f74e1df0e8bda301fe34ca89a82d711ac3dcad9cf0077ce1b0c05f",
+      "rawFields": [
+        6,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "id": 19,
+      "name": "绝强魔法药包",
+      "price": 330,
+      "weight": 7,
+      "type": 6,
+      "icon": 31,
+      "hp": 0,
+      "mp": 0,
+      "record_canonical_sha256": "aaa5e568af39693f54414fbe61743d6f1a82bc0c283173bbe40459be3970d9b9",
+      "rawFields": [
+        6,
+        31,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "id": 43,
+      "name": "精炼金创药包",
+      "price": 760,
+      "weight": 12,
+      "type": 6,
+      "icon": 101,
+      "hp": 0,
+      "mp": 0,
+      "record_canonical_sha256": "45a4ef3ad1233bc665b738a5b07e3677274275a381fb986c40f785652891b06f",
+      "rawFields": [
+        6,
+        101,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12
+      ]
+    },
+    {
+      "id": 45,
+      "name": "精炼魔法药包",
+      "price": 660,
+      "weight": 12,
+      "type": 6,
+      "icon": 108,
+      "hp": 0,
+      "mp": 0,
+      "record_canonical_sha256": "5744367644e67a172207bccc92a0e2fab30efa971a0d40d1ef1e55c74f1cbd6f",
+      "rawFields": [
+        6,
+        108,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12
+      ]
+    }
+  ],
+  "script_line_index": [
+    {
+      "line": 1,
+      "text": "#buy"
+    },
+    {
+      "line": 2,
+      "text": "强效金创药"
+    },
+    {
+      "line": 3,
+      "text": "绝强金创药"
+    },
+    {
+      "line": 4,
+      "text": "精炼金创药"
+    },
+    {
+      "line": 5,
+      "text": "强效魔法药"
+    },
+    {
+      "line": 6,
+      "text": "绝强魔法药"
+    },
+    {
+      "line": 7,
+      "text": "精炼魔法药"
+    },
+    {
+      "line": 8,
+      "text": "强效金创药包"
+    },
+    {
+      "line": 9,
+      "text": "绝强金创药包"
+    },
+    {
+      "line": 10,
+      "text": "强效魔法药包"
+    },
+    {
+      "line": 11,
+      "text": "绝强魔法药包"
+    },
+    {
+      "line": 12,
+      "text": "精炼金创药包"
+    },
+    {
+      "line": 13,
+      "text": "精炼魔法药包"
+    },
+    {
+      "line": 14,
+      "text": "#endbuy"
+    },
+    {
+      "line": 15,
+      "text": "我八岁便受指引来到三清观，一生修道，潜心钻研药学。日逢九便下山济世，救人无数。我这里的药不说天下无双，也是举世难寻。"
+    },
+    {
+      "line": 16,
+      "text": ""
+    },
+    {
+      "line": 17,
+      "text": "#button 角色治疗 2 9 绿 M1"
+    },
+    {
+      "line": 18,
+      "text": "#button 宠物治疗 12 9 青 M2"
+    },
+    {
+      "line": 19,
+      "text": "#button 关闭 34 9 黄 OVER"
+    },
+    {
+      "line": 20,
+      "text": "#end"
+    },
+    {
+      "line": 21,
+      "text": ""
+    },
+    {
+      "line": 22,
+      "text": ""
+    },
+    {
+      "line": 23,
+      "text": "#SUB M1"
+    },
+    {
+      "line": 24,
+      "text": "我将用内力功法给你进行疗愈，可迅速修复你的所有创伤，且可令你精气充盈。这将耗费我大量灵力，所以我要收取1000文钱，你看行吗？"
+    },
+    {
+      "line": 25,
+      "text": ""
+    },
+    {
+      "line": 26,
+      "text": "#button 没问题，请为我疗愈 2 9 黄 M1G"
+    },
+    {
+      "line": 27,
+      "text": "#button 关闭 34 9 黄 OVER"
+    },
+    {
+      "line": 28,
+      "text": "#END"
+    },
+    {
+      "line": 29,
+      "text": ""
+    },
+    {
+      "line": 30,
+      "text": "#sub M1G"
+    },
+    {
+      "line": 31,
+      "text": "#itemck 金币 > 999"
+    },
+    {
+      "line": 32,
+      "text": "#take 金币 1000"
+    },
+    {
+      "line": 33,
+      "text": "#REME"
+    },
+    {
+      "line": 34,
+      "text": "已为你疗愈完毕，感觉怎么样？"
+    },
+    {
+      "line": 35,
+      "text": "#else"
+    },
+    {
+      "line": 36,
+      "text": "你似乎没有带足够的钱"
+    },
+    {
+      "line": 37,
+      "text": "#endif"
+    },
+    {
+      "line": 38,
+      "text": "#button 关闭 34 9 黄 OVER"
+    },
+    {
+      "line": 39,
+      "text": "#END"
+    },
+    {
+      "line": 40,
+      "text": ""
+    },
+    {
+      "line": 41,
+      "text": ""
+    },
+    {
+      "line": 42,
+      "text": "#SUB M2"
+    },
+    {
+      "line": 43,
+      "text": "我将用内力功法给你你的宠物进行疗愈，可迅速修复它们的创伤。这将耗费我大量灵力，所以我要收取2000文钱，你看行吗？"
+    },
+    {
+      "line": 44,
+      "text": ""
+    },
+    {
+      "line": 45,
+      "text": "#button 没问题，请疗愈 2 9 黄 M2G"
+    },
+    {
+      "line": 46,
+      "text": "#button 关闭 34 9 黄 OVER"
+    },
+    {
+      "line": 47,
+      "text": "#END"
+    },
+    {
+      "line": 48,
+      "text": ""
+    },
+    {
+      "line": 49,
+      "text": "#sub M2G"
+    },
+    {
+      "line": 50,
+      "text": "#itemck 金币 > 1999"
+    },
+    {
+      "line": 51,
+      "text": "#take 金币 2000"
+    },
+    {
+      "line": 52,
+      "text": "#REPET"
+    },
+    {
+      "line": 53,
+      "text": "已为你的宠物疗愈完毕"
+    },
+    {
+      "line": 54,
+      "text": "#else"
+    },
+    {
+      "line": 55,
+      "text": "你似乎没有带足够的钱"
+    },
+    {
+      "line": 56,
+      "text": "#endif"
+    },
+    {
+      "line": 57,
+      "text": "#button 关闭 34 9 黄 OVER"
+    },
+    {
+      "line": 58,
+      "text": "#END"
+    }
+  ]
+}

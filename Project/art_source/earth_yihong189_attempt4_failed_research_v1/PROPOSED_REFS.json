@@ -1,0 +1,112 @@
+{
+  "status": "Proposal only; no generation authorized yet",
+  "logical_canvas": [
+    96,
+    96
+  ],
+  "world_origin": [
+    3060,
+    1968
+  ],
+  "anchor": [
+    12,
+    48
+  ],
+  "transparent_background": true,
+  "references": [
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/yihong-design-input/source189-world96.png",
+      "role": "Complete 96x96 source189 fixed window; sole whole-body pose and placement authority",
+      "sha256": "2d14c772343c5236269bf1d0a18765266257991f59f37c7a1389a8e36aa85d33"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/yihong-fourphase-readonly-review/static189-proposal/ref2-source189-upper-12x.png",
+      "role": "Visible upper surfaces and unknown regions; exact nearest enlargement, not anatomy labels",
+      "source": "/workspace/scratch/22c897619190/recovery-work/yihong-design-input/source189-world96.png",
+      "source_sha256": "2d14c772343c5236269bf1d0a18765266257991f59f37c7a1389a8e36aa85d33",
+      "crop_pixels": [
+        5,
+        4,
+        52,
+        40
+      ],
+      "scale": 12,
+      "sha256": "06e2b30e07e59616aa84710f492a422c6ff9cf3e8750bead4dc61bc3419d7b02"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/yihong-fourphase-readonly-review/static189-proposal/ref3-source189-lower-10x.png",
+      "role": "Visible lower projection and shoe ends; not bones or weight-bearing points",
+      "source": "/workspace/scratch/22c897619190/recovery-work/yihong-design-input/source189-world96.png",
+      "source_sha256": "2d14c772343c5236269bf1d0a18765266257991f59f37c7a1389a8e36aa85d33",
+      "crop_pixels": [
+        20,
+        37,
+        48,
+        85
+      ],
+      "scale": 10,
+      "sha256": "2ed886d11fa76bf3a0ddba93c7c6e2915ba358a3cb57508c04c13d8c7805c99d"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/yihong-fourphase-readonly-review/static189-proposal/ref4-seed3-face-only.png",
+      "role": "Face/hair identity only, never head position or scale",
+      "source": "/workspace/scratch/22c897619190/recovery-work/yihong-design-input/phase189-seed-attempt3/generated-raw.png",
+      "source_sha256": "a8506d33d7214677982e83c635b1c8123995a682bf219fe0258fc43f3b23d866",
+      "crop_pixels": [
+        493,
+        85,
+        665,
+        292
+      ],
+      "scale": 1,
+      "sha256": "8c284b087ef408afff2eb5deff556058ecf76bc9a2143f8db93fc779a1c35271"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/yihong-fourphase-readonly-review/static189-proposal/ref5-seed3-modern-material-details.png",
+      "role": "Local material/construction evidence only; no complete hand/rod or two-leg stance",
+      "source": "/workspace/scratch/22c897619190/recovery-work/yihong-design-input/phase189-seed-attempt3/generated-raw.png",
+      "source_sha256": "a8506d33d7214677982e83c635b1c8123995a682bf219fe0258fc43f3b23d866",
+      "parts": [
+        {
+          "label": "Short jacket hem detail",
+          "crop_pixels": [
+            490,
+            488,
+            665,
+            599
+          ]
+        },
+        {
+          "label": "Jacket material and seam",
+          "crop_pixels": [
+            730,
+            300,
+            796,
+            380
+          ]
+        },
+        {
+          "label": "Full trousers material",
+          "crop_pixels": [
+            550,
+            650,
+            654,
+            820
+          ]
+        },
+        {
+          "label": "One compact shoe detail",
+          "crop_pixels": [
+            509,
+            1003,
+            653,
+            1081
+          ]
+        }
+      ],
+      "sha256": "c00183607c918004d26fdb5442bed4815c386e13a3191ec8945e2033aa7c5ae8"
+    }
+  ],
+  "prompt_path": "/workspace/scratch/22c897619190/recovery-work/yihong-fourphase-readonly-review/static189-proposal/prompt_proposed.txt",
+  "prompt_sha256": "893a7e06c3cf626413fdedf8ae0d49419ba1f793e13ac452a376d0bc2807aa85"
+}

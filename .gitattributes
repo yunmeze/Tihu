@@ -39,3 +39,6 @@
 *.lpMap -text
 原版游戏/** -text !eol
 参考项目/** -text !eol
+
+# Preserve the original decoded NPC script including CRLF for its source SHA.
+Project/art_source/earth_apothecary_purchase_ui_research_v1/original-evidence/pharmacist-script.txt -text !eol

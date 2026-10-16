@@ -1,0 +1,20 @@
+Use case: sketch-to-render. Asset: one complete high-definition transparent 2D Yihong NPC, static phase 189, for a modern Swallowed Star Earth training-base game.
+
+Reference roles, in supplied order:
+1. Original complete 96x96 logical world window: sole authority for whole-body projection, placement, relative visible surfaces and padding.
+2. Exact nearest-neighbor enlargement of source x5:52,y4:40: upper-body surface/occlusion evidence, including ambiguous dark regions. It is not a separate pose.
+3. Exact nearest-neighbor enlargement of source x20:48,y37:85: lower-body projected silhouette and two visible shoe ends, not a skeleton.
+4. Seed3 face/hair fragment: face identity and modern short natural hair ONLY; ignore its placement and scale.
+5. Seed3 local garment/material fragments: modern construction ONLY; ignore fragment orientation and pose. No complete seed pose is supplied.
+
+Produce one coherent whole character on a square transparent canvas corresponding exactly to the entire original 96x96 window. Keep the source's relatively small, left-of-center character and generous right/bottom empty space; do not center, tight-crop, or fit the character to the canvas. Source map anchor is (12,48) within this logical window, not a foot joint.
+
+Keep the source upper-body visible arrangement: the outward arm reaches screen-left; the thin silver-gray diagonal-horizontal bright segment crosses the chest around x15..47,y21..25. Separately, the pale transverse sleeve/forearm-like surface remains LOWER, across the abdomen around x23..38,y30..35, with its small warm-toned left end. The small dark upright patch with reddish-brown top above that abdominal left end remains visible in its original relative position. Do not raise this lower pale surface to the chest. Do not invent a second hand gripping the silver line. Preserve the observed spacing and occlusion; render the low-resolution evidence conservatively rather than assigning a new object or grip. The upper silver segment and lower pale surface must remain visually distinct.
+
+Also preserve the compact dark curved silhouette behind the head in its original region, separate from natural short hair. Its identity is unknown: do not turn it into a ponytail, ribbon, headband, named weapon, or elaborated equipment. Likewise do not name or elaborate the abdominal dark/red-brown patch. These uncertain source features should stay restrained and visually ambiguous, not be silently removed.
+
+Retain the source's narrow staggered lower-body projection: screen-left/upper visible shoe around x24..32,y62..70; screen-right/lower visible shoe around x36..45,y73..82. No broad stance, deep crouch, backwards lean, long forward-projecting knee, or swapping feet. These locations describe visible surfaces, not recovered joints or exact anatomy. Resolve unseen legs coherently within the source's projected volumes, without separate pasted limbs.
+
+Modern design from refs4-5: mature lean male face; ink-green short practical zip jacket ending at waist/upper hip, cream inner shirt, ordinary sleeve cuffs, separate charcoal full-length trousers, compact ankle training shoes/boots. Preserve these clean modern garment constructions while replacing the source's old costume styling. No long robe, coat tails, wrapped forearms/shins, tall strapped boots, or ornate armor. Warm upper-left lighting and clean realistic 2D painted materials matching the design fragments.
+
+True alpha outside the complete character and retained small ambiguous source features. The original checker-pattern ground projection is a ground shadow, not body detail: do not reproduce it. No new cast shadow, ground, pedestal, text, labels, multiple views, panels, animation strip, or extra objects. Return only one complete static189 character; all source evidence images are references, not panels to reproduce.

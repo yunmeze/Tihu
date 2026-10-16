@@ -1,0 +1,65 @@
+{
+  "core190": {
+    "original_evidence_path": "recovery-work/apothecary-purchase-core/RESULTS.json",
+    "sha256": "985883174181f00208496ec8320322443f469dfb91f8f11771a1225df90bba35",
+    "summary": {
+      "failed": [],
+      "passed": 190,
+      "engine": "Godot 4.6.3.stable.official.7d41c59c4",
+      "exit": 0,
+      "scope": "Real GDScript isolated data-core assertions; no runtime service/UI integration"
+    }
+  },
+  "ui23": {
+    "original_evidence_path": "recovery-work/apothecary-shop-ui-candidate/RESULTS.json",
+    "sha256": "a3a825dff38cfb6be526284813b26e47b6ec994c6b908969a9ac34e0dc64fea6",
+    "summary": {
+      "engine": "Godot 4.6.3",
+      "exit": 0,
+      "checks": 23,
+      "failed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "gpu_visual_review": true,
+      "first_run": {
+        "exit": 124,
+        "error": "test accessed absent ticket after source_index JSON float failed strict context",
+        "retained": "ui-headless-first.log"
+      },
+      "scope": "isolated owned UI nodes and actual core only",
+      "separate_gpu_evidence": "GPU_RESULTS.json",
+      "display_compatibility": {
+        "headless_checks": 23,
+        "exit": 0,
+        "screenshot": "actual-glyph-window.jpg",
+        "gpu_exit": 0,
+        "script_sha_unchanged": true
+      }
+    }
+  },
+  "actual_purchase": {
+    "original_evidence_path": "recovery-work/apothecary-shop-ui-candidate/GPU_RESULTS.json",
+    "sha256": "c4ff113c6a6c5495456c39996af43fc98c65f761d38754c6a88e4beae2fb639e",
+    "summary": {
+      "exit": 0,
+      "graphics": "OpenGL 4.5 Mesa llvmpipe software-rendered graphical window",
+      "errors": 0,
+      "warnings": 1,
+      "verified_purchase": {
+        "gold_before": 2000,
+        "gold_after": 1965,
+        "instances_before": 1,
+        "instances_after": 2
+      },
+      "subsequent_close_reopen": "Original recorded state sequence preserved in external evidence by SHA; no screenshot archived"
+    }
+  },
+  "ui_source_verification": {
+    "original_evidence_path": "recovery-work/apothecary-shop-ui-candidate/SOURCE_VERIFICATION.json",
+    "sha256": "9d535d472c58535bafbba20ca15ea485bb2b01fb1ac34605fb7caf7e1ebe55e7",
+    "summary": {
+      "exact_original_records": 13,
+      "core_dependencies_identical": true
+    }
+  }
+}

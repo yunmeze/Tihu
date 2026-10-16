@@ -1,0 +1,1444 @@
+{
+  "binary": {
+    "path": "原版游戏/LP传奇单机版_重生.exe",
+    "bytes": 2502656,
+    "sha256": "21dc753d3aa828fb29dc171e595857be234833edc43a1d80833540ae7e355b84"
+  },
+  "method": "Static byte parsing and lossless extraction only",
+  "coordinate_scale": "15 source units per original pixel, cross-checked against 480-unit/32px grid and 1005x315-unit/67x21 Buy.gif",
+  "resources": [
+    {
+      "control": "ScriptBuy",
+      "file_offset": 1207096,
+      "va": "0x526b38",
+      "bytes": 31692,
+      "sha256": "9500a91c0f17f06432c6963cc4e38eab8ea520f55e12eea1621f8618e441f565",
+      "width": 329,
+      "height": 147,
+      "gif": "ScriptBuy.gif",
+      "png": "ScriptBuy.png",
+      "post_image_properties": {
+        "file_offset": 1238788,
+        "va": "0x52e704",
+        "bytes": 14,
+        "sha256": "1683f20943f8a4e42b53154368d1740ebc8c15d13172a3a53e2fd8909e11009b",
+        "hex": "0408000080056072b80b47139d08"
+      },
+      "design_bounds_source_units": [
+        29280,
+        3000,
+        4935,
+        2205
+      ],
+      "design_bounds_pixels": [
+        1952.0,
+        200.0,
+        329.0,
+        147.0
+      ],
+      "decode": "GIF bytes unchanged; PNG lossless decoded pixels; no redesign"
+    },
+    {
+      "control": "PackageBox",
+      "file_offset": 1165868,
+      "va": "0x51ca2c",
+      "bytes": 39183,
+      "sha256": "9067ea71628f69b8ba9215c458509a3b3f6f2e2bf8ca2f19ed297dc12c8ecf31",
+      "width": 230,
+      "height": 319,
+      "gif": "PackageBox.gif",
+      "png": "PackageBox.png",
+      "post_image_properties": {
+        "file_offset": 1205051,
+        "va": "0x52633b",
+        "bytes": 14,
+        "sha256": "fdc44d1df30fcdc4ac6a4deb8cdf4bbc81752ce6a97e148649284824dace8cf6",
+        "hex": "040800008005884a58027a0db112"
+      },
+      "design_bounds_source_units": [
+        19080,
+        600,
+        3450,
+        4785
+      ],
+      "design_bounds_pixels": [
+        1272.0,
+        40.0,
+        230.0,
+        319.0
+      ],
+      "decode": "GIF bytes unchanged; PNG lossless decoded pixels; no redesign"
+    },
+    {
+      "source": "原版游戏/Data/Button/Buy.gif",
+      "bytes": 2314,
+      "sha256": "0444a266193a69e2b2216afcfa74c9fef6d59e7bb9993c7c4a76ee2485f963de",
+      "width": 67,
+      "height": 21,
+      "web_png_pixels_equal": true
+    }
+  ],
+  "controls": {
+    "ScriptBuy_Item": [
+      {
+        "index": 0,
+        "file_offset": 1238919,
+        "va": "0x52e787",
+        "bytes": 28,
+        "sha256": "e0c017451c65ab99d2fb1a3e88be2dd1e5ef2e5c0b116322b1bd1e09e0d003f7",
+        "hex": "5363726970744275795f4974656d00180100000386019501e001e001",
+        "bounds_source_units": [
+          390,
+          405,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          26.0,
+          27.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 1,
+        "file_offset": 1238960,
+        "va": "0x52e7b0",
+        "bytes": 28,
+        "sha256": "25fdcbbfd6a1afd8e3dffe85821933b0842e5037122830b090a656b4c0f0e7fc",
+        "hex": "5363726970744275795f4974656d00180101000393039501e001e001",
+        "bounds_source_units": [
+          915,
+          405,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          61.0,
+          27.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 2,
+        "file_offset": 1239001,
+        "va": "0x52e7d9",
+        "bytes": 28,
+        "sha256": "f66f36f8d52907ccabc6062220c0f36f83f2a70866a39024a31cc42c86cba7ed",
+        "hex": "5363726970744275795f4974656d001801020003a0059501e001e001",
+        "bounds_source_units": [
+          1440,
+          405,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          96.0,
+          27.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 3,
+        "file_offset": 1239042,
+        "va": "0x52e802",
+        "bytes": 28,
+        "sha256": "6f1533faba498e380e1ae91070eeb2eea7a96127f7412601814adc8dd613b438",
+        "hex": "5363726970744275795f4974656d001801030003ad079501e001e001",
+        "bounds_source_units": [
+          1965,
+          405,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          131.0,
+          27.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 4,
+        "file_offset": 1239083,
+        "va": "0x52e82b",
+        "bytes": 28,
+        "sha256": "63b681aca0b031248653fdc64570c4b899025e54904ea93b9ba0803fcd3de490",
+        "hex": "5363726970744275795f4974656d001801040003ba099501e001e001",
+        "bounds_source_units": [
+          2490,
+          405,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          166.0,
+          27.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 5,
+        "file_offset": 1239124,
+        "va": "0x52e854",
+        "bytes": 28,
+        "sha256": "a6c4ac8a0b3d669cdf3504d57f9b3bfed403dbd2db93fda37a451ba81aad14c1",
+        "hex": "5363726970744275795f4974656d001801050003c70b9501e001e001",
+        "bounds_source_units": [
+          3015,
+          405,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          201.0,
+          27.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 6,
+        "file_offset": 1239165,
+        "va": "0x52e87d",
+        "bytes": 28,
+        "sha256": "b548a321372324f49415443a803d7d54fd965f878b246499e8463266ad4ceaef",
+        "hex": "5363726970744275795f4974656d001801060003d40d9501e001e001",
+        "bounds_source_units": [
+          3540,
+          405,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          236.0,
+          27.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 7,
+        "file_offset": 1239206,
+        "va": "0x52e8a6",
+        "bytes": 28,
+        "sha256": "6dd76393a25c0731a42a0a83738d2fc3145dd03919a9b6d0c88442d0d0b18d17",
+        "hex": "5363726970744275795f4974656d001801070003e10f9501e001e001",
+        "bounds_source_units": [
+          4065,
+          405,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          271.0,
+          27.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 8,
+        "file_offset": 1239247,
+        "va": "0x52e8cf",
+        "bytes": 28,
+        "sha256": "b1f4563a1d594a470add6b8ac3d36a85b2aa855d73e5fc02637bfd907b8b7fc3",
+        "hex": "5363726970744275795f4974656d0018010800038601a203e001e001",
+        "bounds_source_units": [
+          390,
+          930,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          26.0,
+          62.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 9,
+        "file_offset": 1239288,
+        "va": "0x52e8f8",
+        "bytes": 28,
+        "sha256": "e7aa4d1c87417dc47314f375d7d5893d8978f43a1f2c9c2e67f3c61bd62d285f",
+        "hex": "5363726970744275795f4974656d0018010900039303a203e001e001",
+        "bounds_source_units": [
+          915,
+          930,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          61.0,
+          62.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 10,
+        "file_offset": 1239329,
+        "va": "0x52e921",
+        "bytes": 28,
+        "sha256": "aa57341fdcf1f0d307ccda57401a32fb2e9a983feeffccf23c5409813e080a9d",
+        "hex": "5363726970744275795f4974656d0018010a0003a005a203e001e001",
+        "bounds_source_units": [
+          1440,
+          930,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          96.0,
+          62.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 11,
+        "file_offset": 1239370,
+        "va": "0x52e94a",
+        "bytes": 28,
+        "sha256": "c4748acaf70dd6b1602f2653eb4c8ce39a01608160d2ddac529eaf822cf521c9",
+        "hex": "5363726970744275795f4974656d0018010b0003ad07a203e001e001",
+        "bounds_source_units": [
+          1965,
+          930,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          131.0,
+          62.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 12,
+        "file_offset": 1239411,
+        "va": "0x52e973",
+        "bytes": 28,
+        "sha256": "8950ccae74ecc90e96e13044cf5986144e694bf02f0b0b572d81d8c85da3e6ef",
+        "hex": "5363726970744275795f4974656d0018010c0003ba09a203e001e001",
+        "bounds_source_units": [
+          2490,
+          930,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          166.0,
+          62.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 13,
+        "file_offset": 1239452,
+        "va": "0x52e99c",
+        "bytes": 28,
+        "sha256": "08228235a1b21754a591e7a369a5e2b0c9446471e2c103cc9809c42c50ed297c",
+        "hex": "5363726970744275795f4974656d0018010d0003c70ba203e001e001",
+        "bounds_source_units": [
+          3015,
+          930,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          201.0,
+          62.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 14,
+        "file_offset": 1239493,
+        "va": "0x52e9c5",
+        "bytes": 28,
+        "sha256": "f98f42d9dfdcef4af42097a26f7c7c3d5403df36201a45e941d3460a4a1984b9",
+        "hex": "5363726970744275795f4974656d0018010e0003d40da203e001e001",
+        "bounds_source_units": [
+          3540,
+          930,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          236.0,
+          62.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 15,
+        "file_offset": 1239534,
+        "va": "0x52e9ee",
+        "bytes": 28,
+        "sha256": "076fa26eef64d84664b1597cc979a889291b482acdf6dc9f363b6db3d626357b",
+        "hex": "5363726970744275795f4974656d0018010f0003e10fa203e001e001",
+        "bounds_source_units": [
+          4065,
+          930,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          271.0,
+          62.0,
+          32.0,
+          32.0
+        ]
+      }
+    ],
+    "PackageItem": [
+      {
+        "index": 0,
+        "file_offset": 1207030,
+        "va": "0x526af6",
+        "bytes": 25,
+        "sha256": "43039c4a498d37aaa09f162fce4a7f998220127eb0e3cf71107f9b9920f9899a",
+        "hex": "5061636b6167654974656d001801000003b4005802e001e001",
+        "bounds_source_units": [
+          180,
+          600,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          12.0,
+          40.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 1,
+        "file_offset": 1206992,
+        "va": "0x526ad0",
+        "bytes": 25,
+        "sha256": "27de966260f65d7ba71fd015473056e197c86eb1ec0a0da970b55e75959c6c94",
+        "hex": "5061636b6167654974656d001801010003c1025802e001e001",
+        "bounds_source_units": [
+          705,
+          600,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          47.0,
+          40.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 2,
+        "file_offset": 1206954,
+        "va": "0x526aaa",
+        "bytes": 25,
+        "sha256": "4bdb24efdb67941750db5072482236a4dcfa850d08bff0e035d39381a4fdfec9",
+        "hex": "5061636b6167654974656d001801020003ce045802e001e001",
+        "bounds_source_units": [
+          1230,
+          600,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          82.0,
+          40.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 3,
+        "file_offset": 1206916,
+        "va": "0x526a84",
+        "bytes": 25,
+        "sha256": "8d69d20db1ecaf2e9d19378d277d77c8e31bff701779fd58c7f66f4b2d25da3a",
+        "hex": "5061636b6167654974656d001801030003db065802e001e001",
+        "bounds_source_units": [
+          1755,
+          600,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          117.0,
+          40.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 4,
+        "file_offset": 1206878,
+        "va": "0x526a5e",
+        "bytes": 25,
+        "sha256": "2db64e474d2efa25eeaf2ad13bbe6096d43e48df0e08c9bf8cea095f391cdeb1",
+        "hex": "5061636b6167654974656d001801040003e8085802e001e001",
+        "bounds_source_units": [
+          2280,
+          600,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          152.0,
+          40.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 5,
+        "file_offset": 1206840,
+        "va": "0x526a38",
+        "bytes": 25,
+        "sha256": "d7f08577f9b53a5c0c105fed3631cd2c4add4aace41494f7c47d2d428c1bf806",
+        "hex": "5061636b6167654974656d001801050003f50a5802e001e001",
+        "bounds_source_units": [
+          2805,
+          600,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          187.0,
+          40.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 6,
+        "file_offset": 1206802,
+        "va": "0x526a12",
+        "bytes": 25,
+        "sha256": "2ad74af4ff57c6bf87846d5b90c08e9aac0bbf12a0db09eeba99c5f11f4f831c",
+        "hex": "5061636b6167654974656d001801060003b4006504e001e001",
+        "bounds_source_units": [
+          180,
+          1125,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          12.0,
+          75.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 7,
+        "file_offset": 1206764,
+        "va": "0x5269ec",
+        "bytes": 25,
+        "sha256": "1c4cea186ae38b468ec5f745ebd0102d8534b350157e5b3f41922152132c8c51",
+        "hex": "5061636b6167654974656d001801070003c1026504e001e001",
+        "bounds_source_units": [
+          705,
+          1125,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          47.0,
+          75.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 8,
+        "file_offset": 1206726,
+        "va": "0x5269c6",
+        "bytes": 25,
+        "sha256": "018911fa6316d74bf68c09132e8ed18fe3d04fe3d943d9115b42cf4606692294",
+        "hex": "5061636b6167654974656d001801080003ce046504e001e001",
+        "bounds_source_units": [
+          1230,
+          1125,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          82.0,
+          75.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 9,
+        "file_offset": 1206688,
+        "va": "0x5269a0",
+        "bytes": 25,
+        "sha256": "13fea38aed7976d729e5945a9ebbb168f5986835508270fcdf5c6810c1005df0",
+        "hex": "5061636b6167654974656d001801090003db066504e001e001",
+        "bounds_source_units": [
+          1755,
+          1125,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          117.0,
+          75.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 10,
+        "file_offset": 1206650,
+        "va": "0x52697a",
+        "bytes": 25,
+        "sha256": "aaf37d139b269b252690c2c383b626b2729624bde5c2d06acfcdd364318bfdba",
+        "hex": "5061636b6167654974656d0018010a0003e8086504e001e001",
+        "bounds_source_units": [
+          2280,
+          1125,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          152.0,
+          75.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 11,
+        "file_offset": 1206612,
+        "va": "0x526954",
+        "bytes": 25,
+        "sha256": "44d9c0d6ea19d8156e1956ced6305907156a54a3e0dd45cb34c67b24ead51697",
+        "hex": "5061636b6167654974656d0018010b0003f50a6504e001e001",
+        "bounds_source_units": [
+          2805,
+          1125,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          187.0,
+          75.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 12,
+        "file_offset": 1206574,
+        "va": "0x52692e",
+        "bytes": 25,
+        "sha256": "f5a3dee2f7609af68c6666d20263ae05113788277efda8fca4cac6a2f7d25d9b",
+        "hex": "5061636b6167654974656d0018010c0003b4007206e001e001",
+        "bounds_source_units": [
+          180,
+          1650,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          12.0,
+          110.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 13,
+        "file_offset": 1206536,
+        "va": "0x526908",
+        "bytes": 25,
+        "sha256": "0554e67c3c143ad72caf23f04f90314ca9921a622f70bf81998b17f6d7e2bdb6",
+        "hex": "5061636b6167654974656d0018010d0003c1027206e001e001",
+        "bounds_source_units": [
+          705,
+          1650,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          47.0,
+          110.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 14,
+        "file_offset": 1206498,
+        "va": "0x5268e2",
+        "bytes": 25,
+        "sha256": "69c3f67a061ee44ced11a96acc3a41564c23a608cd6b5ae3c8e993e773402c72",
+        "hex": "5061636b6167654974656d0018010e0003ce047206e001e001",
+        "bounds_source_units": [
+          1230,
+          1650,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          82.0,
+          110.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 15,
+        "file_offset": 1206460,
+        "va": "0x5268bc",
+        "bytes": 25,
+        "sha256": "ddf869bcd0725f968dbe96fcbdf7b36f48341f101ecfbef5f838453a5f5e0f1f",
+        "hex": "5061636b6167654974656d0018010f0003db067206e001e001",
+        "bounds_source_units": [
+          1755,
+          1650,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          117.0,
+          110.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 16,
+        "file_offset": 1206422,
+        "va": "0x526896",
+        "bytes": 25,
+        "sha256": "c0bce953220cb17d9d1c2f2c1dfbfe351c8b6ea2ccc5179a6ab569d267811c1f",
+        "hex": "5061636b6167654974656d001801100003e8087206e001e001",
+        "bounds_source_units": [
+          2280,
+          1650,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          152.0,
+          110.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 17,
+        "file_offset": 1206384,
+        "va": "0x526870",
+        "bytes": 25,
+        "sha256": "dc29b05aed4868e2221e87dd76901221d4959989e761c9c3f088bcf7b46a73c1",
+        "hex": "5061636b6167654974656d001801110003f50a7206e001e001",
+        "bounds_source_units": [
+          2805,
+          1650,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          187.0,
+          110.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 18,
+        "file_offset": 1206346,
+        "va": "0x52684a",
+        "bytes": 25,
+        "sha256": "3ec1c002c97977791f6e2a7c77f647bdb307f29aa0ec6d359803c43ce322dd8b",
+        "hex": "5061636b6167654974656d001801120003b4007f08e001e001",
+        "bounds_source_units": [
+          180,
+          2175,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          12.0,
+          145.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 19,
+        "file_offset": 1206308,
+        "va": "0x526824",
+        "bytes": 25,
+        "sha256": "26b8f30395e9d9498ea4716916b0a7c436d87a264a58982c50e185956e4698e1",
+        "hex": "5061636b6167654974656d001801130003c1027f08e001e001",
+        "bounds_source_units": [
+          705,
+          2175,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          47.0,
+          145.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 20,
+        "file_offset": 1206270,
+        "va": "0x5267fe",
+        "bytes": 25,
+        "sha256": "4975b6c6d9a8ac9c686becd07e2a6f976e7a3c0aac76eb2609abba42e588dfe5",
+        "hex": "5061636b6167654974656d001801140003ce047f08e001e001",
+        "bounds_source_units": [
+          1230,
+          2175,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          82.0,
+          145.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 21,
+        "file_offset": 1206232,
+        "va": "0x5267d8",
+        "bytes": 25,
+        "sha256": "9f4cb39023217fd3f6694b5d438900ecfaeae6d9f916c4f08d032b1871dc68fc",
+        "hex": "5061636b6167654974656d001801150003db067f08e001e001",
+        "bounds_source_units": [
+          1755,
+          2175,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          117.0,
+          145.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 22,
+        "file_offset": 1206194,
+        "va": "0x5267b2",
+        "bytes": 25,
+        "sha256": "99b58b0a66532d434510ea21f6d764ec773d6f5ebd3f9b5fccf944681c57ab02",
+        "hex": "5061636b6167654974656d001801160003e8087f08e001e001",
+        "bounds_source_units": [
+          2280,
+          2175,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          152.0,
+          145.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 23,
+        "file_offset": 1206156,
+        "va": "0x52678c",
+        "bytes": 25,
+        "sha256": "0984e742ecf7bd4bb013fb6a9813203756a0fd9325694db604cfe683889a7cd6",
+        "hex": "5061636b6167654974656d001801170003f50a7f08e001e001",
+        "bounds_source_units": [
+          2805,
+          2175,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          187.0,
+          145.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 24,
+        "file_offset": 1206118,
+        "va": "0x526766",
+        "bytes": 25,
+        "sha256": "e53e77abc14992118974ff2103396d9a3070a093f543f8591439466768d51389",
+        "hex": "5061636b6167654974656d001801180003b4008c0ae001e001",
+        "bounds_source_units": [
+          180,
+          2700,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          12.0,
+          180.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 25,
+        "file_offset": 1206080,
+        "va": "0x526740",
+        "bytes": 25,
+        "sha256": "a8e8642aa18dcc8271a0aba833ae735d46f0230b7b1cfb8b2cfbd60a81222161",
+        "hex": "5061636b6167654974656d001801190003c1028c0ae001e001",
+        "bounds_source_units": [
+          705,
+          2700,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          47.0,
+          180.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 26,
+        "file_offset": 1206042,
+        "va": "0x52671a",
+        "bytes": 25,
+        "sha256": "6fc55dc46d503ef36cbd60e8cbf7bfead04172b1c98d4ca6640bf2db5271d885",
+        "hex": "5061636b6167654974656d0018011a0003ce048c0ae001e001",
+        "bounds_source_units": [
+          1230,
+          2700,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          82.0,
+          180.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 27,
+        "file_offset": 1206004,
+        "va": "0x5266f4",
+        "bytes": 25,
+        "sha256": "caecc4226d732a56ec0050fbab7a58da15fe5486c59aa3a74cc94a0e2d20c8b6",
+        "hex": "5061636b6167654974656d0018011b0003db068c0ae001e001",
+        "bounds_source_units": [
+          1755,
+          2700,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          117.0,
+          180.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 28,
+        "file_offset": 1205966,
+        "va": "0x5266ce",
+        "bytes": 25,
+        "sha256": "fda042ab9f2419f5120be89383f10538ec3b65a73dbc45f79f4d5eb6b65e44d4",
+        "hex": "5061636b6167654974656d0018011c0003e8088c0ae001e001",
+        "bounds_source_units": [
+          2280,
+          2700,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          152.0,
+          180.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 29,
+        "file_offset": 1205928,
+        "va": "0x5266a8",
+        "bytes": 25,
+        "sha256": "a80c8beb04116101dd20a77550ddce72ab85a99c1bd29c8a1a58b1ebbefd1511",
+        "hex": "5061636b6167654974656d0018011d0003f50a8c0ae001e001",
+        "bounds_source_units": [
+          2805,
+          2700,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          187.0,
+          180.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 30,
+        "file_offset": 1205890,
+        "va": "0x526682",
+        "bytes": 25,
+        "sha256": "ab31f36195b9f5a481b7bcd2686b3c45b48201ddaa3ffc796bc0dabf23995b63",
+        "hex": "5061636b6167654974656d0018011e0003b400990ce001e001",
+        "bounds_source_units": [
+          180,
+          3225,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          12.0,
+          215.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 31,
+        "file_offset": 1205852,
+        "va": "0x52665c",
+        "bytes": 25,
+        "sha256": "07a866f4ec4b1e87396c5efab50555e7580399cb8865859a3390357d4f915143",
+        "hex": "5061636b6167654974656d0018011f0003c102990ce001e001",
+        "bounds_source_units": [
+          705,
+          3225,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          47.0,
+          215.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 32,
+        "file_offset": 1205814,
+        "va": "0x526636",
+        "bytes": 25,
+        "sha256": "61b02d0a9199239e3b329dbe2405806ed871b54f5f2dbc0562c224dd9f61343f",
+        "hex": "5061636b6167654974656d001801200003ce04990ce001e001",
+        "bounds_source_units": [
+          1230,
+          3225,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          82.0,
+          215.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 33,
+        "file_offset": 1205776,
+        "va": "0x526610",
+        "bytes": 25,
+        "sha256": "aa1454fdb4d06b548358de7dfcd1b20dc4d6f7ce72832e53f09a5860694c86b5",
+        "hex": "5061636b6167654974656d001801210003db06990ce001e001",
+        "bounds_source_units": [
+          1755,
+          3225,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          117.0,
+          215.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 34,
+        "file_offset": 1205738,
+        "va": "0x5265ea",
+        "bytes": 25,
+        "sha256": "e93be19916f653e30a53359b1ffd3cfe279fb9223e3dac5ae5405d3271d393df",
+        "hex": "5061636b6167654974656d001801220003e808990ce001e001",
+        "bounds_source_units": [
+          2280,
+          3225,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          152.0,
+          215.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 35,
+        "file_offset": 1205700,
+        "va": "0x5265c4",
+        "bytes": 25,
+        "sha256": "23f568917945b69e290756b36b2d8e145950b670e33e2cca678ef3470f4a3f4b",
+        "hex": "5061636b6167654974656d001801230003f50a990ce001e001",
+        "bounds_source_units": [
+          2805,
+          3225,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          187.0,
+          215.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 36,
+        "file_offset": 1205662,
+        "va": "0x52659e",
+        "bytes": 25,
+        "sha256": "35d3dc06b1509b775090e11892352e202d684bb6e395985f0f73b93e9fe2118d",
+        "hex": "5061636b6167654974656d001801240003b400a60ee001e001",
+        "bounds_source_units": [
+          180,
+          3750,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          12.0,
+          250.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 37,
+        "file_offset": 1205624,
+        "va": "0x526578",
+        "bytes": 25,
+        "sha256": "1e0fc91996b9dff72fd60cc8969337b06b52130a127888f844204215024f9bf9",
+        "hex": "5061636b6167654974656d001801250003c102a60ee001e001",
+        "bounds_source_units": [
+          705,
+          3750,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          47.0,
+          250.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 38,
+        "file_offset": 1205586,
+        "va": "0x526552",
+        "bytes": 25,
+        "sha256": "a6c1d2a313d78a118f87445509698c82dbc10fcb069282342cd496f61442d8eb",
+        "hex": "5061636b6167654974656d001801260003ce04a60ee001e001",
+        "bounds_source_units": [
+          1230,
+          3750,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          82.0,
+          250.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 39,
+        "file_offset": 1205548,
+        "va": "0x52652c",
+        "bytes": 25,
+        "sha256": "6a63765bd1667eaeeb4250db61d6d7ac6db08cf50b312b6c341d58b2ccab18a3",
+        "hex": "5061636b6167654974656d001801270003db06a60ee001e001",
+        "bounds_source_units": [
+          1755,
+          3750,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          117.0,
+          250.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 40,
+        "file_offset": 1205510,
+        "va": "0x526506",
+        "bytes": 25,
+        "sha256": "db5b21632eedde9b6f6bd5c2b8d3ec03f799f1cca46f8c15df7df60dfd0dc43b",
+        "hex": "5061636b6167654974656d001801280003e808a60ee001e001",
+        "bounds_source_units": [
+          2280,
+          3750,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          152.0,
+          250.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 41,
+        "file_offset": 1205472,
+        "va": "0x5264e0",
+        "bytes": 25,
+        "sha256": "2df702b8fafc2271b7f4921a9999a11f9529109b33a21037bd1b59d3611e6df2",
+        "hex": "5061636b6167654974656d001801290003f50aa60ee001e001",
+        "bounds_source_units": [
+          2805,
+          3750,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          187.0,
+          250.0,
+          32.0,
+          32.0
+        ]
+      }
+    ],
+    "QuickItem": [
+      {
+        "index": 0,
+        "file_offset": 1407882,
+        "va": "0x557b8a",
+        "bytes": 23,
+        "sha256": "349ddd97507c825bf642fc055beba3a1a904056dbdc11941bd4b7327524c7185",
+        "hex": "517569636b4974656d0018010000032d002d00e001e001",
+        "bounds_source_units": [
+          45,
+          45,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          3.0,
+          3.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 1,
+        "file_offset": 1407810,
+        "va": "0x557b42",
+        "bytes": 23,
+        "sha256": "da88be19fd1f3a107df748d59761eaec55b271de819599a1159a2aad75f85767",
+        "hex": "517569636b4974656d00180101000358022d00e001e001",
+        "bounds_source_units": [
+          600,
+          45,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          40.0,
+          3.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 2,
+        "file_offset": 1407846,
+        "va": "0x557b66",
+        "bytes": 23,
+        "sha256": "cdb32a031138dd1a9eeaa531b58a82d349777f585db0f8405914cbb7967c2bb4",
+        "hex": "517569636b4974656d00180102000383042d00e001e001",
+        "bounds_source_units": [
+          1155,
+          45,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          77.0,
+          3.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 3,
+        "file_offset": 1407774,
+        "va": "0x557b1e",
+        "bytes": 23,
+        "sha256": "cb4dce8937c4bc1b3bc058a929c11352e32b38c229da0574bf993b40ab9c381f",
+        "hex": "517569636b4974656d001801030003ae062d00e001e001",
+        "bounds_source_units": [
+          1710,
+          45,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          114.0,
+          3.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 4,
+        "file_offset": 1407918,
+        "va": "0x557bae",
+        "bytes": 23,
+        "sha256": "3d7e219faff5bcbdab8e06e87f0c1f678b3bea22db6eb114a9e42b1bb0117ff5",
+        "hex": "517569636b4974656d001801040003d9082d00e001e001",
+        "bounds_source_units": [
+          2265,
+          45,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          151.0,
+          3.0,
+          32.0,
+          32.0
+        ]
+      },
+      {
+        "index": 5,
+        "file_offset": 1407954,
+        "va": "0x557bd2",
+        "bytes": 23,
+        "sha256": "4d4420821af7c38f3fa2992ae2c4ea3f02557fb2dca93238593a50a79d0b450c",
+        "hex": "517569636b4974656d001801050003040b2d00e001e001",
+        "bounds_source_units": [
+          2820,
+          45,
+          480,
+          480
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          188.0,
+          3.0,
+          32.0,
+          32.0
+        ]
+      }
+    ],
+    "ScriptBuy_Buy": [
+      {
+        "file_offset": 1238884,
+        "va": "0x52e764",
+        "bytes": 24,
+        "sha256": "43b7ad45f42e29af9cc5012f93135806e1c7a6aecfe27c39822ccd7be9fad37d",
+        "hex": "5363726970744275795f427579001803d40d2706ed033b01",
+        "bounds_source_units": [
+          3540,
+          1575,
+          1005,
+          315
+        ],
+        "bounds_pixels_15_units_per_pixel": [
+          236.0,
+          105.0,
+          67.0,
+          21.0
+        ]
+      }
+    ]
+  },
+  "event_metadata_chain": [
+    {
+      "file_offset": 18112,
+      "va": "0x4046c0",
+      "bytes": 40,
+      "sha256": "6f39d0310646500627423302d6fb1943ad12e60afca1dcf1904541801ebddca0",
+      "hex": "40000d000c01000054be40009f000300000000000000000088714000b8ae1e0c60c440009f000300"
+    },
+    {
+      "file_offset": 29064,
+      "va": "0x407188",
+      "bytes": 76,
+      "sha256": "1ed5300cdc95156585a67706df7a928a4460cf41a53c682ccba762adb9ae471b",
+      "hex": "00000000c0464000343f4000ba354000c0354000c6354000000000000000000000000000000000006cb040000000000079b04000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "file_offset": 45164,
+      "va": "0x40b06c",
+      "bytes": 26,
+      "sha256": "5ba722896eacafebc911fb6a984a16c1eb14d4722621072c7a06437adf75d4c7",
+      "hex": "816c24040b010000e9d7781700816c24040b010000e9ca7b1700"
+    },
+    {
+      "file_offset": 18232,
+      "va": "0x404738",
+      "bytes": 40,
+      "sha256": "660a389baddec0a36698e1dadbd59a4262ee33dd54704698dd144c251181f96e",
+      "hex": "40000d0018010000dcc24000a000030000000000000000008072400008af1e0ca0c44000a0000300"
+    },
+    {
+      "file_offset": 29312,
+      "va": "0x407280",
+      "bytes": 76,
+      "sha256": "ac9c5bbdef09e8561fea4a5a84d2251f38f8d605bc5e2420617856e6cf4e6720",
+      "hex": "0000000038474000343f4000ba354000c0354000c63540000000000000000000000000000000000086b0400093b0400000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "file_offset": 45190,
+      "va": "0x40b086",
+      "bytes": 26,
+      "sha256": "65694a678b126fd375c663b87d6c11c0240e9b8cc0864ba5f4c4f3597ce5abbb",
+      "hex": "816c240417010000e96d7f1700816c240417010000e910831700"
+    }
+  ],
+  "established_chain": [
+    "control record4046c0 has event table407188 and name pointer40c460=ScriptBuy_Buy",
+    "event table407188+0x30 points40b079",
+    "40b079 thunk jumps582c50, previously verified single-item purchase handler"
+  ],
+  "unresolved": [
+    "Event-slot names not independently mapped; do not assert MouseUp/left/right/double click",
+    "Panel absolute placement and runtime repositioning",
+    "Full original control visibility/closing behavior"
+  ]
+}

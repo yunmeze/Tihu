@@ -1,0 +1,6 @@
+# Yihong 189 fourth static attempt: failed research
+One successful transparent generation with five actual references, based on the author's final execution record and actual-tool-parameters.json. Raw1254x1254 maps to96 logical pixels, density13.0625. No new four-phase animation, registration, crop, cleanup or additional generation. Layout and behind-head arc contract FAIL. Giving an ambiguous region a concrete object identity is a new design inference, not proof that the source depicts a different object. Approximate source surface readings have2–3 logical pixel uncertainty and are not joints or fitted landmarks.
+
+ARCHIVE.json preserves actual reference order and resolves portable package/repository paths with hashes. Historical absolute paths are provenance only. Reference1 already exists in Git with the same bytes; other actual input bytes are retained here. PROMPT_ACTUAL.txt is the exact used proposal text.
+
+Python3/Pillow: `python reproduce.py --repo /path/to/tihu-legend --output /outside/new-candidate.png` verifies references and reproduces the whole-canvas384px premultiplied-alpha LANCZOS mapping byte-exact. It does not re-generate AI output or reproduce CPU map boards/native review. All15022 alpha1–2 pixels remain in raw. Metrics, actual contract and failure conclusions are retained unchanged. No runtime promotion.
