@@ -1,0 +1,31 @@
+{
+  "commit": "3e9a8ffaec0c1a8bb4b247d02fb2ea92acfd16a7",
+  "files": [
+    {
+      "path": "Project/assets/original/Map/Res/Wall/0.png",
+      "sha256": "07bfa06728270c7f901eafc930c8c19a465af39e634d7ec0aa1160d9fcfad629",
+      "bytes": 699369
+    },
+    {
+      "path": "Project/assets/earth/house_280_289_v1/body.png",
+      "sha256": "1d1088136701293461fe79677da1e4e355f0045c735758a128e154c957e23daf",
+      "bytes": 684478
+    }
+  ],
+  "actual_refs": {
+    "pilot": [
+      "source/INPUT_01_SOURCE_FIXED_256x384.png",
+      "source/INPUT_02_TRUE_NEIGHBORS_624x569.png",
+      {
+        "repository_path": "Project/assets/earth/house_280_289_v1/body.png",
+        "sha256": "1d1088136701293461fe79677da1e4e355f0045c735758a128e154c957e23daf"
+      }
+    ],
+    "edit": [
+      "source/INPUT_01_SOURCE_FIXED_256x384.png",
+      "pilot/generated-raw.png",
+      "source/INPUT_02_TRUE_NEIGHBORS_624x569.png"
+    ]
+  },
+  "scope": "SOURCE_INDEX retains historical inventory/native screenshot provenance by hash; those external files are not required by the bounded reference replay and are not packaged. Full native/source investigation is not claimed reproducible from this subset."
+}

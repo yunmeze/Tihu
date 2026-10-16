@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN_AFTER_TWO_STRAIGHT_WALL_CALLS",
+  "reason": "second source-targeted edit still fails original 8-owner support, silhouette and repeated seam",
+  "further_generation_calls": 0,
+  "engine_runs": 0,
+  "main_changes": false,
+  "art_repairs": false,
+  "calls": [
+    {
+      "trial": "initial pilot",
+      "raw_path": "/workspace/scratch/22c897619190/recovery-work/a13-wall-straight-pilot-v1/generated-raw.png",
+      "raw_sha256": "e574c90885324746bc7e10d10cd6b45849b8d6bb518c4143229511c6882b3146",
+      "result": "FAIL"
+    },
+    {
+      "trial": "source-targeted final edit",
+      "raw_path": "/workspace/scratch/22c897619190/recovery-work/a13-wall-straight-edit-v2/generated-raw.png",
+      "raw_sha256": "19f60900e27cc9e92d540536e10b8c47a8ad7e78b1b2a05246227d43a78c0795",
+      "result": "FAIL"
+    }
+  ],
+  "next_action": "Parent reviews retained evidence and switches to other controllable assets; no automatic continuation on this route."
+}

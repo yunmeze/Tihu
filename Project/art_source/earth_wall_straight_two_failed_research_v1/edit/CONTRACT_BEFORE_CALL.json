@@ -1,0 +1,28 @@
+{
+  "status": "prepared before final single authorized built-in edit trial",
+  "local_call_budget": 1,
+  "automatic_retry_budget": 0,
+  "total_straight_route_calls_after_successful_invocation": 2,
+  "geometry_target": "/workspace/scratch/22c897619190/recovery-work/a13-wall-redraw-minimal-plan-v2/INPUT_01_SOURCE_FIXED_256x384.png",
+  "material_reference_only": "/workspace/scratch/22c897619190/recovery-work/a13-wall-straight-pilot-v1/generated-raw.png",
+  "adjacency_reference_only": "/workspace/scratch/22c897619190/recovery-work/a13-wall-redraw-minimal-plan-v2/INPUT_02_TRUE_NEIGHBORS_624x569.png",
+  "all_three_inputs_viewed_before_call": true,
+  "world_origin": [
+    688,
+    333
+  ],
+  "logical_canvas": [
+    256,
+    384
+  ],
+  "request_size": [
+    1024,
+    1536
+  ],
+  "requested_density": 4,
+  "owner_count": 8,
+  "raw_policy": "unmodified raw; no fit, affine, crop-to-support, alpha cleanup or further generation",
+  "stop_condition": "if strict geometry or seam fails again freeze this route",
+  "source_index_sha256": "7ef75680f923cf6f7d692785dc1ebabc08d18dd29f0c7632dae4f15adaa6b55a",
+  "prompt_sha256": "ce758edfc2111f29f944c688bd0b609aedebba4346f8a4f8c8e78e2be5b2ffbe"
+}

@@ -1,0 +1,699 @@
+{
+  "status": "FAIL fixed owner support / silhouette; route frozen",
+  "local_call_count": 1,
+  "local_retries": 0,
+  "total_straight_route_calls": 2,
+  "rgba_sha256": "65f7f8f503ea1242b0ad12ab3587e3831a8e20cace1f82b9bd573db2ec217240",
+  "png_sha256": "19f60900e27cc9e92d540536e10b8c47a8ad7e78b1b2a05246227d43a78c0795",
+  "mode": "RGBA",
+  "size": [
+    1024,
+    1536
+  ],
+  "density_xy": [
+    4.0,
+    4.0
+  ],
+  "uniform_fixed_canvas_mapping_pass": true,
+  "no_fit_transform": "world = [688,333] + raw/4 exactly",
+  "raw_alpha_histogram": [
+    823844,
+    5109,
+    1061,
+    323,
+    231,
+    214,
+    226,
+    201,
+    145,
+    201,
+    187,
+    144,
+    108,
+    75,
+    72,
+    74,
+    73,
+    53,
+    62,
+    56,
+    49,
+    40,
+    25,
+    25,
+    18,
+    17,
+    19,
+    17,
+    15,
+    21,
+    9,
+    18,
+    12,
+    8,
+    10,
+    9,
+    11,
+    11,
+    13,
+    12,
+    17,
+    14,
+    12,
+    13,
+    13,
+    7,
+    13,
+    18,
+    15,
+    9,
+    9,
+    7,
+    12,
+    12,
+    12,
+    17,
+    13,
+    11,
+    10,
+    19,
+    7,
+    13,
+    4,
+    16,
+    8,
+    13,
+    8,
+    13,
+    10,
+    9,
+    9,
+    9,
+    11,
+    6,
+    8,
+    8,
+    6,
+    6,
+    11,
+    5,
+    7,
+    7,
+    9,
+    11,
+    14,
+    13,
+    6,
+    10,
+    6,
+    9,
+    4,
+    4,
+    8,
+    12,
+    14,
+    4,
+    8,
+    7,
+    12,
+    8,
+    15,
+    14,
+    14,
+    10,
+    11,
+    12,
+    19,
+    14,
+    12,
+    8,
+    14,
+    14,
+    12,
+    14,
+    16,
+    15,
+    13,
+    8,
+    15,
+    11,
+    23,
+    26,
+    22,
+    12,
+    15,
+    26,
+    31,
+    21,
+    35,
+    43,
+    36,
+    37,
+    26,
+    21,
+    32,
+    40,
+    44,
+    57,
+    59,
+    30,
+    35,
+    36,
+    27,
+    26,
+    29,
+    28,
+    25,
+    26,
+    18,
+    29,
+    16,
+    23,
+    23,
+    15,
+    19,
+    19,
+    12,
+    13,
+    15,
+    17,
+    14,
+    7,
+    21,
+    13,
+    15,
+    9,
+    8,
+    12,
+    9,
+    20,
+    17,
+    18,
+    19,
+    14,
+    12,
+    13,
+    17,
+    15,
+    13,
+    8,
+    9,
+    13,
+    8,
+    9,
+    15,
+    12,
+    6,
+    10,
+    21,
+    16,
+    9,
+    18,
+    14,
+    9,
+    17,
+    15,
+    12,
+    12,
+    14,
+    9,
+    11,
+    11,
+    10,
+    13,
+    18,
+    25,
+    13,
+    22,
+    36,
+    41,
+    64,
+    58,
+    54,
+    55,
+    65,
+    72,
+    79,
+    52,
+    66,
+    65,
+    54,
+    57,
+    54,
+    71,
+    59,
+    34,
+    32,
+    31,
+    31,
+    27,
+    28,
+    27,
+    22,
+    29,
+    32,
+    29,
+    20,
+    36,
+    49,
+    47,
+    45,
+    56,
+    84,
+    112,
+    138,
+    266,
+    369,
+    508,
+    747,
+    1193,
+    2411,
+    6126,
+    23289,
+    676243,
+    24384,
+    0
+  ],
+  "raw_alpha_max": 254,
+  "weak_alpha_1_to_7": 7365,
+  "weak_alpha_1_to_7_outside_owner": 3984,
+  "outside_owner_alpha_weight_sum": 19486336,
+  "total_alpha_weight_sum": 186863727,
+  "thresholds": {
+    "1": {
+      "count": 749020,
+      "bbox_raw_xyxy": [
+        81,
+        23,
+        962,
+        1510
+      ],
+      "bbox_world_xyxy": [
+        708.25,
+        338.75,
+        928.5,
+        710.5
+      ],
+      "outside_original_owner_rectangle_union": 82970,
+      "outside_original_source_alpha_support": 98900,
+      "outside_owner_fraction": 0.11077140797308484
+    },
+    "2": {
+      "count": 743911,
+      "bbox_raw_xyxy": [
+        103,
+        33,
+        960,
+        1506
+      ],
+      "bbox_world_xyxy": [
+        713.75,
+        341.25,
+        928.0,
+        709.5
+      ],
+      "outside_original_owner_rectangle_union": 80119,
+      "outside_original_source_alpha_support": 94942,
+      "outside_owner_fraction": 0.10769971139020662
+    },
+    "8": {
+      "count": 741655,
+      "bbox_raw_xyxy": [
+        105,
+        35,
+        960,
+        1506
+      ],
+      "bbox_world_xyxy": [
+        714.25,
+        341.75,
+        928.0,
+        709.5
+      ],
+      "outside_original_owner_rectangle_union": 78986,
+      "outside_original_source_alpha_support": 93378,
+      "outside_owner_fraction": 0.10649965280352724
+    },
+    "32": {
+      "count": 740132,
+      "bbox_raw_xyxy": [
+        106,
+        35,
+        959,
+        1506
+      ],
+      "bbox_world_xyxy": [
+        714.5,
+        341.75,
+        927.75,
+        709.5
+      ],
+      "outside_original_owner_rectangle_union": 77820,
+      "outside_original_source_alpha_support": 92046,
+      "outside_owner_fraction": 0.10514340685175076
+    },
+    "64": {
+      "count": 739753,
+      "bbox_raw_xyxy": [
+        106,
+        36,
+        959,
+        1505
+      ],
+      "bbox_world_xyxy": [
+        714.5,
+        342.0,
+        927.75,
+        709.25
+      ],
+      "outside_original_owner_rectangle_union": 77715,
+      "outside_original_source_alpha_support": 91821,
+      "outside_owner_fraction": 0.10505533603783966
+    },
+    "128": {
+      "count": 739003,
+      "bbox_raw_xyxy": [
+        106,
+        36,
+        959,
+        1505
+      ],
+      "bbox_world_xyxy": [
+        714.5,
+        342.0,
+        927.75,
+        709.25
+      ],
+      "outside_original_owner_rectangle_union": 77389,
+      "outside_original_source_alpha_support": 91298,
+      "outside_owner_fraction": 0.10472081980722676
+    },
+    "192": {
+      "count": 737672,
+      "bbox_raw_xyxy": [
+        106,
+        37,
+        958,
+        1504
+      ],
+      "bbox_world_xyxy": [
+        714.5,
+        342.25,
+        927.5,
+        709.0
+      ],
+      "outside_original_owner_rectangle_union": 76529,
+      "outside_original_source_alpha_support": 90222,
+      "outside_owner_fraction": 0.10374394039627369
+    },
+    "250": {
+      "count": 732453,
+      "bbox_raw_xyxy": [
+        107,
+        44,
+        958,
+        1499
+      ],
+      "bbox_world_xyxy": [
+        714.75,
+        344.0,
+        927.5,
+        707.75
+      ],
+      "outside_original_owner_rectangle_union": 73895,
+      "outside_original_source_alpha_support": 86467,
+      "outside_owner_fraction": 0.10088701937189144
+    },
+    "254": {
+      "count": 24384,
+      "bbox_raw_xyxy": [
+        113,
+        81,
+        958,
+        1477
+      ],
+      "bbox_world_xyxy": [
+        716.25,
+        353.25,
+        927.5,
+        702.25
+      ],
+      "outside_original_owner_rectangle_union": 1401,
+      "outside_original_source_alpha_support": 1437,
+      "outside_owner_fraction": 0.057455708661417325
+    },
+    "255": {
+      "count": 0,
+      "bbox_raw_xyxy": null,
+      "bbox_world_xyxy": null,
+      "outside_original_owner_rectangle_union": 0,
+      "outside_original_source_alpha_support": 0,
+      "outside_owner_fraction": null
+    }
+  },
+  "per_owner": [
+    {
+      "key": "Map/Res/Wall:2653@18,17",
+      "bounds": [
+        864,
+        353,
+        912,
+        576
+      ],
+      "nonzero_alpha_in_owner": 158915,
+      "alpha128_in_owner": 158116,
+      "alpha_weight_sum_in_owner": 40004940
+    },
+    {
+      "key": "Map/Res/Wall:2654@17,18",
+      "bounds": [
+        816,
+        387,
+        864,
+        608
+      ],
+      "nonzero_alpha_in_owner": 156855,
+      "alpha128_in_owner": 156007,
+      "alpha_weight_sum_in_owner": 39468440
+    },
+    {
+      "key": "Map/Res/Wall:2655@18,18",
+      "bounds": [
+        864,
+        576,
+        902,
+        601
+      ],
+      "nonzero_alpha_in_owner": 10200,
+      "alpha128_in_owner": 9836,
+      "alpha_weight_sum_in_owner": 2486015
+    },
+    {
+      "key": "Map/Res/Wall:2656@16,19",
+      "bounds": [
+        768,
+        418,
+        816,
+        640
+      ],
+      "nonzero_alpha_in_owner": 154188,
+      "alpha128_in_owner": 153446,
+      "alpha_weight_sum_in_owner": 38821675
+    },
+    {
+      "key": "Map/Res/Wall:2657@17,19",
+      "bounds": [
+        816,
+        608,
+        853,
+        633
+      ],
+      "nonzero_alpha_in_owner": 10690,
+      "alpha128_in_owner": 10359,
+      "alpha_weight_sum_in_owner": 2618741
+    },
+    {
+      "key": "Map/Res/Wall:2658@15,20",
+      "bounds": [
+        720,
+        449,
+        768,
+        672
+      ],
+      "nonzero_alpha_in_owner": 151391,
+      "alpha128_in_owner": 150799,
+      "alpha_weight_sum_in_owner": 38151399
+    },
+    {
+      "key": "Map/Res/Wall:2659@16,20",
+      "bounds": [
+        768,
+        640,
+        806,
+        665
+      ],
+      "nonzero_alpha_in_owner": 11333,
+      "alpha128_in_owner": 10966,
+      "alpha_weight_sum_in_owner": 2771899
+    },
+    {
+      "key": "Map/Res/Wall:2660@15,21",
+      "bounds": [
+        720,
+        672,
+        759,
+        698
+      ],
+      "nonzero_alpha_in_owner": 12478,
+      "alpha128_in_owner": 12085,
+      "alpha_weight_sum_in_owner": 3054282
+    }
+  ],
+  "fixed_source_x_alpha_profiles": [
+    {
+      "world_x_column_left_edge": 720,
+      "raw_column": 128,
+      "source_runs_world_y": [
+        [
+          480.0,
+          698.0
+        ]
+      ],
+      "raw_alpha8_runs_world_y": [
+        [
+          493.5,
+          705.75
+        ]
+      ],
+      "raw_alpha128_runs_world_y": [
+        [
+          493.75,
+          705.5
+        ]
+      ],
+      "raw_alpha250_runs_world_y": [
+        [
+          494.0,
+          704.75
+        ]
+      ]
+    },
+    {
+      "world_x_column_left_edge": 768,
+      "raw_column": 320,
+      "source_runs_world_y": [
+        [
+          449.0,
+          665.0
+        ]
+      ],
+      "raw_alpha8_runs_world_y": [
+        [
+          458.5,
+          672.75
+        ]
+      ],
+      "raw_alpha128_runs_world_y": [
+        [
+          458.5,
+          672.5
+        ]
+      ],
+      "raw_alpha250_runs_world_y": [
+        [
+          458.75,
+          672.0
+        ]
+      ]
+    },
+    {
+      "world_x_column_left_edge": 816,
+      "raw_column": 512,
+      "source_runs_world_y": [
+        [
+          418.0,
+          633.0
+        ]
+      ],
+      "raw_alpha8_runs_world_y": [
+        [
+          422.75,
+          639.0
+        ]
+      ],
+      "raw_alpha128_runs_world_y": [
+        [
+          423.0,
+          638.75
+        ]
+      ],
+      "raw_alpha250_runs_world_y": [
+        [
+          424.5,
+          638.5
+        ]
+      ]
+    },
+    {
+      "world_x_column_left_edge": 864,
+      "raw_column": 704,
+      "source_runs_world_y": [
+        [
+          386.0,
+          601.0
+        ]
+      ],
+      "raw_alpha8_runs_world_y": [
+        [
+          387.5,
+          606.0
+        ]
+      ],
+      "raw_alpha128_runs_world_y": [
+        [
+          387.75,
+          605.75
+        ]
+      ],
+      "raw_alpha250_runs_world_y": [
+        [
+          388.0,
+          388.25
+        ],
+        [
+          388.5,
+          605.0
+        ]
+      ]
+    },
+    {
+      "world_x_column_left_edge": 911.75,
+      "raw_column": 895,
+      "source_runs_world_y": [
+        [
+          353.0,
+          570.0
+        ]
+      ],
+      "raw_alpha8_runs_world_y": [
+        [
+          352.0,
+          573.0
+        ]
+      ],
+      "raw_alpha128_runs_world_y": [
+        [
+          352.25,
+          572.75
+        ]
+      ],
+      "raw_alpha250_runs_world_y": [
+        [
+          352.5,
+          572.25
+        ]
+      ]
+    }
+  ],
+  "comparison_limits": "Alpha envelopes are source silhouette evidence, not measured ridge/eave material boundaries. Thresholds are diagnostics only. Preview downsampling is display-only."
+}

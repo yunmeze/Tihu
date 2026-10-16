@@ -1,0 +1,22 @@
+{
+  "source_raw_sha256": "19f60900e27cc9e92d540536e10b8c47a8ad7e78b1b2a05246227d43a78c0795",
+  "mapping": "entire 1024x1536 raw uniformly sampled to 256x384 with RGBA LANCZOS for display only",
+  "world_origin": [
+    688,
+    333
+  ],
+  "context_world_xyxy": [
+    528,
+    257,
+    1152,
+    826
+  ],
+  "replacement": "only omit original 8-owner target from source context; paste full raw with unmodified alpha; do not hard clip to source masks",
+  "repeat_translation": [
+    -192,
+    128
+  ],
+  "runtime_claim": false,
+  "per_owner_draw_claim": false,
+  "note": "Raw violates support. These diagnostic full-canvas composites deliberately expose excess/overlap and do not represent accepted runtime ordering."
+}

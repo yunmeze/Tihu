@@ -1,0 +1,31 @@
+{
+  "status": "prepared before the single authorized built-in call",
+  "call_budget": 1,
+  "automatic_retry_budget": 0,
+  "method": "built-in image_gen__imagegen only",
+  "reference_roles": [
+    "fixed 256x384 authoritative isolated wall geometry",
+    "true neighboring walls; context only",
+    "whole accepted house; materials/daylight only, no silhouette/doors/windows/eaves/light borrowing"
+  ],
+  "world_origin": [
+    688,
+    333
+  ],
+  "logical_canvas": [
+    256,
+    384
+  ],
+  "request_size": [
+    1024,
+    1536
+  ],
+  "requested_density": 4,
+  "requested_transparency": true,
+  "owner_count": 8,
+  "source_index_sha256": "7ef75680f923cf6f7d692785dc1ebabc08d18dd29f0c7632dae4f15adaa6b55a",
+  "prompt_sha256": "4118eb6bd18b9b7b06795a590a2c7e252fdf1ec963d01c0689b81604d961d21b",
+  "source_copies": false,
+  "raw_policy": "keep unmodified output; no alpha cleanup, clipping, fitting, distortion or second generation; one stored raw file",
+  "inspection": "actual three reference images viewed before call"
+}
