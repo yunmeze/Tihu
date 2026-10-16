@@ -1,0 +1,84 @@
+{
+  "status": "root_accepted_art_candidate_not_integrated",
+  "design": "low-key HD earth-surface marks with preserved broad two-group spacing and tiny visual mass",
+  "strict_original_contract": "FAIL retained: upper center ~1.5px right/down, lower has extra fragment near source x40; no correction permitted",
+  "source_frame": "Map/Res/FloorBig:395",
+  "source_atlas": "assets/original/Map/Res/FloorBig/0.png",
+  "source_atlas_rect": [
+    687,
+    1,
+    96,
+    64
+  ],
+  "source_rgba_sha256": "0e44865c833ac1dfec4400377b1e5bcb906c1b6d7576a11931f6ff1808385245",
+  "overlay": "RAW.png",
+  "overlay_raw_size": [
+    1536,
+    1024
+  ],
+  "actual_density": [
+    16,
+    16
+  ],
+  "logical_size": [
+    96,
+    64
+  ],
+  "logical_top_left_offset": [
+    0,
+    0
+  ],
+  "rotation": 0,
+  "flip_x": false,
+  "flip_y": false,
+  "raw_sha256": "101415def231fd04d1aba2a9b035c02057180f57ebf41c0ca6ed584371471630",
+  "owners": [
+    {
+      "owner": "Map/Res/FloorBig:395@54,62",
+      "map_cell": [
+        54,
+        62
+      ],
+      "world_top_left": [
+        2592,
+        1984
+      ],
+      "world_bounds": [
+        2592,
+        1984,
+        2688,
+        2048
+      ]
+    }
+  ],
+  "render_contract": "Whole overlay at uniform1/16 scale, original96x64 registration and offset0. No per-group crop/reposition/rotation/scaling, no alpha cleaning. RAW unchanged.",
+  "base_replacement_required": "Replace old baked source395 soil base with current AI material field before overlaying. No old ground island beneath new marks. Preserve other owners and accepted413.",
+  "authorization_scope": "Root approved original395@54,62 isolated actual registration preview, not main runtime editing by asset worker.",
+  "actual_refs": [
+    {
+      "actual_tool_input": "/workspace/scratch/22c897619190/recovery-work/soil-detail-g3-single-v1/G3_LAYOUT_D16.png",
+      "package_copy": "refs/1-G3_LAYOUT_D16.png",
+      "sha256": "181aba6f71273bd9a728d70be9013a040c6fc6d1a8beb9548749f014f7a2ae4b"
+    },
+    {
+      "actual_tool_input": "/workspace/scratch/22c897619190/recovery-work/soil-detail-g3-single-v1/UPPER_INSPECTION_32X.png",
+      "package_copy": "refs/2-UPPER_INSPECTION_32X.png",
+      "sha256": "bb8ff561ecafd30320a446b47b56cc41cc2217537879cd7ac1cebe8e45074ad0"
+    },
+    {
+      "actual_tool_input": "/workspace/scratch/22c897619190/recovery-work/soil-detail-g3-single-v1/LOWER_INSPECTION_32X.png",
+      "package_copy": "refs/3-LOWER_INSPECTION_32X.png",
+      "sha256": "f8cdaa9c15be4ba5c19fe09bf6ac87c0bb4b2d4e863cfe0fe79cb44b55379d08"
+    },
+    {
+      "actual_tool_input": "/workspace/scratch/22c897619190/recovery-work/soil-spur-v2-material-preview/Project/assets/soil.png",
+      "package_copy": "refs/4-soil.png",
+      "sha256": "9c6f1a81a4d55814aad2495bc2a5b292073fbc801c667d5f7c42ab5737591017"
+    },
+    {
+      "actual_tool_input": "/workspace/scratch/22c897619190/recovery-work/soil-spur-v2-material-preview/Project/assets/grass.png",
+      "package_copy": "refs/5-grass.png",
+      "sha256": "470f2866b30b0901999e915c51cde7124c3e6532b5b4c8fa4c3d9edbfcf02b8b"
+    }
+  ]
+}

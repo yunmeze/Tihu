@@ -1,0 +1,117 @@
+{
+  "status": "root_accepted_art_candidate_only_not_integrated",
+  "design": "slightly wider modern tiny dry grass litter, original strict envelope contract remains FAIL",
+  "source_frame": "Map/Res/FloorBig:413",
+  "source_atlas": "assets/original/Map/Res/FloorBig/0.png",
+  "source_atlas_rect": [
+    197,
+    67,
+    96,
+    64
+  ],
+  "source_rgba_sha256": "1b3521617be7e1286dd6560516bbcd256aa93c0e510f210fd4cd0c444956199d",
+  "overlay": "RAW.png",
+  "overlay_raw_size": [
+    1536,
+    1024
+  ],
+  "actual_density": [
+    16,
+    16
+  ],
+  "logical_size": [
+    96,
+    64
+  ],
+  "logical_top_left_offset": [
+    0,
+    0
+  ],
+  "rotation": 0,
+  "flip_x": false,
+  "flip_y": false,
+  "raw_sha256": "3178521779a489b972f245d3614029bbc3f1c1d2c1a8c4bf27c2e7d383c5ec0c",
+  "owners": [
+    {
+      "owner": "Map/Res/FloorBig:413@54,60",
+      "map_cell": [
+        54,
+        60
+      ],
+      "world_top_left": [
+        2592,
+        1920
+      ],
+      "world_bounds": [
+        2592,
+        1920,
+        2688,
+        1984
+      ]
+    },
+    {
+      "owner": "Map/Res/FloorBig:413@56,62",
+      "map_cell": [
+        56,
+        62
+      ],
+      "world_top_left": [
+        2688,
+        1984
+      ],
+      "world_bounds": [
+        2688,
+        1984,
+        2784,
+        2048
+      ]
+    },
+    {
+      "owner": "Map/Res/FloorBig:413@58,64",
+      "map_cell": [
+        58,
+        64
+      ],
+      "world_top_left": [
+        2784,
+        2048
+      ],
+      "world_bounds": [
+        2784,
+        2048,
+        2880,
+        2112
+      ]
+    }
+  ],
+  "render_contract": "Use the entire overlay at uniform 1/16 scale in original 96x64 owner registration. No per-group crop/reposition/rotation/scale, no alpha cleanup. All original pixels in RAW preserved.",
+  "base_replacement_required": "Stage worker must plan replacement of source413 baked soil/grass base using current AI materials and accepted boundary policy before any remake-complete claim. Overlaying on old source413 leaves the old island and is not complete.",
+  "authorization_scope": "Next isolated actual rendering at these 3 original owners only. No main runtime edits by asset worker.",
+  "actual_refs": [
+    {
+      "actual_tool_input": "/workspace/scratch/22c897619190/recovery-work/soil-detail-413-single-v2/F413_LAYOUT_D16.png",
+      "package_copy": "refs/1-F413_LAYOUT_D16.png",
+      "sha256": "a241e4524cf50c8117d2bb66031fa87598d934db0b804f1d2729a35841941d5b"
+    },
+    {
+      "actual_tool_input": "/workspace/scratch/22c897619190/recovery-work/soil-detail-413-single-v2/F413_INSPECTION_CROP_24X.png",
+      "package_copy": "refs/2-F413_INSPECTION_CROP_24X.png",
+      "sha256": "a7c02484f234d1f295b474d891276a2237a05d612efd3f32a720542d7b8ca234"
+    },
+    {
+      "actual_tool_input": "/workspace/scratch/22c897619190/recovery-work/g3-edge-connectivity-review/GROUND_3X3_4X_NEAREST.png",
+      "package_copy": "refs/3-GROUND_3X3_4X_NEAREST.png",
+      "sha256": "f72ea0cbbd7ee5637992e59d9b8de2152e2429d41a7d72174852fc7f112546e8"
+    },
+    {
+      "actual_tool_input": "/workspace/scratch/22c897619190/recovery-work/soil-spur-v2-material-preview/Project/assets/soil.png",
+      "package_copy": "refs/4-soil.png",
+      "sha256": "9c6f1a81a4d55814aad2495bc2a5b292073fbc801c667d5f7c42ab5737591017"
+    },
+    {
+      "actual_tool_input": "/workspace/scratch/22c897619190/recovery-work/soil-spur-v2-material-preview/Project/assets/grass.png",
+      "package_copy": "refs/5-grass.png",
+      "sha256": "470f2866b30b0901999e915c51cde7124c3e6532b5b4c8fa4c3d9edbfcf02b8b"
+    }
+  ]
+}

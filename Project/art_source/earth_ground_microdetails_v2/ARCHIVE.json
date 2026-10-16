@@ -1,0 +1,96 @@
+{
+  "schema": "earth-ground-microdetails-source-v2",
+  "status": "Design candidates accepted; strict location contracts FAIL; no main runtime integration",
+  "author_confirmation": "Root relayed original author execution records: one successful transparent five-reference call per asset; no retry, crop, alpha cleaning or runtime edit. No new author receipt obtained in this archival turn.",
+  "assets": [
+    {
+      "name": "f413",
+      "raw": "f413/RAW.png",
+      "actual_refs": [
+        {
+          "order": 1,
+          "original_tool_path": "/workspace/scratch/22c897619190/recovery-work/soil-detail-413-single-v2/F413_LAYOUT_D16.png",
+          "sha256": "a241e4524cf50c8117d2bb66031fa87598d934db0b804f1d2729a35841941d5b",
+          "bytes": 29777,
+          "package_path": "f413/refs/1-F413_LAYOUT_D16.png"
+        },
+        {
+          "order": 2,
+          "original_tool_path": "/workspace/scratch/22c897619190/recovery-work/soil-detail-413-single-v2/F413_INSPECTION_CROP_24X.png",
+          "sha256": "a7c02484f234d1f295b474d891276a2237a05d612efd3f32a720542d7b8ca234",
+          "bytes": 5209,
+          "package_path": "f413/refs/2-F413_INSPECTION_CROP_24X.png"
+        },
+        {
+          "order": 3,
+          "original_tool_path": "/workspace/scratch/22c897619190/recovery-work/g3-edge-connectivity-review/GROUND_3X3_4X_NEAREST.png",
+          "sha256": "f72ea0cbbd7ee5637992e59d9b8de2152e2429d41a7d72174852fc7f112546e8",
+          "bytes": 131885,
+          "package_path": "f413/refs/3-GROUND_3X3_4X_NEAREST.png"
+        },
+        {
+          "order": 4,
+          "original_tool_path": "/workspace/scratch/22c897619190/recovery-work/soil-spur-v2-material-preview/Project/assets/soil.png",
+          "sha256": "9c6f1a81a4d55814aad2495bc2a5b292073fbc801c667d5f7c42ab5737591017",
+          "bytes": 1590482,
+          "repo_path": "Project/art_source/earth_soil_three_detail_templates_rejected_v1/references/EXISTING_AI_SOIL_REFERENCE.png"
+        },
+        {
+          "order": 5,
+          "original_tool_path": "/workspace/scratch/22c897619190/recovery-work/soil-spur-v2-material-preview/Project/assets/grass.png",
+          "sha256": "470f2866b30b0901999e915c51cde7124c3e6532b5b4c8fa4c3d9edbfcf02b8b",
+          "bytes": 1554649,
+          "repo_path": "Project/assets/earth/first_map_review/distant_lawn_period384_RESEARCH.png"
+        }
+      ],
+      "historical_original_manifest_sha256": "384946afd6873185717ddf9b0ef9d72e2bd828f4965c152c0cef2ec7519d8b7c"
+    },
+    {
+      "name": "g3",
+      "raw": "g3/RAW.png",
+      "actual_refs": [
+        {
+          "order": 1,
+          "original_tool_path": "/workspace/scratch/22c897619190/recovery-work/soil-detail-g3-single-v1/G3_LAYOUT_D16.png",
+          "sha256": "181aba6f71273bd9a728d70be9013a040c6fc6d1a8beb9548749f014f7a2ae4b",
+          "bytes": 29400,
+          "package_path": "g3/refs/1-G3_LAYOUT_D16.png"
+        },
+        {
+          "order": 2,
+          "original_tool_path": "/workspace/scratch/22c897619190/recovery-work/soil-detail-g3-single-v1/UPPER_INSPECTION_32X.png",
+          "sha256": "bb8ff561ecafd30320a446b47b56cc41cc2217537879cd7ac1cebe8e45074ad0",
+          "bytes": 2505,
+          "package_path": "g3/refs/2-UPPER_INSPECTION_32X.png"
+        },
+        {
+          "order": 3,
+          "original_tool_path": "/workspace/scratch/22c897619190/recovery-work/soil-detail-g3-single-v1/LOWER_INSPECTION_32X.png",
+          "sha256": "f8cdaa9c15be4ba5c19fe09bf6ac87c0bb4b2d4e863cfe0fe79cb44b55379d08",
+          "bytes": 2953,
+          "package_path": "g3/refs/3-LOWER_INSPECTION_32X.png"
+        },
+        {
+          "order": 4,
+          "original_tool_path": "/workspace/scratch/22c897619190/recovery-work/soil-spur-v2-material-preview/Project/assets/soil.png",
+          "sha256": "9c6f1a81a4d55814aad2495bc2a5b292073fbc801c667d5f7c42ab5737591017",
+          "bytes": 1590482,
+          "repo_path": "Project/art_source/earth_soil_three_detail_templates_rejected_v1/references/EXISTING_AI_SOIL_REFERENCE.png"
+        },
+        {
+          "order": 5,
+          "original_tool_path": "/workspace/scratch/22c897619190/recovery-work/soil-spur-v2-material-preview/Project/assets/grass.png",
+          "sha256": "470f2866b30b0901999e915c51cde7124c3e6532b5b4c8fa4c3d9edbfcf02b8b",
+          "bytes": 1554649,
+          "repo_path": "Project/assets/earth/first_map_review/distant_lawn_period384_RESEARCH.png"
+        }
+      ],
+      "historical_original_manifest_sha256": "1513ee9734862ec1772d1f76343d56f254569d07d023ebbe28599120109c7e3c"
+    }
+  ],
+  "source_atlas": {
+    "repo_path": "Project/assets/original/Map/Res/FloorBig/0.png",
+    "sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59",
+    "bytes": 490337
+  }
+}

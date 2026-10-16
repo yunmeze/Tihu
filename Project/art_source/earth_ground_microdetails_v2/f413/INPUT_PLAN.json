@@ -1,0 +1,53 @@
+{
+  "status": "root_approved_one_call",
+  "source_atlas": "/workspace/scratch/22c897619190/tihu-legend/Project/assets/original/Map/Res/FloorBig/0.png",
+  "source_atlas_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59",
+  "atlas_rect": [
+    197,
+    67,
+    96,
+    64
+  ],
+  "source_rgba_sha256": "1b3521617be7e1286dd6560516bbcd256aa93c0e510f210fd4cd0c444956199d",
+  "density": 16,
+  "requested_raw_size": [
+    1536,
+    1024
+  ],
+  "refs": [
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/soil-detail-413-single-v2/F413_LAYOUT_D16.png",
+      "sha256": "a241e4524cf50c8117d2bb66031fa87598d934db0b804f1d2729a35841941d5b"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/soil-detail-413-single-v2/F413_INSPECTION_CROP_24X.png",
+      "sha256": "a7c02484f234d1f295b474d891276a2237a05d612efd3f32a720542d7b8ca234"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/g3-edge-connectivity-review/GROUND_3X3_4X_NEAREST.png",
+      "sha256": "f72ea0cbbd7ee5637992e59d9b8de2152e2429d41a7d72174852fc7f112546e8"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/soil-spur-v2-material-preview/Project/assets/soil.png",
+      "sha256": "9c6f1a81a4d55814aad2495bc2a5b292073fbc801c667d5f7c42ab5737591017"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/soil-spur-v2-material-preview/Project/assets/grass.png",
+      "sha256": "470f2866b30b0901999e915c51cde7124c3e6532b5b4c8fa4c3d9edbfcf02b8b"
+    }
+  ],
+  "generation_arguments": {
+    "prompt": "Use case: style-transfer.\nAsset type: one tiny 2D oblique top-down ground-detail overlay for a classic RPG, with actual transparent background.\nPrimary request: redraw ONLY the two tiny dark marks near the lower middle of reference 1 as restrained, natural short dead-grass fragments. This is one full-tile overlay, NOT a close-up object portrait. The low-resolution marks do not reliably identify an object; the new short-grass interpretation must stay visually humble and preserve their positions and footprint.\nInput images: 1 is the complete original 96 by 64 game tile enlarged exactly 16x, sole POSITION AND SCALE reference. 2 is a source-only 24x nearest-neighbor close inspection of original crop x40..72,y40..60, showing the spacing between the two dark cores; do NOT use its larger relative subject size as the output scale. 3 is actual original terrain neighborhood, CONTEXT ONLY. 4 and 5 are existing AI earth soil and grass MATERIAL/RENDERING references ONLY, not output backgrounds.\nCanvas and registration: output exactly 1536 by 1024 pixels, transparent RGBA. The full canvas maps to original 96 by 64 game pixels at density 16. Preserve the large empty margins. Do not center or enlarge the subject. Exactly two tiny separate groups: left dark core centered around output (776,800), right core around (912,800). Each group is only approximately 64 pixels wide and 32 pixels tall on this large output canvas, corresponding to about 4 by 2 pixels at game 1x. Fine straw tips can extend slightly, but all visible content of the left group stays inside x736..816,y768..832; right stays inside x864..944,y768..832. Keep the gap empty; no connecting stem. These coordinates are instructions, not printed text.\nSubject: each group is a few extremely short dry olive-brown grass scraps lying very close to the soil, with a low horizontal silhouette. Do not add species-specific details beyond what is readable at game 1x. No upright bush. Use subtle natural detail compatible with the AI soil and grass references. Dark brown/olive rather than solid black, softly lit in the same oblique top-down 2D game perspective. Minimal contact darkness only within each tiny footprint, no broad cast shadow.\nOutput only these two sparse fragments on transparency. Remove the entire original ground, all original soil pixels, green transition, gravel noise, and other marks. Outside the two small footprint regions there must be true empty alpha, not an almost transparent brown film. No terrain tile, dirt base, mound, stones, rubble pile, roots, long branch, large grass clump, tall sprouts, dense greenery, border, grid, labels, watermark or checkerboard pixels. Most of the canvas must be empty. Preserve two-group position, separation and very small game-scale visual mass; fine resolution is not permission to enlarge the objects.",
+    "referenced_image_paths": [
+      "/workspace/scratch/22c897619190/recovery-work/soil-detail-413-single-v2/F413_LAYOUT_D16.png",
+      "/workspace/scratch/22c897619190/recovery-work/soil-detail-413-single-v2/F413_INSPECTION_CROP_24X.png",
+      "/workspace/scratch/22c897619190/recovery-work/g3-edge-connectivity-review/GROUND_3X3_4X_NEAREST.png",
+      "/workspace/scratch/22c897619190/recovery-work/soil-spur-v2-material-preview/Project/assets/soil.png",
+      "/workspace/scratch/22c897619190/recovery-work/soil-spur-v2-material-preview/Project/assets/grass.png"
+    ],
+    "transparent_background": true
+  },
+  "source_interpretation": "Two dark tiny marks; grass identity is a design interpretation, not established source semantics. No G2 or G3 generation.",
+  "normalization": "Requested D16 is a target only; calculate actual x/y density from returned width/96 and height/64, require equal values, and recheck layout before any sampling. Only whole-canvas uniform resampling if original registration/aspect passes. No independent translation/scaling, no alpha cleanup, no background removal. Preserve raw.",
+  "scope_selection": "Other scattered original dark pixels are treated as ground texture; this selected redesign covers only the two lower-middle cores."
+}

@@ -1,0 +1,90 @@
+{
+  "status": "await_root_review_no_generation",
+  "generation_calls": 0,
+  "source_atlas": "/workspace/scratch/22c897619190/tihu-legend/Project/assets/original/Map/Res/FloorBig/0.png",
+  "source_atlas_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59",
+  "source_atlas_rect": [
+    687,
+    1,
+    96,
+    64
+  ],
+  "source_rgba_sha256": "0e44865c833ac1dfec4400377b1e5bcb906c1b6d7576a11931f6ff1808385245",
+  "owner": "Map/Res/FloorBig:395@54,62",
+  "world_origin": [
+    2592,
+    1984
+  ],
+  "requested_size": [
+    1536,
+    1024
+  ],
+  "target_density": 16,
+  "actual_density_policy": "Recompute width/96,height/64 after tool return; require uniform density and evaluate registration before any whole-canvas diagnostic sampling.",
+  "core_windows_source": {
+    "upper": [
+      5,
+      4,
+      9,
+      6
+    ],
+    "lower": [
+      32,
+      52,
+      39,
+      56
+    ]
+  },
+  "core_shape_evidence": {
+    "upper": "Horizontal dark nucleus x5..8,y4, with two lower-tail pixels x7..8,y5. Four source rows clear above deep core.",
+    "lower": "Sparse red/umber micro-marks around (32,53),(33,53),(34,52),(35,55),(36,54),(38,52); uncertain baked ground identity, not one proven object.",
+    "old_lower_coarse_box": "[16,43,37,58] is not reliable; it excludes right side of the source grouping. Do not reuse."
+  },
+  "center_separation_source": [
+    28.5,
+    49
+  ],
+  "approx_center_distance": 56.68553607402862,
+  "source_semantics": "Uncertain; proposed tiny scuffs are a restrained design interpretation, not species recognition or recovered alpha.",
+  "refs": [
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/soil-detail-g3-single-v1/G3_LAYOUT_D16.png",
+      "sha256": "181aba6f71273bd9a728d70be9013a040c6fc6d1a8beb9548749f014f7a2ae4b"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/soil-detail-g3-single-v1/UPPER_INSPECTION_32X.png",
+      "sha256": "bb8ff561ecafd30320a446b47b56cc41cc2217537879cd7ac1cebe8e45074ad0"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/soil-detail-g3-single-v1/LOWER_INSPECTION_32X.png",
+      "sha256": "f8cdaa9c15be4ba5c19fe09bf6ac87c0bb4b2d4e863cfe0fe79cb44b55379d08"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/soil-spur-v2-material-preview/Project/assets/soil.png",
+      "sha256": "9c6f1a81a4d55814aad2495bc2a5b292073fbc801c667d5f7c42ab5737591017"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/soil-spur-v2-material-preview/Project/assets/grass.png",
+      "sha256": "470f2866b30b0901999e915c51cde7124c3e6532b5b4c8fa4c3d9edbfcf02b8b"
+    }
+  ],
+  "generation_arguments": {
+    "prompt": "Use case: style-transfer.\nAsset type: one tiny 2D oblique top-down ground-detail overlay for a classic RPG, on actual transparency.\nPrimary request: reinterpret only TWO selected dark surface marks from the original tile as subtle high-resolution earth-surface scuffs. Their original identity is uncertain; do not identify or invent a plant, branch, rock, footprint or creature. These are a tiny horizontal dark trace at upper left and a small loose group of reddish-brown flecks near the lower left-middle. They are far apart, never connected.\nReferences: 1 is the entire original 96x64 source tile enlarged exactly 16x and is the ONLY POSITION AND SCALE authority. 2 is a nearest-neighbor 32x inspection of original source crop [0,0,16,12], upper mark. 3 is a nearest-neighbor 32x inspection of original source crop [26,47,44,60], lower mark. References 2 and 3 reveal the source pixels but must NOT set larger output object scale. 4 is existing AI soil material and 5 existing AI grass material, only for coherent natural earth rendering; neither is an output background.\nRegistration: request a 1536x1024 transparent RGBA canvas, corresponding to the full source96x64 at density16. Preserve the large empty area. No centering, no close-up composition, no enlargement to fill the image.\nUpper mark: source deep core [5,4,9,6], approximately 4x2 game pixels. Its center is source(7,5), output(112,80). Preserve a very low horizontal dark-brown tapered stroke, subtly irregular, only about64x32 output pixels. Very faint short fringes may occupy source[4,3,10,7], output[64,48,160,112], but do not fill this bounding box. Keep every visible part away from the top edge: the four original rows above the deep core are not part of the object. It is NOT connected to the tile above, and must not become an edge-crossing stem or slash.\nLower mark: selected source core group [32,52,39,56], approximate center(35.5,54), output(568,864). Preserve the scattered, discontinuous reddish-brown short flecks, including the small angled sequence around source(32,53),(34,52),(36,54),(35,55), and a separate small fleck near(38,52). The grouping is approximately7x4 game pixels, not a solid mound or long scratch. Keep its visible fringe within source[31,51,40,57], output[496,816,640,912], without filling the box. Preserve small transparent spaces between flecks. The neighboring dark grain around source(40,56) is of uncertain association; this design deliberately excludes it rather than inventing a third object.\nRendering: restrained natural brown/umber with a little muted red in the lower group, subtle HD surface character matching the earth material reference. Upper mark is darker and more compact than the lower group. Flat or nearly flat against the ground, same oblique top-down 2D game view, no visible raised volume, no broad shadow, no soil platform. Extra resolution adds refined edges, not size, density, objects, or invented species details.\nOutput ONLY the two selected small surface-mark groups. All other original grains, scattered marks, soil, grass and background must be absent and truly transparent. No broad translucent brown film, no dirt tile, roots, clump of grass, twig heap, stones, gouge, crack, crater, symbol, border, grid, text, watermark or checkerboard pixels. Most of the canvas remains completely empty. Preserve full-tile registration, tiny game-scale visual mass, relative darkness, and the large diagonal separation.",
+    "referenced_image_paths": [
+      "/workspace/scratch/22c897619190/recovery-work/soil-detail-g3-single-v1/G3_LAYOUT_D16.png",
+      "/workspace/scratch/22c897619190/recovery-work/soil-detail-g3-single-v1/UPPER_INSPECTION_32X.png",
+      "/workspace/scratch/22c897619190/recovery-work/soil-detail-g3-single-v1/LOWER_INSPECTION_32X.png",
+      "/workspace/scratch/22c897619190/recovery-work/soil-spur-v2-material-preview/Project/assets/soil.png",
+      "/workspace/scratch/22c897619190/recovery-work/soil-spur-v2-material-preview/Project/assets/grass.png"
+    ],
+    "transparent_background": true
+  },
+  "constraints": [
+    "One call only after root approval",
+    "Preserve RAW; no alpha cleanup",
+    "No independent scaling/crop/reposition to rescue failure",
+    "No main runtime edit",
+    "G2 is diffuse soil, not an independent object; no G2 generation",
+    "Accepted413 RAW remains unchanged"
+  ]
+}
