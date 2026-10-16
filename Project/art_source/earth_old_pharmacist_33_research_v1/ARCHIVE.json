@@ -1,0 +1,36 @@
+{
+  "schema": "earth-single-npc-research-v1",
+  "status": "Single33 design candidate, not art/registration accepted. Upper-limb and shoe offsets remain. No runtime activation or four-phase replication. Registration feasibility is analysis-only; no scale/translation has been applied.",
+  "actual_request_author_confirmed": true,
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "original_return": "generated_images/exec-7c8f5ec1-5598-42eb-8818-e6d841139132.png",
+  "raw_sha256": "ec61a1a7a378cbc5f979a912c59d90388580b3d4a62d9a59c065b55357d06769",
+  "prompt_sha256": "e92e822ca5c09c4a6f231abf749d6571954f81522b321a15e8bf93a37dff00cd",
+  "actual_reference_resolution": "Unchanged contract actual_refs_order paths resolve by basename inside this package; all4original submitted PNG bytes retained. Four-phase source board was reference only.",
+  "dependencies": [
+    {
+      "path": "data/maps/A13.json",
+      "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27"
+    },
+    {
+      "path": "assets/original/manifest.json",
+      "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837"
+    },
+    {
+      "path": "assets/original/Npc/0.png",
+      "sha256": "c0de28cf0fe814dec4829db167869c7ebed876cc9cc2086f99d490427a0bfa67"
+    },
+    {
+      "path": "assets/earth/npc/fangzhang_v1/body.png",
+      "sha256": "21cfcd0e60c40944c3623e2d9b989e3d7eeb006a3ebbd2be648a69f655cf04bc"
+    },
+    {
+      "path": "assets/earth/npc/lingyunzi_v2/body.png",
+      "sha256": "541c6d0a7a1cf3dd1cd547be037cf17e2f9a6083b8de90c1641f13fbaf9bbb9e"
+    }
+  ],
+  "mapping": "Whole raw square to384x384 premultiplied LANCZOS, fixed paste(64,200) into512x640density4. No bboxfit/cleanup/registration adjustment.",
+  "expected_candidate_sha256": "578b2b4ce6aa096195970824ddac140263c53076a3331572a3559fb935c3b346",
+  "registration_caution": "A shared right/down placement component is plausible; proposed candidate correction(-3,-1)logical is not executed. Heldout front hand/right shoe residuals remain. Scale0.91was not accepted."
+}

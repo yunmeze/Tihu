@@ -1,0 +1,89 @@
+{
+  "schema": "earth-rejected-lower-building-edit-v1",
+  "status": "Rejected before composition; earlier attempt1 remains unchanged and unaccepted. Right roof tip about+47logical and apex about-9logical; upper motion nonuniform. Strong spill17615pixels/3.778%; foot/collision risk unresolved. No donor extraction, blend or pasteback executed.",
+  "actual_request_confirmed_by_author": true,
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "actual_tool_mask_parameter": false,
+  "prompt_sha256": "2a774fdbb924c839a9e8619970d9d792c58733ce2974d14ebb827d4335652f86",
+  "raw_original_return": "generated_images/exec-5a8aeff5-7439-4540-aa75-eb787dbce63b.png",
+  "raw_sha256": "1a92df22a0d101082c24c303060aa18435eb330d1621db761850379c859e9cef",
+  "editable_envelope_polygon_logical": [
+    [
+      58,
+      422
+    ],
+    [
+      223,
+      474
+    ],
+    [
+      294,
+      430
+    ],
+    [
+      546,
+      592
+    ],
+    [
+      699,
+      528
+    ],
+    [
+      727,
+      604
+    ],
+    [
+      552,
+      722
+    ],
+    [
+      475,
+      706
+    ],
+    [
+      277,
+      579
+    ],
+    [
+      218,
+      601
+    ],
+    [
+      52,
+      518
+    ]
+  ],
+  "logical_canvas": [
+    832,
+    832
+  ],
+  "world_origin": [
+    1401,
+    522
+  ],
+  "reference_resolution": {
+    "/workspace/scratch/22c897619190/recovery-work/remaining-buildings/attempt1/generated-raw.png": {
+      "project_path": "art_source/earth_west_building_235_253_research_v1/generated-raw.png",
+      "sha256": "1d097accadb86aafcf56015e8bee5588495621da017935a68b63143f7e041582"
+    },
+    "/workspace/scratch/22c897619190/recovery-work/remaining-buildings/attempt1/primary-source-complete-padded.png": {
+      "project_path": "art_source/earth_west_building_235_253_research_v1/primary-source-complete-padded.png",
+      "sha256": "d7f486a378b5983711a353e1e1e9a26d705e95f98a987ddf2f9018ffe9636f3e"
+    },
+    "/workspace/scratch/22c897619190/recovery-work/remaining-buildings/lower-attempt1/edit-region-guide.png": {
+      "package_path": "edit-region-guide.png",
+      "sha256": "4747876c29294ffae3ff2941191fd4c42f9778a905ace3b1b1d29779ac91845b"
+    }
+  },
+  "dependencies": [
+    {
+      "path": "art_source/earth_west_building_235_253_research_v1/generated-raw.png",
+      "sha256": "1d097accadb86aafcf56015e8bee5588495621da017935a68b63143f7e041582"
+    },
+    {
+      "path": "art_source/earth_west_building_235_253_research_v1/primary-source-complete-padded.png",
+      "sha256": "d7f486a378b5983711a353e1e1e9a26d705e95f98a987ddf2f9018ffe9636f3e"
+    }
+  ]
+}

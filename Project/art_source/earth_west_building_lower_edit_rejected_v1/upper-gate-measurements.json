@@ -1,0 +1,88 @@
+{
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "density": 1.5072115384615385,
+  "raw_sha256": "1a92df22a0d101082c24c303060aa18435eb330d1621db761850379c859e9cef",
+  "protected_upper_strong_union_pixels": 137142,
+  "protected_upper_strong_silhouette_xor": 13973,
+  "upper_RGBA_mean_abs_difference": 42.659526257455774,
+  "landmark_template_translation_estimates": [
+    {
+      "name": "apex",
+      "roi": [
+        285,
+        130,
+        315,
+        190
+      ],
+      "best_dxdy": [
+        8,
+        -11
+      ],
+      "RGBA_mse": 3350.766666666667,
+      "caution": "appearance-based; inspect geometry independently"
+    },
+    {
+      "name": "left_eave",
+      "roi": [
+        25,
+        315,
+        105,
+        350
+      ],
+      "best_dxdy": [
+        -9,
+        6
+      ],
+      "RGBA_mse": 2627.612767857143,
+      "caution": "appearance-based; inspect geometry independently"
+    },
+    {
+      "name": "right_eave",
+      "roi": [
+        670,
+        425,
+        745,
+        470
+      ],
+      "best_dxdy": [
+        -12,
+        9
+      ],
+      "RGBA_mse": 6853.924222222222,
+      "caution": "appearance-based; inspect geometry independently"
+    },
+    {
+      "name": "ridge_joint",
+      "roi": [
+        275,
+        235,
+        325,
+        285
+      ],
+      "best_dxdy": [
+        8,
+        -3
+      ],
+      "RGBA_mse": 723.7831,
+      "caution": "appearance-based; inspect geometry independently"
+    },
+    {
+      "name": "roof_front_join",
+      "roi": [
+        530,
+        550,
+        565,
+        585
+      ],
+      "best_dxdy": [
+        5,
+        12
+      ],
+      "RGBA_mse": 3121.9473469387754,
+      "caution": "appearance-based; inspect geometry independently"
+    }
+  ]
+}

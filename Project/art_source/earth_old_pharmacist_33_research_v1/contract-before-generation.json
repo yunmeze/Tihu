@@ -1,0 +1,325 @@
+{
+  "source_record": {
+    "record": 2,
+    "npc": {
+      "x": 20,
+      "y": 26,
+      "appearance": 2,
+      "direction": 2,
+      "name": "老药师",
+      "script": "#buy\r\n强效金创药\r\n绝强金创药\r\n精炼金创药\r\n强效魔法药\r\n绝强魔法药\r\n精炼魔法药\r\n强效金创药包\r\n绝强金创药包\r\n强效魔法药包\r\n绝强魔法药包\r\n精炼金创药包\r\n精炼魔法药包\r\n#endbuy\r\n我八岁便受指引来到三清观，一生修道，潜心钻研药学。日逢九便下山济世，救人无数。我这里的药不说天下无双，也是举世难寻。\r\n\r\n#button 角色治疗 2 9 绿 M1\r\n#button 宠物治疗 12 9 青 M2\r\n#button 关闭 34 9 黄 OVER\r\n#end\r\n\r\n\r\n#SUB M1\r\n我将用内力功法给你进行疗愈，可迅速修复你的所有创伤，且可令你精气充盈。这将耗费我大量灵力，所以我要收取1000文钱，你看行吗？\r\n\r\n#button 没问题，请为我疗愈 2 9 黄 M1G\r\n#button 关闭 34 9 黄 OVER\r\n#END\r\n\r\n#sub M1G\r\n#itemck 金币 > 999\r\n#take 金币 1000\r\n#REME\r\n已为你疗愈完毕，感觉怎么样？\r\n#else\r\n你似乎没有带足够的钱\r\n#endif\r\n#button 关闭 34 9 黄 OVER\r\n#END\r\n\r\n\r\n#SUB M2\r\n我将用内力功法给你你的宠物进行疗愈，可迅速修复它们的创伤。这将耗费我大量灵力，所以我要收取2000文钱，你看行吗？\r\n\r\n#button 没问题，请疗愈 2 9 黄 M2G\r\n#button 关闭 34 9 黄 OVER\r\n#END\r\n\r\n#sub M2G\r\n#itemck 金币 > 1999\r\n#take 金币 2000\r\n#REPET\r\n已为你的宠物疗愈完毕\r\n#else\r\n你似乎没有带足够的钱\r\n#endif\r\n#button 关闭 34 9 黄 OVER\r\n#END"
+    },
+    "mapanchor_world": [
+      960,
+      832
+    ],
+    "base": 33,
+    "frame_ids": [
+      33,
+      34,
+      35,
+      36
+    ],
+    "script_sha256": "78fdc3d3044ef40d2d7de1cb36804de64349131d22e3c9036391b723db3ae2ad",
+    "layer": 1,
+    "sort_y": 26,
+    "stable_order": 10002,
+    "frames": [
+      {
+        "id": 33,
+        "metadata": {
+          "original": [
+            56,
+            66
+          ],
+          "offset": [
+            1,
+            -42
+          ],
+          "sourceOffset": 133519,
+          "sourceBytes": 3638,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            56,
+            66
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "f2bc93c089c6ea8eadb5db025d13c66b6f13725c75dbd951bab1cc1292aed478",
+          "page": 0,
+          "rect": [
+            1,
+            1,
+            56,
+            66
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          33,
+          62
+        ],
+        "mapanchor_to_draw": [
+          1,
+          -42
+        ],
+        "alpha_bbox_local": [
+          0,
+          0,
+          56,
+          66
+        ]
+      },
+      {
+        "id": 34,
+        "metadata": {
+          "original": [
+            60,
+            65
+          ],
+          "offset": [
+            1,
+            -41
+          ],
+          "sourceOffset": 137161,
+          "sourceBytes": 3769,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            60,
+            65
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "186b8170b77e871834bf20ee7ad868035ee8290a0d65304737300ca7866369e4",
+          "page": 0,
+          "rect": [
+            59,
+            1,
+            60,
+            65
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          33,
+          63
+        ],
+        "mapanchor_to_draw": [
+          1,
+          -41
+        ],
+        "alpha_bbox_local": [
+          0,
+          0,
+          57,
+          65
+        ]
+      },
+      {
+        "id": 35,
+        "metadata": {
+          "original": [
+            60,
+            65
+          ],
+          "offset": [
+            1,
+            -41
+          ],
+          "sourceOffset": 140934,
+          "sourceBytes": 3682,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            60,
+            65
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "b3148aaee2901afc39397ffb79eaf849abf9db1f02534e9c87c0cfd7a62a849b",
+          "page": 0,
+          "rect": [
+            121,
+            1,
+            60,
+            65
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          33,
+          63
+        ],
+        "mapanchor_to_draw": [
+          1,
+          -41
+        ],
+        "alpha_bbox_local": [
+          0,
+          0,
+          58,
+          65
+        ]
+      },
+      {
+        "id": 36,
+        "metadata": {
+          "original": [
+            60,
+            66
+          ],
+          "offset": [
+            0,
+            -42
+          ],
+          "sourceOffset": 144620,
+          "sourceBytes": 3687,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            60,
+            66
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "fd391534bcc1b40af4126514b3adf0a120a06d84d607f5d711a9e0ea93738059",
+          "page": 0,
+          "rect": [
+            183,
+            1,
+            60,
+            66
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          32,
+          62
+        ],
+        "mapanchor_to_draw": [
+          0,
+          -42
+        ],
+        "alpha_bbox_local": [
+          0,
+          0,
+          58,
+          66
+        ]
+      }
+    ],
+    "adjacent_phase_rgba_changed": [
+      759,
+      795,
+      681,
+      813
+    ]
+  },
+  "logical_square": 96,
+  "square_origin_relative_mapanchor": [
+    -16,
+    -54
+  ],
+  "source33_draw_origin_relative_mapanchor": [
+    1,
+    -42
+  ],
+  "source33_xy_inside_square": [
+    17,
+    12
+  ],
+  "input_density": 8,
+  "input_size": [
+    768,
+    768
+  ],
+  "world_mapanchor": [
+    960,
+    832
+  ],
+  "square_world_origin": [
+    944,
+    778
+  ],
+  "output_mapping": "world=(944,778)+raw_pixel/(raw_width/96), square uniform only",
+  "optional_density4_container": {
+    "size": [
+      512,
+      640
+    ],
+    "logical_size": [
+      128,
+      160
+    ],
+    "mapanchor_logical": [
+      32,
+      104
+    ],
+    "draw_offset": [
+      -32,
+      -104
+    ],
+    "square_density4_size": [
+      384,
+      384
+    ],
+    "square_paste_xy": [
+      64,
+      200
+    ]
+  },
+  "actual_refs_order": [
+    "/workspace/scratch/22c897619190/recovery-work/old-pharmacist/attempt1/primary-source33-padded.png",
+    "/workspace/scratch/22c897619190/recovery-work/remaining-npc-coverage/source-fourphase-record-2.png",
+    "/workspace/scratch/22c897619190/recovery-work/old-pharmacist/attempt1/material-fang-sleeve.png",
+    "/workspace/scratch/22c897619190/recovery-work/old-pharmacist/attempt1/material-ling-fabric.png"
+  ],
+  "sha256": {
+    "/workspace/scratch/22c897619190/recovery-work/old-pharmacist/attempt1/primary-source33-padded.png": "0fbd366ae3f2694081445a4b604a7317161d43d0e441415a4e13b19e805fc52e",
+    "/workspace/scratch/22c897619190/recovery-work/remaining-npc-coverage/source-fourphase-record-2.png": "b73d4478801e80304627b656f9fedd83d8d1dc12909c83f13e0a83300c6fbf22",
+    "/workspace/scratch/22c897619190/recovery-work/old-pharmacist/attempt1/material-fang-sleeve.png": "44d5bd08387346c84946542f9f4945d901740996825947231724aeb6a9578d9f",
+    "/workspace/scratch/22c897619190/recovery-work/old-pharmacist/attempt1/material-ling-fabric.png": "a269c11bda35de57c567b90fbb782f4d18132f7eb81de3a5c31681a122139d6d"
+  },
+  "manual_source_local_proxies": {
+    "head_face": [
+      16,
+      13
+    ],
+    "shoulder": [
+      20,
+      20
+    ],
+    "left_bent_hand": [
+      4,
+      16
+    ],
+    "right_low_hand": [
+      23,
+      34
+    ],
+    "left_shoe": [
+      13,
+      55
+    ],
+    "right_shoe": [
+      25,
+      63
+    ]
+  },
+  "manual_proxy_uncertainty_logical": 3,
+  "source_shadow": "right-lower checker is not body, no new ground shadow"
+}

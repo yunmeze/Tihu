@@ -1,0 +1,42 @@
+{
+  "schema": "earth-rejected-short-turf-research-v1",
+  "status": "Rejected after one call; no core composition, period change, palette correction or runtime use. Root independently reviewed1x. Do not repeat same prompt strategy without new direction.",
+  "actual_request_confirmed": true,
+  "original_generated_path": "generated_images/exec-6a86b58d-7322-414b-9c13-d7a78a208007.png",
+  "reference_resolution": {
+    "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_base_style_concept_v1/concept.png": {
+      "project_path": "art_source/earth_base_style_concept_v1/concept.png",
+      "sha256": "1beaf20bbda18d0e04fcf2f6e81a0028750e1b87224f21780393b00c36cc4fc5"
+    }
+  },
+  "dependencies": [
+    {
+      "path": "art_source/earth_base_style_concept_v1/concept.png",
+      "sha256": "1beaf20bbda18d0e04fcf2f6e81a0028750e1b87224f21780393b00c36cc4fc5"
+    }
+  ],
+  "mapping": {
+    "whole_raw_square_to": [
+      768,
+      768
+    ],
+    "resampling": "Pillow LANCZOS",
+    "density": 2,
+    "world_period": [
+      384,
+      384
+    ],
+    "world_phase": [
+      0,
+      0
+    ],
+    "color_operations": null,
+    "alpha_operations": null,
+    "logical1x_display": "768 to384 via2x2BOX integration only"
+  },
+  "expected_outputs": {
+    "tile-native2x.png": "f554b781e0b3f7e609c18a66e44ad874734df1d7c438e43a2dbe1fa94b428051",
+    "tile-logical1x.png": "423881716c9e77b2b49aeddc3133f2cea9b8f7dfd663e0b3635c98ccfaa1395e"
+  },
+  "scope_prohibited": "No RGB replaced in conservative core, no outside/alpha/support/road/curb/receiver/contact edits. No global affine, local strip grading or blur."
+}

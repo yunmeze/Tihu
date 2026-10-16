@@ -1,0 +1,38 @@
+{
+  "raw_sha256": "6b59ec2e8561dce09cf16a63c64a99653c0826c0a24c1db84e5648626852f439",
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "raw_alpha_minmax": [
+    255,
+    255
+  ],
+  "mapping": "One wholecanvas uniform LANCZOS to768; no color or detail operation; 1x display2x2BOX",
+  "mean_rgb": [
+    91.64413621690538,
+    99.67374335394965,
+    37.003875732421875
+  ],
+  "encoded_luminance_std": 37.65060749831353,
+  "seams": {
+    "y": {
+      "wrap_mean": 26.75390625,
+      "wrap_p95": 76.0,
+      "interior_cut_mean_p95": 28.215885416666666,
+      "interior_cut_p95_p95": 85.0,
+      "mean_gate_pass": true,
+      "p95_gate_pass": true
+    },
+    "x": {
+      "wrap_mean": 29.40407986111111,
+      "wrap_p95": 77.0,
+      "interior_cut_mean_p95": 30.578819444444445,
+      "interior_cut_p95_p95": 89.84999999999991,
+      "mean_gate_pass": true,
+      "p95_gate_pass": true
+    }
+  },
+  "classification": "Root reviewed1x and rejected: yellow-green bright strand network; darker and higher contrast. Not a scale-only failure; no smaller-period rescue or core composition.",
+  "core_composition_executed": false
+}
