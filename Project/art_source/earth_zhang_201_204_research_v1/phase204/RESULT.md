@@ -1,0 +1,10 @@
+# Single204, original coordinates
+One authorized built-in imagegen call, actual2refs+prompt pinned before call. Raw return recorded in raw-return-path.txt;1254square,13.0625raw pixels/logical. review.py performs uniform wholecanvas premultiplied-alpha resampling to384square density4, nothing else.12044rawalpha1–2pixels retained. No rigid correction applied to204.
+
+Modern mature face, jacket panels and high/low hand gesture remain recognizably shared. Original-coordinate output drifts right/down versus selected201; original fullcanvas stability gate remains FAIL, not waived by prediction. Strongalpha area1399.5 versus2011320.6875logical² =+5.9675%. Body/sleeve/trouser width differences survive translation.
+
+Frozen202/203 prediction(-1.25,-1), no fit:12pointRMS0.5496,11/12vector norms<=1logical. Residual face(0,-.5), shoulders(-.25,-.25)/(0,.25), chest(-.25,-.25)/(0,-.25), waist(-.25,.25), highhand(-1,-.25), lowerhand(.5,.75), backshoe(-.25,.5), frontshoe(0,.75), collar(0,-.25),hip(0,.25). Highhand norm1.031 is marginally outside1logical and remains a genuine reported residual. Lowerhand's+.75vertical is not explained by weak source+1horizontal observation. These are RGBmaterialpatch readings with~.5 nominal and1–2logical redraw uncertainty, not skeletonprecision. No re-estimated parameters or transformation.
+
+Fullloop outputs in ../fourphase-review/: source-new-fourphase-1x/2x/4x.png, source-new-complete-loop-1x/2x/4x.gif, actualmap-complete-loop-1x/2x.gif. All340ms/phase,1.36s loop. Newset is selected201,approvedrigid202/203,UNREGISTERED204 explicitly labelled. Originalsource uses actual offsets exactly once, including202. Actualmap is original atlas scene at originalrecord4 layer/order, noGodot/native claim.
+
+Important loop volume pulse:201→202 +7.5434%,202→203 -.0660%,203→204 -1.4003%,204→201 -5.6315%. Thus similar202/203 alone did not establish stable fullloop.204 unregistered adds visible position pop at203→204 and204→201; applying predictedrigid may reduce that but cannot erasewidth/area transition.201 absolutehighhand error remains. Root decides explicit204 registration; no automatic correction, no reroll, no production.

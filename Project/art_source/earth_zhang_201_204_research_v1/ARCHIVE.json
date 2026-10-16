@@ -1,0 +1,134 @@
+{
+  "schema": "earth-zhang-fourphase-research-v1",
+  "status": "Research only; original pose contracts failed; independent rigid registration candidate, no native/runtime acceptance.",
+  "author_confirmation": "Actual two references and exact prompt per call confirmed by generation author; no hidden image edits.",
+  "mapping": {
+    "world_origin": [
+      1668,
+      1032
+    ],
+    "logical_canvas": [
+      96,
+      96
+    ],
+    "anchor": [
+      12,
+      56
+    ],
+    "density": 4,
+    "resize": "whole square RGBa LANCZOS to 384 then RGBA",
+    "phase_order": [
+      201,
+      202,
+      203,
+      204
+    ],
+    "duration_ms_each": 340
+  },
+  "phases": [
+    {
+      "id": 201,
+      "directory": "phase201",
+      "actual_refs": [
+        {
+          "historical_path": "/workspace/scratch/22c897619190/recovery-work/zhang-design-input/attempt1/primary-source.png",
+          "path": "references/primary-source.png",
+          "sha256": "331611069024bde2e1e8218e2c12b0c1480dd99ff0ec35a7b9385f07b36e444e"
+        },
+        {
+          "historical_path": "/workspace/scratch/22c897619190/recovery-work/zhang-design-input/attempt1/source-reading.png",
+          "path": "references/source-reading.png",
+          "sha256": "270e438550e5fcd1a103b63807dd7372dfc10cdcdbc5ec3a248b1667b0bc4079"
+        }
+      ],
+      "raw_sha256": "df57d40731f05c24bd302d3dcb5fc2eee040da4c16291daff8e714075dae7127",
+      "mapped_sha256": "814b3d6dcadfd88405f5997f8073e8746c6d929a774d920571a701523f880364",
+      "rigid_sha256": "2b2069213836341aab4518728a27d4f472bae78591f5237c9bc19187c3c89597",
+      "density4_translation": [
+        -20,
+        4
+      ]
+    },
+    {
+      "id": 202,
+      "directory": "phase202",
+      "actual_refs": [
+        {
+          "historical_path": "/workspace/scratch/22c897619190/recovery-work/zhang-design-input/phase202-attempt1/source202-fixed-world.png",
+          "path": "references/source202-fixed-world.png",
+          "sha256": "2e8864b9806306b9c0a0d370fa956c5ca7ce8ab47ff1d129e28e8b3bbb7f23ce"
+        },
+        {
+          "historical_path": "/workspace/scratch/22c897619190/recovery-work/zhang-design-input/phase202-attempt1/identity201-fixed-world.png",
+          "path": "references/identity201-fixed-world.png",
+          "sha256": "2b2069213836341aab4518728a27d4f472bae78591f5237c9bc19187c3c89597"
+        }
+      ],
+      "raw_sha256": "680577f73a3915132dc75e964e831e3c332fd7b19c77d02cfacd0133ab018ac9",
+      "mapped_sha256": "18660490c2e0305a3cbd1de26b6152d6a2b4b133a903c29b4fbd6d35753abc2c",
+      "rigid_sha256": "0b3806e40761c2df55f1c745748a04a8577e80d5057366be06d374087bba9adb",
+      "density4_translation": [
+        -5,
+        -4
+      ]
+    },
+    {
+      "id": 203,
+      "directory": "phase203",
+      "actual_refs": [
+        {
+          "historical_path": "/workspace/scratch/22c897619190/recovery-work/zhang-design-input/phase203-attempt1/source203-fixed-world.png",
+          "path": "references/source203-fixed-world.png",
+          "sha256": "00f33f158bdd4471bd531b1750b45ebf4bb3d9fe258a17bc3188fe18f86fc1da"
+        },
+        {
+          "historical_path": "/workspace/scratch/22c897619190/recovery-work/zhang-design-input/phase203-attempt1/identity201-fixed-world.png",
+          "path": "references/identity201-fixed-world.png",
+          "sha256": "2b2069213836341aab4518728a27d4f472bae78591f5237c9bc19187c3c89597"
+        }
+      ],
+      "raw_sha256": "5315be8918bf6d2352404db65f8abf66cd17f8edd2b7bb452e6e6c311b200365",
+      "mapped_sha256": "49fa26e450b8269b25fd2c4da1ceb48dfb21960baa4c45cf795376dc6d746dfa",
+      "rigid_sha256": "8e4bcbc0b735139edb3f7c259daae78c81ff28c9556be5201149cf4ab79a22ab",
+      "density4_translation": [
+        -5,
+        -4
+      ]
+    },
+    {
+      "id": 204,
+      "directory": "phase204",
+      "actual_refs": [
+        {
+          "historical_path": "/workspace/scratch/22c897619190/recovery-work/zhang-design-input/phase204-attempt1/source204-fixed-world.png",
+          "path": "references/source204-fixed-world.png",
+          "sha256": "5bcc0af31383b2d525cf7b63e2c2091f366dfacc61384ed73645352992136081"
+        },
+        {
+          "historical_path": "/workspace/scratch/22c897619190/recovery-work/zhang-design-input/phase204-attempt1/identity201-fixed-world.png",
+          "path": "references/identity201-fixed-world.png",
+          "sha256": "2b2069213836341aab4518728a27d4f472bae78591f5237c9bc19187c3c89597"
+        }
+      ],
+      "raw_sha256": "5c25c01fd965bd675dd5a92326d8fc3b216db3857b1217383172ad2a2b11bc32",
+      "mapped_sha256": "346eedea22ebc300f450502cb90d8a4255c0894b95078787b88df4024160fa49",
+      "rigid_sha256": "274c6c40f26afff0d8bb2040e17ffbac28a69d1f183c2f3322ae1e4ce2e06d7a",
+      "density4_translation": [
+        -5,
+        -4
+      ]
+    }
+  ],
+  "tracked_dependencies": [
+    {
+      "path": "assets/original/manifest.json",
+      "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+      "bytes": 262324
+    },
+    {
+      "path": "assets/original/Npc/0.png",
+      "sha256": "c0de28cf0fe814dec4829db167869c7ebed876cc9cc2086f99d490427a0bfa67",
+      "bytes": 125130
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "status": "authorized single204; frozen before call",
+  "logical_canvas": [
+    96,
+    96
+  ],
+  "world_origin": [
+    1668,
+    1032
+  ],
+  "anchor_in_canvas": [
+    12,
+    56
+  ],
+  "source204_offset_already_applied": [
+    -1,
+    -44
+  ],
+  "source204_paste": [
+    11,
+    12
+  ],
+  "planned_refs_order": [
+    "source204-fixed-world.png",
+    "identity201-fixed-world.png"
+  ],
+  "refs_sha256": {
+    "source204-fixed-world.png": "5bcc0af31383b2d525cf7b63e2c2091f366dfacc61384ed73645352992136081",
+    "identity201-fixed-world.png": "2b2069213836341aab4518728a27d4f472bae78591f5237c9bc19187c3c89597"
+  },
+  "draft_prompt_sha256": "4a02ea748b3f3206fd0cbe353435d408048de1c50afc06cb031f7cc458b7883c",
+  "source204_patch_motion": {
+    "face_no_crown": {
+      "dx": 0,
+      "dy": 0,
+      "RMSE": 22.614932791967018,
+      "runner_up_RMSE": 24.255965283860625
+    },
+    "high_hand": {
+      "dx": 0,
+      "dy": 0,
+      "RMSE": 24.828299266048095,
+      "runner_up_RMSE": 37.74357929208328
+    },
+    "left_shoulder": {
+      "dx": 0,
+      "dy": 0,
+      "RMSE": 15.511345907169108,
+      "runner_up_RMSE": 21.33897494847988
+    },
+    "right_shoulder": {
+      "dx": 0,
+      "dy": 0,
+      "RMSE": 13.489708011006844,
+      "runner_up_RMSE": 16.939161289307837
+    },
+    "lower_hand": {
+      "dx": 1,
+      "dy": 0,
+      "RMSE": 25.244728089173318,
+      "runner_up_RMSE": 27.780222114676132
+    },
+    "waist": {
+      "dx": 0,
+      "dy": 0,
+      "RMSE": 8.70185165480441,
+      "runner_up_RMSE": 16.38669611373231
+    },
+    "back_shoe": {
+      "dx": 0,
+      "dy": 0,
+      "RMSE": 3.752036484068056,
+      "runner_up_RMSE": 44.08615302891475
+    },
+    "front_shoe": {
+      "dx": 0,
+      "dy": 0,
+      "RMSE": 27.060973676057856,
+      "runner_up_RMSE": 63.75698944981408
+    }
+  },
+  "output_registration": "uniform complete canvas to density4 only; assess original coordinates first; no automatic batch translation for204",
+  "pre_registered_prediction_logical": [
+    -1.25,
+    -1
+  ],
+  "prediction_policy": "evaluate fixed202/203 prediction on204 only; do not refit or automatically apply",
+  "frame_duration_ms": 340,
+  "full_loop_duration_ms": 1360,
+  "actual_refs_order": [
+    "/workspace/scratch/22c897619190/recovery-work/zhang-design-input/phase204-attempt1/source204-fixed-world.png",
+    "/workspace/scratch/22c897619190/recovery-work/zhang-design-input/phase204-attempt1/identity201-fixed-world.png"
+  ],
+  "prompt_sha256": "4a02ea748b3f3206fd0cbe353435d408048de1c50afc06cb031f7cc458b7883c"
+}

@@ -1,0 +1,82 @@
+{
+  "status": "registration comparison only, original pose NOT passed; single201, other phases not produced",
+  "logical_translation": [
+    -5,
+    1
+  ],
+  "density4_pixel_translation": [
+    -20,
+    4
+  ],
+  "scale": 1,
+  "density": 4,
+  "canvas": [
+    384,
+    384
+  ],
+  "world_origin_unchanged": [
+    1668,
+    1032
+  ],
+  "mapanchor_unchanged": [
+    1680,
+    1088
+  ],
+  "input_sha256": "814b3d6dcadfd88405f5997f8073e8746c6d929a774d920571a701523f880364",
+  "output_sha256": "2b2069213836341aab4518728a27d4f472bae78591f5237c9bc19187c3c89597",
+  "raw_sha256": "df57d40731f05c24bd302d3dcb5fc2eee040da4c16291daff8e714075dae7127",
+  "nonzero_alpha_clipped": 0,
+  "exact_moved_RGBA_bytes_equal": true,
+  "alpha_nonzero_count_unchanged": true,
+  "heldout": [
+    {
+      "name": "high_hand",
+      "raw_delta": [
+        -1,
+        0
+      ],
+      "after_proposed_translation": [
+        -6,
+        1
+      ],
+      "conservative_component_error_band_plusminus": 6
+    },
+    {
+      "name": "lower_hand",
+      "raw_delta": [
+        6,
+        1
+      ],
+      "after_proposed_translation": [
+        1,
+        2
+      ],
+      "conservative_component_error_band_plusminus": 6
+    },
+    {
+      "name": "screen_left_back_shoe",
+      "raw_delta": [
+        10,
+        0
+      ],
+      "after_proposed_translation": [
+        5,
+        1
+      ],
+      "conservative_component_error_band_plusminus": 6
+    },
+    {
+      "name": "front_shoe",
+      "raw_delta": [
+        8,
+        1
+      ],
+      "after_proposed_translation": [
+        3,
+        2
+      ],
+      "conservative_component_error_band_plusminus": 6
+    }
+  ],
+  "error_band_note": "manual perpoint \u00b13logical, paired conservative \u00b16 not statistical CI or automatic PASS; high-hand tradeoff retained"
+}

@@ -1,0 +1,135 @@
+{
+  "logical_translation": [
+    -1.25,
+    -1
+  ],
+  "density4_pixel_translation": [
+    -5,
+    -4
+  ],
+  "scale": 1,
+  "resample": false,
+  "alpha_clipped": 0,
+  "moved_RGBA_exact": true,
+  "nonzero_alpha_count_unchanged": true,
+  "area_ratio_vs201_unchanged": 1.0754341962046283,
+  "ideal_translation": [
+    -1.375,
+    -0.875
+  ],
+  "quantization_difference": [
+    0.125,
+    -0.125
+  ],
+  "residuals": {
+    "training": {
+      "rows": [
+        {
+          "name": "face_center",
+          "remaining_delta": [
+            0.25,
+            -0.5
+          ],
+          "norm": 0.5590169943749475
+        },
+        {
+          "name": "left_shoulder_seam",
+          "remaining_delta": [
+            0.0,
+            -0.25
+          ],
+          "norm": 0.25
+        },
+        {
+          "name": "right_shoulder_seam",
+          "remaining_delta": [
+            0.25,
+            0.0
+          ],
+          "norm": 0.25
+        },
+        {
+          "name": "left_chest_panel_corner",
+          "remaining_delta": [
+            0.0,
+            0.0
+          ],
+          "norm": 0.0
+        },
+        {
+          "name": "right_chest_panel_corner",
+          "remaining_delta": [
+            0.0,
+            -0.25
+          ],
+          "norm": 0.25
+        },
+        {
+          "name": "waist_zip_center",
+          "remaining_delta": [
+            0.25,
+            0.25
+          ],
+          "norm": 0.3535533905932738
+        }
+      ],
+      "RMS": 0.3227486121839514
+    },
+    "heldout": {
+      "rows": [
+        {
+          "name": "high_hand",
+          "remaining_delta": [
+            -1.0,
+            -0.25
+          ],
+          "norm": 1.0307764064044151
+        },
+        {
+          "name": "lower_hand",
+          "remaining_delta": [
+            0.5,
+            0.25
+          ],
+          "norm": 0.5590169943749475
+        },
+        {
+          "name": "back_shoe",
+          "remaining_delta": [
+            0.0,
+            0.75
+          ],
+          "norm": 0.75
+        },
+        {
+          "name": "front_shoe",
+          "remaining_delta": [
+            -0.25,
+            0.5
+          ],
+          "norm": 0.5590169943749475
+        },
+        {
+          "name": "collar_blue_edge",
+          "remaining_delta": [
+            0.25,
+            -0.25
+          ],
+          "norm": 0.3535533905932738
+        },
+        {
+          "name": "right_hip_seam",
+          "remaining_delta": [
+            0.5,
+            0.25
+          ],
+          "norm": 0.5590169943749475
+        }
+      ],
+      "RMS": 0.6692657668420421
+    }
+  },
+  "input_sha256": "18660490c2e0305a3cbd1de26b6152d6a2b4b133a903c29b4fbd6d35753abc2c",
+  "output_sha256": "0b3806e40761c2df55f1c745748a04a8577e80d5057366be06d374087bba9adb",
+  "scope": "independent rigid registration study; original experiment FAIL unchanged; only201/202, no203/204"
+}

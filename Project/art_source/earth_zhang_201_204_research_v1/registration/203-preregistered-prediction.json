@@ -1,0 +1,260 @@
+{
+  "fixed_prediction": [
+    -1.25,
+    -1.0
+  ],
+  "fit_performed": false,
+  "image_transform_applied": false,
+  "point_spec": "../phase202-registration-diagnosis/points-before-fit.json",
+  "features": {
+    "face_center": {
+      "original_role_202": "training",
+      "roi201": [
+        34,
+        20,
+        40,
+        26
+      ],
+      "observed_delta": [
+        1.25,
+        0.5
+      ],
+      "predicted_residual": [
+        0.0,
+        -0.5
+      ],
+      "residual_norm": 0.5,
+      "rmse": 15.573173307064037,
+      "runnerup_rmse": 19.26292255046428
+    },
+    "left_shoulder_seam": {
+      "original_role_202": "training",
+      "roi201": [
+        24,
+        26,
+        29,
+        31
+      ],
+      "observed_delta": [
+        0.75,
+        1.25
+      ],
+      "predicted_residual": [
+        -0.5,
+        0.25
+      ],
+      "residual_norm": 0.5590169943749475,
+      "rmse": 24.21953412709116,
+      "runnerup_rmse": 24.93543328946448
+    },
+    "right_shoulder_seam": {
+      "original_role_202": "training",
+      "roi201": [
+        42,
+        29,
+        47,
+        34
+      ],
+      "observed_delta": [
+        1.0,
+        1.0
+      ],
+      "predicted_residual": [
+        -0.25,
+        0.0
+      ],
+      "residual_norm": 0.25,
+      "rmse": 16.979031185553552,
+      "runnerup_rmse": 18.636635068237684
+    },
+    "left_chest_panel_corner": {
+      "original_role_202": "training",
+      "roi201": [
+        29,
+        31,
+        34,
+        36
+      ],
+      "observed_delta": [
+        0.75,
+        1.0
+      ],
+      "predicted_residual": [
+        -0.5,
+        0.0
+      ],
+      "residual_norm": 0.5,
+      "rmse": 22.811345861215642,
+      "runnerup_rmse": 22.953285894035595
+    },
+    "right_chest_panel_corner": {
+      "original_role_202": "training",
+      "roi201": [
+        38,
+        33,
+        43,
+        38
+      ],
+      "observed_delta": [
+        1.25,
+        0.75
+      ],
+      "predicted_residual": [
+        0.0,
+        -0.25
+      ],
+      "residual_norm": 0.25,
+      "rmse": 11.769522788399989,
+      "runnerup_rmse": 15.538661461013943
+    },
+    "waist_zip_center": {
+      "original_role_202": "training",
+      "roi201": [
+        31,
+        44,
+        37,
+        49
+      ],
+      "observed_delta": [
+        1.0,
+        1.0
+      ],
+      "predicted_residual": [
+        -0.25,
+        0.0
+      ],
+      "residual_norm": 0.25,
+      "rmse": 16.149195886414216,
+      "runnerup_rmse": 20.91590304050963
+    },
+    "high_hand": {
+      "original_role_202": "heldout",
+      "roi201": [
+        11,
+        20,
+        17,
+        24
+      ],
+      "observed_delta": [
+        0.5,
+        0.5
+      ],
+      "predicted_residual": [
+        -0.75,
+        -0.5
+      ],
+      "residual_norm": 0.9013878188659973,
+      "rmse": 23.214821803944325,
+      "runnerup_rmse": 27.926304306553387
+    },
+    "lower_hand": {
+      "original_role_202": "heldout",
+      "roi201": [
+        50,
+        39,
+        56,
+        44
+      ],
+      "observed_delta": [
+        1.5,
+        1.0
+      ],
+      "predicted_residual": [
+        0.25,
+        0.0
+      ],
+      "residual_norm": 0.25,
+      "rmse": 40.00177079413694,
+      "runnerup_rmse": 41.183709360215076
+    },
+    "back_shoe": {
+      "original_role_202": "heldout",
+      "roi201": [
+        26,
+        69,
+        32,
+        73
+      ],
+      "observed_delta": [
+        1.0,
+        1.75
+      ],
+      "predicted_residual": [
+        -0.25,
+        0.75
+      ],
+      "residual_norm": 0.7905694150420949,
+      "rmse": 33.9149774354111,
+      "runnerup_rmse": 37.22902093797257
+    },
+    "front_shoe": {
+      "original_role_202": "heldout",
+      "roi201": [
+        37,
+        79,
+        43,
+        83
+      ],
+      "observed_delta": [
+        1.25,
+        1.75
+      ],
+      "predicted_residual": [
+        0.0,
+        0.75
+      ],
+      "residual_norm": 0.75,
+      "rmse": 29.1177118921342,
+      "runnerup_rmse": 29.17425496525623
+    },
+    "collar_blue_edge": {
+      "original_role_202": "heldout",
+      "roi201": [
+        34,
+        27,
+        39,
+        31
+      ],
+      "observed_delta": [
+        1.0,
+        0.75
+      ],
+      "predicted_residual": [
+        -0.25,
+        -0.25
+      ],
+      "residual_norm": 0.3535533905932738,
+      "rmse": 18.015473673114084,
+      "runnerup_rmse": 26.789690181112583
+    },
+    "right_hip_seam": {
+      "original_role_202": "heldout",
+      "roi201": [
+        39,
+        43,
+        44,
+        49
+      ],
+      "observed_delta": [
+        1.0,
+        1.0
+      ],
+      "predicted_residual": [
+        -0.25,
+        0.0
+      ],
+      "residual_norm": 0.25,
+      "rmse": 24.366273366638932,
+      "runnerup_rmse": 24.395938300371963
+    }
+  },
+  "rms_residual": 0.5204164998665332,
+  "mean_residual_diagnostic_only": [
+    -0.22916666666666666,
+    0.020833333333333332
+  ],
+  "within_1logical_euclidean": 12,
+  "count": 12,
+  "area_ratio_unchanged": 1.0747243386493777,
+  "uncertainty": "same material matching ~0.5logical nominal; redrawing 1\u20132logical possible; correlated patches, no statistical CI"
+}

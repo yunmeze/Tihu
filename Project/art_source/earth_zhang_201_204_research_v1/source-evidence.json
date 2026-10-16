@@ -1,0 +1,396 @@
+{
+  "record": {
+    "record": 4,
+    "npc": {
+      "x": 35,
+      "y": 34,
+      "appearance": 16,
+      "direction": 2,
+      "name": "张天师",
+      "script": "#BUY\r\n定风珠\r\n#ENDBUY\r\n武学亦是修道。在我三清观后有一修炼密室，只有武艺绝世之人才可进入修炼。密室外由混元之气阻挡，一般人无法进入。这混元之气须有炽、寒、幽三灵调和其中才能使其暂时消失。我这里虽然有定风珠，但只能平定一般气旋，且每珠只能使用一次。\r\n\r\n#button 关闭 34 9 黄 OVER\r\n#end\r\n"
+    },
+    "mapanchor_world": [
+      1680,
+      1088
+    ],
+    "base": 201,
+    "frame_ids": [
+      201,
+      202,
+      203,
+      204
+    ],
+    "script_sha256": "fefd19765546bab6e45e9118956f4a6b9515d971bc032600936f71210cca25e8",
+    "layer": 1,
+    "sort_y": 34,
+    "stable_order": 10004,
+    "frames": [
+      {
+        "id": 201,
+        "metadata": {
+          "original": [
+            72,
+            70
+          ],
+          "offset": [
+            -1,
+            -44
+          ],
+          "sourceOffset": 809363,
+          "sourceBytes": 4338,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            72,
+            70
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "de22db67e5566ea4d2127a9b430235074e34f90fa248167ddaa8681ea08ed4d7",
+          "page": 0,
+          "rect": [
+            813,
+            1,
+            72,
+            70
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          31,
+          60
+        ],
+        "mapanchor_to_draw": [
+          -1,
+          -44
+        ],
+        "alpha_bbox_local": [
+          0,
+          0,
+          70,
+          70
+        ]
+      },
+      {
+        "id": 202,
+        "metadata": {
+          "original": [
+            72,
+            70
+          ],
+          "offset": [
+            0,
+            -44
+          ],
+          "sourceOffset": 813705,
+          "sourceBytes": 4288,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            72,
+            70
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "7b614b05da0fa297fc464fb63c9f5c6573e4cfad041db54faaed99d7ef9df26a",
+          "page": 0,
+          "rect": [
+            887,
+            1,
+            72,
+            70
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          32,
+          60
+        ],
+        "mapanchor_to_draw": [
+          0,
+          -44
+        ],
+        "alpha_bbox_local": [
+          0,
+          0,
+          69,
+          70
+        ]
+      },
+      {
+        "id": 203,
+        "metadata": {
+          "original": [
+            72,
+            70
+          ],
+          "offset": [
+            -1,
+            -44
+          ],
+          "sourceOffset": 817997,
+          "sourceBytes": 4285,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            72,
+            70
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "4a30e82e7cc05295162f62a4dc9a7aa7aba20bfd51bd70bc6f9b0657208b4373",
+          "page": 0,
+          "rect": [
+            961,
+            1,
+            72,
+            70
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          31,
+          60
+        ],
+        "mapanchor_to_draw": [
+          -1,
+          -44
+        ],
+        "alpha_bbox_local": [
+          0,
+          0,
+          70,
+          70
+        ]
+      },
+      {
+        "id": 204,
+        "metadata": {
+          "original": [
+            72,
+            70
+          ],
+          "offset": [
+            -1,
+            -44
+          ],
+          "sourceOffset": 822286,
+          "sourceBytes": 4256,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            72,
+            70
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "372d31fa161bc53421f2273390437cb6f4a34f96ab7d9ea3545777b744493880",
+          "page": 0,
+          "rect": [
+            1035,
+            1,
+            72,
+            70
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          31,
+          60
+        ],
+        "mapanchor_to_draw": [
+          -1,
+          -44
+        ],
+        "alpha_bbox_local": [
+          0,
+          0,
+          71,
+          70
+        ]
+      }
+    ],
+    "adjacent_phase_rgba_changed": [
+      780,
+      813,
+      728,
+      873
+    ]
+  },
+  "frame_pins": [
+    {
+      "id": 201,
+      "png_sha256": "a0fe1ddbe19bf117660b2d2f077e8fb91ad42d279f033f73a3104b1636107e6c",
+      "RGBA_sha256": "de22db67e5566ea4d2127a9b430235074e34f90fa248167ddaa8681ea08ed4d7",
+      "offset": [
+        -1,
+        -44
+      ],
+      "size": [
+        72,
+        70
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "source_paste": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": 202,
+      "png_sha256": "bf6b7f8e0be3242cda5eb55a5a2ac6f76018da93e29d10294233c7d400c31571",
+      "RGBA_sha256": "7b614b05da0fa297fc464fb63c9f5c6573e4cfad041db54faaed99d7ef9df26a",
+      "offset": [
+        0,
+        -44
+      ],
+      "size": [
+        72,
+        70
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "source_paste": [
+        12,
+        12
+      ]
+    },
+    {
+      "id": 203,
+      "png_sha256": "9a4bbc72cda8e149a2b254f45a04698bc55bb66edf5e279a2e907eeddbfd9183",
+      "RGBA_sha256": "4a30e82e7cc05295162f62a4dc9a7aa7aba20bfd51bd70bc6f9b0657208b4373",
+      "offset": [
+        -1,
+        -44
+      ],
+      "size": [
+        72,
+        70
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "source_paste": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": 204,
+      "png_sha256": "54b78c289eb131a6a4238e3212639f0db8073f418f2de17c01254324d1145b18",
+      "RGBA_sha256": "372d31fa161bc53421f2273390437cb6f4a34f96ab7d9ea3545777b744493880",
+      "offset": [
+        -1,
+        -44
+      ],
+      "size": [
+        72,
+        70
+      ],
+      "crop": [
+        0,
+        0
+      ],
+      "source_paste": [
+        11,
+        12
+      ]
+    }
+  ],
+  "fixed_canvas": {
+    "logical": [
+      96,
+      96
+    ],
+    "anchor": [
+      12,
+      56
+    ],
+    "world_origin": [
+      1668,
+      1032
+    ]
+  },
+  "adjacent_fixed_world_differences": [
+    {
+      "pair": [
+        201,
+        202
+      ],
+      "fixed_world_RGBA_changed_visible": 780,
+      "changed_either_alpha128": 780,
+      "changed_bbox_square": [
+        11,
+        12,
+        80,
+        81
+      ]
+    },
+    {
+      "pair": [
+        202,
+        203
+      ],
+      "fixed_world_RGBA_changed_visible": 813,
+      "changed_either_alpha128": 813,
+      "changed_bbox_square": [
+        11,
+        12,
+        80,
+        78
+      ]
+    },
+    {
+      "pair": [
+        203,
+        204
+      ],
+      "fixed_world_RGBA_changed_visible": 728,
+      "changed_either_alpha128": 728,
+      "changed_bbox_square": [
+        11,
+        12,
+        82,
+        81
+      ]
+    },
+    {
+      "pair": [
+        204,
+        201
+      ],
+      "fixed_world_RGBA_changed_visible": 873,
+      "changed_either_alpha128": 873,
+      "changed_bbox_square": [
+        11,
+        12,
+        82,
+        80
+      ]
+    }
+  ],
+  "static": false,
+  "phase_ticks": 17,
+  "fps": 50,
+  "phase_seconds": 0.34,
+  "loop_seconds": 1.36,
+  "note": "All four PNG and RGBA differ;202 offset x differs by +1. Difference computed after original offsets on common world canvas, transparent RGB ignored when both alpha0."
+}

@@ -1,0 +1,35 @@
+{
+  "phase_order": [
+    201,
+    202,
+    203,
+    204
+  ],
+  "duration_ms_each": 340,
+  "loop_ms": 1360,
+  "labels": [
+    "201 selected",
+    "202 rigid",
+    "203 rigid",
+    "204 rigid"
+  ],
+  "alpha128_area_logical2": [
+    1320.6875,
+    1420.3125,
+    1419.375,
+    1399.5
+  ],
+  "adjacent_area_percent": [
+    7.543419620462832,
+    -0.06600660066006236,
+    -1.4002642007926003,
+    -5.631475526973917
+  ],
+  "inputs_sha256": {
+    "/workspace/scratch/22c897619190/recovery-work/zhang-design-input/translation-minus5-plus1/candidate201-translation-only-density4.png": "2b2069213836341aab4518728a27d4f472bae78591f5237c9bc19187c3c89597",
+    "/workspace/scratch/22c897619190/recovery-work/zhang-design-input/phase202-rigid-minus1p25-minus1/candidate202-rigid-density4.png": "0b3806e40761c2df55f1c745748a04a8577e80d5057366be06d374087bba9adb",
+    "/workspace/scratch/22c897619190/recovery-work/zhang-design-input/phase203-rigid-common-prediction/candidate203-rigid-density4.png": "8e4bcbc0b735139edb3f7c259daae78c81ff28c9556be5201149cf4ab79a22ab",
+    "/workspace/scratch/22c897619190/recovery-work/zhang-design-input/phase204-rigid-common-prediction/candidate204-rigid-density4.png": "274c6c40f26afff0d8bb2040e17ffbac28a69d1f183c2f3322ae1e4ce2e06d7a"
+  },
+  "scope": "CPU originalmap scene; no runtime,204 frozen shared rigid; no final motion pass"
+}
