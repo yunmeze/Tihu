@@ -1,0 +1,34 @@
+--- Project/scripts/core/dialogue_vm.gd
++++ owned/scripts/core/dialogue_vm.gd
+@@ -103,6 +103,18 @@
+ 			stack.clear()
+ 			active = true
+ 			continue
++		# Bounded A00 candidate only. Host must gate exact source identity and page.
++		# Events do not mutate currency/inventory and are unpublished until replayed.
++		if context.get("a00_trial_rewards", false):
++			if command == "CHANGE" and node.args.to_lower() == "money + 100":
++				result.events.append({"kind":"trial_money", "amount":100})
++				continue
++			if command == "GIVE":
++				var grants := {"金创药小 3":"0", "魔法药小 3":"5"}
++				if not grants.has(node.args):
++					return _failure("unsupported_trial_grant", "Only the two audited A5 grants are admitted.", node.line, page, result.steps)
++				result.events.append({"kind":"trial_give", "item_id":grants[node.args], "quantity":3})
++				continue
+ 		if command == "CHANGE":
+ 			var change := _expression(node.args, true)
+ 			if not change.ok:
+@@ -275,8 +287,10 @@
+ 	if typeof(context) != TYPE_DICTIONARY:
+ 		return "Context must be a Dictionary."
+ 	for key: Variant in context:
+-		if typeof(key) not in [TYPE_STRING, TYPE_STRING_NAME] or key not in ["rnd_values", "map_load"]:
+-			return "Unknown context key; supported keys are rnd_values and map_load."
++		if typeof(key) not in [TYPE_STRING, TYPE_STRING_NAME] or key not in ["rnd_values", "map_load", "a00_trial_rewards"]:
++			return "Unknown context key; supported keys are rnd_values, map_load, and a00_trial_rewards."
++	if context.has("a00_trial_rewards") and typeof(context.a00_trial_rewards) != TYPE_BOOL:
++		return "Context a00_trial_rewards must be a bool."
+ 	if context.has("map_load") and typeof(context.map_load) != TYPE_BOOL:
+ 		return "Context map_load must be a bool."
+ 	if context.has("rnd_values"):

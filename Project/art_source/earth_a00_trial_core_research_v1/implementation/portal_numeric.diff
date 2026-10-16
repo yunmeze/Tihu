@@ -1,0 +1,30 @@
+--- review-artifacts/core-before-portal-numeric.gd.txt
++++ owned/scripts/core/a00_trial_core.gd
+@@ -67,7 +67,7 @@
+   if not counter(intent.portal_index) or intent.portal_index >= HOUSE_PORTALS.size(): return fail("unsupported_portal")
+   var portal: Dictionary = inputs.source.portals[int(intent.portal_index)]
+   var exact: Array = HOUSE_PORTALS[int(intent.portal_index)]
+-  if [portal.x,portal.y,portal.targetX,portal.targetY] != exact or portal.target!="当前地图": return fail("portal_identity_mismatch")
++  if not portal_record_valid(portal,intent.portal_index): return fail("portal_identity_mismatch")
+   # Strict R2 adapter threshold, not an assertion about the original EXE radius.
+   if Vector2(context.actor.position[0],context.actor.position[1]).distance_to(Vector2(exact[0],exact[1])) >= 0.25: return fail("outside_portal_trigger")
+   if Bridge.blocked(context.map,exact[2],exact[3]): return fail("blocked_portal_destination")
+@@ -265,6 +265,18 @@
+   if typeof(value) not in [TYPE_INT,TYPE_FLOAT] or not is_finite(float(value)) or value<0 or value>149: return false
+  return typeof(actor.random_cursor)==TYPE_INT and actor.random_cursor>=0 and actor.random_cursor<=2147483647
+ 
++## Original JSON may materialize exact integers as float Variants. Validate each
++## field without array type-equality, truncation, tolerance or string coercion.
++static func portal_record_valid(record: Variant, source_index: Variant) -> bool:
++ if typeof(source_index)!=TYPE_INT or source_index<0 or source_index>=HOUSE_PORTALS.size(): return false
++ if not shape(record,["x","y","targetX","targetY","target"]): return false
++ if typeof(record.target)!=TYPE_STRING or record.target!="当前地图": return false
++ var exact: Array = HOUSE_PORTALS[source_index]
++ var fields := ["x","y","targetX","targetY"]
++ for i in fields.size():
++  if not numeric(record[fields[i]],exact[i],exact[i]): return false
++ return true
++
+ static func npc_valid(record: Dictionary, source_index: int) -> bool:
+  if not Identity.record_valid(record) or not NPCS.has(source_index): return false
+  var expected: Dictionary = NPCS[source_index]

@@ -1,0 +1,4044 @@
+{
+ "schema": "a00-next-stage-source-index-v1",
+ "created_utc": "2026-10-16T17:49:28.741561+00:00",
+ "repository_root": "/workspace/scratch/22c897619190/tihu-legend",
+ "inspected_git_head": "0e1320a3849dfd5a7828232d003308a83495c7a4",
+ "task_scope": "Read-only investigation, followed by explicit permission to create only this two-file deliverable. No Project/source edits, engine runs, image generation, source copies or Git publication.",
+ "offset_convention": "Zero-based half-open byte spans. Script span includes 4-byte encoded length unless payload_span is specified. UTF-8 script hash is of decoded text retaining CRLF.",
+ "tiers": {
+  "original_bytes": "Direct decoding of supplied base-game source bytes. Interpretation of execution behavior may still be unknown.",
+  "derived_extraction": "Current checked-in extraction; relevant original map fields were redecoded and compared.",
+  "current_implementation": "Current Project code describes present capability, not original behavior or a new runtime test.",
+  "local_web_reference": "Local checked-in web reference implementation; fallback implementation evidence only. No live internet lookup.",
+  "separate_module_bytes": "Independent bundled module, not part of the base campaign table contract.",
+  "extraction_method": "Read-only decoder/parser used for this investigation.",
+  "derived_asset_manifest": "Extracted original imagery and hashes; file integrity verification only."
+ },
+ "sources": [
+  {
+   "path": "原版游戏/Data/Map/A13.lpMap",
+   "tier": "original_bytes",
+   "sha256": "e1cc7189fc96e04312b935422ec511a078b1fbe6259b97b9e3c279732becb3e3",
+   "bytes": 90394
+  },
+  {
+   "path": "原版游戏/Data/Map/A00.lpMap",
+   "tier": "original_bytes",
+   "sha256": "906f33edb6d0c7181629ba37296829a6b8adaf9cde2637ffc4c2530e2c5c352f",
+   "bytes": 188772
+  },
+  {
+   "path": "原版游戏/Data/Map/A01.lpMap",
+   "tier": "original_bytes",
+   "sha256": "6e38d97077f363e77079a6845460a57c791402ddc54d675c8c6cdb6a4ad9369d",
+   "bytes": 180891
+  },
+  {
+   "path": "原版游戏/Data/Map/A02.lpMap",
+   "tier": "original_bytes",
+   "sha256": "5c09201febc7b072874c23d611e0d2080993fb340a1f3f429a8b9ead2eb35798",
+   "bytes": 181290
+  },
+  {
+   "path": "原版游戏/Data/Map/A03.lpMap",
+   "tier": "original_bytes",
+   "sha256": "166086d310c454175f19892fcd8c0a35d45d75c432fadb6b7e8288370ff66997",
+   "bytes": 180877
+  },
+  {
+   "path": "原版游戏/Data/Map/A04.lpMap",
+   "tier": "original_bytes",
+   "sha256": "8d618045be8a45c3fb4ed56f9df173934aa45e8a2451ed08f962e48e56627944",
+   "bytes": 181895
+  },
+  {
+   "path": "原版游戏/Data/Map/B01.lpMap",
+   "tier": "original_bytes",
+   "sha256": "ba75ab0dec17c77cfe6942046e7a795110d501c00d08588fa39ba9dc5977ebcb",
+   "bytes": 181244
+  },
+  {
+   "path": "原版游戏/Data/Map/B00.lpMap",
+   "tier": "original_bytes",
+   "sha256": "be1ae8dfd8fb2456ac26e42c96768583738546b0c1d1c13fbdd3eee4b39c98c3",
+   "bytes": 118342
+  },
+  {
+   "path": "原版游戏/Data/Mon/0.lpRes",
+   "tier": "original_bytes",
+   "sha256": "2fd91480187c441a914cf51916203db65342af385a984f2d6f10fdac97ce73b2",
+   "bytes": 139673
+  },
+  {
+   "path": "原版游戏/Data/Item0.lpRes",
+   "tier": "original_bytes",
+   "sha256": "1b19b738c9c66492aa1aaee0c5218d84e0f67a567de9391794edc9fd75f260fe",
+   "bytes": 69074
+  },
+  {
+   "path": "原版游戏/Mstm.dat",
+   "tier": "original_bytes",
+   "sha256": "e854389c55979659748320cd7c96827b2741b6165116f000a46324f51656a58c",
+   "bytes": 1851
+  },
+  {
+   "path": "Project/data/maps/A00.json",
+   "tier": "derived_extraction",
+   "sha256": "0f921a2714cab0a29383a8a25631b515b2de98fa38c02ed4701f0a19d3355868",
+   "bytes": 1377296
+  },
+  {
+   "path": "Project/data/maps/A00-entities.json",
+   "tier": "derived_extraction",
+   "sha256": "73ea3f80135fc58cacd0f910f466ca63e2f489c0681bcc1d878814dffd78fa8a",
+   "bytes": 23963
+  },
+  {
+   "path": "Project/data/maps/A01.json",
+   "tier": "derived_extraction",
+   "sha256": "b36adeead3d3e868075e609622e8e6dde3975bb93ec8b4929fa7dad8359f3c95",
+   "bytes": 1373520
+  },
+  {
+   "path": "Project/data/maps/A01-entities.json",
+   "tier": "derived_extraction",
+   "sha256": "7d3365b4094c329fa07665d7074dd25d31358353f8abc66b694b24b0b0bd6bb6",
+   "bytes": 8073
+  },
+  {
+   "path": "Project/data/maps/A02.json",
+   "tier": "derived_extraction",
+   "sha256": "5bee9e9cd7e800b75eccd63b7dd5a907a17c620fdcab90266043ea12116cabc1",
+   "bytes": 1372084
+  },
+  {
+   "path": "Project/data/maps/A02-entities.json",
+   "tier": "derived_extraction",
+   "sha256": "227337c9e825e078dd98bb87dfbc375f3d548f1b64a4d1a738e6e39ffd03bc3b",
+   "bytes": 9934
+  },
+  {
+   "path": "Project/data/maps/A13.json",
+   "tier": "derived_extraction",
+   "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+   "bytes": 618373
+  },
+  {
+   "path": "Project/data/monsters/definitions.json",
+   "tier": "derived_extraction",
+   "sha256": "ad4dcfde74ecb2dba6b97298b3c0b5cd1fe3c8fd0e2437e2a35999e27d1e8150",
+   "bytes": 6134824
+  },
+  {
+   "path": "Project/data/items/catalogue.json",
+   "tier": "derived_extraction",
+   "sha256": "284d0946ce9c9dda164472397c42fdd5207a0723abd2f9afac702de5ab8adf57",
+   "bytes": 7159031
+  },
+  {
+   "path": "Project/data/items/catalogue-adapter.json",
+   "tier": "derived_extraction",
+   "sha256": "7a01c4e302b3db1a847ea57c4661dad31664dd0ef0c45af77f2c9be234b0cad5",
+   "bytes": 2526
+  },
+  {
+   "path": "Project/scripts/new_game_candidate.gd",
+   "tier": "current_implementation",
+   "sha256": "edeaac7690d891931f10a59c018ff47af32e7f5599a51c25342f07ff760ce846",
+   "bytes": 17367
+  },
+  {
+   "path": "Project/scripts/earth/new_game_snapshot_controller.gd",
+   "tier": "current_implementation",
+   "sha256": "673cda5f9b09781934944e5ade6afeb56b4fb2faa1783f9f7f92283780f8f7ac",
+   "bytes": 3618
+  },
+  {
+   "path": "Project/scripts/core/dialogue_vm.gd",
+   "tier": "current_implementation",
+   "sha256": "460b7dcb9363f99222a8840a173aa1051ac01c15f1c5827d988a3bee80ef53e8",
+   "bytes": 19613
+  },
+  {
+   "path": "Project/scripts/core/default_warrior.gd",
+   "tier": "current_implementation",
+   "sha256": "3ee70156411aa51053469b659569f6ebbab20cf0aa758959b7f712390a215722",
+   "bytes": 12581
+  },
+  {
+   "path": "Project/scripts/core/map_load_bridge.gd",
+   "tier": "current_implementation",
+   "sha256": "769e7342fea2acbd70a2cb625cda4d7ae99143924beaad50da14b08f9fff366f",
+   "bytes": 9421
+  },
+  {
+   "path": "Project/scripts/core/inventory_state.gd",
+   "tier": "current_implementation",
+   "sha256": "b717d98ea82d9f7e623fddd60fb7b4c2d0a2153583446fb1a4a42d7fcdc2705a",
+   "bytes": 22788
+  },
+  {
+   "path": "Project/scripts/portal_preview.gd",
+   "tier": "current_implementation",
+   "sha256": "967457fa7693497ef54c4b3627ca8b3f5b85a87117f2df47aad06812f8a4344f",
+   "bytes": 1458
+  },
+  {
+   "path": "Project/tools/lp_original.py",
+   "tier": "extraction_method",
+   "sha256": "c3471a8fda23ebbb079d2b0794c308af706a12fa77277447197f332efda86795",
+   "bytes": 4978
+  },
+  {
+   "path": "Project/tools/extract_a13_original.py",
+   "tier": "extraction_method",
+   "sha256": "a5f7bb74feb201382ad912ce4eefeff5c2f7c69817d2995b6b0c30dda3f03b86",
+   "bytes": 8124
+  },
+  {
+   "path": "Project/tools/extract_original_monster_pilot.py",
+   "tier": "extraction_method",
+   "sha256": "bea28812ab710fee76d92e8ea542aeabcbe189a070eda31dc9ce010e5af2f987",
+   "bytes": 8244
+  },
+  {
+   "path": "参考项目/src/combat.js",
+   "tier": "local_web_reference",
+   "sha256": "84900d18584c088164e389040cfce47f9b389543406074746066fb6b91dae7e9",
+   "bytes": 32546,
+   "note": "Checked-in reference implementation; not evidence of original executable semantics."
+  },
+  {
+   "path": "参考项目/src/game.js",
+   "tier": "local_web_reference",
+   "sha256": "04c7c32827e205f39dba7c0091ba96ebcd14e19f4ed841a8c347bdd2e9788577",
+   "bytes": 67344,
+   "note": "Checked-in reference implementation; not evidence of original executable semantics."
+  },
+  {
+   "path": "参考项目/src/main-quest.js",
+   "tier": "local_web_reference",
+   "sha256": "c2a28f21cb5e2bb83d88e823eb661df3a5a3d626dc8885fab4e37e0579c344a3",
+   "bytes": 2040,
+   "note": "Checked-in reference implementation; not evidence of original executable semantics."
+  },
+  {
+   "path": "参考项目/tools/extract-lp.py",
+   "tier": "local_web_reference",
+   "sha256": "8e12bfebe9a8b026011275d84a2b06e8bb8ed255c25fadce7000654f8e065cd4",
+   "bytes": 14984,
+   "note": "Checked-in reference implementation; not evidence of original executable semantics."
+  },
+  {
+   "path": "原版游戏/Module/Project/883999044266/Mon.lpRes",
+   "tier": "separate_module_bytes",
+   "sha256": "e2d2c6448490ade723b451bc9c8095b7491952ae38082eb724fbaf730660c2f7",
+   "bytes": 40856,
+   "note": "Different bundled module; not a replacement table for the base 28-stage campaign."
+  },
+  {
+   "path": "原版游戏/Module/Project/883999044266/Map/A01.lpMap",
+   "tier": "separate_module_bytes",
+   "sha256": "67110c4fc933b5954ff76e8b9926e76788e0d20358555435b0df14b7262de99d",
+   "bytes": 81427,
+   "note": "Different bundled module; not a replacement table for the base 28-stage campaign."
+  },
+  {
+   "path": "原版游戏/Module/Project/883999044266/Mstm.Dat",
+   "tier": "separate_module_bytes",
+   "sha256": "52dd3a3af7217b5dab1735eedce32046c5944a697c55ae40190b180df2aa1f39",
+   "bytes": 617,
+   "note": "Different bundled module; not a replacement table for the base 28-stage campaign."
+  },
+  {
+   "path": "Project/assets/original/maps/A00/manifest.json",
+   "tier": "derived_asset_manifest",
+   "sha256": "f80e4a7e9c22be64b10ebfb395a88bec9adf42d5bd4136f509077665cea9811c",
+   "bytes": 652817
+  },
+  {
+   "path": "Project/assets/original/maps/A01/manifest.json",
+   "tier": "derived_asset_manifest",
+   "sha256": "33f582c914ae7aab5ccea6d06c6f136629086d695171e7238e7feebb039a000c",
+   "bytes": 662829
+  },
+  {
+   "path": "Project/assets/original/maps/A02/manifest.json",
+   "tier": "derived_asset_manifest",
+   "sha256": "8f878ca4bc6c38954a6bfc87aa5394ab78730a9bcc64aff2bd0780a27057da3f",
+   "bytes": 660002
+  }
+ ],
+ "maps": {
+  "A13": {
+   "path": "原版游戏/Data/Map/A13.lpMap",
+   "name": "三清观",
+   "dimensions": [
+    100,
+    100
+   ],
+   "home": [
+    0,
+    0
+   ],
+   "cell_order": "x-major",
+   "spawn_count": 0,
+   "npc_count": 11,
+   "portal_count": 9,
+   "uninterpreted_tail_bytes": 68,
+   "parsed_end": 90326,
+   "portal_groups": [
+    {
+     "target": "A12 明阳山顶",
+     "landing": [
+      109,
+      38
+     ],
+     "source_cells": [
+      [
+       25,
+       69
+      ],
+      [
+       26,
+       69
+      ],
+      [
+       26,
+       70
+      ],
+      [
+       27,
+       70
+      ],
+      [
+       27,
+       71
+      ],
+      [
+       28,
+       71
+      ],
+      [
+       28,
+       72
+      ]
+     ]
+    },
+    {
+     "target": "A14 玄冥修炼室",
+     "landing": [
+      159,
+      160
+     ],
+     "source_cells": [
+      [
+       80,
+       23
+      ],
+      [
+       79,
+       23
+      ]
+     ]
+    }
+   ],
+   "portal_records": [
+    {
+     "record_index": 0,
+     "span": [
+      80030,
+      80054
+     ],
+     "cell": [
+      25,
+      69
+     ],
+     "landing": [
+      109,
+      38
+     ],
+     "target": "A12 明阳山顶"
+    },
+    {
+     "record_index": 1,
+     "span": [
+      80054,
+      80078
+     ],
+     "cell": [
+      26,
+      69
+     ],
+     "landing": [
+      109,
+      38
+     ],
+     "target": "A12 明阳山顶"
+    },
+    {
+     "record_index": 2,
+     "span": [
+      80078,
+      80102
+     ],
+     "cell": [
+      26,
+      70
+     ],
+     "landing": [
+      109,
+      38
+     ],
+     "target": "A12 明阳山顶"
+    },
+    {
+     "record_index": 3,
+     "span": [
+      80102,
+      80126
+     ],
+     "cell": [
+      27,
+      70
+     ],
+     "landing": [
+      109,
+      38
+     ],
+     "target": "A12 明阳山顶"
+    },
+    {
+     "record_index": 4,
+     "span": [
+      80126,
+      80150
+     ],
+     "cell": [
+      27,
+      71
+     ],
+     "landing": [
+      109,
+      38
+     ],
+     "target": "A12 明阳山顶"
+    },
+    {
+     "record_index": 5,
+     "span": [
+      80150,
+      80174
+     ],
+     "cell": [
+      28,
+      71
+     ],
+     "landing": [
+      109,
+      38
+     ],
+     "target": "A12 明阳山顶"
+    },
+    {
+     "record_index": 6,
+     "span": [
+      80174,
+      80198
+     ],
+     "cell": [
+      28,
+      72
+     ],
+     "landing": [
+      109,
+      38
+     ],
+     "target": "A12 明阳山顶"
+    },
+    {
+     "record_index": 7,
+     "span": [
+      80198,
+      80224
+     ],
+     "cell": [
+      80,
+      23
+     ],
+     "landing": [
+      159,
+      160
+     ],
+     "target": "A14 玄冥修炼室"
+    },
+    {
+     "record_index": 8,
+     "span": [
+      80224,
+      80250
+     ],
+     "cell": [
+      79,
+      23
+     ],
+     "landing": [
+      159,
+      160
+     ],
+     "target": "A14 玄冥修炼室"
+    }
+   ],
+   "selected_npcs": [
+    {
+     "record_index": 0,
+     "name": "方丈",
+     "cell": [
+      64,
+      37
+     ],
+     "appearance": 21,
+     "direction": 2,
+     "frame_indices": [
+      261,
+      262,
+      263,
+      264
+     ],
+     "record_span": [
+      80252,
+      81650
+     ],
+     "script_length_field_offset": 80268,
+     "script_payload_span": [
+      80272,
+      81650
+     ],
+     "script_sha256_utf8": "f8e05ab88ed46e2ea374fb5428fd26936aff70e0ff22c5a5bb1fa061279f38ba"
+    },
+    {
+     "record_index": 1,
+     "name": "凌云子",
+     "cell": [
+      62,
+      36
+     ],
+     "appearance": 9,
+     "direction": 1,
+     "frame_indices": [
+      113,
+      114,
+      115,
+      116
+     ],
+     "record_span": [
+      81650,
+      82592
+     ],
+     "script_length_field_offset": 81668,
+     "script_payload_span": [
+      81672,
+      82592
+     ],
+     "script_sha256_utf8": "6145ef6a2002aeeca2834face8967d41ff5b298de3b205162ca1859780df46c2"
+    }
+   ],
+   "load_script": {
+    "span": [
+     89814,
+     90326
+    ],
+    "payload_span": [
+     89818,
+     90326
+    ],
+    "sha256_utf8": "7359866fadd579b6dd92ee74d672f65c7d1065c4f67b9a007edb8053b50734f8",
+    "text": "#if rnd < 5\r\n#addmon 49 53 彩蛋鸡\r\n#endif\r\n\r\n#if et0 = 1\r\n#stop\r\n#endif\r\n\r\n#if et0 = 28\r\n#move 61 39\r\n#stop\r\n#endif\r\n\r\n#if et0 > 2\r\n#if et0 < 28\r\n#delnpc 62 36\r\n#endif\r\n#endif\r\n\r\n#if et9 = 1\r\n#delnpc 78 23\r\n#setmapflag 78 22 0\r\n#setmapflag 77 24 0\r\n#setmapflag 77 25 0\r\n#setmapflag 78 25 0\r\n#setmapflag 79 25 0\r\n#setmapflag 80 25 0\r\n#setmapflag 77 23 0\r\n#setmapflag 77 22 0\r\n#endif\r\n\r\n#if level < 79\r\n#delnpc 61 70\r\n#endif\r\n\r\n#if 通关次数 = 0\r\n#delnpc 61 70\r\n#endif\r\n\r\n#if 游戏模式 = 0\r\n#delnpc 61 70\r\n#endif"
+   },
+   "project_extraction_redecode_equal": true,
+   "compared_keys": [
+    "schema",
+    "id",
+    "name",
+    "home",
+    "width",
+    "height",
+    "cells",
+    "cellOrder",
+    "cellFields",
+    "cellByteOffsets",
+    "gridOffset",
+    "tailOffset",
+    "spawns",
+    "portals",
+    "npcs",
+    "loadScript",
+    "unmappedTail",
+    "source",
+    "sourceSha256",
+    "sourceBytes",
+    "parsedBytes",
+    "tile_size"
+   ],
+   "boss_spawns": []
+  },
+  "A00": {
+   "path": "原版游戏/Data/Map/A00.lpMap",
+   "name": "海曦村",
+   "dimensions": [
+    150,
+    150
+   ],
+   "home": [
+    86,
+    52
+   ],
+   "cell_order": "x-major",
+   "spawn_count": 25,
+   "npc_count": 16,
+   "portal_count": 19,
+   "uninterpreted_tail_bytes": 68,
+   "parsed_end": 188704,
+   "portal_groups": [
+    {
+     "target": "当前地图",
+     "landing": [
+      64,
+      72
+     ],
+     "source_cells": [
+      [
+       135,
+       15
+      ],
+      [
+       135,
+       16
+      ]
+     ]
+    },
+    {
+     "target": "当前地图",
+     "landing": [
+      136,
+      15
+     ],
+     "source_cells": [
+      [
+       63,
+       71
+      ],
+      [
+       64,
+       71
+      ]
+     ]
+    },
+    {
+     "target": "A01 海曦村北",
+     "landing": [
+      51,
+      111
+     ],
+     "source_cells": [
+      [
+       61,
+       36
+      ],
+      [
+       61,
+       37
+      ],
+      [
+       62,
+       37
+      ],
+      [
+       62,
+       38
+      ],
+      [
+       63,
+       38
+      ],
+      [
+       63,
+       39
+      ],
+      [
+       64,
+       39
+      ],
+      [
+       64,
+       40
+      ],
+      [
+       65,
+       40
+      ]
+     ]
+    },
+    {
+     "target": "A03 海曦村南",
+     "landing": [
+      18,
+      21
+     ],
+     "source_cells": [
+      [
+       115,
+       97
+      ],
+      [
+       115,
+       98
+      ],
+      [
+       114,
+       98
+      ],
+      [
+       114,
+       99
+      ],
+      [
+       113,
+       99
+      ],
+      [
+       113,
+       100
+      ]
+     ]
+    }
+   ],
+   "portal_records": [
+    {
+     "record_index": 0,
+     "span": [
+      180200,
+      180220
+     ],
+     "cell": [
+      135,
+      15
+     ],
+     "landing": [
+      64,
+      72
+     ],
+     "target": "当前地图"
+    },
+    {
+     "record_index": 1,
+     "span": [
+      180220,
+      180240
+     ],
+     "cell": [
+      135,
+      16
+     ],
+     "landing": [
+      64,
+      72
+     ],
+     "target": "当前地图"
+    },
+    {
+     "record_index": 2,
+     "span": [
+      180240,
+      180260
+     ],
+     "cell": [
+      63,
+      71
+     ],
+     "landing": [
+      136,
+      15
+     ],
+     "target": "当前地图"
+    },
+    {
+     "record_index": 3,
+     "span": [
+      180260,
+      180280
+     ],
+     "cell": [
+      64,
+      71
+     ],
+     "landing": [
+      136,
+      15
+     ],
+     "target": "当前地图"
+    },
+    {
+     "record_index": 4,
+     "span": [
+      180280,
+      180304
+     ],
+     "cell": [
+      61,
+      36
+     ],
+     "landing": [
+      51,
+      111
+     ],
+     "target": "A01 海曦村北"
+    },
+    {
+     "record_index": 5,
+     "span": [
+      180304,
+      180328
+     ],
+     "cell": [
+      61,
+      37
+     ],
+     "landing": [
+      51,
+      111
+     ],
+     "target": "A01 海曦村北"
+    },
+    {
+     "record_index": 6,
+     "span": [
+      180328,
+      180352
+     ],
+     "cell": [
+      62,
+      37
+     ],
+     "landing": [
+      51,
+      111
+     ],
+     "target": "A01 海曦村北"
+    },
+    {
+     "record_index": 7,
+     "span": [
+      180352,
+      180376
+     ],
+     "cell": [
+      62,
+      38
+     ],
+     "landing": [
+      51,
+      111
+     ],
+     "target": "A01 海曦村北"
+    },
+    {
+     "record_index": 8,
+     "span": [
+      180376,
+      180400
+     ],
+     "cell": [
+      63,
+      38
+     ],
+     "landing": [
+      51,
+      111
+     ],
+     "target": "A01 海曦村北"
+    },
+    {
+     "record_index": 9,
+     "span": [
+      180400,
+      180424
+     ],
+     "cell": [
+      63,
+      39
+     ],
+     "landing": [
+      51,
+      111
+     ],
+     "target": "A01 海曦村北"
+    },
+    {
+     "record_index": 10,
+     "span": [
+      180424,
+      180448
+     ],
+     "cell": [
+      64,
+      39
+     ],
+     "landing": [
+      51,
+      111
+     ],
+     "target": "A01 海曦村北"
+    },
+    {
+     "record_index": 11,
+     "span": [
+      180448,
+      180472
+     ],
+     "cell": [
+      64,
+      40
+     ],
+     "landing": [
+      51,
+      111
+     ],
+     "target": "A01 海曦村北"
+    },
+    {
+     "record_index": 12,
+     "span": [
+      180472,
+      180496
+     ],
+     "cell": [
+      65,
+      40
+     ],
+     "landing": [
+      51,
+      111
+     ],
+     "target": "A01 海曦村北"
+    },
+    {
+     "record_index": 13,
+     "span": [
+      180496,
+      180520
+     ],
+     "cell": [
+      115,
+      97
+     ],
+     "landing": [
+      18,
+      21
+     ],
+     "target": "A03 海曦村南"
+    },
+    {
+     "record_index": 14,
+     "span": [
+      180520,
+      180544
+     ],
+     "cell": [
+      115,
+      98
+     ],
+     "landing": [
+      18,
+      21
+     ],
+     "target": "A03 海曦村南"
+    },
+    {
+     "record_index": 15,
+     "span": [
+      180544,
+      180568
+     ],
+     "cell": [
+      114,
+      98
+     ],
+     "landing": [
+      18,
+      21
+     ],
+     "target": "A03 海曦村南"
+    },
+    {
+     "record_index": 16,
+     "span": [
+      180568,
+      180592
+     ],
+     "cell": [
+      114,
+      99
+     ],
+     "landing": [
+      18,
+      21
+     ],
+     "target": "A03 海曦村南"
+    },
+    {
+     "record_index": 17,
+     "span": [
+      180592,
+      180616
+     ],
+     "cell": [
+      113,
+      99
+     ],
+     "landing": [
+      18,
+      21
+     ],
+     "target": "A03 海曦村南"
+    },
+    {
+     "record_index": 18,
+     "span": [
+      180616,
+      180640
+     ],
+     "cell": [
+      113,
+      100
+     ],
+     "landing": [
+      18,
+      21
+     ],
+     "target": "A03 海曦村南"
+    }
+   ],
+   "selected_npcs": [
+    {
+     "record_index": 1,
+     "name": "海曦村长",
+     "cell": [
+      75,
+      54
+     ],
+     "appearance": 10,
+     "direction": 1,
+     "frame_indices": [
+      125,
+      126,
+      127,
+      128
+     ],
+     "record_span": [
+      180728,
+      182645
+     ],
+     "script_length_field_offset": 180748,
+     "script_payload_span": [
+      180752,
+      182645
+     ],
+     "script_sha256_utf8": "5d878f446b2d326b0b5a094cbf0e0fd48b6a63408bef35481374f76a6e4d5bd4"
+    },
+    {
+     "record_index": 2,
+     "name": "秀梅",
+     "cell": [
+      71,
+      57
+     ],
+     "appearance": 8,
+     "direction": 0,
+     "frame_indices": [
+      97,
+      98,
+      99,
+      100
+     ],
+     "record_span": [
+      182645,
+      182805
+     ],
+     "script_length_field_offset": 182661,
+     "script_payload_span": [
+      182665,
+      182805
+     ],
+     "script_sha256_utf8": "34e302d17c791c96a05f2d420ddab13daa5088d31d2a7507bab1436776373843"
+    },
+    {
+     "record_index": 3,
+     "name": "妈妈",
+     "cell": [
+      67,
+      75
+     ],
+     "appearance": 6,
+     "direction": 1,
+     "frame_indices": [
+      77,
+      78,
+      79,
+      80
+     ],
+     "record_span": [
+      182805,
+      184470
+     ],
+     "script_length_field_offset": 182821,
+     "script_payload_span": [
+      182825,
+      184470
+     ],
+     "script_sha256_utf8": "767959faa11f8e080b5a9b75ebfa606416e7632822ccd3a2268c1bae71146879"
+    },
+    {
+     "record_index": 5,
+     "name": "村民",
+     "cell": [
+      35,
+      58
+     ],
+     "appearance": 4,
+     "direction": 0,
+     "frame_indices": [
+      49,
+      50,
+      51,
+      52
+     ],
+     "record_span": [
+      185327,
+      185494
+     ],
+     "script_length_field_offset": 185343,
+     "script_payload_span": [
+      185347,
+      185494
+     ],
+     "script_sha256_utf8": "f5f7b9c9d7e5ea868ed39c13cb430211aadc9d045582894a65b03b632735b212"
+    },
+    {
+     "record_index": 6,
+     "name": "村大夫",
+     "cell": [
+      93,
+      59
+     ],
+     "appearance": 2,
+     "direction": 2,
+     "frame_indices": [
+      33,
+      34,
+      35,
+      36
+     ],
+     "record_span": [
+      185494,
+      186532
+     ],
+     "script_length_field_offset": 185512,
+     "script_payload_span": [
+      185516,
+      186532
+     ],
+     "script_sha256_utf8": "56ea9c4380ef66be03812405dde54160e495701652be1d3b2874789948aeaa92"
+    },
+    {
+     "record_index": 11,
+     "name": "村民",
+     "cell": [
+      115,
+      92
+     ],
+     "appearance": 4,
+     "direction": 2,
+     "frame_indices": [
+      57,
+      58,
+      59,
+      60
+     ],
+     "record_span": [
+      187196,
+      187363
+     ],
+     "script_length_field_offset": 187212,
+     "script_payload_span": [
+      187216,
+      187363
+     ],
+     "script_sha256_utf8": "02156be3bd835cdc0de1f484f8b079524209dc56d83846bd56c251c0fd9b2c94"
+    },
+    {
+     "record_index": 15,
+     "name": "老药师",
+     "cell": [
+      94,
+      60
+     ],
+     "appearance": 2,
+     "direction": 2,
+     "frame_indices": [
+      33,
+      34,
+      35,
+      36
+     ],
+     "record_span": [
+      187714,
+      188216
+     ],
+     "script_length_field_offset": 187732,
+     "script_payload_span": [
+      187736,
+      188216
+     ],
+     "script_sha256_utf8": "680157d5153358b0422142f97f641a0316ea0f4fbe41895629c2f04ff2266146"
+    }
+   ],
+   "load_script": {
+    "span": [
+     188216,
+     188704
+    ],
+    "payload_span": [
+     188220,
+     188704
+    ],
+    "sha256_utf8": "c549d2a2245832c0d1800c7402d65de81777d55f326614f9f0fe2368e718f35c",
+    "text": "#if et0 < 3\r\n#change et0 = 3\r\n#endif\r\n\r\n#if et0 > 3\r\n#SETMAPFLAG 37 55 0\r\n#SETMAPFLAG 37 56 0\r\n#SETMAPFLAG 38 56 0\r\n#SETMAPFLAG 38 57 0\r\n#SETMAPFLAG 39 57 0\r\n#SETMAPFLAG 39 58 0\r\n#SETMAPFLAG 40 58 0\r\n#SETMAPFLAG 40 59 0\r\n#SETMAPFLAG 41 59 0\r\n#endif\r\n\r\n#if et0 > 5\r\n#SETMAPFLAG 114 96 0\r\n#SETMAPFLAG 114 97 0\r\n#SETMAPFLAG 113 97 0\r\n#SETMAPFLAG 113 98 0\r\n#SETMAPFLAG 112 98 0\r\n#SETMAPFLAG 112 99 0\r\n#endif\r\n\r\n#if 通关次数 = 0\r\n#delnpc 94 60\r\n#endif\r\n\r\n#if et7 > 0\r\n#delnpc 94 60\r\n#endif"
+   },
+   "project_extraction_redecode_equal": true,
+   "compared_keys": [
+    "schema",
+    "id",
+    "name",
+    "home",
+    "width",
+    "height",
+    "cells",
+    "cellOrder",
+    "cellFields",
+    "cellByteOffsets",
+    "gridOffset",
+    "tailOffset",
+    "spawns",
+    "portals",
+    "npcs",
+    "loadScript",
+    "unmappedTail",
+    "source",
+    "sourceSha256",
+    "sourceBytes",
+    "parsedBytes",
+    "tile_size"
+   ],
+   "boss_spawns": []
+  },
+  "A01": {
+   "path": "原版游戏/Data/Map/A01.lpMap",
+   "name": "海曦村北",
+   "dimensions": [
+    150,
+    150
+   ],
+   "home": [
+    0,
+    0
+   ],
+   "cell_order": "x-major",
+   "spawn_count": 48,
+   "npc_count": 0,
+   "portal_count": 16,
+   "uninterpreted_tail_bytes": 68,
+   "parsed_end": 180823,
+   "portal_groups": [
+    {
+     "target": "A00 海曦村",
+     "landing": [
+      61,
+      39
+     ],
+     "source_cells": [
+      [
+       48,
+       110
+      ],
+      [
+       48,
+       111
+      ],
+      [
+       49,
+       111
+      ],
+      [
+       49,
+       112
+      ],
+      [
+       50,
+       112
+      ],
+      [
+       50,
+       113
+      ],
+      [
+       51,
+       113
+      ],
+      [
+       51,
+       114
+      ],
+      [
+       52,
+       114
+      ]
+     ]
+    },
+    {
+     "target": "A02 树林深处",
+     "landing": [
+      110,
+      111
+     ],
+     "source_cells": [
+      [
+       55,
+       21
+      ],
+      [
+       55,
+       22
+      ],
+      [
+       54,
+       22
+      ],
+      [
+       54,
+       23
+      ],
+      [
+       53,
+       23
+      ],
+      [
+       53,
+       24
+      ],
+      [
+       52,
+       24
+      ]
+     ]
+    }
+   ],
+   "portal_records": [
+    {
+     "record_index": 0,
+     "span": [
+      180397,
+      180419
+     ],
+     "cell": [
+      48,
+      110
+     ],
+     "landing": [
+      61,
+      39
+     ],
+     "target": "A00 海曦村"
+    },
+    {
+     "record_index": 1,
+     "span": [
+      180419,
+      180441
+     ],
+     "cell": [
+      48,
+      111
+     ],
+     "landing": [
+      61,
+      39
+     ],
+     "target": "A00 海曦村"
+    },
+    {
+     "record_index": 2,
+     "span": [
+      180441,
+      180463
+     ],
+     "cell": [
+      49,
+      111
+     ],
+     "landing": [
+      61,
+      39
+     ],
+     "target": "A00 海曦村"
+    },
+    {
+     "record_index": 3,
+     "span": [
+      180463,
+      180485
+     ],
+     "cell": [
+      49,
+      112
+     ],
+     "landing": [
+      61,
+      39
+     ],
+     "target": "A00 海曦村"
+    },
+    {
+     "record_index": 4,
+     "span": [
+      180485,
+      180507
+     ],
+     "cell": [
+      50,
+      112
+     ],
+     "landing": [
+      61,
+      39
+     ],
+     "target": "A00 海曦村"
+    },
+    {
+     "record_index": 5,
+     "span": [
+      180507,
+      180529
+     ],
+     "cell": [
+      50,
+      113
+     ],
+     "landing": [
+      61,
+      39
+     ],
+     "target": "A00 海曦村"
+    },
+    {
+     "record_index": 6,
+     "span": [
+      180529,
+      180551
+     ],
+     "cell": [
+      51,
+      113
+     ],
+     "landing": [
+      61,
+      39
+     ],
+     "target": "A00 海曦村"
+    },
+    {
+     "record_index": 7,
+     "span": [
+      180551,
+      180573
+     ],
+     "cell": [
+      51,
+      114
+     ],
+     "landing": [
+      61,
+      39
+     ],
+     "target": "A00 海曦村"
+    },
+    {
+     "record_index": 8,
+     "span": [
+      180573,
+      180595
+     ],
+     "cell": [
+      52,
+      114
+     ],
+     "landing": [
+      61,
+      39
+     ],
+     "target": "A00 海曦村"
+    },
+    {
+     "record_index": 9,
+     "span": [
+      180595,
+      180619
+     ],
+     "cell": [
+      55,
+      21
+     ],
+     "landing": [
+      110,
+      111
+     ],
+     "target": "A02 树林深处"
+    },
+    {
+     "record_index": 10,
+     "span": [
+      180619,
+      180643
+     ],
+     "cell": [
+      55,
+      22
+     ],
+     "landing": [
+      110,
+      111
+     ],
+     "target": "A02 树林深处"
+    },
+    {
+     "record_index": 11,
+     "span": [
+      180643,
+      180667
+     ],
+     "cell": [
+      54,
+      22
+     ],
+     "landing": [
+      110,
+      111
+     ],
+     "target": "A02 树林深处"
+    },
+    {
+     "record_index": 12,
+     "span": [
+      180667,
+      180691
+     ],
+     "cell": [
+      54,
+      23
+     ],
+     "landing": [
+      110,
+      111
+     ],
+     "target": "A02 树林深处"
+    },
+    {
+     "record_index": 13,
+     "span": [
+      180691,
+      180715
+     ],
+     "cell": [
+      53,
+      23
+     ],
+     "landing": [
+      110,
+      111
+     ],
+     "target": "A02 树林深处"
+    },
+    {
+     "record_index": 14,
+     "span": [
+      180715,
+      180739
+     ],
+     "cell": [
+      53,
+      24
+     ],
+     "landing": [
+      110,
+      111
+     ],
+     "target": "A02 树林深处"
+    },
+    {
+     "record_index": 15,
+     "span": [
+      180739,
+      180763
+     ],
+     "cell": [
+      52,
+      24
+     ],
+     "landing": [
+      110,
+      111
+     ],
+     "target": "A02 树林深处"
+    }
+   ],
+   "selected_npcs": [],
+   "load_script": {
+    "span": [
+     180765,
+     180823
+    ],
+    "payload_span": [
+     180769,
+     180823
+    ],
+    "sha256_utf8": "873d1e5fd87c8daa54e10023a7b943f3d94af2fbd7b257188a95ac3b708348c3",
+    "text": "//这里的脚本将在角色刚进入本地图时被调用\r\n#end\r\n#NotUI"
+   },
+   "project_extraction_redecode_equal": true,
+   "compared_keys": [
+    "schema",
+    "id",
+    "name",
+    "home",
+    "width",
+    "height",
+    "cells",
+    "cellOrder",
+    "cellFields",
+    "cellByteOffsets",
+    "gridOffset",
+    "tailOffset",
+    "spawns",
+    "portals",
+    "npcs",
+    "loadScript",
+    "unmappedTail",
+    "source",
+    "sourceSha256",
+    "sourceBytes",
+    "parsedBytes",
+    "tile_size"
+   ],
+   "boss_spawns": []
+  },
+  "A02": {
+   "path": "原版游戏/Data/Map/A02.lpMap",
+   "name": "树林深处",
+   "dimensions": [
+    150,
+    150
+   ],
+   "home": [
+    86,
+    51
+   ],
+   "cell_order": "x-major",
+   "spawn_count": 84,
+   "npc_count": 0,
+   "portal_count": 7,
+   "uninterpreted_tail_bytes": 68,
+   "parsed_end": 181222,
+   "portal_groups": [
+    {
+     "target": "A01 海曦村北",
+     "landing": [
+      55,
+      24
+     ],
+     "source_cells": [
+      [
+       112,
+       111
+      ],
+      [
+       112,
+       112
+      ],
+      [
+       111,
+       112
+      ],
+      [
+       111,
+       113
+      ],
+      [
+       110,
+       113
+      ],
+      [
+       110,
+       114
+      ],
+      [
+       109,
+       114
+      ]
+     ]
+    }
+   ],
+   "portal_records": [
+    {
+     "record_index": 0,
+     "span": [
+      181000,
+      181024
+     ],
+     "cell": [
+      112,
+      111
+     ],
+     "landing": [
+      55,
+      24
+     ],
+     "target": "A01 海曦村北"
+    },
+    {
+     "record_index": 1,
+     "span": [
+      181024,
+      181048
+     ],
+     "cell": [
+      112,
+      112
+     ],
+     "landing": [
+      55,
+      24
+     ],
+     "target": "A01 海曦村北"
+    },
+    {
+     "record_index": 2,
+     "span": [
+      181048,
+      181072
+     ],
+     "cell": [
+      111,
+      112
+     ],
+     "landing": [
+      55,
+      24
+     ],
+     "target": "A01 海曦村北"
+    },
+    {
+     "record_index": 3,
+     "span": [
+      181072,
+      181096
+     ],
+     "cell": [
+      111,
+      113
+     ],
+     "landing": [
+      55,
+      24
+     ],
+     "target": "A01 海曦村北"
+    },
+    {
+     "record_index": 4,
+     "span": [
+      181096,
+      181120
+     ],
+     "cell": [
+      110,
+      113
+     ],
+     "landing": [
+      55,
+      24
+     ],
+     "target": "A01 海曦村北"
+    },
+    {
+     "record_index": 5,
+     "span": [
+      181120,
+      181144
+     ],
+     "cell": [
+      110,
+      114
+     ],
+     "landing": [
+      55,
+      24
+     ],
+     "target": "A01 海曦村北"
+    },
+    {
+     "record_index": 6,
+     "span": [
+      181144,
+      181168
+     ],
+     "cell": [
+      109,
+      114
+     ],
+     "landing": [
+      55,
+      24
+     ],
+     "target": "A01 海曦村北"
+    }
+   ],
+   "selected_npcs": [],
+   "load_script": {
+    "span": [
+     181170,
+     181222
+    ],
+    "payload_span": [
+     181174,
+     181222
+    ],
+    "sha256_utf8": "328f0e83f44b4b3ec1a6cbe79769bb1dfbe1db73b2a28f615a7fcee726cbec71",
+    "text": "#if bt0 > 0\r\n#delNpc 35 35\r\n#endif\r\n#end\r\n#NotUI"
+   },
+   "project_extraction_redecode_equal": true,
+   "compared_keys": [
+    "schema",
+    "id",
+    "name",
+    "home",
+    "width",
+    "height",
+    "cells",
+    "cellOrder",
+    "cellFields",
+    "cellByteOffsets",
+    "gridOffset",
+    "tailOffset",
+    "spawns",
+    "portals",
+    "npcs",
+    "loadScript",
+    "unmappedTail",
+    "source",
+    "sourceSha256",
+    "sourceBytes",
+    "parsedBytes",
+    "tile_size"
+   ],
+   "boss_spawns": [
+    {
+     "x": 35,
+     "y": 35,
+     "monsterId": 18,
+     "name": "甲虫王",
+     "span": [
+      42477,
+      42495
+     ],
+     "decoded_cell_fields": [
+      0,
+      0,
+      6,
+      18
+     ],
+     "raw_hex": "850085008300970083000000395236634870"
+    }
+   ]
+  },
+  "A03": {
+   "path": "原版游戏/Data/Map/A03.lpMap",
+   "name": "海曦村南",
+   "dimensions": [
+    150,
+    150
+   ],
+   "home": [
+    0,
+    0
+   ],
+   "cell_order": "x-major",
+   "spawn_count": 41,
+   "npc_count": 0,
+   "portal_count": 12,
+   "uninterpreted_tail_bytes": 68,
+   "parsed_end": 180809,
+   "portal_groups": [
+    {
+     "target": "A00 海曦村",
+     "landing": [
+      113,
+      96
+     ],
+     "source_cells": [
+      [
+       18,
+       19
+      ],
+      [
+       18,
+       20
+      ],
+      [
+       17,
+       20
+      ],
+      [
+       17,
+       21
+      ],
+      [
+       16,
+       21
+      ],
+      [
+       16,
+       22
+      ]
+     ]
+    },
+    {
+     "target": "A04 墓地",
+     "landing": [
+      47,
+      23
+     ],
+     "source_cells": [
+      [
+       44,
+       117
+      ],
+      [
+       45,
+       117
+      ],
+      [
+       46,
+       117
+      ],
+      [
+       47,
+       117
+      ],
+      [
+       48,
+       117
+      ],
+      [
+       49,
+       117
+      ]
+     ]
+    }
+   ],
+   "portal_records": [
+    {
+     "record_index": 0,
+     "span": [
+      180497,
+      180519
+     ],
+     "cell": [
+      18,
+      19
+     ],
+     "landing": [
+      113,
+      96
+     ],
+     "target": "A00 海曦村"
+    },
+    {
+     "record_index": 1,
+     "span": [
+      180519,
+      180541
+     ],
+     "cell": [
+      18,
+      20
+     ],
+     "landing": [
+      113,
+      96
+     ],
+     "target": "A00 海曦村"
+    },
+    {
+     "record_index": 2,
+     "span": [
+      180541,
+      180563
+     ],
+     "cell": [
+      17,
+      20
+     ],
+     "landing": [
+      113,
+      96
+     ],
+     "target": "A00 海曦村"
+    },
+    {
+     "record_index": 3,
+     "span": [
+      180563,
+      180585
+     ],
+     "cell": [
+      17,
+      21
+     ],
+     "landing": [
+      113,
+      96
+     ],
+     "target": "A00 海曦村"
+    },
+    {
+     "record_index": 4,
+     "span": [
+      180585,
+      180607
+     ],
+     "cell": [
+      16,
+      21
+     ],
+     "landing": [
+      113,
+      96
+     ],
+     "target": "A00 海曦村"
+    },
+    {
+     "record_index": 5,
+     "span": [
+      180607,
+      180629
+     ],
+     "cell": [
+      16,
+      22
+     ],
+     "landing": [
+      113,
+      96
+     ],
+     "target": "A00 海曦村"
+    },
+    {
+     "record_index": 6,
+     "span": [
+      180629,
+      180649
+     ],
+     "cell": [
+      44,
+      117
+     ],
+     "landing": [
+      47,
+      23
+     ],
+     "target": "A04 墓地"
+    },
+    {
+     "record_index": 7,
+     "span": [
+      180649,
+      180669
+     ],
+     "cell": [
+      45,
+      117
+     ],
+     "landing": [
+      47,
+      23
+     ],
+     "target": "A04 墓地"
+    },
+    {
+     "record_index": 8,
+     "span": [
+      180669,
+      180689
+     ],
+     "cell": [
+      46,
+      117
+     ],
+     "landing": [
+      47,
+      23
+     ],
+     "target": "A04 墓地"
+    },
+    {
+     "record_index": 9,
+     "span": [
+      180689,
+      180709
+     ],
+     "cell": [
+      47,
+      117
+     ],
+     "landing": [
+      47,
+      23
+     ],
+     "target": "A04 墓地"
+    },
+    {
+     "record_index": 10,
+     "span": [
+      180709,
+      180729
+     ],
+     "cell": [
+      48,
+      117
+     ],
+     "landing": [
+      47,
+      23
+     ],
+     "target": "A04 墓地"
+    },
+    {
+     "record_index": 11,
+     "span": [
+      180729,
+      180749
+     ],
+     "cell": [
+      49,
+      117
+     ],
+     "landing": [
+      47,
+      23
+     ],
+     "target": "A04 墓地"
+    }
+   ],
+   "selected_npcs": [],
+   "load_script": {
+    "span": [
+     180751,
+     180809
+    ],
+    "payload_span": [
+     180755,
+     180809
+    ],
+    "sha256_utf8": "873d1e5fd87c8daa54e10023a7b943f3d94af2fbd7b257188a95ac3b708348c3",
+    "text": "//这里的脚本将在角色刚进入本地图时被调用\r\n#end\r\n#NotUI"
+   },
+   "boss_spawns": []
+  },
+  "A04": {
+   "path": "原版游戏/Data/Map/A04.lpMap",
+   "name": "墓地",
+   "dimensions": [
+    150,
+    150
+   ],
+   "home": [
+    86,
+    51
+   ],
+   "cell_order": "x-major",
+   "spawn_count": 77,
+   "npc_count": 1,
+   "portal_count": 12,
+   "uninterpreted_tail_bytes": 68,
+   "parsed_end": 181827,
+   "portal_groups": [
+    {
+     "target": "A03 海曦村南",
+     "landing": [
+      46,
+      115
+     ],
+     "source_cells": [
+      [
+       44,
+       21
+      ],
+      [
+       45,
+       21
+      ],
+      [
+       46,
+       21
+      ],
+      [
+       47,
+       21
+      ],
+      [
+       48,
+       21
+      ],
+      [
+       49,
+       21
+      ]
+     ]
+    },
+    {
+     "target": "B01 英雄村外",
+     "landing": [
+      89,
+      20
+     ],
+     "source_cells": [
+      [
+       85,
+       119
+      ],
+      [
+       85,
+       120
+      ],
+      [
+       84,
+       120
+      ],
+      [
+       84,
+       121
+      ],
+      [
+       83,
+       121
+      ],
+      [
+       83,
+       122
+      ]
+     ]
+    }
+   ],
+   "portal_records": [
+    {
+     "record_index": 0,
+     "span": [
+      180940,
+      180964
+     ],
+     "cell": [
+      44,
+      21
+     ],
+     "landing": [
+      46,
+      115
+     ],
+     "target": "A03 海曦村南"
+    },
+    {
+     "record_index": 1,
+     "span": [
+      180964,
+      180988
+     ],
+     "cell": [
+      45,
+      21
+     ],
+     "landing": [
+      46,
+      115
+     ],
+     "target": "A03 海曦村南"
+    },
+    {
+     "record_index": 2,
+     "span": [
+      180988,
+      181012
+     ],
+     "cell": [
+      46,
+      21
+     ],
+     "landing": [
+      46,
+      115
+     ],
+     "target": "A03 海曦村南"
+    },
+    {
+     "record_index": 3,
+     "span": [
+      181012,
+      181036
+     ],
+     "cell": [
+      47,
+      21
+     ],
+     "landing": [
+      46,
+      115
+     ],
+     "target": "A03 海曦村南"
+    },
+    {
+     "record_index": 4,
+     "span": [
+      181036,
+      181060
+     ],
+     "cell": [
+      48,
+      21
+     ],
+     "landing": [
+      46,
+      115
+     ],
+     "target": "A03 海曦村南"
+    },
+    {
+     "record_index": 5,
+     "span": [
+      181060,
+      181084
+     ],
+     "cell": [
+      49,
+      21
+     ],
+     "landing": [
+      46,
+      115
+     ],
+     "target": "A03 海曦村南"
+    },
+    {
+     "record_index": 6,
+     "span": [
+      181084,
+      181108
+     ],
+     "cell": [
+      85,
+      119
+     ],
+     "landing": [
+      89,
+      20
+     ],
+     "target": "B01 英雄村外"
+    },
+    {
+     "record_index": 7,
+     "span": [
+      181108,
+      181132
+     ],
+     "cell": [
+      85,
+      120
+     ],
+     "landing": [
+      89,
+      20
+     ],
+     "target": "B01 英雄村外"
+    },
+    {
+     "record_index": 8,
+     "span": [
+      181132,
+      181156
+     ],
+     "cell": [
+      84,
+      120
+     ],
+     "landing": [
+      89,
+      20
+     ],
+     "target": "B01 英雄村外"
+    },
+    {
+     "record_index": 9,
+     "span": [
+      181156,
+      181180
+     ],
+     "cell": [
+      84,
+      121
+     ],
+     "landing": [
+      89,
+      20
+     ],
+     "target": "B01 英雄村外"
+    },
+    {
+     "record_index": 10,
+     "span": [
+      181180,
+      181204
+     ],
+     "cell": [
+      83,
+      121
+     ],
+     "landing": [
+      89,
+      20
+     ],
+     "target": "B01 英雄村外"
+    },
+    {
+     "record_index": 11,
+     "span": [
+      181204,
+      181228
+     ],
+     "cell": [
+      83,
+      122
+     ],
+     "landing": [
+      89,
+      20
+     ],
+     "target": "B01 英雄村外"
+    }
+   ],
+   "selected_npcs": [
+    {
+     "record_index": 0,
+     "name": "凌云子",
+     "cell": [
+      82,
+      117
+     ],
+     "appearance": 9,
+     "direction": 1,
+     "frame_indices": [
+      113,
+      114,
+      115,
+      116
+     ],
+     "record_span": [
+      181230,
+      181618
+     ],
+     "script_length_field_offset": 181248,
+     "script_payload_span": [
+      181252,
+      181618
+     ],
+     "script_sha256_utf8": "d20cfdf68bedfde43df7beb290fa348f67b28ecfc63a6438c3ec29ba1da72ae4"
+    }
+   ],
+   "load_script": {
+    "span": [
+     181618,
+     181827
+    ],
+    "payload_span": [
+     181622,
+     181827
+    ],
+    "sha256_utf8": "6a822cdbdef40a5e9cbe62d1f68294077ee41234e4f95c100f13d54d537d4ee3",
+    "text": "#if bt1 > 0\r\n#delNpc 95 60\r\n#endif\r\n\r\n#if et0 > 6\r\n#SETMAPFLAG 84 118 0\r\n#SETMAPFLAG 83 118 0\r\n#SETMAPFLAG 83 119 0\r\n#SETMAPFLAG 82 119 0\r\n#SETMAPFLAG 82 120 0\r\n#SETMAPFLAG 81 120 0\r\n#delnpc 82 117\r\n#endif"
+   },
+   "boss_spawns": [
+    {
+     "x": 95,
+     "y": 60,
+     "monsterId": 26,
+     "name": "墓地尸王",
+     "span": [
+      115274,
+      115294
+     ],
+     "decoded_cell_fields": [
+      0,
+      0,
+      6,
+      26
+     ],
+     "raw_hex": "22002200240038002a000000e69b97fae88eefd7"
+    }
+   ]
+  },
+  "B01": {
+   "path": "原版游戏/Data/Map/B01.lpMap",
+   "name": "英雄村外",
+   "dimensions": [
+    150,
+    150
+   ],
+   "home": [
+    86,
+    51
+   ],
+   "cell_order": "x-major",
+   "spawn_count": 42,
+   "npc_count": 1,
+   "portal_count": 17,
+   "uninterpreted_tail_bytes": 68,
+   "parsed_end": 181176,
+   "portal_groups": [
+    {
+     "target": "A04 墓地",
+     "landing": [
+      83,
+      119
+     ],
+     "source_cells": [
+      [
+       89,
+       17
+      ],
+      [
+       89,
+       18
+      ],
+      [
+       88,
+       18
+      ],
+      [
+       88,
+       19
+      ],
+      [
+       87,
+       19
+      ],
+      [
+       87,
+       20
+      ]
+     ]
+    },
+    {
+     "target": "B00 英雄村",
+     "landing": [
+      64,
+      74
+     ],
+     "source_cells": [
+      [
+       32,
+       82
+      ],
+      [
+       32,
+       83
+      ],
+      [
+       31,
+       83
+      ],
+      [
+       31,
+       84
+      ]
+     ]
+    },
+    {
+     "target": "B02 英雄海岸",
+     "landing": [
+      37,
+      21
+     ],
+     "source_cells": [
+      [
+       44,
+       130
+      ],
+      [
+       44,
+       131
+      ],
+      [
+       45,
+       131
+      ],
+      [
+       45,
+       132
+      ],
+      [
+       46,
+       132
+      ],
+      [
+       46,
+       133
+      ],
+      [
+       47,
+       133
+      ]
+     ]
+    }
+   ],
+   "portal_records": [
+    {
+     "record_index": 0,
+     "span": [
+      180505,
+      180525
+     ],
+     "cell": [
+      89,
+      17
+     ],
+     "landing": [
+      83,
+      119
+     ],
+     "target": "A04 墓地"
+    },
+    {
+     "record_index": 1,
+     "span": [
+      180525,
+      180545
+     ],
+     "cell": [
+      89,
+      18
+     ],
+     "landing": [
+      83,
+      119
+     ],
+     "target": "A04 墓地"
+    },
+    {
+     "record_index": 2,
+     "span": [
+      180545,
+      180565
+     ],
+     "cell": [
+      88,
+      18
+     ],
+     "landing": [
+      83,
+      119
+     ],
+     "target": "A04 墓地"
+    },
+    {
+     "record_index": 3,
+     "span": [
+      180565,
+      180585
+     ],
+     "cell": [
+      88,
+      19
+     ],
+     "landing": [
+      83,
+      119
+     ],
+     "target": "A04 墓地"
+    },
+    {
+     "record_index": 4,
+     "span": [
+      180585,
+      180605
+     ],
+     "cell": [
+      87,
+      19
+     ],
+     "landing": [
+      83,
+      119
+     ],
+     "target": "A04 墓地"
+    },
+    {
+     "record_index": 5,
+     "span": [
+      180605,
+      180625
+     ],
+     "cell": [
+      87,
+      20
+     ],
+     "landing": [
+      83,
+      119
+     ],
+     "target": "A04 墓地"
+    },
+    {
+     "record_index": 6,
+     "span": [
+      180625,
+      180647
+     ],
+     "cell": [
+      32,
+      82
+     ],
+     "landing": [
+      64,
+      74
+     ],
+     "target": "B00 英雄村"
+    },
+    {
+     "record_index": 7,
+     "span": [
+      180647,
+      180669
+     ],
+     "cell": [
+      32,
+      83
+     ],
+     "landing": [
+      64,
+      74
+     ],
+     "target": "B00 英雄村"
+    },
+    {
+     "record_index": 8,
+     "span": [
+      180669,
+      180691
+     ],
+     "cell": [
+      31,
+      83
+     ],
+     "landing": [
+      64,
+      74
+     ],
+     "target": "B00 英雄村"
+    },
+    {
+     "record_index": 9,
+     "span": [
+      180691,
+      180713
+     ],
+     "cell": [
+      31,
+      84
+     ],
+     "landing": [
+      64,
+      74
+     ],
+     "target": "B00 英雄村"
+    },
+    {
+     "record_index": 10,
+     "span": [
+      180713,
+      180737
+     ],
+     "cell": [
+      44,
+      130
+     ],
+     "landing": [
+      37,
+      21
+     ],
+     "target": "B02 英雄海岸"
+    },
+    {
+     "record_index": 11,
+     "span": [
+      180737,
+      180761
+     ],
+     "cell": [
+      44,
+      131
+     ],
+     "landing": [
+      37,
+      21
+     ],
+     "target": "B02 英雄海岸"
+    },
+    {
+     "record_index": 12,
+     "span": [
+      180761,
+      180785
+     ],
+     "cell": [
+      45,
+      131
+     ],
+     "landing": [
+      37,
+      21
+     ],
+     "target": "B02 英雄海岸"
+    },
+    {
+     "record_index": 13,
+     "span": [
+      180785,
+      180809
+     ],
+     "cell": [
+      45,
+      132
+     ],
+     "landing": [
+      37,
+      21
+     ],
+     "target": "B02 英雄海岸"
+    },
+    {
+     "record_index": 14,
+     "span": [
+      180809,
+      180833
+     ],
+     "cell": [
+      46,
+      132
+     ],
+     "landing": [
+      37,
+      21
+     ],
+     "target": "B02 英雄海岸"
+    },
+    {
+     "record_index": 15,
+     "span": [
+      180833,
+      180857
+     ],
+     "cell": [
+      46,
+      133
+     ],
+     "landing": [
+      37,
+      21
+     ],
+     "target": "B02 英雄海岸"
+    },
+    {
+     "record_index": 16,
+     "span": [
+      180857,
+      180881
+     ],
+     "cell": [
+      47,
+      133
+     ],
+     "landing": [
+      37,
+      21
+     ],
+     "target": "B02 英雄海岸"
+    }
+   ],
+   "selected_npcs": [],
+   "load_script": {
+    "span": [
+     180977,
+     181176
+    ],
+    "payload_span": [
+     180981,
+     181176
+    ],
+    "sha256_utf8": "01657e3e4852d4e74ccc4fbea380c6a2143776363a0bfaa96e8798429f36ec62",
+    "text": "#if et0 > 7\r\n#SETMAPFLAG 45 129 0\r\n#SETMAPFLAG 45 130 0\r\n#SETMAPFLAG 46 130 0\r\n#SETMAPFLAG 46 131 0\r\n#SETMAPFLAG 47 131 0\r\n#SETMAPFLAG 47 132 0\r\n#SETMAPFLAG 48 132 0\r\n#delnpc 47 128\r\n#endif\r\n#end"
+   },
+   "boss_spawns": []
+  },
+  "B00": {
+   "path": "原版游戏/Data/Map/B00.lpMap",
+   "name": "英雄村",
+   "dimensions": [
+    120,
+    120
+   ],
+   "home": [
+    57,
+    65
+   ],
+   "cell_order": "x-major",
+   "spawn_count": 6,
+   "npc_count": 14,
+   "portal_count": 4,
+   "uninterpreted_tail_bytes": 70,
+   "parsed_end": 118272,
+   "portal_groups": [
+    {
+     "target": "B01 英雄村外",
+     "landing": [
+      33,
+      85
+     ],
+     "source_cells": [
+      [
+       66,
+       75
+      ],
+      [
+       66,
+       76
+      ],
+      [
+       65,
+       76
+      ],
+      [
+       65,
+       77
+      ]
+     ]
+    }
+   ],
+   "portal_records": [
+    {
+     "record_index": 0,
+     "span": [
+      115266,
+      115290
+     ],
+     "cell": [
+      66,
+      75
+     ],
+     "landing": [
+      33,
+      85
+     ],
+     "target": "B01 英雄村外"
+    },
+    {
+     "record_index": 1,
+     "span": [
+      115290,
+      115314
+     ],
+     "cell": [
+      66,
+      76
+     ],
+     "landing": [
+      33,
+      85
+     ],
+     "target": "B01 英雄村外"
+    },
+    {
+     "record_index": 2,
+     "span": [
+      115314,
+      115338
+     ],
+     "cell": [
+      65,
+      76
+     ],
+     "landing": [
+      33,
+      85
+     ],
+     "target": "B01 英雄村外"
+    },
+    {
+     "record_index": 3,
+     "span": [
+      115338,
+      115362
+     ],
+     "cell": [
+      65,
+      77
+     ],
+     "landing": [
+      33,
+      85
+     ],
+     "target": "B01 英雄村外"
+    }
+   ],
+   "selected_npcs": [
+    {
+     "record_index": 0,
+     "name": "英雄雕像",
+     "cell": [
+      37,
+      38
+     ],
+     "appearance": 34,
+     "direction": 2,
+     "frame_indices": [
+      417,
+      418,
+      419,
+      420
+     ],
+     "record_span": [
+      115364,
+      116031
+     ],
+     "script_length_field_offset": 115384,
+     "script_payload_span": [
+      115388,
+      116031
+     ],
+     "script_sha256_utf8": "abaaa59be6367cf8a0a3c2120f209540c1d7ee3f9e5c3a17a03d6658f4efbad4"
+    },
+    {
+     "record_index": 3,
+     "name": "村长",
+     "cell": [
+      50,
+      53
+     ],
+     "appearance": 10,
+     "direction": 0,
+     "frame_indices": [
+      121,
+      122,
+      123,
+      124
+     ],
+     "record_span": [
+      116417,
+      117076
+     ],
+     "script_length_field_offset": 116433,
+     "script_payload_span": [
+      116437,
+      117076
+     ],
+     "script_sha256_utf8": "5a40454f6a124f684887d3c0ae4c163a63663cec83e9c37ca16414c14fd12061"
+    }
+   ],
+   "load_script": {
+    "span": [
+     118268,
+     118272
+    ],
+    "payload_span": [
+     118272,
+     118272
+    ],
+    "sha256_utf8": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text": ""
+   },
+   "boss_spawns": []
+  }
+ },
+ "original_task_lines": [
+  {
+   "line": 1,
+   "span": [
+    0,
+    3
+   ],
+   "text": "28"
+  },
+  {
+   "line": 2,
+   "span": [
+    3,
+    6
+   ],
+   "text": "梦"
+  },
+  {
+   "line": 3,
+   "span": [
+    6,
+    23
+   ],
+   "text": "与三清观方丈对话"
+  },
+  {
+   "line": 4,
+   "span": [
+    23,
+    26
+   ],
+   "text": "梦"
+  },
+  {
+   "line": 5,
+   "span": [
+    26,
+    39
+   ],
+   "text": "与凌云子对话"
+  },
+  {
+   "line": 6,
+   "span": [
+    39,
+    44
+   ],
+   "text": "新生"
+  },
+  {
+   "line": 7,
+   "span": [
+    44,
+    65
+   ],
+   "text": "与村长对话，申请出村"
+  },
+  {
+   "line": 8,
+   "span": [
+    65,
+    76
+   ],
+   "text": "村长的考验"
+  },
+  {
+   "line": 9,
+   "span": [
+    76,
+    107
+   ],
+   "text": "从村北去往树林深处，打败甲虫王"
+  },
+  {
+   "line": 10,
+   "span": [
+    107,
+    116
+   ],
+   "text": "胜利而归"
+  },
+  {
+   "line": 11,
+   "span": [
+    116,
+    141
+   ],
+   "text": "回村找村长，申请去英雄村"
+  },
+  {
+   "line": 12,
+   "span": [
+    141,
+    146
+   ],
+   "text": "启程"
+  },
+  {
+   "line": 13,
+   "span": [
+    146,
+    159
+   ],
+   "text": "启程去英雄村"
+  },
+  {
+   "line": 14,
+   "span": [
+    159,
+    164
+   ],
+   "text": "进阶"
+  },
+  {
+   "line": 15,
+   "span": [
+    164,
+    217
+   ],
+   "text": "你打败了古墓尸王，信心增强了不少，可以继续去英雄村了"
+  },
+  {
+   "line": 16,
+   "span": [
+    217,
+    222
+   ],
+   "text": "前世"
+  },
+  {
+   "line": 17,
+   "span": [
+    222,
+    305
+   ],
+   "text": "你得到了英雄雕像的力量，回忆起前世的一些片段。找老村长问问吧，看看能不能得到些线索"
+  },
+  {
+   "line": 18,
+   "span": [
+    305,
+    314
+   ],
+   "text": "新的历程"
+  },
+  {
+   "line": 19,
+   "span": [
+    314,
+    341
+   ],
+   "text": "按老村长的指引，先去临海镇"
+  }
+ ],
+ "reward_items": [
+  {
+   "id": 0,
+   "name": "金创药小",
+   "type": 3,
+   "icon": 6,
+   "hp": 20,
+   "mp": 0,
+   "weight": 1,
+   "price": 10,
+   "sourceOffset": 10,
+   "sourceLength": 96,
+   "raw_record_sha256": "b94caae4a24fec21c462bad80276282286547b30c2228dce3106ce305d5407dc"
+  },
+  {
+   "id": 5,
+   "name": "魔法药小",
+   "type": 3,
+   "icon": 13,
+   "hp": 0,
+   "mp": 30,
+   "weight": 1,
+   "price": 5,
+   "sourceOffset": 494,
+   "sourceLength": 96,
+   "raw_record_sha256": "c94c746f423b561498d7a04c6d022288f20aedf5f56cda19f4083e7978e1f084"
+  }
+ ],
+ "selected_monster_definitions": [
+  {
+   "record_id": 3,
+   "name": "假人",
+   "span": [
+    330,
+    470
+   ],
+   "appearance": 888,
+   "raw_record_matches": true
+  },
+  {
+   "record_id": 4,
+   "name": "鸡",
+   "span": [
+    470,
+    614
+   ],
+   "appearance": 4,
+   "raw_record_matches": true
+  },
+  {
+   "record_id": 5,
+   "name": "鸡-变异",
+   "span": [
+    614,
+    763
+   ],
+   "appearance": 4,
+   "raw_record_matches": true
+  },
+  {
+   "record_id": 6,
+   "name": "鹿",
+   "span": [
+    763,
+    949
+   ],
+   "appearance": 5,
+   "raw_record_matches": true
+  },
+  {
+   "record_id": 7,
+   "name": "鹿-精英",
+   "span": [
+    949,
+    1167
+   ],
+   "appearance": 5,
+   "raw_record_matches": true
+  },
+  {
+   "record_id": 8,
+   "name": "鹿-剧毒",
+   "span": [
+    1167,
+    1378
+   ],
+   "appearance": 5,
+   "raw_record_matches": true
+  },
+  {
+   "record_id": 9,
+   "name": "鹿-幻影",
+   "span": [
+    1378,
+    1592
+   ],
+   "appearance": 5,
+   "raw_record_matches": true
+  },
+  {
+   "record_id": 10,
+   "name": "甲壳虫",
+   "span": [
+    1592,
+    1781
+   ],
+   "appearance": 7,
+   "raw_record_matches": true
+  },
+  {
+   "record_id": 18,
+   "name": "甲虫王",
+   "span": [
+    3180,
+    3522
+   ],
+   "appearance": 9,
+   "raw_record_matches": true
+  },
+  {
+   "record_id": 215,
+   "name": "亡灵骑士",
+   "span": [
+    43575,
+    43767
+   ],
+   "appearance": 75,
+   "raw_record_matches": true
+  }
+ ],
+ "beetle_king": {
+  "id": 18,
+  "name": "甲虫王",
+  "appearance": 9,
+  "hp": 200,
+  "attack": 15,
+  "defense": 1,
+  "experience": 55,
+  "attackFrames": 50,
+  "regenFrames": 100,
+  "behavior": 10,
+  "event": "#if et0 < 5@#change et0 = 5@#endif@#change bt0 = 600",
+  "drops": "金币2/1 金币5/1 金币4/1 金币6/1 金币6/1 金币8/1 金币10/2 金币15/4 回城卷1/1 生铁戒指1/3 铁手镯1/3 木剑1/5 乌木剑1/5 匕首1/5 青铜斧1/10 金创药小1/1 魔法药小1/1 金币5/1 金币5/1 金币5/1 金币5/1 金币5/1 金币5/1",
+  "dropRules": [
+   {
+    "item": "金币",
+    "quantity": 2,
+    "denominator": 1
+   },
+   {
+    "item": "金币",
+    "quantity": 5,
+    "denominator": 1
+   },
+   {
+    "item": "金币",
+    "quantity": 4,
+    "denominator": 1
+   },
+   {
+    "item": "金币",
+    "quantity": 6,
+    "denominator": 1
+   },
+   {
+    "item": "金币",
+    "quantity": 6,
+    "denominator": 1
+   },
+   {
+    "item": "金币",
+    "quantity": 8,
+    "denominator": 1
+   },
+   {
+    "item": "金币",
+    "quantity": 10,
+    "denominator": 2
+   },
+   {
+    "item": "金币",
+    "quantity": 15,
+    "denominator": 4
+   },
+   {
+    "item": "回城卷",
+    "quantity": 1,
+    "denominator": 1
+   },
+   {
+    "item": "生铁戒指",
+    "quantity": 1,
+    "denominator": 3
+   },
+   {
+    "item": "铁手镯",
+    "quantity": 1,
+    "denominator": 3
+   },
+   {
+    "item": "木剑",
+    "quantity": 1,
+    "denominator": 5
+   },
+   {
+    "item": "乌木剑",
+    "quantity": 1,
+    "denominator": 5
+   },
+   {
+    "item": "匕首",
+    "quantity": 1,
+    "denominator": 5
+   },
+   {
+    "item": "青铜斧",
+    "quantity": 1,
+    "denominator": 10
+   },
+   {
+    "item": "金创药小",
+    "quantity": 1,
+    "denominator": 1
+   },
+   {
+    "item": "魔法药小",
+    "quantity": 1,
+    "denominator": 1
+   },
+   {
+    "item": "金币",
+    "quantity": 5,
+    "denominator": 1
+   },
+   {
+    "item": "金币",
+    "quantity": 5,
+    "denominator": 1
+   },
+   {
+    "item": "金币",
+    "quantity": 5,
+    "denominator": 1
+   },
+   {
+    "item": "金币",
+    "quantity": 5,
+    "denominator": 1
+   },
+   {
+    "item": "金币",
+    "quantity": 5,
+    "denominator": 1
+   },
+   {
+    "item": "金币",
+    "quantity": 5,
+    "denominator": 1
+   }
+  ],
+  "definition_span": [
+   3180,
+   3522
+  ],
+  "selected_field_spans": [
+   {
+    "name": "name",
+    "source_offset": 3180,
+    "source_end": 3190,
+    "encoding": "string",
+    "value": "甲虫王"
+   },
+   {
+    "name": "drops",
+    "source_offset": 3246,
+    "source_end": 3456,
+    "encoding": "string",
+    "value": "金币2/1 金币5/1 金币4/1 金币6/1 金币6/1 金币8/1 金币10/2 金币15/4 回城卷1/1 生铁戒指1/3 铁手镯1/3 木剑1/5 乌木剑1/5 匕首1/5 青铜斧1/10 金创药小1/1 魔法药小1/1 金币5/1 金币5/1 金币5/1 金币5/1 金币5/1 金币5/1"
+   },
+   {
+    "name": "experience",
+    "source_offset": 3464,
+    "source_end": 3466,
+    "encoding": "signed16",
+    "value": 55
+   },
+   {
+    "name": "event",
+    "source_offset": 3466,
+    "source_end": 3522,
+    "encoding": "string",
+    "value": "#if et0 < 5@#change et0 = 5@#endif@#change bt0 = 600"
+   }
+  ]
+ },
+ "a01_identity_conflict": {
+  "source_path": "原版游戏/Data/Map/A01.lpMap",
+  "total_spawn_records": 48,
+  "mismatch_count": 48,
+  "groups": [
+   {
+    "stored_id": 4,
+    "stored_name": "鹿",
+    "definition_name_at_stored_id": "鸡",
+    "count": 29,
+    "first_original_example": {
+     "cell": [
+      46,
+      57
+     ],
+     "span": [
+      55686,
+      55700
+     ],
+     "fields": [
+      0,
+      0,
+      6,
+      4
+     ],
+     "name": "鹿",
+     "raw_hex": "a800a800ae00ac00aa0000006a11",
+     "name_matching_definition_ids": [
+      6
+     ]
+    }
+   },
+   {
+    "stored_id": 5,
+    "stored_name": "鹿-精英",
+    "definition_name_at_stored_id": "鸡-变异",
+    "count": 5,
+    "first_original_example": {
+     "cell": [
+      91,
+      54
+     ],
+     "span": [
+      109838,
+      109857
+     ],
+     "fields": [
+      0,
+      0,
+      6,
+      5
+     ],
+     "name": "鹿-精英",
+     "raw_hex": "a800a800ae00ad00af0000006a118516037b0a",
+     "name_matching_definition_ids": [
+      7
+     ]
+    }
+   },
+   {
+    "stored_id": 6,
+    "stored_name": "鹿-剧毒",
+    "definition_name_at_stored_id": "鹿",
+    "count": 1,
+    "first_original_example": {
+     "cell": [
+      99,
+      55
+     ],
+     "span": [
+      119504,
+      119523
+     ],
+     "fields": [
+      0,
+      0,
+      6,
+      6
+     ],
+     "name": "鹿-剧毒",
+     "raw_hex": "a800a800ae00ae00af0000006a1185164f1e16",
+     "name_matching_definition_ids": [
+      8
+     ]
+    }
+   },
+   {
+    "stored_id": 7,
+    "stored_name": "鹿-幻影",
+    "definition_name_at_stored_id": "鹿-精英",
+    "count": 1,
+    "first_original_example": {
+     "cell": [
+      116,
+      91
+     ],
+     "span": [
+      140295,
+      140314
+     ],
+     "fields": [
+      0,
+      0,
+      6,
+      7
+     ],
+     "name": "鹿-幻影",
+     "raw_hex": "a800a800ae00af00af0000006a1185136b7b18",
+     "name_matching_definition_ids": [
+      9
+     ]
+    }
+   },
+   {
+    "stored_id": 9,
+    "stored_name": "甲壳虫",
+    "definition_name_at_stored_id": "鹿-幻影",
+    "count": 9,
+    "first_original_example": {
+     "cell": [
+      49,
+      53
+     ],
+     "span": [
+      59260,
+      59278
+     ],
+     "fields": [
+      0,
+      0,
+      6,
+      9
+     ],
+     "name": "甲壳虫",
+     "raw_hex": "a800a800ae00a100ae000000147f176f1b4e",
+     "name_matching_definition_ids": [
+      10
+     ]
+    }
+   },
+   {
+    "stored_id": 215,
+    "stored_name": "假人",
+    "definition_name_at_stored_id": "亡灵骑士",
+    "count": 3,
+    "first_original_example": {
+     "cell": [
+      49,
+      72
+     ],
+     "span": [
+      59438,
+      59454
+     ],
+     "fields": [
+      0,
+      0,
+      6,
+      215
+     ],
+     "name": "假人",
+     "raw_hex": "a800a800ae007f00ac00000014716063",
+     "name_matching_definition_ids": [
+      3
+     ]
+    }
+   }
+  ],
+  "resolution_status": "Unresolved. Original executable lookup precedence and historical cause have not been established.",
+  "reference_only": "参考项目/src/combat.js:42 resolves definition by name first, numeric ID second."
+ },
+ "separate_module_evidence": {
+  "原版游戏/Module/Project/883999044266/Mon.lpRes": {
+   "decoded_frontmatter_with_observed_key": 168,
+   "first_three_strings": [
+    {
+     "span": [
+      10,
+      26
+     ],
+     "text": "883999044266"
+    },
+    {
+     "span": [
+      26,
+      33
+     ],
+     "text": "123"
+    },
+    {
+     "span": [
+      33,
+      45
+     ],
+     "text": "召唤骷髅"
+    }
+   ],
+   "scope": "Small string inspection only; no complete module format or gameplay parity claim."
+  },
+  "原版游戏/Module/Project/883999044266/Map/A01.lpMap": {
+   "decoded_frontmatter_with_observed_key": 34,
+   "first_three_strings": [
+    {
+     "span": [
+      10,
+      26
+     ],
+     "text": "883999044266"
+    },
+    {
+     "span": [
+      26,
+      33
+     ],
+     "text": "123"
+    },
+    {
+     "span": [
+      33,
+      44
+     ],
+     "text": "连接地A"
+    }
+   ],
+   "scope": "Small string inspection only; no complete module format or gameplay parity claim."
+  },
+  "task_text_prefix": [
+   "8",
+   "初来乍到",
+   "与LP任务师交谈",
+   "铁匠的木剑",
+   "找铁匠买把木剑交给LP任务师",
+   "寻找老村长",
+   "在小镇子里找到老村长",
+   "击杀野猴",
+   "在镇子外东边找到野猴并将其击杀",
+   "胜利而归",
+   "回到老村长那里，拿到夜明珠",
+   "夜明珠的交付",
+   "把夜明珠交给LP任务师",
+   "终极任务",
+   "去另外一个城镇，在其监狱里找到尸王，并击杀",
+   "不负所托",
+   "回到LP任务师哪里，完成通关"
+  ]
+ },
+ "asset_integrity": {
+  "A00": {
+   "manifest": "Project/assets/original/maps/A00/manifest.json",
+   "required_unique_frames": 558,
+   "cumulative_page_count": 14,
+   "all_declared_pages_exist_and_sha_match": true,
+   "pages": [
+    {
+     "file": "res://assets/original/Map/Res/Building/0.png",
+     "sha256": "6fc88a1aa96eb18687eea798bcb4eae1f0ebf6d546a5a076fb1c2546550b3343",
+     "bytes": 2138303
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Map/Res/Building/1.png",
+     "sha256": "012eb9d4fc5dc88bae68225dc4f2fcd6c952d52d40b48b77d33c260fbc88bf49",
+     "bytes": 3496505
+    },
+    {
+     "file": "res://assets/original/Map/Res/Debris/0.png",
+     "sha256": "1a40e7affec8b5ef82ee902dda23261e67dd2ddf499301adbcfea4dea0c1b87e",
+     "bytes": 128529
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Map/Res/Debris/1.png",
+     "sha256": "cf429f25087709f664a4a428bab1038434b31347b5d1bd6e8c9bc1b8fa417505",
+     "bytes": 147951
+    },
+    {
+     "file": "res://assets/original/Map/Res/FloorBig/0.png",
+     "sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59",
+     "bytes": 490337
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Map/Res/FloorBig/1.png",
+     "sha256": "bfbf0276edacf108ed127ccfc2af6c1a47e685916fb647a939493b122a6dcef2",
+     "bytes": 101012
+    },
+    {
+     "file": "res://assets/original/Map/Res/FloorSmall/0.png",
+     "sha256": "741a0daca4ccc8e9ac1eeac3ae391a07189d90fed115b42fd0d8b55b376f79bb",
+     "bytes": 114814
+    },
+    {
+     "file": "res://assets/original/Map/Res/Plant/0.png",
+     "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+     "bytes": 723574
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png",
+     "sha256": "e8fc4af9bffa704d90a3793380d7965fd0f792922e13e240a9f56d4222a4fdd1",
+     "bytes": 505680
+    },
+    {
+     "file": "res://assets/original/Map/Res/Wall/0.png",
+     "sha256": "07bfa06728270c7f901eafc930c8c19a465af39e634d7ec0aa1160d9fcfad629",
+     "bytes": 699369
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Map/Res/Wall/1.png",
+     "sha256": "b79156b438c996ce73f7caf22522d686e235b6f7aea7e628b2dc6166032f7f9b",
+     "bytes": 662774
+    },
+    {
+     "file": "res://assets/original/Npc/0.png",
+     "sha256": "c0de28cf0fe814dec4829db167869c7ebed876cc9cc2086f99d490427a0bfa67",
+     "bytes": 125130
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Npc/1.png",
+     "sha256": "5cdcc33b6e9b4ec5848d8dd89d963eba7f926200e93871684c47978607240f2e",
+     "bytes": 146198
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Data4/0.png",
+     "sha256": "7f65a5d911cdc957496f2a9a914a674f7d70965f83a8b54691ba1eb30c185566",
+     "bytes": 49309
+    }
+   ],
+   "scope": "File integrity only; not a new import, rendering, engine, packed-export or art-approval validation."
+  },
+  "A01": {
+   "manifest": "Project/assets/original/maps/A01/manifest.json",
+   "required_unique_frames": 356,
+   "cumulative_page_count": 15,
+   "all_declared_pages_exist_and_sha_match": true,
+   "pages": [
+    {
+     "file": "res://assets/original/Map/Res/Building/0.png",
+     "sha256": "6fc88a1aa96eb18687eea798bcb4eae1f0ebf6d546a5a076fb1c2546550b3343",
+     "bytes": 2138303
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Map/Res/Building/1.png",
+     "sha256": "012eb9d4fc5dc88bae68225dc4f2fcd6c952d52d40b48b77d33c260fbc88bf49",
+     "bytes": 3496505
+    },
+    {
+     "file": "res://assets/original/Map/Res/Debris/0.png",
+     "sha256": "1a40e7affec8b5ef82ee902dda23261e67dd2ddf499301adbcfea4dea0c1b87e",
+     "bytes": 128529
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Map/Res/Debris/1.png",
+     "sha256": "cf429f25087709f664a4a428bab1038434b31347b5d1bd6e8c9bc1b8fa417505",
+     "bytes": 147951
+    },
+    {
+     "file": "res://assets/original/Map/Res/FloorBig/0.png",
+     "sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59",
+     "bytes": 490337
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Map/Res/FloorBig/1.png",
+     "sha256": "bfbf0276edacf108ed127ccfc2af6c1a47e685916fb647a939493b122a6dcef2",
+     "bytes": 101012
+    },
+    {
+     "file": "res://assets/original/maps/A01/sprites/Map/Res/FloorBig/2.png",
+     "sha256": "fe6aaf653112c3b34eb356ba5886997c11b481903fd7147bd7285f1ca4cbc005",
+     "bytes": 248469
+    },
+    {
+     "file": "res://assets/original/Map/Res/FloorSmall/0.png",
+     "sha256": "741a0daca4ccc8e9ac1eeac3ae391a07189d90fed115b42fd0d8b55b376f79bb",
+     "bytes": 114814
+    },
+    {
+     "file": "res://assets/original/Map/Res/Plant/0.png",
+     "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+     "bytes": 723574
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png",
+     "sha256": "e8fc4af9bffa704d90a3793380d7965fd0f792922e13e240a9f56d4222a4fdd1",
+     "bytes": 505680
+    },
+    {
+     "file": "res://assets/original/Map/Res/Wall/0.png",
+     "sha256": "07bfa06728270c7f901eafc930c8c19a465af39e634d7ec0aa1160d9fcfad629",
+     "bytes": 699369
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Map/Res/Wall/1.png",
+     "sha256": "b79156b438c996ce73f7caf22522d686e235b6f7aea7e628b2dc6166032f7f9b",
+     "bytes": 662774
+    },
+    {
+     "file": "res://assets/original/Npc/0.png",
+     "sha256": "c0de28cf0fe814dec4829db167869c7ebed876cc9cc2086f99d490427a0bfa67",
+     "bytes": 125130
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Npc/1.png",
+     "sha256": "5cdcc33b6e9b4ec5848d8dd89d963eba7f926200e93871684c47978607240f2e",
+     "bytes": 146198
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Data4/0.png",
+     "sha256": "7f65a5d911cdc957496f2a9a914a674f7d70965f83a8b54691ba1eb30c185566",
+     "bytes": 49309
+    }
+   ],
+   "scope": "File integrity only; not a new import, rendering, engine, packed-export or art-approval validation."
+  },
+  "A02": {
+   "manifest": "Project/assets/original/maps/A02/manifest.json",
+   "required_unique_frames": 64,
+   "cumulative_page_count": 16,
+   "all_declared_pages_exist_and_sha_match": true,
+   "pages": [
+    {
+     "file": "res://assets/original/Map/Res/Building/0.png",
+     "sha256": "6fc88a1aa96eb18687eea798bcb4eae1f0ebf6d546a5a076fb1c2546550b3343",
+     "bytes": 2138303
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Map/Res/Building/1.png",
+     "sha256": "012eb9d4fc5dc88bae68225dc4f2fcd6c952d52d40b48b77d33c260fbc88bf49",
+     "bytes": 3496505
+    },
+    {
+     "file": "res://assets/original/Map/Res/Debris/0.png",
+     "sha256": "1a40e7affec8b5ef82ee902dda23261e67dd2ddf499301adbcfea4dea0c1b87e",
+     "bytes": 128529
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Map/Res/Debris/1.png",
+     "sha256": "cf429f25087709f664a4a428bab1038434b31347b5d1bd6e8c9bc1b8fa417505",
+     "bytes": 147951
+    },
+    {
+     "file": "res://assets/original/Map/Res/FloorBig/0.png",
+     "sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59",
+     "bytes": 490337
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Map/Res/FloorBig/1.png",
+     "sha256": "bfbf0276edacf108ed127ccfc2af6c1a47e685916fb647a939493b122a6dcef2",
+     "bytes": 101012
+    },
+    {
+     "file": "res://assets/original/maps/A01/sprites/Map/Res/FloorBig/2.png",
+     "sha256": "fe6aaf653112c3b34eb356ba5886997c11b481903fd7147bd7285f1ca4cbc005",
+     "bytes": 248469
+    },
+    {
+     "file": "res://assets/original/maps/A02/sprites/Map/Res/FloorBig/3.png",
+     "sha256": "5efae9116b6309ee46042295e0b9c64e78fef03ffdcf86a0c90cbc6b72a0e235",
+     "bytes": 99142
+    },
+    {
+     "file": "res://assets/original/Map/Res/FloorSmall/0.png",
+     "sha256": "741a0daca4ccc8e9ac1eeac3ae391a07189d90fed115b42fd0d8b55b376f79bb",
+     "bytes": 114814
+    },
+    {
+     "file": "res://assets/original/Map/Res/Plant/0.png",
+     "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+     "bytes": 723574
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png",
+     "sha256": "e8fc4af9bffa704d90a3793380d7965fd0f792922e13e240a9f56d4222a4fdd1",
+     "bytes": 505680
+    },
+    {
+     "file": "res://assets/original/Map/Res/Wall/0.png",
+     "sha256": "07bfa06728270c7f901eafc930c8c19a465af39e634d7ec0aa1160d9fcfad629",
+     "bytes": 699369
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Map/Res/Wall/1.png",
+     "sha256": "b79156b438c996ce73f7caf22522d686e235b6f7aea7e628b2dc6166032f7f9b",
+     "bytes": 662774
+    },
+    {
+     "file": "res://assets/original/Npc/0.png",
+     "sha256": "c0de28cf0fe814dec4829db167869c7ebed876cc9cc2086f99d490427a0bfa67",
+     "bytes": 125130
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Npc/1.png",
+     "sha256": "5cdcc33b6e9b4ec5848d8dd89d963eba7f926200e93871684c47978607240f2e",
+     "bytes": 146198
+    },
+    {
+     "file": "res://assets/original/maps/A00/sprites/Data4/0.png",
+     "sha256": "7f65a5d911cdc957496f2a9a914a674f7d70965f83a8b54691ba1eb30c185566",
+     "bytes": 49309
+    }
+   ],
+   "scope": "File integrity only; not a new import, rendering, engine, packed-export or art-approval validation."
+  }
+ },
+ "unknowns": [
+  "A13 candidate cold-package/stability acceptance is outside this investigation.",
+  "Original executable success/failure and rollback semantics for money/GIVE/SETMAPFLAG; capacity overflow behavior.",
+  "Original monster death-event call site/lifecycle, BT600 timing unit/decrement/save semantics, and drop RNG distribution.",
+  "Original A01 numeric-ID versus name lookup precedence and cause of stored mismatch.",
+  "Uninterpreted original map tails.",
+  "No new Godot/native gameplay, frame timing, rendering or Windows acceptance test."
+ ]
+}
