@@ -1,0 +1,193 @@
+{
+  "schema": "a13-wall2653-anchor18-17-owned-D2-v1",
+  "map": "A13",
+  "anchor": [
+    18,
+    17
+  ],
+  "source_world_origin": [
+    688,
+    333
+  ],
+  "source_canvas": [
+    256,
+    384
+  ],
+  "target_density": 2,
+  "internal_sampling_density": 4,
+  "raw_paths": {
+    "main": "raw/main.png",
+    "cap_eave": "raw/cap_eave.png",
+    "ridge": "raw/ridge.png",
+    "M2": "project://art_source/earth_wall_surface_material_research_v1/m2/generated-raw.png",
+    "M3": "project://art_source/earth_wall_surface_material_research_v1/m3/generated-raw.png"
+  },
+  "specs": {
+    "ridge": {
+      "raw": "ridge",
+      "nominal_Q0": 149,
+      "D": 27.792546938282552,
+      "x0": 111.17018775313022,
+      "y0": 201.44247692028978,
+      "logical_height": 40.77046442255434
+    },
+    "main": {
+      "raw": "main",
+      "Q": [
+        198,
+        259
+      ],
+      "nominal_Q0": 198,
+      "D": 26.14242572549903,
+      "x0": 134.96857432681747,
+      "y0": 104.56970290199612,
+      "logical_height": 50.755067954608464,
+      "bounds": [
+        134.96857432681747,
+        104.56970290199612,
+        889.0314256731825,
+        1431.4302970980038
+      ],
+      "raw_margins": [
+        134.96857432681747,
+        104.56970290199612,
+        134.96857432681747,
+        104.56970290199615
+      ],
+      "margins_logical": [
+        5.162817549680198,
+        4.0,
+        5.162817549680198,
+        4.000000000000001
+      ]
+    },
+    "eave": {
+      "raw": "cap_eave",
+      "Q": [
+        259,
+        267
+      ],
+      "nominal_Q0": 259,
+      "D": 28.09325368799025,
+      "x0": 38.33333333333337,
+      "y0": 1583.5,
+      "logical_height": 6.65640235470275,
+      "bounds": [
+        38.33333333333337,
+        1583.5,
+        848.6666666666666,
+        1770.5
+      ],
+      "raw_margins": [
+        38.33333333333337,
+        1583.5,
+        38.33333333333337,
+        3.5
+      ],
+      "margins_logical": [
+        1.3645031564898698,
+        56.36584560787061,
+        1.3645031564898698,
+        0.12458507080994452
+      ]
+    }
+  },
+  "source_image": "project://art_source/earth_wall_straight_two_failed_research_v1/source/INPUT_01_SOURCE_FIXED_256x384.png",
+  "source_atlas": "project://assets/original/Map/Res/Wall/0.png",
+  "source_map": "project://data/maps/A13.json",
+  "source_manifest": "project://assets/original/manifest.json",
+  "source_contract": "project://art_source/earth_wall_surface_material_research_v1/surface-plan/SURFACE_UV_REVIEW.json",
+  "source_index": "project://art_source/earth_wall_straight_two_failed_research_v1/source/SOURCE_INDEX.json",
+  "material_partition_Q": [
+    198,
+    259,
+    267,
+    322
+  ],
+  "period": 28.844410203711913,
+  "phase_origin": [
+    32,
+    20
+  ],
+  "owner_ids_in_original_draw_order": [
+    2653,
+    2654,
+    2655,
+    2656,
+    2657,
+    2658,
+    2659,
+    2660
+  ],
+  "filter_contract": {
+    "texture_filter": "nearest",
+    "mipmaps": false,
+    "repeat": false,
+    "lossless_source_PNG": true,
+    "linear_filtering_not_validated_or_approved": true,
+    "alpha_processing": "verbatim native alpha repeated2x; no threshold, morphology, RGB bleed or alpha weakening"
+  },
+  "plant": {
+    "frame": {
+      "key": "Map/Res/Plant:274",
+      "pack": "Map/Res/Plant",
+      "frame_index": 274,
+      "original": [
+        48,
+        224
+      ],
+      "crop": [
+        0,
+        6
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        48,
+        207
+      ],
+      "rgba_sha256": "51bd1a10a23766a1d04c34fe1b157988ef4b930d184333b4e222179d9bbe4ffa",
+      "alpha_bbox": [
+        0,
+        0,
+        48,
+        207
+      ],
+      "atlas": "res://assets/original/Map/Res/Plant/0.png",
+      "atlas_rect": [
+        1861,
+        1,
+        48,
+        207
+      ],
+      "native_source_offset": 3873042,
+      "native_source_bytes": 21560
+    },
+    "world_bounds": [
+      720,
+      678,
+      768,
+      885
+    ],
+    "native_overlap_pixels": 60,
+    "original_RGBA_unchanged": true,
+    "composited_after_all_wall_owners": true
+  },
+  "neighbor_scope": {
+    "left_same_family_anchor": [
+      14,
+      21
+    ],
+    "left_replaced": false,
+    "right_corner_root": [
+      20,
+      15
+    ],
+    "right_replaced": false,
+    "plant_modified": false
+  },
+  "accepted_D2_RGBA_sha256": "6e41f40424408c361119c0c0d711edcbf76b9fb0cae93d01553b37a37a01a416",
+  "accepted_D2_PNG_sha256": "4815aed4c9c0eaec20107010fd0cd6759e739c0a77acb2794d080aa005142587"
+}
