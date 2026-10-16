@@ -1,0 +1,567 @@
+{
+  "status": "frozen BEFORE registered front-part inspection; separately authorized global registration; original fixedcanvas rejection retained",
+  "scale_reference_to_fixedmap": 1.278850545546816,
+  "translation_reference_to_fixedmap_HD4": [
+    -29.583397614818637,
+    -16.581466632834406
+  ],
+  "rotation": 0,
+  "raw_to_logical_density": 0.07981649269861713,
+  "output_HD4_to_raw_affine": [
+    3.132184734600991,
+    0,
+    -72.45621212691908,
+    0,
+    3.132184734600991,
+    -40.61163897963739
+  ],
+  "method": "single bicubic raw->512 inverse global uniform similarity; no intermediate resample; no target-front anchors used",
+  "fit_names": [
+    "head",
+    "shoulder",
+    "chest",
+    "forearm",
+    "hand"
+  ],
+  "held_out_existing": [
+    "rear_shin",
+    "rear_boot"
+  ],
+  "front_part": "entirely held-out; no subsequent fit permitted",
+  "support": "../..//FROZEN-newpart-support.png unchanged",
+  "raw_sha256": "b43c1492370fe2e870746576886aef988b631db497b91f63889a17126f18a774",
+  "evidence_sha256": "4cb613f58936fc6dca5457dff5f0f66a5f33121a88a3c90270473873318d421c",
+  "evidence": {
+    "purpose": "read-only global-density diagnosis; no target front-leg fitting, extraction, corrective transform or adoption",
+    "rows": [
+      {
+        "name": "head",
+        "box": [
+          133,
+          63,
+          187,
+          112
+        ],
+        "source_center": [
+          160.0,
+          87.5
+        ],
+        "matched_center": [
+          175.0,
+          95.5
+        ],
+        "local_scale": 1.2900000000000005,
+        "ncc": 0.946516005083316,
+        "scale_band_within_001_NCC": [
+          1.2900000000000005,
+          1.3000000000000003
+        ],
+        "role": "fit"
+      },
+      {
+        "name": "shoulder",
+        "box": [
+          106,
+          114,
+          145,
+          162
+        ],
+        "source_center": [
+          125.5,
+          138.0
+        ],
+        "matched_center": [
+          130.5,
+          160.0
+        ],
+        "local_scale": 1.3000000000000003,
+        "ncc": 0.9212951009158891,
+        "scale_band_within_001_NCC": [
+          1.3000000000000003,
+          1.3000000000000003
+        ],
+        "role": "fit"
+      },
+      {
+        "name": "chest",
+        "box": [
+          158,
+          143,
+          182,
+          177
+        ],
+        "source_center": [
+          170.0,
+          160.0
+        ],
+        "matched_center": [
+          187.5,
+          188.0
+        ],
+        "local_scale": 1.2800000000000002,
+        "ncc": 0.9140172865805176,
+        "scale_band_within_001_NCC": [
+          1.2800000000000002,
+          1.3000000000000003
+        ],
+        "role": "fit"
+      },
+      {
+        "name": "forearm",
+        "box": [
+          149,
+          181,
+          177,
+          204
+        ],
+        "source_center": [
+          163.0,
+          192.5
+        ],
+        "matched_center": [
+          179.0,
+          229.5
+        ],
+        "local_scale": 1.2700000000000005,
+        "ncc": 0.9367873647571796,
+        "scale_band_within_001_NCC": [
+          1.2700000000000005,
+          1.3000000000000003
+        ],
+        "role": "fit"
+      },
+      {
+        "name": "hand",
+        "box": [
+          175,
+          207,
+          194,
+          225
+        ],
+        "source_center": [
+          184.5,
+          216.0
+        ],
+        "matched_center": [
+          207.0,
+          259.5
+        ],
+        "local_scale": 1.2500000000000004,
+        "ncc": 0.90413425318079,
+        "scale_band_within_001_NCC": [
+          1.2400000000000002,
+          1.2800000000000002
+        ],
+        "role": "fit"
+      },
+      {
+        "name": "rear_shin",
+        "box": [
+          102,
+          275,
+          118,
+          290
+        ],
+        "source_center": [
+          110.0,
+          282.5
+        ],
+        "matched_center": [
+          110.5,
+          344.0
+        ],
+        "local_scale": 1.3000000000000003,
+        "ncc": 0.905596835809174,
+        "scale_band_within_001_NCC": [
+          1.2900000000000005,
+          1.4000000000000004
+        ],
+        "role": "held_out"
+      },
+      {
+        "name": "rear_boot",
+        "box": [
+          71,
+          303,
+          129,
+          345
+        ],
+        "source_center": [
+          100.0,
+          324.0
+        ],
+        "matched_center": [
+          97.5,
+          397.0
+        ],
+        "local_scale": 1.2900000000000005,
+        "ncc": 0.9277997036371597,
+        "scale_band_within_001_NCC": [
+          1.2900000000000005,
+          1.2900000000000005
+        ],
+        "role": "held_out"
+      }
+    ],
+    "models": {
+      "scale_translation": {
+        "matrix": [
+          [
+            1.278850545546816,
+            0.0
+          ],
+          [
+            0.0,
+            1.278850545546816
+          ]
+        ],
+        "scale": 1.278850545546816,
+        "rotation_deg": 0.0,
+        "translation_HD4": [
+          -29.583397614818637,
+          -16.581466632834406
+        ],
+        "residuals": [
+          {
+            "name": "head",
+            "role": "fit",
+            "predicted_center": [
+              175.03268967267192,
+              95.317956102512
+            ],
+            "residual_HD4": [
+              -0.032689672671921244,
+              0.18204389748800054
+            ],
+            "norm_logical": 0.04623891442282342
+          },
+          {
+            "name": "shoulder",
+            "role": "fit",
+            "predicted_center": [
+              130.91234585130678,
+              159.8999086526262
+            ],
+            "residual_HD4": [
+              -0.4123458513067817,
+              0.100091347373791
+            ],
+            "norm_logical": 0.10607997540447237
+          },
+          {
+            "name": "chest",
+            "role": "fit",
+            "predicted_center": [
+              187.8211951281401,
+              188.03462065465615
+            ],
+            "residual_HD4": [
+              -0.32119512814009,
+              -0.03462065465615183
+            ],
+            "norm_logical": 0.08076389202087363
+          },
+          {
+            "name": "forearm",
+            "role": "fit",
+            "predicted_center": [
+              178.86924130931237,
+              229.59726338492766
+            ],
+            "residual_HD4": [
+              0.13075869068762813,
+              -0.09726338492765763
+            ],
+            "norm_logical": 0.0407415644934081
+          },
+          {
+            "name": "hand",
+            "role": "fit",
+            "predicted_center": [
+              206.36452803856892,
+              259.65025120527787
+            ],
+            "residual_HD4": [
+              0.6354719614310795,
+              -0.1502512052778684
+            ],
+            "norm_logical": 0.16324828453396448
+          },
+          {
+            "name": "rear_shin",
+            "role": "held_out",
+            "predicted_center": [
+              111.09016239533113,
+              344.6938124841411
+            ],
+            "residual_HD4": [
+              -0.5901623953311343,
+              -0.6938124841411195
+            ],
+            "norm_logical": 0.22771520261242073
+          },
+          {
+            "name": "rear_boot",
+            "role": "held_out",
+            "predicted_center": [
+              98.30165693986297,
+              397.766110124334
+            ],
+            "residual_HD4": [
+              -0.8016569398629656,
+              -0.7661101243339772
+            ],
+            "norm_logical": 0.27721590996882245
+          }
+        ],
+        "fit_RMS_HD4": 0.3928304759005411
+      },
+      "similarity_with_rotation": {
+        "matrix": [
+          [
+            1.278850545546816,
+            0.004994502241393886
+          ],
+          [
+            -0.004994502241393886,
+            1.278850545546816
+          ]
+        ],
+        "scale": 1.2788602984290458,
+        "rotation_deg": -0.22376535342036516,
+        "translation_HD4": [
+          -30.376524570751968,
+          -15.77934957286655
+        ],
+        "residuals": [
+          {
+            "name": "head",
+            "role": "fit",
+            "predicted_center": [
+              174.67658166286054,
+              95.32095280385683
+            ],
+            "residual_HD4": [
+              0.3234183371394579,
+              0.17904719614317344
+            ],
+            "norm_logical": 0.09241797689193919
+          },
+          {
+            "name": "shoulder",
+            "role": "fit",
+            "predicted_center": [
+              130.8084602046858,
+              160.07521568129914
+            ],
+            "residual_HD4": [
+              -0.3084602046857867,
+              -0.07521568129914158
+            ],
+            "norm_logical": 0.07937454589952447
+          },
+          {
+            "name": "chest",
+            "role": "fit",
+            "predicted_center": [
+              187.82718853082977,
+              187.98767233358706
+            ],
+            "residual_HD4": [
+              -0.3271885308297726,
+              0.012327666412943472
+            ],
+            "norm_logical": 0.08185517166989736
+          },
+          {
+            "name": "forearm",
+            "role": "fit",
+            "predicted_center": [
+              179.03755603484737,
+              229.58527657954832
+            ],
+            "residual_HD4": [
+              -0.0375560348473698,
+              -0.0852765795483208
+            ],
+            "norm_logical": 0.02329505147681308
+          },
+          {
+            "name": "hand",
+            "role": "fit",
+            "predicted_center": [
+              206.65021356677667,
+              259.5308826017085
+            ],
+            "residual_HD4": [
+              0.34978643322332914,
+              -0.030882601708526636
+            ],
+            "norm_logical": 0.08778677432968832
+          },
+          {
+            "name": "rear_shin",
+            "role": "held_out",
+            "predicted_center": [
+              111.70798232259156,
+              344.9465342975557
+            ],
+            "residual_HD4": [
+              -1.2079823225915618,
+              -0.9465342975556723
+            ],
+            "norm_logical": 0.3836623245237042
+          },
+          {
+            "name": "rear_boot",
+            "role": "held_out",
+            "predicted_center": [
+              99.12674871014124,
+              398.0687769601625
+            ],
+            "residual_HD4": [
+              -1.6267487101412428,
+              -1.068776960162495
+            ],
+            "norm_logical": 0.48660787322291016
+          }
+        ],
+        "fit_RMS_HD4": 0.3087567186724569
+      }
+    },
+    "leave_one_out_fit_sensitivity": [
+      {
+        "omitted": "head",
+        "scale": 1.2818542115357623,
+        "rotation_deg": -0.45777608806380704,
+        "translation_HD4": [
+          -31.86039640175113,
+          -15.503949158160651
+        ]
+      },
+      {
+        "omitted": "shoulder",
+        "scale": 1.277268587953499,
+        "rotation_deg": -0.20231130978477851,
+        "translation_HD4": [
+          -29.950662389735356,
+          -15.581857257417795
+        ]
+      },
+      {
+        "omitted": "chest",
+        "scale": 1.279187215137168,
+        "rotation_deg": -0.22613932614990132,
+        "translation_HD4": [
+          -30.35503170164168,
+          -15.825624959972686
+        ]
+      },
+      {
+        "omitted": "forearm",
+        "scale": 1.2792171754005366,
+        "rotation_deg": -0.2294166953120434,
+        "translation_HD4": [
+          -30.443338603694883,
+          -15.791209517912222
+        ]
+      },
+      {
+        "omitted": "hand",
+        "scale": 1.2776770306027103,
+        "rotation_deg": -0.058297193726426805,
+        "translation_HD4": [
+          -29.74855975139573,
+          -16.173221615749696
+        ]
+      }
+    ],
+    "uncertainty": "local scale bands are score sensitivity, not statistical confidence; pixel-center matching quantized around0.5HD4; local redraw can bias centers and scores",
+    "common_scale_patch_checks": [
+      {
+        "name": "head",
+        "common_scale_NCC_at_predicted_position": 0.9318060063090449,
+        "composited_RGB_MAE_255": 11.667204487806933,
+        "sampling_caveat": "nearest integer patch origin; source patch resized once; raw mapped image already resampled, so pixel error is not pure redraw"
+      },
+      {
+        "name": "shoulder",
+        "common_scale_NCC_at_predicted_position": 0.8979045464494723,
+        "composited_RGB_MAE_255": 16.087156969891783,
+        "sampling_caveat": "nearest integer patch origin; source patch resized once; raw mapped image already resampled, so pixel error is not pure redraw"
+      },
+      {
+        "name": "chest",
+        "common_scale_NCC_at_predicted_position": 0.8807509005456199,
+        "composited_RGB_MAE_255": 16.689209557291285,
+        "sampling_caveat": "nearest integer patch origin; source patch resized once; raw mapped image already resampled, so pixel error is not pure redraw"
+      },
+      {
+        "name": "forearm",
+        "common_scale_NCC_at_predicted_position": 0.9367873647571799,
+        "composited_RGB_MAE_255": 19.917770390403927,
+        "sampling_caveat": "nearest integer patch origin; source patch resized once; raw mapped image already resampled, so pixel error is not pure redraw"
+      },
+      {
+        "name": "hand",
+        "common_scale_NCC_at_predicted_position": 0.8138031537883009,
+        "composited_RGB_MAE_255": 19.64168442739415,
+        "sampling_caveat": "nearest integer patch origin; source patch resized once; raw mapped image already resampled, so pixel error is not pure redraw"
+      },
+      {
+        "name": "rear_shin",
+        "common_scale_NCC_at_predicted_position": 0.8133687799092112,
+        "composited_RGB_MAE_255": 20.562414860681113,
+        "sampling_caveat": "nearest integer patch origin; source patch resized once; raw mapped image already resampled, so pixel error is not pure redraw"
+      },
+      {
+        "name": "rear_boot",
+        "common_scale_NCC_at_predicted_position": 0.8519494125493813,
+        "composited_RGB_MAE_255": 15.166251382101056,
+        "sampling_caveat": "nearest integer patch origin; source patch resized once; raw mapped image already resampled, so pixel error is not pure redraw"
+      }
+    ],
+    "no_rotation_leave_one_out": [
+      {
+        "omitted": "head",
+        "scale": 1.2818132979756993,
+        "translation_HD4": [
+          -30.051487649593668,
+          -17.15027375495788
+        ]
+      },
+      {
+        "omitted": "shoulder",
+        "scale": 1.277260625501203,
+        "translation_HD4": [
+          -29.211018444266244,
+          -16.34574258219726
+        ]
+      },
+      {
+        "omitted": "chest",
+        "scale": 1.2791772516704738,
+        "translation_HD4": [
+          -29.554800076852473,
+          -16.624594389770095
+        ]
+      },
+      {
+        "omitted": "forearm",
+        "scale": 1.2792069208063053,
+        "translation_HD4": [
+          -29.673107329008843,
+          -16.61074071624816
+        ]
+      },
+      {
+        "omitted": "hand",
+        "scale": 1.2776763692378925,
+        "translation_HD4": [
+          -29.560708593409117,
+          -16.37423535487548
+        ]
+      }
+    ]
+  }
+}

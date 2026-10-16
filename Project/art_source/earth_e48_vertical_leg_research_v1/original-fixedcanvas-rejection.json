@@ -1,0 +1,149 @@
+{
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "raw_sha256": "b43c1492370fe2e870746576886aef988b631db497b91f63889a17126f18a774",
+  "mapping": "full square128/1254 logical per outputpixel; no registration fit",
+  "anchors": [
+    {
+      "name": "head",
+      "reference_box": [
+        136,
+        64,
+        184,
+        112
+      ],
+      "best_ncc": 0.68901127576828,
+      "offset_HD4": [
+        13,
+        11
+      ],
+      "offset_logical": [
+        3.25,
+        2.75
+      ],
+      "second_spatial_peak_ncc": 0.6339465379714966,
+      "spatial_peak_margin": 0.05506473779678345,
+      "center_reference": [
+        160.0,
+        88.0
+      ],
+      "center_matched": [
+        173.0,
+        99.0
+      ],
+      "passes_NCC085_and_offset_le2HD4": false
+    },
+    {
+      "name": "redshoulder",
+      "reference_box": [
+        112,
+        116,
+        140,
+        152
+      ],
+      "best_ncc": 0.6161664724349976,
+      "offset_HD4": [
+        5,
+        16
+      ],
+      "offset_logical": [
+        1.25,
+        4.0
+      ],
+      "second_spatial_peak_ncc": 0.5965436697006226,
+      "spatial_peak_margin": 0.019622802734375,
+      "center_reference": [
+        126.0,
+        134.0
+      ],
+      "center_matched": [
+        131.0,
+        150.0
+      ],
+      "passes_NCC085_and_offset_le2HD4": false
+    },
+    {
+      "name": "neararmhand",
+      "reference_box": [
+        168,
+        192,
+        196,
+        220
+      ],
+      "best_ncc": 0.4759012460708618,
+      "offset_HD4": [
+        6,
+        24
+      ],
+      "offset_logical": [
+        1.5,
+        6.0
+      ],
+      "second_spatial_peak_ncc": 0.378629595041275,
+      "spatial_peak_margin": 0.09727165102958679,
+      "center_reference": [
+        182.0,
+        206.0
+      ],
+      "center_matched": [
+        188.0,
+        230.0
+      ],
+      "passes_NCC085_and_offset_le2HD4": false
+    }
+  ],
+  "pairwise": [
+    {
+      "names": [
+        "head",
+        "redshoulder"
+      ],
+      "relative_distance_residual": 0.1550092877408935,
+      "passes_one_percent": false
+    },
+    {
+      "names": [
+        "head",
+        "neararmhand"
+      ],
+      "relative_distance_residual": 0.09849475527818585,
+      "passes_one_percent": false
+    },
+    {
+      "names": [
+        "redshoulder",
+        "neararmhand"
+      ],
+      "relative_distance_residual": 0.07691019909882768,
+      "passes_one_percent": false
+    }
+  ],
+  "anchor_gate_pass": false,
+  "new_visible_exterior_alpha128_in_front_ROI": 5430,
+  "new_visible_exterior_alpha128_outside_support": 2538,
+  "front_ROI_HD4": [
+    160,
+    232,
+    272,
+    344
+  ],
+  "support_count_limitation": "not isolated-part alpha: existing opaque cloth can occlude hidden spill; this is only a lower bound for new visible exterior spill",
+  "no_fit_no_extraction_no_composite": true,
+  "interpretation": "REJECT: whole-character reframing/scale drift; low NCC offsets are mismatch diagnostics, not reliable geometric registration; arm peak hits search boundary. No correction transform permitted.",
+  "support_interpretation": "2538 strong exterior pixels outside support within ROI are a full-context failure count, NOT 2538 individually classified part spills. Global drift invalidates narrow support-revision consideration.",
+  "reference_alpha128_bbox_HD4": [
+    71,
+    63,
+    217,
+    345
+  ],
+  "mapped_alpha128_bbox_HD4": [
+    58,
+    63,
+    296,
+    424
+  ],
+  "raw_alpha0_pixels": 1385882
+}

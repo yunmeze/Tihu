@@ -1,0 +1,185 @@
+{
+  "phase": 48,
+  "reference_order": [
+    "ref1-context-missing-right.png",
+    "ref2-source48-pose.png",
+    "ref3-nearvertical-upward-boot-guide.png",
+    "ref4-neutral-material-details.png"
+  ],
+  "canvas_HD4": [
+    512,
+    512
+  ],
+  "root_HD4": [
+    64,
+    256
+  ],
+  "map": "entire square output to512; logical128/W; no fit or local transforms",
+  "ankle": [
+    49,
+    75
+  ],
+  "toe": [
+    58.56960777325974,
+    74.13003565697639
+  ],
+  "design_tolerance_logical": 0.5,
+  "source_ankle_uncertainty": 3,
+  "source_toe_uncertainty": 2,
+  "proximal_surface_region": [
+    46,
+    61,
+    52,
+    67
+  ],
+  "density_family": 0.16173127687142191,
+  "support_polygon_logical": [
+    [
+      44,
+      60
+    ],
+    [
+      54,
+      60
+    ],
+    [
+      54,
+      70
+    ],
+    [
+      55,
+      72
+    ],
+    [
+      62,
+      70
+    ],
+    [
+      64,
+      74
+    ],
+    [
+      63,
+      78
+    ],
+    [
+      53,
+      82
+    ],
+    [
+      46,
+      82
+    ],
+    [
+      44,
+      77
+    ]
+  ],
+  "support_HD4_pixels": 4869,
+  "guide_polygon_logical": [
+    [
+      46.5,
+      62
+    ],
+    [
+      51.5,
+      62
+    ],
+    [
+      52,
+      68
+    ],
+    [
+      52,
+      73
+    ],
+    [
+      54,
+      74.5
+    ],
+    [
+      58.5,
+      72.5
+    ],
+    [
+      60.5,
+      73
+    ],
+    [
+      61,
+      74.5
+    ],
+    [
+      59.5,
+      76
+    ],
+    [
+      53,
+      78
+    ],
+    [
+      48,
+      79
+    ],
+    [
+      46.5,
+      76
+    ],
+    [
+      47,
+      70
+    ]
+  ],
+  "independent_global_drift_checks": [
+    {
+      "name": "head",
+      "HD4_box_xyxy": [
+        136,
+        64,
+        184,
+        112
+      ]
+    },
+    {
+      "name": "redshoulder",
+      "HD4_box_xyxy": [
+        112,
+        116,
+        140,
+        152
+      ]
+    },
+    {
+      "name": "neararmhand",
+      "HD4_box_xyxy": [
+        168,
+        192,
+        196,
+        220
+      ]
+    }
+  ],
+  "anchor_gate": "each NCC>=0.85, offset norm<=2HD4; pair distance change<=1%; diagnostic only, never used to fit",
+  "ownership": "Only old right component may be replaced; existing cuff extension protected. No cloth mask removal authorized.",
+  "underlap": "normal source-over beneath fixed layers within support; opaque fixed result/outside-domain exact; quantify semialpha changes",
+  "spill": "measure unambiguous exterior output beyond support; fullcontext hidden overlap cannot establish isolated-component support. Classify genuine spills and ask parent for explicit revision. Never clip to pretend pass.",
+  "buffer_and_replay": "audit48 independent-buffer mutation test and exact frozen reconstruction passed before references; reference1 direct diagnostic bytecopy",
+  "refs": [
+    {
+      "file": "ref1-context-missing-right.png",
+      "sha256": "bfd53a25d3e8896b8bf1b480a4c10ff65f125d78bf441c53924e5f44fe87d517"
+    },
+    {
+      "file": "ref2-source48-pose.png",
+      "sha256": "22e10d2653d528ed0adbe62a5e1cde7c2d6cc946fc5516b595e73e7070a7101b"
+    },
+    {
+      "file": "ref3-nearvertical-upward-boot-guide.png",
+      "sha256": "6821b8a245b96675537c79db36076a25e8bbaa4dd288be06c173233de7b9b55c"
+    },
+    {
+      "file": "ref4-neutral-material-details.png",
+      "sha256": "46b9c4afd56776c40248e56798ab5c10851a7f6695fcfd0f3539fa6affd781d8"
+    }
+  ]
+}

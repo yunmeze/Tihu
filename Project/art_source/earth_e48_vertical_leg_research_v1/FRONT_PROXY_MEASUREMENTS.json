@@ -1,0 +1,47 @@
+{
+  "method": "manual visible-surface proxies after global transform frozen; not skeletal joint extraction",
+  "ankle_estimate": [
+    51.5,
+    75
+  ],
+  "ankle_uncertainty": 1,
+  "fixed_ankle": [
+    49,
+    75
+  ],
+  "ankle_delta": [
+    2.5,
+    0
+  ],
+  "toe_estimate": [
+    62,
+    74.5
+  ],
+  "toe_uncertainty": 1,
+  "fixed_toe": [
+    58.56960777325974,
+    74.13003565697639
+  ],
+  "toe_delta": [
+    3.43039222674026,
+    0.36996434302361
+  ],
+  "proximal_surface_center": [
+    50,
+    66.5
+  ],
+  "proximal_uncertainty": 1.5,
+  "accepted_design_region": [
+    46,
+    61,
+    52,
+    67
+  ],
+  "interface_note": "central estimate inside region but uncertainty crosses bottom; original cuff must occlude, no cleanup assumed",
+  "toe_minus_ankle": [
+    10.5,
+    -0.5
+  ],
+  "source_pitch_note": "slight upward toe retained; direction agrees source, exact sole contact unproven",
+  "conclusion": "held-out new front anchors do NOT satisfy frozen0.5logical design tolerance; no local correction authorized"
+}
