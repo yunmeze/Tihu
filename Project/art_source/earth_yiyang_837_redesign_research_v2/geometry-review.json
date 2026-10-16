@@ -1,0 +1,204 @@
+{
+  "coordinate_system": "160 square; world=point+(2592,2200)",
+  "manual_uncertainty_logical": 3,
+  "source": {
+    "face": [
+      76,
+      48
+    ],
+    "high_hand": [
+      55,
+      58
+    ],
+    "low_hand": [
+      88,
+      76
+    ],
+    "left_armrest": [
+      53,
+      65
+    ],
+    "right_armrest": [
+      98,
+      83
+    ],
+    "chair_right": [
+      107,
+      75
+    ],
+    "base_right": [
+      113,
+      118
+    ],
+    "base_front_proxy": [
+      76,
+      137
+    ]
+  },
+  "candidate": {
+    "face": [
+      83,
+      47
+    ],
+    "high_hand": [
+      55,
+      59
+    ],
+    "low_hand": [
+      92,
+      80
+    ],
+    "left_armrest": [
+      56,
+      73
+    ],
+    "right_armrest": [
+      101,
+      85
+    ],
+    "chair_right": [
+      120,
+      77
+    ],
+    "base_right": [
+      123,
+      124
+    ],
+    "base_front_proxy": [
+      67,
+      141
+    ]
+  },
+  "deltas": {
+    "face": [
+      7,
+      -1
+    ],
+    "high_hand": [
+      0,
+      1
+    ],
+    "low_hand": [
+      4,
+      4
+    ],
+    "left_armrest": [
+      3,
+      8
+    ],
+    "right_armrest": [
+      3,
+      2
+    ],
+    "chair_right": [
+      13,
+      2
+    ],
+    "base_right": [
+      10,
+      6
+    ],
+    "base_front_proxy": [
+      -9,
+      4
+    ]
+  },
+  "source_lower_visible_perimeter_polyline": [
+    [
+      36,
+      122
+    ],
+    [
+      40,
+      128
+    ],
+    [
+      56,
+      135
+    ],
+    [
+      75,
+      140
+    ],
+    [
+      87,
+      135
+    ],
+    [
+      101,
+      130
+    ],
+    [
+      117,
+      123
+    ],
+    [
+      117,
+      116
+    ]
+  ],
+  "candidate_lower_visible_perimeter_polyline": [
+    [
+      36,
+      119
+    ],
+    [
+      36,
+      123
+    ],
+    [
+      66,
+      142
+    ],
+    [
+      79,
+      137
+    ],
+    [
+      79,
+      135
+    ],
+    [
+      89,
+      140
+    ],
+    [
+      125,
+      125
+    ],
+    [
+      125,
+      120
+    ]
+  ],
+  "perimeter_caveat": "Hand-read continuous lower silhouette only, not complete physical base polygon. Source checker shadow excluded by visual material reading. Correspondence is not one-to-one at new notched front. No collision claims.",
+  "candidate_boot_read_windows_square": [
+    [
+      49,
+      106,
+      64,
+      114
+    ],
+    [
+      62,
+      117,
+      75,
+      127
+    ]
+  ],
+  "proposed_boot_windows_square": [
+    [
+      50,
+      115,
+      62,
+      126
+    ],
+    [
+      67,
+      119,
+      79,
+      129
+    ]
+  ],
+  "boots_conclusion": "Compact boots and both distinct trouser legs visible within broad original lower-body volume; left-screen boot is higher than optional proposed window, so exact window contract not passed. Foot silhouettes do not require surrounding-ground contact; support is newly shaped step surface, whose changed footprint remains unapproved."
+}

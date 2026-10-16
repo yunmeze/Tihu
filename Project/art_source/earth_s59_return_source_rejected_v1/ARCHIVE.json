@@ -1,0 +1,31 @@
+{
+  "schema": "earth-s59-return-source-rejected-v1",
+  "status": "Rejected mixed upper/lower phase; no alternative source phase accepted; no runtime",
+  "actual_reference_project_paths": [
+    "art_source/earth_s59_phase_and_failed_edits_research_v1/references/REF02_PHASE59_SOURCE.png",
+    "art_source/earth_s59_phase_and_failed_edits_research_v1/references/REF03_APPROVED_IDLE17_IDENTITY.png"
+  ],
+  "original_return": "generated_images/exec-a16dfab4-b1c5-42e3-90c0-2d06d80edd2a.png",
+  "dependencies": [
+    {
+      "path": "art_source/earth_s59_phase_and_failed_edits_research_v1/references/REF02_PHASE59_SOURCE.png",
+      "sha256": "eac5d9e56935903cd93c3b614713af7ebd260b4aa6c7f7e912d33f3285408969"
+    },
+    {
+      "path": "art_source/earth_s59_phase_and_failed_edits_research_v1/references/REF03_APPROVED_IDLE17_IDENTITY.png",
+      "sha256": "6371d05af2239971836cfe30846e0d84b086e7020af69a6c9b2ad44a9e155f92"
+    },
+    {
+      "path": "art_source/hero_s_walk_source_r8/source-59.png",
+      "sha256": "ffcd49bc0ccbc27cb4b034b9ba86039f47d5d8510ba9b8b41ec0ab30901be38e"
+    },
+    {
+      "path": "assets/earth/hero/s_idle_v1/body.png",
+      "sha256": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e"
+    }
+  ],
+  "mapped_png_sha256": "3e8ad41a68c76935eb289f295ab5d5d4759b408854d4ec04732279e82cd7667f",
+  "mapped_rgba_sha256": "dfc810419c5ae4c4b88303ba382e87d9c8006f95dd90390d54cf462f969d907d",
+  "mapping": "whole1254RGBA square LANCZOS512; no translation/rotation/partfit",
+  "author_confirmation": "prepare_south_walk_frames confirms two actual refs; source59 fixed128canvas root16,64 nearest4x; identity actualPNG copied from earlier tracked input"
+}

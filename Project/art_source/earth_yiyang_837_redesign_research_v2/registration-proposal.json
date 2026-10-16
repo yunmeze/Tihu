@@ -1,0 +1,54 @@
+{
+  "status": "Root accepts modern character direction for registration research; original exact base silhouette contract FAILED; no runtime approval",
+  "identity": {
+    "map": "A13",
+    "original_record_index_for_evidence_only": 9,
+    "source_npc": {
+      "x": 55,
+      "y": 72,
+      "appearance": 69,
+      "direction": 2,
+      "name": "一阳道长",
+      "script": "#itemck 无双阳剑(天界) > 0\r\n#goto HTJ\r\n#endif\r\n\r\n#itemck 无双阴剑(天界) > 0\r\n#goto HTJ\r\n#endif\r\n\r\n#sub start\r\n贫道最善将武器合成，以激发其最大潜力。但唯有那无双剑，甚为特殊，需特殊方法才能合成。\r\n\r\n#button 关于无双剑 12 9 黄 A1\r\n#button 装备合成 2 9 黄 B1\r\n#button 关闭 34 9 黄 OVER\r\n#end\r\n\r\n#SUB A1\r\n无双剑，实为双剑，一阴一阳也。阴剑至阴至寒，虽内力强大，但力不至外。阳剑至阳至炽，虽外力无比，但飘忽不定。唯有双剑合并，方能内外兼顾，无坚不摧。\r\n\r\n#button 如何合并双剑？ 2 9 黄 A2\r\n#button 关闭 34 9 黄 OVER\r\n#end\r\n\r\n#SUB A2\r\n你若能寻得双剑，还有那九卷天书，可交于我。我可做法，以天书之道力将双剑合并。\r\n\r\n#button 神器均已备齐，帮我合并 2 9 黄 A3\r\n#button 关闭 34 9 黄 OVER\r\n#end\r\n\r\n#sub A3\r\n#itemck 无双阳剑 > 0\r\n#itemck 无双阴剑 > 0\r\n#itemck 天书一卷 > 0\r\n#itemck 天书二卷 > 0\r\n#itemck 天书三卷 > 0\r\n#itemck 天书四卷 > 0\r\n#itemck 天书五卷 > 0\r\n#itemck 天书六卷 > 0\r\n#itemck 天书七卷 > 0\r\n#itemck 天书八卷 > 0\r\n#itemck 天书九卷 > 0\r\n#goto good\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n阴阳双剑加天书九卷，缺一不可\r\n#button 惭愧惭愧 3 9 黄 OVER\r\n#end\r\n\r\n#sub good\r\n#take 无双阳剑 1\r\n#take 无双阴剑 1\r\n#take 天书一卷 1\r\n#take 天书二卷 1\r\n#take 天书三卷 1\r\n#take 天书四卷 1\r\n#take 天书五卷 1\r\n#take 天书六卷 1\r\n#take 天书七卷 1\r\n#take 天书八卷 1\r\n#take 天书九卷 1\r\n#give 无双真剑 1\r\n这就是无双剑，拿好了。\r\n#button 多谢道长 2 9 黄 OVER\r\n#endif\r\n#END\r\n\r\n#SUB B1\r\n#MERGE\r\n#END\r\n\r\n#sub HTJ\r\n什么！？你竟有天界之无双剑！若能得到天界无双阴阳双剑，老夫亦能帮你将其合成。合成天界之无双剑，亦需要天书九卷，你将其找齐后再来找我便是。\r\n\r\n#button 我已找齐 12 9 黄 AA3\r\n#button 装备合成 2 9 黄 B1\r\n#button 关闭 34 9 黄 OVER\r\n#end\r\n\r\n\r\n#sub AA3\r\n#itemck 无双阳剑(天界) > 0\r\n#itemck 无双阴剑(天界) > 0\r\n#itemck 天书一卷 > 0\r\n#itemck 天书二卷 > 0\r\n#itemck 天书三卷 > 0\r\n#itemck 天书四卷 > 0\r\n#itemck 天书五卷 > 0\r\n#itemck 天书六卷 > 0\r\n#itemck 天书七卷 > 0\r\n#itemck 天书八卷 > 0\r\n#itemck 天书九卷 > 0\r\n#goto ggood\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n天界阴阳双剑加天界天书九卷，缺一不可\r\n#button 惭愧惭愧 3 9 黄 OVER\r\n#end\r\n\r\n#sub ggood\r\n#take 无双阳剑(天界) 1\r\n#take 无双阴剑(天界) 1\r\n#take 天书一卷 1\r\n#take 天书二卷 1\r\n#take 天书三卷 1\r\n#take 天书四卷 1\r\n#take 天书五卷 1\r\n#take 天书六卷 1\r\n#take 天书七卷 1\r\n#take 天书八卷 1\r\n#take 天书九卷 1\r\n#give 无双真剑(天界) 1\r\n这就是天界之无双真剑，拿好了。\r\n#button 多谢道长 2 9 黄 OVER\r\n#endif\r\n#END"
+    }
+  },
+  "texture": "/workspace/scratch/22c897619190/recovery-work/yiyang-design-input/attempt2/candidate837-complete-density4.png",
+  "texture_sha256": "5c0baf4b2e1731e89af9243a2d17438f5953932da1dda2e91dca685c5bf59c4a",
+  "size": [
+    640,
+    640
+  ],
+  "density": 4,
+  "world_origin": [
+    2592,
+    2200
+  ],
+  "anchor_world": [
+    2640,
+    2304
+  ],
+  "draw_offset": [
+    -48,
+    -104
+  ],
+  "source_ids": [
+    837,
+    838,
+    839,
+    840
+  ],
+  "static_evidence": "../four-id-equivalence.json",
+  "phase_ticks": 17,
+  "clock_hz": 50,
+  "registration_policy": "Full canvas unchanged for all four actual source IDs; no fake new four frames. Resolve by complete source NPC identity and appearance/direction/cell plus atlas metadata, never permanent array index. Keep original layer1 sort72 and current record tie-break order.",
+  "collision_policy": "Original map flags and NPC occupied cells unchanged. New alpha is click shape, not collision. No new shadow.",
+  "fallback": "One NPC all4IDs atomic fallback on missing/bad body/registration/map/source atlas/identity. Other NPC groups independent.",
+  "alpha_hit_policy": "Inverse fixed offset/density into full640canvas alpha, explicit existing threshold and highest drawn eligible NPC order. Source alpha cannot be reused. Transparent padding must miss.",
+  "pending_native": [
+    "front/back hero sort around y72 including east side x56",
+    "walkable source55,73 and56,72/73 near visible base; check visual penetration",
+    "alpha hit along new right base and transparent corners",
+    "four phase clock IDs",
+    "dependency removal restore and reindexed NPC identity"
+  ]
+}

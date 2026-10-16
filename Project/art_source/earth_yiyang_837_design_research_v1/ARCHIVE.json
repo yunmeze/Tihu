@@ -1,0 +1,53 @@
+{
+  "schema": "earth-yiyang837-design-research-archive-v1",
+  "status": "Candidate only; modern clothing and chair/base support contract NOT accepted; no runtime.",
+  "actual_generation": {
+    "original_return": "generated_images/exec-4465e3fa-cda1-4c88-88ce-956318e310e8.png",
+    "raw_sha256": "8ab5072454d3d3e78420167a6c8f5f446e873f1ede51e50f9af2733411b8a63b",
+    "prompt_sha256": "6a92e6cc915f6f0731a17cac62a606841372ad5418341198f7c73d33da3bfd10",
+    "references_in_order": [
+      "references/primary-source.png",
+      "references/source-visible-landmarks-8x.png"
+    ],
+    "transparent_background": true,
+    "author_confirmation": "remake_fine_branch_clump confirms actual two refs and prompt, no unrecorded references or edits."
+  },
+  "mapping": {
+    "raw_size": [
+      1254,
+      1254
+    ],
+    "logical_size": [
+      160,
+      160
+    ],
+    "world_origin": [
+      2592,
+      2200
+    ],
+    "density4_size": [
+      640,
+      640
+    ],
+    "operation": "wholeRGBA -> RGBa LANCZOS640 -> RGBA; no crop/pasteback"
+  },
+  "candidate_png_sha256": "d300fd7828dd1a4bcbbce35ec262c967b3c411938792cc4c0e2456f80d10fd8b",
+  "candidate_rgba_sha256": "8f5ff85bccbb81c25f4a2bdc232c4fede326147cc37b28ac9dca7066fd3be500",
+  "dependencies": [
+    {
+      "path": "data/maps/A13.json",
+      "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+      "bytes": 618373
+    },
+    {
+      "path": "assets/original/manifest.json",
+      "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+      "bytes": 262324
+    },
+    {
+      "path": "assets/original/Npc/0.png",
+      "sha256": "c0de28cf0fe814dec4829db167869c7ebed876cc9cc2086f99d490427a0bfa67",
+      "bytes": 125130
+    }
+  ]
+}

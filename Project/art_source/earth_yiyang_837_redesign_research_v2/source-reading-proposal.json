@@ -1,0 +1,108 @@
+{
+  "status": "proposal only, no generation authorized or called in this stage",
+  "coordinates": "source837 local 96x128; square = local+(28,14); world=local+(2620,2214)",
+  "fixed_canvas": {
+    "logical": [
+      160,
+      160
+    ],
+    "mapanchor": [
+      48,
+      104
+    ],
+    "world_origin": [
+      2592,
+      2200
+    ]
+  },
+  "visible_source_points": {
+    "face": [
+      48,
+      34
+    ],
+    "high hand": [
+      27,
+      44
+    ],
+    "low hand": [
+      60,
+      62
+    ],
+    "left rest": [
+      25,
+      51
+    ],
+    "right rest": [
+      70,
+      69
+    ],
+    "base L": [
+      12,
+      109
+    ],
+    "base front": [
+      48,
+      123
+    ],
+    "base R": [
+      85,
+      104
+    ],
+    "chair R": [
+      79,
+      61
+    ]
+  },
+  "visible_point_uncertainty_logical": 3,
+  "lowerbody_design_envelope_polygon": [
+    [
+      30,
+      63
+    ],
+    [
+      49,
+      67
+    ],
+    [
+      51,
+      86
+    ],
+    [
+      55,
+      111
+    ],
+    [
+      49,
+      116
+    ],
+    [
+      23,
+      108
+    ],
+    [
+      17,
+      92
+    ],
+    [
+      19,
+      76
+    ]
+  ],
+  "boot_visibility_optional_windows": [
+    [
+      22,
+      101,
+      34,
+      112
+    ],
+    [
+      39,
+      105,
+      51,
+      115
+    ]
+  ],
+  "interpretation": "New design freedom inside old robe/body volume, not recovered anatomy. Boxes indicate maximum proposed visible boot regions, not mandatory boot silhouettes or source foot positions. They may shrink or be occluded; cannot expand source base footprint. Cyan polygon is a manual conservative reading guide, not a source alpha/collision mask.",
+  "base_edge_authority": "Use complete source image and visible front/side base edge; point samples alone do not certify all intervening edges. No source checker shadow used as body support.",
+  "attempt1_not_a_reference": true
+}

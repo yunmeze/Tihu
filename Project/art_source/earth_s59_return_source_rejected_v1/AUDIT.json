@@ -1,0 +1,95 @@
+{
+  "raw_sha256": "62ac56942547e01edf90c4f9323e0226eff8479a77a5d08dc492d9000e0159ca",
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "alpha0": 1419853,
+  "alpha255": 431,
+  "alpha_max": 255,
+  "positive_border": 0,
+  "alpha128_bbox": [
+    227,
+    152,
+    574,
+    907
+  ],
+  "mapping": {
+    "scale_to512": 0.4082934609250399,
+    "scale_to_logical128": 0.10207336523125997,
+    "translation": [
+      0,
+      0
+    ],
+    "rotation": 0,
+    "per_part_fit": false,
+    "whole_canvas_only": true
+  },
+  "toe_surface_terminals": {
+    "L": {
+      "manual_isolated_logical_roi": [
+        31,
+        83,
+        41,
+        95
+      ],
+      "bottom_alpha128_row_center_logical": [
+        36.899521531100476,
+        92.47846889952153
+      ],
+      "uncertainty_logical": 0.75,
+      "not_ankle_or_contact": true
+    },
+    "R": {
+      "manual_isolated_logical_roi": [
+        43,
+        76,
+        52,
+        88
+      ],
+      "bottom_alpha128_row_center_logical": [
+        47.259968102073366,
+        85.02711323763955
+      ],
+      "uncertainty_logical": 0.75,
+      "not_ankle_or_contact": true
+    }
+  },
+  "manual_visible_hands_logical": {
+    "L": [
+      25.5,
+      52,
+      29.5,
+      54.5
+    ],
+    "R": [
+      51.5,
+      48,
+      55.5,
+      51.5
+    ],
+    "uncertainty": 1,
+    "not_sleeve_ends": true
+  },
+  "manual_cuff_material_proxy": {
+    "L": [
+      26.5,
+      49
+    ],
+    "R": [
+      54,
+      46
+    ],
+    "uncertainty": 1.5,
+    "not_joint": true
+  },
+  "right_outer_sleeve_turn": {
+    "xy": [
+      57,
+      40
+    ],
+    "uncertainty": 2,
+    "not_elbow": true
+  },
+  "classification": "REJECTED S59: mixed upper/lower phase; no alternative phase accepted"
+}

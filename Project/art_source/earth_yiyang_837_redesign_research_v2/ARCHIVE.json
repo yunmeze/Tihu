@@ -1,0 +1,283 @@
+{
+  "schema": "earth-yiyang837-redesign-research-v2",
+  "status": "Modern costume/body direction selected for registration research; original continuous base contour contract FAIL; explicit new base proposal native safety pending",
+  "actual_generation": {
+    "original_return": "generated_images/exec-d9c729cd-285e-4073-9cbd-f79770c49bd9.png",
+    "raw_sha256": "db0fdb56bf95a47875696824541aac238de09aeecc28bb81a9cf9351cf8b6f31",
+    "prompt_sha256": "4dab2aa6b7595f1f82b377a38ddc71c3d4dee5e0149ecae10cc0bf251c0571fb",
+    "references_in_order": [
+      "references/primary-source.png",
+      "references/source-reading.png"
+    ],
+    "transparent_background": true,
+    "author_confirmation": "remake_fine_branch_clump confirms actual2refs/prompt, no attempt1 body input"
+  },
+  "mapping": {
+    "raw_size": [
+      1254,
+      1254
+    ],
+    "logical_size": [
+      160,
+      160
+    ],
+    "world_origin": [
+      2592,
+      2200
+    ],
+    "density4_size": [
+      640,
+      640
+    ],
+    "operation": "wholeRGBA -> RGBa LANCZOS640 -> RGBA; no crop/pasteback"
+  },
+  "candidate_png_sha256": "5c0baf4b2e1731e89af9243a2d17438f5953932da1dda2e91dca685c5bf59c4a",
+  "candidate_rgba_sha256": "311509ea93d01894e85618df7e0d7388cbd210b13baebd529955888a03d8c983",
+  "dependencies": [
+    {
+      "path": "data/maps/A13.json",
+      "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+      "bytes": 618373
+    },
+    {
+      "path": "assets/original/manifest.json",
+      "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+      "bytes": 262324
+    },
+    {
+      "path": "assets/original/Npc/0.png",
+      "sha256": "c0de28cf0fe814dec4829db167869c7ebed876cc9cc2086f99d490427a0bfa67",
+      "bytes": 125130
+    }
+  ],
+  "source_npc_record": {
+    "record": 9,
+    "npc": {
+      "x": 55,
+      "y": 72,
+      "appearance": 69,
+      "direction": 2,
+      "name": "一阳道长",
+      "script": "#itemck 无双阳剑(天界) > 0\r\n#goto HTJ\r\n#endif\r\n\r\n#itemck 无双阴剑(天界) > 0\r\n#goto HTJ\r\n#endif\r\n\r\n#sub start\r\n贫道最善将武器合成，以激发其最大潜力。但唯有那无双剑，甚为特殊，需特殊方法才能合成。\r\n\r\n#button 关于无双剑 12 9 黄 A1\r\n#button 装备合成 2 9 黄 B1\r\n#button 关闭 34 9 黄 OVER\r\n#end\r\n\r\n#SUB A1\r\n无双剑，实为双剑，一阴一阳也。阴剑至阴至寒，虽内力强大，但力不至外。阳剑至阳至炽，虽外力无比，但飘忽不定。唯有双剑合并，方能内外兼顾，无坚不摧。\r\n\r\n#button 如何合并双剑？ 2 9 黄 A2\r\n#button 关闭 34 9 黄 OVER\r\n#end\r\n\r\n#SUB A2\r\n你若能寻得双剑，还有那九卷天书，可交于我。我可做法，以天书之道力将双剑合并。\r\n\r\n#button 神器均已备齐，帮我合并 2 9 黄 A3\r\n#button 关闭 34 9 黄 OVER\r\n#end\r\n\r\n#sub A3\r\n#itemck 无双阳剑 > 0\r\n#itemck 无双阴剑 > 0\r\n#itemck 天书一卷 > 0\r\n#itemck 天书二卷 > 0\r\n#itemck 天书三卷 > 0\r\n#itemck 天书四卷 > 0\r\n#itemck 天书五卷 > 0\r\n#itemck 天书六卷 > 0\r\n#itemck 天书七卷 > 0\r\n#itemck 天书八卷 > 0\r\n#itemck 天书九卷 > 0\r\n#goto good\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n阴阳双剑加天书九卷，缺一不可\r\n#button 惭愧惭愧 3 9 黄 OVER\r\n#end\r\n\r\n#sub good\r\n#take 无双阳剑 1\r\n#take 无双阴剑 1\r\n#take 天书一卷 1\r\n#take 天书二卷 1\r\n#take 天书三卷 1\r\n#take 天书四卷 1\r\n#take 天书五卷 1\r\n#take 天书六卷 1\r\n#take 天书七卷 1\r\n#take 天书八卷 1\r\n#take 天书九卷 1\r\n#give 无双真剑 1\r\n这就是无双剑，拿好了。\r\n#button 多谢道长 2 9 黄 OVER\r\n#endif\r\n#END\r\n\r\n#SUB B1\r\n#MERGE\r\n#END\r\n\r\n#sub HTJ\r\n什么！？你竟有天界之无双剑！若能得到天界无双阴阳双剑，老夫亦能帮你将其合成。合成天界之无双剑，亦需要天书九卷，你将其找齐后再来找我便是。\r\n\r\n#button 我已找齐 12 9 黄 AA3\r\n#button 装备合成 2 9 黄 B1\r\n#button 关闭 34 9 黄 OVER\r\n#end\r\n\r\n\r\n#sub AA3\r\n#itemck 无双阳剑(天界) > 0\r\n#itemck 无双阴剑(天界) > 0\r\n#itemck 天书一卷 > 0\r\n#itemck 天书二卷 > 0\r\n#itemck 天书三卷 > 0\r\n#itemck 天书四卷 > 0\r\n#itemck 天书五卷 > 0\r\n#itemck 天书六卷 > 0\r\n#itemck 天书七卷 > 0\r\n#itemck 天书八卷 > 0\r\n#itemck 天书九卷 > 0\r\n#goto ggood\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n#endif\r\n天界阴阳双剑加天界天书九卷，缺一不可\r\n#button 惭愧惭愧 3 9 黄 OVER\r\n#end\r\n\r\n#sub ggood\r\n#take 无双阳剑(天界) 1\r\n#take 无双阴剑(天界) 1\r\n#take 天书一卷 1\r\n#take 天书二卷 1\r\n#take 天书三卷 1\r\n#take 天书四卷 1\r\n#take 天书五卷 1\r\n#take 天书六卷 1\r\n#take 天书七卷 1\r\n#take 天书八卷 1\r\n#take 天书九卷 1\r\n#give 无双真剑(天界) 1\r\n这就是天界之无双真剑，拿好了。\r\n#button 多谢道长 2 9 黄 OVER\r\n#endif\r\n#END"
+    },
+    "mapanchor_world": [
+      2640,
+      2304
+    ],
+    "base": 837,
+    "frame_ids": [
+      837,
+      838,
+      839,
+      840
+    ],
+    "script_sha256": "de67c6bf779f8e8ed7a0a4518b6d5fa6e24ad894a928151572273a4784acd581",
+    "layer": 1,
+    "sort_y": 72,
+    "stable_order": 10009,
+    "frames": [
+      {
+        "id": 837,
+        "metadata": {
+          "original": [
+            96,
+            128
+          ],
+          "offset": [
+            -20,
+            -90
+          ],
+          "sourceOffset": 7055776,
+          "sourceBytes": 13022,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            96,
+            128
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "92ab5716f516874679cb2f997b029200275f6df571c2c77d757e5f0a5f325720",
+          "page": 0,
+          "rect": [
+            51,
+            90,
+            96,
+            128
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          12,
+          14
+        ],
+        "mapanchor_to_draw": [
+          -20,
+          -90
+        ],
+        "alpha_bbox_local": [
+          2,
+          6,
+          90,
+          126
+        ]
+      },
+      {
+        "id": 838,
+        "metadata": {
+          "original": [
+            96,
+            128
+          ],
+          "offset": [
+            -20,
+            -90
+          ],
+          "sourceOffset": 7068802,
+          "sourceBytes": 13022,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            96,
+            128
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "92ab5716f516874679cb2f997b029200275f6df571c2c77d757e5f0a5f325720",
+          "page": 0,
+          "rect": [
+            149,
+            90,
+            96,
+            128
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          12,
+          14
+        ],
+        "mapanchor_to_draw": [
+          -20,
+          -90
+        ],
+        "alpha_bbox_local": [
+          2,
+          6,
+          90,
+          126
+        ]
+      },
+      {
+        "id": 839,
+        "metadata": {
+          "original": [
+            96,
+            128
+          ],
+          "offset": [
+            -20,
+            -90
+          ],
+          "sourceOffset": 7081828,
+          "sourceBytes": 13022,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            96,
+            128
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "92ab5716f516874679cb2f997b029200275f6df571c2c77d757e5f0a5f325720",
+          "page": 0,
+          "rect": [
+            247,
+            90,
+            96,
+            128
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          12,
+          14
+        ],
+        "mapanchor_to_draw": [
+          -20,
+          -90
+        ],
+        "alpha_bbox_local": [
+          2,
+          6,
+          90,
+          126
+        ]
+      },
+      {
+        "id": 840,
+        "metadata": {
+          "original": [
+            96,
+            128
+          ],
+          "offset": [
+            -20,
+            -90
+          ],
+          "sourceOffset": 7094854,
+          "sourceBytes": 13022,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            96,
+            128
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "92ab5716f516874679cb2f997b029200275f6df571c2c77d757e5f0a5f325720",
+          "page": 0,
+          "rect": [
+            345,
+            90,
+            96,
+            128
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          12,
+          14
+        ],
+        "mapanchor_to_draw": [
+          -20,
+          -90
+        ],
+        "alpha_bbox_local": [
+          2,
+          6,
+          90,
+          126
+        ]
+      }
+    ],
+    "adjacent_phase_rgba_changed": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
