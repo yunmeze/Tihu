@@ -1,0 +1,39 @@
+{
+  "tool": "image_gen__imagegen",
+  "calls": 1,
+  "transparent_background": true,
+  "prompt_sha256": "72f2b85e7a7c6eca42b49a49412ff5205e956c51537686058d70cfecc30be465",
+  "references_ordered": [
+    {
+      "path": "ref2-frozen45-full512.png",
+      "sha256": "f1ed7f0e52afab72764192bb47167116d61ca85644623dbccb081f7232da7958"
+    },
+    {
+      "path": "ref4-source-pose-crop.png",
+      "sha256": "3a3a9610dcef7868144ad502e07f0c2ba9b839d35c547bbc2797894822d69472"
+    },
+    {
+      "path": "ref5-current-context-crop.png",
+      "sha256": "92fbc3e68b7d44e0d34e0fbcff3dedc056749f9931a89ee5413506a0ea7f4642"
+    },
+    {
+      "path": "ref6-old-front-identity-crop.png",
+      "sha256": "3a7cd2cc1a529eaf066db06b765802e64a87fa7610a3bb74fb30fa206ec6f1d9"
+    },
+    {
+      "path": "ref7-geometry-guide.png",
+      "sha256": "2e224d0aacadb0f9d462e33a50e43346d7616630a2b593294687f7eeedee2d23"
+    }
+  ],
+  "source_output_path": "/workspace/scratch/22c897619190/generated_images/exec-fec3193f-a682-40e3-866d-8b8e5229b6fb.png",
+  "raw_sha256": "1796e41e45e9bf41b3826889813f4aced0f706ce6bbcb4772216e49c6928e627",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alpha_zero": 1250955,
+  "alpha_partial": 321257,
+  "alpha_full": 304,
+  "no_composite": true
+}

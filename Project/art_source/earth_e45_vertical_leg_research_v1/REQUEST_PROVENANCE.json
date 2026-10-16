@@ -1,0 +1,27 @@
+{
+  "tool": "image_gen__imagegen",
+  "transparent_background": true,
+  "call_count_this_revision": 1,
+  "prompt_sha256": "4d1399a05c75735b20b10b1aa8d75239ac7a48e30fc7287cfae4e67c41365a29",
+  "ordered_refs": [
+    {
+      "file": "ref1-full-context-front-removed-512.png",
+      "sha256": "07ed3955285e22a3dd290b595f77fbdbb0a33573a647cbd0f3c8b56f0bcf87b5"
+    },
+    {
+      "file": "ref2-original-pose-full512-NEAREST.png",
+      "sha256": "383c96202c002441f872336df4a3e0d9e196549c19d91f7c3f550b4dfc78ba1a"
+    },
+    {
+      "file": "ref3-full-context-surface-guide-512.png",
+      "sha256": "207a5417c314959b512b54ba9ec04e38b95372840b02b5f520a7e4a0590ec458"
+    },
+    {
+      "file": "ref4-neutral-material-details.png",
+      "sha256": "46b9c4afd56776c40248e56798ab5c10851a7f6695fcfd0f3539fa6affd781d8"
+    }
+  ],
+  "raw_sha256": "7a1cd19b4770e77e0b769ad55c0ea41c69021ad5217e21ce48dbe190e4779b0b",
+  "source_output": "/workspace/scratch/22c897619190/generated_images/exec-e8b9b5aa-99cf-4180-814a-73689c75d6f9.png",
+  "input_semantic_correction": "The actual ref1/ref3 context accidentally retained obsolete178px bridge due PIL/NumPy shared-buffer mutation. Recorded reference SHA remains correct; prior no-bridge description is false. Corrected replay and ownership are in cloth-ownership-r3. Raw generation unchanged."
+}

@@ -1,0 +1,15 @@
+Use case: precise-object-edit / isolated game-sprite replacement component.
+Create ONE replacement front shin + ankle + complete boot for the existing right-facing walking character, phase45. Output only that coherent component on a genuinely transparent square RGBA canvas. No whole character, rear leg, pants, shadow, checkerboard, floor, labels, symbols, or extra views.
+
+References, in exact order:
+1. Frozen full character: camera, upper-left lighting, identity and proportion context only. Do not output the full character.
+2. Original source45 fixed-coordinate close-up: visible pose authority. Keep the front lower-leg shaft closer to this near-vertical visible chain; its low-resolution colors and baked checker/shadow are NOT materials or new shadows.
+3. Current character fixed-coordinate close-up: surrounding pants interface and assembly context. Do not copy the erroneous diagonal bridging strap.
+4. Current isolated front piece: black boot construction, silver/dark-metal armor, strap details and material identity ONLY. Its old right-sloping shaft is precisely the geometry being replaced. Do not preserve that slope merely to match this reference.
+5. Geometry guide: same exact canvas coordinates; cyan is the proximal visible SURFACE-interface acceptance region, orange is ankle and green is toe. Guides are instructions only; output none of them.
+
+Every close-up represents the SAME32×32 logical square: original character x36..68, y60..92. Keep this framing and transparent margin exactly; never center, enlarge, or fit the component to the canvas. Preferred output1024×1024. In that output, ankle is exactly(416,640), and toe surface proxy is(743.8053,669.8005). The proximal visible joining rim should meet the existing pants within x320..512,y160..352 of this output. This cyan region is not an anatomical knee or permission to invent a kneecap. A small upper rim may extend behind the existing pants; no new visible knee armor or pants. The fixed ankle/toe relationship must remain intact while the upper shaft reaches the source-supported, more vertical joining region. The piece is drawn anew as a coherent shin-ankle-boot, not stretched or warped from the old texture.
+
+Match the side/slight-three-quarter camera of the full character. Maintain the current black boot construction and comparable boot mass, dark straps, silver/dark metal, restrained warm upper-left reflections, believable continuous ankle-to-boot articulation and consistent texture density. Do not add gold trim, a golden shin, a second kneecap, oversized plates, detached straps, a duplicate boot, or a dark bridging strip across open air. Do not copy low-resolution source pixels as final texture.
+
+Output only one isolated replacement component. Keep true alpha transparency and clean antialiased edges. No contact shadow or backdrop. It will be placed using the predeclared canvas mapping with NO fitted translation, rotation, scale, stretch, or local corrections afterward. A different framing cannot be rescued by fitting.

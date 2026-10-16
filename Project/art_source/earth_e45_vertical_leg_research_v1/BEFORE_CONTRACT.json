@@ -1,0 +1,179 @@
+{
+  "status": "revised reference design only, no generation",
+  "prior_attempt": "attempt1 rejected; preserved unchanged",
+  "output_request": "full square character context with only missing45 front shin+ankle+boot added; true RGBA background; no guides",
+  "canvas_logical": [
+    128,
+    128
+  ],
+  "reference_HD4": [
+    512,
+    512
+  ],
+  "root_logical": [
+    16,
+    64
+  ],
+  "mapping": "square output W maps whole-canvas to128 logical by128/W; translation0, rotation0. No character/limb bbox or anchor fitting. Reject non-square or framing drift.",
+  "reference_order": [
+    "ref1-full-context-front-removed-512.png",
+    "ref2-original-pose-full512-NEAREST.png",
+    "ref3-full-context-surface-guide-512.png",
+    "ref4-neutral-material-details.png"
+  ],
+  "source_surface_envelope_logical": [
+    [
+      46,
+      66
+    ],
+    [
+      51.5,
+      66
+    ],
+    [
+      52,
+      73
+    ],
+    [
+      52,
+      78
+    ],
+    [
+      54,
+      79.5
+    ],
+    [
+      59.5,
+      79
+    ],
+    [
+      61,
+      80
+    ],
+    [
+      60.5,
+      82
+    ],
+    [
+      57.5,
+      83
+    ],
+    [
+      48,
+      84
+    ],
+    [
+      47,
+      80
+    ],
+    [
+      46.5,
+      75
+    ],
+    [
+      46,
+      70
+    ]
+  ],
+  "envelope_method": "hand-read visible source front-leg outline, \u00b12px edge ambiguity; approximate design guide, not alpha extraction, hidden bones or exact new armor footprint",
+  "fixed_ankle": [
+    49,
+    80
+  ],
+  "fixed_toe": [
+    59.243916932150235,
+    80.93126517565003
+  ],
+  "proximal_surface_region_xyxy": [
+    46,
+    65,
+    52,
+    71
+  ],
+  "part_family_density": 0.16173127687142191,
+  "pixel_unit_conversion": "one predeclared full-canvas128/W mapping, equivalent to(128/W)/family_density family raw units per generated pixel; no limb-specific scale",
+  "independent_global_drift_checks": [
+    {
+      "name": "head",
+      "HD4_box_xyxy": [
+        136,
+        64,
+        184,
+        112
+      ],
+      "logical_box_xyxy": [
+        34.0,
+        16.0,
+        46.0,
+        28.0
+      ],
+      "patch_RGBA_sha256": "70c60fdc585e0a9ec86aed9268440a2c3675cc0e3c860ef3b735b45abf6869e8"
+    },
+    {
+      "name": "red_shoulder",
+      "HD4_box_xyxy": [
+        112,
+        116,
+        140,
+        152
+      ],
+      "logical_box_xyxy": [
+        28.0,
+        29.0,
+        35.0,
+        38.0
+      ],
+      "patch_RGBA_sha256": "7bab4b334e48135862678d6f2c6653acd736d65f6ee5e480e843d668af92ecb4"
+    },
+    {
+      "name": "near_arm_hand",
+      "HD4_box_xyxy": [
+        124,
+        208,
+        148,
+        244
+      ],
+      "logical_box_xyxy": [
+        31.0,
+        52.0,
+        37.0,
+        61.0
+      ],
+      "patch_RGBA_sha256": "aef97269060e7ca8788c0bec12b9423044e956aaf52ee6285b2da4d5148f6057"
+    }
+  ],
+  "anchor_acceptance_proposal": "After whole-canvas normalization only, match head/shoulder/arm windows independently. Require unambiguous NCC>=0.85 and displacement<=2HD4 pixels (0.5logical) each, pairwise center-distance residual<=1%. Report actual residuals and ambiguity. Do not use matches to correct the image. If re-rendering prevents reliable match, reject/inconclusive rather than assume no drift.",
+  "ownership": "Use existing attempt1 corrected fixed-layer/semialpha/support contract. No support expansion. Whole output is inspection only; only explicit old-front/bridge/new support can contribute replacement. Existing core/rear/pants textures must come from original layers, never generated full image.",
+  "extraction_limitation": "Full-context generation may merge pants and new proximal rim. The current ownership does not certify a separable alpha component from an opaque body patch. Inspect exact support/interface before extraction; report missing segmentation or alpha ambiguity rather than copy generated pants or invent background/underlayer. No automatic compositing authorized by this reference preparation.",
+  "material_windows": [
+    [
+      "silver dark-metal chest",
+      [
+        144,
+        132,
+        167,
+        157
+      ]
+    ],
+    [
+      "black boot leather",
+      [
+        82,
+        294,
+        104,
+        308
+      ]
+    ],
+    [
+      "boot metal toe detail",
+      [
+        99,
+        304,
+        116,
+        315
+      ]
+    ]
+  ],
+  "no_old_diagonal_pose_reference": true,
+  "no_generation": true
+}

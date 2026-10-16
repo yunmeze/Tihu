@@ -1,0 +1,42 @@
+from PIL import Image,ImageDraw,ImageFont
+from pathlib import Path
+import json,numpy as np,hashlib,shutil
+R=Path('/workspace/scratch/22c897619190'); A=R/'tihu-legend/Project/art_source';O=R/'recovery-work/foot-alignment/phase45-interface/prospective-component-v1';O.mkdir(exist_ok=True)
+P=A/'earth_e_upper45_context_edit_plan_v1';E=A/'earth_e_upper45_context_edit_v1';B=A/'earth_e_45_underlap_bridge_v1';S=A/'earth_e_four_phase_rigid_study_v1';load=lambda p:Image.open(p).convert('RGBA');arr=lambda im:np.array(im);sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+left=load(S/'45-left-rigid-HD4.png');right=load(S/'45-right-rigid-HD4.png');upper=load(P/'old45-upper-REPLACEMENT-CONTEXT.png');arm=load(P/'arm45-context-rigid.png');core=[]
+for side in ['back','front']:
+ im=Image.new('RGBA',(512,512));im.alpha_composite(load(R/f'tihu-legend/Project/diagnostics/earth_e_49_cloth_patch_v1/layer49-core-{side}.png'),(4,0));core.append(im)
+union=np.array(Image.open(E/'actual-fixed-union-mask.png'))>0;w=np.array(Image.open(B/'waist89-actual-mask.png'))>0;k=np.array(Image.open(B/'knee178-actual-mask.png'))>0;donor=load(E/'mapped-whole-image-UNMASKED.png')
+def replay(withright):
+ layers=[left]+([right] if withright else [])+[core[0],arm,core[1]];protect=Image.new('RGBA',(512,512));context=upper.copy()
+ for l in layers:protect.alpha_composite(l);context.alpha_composite(l)
+ a=arr(context);a[union]=arr(donor)[union];out=Image.fromarray(a);over=donor.copy();over.alpha_composite(protect);a[w]=arr(over)[w];waist=Image.fromarray(a)
+ shifted=Image.new('RGBA',(512,512));shifted.alpha_composite(donor,(5,45));shifted.alpha_composite(protect);a[k]=arr(shifted)[k]
+ return Image.fromarray(a),waist,protect
+full,waist,protect=replay(True);frozen=load(A/'earth_e_walk_layered_research_v1/45-HD4-RESEARCH.png');assert np.array_equal(arr(full),arr(frozen))
+_,plate,protect_other=replay(False)
+# Diagnostic plate only, never a final candidate. Old bridge deliberately omitted through replay ownership.
+plate.save(O/'existing-layers-without-front-and-bridge-DIAGNOSTIC.png')
+oldfront=arr(right)[:,:,3]>0; removal=oldfront|k;platechange=np.any(arr(plate)!=arr(frozen),axis=2);assert not np.any(platechange&~removal)
+# New-part maximum geometric support, NOT a segmentation mask for a generated image.
+support=Image.new('L',(512,512));poly=[(46,64),(53,64),(54,75),(54,78),(63,78),(63,88),(46,89),(44,83),(44,73)];ImageDraw.Draw(support).polygon([(int(x*4),int(y*4)) for x,y in poly],fill=255);sp=np.array(support)>0
+# Preserve every existing surface outside old front/bridge ownership. This includes fixed pants.
+fixed_surface=(arr(plate)[:,:,3]>0)&~removal
+allowed=(removal|sp)&~fixed_surface
+for name,mask in [('old-front-alpha-ownership',oldfront),('obsolete-bridge-ownership',k),('new-part-max-support',sp),('fixed-existing-surface',fixed_surface),('prospective-final-change-domain',allowed)]:Image.fromarray((mask*255).astype('uint8')).save(O/f'{name}.png')
+# Full reference byte-copies and fixed-coordinate crop references.
+shutil.copyfile(A/'hero_e_walk_source_r8/source-45.png',O/'ref1-original45-full128.png');shutil.copyfile(A/'earth_e_walk_layered_research_v1/45-HD4-RESEARCH.png',O/'ref2-frozen45-full512.png');shutil.copyfile(S/'45-right-rigid-HD4.png',O/'ref3-old-front-part-full512.png')
+crop=(144,240,272,368)
+source=load(A/'hero_e_walk_source_r8/source-45.png').resize((512,512),Image.Resampling.NEAREST)
+for nm,im in [('ref4-source-pose-crop',source),('ref5-current-context-crop',frozen),('ref6-old-front-identity-crop',right)]:im.crop(crop).resize((1024,1024),Image.Resampling.NEAREST).save(O/f'{nm}.png')
+guide=Image.new('RGBA',(1024,1024),(40,45,50,255));guide.alpha_composite(frozen.crop(crop).resize((1024,1024),Image.Resampling.NEAREST));d=ImageDraw.Draw(guide);font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',22)
+xy=lambda p:((p[0]-36)*32,(p[1]-60)*32)
+d.rectangle((*xy((46,65)),*xy((52,71))),outline='cyan',width=3)
+for label,p,c in [('A fixed ankle',(49,80),'orange'),('T fixed toe',(59.24391693215,80.93126517565),'lime')]:
+ x,y=xy(p);d.ellipse((x-6,y-6,x+6,y+6),outline=c,width=3);d.text((x-180,y+15),label,font=font,fill=c)
+d.text((12,12),'GEOMETRY GUIDE ONLY - do not paint annotations',font=font,fill='white');d.text((12,42),'Cyan: proximal SURFACE joining region, not knee bone',font=font,fill='cyan');guide.save(O/'ref7-geometry-guide.png')
+contract={'status':'frozen prospective preparation; no generation or asset edit performed','phase':45,'scope':'front shin+ankle+whole boot only','canvas_logical':[128,128],'root_logical':[16,64],'output_component_crop_logical_xyxy':[36,60,68,92],'output_format':'single isolated RGBA component on genuine transparent square canvas, ideally1024x1024; no shadow/background/checker/text','fixed_map':'for square W×W output: logical=(36+x*32/W,60+y*32/W); one image-wide resample to128x128 HD4 crop at(144,240); zero fitted translation/rotation/scale','family_density':0.16173127687142191,'explicit_raster_unit_conversion_to_family_raw':'(32/W)/0.16173127687142191 family raw units per generated pixel; fixed solely by full canvas, never artwork bbox','reject':'non-square output, crop/framing drift, failed anchors, clipping, altered pose/identity; never fit afterward','fixed_ankle':[49,80],'fixed_toe':[59.243916932150235,80.93126517565003],'annotation_tolerance_logical':0.5,'source_uncertainty':{'ankle':3,'toe':2,'proximal_surface':3},'proximal_surface_design_region_xyxy':[46,65,52,71],'surface_not_knee_bone':True,'maximum_support_polygon_logical':poly,'composite_plan':'Start exact replay diagnostic plate without old front and bridge; composite new isolated part. Preserve final frozen RGBA outside allowed domain. Preserve all fixed existing surface pixels, including pants. Existing partial-alpha fixed surface is frozen here; if this causes a seam, report rather than silently relax. Old front and bridge removal use explicit saved ownership. No old front or duplicate bridge may remain. Generated alpha crossing fixed surfaces is occluded/discarded only by predeclared protection, not arbitrary silhouette trimming. Reject output needing clipping against max support.','proof':{'full_replay_equals_frozen_RGBA':True,'without_front_and_bridge_changes':int(platechange.sum()),'plate_changes_outside_old_front_or_bridge':0,'allowed_pixels':int(allowed.sum()),'old_front_owned_pixels':int(oldfront.sum()),'bridge_pixels':int(k.sum()),'max_support_pixels':int(sp.sum())},'tool':'built-in image_gen__imagegen available; skill read; transparent_background=true; NOT CALLED','non_changes':'No production art, generation, GUI, Git, runtime changes'}
+(O/'CONTRACT.json').write_text(json.dumps(contract,indent=2)+'\n')
+refs=[]
+for p in sorted(O.glob('*.png')):refs.append({'file':p.name,'sha256':sha(p),'size':list(Image.open(p).size)})
+(O/'INPUT_SHA.json').write_text(json.dumps(refs,indent=2)+'\n');print(contract['proof'])
