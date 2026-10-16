@@ -23,7 +23,7 @@ func registration(path:String) -> Dictionary:
 	if not parsed.get("groups") is Dictionary or not parsed.groups.has("pool") or not parsed.groups.has("clump"):return reject("静态物件分组缺失")
 	return parsed
 
-func identity_failure(group:Dictionary,source:Variant,objects:Variant,packs:Variant) -> String:
+func identity_failure(group:Dictionary,source:Variant,objects:Variant,packs:Variant,snapshot:Dictionary={}) -> String:
 	if not Identity.map_identity(source) or not source.get("cells") is Array or source.cells.size()!=10000:return "源地图结构变化"
 	if not objects is Array or not packs is Dictionary:return "源物件或图集结构变化"
 	var owners=group.get("owners")
@@ -44,11 +44,20 @@ func identity_failure(group:Dictionary,source:Variant,objects:Variant,packs:Vari
 		if not owner.source_frame.has("page") or not owner.source_frame.get("atlas") is String:return "所有者源图集页无效"
 		if not Identity.source_cell(source.cells[int(order)],owner.source_cell):return "源地图单元变化：%s"%owner.index
 		var found:=0
-		for entry in objects:
-			if not entry is Dictionary:return "源物件序列结构变化"
-			if entry.get("order")==order:
+		if snapshot.is_empty():
+			for entry in objects:
+				if not entry is Dictionary:return "源物件序列结构变化"
+				if entry.get("order")==order:
+					if not Identity.entry(entry,int(owner.source_cell[2]),owner.pack,int(owner.index),int(owner.layer),int(owner.sort_y),int(order),Vector2(owner.cell[0]*48,owner.cell[1]*32)):return "源物件身份变化：%s"%owner.index
+					found+=1
+		else:
+			var entries:Array=snapshot.by_order.get(int(order),[])
+			for indexed in entries:
+				if snapshot.first_invalid>=0 and snapshot.first_invalid<indexed.position:return "源物件序列结构变化"
+				var entry=indexed.entry
 				if not Identity.entry(entry,int(owner.source_cell[2]),owner.pack,int(owner.index),int(owner.layer),int(owner.sort_y),int(order),Vector2(owner.cell[0]*48,owner.cell[1]*32)):return "源物件身份变化：%s"%owner.index
 				found+=1
+			if not snapshot.is_empty() and snapshot.first_invalid>=0:return "源物件序列结构变化"
 		if found!=1:return "源物件缺失或重复：%s"%owner.index
 		var pack=packs.get(owner.pack)
 		if not pack is Dictionary or not pack.get("frames") is Dictionary or not pack.get("pages") is Array:return "源图集结构变化"
@@ -91,11 +100,42 @@ func prepare(id:String,source:Dictionary,objects:Array,packs:Dictionary,path:Str
 	# Sole publication: return the complete group, never a partial owner dictionary.
 	return {"texture":texture,"owners":owners,"contract":group,"registration":path}
 
-func live_valid(group:Dictionary,source:Dictionary,objects:Array,packs:Dictionary) -> bool:
+func live_valid(group:Dictionary,source:Dictionary,objects:Array,packs:Dictionary,snapshot:Dictionary={}) -> bool:
 	failure=""
 	if group.is_empty():return false
-	if not file_available(group.registration):failure="运行时静态物件注册缺失";return false
+	if not snapshot_file_available(group.registration,snapshot):failure="运行时静态物件注册缺失";return false
 	for pin in group.contract.source_dependencies:
-		if not file_available(pin.path):failure="运行时静态物件依赖缺失："+str(pin.path).get_file();return false
-	failure=identity_failure(group.contract,source,objects,packs)
+		if not snapshot_file_available(pin.path,snapshot):failure="运行时静态物件依赖缺失："+str(pin.path).get_file();return false
+	failure=identity_failure(group.contract,source,objects,packs,snapshot)
 	return failure.is_empty()
+
+# Snapshot is local to ONE synchronous refresh; never stored or reused next tick.
+func refresh_snapshot(groups:Array,objects:Array) -> Dictionary:
+	var snapshot={"by_order":{},"first_invalid":-1,"available":{}}
+	for group in groups:
+		if not group is Dictionary or not group.get("contract") is Dictionary or not group.contract.get("owners") is Array:continue
+		for owner in group.contract.owners:
+			if not owner is Dictionary:continue
+			var order=owner.get("stable_source_order")
+			if (order is int or order is float) and is_finite(float(order)) and float(order)==floorf(float(order)):
+				snapshot.by_order[int(order)]=[]
+	if snapshot.by_order.is_empty():return snapshot
+	var position=-1
+	for entry in objects:
+		position+=1
+		if not entry is Dictionary:
+			if snapshot.first_invalid<0:snapshot.first_invalid=position
+			continue
+		var order=entry.get("order")
+		if order is float:
+			if not is_finite(order) or order!=floorf(order):continue
+			order=int(order)
+		elif not order is int:continue
+		if snapshot.by_order.has(order):
+			snapshot.by_order[order].append({"entry":entry,"position":position})
+	return snapshot
+
+func snapshot_file_available(path:String,snapshot:Dictionary) -> bool:
+	if snapshot.is_empty():return file_available(path)
+	if not snapshot.available.has(path):snapshot.available[path]=file_available(path)
+	return snapshot.available[path]

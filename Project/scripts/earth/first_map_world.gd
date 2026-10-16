@@ -75,8 +75,9 @@ func prepare_static_props(id:String,path:String=StaticPropsGuard.REGISTRATION) -
 	return not group.is_empty()
 
 func refresh() -> void:
+	var snapshot=static_props_guard.refresh_snapshot(static_props_groups.values(),objects)
 	for id in ["pool","clump"]:
-		if static_props_groups.has(id) and not static_props_guard.live_valid(static_props_groups[id],map,objects,packs):
+		if static_props_groups.has(id) and not static_props_guard.live_valid(static_props_groups[id],map,objects,packs,snapshot):
 			static_props_groups.erase(id);static_props_errors[id]=static_props_guard.failure
 	super.refresh()
 
