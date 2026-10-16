@@ -61,7 +61,7 @@ paths={}
 def add(path,role=None):
  f=d/'receiver_contract.json' if path=='res://assets/earth/snapshot_opening/receiver_contract.json' else P/path[6:];ext=f.suffix[1:]
  if path=='res://tools/earth/build_flat_shadow_gate.py':return # explicit receiver adapter hash-only leaf, outside generic v1 types
- if ext not in ['png','json','gdshader','gd']:raise ValueError('Unsupported v1 type: '+path)
+ if ext not in ['png','json','gdshader','gd','rf32','tscn']:raise ValueError('Unsupported v1 type: '+path)
  if role is None:role='source-map' if '/data/maps/' in path else 'source-atlas-manifest' if path.endswith('/manifest.json') else 'source-atlas' if '/assets/original/' in path and ext=='png' else 'texture' if ext=='png' else 'shader' if ext=='gdshader' else 'raw-contract'
  r={'path':path,'sha256':h(f),'bytes':f.stat().st_size,'type':ext,'role':role}
  if ext=='png':r['width'],r['height']=struct.unpack('>II',f.read_bytes()[16:24])
@@ -100,7 +100,61 @@ for path,role in [("body.png","texture"),("ownership-id-data.png","texture"),("r
  add("res://assets/earth/house_280_289_v1/"+path,role)
 add("res://scripts/earth/house_owner_guard.gd","raw-contract")
 add("res://scripts/earth/house_owner_mask.gdshader","shader")
-reg={'schema':'earth-runtime-files-v1','status':'isolated house-local visual eligibility; inherited correct runtime retained; this revision regression pending','runtime_files':sorted(paths.values(),key=lambda x:x['path']),'provenance':{'base_commit':'44db593064164f8d43a6e75dc0a0b9510a470d53','note':'Explicit domain roots. Export adapter must traverse receiver_contract caster pins and original R6/A00 fallback graph. Not a claim whole game export closure is contained here.'}}
+# Zhang four-phase complete bank, body-only stage candidate.
+add('res://assets/earth/zhang_fourphase_v1/registration.json','registration')
+for phase in range(201,205):add('res://assets/earth/zhang_fourphase_v1/body%d.png'%phase,'texture')
+add('res://scripts/earth/zhang_fourphase_guard.gd','raw-contract')
+add('res://scripts/earth/snapshot_zhang_world.gd','raw-contract')
+
+# Unified source/ground/body leaves; downstream receiver bootstrap is root-pinned.
+add('res://assets/earth/environment/south_reuse_v1/registration_shrub_58_51.json')
+add('res://assets/earth/environment/south_reuse_v1/registration_upright_47_66.json')
+add('res://assets/earth/environment/south_reuse_v1/registration_upright_55_57.json')
+add('res://assets/earth/environment/south_reuse_v1/registration_upright_59_61.json')
+add('res://assets/earth/environment/south_reuse_v1/trusted_expected_scope.json')
+add('res://assets/earth/first_map_review/plant_shared_bank_v1.json')
+add('res://assets/earth/hero/s_walk_arap_v1/manifest.json')
+add('res://assets/earth/hero/s_walk_arap_v1/mesh-57.png')
+add('res://assets/earth/hero/s_walk_arap_v1/mesh-58.png')
+add('res://assets/earth/hero/s_walk_arap_v1/mesh-59.png')
+add('res://assets/earth/hero/s_walk_arap_v1/mesh-60.png')
+add('res://assets/earth/hero/s_walk_arap_v1/mesh-61.png')
+add('res://assets/earth/hero/s_walk_arap_v1/mesh-62.png')
+add('res://assets/earth/shadows/s_walk_contact_v3/envelope.png')
+add('res://assets/earth/shadows/s_walk_contact_v3/manifest.json')
+add('res://ground_candidate/current-union.png')
+add('res://ground_candidate/field.rf32')
+add('res://ground_candidate/grass.png')
+add('res://ground_candidate/ground.gdshader')
+add('res://ground_candidate/manifest.json')
+add('res://ground_candidate/overlay413.png')
+add('res://ground_candidate/overlayG3.png')
+add('res://ground_candidate/registration.json')
+add('res://ground_candidate/soil.png')
+add('res://ground_candidate/visual_flag_compatibility.json')
+add('res://scenes/earth_new_game_candidate.tscn')
+add('res://scripts/core/map_load_bridge.gd')
+add('res://scripts/core/npc_source_identity.gd')
+add('res://scripts/earth/a13_visual_flag_identity.gd')
+add('res://scripts/earth/first_map_floor_pass.gd')
+add('res://scripts/earth/ground_candidate_guard.gd')
+add('res://scripts/earth/ground_manifest_weak_cache.gd')
+add('res://scripts/earth/ground_texture_weak_bank.gd')
+add('res://scripts/earth/instance_identity_guard.gd')
+add('res://scripts/earth/plant_texture_weak_bank.gd')
+add('res://scripts/earth/s_walk_contact_v3_compositor.gd')
+add('res://scripts/earth/s_walk_contact_v3_gate.gd')
+add('res://scripts/earth/snapshot_plant_shared_guard.gd')
+add('res://scripts/earth/snapshot_source_identity.gd')
+add('res://scripts/earth/snapshot_south_guard.gd')
+add('res://scripts/earth/south_vegetation_candidate.gd')
+add('res://scripts/earth/south_walk_candidate_guard.gd')
+add('res://scripts/earth/south_walk_contact_controller.gd')
+add('res://scripts/earth/south_walk_contact_world.gd')
+add('res://scripts/earth/south_walk_snapshot_controller.gd')
+add('res://scripts/earth/south_walk_snapshot_world.gd')
+add('res://shaders/earth_s_walk_contact_v3.gdshader')
+reg={'schema':'earth-runtime-files-v1' ,'status':'isolated house-local visual eligibility; inherited correct runtime retained; this revision regression pending','runtime_files':sorted(paths.values(),key=lambda x:x['path']),'provenance':{'base_commit':'44db593064164f8d43a6e75dc0a0b9510a470d53','note':'Explicit domain roots. Export adapter must traverse receiver_contract caster pins and original R6/A00 fallback graph. Not a claim whole game export closure is contained here.'}}
 reg['house_live_scope']={'schema':'house-building-ten-frame-live-v1','pack':'Map/Res/Building','frames':list(range(280,290)),'reload_source_sha_unchanged':True,'unrelated_pack_and_mon220_independent':True,'other_global_guards_unchanged':True}
 out=d/'snapshot_runtime_registration.json';out.write_text(json.dumps(reg,ensure_ascii=False,indent=2)+'\n')
 

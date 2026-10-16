@@ -1,0 +1,96 @@
+{
+  "schema": "earth-s-walk-body-v1",
+  "base_commit": "c6ebde35650983b1cebb5c2b4fd8188320acf6c9",
+  "source_archive_commit": "d262a4f",
+  "action": "walk",
+  "direction": 4,
+  "source_ids": [
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+  ],
+  "frame_ticks": 7,
+  "texture_density": 4,
+  "logical_frame_size": [
+    128,
+    128
+  ],
+  "logical_draw_offset": [
+    -16,
+    -64
+  ],
+  "source_pins": {
+    "res://scripts/core/movement.gd": "6f48e3d5e7b655d19bd25f65ae735f1ab998f68cae8a17bc12306e0d66f2db99",
+    "res://scripts/world_view.gd": "b404d8dd5e7e85a120fec00b7eb5f01e6bfc1fc37adf5e7878c1798432d4e285",
+    "res://data/hero/movement.json": "b5eb981b005efedc5f071bb51f35240cabf91aa0d77143e70bcf4ee9b9c733f1",
+    "res://assets/original/hero/body-movement.png": "0698b9cc8a6386204e895b6179959b58bcf9d62d6735e6821f11af87cc839783",
+    "res://assets/original/hero/head-movement.png": "347508d77a77d3360a5ff7467b6b0826bdb6be05d75177b73b9c3eccce090f5a"
+  },
+  "records": [
+    {
+      "source_id": 57,
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-57.png",
+      "sha256": "3f9b3dbc4f9873d6e27cad3c671076832d1ae0913335034c95e7f7b1a42f4c16",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "f103a542ae5e6b580ae1565f2595e3bad8d35fddb372c3298595a768e9308629"
+    },
+    {
+      "source_id": 58,
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-58.png",
+      "sha256": "33ee9c55177b1d4524daa9918c7d169de0e87314def5fb882814280a28ed1495",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "1c6300dd17d284faf73fc2282e90d210fe3a7debff7cbf981ce422183ec6d3c3"
+    },
+    {
+      "source_id": 59,
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-59.png",
+      "sha256": "051e2b12a9f0f06099a43bc11bec03b2674b25c0a5229407c9a6159d012840f9",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "2d47c8a0b739e09274ae911a8c8f4c6fe5668c4f485a369e11439249ac96dd67"
+    },
+    {
+      "source_id": 60,
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-60.png",
+      "sha256": "321da29a790209526ecc5b385cf06a488d1ff0d55b9fe7d9ebe3c75b7b95e817",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "4a16de0bfde8465144208486e4cff1f82f967569dabc57c0b966bbd075ad13a2"
+    },
+    {
+      "source_id": 61,
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-61.png",
+      "sha256": "4893ba3688b3f30fa53347d81ef289cec1868bfdc0a58323309e19e86ec5a771",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "4abf828fc33a168581507c00867d8ea55d5341ff865c89187904db7907457804"
+    },
+    {
+      "source_id": 62,
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-62.png",
+      "sha256": "5acac58a034b5beefaf0ab5f73fa97642ccc3a6aea338b6a03f71982039b70ea",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "9a22d5df74b4d75b282c84f5ed6a1e4f074622565b3baba8ba37a1d1c77e732f"
+    }
+  ],
+  "status": "body candidate; upper-body pose differs; no walk shadow qualified",
+  "lifecycle_contract": "controlled-private-bank-v2: SHA and RGBA verified at preparation/bind; token revocation on reset; no runtime ImageTexture.update/set_image; not arbitrary external mutation tamper detection"
+}

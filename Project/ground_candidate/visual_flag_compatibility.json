@@ -1,0 +1,130 @@
+{
+  "schema": "a13-ground-visual-flag-compatibility-v1",
+  "source_path": "res://data/maps/A13.json",
+  "source_sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+  "load_script_sha256": "7359866fadd579b6dd92ee74d672f65c7d1065c4f67b9a007edb8053b50734f8",
+  "event_condition": "Original A13 loadScript et9 = 1; visual compatibility only, not a story permission",
+  "source_cells": [
+    {
+      "cell": [
+        78,
+        22
+      ],
+      "order": 7822,
+      "original": [
+        118,
+        -3,
+        0,
+        0
+      ],
+      "allowed_flag": 0,
+      "visual_partition": "source"
+    },
+    {
+      "cell": [
+        77,
+        24
+      ],
+      "order": 7724,
+      "original": [
+        141,
+        -3,
+        0,
+        0
+      ],
+      "allowed_flag": 0,
+      "visual_partition": "source"
+    },
+    {
+      "cell": [
+        77,
+        25
+      ],
+      "order": 7725,
+      "original": [
+        157,
+        -3,
+        0,
+        0
+      ],
+      "allowed_flag": 0,
+      "visual_partition": "source"
+    },
+    {
+      "cell": [
+        78,
+        25
+      ],
+      "order": 7825,
+      "original": [
+        159,
+        -3,
+        0,
+        0
+      ],
+      "allowed_flag": 0,
+      "visual_partition": "source"
+    },
+    {
+      "cell": [
+        79,
+        25
+      ],
+      "order": 7925,
+      "original": [
+        159,
+        -3,
+        0,
+        0
+      ],
+      "allowed_flag": 0,
+      "visual_partition": "source"
+    },
+    {
+      "cell": [
+        80,
+        25
+      ],
+      "order": 8025,
+      "original": [
+        159,
+        -3,
+        0,
+        0
+      ],
+      "allowed_flag": 0,
+      "visual_partition": "source"
+    },
+    {
+      "cell": [
+        77,
+        23
+      ],
+      "order": 7723,
+      "original": [
+        141,
+        -3,
+        0,
+        0
+      ],
+      "allowed_flag": 0,
+      "visual_partition": "source"
+    },
+    {
+      "cell": [
+        77,
+        22
+      ],
+      "order": 7722,
+      "original": [
+        141,
+        -3,
+        0,
+        0
+      ],
+      "allowed_flag": 0,
+      "visual_partition": "source"
+    }
+  ],
+  "rules": "Only these eight source-cell flags -3 to 0 may differ. Every floor id, object kind/index, all other cells/flags, floor stream identity, crop and RGBA remain exact. Keep actual flags for collision."
+}

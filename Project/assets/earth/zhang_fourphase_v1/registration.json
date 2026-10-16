@@ -1,0 +1,204 @@
+{
+  "npc_identity": {
+    "x": 35,
+    "y": 34,
+    "appearance": 16,
+    "direction": 2,
+    "name": "张天师",
+    "script": "#BUY\r\n定风珠\r\n#ENDBUY\r\n武学亦是修道。在我三清观后有一修炼密室，只有武艺绝世之人才可进入修炼。密室外由混元之气阻挡，一般人无法进入。这混元之气须有炽、寒、幽三灵调和其中才能使其暂时消失。我这里虽然有定风珠，但只能平定一般气旋，且每珠只能使用一次。\r\n\r\n#button 关闭 34 9 黄 OVER\r\n#end\r\n"
+  },
+  "source_map_sha": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+  "source_manifest_sha": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+  "frames": {
+    "201": {
+      "original": [
+        72,
+        70
+      ],
+      "offset": [
+        -1,
+        -44
+      ],
+      "sourceOffset": 809363,
+      "sourceBytes": 4338,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        72,
+        70
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "de22db67e5566ea4d2127a9b430235074e34f90fa248167ddaa8681ea08ed4d7",
+      "page": 0,
+      "rect": [
+        813,
+        1,
+        72,
+        70
+      ],
+      "crop": [
+        0,
+        0
+      ]
+    },
+    "202": {
+      "original": [
+        72,
+        70
+      ],
+      "offset": [
+        0,
+        -44
+      ],
+      "sourceOffset": 813705,
+      "sourceBytes": 4288,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        72,
+        70
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "7b614b05da0fa297fc464fb63c9f5c6573e4cfad041db54faaed99d7ef9df26a",
+      "page": 0,
+      "rect": [
+        887,
+        1,
+        72,
+        70
+      ],
+      "crop": [
+        0,
+        0
+      ]
+    },
+    "203": {
+      "original": [
+        72,
+        70
+      ],
+      "offset": [
+        -1,
+        -44
+      ],
+      "sourceOffset": 817997,
+      "sourceBytes": 4285,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        72,
+        70
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "4a30e82e7cc05295162f62a4dc9a7aa7aba20bfd51bd70bc6f9b0657208b4373",
+      "page": 0,
+      "rect": [
+        961,
+        1,
+        72,
+        70
+      ],
+      "crop": [
+        0,
+        0
+      ]
+    },
+    "204": {
+      "original": [
+        72,
+        70
+      ],
+      "offset": [
+        -1,
+        -44
+      ],
+      "sourceOffset": 822286,
+      "sourceBytes": 4256,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        72,
+        70
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "372d31fa161bc53421f2273390437cb6f4a34f96ab7d9ea3545777b744493880",
+      "page": 0,
+      "rect": [
+        1035,
+        1,
+        72,
+        70
+      ],
+      "crop": [
+        0,
+        0
+      ]
+    }
+  },
+  "pages": {
+    "0": {
+      "file": "res://assets/original/Npc/0.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "c0de28cf0fe814dec4829db167869c7ebed876cc9cc2086f99d490427a0bfa67"
+    }
+  },
+  "atlas_pins": {
+    "res://assets/original/Npc/0.png": "c0de28cf0fe814dec4829db167869c7ebed876cc9cc2086f99d490427a0bfa67"
+  },
+  "bodies": {
+    "201": {
+      "file": "res://assets/earth/zhang_fourphase_v1/body201.png",
+      "sha256": "2b2069213836341aab4518728a27d4f472bae78591f5237c9bc19187c3c89597",
+      "recipe_source": "translation-minus5-plus1/candidate201-translation-only-density4.png"
+    },
+    "202": {
+      "file": "res://assets/earth/zhang_fourphase_v1/body202.png",
+      "sha256": "0b3806e40761c2df55f1c745748a04a8577e80d5057366be06d374087bba9adb",
+      "recipe_source": "phase202-rigid-minus1p25-minus1/candidate202-rigid-density4.png"
+    },
+    "203": {
+      "file": "res://assets/earth/zhang_fourphase_v1/body203.png",
+      "sha256": "8e4bcbc0b735139edb3f7c259daae78c81ff28c9556be5201149cf4ab79a22ab",
+      "recipe_source": "phase203-rigid-common-prediction/candidate203-rigid-density4.png"
+    },
+    "204": {
+      "file": "res://assets/earth/zhang_fourphase_v1/body204.png",
+      "sha256": "274c6c40f26afff0d8bb2040e17ffbac28a69d1f183c2f3322ae1e4ce2e06d7a",
+      "recipe_source": "phase204-rigid-common-prediction/candidate204-rigid-density4.png"
+    }
+  },
+  "body_size": [
+    384,
+    384
+  ],
+  "density": 4,
+  "logical_offset": [
+    -12,
+    -56
+  ],
+  "logical_size": [
+    96,
+    96
+  ],
+  "source_ids": [
+    201,
+    202,
+    203,
+    204
+  ],
+  "ticks_per_phase": 17,
+  "shadow": false,
+  "source_cell": [
+    0,
+    0,
+    7,
+    5
+  ]
+}

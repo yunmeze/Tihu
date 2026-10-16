@@ -1,0 +1,166 @@
+{
+  "schema": "earth-s-walk-contact-v3",
+  "identity": "hero_s_walk_contact_v3",
+  "direction": "S",
+  "action": "walk",
+  "source_ids": [
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+  ],
+  "frame_ticks": 7,
+  "physics_hz": 50,
+  "frames": [
+    {
+      "source_id": 57,
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-57.png",
+      "sha256": "3f9b3dbc4f9873d6e27cad3c671076832d1ae0913335034c95e7f7b1a42f4c16",
+      "rgba_sha256": "f103a542ae5e6b580ae1565f2595e3bad8d35fddb372c3298595a768e9308629",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 58,
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-58.png",
+      "sha256": "33ee9c55177b1d4524daa9918c7d169de0e87314def5fb882814280a28ed1495",
+      "rgba_sha256": "1c6300dd17d284faf73fc2282e90d210fe3a7debff7cbf981ce422183ec6d3c3",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 59,
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-59.png",
+      "sha256": "051e2b12a9f0f06099a43bc11bec03b2674b25c0a5229407c9a6159d012840f9",
+      "rgba_sha256": "2d47c8a0b739e09274ae911a8c8f4c6fe5668c4f485a369e11439249ac96dd67",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 60,
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-60.png",
+      "sha256": "321da29a790209526ecc5b385cf06a488d1ff0d55b9fe7d9ebe3c75b7b95e817",
+      "rgba_sha256": "4a16de0bfde8465144208486e4cff1f82f967569dabc57c0b966bbd075ad13a2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 61,
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-61.png",
+      "sha256": "4893ba3688b3f30fa53347d81ef289cec1868bfdc0a58323309e19e86ec5a771",
+      "rgba_sha256": "4abf828fc33a168581507c00867d8ea55d5341ff865c89187904db7907457804",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "source_id": 62,
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-62.png",
+      "sha256": "5acac58a034b5beefaf0ab5f73fa97642ccc3a6aea338b6a03f71982039b70ea",
+      "rgba_sha256": "9a22d5df74b4d75b282c84f5ed6a1e4f074622565b3baba8ba37a1d1c77e732f",
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "density": 4,
+  "logical_size": [
+    128,
+    128
+  ],
+  "body_offset": [
+    -16,
+    -64
+  ],
+  "cell_size": [
+    48,
+    32
+  ],
+  "projection": {
+    "reference": [
+      40,
+      85.3125
+    ],
+    "slope": 0,
+    "cast": [
+      1.2,
+      0.55
+    ],
+    "tint": [
+      0.035,
+      0.045,
+      0.055
+    ],
+    "opacity": 0.25,
+    "blur": 0.8,
+    "extra_guard": 1,
+    "constant_across_phases": true,
+    "status": "fixed lower-region ground approximation; no anatomy/support inference; native review pending",
+    "height": "max(b-y,0)",
+    "b": 85.3125,
+    "mapping": "q=(x+1.2*h,y+1.55*h)",
+    "branches": "upper p.y<=b affine; lower p.y>=b identity; max original-alpha samples per ground tap, blur after union",
+    "nonnegative_design_height": true
+  },
+  "receiver": {
+    "rect": [
+      2496,
+      960,
+      3264,
+      1472
+    ],
+    "density": 2,
+    "size": [
+      1536,
+      1024
+    ],
+    "allowed": "res://assets/earth/shadows/se_flat_v1/allowed.png",
+    "forbidden": "res://assets/earth/shadows/se_flat_v1/forbidden.png"
+  },
+  "envelope": {
+    "path": "res://assets/earth/shadows/s_walk_contact_v3/envelope.png",
+    "size": [
+      340,
+      93
+    ],
+    "offset": [
+      5.5,
+      83.5
+    ],
+    "set_pixels": 12049,
+    "sha256": "5d1175653159351fedf369d9a9f9dfea74f4b43b2efd8c93b19e3b510234b265"
+  },
+  "input_sha256": {
+    "res://assets/earth/hero/s_walk_arap_v1/mesh-57.png": "3f9b3dbc4f9873d6e27cad3c671076832d1ae0913335034c95e7f7b1a42f4c16",
+    "res://assets/earth/hero/s_walk_arap_v1/mesh-58.png": "33ee9c55177b1d4524daa9918c7d169de0e87314def5fb882814280a28ed1495",
+    "res://assets/earth/hero/s_walk_arap_v1/mesh-59.png": "051e2b12a9f0f06099a43bc11bec03b2674b25c0a5229407c9a6159d012840f9",
+    "res://assets/earth/hero/s_walk_arap_v1/mesh-60.png": "321da29a790209526ecc5b385cf06a488d1ff0d55b9fe7d9ebe3c75b7b95e817",
+    "res://assets/earth/hero/s_walk_arap_v1/mesh-61.png": "4893ba3688b3f30fa53347d81ef289cec1868bfdc0a58323309e19e86ec5a771",
+    "res://assets/earth/hero/s_walk_arap_v1/mesh-62.png": "5acac58a034b5beefaf0ab5f73fa97642ccc3a6aea338b6a03f71982039b70ea",
+    "res://assets/earth/shadows/se_flat_v1/allowed.png": "06d4a6fe1e8404c48619d51b72a67d82795fb178a34089e35b0661df5f9eb2dc",
+    "res://assets/earth/shadows/se_flat_v1/forbidden.png": "605ba15e50e5c1a710b1bab004ac824bb764f446dee29cdd1f9664f806426277",
+    "res://assets/earth/shadows/se_flat_v1/manifest.json": "3c7ac445562535c706cd58ebef625880308860ddfa012686fee600223beaec48",
+    "res://data/maps/A13.json": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "res://assets/earth/hero/s_walk_arap_v1/manifest.json": "04d1d075c5cdb38819b2e7b1180f2aa8ff3848ba983aa60d2c02951fcf3ab2c0",
+    "res://assets/earth/shadows/s_walk_contact_v3/envelope.png": "5d1175653159351fedf369d9a9f9dfea74f4b43b2efd8c93b19e3b510234b265"
+  },
+  "body_lifecycle": {
+    "version": 2,
+    "load_bind": "exact file SHA, decoded RGBA, size and six IDs checked before activation",
+    "draw": "same instance, RID, size, source ID, active shared bank lease and generation; no texture readback",
+    "reset": "loader revokes old shared bank_state before changing generation; old bindings immediately invalid",
+    "boundary": "controlled loader; production never updates/replaces bound image pixels; not arbitrary external mutation protection"
+  }
+}
