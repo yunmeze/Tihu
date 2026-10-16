@@ -872,6 +872,22 @@
       "role": "registration"
     },
     {
+      "path": "res://assets/earth/xuyun_static_v1/body.png",
+      "sha256": "8a74e4ad56848eade334ccdfa5d74b343bf55aba63e3adb13b5fb04b43d42537",
+      "bytes": 66939,
+      "type": "png",
+      "role": "texture",
+      "width": 512,
+      "height": 640
+    },
+    {
+      "path": "res://assets/earth/xuyun_static_v1/registration.json",
+      "sha256": "bee860c2b673fcd17c3337ae8c35a574020d13fe38a2d727ca00fc7d2d5774cd",
+      "bytes": 4341,
+      "type": "json",
+      "role": "registration"
+    },
+    {
       "path": "res://assets/original/Map/Res/Building/0.png",
       "sha256": "6fc88a1aa96eb18687eea798bcb4eae1f0ebf6d546a5a076fb1c2546550b3343",
       "bytes": 2138303,
@@ -1177,6 +1193,13 @@
       "path": "res://scripts/earth/upright_candidate.gd",
       "sha256": "83d79c0484b186bdf1c160be4da5c18a8395f9cf6d6f2110b7f3d42ba39413a0",
       "bytes": 2912,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/earth/xuyun_guard.gd",
+      "sha256": "bca49885359f4a90520b8249aba49b1f527ee4b1198ff312c3251bc4ebe34efd",
+      "bytes": 3996,
       "type": "gd",
       "role": "raw-contract"
     },

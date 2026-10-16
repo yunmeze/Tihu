@@ -1,0 +1,237 @@
+{
+  "method": "manual independent fixedcanvas reading; no transform fit; +/-5 logical. Crown roof tips geometric only, not ground footprint",
+  "points": [
+    {
+      "name": "upper_back_tip",
+      "source_canvas": [
+        215,
+        80
+      ],
+      "candidate_canvas": [
+        234,
+        21
+      ],
+      "delta": [
+        19,
+        -59
+      ],
+      "uncertainty_logical": 5
+    },
+    {
+      "name": "ridge_near_left",
+      "source_canvas": [
+        132,
+        110
+      ],
+      "candidate_canvas": [
+        120,
+        75
+      ],
+      "delta": [
+        -12,
+        -35
+      ],
+      "uncertainty_logical": 5
+    },
+    {
+      "name": "ridge_near_right",
+      "source_canvas": [
+        325,
+        240
+      ],
+      "candidate_canvas": [
+        360,
+        240
+      ],
+      "delta": [
+        35,
+        0
+      ],
+      "uncertainty_logical": 5
+    },
+    {
+      "name": "left_eave_tip",
+      "source_canvas": [
+        48,
+        196
+      ],
+      "candidate_canvas": [
+        13,
+        171
+      ],
+      "delta": [
+        -35,
+        -25
+      ],
+      "uncertainty_logical": 5
+    },
+    {
+      "name": "right_eave_tip",
+      "source_canvas": [
+        409,
+        216
+      ],
+      "candidate_canvas": [
+        498,
+        195
+      ],
+      "delta": [
+        89,
+        -21
+      ],
+      "uncertainty_logical": 5
+    },
+    {
+      "name": "front_eave_corner",
+      "source_canvas": [
+        249,
+        330
+      ],
+      "candidate_canvas": [
+        285,
+        351
+      ],
+      "delta": [
+        36,
+        21
+      ],
+      "uncertainty_logical": 5
+    },
+    {
+      "name": "door_center",
+      "source_canvas": [
+        202,
+        336
+      ],
+      "candidate_canvas": [
+        220,
+        378
+      ],
+      "delta": [
+        18,
+        42
+      ],
+      "uncertainty_logical": 5
+    },
+    {
+      "name": "left_base_contact",
+      "source_canvas": [
+        82,
+        306
+      ],
+      "candidate_canvas": [
+        56,
+        320
+      ],
+      "delta": [
+        -26,
+        14
+      ],
+      "uncertainty_logical": 5,
+      "source_world": [
+        948,
+        749
+      ],
+      "candidate_world": [
+        922,
+        763
+      ],
+      "source_cell": {
+        "cell": [
+          19,
+          23
+        ],
+        "flag": -1,
+        "walkable": false
+      },
+      "candidate_cell": {
+        "cell": [
+          19,
+          23
+        ],
+        "flag": -1,
+        "walkable": false
+      }
+    },
+    {
+      "name": "front_base_contact",
+      "source_canvas": [
+        263,
+        427
+      ],
+      "candidate_canvas": [
+        291,
+        491
+      ],
+      "delta": [
+        28,
+        64
+      ],
+      "uncertainty_logical": 5,
+      "source_world": [
+        1129,
+        870
+      ],
+      "candidate_world": [
+        1157,
+        934
+      ],
+      "source_cell": {
+        "cell": [
+          23,
+          27
+        ],
+        "flag": -1,
+        "walkable": false
+      },
+      "candidate_cell": {
+        "cell": [
+          24,
+          29
+        ],
+        "flag": 0,
+        "walkable": true
+      }
+    },
+    {
+      "name": "right_base_contact",
+      "source_canvas": [
+        363,
+        365
+      ],
+      "candidate_canvas": [
+        432,
+        402
+      ],
+      "delta": [
+        69,
+        37
+      ],
+      "uncertainty_logical": 5,
+      "source_world": [
+        1229,
+        808
+      ],
+      "candidate_world": [
+        1298,
+        845
+      ],
+      "source_cell": {
+        "cell": [
+          25,
+          25
+        ],
+        "flag": -1,
+        "walkable": false
+      },
+      "candidate_cell": {
+        "cell": [
+          27,
+          26
+        ],
+        "flag": 0,
+        "walkable": true
+      }
+    }
+  ]
+}

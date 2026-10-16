@@ -1,0 +1,412 @@
+{
+  "train_predefined": [
+    "upper_back_tip",
+    "ridge_near_left",
+    "ridge_near_right",
+    "left_eave_tip",
+    "right_eave_tip",
+    "front_eave_corner"
+  ],
+  "heldout_predefined": [
+    "door_center",
+    "left_base_contact",
+    "front_base_contact",
+    "right_base_contact"
+  ],
+  "model": "single isotropic scale plus translation; no rotation; candidate->source full512 worldcanvas",
+  "scale": 0.7584274528227415,
+  "translation": [
+    38.79575770627673,
+    62.2293153629422
+  ],
+  "points": [
+    {
+      "name": "upper_back_tip",
+      "source_canvas": [
+        215,
+        80
+      ],
+      "candidate_canvas": [
+        234,
+        21
+      ],
+      "delta": [
+        19,
+        -59
+      ],
+      "uncertainty_logical": 5,
+      "transformed": [
+        216.26778166679824,
+        78.15629187221977
+      ],
+      "residual": [
+        1.2677816667982427,
+        -1.843708127780232
+      ],
+      "norm": 2.237527656837479,
+      "role": "training"
+    },
+    {
+      "name": "ridge_near_left",
+      "source_canvas": [
+        132,
+        110
+      ],
+      "candidate_canvas": [
+        120,
+        75
+      ],
+      "delta": [
+        -12,
+        -35
+      ],
+      "uncertainty_logical": 5,
+      "transformed": [
+        129.80705204500572,
+        119.11137432464781
+      ],
+      "residual": [
+        -2.192947954994281,
+        9.111374324647812
+      ],
+      "norm": 9.371561386298708,
+      "role": "training"
+    },
+    {
+      "name": "ridge_near_right",
+      "source_canvas": [
+        325,
+        240
+      ],
+      "candidate_canvas": [
+        360,
+        240
+      ],
+      "delta": [
+        35,
+        0
+      ],
+      "uncertainty_logical": 5,
+      "transformed": [
+        311.8296407224637,
+        244.25190404040015
+      ],
+      "residual": [
+        -13.170359277536306,
+        4.251904040400149
+      ],
+      "norm": 13.83969116231131,
+      "role": "training"
+    },
+    {
+      "name": "left_eave_tip",
+      "source_canvas": [
+        48,
+        196
+      ],
+      "candidate_canvas": [
+        13,
+        171
+      ],
+      "delta": [
+        -35,
+        -25
+      ],
+      "uncertainty_logical": 5,
+      "transformed": [
+        48.655314592972374,
+        191.920409795631
+      ],
+      "residual": [
+        0.655314592972374,
+        -4.079590204368998
+      ],
+      "norm": 4.131887395772788,
+      "role": "training"
+    },
+    {
+      "name": "right_eave_tip",
+      "source_canvas": [
+        409,
+        216
+      ],
+      "candidate_canvas": [
+        498,
+        195
+      ],
+      "delta": [
+        89,
+        -21
+      ],
+      "uncertainty_logical": 5,
+      "transformed": [
+        416.492629212002,
+        210.1226686633768
+      ],
+      "residual": [
+        7.492629212001987,
+        -5.8773313366232
+      ],
+      "norm": 9.52273679931345,
+      "role": "training"
+    },
+    {
+      "name": "front_eave_corner",
+      "source_canvas": [
+        249,
+        330
+      ],
+      "candidate_canvas": [
+        285,
+        351
+      ],
+      "delta": [
+        36,
+        21
+      ],
+      "uncertainty_logical": 5,
+      "transformed": [
+        254.94758176075806,
+        328.4373513037245
+      ],
+      "residual": [
+        5.947581760758055,
+        -1.5626486962755166
+      ],
+      "norm": 6.149438978384407,
+      "role": "training"
+    },
+    {
+      "name": "door_center",
+      "source_canvas": [
+        202,
+        336
+      ],
+      "candidate_canvas": [
+        220,
+        378
+      ],
+      "delta": [
+        18,
+        42
+      ],
+      "uncertainty_logical": 5,
+      "transformed": [
+        205.64979732727986,
+        348.91489252993847
+      ],
+      "residual": [
+        3.649797327279856,
+        12.91489252993847
+      ],
+      "norm": 13.420710472626986,
+      "role": "heldout"
+    },
+    {
+      "name": "left_base_contact",
+      "source_canvas": [
+        82,
+        306
+      ],
+      "candidate_canvas": [
+        56,
+        320
+      ],
+      "delta": [
+        -26,
+        14
+      ],
+      "uncertainty_logical": 5,
+      "source_world": [
+        948,
+        749
+      ],
+      "candidate_world": [
+        922,
+        763
+      ],
+      "source_cell": {
+        "cell": [
+          19,
+          23
+        ],
+        "flag": -1,
+        "walkable": false
+      },
+      "candidate_cell": {
+        "cell": [
+          19,
+          23
+        ],
+        "flag": -1,
+        "walkable": false
+      },
+      "transformed": [
+        81.26769506435025,
+        304.92610026621946
+      ],
+      "residual": [
+        -0.7323049356497506,
+        -1.0738997337805358
+      ],
+      "norm": 1.2998196632575194,
+      "role": "heldout"
+    },
+    {
+      "name": "front_base_contact",
+      "source_canvas": [
+        263,
+        427
+      ],
+      "candidate_canvas": [
+        291,
+        491
+      ],
+      "delta": [
+        28,
+        64
+      ],
+      "uncertainty_logical": 5,
+      "source_world": [
+        1129,
+        870
+      ],
+      "candidate_world": [
+        1157,
+        934
+      ],
+      "source_cell": {
+        "cell": [
+          23,
+          27
+        ],
+        "flag": -1,
+        "walkable": false
+      },
+      "candidate_cell": {
+        "cell": [
+          24,
+          29
+        ],
+        "flag": 0,
+        "walkable": true
+      },
+      "transformed": [
+        259.4981464776945,
+        434.6171946989083
+      ],
+      "residual": [
+        -3.5018535223055096,
+        7.617194698908293
+      ],
+      "norm": 8.38359309441722,
+      "role": "heldout"
+    },
+    {
+      "name": "right_base_contact",
+      "source_canvas": [
+        363,
+        365
+      ],
+      "candidate_canvas": [
+        432,
+        402
+      ],
+      "delta": [
+        69,
+        37
+      ],
+      "uncertainty_logical": 5,
+      "source_world": [
+        1229,
+        808
+      ],
+      "candidate_world": [
+        1298,
+        845
+      ],
+      "source_cell": {
+        "cell": [
+          25,
+          25
+        ],
+        "flag": -1,
+        "walkable": false
+      },
+      "candidate_cell": {
+        "cell": [
+          27,
+          26
+        ],
+        "flag": 0,
+        "walkable": true
+      },
+      "transformed": [
+        366.43641732570103,
+        367.11715139768427
+      ],
+      "residual": [
+        3.4364173257010293,
+        2.1171513976842675
+      ],
+      "norm": 4.03624752425996,
+      "role": "heldout"
+    }
+  ],
+  "leave_one_training_point_out": [
+    {
+      "omitted": "upper_back_tip",
+      "scale": 0.7600986999204034,
+      "translation": [
+        38.62281178031307,
+        61.51562833642876
+      ],
+      "heldout_max_error": 13.396441616451098
+    },
+    {
+      "omitted": "ridge_near_left",
+      "scale": 0.754350695656132,
+      "translation": [
+        39.49050660759531,
+        64.8490039296606
+      ],
+      "heldout_max_error": 14.412018294311796
+    },
+    {
+      "omitted": "ridge_near_right",
+      "scale": 0.7514561991035983,
+      "translation": [
+        37.765074206172386,
+        64.21322202575493
+      ],
+      "heldout_max_error": 12.311606797684416
+    },
+    {
+      "omitted": "left_eave_tip",
+      "scale": 0.7573163664461294,
+      "translation": [
+        39.259479886028856,
+        61.60939295890276
+      ],
+      "heldout_max_error": 12.48939235880971
+    },
+    {
+      "omitted": "right_eave_tip",
+      "scale": 0.772833441056781,
+      "translation": [
+        37.378511530107545,
+        58.58178151465637
+      ],
+      "heldout_max_error": 15.67314014677349
+    },
+    {
+      "omitted": "front_eave_corner",
+      "scale": 0.7579185065790356,
+      "translation": [
+        40.10996588813629,
+        61.9882416763034
+      ],
+      "heldout_max_error": 13.391360646465388
+    }
+  ]
+}

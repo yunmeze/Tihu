@@ -18,7 +18,9 @@ func setup(actor:RefCounted,map_path:String="res://data/maps/A13.json") -> bool:
 	static_props_groups.clear();static_props_errors={"pool":"尚未加载","clump":"尚未加载"}
 	review_ground_owners.clear();review_ground_texture=null;e_walk_frames.clear()
 	e_walk_error="尚未加载";review_ground_error="尚未加载"
-	return super.setup(actor,map_path)
+	var ok=super.setup(actor,map_path)
+	prepare_xuyun()
+	return ok
 func prepare_ground(path:String=ReviewGuard.REGISTRATION) -> bool:
 	# Never call the inherited old-64 preparation, including on reload failure.
 	ground_owners.clear();review_ground_owners.clear();review_ground_texture=null;validated_floor_stream.clear();review_ground_contract.clear()
@@ -79,6 +81,7 @@ func prepare_static_props(id:String,path:String=StaticPropsGuard.REGISTRATION) -
 	return not group.is_empty()
 
 func refresh() -> void:
+	refresh_xuyun()
 	var snapshot=static_props_guard.refresh_snapshot(static_props_groups.values()+plant_reuse_groups.values(),objects)
 	validate_review_ground_stream()
 	validate_review_ground_live(snapshot)
@@ -100,6 +103,10 @@ func static_props_count(id:String) -> int:
 	return static_props_groups[id].owners.size() if preferred and static_props_groups.has(id) else 0
 
 func _draw_frame(pack_name:String,index:int,origin:Vector2,use_offset:bool,top:float) -> void:
+	if prefer_npcs and xuyun_active and use_offset and pack_name=="Npc" and index in [237,238,239,240] and origin-screen_origin()==Vector2(1392,1344):
+		var body=xuyun_guard.descriptor()
+		draw_texture_rect_region(body.texture,Rect2(body.origin+screen_origin(),body.size),body.region)
+		return
 	if not use_offset:
 		var cell=(origin-screen_origin())/Vector2(48,32)
 		var order=roundi(cell.x)*100+roundi(cell.y)
@@ -171,3 +178,19 @@ func validate_review_ground_live(snapshot:Dictionary) -> void:
 				reason="121 地块源图集页变化或缺失";break
 	if not reason.is_empty():
 		review_ground_owners.clear();review_ground_texture=null;validated_floor_stream.clear();review_ground_error=reason
+
+# Static source-equivalent 237–240 body; unchanged 17-tick source clock and sort.
+const XuyunGuard=preload("res://scripts/earth/xuyun_guard.gd")
+var xuyun_guard=XuyunGuard.new()
+var xuyun_active=false
+func prepare_xuyun(deny:PackedStringArray=[]) -> bool:
+	xuyun_guard.reload(deny)
+	refresh_xuyun()
+	return xuyun_active
+func refresh_xuyun() -> void:
+	xuyun_active=initialized and xuyun_guard.valid(map,packs,objects)
+func uses_xuyun(entry:Dictionary) -> bool:
+	return prefer_npcs and xuyun_active and xuyun_guard.owns(entry)
+func _draw() -> void:
+	refresh_xuyun()
+	super._draw()

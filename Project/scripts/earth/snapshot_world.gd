@@ -63,6 +63,8 @@ func hit_image(raw:Texture2D):
 	return hit_images[key]
 func prepare_visuals() -> void:
 	atlas_qualification.prepare()
+	xuyun_guard.atlas_validator=snapshot_atlas_matches
+	prepare_xuyun()
 	review_guard.atlas_validator=snapshot_atlas_matches
 	static_props_guard.atlas_validator=snapshot_atlas_matches
 	east_ground_guard.atlas_validator=snapshot_atlas_matches
@@ -119,10 +121,15 @@ func alpha_hit(texture:Texture2D,point:Vector2,rect:Rect2,region:Rect2=Rect2()) 
 	return lerpf(lerpf(a,b,fx),lerpf(c,d,fx),fy)>=0.1
 
 func hit_test_npc(point:Vector2) -> int:
+	refresh_xuyun()
 	var entries=ordered_objects();entries.reverse()
 	for entry in entries:
 		if entry.kind==-1:continue
 		var origin:Vector2=entry.origin+screen_origin()
+		if uses_xuyun(entry):
+			var body=xuyun_guard.descriptor()
+			if alpha_hit(body.texture,point,Rect2(body.origin+screen_origin(),body.size),body.region):return body.npc_index
+			continue
 		if uses_lingyunzi(entry) or uses_fangzhang(entry):
 			var ling=uses_lingyunzi(entry)
 			var tex=lingyunzi_texture if ling else fangzhang_texture

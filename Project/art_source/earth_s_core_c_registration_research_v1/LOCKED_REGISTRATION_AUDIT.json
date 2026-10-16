@@ -1,0 +1,204 @@
+{
+  "status": "APPROVED_DIAGNOSTIC_REGISTER_ONLY_NO_RUNTIME",
+  "s": 0.4768735,
+  "translation_HD": [
+    72.2553,
+    34.578
+  ],
+  "source_512_sha256": "1bef7e46c209ac10b3b2ee7caea3d73e3173a6316fa401b6e4db4792213c5c01",
+  "raw_sha256": "14a4fb1949e4a31a2e224b5a35ab61d7aac447f3ea20dff6709e52b7c3925bc2",
+  "transform": "single full-asset inverse affine uniform BICUBIC from canonical512; alpha uncleaned",
+  "raw_core_bbox_ge128": [
+    183,
+    270,
+    721,
+    736
+  ],
+  "raw_outside_bbox_nonzero_alpha_pixels": 6784,
+  "raw_outside_bbox_alpha_max": 89,
+  "registered_residual_alpha_max": 11,
+  "residual_contribution": {
+    "(30, 32, 36)": {
+      "max_rgb_channel_effect_8bit": 1.7647058823529411,
+      "pixels_effect_ge1": 6,
+      "pixels_effect_ge2": 0,
+      "pixels_effect_ge4": 0
+    },
+    "(232, 232, 232)": {
+      "max_rgb_channel_effect_8bit": 10.007843137254902,
+      "pixels_effect_ge1": 29,
+      "pixels_effect_ge2": 21,
+      "pixels_effect_ge4": 16
+    }
+  },
+  "residual_measurement_note": "Margin0 includes near-boundary antialiasing; margin16 and64 isolate distant residual more conservatively. Residual-only layers measured in memory; actual C alpha unchanged.",
+  "residual_margin_classification_raw_pixels": {
+    "0": {
+      "outside_nonzero_count": 6784,
+      "outside_max_alpha": 89,
+      "registered_residual_max_alpha": 11,
+      "background_effect": {
+        "(30, 32, 36)": {
+          "max_effect": 1.7647058823529411,
+          "pixels_ge1": 6,
+          "pixels_ge2": 0
+        },
+        "(232, 232, 232)": {
+          "max_effect": 10.007843137254902,
+          "pixels_ge1": 29,
+          "pixels_ge2": 21
+        }
+      }
+    },
+    "16": {
+      "outside_nonzero_count": 6030,
+      "outside_max_alpha": 1,
+      "registered_residual_max_alpha": 1,
+      "background_effect": {
+        "(30, 32, 36)": {
+          "max_effect": 0.1411764705882353,
+          "pixels_ge1": 0,
+          "pixels_ge2": 0
+        },
+        "(232, 232, 232)": {
+          "max_effect": 0.9098039215686274,
+          "pixels_ge1": 0,
+          "pixels_ge2": 0
+        }
+      }
+    },
+    "64": {
+      "outside_nonzero_count": 5745,
+      "outside_max_alpha": 1,
+      "registered_residual_max_alpha": 1,
+      "background_effect": {
+        "(30, 32, 36)": {
+          "max_effect": 0.1411764705882353,
+          "pixels_ge1": 0,
+          "pixels_ge2": 0
+        },
+        "(232, 232, 232)": {
+          "max_effect": 0.9098039215686274,
+          "pixels_ge1": 0,
+          "pixels_ge2": 0
+        }
+      }
+    }
+  },
+  "registered_C_horizontal_alpha128_profile_HD": {
+    "110": [
+      112,
+      208
+    ],
+    "115": [
+      110,
+      210
+    ],
+    "120": [
+      108,
+      212
+    ],
+    "125": [
+      108,
+      211
+    ],
+    "130": [
+      110,
+      209
+    ],
+    "135": [
+      119,
+      200
+    ],
+    "140": [
+      130,
+      190
+    ],
+    "145": [
+      131,
+      188
+    ],
+    "150": [
+      134,
+      186
+    ],
+    "155": [
+      136,
+      184
+    ],
+    "160": [
+      135,
+      185
+    ],
+    "165": [
+      133,
+      187
+    ],
+    "170": [
+      135,
+      185
+    ],
+    "174": [
+      142,
+      178
+    ]
+  },
+  "surface_comparison_manual_HD": {
+    "shoulder_outer_surface": {
+      "idle": [
+        [
+          107,
+          116
+        ],
+        [
+          211,
+          116
+        ]
+      ],
+      "registered_C": [
+        [
+          108,
+          121
+        ],
+        [
+          212,
+          121
+        ]
+      ],
+      "uncertainty_each_point": 3
+    },
+    "chest_sides_row145": {
+      "idle_approx_x": [
+        136,
+        185
+      ],
+      "registered_C_alpha128_x": [
+        131,
+        188
+      ],
+      "idle_uncertainty": 3,
+      "note": "Idle side garment partly occluded by arms; C open side is newly designed backing, not homologous anatomy."
+    },
+    "chest_sides_row155": {
+      "idle_approx_x": [
+        136,
+        185
+      ],
+      "registered_C_alpha128_x": [
+        136,
+        184
+      ],
+      "idle_uncertainty": 3
+    },
+    "belt_center_y": {
+      "idle": 178,
+      "registered_C_from_frozen_model": 172.871315,
+      "uncertainty": 3
+    },
+    "belt_bottom_center_y": {
+      "idle_approx": 182,
+      "registered_C_approx": 175,
+      "uncertainty": 3
+    }
+  }
+}

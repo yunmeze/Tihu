@@ -1,0 +1,8 @@
+# Roof-trained whole-building uniform registration research
+Only six roof geometry proxies were used: back roof tip, two ridge endpoints, left/right main eave tips, front eave corner. Door and all three ground-contact corners were held out. Reading proxies were fixed from the pre-transform observation; no shoe/base fitting or new parameter refit. Each manual reading carries roughly±5logical uncertainty (source ornament/material correspondence is imperfect).
+
+Candidate->source transform: scale0.7584274528, translation(+38.7957577,+62.2293154)logical in fixed512window; no rotation/nonuniform scale/warp. Independent diagnostic resamples the entire original raw once into1024square density2 canvas. Originalraw/fixed-map candidate unchanged.
+
+Heldout residuals: door(+3.65,+12.91), norm13.42; leftbase(-.73,-1.07),1.30; frontbase(-3.50,+7.62),8.38; rightbase(+3.44,+2.12),4.04logical. Rooftrain maximum13.84. Leave-one-roof-point-out scale range.75146–.77283, heldout maximum12.31–15.67. Thus uniform rescaling explains most gross enlargement and improves both sidefeet without using them, but does not establish exact geometry preservation: door remains lower, frontbase also lower. Roof correspondence and original ornaments add uncertainty; do not interpret all13pixels as definite local anatomical-style deformation, but do not declare a registrationPASS either.
+
+comparison-1x/2x.png compare source/originalmapping/uniformdiagnostic; predefined-point-reading.png documents selectedpoints. actual-ground-comparison1x/2x.png uses the same original scene and wholebody firstgroup-order insertion (not validated owner partition). Existing wholecanvas failure remains. No production or runtime adoption, no new generation.

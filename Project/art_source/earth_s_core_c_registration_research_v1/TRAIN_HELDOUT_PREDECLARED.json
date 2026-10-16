@@ -1,0 +1,77 @@
+{
+  "policy": "Frozen before solver; no image transform; no foot/hand/bbox selection. Uniform positive scale + translation, zero rotation.",
+  "units": "512 full-canvas HD pixels",
+  "train_names": [
+    "left red cap surface center",
+    "right red cap surface center",
+    "upper silver plate center"
+  ],
+  "train_idle": [
+    [
+      119,
+      111
+    ],
+    [
+      201,
+      111
+    ],
+    [
+      160,
+      134
+    ]
+  ],
+  "train_C": [
+    [
+      96,
+      166
+    ],
+    [
+      272,
+      166
+    ],
+    [
+      184,
+      197
+    ]
+  ],
+  "heldout_names": [
+    "middle silver plate center",
+    "bottom silver plate center",
+    "front belt buckle center"
+  ],
+  "heldout_idle": [
+    [
+      160,
+      145
+    ],
+    [
+      160,
+      154
+    ],
+    [
+      160,
+      178
+    ]
+  ],
+  "heldout_C": [
+    [
+      184,
+      230
+    ],
+    [
+      184,
+      248
+    ],
+    [
+      184,
+      290
+    ]
+  ],
+  "uncertainty_each_axis_HD": {
+    "idle": 2,
+    "C": 3,
+    "belt_idle": 3,
+    "belt_C": 3
+  },
+  "warning": "Modern surface points with design/perspective mismatch; not bone anchors or independent anatomical observations. Belt buckle design differs."
+}

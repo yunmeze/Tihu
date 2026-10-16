@@ -31,17 +31,17 @@
 
 权威逻辑仍设为50Hz，并通过同代码调度/fullquad的独立wall counter测得约49.87–50.03 ticks/s；每显示帧一次flush。该四条件试验使用合并新草之前的fullquad版本、llvmpipe软件渲染、每条件约20秒：2x开影约10.235 wallFPS，1x开影约13.597 wallFPS。它证明逻辑速率恢复，不证明合并新版稳定FPS或硬件GPU性能，也不批准降采样。
 
-合并版本自然观察中的滚动engine FPS中位A13约21、A00约27，混有加载、对话与场景切换，不能当累计wallFPS、稳定性能提升或50FPS预算证明。软件渲染低FPS仍在，Windows未实测。
+虚云加入前的合并版本自然观察中的滚动engine FPS中位A13约21、A00约27，混有加载、对话与场景切换，不能当累计wallFPS、稳定性能提升或50FPS预算证明。软件渲染低FPS仍在，Windows未实测。
 
 整张A13美术、草地严格无缝统计与外围边界、全部动作循环、E影子、其他NPC服务、战斗、怪物AI、保存及完整游戏流程仍未验收。
 
 ## 构建与维护约束
 
-`tools/earth/build_snapshot_registration.py` 可从tracked源数据及已发布注册重建 snapshot receiver/runtime JSON；输出必须指定到Project之外，再核SHA后采用。运行时不依赖诊断工作目录或原版EXE。
+`tools/earth/build_snapshot_registration.py` 已包含虚云三个显式运行时叶子，可从tracked源数据及已发布注册逐字节重建148项 snapshot runtime JSON与原receiver JSON。以Project为工作目录运行 `python tools/earth/build_snapshot_registration.py --project . --output ../snapshot-rebuilt`，输出必须指定到Project之外，再核SHA后采用。此次重建runtime SHA为 `d5fe14f49f71e6b2d1b4d7b22d6010ea0619ab8e50043c7eb3bf4422de1d5dd4`；receiver仍为 `0292fcd96402ec0b26cd4b2d6d99cd069aa7e77a973e434f39fa6f15e1ce3534`。运行时不依赖诊断工作目录或原版EXE。
 
 运行时JSON中的status/provenance保留生成时的“组合未测、native待验”历史文字，它不是当前验收结论。为保持受测资源SHA稳定，不随测试进展改写该JSON。当前结论见本页明确范围；历史18文件代码清单 `cd87702d33aa92851fb1531c49ae641953cbebe827484edaae880ab247cc767d` 属于组合前版本，不能替代本批26文件精确变更清单。
 
-运行时声明包含145项。旧receiver pins中的单一Python文件是显式hash-only叶子，不属于通用v1资源类型；SE来源注册JSON也按明确raw-only叶子处理。导出时需显式解析两份新地面/植物注册、receiver闭包及真R6/A00/原UI导入资源，不能只打包JSON或放宽所有未知文件。
+运行时声明包含148项，保留先前145项并显式加入虚云静态body、注册和guard三个叶子。旧receiver pins中的单一Python文件是显式hash-only叶子，不属于通用v1资源类型；SE来源注册JSON也按明确raw-only叶子处理。导出时需显式解析两份新地面/植物注册、receiver闭包及真R6/A00/原UI导入资源，不能只打包JSON或放宽所有未知文件。
 
 snapshot构造函数必须显式调用父类 `super()`，保留 `first_map_floor_pass.gd`。后续回归必须检查实际floor脚本绑定和Framebuffer，不可只看ready计数或纹理资源SHA。默认strict source/atlas门以及旧receiver AND门不得放宽。
 
@@ -55,3 +55,13 @@ snapshot构造函数必须显式调用父类 `super()`，保留 `first_map_floor
 分阶段证据：v5/v6十三对、v6/v7八十对实际RGBA一致；完整quad在旧矩形内像素不变，新增下方投影符合原slot/receiver。新草146图与真实走动、950整合22图rare/fallback及574项headless已通过。组合版本已补本页所述真实自然主链和手工相机/E姿态检查；未执行分支仍保持未覆盖。
 
 旧性能数字与旧18文件SHA为历史版本记录；本阶段代码以同批精确合并manifest为准。软件样本v6约10.44、v7约11.05 wallFPS仅单次顺序诊断，不是硬件GPU或Windows性能保证。
+
+## 虚云静态身体增量
+
+虚云道人使用完整原NPC身份动态定位，Npc237–240源RGBA与offset相同，四ID/17tick共用一个固定注册body。任一原帧、atlas或body依赖资格失败时整组回原版；快照保留严格atlas资格及仅已知chicken扩展。原排序、碰撞、脚本和权威状态不变。源(29,42)仍允许主角同格站到坐人上，不能称为碰撞阻挡通过。
+
+两个美术入口已接入候选身体；新草、v6调度、v7floor和fullquad组合下通过51项虚云headless、589项实际两入口/材料回退检查、30张native图与实际点击/Movement复核。真实命中返回动态NPC索引；当前开场interact仍限制数组索引0/1，故虚云服务不会开启。此限制不是稳定人物身份白名单，ET0=3..27删除凌云子后原NPC索引会移位，应另作后续交互工作。原虚云BUY/ITEMCK/TAKE/GIVE服务未实现，完整原脚本当前VM报invalid_endif；未放开权限或删改源脚本。
+
+无新增虚云阴影，原姿态右手/膝残差仍在。本项只推进静态身体与显示命中，不意味着全部NPC服务、完整首图美术、Windows或导出验收。同组合actual新游戏自然链已实测五页→方丈→凌云→A00(138,12)→实际走到(138,13)，exit0、23张窗口图；参考轨迹比对保持52/53，唯一未走的是ET1先点凌云A1。该早期分支另起同版本新游戏补测，9张图、exit0、12项CPU核对通过，确认ET1/A1/STOP及HP25MP5/唯一布衣/RNG消耗保持；没有继续A2。两次独立轨迹分开保存，不能拼成一次53/53运行，也不将身体测试装置当完整事件链证据。
+
+本次加入虚云后的自然观察滚动engine FPS中位A13约11、A00约27，包含加载、对话和转场，不是累计wallFPS或同条件因果对比；软件渲染低FPS与性能验收边界仍保留，不由新身体测试宣称性能提升。

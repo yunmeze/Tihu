@@ -26,7 +26,7 @@ func _ready() -> void:
 	research_status.modulate=Color("ffd287")
 	if ready_ok:
 		world.prepare_e_walk();world.prepare_static_props("pool");world.prepare_static_props("clump")
-		world.prepare_east_ground();world.prepare_plant_reuse()
+		world.prepare_east_ground();world.prepare_plant_reuse();world.prepare_xuyun()
 	update_hud()
 func _input(event:InputEvent) -> void:
 	if event is InputEventKey and event.pressed and not event.echo and ready_ok:

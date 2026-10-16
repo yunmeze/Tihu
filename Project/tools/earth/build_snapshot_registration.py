@@ -90,6 +90,11 @@ for root in ['data/maps/A00.json','data/monsters/a13-chicken.json']:
    for page in pack['pages']:add(page['file'],'source-atlas')
 move=json.loads((P/'data/hero/movement.json').read_text())
 for layer in move['layers'].values():add(layer['atlas'],'source-atlas')
+# Explicit static Xuyun display group. Source frames/atlas already enter the closure above.
+# Original source archive remains reproducible input, not a runtime dependency.
+add('res://assets/earth/xuyun_static_v1/registration.json','registration')
+add('res://assets/earth/xuyun_static_v1/body.png','texture')
+add('res://scripts/earth/xuyun_guard.gd','raw-contract')
 reg={'schema':'earth-runtime-files-v1','status':'isolated candidate; inherited opening + partial art; 178 ground / 24 plant snapshot combination untested; native/pack pending','runtime_files':sorted(paths.values(),key=lambda x:x['path']),'provenance':{'base_commit':'44db593064164f8d43a6e75dc0a0b9510a470d53','note':'Explicit domain roots. Export adapter must traverse receiver_contract caster pins and original R6/A00 fallback graph. Not a claim whole game export closure is contained here.'}}
 out=d/'snapshot_runtime_registration.json';out.write_text(json.dumps(reg,ensure_ascii=False,indent=2)+'\n')
 

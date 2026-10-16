@@ -1,0 +1,11 @@
+# 280–289 attempt1: modern material direction readable, fixed registration FAIL
+
+One authorized imagegen call, actual3refs and prompt frozen before generation. Raw1254×1254 =>2.44921875 pixels/logical across fixed512 square, worldorigin(866,443). Full raw preserved. Density2 derivative is uniform premultipliedRGBA fullcanvas Lanczos only; no bboxfit, clipping, alpha cleanup, local repair or extra generation.
+
+Modern metal roof/pale concrete/dark door/small blue light are legible; no broad sourcechecker groundshadow or added stairs. However the generator enlarged the whole building into the padding. Originalcomplete fixedcanvas was not honored. Independent roof and wall-foot readings (rough±5logical): upperbacktip delta(+19,-59), left ridge(-12,-35), right ridge(+35,0), left eave(-35,-25), right eave(+89,-21), front eave(+36,+21), door(+18,+42). This is a large size/registration mismatch, not merely ancient stone edge vs new concrete material.
+
+Base contact proxies separately: left(-26,+14); front(+28,+64); right(+69,+37). Front candidate world~(1157,934) lies in original walkable24,29; sourcefront~(1129,870) was blocked23,27. Right candidate~(1298,845) enters walkable27,26 versus sourceblocked25,25. These are lowerbase visible-contact proxies, not projection of entire elevated roof/body. Their movement far exceeds reading uncertainty, although exact foundation polygon is not inferred from one image. No collision modified; new gameplay footprint not acceptable under current fixed-input contract.
+
+same-coordinate-1x/2x.png and actual-ground-comparison1x/2x.png show this directly. CPU context substitutes entirebody at first originalgroup stream slot; tree and other source scene retained, but multiowner partition/layer interactions are NOT validated. Context is art research, not runtime proof. All8543 rawalpha1–2 pixels remain. Fine pale edge artifacts remain observable; no matte classification/cleanup silently applied.
+
+No owner split or runtime preparation; fail preserved. RawSHA f9521be7b42b3eda077a056c233564ff2de8e565e0fe01cd8ca469de6bf55a9a. Rawreturn generated_images/exec-0832cbcb-e6da-4622-a9de-78a7a1eb1e0f.png. Reproduce review.py then landmarks.py; prompt_actual.txt and contract-before-generation.json recordactualinputchain.

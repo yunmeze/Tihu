@@ -1,0 +1,33 @@
+{
+  "schema": "earth_house_280_289_registration_research_v1",
+  "status": "Original fixed-window FAIL retained. Registered shape allowed isolated native research, not registration/production acceptance. Door/front-contact errors about13/8 logical pixels and four walkable-boundary uncertainty bands remain. No collision, alpha cleanup or shadow change.",
+  "raw_sha256": "f9521be7b42b3eda077a056c233564ff2de8e565e0fe01cd8ca469de6bf55a9a",
+  "prompt_sha256": "c7b5819696378d26ef6a8afe1ec8c999db37c024aab220a11acaa7ed22ac63ee",
+  "actual_refs": [
+    {
+      "path": "references/primary-source-fixed512.png",
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/house-280-289-design/attempt1/primary-source-fixed512.png",
+      "sha256": "fdc882a89968f17ad086889ec5f75ca5451ce7aa3080e3ffa917d279fb2e5536"
+    },
+    {
+      "path": "references/material-metal-wall-crop.png",
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/house-280-289-design/attempt1/material-metal-wall-crop.png",
+      "sha256": "de55ae77c31e293645a093167ae3a75a14ee24e0283283dbb074230fc64e9fe2"
+    },
+    {
+      "path": "references/material-concrete-crop.png",
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/house-280-289-design/attempt1/material-concrete-crop.png",
+      "sha256": "a7cd05f729ed87e9f69e8bc54dd19eb40fe66a1fe1ea3e4a6cd615161aa201b3"
+    }
+  ],
+  "mode": "house",
+  "locked_scale": 0.7584274528227415,
+  "locked_translation": [
+    38.79575770627673,
+    62.2293153629422
+  ],
+  "mapped_sha256": "2ed24a2fe83797e72acf4f104be4f01114fef8a111b9626fb013126b152b2d63",
+  "registered_sha256": "1d1088136701293461fe79677da1e4e355f0045c735758a128e154c957e23daf",
+  "mapping_note": "Whole canvas only. C: raw RGBA Lanczos512 then frozen rounded inverse affine BICUBIC. House: raw premultiplied RGBa Lanczos1024 original; independently raw RGBa inverse affine to1024 with full-precision roof-fit parameters.",
+  "scope": "Source archive only; no runtime/test harness included."
+}

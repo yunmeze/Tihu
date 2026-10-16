@@ -1,0 +1,78 @@
+{
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "raw_mode": "RGBA",
+  "raw_sha256": "14a4fb1949e4a31a2e224b5a35ab61d7aac447f3ea20dff6709e52b7c3925bc2",
+  "actual_source": "generated_images/exec-d022fff0-e7e2-47cd-97bb-345c50b86ad5.png",
+  "alpha_min_max": [
+    0,
+    255
+  ],
+  "alpha_zero_count": 1400979,
+  "alpha_255_count": 319,
+  "bbox_alpha_gt0": [
+    0,
+    21,
+    1234,
+    1254
+  ],
+  "bbox_alpha_ge128": [
+    183,
+    270,
+    721,
+    736
+  ],
+  "normalization": {
+    "factor": 0.4082934609250399,
+    "method": "whole square canvas LANCZOS, no other transform"
+  },
+  "manual_HD_surface_points": {
+    "idle17": {
+      "red_patch_centers": [
+        [
+          119,
+          111
+        ],
+        [
+          201,
+          111
+        ]
+      ],
+      "top_plate_center": [
+        160,
+        134
+      ],
+      "bottom_plate_center": [
+        160,
+        154
+      ]
+    },
+    "C": {
+      "red_patch_centers": [
+        [
+          96,
+          166
+        ],
+        [
+          272,
+          166
+        ]
+      ],
+      "top_plate_center": [
+        184,
+        197
+      ],
+      "bottom_plate_center": [
+        184,
+        248
+      ]
+    }
+  },
+  "manual_uncertainty_HD": {
+    "idle": 2,
+    "C": 3
+  },
+  "status": "REJECTED_FIXED_WINDOW_SCALE_AND_REGISTRATION_NO_RETRY_NO_SALVAGE"
+}

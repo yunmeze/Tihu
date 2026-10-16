@@ -1,0 +1,176 @@
+{
+  "npc_identity": {
+    "x": 29,
+    "y": 42,
+    "appearance": 19,
+    "direction": 2,
+    "name": "虚云道人",
+    "script": "#buy\r\n三清观符\r\n海曦村符\r\n蝙蝠洞符\r\n蜘蛛洞符\r\n蜈蚣洞符\r\n矿洞符\r\n禁地符\r\n恶魔谷符\r\n#endbuy\r\n\r\n#Sub Start\r\n唔修道一生，专研空间转移之术。符在手，思之所想，人之所至也。以后想来三清观，只需手持道符，心中默念三清观，即可速达。此外我还有一神器，你有没有兴趣？\r\n\r\n#button 是何神器？ 2 9 黄 M1\r\n#button 关闭 34 9 黄 OVER\r\n#end\r\n\r\n\r\n#Sub M1\r\n我有一神戒，可将你转移至最近的村镇，想必对你有用。但需要你帮我找到金、绿、红三色羽毛，怎样？\r\n\r\n#button 我已找到 2 9 黄 M2\r\n#button 再议 34 9 黄 OVER\r\n#end\r\n\r\n#sub M2\r\n#itemck 金色羽毛 > 0\r\n#itemck 红色羽毛 > 0\r\n#itemck 绿色羽毛 > 0\r\n#goto M2G\r\n#endif\r\n#endif\r\n#endif\r\n\r\n三色羽毛缺一不可\r\n\r\n#button 关闭 34 9 黄 OVER\r\n#END\r\n\r\n#sub M2G\r\n不错，拿着，从此你不用再为收集回城卷而烦恼了\r\n\r\n #take 金色羽毛 1\r\n #take 红色羽毛 1\r\n #take 绿色羽毛 1\r\n #give 传送戒指\r\n #endif\r\n#button 关闭 34 9 黄 over\r\n#END"
+  },
+  "source_map_sha": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+  "source_manifest_sha": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+  "frames": {
+    "237": {
+      "original": [
+        48,
+        53
+      ],
+      "offset": [
+        -1,
+        -23
+      ],
+      "sourceOffset": 961760,
+      "sourceBytes": 3827,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        48,
+        53
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "3ef1a1cb874f1e982691f4c748b2509bc049df4ed0a56543df2300bf0fafb73b",
+      "page": 0,
+      "rect": [
+        1109,
+        1,
+        48,
+        53
+      ],
+      "crop": [
+        0,
+        0
+      ]
+    },
+    "238": {
+      "original": [
+        48,
+        53
+      ],
+      "offset": [
+        -1,
+        -23
+      ],
+      "sourceOffset": 965591,
+      "sourceBytes": 3839,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        48,
+        53
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "3ef1a1cb874f1e982691f4c748b2509bc049df4ed0a56543df2300bf0fafb73b",
+      "page": 0,
+      "rect": [
+        1159,
+        1,
+        48,
+        53
+      ],
+      "crop": [
+        0,
+        0
+      ]
+    },
+    "239": {
+      "original": [
+        48,
+        53
+      ],
+      "offset": [
+        -1,
+        -23
+      ],
+      "sourceOffset": 969434,
+      "sourceBytes": 3839,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        48,
+        53
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "3ef1a1cb874f1e982691f4c748b2509bc049df4ed0a56543df2300bf0fafb73b",
+      "page": 0,
+      "rect": [
+        1209,
+        1,
+        48,
+        53
+      ],
+      "crop": [
+        0,
+        0
+      ]
+    },
+    "240": {
+      "original": [
+        48,
+        53
+      ],
+      "offset": [
+        -1,
+        -23
+      ],
+      "sourceOffset": 973277,
+      "sourceBytes": 3839,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        0,
+        0,
+        48,
+        53
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "3ef1a1cb874f1e982691f4c748b2509bc049df4ed0a56543df2300bf0fafb73b",
+      "page": 0,
+      "rect": [
+        1259,
+        1,
+        48,
+        53
+      ],
+      "crop": [
+        0,
+        0
+      ]
+    }
+  },
+  "pages": {
+    "0": {
+      "file": "res://assets/original/Npc/0.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "c0de28cf0fe814dec4829db167869c7ebed876cc9cc2086f99d490427a0bfa67"
+    }
+  },
+  "atlas_pins": {
+    "res://assets/original/Npc/0.png": "c0de28cf0fe814dec4829db167869c7ebed876cc9cc2086f99d490427a0bfa67"
+  },
+  "body_sha": "8a74e4ad56848eade334ccdfa5d74b343bf55aba63e3adb13b5fb04b43d42537",
+  "body_size": [
+    512,
+    640
+  ],
+  "density": 4,
+  "logical_offset": [
+    -32,
+    -104
+  ],
+  "logical_size": [
+    128,
+    160
+  ],
+  "source_ids": [
+    237,
+    238,
+    239,
+    240
+  ],
+  "shadow": false
+}
