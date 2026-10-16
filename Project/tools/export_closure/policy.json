@@ -1,0 +1,698 @@
+{
+  "schema": "earth-reviewed-legacy-export-policy-v1",
+  "roots": [
+    "res://scenes/earth_first_map_review.tscn",
+    "res://scenes/earth_walk_review.tscn"
+  ],
+  "dynamic_paths": [
+    "res://art_source/hero_e_walk_source_r8/source-45.png",
+    "res://art_source/hero_e_walk_source_r8/source-46.png",
+    "res://art_source/hero_e_walk_source_r8/source-47.png",
+    "res://art_source/hero_e_walk_source_r8/source-48.png",
+    "res://art_source/hero_e_walk_source_r8/source-49.png",
+    "res://art_source/hero_e_walk_source_r8/source-50.png"
+  ],
+  "legacy": {
+    "res://assets/earth/first_map_review/registration.json": {
+      "schema": "earth-first-map-research-review-v1",
+      "runtime_fields": [
+        "source_map",
+        "source_manifest",
+        "source_atlas_pages",
+        "ground",
+        "actor"
+      ],
+      "sha256": "666eed5d3ea4f348999de1af1dc870c6e914c7333693c28ab088fe12c45034ea"
+    },
+    "res://assets/earth/shadows/se_flat_v1/manifest.json": {
+      "schema": "earth-se-flat-shadow-gate-v1",
+      "runtime_fields": [
+        "allowed",
+        "envelope",
+        "forbidden",
+        "runtime_dependencies",
+        "runtime_input_sha256"
+      ],
+      "sha256": "3c7ac445562535c706cd58ebef625880308860ddfa012686fee600223beaec48"
+    },
+    "res://assets/earth/shadows/left_upright_v1/manifest.json": {
+      "schema": "earth-left-upright-shadow-runtime-v1",
+      "runtime_fields": [
+        "body_texture",
+        "identity",
+        "input_sha256",
+        "receiver"
+      ],
+      "sha256": "78d5ee4e72002f7e1a79fd7ab1e2c7b3339f59f17baf07481daacc2dee5f31f1"
+    },
+    "res://assets/earth/shadows/receiver_v2/manifest.json": {
+      "schema": "earth-flat-receiver-runtime-v2",
+      "runtime_fields": [
+        "casters",
+        "files",
+        "hall_owners",
+        "required_runtime_inputs",
+        "world_binding"
+      ],
+      "sha256": "9ebf5987e5f95f40850c1b27c83aedb859f1f7aba35e19348004984ceaf68809"
+    },
+    "res://assets/earth/shadows/fangzhang_flat_v1/manifest.json": {
+      "schema": "earth-fixed-fangzhang-flat-shadow-v1",
+      "runtime_fields": [
+        "allowed",
+        "body",
+        "envelope",
+        "receiver",
+        "runtime_input_sha256"
+      ],
+      "sha256": "1aa9edf904e96dc2b9d4f9c083582f8ddc5b5a7d4223b65ccc959faba6cccb62"
+    },
+    "res://assets/earth/shadows/s_idle_contact_v1/manifest.json": {
+      "schema": "earth-s-idle-contact-shadow-v1",
+      "runtime_fields": [
+        "body",
+        "envelope",
+        "input_sha256",
+        "receiver"
+      ],
+      "sha256": "0af5254fe748796c1bcb9540d8378f71b7e19a082bac6b837fa8989f7b67eab5"
+    },
+    "res://assets/earth/environment/south_reuse_v1/registration_shrub_58_51.json": {
+      "schema": "earth-round-shrub-candidate-registration-v1",
+      "runtime_fields": [
+        "owners"
+      ],
+      "sha256": "1b84a0cafaee3188cd86d20df06fac22972bed7644e4015a9caf53bac09e66c9"
+    },
+    "res://assets/earth/environment/south_reuse_v1/registration_upright_55_57.json": {
+      "schema": "earth-upright-tree-candidate-registration-v1",
+      "runtime_fields": [
+        "owners"
+      ],
+      "sha256": "67c12f90f5872690c8a21cec953140b0d285823fbeed931083304b0d430d4b98"
+    },
+    "res://assets/earth/environment/south_reuse_v1/registration_upright_47_66.json": {
+      "schema": "earth-upright-tree-candidate-registration-v1",
+      "runtime_fields": [
+        "owners"
+      ],
+      "sha256": "e807ac0ca16145ad5ec6517d13fbad1587c1dfb07b7774216a18172a08239acc"
+    },
+    "res://assets/earth/environment/south_reuse_v1/registration_upright_59_61.json": {
+      "schema": "earth-upright-tree-candidate-registration-v1",
+      "runtime_fields": [
+        "owners"
+      ],
+      "sha256": "9f329b4778d3351c3f870860f86085a7429948586c8a030062a7f9e539b12b8d"
+    },
+    "res://assets/earth/environment/round_shrub_v1/registration.json": {
+      "schema": "earth-round-shrub-candidate-registration-v1",
+      "runtime_fields": [
+        "owners"
+      ],
+      "sha256": "c6343a01b7d6d798209dbfe55904d20a347530a1bb783e9b5689a2259f6de524"
+    },
+    "res://assets/earth/environment/round_shrub_v1/registration_51_44.json": {
+      "schema": "earth-round-shrub-candidate-registration-v1",
+      "runtime_fields": [
+        "owners"
+      ],
+      "sha256": "acff0018134654b8c26a652edd4661d338f0c631d2daebb4d0773da3aed3103d"
+    },
+    "res://assets/earth/environment/round_shrub_v1/registration_64_45.json": {
+      "schema": "earth-round-shrub-candidate-registration-v1",
+      "runtime_fields": [
+        "owners"
+      ],
+      "sha256": "c7f6ebbe6e9239413722cceaed8e994caa854f191721e23651154176c65515a2"
+    },
+    "res://assets/earth/environment/grass_pair_v1/registration_A.json": {
+      "schema": "earth-grass-pair-candidate-registration-v1",
+      "runtime_fields": [
+        "owners"
+      ],
+      "sha256": "c53d03de5aa0917772c999a91931746283b01972071b0b736f03480bc8f5408c"
+    },
+    "res://assets/earth/environment/grass_pair_v1/registration_B.json": {
+      "schema": "earth-grass-pair-candidate-registration-v1",
+      "runtime_fields": [
+        "owners"
+      ],
+      "sha256": "9e4b1b58b57d32e410b775dbfaf9c53ff436b0b13d6fb3265791ec022da3e395"
+    },
+    "res://assets/earth/environment/training_hall_v1/registration.json": {
+      "schema": "earth-training-hall-candidate-registration-v1",
+      "runtime_fields": [
+        "owners"
+      ],
+      "sha256": "57072cc60ed9e33aa9afaeb0c7310733216e2884e0b042b043077551473e273c"
+    },
+    "res://assets/earth/environment/first_tree_v1/registration.json": {
+      "schema": "earth-first-tree-candidate-registration-v1",
+      "runtime_fields": [
+        "owners"
+      ],
+      "sha256": "a83f1f401b10394e13e7822f6eb04078cace3db3dc0bdca10e275b38d0bb9b27"
+    },
+    "res://assets/earth/environment/upright_tree_v1/registration_left_50_41.json": {
+      "schema": "earth-upright-tree-candidate-registration-v1",
+      "runtime_fields": [
+        "owners"
+      ],
+      "sha256": "e8b5fae705b312e910a4acb60eda616829b50c1f014fe9bb22453944a9745acd"
+    },
+    "res://assets/earth/environment/upright_tree_v1/registration_bottom_61_51.json": {
+      "schema": "earth-upright-tree-candidate-registration-v1",
+      "runtime_fields": [
+        "owners"
+      ],
+      "sha256": "f6af7e14f47455d6ae7f76daa28c0c48ba7f3cd3912aed45d6bd85a5ea04b875"
+    },
+    "res://assets/earth/environment/ground_plate_v4/registration.json": {
+      "schema": "earth-ground-plate-v4",
+      "runtime_fields": [
+        "owners",
+        "shared_plate"
+      ],
+      "sha256": "146969f204793dae2cf0cc762e55c665d392062d914066037c8fe0ff38e727f1"
+    },
+    "res://assets/earth/hero/se_walk_v1/manifest.json": {
+      "schema": "earth-hero-walk-v1",
+      "runtime_fields": [
+        "texture"
+      ],
+      "sha256": "127727940bd2651460bbe90396f80e7c75d89a7d8675f5d3467e5a5f46e229d7"
+    },
+    "res://assets/earth/hero/s_idle_v1/manifest.json": {
+      "schema": "earth-hero-idle-v1",
+      "runtime_fields": [
+        "texture"
+      ],
+      "sha256": "cfd74e66ddb74fb4ce8fc46be747f6df9b8037713044b76a287baef343654b80"
+    },
+    "res://assets/earth/hero/e_idle_v1/manifest.json": {
+      "schema": "earth-hero-idle-v1",
+      "runtime_fields": [
+        "texture"
+      ],
+      "sha256": "8c24bc9430c293a30b1ed0f699a6e3be1390c297e434259dd6b60c4fe39b2025"
+    },
+    "res://assets/earth/hero/se_idle_v1/manifest.json": {
+      "schema": "earth-hero-idle-v1",
+      "runtime_fields": [
+        "texture"
+      ],
+      "sha256": "3672409856c27b1e81d543b8a0a29063e16170b2cafbaf55f5d6351fb1e9b5a3"
+    },
+    "res://assets/earth/npc/fangzhang_v1/manifest.json": {
+      "schema": "earth-npc-static-density4-candidate-v1",
+      "runtime_fields": [
+        "texture",
+        "atlas"
+      ],
+      "sha256": "0239fc9ac1f662d7756710f4f824e9d7a25a474caa0206996b6c9b2e269f9d59"
+    },
+    "res://assets/earth/npc/lingyunzi_v2/manifest.json": {
+      "schema": "earth-npc-fourphase-density4-candidate-v1",
+      "runtime_fields": [
+        "texture",
+        "atlas"
+      ],
+      "sha256": "f9cf04374b533f225514215f6c798d4eac7592beb8b86bb5f715d3945278c9be"
+    },
+    "res://data/maps/A13.json": {
+      "schema": "lp-original-map-r1",
+      "runtime_fields": [],
+      "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27"
+    },
+    "res://assets/original/manifest.json": {
+      "schema": "lp-original-textures-r1",
+      "runtime_fields": [
+        "packs"
+      ],
+      "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837"
+    },
+    "res://data/hero/movement.json": {
+      "schema": "original-hero-movement-v1",
+      "runtime_fields": [
+        "layers"
+      ],
+      "sha256": "b5eb981b005efedc5f071bb51f35240cabf91aa0d77143e70bcf4ee9b9c733f1"
+    },
+    "res://data/earth/a13_hall_source_scope.json": {
+      "schema": "earth-a13-hall-trusted-source-scope-v1",
+      "runtime_fields": [],
+      "sha256": "4288603a7dfd0ccc90a3bebf71473aca47a0bd57c448d6c33480b3f8952ff59e"
+    },
+    "res://assets/earth/environment/south_reuse_v1/trusted_expected_scope.json": {
+      "schema": null,
+      "runtime_fields": [
+        "groups"
+      ],
+      "sha256": "f1e92a32aea6c5b57214cddbb32e68eb8c647be9eb51263f86b9dddca6ff4164"
+    },
+    "res://assets/earth/first_map_review/static_props_registration.json": {
+      "schema": "earth-first-map-static-props-v1",
+      "runtime_fields": [
+        "runtime_files"
+      ],
+      "sha256": "5794b3a0ec72736b70465e009a5e55f3de41b9939fa576fbc6568ab6274311a6"
+    }
+  },
+  "code_pins": {
+    "res://scenes/earth_first_map_review.tscn": "7b0b027167ce607cb890b07451c653925e4cda95354c73694954d32c70fcda6d",
+    "res://scenes/earth_walk_review.tscn": "28b856b520b9e41fc52186b702863f865c8a6e39896670ad2e4c3e323427cd26",
+    "res://scripts/art/density_alpha_ground_shadow.gd": "cfc61e6c2b647bee68b063c1eecd884e1ac0ffa545fc1a59b3c3af4397adaf47",
+    "res://scripts/art/hero_alpha_ground_shadow.gd": "3eeebe50bfdd235fee24b30bfbdaaad5517a5254bd7e318b73abc80adb5ccdd2",
+    "res://scripts/core/movement.gd": "6f48e3d5e7b655d19bd25f65ae735f1ab998f68cae8a17bc12306e0d66f2db99",
+    "res://scripts/earth/asset_guard.gd": "c5a0718736b91ceac6aea417a464840e61b33c03b19d8dc3f61272339a7cdf4e",
+    "res://scripts/earth/fangzhang_candidate.gd": "8f3b21d4f24c73299b8685715f58b8a4f15cbb9b454e84a34c69d9a12831e6a8",
+    "res://scripts/earth/fangzhang_shadow_gate.gd": "d77a3598a8980871f117c61fcb7a83b602772395ecd603f223e4e2ba64518ab0",
+    "res://scripts/earth/first_map_floor_pass.gd": "3d5cc0ce8bfcc0f3eeaf0a6a268fa3b4ea8d76fc6ec9433f5c8770d404f28341",
+    "res://scripts/earth/first_map_guard.gd": "f58d77a28fb7d52750a551f2ef2682771dafa127f3284646eff4d6f34dbec852",
+    "res://scripts/earth/first_map_review.gd": "6b646f61c3ce182ff88fabb17de61be129ba450ee7183d015123d868343e75d7",
+    "res://scripts/earth/first_map_world.gd": "a00fb01f5b9f8a1c6260f70ed220d835f351780e03389872334be951234e799d",
+    "res://scripts/earth/flat_shadow_gate.gd": "bb31c6ab95c0950fecd196731f8c87d1e03e2c771b5427bc5d4ae8abf18d32c7",
+    "res://scripts/earth/grass_candidate.gd": "a91c5afa94ee4c02d8ce4fb07df508eaa0a9dd50728ed29df0ca473f61fe8c59",
+    "res://scripts/earth/ground_candidate.gd": "b31fecb614594f21acd0b34fb0e5857f35e2c6e7fc1f5c8b03393bae10c6f6c8",
+    "res://scripts/earth/hall_candidate.gd": "87351ee17139a51f5434143544291700ea8d0a401df1b8438973c92bb248a1ae",
+    "res://scripts/earth/instance_identity_guard.gd": "2eabae66a29b8696d7aef50ddfe5bbd27b46ad4278624c10b4a1183a2435cb0b",
+    "res://scripts/earth/left_upright_shadow_gate.gd": "1af8a6d02d6b0f6ec68abd12b708cde4ac1e8b984bdc3d1568e54b64995c0928",
+    "res://scripts/earth/lingyunzi_candidate.gd": "5c110878726bb354e20574d8a8ef092c227f2742209c9ae3cc8b4e7787509d53",
+    "res://scripts/earth/max_ground_shadow.gd": "eb066c816e807bd542cf5338eab161aff9bf4ca34771764ac2a938f5edc3a5bb",
+    "res://scripts/earth/raw_ground_shadow.gd": "8af76868855ce04544a6251f3f2e850550f0ae423b39e5c54c8ed98e29c5bed6",
+    "res://scripts/earth/receiver_v2_gate.gd": "835353138b091230f14336d56d24bf2d477845e84e084685d6506174fabea999",
+    "res://scripts/earth/s_idle_shadow_gate.gd": "265e5e5ebb41de6609575c66378d90253734d332b0a6496074633014983dc411",
+    "res://scripts/earth/sample_floor_pass.gd": "7fd59781dca6e3f8cb7ae7fe5c493464668350ae3086af0deb10199f0361defb",
+    "res://scripts/earth/sample_preview.gd": "12e64cd862dd394f8f5c1e8e31baf691d602eac4de53dde92fefb304c94abc59",
+    "res://scripts/earth/sample_world.gd": "c9139f34e1d57b1d33086c11157850454325c88078608fe13f8a081f7ddc07b2",
+    "res://scripts/earth/shrub_candidate.gd": "f910e088c4d700575ffa722a85226364e4b1344cf408e1d9b87b091776fc5c41",
+    "res://scripts/earth/south_vegetation_candidate.gd": "4dd2ae3074977b62d837b8d1ca5137fc1f7a7bad5d92f21f12786d67ad8dc314",
+    "res://scripts/earth/translated_shrub_candidate.gd": "0323bbc53c55462a1b7b22b251f965cf1ebcd3499881c35601a3d0352d63cbe3",
+    "res://scripts/earth/tree_candidate.gd": "b95f1180cc294698f2d23131b2b764a1b59b98759a07dc123e7407c82fcedb15",
+    "res://scripts/earth/upright_candidate.gd": "83d79c0484b186bdf1c160be4da5c18a8395f9cf6d6f2110b7f3d42ba39413a0",
+    "res://scripts/earth/walk_review.gd": "53ba4310a82b368307788276e252aba95e63d86c1705b3169b0f19e1cd51ed33",
+    "res://scripts/world_view.gd": "b404d8dd5e7e85a120fec00b7eb5f01e6bfc1fc37adf5e7878c1798432d4e285",
+    "res://shaders/density_alpha_ground_shadow.gdshader": "b4d976938acbb3b57df13bf85ade4ebf3173c0634b5e7ee4338e8b038bf51f3b",
+    "res://shaders/earth_max_ground_shadow.gdshader": "232997a561d4451f4ecfc2da7cd4a0e821a751722392806c1d41fe2777ead22b",
+    "res://shaders/hero_alpha_ground_shadow.gdshader": "d8f4894fd16458a3a7aabb5db5af4a95f39320f5e2549c33467f79f5a5089c24",
+    "res://scripts/earth/static_props_guard.gd": "b81bb614ca3ae0ecf2147778370302442ec412169acd13e7c67420af020c066d"
+  },
+  "tracked": [
+    "Project/art_source/earth_coherent_grass_research_v1/coherent-grass-union-RESEARCH.png",
+    "Project/art_source/earth_e45_vertical_leg_research_v1/45-HD4-CLOTH-CLEANED-RESEARCH.png",
+    "Project/art_source/earth_e48_vertical_leg_research_v1/48-HD4-BOUNDED-DONOR-DIAGNOSTIC.png",
+    "Project/art_source/earth_e_walk_layered_research_v1/46-HD4-RESEARCH.png",
+    "Project/art_source/earth_e_walk_layered_research_v1/47-HD4-RESEARCH.png",
+    "Project/art_source/earth_e_walk_layered_research_v1/49-HD4-RESEARCH.png",
+    "Project/art_source/earth_e_walk_layered_research_v1/50-HD4-RESEARCH.png",
+    "Project/art_source/hero_e_walk_source_r8/source-45.png",
+    "Project/art_source/hero_e_walk_source_r8/source-46.png",
+    "Project/art_source/hero_e_walk_source_r8/source-47.png",
+    "Project/art_source/hero_e_walk_source_r8/source-48.png",
+    "Project/art_source/hero_e_walk_source_r8/source-49.png",
+    "Project/art_source/hero_e_walk_source_r8/source-50.png",
+    "Project/assets/earth/environment/first_tree_v1/owner-292.png",
+    "Project/assets/earth/environment/first_tree_v1/owner-293.png",
+    "Project/assets/earth/environment/first_tree_v1/owner-294.png",
+    "Project/assets/earth/environment/first_tree_v1/owner-295.png",
+    "Project/assets/earth/environment/first_tree_v1/owner-296.png",
+    "Project/assets/earth/environment/first_tree_v1/owner-297.png",
+    "Project/assets/earth/environment/first_tree_v1/owner-298.png",
+    "Project/assets/earth/environment/first_tree_v1/registration.json",
+    "Project/assets/earth/environment/first_tree_v1/whole-review.png",
+    "Project/assets/earth/environment/grass_pair_v1/owners/owner-239.png",
+    "Project/assets/earth/environment/grass_pair_v1/owners/owner-240.png",
+    "Project/assets/earth/environment/grass_pair_v1/owners/owner-241.png",
+    "Project/assets/earth/environment/grass_pair_v1/owners/owner-242.png",
+    "Project/assets/earth/environment/grass_pair_v1/registration_A.json",
+    "Project/assets/earth/environment/grass_pair_v1/registration_B.json",
+    "Project/assets/earth/environment/ground_plate_v4/plate.png",
+    "Project/assets/earth/environment/ground_plate_v4/registration.json",
+    "Project/assets/earth/environment/ground_plate_v4/tile-52-30.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-52-32.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-52-34.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-52-36.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-52-38.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-52-40.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-52-42.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-52-44.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-54-30.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-54-32.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-54-34.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-54-36.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-54-38.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-54-40.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-54-42.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-54-44.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-56-30.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-56-32.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-56-34.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-56-36.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-56-38.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-56-40.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-56-42.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-56-44.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-58-30.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-58-32.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-58-34.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-58-36.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-58-38.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-58-40.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-58-42.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-58-44.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-60-30.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-60-32.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-60-34.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-60-36.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-60-38.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-60-40.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-60-42.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-60-44.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-62-30.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-62-32.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-62-34.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-62-36.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-62-38.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-62-40.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-62-42.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-62-44.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-64-30.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-64-32.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-64-34.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-64-36.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-64-38.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-64-40.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-64-42.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-64-44.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-66-30.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-66-32.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-66-34.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-66-36.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-66-38.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-66-40.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-66-42.png",
+    "Project/assets/earth/environment/ground_plate_v4/tile-66-44.png",
+    "Project/assets/earth/environment/round_shrub_v1/owner-143.png",
+    "Project/assets/earth/environment/round_shrub_v1/owner-144.png",
+    "Project/assets/earth/environment/round_shrub_v1/owner-145.png",
+    "Project/assets/earth/environment/round_shrub_v1/owner-146.png",
+    "Project/assets/earth/environment/round_shrub_v1/registration.json",
+    "Project/assets/earth/environment/round_shrub_v1/registration_51_44.json",
+    "Project/assets/earth/environment/round_shrub_v1/registration_64_45.json",
+    "Project/assets/earth/environment/south_reuse_v1/registration_shrub_58_51.json",
+    "Project/assets/earth/environment/south_reuse_v1/registration_upright_47_66.json",
+    "Project/assets/earth/environment/south_reuse_v1/registration_upright_55_57.json",
+    "Project/assets/earth/environment/south_reuse_v1/registration_upright_59_61.json",
+    "Project/assets/earth/environment/south_reuse_v1/trusted_expected_scope.json",
+    "Project/assets/earth/environment/training_hall_v1/owner-3967.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3968.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3969.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3970.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3971.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3972.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3973.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3974.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3975.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3976.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3977.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3979.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3980.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3981.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3982.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3983.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3984.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3985.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3986.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3987.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3988.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3989.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3990.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3991.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3992.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3993.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3994.png",
+    "Project/assets/earth/environment/training_hall_v1/owner-3995.png",
+    "Project/assets/earth/environment/training_hall_v1/registration.json",
+    "Project/assets/earth/environment/training_hall_v1/whole-review.png",
+    "Project/assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+    "Project/assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+    "Project/assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+    "Project/assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+    "Project/assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+    "Project/assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+    "Project/assets/earth/environment/upright_tree_v1/raw.png",
+    "Project/assets/earth/environment/upright_tree_v1/registration_bottom_61_51.json",
+    "Project/assets/earth/environment/upright_tree_v1/registration_left_50_41.json",
+    "Project/assets/earth/first_map_review/registration.json",
+    "Project/assets/earth/hero/e_idle_v1/body.png",
+    "Project/assets/earth/hero/e_idle_v1/manifest.json",
+    "Project/assets/earth/hero/s_idle_v1/body.png",
+    "Project/assets/earth/hero/s_idle_v1/manifest.json",
+    "Project/assets/earth/hero/se_idle_v1/body.png",
+    "Project/assets/earth/hero/se_idle_v1/manifest.json",
+    "Project/assets/earth/hero/se_walk_v1/body.png",
+    "Project/assets/earth/hero/se_walk_v1/manifest.json",
+    "Project/assets/earth/npc/fangzhang_v1/body.png",
+    "Project/assets/earth/npc/fangzhang_v1/manifest.json",
+    "Project/assets/earth/npc/lingyunzi_v2/body.png",
+    "Project/assets/earth/npc/lingyunzi_v2/manifest.json",
+    "Project/assets/earth/shadows/fangzhang_flat_v1/envelope.png",
+    "Project/assets/earth/shadows/fangzhang_flat_v1/manifest.json",
+    "Project/assets/earth/shadows/left_upright_v1/allowed.png",
+    "Project/assets/earth/shadows/left_upright_v1/forbidden.png",
+    "Project/assets/earth/shadows/left_upright_v1/manifest.json",
+    "Project/assets/earth/shadows/left_upright_v1/nominal-envelope.png",
+    "Project/assets/earth/shadows/left_upright_v1/root-error-envelope.png",
+    "Project/assets/earth/shadows/receiver_v2/allowed.png",
+    "Project/assets/earth/shadows/receiver_v2/first-tree-envelope.png",
+    "Project/assets/earth/shadows/receiver_v2/first-tree-shadow-padded-1256.png",
+    "Project/assets/earth/shadows/receiver_v2/forbidden.png",
+    "Project/assets/earth/shadows/receiver_v2/lingyunzi-envelope-union.png",
+    "Project/assets/earth/shadows/receiver_v2/manifest.json",
+    "Project/assets/earth/shadows/s_idle_contact_v1/envelope.png",
+    "Project/assets/earth/shadows/s_idle_contact_v1/manifest.json",
+    "Project/assets/earth/shadows/se_flat_v1/allowed.png",
+    "Project/assets/earth/shadows/se_flat_v1/envelope.png",
+    "Project/assets/earth/shadows/se_flat_v1/forbidden.png",
+    "Project/assets/earth/shadows/se_flat_v1/manifest.json",
+    "Project/assets/original/Map/Res/Building/0.png",
+    "Project/assets/original/Map/Res/Debris/0.png",
+    "Project/assets/original/Map/Res/FloorBig/0.png",
+    "Project/assets/original/Map/Res/FloorSmall/0.png",
+    "Project/assets/original/Map/Res/Plant/0.png",
+    "Project/assets/original/Map/Res/Wall/0.png",
+    "Project/assets/original/Npc/0.png",
+    "Project/assets/original/hero/body-movement.png",
+    "Project/assets/original/hero/head-movement.png",
+    "Project/assets/original/manifest.json",
+    "Project/data/earth/a13_hall_source_scope.json",
+    "Project/data/hero/movement.json",
+    "Project/data/maps/A13.json",
+    "Project/scenes/earth_first_map_review.tscn",
+    "Project/scenes/earth_walk_review.tscn",
+    "Project/scripts/art/density_alpha_ground_shadow.gd",
+    "Project/scripts/art/hero_alpha_ground_shadow.gd",
+    "Project/scripts/core/movement.gd",
+    "Project/scripts/earth/asset_guard.gd",
+    "Project/scripts/earth/fangzhang_candidate.gd",
+    "Project/scripts/earth/fangzhang_shadow_gate.gd",
+    "Project/scripts/earth/first_map_floor_pass.gd",
+    "Project/scripts/earth/first_map_guard.gd",
+    "Project/scripts/earth/first_map_review.gd",
+    "Project/scripts/earth/first_map_world.gd",
+    "Project/scripts/earth/flat_shadow_gate.gd",
+    "Project/scripts/earth/grass_candidate.gd",
+    "Project/scripts/earth/ground_candidate.gd",
+    "Project/scripts/earth/hall_candidate.gd",
+    "Project/scripts/earth/instance_identity_guard.gd",
+    "Project/scripts/earth/left_upright_shadow_gate.gd",
+    "Project/scripts/earth/lingyunzi_candidate.gd",
+    "Project/scripts/earth/max_ground_shadow.gd",
+    "Project/scripts/earth/raw_ground_shadow.gd",
+    "Project/scripts/earth/receiver_v2_gate.gd",
+    "Project/scripts/earth/s_idle_shadow_gate.gd",
+    "Project/scripts/earth/sample_floor_pass.gd",
+    "Project/scripts/earth/sample_preview.gd",
+    "Project/scripts/earth/sample_world.gd",
+    "Project/scripts/earth/shrub_candidate.gd",
+    "Project/scripts/earth/south_vegetation_candidate.gd",
+    "Project/scripts/earth/translated_shrub_candidate.gd",
+    "Project/scripts/earth/tree_candidate.gd",
+    "Project/scripts/earth/upright_candidate.gd",
+    "Project/scripts/earth/walk_review.gd",
+    "Project/scripts/world_view.gd",
+    "Project/shaders/density_alpha_ground_shadow.gdshader",
+    "Project/shaders/earth_max_ground_shadow.gdshader",
+    "Project/shaders/hero_alpha_ground_shadow.gdshader",
+    "Project/scripts/earth/static_props_guard.gd",
+    "Project/assets/earth/first_map_review/static_props_registration.json",
+    "Project/art_source/earth_fine_clump_research_v1/candidate-density4-fullcanvas.png",
+    "Project/art_source/earth_pool_research_v1/pool-registered-research-2x.png"
+  ],
+  "source_commit": "3d1cbee54f1f5a64753148cb0908761c7a9725ec",
+  "source_tree": "39bcee26ce24f305879569f74277244be4452d64",
+  "asset_pins": {
+    "res://art_source/earth_coherent_grass_research_v1/coherent-grass-union-RESEARCH.png": "d6bf26a3bd518798ca1ecdde9ebc3be9e722f64034acc42303bc87128a72a4c4",
+    "res://art_source/earth_e45_vertical_leg_research_v1/45-HD4-CLOTH-CLEANED-RESEARCH.png": "ad7c9ad9c68223e7914607c970af2f621f931a6e84d15d6fdf68af3d48d67dd1",
+    "res://art_source/earth_e48_vertical_leg_research_v1/48-HD4-BOUNDED-DONOR-DIAGNOSTIC.png": "839e048cd413e2b8d280f8dbaa795fb224764d80e816772919f677f77d5128fa",
+    "res://art_source/earth_e_walk_layered_research_v1/46-HD4-RESEARCH.png": "b99726de6cbb5ae9db999e5e9f1eee50583a0e98d6fa75456884e0f2f2908f94",
+    "res://art_source/earth_e_walk_layered_research_v1/47-HD4-RESEARCH.png": "26ed56945e287ee307290cd47b971a3b44840bb48ca998e773028f051cee1b47",
+    "res://art_source/earth_e_walk_layered_research_v1/49-HD4-RESEARCH.png": "c1c89fcd1e3ed2a39bce194a4bc5f1988a8277e51fc8dfca7610861127d23cbf",
+    "res://art_source/earth_e_walk_layered_research_v1/50-HD4-RESEARCH.png": "3166546267a1016054b1feffc4ce6fc1127b7b3f4a066b16a49b1227c743ee64",
+    "res://art_source/earth_fine_clump_research_v1/candidate-density4-fullcanvas.png": "56fe91ccc0e9b1909f48cde77ff8219b8845d1d31cb6844fbc535cbfc7c56980",
+    "res://art_source/earth_pool_research_v1/pool-registered-research-2x.png": "55a2ac86f1d7e5274e89c155439eaa38d5b880d6396e5b327b29780abe0433ea",
+    "res://art_source/hero_e_walk_source_r8/source-45.png": "85d0005b0db9b78990735be12ba5b93868662a139dd548f067d7f8f069225cac",
+    "res://art_source/hero_e_walk_source_r8/source-46.png": "58901c104dba88a49e85be68f14a5d0e2eb22e741b9de3783556a6b37e195892",
+    "res://art_source/hero_e_walk_source_r8/source-47.png": "570063f5764c00ede045a35ff560e31bd876d944042e281b50f693ffd3e0addb",
+    "res://art_source/hero_e_walk_source_r8/source-48.png": "de7db814821b505d353fbb6c017154f8facedfa6094bc30371c86a1e4d1e7f85",
+    "res://art_source/hero_e_walk_source_r8/source-49.png": "78109c59d23aee39981036a65cfbb922ca30aeef7bbe9839f53f8c3054ecd802",
+    "res://art_source/hero_e_walk_source_r8/source-50.png": "04fc07cd5d999def61225db9e48ded034d124eb856cf433251c15736decd7219",
+    "res://assets/earth/environment/first_tree_v1/owner-292.png": "975a1fc551685e481ef34409ecc9f8db085b4cca45acd4317a632133ef7a38ed",
+    "res://assets/earth/environment/first_tree_v1/owner-293.png": "913d6d58db380b32487274fabb2d32c393ccaa5c7b310a4f2d12ad9ef49f11b0",
+    "res://assets/earth/environment/first_tree_v1/owner-294.png": "eb2429a22104baa43d724425372b231e6dbb1e8266c59fcc4883adaf28722d75",
+    "res://assets/earth/environment/first_tree_v1/owner-295.png": "3d743ceffeda223272e18ed2343035f9aec38d435591c178526b15ebff14555b",
+    "res://assets/earth/environment/first_tree_v1/owner-296.png": "a40346e0ccc3e8dfe87d2d255a1192566ab986421c17f8067d120d9ee12ffb11",
+    "res://assets/earth/environment/first_tree_v1/owner-297.png": "ad51b9394ac0d7418734be11b122028c5afe574db89627aa2320a206967865aa",
+    "res://assets/earth/environment/first_tree_v1/owner-298.png": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+    "res://assets/earth/environment/first_tree_v1/whole-review.png": "c639ad6e35e10f3a4c61d13a38258b2db1f077cea3f757ec8e064762601cc9e6",
+    "res://assets/earth/environment/grass_pair_v1/owners/owner-239.png": "e8f35c91c85ee62958fa7347caf7d35004b3c23d8e31255b9345c7eb49cfb7b5",
+    "res://assets/earth/environment/grass_pair_v1/owners/owner-240.png": "b19199c3a7b263596d4d722232314f694688e2fda0ebf78e86308b6fddf598bd",
+    "res://assets/earth/environment/grass_pair_v1/owners/owner-241.png": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+    "res://assets/earth/environment/grass_pair_v1/owners/owner-242.png": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+    "res://assets/earth/environment/ground_plate_v4/plate.png": "a44d861c4485cb8596fb42681441675d1b9cefb3d8c48261113325c14492ae2f",
+    "res://assets/earth/environment/ground_plate_v4/tile-52-30.png": "5dbb997564721f613de5f4c2202206d91b73599dd80306275efd13069ed2466f",
+    "res://assets/earth/environment/ground_plate_v4/tile-52-32.png": "090948284d350220af8718dec1c258b2341e70e6e90ac107142972c387be7531",
+    "res://assets/earth/environment/ground_plate_v4/tile-52-34.png": "57f7adfbc3f458b618e5389b84bf6929445ea947c62fde61de723982d67f09e4",
+    "res://assets/earth/environment/ground_plate_v4/tile-52-36.png": "51c7e5ae89aefa6c9ae419dc8f80712ad9f68bbc5ce9aa61c8ddc9cc0e35292e",
+    "res://assets/earth/environment/ground_plate_v4/tile-52-38.png": "e9d724d5f0d193df12e9f6c1bb466a465f265e2ff3aff3e6792be72a9ab6c76a",
+    "res://assets/earth/environment/ground_plate_v4/tile-52-40.png": "cbb3d202de07d50ab448ed30fa960793f8151642b157b0869c46a46c78777f11",
+    "res://assets/earth/environment/ground_plate_v4/tile-52-42.png": "8e319db988cf24c25203b279a9f202b897263232f8ec47b10ffff13f1ca61e79",
+    "res://assets/earth/environment/ground_plate_v4/tile-52-44.png": "bca13c5e4912a38af3ec71cbd4bd15c80c9c8d19f65de7a1b58254866970e39d",
+    "res://assets/earth/environment/ground_plate_v4/tile-54-30.png": "f488c2e2ee2534073a547e47473f4db0345f5c37eeec264253d63dbe2f7d13f7",
+    "res://assets/earth/environment/ground_plate_v4/tile-54-32.png": "c4c7f32bba017f059aedc503a3755727fa37478fb49d00c6bd8561b93a2bc29f",
+    "res://assets/earth/environment/ground_plate_v4/tile-54-34.png": "b672bb568ff8637a3e192832b2bffca36edbe55d5296505323a2b47a579f9840",
+    "res://assets/earth/environment/ground_plate_v4/tile-54-36.png": "fa0de4f220a96a5eefe63c9416651236ce7a990da90aeb383af7a37bcc27ba7c",
+    "res://assets/earth/environment/ground_plate_v4/tile-54-38.png": "a893aa62432ac72932468230e42b268d36c330fbfb7126a5a547464aeceed43f",
+    "res://assets/earth/environment/ground_plate_v4/tile-54-40.png": "3514fd920201261edb7dd56fb6b0a71b5082bb33ebdf338a1b0974b4ecf9528c",
+    "res://assets/earth/environment/ground_plate_v4/tile-54-42.png": "609db3fad59e037bf04117b31a0a84a9cb87e4d0ecca027660bc61d9020e17e2",
+    "res://assets/earth/environment/ground_plate_v4/tile-54-44.png": "6185275370116d42c669406d63c5ea48a5cd94691a9e61366dde72d00e8f7b8c",
+    "res://assets/earth/environment/ground_plate_v4/tile-56-30.png": "fe3e7936feff206a377c3ad1aa8070345c1b285a85b05340ce92087f4816c013",
+    "res://assets/earth/environment/ground_plate_v4/tile-56-32.png": "0ea8958cb88091f92820d4a72657ec221f391d8af261e3fa4cc9f291d1e15ca6",
+    "res://assets/earth/environment/ground_plate_v4/tile-56-34.png": "0a2ed6121fee48435c6d7d94cb71858b6a1d91ddebe33aff3a1b316633cf86f6",
+    "res://assets/earth/environment/ground_plate_v4/tile-56-36.png": "8406eeb7ed935f615b28f608d03421a8225347f9af3e993df917c9d9f3728cbb",
+    "res://assets/earth/environment/ground_plate_v4/tile-56-38.png": "32136d36da5fd49c627631ca85458d256c60722608003f51978eb6d5212daad8",
+    "res://assets/earth/environment/ground_plate_v4/tile-56-40.png": "8e21cc3f8318d1447655692af4896aa6982e6222cdc5d72e5186d89fe4da4b98",
+    "res://assets/earth/environment/ground_plate_v4/tile-56-42.png": "14f7dbaba1a76873ea9da9caea40ff66ab7b0103e9f92851b53d6c98a3c94ca7",
+    "res://assets/earth/environment/ground_plate_v4/tile-56-44.png": "22c148e3e62b4aa2010ad4110a80645b2c6dccc457650f02a90b23c8254f330a",
+    "res://assets/earth/environment/ground_plate_v4/tile-58-30.png": "45059279e52b8e51eaa5d0fb8815236a0a3802f0ae19dd7c9dafb492bcddf09d",
+    "res://assets/earth/environment/ground_plate_v4/tile-58-32.png": "04db00d3f392b9287bcadf848cc21e5d967c641ae2fdad39cf1c75a341bd5ffe",
+    "res://assets/earth/environment/ground_plate_v4/tile-58-34.png": "baa7df782b884696c906898d4966b5692341c76ef8e068266da7b972195d607a",
+    "res://assets/earth/environment/ground_plate_v4/tile-58-36.png": "927eb6a288309a921ebb00c0b0b49510f11d187d9ca117ba05ed0251bb0e3821",
+    "res://assets/earth/environment/ground_plate_v4/tile-58-38.png": "497a65e1b29cea4ca2fd00ff9b1488810916873918130e3165fa26d90aa386f3",
+    "res://assets/earth/environment/ground_plate_v4/tile-58-40.png": "0a573c00142ae0d75a11ad7c18c302f6832486521b7a26452fe728e89b024048",
+    "res://assets/earth/environment/ground_plate_v4/tile-58-42.png": "7ee0056f169c98ffb9302354fc1912f9d99ff95ba09f1413202be68e8c9c7006",
+    "res://assets/earth/environment/ground_plate_v4/tile-58-44.png": "473535637ebda6092541782e3fd23e6fff0ea13b30b3c2fd909fd47bdeb47843",
+    "res://assets/earth/environment/ground_plate_v4/tile-60-30.png": "a3eae389035a4a8ba51da66ba2e11fc814d8abacded2577c68ea4f63aa3255de",
+    "res://assets/earth/environment/ground_plate_v4/tile-60-32.png": "b162ab3dc8ce94eedb181adece954b37af9875272b6a23e961475dedad2e1b94",
+    "res://assets/earth/environment/ground_plate_v4/tile-60-34.png": "7558208ef26431ba204bedcc1c16c9fc1d1aaf4e57a543623c90f3f35ae6ca71",
+    "res://assets/earth/environment/ground_plate_v4/tile-60-36.png": "7874fde675dc6b0503acb7610fcf4d83e7d0b6c3c19a5290f90e3904aee9d371",
+    "res://assets/earth/environment/ground_plate_v4/tile-60-38.png": "185ca2fa65d838c9a0e2493f0a6c080d0f28ac54aa150e0e1934e220a82263bc",
+    "res://assets/earth/environment/ground_plate_v4/tile-60-40.png": "118b860c7971883841421633757f3c687d068d6b521b36537d8a25367005e6bc",
+    "res://assets/earth/environment/ground_plate_v4/tile-60-42.png": "b1e533d50bd02fddc1861c94eacd8dd35b0883ebfd10c14066a23b37f753890f",
+    "res://assets/earth/environment/ground_plate_v4/tile-60-44.png": "24f71bbb4dc12648d25091d1353d29b1cb3abfb8b953cd35ce4073058e6219bd",
+    "res://assets/earth/environment/ground_plate_v4/tile-62-30.png": "84f5d078e1e4cead3a56232d123b220bfb640d9f9fcaf8300d0fbf9427c27fee",
+    "res://assets/earth/environment/ground_plate_v4/tile-62-32.png": "bcc52e652559349bc691bb982486e6ded3a454f2586bd874c439e12afdbb20cd",
+    "res://assets/earth/environment/ground_plate_v4/tile-62-34.png": "a0bf1212bba3bcd0db930db4b7cf8e70c54d0d0fddcfa328e28cf1d3e27082d4",
+    "res://assets/earth/environment/ground_plate_v4/tile-62-36.png": "8e3430e57ad9583804c949af3c28f526d07928db3925425577ee13ca36339f33",
+    "res://assets/earth/environment/ground_plate_v4/tile-62-38.png": "62925763f1ab535c2a4e5ab829f2bc89052dd5c008aa3a856c0ac945d0e52dfb",
+    "res://assets/earth/environment/ground_plate_v4/tile-62-40.png": "2123f2f4199765a73d8cc65a2f7caa961dc1c3a8fbf365043ece026b45fb650e",
+    "res://assets/earth/environment/ground_plate_v4/tile-62-42.png": "f71799c0958ff6cf74f4d5724731f0d899de1c62857cfa2bdc69372dd7da0e83",
+    "res://assets/earth/environment/ground_plate_v4/tile-62-44.png": "403ca717257e6b263b0863f97f8688ff98256f5882ed3c06ed4f7a75e822cc94",
+    "res://assets/earth/environment/ground_plate_v4/tile-64-30.png": "a656bb3ba1b29c2a1e430b11afc15da7704346bdeb1ac6c5c06388b3b698b7d4",
+    "res://assets/earth/environment/ground_plate_v4/tile-64-32.png": "0bf9af5d8666016b63a30bc66de12b1afd4ea49466dcc40666b8ed85e0c63706",
+    "res://assets/earth/environment/ground_plate_v4/tile-64-34.png": "368ce3c264fcac0206866f70dc7771e9242c5d7201a62e08d19960557fb72a77",
+    "res://assets/earth/environment/ground_plate_v4/tile-64-36.png": "9586dd63dc006ec5cff3280c1d39f933cbf150963462888a75b4b44ab23641b0",
+    "res://assets/earth/environment/ground_plate_v4/tile-64-38.png": "31d4b66f9f312e3cb6a12fd1a9f16d67c0f8b41a2194ac8b30c2be955670f9e4",
+    "res://assets/earth/environment/ground_plate_v4/tile-64-40.png": "7132bfb3a95b2152a3cac0ba7d253610d16e78127d461e0d91f3b057c7a2a47d",
+    "res://assets/earth/environment/ground_plate_v4/tile-64-42.png": "6ffdee15d975aecfbe4721f812fdd1639e91693e4919efec8f908c402d0ad8cd",
+    "res://assets/earth/environment/ground_plate_v4/tile-64-44.png": "981f4b67fd2e2e7cd1400d1b9f0b91e353b9d76279971ae5c2e15607f84aa159",
+    "res://assets/earth/environment/ground_plate_v4/tile-66-30.png": "d4e811d8f7bdbb5ede601fbacdfa026862e8d98f14ce6f5869ae93493007e89d",
+    "res://assets/earth/environment/ground_plate_v4/tile-66-32.png": "eb5a0c81d3b34cfb3f2d5562b8c4c39be9eb04ba3bbf1298dfa6db864d585428",
+    "res://assets/earth/environment/ground_plate_v4/tile-66-34.png": "701d4ba9d553708c9e9d954735993a3eac4825de1da22a50fe7875f4d3cd38d0",
+    "res://assets/earth/environment/ground_plate_v4/tile-66-36.png": "b395281bd69a2f884f197d6ffd81e18d5ba62bb1af8ad2a7363a71abd10c518a",
+    "res://assets/earth/environment/ground_plate_v4/tile-66-38.png": "ff5c9a14045f5c158252a62bfe82ff2f9ce47d7ec114b39b3c198982583c8a28",
+    "res://assets/earth/environment/ground_plate_v4/tile-66-40.png": "6b0fd44d797332cf01bfbc08871ca78b68018a9f1776b8a840c8daa3748a0f9b",
+    "res://assets/earth/environment/ground_plate_v4/tile-66-42.png": "faabe89473b0966324bc79ca81e5d35f98e4fcf55eea441324c2bd10ace1d875",
+    "res://assets/earth/environment/ground_plate_v4/tile-66-44.png": "1bfd57bc9bde4617225f24ccb6bdef5b0a1619472b1dded622ff61a9a0c7a234",
+    "res://assets/earth/environment/round_shrub_v1/owner-143.png": "cb403b3fd286ff1c2ec1085902ff1203ec7ad6f47ceb4ae513352ecad110476d",
+    "res://assets/earth/environment/round_shrub_v1/owner-144.png": "ab996e6449515eb2297fba8e33f0a3ef9dce4046652caa2901bc206ec0da3cd1",
+    "res://assets/earth/environment/round_shrub_v1/owner-145.png": "4314beb965f4e7c1a99f26546b13eda03dff49e134fb37d4ba97d02e4d7a271c",
+    "res://assets/earth/environment/round_shrub_v1/owner-146.png": "507a822bd45f359787a16c63804fae7a6ccab0d31c28655f10df10a890c35219",
+    "res://assets/earth/environment/training_hall_v1/owner-3967.png": "40c271540249c9981ae4340564cbf42d359957b7389d3b1b9ea12d588e6d9f8f",
+    "res://assets/earth/environment/training_hall_v1/owner-3968.png": "5c3bcf8d4afe72c74d588f8f9d763f292d8a6903f109447ae799221f02291e0d",
+    "res://assets/earth/environment/training_hall_v1/owner-3969.png": "9af2836b77f74c97ca3a7c4a09f504bacdde8cdf0e173312fe52944943d1062c",
+    "res://assets/earth/environment/training_hall_v1/owner-3970.png": "937969a147c8389e53ee931dd0c10354f2424d97649bc73e0adb078bd05a7fd8",
+    "res://assets/earth/environment/training_hall_v1/owner-3971.png": "bf8c3c2a4d1a65f3935dfcf4a81797f38487bbe5efdad61734cf3dec25cb5eb8",
+    "res://assets/earth/environment/training_hall_v1/owner-3972.png": "9a8c73705728ae1e9725eb5a98371767c618486f7743da97b32761bc57da6be9",
+    "res://assets/earth/environment/training_hall_v1/owner-3973.png": "048407117db692a2aad367c597d3532ea897ffdebffc0d0283586fcd2b672d10",
+    "res://assets/earth/environment/training_hall_v1/owner-3974.png": "f5229a5ca2869750110d0fc305c46f3f29b98556c57779e789f75e47ada432ad",
+    "res://assets/earth/environment/training_hall_v1/owner-3975.png": "4f5c931a75f01aea1b599e9d5e87e5b6f690df89dcfd2be1870ead8a9394befc",
+    "res://assets/earth/environment/training_hall_v1/owner-3976.png": "01c4b3a11397e702fe1de6f59c69fbfee94ef3e932ca4a403cc5e2b4a617bdf6",
+    "res://assets/earth/environment/training_hall_v1/owner-3977.png": "d30e217656e95fbb008a89fee9c5b022ad8f19ffdb40714b6d665b592a443cb5",
+    "res://assets/earth/environment/training_hall_v1/owner-3979.png": "2873987d5851bc6d8447a02aca78d36194ac8caa9eb9faefd7368926c0bd17b2",
+    "res://assets/earth/environment/training_hall_v1/owner-3980.png": "b430178191619833a0e43c6baa16fb66ce3e3f10e159003059ad9818c53b42aa",
+    "res://assets/earth/environment/training_hall_v1/owner-3981.png": "087e534ddb457d4e3521b3128dc4a151831ae12d400d905ab95331b9d0659199",
+    "res://assets/earth/environment/training_hall_v1/owner-3982.png": "216026b2cc0c70fff2b186f3095921acafe76582e2fc8d83a900e42005917314",
+    "res://assets/earth/environment/training_hall_v1/owner-3983.png": "f83b79acc6030c7de2c193d91dc2d60b5712e11b75e6a831117fbb926895fdb6",
+    "res://assets/earth/environment/training_hall_v1/owner-3984.png": "00b095852735002b5dda3662d9775333af20ef0a296d49b82797983154063ab7",
+    "res://assets/earth/environment/training_hall_v1/owner-3985.png": "430e3227462d43debfb30f76055b89ba615092a0c914828c1a5ad87909886a90",
+    "res://assets/earth/environment/training_hall_v1/owner-3986.png": "ef90181db2ace5b61a80ac83aede7e001febd27b1fb01ab67449d10dacf7c030",
+    "res://assets/earth/environment/training_hall_v1/owner-3987.png": "e4ee7ffa9240441b072db6efda4d6d47f6c17e770b0a6e8c3e6f1da38572df5a",
+    "res://assets/earth/environment/training_hall_v1/owner-3988.png": "d475e82a8a7b4fda607337b6d1f45533cf34a21f6f3f4563481c89fedc3f0675",
+    "res://assets/earth/environment/training_hall_v1/owner-3989.png": "77185d0dc86e99f14ae5ba9add6d8eb98388fdfa56abbcff9c8aee0e55df9661",
+    "res://assets/earth/environment/training_hall_v1/owner-3990.png": "477ceab276fbf928212fa6c2f18baa4e41072d6108816e52f428560d44f7a086",
+    "res://assets/earth/environment/training_hall_v1/owner-3991.png": "66b3c66e03abdb8d03483840da5b51d1474d13b1b97e0fb94d2a595211ecb6d6",
+    "res://assets/earth/environment/training_hall_v1/owner-3992.png": "00e0964b4a04a03a5a64e70e1f2372cd15fb17c58a13215863b8532dfbbe16e4",
+    "res://assets/earth/environment/training_hall_v1/owner-3993.png": "12db874c2329fc3f295362ea139a367f9e09a57c5cd9ddc4798e40871f6a7970",
+    "res://assets/earth/environment/training_hall_v1/owner-3994.png": "b1dec5c030bfff7038bf5f6e164e3470d6b8965e751ba3aea759f06982f194f5",
+    "res://assets/earth/environment/training_hall_v1/owner-3995.png": "dec23f8de636882ea6e4ffac026d6dedf8193e5641756a23ee0f61fcd3645ab6",
+    "res://assets/earth/environment/training_hall_v1/whole-review.png": "be82bef2c8d7aa9e26675e69dc076acbca76f0878eaf78eee3a18e501a12464b",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+    "res://assets/earth/environment/upright_tree_v1/raw.png": "ada0e0fd8952fe1dcc6b60dafb9d64be96476ed7736a881f1e5e401436b3db0f",
+    "res://assets/earth/hero/e_idle_v1/body.png": "7cb81240d71f04dae8f6df9e06ef5c0d7dbc1d33c467fa3c646f8a54087da010",
+    "res://assets/earth/hero/s_idle_v1/body.png": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e",
+    "res://assets/earth/hero/se_idle_v1/body.png": "60f89f65dd817ec80065de941e62e36e1068302c3f2bc4eb5014d8d56f450c02",
+    "res://assets/earth/hero/se_walk_v1/body.png": "f4eee4ec3a35e6597eb3a1eb4f6e5122163845ca474673974af1531ac42489ac",
+    "res://assets/earth/npc/fangzhang_v1/body.png": "21cfcd0e60c40944c3623e2d9b989e3d7eeb006a3ebbd2be648a69f655cf04bc",
+    "res://assets/earth/npc/lingyunzi_v2/body.png": "541c6d0a7a1cf3dd1cd547be037cf17e2f9a6083b8de90c1641f13fbaf9bbb9e",
+    "res://assets/earth/shadows/fangzhang_flat_v1/envelope.png": "ab5471d4e201f6b7b8173075d2901b62d0afd1629345f597e6e47ff4f70515e2",
+    "res://assets/earth/shadows/left_upright_v1/allowed.png": "93e5a918b6151976758e139ee9dd4c88226ef2799fcfff0cc7fce15015a89c65",
+    "res://assets/earth/shadows/left_upright_v1/forbidden.png": "abf3f4a113e2eb88bb0b26aaf7181bd83140d8b645102d03c14db3d707af4a9c",
+    "res://assets/earth/shadows/left_upright_v1/nominal-envelope.png": "7f5a3b8079ec0f666347c508333cc6f648306b0571dfc632ee0b439cc89d6d13",
+    "res://assets/earth/shadows/left_upright_v1/root-error-envelope.png": "00725f17d3501153e6130149a523cc03d5e959cf6a777e8062d27449262a0ace",
+    "res://assets/earth/shadows/receiver_v2/allowed.png": "12c5804b27220bc04f0727db09857c886fe48cfd48065e828ce75b851527a29c",
+    "res://assets/earth/shadows/receiver_v2/first-tree-envelope.png": "9bcfd26b632109ad0c45ea049f6ea68aca886c48dd46787578da424d0c59484e",
+    "res://assets/earth/shadows/receiver_v2/first-tree-shadow-padded-1256.png": "1a1caf1da97bfe4fea2c5eb39e3f30a0d542a61f9ed00e0bcc867f4b9c456638",
+    "res://assets/earth/shadows/receiver_v2/forbidden.png": "80b42e4adffad4929a7dd46eea0f3e7254d4396a2e1912c34182104ae9a4aab2",
+    "res://assets/earth/shadows/receiver_v2/lingyunzi-envelope-union.png": "72384d5dd4e67646f943623a18d1373992d6d7636599cfe0456fbc19d4ceb8e4",
+    "res://assets/earth/shadows/s_idle_contact_v1/envelope.png": "a731de3104eccc3e35aa50b2a2cce5ac994b781cee19ea3e027fd3b57a0a9047",
+    "res://assets/earth/shadows/se_flat_v1/allowed.png": "06d4a6fe1e8404c48619d51b72a67d82795fb178a34089e35b0661df5f9eb2dc",
+    "res://assets/earth/shadows/se_flat_v1/envelope.png": "1f7096d7c3689fdc9158cea3c21b28c8338771feb45530def39aaa737832f8e3",
+    "res://assets/earth/shadows/se_flat_v1/forbidden.png": "605ba15e50e5c1a710b1bab004ac824bb764f446dee29cdd1f9664f806426277",
+    "res://assets/original/Map/Res/Building/0.png": "6fc88a1aa96eb18687eea798bcb4eae1f0ebf6d546a5a076fb1c2546550b3343",
+    "res://assets/original/Map/Res/Debris/0.png": "1a40e7affec8b5ef82ee902dda23261e67dd2ddf499301adbcfea4dea0c1b87e",
+    "res://assets/original/Map/Res/FloorBig/0.png": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59",
+    "res://assets/original/Map/Res/FloorSmall/0.png": "741a0daca4ccc8e9ac1eeac3ae391a07189d90fed115b42fd0d8b55b376f79bb",
+    "res://assets/original/Map/Res/Plant/0.png": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+    "res://assets/original/Map/Res/Wall/0.png": "07bfa06728270c7f901eafc930c8c19a465af39e634d7ec0aa1160d9fcfad629",
+    "res://assets/original/Npc/0.png": "c0de28cf0fe814dec4829db167869c7ebed876cc9cc2086f99d490427a0bfa67",
+    "res://assets/original/hero/body-movement.png": "0698b9cc8a6386204e895b6179959b58bcf9d62d6735e6821f11af87cc839783",
+    "res://assets/original/hero/head-movement.png": "347508d77a77d3360a5ff7467b6b0826bdb6be05d75177b73b9c3eccce090f5a"
+  }
+}
