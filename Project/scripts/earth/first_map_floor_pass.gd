@@ -10,6 +10,9 @@ func _draw() -> void:
 		if world.prefer_ground and world.review_ground_owners.has(order):
 			var item=world.review_ground_owners[order]
 			draw_texture_rect_region(world.review_ground_texture,Rect2(item.origin+offset,Vector2(96,64)),item.region,Color.WHITE,false,false)
+		elif world.east_ground_count()>0 and world.east_ground_group.owners.has(order):
+			var item=world.east_ground_group.owners[order]
+			draw_texture_rect_region(world.east_ground_group.texture,Rect2(item.origin+offset,Vector2(96,64)),item.region,Color.WHITE,false,false)
 		else:
 			var pack=world.packs[f.pack];var frame=pack.frames[str(f.index)];var r=frame.rect
 			draw_texture_rect_region(world.textures[pack.pages[int(frame.page)].file],Rect2(f.origin+offset+Vector2(frame.crop[0],frame.crop[1]),Vector2(r[2],r[3])),Rect2(r[0],r[1],r[2],r[3]))

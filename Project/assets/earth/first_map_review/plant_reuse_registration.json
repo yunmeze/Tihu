@@ -1,0 +1,6374 @@
+{
+  "schema": "earth-first-map-plant-reuse-v1",
+  "status": "Approved integration research only: 57 complete east-corridor floor owners and 24 complete existing plant instances / 81 owners. No whole-map or final-art acceptance. No additional shadows.",
+  "source_map": {
+    "path": "res://data/maps/A13.json",
+    "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "bytes": 618373,
+    "type": "json",
+    "role": "source-map"
+  },
+  "source_manifest": {
+    "path": "res://assets/original/manifest.json",
+    "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+    "bytes": 262324,
+    "type": "json",
+    "role": "source-atlas-manifest"
+  },
+  "groups": {
+    "first_tree_70_47": {
+      "family": "first_tree",
+      "owner_count": 7,
+      "new_shadow": false,
+      "target_root": [
+        70,
+        47
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:292@70,47",
+          "pack": "Map/Res/Plant",
+          "index": 292,
+          "frame_index": 292,
+          "cell": [
+            70,
+            47
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            292
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 47,
+          "stable_source_order": 7047,
+          "source_frame": {
+            "original": [
+              48,
+              352
+            ],
+            "crop": [
+              0,
+              23
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              341,
+              307,
+              48,
+              310
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "0d1eb4e534f4c6ff1c83cedb16266377cd6426ee57f53e04dab1614dd1d9c010"
+          },
+          "texture": "res://assets/earth/environment/first_tree_v1/owner-292.png",
+          "texture_sha256": "975a1fc551685e481ef34409ecc9f8db085b4cca45acd4317a632133ef7a38ed",
+          "texture_size": [
+            1254,
+            1254
+          ],
+          "world_top_left": [
+            3254.25,
+            1200.0
+          ],
+          "scale": 0.25,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:293@68,50",
+          "pack": "Map/Res/Plant",
+          "index": 293,
+          "frame_index": 293,
+          "cell": [
+            68,
+            50
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            293
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 50,
+          "stable_source_order": 6850,
+          "source_frame": {
+            "original": [
+              48,
+              352
+            ],
+            "crop": [
+              2,
+              20
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              391,
+              307,
+              46,
+              113
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "2f6e7b1063a50c846358f66ee60f38b27aa51dcf8f530160124098604e08041f"
+          },
+          "texture": "res://assets/earth/environment/first_tree_v1/owner-293.png",
+          "texture_sha256": "913d6d58db380b32487274fabb2d32c393ccaa5c7b310a4f2d12ad9ef49f11b0",
+          "texture_size": [
+            1254,
+            1254
+          ],
+          "world_top_left": [
+            3254.25,
+            1200.0
+          ],
+          "scale": 0.25,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:294@69,50",
+          "pack": "Map/Res/Plant",
+          "index": 294,
+          "frame_index": 294,
+          "cell": [
+            69,
+            50
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            294
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 50,
+          "stable_source_order": 6950,
+          "source_frame": {
+            "original": [
+              48,
+              416
+            ],
+            "crop": [
+              0,
+              14
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              439,
+              307,
+              48,
+              273
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "5628ba82c071fc6f821364ecf4388753ab2ae5e23677f810a59de79e3d2e7df1"
+          },
+          "texture": "res://assets/earth/environment/first_tree_v1/owner-294.png",
+          "texture_sha256": "eb2429a22104baa43d724425372b231e6dbb1e8266c59fcc4883adaf28722d75",
+          "texture_size": [
+            1254,
+            1254
+          ],
+          "world_top_left": [
+            3254.25,
+            1200.0
+          ],
+          "scale": 0.25,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:295@71,50",
+          "pack": "Map/Res/Plant",
+          "index": 295,
+          "frame_index": 295,
+          "cell": [
+            71,
+            50
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            295
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 50,
+          "stable_source_order": 7150,
+          "source_frame": {
+            "original": [
+              48,
+              448
+            ],
+            "crop": [
+              0,
+              22
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              489,
+              307,
+              48,
+              292
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "c821cfcdaf105ca4305089bff61a9d88e2ddfd76fc1ec4f4a4927bf87b88559d"
+          },
+          "texture": "res://assets/earth/environment/first_tree_v1/owner-295.png",
+          "texture_sha256": "3d743ceffeda223272e18ed2343035f9aec38d435591c178526b15ebff14555b",
+          "texture_size": [
+            1254,
+            1254
+          ],
+          "world_top_left": [
+            3254.25,
+            1200.0
+          ],
+          "scale": 0.25,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:296@72,50",
+          "pack": "Map/Res/Plant",
+          "index": 296,
+          "frame_index": 296,
+          "cell": [
+            72,
+            50
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            296
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 50,
+          "stable_source_order": 7250,
+          "source_frame": {
+            "original": [
+              48,
+              384
+            ],
+            "crop": [
+              0,
+              6
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              539,
+              307,
+              48,
+              228
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "0682c336324166b86dabd273dc6fe5843947c7a8fa0640f0e1c44c41f12b898f"
+          },
+          "texture": "res://assets/earth/environment/first_tree_v1/owner-296.png",
+          "texture_sha256": "a40346e0ccc3e8dfe87d2d255a1192566ab986421c17f8067d120d9ee12ffb11",
+          "texture_size": [
+            1254,
+            1254
+          ],
+          "world_top_left": [
+            3254.25,
+            1200.0
+          ],
+          "scale": 0.25,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:297@73,50",
+          "pack": "Map/Res/Plant",
+          "index": 297,
+          "frame_index": 297,
+          "cell": [
+            73,
+            50
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            297
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 50,
+          "stable_source_order": 7350,
+          "source_frame": {
+            "original": [
+              48,
+              320
+            ],
+            "crop": [
+              0,
+              18
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              589,
+              307,
+              48,
+              143
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "9b577b6eac8fe0f53206a9f7c67a99e670c7f5afcff59f8ccdb07b84e0ac85e4"
+          },
+          "texture": "res://assets/earth/environment/first_tree_v1/owner-297.png",
+          "texture_sha256": "ad51b9394ac0d7418734be11b122028c5afe574db89627aa2320a206967865aa",
+          "texture_size": [
+            1254,
+            1254
+          ],
+          "world_top_left": [
+            3254.25,
+            1200.0
+          ],
+          "scale": 0.25,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:298@74,50",
+          "pack": "Map/Res/Plant",
+          "index": 298,
+          "frame_index": 298,
+          "cell": [
+            74,
+            50
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            298
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 50,
+          "stable_source_order": 7450,
+          "source_frame": {
+            "original": [
+              48,
+              224
+            ],
+            "crop": [
+              0,
+              15
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              639,
+              307,
+              26,
+              27
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "509aadc83bdaa8e50c2d5dcfe9f4b5c6c84d28696ee7986348c24fa51cb60554"
+          },
+          "texture": "res://assets/earth/environment/first_tree_v1/owner-298.png",
+          "texture_sha256": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+          "texture_size": [
+            1254,
+            1254
+          ],
+          "world_top_left": [
+            3254.25,
+            1200.0
+          ],
+          "scale": 0.25,
+          "empty": true
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/first_tree_v1/owner-292.png",
+          "sha256": "975a1fc551685e481ef34409ecc9f8db085b4cca45acd4317a632133ef7a38ed",
+          "bytes": 604022,
+          "type": "png",
+          "role": "texture",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "res://assets/earth/environment/first_tree_v1/owner-293.png",
+          "sha256": "913d6d58db380b32487274fabb2d32c393ccaa5c7b310a4f2d12ad9ef49f11b0",
+          "bytes": 220441,
+          "type": "png",
+          "role": "texture",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "res://assets/earth/environment/first_tree_v1/owner-294.png",
+          "sha256": "eb2429a22104baa43d724425372b231e6dbb1e8266c59fcc4883adaf28722d75",
+          "bytes": 503920,
+          "type": "png",
+          "role": "texture",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "res://assets/earth/environment/first_tree_v1/owner-295.png",
+          "sha256": "3d743ceffeda223272e18ed2343035f9aec38d435591c178526b15ebff14555b",
+          "bytes": 450383,
+          "type": "png",
+          "role": "texture",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "res://assets/earth/environment/first_tree_v1/owner-296.png",
+          "sha256": "a40346e0ccc3e8dfe87d2d255a1192566ab986421c17f8067d120d9ee12ffb11",
+          "bytes": 243158,
+          "type": "png",
+          "role": "texture",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "res://assets/earth/environment/first_tree_v1/owner-297.png",
+          "sha256": "ad51b9394ac0d7418734be11b122028c5afe574db89627aa2320a206967865aa",
+          "bytes": 88364,
+          "type": "png",
+          "role": "texture",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "res://assets/earth/environment/first_tree_v1/owner-298.png",
+          "sha256": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+          "bytes": 6175,
+          "type": "png",
+          "role": "texture",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "upright_tree_30_61": {
+      "family": "upright_tree",
+      "owner_count": 6,
+      "new_shadow": false,
+      "target_root": [
+        30,
+        61
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:299@30,61",
+          "pack": "Map/Res/Plant",
+          "index": 299,
+          "frame_index": 299,
+          "cell": [
+            30,
+            61
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            299
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 61,
+          "stable_source_order": 3061,
+          "source_frame": {
+            "original": [
+              48,
+              320
+            ],
+            "crop": [
+              0,
+              8
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              667,
+              307,
+              48,
+              298
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "c93338e339bfa76452d409742a26e012c405ec07548c570bf1f88a5165556e89"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+          "texture_sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1351.5555555555557,
+            1670.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:300@28,65",
+          "pack": "Map/Res/Plant",
+          "index": 300,
+          "frame_index": 300,
+          "cell": [
+            28,
+            65
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            300
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 65,
+          "stable_source_order": 2865,
+          "source_frame": {
+            "original": [
+              48,
+              416
+            ],
+            "crop": [
+              7,
+              23
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              717,
+              307,
+              41,
+              154
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "998611744c6f9c831bd4409143e37eed29a82b8498fa2840a1c3ff4160ca721c"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+          "texture_sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1351.5555555555557,
+            1670.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:301@29,65",
+          "pack": "Map/Res/Plant",
+          "index": 301,
+          "frame_index": 301,
+          "cell": [
+            29,
+            65
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            301
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 65,
+          "stable_source_order": 2965,
+          "source_frame": {
+            "original": [
+              48,
+              448
+            ],
+            "crop": [
+              0,
+              11
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              760,
+              307,
+              48,
+              255
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "9e4ab40e4516e07e8166aac1440a657bb9b6855e642ebdc28e59813b8519c6b8"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+          "texture_sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1351.5555555555557,
+            1670.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:302@31,65",
+          "pack": "Map/Res/Plant",
+          "index": 302,
+          "frame_index": 302,
+          "cell": [
+            31,
+            65
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            302
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 65,
+          "stable_source_order": 3165,
+          "source_frame": {
+            "original": [
+              48,
+              448
+            ],
+            "crop": [
+              0,
+              12
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              810,
+              307,
+              48,
+              294
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "fc84bc22f45ccf0093f7f0ba5dcbf041bcad32bd24c3a083a99a44ffbdb1549d"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+          "texture_sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1351.5555555555557,
+            1670.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:303@32,65",
+          "pack": "Map/Res/Plant",
+          "index": 303,
+          "frame_index": 303,
+          "cell": [
+            32,
+            65
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            303
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 65,
+          "stable_source_order": 3265,
+          "source_frame": {
+            "original": [
+              48,
+              448
+            ],
+            "crop": [
+              0,
+              11
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              860,
+              307,
+              48,
+              275
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "44d603bc5a09596941a4b6cb826d7f06b4c2f86c82f9436e4f29889c5c938ed3"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+          "texture_sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1351.5555555555557,
+            1670.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:304@33,65",
+          "pack": "Map/Res/Plant",
+          "index": 304,
+          "frame_index": 304,
+          "cell": [
+            33,
+            65
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            304
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 65,
+          "stable_source_order": 3365,
+          "source_frame": {
+            "original": [
+              48,
+              384
+            ],
+            "crop": [
+              0,
+              31
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              910,
+              307,
+              48,
+              148
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "d051ac0eb301c14d4754a3ad83fbf5b9d285f40058abf2bb23828383d337af5d"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+          "texture_sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1351.5555555555557,
+            1670.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": true
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+          "sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+          "bytes": 723362,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+          "sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+          "bytes": 130178,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+          "sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+          "bytes": 483725,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+          "sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+          "bytes": 566155,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+          "sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+          "bytes": 364892,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+          "sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+          "bytes": 6175,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "upright_tree_36_55": {
+      "family": "upright_tree",
+      "owner_count": 6,
+      "new_shadow": false,
+      "target_root": [
+        36,
+        55
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:299@36,55",
+          "pack": "Map/Res/Plant",
+          "index": 299,
+          "frame_index": 299,
+          "cell": [
+            36,
+            55
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            299
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 55,
+          "stable_source_order": 3655,
+          "source_frame": {
+            "original": [
+              48,
+              320
+            ],
+            "crop": [
+              0,
+              8
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              667,
+              307,
+              48,
+              298
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "c93338e339bfa76452d409742a26e012c405ec07548c570bf1f88a5165556e89"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+          "texture_sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1639.5555555555557,
+            1478.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:300@34,59",
+          "pack": "Map/Res/Plant",
+          "index": 300,
+          "frame_index": 300,
+          "cell": [
+            34,
+            59
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            300
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 59,
+          "stable_source_order": 3459,
+          "source_frame": {
+            "original": [
+              48,
+              416
+            ],
+            "crop": [
+              7,
+              23
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              717,
+              307,
+              41,
+              154
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "998611744c6f9c831bd4409143e37eed29a82b8498fa2840a1c3ff4160ca721c"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+          "texture_sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1639.5555555555557,
+            1478.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:301@35,59",
+          "pack": "Map/Res/Plant",
+          "index": 301,
+          "frame_index": 301,
+          "cell": [
+            35,
+            59
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            301
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 59,
+          "stable_source_order": 3559,
+          "source_frame": {
+            "original": [
+              48,
+              448
+            ],
+            "crop": [
+              0,
+              11
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              760,
+              307,
+              48,
+              255
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "9e4ab40e4516e07e8166aac1440a657bb9b6855e642ebdc28e59813b8519c6b8"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+          "texture_sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1639.5555555555557,
+            1478.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:302@37,59",
+          "pack": "Map/Res/Plant",
+          "index": 302,
+          "frame_index": 302,
+          "cell": [
+            37,
+            59
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            302
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 59,
+          "stable_source_order": 3759,
+          "source_frame": {
+            "original": [
+              48,
+              448
+            ],
+            "crop": [
+              0,
+              12
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              810,
+              307,
+              48,
+              294
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "fc84bc22f45ccf0093f7f0ba5dcbf041bcad32bd24c3a083a99a44ffbdb1549d"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+          "texture_sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1639.5555555555557,
+            1478.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:303@38,59",
+          "pack": "Map/Res/Plant",
+          "index": 303,
+          "frame_index": 303,
+          "cell": [
+            38,
+            59
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            303
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 59,
+          "stable_source_order": 3859,
+          "source_frame": {
+            "original": [
+              48,
+              448
+            ],
+            "crop": [
+              0,
+              11
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              860,
+              307,
+              48,
+              275
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "44d603bc5a09596941a4b6cb826d7f06b4c2f86c82f9436e4f29889c5c938ed3"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+          "texture_sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1639.5555555555557,
+            1478.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:304@39,59",
+          "pack": "Map/Res/Plant",
+          "index": 304,
+          "frame_index": 304,
+          "cell": [
+            39,
+            59
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            304
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 59,
+          "stable_source_order": 3959,
+          "source_frame": {
+            "original": [
+              48,
+              384
+            ],
+            "crop": [
+              0,
+              31
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              910,
+              307,
+              48,
+              148
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "d051ac0eb301c14d4754a3ad83fbf5b9d285f40058abf2bb23828383d337af5d"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+          "texture_sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1639.5555555555557,
+            1478.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": true
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+          "sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+          "bytes": 723362,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+          "sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+          "bytes": 130178,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+          "sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+          "bytes": 483725,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+          "sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+          "bytes": 566155,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+          "sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+          "bytes": 364892,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+          "sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+          "bytes": 6175,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "upright_tree_40_72": {
+      "family": "upright_tree",
+      "owner_count": 6,
+      "new_shadow": false,
+      "target_root": [
+        40,
+        72
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:299@40,72",
+          "pack": "Map/Res/Plant",
+          "index": 299,
+          "frame_index": 299,
+          "cell": [
+            40,
+            72
+          ],
+          "source_cell": [
+            -406,
+            -1,
+            2,
+            299
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 72,
+          "stable_source_order": 4072,
+          "source_frame": {
+            "original": [
+              48,
+              320
+            ],
+            "crop": [
+              0,
+              8
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              667,
+              307,
+              48,
+              298
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "c93338e339bfa76452d409742a26e012c405ec07548c570bf1f88a5165556e89"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+          "texture_sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1831.5555555555557,
+            2022.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:300@38,76",
+          "pack": "Map/Res/Plant",
+          "index": 300,
+          "frame_index": 300,
+          "cell": [
+            38,
+            76
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            300
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 76,
+          "stable_source_order": 3876,
+          "source_frame": {
+            "original": [
+              48,
+              416
+            ],
+            "crop": [
+              7,
+              23
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              717,
+              307,
+              41,
+              154
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "998611744c6f9c831bd4409143e37eed29a82b8498fa2840a1c3ff4160ca721c"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+          "texture_sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1831.5555555555557,
+            2022.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:301@39,76",
+          "pack": "Map/Res/Plant",
+          "index": 301,
+          "frame_index": 301,
+          "cell": [
+            39,
+            76
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            301
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 76,
+          "stable_source_order": 3976,
+          "source_frame": {
+            "original": [
+              48,
+              448
+            ],
+            "crop": [
+              0,
+              11
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              760,
+              307,
+              48,
+              255
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "9e4ab40e4516e07e8166aac1440a657bb9b6855e642ebdc28e59813b8519c6b8"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+          "texture_sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1831.5555555555557,
+            2022.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:302@41,76",
+          "pack": "Map/Res/Plant",
+          "index": 302,
+          "frame_index": 302,
+          "cell": [
+            41,
+            76
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            302
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 76,
+          "stable_source_order": 4176,
+          "source_frame": {
+            "original": [
+              48,
+              448
+            ],
+            "crop": [
+              0,
+              12
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              810,
+              307,
+              48,
+              294
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "fc84bc22f45ccf0093f7f0ba5dcbf041bcad32bd24c3a083a99a44ffbdb1549d"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+          "texture_sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1831.5555555555557,
+            2022.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:303@42,76",
+          "pack": "Map/Res/Plant",
+          "index": 303,
+          "frame_index": 303,
+          "cell": [
+            42,
+            76
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            303
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 76,
+          "stable_source_order": 4276,
+          "source_frame": {
+            "original": [
+              48,
+              448
+            ],
+            "crop": [
+              0,
+              11
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              860,
+              307,
+              48,
+              275
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "44d603bc5a09596941a4b6cb826d7f06b4c2f86c82f9436e4f29889c5c938ed3"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+          "texture_sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1831.5555555555557,
+            2022.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:304@43,76",
+          "pack": "Map/Res/Plant",
+          "index": 304,
+          "frame_index": 304,
+          "cell": [
+            43,
+            76
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            304
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 76,
+          "stable_source_order": 4376,
+          "source_frame": {
+            "original": [
+              48,
+              384
+            ],
+            "crop": [
+              0,
+              31
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              910,
+              307,
+              48,
+              148
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "d051ac0eb301c14d4754a3ad83fbf5b9d285f40058abf2bb23828383d337af5d"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+          "texture_sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            1831.5555555555557,
+            2022.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": true
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+          "sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+          "bytes": 723362,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+          "sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+          "bytes": 130178,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+          "sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+          "bytes": 483725,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+          "sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+          "bytes": 566155,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+          "sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+          "bytes": 364892,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+          "sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+          "bytes": 6175,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "upright_tree_45_46": {
+      "family": "upright_tree",
+      "owner_count": 6,
+      "new_shadow": false,
+      "target_root": [
+        45,
+        46
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:299@45,46",
+          "pack": "Map/Res/Plant",
+          "index": 299,
+          "frame_index": 299,
+          "cell": [
+            45,
+            46
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            299
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 46,
+          "stable_source_order": 4546,
+          "source_frame": {
+            "original": [
+              48,
+              320
+            ],
+            "crop": [
+              0,
+              8
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              667,
+              307,
+              48,
+              298
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "c93338e339bfa76452d409742a26e012c405ec07548c570bf1f88a5165556e89"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+          "texture_sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            2071.5555555555557,
+            1190.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:300@43,50",
+          "pack": "Map/Res/Plant",
+          "index": 300,
+          "frame_index": 300,
+          "cell": [
+            43,
+            50
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            300
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 50,
+          "stable_source_order": 4350,
+          "source_frame": {
+            "original": [
+              48,
+              416
+            ],
+            "crop": [
+              7,
+              23
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              717,
+              307,
+              41,
+              154
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "998611744c6f9c831bd4409143e37eed29a82b8498fa2840a1c3ff4160ca721c"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+          "texture_sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            2071.5555555555557,
+            1190.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:301@44,50",
+          "pack": "Map/Res/Plant",
+          "index": 301,
+          "frame_index": 301,
+          "cell": [
+            44,
+            50
+          ],
+          "source_cell": [
+            -577,
+            0,
+            2,
+            301
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 50,
+          "stable_source_order": 4450,
+          "source_frame": {
+            "original": [
+              48,
+              448
+            ],
+            "crop": [
+              0,
+              11
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              760,
+              307,
+              48,
+              255
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "9e4ab40e4516e07e8166aac1440a657bb9b6855e642ebdc28e59813b8519c6b8"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+          "texture_sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            2071.5555555555557,
+            1190.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:302@46,50",
+          "pack": "Map/Res/Plant",
+          "index": 302,
+          "frame_index": 302,
+          "cell": [
+            46,
+            50
+          ],
+          "source_cell": [
+            -607,
+            0,
+            2,
+            302
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 50,
+          "stable_source_order": 4650,
+          "source_frame": {
+            "original": [
+              48,
+              448
+            ],
+            "crop": [
+              0,
+              12
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              810,
+              307,
+              48,
+              294
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "fc84bc22f45ccf0093f7f0ba5dcbf041bcad32bd24c3a083a99a44ffbdb1549d"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+          "texture_sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            2071.5555555555557,
+            1190.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:303@47,50",
+          "pack": "Map/Res/Plant",
+          "index": 303,
+          "frame_index": 303,
+          "cell": [
+            47,
+            50
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            303
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 50,
+          "stable_source_order": 4750,
+          "source_frame": {
+            "original": [
+              48,
+              448
+            ],
+            "crop": [
+              0,
+              11
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              860,
+              307,
+              48,
+              275
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "44d603bc5a09596941a4b6cb826d7f06b4c2f86c82f9436e4f29889c5c938ed3"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+          "texture_sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            2071.5555555555557,
+            1190.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:304@48,50",
+          "pack": "Map/Res/Plant",
+          "index": 304,
+          "frame_index": 304,
+          "cell": [
+            48,
+            50
+          ],
+          "source_cell": [
+            -608,
+            0,
+            2,
+            304
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 50,
+          "stable_source_order": 4850,
+          "source_frame": {
+            "original": [
+              48,
+              384
+            ],
+            "crop": [
+              0,
+              31
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              910,
+              307,
+              48,
+              148
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "d051ac0eb301c14d4754a3ad83fbf5b9d285f40058abf2bb23828383d337af5d"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+          "texture_sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            2071.5555555555557,
+            1190.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": true
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+          "sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+          "bytes": 723362,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+          "sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+          "bytes": 130178,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+          "sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+          "bytes": 483725,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+          "sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+          "bytes": 566155,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+          "sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+          "bytes": 364892,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+          "sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+          "bytes": 6175,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "upright_tree_51_70": {
+      "family": "upright_tree",
+      "owner_count": 6,
+      "new_shadow": false,
+      "target_root": [
+        51,
+        70
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:299@51,70",
+          "pack": "Map/Res/Plant",
+          "index": 299,
+          "frame_index": 299,
+          "cell": [
+            51,
+            70
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            299
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 70,
+          "stable_source_order": 5170,
+          "source_frame": {
+            "original": [
+              48,
+              320
+            ],
+            "crop": [
+              0,
+              8
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              667,
+              307,
+              48,
+              298
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "c93338e339bfa76452d409742a26e012c405ec07548c570bf1f88a5165556e89"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+          "texture_sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            2359.5555555555557,
+            1958.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:300@49,74",
+          "pack": "Map/Res/Plant",
+          "index": 300,
+          "frame_index": 300,
+          "cell": [
+            49,
+            74
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            300
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 74,
+          "stable_source_order": 4974,
+          "source_frame": {
+            "original": [
+              48,
+              416
+            ],
+            "crop": [
+              7,
+              23
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              717,
+              307,
+              41,
+              154
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "998611744c6f9c831bd4409143e37eed29a82b8498fa2840a1c3ff4160ca721c"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+          "texture_sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            2359.5555555555557,
+            1958.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:301@50,74",
+          "pack": "Map/Res/Plant",
+          "index": 301,
+          "frame_index": 301,
+          "cell": [
+            50,
+            74
+          ],
+          "source_cell": [
+            -406,
+            -1,
+            2,
+            301
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 74,
+          "stable_source_order": 5074,
+          "source_frame": {
+            "original": [
+              48,
+              448
+            ],
+            "crop": [
+              0,
+              11
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              760,
+              307,
+              48,
+              255
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "9e4ab40e4516e07e8166aac1440a657bb9b6855e642ebdc28e59813b8519c6b8"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+          "texture_sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            2359.5555555555557,
+            1958.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:302@52,74",
+          "pack": "Map/Res/Plant",
+          "index": 302,
+          "frame_index": 302,
+          "cell": [
+            52,
+            74
+          ],
+          "source_cell": [
+            -406,
+            -1,
+            2,
+            302
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 74,
+          "stable_source_order": 5274,
+          "source_frame": {
+            "original": [
+              48,
+              448
+            ],
+            "crop": [
+              0,
+              12
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              810,
+              307,
+              48,
+              294
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "fc84bc22f45ccf0093f7f0ba5dcbf041bcad32bd24c3a083a99a44ffbdb1549d"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+          "texture_sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            2359.5555555555557,
+            1958.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:303@53,74",
+          "pack": "Map/Res/Plant",
+          "index": 303,
+          "frame_index": 303,
+          "cell": [
+            53,
+            74
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            303
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 74,
+          "stable_source_order": 5374,
+          "source_frame": {
+            "original": [
+              48,
+              448
+            ],
+            "crop": [
+              0,
+              11
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              860,
+              307,
+              48,
+              275
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "44d603bc5a09596941a4b6cb826d7f06b4c2f86c82f9436e4f29889c5c938ed3"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+          "texture_sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            2359.5555555555557,
+            1958.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:304@54,74",
+          "pack": "Map/Res/Plant",
+          "index": 304,
+          "frame_index": 304,
+          "cell": [
+            54,
+            74
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            304
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 74,
+          "stable_source_order": 5474,
+          "source_frame": {
+            "original": [
+              48,
+              384
+            ],
+            "crop": [
+              0,
+              31
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              910,
+              307,
+              48,
+              148
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "d051ac0eb301c14d4754a3ad83fbf5b9d285f40058abf2bb23828383d337af5d"
+          },
+          "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+          "texture_sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+          "texture_size": [
+            1162,
+            1353
+          ],
+          "world_top_left": [
+            2359.5555555555557,
+            1958.6666666666667
+          ],
+          "scale": 0.2222222222222222,
+          "empty": true
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+          "sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+          "bytes": 723362,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+          "sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+          "bytes": 130178,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+          "sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+          "bytes": 483725,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+          "sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+          "bytes": 566155,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+          "sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+          "bytes": 364892,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+          "sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+          "bytes": 6175,
+          "type": "png",
+          "role": "texture",
+          "width": 1162,
+          "height": 1353
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "round_shrub_33_62": {
+      "family": "round_shrub",
+      "owner_count": 4,
+      "new_shadow": false,
+      "target_root": [
+        33,
+        62
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:143@33,59",
+          "pack": "Map/Res/Plant",
+          "index": 143,
+          "frame_index": 143,
+          "cell": [
+            33,
+            59
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            143
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 59,
+          "stable_source_order": 3359,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              1,
+              23
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1,
+              1,
+              43,
+              9
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "ed5dcfa1e0b3f0e2724e76a498430e572c6453e363a00130364795f1ea772f88"
+          },
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-143.png",
+          "texture_sha256": "cb403b3fd286ff1c2ec1085902ff1203ec7ad6f47ceb4ae513352ecad110476d",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "world_top_left": [
+            1543.0,
+            1909.0
+          ],
+          "scale": 0.09090909090909091,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:144@32,62",
+          "pack": "Map/Res/Plant",
+          "index": 144,
+          "frame_index": 144,
+          "cell": [
+            32,
+            62
+          ],
+          "source_cell": [
+            -406,
+            -1,
+            2,
+            144
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 62,
+          "stable_source_order": 3262,
+          "source_frame": {
+            "original": [
+              48,
+              96
+            ],
+            "crop": [
+              7,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              46,
+              1,
+              41,
+              93
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "cde65d3c36a5767db0b9edcf9bcc5a82d54db87cc717255582327abfc5304750"
+          },
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-144.png",
+          "texture_sha256": "ab996e6449515eb2297fba8e33f0a3ef9dce4046652caa2901bc206ec0da3cd1",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "world_top_left": [
+            1543.0,
+            1909.0
+          ],
+          "scale": 0.09090909090909091,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:145@33,62",
+          "pack": "Map/Res/Plant",
+          "index": 145,
+          "frame_index": 145,
+          "cell": [
+            33,
+            62
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            145
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 62,
+          "stable_source_order": 3362,
+          "source_frame": {
+            "original": [
+              48,
+              96
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              89,
+              1,
+              48,
+              96
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "778f6b6d24730f8a1de8df91c0ef214d10c60bb1083320f3712002ea81f43cea"
+          },
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-145.png",
+          "texture_sha256": "4314beb965f4e7c1a99f26546b13eda03dff49e134fb37d4ba97d02e4d7a271c",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "world_top_left": [
+            1543.0,
+            1909.0
+          ],
+          "scale": 0.09090909090909091,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:146@34,62",
+          "pack": "Map/Res/Plant",
+          "index": 146,
+          "frame_index": 146,
+          "cell": [
+            34,
+            62
+          ],
+          "source_cell": [
+            -577,
+            -1,
+            2,
+            146
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 62,
+          "stable_source_order": 3462,
+          "source_frame": {
+            "original": [
+              48,
+              96
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              139,
+              1,
+              35,
+              94
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "22dcfaa4e375f58c9e0bd623187d55c4b2f2bf42c92c501444e3a80ca6271d57"
+          },
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-146.png",
+          "texture_sha256": "507a822bd45f359787a16c63804fae7a6ccab0d31c28655f10df10a890c35219",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "world_top_left": [
+            1543.0,
+            1909.0
+          ],
+          "scale": 0.09090909090909091,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/round_shrub_v1/owner-143.png",
+          "sha256": "cb403b3fd286ff1c2ec1085902ff1203ec7ad6f47ceb4ae513352ecad110476d",
+          "bytes": 69276,
+          "type": "png",
+          "role": "texture",
+          "width": 1363,
+          "height": 1154
+        },
+        {
+          "path": "res://assets/earth/environment/round_shrub_v1/owner-144.png",
+          "sha256": "ab996e6449515eb2297fba8e33f0a3ef9dce4046652caa2901bc206ec0da3cd1",
+          "bytes": 799678,
+          "type": "png",
+          "role": "texture",
+          "width": 1363,
+          "height": 1154
+        },
+        {
+          "path": "res://assets/earth/environment/round_shrub_v1/owner-145.png",
+          "sha256": "4314beb965f4e7c1a99f26546b13eda03dff49e134fb37d4ba97d02e4d7a271c",
+          "bytes": 1277247,
+          "type": "png",
+          "role": "texture",
+          "width": 1363,
+          "height": 1154
+        },
+        {
+          "path": "res://assets/earth/environment/round_shrub_v1/owner-146.png",
+          "sha256": "507a822bd45f359787a16c63804fae7a6ccab0d31c28655f10df10a890c35219",
+          "bytes": 642581,
+          "type": "png",
+          "role": "texture",
+          "width": 1363,
+          "height": 1154
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "round_shrub_39_56": {
+      "family": "round_shrub",
+      "owner_count": 4,
+      "new_shadow": false,
+      "target_root": [
+        39,
+        56
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:143@39,53",
+          "pack": "Map/Res/Plant",
+          "index": 143,
+          "frame_index": 143,
+          "cell": [
+            39,
+            53
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            143
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 53,
+          "stable_source_order": 3953,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              1,
+              23
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1,
+              1,
+              43,
+              9
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "ed5dcfa1e0b3f0e2724e76a498430e572c6453e363a00130364795f1ea772f88"
+          },
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-143.png",
+          "texture_sha256": "cb403b3fd286ff1c2ec1085902ff1203ec7ad6f47ceb4ae513352ecad110476d",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "world_top_left": [
+            1831.0,
+            1717.0
+          ],
+          "scale": 0.09090909090909091,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:144@38,56",
+          "pack": "Map/Res/Plant",
+          "index": 144,
+          "frame_index": 144,
+          "cell": [
+            38,
+            56
+          ],
+          "source_cell": [
+            -406,
+            -1,
+            2,
+            144
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 56,
+          "stable_source_order": 3856,
+          "source_frame": {
+            "original": [
+              48,
+              96
+            ],
+            "crop": [
+              7,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              46,
+              1,
+              41,
+              93
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "cde65d3c36a5767db0b9edcf9bcc5a82d54db87cc717255582327abfc5304750"
+          },
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-144.png",
+          "texture_sha256": "ab996e6449515eb2297fba8e33f0a3ef9dce4046652caa2901bc206ec0da3cd1",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "world_top_left": [
+            1831.0,
+            1717.0
+          ],
+          "scale": 0.09090909090909091,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:145@39,56",
+          "pack": "Map/Res/Plant",
+          "index": 145,
+          "frame_index": 145,
+          "cell": [
+            39,
+            56
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            145
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 56,
+          "stable_source_order": 3956,
+          "source_frame": {
+            "original": [
+              48,
+              96
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              89,
+              1,
+              48,
+              96
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "778f6b6d24730f8a1de8df91c0ef214d10c60bb1083320f3712002ea81f43cea"
+          },
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-145.png",
+          "texture_sha256": "4314beb965f4e7c1a99f26546b13eda03dff49e134fb37d4ba97d02e4d7a271c",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "world_top_left": [
+            1831.0,
+            1717.0
+          ],
+          "scale": 0.09090909090909091,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:146@40,56",
+          "pack": "Map/Res/Plant",
+          "index": 146,
+          "frame_index": 146,
+          "cell": [
+            40,
+            56
+          ],
+          "source_cell": [
+            -577,
+            -1,
+            2,
+            146
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 56,
+          "stable_source_order": 4056,
+          "source_frame": {
+            "original": [
+              48,
+              96
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              139,
+              1,
+              35,
+              94
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "22dcfaa4e375f58c9e0bd623187d55c4b2f2bf42c92c501444e3a80ca6271d57"
+          },
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-146.png",
+          "texture_sha256": "507a822bd45f359787a16c63804fae7a6ccab0d31c28655f10df10a890c35219",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "world_top_left": [
+            1831.0,
+            1717.0
+          ],
+          "scale": 0.09090909090909091,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/round_shrub_v1/owner-143.png",
+          "sha256": "cb403b3fd286ff1c2ec1085902ff1203ec7ad6f47ceb4ae513352ecad110476d",
+          "bytes": 69276,
+          "type": "png",
+          "role": "texture",
+          "width": 1363,
+          "height": 1154
+        },
+        {
+          "path": "res://assets/earth/environment/round_shrub_v1/owner-144.png",
+          "sha256": "ab996e6449515eb2297fba8e33f0a3ef9dce4046652caa2901bc206ec0da3cd1",
+          "bytes": 799678,
+          "type": "png",
+          "role": "texture",
+          "width": 1363,
+          "height": 1154
+        },
+        {
+          "path": "res://assets/earth/environment/round_shrub_v1/owner-145.png",
+          "sha256": "4314beb965f4e7c1a99f26546b13eda03dff49e134fb37d4ba97d02e4d7a271c",
+          "bytes": 1277247,
+          "type": "png",
+          "role": "texture",
+          "width": 1363,
+          "height": 1154
+        },
+        {
+          "path": "res://assets/earth/environment/round_shrub_v1/owner-146.png",
+          "sha256": "507a822bd45f359787a16c63804fae7a6ccab0d31c28655f10df10a890c35219",
+          "bytes": 642581,
+          "type": "png",
+          "role": "texture",
+          "width": 1363,
+          "height": 1154
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "round_shrub_40_69": {
+      "family": "round_shrub",
+      "owner_count": 4,
+      "new_shadow": false,
+      "target_root": [
+        40,
+        69
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:143@40,66",
+          "pack": "Map/Res/Plant",
+          "index": 143,
+          "frame_index": 143,
+          "cell": [
+            40,
+            66
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            143
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 66,
+          "stable_source_order": 4066,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              1,
+              23
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1,
+              1,
+              43,
+              9
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "ed5dcfa1e0b3f0e2724e76a498430e572c6453e363a00130364795f1ea772f88"
+          },
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-143.png",
+          "texture_sha256": "cb403b3fd286ff1c2ec1085902ff1203ec7ad6f47ceb4ae513352ecad110476d",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "world_top_left": [
+            1879.0,
+            2133.0
+          ],
+          "scale": 0.09090909090909091,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:144@39,69",
+          "pack": "Map/Res/Plant",
+          "index": 144,
+          "frame_index": 144,
+          "cell": [
+            39,
+            69
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            144
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 69,
+          "stable_source_order": 3969,
+          "source_frame": {
+            "original": [
+              48,
+              96
+            ],
+            "crop": [
+              7,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              46,
+              1,
+              41,
+              93
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "cde65d3c36a5767db0b9edcf9bcc5a82d54db87cc717255582327abfc5304750"
+          },
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-144.png",
+          "texture_sha256": "ab996e6449515eb2297fba8e33f0a3ef9dce4046652caa2901bc206ec0da3cd1",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "world_top_left": [
+            1879.0,
+            2133.0
+          ],
+          "scale": 0.09090909090909091,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:145@40,69",
+          "pack": "Map/Res/Plant",
+          "index": 145,
+          "frame_index": 145,
+          "cell": [
+            40,
+            69
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            145
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 69,
+          "stable_source_order": 4069,
+          "source_frame": {
+            "original": [
+              48,
+              96
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              89,
+              1,
+              48,
+              96
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "778f6b6d24730f8a1de8df91c0ef214d10c60bb1083320f3712002ea81f43cea"
+          },
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-145.png",
+          "texture_sha256": "4314beb965f4e7c1a99f26546b13eda03dff49e134fb37d4ba97d02e4d7a271c",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "world_top_left": [
+            1879.0,
+            2133.0
+          ],
+          "scale": 0.09090909090909091,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:146@41,69",
+          "pack": "Map/Res/Plant",
+          "index": 146,
+          "frame_index": 146,
+          "cell": [
+            41,
+            69
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            146
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 69,
+          "stable_source_order": 4169,
+          "source_frame": {
+            "original": [
+              48,
+              96
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              139,
+              1,
+              35,
+              94
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "22dcfaa4e375f58c9e0bd623187d55c4b2f2bf42c92c501444e3a80ca6271d57"
+          },
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-146.png",
+          "texture_sha256": "507a822bd45f359787a16c63804fae7a6ccab0d31c28655f10df10a890c35219",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "world_top_left": [
+            1879.0,
+            2133.0
+          ],
+          "scale": 0.09090909090909091,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/round_shrub_v1/owner-143.png",
+          "sha256": "cb403b3fd286ff1c2ec1085902ff1203ec7ad6f47ceb4ae513352ecad110476d",
+          "bytes": 69276,
+          "type": "png",
+          "role": "texture",
+          "width": 1363,
+          "height": 1154
+        },
+        {
+          "path": "res://assets/earth/environment/round_shrub_v1/owner-144.png",
+          "sha256": "ab996e6449515eb2297fba8e33f0a3ef9dce4046652caa2901bc206ec0da3cd1",
+          "bytes": 799678,
+          "type": "png",
+          "role": "texture",
+          "width": 1363,
+          "height": 1154
+        },
+        {
+          "path": "res://assets/earth/environment/round_shrub_v1/owner-145.png",
+          "sha256": "4314beb965f4e7c1a99f26546b13eda03dff49e134fb37d4ba97d02e4d7a271c",
+          "bytes": 1277247,
+          "type": "png",
+          "role": "texture",
+          "width": 1363,
+          "height": 1154
+        },
+        {
+          "path": "res://assets/earth/environment/round_shrub_v1/owner-146.png",
+          "sha256": "507a822bd45f359787a16c63804fae7a6ccab0d31c28655f10df10a890c35219",
+          "bytes": 642581,
+          "type": "png",
+          "role": "texture",
+          "width": 1363,
+          "height": 1154
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "round_shrub_46_63": {
+      "family": "round_shrub",
+      "owner_count": 4,
+      "new_shadow": false,
+      "target_root": [
+        46,
+        63
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:143@46,60",
+          "pack": "Map/Res/Plant",
+          "index": 143,
+          "frame_index": 143,
+          "cell": [
+            46,
+            60
+          ],
+          "source_cell": [
+            -598,
+            0,
+            2,
+            143
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 60,
+          "stable_source_order": 4660,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              1,
+              23
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1,
+              1,
+              43,
+              9
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "ed5dcfa1e0b3f0e2724e76a498430e572c6453e363a00130364795f1ea772f88"
+          },
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-143.png",
+          "texture_sha256": "cb403b3fd286ff1c2ec1085902ff1203ec7ad6f47ceb4ae513352ecad110476d",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "world_top_left": [
+            2167.0,
+            1941.0
+          ],
+          "scale": 0.09090909090909091,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:144@45,63",
+          "pack": "Map/Res/Plant",
+          "index": 144,
+          "frame_index": 144,
+          "cell": [
+            45,
+            63
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            144
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 63,
+          "stable_source_order": 4563,
+          "source_frame": {
+            "original": [
+              48,
+              96
+            ],
+            "crop": [
+              7,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              46,
+              1,
+              41,
+              93
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "cde65d3c36a5767db0b9edcf9bcc5a82d54db87cc717255582327abfc5304750"
+          },
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-144.png",
+          "texture_sha256": "ab996e6449515eb2297fba8e33f0a3ef9dce4046652caa2901bc206ec0da3cd1",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "world_top_left": [
+            2167.0,
+            1941.0
+          ],
+          "scale": 0.09090909090909091,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:145@46,63",
+          "pack": "Map/Res/Plant",
+          "index": 145,
+          "frame_index": 145,
+          "cell": [
+            46,
+            63
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            145
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 63,
+          "stable_source_order": 4663,
+          "source_frame": {
+            "original": [
+              48,
+              96
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              89,
+              1,
+              48,
+              96
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "778f6b6d24730f8a1de8df91c0ef214d10c60bb1083320f3712002ea81f43cea"
+          },
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-145.png",
+          "texture_sha256": "4314beb965f4e7c1a99f26546b13eda03dff49e134fb37d4ba97d02e4d7a271c",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "world_top_left": [
+            2167.0,
+            1941.0
+          ],
+          "scale": 0.09090909090909091,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:146@47,63",
+          "pack": "Map/Res/Plant",
+          "index": 146,
+          "frame_index": 146,
+          "cell": [
+            47,
+            63
+          ],
+          "source_cell": [
+            0,
+            -1,
+            2,
+            146
+          ],
+          "flag": -1,
+          "layer": 1,
+          "sort_y": 63,
+          "stable_source_order": 4763,
+          "source_frame": {
+            "original": [
+              48,
+              96
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              139,
+              1,
+              35,
+              94
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "22dcfaa4e375f58c9e0bd623187d55c4b2f2bf42c92c501444e3a80ca6271d57"
+          },
+          "texture": "res://assets/earth/environment/round_shrub_v1/owner-146.png",
+          "texture_sha256": "507a822bd45f359787a16c63804fae7a6ccab0d31c28655f10df10a890c35219",
+          "texture_size": [
+            1363,
+            1154
+          ],
+          "world_top_left": [
+            2167.0,
+            1941.0
+          ],
+          "scale": 0.09090909090909091,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/round_shrub_v1/owner-143.png",
+          "sha256": "cb403b3fd286ff1c2ec1085902ff1203ec7ad6f47ceb4ae513352ecad110476d",
+          "bytes": 69276,
+          "type": "png",
+          "role": "texture",
+          "width": 1363,
+          "height": 1154
+        },
+        {
+          "path": "res://assets/earth/environment/round_shrub_v1/owner-144.png",
+          "sha256": "ab996e6449515eb2297fba8e33f0a3ef9dce4046652caa2901bc206ec0da3cd1",
+          "bytes": 799678,
+          "type": "png",
+          "role": "texture",
+          "width": 1363,
+          "height": 1154
+        },
+        {
+          "path": "res://assets/earth/environment/round_shrub_v1/owner-145.png",
+          "sha256": "4314beb965f4e7c1a99f26546b13eda03dff49e134fb37d4ba97d02e4d7a271c",
+          "bytes": 1277247,
+          "type": "png",
+          "role": "texture",
+          "width": 1363,
+          "height": 1154
+        },
+        {
+          "path": "res://assets/earth/environment/round_shrub_v1/owner-146.png",
+          "sha256": "507a822bd45f359787a16c63804fae7a6ccab0d31c28655f10df10a890c35219",
+          "bytes": 642581,
+          "type": "png",
+          "role": "texture",
+          "width": 1363,
+          "height": 1154
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "grass_A_14_28": {
+      "family": "grass_A",
+      "owner_count": 2,
+      "new_shadow": false,
+      "target_root": [
+        14,
+        28
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:239@14,28",
+          "pack": "Map/Res/Plant",
+          "index": 239,
+          "frame_index": 239,
+          "cell": [
+            14,
+            28
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            239
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 28,
+          "stable_source_order": 1428,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              16,
+              7
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1111,
+              1,
+              32,
+              25
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "8c2d1a717a7e04c7b65128ba01e189ba77b4c4283ef6f68ee18d7ddce0ab579f"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-239.png",
+          "texture_sha256": "e8f35c91c85ee62958fa7347caf7d35004b3c23d8e31255b9345c7eb49cfb7b5",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            686.8333333333335,
+            895.5714285714286
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:240@15,28",
+          "pack": "Map/Res/Plant",
+          "index": 240,
+          "frame_index": 240,
+          "cell": [
+            15,
+            28
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            240
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 28,
+          "stable_source_order": 1528,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              0,
+              5
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1145,
+              1,
+              32,
+              27
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "71874d871601399d4d367ed6ba2db6695ec96b58f9a8cd15d22bc32c1d5cf4f2"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-240.png",
+          "texture_sha256": "b19199c3a7b263596d4d722232314f694688e2fda0ebf78e86308b6fddf598bd",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            686.8333333333335,
+            895.5714285714286
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-239.png",
+          "sha256": "e8f35c91c85ee62958fa7347caf7d35004b3c23d8e31255b9345c7eb49cfb7b5",
+          "bytes": 451844,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-240.png",
+          "sha256": "b19199c3a7b263596d4d722232314f694688e2fda0ebf78e86308b6fddf598bd",
+          "bytes": 519799,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "grass_A_16_22": {
+      "family": "grass_A",
+      "owner_count": 2,
+      "new_shadow": false,
+      "target_root": [
+        16,
+        22
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:239@16,22",
+          "pack": "Map/Res/Plant",
+          "index": 239,
+          "frame_index": 239,
+          "cell": [
+            16,
+            22
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            239
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 22,
+          "stable_source_order": 1622,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              16,
+              7
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1111,
+              1,
+              32,
+              25
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "8c2d1a717a7e04c7b65128ba01e189ba77b4c4283ef6f68ee18d7ddce0ab579f"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-239.png",
+          "texture_sha256": "e8f35c91c85ee62958fa7347caf7d35004b3c23d8e31255b9345c7eb49cfb7b5",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            782.8333333333335,
+            703.5714285714286
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:240@17,22",
+          "pack": "Map/Res/Plant",
+          "index": 240,
+          "frame_index": 240,
+          "cell": [
+            17,
+            22
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            240
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 22,
+          "stable_source_order": 1722,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              0,
+              5
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1145,
+              1,
+              32,
+              27
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "71874d871601399d4d367ed6ba2db6695ec96b58f9a8cd15d22bc32c1d5cf4f2"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-240.png",
+          "texture_sha256": "b19199c3a7b263596d4d722232314f694688e2fda0ebf78e86308b6fddf598bd",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            782.8333333333335,
+            703.5714285714286
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-239.png",
+          "sha256": "e8f35c91c85ee62958fa7347caf7d35004b3c23d8e31255b9345c7eb49cfb7b5",
+          "bytes": 451844,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-240.png",
+          "sha256": "b19199c3a7b263596d4d722232314f694688e2fda0ebf78e86308b6fddf598bd",
+          "bytes": 519799,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "grass_A_54_25": {
+      "family": "grass_A",
+      "owner_count": 2,
+      "new_shadow": false,
+      "target_root": [
+        54,
+        25
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:239@54,25",
+          "pack": "Map/Res/Plant",
+          "index": 239,
+          "frame_index": 239,
+          "cell": [
+            54,
+            25
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            239
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 25,
+          "stable_source_order": 5425,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              16,
+              7
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1111,
+              1,
+              32,
+              25
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "8c2d1a717a7e04c7b65128ba01e189ba77b4c4283ef6f68ee18d7ddce0ab579f"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-239.png",
+          "texture_sha256": "e8f35c91c85ee62958fa7347caf7d35004b3c23d8e31255b9345c7eb49cfb7b5",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            2606.8333333333335,
+            799.5714285714286
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:240@55,25",
+          "pack": "Map/Res/Plant",
+          "index": 240,
+          "frame_index": 240,
+          "cell": [
+            55,
+            25
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            240
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 25,
+          "stable_source_order": 5525,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              0,
+              5
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1145,
+              1,
+              32,
+              27
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "71874d871601399d4d367ed6ba2db6695ec96b58f9a8cd15d22bc32c1d5cf4f2"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-240.png",
+          "texture_sha256": "b19199c3a7b263596d4d722232314f694688e2fda0ebf78e86308b6fddf598bd",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            2606.8333333333335,
+            799.5714285714286
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-239.png",
+          "sha256": "e8f35c91c85ee62958fa7347caf7d35004b3c23d8e31255b9345c7eb49cfb7b5",
+          "bytes": 451844,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-240.png",
+          "sha256": "b19199c3a7b263596d4d722232314f694688e2fda0ebf78e86308b6fddf598bd",
+          "bytes": 519799,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "grass_A_60_60": {
+      "family": "grass_A",
+      "owner_count": 2,
+      "new_shadow": false,
+      "target_root": [
+        60,
+        60
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:239@60,60",
+          "pack": "Map/Res/Plant",
+          "index": 239,
+          "frame_index": 239,
+          "cell": [
+            60,
+            60
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            239
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 60,
+          "stable_source_order": 6060,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              16,
+              7
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1111,
+              1,
+              32,
+              25
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "8c2d1a717a7e04c7b65128ba01e189ba77b4c4283ef6f68ee18d7ddce0ab579f"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-239.png",
+          "texture_sha256": "e8f35c91c85ee62958fa7347caf7d35004b3c23d8e31255b9345c7eb49cfb7b5",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            2894.8333333333335,
+            1919.5714285714284
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:240@61,60",
+          "pack": "Map/Res/Plant",
+          "index": 240,
+          "frame_index": 240,
+          "cell": [
+            61,
+            60
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            240
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 60,
+          "stable_source_order": 6160,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              0,
+              5
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1145,
+              1,
+              32,
+              27
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "71874d871601399d4d367ed6ba2db6695ec96b58f9a8cd15d22bc32c1d5cf4f2"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-240.png",
+          "texture_sha256": "b19199c3a7b263596d4d722232314f694688e2fda0ebf78e86308b6fddf598bd",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            2894.8333333333335,
+            1919.5714285714284
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-239.png",
+          "sha256": "e8f35c91c85ee62958fa7347caf7d35004b3c23d8e31255b9345c7eb49cfb7b5",
+          "bytes": 451844,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-240.png",
+          "sha256": "b19199c3a7b263596d4d722232314f694688e2fda0ebf78e86308b6fddf598bd",
+          "bytes": 519799,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "grass_A_64_23": {
+      "family": "grass_A",
+      "owner_count": 2,
+      "new_shadow": false,
+      "target_root": [
+        64,
+        23
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:239@64,23",
+          "pack": "Map/Res/Plant",
+          "index": 239,
+          "frame_index": 239,
+          "cell": [
+            64,
+            23
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            239
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 23,
+          "stable_source_order": 6423,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              16,
+              7
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1111,
+              1,
+              32,
+              25
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "8c2d1a717a7e04c7b65128ba01e189ba77b4c4283ef6f68ee18d7ddce0ab579f"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-239.png",
+          "texture_sha256": "e8f35c91c85ee62958fa7347caf7d35004b3c23d8e31255b9345c7eb49cfb7b5",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            3086.8333333333335,
+            735.5714285714286
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:240@65,23",
+          "pack": "Map/Res/Plant",
+          "index": 240,
+          "frame_index": 240,
+          "cell": [
+            65,
+            23
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            240
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 23,
+          "stable_source_order": 6523,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              0,
+              5
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1145,
+              1,
+              32,
+              27
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "71874d871601399d4d367ed6ba2db6695ec96b58f9a8cd15d22bc32c1d5cf4f2"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-240.png",
+          "texture_sha256": "b19199c3a7b263596d4d722232314f694688e2fda0ebf78e86308b6fddf598bd",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            3086.8333333333335,
+            735.5714285714286
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-239.png",
+          "sha256": "e8f35c91c85ee62958fa7347caf7d35004b3c23d8e31255b9345c7eb49cfb7b5",
+          "bytes": 451844,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-240.png",
+          "sha256": "b19199c3a7b263596d4d722232314f694688e2fda0ebf78e86308b6fddf598bd",
+          "bytes": 519799,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "grass_A_65_67": {
+      "family": "grass_A",
+      "owner_count": 2,
+      "new_shadow": false,
+      "target_root": [
+        65,
+        67
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:239@65,67",
+          "pack": "Map/Res/Plant",
+          "index": 239,
+          "frame_index": 239,
+          "cell": [
+            65,
+            67
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            239
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 67,
+          "stable_source_order": 6567,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              16,
+              7
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1111,
+              1,
+              32,
+              25
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "8c2d1a717a7e04c7b65128ba01e189ba77b4c4283ef6f68ee18d7ddce0ab579f"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-239.png",
+          "texture_sha256": "e8f35c91c85ee62958fa7347caf7d35004b3c23d8e31255b9345c7eb49cfb7b5",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            3134.8333333333335,
+            2143.5714285714284
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:240@66,67",
+          "pack": "Map/Res/Plant",
+          "index": 240,
+          "frame_index": 240,
+          "cell": [
+            66,
+            67
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            240
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 67,
+          "stable_source_order": 6667,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              0,
+              5
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1145,
+              1,
+              32,
+              27
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "71874d871601399d4d367ed6ba2db6695ec96b58f9a8cd15d22bc32c1d5cf4f2"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-240.png",
+          "texture_sha256": "b19199c3a7b263596d4d722232314f694688e2fda0ebf78e86308b6fddf598bd",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            3134.8333333333335,
+            2143.5714285714284
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-239.png",
+          "sha256": "e8f35c91c85ee62958fa7347caf7d35004b3c23d8e31255b9345c7eb49cfb7b5",
+          "bytes": 451844,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-240.png",
+          "sha256": "b19199c3a7b263596d4d722232314f694688e2fda0ebf78e86308b6fddf598bd",
+          "bytes": 519799,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "grass_A_79_34": {
+      "family": "grass_A",
+      "owner_count": 2,
+      "new_shadow": false,
+      "target_root": [
+        79,
+        34
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:239@79,34",
+          "pack": "Map/Res/Plant",
+          "index": 239,
+          "frame_index": 239,
+          "cell": [
+            79,
+            34
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            239
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 34,
+          "stable_source_order": 7934,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              16,
+              7
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1111,
+              1,
+              32,
+              25
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "8c2d1a717a7e04c7b65128ba01e189ba77b4c4283ef6f68ee18d7ddce0ab579f"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-239.png",
+          "texture_sha256": "e8f35c91c85ee62958fa7347caf7d35004b3c23d8e31255b9345c7eb49cfb7b5",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            3806.8333333333335,
+            1087.5714285714284
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:240@80,34",
+          "pack": "Map/Res/Plant",
+          "index": 240,
+          "frame_index": 240,
+          "cell": [
+            80,
+            34
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            240
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 34,
+          "stable_source_order": 8034,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              0,
+              5
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1145,
+              1,
+              32,
+              27
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "71874d871601399d4d367ed6ba2db6695ec96b58f9a8cd15d22bc32c1d5cf4f2"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-240.png",
+          "texture_sha256": "b19199c3a7b263596d4d722232314f694688e2fda0ebf78e86308b6fddf598bd",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            3806.8333333333335,
+            1087.5714285714284
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-239.png",
+          "sha256": "e8f35c91c85ee62958fa7347caf7d35004b3c23d8e31255b9345c7eb49cfb7b5",
+          "bytes": 451844,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-240.png",
+          "sha256": "b19199c3a7b263596d4d722232314f694688e2fda0ebf78e86308b6fddf598bd",
+          "bytes": 519799,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "grass_B_14_29": {
+      "family": "grass_B",
+      "owner_count": 2,
+      "new_shadow": false,
+      "target_root": [
+        14,
+        29
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:241@14,29",
+          "pack": "Map/Res/Plant",
+          "index": 241,
+          "frame_index": 241,
+          "cell": [
+            14,
+            29
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            241
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 29,
+          "stable_source_order": 1429,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              21,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1179,
+              1,
+              27,
+              26
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "8f765460d598a1cd4c5cd26a1a2c240697175db179178f05db2a1e4ccb1d8936"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-241.png",
+          "texture_sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            635.5,
+            921.4285714285714
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:242@15,29",
+          "pack": "Map/Res/Plant",
+          "index": 242,
+          "frame_index": 242,
+          "cell": [
+            15,
+            29
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            242
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 29,
+          "stable_source_order": 1529,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1208,
+              1,
+              31,
+              25
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "c1bc29c8b1c6157d97bf187294b3b3fa9da46af53d3105c806758f073ca3686f"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-242.png",
+          "texture_sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            635.5,
+            921.4285714285714
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-241.png",
+          "sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+          "bytes": 296594,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-242.png",
+          "sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+          "bytes": 219646,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "grass_B_16_23": {
+      "family": "grass_B",
+      "owner_count": 2,
+      "new_shadow": false,
+      "target_root": [
+        16,
+        23
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:241@16,23",
+          "pack": "Map/Res/Plant",
+          "index": 241,
+          "frame_index": 241,
+          "cell": [
+            16,
+            23
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            241
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 23,
+          "stable_source_order": 1623,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              21,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1179,
+              1,
+              27,
+              26
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "8f765460d598a1cd4c5cd26a1a2c240697175db179178f05db2a1e4ccb1d8936"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-241.png",
+          "texture_sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            731.5,
+            729.4285714285714
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:242@17,23",
+          "pack": "Map/Res/Plant",
+          "index": 242,
+          "frame_index": 242,
+          "cell": [
+            17,
+            23
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            242
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 23,
+          "stable_source_order": 1723,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1208,
+              1,
+              31,
+              25
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "c1bc29c8b1c6157d97bf187294b3b3fa9da46af53d3105c806758f073ca3686f"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-242.png",
+          "texture_sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            731.5,
+            729.4285714285714
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-241.png",
+          "sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+          "bytes": 296594,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-242.png",
+          "sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+          "bytes": 219646,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "grass_B_54_26": {
+      "family": "grass_B",
+      "owner_count": 2,
+      "new_shadow": false,
+      "target_root": [
+        54,
+        26
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:241@54,26",
+          "pack": "Map/Res/Plant",
+          "index": 241,
+          "frame_index": 241,
+          "cell": [
+            54,
+            26
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            241
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 26,
+          "stable_source_order": 5426,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              21,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1179,
+              1,
+              27,
+              26
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "8f765460d598a1cd4c5cd26a1a2c240697175db179178f05db2a1e4ccb1d8936"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-241.png",
+          "texture_sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            2555.5,
+            825.4285714285714
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:242@55,26",
+          "pack": "Map/Res/Plant",
+          "index": 242,
+          "frame_index": 242,
+          "cell": [
+            55,
+            26
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            242
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 26,
+          "stable_source_order": 5526,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1208,
+              1,
+              31,
+              25
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "c1bc29c8b1c6157d97bf187294b3b3fa9da46af53d3105c806758f073ca3686f"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-242.png",
+          "texture_sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            2555.5,
+            825.4285714285714
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-241.png",
+          "sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+          "bytes": 296594,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-242.png",
+          "sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+          "bytes": 219646,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "grass_B_60_61": {
+      "family": "grass_B",
+      "owner_count": 2,
+      "new_shadow": false,
+      "target_root": [
+        60,
+        61
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:241@60,61",
+          "pack": "Map/Res/Plant",
+          "index": 241,
+          "frame_index": 241,
+          "cell": [
+            60,
+            61
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            241
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 61,
+          "stable_source_order": 6061,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              21,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1179,
+              1,
+              27,
+              26
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "8f765460d598a1cd4c5cd26a1a2c240697175db179178f05db2a1e4ccb1d8936"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-241.png",
+          "texture_sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            2843.5,
+            1945.4285714285716
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:242@61,61",
+          "pack": "Map/Res/Plant",
+          "index": 242,
+          "frame_index": 242,
+          "cell": [
+            61,
+            61
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            242
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 61,
+          "stable_source_order": 6161,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1208,
+              1,
+              31,
+              25
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "c1bc29c8b1c6157d97bf187294b3b3fa9da46af53d3105c806758f073ca3686f"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-242.png",
+          "texture_sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            2843.5,
+            1945.4285714285716
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-241.png",
+          "sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+          "bytes": 296594,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-242.png",
+          "sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+          "bytes": 219646,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "grass_B_64_24": {
+      "family": "grass_B",
+      "owner_count": 2,
+      "new_shadow": false,
+      "target_root": [
+        64,
+        24
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:241@64,24",
+          "pack": "Map/Res/Plant",
+          "index": 241,
+          "frame_index": 241,
+          "cell": [
+            64,
+            24
+          ],
+          "source_cell": [
+            -406,
+            0,
+            2,
+            241
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 24,
+          "stable_source_order": 6424,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              21,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1179,
+              1,
+              27,
+              26
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "8f765460d598a1cd4c5cd26a1a2c240697175db179178f05db2a1e4ccb1d8936"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-241.png",
+          "texture_sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            3035.5,
+            761.4285714285714
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:242@65,24",
+          "pack": "Map/Res/Plant",
+          "index": 242,
+          "frame_index": 242,
+          "cell": [
+            65,
+            24
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            242
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 24,
+          "stable_source_order": 6524,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1208,
+              1,
+              31,
+              25
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "c1bc29c8b1c6157d97bf187294b3b3fa9da46af53d3105c806758f073ca3686f"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-242.png",
+          "texture_sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            3035.5,
+            761.4285714285714
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-241.png",
+          "sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+          "bytes": 296594,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-242.png",
+          "sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+          "bytes": 219646,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "grass_B_65_68": {
+      "family": "grass_B",
+      "owner_count": 2,
+      "new_shadow": false,
+      "target_root": [
+        65,
+        68
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:241@65,68",
+          "pack": "Map/Res/Plant",
+          "index": 241,
+          "frame_index": 241,
+          "cell": [
+            65,
+            68
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            241
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 68,
+          "stable_source_order": 6568,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              21,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1179,
+              1,
+              27,
+              26
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "8f765460d598a1cd4c5cd26a1a2c240697175db179178f05db2a1e4ccb1d8936"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-241.png",
+          "texture_sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            3083.5,
+            2169.4285714285716
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:242@66,68",
+          "pack": "Map/Res/Plant",
+          "index": 242,
+          "frame_index": 242,
+          "cell": [
+            66,
+            68
+          ],
+          "source_cell": [
+            -399,
+            0,
+            2,
+            242
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 68,
+          "stable_source_order": 6668,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1208,
+              1,
+              31,
+              25
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "c1bc29c8b1c6157d97bf187294b3b3fa9da46af53d3105c806758f073ca3686f"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-242.png",
+          "texture_sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            3083.5,
+            2169.4285714285716
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-241.png",
+          "sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+          "bytes": 296594,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-242.png",
+          "sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+          "bytes": 219646,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    },
+    "grass_B_79_35": {
+      "family": "grass_B",
+      "owner_count": 2,
+      "new_shadow": false,
+      "target_root": [
+        79,
+        35
+      ],
+      "owners": [
+        {
+          "key": "Map/Res/Plant:241@79,35",
+          "pack": "Map/Res/Plant",
+          "index": 241,
+          "frame_index": 241,
+          "cell": [
+            79,
+            35
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            241
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 35,
+          "stable_source_order": 7935,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              21,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1179,
+              1,
+              27,
+              26
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "8f765460d598a1cd4c5cd26a1a2c240697175db179178f05db2a1e4ccb1d8936"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-241.png",
+          "texture_sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            3755.5,
+            1113.4285714285716
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        },
+        {
+          "key": "Map/Res/Plant:242@80,35",
+          "pack": "Map/Res/Plant",
+          "index": 242,
+          "frame_index": 242,
+          "cell": [
+            80,
+            35
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            242
+          ],
+          "flag": 0,
+          "layer": 1,
+          "sort_y": 35,
+          "stable_source_order": 8035,
+          "source_frame": {
+            "original": [
+              48,
+              32
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1208,
+              1,
+              31,
+              25
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png",
+            "rgba_sha256": "c1bc29c8b1c6157d97bf187294b3b3fa9da46af53d3105c806758f073ca3686f"
+          },
+          "texture": "res://assets/earth/environment/grass_pair_v1/owners/owner-242.png",
+          "texture_sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+          "texture_size": [
+            2172,
+            724
+          ],
+          "world_top_left": [
+            3755.5,
+            1113.4285714285716
+          ],
+          "scale": 0.047619047619047616,
+          "empty": false
+        }
+      ],
+      "source_dependencies": [
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-241.png",
+          "sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+          "bytes": 296594,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-242.png",
+          "sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+          "bytes": 219646,
+          "type": "png",
+          "role": "texture",
+          "width": 2172,
+          "height": 724
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        }
+      ]
+    }
+  },
+  "group_count": 24,
+  "owner_count": 81,
+  "new_shadow": false,
+  "runtime_files": [
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/owner-292.png",
+      "sha256": "975a1fc551685e481ef34409ecc9f8db085b4cca45acd4317a632133ef7a38ed",
+      "bytes": 604022,
+      "type": "png",
+      "role": "texture",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/owner-293.png",
+      "sha256": "913d6d58db380b32487274fabb2d32c393ccaa5c7b310a4f2d12ad9ef49f11b0",
+      "bytes": 220441,
+      "type": "png",
+      "role": "texture",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/owner-294.png",
+      "sha256": "eb2429a22104baa43d724425372b231e6dbb1e8266c59fcc4883adaf28722d75",
+      "bytes": 503920,
+      "type": "png",
+      "role": "texture",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/owner-295.png",
+      "sha256": "3d743ceffeda223272e18ed2343035f9aec38d435591c178526b15ebff14555b",
+      "bytes": 450383,
+      "type": "png",
+      "role": "texture",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/owner-296.png",
+      "sha256": "a40346e0ccc3e8dfe87d2d255a1192566ab986421c17f8067d120d9ee12ffb11",
+      "bytes": 243158,
+      "type": "png",
+      "role": "texture",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/owner-297.png",
+      "sha256": "ad51b9394ac0d7418734be11b122028c5afe574db89627aa2320a206967865aa",
+      "bytes": 88364,
+      "type": "png",
+      "role": "texture",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/owner-298.png",
+      "sha256": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+      "bytes": 6175,
+      "type": "png",
+      "role": "texture",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-239.png",
+      "sha256": "e8f35c91c85ee62958fa7347caf7d35004b3c23d8e31255b9345c7eb49cfb7b5",
+      "bytes": 451844,
+      "type": "png",
+      "role": "texture",
+      "width": 2172,
+      "height": 724
+    },
+    {
+      "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-240.png",
+      "sha256": "b19199c3a7b263596d4d722232314f694688e2fda0ebf78e86308b6fddf598bd",
+      "bytes": 519799,
+      "type": "png",
+      "role": "texture",
+      "width": 2172,
+      "height": 724
+    },
+    {
+      "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-241.png",
+      "sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+      "bytes": 296594,
+      "type": "png",
+      "role": "texture",
+      "width": 2172,
+      "height": 724
+    },
+    {
+      "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-242.png",
+      "sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+      "bytes": 219646,
+      "type": "png",
+      "role": "texture",
+      "width": 2172,
+      "height": 724
+    },
+    {
+      "path": "res://assets/earth/environment/round_shrub_v1/owner-143.png",
+      "sha256": "cb403b3fd286ff1c2ec1085902ff1203ec7ad6f47ceb4ae513352ecad110476d",
+      "bytes": 69276,
+      "type": "png",
+      "role": "texture",
+      "width": 1363,
+      "height": 1154
+    },
+    {
+      "path": "res://assets/earth/environment/round_shrub_v1/owner-144.png",
+      "sha256": "ab996e6449515eb2297fba8e33f0a3ef9dce4046652caa2901bc206ec0da3cd1",
+      "bytes": 799678,
+      "type": "png",
+      "role": "texture",
+      "width": 1363,
+      "height": 1154
+    },
+    {
+      "path": "res://assets/earth/environment/round_shrub_v1/owner-145.png",
+      "sha256": "4314beb965f4e7c1a99f26546b13eda03dff49e134fb37d4ba97d02e4d7a271c",
+      "bytes": 1277247,
+      "type": "png",
+      "role": "texture",
+      "width": 1363,
+      "height": 1154
+    },
+    {
+      "path": "res://assets/earth/environment/round_shrub_v1/owner-146.png",
+      "sha256": "507a822bd45f359787a16c63804fae7a6ccab0d31c28655f10df10a890c35219",
+      "bytes": 642581,
+      "type": "png",
+      "role": "texture",
+      "width": 1363,
+      "height": 1154
+    },
+    {
+      "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+      "sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+      "bytes": 723362,
+      "type": "png",
+      "role": "texture",
+      "width": 1162,
+      "height": 1353
+    },
+    {
+      "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+      "sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+      "bytes": 130178,
+      "type": "png",
+      "role": "texture",
+      "width": 1162,
+      "height": 1353
+    },
+    {
+      "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+      "sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+      "bytes": 483725,
+      "type": "png",
+      "role": "texture",
+      "width": 1162,
+      "height": 1353
+    },
+    {
+      "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+      "sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+      "bytes": 566155,
+      "type": "png",
+      "role": "texture",
+      "width": 1162,
+      "height": 1353
+    },
+    {
+      "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+      "sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+      "bytes": 364892,
+      "type": "png",
+      "role": "texture",
+      "width": 1162,
+      "height": 1353
+    },
+    {
+      "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+      "sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+      "bytes": 6175,
+      "type": "png",
+      "role": "texture",
+      "width": 1162,
+      "height": 1353
+    },
+    {
+      "path": "res://assets/original/Map/Res/Plant/0.png",
+      "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+      "bytes": 723574,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/manifest.json",
+      "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+      "bytes": 262324,
+      "type": "json",
+      "role": "source-atlas-manifest"
+    },
+    {
+      "path": "res://data/maps/A13.json",
+      "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+      "bytes": 618373,
+      "type": "json",
+      "role": "source-map"
+    }
+  ],
+  "provenance": [
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/registration.json",
+      "sha256": "a83f1f401b10394e13e7822f6eb04078cace3db3dc0bdca10e275b38d0bb9b27",
+      "bytes": 10386,
+      "type": "json",
+      "role": "provenance-only-not-runtime"
+    },
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/whole-review.png",
+      "sha256": "c639ad6e35e10f3a4c61d13a38258b2db1f077cea3f757ec8e064762601cc9e6",
+      "bytes": 2169976,
+      "type": "png",
+      "role": "provenance-only-not-runtime",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "res://assets/earth/environment/grass_pair_v1/registration_A.json",
+      "sha256": "c53d03de5aa0917772c999a91931746283b01972071b0b736f03480bc8f5408c",
+      "bytes": 4951,
+      "type": "json",
+      "role": "provenance-only-not-runtime"
+    },
+    {
+      "path": "res://assets/earth/environment/grass_pair_v1/registration_B.json",
+      "sha256": "9e4b1b58b57d32e410b775dbfaf9c53ff436b0b13d6fb3265791ec022da3e395",
+      "bytes": 4921,
+      "type": "json",
+      "role": "provenance-only-not-runtime"
+    },
+    {
+      "path": "res://assets/earth/environment/grass_pair_v1/whole_A.png",
+      "sha256": "bd114836d6f85b7908ee02310764a724774efe0808d8284e97eea96031a1491b",
+      "bytes": 948080,
+      "type": "png",
+      "role": "provenance-only-not-runtime",
+      "width": 2172,
+      "height": 724
+    },
+    {
+      "path": "res://assets/earth/environment/grass_pair_v1/whole_B.png",
+      "sha256": "b3c7d1de157bf540284f5f42a8c5eb14e3f63a0b11306407d02b23d74ffc6511",
+      "bytes": 498538,
+      "type": "png",
+      "role": "provenance-only-not-runtime",
+      "width": 2172,
+      "height": 724
+    },
+    {
+      "path": "res://assets/earth/environment/round_shrub_v1/registration.json",
+      "sha256": "c6343a01b7d6d798209dbfe55904d20a347530a1bb783e9b5689a2259f6de524",
+      "bytes": 5772,
+      "type": "json",
+      "role": "provenance-only-not-runtime"
+    },
+    {
+      "path": "res://assets/earth/environment/round_shrub_v1/whole-review.png",
+      "sha256": "1c495a5434e3ad92164f7e829ffc93809475fb730c555b609896f09986427e42",
+      "bytes": 2775481,
+      "type": "png",
+      "role": "provenance-only-not-runtime",
+      "width": 1363,
+      "height": 1154
+    },
+    {
+      "path": "res://assets/earth/environment/upright_tree_v1/raw.png",
+      "sha256": "ada0e0fd8952fe1dcc6b60dafb9d64be96476ed7736a881f1e5e401436b3db0f",
+      "bytes": 2361236,
+      "type": "png",
+      "role": "provenance-only-not-runtime",
+      "width": 1162,
+      "height": 1353
+    },
+    {
+      "path": "res://assets/earth/environment/upright_tree_v1/registration_left_50_41.json",
+      "sha256": "e8b5fae705b312e910a4acb60eda616829b50c1f014fe9bb22453944a9745acd",
+      "bytes": 7858,
+      "type": "json",
+      "role": "provenance-only-not-runtime"
+    },
+    {
+      "path": "res://tools/earth/first_map_expansion_recipe.json",
+      "sha256": "c412d969ef5ce25569d973e37a4245703f40ac1b75a08d148c8afc4e96c1cfcc",
+      "bytes": 9813,
+      "type": "json",
+      "role": "provenance-only-not-runtime"
+    }
+  ]
+}

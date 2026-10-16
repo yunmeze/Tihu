@@ -1,0 +1,3215 @@
+{
+  "schema": "earth-first-map-east-ground-v1",
+  "status": "Approved integration research only: 57 complete east-corridor floor owners and 24 complete existing plant instances / 81 owners. No whole-map or final-art acceptance. No additional shadows.",
+  "source_map": {
+    "path": "res://data/maps/A13.json",
+    "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "bytes": 618373,
+    "type": "json",
+    "role": "source-map"
+  },
+  "source_manifest": {
+    "path": "res://assets/original/manifest.json",
+    "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+    "bytes": 262324,
+    "type": "json",
+    "role": "source-atlas-manifest"
+  },
+  "group": {
+    "owner_count": 57,
+    "density": 2,
+    "period_world": 384,
+    "phase_world": [
+      0,
+      0
+    ],
+    "tile": {
+      "path": "res://assets/earth/first_map_review/east_ground_period384.png",
+      "sha256": "d151a5f735eacb556215de7cfe3aa7477b4e9c86032382c0ce46bd973e161ad8",
+      "bytes": 1534709,
+      "type": "png",
+      "role": "texture",
+      "width": 768,
+      "height": 768
+    },
+    "runtime_image_size": [
+      2304,
+      2304
+    ],
+    "sampling": "Shared 3x3 tile image made in memory. LINEAR, repeat disabled, clip_uv=false; world phase unchanged.",
+    "floor_stream_count": 2553,
+    "owners": [
+      {
+        "key": "Map/Res/FloorBig:406@66,46",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          66,
+          46
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 46,
+        "stable_source_order": 6646,
+        "floor_stream_index": 1673,
+        "world_origin": [
+          3168,
+          1472
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          960,
+          1408,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@68,32",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          68,
+          32
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          0,
+          0
+        ],
+        "flag": -1,
+        "layer": 0,
+        "sort_y": 32,
+        "stable_source_order": 6832,
+        "floor_stream_index": 1716,
+        "world_origin": [
+          3264,
+          1024
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1152,
+          1280,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@68,34",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          68,
+          34
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          0,
+          0
+        ],
+        "flag": -1,
+        "layer": 0,
+        "sort_y": 34,
+        "stable_source_order": 6834,
+        "floor_stream_index": 1717,
+        "world_origin": [
+          3264,
+          1088
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1152,
+          1408,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@68,36",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          68,
+          36
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          0,
+          0
+        ],
+        "flag": -1,
+        "layer": 0,
+        "sort_y": 36,
+        "stable_source_order": 6836,
+        "floor_stream_index": 1718,
+        "world_origin": [
+          3264,
+          1152
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1152,
+          768,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:399@68,38",
+        "pack": "Map/Res/FloorBig",
+        "index": 399,
+        "frame_index": 399,
+        "cell": [
+          68,
+          38
+        ],
+        "source_cell": [
+          -399,
+          -1,
+          0,
+          0
+        ],
+        "flag": -1,
+        "layer": 0,
+        "sort_y": 38,
+        "stable_source_order": 6838,
+        "floor_stream_index": 1719,
+        "world_origin": [
+          3264,
+          1216
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            981,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1152,
+          896,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:399@68,40",
+        "pack": "Map/Res/FloorBig",
+        "index": 399,
+        "frame_index": 399,
+        "cell": [
+          68,
+          40
+        ],
+        "source_cell": [
+          -399,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 40,
+        "stable_source_order": 6840,
+        "floor_stream_index": 1720,
+        "world_origin": [
+          3264,
+          1280
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            981,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1152,
+          1024,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:399@68,42",
+        "pack": "Map/Res/FloorBig",
+        "index": 399,
+        "frame_index": 399,
+        "cell": [
+          68,
+          42
+        ],
+        "source_cell": [
+          -399,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 42,
+        "stable_source_order": 6842,
+        "floor_stream_index": 1721,
+        "world_origin": [
+          3264,
+          1344
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            981,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1152,
+          1152,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@68,44",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          68,
+          44
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 44,
+        "stable_source_order": 6844,
+        "floor_stream_index": 1722,
+        "world_origin": [
+          3264,
+          1408
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1152,
+          1280,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@68,46",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          68,
+          46
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 46,
+        "stable_source_order": 6846,
+        "floor_stream_index": 1723,
+        "world_origin": [
+          3264,
+          1472
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1152,
+          1408,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@70,32",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          70,
+          32
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          0,
+          0
+        ],
+        "flag": -1,
+        "layer": 0,
+        "sort_y": 32,
+        "stable_source_order": 7032,
+        "floor_stream_index": 1766,
+        "world_origin": [
+          3360,
+          1024
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1344,
+          1280,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@70,34",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          70,
+          34
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          0,
+          0
+        ],
+        "flag": -1,
+        "layer": 0,
+        "sort_y": 34,
+        "stable_source_order": 7034,
+        "floor_stream_index": 1767,
+        "world_origin": [
+          3360,
+          1088
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1344,
+          1408,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@70,36",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          70,
+          36
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          0,
+          0
+        ],
+        "flag": -1,
+        "layer": 0,
+        "sort_y": 36,
+        "stable_source_order": 7036,
+        "floor_stream_index": 1768,
+        "world_origin": [
+          3360,
+          1152
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1344,
+          768,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@70,38",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          70,
+          38
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          0,
+          0
+        ],
+        "flag": -1,
+        "layer": 0,
+        "sort_y": 38,
+        "stable_source_order": 7038,
+        "floor_stream_index": 1769,
+        "world_origin": [
+          3360,
+          1216
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1344,
+          896,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@70,40",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          70,
+          40
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          4,
+          3993
+        ],
+        "flag": -1,
+        "layer": 0,
+        "sort_y": 40,
+        "stable_source_order": 7040,
+        "floor_stream_index": 1770,
+        "world_origin": [
+          3360,
+          1280
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1344,
+          1024,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@70,42",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          70,
+          42
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 42,
+        "stable_source_order": 7042,
+        "floor_stream_index": 1771,
+        "world_origin": [
+          3360,
+          1344
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1344,
+          1152,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@70,44",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          70,
+          44
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 44,
+        "stable_source_order": 7044,
+        "floor_stream_index": 1772,
+        "world_origin": [
+          3360,
+          1408
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1344,
+          1280,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@70,46",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          70,
+          46
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          0,
+          0
+        ],
+        "flag": -1,
+        "layer": 0,
+        "sort_y": 46,
+        "stable_source_order": 7046,
+        "floor_stream_index": 1773,
+        "world_origin": [
+          3360,
+          1472
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1344,
+          1408,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@72,32",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          72,
+          32
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          0,
+          0
+        ],
+        "flag": -1,
+        "layer": 0,
+        "sort_y": 32,
+        "stable_source_order": 7232,
+        "floor_stream_index": 1816,
+        "world_origin": [
+          3456,
+          1024
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          768,
+          1280,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@72,34",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          72,
+          34
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 34,
+        "stable_source_order": 7234,
+        "floor_stream_index": 1817,
+        "world_origin": [
+          3456,
+          1088
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          768,
+          1408,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@72,36",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          72,
+          36
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          0,
+          0
+        ],
+        "flag": -1,
+        "layer": 0,
+        "sort_y": 36,
+        "stable_source_order": 7236,
+        "floor_stream_index": 1818,
+        "world_origin": [
+          3456,
+          1152
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          768,
+          768,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@72,38",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          72,
+          38
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          0,
+          0
+        ],
+        "flag": -1,
+        "layer": 0,
+        "sort_y": 38,
+        "stable_source_order": 7238,
+        "floor_stream_index": 1819,
+        "world_origin": [
+          3456,
+          1216
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          768,
+          896,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@72,40",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          72,
+          40
+        ],
+        "source_cell": [
+          -406,
+          0,
+          4,
+          3995
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 40,
+        "stable_source_order": 7240,
+        "floor_stream_index": 1820,
+        "world_origin": [
+          3456,
+          1280
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          768,
+          1024,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@72,42",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          72,
+          42
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 42,
+        "stable_source_order": 7242,
+        "floor_stream_index": 1821,
+        "world_origin": [
+          3456,
+          1344
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          768,
+          1152,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@72,44",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          72,
+          44
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 44,
+        "stable_source_order": 7244,
+        "floor_stream_index": 1822,
+        "world_origin": [
+          3456,
+          1408
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          768,
+          1280,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@72,46",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          72,
+          46
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 46,
+        "stable_source_order": 7246,
+        "floor_stream_index": 1823,
+        "world_origin": [
+          3456,
+          1472
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          768,
+          1408,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@74,32",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          74,
+          32
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          0,
+          0
+        ],
+        "flag": -1,
+        "layer": 0,
+        "sort_y": 32,
+        "stable_source_order": 7432,
+        "floor_stream_index": 1866,
+        "world_origin": [
+          3552,
+          1024
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          960,
+          1280,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@74,34",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          74,
+          34
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          0,
+          0
+        ],
+        "flag": -1,
+        "layer": 0,
+        "sort_y": 34,
+        "stable_source_order": 7434,
+        "floor_stream_index": 1867,
+        "world_origin": [
+          3552,
+          1088
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          960,
+          1408,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@74,36",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          74,
+          36
+        ],
+        "source_cell": [
+          -406,
+          1,
+          4,
+          3982
+        ],
+        "flag": 1,
+        "layer": 0,
+        "sort_y": 36,
+        "stable_source_order": 7436,
+        "floor_stream_index": 1868,
+        "world_origin": [
+          3552,
+          1152
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          960,
+          768,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@74,38",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          74,
+          38
+        ],
+        "source_cell": [
+          -406,
+          1,
+          4,
+          3989
+        ],
+        "flag": 1,
+        "layer": 0,
+        "sort_y": 38,
+        "stable_source_order": 7438,
+        "floor_stream_index": 1869,
+        "world_origin": [
+          3552,
+          1216
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          960,
+          896,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@74,40",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          74,
+          40
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 40,
+        "stable_source_order": 7440,
+        "floor_stream_index": 1870,
+        "world_origin": [
+          3552,
+          1280
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          960,
+          1024,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@74,42",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          74,
+          42
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 42,
+        "stable_source_order": 7442,
+        "floor_stream_index": 1871,
+        "world_origin": [
+          3552,
+          1344
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          960,
+          1152,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@74,44",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          74,
+          44
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 44,
+        "stable_source_order": 7444,
+        "floor_stream_index": 1872,
+        "world_origin": [
+          3552,
+          1408
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          960,
+          1280,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@74,46",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          74,
+          46
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 46,
+        "stable_source_order": 7446,
+        "floor_stream_index": 1873,
+        "world_origin": [
+          3552,
+          1472
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          960,
+          1408,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@76,32",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          76,
+          32
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 32,
+        "stable_source_order": 7632,
+        "floor_stream_index": 1920,
+        "world_origin": [
+          3648,
+          1024
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1152,
+          1280,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@76,34",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          76,
+          34
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          0,
+          0
+        ],
+        "flag": -1,
+        "layer": 0,
+        "sort_y": 34,
+        "stable_source_order": 7634,
+        "floor_stream_index": 1921,
+        "world_origin": [
+          3648,
+          1088
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1152,
+          1408,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@76,36",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          76,
+          36
+        ],
+        "source_cell": [
+          -406,
+          0,
+          4,
+          3984
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 36,
+        "stable_source_order": 7636,
+        "floor_stream_index": 1922,
+        "world_origin": [
+          3648,
+          1152
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1152,
+          768,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@76,38",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          76,
+          38
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 38,
+        "stable_source_order": 7638,
+        "floor_stream_index": 1923,
+        "world_origin": [
+          3648,
+          1216
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1152,
+          896,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@76,40",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          76,
+          40
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 40,
+        "stable_source_order": 7640,
+        "floor_stream_index": 1924,
+        "world_origin": [
+          3648,
+          1280
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1152,
+          1024,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@76,42",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          76,
+          42
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 42,
+        "stable_source_order": 7642,
+        "floor_stream_index": 1925,
+        "world_origin": [
+          3648,
+          1344
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1152,
+          1152,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@76,44",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          76,
+          44
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 44,
+        "stable_source_order": 7644,
+        "floor_stream_index": 1926,
+        "world_origin": [
+          3648,
+          1408
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1152,
+          1280,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@76,46",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          76,
+          46
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 46,
+        "stable_source_order": 7646,
+        "floor_stream_index": 1927,
+        "world_origin": [
+          3648,
+          1472
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1152,
+          1408,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@78,32",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          78,
+          32
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 32,
+        "stable_source_order": 7832,
+        "floor_stream_index": 1984,
+        "world_origin": [
+          3744,
+          1024
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1344,
+          1280,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@78,34",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          78,
+          34
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 34,
+        "stable_source_order": 7834,
+        "floor_stream_index": 1985,
+        "world_origin": [
+          3744,
+          1088
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1344,
+          1408,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@78,36",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          78,
+          36
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 36,
+        "stable_source_order": 7836,
+        "floor_stream_index": 1986,
+        "world_origin": [
+          3744,
+          1152
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1344,
+          768,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@78,38",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          78,
+          38
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 38,
+        "stable_source_order": 7838,
+        "floor_stream_index": 1987,
+        "world_origin": [
+          3744,
+          1216
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1344,
+          896,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@78,40",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          78,
+          40
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 40,
+        "stable_source_order": 7840,
+        "floor_stream_index": 1988,
+        "world_origin": [
+          3744,
+          1280
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1344,
+          1024,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@78,42",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          78,
+          42
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 42,
+        "stable_source_order": 7842,
+        "floor_stream_index": 1989,
+        "world_origin": [
+          3744,
+          1344
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1344,
+          1152,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@78,44",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          78,
+          44
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 44,
+        "stable_source_order": 7844,
+        "floor_stream_index": 1990,
+        "world_origin": [
+          3744,
+          1408
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1344,
+          1280,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@78,46",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          78,
+          46
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 46,
+        "stable_source_order": 7846,
+        "floor_stream_index": 1991,
+        "world_origin": [
+          3744,
+          1472
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          1344,
+          1408,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@80,32",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          80,
+          32
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          0,
+          0
+        ],
+        "flag": -1,
+        "layer": 0,
+        "sort_y": 32,
+        "stable_source_order": 8032,
+        "floor_stream_index": 2045,
+        "world_origin": [
+          3840,
+          1024
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          768,
+          1280,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@80,34",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          80,
+          34
+        ],
+        "source_cell": [
+          -406,
+          0,
+          2,
+          240
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 34,
+        "stable_source_order": 8034,
+        "floor_stream_index": 2046,
+        "world_origin": [
+          3840,
+          1088
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          768,
+          1408,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@80,36",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          80,
+          36
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 36,
+        "stable_source_order": 8036,
+        "floor_stream_index": 2047,
+        "world_origin": [
+          3840,
+          1152
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          768,
+          768,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@80,38",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          80,
+          38
+        ],
+        "source_cell": [
+          -406,
+          0,
+          2,
+          317
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 38,
+        "stable_source_order": 8038,
+        "floor_stream_index": 2048,
+        "world_origin": [
+          3840,
+          1216
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          768,
+          896,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@80,40",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          80,
+          40
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 40,
+        "stable_source_order": 8040,
+        "floor_stream_index": 2049,
+        "world_origin": [
+          3840,
+          1280
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          768,
+          1024,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@80,42",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          80,
+          42
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 42,
+        "stable_source_order": 8042,
+        "floor_stream_index": 2050,
+        "world_origin": [
+          3840,
+          1344
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          768,
+          1152,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@80,44",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          80,
+          44
+        ],
+        "source_cell": [
+          -406,
+          0,
+          0,
+          0
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 44,
+        "stable_source_order": 8044,
+        "floor_stream_index": 2051,
+        "world_origin": [
+          3840,
+          1408
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          768,
+          1280,
+          192,
+          128
+        ]
+      },
+      {
+        "key": "Map/Res/FloorBig:406@80,46",
+        "pack": "Map/Res/FloorBig",
+        "index": 406,
+        "frame_index": 406,
+        "cell": [
+          80,
+          46
+        ],
+        "source_cell": [
+          -406,
+          0,
+          2,
+          317
+        ],
+        "flag": 0,
+        "layer": 0,
+        "sort_y": 46,
+        "stable_source_order": 8046,
+        "floor_stream_index": 2052,
+        "world_origin": [
+          3840,
+          1472
+        ],
+        "source_frame": {
+          "original": [
+            96,
+            64
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            1667,
+            1,
+            96,
+            64
+          ],
+          "atlas": "res://assets/original/Map/Res/FloorBig/0.png",
+          "rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884"
+        },
+        "shared_region_px": [
+          768,
+          1408,
+          192,
+          128
+        ]
+      }
+    ],
+    "source_dependencies": [
+      {
+        "path": "res://assets/earth/first_map_review/east_ground_period384.png",
+        "sha256": "d151a5f735eacb556215de7cfe3aa7477b4e9c86032382c0ce46bd973e161ad8",
+        "bytes": 1534709,
+        "type": "png",
+        "role": "texture",
+        "width": 768,
+        "height": 768
+      },
+      {
+        "path": "res://assets/original/Map/Res/FloorBig/0.png",
+        "sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59",
+        "bytes": 490337,
+        "type": "png",
+        "role": "source-atlas",
+        "width": 2048,
+        "height": 2048
+      },
+      {
+        "path": "res://assets/original/manifest.json",
+        "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+        "bytes": 262324,
+        "type": "json",
+        "role": "source-atlas-manifest"
+      },
+      {
+        "path": "res://data/maps/A13.json",
+        "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+        "bytes": 618373,
+        "type": "json",
+        "role": "source-map"
+      }
+    ]
+  },
+  "runtime_files": [
+    {
+      "path": "res://assets/earth/first_map_review/east_ground_period384.png",
+      "sha256": "d151a5f735eacb556215de7cfe3aa7477b4e9c86032382c0ce46bd973e161ad8",
+      "bytes": 1534709,
+      "type": "png",
+      "role": "texture",
+      "width": 768,
+      "height": 768
+    },
+    {
+      "path": "res://assets/original/Map/Res/FloorBig/0.png",
+      "sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59",
+      "bytes": 490337,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/manifest.json",
+      "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+      "bytes": 262324,
+      "type": "json",
+      "role": "source-atlas-manifest"
+    },
+    {
+      "path": "res://data/maps/A13.json",
+      "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+      "bytes": 618373,
+      "type": "json",
+      "role": "source-map"
+    }
+  ],
+  "provenance": [
+    {
+      "path": "res://tools/earth/first_map_expansion_recipe.json",
+      "sha256": "c412d969ef5ce25569d973e37a4245703f40ac1b75a08d148c8afc4e96c1cfcc",
+      "bytes": 9813,
+      "type": "json",
+      "role": "provenance-only-not-runtime"
+    },
+    {
+      "path": "res://art_source/earth_coherent_grass_research_v1/raw.png",
+      "sha256": "ede87deba47e8f5103b9468479fd3d2d5c8483dbb4e99eef8ff391b692d710f6",
+      "bytes": 4669490,
+      "type": "png",
+      "role": "provenance-only-not-runtime",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "res://art_source/earth_coherent_grass_research_v1/PALETTE_TRANSFORM.json",
+      "sha256": "49e864206e878012daf6e634578a9f2f11c8d39bc1e8bc1d24b94b943f5f14ac",
+      "bytes": 3029,
+      "type": "json",
+      "role": "provenance-only-not-runtime"
+    }
+  ]
+}

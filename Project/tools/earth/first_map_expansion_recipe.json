@@ -1,0 +1,431 @@
+{
+  "schema": "earth-first-map-expansion-recipe-v1",
+  "scope": "Approved integration research only: 57 complete east-corridor floor owners and 24 complete existing plant instances / 81 owners. No whole-map or final-art acceptance. No additional shadows.",
+  "input_sha256": {
+    "data/maps/A13.json": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "assets/original/manifest.json": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+    "art_source/earth_coherent_grass_research_v1/raw.png": "ede87deba47e8f5103b9468479fd3d2d5c8483dbb4e99eef8ff391b692d710f6",
+    "art_source/earth_coherent_grass_research_v1/PALETTE_TRANSFORM.json": "49e864206e878012daf6e634578a9f2f11c8d39bc1e8bc1d24b94b943f5f14ac",
+    "assets/earth/environment/first_tree_v1/registration.json": "a83f1f401b10394e13e7822f6eb04078cace3db3dc0bdca10e275b38d0bb9b27",
+    "assets/earth/environment/grass_pair_v1/registration_A.json": "c53d03de5aa0917772c999a91931746283b01972071b0b736f03480bc8f5408c",
+    "assets/earth/environment/grass_pair_v1/registration_B.json": "9e4b1b58b57d32e410b775dbfaf9c53ff436b0b13d6fb3265791ec022da3e395",
+    "assets/earth/environment/round_shrub_v1/registration.json": "c6343a01b7d6d798209dbfe55904d20a347530a1bb783e9b5689a2259f6de524",
+    "assets/earth/environment/upright_tree_v1/registration_left_50_41.json": "e8b5fae705b312e910a4acb60eda616829b50c1f014fe9bb22453944a9745acd"
+  },
+  "ground": {
+    "orders": [
+      6646,
+      6832,
+      6834,
+      6836,
+      6838,
+      6840,
+      6842,
+      6844,
+      6846,
+      7032,
+      7034,
+      7036,
+      7038,
+      7040,
+      7042,
+      7044,
+      7046,
+      7232,
+      7234,
+      7236,
+      7238,
+      7240,
+      7242,
+      7244,
+      7246,
+      7432,
+      7434,
+      7436,
+      7438,
+      7440,
+      7442,
+      7444,
+      7446,
+      7632,
+      7634,
+      7636,
+      7638,
+      7640,
+      7642,
+      7644,
+      7646,
+      7832,
+      7834,
+      7836,
+      7838,
+      7840,
+      7842,
+      7844,
+      7846,
+      8032,
+      8034,
+      8036,
+      8038,
+      8040,
+      8042,
+      8044,
+      8046
+    ],
+    "signed_ids": [
+      -591,
+      -406,
+      -399
+    ],
+    "source_rgba_sha256": "6d360c48321d432037895451d029a0d86856e9f2773dda636ccea0c301dee884",
+    "density": 2,
+    "period_world": 384,
+    "phase_world": [
+      0,
+      0
+    ],
+    "tile_size": [
+      768,
+      768
+    ],
+    "tile_sha256": "d151a5f735eacb556215de7cfe3aa7477b4e9c86032382c0ce46bd973e161ad8"
+  },
+  "plants": [
+    {
+      "id": "first_tree_70_47",
+      "family": "first_tree",
+      "baseline_root": [
+        57,
+        34
+      ],
+      "target_root": [
+        70,
+        47
+      ],
+      "template_registration": "assets/earth/environment/first_tree_v1/registration.json",
+      "owner_count": 7
+    },
+    {
+      "id": "upright_tree_30_61",
+      "family": "upright_tree",
+      "baseline_root": [
+        50,
+        41
+      ],
+      "target_root": [
+        30,
+        61
+      ],
+      "template_registration": "assets/earth/environment/upright_tree_v1/registration_left_50_41.json",
+      "owner_count": 6
+    },
+    {
+      "id": "upright_tree_36_55",
+      "family": "upright_tree",
+      "baseline_root": [
+        50,
+        41
+      ],
+      "target_root": [
+        36,
+        55
+      ],
+      "template_registration": "assets/earth/environment/upright_tree_v1/registration_left_50_41.json",
+      "owner_count": 6
+    },
+    {
+      "id": "upright_tree_40_72",
+      "family": "upright_tree",
+      "baseline_root": [
+        50,
+        41
+      ],
+      "target_root": [
+        40,
+        72
+      ],
+      "template_registration": "assets/earth/environment/upright_tree_v1/registration_left_50_41.json",
+      "owner_count": 6
+    },
+    {
+      "id": "upright_tree_45_46",
+      "family": "upright_tree",
+      "baseline_root": [
+        50,
+        41
+      ],
+      "target_root": [
+        45,
+        46
+      ],
+      "template_registration": "assets/earth/environment/upright_tree_v1/registration_left_50_41.json",
+      "owner_count": 6
+    },
+    {
+      "id": "upright_tree_51_70",
+      "family": "upright_tree",
+      "baseline_root": [
+        50,
+        41
+      ],
+      "target_root": [
+        51,
+        70
+      ],
+      "template_registration": "assets/earth/environment/upright_tree_v1/registration_left_50_41.json",
+      "owner_count": 6
+    },
+    {
+      "id": "round_shrub_33_62",
+      "family": "round_shrub",
+      "baseline_root": [
+        57,
+        38
+      ],
+      "target_root": [
+        33,
+        62
+      ],
+      "template_registration": "assets/earth/environment/round_shrub_v1/registration.json",
+      "owner_count": 4
+    },
+    {
+      "id": "round_shrub_39_56",
+      "family": "round_shrub",
+      "baseline_root": [
+        57,
+        38
+      ],
+      "target_root": [
+        39,
+        56
+      ],
+      "template_registration": "assets/earth/environment/round_shrub_v1/registration.json",
+      "owner_count": 4
+    },
+    {
+      "id": "round_shrub_40_69",
+      "family": "round_shrub",
+      "baseline_root": [
+        57,
+        38
+      ],
+      "target_root": [
+        40,
+        69
+      ],
+      "template_registration": "assets/earth/environment/round_shrub_v1/registration.json",
+      "owner_count": 4
+    },
+    {
+      "id": "round_shrub_46_63",
+      "family": "round_shrub",
+      "baseline_root": [
+        57,
+        38
+      ],
+      "target_root": [
+        46,
+        63
+      ],
+      "template_registration": "assets/earth/environment/round_shrub_v1/registration.json",
+      "owner_count": 4
+    },
+    {
+      "id": "grass_A_14_28",
+      "family": "grass_A",
+      "baseline_root": [
+        54,
+        30
+      ],
+      "target_root": [
+        14,
+        28
+      ],
+      "template_registration": "assets/earth/environment/grass_pair_v1/registration_A.json",
+      "owner_count": 2
+    },
+    {
+      "id": "grass_A_16_22",
+      "family": "grass_A",
+      "baseline_root": [
+        54,
+        30
+      ],
+      "target_root": [
+        16,
+        22
+      ],
+      "template_registration": "assets/earth/environment/grass_pair_v1/registration_A.json",
+      "owner_count": 2
+    },
+    {
+      "id": "grass_A_54_25",
+      "family": "grass_A",
+      "baseline_root": [
+        54,
+        30
+      ],
+      "target_root": [
+        54,
+        25
+      ],
+      "template_registration": "assets/earth/environment/grass_pair_v1/registration_A.json",
+      "owner_count": 2
+    },
+    {
+      "id": "grass_A_60_60",
+      "family": "grass_A",
+      "baseline_root": [
+        54,
+        30
+      ],
+      "target_root": [
+        60,
+        60
+      ],
+      "template_registration": "assets/earth/environment/grass_pair_v1/registration_A.json",
+      "owner_count": 2
+    },
+    {
+      "id": "grass_A_64_23",
+      "family": "grass_A",
+      "baseline_root": [
+        54,
+        30
+      ],
+      "target_root": [
+        64,
+        23
+      ],
+      "template_registration": "assets/earth/environment/grass_pair_v1/registration_A.json",
+      "owner_count": 2
+    },
+    {
+      "id": "grass_A_65_67",
+      "family": "grass_A",
+      "baseline_root": [
+        54,
+        30
+      ],
+      "target_root": [
+        65,
+        67
+      ],
+      "template_registration": "assets/earth/environment/grass_pair_v1/registration_A.json",
+      "owner_count": 2
+    },
+    {
+      "id": "grass_A_79_34",
+      "family": "grass_A",
+      "baseline_root": [
+        54,
+        30
+      ],
+      "target_root": [
+        79,
+        34
+      ],
+      "template_registration": "assets/earth/environment/grass_pair_v1/registration_A.json",
+      "owner_count": 2
+    },
+    {
+      "id": "grass_B_14_29",
+      "family": "grass_B",
+      "baseline_root": [
+        54,
+        31
+      ],
+      "target_root": [
+        14,
+        29
+      ],
+      "template_registration": "assets/earth/environment/grass_pair_v1/registration_B.json",
+      "owner_count": 2
+    },
+    {
+      "id": "grass_B_16_23",
+      "family": "grass_B",
+      "baseline_root": [
+        54,
+        31
+      ],
+      "target_root": [
+        16,
+        23
+      ],
+      "template_registration": "assets/earth/environment/grass_pair_v1/registration_B.json",
+      "owner_count": 2
+    },
+    {
+      "id": "grass_B_54_26",
+      "family": "grass_B",
+      "baseline_root": [
+        54,
+        31
+      ],
+      "target_root": [
+        54,
+        26
+      ],
+      "template_registration": "assets/earth/environment/grass_pair_v1/registration_B.json",
+      "owner_count": 2
+    },
+    {
+      "id": "grass_B_60_61",
+      "family": "grass_B",
+      "baseline_root": [
+        54,
+        31
+      ],
+      "target_root": [
+        60,
+        61
+      ],
+      "template_registration": "assets/earth/environment/grass_pair_v1/registration_B.json",
+      "owner_count": 2
+    },
+    {
+      "id": "grass_B_64_24",
+      "family": "grass_B",
+      "baseline_root": [
+        54,
+        31
+      ],
+      "target_root": [
+        64,
+        24
+      ],
+      "template_registration": "assets/earth/environment/grass_pair_v1/registration_B.json",
+      "owner_count": 2
+    },
+    {
+      "id": "grass_B_65_68",
+      "family": "grass_B",
+      "baseline_root": [
+        54,
+        31
+      ],
+      "target_root": [
+        65,
+        68
+      ],
+      "template_registration": "assets/earth/environment/grass_pair_v1/registration_B.json",
+      "owner_count": 2
+    },
+    {
+      "id": "grass_B_79_35",
+      "family": "grass_B",
+      "baseline_root": [
+        54,
+        31
+      ],
+      "target_root": [
+        79,
+        35
+      ],
+      "template_registration": "assets/earth/environment/grass_pair_v1/registration_B.json",
+      "owner_count": 2
+    }
+  ]
+}
