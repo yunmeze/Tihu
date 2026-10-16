@@ -1,0 +1,632 @@
+[
+  {
+    "phase": 57,
+    "source_head_layer_xywh": [
+      36,
+      16,
+      8,
+      12
+    ],
+    "AI_visible_crown_y_raw": 42,
+    "AI_visible_crown_y_logical": 15.68,
+    "crown_caution": "head layer top versus visible alpha crown not identical landmarks; use temporal drift only, uncertainty source1px / AI threshold1HD",
+    "hands": {
+      "L": {
+        "raw_detected_skin_bbox": [
+          150,
+          188,
+          175,
+          209
+        ],
+        "raw_warm_component_pixels": 322,
+        "mapped_bbox_center_logical": [
+          27.810000000000002,
+          43.849999999999994
+        ],
+        "source_skin_bbox": [
+          25,
+          43,
+          28,
+          46
+        ],
+        "source_bbox_center_logical": [
+          26.5,
+          44.5
+        ],
+        "center_residual_logical": [
+          1.3100000000000023,
+          -0.6500000000000057
+        ],
+        "source_tolerance_logical": 2,
+        "method_limit": "skin-color component is visible patch proxy, not wrist joint; lighting/mask selection adds uncertainty; visually audit overlays"
+      },
+      "R": {
+        "raw_detected_skin_bbox": [
+          298,
+          235,
+          320,
+          254
+        ],
+        "raw_warm_component_pixels": 290,
+        "mapped_bbox_center_logical": [
+          54.18,
+          52.129999999999995
+        ],
+        "source_skin_bbox": [
+          51,
+          51,
+          54,
+          55
+        ],
+        "source_bbox_center_logical": [
+          52.5,
+          53.0
+        ],
+        "center_residual_logical": [
+          1.6799999999999997,
+          -0.8700000000000045
+        ],
+        "source_tolerance_logical": 2,
+        "method_limit": "skin-color component is visible patch proxy, not wrist joint; lighting/mask selection adds uncertainty; visually audit overlays"
+      }
+    },
+    "source_cuff_proxies": {
+      "L": [
+        27,
+        42
+      ],
+      "R": [
+        53,
+        50
+      ]
+    },
+    "occlusion": "source cuffs cover proximal hand, fingers unresolved; AI visible fist excludes hidden palm, cuff is not hand",
+    "to_next_phase": {
+      "L": {
+        "source_skin_delta": [
+          0.0,
+          2.5
+        ],
+        "AI_skin_delta": [
+          0.08999999999999986,
+          1.5300000000000011
+        ]
+      },
+      "R": {
+        "source_skin_delta": [
+          0.0,
+          -2.5
+        ],
+        "AI_skin_delta": [
+          0.17999999999999972,
+          -0.269999999999996
+        ]
+      }
+    }
+  },
+  {
+    "phase": 58,
+    "source_head_layer_xywh": [
+      37,
+      15,
+      8,
+      11
+    ],
+    "AI_visible_crown_y_raw": 40,
+    "AI_visible_crown_y_logical": 15.32,
+    "crown_caution": "head layer top versus visible alpha crown not identical landmarks; use temporal drift only, uncertainty source1px / AI threshold1HD",
+    "hands": {
+      "L": {
+        "raw_detected_skin_bbox": [
+          150,
+          197,
+          176,
+          217
+        ],
+        "raw_warm_component_pixels": 327,
+        "mapped_bbox_center_logical": [
+          27.900000000000002,
+          45.379999999999995
+        ],
+        "source_skin_bbox": [
+          25,
+          45,
+          28,
+          49
+        ],
+        "source_bbox_center_logical": [
+          26.5,
+          47.0
+        ],
+        "center_residual_logical": [
+          1.4000000000000021,
+          -1.6200000000000045
+        ],
+        "source_tolerance_logical": 2,
+        "method_limit": "skin-color component is visible patch proxy, not wrist joint; lighting/mask selection adds uncertainty; visually audit overlays"
+      },
+      "R": {
+        "raw_detected_skin_bbox": [
+          298,
+          233,
+          322,
+          253
+        ],
+        "raw_warm_component_pixels": 324,
+        "mapped_bbox_center_logical": [
+          54.36,
+          51.86
+        ],
+        "source_skin_bbox": [
+          51,
+          49,
+          54,
+          52
+        ],
+        "source_bbox_center_logical": [
+          52.5,
+          50.5
+        ],
+        "center_residual_logical": [
+          1.8599999999999994,
+          1.3599999999999994
+        ],
+        "source_tolerance_logical": 2,
+        "method_limit": "skin-color component is visible patch proxy, not wrist joint; lighting/mask selection adds uncertainty; visually audit overlays"
+      }
+    },
+    "source_cuff_proxies": {
+      "L": [
+        27,
+        44
+      ],
+      "R": [
+        53,
+        48
+      ]
+    },
+    "occlusion": "source cuffs cover proximal hand, fingers unresolved; AI visible fist excludes hidden palm, cuff is not hand",
+    "to_next_phase": {
+      "L": {
+        "source_skin_delta": [
+          0.5,
+          4.0
+        ],
+        "AI_skin_delta": [
+          -0.3599999999999959,
+          6.210000000000008
+        ]
+      },
+      "R": {
+        "source_skin_delta": [
+          1.0,
+          -4.0
+        ],
+        "AI_skin_delta": [
+          0.2700000000000031,
+          -6.840000000000003
+        ]
+      }
+    }
+  },
+  {
+    "phase": 59,
+    "source_head_layer_xywh": [
+      37,
+      15,
+      8,
+      11
+    ],
+    "AI_visible_crown_y_raw": 39,
+    "AI_visible_crown_y_logical": 15.14,
+    "crown_caution": "head layer top versus visible alpha crown not identical landmarks; use temporal drift only, uncertainty source1px / AI threshold1HD",
+    "hands": {
+      "L": {
+        "raw_detected_skin_bbox": [
+          183,
+          231,
+          209,
+          252
+        ],
+        "raw_warm_component_pixels": 351,
+        "mapped_bbox_center_logical": [
+          27.540000000000006,
+          51.59
+        ],
+        "source_skin_bbox": [
+          25,
+          49,
+          29,
+          53
+        ],
+        "source_bbox_center_logical": [
+          27.0,
+          51.0
+        ],
+        "center_residual_logical": [
+          0.5400000000000063,
+          0.5900000000000034
+        ],
+        "source_tolerance_logical": 2,
+        "method_limit": "skin-color component is visible patch proxy, not wrist joint; lighting/mask selection adds uncertainty; visually audit overlays"
+      },
+      "R": {
+        "raw_detected_skin_bbox": [
+          336,
+          198,
+          357,
+          212
+        ],
+        "raw_warm_component_pixels": 126,
+        "mapped_bbox_center_logical": [
+          54.63,
+          45.019999999999996
+        ],
+        "source_skin_bbox": [
+          52,
+          45,
+          55,
+          48
+        ],
+        "source_bbox_center_logical": [
+          53.5,
+          46.5
+        ],
+        "center_residual_logical": [
+          1.1300000000000026,
+          -1.480000000000004
+        ],
+        "source_tolerance_logical": 2,
+        "method_limit": "skin-color component is visible patch proxy, not wrist joint; lighting/mask selection adds uncertainty; visually audit overlays"
+      }
+    },
+    "source_cuff_proxies": {
+      "L": [
+        27,
+        48
+      ],
+      "R": [
+        54,
+        44
+      ]
+    },
+    "occlusion": "source cuffs cover proximal hand, fingers unresolved; AI visible fist excludes hidden palm, cuff is not hand",
+    "to_next_phase": {
+      "L": {
+        "source_skin_delta": [
+          1.0,
+          2.0
+        ],
+        "AI_skin_delta": [
+          0.17999999999999972,
+          0.45000000000000284
+        ]
+      },
+      "R": {
+        "source_skin_delta": [
+          0.5,
+          -2.0
+        ],
+        "AI_skin_delta": [
+          0.09000000000000341,
+          -1.1700000000000017
+        ]
+      }
+    }
+  },
+  {
+    "phase": 60,
+    "source_head_layer_xywh": [
+      37,
+      16,
+      8,
+      12
+    ],
+    "AI_visible_crown_y_raw": 42,
+    "AI_visible_crown_y_logical": 15.68,
+    "crown_caution": "head layer top versus visible alpha crown not identical landmarks; use temporal drift only, uncertainty source1px / AI threshold1HD",
+    "hands": {
+      "L": {
+        "raw_detected_skin_bbox": [
+          184,
+          234,
+          210,
+          254
+        ],
+        "raw_warm_component_pixels": 323,
+        "mapped_bbox_center_logical": [
+          27.720000000000006,
+          52.040000000000006
+        ],
+        "source_skin_bbox": [
+          26,
+          51,
+          30,
+          55
+        ],
+        "source_bbox_center_logical": [
+          28.0,
+          53.0
+        ],
+        "center_residual_logical": [
+          -0.27999999999999403,
+          -0.9599999999999937
+        ],
+        "source_tolerance_logical": 2,
+        "method_limit": "skin-color component is visible patch proxy, not wrist joint; lighting/mask selection adds uncertainty; visually audit overlays"
+      },
+      "R": {
+        "raw_detected_skin_bbox": [
+          336,
+          192,
+          358,
+          205
+        ],
+        "raw_warm_component_pixels": 108,
+        "mapped_bbox_center_logical": [
+          54.720000000000006,
+          43.849999999999994
+        ],
+        "source_skin_bbox": [
+          52,
+          43,
+          56,
+          46
+        ],
+        "source_bbox_center_logical": [
+          54.0,
+          44.5
+        ],
+        "center_residual_logical": [
+          0.720000000000006,
+          -0.6500000000000057
+        ],
+        "source_tolerance_logical": 2,
+        "method_limit": "skin-color component is visible patch proxy, not wrist joint; lighting/mask selection adds uncertainty; visually audit overlays"
+      }
+    },
+    "source_cuff_proxies": {
+      "L": [
+        28,
+        50
+      ],
+      "R": [
+        54,
+        43
+      ]
+    },
+    "occlusion": "source cuffs cover proximal hand, fingers unresolved; AI visible fist excludes hidden palm, cuff is not hand",
+    "to_next_phase": {
+      "L": {
+        "source_skin_delta": [
+          -0.5,
+          -2.5
+        ],
+        "AI_skin_delta": [
+          -0.45000000000000284,
+          -0.18000000000000682
+        ]
+      },
+      "R": {
+        "source_skin_delta": [
+          0.5,
+          2.5
+        ],
+        "AI_skin_delta": [
+          0.0899999999999963,
+          1.8900000000000006
+        ]
+      }
+    }
+  },
+  {
+    "phase": 61,
+    "source_head_layer_xywh": [
+      36,
+      15,
+      8,
+      12
+    ],
+    "AI_visible_crown_y_raw": 40,
+    "AI_visible_crown_y_logical": 15.32,
+    "crown_caution": "head layer top versus visible alpha crown not identical landmarks; use temporal drift only, uncertainty source1px / AI threshold1HD",
+    "hands": {
+      "L": {
+        "raw_detected_skin_bbox": [
+          184,
+          233,
+          205,
+          253
+        ],
+        "raw_warm_component_pixels": 294,
+        "mapped_bbox_center_logical": [
+          27.270000000000003,
+          51.86
+        ],
+        "source_skin_bbox": [
+          26,
+          49,
+          29,
+          52
+        ],
+        "source_bbox_center_logical": [
+          27.5,
+          50.5
+        ],
+        "center_residual_logical": [
+          -0.22999999999999687,
+          1.3599999999999994
+        ],
+        "source_tolerance_logical": 2,
+        "method_limit": "skin-color component is visible patch proxy, not wrist joint; lighting/mask selection adds uncertainty; visually audit overlays"
+      },
+      "R": {
+        "raw_detected_skin_bbox": [
+          336,
+          201,
+          359,
+          217
+        ],
+        "raw_warm_component_pixels": 158,
+        "mapped_bbox_center_logical": [
+          54.81,
+          45.739999999999995
+        ],
+        "source_skin_bbox": [
+          53,
+          46,
+          56,
+          48
+        ],
+        "source_bbox_center_logical": [
+          54.5,
+          47.0
+        ],
+        "center_residual_logical": [
+          0.3100000000000023,
+          -1.2600000000000051
+        ],
+        "source_tolerance_logical": 2,
+        "method_limit": "skin-color component is visible patch proxy, not wrist joint; lighting/mask selection adds uncertainty; visually audit overlays"
+      }
+    },
+    "source_cuff_proxies": {
+      "L": [
+        27,
+        48
+      ],
+      "R": [
+        54,
+        45
+      ]
+    },
+    "occlusion": "source cuffs cover proximal hand, fingers unresolved; AI visible fist excludes hidden palm, cuff is not hand",
+    "to_next_phase": {
+      "L": {
+        "source_skin_delta": [
+          -1.0,
+          -4.0
+        ],
+        "AI_skin_delta": [
+          1.259999999999998,
+          -4.859999999999999
+        ]
+      },
+      "R": {
+        "source_skin_delta": [
+          -1.0,
+          3.5
+        ],
+        "AI_skin_delta": [
+          -0.17999999999999972,
+          5.8500000000000085
+        ]
+      }
+    }
+  },
+  {
+    "phase": 62,
+    "source_head_layer_xywh": [
+      37,
+      15,
+      8,
+      12
+    ],
+    "AI_visible_crown_y_raw": 39,
+    "AI_visible_crown_y_logical": 15.14,
+    "crown_caution": "head layer top versus visible alpha crown not identical landmarks; use temporal drift only, uncertainty source1px / AI threshold1HD",
+    "hands": {
+      "L": {
+        "raw_detected_skin_bbox": [
+          155,
+          208,
+          178,
+          224
+        ],
+        "raw_warm_component_pixels": 187,
+        "mapped_bbox_center_logical": [
+          28.53,
+          47.0
+        ],
+        "source_skin_bbox": [
+          25,
+          45,
+          28,
+          48
+        ],
+        "source_bbox_center_logical": [
+          26.5,
+          46.5
+        ],
+        "center_residual_logical": [
+          2.030000000000001,
+          0.5
+        ],
+        "source_tolerance_logical": 2,
+        "method_limit": "skin-color component is visible patch proxy, not wrist joint; lighting/mask selection adds uncertainty; visually audit overlays"
+      },
+      "R": {
+        "raw_detected_skin_bbox": [
+          299,
+          231,
+          324,
+          252
+        ],
+        "raw_warm_component_pixels": 343,
+        "mapped_bbox_center_logical": [
+          54.63,
+          51.59
+        ],
+        "source_skin_bbox": [
+          52,
+          49,
+          55,
+          52
+        ],
+        "source_bbox_center_logical": [
+          53.5,
+          50.5
+        ],
+        "center_residual_logical": [
+          1.1300000000000026,
+          1.0900000000000034
+        ],
+        "source_tolerance_logical": 2,
+        "method_limit": "skin-color component is visible patch proxy, not wrist joint; lighting/mask selection adds uncertainty; visually audit overlays"
+      }
+    },
+    "source_cuff_proxies": {
+      "L": [
+        27,
+        44
+      ],
+      "R": [
+        54,
+        48
+      ]
+    },
+    "occlusion": "source cuffs cover proximal hand, fingers unresolved; AI visible fist excludes hidden palm, cuff is not hand",
+    "to_next_phase": {
+      "L": {
+        "source_skin_delta": [
+          0.0,
+          -2.0
+        ],
+        "AI_skin_delta": [
+          -0.7199999999999989,
+          -3.1500000000000057
+        ]
+      },
+      "R": {
+        "source_skin_delta": [
+          -1.0,
+          2.5
+        ],
+        "AI_skin_delta": [
+          -0.45000000000000284,
+          0.539999999999992
+        ]
+      }
+    }
+  }
+]

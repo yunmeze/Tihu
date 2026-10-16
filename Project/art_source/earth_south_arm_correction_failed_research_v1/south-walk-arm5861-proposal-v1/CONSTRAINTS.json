@@ -1,0 +1,292 @@
+[
+  {
+    "phase": 58,
+    "raw_sha256": "8b12f93481972c2bc5bd87938cfc7136616e00b4b833176290344c5a1e6454e6",
+    "status": "PROPOSAL ONLY, no solve or deformation",
+    "screen_sides": {
+      "L": {
+        "envelope": [
+          [
+            163,
+            132
+          ],
+          [
+            192,
+            140
+          ],
+          [
+            184,
+            158
+          ],
+          [
+            178,
+            183
+          ],
+          [
+            179,
+            220
+          ],
+          [
+            145,
+            225
+          ],
+          [
+            132,
+            193
+          ],
+          [
+            140,
+            158
+          ]
+        ],
+        "fixed_y_max": 138,
+        "rigid_y_min": 153,
+        "source_skin_center_hypothesis": [
+          26.5,
+          47.0
+        ],
+        "current_AI_skin_center": [
+          27.900000000000002,
+          45.379999999999995
+        ],
+        "translation_logical": [
+          -1.4000000000000021,
+          1.6200000000000045
+        ],
+        "translation_output_HD": [
+          -5.6000000000000085,
+          6.480000000000018
+        ],
+        "source_uncertainty_logical": 2,
+        "classes": {
+          "0": "fixed (all outside envelope or anchor band)",
+          "1": "cloth transition, free ARAP if approved",
+          "2": "visible distal gauntlet plus skin, exact shared translation if approved"
+        },
+        "pixel_counts": {
+          "transition": 549,
+          "rigid": 2917,
+          "anchor_band": 102
+        },
+        "nonzero_alpha_clipped_only": true
+      },
+      "R": {
+        "envelope": [
+          [
+            288,
+            138
+          ],
+          [
+            313,
+            133
+          ],
+          [
+            329,
+            164
+          ],
+          [
+            340,
+            199
+          ],
+          [
+            331,
+            256
+          ],
+          [
+            293,
+            260
+          ],
+          [
+            290,
+            225
+          ],
+          [
+            300,
+            207
+          ],
+          [
+            294,
+            174
+          ]
+        ],
+        "fixed_y_max": 143,
+        "rigid_y_min": 171,
+        "source_skin_center_hypothesis": [
+          52.5,
+          50.5
+        ],
+        "current_AI_skin_center": [
+          54.36,
+          51.86
+        ],
+        "translation_logical": [
+          -1.8599999999999994,
+          -1.3599999999999994
+        ],
+        "translation_output_HD": [
+          -7.439999999999998,
+          -5.439999999999998
+        ],
+        "source_uncertainty_logical": 2,
+        "classes": {
+          "0": "fixed (all outside envelope or anchor band)",
+          "1": "cloth transition, free ARAP if approved",
+          "2": "visible distal gauntlet plus skin, exact shared translation if approved"
+        },
+        "pixel_counts": {
+          "transition": 937,
+          "rigid": 3434,
+          "anchor_band": 238
+        },
+        "nonzero_alpha_clipped_only": true
+      }
+    },
+    "all_non_arm_vertices": "fixed to final leg-corrected candidate; not undeformed raw",
+    "boundary_vertex_rule": "future solver: outside-domain/fixed-anchor incidence wins over cloth; rigid-patch incidence exact translation; check no vertex sees fixed and rigid simultaneously, abort otherwise; full-alpha fringe same memberships, no discard"
+  },
+  {
+    "phase": 61,
+    "raw_sha256": "b763ba712cfeaf58a242916a0dfd6b0468a656176b71a990bc623a6b776a5ac4",
+    "status": "PROPOSAL ONLY, no solve or deformation",
+    "screen_sides": {
+      "L": {
+        "envelope": [
+          [
+            199,
+            137
+          ],
+          [
+            230,
+            145
+          ],
+          [
+            218,
+            169
+          ],
+          [
+            207,
+            197
+          ],
+          [
+            213,
+            257
+          ],
+          [
+            175,
+            261
+          ],
+          [
+            169,
+            211
+          ],
+          [
+            176,
+            175
+          ],
+          [
+            188,
+            150
+          ]
+        ],
+        "fixed_y_max": 143,
+        "rigid_y_min": 167,
+        "source_skin_center_hypothesis": [
+          27.5,
+          50.5
+        ],
+        "current_AI_skin_center": [
+          27.270000000000003,
+          51.86
+        ],
+        "translation_logical": [
+          0.22999999999999687,
+          -1.3599999999999994
+        ],
+        "translation_output_HD": [
+          0.9199999999999875,
+          -5.439999999999998
+        ],
+        "source_uncertainty_logical": 2,
+        "classes": {
+          "0": "fixed (all outside envelope or anchor band)",
+          "1": "cloth transition, free ARAP if approved",
+          "2": "visible distal gauntlet plus skin, exact shared translation if approved"
+        },
+        "pixel_counts": {
+          "transition": 910,
+          "rigid": 3442,
+          "anchor_band": 106
+        },
+        "nonzero_alpha_clipped_only": true
+      },
+      "R": {
+        "envelope": [
+          [
+            322,
+            139
+          ],
+          [
+            352,
+            136
+          ],
+          [
+            368,
+            163
+          ],
+          [
+            377,
+            192
+          ],
+          [
+            365,
+            222
+          ],
+          [
+            332,
+            222
+          ],
+          [
+            329,
+            198
+          ],
+          [
+            336,
+            177
+          ]
+        ],
+        "fixed_y_max": 143,
+        "rigid_y_min": 164,
+        "source_skin_center_hypothesis": [
+          54.5,
+          47.0
+        ],
+        "current_AI_skin_center": [
+          54.81,
+          45.739999999999995
+        ],
+        "translation_logical": [
+          -0.3100000000000023,
+          1.2600000000000051
+        ],
+        "translation_output_HD": [
+          -1.240000000000009,
+          5.0400000000000205
+        ],
+        "source_uncertainty_logical": 2,
+        "classes": {
+          "0": "fixed (all outside envelope or anchor band)",
+          "1": "cloth transition, free ARAP if approved",
+          "2": "visible distal gauntlet plus skin, exact shared translation if approved"
+        },
+        "pixel_counts": {
+          "transition": 720,
+          "rigid": 2278,
+          "anchor_band": 202
+        },
+        "nonzero_alpha_clipped_only": true
+      }
+    },
+    "all_non_arm_vertices": "fixed to final leg-corrected candidate; not undeformed raw",
+    "boundary_vertex_rule": "future solver: outside-domain/fixed-anchor incidence wins over cloth; rigid-patch incidence exact translation; check no vertex sees fixed and rigid simultaneously, abort otherwise; full-alpha fringe same memberships, no discard"
+  }
+]

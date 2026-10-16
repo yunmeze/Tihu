@@ -1,0 +1,48 @@
+{
+  "graph": "4-neighbor occupied alpha>0 pixel graph, no path across alpha0; distance is topology proxy not anatomical attachment",
+  "limiting_points": [
+    {
+      "raw_pixel": [
+        135,
+        158
+      ],
+      "alpha": 1,
+      "steps_to_visible_gauntlet_core": 9.0,
+      "steps_to_fixed_visible_material": 27.0,
+      "nearest_core": "moving_arm"
+    },
+    {
+      "raw_pixel": [
+        285,
+        230
+      ],
+      "alpha": 4,
+      "steps_to_visible_gauntlet_core": 13.0,
+      "steps_to_fixed_visible_material": 3.0,
+      "nearest_core": "fixed_material"
+    },
+    {
+      "raw_pixel": [
+        286,
+        232
+      ],
+      "alpha": 2,
+      "steps_to_visible_gauntlet_core": 12.0,
+      "steps_to_fixed_visible_material": 4.0,
+      "nearest_core": "fixed_material"
+    },
+    {
+      "raw_pixel": [
+        286,
+        233
+      ],
+      "alpha": 2,
+      "steps_to_visible_gauntlet_core": 13.0,
+      "steps_to_fixed_visible_material": 4.0,
+      "nearest_core": "fixed_material"
+    }
+  ],
+  "old_rigid_weak_alpha_pixels": 2104,
+  "old_rigid_weak_pixels_closer_fixed_core": 229,
+  "proposal": "rigid translation seeds only complete visible alpha>=64 gauntlet core; weak-alpha is extension, never automatically same rigid patch; preserve fixed visible material and approved whole fixed head/legs; freeze ownership ambiguity separately before any solve"
+}

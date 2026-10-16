@@ -1,0 +1,38 @@
+{
+  "status": "partition only, no deformation",
+  "classes": {
+    "0": "fixed",
+    "1": "visible cloth ARAP",
+    "2": "visible gauntlet translation",
+    "3": "weak-alpha connected extension"
+  },
+  "sides": [
+    {
+      "side": "L",
+      "visible_rigid_cells": 2270,
+      "visible_cloth_cells": 552,
+      "weak_extension_cells": 1230
+    },
+    {
+      "side": "R",
+      "visible_rigid_cells": 2735,
+      "visible_cloth_cells": 853,
+      "weak_extension_cells": 1317
+    }
+  ],
+  "uncertain_weak_cells_within_two_graph_steps": 412,
+  "eligible_uncertain_cells": 412,
+  "fixed_rigid_vertex_conflicts": 0,
+  "protected_head_shoulder_rows_le138_any_nonfixed": 0,
+  "protected_legs_rows_ge270_any_nonfixed": 0,
+  "all_nonarm_visible_material_fixed": true,
+  "limiting_cells_new_classes": {
+    "135,158": 3,
+    "285,230": 0,
+    "286,232": 0,
+    "286,233": 0
+  },
+  "raw_sha256": "8b12f93481972c2bc5bd87938cfc7136616e00b4b833176290344c5a1e6454e6",
+  "whole_alpha_retained": true,
+  "ownership_caution": "graph-nearest support proxy only, not physical/anatomical attribution; <=2step difference explicitly ambiguous"
+}

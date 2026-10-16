@@ -1,0 +1,27 @@
+{
+  "phase": 58,
+  "status": "backtracking_failed",
+  "seconds": 2.909080982208252,
+  "base_sha256": "4d401e2cf6b40ab5045b8a24f1e8c787f1154b3476f98ff83d77353521b2a012",
+  "free_vertices": 3753,
+  "rigid_vertices": 5271,
+  "fixed_external_vertices": 40536,
+  "fixed_rigid_conflicts": 0,
+  "remaining_driver_error_HD": 8.395332643508365,
+  "max_fixed_external_movement_HD": 0.0,
+  "min_incremental_area_ratio": 0.10000003022351055,
+  "flips": 0,
+  "boundary_intersections_including_touches": 0,
+  "all_alpha_cells_preserved": true,
+  "visible_anisotropy_percentiles_50_95_99_max": [
+    1.0,
+    1.0000000000000395,
+    1.0771608912626267,
+    7.543689806212804
+  ],
+  "fringe_max_anisotropy": 9.998485709910383,
+  "iterations": 11,
+  "rejected_trial_count": 153,
+  "passed_for_gpu_request_only": false,
+  "claim": "translation hypothesis only; no original unique-pose or visual acceptance"
+}
