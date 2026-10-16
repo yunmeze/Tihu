@@ -1,0 +1,66 @@
+{
+  "status": "FROZEN_BEFORE_GENERATION_AND_SOLVER",
+  "units": "512 complete-window HD pixels",
+  "model": "q = positive uniform s*p + translation, no rotation",
+  "train_names": [
+    "hair crown center",
+    "left temple-level hair silhouette",
+    "right temple-level hair silhouette",
+    "forehead midline visible skin center"
+  ],
+  "train_idle": [
+    [
+      160,
+      59
+    ],
+    [
+      143,
+      80
+    ],
+    [
+      177,
+      80
+    ],
+    [
+      160,
+      89
+    ]
+  ],
+  "heldout_names": [
+    "nose tip skin center",
+    "lowest central chin skin"
+  ],
+  "heldout_idle": [
+    [
+      160,
+      99
+    ],
+    [
+      160,
+      105
+    ]
+  ],
+  "reading_uncertainty_HD": {
+    "reference_each_axis": 2,
+    "generated_each_axis": 3
+  },
+  "selection": "Identify same surface features in generated H; never choose points by resulting scale or heldout residual. If face identity makes a feature ambiguous, report instead of inventing.",
+  "exclusions": [
+    "neck end",
+    "full head bbox",
+    "feet",
+    "core scaling",
+    "activity phase",
+    "heldout nose/chin for fit"
+  ],
+  "application_permission": "diagnostic fit calculation only; no registration application without parent approval",
+  "core_lock": {
+    "raw_sha256": "14a4fb1949e4a31a2e224b5a35ab61d7aac447f3ea20dff6709e52b7c3925bc2",
+    "scale": 0.4768735,
+    "translation_HD": [
+      72.2553,
+      34.578
+    ],
+    "registered_context_sha256": "e56ba9aba81e59f08b620b7306e472d377f9792447c4f9d294b31034affc6377"
+  }
+}

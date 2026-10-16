@@ -1,0 +1,169 @@
+{
+  "training": [
+    {
+      "id": "U1 leftmost culm emerges below upper side fan",
+      "source_xy": [
+        43,
+        107
+      ],
+      "candidate_raw_xy": [
+        280,
+        397
+      ],
+      "source_uncertainty": 4,
+      "raw_uncertainty": 10
+    },
+    {
+      "id": "U2 left tall culm upper fan junction",
+      "source_xy": [
+        65,
+        81
+      ],
+      "candidate_raw_xy": [
+        331,
+        309
+      ],
+      "source_uncertainty": 4,
+      "raw_uncertainty": 10
+    },
+    {
+      "id": "U3 left-inner culm upper fan junction",
+      "source_xy": [
+        105,
+        108
+      ],
+      "candidate_raw_xy": [
+        467,
+        412
+      ],
+      "source_uncertainty": 4,
+      "raw_uncertainty": 10
+    },
+    {
+      "id": "U4 tallest central culm upper crown junction",
+      "source_xy": [
+        150,
+        40
+      ],
+      "candidate_raw_xy": [
+        619,
+        167
+      ],
+      "source_uncertainty": 4,
+      "raw_uncertainty": 10
+    },
+    {
+      "id": "U5 right-inner tall culm upper fan junction",
+      "source_xy": [
+        194,
+        65
+      ],
+      "candidate_raw_xy": [
+        765,
+        258
+      ],
+      "source_uncertainty": 4,
+      "raw_uncertainty": 10
+    },
+    {
+      "id": "U6 right outer leaning culm upper fan junction",
+      "source_xy": [
+        238,
+        77
+      ],
+      "candidate_raw_xy": [
+        946,
+        304
+      ],
+      "source_uncertainty": 4,
+      "raw_uncertainty": 10
+    }
+  ],
+  "held_out": [
+    {
+      "id": "end_1",
+      "source_xy": [
+        34,
+        279
+      ],
+      "candidate_raw_xy": [
+        236,
+        1044
+      ],
+      "source_uncertainty": 4,
+      "raw_uncertainty": 5,
+      "identity": "tentative visual main-stem rank; not proven one-to-one"
+    },
+    {
+      "id": "end_2",
+      "source_xy": [
+        59,
+        302
+      ],
+      "candidate_raw_xy": [
+        299,
+        1089
+      ],
+      "source_uncertainty": 4,
+      "raw_uncertainty": 5,
+      "identity": "tentative visual main-stem rank; not proven one-to-one"
+    },
+    {
+      "id": "end_3",
+      "source_xy": [
+        85,
+        320
+      ],
+      "candidate_raw_xy": [
+        398,
+        1152
+      ],
+      "source_uncertainty": 4,
+      "raw_uncertainty": 5,
+      "identity": "tentative visual main-stem rank; not proven one-to-one"
+    },
+    {
+      "id": "end_4",
+      "source_xy": [
+        112,
+        340
+      ],
+      "candidate_raw_xy": [
+        487,
+        1211
+      ],
+      "source_uncertainty": 4,
+      "raw_uncertainty": 5,
+      "identity": "tentative visual main-stem rank; not proven one-to-one"
+    },
+    {
+      "id": "end_5",
+      "source_xy": [
+        172,
+        291
+      ],
+      "candidate_raw_xy": [
+        695,
+        1072
+      ],
+      "source_uncertainty": 4,
+      "raw_uncertainty": 5,
+      "identity": "tentative visual main-stem rank; not proven one-to-one"
+    },
+    {
+      "id": "end_6",
+      "source_xy": [
+        220,
+        247
+      ],
+      "candidate_raw_xy": [
+        859,
+        930
+      ],
+      "source_uncertainty": 4,
+      "raw_uncertainty": 5,
+      "identity": "tentative visual main-stem rank; not proven one-to-one"
+    }
+  ],
+  "fit": "raw = density * source + translation; no rotation/shear; training uses upper six only"
+}

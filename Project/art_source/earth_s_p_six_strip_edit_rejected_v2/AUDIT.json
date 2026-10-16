@@ -1,0 +1,253 @@
+{
+  "raw_sha256": "e712c1ac30a3be11a80d97f533e7c9edcc6507ba9654648fb4d976e35ae8196d",
+  "size": [
+    1536,
+    1024
+  ],
+  "alpha_range": [
+    0,
+    254
+  ],
+  "zero_alpha": 1229945,
+  "conditional_tongue_scale": 0.8269175933846592,
+  "conditional_anchor_translations_HD": [
+    [
+      -38.04676361562588,
+      141.8078129455375
+    ],
+    [
+      -51.690903906472755,
+      141.8078129455375
+    ],
+    [
+      -63.681209010550305,
+      141.8078129455375
+    ],
+    [
+      -37.63330481893354,
+      139.32706016538353
+    ],
+    [
+      -52.104362703165094,
+      139.32706016538353
+    ],
+    [
+      -63.681209010550305,
+      139.32706016538353
+    ]
+  ],
+  "width_residual_HD": [
+    0.5189620758483002,
+    -1.9617907043056775,
+    0.5189620758483002,
+    1.345879669232957,
+    -1.1348731109210206,
+    0.5189620758483002
+  ],
+  "foot_and_heldout_roots": [
+    {
+      "phase": 57,
+      "foot_terminal_slot_raw": [
+        [
+          191.5,
+          471.0
+        ],
+        [
+          288.5,
+          283.0
+        ]
+      ],
+      "LminusR_raw": 188.0,
+      "conditional_registered_feet_HD": [
+        [
+          120.30795551753636,
+          531.285999429712
+        ],
+        [
+          200.5189620758483,
+          375.82549187339606
+        ]
+      ],
+      "conditional_root_depth_HD": 27.288280581693755,
+      "conditional_base_width_HD": 86.82634730538922
+    },
+    {
+      "phase": 58,
+      "foot_terminal_slot_raw": [
+        [
+          215.0,
+          474.0
+        ],
+        [
+          304.0,
+          292.0
+        ]
+      ],
+      "LminusR_raw": 182.0,
+      "conditional_registered_feet_HD": [
+        [
+          126.09637867122896,
+          533.766752209866
+        ],
+        [
+          199.69204448246364,
+          383.267750213858
+        ]
+      ],
+      "conditional_root_depth_HD": 27.288280581693755,
+      "conditional_base_width_HD": 85.17251211861989
+    },
+    {
+      "phase": 59,
+      "foot_terminal_slot_raw": [
+        [
+          229.5,
+          464.0
+        ],
+        [
+          326.5,
+          378.0
+        ]
+      ],
+      "LminusR_raw": 86.0,
+      "conditional_registered_feet_HD": [
+        [
+          126.09637867122899,
+          525.4975762760193
+        ],
+        [
+          206.30738522954093,
+          454.3826632449387
+        ]
+      ],
+      "conditional_root_depth_HD": 27.288280581693755,
+      "conditional_base_width_HD": 90.96093527231251
+    },
+    {
+      "phase": 60,
+      "foot_terminal_slot_raw": [
+        [
+          175.5,
+          299.0
+        ],
+        [
+          278.0,
+          471.0
+        ]
+      ],
+      "LminusR_raw": -172.0,
+      "conditional_registered_feet_HD": [
+        [
+          107.49073282007416,
+          386.5754205873966
+        ],
+        [
+          192.2497861420017,
+          528.8052466495581
+        ]
+      ],
+      "conditional_root_depth_HD": 24.807527801539777,
+      "conditional_base_width_HD": 93.44168805246649
+    },
+    {
+      "phase": 61,
+      "foot_terminal_slot_raw": [
+        [
+          212.5,
+          334.0
+        ],
+        [
+          320.5,
+          469.0
+        ]
+      ],
+      "LminusR_raw": -135.0,
+      "conditional_registered_feet_HD": [
+        [
+          123.61562589107498,
+          415.51753635585965
+        ],
+        [
+          212.92272597661818,
+          527.1514114627887
+        ]
+      ],
+      "conditional_root_depth_HD": 24.807527801539777,
+      "conditional_base_width_HD": 88.48018249215853
+    },
+    {
+      "phase": 62,
+      "foot_terminal_slot_raw": [
+        [
+          212.5,
+          472.0
+        ],
+        [
+          322.0,
+          403.0
+        ]
+      ],
+      "LminusR_raw": 69.0,
+      "conditional_registered_feet_HD": [
+        [
+          112.03877958368977,
+          529.6321642429426
+        ],
+        [
+          202.58625605930993,
+          472.5748502994012
+        ]
+      ],
+      "conditional_root_depth_HD": 24.807527801539777,
+      "conditional_base_width_HD": 91.78785286569718
+    }
+  ],
+  "far_alpha": {
+    "8": {
+      "pixels": 1208272,
+      "nonzero": 4654,
+      "max_alpha": 4,
+      "contribution": {
+        "(30, 32, 36)": {
+          "max8bit": 0.2980392156862745,
+          "count_ge1": 0
+        },
+        "(232, 232, 232)": {
+          "max8bit": 3.2627450980392156,
+          "count_ge1": 43
+        }
+      }
+    },
+    "16": {
+      "pixels": 1140496,
+      "nonzero": 1628,
+      "max_alpha": 1,
+      "contribution": {
+        "(30, 32, 36)": {
+          "max8bit": 0.1411764705882353,
+          "count_ge1": 0
+        },
+        "(232, 232, 232)": {
+          "max8bit": 0.9098039215686274,
+          "count_ge1": 0
+        }
+      }
+    },
+    "32": {
+      "pixels": 1013537,
+      "nonzero": 1622,
+      "max_alpha": 1,
+      "contribution": {
+        "(30, 32, 36)": {
+          "max8bit": 0.1411764705882353,
+          "count_ge1": 0
+        },
+        "(232, 232, 232)": {
+          "max8bit": 0.9098039215686274,
+          "count_ge1": 0
+        }
+      }
+    }
+  },
+  "status": "NO_TRANSFORM_APPLIED; PHASE59_FAILURE; TONGUE_DEPTH_AND_PROPORTION_HOLDOUT_FAILURE"
+}

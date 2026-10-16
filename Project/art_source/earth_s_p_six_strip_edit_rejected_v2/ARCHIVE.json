@@ -1,0 +1,50 @@
+{
+  "schema": "earth_s_p_six_strip_edit_rejected_v2",
+  "mode": "P2",
+  "raw_sha256": "e712c1ac30a3be11a80d97f533e7c9edcc6507ba9654648fb4d976e35ae8196d",
+  "prompt_sha256": "11a7e17d1f6778c552728b95402f77bf72b15c3899404dbf69e9f03526d2e722",
+  "actual_refs_order": [
+    {
+      "path": "references/REF01_EDIT_P_COSTUME_ONLY.png",
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/south-layer-contract-cpu/p-six-strip-edit-attempt2/REF01_EDIT_P_COSTUME_ONLY.png",
+      "sha256": "9de895136f24fdd84b9dedbf860236a04033be79fc3093acb08365f087c37705"
+    },
+    {
+      "path": "references/REF02_COMBINED_SOURCE_POSE_AND_READ.png",
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/south-layer-contract-cpu/p-six-strip-edit-attempt2/REF02_COMBINED_SOURCE_POSE_AND_READ.png",
+      "sha256": "8b185740bb5ce259e9871d3f666b6dc4403c4049371f9488de5a96e22d352033"
+    },
+    {
+      "path": "references/REF04_APPROVED_MATERIAL_IDENTITY.png",
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/south-layer-contract-cpu/p-six-strip-edit-attempt2/REF04_APPROVED_MATERIAL_IDENTITY.png",
+      "sha256": "2fc4e5d84adac25251e81ff5c9b913e8e6fde61046009d628a98415f7229a932"
+    },
+    {
+      "path": "references/REF05_LOCKED_HC_CONTEXT.png",
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/south-layer-contract-cpu/p-six-strip-edit-attempt2/REF05_LOCKED_HC_CONTEXT.png",
+      "sha256": "fb7e50838793f1a086b2921d46688d1969a9eb9b7cf2c8462c015f2c50ea8faf"
+    },
+    {
+      "path": "references/REF06_NEW_TONGUE_INTERFACE_TECHNICAL.png",
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/south-layer-contract-cpu/p-six-strip-edit-attempt2/REF06_NEW_TONGUE_INTERFACE_TECHNICAL.png",
+      "sha256": "b6237b1e8f556e73276f0addaeca6b278e0f36075674c9810ed14dc006ca8cfa"
+    }
+  ],
+  "outputs": {
+    "P-57-fixed-slot.png": "d6c4af2dc79e1342de739ea533d384e819a870a7aa7596c057fe174a2d63f07f",
+    "P-58-fixed-slot.png": "e5c17f490cbb3651c25df3ca8aad9d9c52a3a101e3fc2fd372c39ca223069545",
+    "P-59-fixed-slot.png": "46538b85d8a2f8c72d809a0af5636fbe749170ab9f851a37e812eb7f118fadf2",
+    "P-60-fixed-slot.png": "dda99e4aa209d80ff0d60e096b2e95bb76731f5df32ecc1d1f38a22a3424b3fb",
+    "P-61-fixed-slot.png": "29d9f536de24e22515553bb01bdf60c7d318d1b0ca7bc70c9fc56b124f1fbcfe",
+    "P-62-fixed-slot.png": "5d4935633daf49545c56504272ed4fb416219254444391db50b94e851956d2d2"
+  },
+  "blocked_six_ref_call": {
+    "generated_output": false,
+    "reason": "Tool maximum5refs validation rejected before generation",
+    "actual_generation_count": 1,
+    "actual_reference_count": 5
+  },
+  "status": "Rejected six-strip motion/interface research. Exact full slots only; no fitted registration, alpha cleanup, phase remapping or reuse as accepted walk. Conditional fit values are analysis, not applied.",
+  "tracked_dependencies": [],
+  "previous_P1_raw_sha256": "9de895136f24fdd84b9dedbf860236a04033be79fc3093acb08365f087c37705"
+}

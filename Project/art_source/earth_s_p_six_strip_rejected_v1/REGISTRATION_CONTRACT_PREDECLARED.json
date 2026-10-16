@@ -1,0 +1,136 @@
+{
+  "status": "PROPOSAL_ONLY_NO_P_GENERATION",
+  "canvas": [
+    1536,
+    1024
+  ],
+  "layout": "3x2",
+  "slot_canvas": [
+    512,
+    512
+  ],
+  "logical_slot": [
+    128,
+    128
+  ],
+  "frame_order": [
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+  ],
+  "slots": [
+    {
+      "phase": 57,
+      "slot": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source": "/workspace/scratch/22c897619190/recovery-work/s-walk-sequence-plan/source-57.png",
+      "source_sha256": "1a474a3c34ca85abf08f067813519015165487bf43725acdb579f3d22ec0caeb"
+    },
+    {
+      "phase": 58,
+      "slot": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source": "/workspace/scratch/22c897619190/recovery-work/s-walk-sequence-plan/source-58.png",
+      "source_sha256": "7137f168350f5b910b8cc070b3814e79b11bae2cd4bcc81c96f3bf3c39b30deb"
+    },
+    {
+      "phase": 59,
+      "slot": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source": "/workspace/scratch/22c897619190/recovery-work/s-walk-sequence-plan/source-59.png",
+      "source_sha256": "ffcd49bc0ccbc27cb4b034b9ba86039f47d5d8510ba9b8b41ec0ab30901be38e"
+    },
+    {
+      "phase": 60,
+      "slot": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "source": "/workspace/scratch/22c897619190/recovery-work/s-walk-sequence-plan/source-60.png",
+      "source_sha256": "a364df0c0a17975b49cdc15c21cdbfae27753ea15515b1b7474c464504dde01c"
+    },
+    {
+      "phase": 61,
+      "slot": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "source": "/workspace/scratch/22c897619190/recovery-work/s-walk-sequence-plan/source-61.png",
+      "source_sha256": "9e2e51ad728383c3dac71206b44f6b9e9968ef658eadb9e609980c0a888381db"
+    },
+    {
+      "phase": 62,
+      "slot": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "source": "/workspace/scratch/22c897619190/recovery-work/s-walk-sequence-plan/source-62.png",
+      "source_sha256": "a659beb365f76e2064c290419a7124a34767782efc7bbe5238abe2afee42ece5"
+    }
+  ],
+  "shared_slot_root_HD": [
+    64,
+    256
+  ],
+  "proposed_P_hidden_root_rect_HD_inclusive": [
+    140,
+    160,
+    180,
+    172
+  ],
+  "coverage_existing_C_min_alpha": 249,
+  "registration_training_design_anchors_HD": {
+    "left_root_top_corner": [
+      140,
+      160
+    ],
+    "right_root_top_corner": [
+      180,
+      160
+    ],
+    "root_top_midpoint": [
+      160,
+      160
+    ]
+  },
+  "anchor_warning": "Deliberately designed repeated waist interface, not source anatomy. Top corners must be identifiable new upper edge; midpoint is derived and not an independent observation.",
+  "heldout_design_anchor_HD": {
+    "root_side_transition_left": [
+      140,
+      172
+    ],
+    "root_side_transition_right": [
+      180,
+      172
+    ]
+  },
+  "registration_policy": "One shared positive scale+translation in cell-local coordinates for all6 after fixed slot split; no per-phase fit; do not fit atlas slot pitch to body bbox; model allowed only after raw layout review and explicit approval.",
+  "clock": {
+    "ticks_each": 7,
+    "hz": 50,
+    "loop_ms": 840
+  },
+  "mechanical_coverage_note": "Existing C min alpha249 is nearly opaque, not exact255. Alpha preserved; no threshold cleanup.",
+  "HC_status": "accepted static sample, both transforms and C-back H-front whole-layer order locked; full walk not verified"
+}

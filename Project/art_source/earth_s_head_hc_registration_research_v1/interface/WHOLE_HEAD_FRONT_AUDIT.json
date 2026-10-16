@@ -1,0 +1,803 @@
+{
+  "layer_order": [
+    "registered C whole",
+    "registered H whole + native head offset"
+  ],
+  "source_pixels_modified": false,
+  "sampling_test": "lower H alpha128 boundary in jaw/neck x147..174 plus phase dx; C opacity at boundary and immediately below. No atlas bbox fit.",
+  "phases": [
+    {
+      "phase": 57,
+      "offset_HD": [
+        -4,
+        4
+      ],
+      "lower_edge_checks": [
+        {
+          "x": 146,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 147,
+          "H_bottom_y": 105,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 148,
+          "H_bottom_y": 105,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 149,
+          "H_bottom_y": 106,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 150,
+          "H_bottom_y": 107,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 151,
+          "H_bottom_y": 107,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 152,
+          "H_bottom_y": 108,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 153,
+          "H_bottom_y": 108,
+          "C_alpha_under_boundary": 252,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 154,
+          "H_bottom_y": 108,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 155,
+          "H_bottom_y": 109,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 156,
+          "H_bottom_y": 109,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 157,
+          "H_bottom_y": 108,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 158,
+          "H_bottom_y": 108,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 159,
+          "H_bottom_y": 108,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 160,
+          "H_bottom_y": 108,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 161,
+          "H_bottom_y": 107,
+          "C_alpha_under_boundary": 251,
+          "C_alpha_one_pixel_below": 252
+        },
+        {
+          "x": 162,
+          "H_bottom_y": 107,
+          "C_alpha_under_boundary": 252,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 163,
+          "H_bottom_y": 106,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 164,
+          "H_bottom_y": 105,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 165,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        }
+      ],
+      "C_under_edge_min_alpha": 251,
+      "C_below_edge_min_alpha": 252,
+      "background_gap_samples_under128": 0
+    },
+    {
+      "phase": 58,
+      "offset_HD": [
+        0,
+        0
+      ],
+      "lower_edge_checks": [
+        {
+          "x": 150,
+          "H_bottom_y": 100,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 151,
+          "H_bottom_y": 101,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 152,
+          "H_bottom_y": 101,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 153,
+          "H_bottom_y": 102,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 154,
+          "H_bottom_y": 103,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 252
+        },
+        {
+          "x": 155,
+          "H_bottom_y": 103,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 252
+        },
+        {
+          "x": 156,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 157,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 158,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 159,
+          "H_bottom_y": 105,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 160,
+          "H_bottom_y": 105,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 252
+        },
+        {
+          "x": 161,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 162,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 163,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 164,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 165,
+          "H_bottom_y": 103,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 166,
+          "H_bottom_y": 103,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 167,
+          "H_bottom_y": 102,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 252
+        },
+        {
+          "x": 168,
+          "H_bottom_y": 101,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 169,
+          "H_bottom_y": 100,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        }
+      ],
+      "C_under_edge_min_alpha": 253,
+      "C_below_edge_min_alpha": 252,
+      "background_gap_samples_under128": 0
+    },
+    {
+      "phase": 59,
+      "offset_HD": [
+        0,
+        0
+      ],
+      "lower_edge_checks": [
+        {
+          "x": 150,
+          "H_bottom_y": 100,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 151,
+          "H_bottom_y": 101,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 152,
+          "H_bottom_y": 101,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 153,
+          "H_bottom_y": 102,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 154,
+          "H_bottom_y": 103,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 252
+        },
+        {
+          "x": 155,
+          "H_bottom_y": 103,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 252
+        },
+        {
+          "x": 156,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 157,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 158,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 159,
+          "H_bottom_y": 105,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 160,
+          "H_bottom_y": 105,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 252
+        },
+        {
+          "x": 161,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 162,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 163,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 164,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 165,
+          "H_bottom_y": 103,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 166,
+          "H_bottom_y": 103,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 167,
+          "H_bottom_y": 102,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 252
+        },
+        {
+          "x": 168,
+          "H_bottom_y": 101,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 169,
+          "H_bottom_y": 100,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        }
+      ],
+      "C_under_edge_min_alpha": 253,
+      "C_below_edge_min_alpha": 252,
+      "background_gap_samples_under128": 0
+    },
+    {
+      "phase": 60,
+      "offset_HD": [
+        0,
+        4
+      ],
+      "lower_edge_checks": [
+        {
+          "x": 150,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 151,
+          "H_bottom_y": 105,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 152,
+          "H_bottom_y": 105,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 153,
+          "H_bottom_y": 106,
+          "C_alpha_under_boundary": 251,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 154,
+          "H_bottom_y": 107,
+          "C_alpha_under_boundary": 251,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 155,
+          "H_bottom_y": 107,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 252
+        },
+        {
+          "x": 156,
+          "H_bottom_y": 108,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 157,
+          "H_bottom_y": 108,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 158,
+          "H_bottom_y": 108,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 159,
+          "H_bottom_y": 109,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 160,
+          "H_bottom_y": 109,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 161,
+          "H_bottom_y": 108,
+          "C_alpha_under_boundary": 252,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 162,
+          "H_bottom_y": 108,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 163,
+          "H_bottom_y": 108,
+          "C_alpha_under_boundary": 252,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 164,
+          "H_bottom_y": 108,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 165,
+          "H_bottom_y": 107,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 166,
+          "H_bottom_y": 107,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 167,
+          "H_bottom_y": 106,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 168,
+          "H_bottom_y": 105,
+          "C_alpha_under_boundary": 252,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 169,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 252,
+          "C_alpha_one_pixel_below": 253
+        }
+      ],
+      "C_under_edge_min_alpha": 251,
+      "C_below_edge_min_alpha": 252,
+      "background_gap_samples_under128": 0
+    },
+    {
+      "phase": 61,
+      "offset_HD": [
+        -4,
+        0
+      ],
+      "lower_edge_checks": [
+        {
+          "x": 146,
+          "H_bottom_y": 100,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 147,
+          "H_bottom_y": 101,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 148,
+          "H_bottom_y": 101,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 149,
+          "H_bottom_y": 102,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 150,
+          "H_bottom_y": 103,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 151,
+          "H_bottom_y": 103,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 152,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 153,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 252,
+          "C_alpha_one_pixel_below": 252
+        },
+        {
+          "x": 154,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 252,
+          "C_alpha_one_pixel_below": 251
+        },
+        {
+          "x": 155,
+          "H_bottom_y": 105,
+          "C_alpha_under_boundary": 251,
+          "C_alpha_one_pixel_below": 251
+        },
+        {
+          "x": 156,
+          "H_bottom_y": 105,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 157,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 158,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 159,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 252,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 160,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 161,
+          "H_bottom_y": 103,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 162,
+          "H_bottom_y": 103,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 163,
+          "H_bottom_y": 102,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 164,
+          "H_bottom_y": 101,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 165,
+          "H_bottom_y": 100,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        }
+      ],
+      "C_under_edge_min_alpha": 251,
+      "C_below_edge_min_alpha": 251,
+      "background_gap_samples_under128": 0
+    },
+    {
+      "phase": 62,
+      "offset_HD": [
+        0,
+        0
+      ],
+      "lower_edge_checks": [
+        {
+          "x": 150,
+          "H_bottom_y": 100,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 151,
+          "H_bottom_y": 101,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 152,
+          "H_bottom_y": 101,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 153,
+          "H_bottom_y": 102,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 154,
+          "H_bottom_y": 103,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 252
+        },
+        {
+          "x": 155,
+          "H_bottom_y": 103,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 252
+        },
+        {
+          "x": 156,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 157,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 158,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 159,
+          "H_bottom_y": 105,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 160,
+          "H_bottom_y": 105,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 252
+        },
+        {
+          "x": 161,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 162,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 163,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 164,
+          "H_bottom_y": 104,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 165,
+          "H_bottom_y": 103,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 166,
+          "H_bottom_y": 103,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 167,
+          "H_bottom_y": 102,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 252
+        },
+        {
+          "x": 168,
+          "H_bottom_y": 101,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        },
+        {
+          "x": 169,
+          "H_bottom_y": 100,
+          "C_alpha_under_boundary": 253,
+          "C_alpha_one_pixel_below": 253
+        }
+      ],
+      "C_under_edge_min_alpha": 253,
+      "C_below_edge_min_alpha": 252,
+      "background_gap_samples_under128": 0
+    }
+  ],
+  "limits": "C dark opaque inner collar supports edge but does not prove anatomical root extension or eliminate perceptual pasted-on risk."
+}

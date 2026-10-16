@@ -1,0 +1,71 @@
+{
+  "status": "OBSERVED_POINTS_FROZEN_BEFORE_SOLVER",
+  "train_kept_names": [
+    "hair crown center",
+    "left temple-level hair silhouette",
+    "right temple-level hair silhouette"
+  ],
+  "train_idle": [
+    [
+      160,
+      59
+    ],
+    [
+      143,
+      80
+    ],
+    [
+      177,
+      80
+    ]
+  ],
+  "train_H": [
+    [
+      184,
+      94
+    ],
+    [
+      110,
+      173
+    ],
+    [
+      249,
+      173
+    ]
+  ],
+  "excluded_predeclared_point": {
+    "name": "forehead midline visible skin center",
+    "reason": "Detailed inspection shows nominal idle(160,89) lies in fringe/hair, not reliably visible forehead skin. New H also obscures center forehead. Excluded before solving; no substitute anchor chosen."
+  },
+  "heldout_names": [
+    "nose tip skin center",
+    "lowest central chin skin"
+  ],
+  "heldout_idle": [
+    [
+      160,
+      99
+    ],
+    [
+      160,
+      105
+    ]
+  ],
+  "heldout_H": [
+    [
+      183,
+      246
+    ],
+    [
+      183,
+      269
+    ]
+  ],
+  "uncertainty_each_axis_HD": {
+    "idle": 2,
+    "H": 3
+  },
+  "neck_visible_bottom_H_HD": 278,
+  "neck_bottom_read_uncertainty_HD": 3,
+  "warning": "head shape/visible perspective may differ; fitted hair does not establish face identity"
+}

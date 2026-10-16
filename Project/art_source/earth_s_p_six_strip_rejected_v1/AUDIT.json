@@ -1,0 +1,593 @@
+{
+  "status": "RAW_LAYOUT_AND_PHASE_FAILURE_NO_REGISTRATION_APPLIED",
+  "raw_size": [
+    1536,
+    1024
+  ],
+  "raw_sha256": "9de895136f24fdd84b9dedbf860236a04033be79fc3093acb08365f087c37705",
+  "raw_origin": "generated_images/exec-1a09c96c-db3b-4bc3-ac25-b26a5b149b93.png",
+  "alpha_range": [
+    0,
+    254
+  ],
+  "alpha_zero_count": 1292898,
+  "slot_borders": {
+    "x512": {
+      "max_alpha": 0,
+      "count_ge128": 0
+    },
+    "x1024": {
+      "max_alpha": 1,
+      "count_ge128": 0
+    },
+    "y512": {
+      "max_alpha": 1,
+      "count_ge128": 0
+    }
+  },
+  "waist_root_top_centers_raw": [
+    [
+      226.5,
+      34.0
+    ],
+    [
+      769.5,
+      32.0
+    ],
+    [
+      1284.5,
+      32.0
+    ],
+    [
+      227.5,
+      543.0
+    ],
+    [
+      769.5,
+      542.0
+    ],
+    [
+      1282.5,
+      543.0
+    ]
+  ],
+  "waist_root_top_centers_slot": [
+    [
+      226.5,
+      34.0
+    ],
+    [
+      257.5,
+      32.0
+    ],
+    [
+      260.5,
+      32.0
+    ],
+    [
+      227.5,
+      31.0
+    ],
+    [
+      257.5,
+      30.0
+    ],
+    [
+      258.5,
+      31.0
+    ]
+  ],
+  "common_fit_calculation_only": {
+    "s": 0.36512382372498836,
+    "t_HD": [
+      69.4492917162029,
+      148.43774558204203
+    ],
+    "train_residuals_HD": [
+      [
+        [
+          -5.9237914844741795,
+          0.8519555886916237
+        ],
+        [
+          -9.776532935700317,
+          0.8519555886916237
+        ]
+      ],
+      [
+        [
+          5.0299232272755035,
+          0.1217079412416524
+        ],
+        [
+          1.907429423499309,
+          0.1217079412416524
+        ]
+      ],
+      [
+        [
+          5.760170874725475,
+          0.1217079412416524
+        ],
+        [
+          3.3679247183992516,
+          0.1217079412416524
+        ]
+      ],
+      [
+        [
+          -5.558667660749165,
+          -0.24341588248333323
+        ],
+        [
+          -9.411409111975331,
+          -0.24341588248333323
+        ]
+      ],
+      [
+        [
+          5.0299232272755035,
+          -0.6085397062083189
+        ],
+        [
+          1.907429423499309,
+          -0.6085397062083189
+        ]
+      ],
+      [
+        [
+          5.395047051000461,
+          -0.24341588248333323
+        ],
+        [
+          2.2725532472242946,
+          -0.24341588248333323
+        ]
+      ]
+    ],
+    "train_RMS_HD": 5.695789449249187,
+    "train_max_distance_HD": 9.813583676106092,
+    "heldout_waist_residuals_HD": [
+      [
+        [
+          -7.019162955649136,
+          -2.385072641908664
+        ],
+        [
+          -8.316037640800346,
+          -2.385072641908664
+        ]
+      ],
+      [
+        [
+          3.934551756100518,
+          -2.385072641908664
+        ],
+        [
+          3.3679247183992516,
+          -2.385072641908664
+        ]
+      ],
+      [
+        [
+          4.664799403550489,
+          -2.385072641908664
+        ],
+        [
+          4.463296189574237,
+          -2.385072641908664
+        ]
+      ],
+      [
+        [
+          -6.654039131924151,
+          -3.1153202893586354
+        ],
+        [
+          -7.950913817075389,
+          -3.1153202893586354
+        ]
+      ],
+      [
+        [
+          3.934551756100518,
+          -3.1153202893586354
+        ],
+        [
+          3.3679247183992516,
+          -3.1153202893586354
+        ]
+      ],
+      [
+        [
+          4.299675579825504,
+          -3.1153202893586354
+        ],
+        [
+          3.3679247183992516,
+          -3.1153202893586354
+        ]
+      ]
+    ],
+    "heldout_waist_RMS_HD": 6.078924467809458
+  },
+  "foot_rows": [
+    {
+      "phase": 57,
+      "foot_read_slot_HD": [
+        [
+          197.0,
+          433.0
+        ],
+        [
+          273.5,
+          264.0
+        ]
+      ],
+      "source_T_HD": [
+        [
+          140.0,
+          364.0
+        ],
+        [
+          180.0,
+          292.0
+        ]
+      ],
+      "measured_LminusR_y_HD": 169.0,
+      "after_hypothetical_common_fit_HD": [
+        [
+          141.3786849900256,
+          306.536361254962
+        ],
+        [
+          169.3106575049872,
+          244.83043504543895
+        ]
+      ],
+      "heldout_residual_logical": [
+        [
+          0.34467124750639755,
+          -14.3659096862595
+        ],
+        [
+          -2.6723356237531988,
+          -11.792391238640263
+        ]
+      ],
+      "after_hypothetical_LminusR_y_logical": 15.426481552380764,
+      "source_LminusR_y_logical": 18
+    },
+    {
+      "phase": 58,
+      "foot_read_slot_HD": [
+        [
+          223.5,
+          429.0
+        ],
+        [
+          298.0,
+          283.0
+        ]
+      ],
+      "source_T_HD": [
+        [
+          140.0,
+          352.0
+        ],
+        [
+          184.0,
+          292.0
+        ]
+      ],
+      "measured_LminusR_y_HD": 146.0,
+      "after_hypothetical_common_fit_HD": [
+        [
+          151.0544663187378,
+          305.07586596006206
+        ],
+        [
+          178.25619118624942,
+          251.76778769621373
+        ]
+      ],
+      "heldout_residual_logical": [
+        [
+          2.7636165796844523,
+          -11.731033509984485
+        ],
+        [
+          -1.435952203437644,
+          -10.058053075946567
+        ]
+      ],
+      "after_hypothetical_LminusR_y_logical": 13.327019565962082,
+      "source_LminusR_y_logical": 15
+    },
+    {
+      "phase": 59,
+      "foot_read_slot_HD": [
+        [
+          221.0,
+          418.0
+        ],
+        [
+          314.0,
+          368.0
+        ]
+      ],
+      "source_T_HD": [
+        [
+          140.0,
+          332.0
+        ],
+        [
+          184.0,
+          352.0
+        ]
+      ],
+      "measured_LminusR_y_HD": 50.0,
+      "after_hypothetical_common_fit_HD": [
+        [
+          150.1416567594253,
+          301.0595038990872
+        ],
+        [
+          184.09817236584922,
+          282.80331271283774
+        ]
+      ],
+      "heldout_residual_logical": [
+        [
+          2.5354141898563256,
+          -7.7351240252282025
+        ],
+        [
+          0.02454309146230571,
+          -17.299171821790566
+        ]
+      ],
+      "after_hypothetical_LminusR_y_logical": 4.564047796562363,
+      "source_LminusR_y_logical": -5
+    },
+    {
+      "phase": 60,
+      "foot_read_slot_HD": [
+        [
+          170.5,
+          254.0
+        ],
+        [
+          264.0,
+          435.0
+        ]
+      ],
+      "source_T_HD": [
+        [
+          140.0,
+          292.0
+        ],
+        [
+          184.0,
+          364.0
+        ]
+      ],
+      "measured_LminusR_y_HD": -181.0,
+      "after_hypothetical_common_fit_HD": [
+        [
+          131.7029036613134,
+          241.1791968081891
+        ],
+        [
+          165.84198117959983,
+          307.266608902412
+        ]
+      ],
+      "heldout_residual_logical": [
+        [
+          -2.07427408467165,
+          -12.705200797952727
+        ],
+        [
+          -4.539504705100043,
+          -14.183347774397006
+        ]
+      ],
+      "after_hypothetical_LminusR_y_logical": -16.52185302355572,
+      "source_LminusR_y_logical": -18
+    },
+    {
+      "phase": 61,
+      "foot_read_slot_HD": [
+        [
+          203.5,
+          286.0
+        ],
+        [
+          296.5,
+          429.0
+        ]
+      ],
+      "source_T_HD": [
+        [
+          140.0,
+          296.0
+        ],
+        [
+          184.0,
+          352.0
+        ]
+      ],
+      "measured_LminusR_y_HD": -143.0,
+      "after_hypothetical_common_fit_HD": [
+        [
+          143.75198984423804,
+          252.8631591673887
+        ],
+        [
+          177.70850545066196,
+          305.07586596006206
+        ]
+      ],
+      "heldout_residual_logical": [
+        [
+          0.9379974610595099,
+          -10.784210208152828
+        ],
+        [
+          -1.57287363733451,
+          -11.731033509984485
+        ]
+      ],
+      "after_hypothetical_LminusR_y_logical": -13.053176698168343,
+      "source_LminusR_y_logical": -14
+    },
+    {
+      "phase": 62,
+      "foot_read_slot_HD": [
+        [
+          199.5,
+          406.0
+        ],
+        [
+          311.5,
+          401.0
+        ]
+      ],
+      "source_T_HD": [
+        [
+          140.0,
+          348.0
+        ],
+        [
+          184.0,
+          332.0
+        ]
+      ],
+      "measured_LminusR_y_HD": 5.0,
+      "after_hypothetical_common_fit_HD": [
+        [
+          142.29149454933807,
+          296.6780180143873
+        ],
+        [
+          183.18536280653677,
+          294.85239889576235
+        ]
+      ],
+      "heldout_residual_logical": [
+        [
+          0.5728736373345171,
+          -12.830495496403174
+        ],
+        [
+          -0.20365929836580676,
+          -9.286900276059413
+        ]
+      ],
+      "after_hypothetical_LminusR_y_logical": 0.45640477965623916,
+      "source_LminusR_y_logical": 4
+    }
+  ],
+  "sensitivity": {
+    "seed": 5732,
+    "trials": 10000,
+    "s_p05_p95": [
+      0.3586276930325995,
+      0.3704788911065147
+    ],
+    "note": "bounded point-read perturbation only; target interface is a proposed design, not anatomy; no foot fit or parameter choice"
+  },
+  "limits": [
+    "Fixed slots measured without reordering.",
+    "No transformed frame images or composites produced.",
+    "Raw waist midpoint drift is not hidden by independent translations.",
+    "Same-strip generation does not guarantee matching pose or root placement."
+  ],
+  "waist_width_only_density_diagnostic": {
+    "widths_HD": [
+      99.0,
+      101.0,
+      103.0,
+      99.0,
+      101.0,
+      101.0
+    ],
+    "common_scale_from_widths_only": 0.39727694280922154,
+    "note": "Span-only diagnostic, no per-frame translations or image transforms. Full shared least-squares scale partly compromises width to reduce first-column layout drift. Neither is an approved mapping."
+  },
+  "adjacent_foot_delta_diagnostic": [
+    {
+      "from": 57,
+      "to": 58,
+      "raw_delta_y_HD": [
+        -4.0,
+        19.0
+      ],
+      "after_shared_fit_delta_y_logical": [
+        -0.36512382372498836,
+        1.7343381626936947
+      ]
+    },
+    {
+      "from": 58,
+      "to": 59,
+      "raw_delta_y_HD": [
+        -11.0,
+        85.0
+      ],
+      "after_shared_fit_delta_y_logical": [
+        -1.004090515243718,
+        7.758881254156003
+      ]
+    },
+    {
+      "from": 59,
+      "to": 60,
+      "raw_delta_y_HD": [
+        -164.0,
+        67.0
+      ],
+      "after_shared_fit_delta_y_logical": [
+        -14.970076772724523,
+        6.115824047393555
+      ]
+    },
+    {
+      "from": 60,
+      "to": 61,
+      "raw_delta_y_HD": [
+        32.0,
+        -6.0
+      ],
+      "after_shared_fit_delta_y_logical": [
+        2.920990589799907,
+        -0.5476857355874826
+      ]
+    },
+    {
+      "from": 61,
+      "to": 62,
+      "raw_delta_y_HD": [
+        120.0,
+        -28.0
+      ],
+      "after_shared_fit_delta_y_logical": [
+        10.953714711749651,
+        -2.5558667660749186
+      ]
+    },
+    {
+      "from": 62,
+      "to": 57,
+      "raw_delta_y_HD": [
+        27.0,
+        -137.0
+      ],
+      "after_shared_fit_delta_y_logical": [
+        2.4645858101436713,
+        -12.50549096258085
+      ]
+    }
+  ]
+}

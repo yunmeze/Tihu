@@ -1,0 +1,57 @@
+{
+  "schema": "actual-imagegen-call-record-v1",
+  "status": "Recorded after generation from this worker conversation actual tool-call transcript; not inferred from approval or INPUT_SHA256 membership.",
+  "tool": "tools.image_gen__imagegen",
+  "actual_call_count": 1,
+  "referenced_image_paths": [
+    "/workspace/scratch/22c897619190/recovery-work/bamboo-b-complete-remake-v1/01-source-authority.png",
+    "/workspace/scratch/22c897619190/recovery-work/bamboo-b-complete-remake-v1/02-body-aux-not-mask.png",
+    "/workspace/scratch/22c897619190/recovery-work/bamboo-b-complete-remake-v1/03-source-ground-context-board.png",
+    "/workspace/scratch/22c897619190/recovery-work/bamboo-b-complete-remake-v1/04-material-fragments.png"
+  ],
+  "referenced_image_count": 4,
+  "references_in_call_order": [
+    {
+      "position": 1,
+      "path": "/workspace/scratch/22c897619190/recovery-work/bamboo-b-complete-remake-v1/01-source-authority.png",
+      "sha256": "f81ad43fe632243e9e72c90a54ab5a8147059692cb62b5cb3dd79d02ac6a96da"
+    },
+    {
+      "position": 2,
+      "path": "/workspace/scratch/22c897619190/recovery-work/bamboo-b-complete-remake-v1/02-body-aux-not-mask.png",
+      "sha256": "09b4bb93e2bc31274f7409aea3595019c1a510d7bbc3c74864694498908cf0ef"
+    },
+    {
+      "position": 3,
+      "path": "/workspace/scratch/22c897619190/recovery-work/bamboo-b-complete-remake-v1/03-source-ground-context-board.png",
+      "sha256": "e7aee3c817173d2085dba9019b59efda0ded37cc754a7312cbbb5152a8004453"
+    },
+    {
+      "position": 4,
+      "path": "/workspace/scratch/22c897619190/recovery-work/bamboo-b-complete-remake-v1/04-material-fragments.png",
+      "sha256": "2458c44ea2aabd38f6cc41f0f97ccefb9df1a2790eb8ff9fc67fe9dea52315dd"
+    }
+  ],
+  "transparent_background": true,
+  "num_last_images_to_include": "omitted",
+  "prompt_sha256": "96d0441aa8ad17fd18fa49252f131c82d1f939bb2350b768b17319c2a18e259b",
+  "prompt_file": "/workspace/scratch/22c897619190/recovery-work/bamboo-b-complete-remake-v1/attempt1/prompt_actual.txt",
+  "prompt_provenance": "Immediately before the actual call, exec_command cat prompt_pending.txt returned r.output; store(\"prompt\", r.output) saved that output. The actual call used prompt:load(\"prompt\"). In the same preparation call, cp prompt_pending.txt attempt1/prompt_actual.txt preserved it. Both current files match the pre-generation INPUT_SHA256 prompt_pending.txt digest. The transient store is no longer available in this later turn; no claim of a newly retrieved server-side prompt telemetry payload.",
+  "actual_call_reference_expression": "[\"01-source-authority.png\",\"02-body-aux-not-mask.png\",\"03-source-ground-context-board.png\",\"04-material-fragments.png\"].map(x=>base+x)",
+  "returned_output_path": "/workspace/scratch/22c897619190/generated_images/exec-00f097f4-75c5-40d2-b9a0-32161654a1d5.png",
+  "preserved_raw_path": "/workspace/scratch/22c897619190/recovery-work/bamboo-b-complete-remake-v1/attempt1/generated-raw.png",
+  "raw_sha256": "7a0862b9b058dd78f8a4403a1f6d13dda12a7b2b344ab042d24cae23b15cc2a5",
+  "returned_output_and_preserved_raw_byte_identical": true,
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "excluded_from_actual_reference_list": [
+    "review-only-old-failures.png",
+    "old AC",
+    "basal-edit-attempt1 donor or candidate"
+  ],
+  "historical_INPUT_SHA256_unchanged": true,
+  "historical_manifest_note": "INPUT_SHA256.json is a preparation dependency manifest, not the actual tool reference list.",
+  "new_generation_or_runtime_or_git": false
+}

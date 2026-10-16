@@ -1,0 +1,327 @@
+{
+  "training_file_sha256": "82f2f5a3e2b346ec675148b4aa8527f1f616bf14548cfcceef08ccf381aad6ce",
+  "upper_only_fit": {
+    "density": 3.423005963425024,
+    "translation_raw": [
+      114.45170984618431,
+      35.1338582471397
+    ],
+    "scale": 0.29214088747873823,
+    "raw_world_origin_if_applied": [
+      3823.563975912077,
+      960.7359634711285
+    ],
+    "NOT_APPLIED": true
+  },
+  "frozen": {
+    "density": 3.265625,
+    "translation_raw": [
+      104.5,
+      52.25
+    ]
+  },
+  "training": [
+    {
+      "id": "U1 leftmost culm emerges below upper side fan",
+      "upper_fit_residual_logical_xy": [
+        5.363424406123379,
+        -1.2841041998124894
+      ],
+      "upper_fit_norm": 5.515001809263166,
+      "frozen_residual_logical_xy": [
+        10.741626794258373,
+        -1.430622009569376
+      ],
+      "frozen_norm": 10.836476619334983
+    },
+    {
+      "id": "U2 left tall culm upper fan junction",
+      "upper_fit_residual_logical_xy": [
+        -1.7373903324609685,
+        -0.9925022979414564
+      ],
+      "upper_fit_norm": 2.0008962938513095,
+      "frozen_residual_logical_xy": [
+        4.358851674641144,
+        -2.377990430622006
+      ],
+      "frozen_norm": 4.965322387282797
+    },
+    {
+      "id": "U3 left-inner culm upper fan junction",
+      "upper_fit_residual_logical_xy": [
+        -2.006229635352568,
+        2.0980091123685867
+      ],
+      "upper_fit_norm": 2.902860586619434,
+      "frozen_residual_logical_xy": [
+        6.0047846889952154,
+        2.162679425837325
+      ],
+      "frozen_norm": 6.382368013530043
+    },
+    {
+      "id": "U4 tallest central culm upper crown junction",
+      "upper_fit_residual_logical_xy": [
+        -2.600814738584347,
+        -1.4765083199222886
+      ],
+      "upper_fit_norm": 2.990704619857552,
+      "frozen_residual_logical_xy": [
+        7.550239234449748,
+        -4.861244019138759
+      ],
+      "frozen_norm": 8.979855561813713
+    },
+    {
+      "id": "U5 right-inner tall culm upper fan junction",
+      "upper_fit_residual_logical_xy": [
+        -3.9482451666885368,
+        0.1083124406428908
+      ],
+      "upper_fit_norm": 3.9497305580352453,
+      "frozen_residual_logical_xy": [
+        8.258373205741634,
+        -1.9952153110047846
+      ],
+      "frozen_norm": 8.495976232463182
+    },
+    {
+      "id": "U6 right outer leaning culm upper fan junction",
+      "upper_fit_residual_logical_xy": [
+        4.92925546696307,
+        1.5467932646648563
+      ],
+      "upper_fit_norm": 5.166249012794281,
+      "frozen_residual_logical_xy": [
+        19.68421052631578,
+        0.09090909090909349
+      ],
+      "frozen_norm": 19.68442045139076
+    }
+  ],
+  "held_out": [
+    {
+      "id": "end_1",
+      "upper_fit_residual_logical_xy": [
+        1.5092253570588952,
+        15.731049998931155
+      ],
+      "upper_fit_norm": 15.803281154471101,
+      "frozen_residual_logical_xy": [
+        6.267942583732058,
+        24.69377990430621
+      ],
+      "frozen_norm": 25.476849691342903
+    },
+    {
+      "id": "end_2",
+      "upper_fit_residual_logical_xy": [
+        -5.0858987317805955,
+        5.877389935474412
+      ],
+      "upper_fit_norm": 7.772392061877951,
+      "frozen_residual_logical_xy": [
+        0.5598086124401931,
+        15.4736842105263
+      ],
+      "frozen_norm": 15.483807307301817
+    },
+    {
+      "id": "end_3",
+      "upper_fit_residual_logical_xy": [
+        -2.1639508713855093,
+        6.282265846634914
+      ],
+      "upper_fit_norm": 6.644512588713005,
+      "frozen_residual_logical_xy": [
+        4.875598086124398,
+        16.76555023923447
+      ],
+      "frozen_norm": 17.460101131485892
+    },
+    {
+      "id": "end_4",
+      "upper_fit_residual_logical_xy": [
+        -3.163411885777805,
+        3.5185782078804664
+      ],
+      "upper_fit_norm": 4.731550207284247,
+      "frozen_residual_logical_xy": [
+        5.129186602870817,
+        14.832535885167488
+      ],
+      "frozen_norm": 15.694351722573657
+    },
+    {
+      "id": "end_5",
+      "upper_fit_residual_logical_xy": [
+        -2.3981072902002154,
+        11.91099484833586
+      ],
+      "upper_fit_norm": 12.150008923963588,
+      "frozen_residual_logical_xy": [
+        8.822966507177028,
+        21.267942583732065
+      ],
+      "frozen_norm": 23.025423334472947
+    },
+    {
+      "id": "end_6",
+      "upper_fit_residual_logical_xy": [
+        -2.487001743687159,
+        14.426988826355
+      ],
+      "upper_fit_norm": 14.63978088186005,
+      "frozen_residual_logical_xy": [
+        11.043062200956939,
+        21.784688995215333
+      ],
+      "frozen_norm": 24.423797767596668
+    }
+  ],
+  "leave_one_upper_out": [
+    {
+      "omitted": "U1 leftmost culm emerges below upper side fan",
+      "density": 3.521973807296538,
+      "translation": [
+        95.89513938260063,
+        28.669543498596852
+      ],
+      "held_upper_residual_norm": 9.583600241386984
+    },
+    {
+      "omitted": "U2 left tall culm upper fan junction",
+      "density": 3.404978197674419,
+      "translation": [
+        118.27318313953481,
+        37.24473110465112
+      ],
+      "held_upper_residual_norm": 2.79065706056298
+    },
+    {
+      "omitted": "U3 left-inner culm upper fan junction",
+      "density": 3.407322273302685,
+      "translation": [
+        117.9895262842295,
+        34.8581517756013
+      ],
+      "held_upper_residual_norm": 3.7175547992446707
+    },
+    {
+      "omitted": "U4 tallest central culm upper crown junction",
+      "density": 3.4211964958222527,
+      "translation": [
+        116.46565203892936,
+        36.30318696597067
+      ],
+      "held_upper_residual_norm": 3.593618227178602
+    },
+    {
+      "omitted": "U5 right-inner tall culm upper fan junction",
+      "density": 3.4600620109257347,
+      "translation": [
+        112.7005462867267,
+        31.998877897534328
+      ],
+      "held_upper_residual_norm": 5.486694452660546
+    },
+    {
+      "omitted": "U6 right outer leaning culm upper fan junction",
+      "density": 3.3086050529043405,
+      "translation": [
+        123.8213971064564,
+        43.24987475707189
+      ],
+      "held_upper_residual_norm": 10.651904546380834
+    }
+  ],
+  "reading_uncertainty_sensitivity": {
+    "method": "10000 uniform independent read perturbations source\u00b14, candidate\u00b110; illustrative 5/50/95 percentiles, NOT confidence interval, ignores identity uncertainty",
+    "density_percentiles": [
+      3.3316502364635214,
+      3.4187794417078066,
+      3.509706643609019
+    ],
+    "held_residual_xy_percentiles": [
+      [
+        [
+          -1.8290628790355292,
+          10.057377054839625
+        ],
+        [
+          -8.03910584816523,
+          -0.09899527492587736
+        ],
+        [
+          -4.5861170408465,
+          -0.13194776355806778
+        ],
+        [
+          -5.2615911292970425,
+          -3.3289928068567405
+        ],
+        [
+          -4.5045639483044555,
+          6.047351994003142
+        ],
+        [
+          -5.301176858668538,
+          9.52391632028276
+        ]
+      ],
+      [
+        [
+          1.3772237854860983,
+          16.030623881364278
+        ],
+        [
+          -5.199432572744261,
+          6.189683367681425
+        ],
+        [
+          -2.247016054605524,
+          6.619106538900894
+        ],
+        [
+          -3.2173876932577983,
+          3.8808992325610063
+        ],
+        [
+          -2.3614410072212735,
+          12.223979470052114
+        ],
+        [
+          -2.3904933396503907,
+          14.672802254353712
+        ]
+      ],
+      [
+        [
+          4.5532088818901615,
+          22.023633971212778
+        ],
+        [
+          -2.3913431903027256,
+          12.5149994261761
+        ],
+        [
+          0.09225621418981012,
+          13.388443716799964
+        ],
+        [
+          -1.1818434752431222,
+          11.079768347258865
+        ],
+        [
+          -0.22261324295241305,
+          18.417426865525844
+        ],
+        [
+          0.5973111311880824,
+          19.854300233637513
+        ]
+      ]
+    ]
+  }
+}

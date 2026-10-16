@@ -1,0 +1,94 @@
+{
+  "status": "GENERATED_ONCE_NO_REGISTRATION_APPLIED",
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "raw_sha256": "88acdbb91946f142d84fcc735243f4d311c9df381aa736afb131f70e4bc82a4c",
+  "raw_origin": "generated_images/exec-b95a1fe7-21d6-4452-b878-926b46a8fe2a.png",
+  "alpha_range": [
+    0,
+    255
+  ],
+  "alpha_zero_count": 1452152,
+  "bbox_alpha_ge128": [
+    270,
+    227,
+    615,
+    677
+  ],
+  "normalization": "entire square1254 to512 LANCZOS only",
+  "model": "q=s*p+t, positive uniform, no rotation; calculated NOT applied",
+  "s": 0.25074691595990745,
+  "t_HD": [
+    114.61480821125676,
+    36.223785659213576
+  ],
+  "training_residual_HD": [
+    [
+      0.752240747879739,
+      0.7939957594448757
+    ],
+    [
+      -0.8030310331534167,
+      -0.3969978797224343
+    ],
+    [
+      0.050790285273706104,
+      -0.3969978797224343
+    ]
+  ],
+  "training_RMS_HD": 0.848321585068807,
+  "heldout_residual_HD": [
+    [
+      0.5014938319198166,
+      -1.0924730146491868
+    ],
+    [
+      0.5014938319198166,
+      -1.3252939475713248
+    ]
+  ],
+  "heldout_residual_logical": [
+    [
+      0.12537345797995414,
+      -0.2731182536622967
+    ],
+    [
+      0.12537345797995414,
+      -0.3313234868928312
+    ]
+  ],
+  "hair_width_only_scale_diagnostic": 0.2446043165467626,
+  "neck_under_chin_visible_depth_H_HD": 9,
+  "neck_under_chin_at_candidate_density_HD": 2.256722243639167,
+  "neck_under_chin_at_candidate_density_logical": 0.5641805609097917,
+  "neck_warning": "Visible below chin is not total hidden neck geometry. No torso collision test performed. Do not stretch root or infer unseen depth.",
+  "sensitivity": {
+    "seed": 94173,
+    "trials": 20000,
+    "s_minmax": [
+      0.2171706269855387,
+      0.28733969133353954
+    ],
+    "s_p05_p95": [
+      0.23343990578683912,
+      0.2683168987992136
+    ],
+    "heldout_y_p05_p95": [
+      [
+        -3.9988038647542488,
+        -4.499204712138445
+      ],
+      [
+        1.7957890672757701,
+        1.8536823950765635
+      ]
+    ],
+    "warning": "bounded reading perturbation only, not confidence interval; excludes perspective/model mismatch"
+  },
+  "excluded_point": {
+    "name": "forehead midline visible skin center",
+    "reason": "Detailed inspection shows nominal idle(160,89) lies in fringe/hair, not reliably visible forehead skin. New H also obscures center forehead. Excluded before solving; no substitute anchor chosen."
+  }
+}
