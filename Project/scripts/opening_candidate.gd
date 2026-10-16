@@ -49,8 +49,12 @@ func _physics_process(delta: float) -> void:
 	tick+=1
 	if not stopped and not dialog.visible: movement.step(delta,Input.is_key_pressed(KEY_SHIFT))
 	world.tick=tick
-	world.refresh()
+	request_visual_refresh()
 	_update_status()
+
+func request_visual_refresh() -> void:
+	# Default R6 remains synchronous. Optional display host may coalesce requests.
+	world.refresh()
 
 func _update_status() -> void:
 	status.text="R3 NPC story candidate | ET0=%d | STOP=%s | %s (%.2f, %.2f)\nA13/A00 map load scripts NOT executed; no save/combat. Only the two opening NPCs.\n%s"%[story.et[0],stopped,world.map.get("id","?"),movement.position.x,movement.position.y,notice]

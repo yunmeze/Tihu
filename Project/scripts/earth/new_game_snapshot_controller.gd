@@ -32,6 +32,49 @@ func _unhandled_input(event:InputEvent) -> void:
 	if event is InputEventMouseButton:
 		var mapped=map_display_point(event.position)
 		if not mapped.ok:return
+		if event.pressed and event.button_index==MOUSE_BUTTON_LEFT and ready_ok and not dialog.visible and opening_page<0:
+			flush_visual_refresh(true)
 		var copy=event.duplicate();copy.position=mapped.logical
 		super._unhandled_input(copy)
 	else:super._unhandled_input(event)
+
+# Optional visual scheduling contract v6: validate the latest state at each actual
+# flush. An undisplayed transient mutation between flushes need not latch failure.
+var visual_pending:=false
+var visual_requests:int=0
+var visual_flushes:int=0
+var visual_last_tick:int=-1
+var visual_last_world:int=0
+func request_visual_refresh() -> void:
+	visual_requests+=1
+	visual_pending=true
+func _process(_delta:float) -> void:
+	flush_visual_refresh()
+func flush_visual_refresh(force:bool=false) -> void:
+	if not ready_ok or not is_instance_valid(world):return
+	if not force and not visual_pending:return
+	world.tick=tick
+	world.refresh()
+	visual_flushes+=1
+	visual_last_tick=tick
+	visual_last_world=world.get_instance_id()
+	visual_pending=false
+func publish(staged:Dictionary) -> void:
+	# Base publication refresh is already synchronous after attachment. Keep it;
+	# pending work for the detached old world must never execute later.
+	staged.world.tick=tick
+	super.publish(staged)
+	visual_flushes+=1
+	visual_pending=false
+	visual_last_tick=tick
+	visual_last_world=world.get_instance_id()
+func reprepare_visuals() -> void:
+	# Explicit resource reload entry: no content hashing is deferred across drawing.
+	if not ready_ok or not is_instance_valid(world):return
+	if world.has_method("prepare_visuals"):world.prepare_visuals()
+	flush_visual_refresh(true)
+func commit_candidate(result:Dictionary,index:int) -> bool:
+	var committed=super.commit_candidate(result,index)
+	# Non-map dialogue commits can stop the actor and change its visible action.
+	if committed:request_visual_refresh()
+	return committed

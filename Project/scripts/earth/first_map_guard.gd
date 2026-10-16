@@ -1,7 +1,7 @@
 extends RefCounted
 ## This loader is intentionally confined to the frozen research registration.
 const REGISTRATION="res://assets/earth/first_map_review/registration.json"
-const REGISTRATION_SHA256="666eed5d3ea4f348999de1af1dc870c6e914c7333693c28ab088fe12c45034ea"
+const REGISTRATION_SHA256="0907115dcc611c8d89939acdcf2798ce2e153c9c030d4064122b07c16ad5c415"
 var failure:=""
 func numbers(value:Array,expected:Array) -> bool:
 	if value.size()!=expected.size():return false

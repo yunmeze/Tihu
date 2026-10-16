@@ -7,6 +7,10 @@ var ground_source_cells:Dictionary={}
 var qualification=preload("res://scripts/earth/snapshot_receiver_qualification.gd").new()
 func _init() -> void:
 	super() # Retain first_map_world replacement of the inherited sample floor pass.
+	# Optional host can exceed the original 768x512 review canvas. Preserve the
+	# pinned compositor parent and replace only its draw-coverage subclass.
+	shadow_compositor.free()
+	shadow_compositor=preload("res://scripts/earth/viewport_ground_shadow.gd").new()
 	review_guard=preload("res://scripts/earth/snapshot_ground_guard.gd").new()
 	static_props_guard=preload("res://scripts/earth/snapshot_props_guard.gd").new()
 	east_ground_guard=preload("res://scripts/earth/snapshot_east_guard.gd").new()

@@ -1,7 +1,7 @@
 extends RefCounted
 ## Exactly 57 east-corridor owners. This group never depends on the 121-owner art.
 const REGISTRATION="res://assets/earth/first_map_review/east_ground_registration.json"
-const REGISTRATION_SHA256="b737e81e6896b1cccc5de4f8d1c628ed41b51a2efcf5ada0f1d215cf78cd350d"
+const REGISTRATION_SHA256="5e0cd9ce45a071bd418f1057784c25785942c8b49c8d16a5e47711d35677ec40"
 const Identity=preload("res://scripts/earth/instance_identity_guard.gd")
 const Guard=preload("res://scripts/earth/asset_guard.gd")
 var failure:=""
