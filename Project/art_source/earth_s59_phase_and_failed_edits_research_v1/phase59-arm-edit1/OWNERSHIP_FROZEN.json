@@ -1,0 +1,56 @@
+{
+  "original_raw_sha256": "af037687c3987040456b84a3aa41daceaaaef8d8ee65f8754e0c95a3b9240a49",
+  "canvas": [
+    1254,
+    1254
+  ],
+  "logical_canvas": [
+    128,
+    128
+  ],
+  "support_polygon_logical": [
+    [
+      48,
+      29
+    ],
+    [
+      55,
+      29
+    ],
+    [
+      59,
+      37
+    ],
+    [
+      59,
+      52
+    ],
+    [
+      56,
+      55
+    ],
+    [
+      51,
+      54
+    ],
+    [
+      50,
+      47
+    ],
+    [
+      48,
+      40
+    ],
+    [
+      47,
+      34
+    ]
+  ],
+  "support_sha256": "b3f25a7504ac32754d911f4e959730c5626200a7c9cb1ec7d2fd0b165cd81d41",
+  "core_priority_sha256": "e1dc74b5a7a8628e5448667401e8a629aa0c884cd8301b26c1c790f3421cf2a4",
+  "ownership": "bounded flattened right-arm donor, not isolated component",
+  "recipe_proposed": "Original raw stays fixed outside explicit support. New donor inside support, with original fixed core/waist priority. Exact method will report erased-old-arm support and semialpha underlap; no automatic alpha clipping genuine spill. No transform except wholecanvas equal-resolution reading, any other registration requires separate decision.",
+  "shoulder_underlap": "support begins y29 under existing red shoulder cap; continuity disputed pixels reviewed separately",
+  "generated_external_changes": "must quantify full raw output against original before assembly",
+  "no_local_transform": true
+}

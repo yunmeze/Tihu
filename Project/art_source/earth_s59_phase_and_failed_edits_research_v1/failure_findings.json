@@ -1,0 +1,628 @@
+{
+  "generation-attempt1": {
+    "raw_size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "raw_sha256": "74ae28c1cc328bd7b69a189b2f4d7bd27f4d774c3dabc5a052e5a76195e2fc80",
+    "alpha0_total": 1291830,
+    "alpha255_total": 0,
+    "alpha_positive_total": 281034,
+    "alpha_minmax": [
+      0,
+      254
+    ],
+    "frames": [
+      {
+        "id": 57,
+        "cell_xyxy": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "alpha0": 217692,
+        "alpha255": 0,
+        "alpha_max": 254,
+        "alpha128_bbox": [
+          94,
+          53,
+          275,
+          457
+        ],
+        "border_nonzero_count": 0,
+        "border_alpha_max": 0,
+        "manual_toe_raw_xy": [
+          [
+            155,
+            452
+          ],
+          [
+            207,
+            336
+          ]
+        ],
+        "manual_toe_fixed_cell_logical_xy": [
+          [
+            38.75,
+            113.0
+          ],
+          [
+            51.75,
+            84.0
+          ]
+        ],
+        "toe_uncertainty_HD_px": 3,
+        "source_toes_logical": [
+          [
+            35,
+            91
+          ],
+          [
+            45,
+            73
+          ]
+        ],
+        "source_LminusR_y": 18,
+        "raw_LminusR_y_at_nominal_density4": 29.0,
+        "source_delta_sign_retained": true,
+        "head_center_raw": [
+          185,
+          80
+        ]
+      },
+      {
+        "id": 58,
+        "cell_xyxy": [
+          512,
+          0,
+          1024,
+          512
+        ],
+        "alpha0": 218538,
+        "alpha255": 0,
+        "alpha_max": 254,
+        "alpha128_bbox": [
+          163,
+          52,
+          343,
+          404
+        ],
+        "border_nonzero_count": 11,
+        "border_alpha_max": 1,
+        "manual_toe_raw_xy": [
+          [
+            741,
+            400
+          ],
+          [
+            791,
+            353
+          ]
+        ],
+        "manual_toe_fixed_cell_logical_xy": [
+          [
+            57.25,
+            100.0
+          ],
+          [
+            69.75,
+            88.25
+          ]
+        ],
+        "toe_uncertainty_HD_px": 3,
+        "source_toes_logical": [
+          [
+            35,
+            88
+          ],
+          [
+            46,
+            73
+          ]
+        ],
+        "source_LminusR_y": 15,
+        "raw_LminusR_y_at_nominal_density4": 11.75,
+        "source_delta_sign_retained": true,
+        "head_center_raw": [
+          770,
+          80
+        ]
+      },
+      {
+        "id": 59,
+        "cell_xyxy": [
+          1024,
+          0,
+          1536,
+          512
+        ],
+        "alpha0": 212060,
+        "alpha255": 0,
+        "alpha_max": 254,
+        "alpha128_bbox": [
+          201,
+          54,
+          384,
+          452
+        ],
+        "border_nonzero_count": 0,
+        "border_alpha_max": 0,
+        "manual_toe_raw_xy": [
+          [
+            1287,
+            448
+          ],
+          [
+            1347,
+            414
+          ]
+        ],
+        "manual_toe_fixed_cell_logical_xy": [
+          [
+            65.75,
+            112.0
+          ],
+          [
+            80.75,
+            103.5
+          ]
+        ],
+        "toe_uncertainty_HD_px": 3,
+        "source_toes_logical": [
+          [
+            35,
+            83
+          ],
+          [
+            46,
+            88
+          ]
+        ],
+        "source_LminusR_y": -5,
+        "raw_LminusR_y_at_nominal_density4": 8.5,
+        "source_delta_sign_retained": false,
+        "head_center_raw": [
+          1318,
+          80
+        ]
+      },
+      {
+        "id": 60,
+        "cell_xyxy": [
+          0,
+          512,
+          512,
+          1024
+        ],
+        "alpha0": 216033,
+        "alpha255": 0,
+        "alpha_max": 254,
+        "alpha128_bbox": [
+          93,
+          51,
+          279,
+          459
+        ],
+        "border_nonzero_count": 1,
+        "border_alpha_max": 1,
+        "manual_toe_raw_xy": [
+          [
+            158,
+            861
+          ],
+          [
+            215,
+            966
+          ]
+        ],
+        "manual_toe_fixed_cell_logical_xy": [
+          [
+            39.5,
+            87.25
+          ],
+          [
+            53.75,
+            113.5
+          ]
+        ],
+        "toe_uncertainty_HD_px": 3,
+        "source_toes_logical": [
+          [
+            35,
+            73
+          ],
+          [
+            46,
+            91
+          ]
+        ],
+        "source_LminusR_y": -18,
+        "raw_LminusR_y_at_nominal_density4": -26.25,
+        "source_delta_sign_retained": true,
+        "head_center_raw": [
+          185,
+          591
+        ]
+      },
+      {
+        "id": 61,
+        "cell_xyxy": [
+          512,
+          512,
+          1024,
+          1024
+        ],
+        "alpha0": 214671,
+        "alpha255": 0,
+        "alpha_max": 254,
+        "alpha128_bbox": [
+          163,
+          50,
+          350,
+          450
+        ],
+        "border_nonzero_count": 19,
+        "border_alpha_max": 1,
+        "manual_toe_raw_xy": [
+          [
+            741,
+            852
+          ],
+          [
+            797,
+            958
+          ]
+        ],
+        "manual_toe_fixed_cell_logical_xy": [
+          [
+            57.25,
+            85.0
+          ],
+          [
+            71.25,
+            111.5
+          ]
+        ],
+        "toe_uncertainty_HD_px": 3,
+        "source_toes_logical": [
+          [
+            35,
+            74
+          ],
+          [
+            46,
+            88
+          ]
+        ],
+        "source_LminusR_y": -14,
+        "raw_LminusR_y_at_nominal_density4": -26.5,
+        "source_delta_sign_retained": true,
+        "head_center_raw": [
+          770,
+          592
+        ]
+      },
+      {
+        "id": 62,
+        "cell_xyxy": [
+          1024,
+          512,
+          1536,
+          1024
+        ],
+        "alpha0": 212836,
+        "alpha255": 0,
+        "alpha_max": 254,
+        "alpha128_bbox": [
+          201,
+          49,
+          386,
+          433
+        ],
+        "border_nonzero_count": 0,
+        "border_alpha_max": 0,
+        "manual_toe_raw_xy": [
+          [
+            1287,
+            941
+          ],
+          [
+            1347,
+            921
+          ]
+        ],
+        "manual_toe_fixed_cell_logical_xy": [
+          [
+            65.75,
+            107.25
+          ],
+          [
+            80.75,
+            102.25
+          ]
+        ],
+        "toe_uncertainty_HD_px": 3,
+        "source_toes_logical": [
+          [
+            35,
+            87
+          ],
+          [
+            46,
+            83
+          ]
+        ],
+        "source_LminusR_y": 4,
+        "raw_LminusR_y_at_nominal_density4": 5.0,
+        "source_delta_sign_retained": true,
+        "head_center_raw": [
+          1318,
+          590
+        ]
+      }
+    ],
+    "head_layout_only_global_similarity_diagnostic": {
+      "source_sheet_head_centers_HD4": [
+        [
+          160.0,
+          88.0
+        ],
+        [
+          676.0,
+          84.0
+        ],
+        [
+          1188.0,
+          84.0
+        ],
+        [
+          164.0,
+          600.0
+        ],
+        [
+          672.0,
+          596.0
+        ],
+        [
+          1188.0,
+          596.0
+        ]
+      ],
+      "generated_head_centers_HD": [
+        [
+          185.0,
+          80.0
+        ],
+        [
+          770.0,
+          80.0
+        ],
+        [
+          1318.0,
+          80.0
+        ],
+        [
+          185.0,
+          591.0
+        ],
+        [
+          770.0,
+          592.0
+        ],
+        [
+          1318.0,
+          590.0
+        ]
+      ],
+      "manual_uncertainty_HD_px": 3,
+      "scale": 1.0753498554103103,
+      "translation": [
+        32.163964216510635,
+        -31.552750646719232
+      ],
+      "residuals_HD": [
+        [
+          -19.21994108216029,
+          16.921963370611934
+        ],
+        [
+          10.899533526119626,
+          21.22336279225317
+        ],
+        [
+          8.320407556040664,
+          21.22336279225317
+        ],
+        [
+          -23.521340503801525,
+          -22.657162599466915
+        ],
+        [
+          15.200932947760862,
+          -17.35576317782568
+        ],
+        [
+          8.320407556040664,
+          -19.35576317782568
+        ]
+      ],
+      "max_residual_HD": 32.65884989025879,
+      "rms_residual_HD": 25.12441161215887,
+      "horizontal_center_gaps_HD": [
+        585,
+        548
+      ],
+      "vertical_center_gaps_HD": [
+        511,
+        512,
+        510
+      ],
+      "interpretation": "Layout feasibility test only. No transform applied. Head scale/density and cell spacing are distinct; these unequal x/y spacings cannot be rescued by one isotropic whole-sheet scale."
+    }
+  },
+  "phase59-attempt1": {
+    "classification": "single-canvas layout / foot-phase controllability candidate; upper-limb phase not accepted",
+    "raw_size": [
+      1254,
+      1254
+    ],
+    "raw_sha256": "af037687c3987040456b84a3aa41daceaaaef8d8ee65f8754e0c95a3b9240a49",
+    "actual_display_mapping": {
+      "scale_to512": 0.4082934609250399,
+      "translation": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "nontrivial_registration_applied": false
+    },
+    "zero_alpha_pixels": 1424243,
+    "opaque_pixels": 571,
+    "border_positive_pixels": 0,
+    "toe_surfaces": {
+      "L": {
+        "manual_isolated_toe_roi_logical": [
+          28,
+          75,
+          39,
+          86
+        ],
+        "terminal_alpha128_bottom_row_center_logical": [
+          33.73524720893142,
+          82.67942583732058
+        ],
+        "generated_visible_surface_uncertainty_logical": 0.75,
+        "interpretation": "visible boot surface terminal only, not contact/ankle"
+      },
+      "R": {
+        "manual_isolated_toe_roi_logical": [
+          42,
+          80,
+          52,
+          94
+        ],
+        "terminal_alpha128_bottom_row_center_logical": [
+          47.56618819776715,
+          89.62041467304626
+        ],
+        "generated_visible_surface_uncertainty_logical": 0.75,
+        "interpretation": "visible boot surface terminal only, not contact/ankle"
+      }
+    },
+    "source_toe_surfaces": {
+      "L": [
+        35,
+        83
+      ],
+      "R": [
+        46,
+        88
+      ],
+      "uncertainty": 1
+    },
+    "hand_visible_skin_manual_read_logical": {
+      "source_L_bbox": [
+        25,
+        49,
+        29,
+        53
+      ],
+      "source_R_bbox": [
+        52,
+        45,
+        55,
+        48
+      ],
+      "source_uncertainty": 2,
+      "raw_L_bbox": [
+        24.75,
+        49.5,
+        28,
+        52.5
+      ],
+      "raw_R_bbox": [
+        52,
+        50.5,
+        55.5,
+        54
+      ],
+      "raw_uncertainty": 1,
+      "note": "Actual exposed finger/skin areas visually read in HAND_READ_GRID, not metal sleeve extremities. Bboxes approximate and inclusive."
+    },
+    "wrist_cuff_material_proxy_y": {
+      "source_L": 48,
+      "source_R": 44,
+      "source_uncertainty": 3,
+      "raw_L": 46.5,
+      "raw_R": 48,
+      "raw_uncertainty": 1.5,
+      "not_joint": true
+    },
+    "right_arm_outer_sleeve_forearm_turn_proxy": {
+      "source_xy": [
+        55.5,
+        42
+      ],
+      "source_uncertainty": 2,
+      "raw_xy": [
+        57,
+        42
+      ],
+      "raw_uncertainty": 1.5,
+      "note": "visible contour turn; modern armor changes contour; not anatomical elbow, no proven need to translate elbow"
+    },
+    "limits": [
+      "no physical foot-contact proof",
+      "no head/torso compensation or registration",
+      "single frame not accepted six-phase sequence",
+      "surface/cuff proxies not anatomical joints"
+    ]
+  },
+  "phase59-arm-edit1": {
+    "raw_sha256": "35664d5d6e0439f46ab0c574c23b757edf35c09dd6c3e3cb167ccfca1dd2d00f",
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha0": 1386716,
+    "alpha255": 328,
+    "total_changed_rgba": 207703,
+    "outside_support_changed_rgba": 184999,
+    "outside_support_changed_visible_alpha": 184920,
+    "outside_support_changed_strong_alpha": 170908,
+    "core_priority_changed_rgba": 89031,
+    "whole_raw_no_transform": true,
+    "right_distal_roi_logical": [
+      57,
+      54,
+      63,
+      62
+    ],
+    "strong_spill_count": 2559,
+    "strong_spill_bbox_raw_xyxy": [
+      558,
+      529,
+      604,
+      603
+    ],
+    "manual_visible_skin_terminal_y_logical": {
+      "source_L": 53,
+      "source_R": 48,
+      "source_uncertainty": 2,
+      "before_L": 52.5,
+      "before_R": 54,
+      "before_uncertainty": 1,
+      "new_raw_L": 56.5,
+      "new_raw_R": 61,
+      "new_uncertainty": 1
+    },
+    "independent_head_top_y_approx_raw": {
+      "before": 142,
+      "after": 178,
+      "uncertainty": 4
+    },
+    "status": "REJECT local edit: right hand lower rather than raised; global redraw; genuine strong hand spill outside frozen support. No donor extraction or composite."
+  }
+}

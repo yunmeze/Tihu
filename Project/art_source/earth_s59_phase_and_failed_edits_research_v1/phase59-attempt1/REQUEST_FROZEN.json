@@ -1,0 +1,29 @@
+{
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "prompt_sha256": "7af3cc725c226e0396b7d221c412aeadae48e43e54ddee1383ff1c31b5b01837",
+  "attempt_budget": 1,
+  "references": [
+    {
+      "order": 1,
+      "path": "/workspace/scratch/22c897619190/recovery-work/s-walk-sequence-plan/phase59-attempt1/REF01_PHASE59_GUIDE.png",
+      "sha256": "2db018ff261aa03fa335543d91e01739364f64304e42b7ca0e987e73514eb134"
+    },
+    {
+      "order": 2,
+      "path": "/workspace/scratch/22c897619190/recovery-work/s-walk-sequence-plan/phase59-attempt1/REF02_PHASE59_SOURCE.png",
+      "sha256": "eac5d9e56935903cd93c3b614713af7ebd260b4aa6c7f7e912d33f3285408969"
+    },
+    {
+      "order": 3,
+      "path": "/workspace/scratch/22c897619190/recovery-work/s-walk-sequence-plan/phase59-attempt1/REF03_APPROVED_IDLE17_IDENTITY.png",
+      "sha256": "6371d05af2239971836cfe30846e0d84b086e7020af69a6c9b2ad44a9e155f92"
+    },
+    {
+      "order": 4,
+      "path": "/workspace/scratch/22c897619190/recovery-work/s-walk-sequence-plan/phase59-attempt1/REF04_APPROVED_MATERIAL_DETAILS.png",
+      "sha256": "9f660215efd18ffe953b51bc5316f358d94cd71b71a2c1806f6d467641b9043d"
+    }
+  ],
+  "source_rule": "exact59 source and guide nearest4x; exact idle17 first512cell; no failed output used"
+}

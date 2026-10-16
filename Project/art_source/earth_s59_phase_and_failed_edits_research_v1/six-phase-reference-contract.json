@@ -1,0 +1,58 @@
+{
+  "status": "FROZEN_FOR_ROOT_REVIEW_NO_GENERATION",
+  "canvas": [
+    1536,
+    1024
+  ],
+  "cells": [
+    512,
+    512
+  ],
+  "phase_order": [
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+  ],
+  "root_per_cell": [
+    64,
+    256
+  ],
+  "logical_density": 4,
+  "frame_duration_ms": 140,
+  "reference_order": [
+    {
+      "order": 1,
+      "file": "REF01_NEUTRAL_SIX_PHASE_GUIDE.png",
+      "sha256": "e6e5c333ddc585364d468ee8b1af07ca32f5b7e0960c979f6b93e597a0a6ed1c",
+      "role": "pose guide with explicit uncertainty"
+    },
+    {
+      "order": 2,
+      "file": "REF02_ORIGINAL_SIX_POSE_ONLY.png",
+      "sha256": "0c095267285163e02178ea43124869f789678bc5e723fa26784019cc73b1e65b",
+      "role": "original pose evidence, not costume or cast target"
+    },
+    {
+      "order": 3,
+      "file": "REF03_APPROVED_IDLE_IDENTITY.png",
+      "sha256": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e",
+      "role": "approved S idle identity"
+    },
+    {
+      "order": 4,
+      "file": "REF04_APPROVED_MATERIAL_DETAILS.png",
+      "sha256": "9f660215efd18ffe953b51bc5316f358d94cd71b71a2c1806f6d467641b9043d",
+      "role": "approved neutral material details"
+    }
+  ],
+  "restrictions": [
+    "source surface positions are not bone/contact proof",
+    "pink unresolved pixels are annotation only",
+    "no old failed walking candidates",
+    "no source costume transfer",
+    "no local fitting or deformation"
+  ]
+}

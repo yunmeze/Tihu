@@ -1,0 +1,71 @@
+{
+  "schema": "earth-failed-research-archive-v1",
+  "kind": "west-building",
+  "status": "Research only; not art accepted. Roof broadly registered; door steps/column footings locally low. 3,244 alpha>=128 pixels outside original owner rectangles; front projection enters walkable cell (40,38). No owner-support expansion or runtime activation.",
+  "runtime_enabled": false,
+  "files": [
+    {
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/remaining-buildings/attempt1/generated-raw.png",
+      "path": "generated-raw.png",
+      "sha256": "1d097accadb86aafcf56015e8bee5588495621da017935a68b63143f7e041582",
+      "bytes": 1167579
+    },
+    {
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/remaining-buildings/attempt1/prompt_actual.txt",
+      "path": "prompt_actual.txt",
+      "sha256": "b0de588f939452331f1b94574318aa961ff1c9074e1590dbb482591dec96a973",
+      "bytes": 2128
+    },
+    {
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/remaining-buildings/attempt1/contract-before-generation.json",
+      "path": "contract-before-generation.json",
+      "sha256": "fe981daa254c19f55d4380752d4ce9d8b55a8fbe7cef358318752bf68e4f3c9b",
+      "bytes": 1970
+    },
+    {
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/remaining-buildings/attempt1/primary-source-complete-padded.png",
+      "path": "primary-source-complete-padded.png",
+      "sha256": "d7f486a378b5983711a353e1e1e9a26d705e95f98a987ddf2f9018ffe9636f3e",
+      "bytes": 347703
+    },
+    {
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/remaining-buildings/attempt1/landmark-review.json",
+      "path": "landmark-review.json",
+      "sha256": "f89364c3256a97e2e055c8d20c5026e3a7c181d637ecda5f508b8d27c3a6fd9d",
+      "bytes": 7756
+    },
+    {
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/remaining-buildings/attempt1/owner-support-review.json",
+      "path": "owner-support-review.json",
+      "sha256": "f5c23fb8ca8ed987c6a93c859cc2e45a8244bed43e791b9d3024a52ed53889ec",
+      "bytes": 8743
+    }
+  ],
+  "tracked_dependencies": [
+    {
+      "path": "art_source/earth_training_hall_source_v1/concept-building-crop.png",
+      "sha256": "af7d9ff3ec0cd843909d1604973d6b60ad8379fcd5bffd43c773f33943f25624",
+      "bytes": 491248
+    },
+    {
+      "path": "assets/original/Map/Res/Building/0.png",
+      "sha256": "6fc88a1aa96eb18687eea798bcb4eae1f0ebf6d546a5a076fb1c2546550b3343",
+      "bytes": 2138303
+    },
+    {
+      "path": "assets/original/manifest.json",
+      "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+      "bytes": 262324
+    },
+    {
+      "path": "data/maps/A13.json",
+      "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+      "bytes": 618373
+    }
+  ],
+  "generation_reproduction": "Original model sampling is not deterministic/replayable. Exact submitted prompt and reference bytes are retained or pinned. Reproduction verifies these bytes and deterministically replays only declared source/composition mappings.",
+  "generation_provenance": {
+    "author_confirmed_actual_request": true,
+    "references_note": "Exactly the two actual_request.json references were submitted; shadow-evidence-guide was not."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "attempts_authorized": 1,
+  "phase_only": 293,
+  "refs": [
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/daotong-design-input/phase293-attempt1/primary-source293-complete-square.png",
+      "sha256": "55ba8aa337a9146972ced587b5dc0c4cebcfb5087a5386bb5a6cb70c30169539"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/daotong-design-input/source-detail-4x.png",
+      "sha256": "1f66dd8e8014f97a3b183b65ccbef64ac851aaa1052d4fd1ffb5e747a67fd196"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/daotong-design-input/phase293-attempt1/material-ling-jacket-hands.png",
+      "sha256": "a269c11bda35de57c567b90fbb782f4d18132f7eb81de3a5c31681a122139d6d"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/daotong-design-input/phase293-attempt1/material-fang-wrist-sleeve.png",
+      "sha256": "44d5bd08387346c84946542f9f4945d901740996825947231724aeb6a9578d9f"
+    }
+  ],
+  "primary_role": "complete original293 including all source pixels; pose/placement authoritative; checker shadow evidence only, do not reproduce",
+  "source_original_size": [
+    48,
+    54
+  ],
+  "source_original_draw_offset": [
+    3,
+    -20
+  ],
+  "logical_roi_relative_to_NPC_anchor": [
+    -11,
+    -30,
+    80,
+    80
+  ],
+  "input_square_pixels": [
+    640,
+    640
+  ],
+  "input_density": 8,
+  "source_rect_input": [
+    112,
+    80,
+    384,
+    432
+  ],
+  "output_mapping": "raw square whole canvas uniformly resample to320x320 density4; no bbox fit/crop/recenter; then paste at(84,296) into512x640 transparent final frame",
+  "final_logical_canvas": [
+    128,
+    160
+  ],
+  "final_draw_offset": [
+    -32,
+    -104
+  ],
+  "final_density": 4,
+  "final_frame_size": [
+    512,
+    640
+  ],
+  "foot_proxy_input_band_xyxy": [
+    224,
+    480,
+    336,
+    504
+  ],
+  "foot_proxy_uncertainty_input_pixels": 16,
+  "shadow": "no generated or source checker shadow in new body",
+  "postprocessing": "uniform full-canvas mapping and fixed paste only; preserve raw and alpha, no silhouette clipping or alpha cleanup",
+  "style_crops": [
+    {
+      "source": "assets/earth/npc/lingyunzi_v2/body.png",
+      "xyxy": [
+        180,
+        304,
+        265,
+        390
+      ]
+    },
+    {
+      "source": "assets/earth/npc/fangzhang_v1/body.png",
+      "xyxy": [
+        113,
+        303,
+        179,
+        366
+      ]
+    }
+  ],
+  "prompt_path": "recovery-work/daotong-design-input/phase293-attempt1/prompt_actual.txt",
+  "prompt_sha256": "27d88e8b7f379f454bd33df400afbcabeb9f0d58a7620a3a599f9e490c25018b"
+}

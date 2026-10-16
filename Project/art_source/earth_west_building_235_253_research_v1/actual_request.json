@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "prompt": "prompt_actual.txt",
+  "prompt_sha256": "b0de588f939452331f1b94574318aa961ff1c9074e1590dbb482591dec96a973",
+  "references": [
+    {
+      "package_path": "primary-source-complete-padded.png",
+      "sha256": "d7f486a378b5983711a353e1e1e9a26d705e95f98a987ddf2f9018ffe9636f3e"
+    },
+    {
+      "project_path": "art_source/earth_training_hall_source_v1/concept-building-crop.png",
+      "sha256": "af7d9ff3ec0cd843909d1604973d6b60ad8379fcd5bffd43c773f33943f25624"
+    }
+  ],
+  "excluded_reference": "shadow-evidence-guide.png was NOT sent to the generator; historical input_sha256 lists it only as preparation evidence."
+}

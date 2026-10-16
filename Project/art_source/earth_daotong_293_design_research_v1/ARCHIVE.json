@@ -1,0 +1,90 @@
+{
+  "schema": "earth-failed-research-archive-v1",
+  "kind": "daotong",
+  "status": "Design candidate only. Hands too symmetric, silhouette narrowed and head low. Single phase293 only; no four-phase replication, art acceptance or runtime activation.",
+  "runtime_enabled": false,
+  "files": [
+    {
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/daotong-design-input/phase293-attempt1/generated-raw.png",
+      "path": "generated-raw.png",
+      "sha256": "6d37cda7e8999d7b854e4dabf39cbd3e3e47d0ec70a45f65e98b65366795c011",
+      "bytes": 618939
+    },
+    {
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/daotong-design-input/phase293-attempt1/prompt_actual.txt",
+      "path": "prompt_actual.txt",
+      "sha256": "27d88e8b7f379f454bd33df400afbcabeb9f0d58a7620a3a599f9e490c25018b",
+      "bytes": 3279
+    },
+    {
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/daotong-design-input/phase293-attempt1/contract-before-generation.json",
+      "path": "contract-before-generation.json",
+      "sha256": "3af5ddc8b286dc323b03436eef1584f7460236b394983b449c05f9938db0291f",
+      "bytes": 2579
+    },
+    {
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/daotong-design-input/phase293-attempt1/primary-source293-complete-square.png",
+      "path": "primary-source293-complete-square.png",
+      "sha256": "55ba8aa337a9146972ced587b5dc0c4cebcfb5087a5386bb5a6cb70c30169539",
+      "bytes": 8516
+    },
+    {
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/daotong-design-input/phase293-attempt1/material-ling-jacket-hands.png",
+      "path": "material-ling-jacket-hands.png",
+      "sha256": "a269c11bda35de57c567b90fbb782f4d18132f7eb81de3a5c31681a122139d6d",
+      "bytes": 18998
+    },
+    {
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/daotong-design-input/phase293-attempt1/material-fang-wrist-sleeve.png",
+      "path": "material-fang-wrist-sleeve.png",
+      "sha256": "44d5bd08387346c84946542f9f4945d901740996825947231724aeb6a9578d9f",
+      "bytes": 5178
+    },
+    {
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/daotong-design-input/phase293-attempt1/candidate293-density4.png",
+      "path": "candidate293-density4.png",
+      "sha256": "9a488261c30552618c217e5a16356a0d2adffeefe88646defe495f8bd0bc13f2",
+      "bytes": 50949
+    },
+    {
+      "historical_path": "/workspace/scratch/22c897619190/recovery-work/daotong-design-input/source-detail-4x.png",
+      "path": "source-detail-4x.png",
+      "sha256": "1f66dd8e8014f97a3b183b65ccbef64ac851aaa1052d4fd1ffb5e747a67fd196",
+      "bytes": 17832
+    }
+  ],
+  "tracked_dependencies": [
+    {
+      "path": "assets/earth/npc/fangzhang_v1/body.png",
+      "sha256": "21cfcd0e60c40944c3623e2d9b989e3d7eeb006a3ebbd2be648a69f655cf04bc",
+      "bytes": 54205
+    },
+    {
+      "path": "assets/earth/npc/lingyunzi_v2/body.png",
+      "sha256": "541c6d0a7a1cf3dd1cd547be037cf17e2f9a6083b8de90c1641f13fbaf9bbb9e",
+      "bytes": 174506
+    },
+    {
+      "path": "assets/original/Npc/0.png",
+      "sha256": "c0de28cf0fe814dec4829db167869c7ebed876cc9cc2086f99d490427a0bfa67",
+      "bytes": 125130
+    },
+    {
+      "path": "assets/original/manifest.json",
+      "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+      "bytes": 262324
+    },
+    {
+      "path": "data/maps/A13.json",
+      "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+      "bytes": 618373
+    }
+  ],
+  "generation_reproduction": "Original model sampling is not deterministic/replayable. Exact submitted prompt and reference bytes are retained or pinned. Reproduction verifies these bytes and deterministically replays only declared source/composition mappings.",
+  "generation_provenance": {
+    "author_confirmed_actual_request": true,
+    "original_generated_path": "generated_images/exec-ef7bf80f-9903-4cce-806a-e9de68234c72.png",
+    "raw_sha256": "6d37cda7e8999d7b854e4dabf39cbd3e3e47d0ec70a45f65e98b65366795c011",
+    "references_note": "The source-detail-4x actual reference contains four source phases as pose evidence; output remains phase293 only."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "source_world_bounds": [
+    1426,
+    660,
+    2208,
+    1216
+  ],
+  "logical_canvas": [
+    832,
+    832
+  ],
+  "source_xy": [
+    25,
+    138
+  ],
+  "canvas_world_origin": [
+    1401,
+    522
+  ],
+  "mapping": "raw pixel = (world - canvas_world_origin) * actual_raw_width/832; square uniform only",
+  "target_raw_density": ">=2 desired;1254 square is1.5072115 and not automatically failed",
+  "refs_order": [
+    "primary-source-complete-padded.png",
+    "material-only-reference.png"
+  ],
+  "shadow": "Primary source unchanged incl checker ground shadow. Magenta diagnostic polygons mark clearly exterior checker only; not exhaustive body mask; never applied to raw or output. Body is tiled roof/walls/columns/stairs/stone footing. Dark textured door recess remains body.",
+  "source_landmark_proxies_local": {
+    "highest_ridge_tip": [
+      274,
+      2
+    ],
+    "left_eave_tip": [
+      0,
+      184
+    ],
+    "right_eave_tip": [
+      720,
+      300
+    ],
+    "recess_stair_base": [
+      314,
+      388
+    ],
+    "front_door_step": [
+      472,
+      495
+    ],
+    "right_front_footing_corner": [
+      519,
+      552
+    ]
+  },
+  "proxy_uncertainty_logical_pixels": {
+    "roof": 3,
+    "door_steps": 6,
+    "footing": 4
+  },
+  "input_sha256": {
+    "/workspace/scratch/22c897619190/recovery-work/remaining-buildings/source-235-253.png": "2c1ca9deab8d92916f3f0a6f179ed19d55c233ccfc8ee64c8925efd57b7d9845",
+    "/workspace/scratch/22c897619190/recovery-work/remaining-buildings/attempt1/primary-source-complete-padded.png": "d7f486a378b5983711a353e1e1e9a26d705e95f98a987ddf2f9018ffe9636f3e",
+    "/workspace/scratch/22c897619190/recovery-work/remaining-buildings/attempt1/material-only-reference.png": "af7d9ff3ec0cd843909d1604973d6b60ad8379fcd5bffd43c773f33943f25624",
+    "/workspace/scratch/22c897619190/recovery-work/remaining-buildings/attempt1/shadow-evidence-guide.png": "bffb522a0b40ef475b468c79ec6a715e2436916c63140231baf2ac8802849168"
+  }
+}
