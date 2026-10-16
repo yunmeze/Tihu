@@ -1,5 +1,6 @@
 extends RefCounted
 ## Pure, detached source-map event preparation. Caller owns one atomic publication.
+const NpcIdentity = preload("res://scripts/core/npc_source_identity.gd")
 const VM = preload("res://scripts/core/dialogue_vm.gd")
 const MAX_JSON_NODES := 2000000 # Four-map source JSON includes all cells and byte offsets.
 const MAX_JSON_DEPTH := 32
@@ -7,13 +8,13 @@ const MAX_JSON_TEXT := 8388608
 const EVENT_KEYS := {"stop":["kind"],"unstop":["kind"],"move":["kind","x","y"],"delnpc":["kind","x","y"],"setmapflag":["kind","x","y","flag"],"addmon":["kind","x","y","name"]}
 const MAX_ADDED_UNITS := 512 # Bounded adapter safety limit, not original game capacity.
 
-static func prepare(source_map: Dictionary, story: Dictionary, actor: Dictionary, context: Dictionary, registry: Dictionary = {}, resource_preflight: Callable = Callable()) -> Dictionary:
+static func prepare(source_map: Dictionary, story: Dictionary, actor: Dictionary, context: Dictionary, registry: Dictionary = {}, resource_preflight: Callable = Callable(), bind_npc_identity: bool = false) -> Dictionary:
 	if not json_safe(source_map): return fail("Source map is not bounded acyclic JSON")
 	var result := VM.execute(source_map.get("loadScript",""),story,"START",2048,context)
 	if not result.ok: return fail("Script: "+str(result.error))
-	return prepare_events(source_map,actor,result,registry,resource_preflight)
+	return prepare_events(source_map,actor,result,registry,resource_preflight,bind_npc_identity)
 
-static func prepare_events(source_map: Dictionary, actor: Dictionary, result: Dictionary, registry: Dictionary = {}, resource_preflight: Callable = Callable()) -> Dictionary:
+static func prepare_events(source_map: Dictionary, actor: Dictionary, result: Dictionary, registry: Dictionary = {}, resource_preflight: Callable = Callable(), bind_npc_identity: bool = false) -> Dictionary:
 	for input in [source_map,actor,result,registry]:
 		if not json_safe(input): return fail("Input is not bounded acyclic JSON")
 	if not exact_keys(actor,["cell","stopped","random_cursor"]): return fail("Unexpected actor fields")
@@ -96,7 +97,13 @@ static func prepare_events(source_map: Dictionary, actor: Dictionary, result: Di
 				var definition: Dictionary=registrations[event.name]
 				prepared_map.added_units.append({"x":int(event.x),"y":int(event.y),"name":event.name,"definition_id":int(definition.definition_id),"texture_manifest":definition.texture_manifest,"runtime_behavior":"entity_record_only"})
 	prepared_actor.random_cursor=int(actor.random_cursor)+int(result.random_consumed)
-	return {"ok":true,"map":prepared_map,"story":result.state.duplicate(true),"actor":prepared_actor,"silent":result.silent,"events":result.events.duplicate(true),"error":""}
+	var output := {"ok":true,"map":prepared_map,"story":result.state.duplicate(true),"actor":prepared_actor,"silent":result.silent,"events":result.events.duplicate(true),"error":""}
+	if bind_npc_identity:
+		var identity := NpcIdentity.prepare(source_map,prepared_map,result.events)
+		if not identity.ok: return fail(identity.error)
+		output.npc_identity=identity.identity
+		output.npc_source_stamp=identity.stamp
+	return output
 
 static func integer(value: Variant, low: int, high: int) -> bool:
 	return (typeof(value)==TYPE_INT or typeof(value)==TYPE_FLOAT) and is_finite(float(value)) and float(value)==floor(float(value)) and value>=low and value<=high

@@ -1,11 +1,20 @@
 extends "res://scripts/opening_candidate.gd"
 ## Natural-button bounded opening. Authority owns exactly one inventory.
+const NpcIdentity=preload("res://scripts/core/npc_source_identity.gd")
 const ResourceCheck=preload("res://scripts/world_resource_preflight.gd")
 const Profile=preload("res://scripts/core/default_warrior.gd")
 const LoadBridge=preload("res://scripts/core/map_load_bridge.gd")
 const LoadedWorld=preload("res://scripts/map_load_world.gd")
 const MAPS={"A13":"res://data/maps/A13.json","A00":"res://data/maps/A00.json"}
 const POLICY={"max_weight":25,"equipment_slots":["helmet","necklace","armor","boots","braceletLeft","braceletRight","ringLeft","ringRight","shield","weapon"],"weight_locations":["bag","equipment"]}
+var npc_identity:Dictionary={}
+var npc_source_stamp:Dictionary={}
+var npc_world_id:int=0
+var npc_epoch:int=0
+var dialog_world_id:int=0
+var dialog_epoch:int=-1
+var pending_npc_result:Dictionary={}
+var pending_npc_context:Dictionary={}
 var authority:Dictionary={}
 var rng_state:Dictionary={}
 var rng_provider
@@ -99,6 +108,10 @@ func start_new_game() -> bool:
 	if not staged.ok:
 		preparing=false
 		return reject(staged.error)
+	if not publication_identity_valid(staged):
+		staged.world.free()
+		preparing=false
+		return reject("NPC creation publication identity rejected")
 	publish(staged)
 	pending_creation={}
 	creation_count+=1
@@ -118,8 +131,9 @@ func prepare_map(candidate_authority:Dictionary,map_id:String,cell:Array,next_st
 	if not source.get("id") is String or source.id!=map_id:return {"ok":false,"error":"Map identity mismatch"}
 	var reserved=rng_provider.reserve(base_rng,1)
 	if not reserved.ok:return {"ok":false,"error":str(reserved)}
-	var loaded=LoadBridge.prepare(source,views.vm_projection,{"cell":cell,"stopped":next_stop,"random_cursor":int(base_rng.cursor)},{"map_load":true,"rnd_values":reserved.transaction.rnd_values},monster_registry,resources)
+	var loaded=LoadBridge.prepare(source,views.vm_projection,{"cell":cell,"stopped":next_stop,"random_cursor":int(base_rng.cursor)},{"map_load":true,"rnd_values":reserved.transaction.rnd_values},monster_registry,resources,true)
 	if not loaded.ok:return {"ok":false,"error":str(loaded.error)}
+	if not NpcIdentity.validate(loaded.get("npc_identity"),loaded.map,loaded.get("npc_source_stamp")):return {"ok":false,"error":"Missing staged NPC source identity"}
 	if loaded.map.get("id")!=map_id:return {"ok":false,"error":"Prepared map identity mismatch"}
 	var candidate=candidate_authority.duplicate(true)
 	candidate.et=loaded.story.et.duplicate()
@@ -134,6 +148,9 @@ func prepare_map(candidate_authority:Dictionary,map_id:String,cell:Array,next_st
 		var error=str(next_world.loading_errors)
 		next_world.free()
 		return {"ok":false,"error":error}
+	if not NpcIdentity.validate(loaded.npc_identity,next_world.map,loaded.npc_source_stamp):
+		next_world.free()
+		return {"ok":false,"error":"World setup changed NPC source identity"}
 	var position_cell=Vector2i(loaded.actor.cell[0],loaded.actor.cell[1])
 	if not next_actor.can_enter(position_cell):
 		next_world.free()
@@ -145,9 +162,20 @@ func prepare_map(candidate_authority:Dictionary,map_id:String,cell:Array,next_st
 	if not random_committed.ok or random_committed.state.cursor!=loaded.actor.random_cursor:
 		next_world.free()
 		return {"ok":false,"error":str(random_committed)}
-	return {"ok":true,"authority":candidate,"story":final_view.vm_projection,"world":next_world,"movement":next_actor,"stopped":loaded.actor.stopped,"rng":random_committed.state,"consumed":int(base_rng.cursor)+used}
+	return {"ok":true,"authority":candidate,"story":final_view.vm_projection,"world":next_world,"movement":next_actor,"stopped":loaded.actor.stopped,"rng":random_committed.state,"consumed":int(base_rng.cursor)+used,"npc_identity":loaded.npc_identity,"npc_source_stamp":loaded.npc_source_stamp,"npc_base_epoch":npc_epoch,"npc_base_world":npc_world_id,"npc_base_revision":revision}
 func publish(staged:Dictionary) -> void:
+	# All identity checks precede any authority/world/sidecar mutation.
+	if not publication_identity_valid(staged):
+		reject("NPC publication identity is missing, changed, or stale")
+		return
+	var next_identity:Dictionary=staged.npc_identity
+	var next_stamp:Dictionary=staged.npc_source_stamp
+	var next_world_id:int=staged.world.get_instance_id()
 	var old_world=world
+	npc_identity=next_identity
+	npc_source_stamp=next_stamp
+	npc_world_id=next_world_id
+	npc_epoch+=1
 	world=staged.world
 	movement=staged.movement
 	ready_ok=true
@@ -195,13 +223,52 @@ func _update_status() -> void:
 		status.text="新游戏候选 | 普通战士 | 兼容RNG明确标记 | 未开始"
 		return
 	status.text="新游戏候选 | ET%d STOP=%s | %s (%.2f,%.2f) | HP%d MP%d | 兼容RNG consumed=%d\n原五页与双NPC/load链；唯一布衣实例；无战斗/保存/怪物AI。\n%s"%[authority.et[0],stopped,world.map.id,movement.position.x,movement.position.y,authority.character.hp,authority.character.mp,consumed_total,notice]
+func publication_identity_valid(staged:Dictionary) -> bool:
+	for key in ["npc_base_epoch","npc_base_world","npc_base_revision"]:
+		if typeof(staged.get(key))!=TYPE_INT:return false
+	if npc_epoch==9223372036854775807:return false
+	if npc_world_id!=0 and (not is_instance_valid(world) or world.get_instance_id()!=npc_world_id):return false
+	if staged.get("npc_base_epoch")!=npc_epoch or staged.get("npc_base_world")!=npc_world_id or staged.get("npc_base_revision")!=revision:return false
+	var next:Variant=staged.get("world")
+	if typeof(next)!=TYPE_OBJECT or not is_instance_valid(next):return false
+	if not next is Node or next==world:return false
+	return NpcIdentity.validate(staged.get("npc_identity"),next.get("map"),staged.get("npc_source_stamp"))
+func source_npc(index:int) -> Dictionary:
+	if not is_instance_valid(world) or world.get_instance_id()!=npc_world_id:return {"ok":false}
+	var resolved=NpcIdentity.resolve(npc_identity,world.map,npc_source_stamp,index)
+	if not resolved.ok or world.map.id!="A13" or resolved.source_index not in [0,1]:return {"ok":false}
+	return resolved
+func interact(index:int) -> bool:
+	if dialog.visible or not source_npc(index).ok:return false
+	var npc:Dictionary=world.map.npcs[index]
+	if movement.position.distance_to(Vector2(npc.x,npc.y))>5.0:return false
+	return apply_page(index,"START")
+func choose(target:String,expected_revision:int) -> bool:
+	# render_dialog's real callback binds the old revision, not a fresh value.
+	if expected_revision!=revision or dialog_world_id!=npc_world_id or dialog_epoch!=npc_epoch:return false
+	if not source_npc(current_npc).ok:return false
+	return super.choose(target,expected_revision)
+func close_dialog() -> void:
+	dialog_world_id=0
+	dialog_epoch=-1
+	super.close_dialog()
 func apply_page(index:int,process:String) -> bool:
+	var resolved=source_npc(index)
+	if not resolved.ok:return reject("NPC source identity not authorized")
 	var view=Profile.project(authority,cloth,POLICY)
 	if not view.ok:return reject(str(view))
 	var result=VM.execute(world.map.npcs[index].script,view.vm_projection,process)
 	if not result.ok:return reject(str(result.error))
-	return commit_candidate(result,index)
+	pending_npc_result=result
+	pending_npc_context={"world":npc_world_id,"epoch":npc_epoch,"revision":revision,"index":index,"source_index":resolved.source_index}
+	var committed=commit_candidate(result,index)
+	pending_npc_result={}
+	pending_npc_context={}
+	return committed
 func commit_candidate(result:Dictionary,index:int) -> bool:
+	var resolved=source_npc(index)
+	if not resolved.ok or not is_same(result,pending_npc_result):return reject("Unbound NPC candidate")
+	if pending_npc_context.get("world")!=npc_world_id or pending_npc_context.get("epoch")!=npc_epoch or pending_npc_context.get("revision")!=revision or pending_npc_context.get("index")!=index or pending_npc_context.get("source_index")!=resolved.source_index:return reject("Stale NPC candidate")
 	var candidate=authority.duplicate(true)
 	for field in ["level","clear_count","game_mode"]:
 		if result.state.get(field)!=authority.character[field]:return reject("Read-only field changed")
@@ -223,6 +290,9 @@ func commit_candidate(result:Dictionary,index:int) -> bool:
 	if destination!=null:
 		var prepared=prepare_map(candidate,destination.map,[destination.x,destination.y],next_stop,rng_state)
 		if not prepared.ok:return reject(prepared.error)
+		if not publication_identity_valid(prepared):
+			prepared.world.free()
+			return reject("NPC transition publication identity rejected")
 		publish(prepared)
 		close_dialog()
 	else:
@@ -232,6 +302,8 @@ func commit_candidate(result:Dictionary,index:int) -> bool:
 		revision+=1
 		movement.stop()
 		current_npc=index
+		dialog_world_id=npc_world_id
+		dialog_epoch=npc_epoch
 		current_view=result.duplicate(true)
 		if result.closed:close_dialog()
 		else:render_dialog()

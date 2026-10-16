@@ -4,7 +4,7 @@
 
 ## 启动与操作
 
-在 Godot 打开 `res://scenes/earth_new_game_candidate.tscn`，运行当前场景；或从 Project 执行 `godot --path . res://scenes/earth_new_game_candidate.tscn`。默认 F5/main_scene 仍为 `res://scenes/game.tscn`，原 R6 和美术 review 入口行为不变。
+在 Godot 打开 `res://scenes/earth_new_game_candidate.tscn`，运行当前场景；或从 Project 执行 `godot --path . res://scenes/earth_new_game_candidate.tscn`。默认 F5/main_scene 仍为 `res://scenes/game.tscn`，原 R6 新游戏流程与美术 review 入口保留。
 
 创建角色后阅读五页开场，左键点击 NPC 和选项推进原剧情，ESC 关闭对话。STOP 时不能移动；允许移动后左键选择可达位置，Shift 使用原跑动逻辑。窗口保持比例，黑边点击忽略。逻辑画面1024×768，渲染密度2×。正式入口没有评审相机快捷键，不固定彩蛋随机种子。
 
@@ -34,6 +34,18 @@ A13 factory 使用 `snapshot_prefilter_world.gd`，继承 `snapshot_sorted_world
 
 独立headless覆盖原R6逻辑、rare、receiver、生命周期/回滚、严格类型、资源失效、默认入口、当前显示描述和调度；13套继承矩阵1183项，另调度17、排序32、owner165项通过。测试、日志和截图不随发行工程打包。
 
+## 稳定 NPC 身份与本次独立验证
+
+开场权限绑定 A13 原 source 记录0/1（方丈、凌云子），不再把删除后的当前数组索引0/1当作身份。地图桥接与发布事务通过独立侧带保存原完整记录和 runtime-index→source-record 映射；不向源NPC字典添加字段，不改变源地图字节或显示guard输入形状。缺映射、完整脚本/记录不一致或陈旧发布候选均拒绝；其他NPC与原服务没有因此开放。
+
+侧带的 source_fingerprint / records_fingerprint 是规范化已解析JSON数据摘要，不是原文件 raw-byte SHA。发布同时绑定源数据身份、world实例、单调epoch和原revision；按钮使用原真实回调捕获的revision并核验开页world/epoch，提交失败保留旧权威状态。实际文件原字节未漂移另由冻结文件SHA核验，不与规范化摘要混称。
+
+上节的旧19e自然54/54、23张截图与52对framebuffer结果仍保留其历史版本范围。本次稳定身份修订另采新真实GUI输入：创建、五页、STOP拒走、ET1提前凌云→ESC、方丈A1–A5、凌云B1–B6、A00(138,12)及真实移动到(138,13)、黑边点击忽略；新自然日志54/54、21里程碑匹配，24张实际窗口，两类日志均正常exit0且无ERROR。加载期间截图保留前态，不能把点击后立即截图当作已到达目标。
+
+另开明确标注人工状态的受控窗口：ET3/ET9=1实际点击药师，runtime1→source2拒绝且无对话；人工切换ET28/ET9=1后实际点击凌云，runtime1→source1获准并显示原提示“找方丈完成你的使命吧”；切回ET3再点药师仍拒绝。此项不表示自然游玩到ET28或完成后续剧情。独立CPU核查新自然/受控日志与身份生命周期35项通过；883项冻结代码/入口/运行文件及701份借用资源SHA未漂移，其他服务未提交、金币库存未变化。
+
+本修订另有严格类型270、身份矩阵324、生命周期49项headless检查，原R6与Earth开场回归通过，虚云显示门禁仍有效；这些不替代新GUI自然验证。测试必须同时满足断言、exit0和完整日志零ERROR/SCRIPT ERROR/Parse Error。已有释放对象的类型检查先判TYPE_OBJECT，再验证实例有效，最后判Node，避免异常被exit0掩盖。新修订的framebuffer成对比较、导出包及Windows运行未在此项验证中复做。
+
 ## 性能读法
 
 本轮同状态ABBA使用Linux llvmpipe软件渲染、相同seed208/出生相机/fullquad/2×密度、1024×768窗口；3秒预热后约20秒真实墙钟计数。唯一变量为联合排序与owner预筛：
@@ -52,4 +64,4 @@ A13 factory 使用 `snapshot_prefilter_world.gd`，继承 `snapshot_sorted_world
 
 两个新脚本由明确preload代码链进入导出闭包，不属于148项资源/契约清单的新增数据条目。新发行须另建代码SHA闭包，纳入两脚本及UID；旧冻结export policy保持原样。被FileAccess核SHA的源GD必须保留原字节，不能仅以编译GDC替代。receiver中的单一Python依赖为显式hash-only叶子，相关来源注册为明确raw-only叶子。新代码组合的发行包闭包与Windows运行仍待独立验收。
 
-snapshot构造必须显式调用父构造并保留正确floor绑定；后续回归需看framebuffer。虚云目前仅静态身体与命中显示，原服务未实现；开场交互限制仍有原数组索引局限。整张A13完整美术、草地严格无缝与外围边界、完整动作循环、E影子、其余NPC服务、战斗/怪物AI、保存和完整游戏流程均未验收。
+snapshot构造必须显式调用父构造并保留正确floor绑定；后续回归需看framebuffer。虚云目前仅静态身体与命中显示，原服务未实现；开场交互仅开放 A13 原 source 记录0/1，删除重排后的当前数组索引不再获得其他NPC的授权。整张A13完整美术、草地严格无缝与外围边界、完整动作循环、E影子、其余NPC服务、战斗/怪物AI、保存和完整游戏流程均未验收。
