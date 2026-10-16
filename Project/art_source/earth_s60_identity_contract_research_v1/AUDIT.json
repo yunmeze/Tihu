@@ -1,0 +1,199 @@
+{
+  "raw_sha256": "b2197b8efe88b651609887cc129634e74a907e9f77ea7a6d0b2df94c8e465d29",
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "alpha0": 1423521,
+  "alpha255": 536,
+  "border_positive": 0,
+  "alpha128_bbox": [
+    230,
+    154,
+    576,
+    922
+  ],
+  "mapping": {
+    "whole_canvas_only": true,
+    "scale_to512": 0.4082934609250399,
+    "translation": [
+      0,
+      0
+    ],
+    "rotation": 0,
+    "part_fit": false
+  },
+  "toe_surfaces": {
+    "L": {
+      "roi": [
+        31,
+        68,
+        41,
+        79
+      ],
+      "terminal_logical": [
+        37.05263157894737,
+        76.14673046251994
+      ],
+      "uncertainty": 0.75,
+      "not_contact": true
+    },
+    "R": {
+      "roi": [
+        43,
+        86,
+        53,
+        98
+      ],
+      "terminal_logical": [
+        47.92344497607655,
+        94.00956937799043
+      ],
+      "uncertainty": 0.75,
+      "not_contact": true
+    }
+  },
+  "pair_delta_new60_minus_new59": {
+    "L": [
+      0.4593301435406687,
+      -8.676236044657088
+    ],
+    "R": [
+      1.1738437001594875,
+      2.7559808612440264
+    ]
+  },
+  "pair_source_delta": {
+    "L": [
+      0,
+      -10
+    ],
+    "R": [
+      0,
+      3
+    ]
+  },
+  "gif_durations_verified": {
+    "1": [
+      140,
+      140,
+      700
+    ],
+    "2": [
+      140,
+      140,
+      700
+    ]
+  },
+  "manual_hand_surfaces": {
+    "new59": {
+      "L": [
+        25.5,
+        52,
+        29.5,
+        55
+      ],
+      "R": [
+        52,
+        47,
+        56,
+        50
+      ]
+    },
+    "new60": {
+      "L": [
+        27,
+        55,
+        31,
+        58
+      ],
+      "R": [
+        53,
+        45,
+        57,
+        48
+      ]
+    },
+    "uncertainty": 1,
+    "source_terminal_y": {
+      "59": {
+        "L": 53,
+        "R": 48
+      },
+      "60": {
+        "L": 55,
+        "R": 46
+      }
+    },
+    "new_terminal_delta": {
+      "L": 3,
+      "R": -2
+    },
+    "source_terminal_delta": {
+      "L": 2,
+      "R": -2
+    }
+  },
+  "manual_identity_surfaces": {
+    "warning": "Same modern identity-to-identity surface comparisons only, not matched ancient garment joints. Tolerance about1-1.5logicalpx.",
+    "face_skin_center": {
+      "59": [
+        41.5,
+        25.5
+      ],
+      "60": [
+        41,
+        27
+      ]
+    },
+    "left_red_shoulder_surface_center": {
+      "59": [
+        29.5,
+        28.5
+      ],
+      "60": [
+        29.5,
+        30
+      ]
+    },
+    "right_red_shoulder_surface_center": {
+      "59": [
+        52,
+        28
+      ],
+      "60": [
+        52,
+        29.5
+      ]
+    },
+    "broad_chest_silver_center": {
+      "59": [
+        41,
+        34
+      ],
+      "60": [
+        41,
+        36
+      ]
+    },
+    "last_small_abdominal_plate_bottom_y": {
+      "59": 41,
+      "60": 43.5
+    },
+    "black_waist_belt_center": {
+      "59": [
+        41,
+        46.5
+      ],
+      "60": [
+        41,
+        48
+      ]
+    },
+    "central_plate_count": {
+      "59": 3,
+      "60": 3
+    }
+  },
+  "classification": "Adjacent-phase research candidate: short-left/long-right and identity largely retained; shared absolute offset and local differences unresolved; not runtime accepted"
+}

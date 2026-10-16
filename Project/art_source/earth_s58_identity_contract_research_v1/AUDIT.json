@@ -1,0 +1,113 @@
+{
+  "raw_sha256": "e06e89843b1dcd4f32d7b1adef06b511714004cb25457e34e4ce376ed09c8bb8",
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "alpha0": 1431749,
+  "alpha255": 561,
+  "border_positive": 0,
+  "alpha128_bbox": [
+    223,
+    147,
+    566,
+    921
+  ],
+  "mapping": {
+    "whole_canvas_only": true,
+    "scale_to512": 0.4082934609250399,
+    "translation": [
+      0,
+      0
+    ],
+    "rotation": 0,
+    "part_fit": false
+  },
+  "toe_surfaces": {
+    "L": {
+      "roi": [
+        30,
+        80,
+        41,
+        97
+      ],
+      "terminal_logical": [
+        37.46092503987241,
+        93.90749601275917
+      ],
+      "uncertainty": 0.75,
+      "not_contact": true
+    },
+    "R": {
+      "roi": [
+        42,
+        65,
+        52,
+        80
+      ],
+      "terminal_logical": [
+        46.6475279106858,
+        76.55502392344498
+      ],
+      "uncertainty": 0.75,
+      "not_contact": true
+    }
+  },
+  "delta_new59_minus_new58": {
+    "L": [
+      -0.867623604465706,
+      -9.08452950558214
+    ],
+    "R": [
+      0.10207336523126287,
+      14.698564593301427
+    ]
+  },
+  "source_delta58_to59": {
+    "L": [
+      0,
+      -5
+    ],
+    "R": [
+      0,
+      15
+    ]
+  },
+  "raw_original_path": "/workspace/scratch/22c897619190/generated_images/exec-e1bfbf71-bdb8-4909-ad26-c41e78d2847c.png",
+  "gif_durations": [
+    140,
+    140,
+    140,
+    700
+  ],
+  "classification": "Mixed adjacent research result, not runtime-approved: left recovery exaggerated, right lower-leg exposure concern, local armor drift",
+  "manual_hand_terminal_y": {
+    "58": {
+      "L": 51,
+      "R": 56
+    },
+    "59": {
+      "L": 55,
+      "R": 50
+    },
+    "60": {
+      "L": 58,
+      "R": 48
+    },
+    "uncertainty": 1.5
+  },
+  "verified_gif_durations": {
+    "1": [
+      140,
+      140,
+      140,
+      700
+    ],
+    "2": [
+      140,
+      140,
+      140,
+      700
+    ]
+  }
+}

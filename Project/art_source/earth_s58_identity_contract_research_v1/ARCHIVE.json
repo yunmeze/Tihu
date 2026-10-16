@@ -1,0 +1,30 @@
+{
+  "schema": "earth-s58-identity-contract-research-v1",
+  "status": "Mixed research outcome: crossed pose/identity readable but adjacentsequence proportions fail; no runtime",
+  "actual_refs": [
+    {
+      "package_path": "REF01_SOURCE58_FULL_512.png",
+      "sha256": "cdc78929dcbc2881b23c482888a3860cc9d09cce338d29dc6897b7a802a5f542"
+    },
+    {
+      "package_path": "REF02_IDENTITY_GENERIC.png",
+      "sha256": "9e14f103bf6e0685490fcaf320c1c88bc33ae029dced527d789d9205cd58a363"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "art_source/hero_s_walk_source_r8/source-58.png",
+      "sha256": "7137f168350f5b910b8cc070b3814e79b11bae2cd4bcc81c96f3bf3c39b30deb"
+    },
+    {
+      "path": "assets/earth/hero/s_idle_v1/body.png",
+      "sha256": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e"
+    }
+  ],
+  "raw_sha256": "e06e89843b1dcd4f32d7b1adef06b511714004cb25457e34e4ce376ed09c8bb8",
+  "original_return": "generated_images/exec-e1bfbf71-bdb8-4909-ad26-c41e78d2847c.png",
+  "mapped_png_sha256": "82ce50e58fb7b3e399fea105e1caf04bff24e43d465e63eadc4a2e828c1e7bcc",
+  "mapped_rgba_sha256": "f14491f31178cdda1111a71985cc1a0469328d67bb5e45d2c95d8c6b094ab5ae",
+  "mapping": "whole1254RGBA LANCZOS512,zero translation/rotation/partfit",
+  "author_confirmation": "prepare_south_walk_frames confirms onecall actual2refs/prompt/no fit orretry"
+}

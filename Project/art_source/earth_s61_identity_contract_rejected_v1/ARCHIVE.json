@@ -1,0 +1,30 @@
+{
+  "schema": "earth-s61-identity-contract-rejected-v1",
+  "status": "Rejected phase61 sequence candidate; nonshared pose/identity jump, no retry62 or runtime",
+  "actual_refs": [
+    {
+      "package_path": "REF01_SOURCE61_FULL_512.png",
+      "sha256": "1f30933282e8736a218e6cb46eb1cd5e7e19bc0eba3d8d526be949663046ce3c"
+    },
+    {
+      "package_path": "REF02_IDENTITY_GENERIC.png",
+      "sha256": "9e14f103bf6e0685490fcaf320c1c88bc33ae029dced527d789d9205cd58a363"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "art_source/hero_s_walk_source_r8/source-61.png",
+      "sha256": "9e2e51ad728383c3dac71206b44f6b9e9968ef658eadb9e609980c0a888381db"
+    },
+    {
+      "path": "assets/earth/hero/s_idle_v1/body.png",
+      "sha256": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e"
+    }
+  ],
+  "raw_sha256": "6602f31eb48b83f43570ea604dcce52d620b04cf066800ab2f983c629ba782e3",
+  "original_return": "generated_images/exec-b518ebdd-2fd2-4db0-86e0-ed782384dd6f.png",
+  "mapped_png_sha256": "43aa43c4494de756225147e753f14e105213792c8c5c56fc9c19c31f9b65b72d",
+  "mapped_rgba_sha256": "7a8a9debaae9499141d5feea3176147d18d6456685f2ff012c305576dc2e090a",
+  "mapping": "whole1254RGBA LANCZOS512,zero translation/rotation/partfit",
+  "author_confirmation": "prepare_south_walk_frames confirms actual2refs and prompt; genericlabelboard crops/layout unchanged; rawno fit"
+}

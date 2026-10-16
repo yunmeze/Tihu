@@ -1,0 +1,118 @@
+{
+  "raw_sha256": "6602f31eb48b83f43570ea604dcce52d620b04cf066800ab2f983c629ba782e3",
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "alpha0": 1419144,
+  "alpha255": 407,
+  "border_positive": 0,
+  "alpha128_bbox": [
+    222,
+    162,
+    576,
+    961
+  ],
+  "mapping": {
+    "whole_canvas_only": true,
+    "scale_to512": 0.4082934609250399,
+    "translation": [
+      0,
+      0
+    ],
+    "rotation": 0,
+    "part_fit": false
+  },
+  "toe_surfaces": {
+    "L": {
+      "roi": [
+        30,
+        73,
+        41,
+        86
+      ],
+      "terminal_logical": [
+        35.98086124401914,
+        82.06698564593302
+      ],
+      "uncertainty": 0.75,
+      "not_contact": true
+    },
+    "R": {
+      "roi": [
+        43,
+        88,
+        53,
+        102
+      ],
+      "terminal_logical": [
+        48.07655502392345,
+        97.99043062200957
+      ],
+      "uncertainty": 0.75,
+      "not_contact": true
+    }
+  },
+  "delta_new61_minus_new60": {
+    "L": [
+      -1.0717703349282317,
+      5.920255183413076
+    ],
+    "R": [
+      0.1531100478468943,
+      3.980861244019138
+    ]
+  },
+  "source_delta60_to61": {
+    "L": [
+      0,
+      1
+    ],
+    "R": [
+      0,
+      -3
+    ]
+  },
+  "gif_durations": {
+    "1": [
+      140,
+      140,
+      140,
+      700
+    ],
+    "2": [
+      140,
+      140,
+      140,
+      700
+    ]
+  },
+  "classification": "REJECTED adjacent phase61: right foot recovery reversed, altered visible leg display and costume volumes; no automatic retry or phase62",
+  "manual_hand_terminal_y": {
+    "new60": {
+      "L": 58,
+      "R": 48
+    },
+    "new61": {
+      "L": 60,
+      "R": 54
+    },
+    "uncertainty": 1.5,
+    "source_delta": {
+      "L": -3,
+      "R": 2
+    },
+    "not_joint": true
+  },
+  "identity_surface_delta61_minus60": {
+    "face_skin": [
+      0,
+      2
+    ],
+    "red_shoulders_y": 2,
+    "chest_center_y": 2.5,
+    "waist_center_y": 2.5,
+    "uncertainty": 1.5,
+    "not_ancient_bone_correspondence": true
+  }
+}

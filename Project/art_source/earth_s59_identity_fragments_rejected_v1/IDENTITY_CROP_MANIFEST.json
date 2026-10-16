@@ -1,0 +1,85 @@
+{
+  "status": "proposal_only_no_generation",
+  "source": "/workspace/scratch/22c897619190/tihu-legend/Project/assets/earth/hero/s_idle_v1/body.png",
+  "source_sha256": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e",
+  "source_cell_xyxy": [
+    0,
+    0,
+    512,
+    512
+  ],
+  "common_crop_enlargement": 2,
+  "resampling": "NEAREST",
+  "crop_coordinate_space": "approved idle17 512 cell, half-open xyxy",
+  "crops": [
+    {
+      "label": "A FACE / HAIR",
+      "source_half_open_xyxy": [
+        140,
+        58,
+        184,
+        110
+      ],
+      "file": "A_EXACT_CROP.png",
+      "board_origin": [
+        24,
+        54
+      ],
+      "sha256": "739960c31e5ceed652b3a9d7699b797d5d7ff634d201878053158d071dd17bd1"
+    },
+    {
+      "label": "B RED SHOULDER / CHEST",
+      "source_half_open_xyxy": [
+        105,
+        95,
+        215,
+        163
+      ],
+      "file": "B_EXACT_CROP.png",
+      "board_origin": [
+        306,
+        54
+      ],
+      "sha256": "f93c37c9664ce04b0f71cc9fe83469097143a5baf195a63f8135e630a575ff3b"
+    },
+    {
+      "label": "C BLACK WAIST / ABDOMEN",
+      "source_half_open_xyxy": [
+        133,
+        162,
+        191,
+        202
+      ],
+      "file": "C_EXACT_CROP.png",
+      "board_origin": [
+        24,
+        274
+      ],
+      "sha256": "380c6f9cf11822e005377c437f6507cceee441ba41c62a53cb9c7a2120ea016b"
+    },
+    {
+      "label": "D BOOT MATERIAL",
+      "source_half_open_xyxy": [
+        175,
+        295,
+        202,
+        342
+      ],
+      "file": "D_EXACT_CROP.png",
+      "board_origin": [
+        306,
+        274
+      ],
+      "sha256": "6ea92fadf74c6caa35a5a1c4ac0643922b4b2fee3c2fa7db541d976b29b91be2"
+    }
+  ],
+  "note": "No full arms or legs. Card positions are arbitrary and not anatomical coordinates.",
+  "actual_reference_order": [
+    "REF01_SOURCE59_FULL_512.png",
+    "REF02_IDENTITY_MATERIAL_FRAGMENTS.png"
+  ],
+  "reference_sha256": {
+    "REF01_SOURCE59_FULL_512.png": "eac5d9e56935903cd93c3b614713af7ebd260b4aa6c7f7e912d33f3285408969",
+    "REF02_IDENTITY_MATERIAL_FRAGMENTS.png": "1d2e905ffdab28df5adfab470d42c94f7ddb3c28b46ad1e0a8c4aec272640d8c"
+  }
+}

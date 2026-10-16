@@ -1,0 +1,143 @@
+{
+  "raw_sha256": "cf921ed7abf9bb38a95395ab0608f7c38752e3c1d91e59d76085a7867f4de0c5",
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "alpha0": 1419664,
+  "alpha255": 550,
+  "alpha_max": 255,
+  "positive_border": 4,
+  "alpha128_bbox": [
+    230,
+    132,
+    575,
+    895
+  ],
+  "mapping": {
+    "scale_to512": 0.4082934609250399,
+    "scale_to_logical128": 0.10207336523125997,
+    "translation": [
+      0,
+      0
+    ],
+    "rotation": 0,
+    "per_part_fit": false,
+    "whole_canvas_only": true
+  },
+  "toe_surface_terminals": {
+    "L": {
+      "manual_isolated_logical_roi": [
+        31,
+        76,
+        41,
+        88
+      ],
+      "bottom_alpha128_row_center_logical": [
+        36.5933014354067,
+        84.82296650717703
+      ],
+      "uncertainty_logical": 0.75,
+      "not_ankle_or_contact": true
+    },
+    "R": {
+      "manual_isolated_logical_roi": [
+        43,
+        83,
+        52,
+        96
+      ],
+      "bottom_alpha128_row_center_logical": [
+        46.749601275917065,
+        91.2535885167464
+      ],
+      "uncertainty_logical": 0.75,
+      "not_ankle_or_contact": true
+    }
+  },
+  "classification": "REVIEW PENDING: identity plates restored and crossed phase retained; proportions and placement require review",
+  "manual_visible_hands_logical": {
+    "L": [
+      25.5,
+      52,
+      29.5,
+      55
+    ],
+    "R": [
+      52,
+      47,
+      56,
+      50
+    ],
+    "uncertainty": 1,
+    "not_sleeve_ends": true
+  },
+  "manual_cuff_material_proxy": {
+    "L": [
+      27,
+      50
+    ],
+    "R": [
+      54.5,
+      46
+    ],
+    "uncertainty": 1.5,
+    "not_joint": true
+  },
+  "manual_modern_trouser_armor_interface_y": {
+    "L": 63,
+    "R": 68,
+    "uncertainty": 1.5,
+    "not_source_cuff_or_joint": true
+  },
+  "border_nonzero_evidence": [
+    {
+      "xy": [
+        237,
+        1253
+      ],
+      "rgba": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "xy": [
+        238,
+        1253
+      ],
+      "rgba": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "xy": [
+        239,
+        1253
+      ],
+      "rgba": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "xy": [
+        240,
+        1253
+      ],
+      "rgba": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "earth-s59-identity-fragments-rejected-v1",
+  "status": "Crossed limb phase improved; identity/legarmor failed; not a single-variable A/B",
+  "actual_refs": [
+    {
+      "project_path": "art_source/earth_s59_phase_and_failed_edits_research_v1/references/REF02_PHASE59_SOURCE.png"
+    },
+    {
+      "package_path": "REF02_IDENTITY_MATERIAL_FRAGMENTS.png"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "art_source/earth_s59_phase_and_failed_edits_research_v1/references/REF02_PHASE59_SOURCE.png",
+      "sha256": "eac5d9e56935903cd93c3b614713af7ebd260b4aa6c7f7e912d33f3285408969"
+    },
+    {
+      "path": "assets/earth/hero/s_idle_v1/body.png",
+      "sha256": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e"
+    }
+  ],
+  "raw_sha256": "4e26c0f0cac13446a531b58e09a7912ffaf0cb6c01259b2021d4dd26d9ab3f1d",
+  "original_return": "generated_images/exec-5fedebfc-f19c-487e-af16-b74115304835.png",
+  "mapped_png_sha256": "dc0550a4f032f9fe06865191ab440f6f63b32030e82bc711f298d92eb5785bb2",
+  "mapped_rgba_sha256": "24b9059a4aee2269e25507ed14d8d22f2dbbb7edf1c8cc3c422632979067b3c2",
+  "mapping": "whole1254RGBA LANCZOS512,zero translation/rotation/partfit",
+  "author_confirmation": "prepare_south_walk_frames confirms actual2refs and prompt; fragmentboard lacks legarmor and prompt weakened lowerlegarmor toboots"
+}

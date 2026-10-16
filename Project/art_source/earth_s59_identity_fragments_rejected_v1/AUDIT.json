@@ -1,0 +1,95 @@
+{
+  "raw_sha256": "4e26c0f0cac13446a531b58e09a7912ffaf0cb6c01259b2021d4dd26d9ab3f1d",
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "alpha0": 1429576,
+  "alpha255": 495,
+  "alpha_max": 255,
+  "positive_border": 0,
+  "alpha128_bbox": [
+    236,
+    153,
+    570,
+    884
+  ],
+  "mapping": {
+    "scale_to512": 0.4082934609250399,
+    "scale_to_logical128": 0.10207336523125997,
+    "translation": [
+      0,
+      0
+    ],
+    "rotation": 0,
+    "per_part_fit": false,
+    "whole_canvas_only": true
+  },
+  "toe_surface_terminals": {
+    "L": {
+      "manual_isolated_logical_roi": [
+        31,
+        75,
+        41,
+        86
+      ],
+      "bottom_alpha128_row_center_logical": [
+        37.46092503987241,
+        82.67942583732058
+      ],
+      "uncertainty_logical": 0.75,
+      "not_ankle_or_contact": true
+    },
+    "R": {
+      "manual_isolated_logical_roi": [
+        43,
+        82,
+        52,
+        94
+      ],
+      "bottom_alpha128_row_center_logical": [
+        46.698564593301434,
+        90.13078149920256
+      ],
+      "uncertainty_logical": 0.75,
+      "not_ankle_or_contact": true
+    }
+  },
+  "manual_visible_hands_logical": {
+    "L": [
+      25.5,
+      51,
+      29.5,
+      54
+    ],
+    "R": [
+      52,
+      46.5,
+      56,
+      49
+    ],
+    "uncertainty": 1,
+    "not_sleeve_ends": true
+  },
+  "manual_cuff_material_proxy": {
+    "L": [
+      27,
+      49.5
+    ],
+    "R": [
+      54.5,
+      45.5
+    ],
+    "uncertainty": 1.5,
+    "not_joint": true
+  },
+  "right_outer_sleeve_turn": {
+    "xy": [
+      57,
+      40.5
+    ],
+    "uncertainty": 2,
+    "not_elbow": true
+  },
+  "classification": "PHASE RELATION IMPROVED, NOT ACCEPTED: identity lower-leg armor omitted; full review required"
+}
