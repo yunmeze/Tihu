@@ -35,7 +35,7 @@ func matches(packs:Dictionary,disk:Dictionary,map:Dictionary,objects:Array) -> b
 func slow_matches(packs:Dictionary,disk:Dictionary,map:Dictionary,objects:Array) -> bool:
 	if not resources_ready or disk!=original:return reject("unprepared or changed original atlas")
 	for name in original:
-		if not packs.has(name) or packs[name]!=original[name]:return reject("original pack changed")
+		if not packs.has(name) or typeof(packs[name])!=TYPE_DICTIONARY or packs[name]!=original[name]:return reject("original pack changed")
 	var extras=[]
 	for name in packs:
 		if not original.has(name):extras.append(name)
@@ -48,7 +48,7 @@ func slow_matches(packs:Dictionary,disk:Dictionary,map:Dictionary,objects:Array)
 	if units.is_empty():
 		if not extras.is_empty() or not actual.is_empty():return reject("unbound extra pack or owner")
 		return true
-	if units!=[UNIT] or extras!=["Mon/220"] or packs["Mon/220"]!=chicken or actual.size()!=1:return reject("unproven extra pack or chicken descriptor")
+	if units!=[UNIT] or extras!=["Mon/220"] or typeof(packs["Mon/220"])!=TYPE_DICTIONARY or packs["Mon/220"]!=chicken or actual.size()!=1:return reject("unproven extra pack or chicken descriptor")
 	var expected={"pack":"Mon/220","index":1,"kind":9,"layer":1,"y":53.0,"origin":Vector2(49*48,53*32),"order":int(map.width)*int(map.height)+map.npcs.size()+objects.size()-1}
 	if actual[0]!=expected:return reject("chicken actual owner identity")
 	return true
