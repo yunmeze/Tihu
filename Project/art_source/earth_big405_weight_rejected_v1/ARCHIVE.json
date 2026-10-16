@@ -1,0 +1,97 @@
+{
+  "status": "Rejected weight candidate: only40.51% neutral grayscale, channel spread up to4, nonwhite grassanchor and cloud/branch shapes; no grayscale repair/application.",
+  "files": [
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/s-walk-next-strategy/ground-weight-diagnostic/big405-weight-proposal/attempt1/RAW.png",
+      "sha256": "953c750f09ebfbc5d494cccc8164a82d42af5427a2360eefd9bc8401af64295a",
+      "bytes": 1397615,
+      "role": "raw",
+      "path": "RAW.png"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/s-walk-next-strategy/ground-weight-diagnostic/big405-weight-proposal/attempt1/PROMPT.txt",
+      "sha256": "ac1e7eb5ccb9228a27e767597f8b7e14dd11753d2bbec881b16a0cd0e353fb09",
+      "bytes": 2777,
+      "role": "contract-or-conclusion",
+      "path": "PROMPT.txt"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/s-walk-next-strategy/ground-weight-diagnostic/big405-weight-proposal/attempt1/REQUEST_FROZEN.json",
+      "sha256": "54ee23d30624f23d8693b76b7852d555a9a217fa6a53580cc59d5690f47440a8",
+      "bytes": 3041,
+      "role": "contract-or-conclusion",
+      "path": "REQUEST_FROZEN.json"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/s-walk-next-strategy/ground-weight-diagnostic/big405-weight-proposal/attempt1/RESULT.md",
+      "sha256": "2c34f8dfc9de655202cf79fff963ad4a3a8c5a6161a8b629f8d4bf43c43a3eeb",
+      "bytes": 2730,
+      "role": "contract-or-conclusion",
+      "path": "RESULT.md"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/s-walk-next-strategy/ground-weight-diagnostic/big405-weight-proposal/attempt1/REF01_SOURCE_BIG405_6X_NEAREST.png",
+      "sha256": "48f69b12219c0919d32e427c46d0c132e41cd5415fca6c688fb7f034ff04651a",
+      "bytes": 19663,
+      "role": "actual-reference",
+      "path": "REF01_SOURCE_BIG405_6X_NEAREST.png"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/s-walk-next-strategy/ground-weight-diagnostic/big405-weight-proposal/attempt1/AUDIT.json",
+      "sha256": "5aaa39fe8c5fffb76574702f92c320e04e8d896fd7304dfa872ffa12d2484dbd",
+      "bytes": 1698,
+      "role": "contract-or-conclusion",
+      "path": "AUDIT.json"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/s-walk-next-strategy/ground-weight-diagnostic/big405-weight-proposal/ALL_INSTANCES.json",
+      "sha256": "83e43f3e31c3f3006b5aed4168e2b9f042076c1fcd5d8f85327cc2b4b2a90ed1",
+      "bytes": 9411,
+      "role": "contract-or-conclusion",
+      "path": "ALL_INSTANCES.json"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/s-walk-next-strategy/ground-weight-diagnostic/big405-weight-proposal/REGION_CONTRACT.json",
+      "sha256": "f4b6df201bacd26aaa7ae1b40a2e8a1f81f9a907af9d87b75cec62d4fae12e86",
+      "bytes": 793,
+      "role": "contract-or-conclusion",
+      "path": "REGION_CONTRACT.json"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/s-walk-next-strategy/ground-weight-diagnostic/big405-weight-proposal/CONTRACT.md",
+      "sha256": "4ae95eb0a3d9d10a3b4a482dbcb2c865d1f610067aecbcfe35cbb07580c94466",
+      "bytes": 4541,
+      "role": "contract-or-conclusion",
+      "path": "CONTRACT.md"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/s-walk-next-strategy/ground-weight-diagnostic/big405-weight-proposal/MANIFEST.json",
+      "sha256": "b55eb105b3acecd538cb3d97c2e8f6901a6157c8363ed1c50122e8acb1acf79c",
+      "bytes": 2008,
+      "role": "contract-or-conclusion",
+      "path": "MANIFEST.json"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/publication/pending-research-source-inventory/big405_rejected/reproduce.py",
+      "sha256": "fde17062272fd31fade60cc979ee9ebe874c64a59f6b4206446f787d17e430e0",
+      "bytes": 1078,
+      "role": "minimal-reproduction",
+      "path": "reproduce.py"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/publication/pending-research-source-inventory/big405_rejected/RECIPE.json",
+      "sha256": "c6da1503faafb821f82d685a447c90ec352c1275c15f819af7fbf6c691d599b1",
+      "bytes": 694,
+      "role": "minimal-reproduction",
+      "path": "RECIPE.json"
+    }
+  ],
+  "actual_refs_order": [
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/s-walk-next-strategy/ground-weight-diagnostic/big405-weight-proposal/attempt1/REF01_SOURCE_BIG405_6X_NEAREST.png",
+      "sha256": "48f69b12219c0919d32e427c46d0c132e41cd5415fca6c688fb7f034ff04651a",
+      "path": "REF01_SOURCE_BIG405_6X_NEAREST.png"
+    }
+  ],
+  "runtime_promoted": false
+}

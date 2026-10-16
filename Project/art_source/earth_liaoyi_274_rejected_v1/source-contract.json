@@ -1,0 +1,777 @@
+{
+  "record": {
+    "record": 6,
+    "npc": {
+      "x": 38,
+      "y": 37,
+      "appearance": 22,
+      "direction": 2,
+      "name": "廖毅",
+      "script": "基础功力是一切之根本，基础不牢，任何功法都无法发挥出其应有效果。故而，扎马步，不可轻视\r\n\r\n#button 关闭 34 9 黄 OVER\r\n#end"
+    },
+    "mapanchor_world": [
+      1824,
+      1184
+    ],
+    "base": 273,
+    "frame_ids": [
+      273,
+      274,
+      275,
+      276
+    ],
+    "script_sha256": "cc1fa058eabf91703f666c61b4d899d5df4cba0e9e8f8378ec5ed5d0aef6b8e6",
+    "layer": 1,
+    "sort_y": 37,
+    "stable_order": 10006,
+    "frames": [
+      {
+        "id": 273,
+        "metadata": {
+          "original": [
+            68,
+            82
+          ],
+          "offset": [
+            -11,
+            -44
+          ],
+          "sourceOffset": 1119916,
+          "sourceBytes": 4491,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            68,
+            82
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "576c4553678fafeedccb1870e95bdbd5d0867f78f47eaacd063aab67bd223ad8",
+          "page": 0,
+          "rect": [
+            1573,
+            1,
+            68,
+            82
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          21,
+          60
+        ],
+        "mapanchor_to_draw": [
+          -11,
+          -44
+        ],
+        "alpha_bbox_local": [
+          0,
+          0,
+          66,
+          82
+        ]
+      },
+      {
+        "id": 274,
+        "metadata": {
+          "original": [
+            68,
+            80
+          ],
+          "offset": [
+            -11,
+            -44
+          ],
+          "sourceOffset": 1124411,
+          "sourceBytes": 4401,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            68,
+            80
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "3d22ac019b6718322357d091e3ae599a48b2305bc53e53da277f30b8e45dc53a",
+          "page": 0,
+          "rect": [
+            1643,
+            1,
+            68,
+            80
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          21,
+          60
+        ],
+        "mapanchor_to_draw": [
+          -11,
+          -44
+        ],
+        "alpha_bbox_local": [
+          0,
+          0,
+          67,
+          80
+        ]
+      },
+      {
+        "id": 275,
+        "metadata": {
+          "original": [
+            68,
+            80
+          ],
+          "offset": [
+            -12,
+            -44
+          ],
+          "sourceOffset": 1128816,
+          "sourceBytes": 4401,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            68,
+            80
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "ec5b8a529de21b01bc7d97da0e86a2ab258b2060d9077f313945d1fc3d264306",
+          "page": 0,
+          "rect": [
+            1713,
+            1,
+            68,
+            80
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          20,
+          60
+        ],
+        "mapanchor_to_draw": [
+          -12,
+          -44
+        ],
+        "alpha_bbox_local": [
+          0,
+          0,
+          68,
+          80
+        ]
+      },
+      {
+        "id": 276,
+        "metadata": {
+          "original": [
+            68,
+            80
+          ],
+          "offset": [
+            -12,
+            -44
+          ],
+          "sourceOffset": 1133221,
+          "sourceBytes": 4542,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            68,
+            80
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "03f2dc5d01b376b9a8a71952071b0190ed40e6075672ba8d1fcfd4ef47a13070",
+          "page": 0,
+          "rect": [
+            1783,
+            1,
+            68,
+            80
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          20,
+          60
+        ],
+        "mapanchor_to_draw": [
+          -12,
+          -44
+        ],
+        "alpha_bbox_local": [
+          0,
+          0,
+          67,
+          80
+        ]
+      }
+    ],
+    "adjacent_phase_rgba_changed": [
+      972,
+      884,
+      953,
+      900
+    ]
+  },
+  "source_pins": [
+    {
+      "id": 273,
+      "png_sha256": "b4bd464b792943981be374801856d969d8405be5e2f09c333f1866f011bbb7c8",
+      "rgba_sha256": "576c4553678fafeedccb1870e95bdbd5d0867f78f47eaacd063aab67bd223ad8",
+      "metadata": {
+        "original": [
+          68,
+          82
+        ],
+        "offset": [
+          -11,
+          -44
+        ],
+        "sourceOffset": 1119916,
+        "sourceBytes": 4491,
+        "format": "PNG",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          68,
+          82
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "576c4553678fafeedccb1870e95bdbd5d0867f78f47eaacd063aab67bd223ad8",
+        "page": 0,
+        "rect": [
+          1573,
+          1,
+          68,
+          82
+        ],
+        "crop": [
+          0,
+          0
+        ]
+      },
+      "paste": [
+        13,
+        8
+      ]
+    },
+    {
+      "id": 274,
+      "png_sha256": "5b459be2e063ccf3e339f663c9bc94034a8656f3aa4b76b92e10815dbc1c8b5b",
+      "rgba_sha256": "3d22ac019b6718322357d091e3ae599a48b2305bc53e53da277f30b8e45dc53a",
+      "metadata": {
+        "original": [
+          68,
+          80
+        ],
+        "offset": [
+          -11,
+          -44
+        ],
+        "sourceOffset": 1124411,
+        "sourceBytes": 4401,
+        "format": "PNG",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          68,
+          80
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "3d22ac019b6718322357d091e3ae599a48b2305bc53e53da277f30b8e45dc53a",
+        "page": 0,
+        "rect": [
+          1643,
+          1,
+          68,
+          80
+        ],
+        "crop": [
+          0,
+          0
+        ]
+      },
+      "paste": [
+        13,
+        8
+      ]
+    },
+    {
+      "id": 275,
+      "png_sha256": "fab82311a55c6cf8a28dbed237711c68ad4dac076f3701444acd416d92233019",
+      "rgba_sha256": "ec5b8a529de21b01bc7d97da0e86a2ab258b2060d9077f313945d1fc3d264306",
+      "metadata": {
+        "original": [
+          68,
+          80
+        ],
+        "offset": [
+          -12,
+          -44
+        ],
+        "sourceOffset": 1128816,
+        "sourceBytes": 4401,
+        "format": "PNG",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          68,
+          80
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "ec5b8a529de21b01bc7d97da0e86a2ab258b2060d9077f313945d1fc3d264306",
+        "page": 0,
+        "rect": [
+          1713,
+          1,
+          68,
+          80
+        ],
+        "crop": [
+          0,
+          0
+        ]
+      },
+      "paste": [
+        12,
+        8
+      ]
+    },
+    {
+      "id": 276,
+      "png_sha256": "9bfbaff3acab6f5f4a7d709144edc03c2d74a2c2dd7178bc3697ec3eb153b5b3",
+      "rgba_sha256": "03f2dc5d01b376b9a8a71952071b0190ed40e6075672ba8d1fcfd4ef47a13070",
+      "metadata": {
+        "original": [
+          68,
+          80
+        ],
+        "offset": [
+          -12,
+          -44
+        ],
+        "sourceOffset": 1133221,
+        "sourceBytes": 4542,
+        "format": "PNG",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          68,
+          80
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "03f2dc5d01b376b9a8a71952071b0190ed40e6075672ba8d1fcfd4ef47a13070",
+        "page": 0,
+        "rect": [
+          1783,
+          1,
+          68,
+          80
+        ],
+        "crop": [
+          0,
+          0
+        ]
+      },
+      "paste": [
+        12,
+        8
+      ]
+    }
+  ],
+  "world_canvas": [
+    96,
+    96
+  ],
+  "world_origin": [
+    1800,
+    1132
+  ],
+  "anchor_in_canvas": [
+    24,
+    52
+  ],
+  "frames_byte_static": false,
+  "phase_ticks": 17,
+  "physics_Hz": 50,
+  "phase_ms": 340,
+  "loop_ms": 1360,
+  "differences": [
+    {
+      "pair": [
+        273,
+        274
+      ],
+      "visible_RGBA_changed": 972,
+      "either_alpha128_changed": 972
+    },
+    {
+      "pair": [
+        274,
+        275
+      ],
+      "visible_RGBA_changed": 884,
+      "either_alpha128_changed": 884
+    },
+    {
+      "pair": [
+        275,
+        276
+      ],
+      "visible_RGBA_changed": 953,
+      "either_alpha128_changed": 953
+    },
+    {
+      "pair": [
+        276,
+        273
+      ],
+      "visible_RGBA_changed": 900,
+      "either_alpha128_changed": 900
+    }
+  ],
+  "visible_points": {
+    "face_without_crown": [
+      38,
+      22
+    ],
+    "extended_hand": [
+      15,
+      24
+    ],
+    "red_hanging_accessory": [
+      15,
+      30
+    ],
+    "near_torso_hand_uncertain": [
+      43,
+      39
+    ],
+    "waist": [
+      43,
+      45
+    ],
+    "back_foot_uncertain": [
+      34,
+      74
+    ],
+    "front_foot": [
+      55,
+      81
+    ]
+  },
+  "point_uncertainty_logical": "face/frontshoe/extendedhand ~2; nearhand/backfoot/accessoryidentity ~3–4; crown excluded",
+  "motion_patch_method": "fixed-world source RGB SSD +/-3logical; silhouette/shadow may bias; not anatomy measurement",
+  "motion": {
+    "face_no_crown": {
+      "roi": [
+        35,
+        18,
+        42,
+        25
+      ],
+      "phases": [
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 0.0,
+          "runnerup_RMSE": 47.441263362053874
+        },
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 26.64990970106334,
+          "runnerup_RMSE": 37.24710644836066
+        },
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 27.620361216709252,
+          "runnerup_RMSE": 40.584253506169865
+        },
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 2.2391081800969044,
+          "runnerup_RMSE": 47.33338123979563
+        }
+      ]
+    },
+    "extended_hand": {
+      "roi": [
+        12,
+        21,
+        19,
+        27
+      ],
+      "phases": [
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 0.0,
+          "runnerup_RMSE": 69.83603245153198
+        },
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 42.32433350153557,
+          "runnerup_RMSE": 62.70097844860715
+        },
+        {
+          "delta": [
+            -1,
+            1
+          ],
+          "RMSE": 42.78823825928492,
+          "runnerup_RMSE": 58.361081835550934
+        },
+        {
+          "delta": [
+            -1,
+            2
+          ],
+          "RMSE": 50.07153612741205,
+          "runnerup_RMSE": 59.93164095285217
+        }
+      ]
+    },
+    "red_accessory": {
+      "roi": [
+        12,
+        27,
+        19,
+        34
+      ],
+      "phases": [
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 0.0,
+          "runnerup_RMSE": 45.41981047597479
+        },
+        {
+          "delta": [
+            0,
+            -1
+          ],
+          "RMSE": 26.466896278926544,
+          "runnerup_RMSE": 35.77356984310803
+        },
+        {
+          "delta": [
+            -1,
+            2
+          ],
+          "RMSE": 21.741054928125155,
+          "runnerup_RMSE": 38.189021466178176
+        },
+        {
+          "delta": [
+            -1,
+            3
+          ],
+          "RMSE": 25.281543912210623,
+          "runnerup_RMSE": 52.109056233025356
+        }
+      ]
+    },
+    "near_hand_uncertain": {
+      "roi": [
+        39,
+        34,
+        48,
+        42
+      ],
+      "phases": [
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 0.0,
+          "runnerup_RMSE": 41.56793858875514
+        },
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 34.39167104164956,
+          "runnerup_RMSE": 42.95049907009662
+        },
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 37.31299048936254,
+          "runnerup_RMSE": 43.759390526597365
+        },
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 36.254373937907545,
+          "runnerup_RMSE": 42.94656455884926
+        }
+      ]
+    },
+    "waist": {
+      "roi": [
+        38,
+        41,
+        48,
+        49
+      ],
+      "phases": [
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 0.0,
+          "runnerup_RMSE": 20.961075036043994
+        },
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 11.839728318955071,
+          "runnerup_RMSE": 24.076440766857544
+        },
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 9.389266922041003,
+          "runnerup_RMSE": 20.09290919702769
+        },
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 5.728946965484436,
+          "runnerup_RMSE": 20.99940475346861
+        }
+      ]
+    },
+    "back_foot_uncertain": {
+      "roi": [
+        29,
+        69,
+        39,
+        77
+      ],
+      "phases": [
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 0.0,
+          "runnerup_RMSE": 27.258790631036195
+        },
+        {
+          "delta": [
+            -1,
+            1
+          ],
+          "RMSE": 28.611332253730048,
+          "runnerup_RMSE": 31.44976152532798
+        },
+        {
+          "delta": [
+            -1,
+            2
+          ],
+          "RMSE": 29.615874121828654,
+          "runnerup_RMSE": 32.12572956370018
+        },
+        {
+          "delta": [
+            0,
+            3
+          ],
+          "RMSE": 38.462752544940585,
+          "runnerup_RMSE": 41.47835781063019
+        }
+      ]
+    },
+    "front_foot": {
+      "roi": [
+        50,
+        77,
+        59,
+        85
+      ],
+      "phases": [
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 0.0,
+          "runnerup_RMSE": 49.979671793566155
+        },
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 6.083143071606127,
+          "runnerup_RMSE": 49.73005835210435
+        },
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 11.11201385221652,
+          "runnerup_RMSE": 53.148072331859716
+        },
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "RMSE": 16.44237975026279,
+          "runnerup_RMSE": 49.28718750194468
+        }
+      ]
+    }
+  }
+}

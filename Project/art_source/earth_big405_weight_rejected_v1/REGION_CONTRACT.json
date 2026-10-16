@@ -1,0 +1,33 @@
+{
+  "frame": "FloorBig405, exactRGBAalias396",
+  "size": [
+    96,
+    64
+  ],
+  "soil_clear_region": [
+    0,
+    0,
+    23,
+    64
+  ],
+  "grass_clear_region": [
+    74,
+    0,
+    96,
+    64
+  ],
+  "uncertain_band": [
+    23,
+    0,
+    74,
+    64
+  ],
+  "interpretation": "conservative anchor zones, not binary segmentation; sparse subpixel drygrain within grass and dark specks within soil do not reverse regional material",
+  "edge_evidence": {
+    "left": "soil-dominant throughout",
+    "right": "grass-dominant throughout",
+    "top": "soil left, mixedmiddle,grassright; precise crossing unknown withinx23..74",
+    "bottom": "soil left,mixedmiddle,grassright; precise crossing unknown withinx23..74"
+  },
+  "alpha": "sourceopaque255, must remainsourcealpha; blendweight isseparate"
+}

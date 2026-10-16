@@ -1,0 +1,79 @@
+{
+  "raw_size": [
+    1536,
+    1024
+  ],
+  "raw_mode": "RGB",
+  "raw_sha256": "953c750f09ebfbc5d494cccc8164a82d42af5427a2360eefd9bc8401af64295a",
+  "raw_origin": "generated_images/exec-f2202f31-9ce6-42d1-9c0d-f98dac46d44a.png",
+  "alpha_extrema": [
+    255,
+    255
+  ],
+  "aspect3to2": true,
+  "neutral_pixel_fraction": 0.4051214853922526,
+  "max_channel_spread": 4,
+  "channel_spread_p99": 2.0,
+  "exact_black_pixels": 146687,
+  "exact_white_pixels": 541,
+  "regions": {
+    "soil_anchor": {
+      "channel_min": [
+        0,
+        0,
+        0
+      ],
+      "channel_max": [
+        40,
+        40,
+        40
+      ],
+      "channel_mean": [
+        2.8374262270720108,
+        2.760012419327446,
+        2.5920675526494565
+      ],
+      "exact_black_fraction": 0.3892371136209239,
+      "exact_white_fraction": 0.0
+    },
+    "uncertain": {
+      "channel_min": [
+        0,
+        0,
+        0
+      ],
+      "channel_max": [
+        249,
+        249,
+        249
+      ],
+      "channel_mean": [
+        119.63942942899816,
+        119.2060905905331,
+        118.78845095166973
+      ],
+      "exact_black_fraction": 1.1967677696078431e-05,
+      "exact_white_fraction": 0.0
+    },
+    "grass_anchor": {
+      "channel_min": [
+        172,
+        170,
+        170
+      ],
+      "channel_max": [
+        255,
+        255,
+        255
+      ],
+      "channel_mean": [
+        246.16021728515625,
+        245.9114851518111,
+        245.9227294921875
+      ],
+      "exact_black_fraction": 0.0,
+      "exact_white_fraction": 0.0015009099786931818
+    }
+  },
+  "mapping": "wholewindow LANCZOS display only; no grayscale conversion, channel selection, normalization, threshold or repair"
+}

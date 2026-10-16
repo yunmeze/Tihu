@@ -1,0 +1,313 @@
+{
+  "purpose": "conservative visual evaluation samples, not compositing masks",
+  "soil_yellow": "clearly tan surface",
+  "grass_green": "clearly green surface",
+  "magenta": "mixed owner boundary; all unboxed remainder uncertain",
+  "mixed_owners": [
+    {
+      "owner": "Map/Res/FloorBig:389@28,44",
+      "patch_box": [
+        96,
+        192,
+        192,
+        256
+      ],
+      "source_id": -389,
+      "clear_surface_sample_rects_local": {
+        "soil": [
+          [
+            0,
+            0,
+            96,
+            28
+          ]
+        ],
+        "grass": [
+          [
+            76,
+            53,
+            96,
+            64
+          ]
+        ]
+      },
+      "uncertain": "ALL remaining pixels of this mixed owner, including mottled boundary/isolated flecks; not a production mask or exact contour"
+    },
+    {
+      "owner": "Map/Res/FloorBig:405@28,46",
+      "patch_box": [
+        96,
+        256,
+        192,
+        320
+      ],
+      "source_id": -405,
+      "clear_surface_sample_rects_local": {
+        "soil": [
+          [
+            0,
+            0,
+            23,
+            64
+          ]
+        ],
+        "grass": [
+          [
+            74,
+            0,
+            96,
+            64
+          ]
+        ]
+      },
+      "uncertain": "ALL remaining pixels of this mixed owner, including mottled boundary/isolated flecks; not a production mask or exact contour"
+    },
+    {
+      "owner": "Map/Res/FloorBig:389@30,42",
+      "patch_box": [
+        192,
+        128,
+        288,
+        192
+      ],
+      "source_id": -389,
+      "clear_surface_sample_rects_local": {
+        "soil": [
+          [
+            0,
+            0,
+            96,
+            28
+          ]
+        ],
+        "grass": [
+          [
+            76,
+            53,
+            96,
+            64
+          ]
+        ]
+      },
+      "uncertain": "ALL remaining pixels of this mixed owner, including mottled boundary/isolated flecks; not a production mask or exact contour"
+    },
+    {
+      "owner": "Map/Res/FloorBig:412@30,44",
+      "patch_box": [
+        192,
+        192,
+        288,
+        256
+      ],
+      "source_id": -412,
+      "clear_surface_sample_rects_local": {
+        "soil": [],
+        "grass": [
+          [
+            24,
+            16,
+            96,
+            64
+          ],
+          [
+            0,
+            40,
+            24,
+            64
+          ]
+        ]
+      },
+      "uncertain": "ALL remaining pixels of this mixed owner, including mottled boundary/isolated flecks; not a production mask or exact contour"
+    },
+    {
+      "owner": "Map/Res/FloorBig:392@32,42",
+      "patch_box": [
+        288,
+        128,
+        384,
+        192
+      ],
+      "source_id": -392,
+      "clear_surface_sample_rects_local": {
+        "soil": [
+          [
+            40,
+            0,
+            96,
+            45
+          ],
+          [
+            20,
+            0,
+            40,
+            25
+          ]
+        ],
+        "grass": [
+          [
+            0,
+            50,
+            16,
+            64
+          ]
+        ]
+      },
+      "uncertain": "ALL remaining pixels of this mixed owner, including mottled boundary/isolated flecks; not a production mask or exact contour"
+    },
+    {
+      "owner": "Map/Res/FloorBig:409@32,44",
+      "patch_box": [
+        288,
+        192,
+        384,
+        256
+      ],
+      "source_id": -409,
+      "clear_surface_sample_rects_local": {
+        "soil": [],
+        "grass": [
+          [
+            0,
+            10,
+            65,
+            64
+          ],
+          [
+            65,
+            38,
+            96,
+            64
+          ]
+        ]
+      },
+      "uncertain": "ALL remaining pixels of this mixed owner, including mottled boundary/isolated flecks; not a production mask or exact contour"
+    },
+    {
+      "owner": "Map/Res/FloorBig:405@34,38",
+      "patch_box": [
+        384,
+        0,
+        480,
+        64
+      ],
+      "source_id": -405,
+      "clear_surface_sample_rects_local": {
+        "soil": [
+          [
+            0,
+            0,
+            23,
+            64
+          ]
+        ],
+        "grass": [
+          [
+            74,
+            0,
+            96,
+            64
+          ]
+        ]
+      },
+      "uncertain": "ALL remaining pixels of this mixed owner, including mottled boundary/isolated flecks; not a production mask or exact contour"
+    },
+    {
+      "owner": "Map/Res/FloorBig:413@34,40",
+      "patch_box": [
+        384,
+        64,
+        480,
+        128
+      ],
+      "source_id": -413,
+      "clear_surface_sample_rects_local": {
+        "soil": [
+          [
+            0,
+            25,
+            96,
+            64
+          ],
+          [
+            0,
+            9,
+            45,
+            25
+          ]
+        ],
+        "grass": [
+          [
+            70,
+            0,
+            96,
+            7
+          ]
+        ]
+      },
+      "uncertain": "ALL remaining pixels of this mixed owner, including mottled boundary/isolated flecks; not a production mask or exact contour"
+    },
+    {
+      "owner": "Map/Res/FloorBig:392@34,44",
+      "patch_box": [
+        384,
+        192,
+        480,
+        256
+      ],
+      "source_id": -392,
+      "clear_surface_sample_rects_local": {
+        "soil": [
+          [
+            40,
+            0,
+            96,
+            45
+          ],
+          [
+            20,
+            0,
+            40,
+            25
+          ]
+        ],
+        "grass": [
+          [
+            0,
+            50,
+            16,
+            64
+          ]
+        ]
+      },
+      "uncertain": "ALL remaining pixels of this mixed owner, including mottled boundary/isolated flecks; not a production mask or exact contour"
+    },
+    {
+      "owner": "Map/Res/FloorBig:409@34,46",
+      "patch_box": [
+        384,
+        256,
+        480,
+        320
+      ],
+      "source_id": -409,
+      "clear_surface_sample_rects_local": {
+        "soil": [],
+        "grass": [
+          [
+            0,
+            10,
+            65,
+            64
+          ],
+          [
+            65,
+            38,
+            96,
+            64
+          ]
+        ]
+      },
+      "uncertain": "ALL remaining pixels of this mixed owner, including mottled boundary/isolated flecks; not a production mask or exact contour"
+    }
+  ]
+}

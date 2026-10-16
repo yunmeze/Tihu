@@ -1,0 +1,154 @@
+{
+  "raw_sha256": "2330ede57fdcefeb6e3d1a3da688640624d671e77f54ea309a49baf8a76ad162",
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "mapping": "full raw LANCZOS768; BOX384; worldperiod384 density2 phase0; no edits",
+  "raw_origin": "generated_images/exec-af53ab18-9628-41cc-8a32-4641ea899b89.png",
+  "tile768": {
+    "mean_rgb": [
+      152.1369866265191,
+      133.46355523003473,
+      108.73505995008681
+    ],
+    "luminance_std": 18.336329017851444,
+    "seam_axis0": {
+      "mean": 17.352864583333332,
+      "p95": 44.09999999999999,
+      "interior_line_mean_p95": 16.571788194444444
+    },
+    "seam_axis1": {
+      "mean": 16.358506944444446,
+      "p95": 39.54999999999999,
+      "interior_line_mean_p95": 15.736588541666661
+    }
+  },
+  "tile384": {
+    "mean_rgb": [
+      152.63648817274304,
+      133.96350775824652,
+      109.23469373914931
+    ],
+    "luminance_std": 12.779382053698098,
+    "seam_axis0": {
+      "mean": 13.831597222222223,
+      "p95": 36.89999999999998,
+      "interior_line_mean_p95": 13.642447916666665
+    },
+    "seam_axis1": {
+      "mean": 12.341145833333334,
+      "p95": 29.94999999999999,
+      "interior_line_mean_p95": 13.285243055555544
+    }
+  },
+  "sourceG1": {
+    "mean_rgb": [
+      170.07014973958334,
+      147.76481119791666,
+      112.42919921875
+    ],
+    "luminance_std": 21.367574730727025,
+    "seam_axis0": {
+      "mean": 26.746527777777782,
+      "p95": 67.58333333333333,
+      "interior_line_mean_p95": 25.022569444444446
+    },
+    "seam_axis1": {
+      "mean": 2.760416666666667,
+      "p95": 11.0,
+      "interior_line_mean_p95": 24.364062500000003
+    }
+  },
+  "windows": [
+    {
+      "category": "G1-to-G2",
+      "world": [
+        3696,
+        0,
+        4080,
+        256
+      ],
+      "edge": {
+        "owner": "Map/Res/FloorBig:402@80,2",
+        "neighbor": "Map/Res/FloorBig:394@80,4",
+        "category": "tan-earth-gravel-base",
+        "edge": [
+          "h",
+          128,
+          3840,
+          3936
+        ]
+      }
+    },
+    {
+      "category": "grass-base",
+      "world": [
+        336,
+        1280,
+        720,
+        1536
+      ],
+      "edge": {
+        "owner": "Map/Res/FloorBig:402@10,44",
+        "neighbor": "Map/Res/FloorBig:406@10,42",
+        "category": "grass-base",
+        "edge": [
+          "h",
+          1408,
+          480,
+          576
+        ]
+      }
+    },
+    {
+      "category": "grass-earth-transition-or-grass-variant",
+      "world": [
+        1440,
+        1248,
+        1824,
+        1504
+      ],
+      "edge": {
+        "owner": "Map/Res/FloorBig:402@34,42",
+        "neighbor": "Map/Res/FloorBig:392@32,42",
+        "category": "grass-earth-transition-or-grass-variant",
+        "edge": [
+          "v",
+          1632,
+          1344,
+          1408
+        ]
+      }
+    }
+  ],
+  "local_context_only_replaced_owner_count": 25,
+  "local_context_only_owner_keys": [
+    "Map/Res/FloorBig:402@10,44",
+    "Map/Res/FloorBig:402@10,46",
+    "Map/Res/FloorBig:402@30,38",
+    "Map/Res/FloorBig:402@30,40",
+    "Map/Res/FloorBig:402@34,42",
+    "Map/Res/FloorBig:402@6,46",
+    "Map/Res/FloorBig:402@76,0",
+    "Map/Res/FloorBig:402@76,2",
+    "Map/Res/FloorBig:402@76,4",
+    "Map/Res/FloorBig:402@76,6",
+    "Map/Res/FloorBig:402@78,0",
+    "Map/Res/FloorBig:402@78,2",
+    "Map/Res/FloorBig:402@78,4",
+    "Map/Res/FloorBig:402@78,6",
+    "Map/Res/FloorBig:402@8,42",
+    "Map/Res/FloorBig:402@8,46",
+    "Map/Res/FloorBig:402@80,0",
+    "Map/Res/FloorBig:402@80,2",
+    "Map/Res/FloorBig:402@80,6",
+    "Map/Res/FloorBig:402@82,0",
+    "Map/Res/FloorBig:402@82,4",
+    "Map/Res/FloorBig:402@82,6",
+    "Map/Res/FloorBig:402@84,0",
+    "Map/Res/FloorBig:402@84,4",
+    "Map/Res/FloorBig:402@84,6"
+  ],
+  "context_limitation": "CPU original objects first frame, stable floor/object order; not native or modern-object/shadow recreation. Only owners visible within these three windows sampled. No materialized owner replacements."
+}

@@ -1,0 +1,162 @@
+{
+  "method": "fixed shared4x canvas RGB materialpatch search +/-4logical; no fit or transform; texture redraw biases near minima",
+  "features": {
+    "face": {
+      "roi": [
+        37,
+        18,
+        44,
+        25
+      ],
+      "observed_delta_logical": [
+        1.75,
+        1.25
+      ],
+      "RMSE": 21.905389483763447,
+      "runner_up_RMSE": 31.524859265358828
+    },
+    "extended_hand": {
+      "roi": [
+        13,
+        23,
+        19,
+        29
+      ],
+      "observed_delta_logical": [
+        1.0,
+        1.25
+      ],
+      "RMSE": 29.264014132516888,
+      "runner_up_RMSE": 38.16312604877665
+    },
+    "red_strap": {
+      "roi": [
+        14,
+        28,
+        20,
+        34
+      ],
+      "observed_delta_logical": [
+        1.0,
+        0.75
+      ],
+      "RMSE": 39.07014554807991,
+      "runner_up_RMSE": 39.99200585626342
+    },
+    "left_shoulder_seam": {
+      "roi": [
+        31,
+        23,
+        36,
+        29
+      ],
+      "observed_delta_logical": [
+        1.5,
+        1.25
+      ],
+      "RMSE": 15.128293948022618,
+      "runner_up_RMSE": 15.943302320689051
+    },
+    "right_shoulder_seam": {
+      "roi": [
+        49,
+        25,
+        54,
+        31
+      ],
+      "observed_delta_logical": [
+        2.25,
+        1.25
+      ],
+      "RMSE": 13.825976959654204,
+      "runner_up_RMSE": 16.019541018532472
+    },
+    "vest_left_patch": {
+      "roi": [
+        35,
+        24,
+        40,
+        29
+      ],
+      "observed_delta_logical": [
+        1.75,
+        1.25
+      ],
+      "RMSE": 20.649011275764916,
+      "runner_up_RMSE": 30.583465031505725
+    },
+    "vest_right_patch": {
+      "roi": [
+        44,
+        27,
+        49,
+        32
+      ],
+      "observed_delta_logical": [
+        2.0,
+        1.5
+      ],
+      "RMSE": 18.974851778077213,
+      "runner_up_RMSE": 20.019532129065023
+    },
+    "bent_hand": {
+      "roi": [
+        37,
+        32,
+        43,
+        38
+      ],
+      "observed_delta_logical": [
+        1.75,
+        1.25
+      ],
+      "RMSE": 21.408626354986147,
+      "runner_up_RMSE": 23.611143790827057
+    },
+    "waist": {
+      "roi": [
+        41,
+        40,
+        47,
+        45
+      ],
+      "observed_delta_logical": [
+        2.0,
+        1.5
+      ],
+      "RMSE": 16.79225598635011,
+      "runner_up_RMSE": 21.391960457663114
+    },
+    "back_shoe": {
+      "roi": [
+        36,
+        67,
+        45,
+        72
+      ],
+      "observed_delta_logical": [
+        1.5,
+        2.0
+      ],
+      "RMSE": 30.039341488072555,
+      "runner_up_RMSE": 30.99791659665748
+    },
+    "front_shoe": {
+      "roi": [
+        54,
+        79,
+        61,
+        85
+      ],
+      "observed_delta_logical": [
+        2.25,
+        1.75
+      ],
+      "RMSE": 22.458129029903837,
+      "runner_up_RMSE": 29.794775895027648
+    }
+  },
+  "uncertainty_logical": "approximately1\u20132; not anatomy",
+  "source_motion": "most0,0; onlyredhangingpiece0,-1; rearfootunreliable",
+  "alpha128_area_ratio": 1.0915166540907622
+}

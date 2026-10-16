@@ -1,0 +1,8 @@
+#273 one-shot modern design, not fourphase/runtime acceptance
+Actual2refs+prompt frozen beforebuiltinimagegen; raw returnpath pinned.1254square/96logical=13.0625density, uniformwholecanvas→384square density4 only; no registrationcorrection/limbwarp/alpha cleanup. RawSHAa95b2989bf9c09faf364b5cb01742829be94ae2a0fd9334e43b0edb4897ec096. CandidateSHA783edd6f5d29b8dc6133b113c8789bef211d5a7a67d0e67c18635c4955136153.7767rawalpha1–2retained; partialalpha distribution recorded, notsilentlythresholded.
+
+Modernblue short sleeve/olive shortvest/deeppants andindependentadultface clearly readable, redcompactstrapconnectedtoextendedhand. Oppositearmfoldedfront, asymmetricstance persists; no largehorsepose/newgroundshadow/prop. Forearms read muscular andveststructured/bulky, ratherthan particularlylean; HDoutputretainsblocky source-like painterlypixels. These areartreviewlimits, not automaticallyaccepted byclothingnames.
+
+Same96canvas visibleproxies (candidate-source logical): faceexcludingcrown(+2,-1),extendedhand(+.5,+2),redpiece(+2,+1),benthand(-4,-4),waist(+1,-2),frontshoe(+3,+1.5).Eachreaduncertainty2–4logical. Rearshoeapparent(+7,-4) isNOT reliableanatomydrift becauseoriginalpointmayberobehem; keepuncertainty, don'tcallhiddenlegsreconstructed. Newrearshoeisclearerandmoreinward; no claimexactsourceposepassed. No globalfit performed.
+
+See samecoords-1x/2x/4x.png, actual-source-ground-1x/2x.png, visible-points-4x.png. CPUsceneusesoriginalmapatlas andownerordering, replacesonlyrecord6 atworldorigin1800,1132 withanchor1824,1184; originalbuilding/ground retained. Itisnotnativecollision/occlusionvalidation. Needrootreviewofarmbulk,foldedhandplacement/frontshoeandnewleginterpretation. Only273generated;274–276stilloriginalmicro-motion, notcopiednewframes.

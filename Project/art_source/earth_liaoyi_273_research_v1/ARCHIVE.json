@@ -1,0 +1,95 @@
+{
+  "status": "Single273 research; folded-hand/shoe differences and source uncertainty remain; no fourphase/runtime.",
+  "files": [
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/liaoyi-design-input/attempt1/generated-raw.png",
+      "sha256": "a95b2989bf9c09faf364b5cb01742829be94ae2a0fd9334e43b0edb4897ec096",
+      "bytes": 363449,
+      "role": "raw",
+      "path": "generated-raw.png"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/liaoyi-design-input/attempt1/prompt_actual.txt",
+      "sha256": "ed83d79d61b1fa0da0b01f7af58dea9ec10ef5c993906a85ce550b88583006f4",
+      "bytes": 2749,
+      "role": "contract-or-conclusion",
+      "path": "prompt_actual.txt"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/liaoyi-design-input/attempt1/contract-before-generation.json",
+      "sha256": "65b0580a3feeb874b5fc1e2054cf420d5ad033824e793e3d7a00e0b732167a3e",
+      "bytes": 1026,
+      "role": "contract-or-conclusion",
+      "path": "contract-before-generation.json"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/liaoyi-design-input/attempt1/RESULT.md",
+      "sha256": "2f8822c41990a222705092e7bff1f2abdb501f2465c834d1e5efb4d98ad47478",
+      "bytes": 1775,
+      "role": "contract-or-conclusion",
+      "path": "RESULT.md"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/liaoyi-design-input/attempt1/primary-source.png",
+      "sha256": "2a37d47f8e91a937d63baab214aed60867a223254d852691865b27c7585b1ff0",
+      "bytes": 7172,
+      "role": "actual-reference",
+      "path": "primary-source.png"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/liaoyi-design-input/attempt1/source-reading.png",
+      "sha256": "a6e8531707edfb17b7120f8a2216b542314a74affb4943cac7f100e1a8839266",
+      "bytes": 22888,
+      "role": "actual-reference",
+      "path": "source-reading.png"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/liaoyi-design-input/attempt1/measurements.json",
+      "sha256": "05b87ffccc1e973361c07df202743c6f7a06335c041bbf5552cefd9f0c6dc875",
+      "bytes": 476,
+      "role": "contract-or-conclusion",
+      "path": "measurements.json"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/liaoyi-design-input/attempt1/visible-point-review.json",
+      "sha256": "82b647300741f4bf294eab2f53865a98b3939a699aad344cafe429f2d07266f2",
+      "bytes": 1841,
+      "role": "contract-or-conclusion",
+      "path": "visible-point-review.json"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/liaoyi-design-input/source-contract.json",
+      "sha256": "e7ed3c33a30c651c1442024c8bd9c1d612027d5d87837e95ab158b5486be7102",
+      "bytes": 14953,
+      "role": "contract-or-conclusion",
+      "path": "source-contract.json"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/publication/pending-research-source-inventory/liaoyi273/reproduce.py",
+      "sha256": "fde17062272fd31fade60cc979ee9ebe874c64a59f6b4206446f787d17e430e0",
+      "bytes": 1078,
+      "role": "minimal-reproduction",
+      "path": "reproduce.py"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/publication/pending-research-source-inventory/liaoyi273/RECIPE.json",
+      "sha256": "b6f3e5aa573e1d3b5060c6460dbc2228f1ce690013d67ac4ae70b340074ad77d",
+      "bytes": 472,
+      "role": "minimal-reproduction",
+      "path": "RECIPE.json"
+    }
+  ],
+  "actual_refs_order": [
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/liaoyi-design-input/attempt1/primary-source.png",
+      "sha256": "2a37d47f8e91a937d63baab214aed60867a223254d852691865b27c7585b1ff0",
+      "path": "primary-source.png"
+    },
+    {
+      "source": "/workspace/scratch/22c897619190/recovery-work/liaoyi-design-input/attempt1/source-reading.png",
+      "sha256": "a6e8531707edfb17b7120f8a2216b542314a74affb4943cac7f100e1a8839266",
+      "path": "source-reading.png"
+    }
+  ],
+  "runtime_promoted": false
+}
