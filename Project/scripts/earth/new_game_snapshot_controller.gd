@@ -21,7 +21,7 @@ func fit_display() -> void:
 	display.size=LOGICAL*factor;display.position=(available-display.size)*0.5
 func world_host():return raster
 func create_world(map_id:String):
-	return preload("res://scripts/earth/snapshot_world.gd").new() if map_id=="A13" else LoadedWorld.new()
+	return preload("res://scripts/earth/snapshot_prefilter_world.gd").new() if map_id=="A13" else LoadedWorld.new()
 func map_display_point(point:Vector2) -> Dictionary:
 	if not Rect2(display.position,display.size).has_point(point):return {"ok":false}
 	return {"ok":true,"logical":(point-display.position)/display.size*LOGICAL}
