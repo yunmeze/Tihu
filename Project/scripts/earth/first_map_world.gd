@@ -12,6 +12,7 @@ func _init() -> void:
 	floor_pass.free()
 	floor_pass=preload("res://scripts/earth/first_map_floor_pass.gd").new()
 func setup(actor:RefCounted,map_path:String="res://data/maps/A13.json") -> bool:
+	static_props_groups.clear();static_props_errors={"pool":"尚未加载","clump":"尚未加载"}
 	review_ground_owners.clear();review_ground_texture=null;e_walk_frames.clear()
 	e_walk_error="尚未加载";review_ground_error="尚未加载"
 	return super.setup(actor,map_path)
@@ -49,3 +50,51 @@ func validate_review_ground_stream() -> void:
 	if not review_ground_owners.is_empty() and floors!=validated_floor_stream:
 		review_ground_owners.clear();review_ground_texture=null;validated_floor_stream.clear()
 		review_ground_error="运行时完整地面序列变化，整组已撤回"
+
+
+# Optional source-bound static props; no per-owner textures or sort changes.
+const StaticPropsGuard=preload("res://scripts/earth/static_props_guard.gd")
+var static_props_guard=StaticPropsGuard.new()
+var static_props_groups:Dictionary={}
+var static_props_errors:Dictionary={"pool":"尚未加载","clump":"尚未加载"}
+var prefer_review_pool:=true
+var prefer_review_clump:=true
+var review_camera_top_left:=SAMPLE_RECT.position
+var review_camera_label:="出生点"
+
+func screen_origin() -> Vector2:
+	return super.screen_origin() if follow_actor else -review_camera_top_left
+
+func prepare_static_props(id:String,path:String=StaticPropsGuard.REGISTRATION) -> bool:
+	if id not in ["pool","clump"]:return false
+	static_props_groups.erase(id)
+	var group=static_props_guard.prepare(id,map,objects,packs,path)
+	static_props_errors[id]=static_props_guard.failure
+	if not group.is_empty():static_props_groups[id]=group
+	queue_redraw()
+	return not group.is_empty()
+
+func refresh() -> void:
+	for id in ["pool","clump"]:
+		if static_props_groups.has(id) and not static_props_guard.live_valid(static_props_groups[id],map,objects,packs):
+			static_props_groups.erase(id);static_props_errors[id]=static_props_guard.failure
+	super.refresh()
+
+func static_props_count(id:String) -> int:
+	var preferred=prefer_review_pool if id=="pool" else prefer_review_clump
+	return static_props_groups[id].owners.size() if preferred and static_props_groups.has(id) else 0
+
+func _draw_frame(pack_name:String,index:int,origin:Vector2,use_offset:bool,top:float) -> void:
+	if not use_offset:
+		var cell=(origin-screen_origin())/Vector2(48,32)
+		var order=roundi(cell.x)*100+roundi(cell.y)
+		for id in ["pool","clump"]:
+			if static_props_count(id)==0:continue
+			var group:Dictionary=static_props_groups[id]
+			if not group.owners.has(order):continue
+			var owner:Dictionary=group.owners[order]
+			if owner.pack!=pack_name or owner.index!=index:continue
+			# Cross-owner taps use the unchanged master. Geometry shares half-open edges.
+			draw_texture_rect_region(group.texture,Rect2(owner.origin+screen_origin(),owner.size),owner.region,Color.WHITE,false,false)
+			return
+	super._draw_frame(pack_name,index,origin,use_offset,top)

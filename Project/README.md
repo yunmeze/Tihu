@@ -1,4 +1,4 @@
-> 最新局部试玩入口（2026-10-16）：导入 `project.godot` 并等待资源导入完成，打开 `scenes/earth_first_map_review.tscn`，按 **F6**。出生点及南侧道路共 121 / 2553 地块使用草地研究稿，E 方向步行使用最新六帧；其他区域仍为原素材或既有样稿。水池和细枝草丛仅存档，尚未接入。**F5 仍启动原素材逻辑预览。** 详见 [局部试玩说明](docs/first-map-review.md)。Windows 尚未实测。
+> 最新局部试玩入口（2026-10-16）：导入 `project.godot` 并等待资源导入完成，打开 `scenes/earth_first_map_review.tscn`，按 **F6**。出生点及南侧道路共 121 / 2553 地块使用草地研究稿，E 方向步行使用最新六帧；其他区域仍为原素材或既有样稿。水池和细枝草丛研究稿已接入；L 定位查看，Q/W 分别切换原版对照。**F5 仍启动原素材逻辑预览。** 详见 [局部试玩说明](docs/first-map-review.md)。Windows 尚未实测。
 
 
 # Legend：Godot 2D 重建工程

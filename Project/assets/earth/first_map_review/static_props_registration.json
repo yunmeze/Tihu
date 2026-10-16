@@ -1,0 +1,769 @@
+{
+  "schema": "earth-first-map-static-props-v1",
+  "status": "Selected bounded static-prop research integration in optional first_map_review only; not whole-map art acceptance; Windows not validated.",
+  "source_map": {
+    "path": "res://data/maps/A13.json",
+    "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "bytes": 618373,
+    "type": "json",
+    "role": "source-map"
+  },
+  "source_manifest": {
+    "path": "res://assets/original/manifest.json",
+    "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+    "bytes": 262324,
+    "type": "json",
+    "role": "source-atlas-manifest"
+  },
+  "groups": {
+    "pool": {
+      "owner_count": 7,
+      "master": {
+        "path": "res://art_source/earth_pool_research_v1/pool-registered-research-2x.png",
+        "sha256": "55a2ac86f1d7e5274e89c155439eaa38d5b880d6396e5b327b29780abe0433ea",
+        "bytes": 366222,
+        "type": "png",
+        "role": "texture",
+        "width": 640,
+        "height": 496
+      },
+      "density": 2,
+      "world_origin": [
+        3086,
+        1800
+      ],
+      "logical_size": [
+        320.0,
+        248.0
+      ],
+      "sampling": "One unchanged shared full-master CanvasTexture, LINEAR, draw_texture_rect_region clip_uv=false. Half-open geometry; no per-owner texture/mask or alpha threshold.",
+      "support_selection": "original seven source rectangles",
+      "omitted_texel_centers": {
+        "alpha_positive": 12,
+        "max_alpha": 1,
+        "alpha_histogram": {
+          "1": 12
+        },
+        "alpha8plus": 0,
+        "alpha128plus": 0
+      },
+      "outside_finite_master": {
+        "nonzero_samples": 36,
+        "max_alpha": 1,
+        "note": "Existing finite pool master excludes these larger raw-mapped-view samples; runtime does not additionally discard them."
+      },
+      "source_dependencies": [
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://art_source/earth_pool_research_v1/pool-registered-research-2x.png",
+          "sha256": "55a2ac86f1d7e5274e89c155439eaa38d5b880d6396e5b327b29780abe0433ea",
+          "bytes": 366222,
+          "type": "png",
+          "role": "texture",
+          "width": 640,
+          "height": 496
+        },
+        {
+          "path": "res://assets/original/Map/Res/Debris/0.png",
+          "sha256": "1a40e7affec8b5ef82ee902dda23261e67dd2ddf499301adbcfea4dea0c1b87e",
+          "bytes": 128529,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "owners": [
+        {
+          "index": 55,
+          "pack": "Map/Res/Debris",
+          "cell": [
+            64,
+            60
+          ],
+          "source_cell": [
+            -406,
+            1,
+            1,
+            55
+          ],
+          "layer": 0,
+          "sort_y": 60,
+          "stable_source_order": 6460,
+          "source_world_bounds": [
+            3086,
+            1860,
+            3120,
+            1952
+          ],
+          "source_frame": {
+            "original": [
+              48,
+              92
+            ],
+            "crop": [
+              14,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              84,
+              1,
+              34,
+              92
+            ],
+            "atlas": "res://assets/original/Map/Res/Debris/0.png"
+          },
+          "support_px_half_open": [
+            0,
+            120,
+            68,
+            304
+          ]
+        },
+        {
+          "index": 56,
+          "pack": "Map/Res/Debris",
+          "cell": [
+            65,
+            61
+          ],
+          "source_cell": [
+            0,
+            1,
+            1,
+            56
+          ],
+          "layer": 0,
+          "sort_y": 61,
+          "stable_source_order": 6561,
+          "source_world_bounds": [
+            3120,
+            1825,
+            3168,
+            1981
+          ],
+          "source_frame": {
+            "original": [
+              48,
+              159
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              120,
+              1,
+              48,
+              156
+            ],
+            "atlas": "res://assets/original/Map/Res/Debris/0.png"
+          },
+          "support_px_half_open": [
+            68,
+            50,
+            164,
+            362
+          ]
+        },
+        {
+          "index": 57,
+          "pack": "Map/Res/Debris",
+          "cell": [
+            66,
+            62
+          ],
+          "source_cell": [
+            -406,
+            1,
+            1,
+            57
+          ],
+          "layer": 0,
+          "sort_y": 62,
+          "stable_source_order": 6662,
+          "source_world_bounds": [
+            3168,
+            1803,
+            3216,
+            2015
+          ],
+          "source_frame": {
+            "original": [
+              48,
+              213
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              170,
+              1,
+              48,
+              212
+            ],
+            "atlas": "res://assets/original/Map/Res/Debris/0.png"
+          },
+          "support_px_half_open": [
+            164,
+            6,
+            260,
+            430
+          ]
+        },
+        {
+          "index": 58,
+          "pack": "Map/Res/Debris",
+          "cell": [
+            67,
+            63
+          ],
+          "source_cell": [
+            0,
+            1,
+            1,
+            58
+          ],
+          "layer": 0,
+          "sort_y": 63,
+          "stable_source_order": 6763,
+          "source_world_bounds": [
+            3216,
+            1800,
+            3264,
+            2041
+          ],
+          "source_frame": {
+            "original": [
+              48,
+              248
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              220,
+              1,
+              48,
+              241
+            ],
+            "atlas": "res://assets/original/Map/Res/Debris/0.png"
+          },
+          "support_px_half_open": [
+            260,
+            0,
+            356,
+            482
+          ]
+        },
+        {
+          "index": 59,
+          "pack": "Map/Res/Debris",
+          "cell": [
+            68,
+            63
+          ],
+          "source_cell": [
+            0,
+            -2,
+            1,
+            59
+          ],
+          "layer": 0,
+          "sort_y": 63,
+          "stable_source_order": 6863,
+          "source_world_bounds": [
+            3264,
+            1813,
+            3312,
+            2048
+          ],
+          "source_frame": {
+            "original": [
+              48,
+              235
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              270,
+              1,
+              48,
+              235
+            ],
+            "atlas": "res://assets/original/Map/Res/Debris/0.png"
+          },
+          "support_px_half_open": [
+            356,
+            26,
+            452,
+            496
+          ]
+        },
+        {
+          "index": 60,
+          "pack": "Map/Res/Debris",
+          "cell": [
+            69,
+            63
+          ],
+          "source_cell": [
+            0,
+            -2,
+            1,
+            60
+          ],
+          "layer": 0,
+          "sort_y": 63,
+          "stable_source_order": 6963,
+          "source_world_bounds": [
+            3312,
+            1884,
+            3360,
+            2047
+          ],
+          "source_frame": {
+            "original": [
+              48,
+              164
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              320,
+              1,
+              48,
+              163
+            ],
+            "atlas": "res://assets/original/Map/Res/Debris/0.png"
+          },
+          "support_px_half_open": [
+            452,
+            168,
+            548,
+            494
+          ]
+        },
+        {
+          "index": 61,
+          "pack": "Map/Res/Debris",
+          "cell": [
+            70,
+            63
+          ],
+          "source_cell": [
+            0,
+            1,
+            1,
+            61
+          ],
+          "layer": 0,
+          "sort_y": 63,
+          "stable_source_order": 7063,
+          "source_world_bounds": [
+            3360,
+            1925,
+            3406,
+            2037
+          ],
+          "source_frame": {
+            "original": [
+              48,
+              123
+            ],
+            "crop": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              370,
+              1,
+              46,
+              112
+            ],
+            "atlas": "res://assets/original/Map/Res/Debris/0.png"
+          },
+          "support_px_half_open": [
+            548,
+            250,
+            640,
+            474
+          ]
+        }
+      ]
+    },
+    "clump": {
+      "owner_count": 3,
+      "master": {
+        "path": "res://art_source/earth_fine_clump_research_v1/candidate-density4-fullcanvas.png",
+        "sha256": "56fe91ccc0e9b1909f48cde77ff8219b8845d1d31cb6844fbc535cbfc7c56980",
+        "bytes": 195028,
+        "type": "png",
+        "role": "texture",
+        "width": 512,
+        "height": 512
+      },
+      "density": 4,
+      "world_origin": [
+        3031.5,
+        1744
+      ],
+      "logical_size": [
+        128.0,
+        128.0
+      ],
+      "sampling": "One unchanged shared full-master CanvasTexture, LINEAR, draw_texture_rect_region clip_uv=false. Half-open geometry; no per-owner texture/mask or alpha threshold.",
+      "support_selection": "bounded half-texel outer filtering halo; internal x seams unchanged",
+      "omitted_texel_centers": {
+        "alpha_positive": 551,
+        "max_alpha": 2,
+        "alpha_histogram": {
+          "1": 547,
+          "2": 4
+        },
+        "alpha8plus": 0,
+        "alpha128plus": 0
+      },
+      "outside_finite_master": null,
+      "source_dependencies": [
+        {
+          "path": "res://data/maps/A13.json",
+          "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+          "bytes": 618373,
+          "type": "json",
+          "role": "source-map"
+        },
+        {
+          "path": "res://assets/original/manifest.json",
+          "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+          "bytes": 262324,
+          "type": "json",
+          "role": "source-atlas-manifest"
+        },
+        {
+          "path": "res://art_source/earth_fine_clump_research_v1/candidate-density4-fullcanvas.png",
+          "sha256": "56fe91ccc0e9b1909f48cde77ff8219b8845d1d31cb6844fbc535cbfc7c56980",
+          "bytes": 195028,
+          "type": "png",
+          "role": "texture",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "res://assets/original/Map/Res/Plant/0.png",
+          "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+          "bytes": 723574,
+          "type": "png",
+          "role": "source-atlas",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "owners": [
+        {
+          "index": 248,
+          "pack": "Map/Res/Plant",
+          "cell": [
+            63,
+            57
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            248
+          ],
+          "layer": 1,
+          "sort_y": 57,
+          "stable_source_order": 6357,
+          "source_world_bounds": [
+            3037,
+            1788,
+            3072,
+            1837
+          ],
+          "source_frame": {
+            "original": [
+              48,
+              96
+            ],
+            "crop": [
+              13,
+              28
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1452,
+              1,
+              35,
+              49
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png"
+          },
+          "support_px_half_open": [
+            20.5,
+            176,
+            162,
+            375.5
+          ]
+        },
+        {
+          "index": 249,
+          "pack": "Map/Res/Plant",
+          "cell": [
+            64,
+            57
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            249
+          ],
+          "layer": 1,
+          "sort_y": 57,
+          "stable_source_order": 6457,
+          "source_world_bounds": [
+            3072,
+            1772,
+            3120,
+            1844
+          ],
+          "source_frame": {
+            "original": [
+              48,
+              96
+            ],
+            "crop": [
+              0,
+              12
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1489,
+              1,
+              48,
+              72
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png"
+          },
+          "support_px_half_open": [
+            162,
+            104.5,
+            354,
+            402.5
+          ]
+        },
+        {
+          "index": 250,
+          "pack": "Map/Res/Plant",
+          "cell": [
+            65,
+            57
+          ],
+          "source_cell": [
+            0,
+            0,
+            2,
+            250
+          ],
+          "layer": 1,
+          "sort_y": 57,
+          "stable_source_order": 6557,
+          "source_world_bounds": [
+            3120,
+            1777,
+            3154,
+            1833
+          ],
+          "source_frame": {
+            "original": [
+              48,
+              96
+            ],
+            "crop": [
+              0,
+              17
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "page": 0,
+            "rect": [
+              1539,
+              1,
+              34,
+              56
+            ],
+            "atlas": "res://assets/original/Map/Res/Plant/0.png"
+          },
+          "support_px_half_open": [
+            354,
+            105.5,
+            490,
+            356
+          ]
+        }
+      ]
+    }
+  },
+  "provenance": [
+    {
+      "path": "res://art_source/earth_pool_research_v1/SOURCE_GROUP.json",
+      "sha256": "7fe359b9ff72a47f4d789394509651fefcd95b8e6f02cb40df9bb57fbce1a7a7",
+      "bytes": 19191,
+      "type": "json",
+      "role": "provenance-only-not-runtime"
+    },
+    {
+      "path": "res://art_source/earth_pool_research_v1/OWNER_PARTITION_PROPOSAL.json",
+      "sha256": "a3be310e32840cd8ac243ce2ce49edff82deab39d8e61f24985279394af18ba8",
+      "bytes": 2519,
+      "type": "json",
+      "role": "provenance-only-not-runtime"
+    },
+    {
+      "path": "res://art_source/earth_pool_research_v1/README.md",
+      "sha256": "1cec3f5bfdcf7060b2e283cb8128e346dc1be18c8b65a93f7ce4ce8cf156c023",
+      "bytes": 3184,
+      "type": "md",
+      "role": "provenance-only-not-runtime"
+    },
+    {
+      "path": "res://art_source/earth_fine_clump_research_v1/SOURCE_AND_FIRST_CONTRACT.json",
+      "sha256": "d8b8c0e611b42a9c3d0b6318ad2d11074674c260d55c33699dc49d5a6736f0e7",
+      "bytes": 7841,
+      "type": "json",
+      "role": "provenance-only-not-runtime"
+    },
+    {
+      "path": "res://art_source/earth_fine_clump_research_v1/OWNER_EXTENSION_PROPOSAL.json",
+      "sha256": "2094322123fc1d1114ab65afb48613e371e84dc488c650e56e6e58c6a2d45db3",
+      "bytes": 4575,
+      "type": "json",
+      "role": "provenance-only-not-runtime"
+    },
+    {
+      "path": "res://art_source/earth_fine_clump_research_v1/README.md",
+      "sha256": "cb4dbeebdd587941d2d8da3611063e22f579eba6dfd477f32fce7c65721f0024",
+      "bytes": 3302,
+      "type": "md",
+      "role": "provenance-only-not-runtime"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "res://art_source/earth_fine_clump_research_v1/candidate-density4-fullcanvas.png",
+      "sha256": "56fe91ccc0e9b1909f48cde77ff8219b8845d1d31cb6844fbc535cbfc7c56980",
+      "bytes": 195028,
+      "type": "png",
+      "role": "texture",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "res://art_source/earth_pool_research_v1/pool-registered-research-2x.png",
+      "sha256": "55a2ac86f1d7e5274e89c155439eaa38d5b880d6396e5b327b29780abe0433ea",
+      "bytes": 366222,
+      "type": "png",
+      "role": "texture",
+      "width": 640,
+      "height": 496
+    },
+    {
+      "path": "res://assets/original/Map/Res/Debris/0.png",
+      "sha256": "1a40e7affec8b5ef82ee902dda23261e67dd2ddf499301adbcfea4dea0c1b87e",
+      "bytes": 128529,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/Map/Res/Plant/0.png",
+      "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+      "bytes": 723574,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/manifest.json",
+      "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+      "bytes": 262324,
+      "type": "json",
+      "role": "source-atlas-manifest"
+    },
+    {
+      "path": "res://data/maps/A13.json",
+      "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+      "bytes": 618373,
+      "type": "json",
+      "role": "source-map"
+    }
+  ]
+}
