@@ -1,0 +1,41 @@
+# Byte-pinned project text must keep LF even with core.autocrlf=true.
+*.json text eol=lf
+*.gd text eol=lf
+*.gdshader text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.godot text eol=lf
+*.tscn text eol=lf
+*.tres text eol=lf
+*.uid text eol=lf
+*.import text eol=lf
+*.log text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.gdignore text eol=lf
+*.csv text eol=lf
+*.cfg text eol=lf
+*.ini text eol=lf
+*.sh text eol=lf
+*.ps1 text eol=lf
+# Art, packed arrays and original/reference evidence are byte-preserved.
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.webp -text
+*.gif -text
+*.npz -text
+*.npy -text
+*.ttf -text
+*.otf -text
+*.wav -text
+*.ogg -text
+*.mp3 -text
+*.exe -text
+*.dll -text
+*.lpRes -text
+*.lpMap -text
+原版游戏/** -text !eol
+参考项目/** -text !eol

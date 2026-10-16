@@ -1,10 +1,21 @@
-> 当前画面入口（2026-10-15）：请打开 `scenes/earth_sample_preview.tscn` 并按 **F6**。地球区训练基地的首块实机样区已接入重制资产；风格概念已获认可，实机画质仍待验收。**F5 默认仍是原素材的 R1 逻辑预览**，不是最新美术入口。此前庭院美术只保留为历史技术探索。详见 `docs/EARTH_SOURCE_SAMPLE_ENTRY.md`。
+> 最新局部试玩入口（2026-10-16）：导入 `project.godot` 并等待资源导入完成，打开 `scenes/earth_first_map_review.tscn`，按 **F6**。出生点及南侧道路共 121 / 2553 地块使用草地研究稿，E 方向步行使用最新六帧；其他区域仍为原素材或既有样稿。水池和细枝草丛仅存档，尚未接入。**F5 仍启动原素材逻辑预览。** 详见 [局部试玩说明](docs/first-map-review.md)。Windows 尚未实测。
+
 
 # Legend：Godot 2D 重建工程
 
 目标版本：Godot 4.6.x。原素材入口验证玩法与数据，独立 Earth 入口验证重新生成的纯 2D 科幻美术。旧工作环境的源码和生成图未找回；本目录是依据原始材料重新实现并分阶段存档的版本。
 
-## 查看最新地球区画面
+## 最新局部试玩
+
+1. 完整下载并解压整个仓库，用 Godot 4.6.x 导入本目录的 `project.godot`，等待资源导入完成。
+2. 打开 `scenes/earth_first_map_review.tscn`，按 **F6（运行当前场景）**。
+3. 点击走路，Shift 跑步，空格停止，F 切跟随，B/P 对比角色/地面。沿东向走路可查看 E 方向最新六帧。
+
+这是局部美术研究稿，可走动但不是全图美术替换或完整游戏。保留整个 `Project`，尤其 `art_source`；其 `.gdignore` 使它不显示在编辑器文件面板，但运行时仍直接读取其中 PNG，不能删除或只复制 scenes/assets。当前交付为源工程，未验证导出的 Windows EXE/PCK。
+
+命令行（在仓库根目录执行，Godot 须在 PATH 中）：`godot --path Project res://scenes/earth_first_map_review.tscn`。Windows 使用下载的 Godot 4.6.x 编辑器打开工程即可，不需要运行任何原版 EXE。
+
+## 既有地球区样区入口
 
 1. 导入本目录的 `project.godot`，等待 Godot 完成资源导入。
 2. 在文件面板双击 `scenes/earth_sample_preview.tscn`，按 **F6（运行当前场景）**。
