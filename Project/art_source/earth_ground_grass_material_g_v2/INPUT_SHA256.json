@@ -1,0 +1,20 @@
+[
+  {
+    "path": "Project/art_source/earth_ground_grass_material_g_v2/INPUT_approved_wide_grass_native2x.png",
+    "source": "Project/assets/earth/environment/ground_plate_v4/plate.png",
+    "source_raw_crop": [
+      0,
+      0,
+      1536,
+      512
+    ],
+    "operation": "integer crop only; no resampling;1536x512",
+    "role": "primary wide native-scale material reference",
+    "sha256": "8a54ae53b8cf9e39c34466c9e2511d83601c12d17bb10cddd0cfe40b0fd08157"
+  },
+  {
+    "path": "Project/assets/earth/environment/ground_plate_v4/plate.png",
+    "role": "full original approved1536x1024 context, road slabs establish actual viewing distance; material only, do not copy road",
+    "sha256": "a44d861c4485cb8596fb42681441675d1b9cefb3d8c48261113325c14492ae2f"
+  }
+]

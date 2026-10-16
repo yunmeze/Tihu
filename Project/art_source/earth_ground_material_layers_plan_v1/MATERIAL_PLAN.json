@@ -1,0 +1,145 @@
+{
+  "status": "PLAN/MASK ONLY; no new image generation or artistic RGB assembly",
+  "geometry_authority": "v3 approved source center path and physical curb width; source design, not generated silhouette",
+  "domain_counts": {
+    "grass": 53894,
+    "curb": 13231,
+    "paving": 18295
+  },
+  "mutual_exclusion_and_union_equal_approved_mask": true,
+  "labels": {
+    "0": "immutable existing RGBA",
+    "1": "grass",
+    "2": "curb",
+    "3": "paving"
+  },
+  "source_geometry": [
+    [
+      1238,
+      72
+    ],
+    [
+      1238,
+      100
+    ],
+    [
+      88,
+      862
+    ],
+    [
+      80,
+      994
+    ],
+    [
+      0,
+      1048
+    ]
+  ],
+  "physical_width_raw": "18->8 on y72..100 upper vertical only,8 thereafter",
+  "source_geometry_uncertainty_raw": 6,
+  "material_canvas": {
+    "native_size": [
+      1536,
+      1024
+    ],
+    "world_xyxy": [
+      2400,
+      1328,
+      3168,
+      1840
+    ],
+    "crop_from_v3": [
+      0,
+      64,
+      1536,
+      1088
+    ],
+    "mapping_to_v3": "local=(u,v+64)",
+    "density": 2
+  },
+  "grass_donor_feasibility": {
+    "required_domain_bbox_local": [
+      1,
+      72,
+      1262,
+      1082
+    ],
+    "approved_v4_top_grass_rectangle_raw": [
+      0,
+      0,
+      1536,
+      512
+    ],
+    "approved_grass_rectangle_height_insufficient": true,
+    "existing_context_translation_option": [
+      80,
+      0
+    ],
+    "all_donor_coordinates_within_context": true,
+    "disposition": "Not recommended: context includes old/south material reset; translating texture does not match retained contact pixels; would duplicate visible grass marks. No donor copy applied."
+  },
+  "paving_repair_proposal": {
+    "pixels": 1894,
+    "bbox_local": [
+      0,
+      75,
+      1234,
+      1067
+    ],
+    "default": "Retain same-coordinate paving outside this tiny guard. Guard is geometry estimate, require visual remnant verification before finalizing."
+  },
+  "reference_crops": [
+    {
+      "file": "approved_v4_grass_sample_native2x.png",
+      "source": "assets/earth/environment/ground_plate_v4/plate.png",
+      "raw_xyxy": [
+        1152,
+        128,
+        1408,
+        384
+      ],
+      "density": 2,
+      "operation": "unchanged integer crop"
+    },
+    {
+      "file": "approved_v4_slab_sample_native2x.png",
+      "source": "assets/earth/environment/ground_plate_v4/plate.png",
+      "raw_xyxy": [
+        608,
+        704,
+        736,
+        832
+      ],
+      "density": 2,
+      "operation": "unchanged integer crop"
+    }
+  ],
+  "proposed_same_grass_transition_zone_pixels": 13112,
+  "transition_status": "Not applied. Proposed at most8raw inside fixed mask, grass-only and>=4raw from curb; never blends grass across curb geometry. Actual conditional-material boundary must pass before any transition approval.",
+  "inputs": [
+    {
+      "path": "assets/earth/environment/ground_plate_v4/plate.png",
+      "sha256": "a44d861c4485cb8596fb42681441675d1b9cefb3d8c48261113325c14492ae2f"
+    },
+    {
+      "path": "art_source/earth_south_ground_candidate_v1/raw.png",
+      "sha256": "6f4d9054ca1eb9969171f82b9b4c7dce5dd4e3269fd814d1060f493ca8002eb2"
+    },
+    {
+      "path": "art_source/earth_ground_cross_seam_candidate_v1/raw.png",
+      "sha256": "b8b5e60758825816814254677fb7c648fcf20baa5f2ff60826c1b0ee6e844e81"
+    },
+    {
+      "path": "art_source/earth_ground_cross_seam_revision_plan_v3/PLAN.json",
+      "sha256": "3d194f0e2e73c8acbcfcf8ab0502559a5aeb19a7060493e00f6774a17a34e956"
+    },
+    {
+      "path": "art_source/earth_ground_cross_seam_revision_plan_v3/PROPOSED_fixed_replace_mask.png",
+      "sha256": "94da013c3afd2507b266b1345f38e0d676d7c332d495f02ee0eb72f3509b8ac7"
+    },
+    {
+      "path": "art_source/earth_ground_cross_seam_revision_plan_v3/INPUT_ONLY_existing_art_context.png",
+      "sha256": "ee26f63196d31d0dec807e7b3314883dfce874cea35c7aedecf260d78b2f99db"
+    }
+  ]
+}

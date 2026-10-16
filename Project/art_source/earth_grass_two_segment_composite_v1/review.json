@@ -1,0 +1,105 @@
+{
+  "status": "RESEARCH ONLY; pending visual acceptance",
+  "donor_F_sha256": "6aab1606c02a5214e9addef3221c39b124578a4bba6f973a2408636d4f9f4494",
+  "F_dimensions": [
+    960,
+    640
+  ],
+  "mapping_A": [
+    -368,
+    -72
+  ],
+  "mapping_B": [
+    340,
+    -442
+  ],
+  "split_local_y": 560,
+  "internal_pixels": 500,
+  "outer_original_allowed_pixels": 13112,
+  "outer_actual_pixels": 10495,
+  "outer_trim_reason": "Do not mix existing curb/paving at canvas exits into new grass; same-grass side only, >=4raw from source curb, no expansion",
+  "color_math": "sRGB decode threshold0.04045 /12.92 or((v+.055)/1.055)^2.4; mix linear using saved float64 weights; encode threshold0.0031308 then floor(255*v+.5); alpha255",
+  "internal_formula": "B weight smoothstep((y+.5-556)/8) only500px; outside use hard",
+  "outer_formula": "New weight smoothstep(clamp((EDT(fixed_mask)-.5)/8,0,1)) only ACTUAL_outer_transition_mask; outside use internal result",
+  "checks": [
+    {
+      "file": "01_G_ONLY_hard.png",
+      "sha256": "024560164c0f143b625bbf07c8e277cd0fa3d736806e60b7d754af26483aee3f",
+      "outside_grass_RGBA_changed": 0,
+      "outside_fixed_RGBA_changed": 0,
+      "alpha_extrema": [
+        255,
+        255
+      ]
+    },
+    {
+      "file": "02_internal_8raw.png",
+      "sha256": "d588fb4b4f5bdee9c71b965a6c8e69c6726cc5ef26627ff61fad3958aa5381b3",
+      "outside_grass_RGBA_changed": 0,
+      "outside_fixed_RGBA_changed": 0,
+      "alpha_extrema": [
+        255,
+        255
+      ]
+    },
+    {
+      "file": "03_outer_8raw.png",
+      "sha256": "dd5be30ac2b5668400b4e1464d970eddd2d5b8cbd4fd9e3926aa933d14062e61",
+      "outside_grass_RGBA_changed": 0,
+      "outside_fixed_RGBA_changed": 0,
+      "alpha_extrema": [
+        255,
+        255
+      ]
+    },
+    {
+      "step": "01_to_02",
+      "changed_pixels": 408,
+      "outside_step_mask_changed": 0,
+      "permitted_pixels": 500
+    },
+    {
+      "step": "02_to_03",
+      "changed_pixels": 10453,
+      "outside_step_mask_changed": 0,
+      "permitted_pixels": 10495
+    }
+  ],
+  "C_lighting_B": "Not executed. Original B-seam correction scope not broadened; G-only geometry study remains incomplete curb art.",
+  "inputs": [
+    {
+      "path": "art_source/earth_grass_downsample_sampling_plan_v1/SAMPLING_PLAN.json",
+      "sha256": "d42c1d6aeeec9f6f0c8aab1907f7d3698fe0c18131ea4cf23a3d5921a26717da"
+    },
+    {
+      "path": "art_source/earth_grass_downsample_sampling_plan_v1/INPUT_G2_downsample_0625.png",
+      "sha256": "6aab1606c02a5214e9addef3221c39b124578a4bba6f973a2408636d4f9f4494"
+    },
+    {
+      "path": "art_source/earth_grass_downsample_sampling_plan_v1/PROPOSED_internal_8raw_joint_NOT_APPLIED.png",
+      "sha256": "4e9b8d0d3909c552af6bf2c5047baca7eb53b2f713d4380adac16e595a0d17c5"
+    },
+    {
+      "path": "art_source/earth_ground_material_layers_plan_v1/DOMAIN_grass_BINARY.png",
+      "sha256": "e85548014a96615a5cff3129b9c30dab41789919a6dfaeb851f28516dd3ebd84"
+    },
+    {
+      "path": "art_source/earth_ground_material_layers_plan_v1/PROPOSED_same_grass_transition_zone_NOT_APPLIED.png",
+      "sha256": "5c4058db13ddffbdcea0eccc258c6c727db43d1d2769b43616d0312895425501"
+    },
+    {
+      "path": "art_source/earth_ground_cross_seam_revision_plan_v3/INPUT_ONLY_existing_art_context.png",
+      "sha256": "ee26f63196d31d0dec807e7b3314883dfce874cea35c7aedecf260d78b2f99db"
+    },
+    {
+      "path": "art_source/earth_ground_cross_seam_revision_plan_v3/PROPOSED_fixed_replace_mask.png",
+      "sha256": "94da013c3afd2507b266b1345f38e0d676d7c332d495f02ee0eb72f3509b8ac7"
+    }
+  ],
+  "B_changed_pixels": {
+    "01_G_ONLY_hard.png": 0,
+    "02_internal_8raw.png": 0,
+    "03_outer_8raw.png": 0
+  },
+  "visual_review": "5/8 grain improved; internal joint not a salient horizontal stripe at reviewed crops; outer transition reduces hard join but narrow fine-grain strip remains distinguishable against coarser south candidate grass. C/contact finish absent. Root review required; not whole-ground approval."
+}

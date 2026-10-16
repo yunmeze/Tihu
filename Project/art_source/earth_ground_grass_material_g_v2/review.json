@@ -1,0 +1,158 @@
+{
+  "status": "REJECTED at native material-grain gate; no hard assembly or transition",
+  "generation": {
+    "tool": "builtin image_gen",
+    "calls_this_version": 1,
+    "saved_original": "/workspace/scratch/22c897619190/generated_images/exec-e0390176-a285-4971-80ff-d2d49c79b176.png",
+    "raw_size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "raw_sha256": "02ab80b501ca0ff7d6b8e5e295412f205a711af546838ce8c84429711cbbe6a6",
+    "native_density": 2,
+    "mapping_if_used": "G2(x,y-64) to v3 local(x,y), not applied"
+  },
+  "input_difference": "v1 supplied a256x256 crop only; v2 supplies unchanged1536x512 wide approved grass as primary plus unchanged1536x1024 full approved plate as actual-view scale context. No v1 failed output supplied.",
+  "prompt_difference": "Explicit identical1536px reference/output width, distant lawn not macro moss/curled leaves, low-amplitude variation; no local resizing or tiling",
+  "native_256_samples": [
+    {
+      "old_crop": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "G2_crop": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "old": {
+        "mean_RGB": [
+          156.03533935546875,
+          155.5491180419922,
+          67.93357849121094
+        ],
+        "luma_mean": 149.3266467376709,
+        "luma_std": 36.96273080116854
+      },
+      "G2": {
+        "mean_RGB": [
+          154.20359802246094,
+          154.29849243164062,
+          59.87519836425781
+        ],
+        "luma_mean": 147.46095604858397,
+        "luma_std": 37.65655678021317
+      }
+    },
+    {
+      "old_crop": [
+        640,
+        128,
+        896,
+        384
+      ],
+      "G2_crop": [
+        640,
+        384,
+        896,
+        640
+      ],
+      "old": {
+        "mean_RGB": [
+          106.16851806640625,
+          115.74166870117188,
+          44.66960144042969
+        ],
+        "luma_mean": 108.5750136199951,
+        "luma_std": 29.48256216157352
+      },
+      "G2": {
+        "mean_RGB": [
+          103.45370483398438,
+          114.03675842285156,
+          37.849761962890625
+        ],
+        "luma_mean": 106.28610008544922,
+        "luma_std": 29.350459402954495
+      }
+    },
+    {
+      "old_crop": [
+        1152,
+        128,
+        1408,
+        384
+      ],
+      "G2_crop": [
+        1152,
+        640,
+        1408,
+        896
+      ],
+      "old": {
+        "mean_RGB": [
+          95.14353942871094,
+          107.07095336914062,
+          43.72401428222656
+        ],
+        "luma_mean": 99.96153616333007,
+        "luma_std": 26.265396323021687
+      },
+      "G2": {
+        "mean_RGB": [
+          93.41215515136719,
+          106.00888061523438,
+          38.3765869140625
+        ],
+        "luma_mean": 98.4477651763916,
+        "luma_std": 27.57178801754815
+      }
+    }
+  ],
+  "sample_warning": "Middle old reference moved to grass-only128..384 to exclude road from384..640. These are material-scale comparisons, not same-world lighting measurements.",
+  "contact_references": [
+    {
+      "context_crop": [
+        976,
+        328,
+        1104,
+        456
+      ],
+      "G2_crop": [
+        976,
+        264,
+        1104,
+        392
+      ],
+      "operation": "side-by-side only, no candidate assembly"
+    },
+    {
+      "context_crop": [
+        800,
+        544,
+        928,
+        672
+      ],
+      "G2_crop": [
+        800,
+        480,
+        928,
+        608
+      ],
+      "operation": "side-by-side only, no candidate assembly"
+    }
+  ],
+  "visual_findings": [
+    "V2 is less coarse and less moss-like than Gv1, with subtler contrast.",
+    "Still visually larger clear curled blades/lines than old approved fine grain, especially middle/right native samples.",
+    "Nearby contact grass reference indicates texture-scale change would remain. No seam acceptance claimed without assembly."
+  ],
+  "no_composition_reason": "Grain gate failed before authorizing current-version hard join. Do not use8raw blending to hide material scale failure.",
+  "v1_files_preserved_verified": true,
+  "C_lighting_B": "Not performed",
+  "further_generation": "Stopped; no same-prompt retry"
+}

@@ -1,0 +1,26 @@
+{
+  "actual_raw_size": [
+    1536,
+    1024
+  ],
+  "density_pixels_per_world_unit": 2,
+  "mapping": "target v3(x,y) <- raw C(x,y-64); integer 1:1, no scaling/rotation/mirror/blend",
+  "curb_pixels": 13231,
+  "guard_pixels": 1894,
+  "replacement_pixels": 15125,
+  "changed_pixels": 15120,
+  "outside_C_mask_RGBA_changed": 0,
+  "outside_fixed_mask_RGBA_changed": 0,
+  "grass_changed": 0,
+  "preserved_correct_paving_changed": 0,
+  "alpha_all_255": true,
+  "source_SHA256": {
+    "art_source/earth_grass_two_segment_composite_v1/03_outer_8raw.png": "dd5be30ac2b5668400b4e1464d970eddd2d5b8cbd4fd9e3926aa933d14062e61",
+    "art_source/earth_ground_concrete_material_c_v1/raw.png": "42dab7571cc0bf782cda6ef9182b3c7263402adcdcc52e9cd5873e12e4736e4c",
+    "art_source/earth_ground_material_layers_plan_v1/DOMAIN_curb_BINARY.png": "d1d494f4512f19f159fd116ec3ca5c1c078b201aa34bf5fc9a27f77da2f506e9",
+    "art_source/earth_ground_material_layers_plan_v1/PROPOSED_paving_remnant_repair_mask.png": "5d4f3360c5ccae8c8ff0ab9c20088330e414cf2d7a46d4cffb790f58c36fc6ae"
+  },
+  "result_SHA256": "c1b3422d306fe9a79c753187ac8f9b90b72ab957ac5b461e8c8ee3d66ff7ea0c",
+  "guard_caveat": "Existing explicitly proposed conservative 1894-pixel remnant guard, not a claim every pixel contains a visually confirmed defect; no larger bounding rectangle replaced.",
+  "status": "research only; no contact lighting, no material seam blending, no production registration"
+}

@@ -1,0 +1,171 @@
+{
+  "status": "SAMPLING PLAN ONLY; material downsampling and technical masks/crops, no repaired-image assembly",
+  "original_G2_sha256": "02ab80b501ca0ff7d6b8e5e295412f205a711af546838ce8c84429711cbbe6a6",
+  "selected_downsample": {
+    "ratio": [
+      5,
+      8
+    ],
+    "original": [
+      1536,
+      1024
+    ],
+    "result": [
+      960,
+      640
+    ],
+    "filter": "Pillow LANCZOS",
+    "pillow_version": "12.3.0",
+    "sha256": "6aab1606c02a5214e9addef3221c39b124578a4bba6f973a2408636d4f9f4494",
+    "original_sample_center_formula": "original_raw=((u+0.5)/(5/8)-0.5,(v+0.5)/(5/8)-0.5), low-pass support radius approximately3/(5/8)=4.8input pixels",
+    "logical_density_after_material_reassignment": "donor output sampled1:1 at2texels/world unit; original G2 world framing is NOT retained as geometry, only material grain is minified"
+  },
+  "candidate_scales": [
+    {
+      "name": "050",
+      "ratio": 0.5,
+      "size": [
+        768,
+        512
+      ],
+      "single_rigid_max_distance": 921.6344177601007
+    },
+    {
+      "name": "0625",
+      "ratio": 0.625,
+      "size": [
+        960,
+        640
+      ],
+      "single_rigid_max_distance": 1152.389691033376
+    },
+    {
+      "name": "075",
+      "ratio": 0.75,
+      "size": [
+        1152,
+        768
+      ],
+      "single_rigid_max_distance": 1383.1449670949173
+    }
+  ],
+  "minimum_segment_proof": {
+    "target_max_pair_distance_raw": 1605.7907709287658,
+    "target_pair_xy": [
+      [
+        1261,
+        72
+      ],
+      [
+        11,
+        1080
+      ]
+    ],
+    "donor_max_pair_distance_raw": 1152.389691033376,
+    "single_translation_or_rigid_rotation_impossible": true,
+    "two_feasible_segments": true,
+    "minimum_segments_under_current_rigid_rule": 2
+  },
+  "segments": [
+    {
+      "name": "A",
+      "target_condition": "grass && y<560",
+      "pixels": 20605,
+      "integer_translation_to_downsampled_donor": [
+        -368,
+        -72
+      ],
+      "donor_bbox": [
+        184,
+        0,
+        894,
+        488
+      ],
+      "source_mask_sha256": "7a235ade721775fcb8e0482cbcf3fdad03bfe22817bf44b813ea2beb12ce3de8",
+      "target_mask_sha256": "1da8209a3b34142d432489d1a82ee9c52aa010f654f3a3df3fe074fcfa420cfd"
+    },
+    {
+      "name": "B",
+      "target_condition": "grass && y>=560",
+      "pixels": 33289,
+      "integer_translation_to_downsampled_donor": [
+        340,
+        -442
+      ],
+      "donor_bbox": [
+        341,
+        118,
+        953,
+        640
+      ],
+      "source_mask_sha256": "1dd6647e5a2bb4e70d25ad7df5d456462f2b12f999eb3db6e4b43763d1f5d250",
+      "target_mask_sha256": "0dfad4a54402b84be5734bf2eb1d79d18d8a22cfe6ceba05839474fc0c8656a4"
+    }
+  ],
+  "source_disjointness": {
+    "base_shared_downsampled_texels": 0,
+    "expanded_joint_shared_downsampled_texels": 0,
+    "expanded_min_distance_downsampled_pixels": 53.0,
+    "lanczos_support_disjoint": true,
+    "no_repeated_tile_or_mirrored_or_stretched_segment": true,
+    "caveat": "Unique source coordinates do not prove generative texture has no naturally similar motifs."
+  },
+  "planned_internal_joint": {
+    "local_y": 560,
+    "world_y": 1576,
+    "proposed_zone_y_halfopen": [
+      556,
+      564
+    ],
+    "max_width_raw": 8,
+    "pixels": 500,
+    "mask": "PROPOSED_internal_8raw_joint_NOT_APPLIED.png",
+    "approval": "New internal same-grass joint, submitted separately; prior outer transition authorization does not silently authorize this joint. No weights or RGB blend applied.",
+    "donor_neighborhood_crops": [
+      [
+        149,
+        424,
+        277,
+        552
+      ],
+      [
+        832,
+        54,
+        960,
+        182
+      ]
+    ],
+    "paired_region_mean_RGB_A": [
+      98.848,
+      109.86,
+      39.046
+    ],
+    "paired_region_mean_RGB_B": [
+      100.354,
+      111.08,
+      43.016
+    ],
+    "paired_luma_mean_A": 102.406078,
+    "paired_luma_mean_B": 103.8854316,
+    "warning": "Similar means do not prove no visible joint; texture phase/detail and crop review still required."
+  },
+  "protected": "Original source geometry, three-domain union, B seam and all non-grass RGB unchanged; no destination art made",
+  "inputs": [
+    {
+      "path": "art_source/earth_ground_grass_material_g_v2/raw.png",
+      "sha256": "02ab80b501ca0ff7d6b8e5e295412f205a711af546838ce8c84429711cbbe6a6"
+    },
+    {
+      "path": "art_source/earth_ground_material_layers_plan_v1/DOMAIN_grass_BINARY.png",
+      "sha256": "e85548014a96615a5cff3129b9c30dab41789919a6dfaeb851f28516dd3ebd84"
+    },
+    {
+      "path": "art_source/earth_ground_cross_seam_revision_plan_v3/PLAN.json",
+      "sha256": "3d194f0e2e73c8acbcfcf8ab0502559a5aeb19a7060493e00f6774a17a34e956"
+    },
+    {
+      "path": "art_source/earth_ground_cross_seam_revision_plan_v3/PROPOSED_fixed_replace_mask.png",
+      "sha256": "94da013c3afd2507b266b1345f38e0d676d7c332d495f02ee0eb72f3509b8ac7"
+    }
+  ]
+}

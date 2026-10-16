@@ -1,0 +1,35 @@
+{
+  "status": "Frozen single bounded mapping before output RGB, not retuned after viewing",
+  "geometry_input_sha256": "f74e6ccfcc458595900c2fcd91a0d2315becfc3ad0b6c520e3c884dcf3373643",
+  "sample_measurement_sha256": "ab8bac8bf18c7eb6ed0753239b37ace36bb4d729a2f986c25c0d47fe02ec970c",
+  "lip": {
+    "formula": "out_linear_RGB=(1-alpha)*input_linear_RGB+alpha*[1,1,1]",
+    "chosen_endpoint": "fixed neutral white, explicitly authorized",
+    "alpha": 0.5216659738910312,
+    "target_Y": 0.7410619164098141,
+    "reference_C_Y": 0.4586668113566366,
+    "reference_C_sample": "new geometric lip local y76..87,12pixels; source preflight retained",
+    "texture_contrast_retained_linear": 0.4783340261089688,
+    "width_normal_raw": 1.0,
+    "support": 1631
+  },
+  "deep_seam": {
+    "formula": "out_linear_RGB=input_linear_RGB*k",
+    "target_Y": 0.06413717062017532,
+    "base_median_Y_actual_entire_support": 0.4147346204825123,
+    "k": 0.15464629054974138,
+    "support": 2703,
+    "guard_overlap_explicitly_authorized": 497,
+    "width_normal_raw": 1.6641005886756874
+  },
+  "grass_contact": {
+    "formula": "out_linear_RGB=input_linear_RGB*k",
+    "target_Y": 0.06974978889539793,
+    "base_median_Y_actual_entire_support": 0.13123535749389778,
+    "k": 0.5314862566564135,
+    "width_normal_raw": 2.0,
+    "support": 3283,
+    "excluded_guard_pixels": 2
+  },
+  "constraints": "No clipping, no pure-color texture replacement; one fixed mapping; RGB only; alpha and all outside union exact; no mask changes beyond approved join"
+}

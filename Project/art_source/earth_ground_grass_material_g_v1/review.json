@@ -1,0 +1,129 @@
+{
+  "status": "REJECTED material scale/contrast despite native-size pass",
+  "generation": {
+    "tool": "builtin image_gen",
+    "calls": 1,
+    "original_path": "/workspace/scratch/22c897619190/generated_images/exec-f77f8da9-a5a1-4131-ba39-4048c7ba60da.png",
+    "raw_size": [
+      1536,
+      1024
+    ],
+    "raw_sha256": "e58f4d0136c55c061cba0b76ee1771c2695aade84646cb001d800c7f4f2dfe1f",
+    "density": 2,
+    "world_xyxy": [
+      2400,
+      1328,
+      3168,
+      1840
+    ]
+  },
+  "hard_composition": {
+    "path": "RESEARCH_G_ONLY_hard_join.png",
+    "sha256": "3549ee6c1fbf2dbedc744fbe3db09c9f6592f8513b81e9e43bc31f52cb868d38",
+    "mapping": "For grass domain only: output local(x,y)=G(x,y-64); otherwise original context RGBA",
+    "grass_pixels": 53894,
+    "outside_grass_changed_pixels": 0,
+    "outside_fixed_mask_changed_pixels": 0,
+    "C_and_contact_lighting": "Not performed; remaining old curb/paving can still look geometrically wrong; this is G material test only"
+  },
+  "material_samples": {
+    "approved": {
+      "mean_RGB": [
+        95.14353942871094,
+        107.07095336914062,
+        43.72401428222656
+      ],
+      "luma_mean": 99.96153616333007,
+      "luma_std": 26.265396323021687,
+      "adjacent_luma_absdiff_x": 16.299773314950983
+    },
+    "G": [
+      {
+        "raw_crop": [
+          0,
+          0,
+          256,
+          256
+        ],
+        "stats": {
+          "mean_RGB": [
+            97.64720153808594,
+            113.27880859375,
+            31.575241088867188
+          ],
+          "luma_mean": 104.05653135986327,
+          "luma_std": 41.475551795510675,
+          "adjacent_luma_absdiff_x": 16.37811835477941
+        }
+      },
+      {
+        "raw_crop": [
+          640,
+          384,
+          896,
+          640
+        ],
+        "stats": {
+          "mean_RGB": [
+            90.17387390136719,
+            107.35368347167969,
+            31.471328735351562
+          ],
+          "luma_mean": 98.22254994506835,
+          "luma_std": 40.506550575223734,
+          "adjacent_luma_absdiff_x": 19.206622938112744
+        }
+      },
+      {
+        "raw_crop": [
+          1152,
+          640,
+          1408,
+          896
+        ],
+        "stats": {
+          "mean_RGB": [
+            87.88404846191406,
+            105.79792785644531,
+            31.1336669921875
+          ],
+          "luma_mean": 96.59867746276855,
+          "luma_std": 39.71347901098796,
+          "adjacent_luma_absdiff_x": 18.957843483455882
+        }
+      }
+    ]
+  },
+  "statistics_warning": "Descriptive only, not a blade-size or aesthetics pass metric",
+  "bindings": [
+    {
+      "path": "art_source/earth_ground_cross_seam_revision_plan_v3/INPUT_ONLY_existing_art_context.png",
+      "sha256": "ee26f63196d31d0dec807e7b3314883dfce874cea35c7aedecf260d78b2f99db"
+    },
+    {
+      "path": "art_source/earth_ground_cross_seam_revision_plan_v3/PROPOSED_fixed_replace_mask.png",
+      "sha256": "94da013c3afd2507b266b1345f38e0d676d7c332d495f02ee0eb72f3509b8ac7"
+    },
+    {
+      "path": "art_source/earth_ground_material_layers_plan_v1/DOMAIN_grass_BINARY.png",
+      "sha256": "e85548014a96615a5cff3129b9c30dab41789919a6dfaeb851f28516dd3ebd84"
+    },
+    {
+      "path": "art_source/earth_ground_material_layers_plan_v1/PROPOSED_same_grass_transition_zone_NOT_APPLIED.png",
+      "sha256": "5c4058db13ddffbdcea0eccc258c6c727db43d1d2769b43616d0312895425501"
+    },
+    {
+      "path": "art_source/earth_ground_material_layers_plan_v1/approved_v4_grass_sample_native2x.png",
+      "sha256": "8309b57e30ff40a00063053a247bf9aba789f9f90f2ba679ca1df574080b4040"
+    }
+  ],
+  "visual_findings": [
+    "Three native256x256 samples have larger bright curled grass structures than approved fine grain; no resampling involved.",
+    "Hard G-only join visibly changes grass texture scale and contrast; not accepted.",
+    "Mean luma proximity does not establish texture match; sampled luma std39.7..41.5 versus old26.3 supports but does not independently prove the visual contrast difference.",
+    "Residual curb artifacts in G-only composite are expected because C and geometry-contact finish were not authorized; they are not reported as repaired."
+  ],
+  "transition": "Not performed: material scale/contrast gate failed; an8raw blend would hide a boundary without fixing the mismatched grass interior.",
+  "retry": "No automatic retry or rescale.",
+  "all_prior_bound_assets_byte_unchanged": true
+}

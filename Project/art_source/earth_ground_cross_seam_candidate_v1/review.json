@@ -1,0 +1,144 @@
+{
+  "status": "REJECTED at native-size gate; no mask assembly, no retry",
+  "size_pass": false,
+  "actual_size": [
+    1448,
+    1086
+  ],
+  "requested_size": [
+    1536,
+    1152
+  ],
+  "native_density_if_same_world": [
+    1.8854166666666667,
+    1.8854166666666667
+  ],
+  "scale_ratio_not_applied": [
+    0.9427083333333334,
+    0.9427083333333334
+  ],
+  "continuous_geometry_status": "Not eligible for pass due size mismatch; numerical same-framing projections supplied for inspection only, no resampling performed",
+  "anchors_numeric_only": [
+    {
+      "intended_local": [
+        1238,
+        72
+      ],
+      "expected_generated_if_same_framing": [
+        1167.0729166666667,
+        67.875
+      ]
+    },
+    {
+      "intended_local": [
+        1238,
+        100
+      ],
+      "expected_generated_if_same_framing": [
+        1167.0729166666667,
+        94.27083333333334
+      ]
+    },
+    {
+      "intended_local": [
+        88,
+        862
+      ],
+      "expected_generated_if_same_framing": [
+        82.95833333333334,
+        812.6145833333334
+      ]
+    },
+    {
+      "intended_local": [
+        80,
+        994
+      ],
+      "expected_generated_if_same_framing": [
+        75.41666666666667,
+        937.0520833333334
+      ]
+    },
+    {
+      "intended_local": [
+        0,
+        1048
+      ],
+      "expected_generated_if_same_framing": [
+        0.0,
+        987.9583333333334
+      ]
+    }
+  ],
+  "mask_outside_RGBA_zero_difference": "No assembled candidate exists, so this comparison is not applicable. All original bound assets remain byte-identical. Never claim a nonexistent patch passed zero-difference.",
+  "immutable_input_checks": [
+    {
+      "path": "data/maps/A13.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/original/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/earth/environment/ground_plate_v4/registration.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/original/Map/Res/FloorBig/0.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/earth/environment/ground_plate_v4/plate.png",
+      "unchanged": true
+    },
+    {
+      "path": "art_source/earth_south_ground_candidate_v1/raw.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/earth/environment/ground_plate_v4/tile-58-44.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/earth/environment/ground_plate_v4/tile-60-42.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/earth/environment/ground_plate_v4/tile-60-44.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/earth/environment/ground_plate_v4/tile-62-40.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/earth/environment/ground_plate_v4/tile-62-42.png",
+      "unchanged": true
+    },
+    {
+      "path": "diagnostics/art_source/earth-ground-seam-independent-audit/REPORT.md",
+      "unchanged": true
+    },
+    {
+      "path": "diagnostics/art_source/earth-ground-seam-independent-audit/identity-checks.json",
+      "unchanged": true
+    },
+    {
+      "path": "art_source/earth_ground_plate_source_v1/source-layout-contract.json",
+      "unchanged": true
+    },
+    {
+      "path": "art_source/earth_south_ground_local_revision_plan_v2/PLAN.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/EARTH_ART_BIBLE_V1.md",
+      "unchanged": true
+    }
+  ],
+  "raw_sha256": "b8b5e60758825816814254677fb7c648fcf20baa5f2ff60826c1b0ee6e844e81",
+  "diagnostics": "Native crops and enlarged coordinate boards only; no output recomposition",
+  "B_grass_seams": "untouched, still pending; whole ground remains unapproved",
+  "production": "No registration, export, ordinary-runtime or original PNG changed"
+}
