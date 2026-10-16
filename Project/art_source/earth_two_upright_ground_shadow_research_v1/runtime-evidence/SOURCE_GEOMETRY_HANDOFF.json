@@ -1,0 +1,98 @@
+{
+  "status": "source geometry/design research for accepted bounded single-tree candidate; historical pre-review wording preserved",
+  "proposed_destination": "Project/art_source/earth_upright_51_70_ground_only_research_v1",
+  "files": [
+    {
+      "path": "recovery-work/upright-51-70-cpu-v1/README.md",
+      "sha256": "54b2ae41102a9984aa5ac33cdb76d4f3fab837b6605ae47c9d8991d95f2da556",
+      "bytes": 5475
+    },
+    {
+      "path": "recovery-work/upright-51-70-cpu-v1/build_cpu.py",
+      "sha256": "8569171e5516749001c7fcd941e3445d1e5c0b30e15c717bd16a56ac84209749",
+      "bytes": 10200
+    },
+    {
+      "path": "recovery-work/upright-51-70-cpu-v1/cpu_gate.py",
+      "sha256": "2a11ab4090471d015ae3d8cdfe4d1b2988941b69a86268cfc799b64b0ae6ef1c",
+      "bytes": 1977
+    },
+    {
+      "path": "recovery-work/upright-51-70-cpu-v1/sample_edges.py",
+      "sha256": "944db7c542e7d83398dc1e095587bfef3ff27510d0a9ffd2aa1b77480ebb64b3",
+      "bytes": 2485
+    },
+    {
+      "path": "recovery-work/upright-51-70-cpu-v1/contract.json",
+      "sha256": "95951fac7ff23cfeeab2bb86e9a43790fcb0dbcf9ad11c61f9fa5f4ccc7a1efe",
+      "bytes": 16061
+    },
+    {
+      "path": "recovery-work/upright-51-70-cpu-v1/CPU_RESULT.json",
+      "sha256": "bb115aff02a32c919458646b06b151e7c75d5e7a1a3415e6400a0863e4854f7e",
+      "bytes": 715
+    },
+    {
+      "path": "recovery-work/upright-51-70-cpu-v1/CPU_ALPHA_EDGE_RESULT.json",
+      "sha256": "3f4b808a576311a029e50c71b6b2555ee089a146921d17cc853f932778ecf864",
+      "bytes": 707
+    },
+    {
+      "path": "recovery-work/upright-51-70-cpu-v1/CPU_GATE_RESULT.json",
+      "sha256": "c394bf78f6741633707f3cf07d37a69057eb724c3b1cacd0482f2eed03a0b9d3",
+      "bytes": 322
+    },
+    {
+      "path": "recovery-work/upright-51-70-cpu-v1/SOURCE_ENUMERATION.json",
+      "sha256": "91a52e3b9115c7326077809db88932683f6fc8ed923c11aabe9d6092491c4fb3",
+      "bytes": 23525
+    },
+    {
+      "path": "recovery-work/upright-51-70-cpu-v1/SOURCE_FLOOR_FRAMES.png",
+      "sha256": "5f8f26bbe20435d5d67910ea9990a02132bb5900b2dd8db08f9141343aff4a88",
+      "bytes": 111038
+    },
+    {
+      "path": "recovery-work/upright-51-70-cpu-v1/SEMANTIC_SUPPORT.png",
+      "sha256": "d528fb9a736b68bad7218c5db541d5d803e5edcb0e3fb0ef1ce13ec1d51f16d4",
+      "bytes": 611313
+    },
+    {
+      "path": "recovery-work/upright-51-70-cpu-v1/SOURCE_CONTEXT.png",
+      "sha256": "6ec5bc27e0304f7d7408c555e4d818d45f955fbf3aba673067a19b5fda540bc6",
+      "bytes": 542542
+    }
+  ],
+  "runtime_geometry_reference": [
+    {
+      "path": "assets/earth/shadows/upright_51_70_v1/allowed-provisional.png",
+      "sha256": "beacbbd53cf986e08651a1ada75a01c18dc1e41052a3a16dccc7316439d313cc",
+      "bytes": 2730
+    },
+    {
+      "path": "assets/earth/shadows/upright_51_70_v1/nominal-envelope.png",
+      "sha256": "31c721373007cb6ec3e509020af1fa256d2e2f1fc968e05f02df669c0778ad67",
+      "bytes": 5281
+    },
+    {
+      "path": "assets/earth/shadows/upright_51_70_v1/pool-filter-uncertainty-excluded.png",
+      "sha256": "337f826cbc5d91e4b3bc4a93145d59352fc04b48fc7d2508841d2e6709af0399",
+      "bytes": 1985
+    },
+    {
+      "path": "assets/earth/shadows/upright_51_70_v1/root-error-envelope.png",
+      "sha256": "6dc337d79c8aaf2f1e7ffa28ed4d6aedfb4cb4c74517130e1c4cf9ff00ce3955",
+      "bytes": 2599
+    },
+    {
+      "path": "assets/earth/shadows/upright_51_70_v1/runtime_registration.json",
+      "sha256": "53551e62e36b70d7e83bf90f0f88cfd70533f466144b157b769d0bd3b03314de",
+      "bytes": 899169
+    }
+  ],
+  "actual_validation_evidence": {
+    "NATIVE_PIXEL_REVIEW.json": "6f790eb8ebfda0bfe7e9e9ef953f3c261868f0ee40e8b2298f9502afc4ecb542",
+    "NATIVE_AUDIT.json": "c83a71d95330e93f4f90fea913237966b756cdc66c3434a3367185f15a698eac"
+  },
+  "no_publication_performed": true
+}

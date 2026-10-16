@@ -1,0 +1,116 @@
+{
+  "pairs": [
+    {
+      "case": "spur",
+      "size": [
+        1152,
+        832
+      ],
+      "rgb_changed_pixels": 15361,
+      "alpha_changed_pixels": 0,
+      "bbox": [
+        357,
+        588,
+        786,
+        752
+      ],
+      "changed_outside_allowed": 0,
+      "changed_in_source_pool": 0,
+      "changed_in_pool_margin": 0,
+      "max_rgb_channel_change": 41,
+      "mean_rgb_change_on_changed": 16.954907449601805
+    },
+    {
+      "case": "half",
+      "size": [
+        1152,
+        832
+      ],
+      "rgb_changed_pixels": 15355,
+      "alpha_changed_pixels": 0,
+      "bbox": [
+        357,
+        588,
+        784,
+        752
+      ],
+      "changed_outside_allowed": 0,
+      "changed_in_source_pool": 0,
+      "changed_in_pool_margin": 0,
+      "max_rgb_channel_change": 38,
+      "mean_rgb_change_on_changed": 17.004840985563877
+    }
+  ],
+  "frozen_input_count": 2343,
+  "frozen_inputs_unchanged": true,
+  "native_audit": {
+    "cases": [
+      {
+        "case": "full-context",
+        "off": {
+          "ground": {
+            "C": 24,
+            "current": 9,
+            "grass": 144,
+            "overlay": 4,
+            "source": 33
+          },
+          "idle": true,
+          "old_slots": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "plant24": 24,
+          "reason": "admitted local ground-only",
+          "south": {
+            "shrub_58_51": true,
+            "upright_47_66": true,
+            "upright_55_57": true,
+            "upright_59_61": true
+          },
+          "tree": false,
+          "walk": false
+        },
+        "on": {
+          "ground": {
+            "C": 24,
+            "current": 9,
+            "grass": 144,
+            "overlay": 4,
+            "source": 33
+          },
+          "idle": true,
+          "old_slots": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "plant24": 24,
+          "reason": "admitted local ground-only",
+          "south": {
+            "shrub_58_51": true,
+            "upright_47_66": true,
+            "upright_55_57": true,
+            "upright_59_61": true
+          },
+          "tree": true,
+          "walk": false
+        }
+      }
+    ],
+    "failures": [],
+    "limits": "full-support remains FAIL; conservative pool+5 clip visual review required",
+    "mode": "actual modern unified v2 ground with four overlays, one tree only",
+    "raster": [
+      1152,
+      832
+    ]
+  },
+  "technical_result": "pass on the explicitly old unified-v2 baseline; new bank not qualified",
+  "visual_limit": "pool margin is conservative, full-support FAIL retained; original object baked shadows not max-deduplicated"
+}

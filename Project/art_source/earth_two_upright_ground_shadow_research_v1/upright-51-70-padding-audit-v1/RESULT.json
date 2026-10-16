@@ -1,0 +1,620 @@
+{
+  "scope": "Independent read-only51,70 padding audit; no GPU; no frozen input changes",
+  "pool_sources": [
+    {
+      "key": "Map/Res/Debris:55@49,75",
+      "rgba_sha256": "f0af987c179f5cd88088285ffabe4be0295076e2fbbf3c2b59c9057e8150a6fc",
+      "bounds": [
+        2366,
+        2340,
+        2400,
+        2432
+      ]
+    },
+    {
+      "key": "Map/Res/Debris:56@50,76",
+      "rgba_sha256": "288c55be24cc8d392b9f2618df63bd3a20aae88952d78bd8b901f65b2c152d58",
+      "bounds": [
+        2400,
+        2305,
+        2448,
+        2461
+      ]
+    },
+    {
+      "key": "Map/Res/Debris:57@51,77",
+      "rgba_sha256": "65cf914d8828feac4bcbb3b4c827c4bc8085951903eaecff52d8f10d4560cde9",
+      "bounds": [
+        2448,
+        2283,
+        2496,
+        2495
+      ]
+    },
+    {
+      "key": "Map/Res/Debris:58@52,78",
+      "rgba_sha256": "1a32f0a994e066ecccd59db14c99b70aa90a4550753bc7d78f20824dee72a3b3",
+      "bounds": [
+        2496,
+        2280,
+        2544,
+        2521
+      ]
+    },
+    {
+      "key": "Map/Res/Debris:59@53,78",
+      "rgba_sha256": "17e545301b45e71cb93da272494ab907282b7c7aab619ae1afce1ae2c825a001",
+      "bounds": [
+        2544,
+        2293,
+        2592,
+        2528
+      ]
+    },
+    {
+      "key": "Map/Res/Debris:60@54,78",
+      "rgba_sha256": "5c4d0125cec3ac644e8cfc9e424c6492e743c85eee612d9826d4adbd5725955b",
+      "bounds": [
+        2592,
+        2364,
+        2640,
+        2527
+      ]
+    },
+    {
+      "key": "Map/Res/Debris:61@55,78",
+      "rgba_sha256": "eabbdc3b83f8405f15694cd7bb5043561dc16b5e828b2f933d8d2f568ebf82f4",
+      "bounds": [
+        2640,
+        2405,
+        2686,
+        2517
+      ]
+    }
+  ],
+  "inventory_sha256": "c6e46b096a3892906d72786612cce47eed38a51fc9e9f867af49fbdabbf58ec9",
+  "atlas_pins": {
+    "res://assets/original/Map/Res/Debris/0.png": "1a40e7affec8b5ef82ee902dda23261e67dd2ddf499301adbcfea4dea0c1b87e"
+  },
+  "padding_logical": 12,
+  "dilation_radius_logical": 5,
+  "whole_patch_excluded_diff_cells": 44,
+  "error_support_excluded_diff_cells": 0,
+  "nominal_support_excluded_diff_cells": 0,
+  "allowed_diff_cells": 0,
+  "old_allowed_new_excluded_leak_cells": 0,
+  "new_allowed_sha256_decoded_u8": "f152895277274e2775f56ceeaeac13e809e5a8955d817176dad8f2bdd2797bf1",
+  "old_allowed_sha256_decoded_u8": "f152895277274e2775f56ceeaeac13e809e5a8955d817176dad8f2bdd2797bf1",
+  "original_freeze_sha256": "818707250ed22cd8092cb640ba7f6c5b7c6833b55f596add2d311db696ad8818",
+  "exact_difference_cells": [
+    {
+      "center_world": [
+        2683.25,
+        2427.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.75,
+        2427.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.25,
+        2427.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.75,
+        2427.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.25,
+        2428.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.75,
+        2428.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2684.25,
+        2428.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2684.75,
+        2428.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.25,
+        2428.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.75,
+        2428.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2684.25,
+        2428.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2684.75,
+        2428.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.25,
+        2429.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.75,
+        2429.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2684.25,
+        2429.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2684.75,
+        2429.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.25,
+        2429.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.75,
+        2429.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2684.25,
+        2429.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2684.75,
+        2429.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.25,
+        2430.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.75,
+        2430.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2684.25,
+        2430.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2684.75,
+        2430.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2685.25,
+        2430.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2685.75,
+        2430.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.25,
+        2430.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.75,
+        2430.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2684.25,
+        2430.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2684.75,
+        2430.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2685.25,
+        2430.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2685.75,
+        2430.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.25,
+        2431.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.75,
+        2431.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2684.25,
+        2431.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2684.75,
+        2431.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2685.25,
+        2431.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2685.75,
+        2431.25
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.25,
+        2431.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2683.75,
+        2431.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2684.25,
+        2431.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2684.75,
+        2431.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2685.25,
+        2431.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    },
+    {
+      "center_world": [
+        2685.75,
+        2431.75
+      ],
+      "old_excluded": false,
+      "new_excluded": true,
+      "tree_error_support": false,
+      "source_keys": [
+        "Map/Res/Debris:61@55,78"
+      ]
+    }
+  ],
+  "original_frozen_files_verified": 18
+}

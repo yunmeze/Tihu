@@ -1,0 +1,22 @@
+{
+  "sampling": "half-logical centers; exact original body alpha floats, 9tap blur3.6raw, opacity .25",
+  "uncut_positive_samples": 101637,
+  "clipped_positive_samples": 92497,
+  "removed_alpha_mass_fraction": 0.061145236736122086,
+  "pool_or_margin_nonzero_after_clip": 0,
+  "allowed_lookup_plusminus_half_logical_pool_hits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "nominal_support_contains_all_positive_samples": true,
+  "max_clip_alpha": 0.2478778130570411,
+  "max_duplicate_idempotent": true,
+  "limitations": "CPU centers and mask lookup only. Native bilinear/camera/water edge still requires requested GPU check. Embedded foreground checker shadows not deduplicated."
+}

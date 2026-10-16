@@ -1,0 +1,67 @@
+{
+  "status": "root accepted single-tree ground-only stage design; migration waits final stable unified bank; NOT included in current publication",
+  "tested_baseline": "earth-unified-candidate-v2 old bank",
+  "tested_baseline_freeze": "73f602cdc29dd927586df01df4bc1a00de38ff39aa562e9a81452921c4be352c",
+  "tested_r6_freeze": "eaa1f5cd8fb02cf1f0fa47edc36c843ab44d9d6464fda17e845b093bc93db732",
+  "files": [
+    {
+      "path": "assets/earth/shadows/upright_51_70_v1/allowed-provisional.png",
+      "sha256": "beacbbd53cf986e08651a1ada75a01c18dc1e41052a3a16dccc7316439d313cc",
+      "bytes": 2730
+    },
+    {
+      "path": "assets/earth/shadows/upright_51_70_v1/nominal-envelope.png",
+      "sha256": "31c721373007cb6ec3e509020af1fa256d2e2f1fc968e05f02df669c0778ad67",
+      "bytes": 5281
+    },
+    {
+      "path": "assets/earth/shadows/upright_51_70_v1/pool-filter-uncertainty-excluded.png",
+      "sha256": "337f826cbc5d91e4b3bc4a93145d59352fc04b48fc7d2508841d2e6709af0399",
+      "bytes": 1985
+    },
+    {
+      "path": "assets/earth/shadows/upright_51_70_v1/root-error-envelope.png",
+      "sha256": "6dc337d79c8aaf2f1e7ffa28ed4d6aedfb4cb4c74517130e1c4cf9ff00ce3955",
+      "bytes": 2599
+    },
+    {
+      "path": "assets/earth/shadows/upright_51_70_v1/runtime_registration.json",
+      "sha256": "53551e62e36b70d7e83bf90f0f88cfd70533f466144b157b769d0bd3b03314de",
+      "bytes": 899169
+    },
+    {
+      "path": "scripts/earth/upright_51_70_compositor.gd",
+      "sha256": "0dfca5df7b294ece5d542097567fbc5e4c86e39fa48d6c9b15c4a81ac5b0b56a",
+      "bytes": 1856
+    },
+    {
+      "path": "scripts/earth/upright_51_70_gate.gd",
+      "sha256": "749bebed232ead690911879b0e217a3bee9800c138dc18c5101a2733db6c5e0f",
+      "bytes": 6505
+    },
+    {
+      "path": "scripts/earth/upright_51_70_world.gd",
+      "sha256": "52675652d6d500edaed85bfc5708b08948dfc32d4fc0e19a37191987f0bacd64",
+      "bytes": 1494
+    },
+    {
+      "path": "scripts/earth/upright_51_70_qualification.gd",
+      "sha256": "acc80e747350fc6024468aab3aead0e31005dc746ec13d44c3286dd9a294b8e0",
+      "bytes": 717
+    },
+    {
+      "path": "shaders/earth_upright_51_70.gdshader",
+      "sha256": "3fbd82add41474f094defcdc45a4ffb431a27a66938441aebff9c6e3b53598b5",
+      "bytes": 8137
+    }
+  ],
+  "scope": "exactly upright_tree_51_70 only",
+  "excluded": "test_tree/check_tree/tree_native scripts/scenes, launcher/job/cache/screenshots/logs and old failed entries",
+  "migration": "all final bank API and source pins must be requalified; include world adapter in actual execution closure if retained, otherwise replace and repin, never silently omit its pin",
+  "limitations": [
+    "full-support FAIL retained",
+    "source pool including grass apron plus5logical excluded; no water/wall receiving shadow",
+    "other original object baked shadows are not deduplicated by generated-alpha max",
+    "old v2 visual evidence does not prove final bank lifecycle or export"
+  ]
+}

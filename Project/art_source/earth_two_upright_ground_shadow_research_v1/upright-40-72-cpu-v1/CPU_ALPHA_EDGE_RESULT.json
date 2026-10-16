@@ -1,0 +1,127 @@
+{
+  "sampling": "half-logical centers; exact original body alpha floats, 9tap blur3.6raw, opacity .25",
+  "uncut_positive_samples": 101637,
+  "clipped_positive_samples": 101637,
+  "removed_alpha_mass_fraction": 0.0,
+  "pool_or_margin_nonzero_after_clip": 0,
+  "allowed_lookup_plusminus_half_logical_pool_hits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "nominal_support_contains_all_positive_samples": true,
+  "max_clip_alpha": 0.2478778130570411,
+  "max_duplicate_idempotent": true,
+  "limitations": "CPU centers and mask lookup only. Native bilinear/camera/water edge still requires requested GPU check. Embedded foreground checker shadows not deduplicated.",
+  "error_exclusion_centers_world": [
+    [
+      2432.25,
+      2462.75
+    ],
+    [
+      2432.75,
+      2462.75
+    ],
+    [
+      2433.25,
+      2462.75
+    ],
+    [
+      2433.75,
+      2462.75
+    ],
+    [
+      2434.25,
+      2462.75
+    ],
+    [
+      2433.25,
+      2463.25
+    ],
+    [
+      2433.75,
+      2463.25
+    ],
+    [
+      2434.25,
+      2463.25
+    ],
+    [
+      2433.25,
+      2463.75
+    ],
+    [
+      2433.75,
+      2463.75
+    ],
+    [
+      2434.25,
+      2463.75
+    ],
+    [
+      2435.25,
+      2464.25
+    ],
+    [
+      2435.75,
+      2464.25
+    ],
+    [
+      2436.25,
+      2464.25
+    ],
+    [
+      2436.75,
+      2464.25
+    ],
+    [
+      2437.25,
+      2464.25
+    ],
+    [
+      2437.75,
+      2464.25
+    ],
+    [
+      2438.25,
+      2464.25
+    ],
+    [
+      2435.25,
+      2464.75
+    ],
+    [
+      2435.75,
+      2464.75
+    ],
+    [
+      2436.25,
+      2464.75
+    ],
+    [
+      2436.75,
+      2464.75
+    ],
+    [
+      2437.25,
+      2464.75
+    ],
+    [
+      2437.75,
+      2464.75
+    ],
+    [
+      2438.25,
+      2464.75
+    ]
+  ],
+  "error_exclusion_actual_blur_positive_samples": 0,
+  "error_exclusion_actual_blur_max_alpha": 0.0,
+  "error_exclusion_nominal_overlap": 0
+}

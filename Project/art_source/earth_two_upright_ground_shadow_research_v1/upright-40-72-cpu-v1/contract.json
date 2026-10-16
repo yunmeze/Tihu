@@ -1,0 +1,507 @@
+{
+  "schema": "upright-40-72-local-ground-only-cpu-v1",
+  "status": "CPU provisional, local semantic review required; NOT runtime-admitted",
+  "caster": "upright_tree_40_72",
+  "world_rect_xyxy": [
+    1840,
+    2302,
+    2444,
+    2496
+  ],
+  "density": 2,
+  "body_origin": [
+    1831.5555555555557,
+    2022.6666666666667
+  ],
+  "body_root_raw": [
+    560,
+    1329
+  ],
+  "body_density": 4.5,
+  "root_world": [
+    1956.0,
+    2318.0
+  ],
+  "cast": [
+    1.2,
+    0.55
+  ],
+  "blur": 0.8,
+  "opacity": 0.25,
+  "tint": [
+    0.035,
+    0.045,
+    0.055
+  ],
+  "root_uncertainty_expansion": [
+    7.2,
+    9.3
+  ],
+  "tree": {
+    "family": "upright_tree",
+    "owner_count": 6,
+    "new_shadow": false,
+    "target_root": [
+      40,
+      72
+    ],
+    "owners": [
+      {
+        "key": "Map/Res/Plant:299@40,72",
+        "pack": "Map/Res/Plant",
+        "index": 299,
+        "frame_index": 299,
+        "cell": [
+          40,
+          72
+        ],
+        "source_cell": [
+          -406,
+          -1,
+          2,
+          299
+        ],
+        "flag": -1,
+        "layer": 1,
+        "sort_y": 72,
+        "stable_source_order": 4072,
+        "source_frame": {
+          "original": [
+            48,
+            320
+          ],
+          "crop": [
+            0,
+            8
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            667,
+            307,
+            48,
+            298
+          ],
+          "atlas": "res://assets/original/Map/Res/Plant/0.png",
+          "rgba_sha256": "c93338e339bfa76452d409742a26e012c405ec07548c570bf1f88a5165556e89"
+        },
+        "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+        "texture_sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+        "texture_size": [
+          1162,
+          1353
+        ],
+        "world_top_left": [
+          1831.5555555555557,
+          2022.6666666666667
+        ],
+        "scale": 0.2222222222222222,
+        "empty": false
+      },
+      {
+        "key": "Map/Res/Plant:300@38,76",
+        "pack": "Map/Res/Plant",
+        "index": 300,
+        "frame_index": 300,
+        "cell": [
+          38,
+          76
+        ],
+        "source_cell": [
+          -406,
+          0,
+          2,
+          300
+        ],
+        "flag": 0,
+        "layer": 1,
+        "sort_y": 76,
+        "stable_source_order": 3876,
+        "source_frame": {
+          "original": [
+            48,
+            416
+          ],
+          "crop": [
+            7,
+            23
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            717,
+            307,
+            41,
+            154
+          ],
+          "atlas": "res://assets/original/Map/Res/Plant/0.png",
+          "rgba_sha256": "998611744c6f9c831bd4409143e37eed29a82b8498fa2840a1c3ff4160ca721c"
+        },
+        "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+        "texture_sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+        "texture_size": [
+          1162,
+          1353
+        ],
+        "world_top_left": [
+          1831.5555555555557,
+          2022.6666666666667
+        ],
+        "scale": 0.2222222222222222,
+        "empty": false
+      },
+      {
+        "key": "Map/Res/Plant:301@39,76",
+        "pack": "Map/Res/Plant",
+        "index": 301,
+        "frame_index": 301,
+        "cell": [
+          39,
+          76
+        ],
+        "source_cell": [
+          0,
+          0,
+          2,
+          301
+        ],
+        "flag": 0,
+        "layer": 1,
+        "sort_y": 76,
+        "stable_source_order": 3976,
+        "source_frame": {
+          "original": [
+            48,
+            448
+          ],
+          "crop": [
+            0,
+            11
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            760,
+            307,
+            48,
+            255
+          ],
+          "atlas": "res://assets/original/Map/Res/Plant/0.png",
+          "rgba_sha256": "9e4ab40e4516e07e8166aac1440a657bb9b6855e642ebdc28e59813b8519c6b8"
+        },
+        "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+        "texture_sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+        "texture_size": [
+          1162,
+          1353
+        ],
+        "world_top_left": [
+          1831.5555555555557,
+          2022.6666666666667
+        ],
+        "scale": 0.2222222222222222,
+        "empty": false
+      },
+      {
+        "key": "Map/Res/Plant:302@41,76",
+        "pack": "Map/Res/Plant",
+        "index": 302,
+        "frame_index": 302,
+        "cell": [
+          41,
+          76
+        ],
+        "source_cell": [
+          0,
+          0,
+          2,
+          302
+        ],
+        "flag": 0,
+        "layer": 1,
+        "sort_y": 76,
+        "stable_source_order": 4176,
+        "source_frame": {
+          "original": [
+            48,
+            448
+          ],
+          "crop": [
+            0,
+            12
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            810,
+            307,
+            48,
+            294
+          ],
+          "atlas": "res://assets/original/Map/Res/Plant/0.png",
+          "rgba_sha256": "fc84bc22f45ccf0093f7f0ba5dcbf041bcad32bd24c3a083a99a44ffbdb1549d"
+        },
+        "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+        "texture_sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+        "texture_size": [
+          1162,
+          1353
+        ],
+        "world_top_left": [
+          1831.5555555555557,
+          2022.6666666666667
+        ],
+        "scale": 0.2222222222222222,
+        "empty": false
+      },
+      {
+        "key": "Map/Res/Plant:303@42,76",
+        "pack": "Map/Res/Plant",
+        "index": 303,
+        "frame_index": 303,
+        "cell": [
+          42,
+          76
+        ],
+        "source_cell": [
+          -406,
+          0,
+          2,
+          303
+        ],
+        "flag": 0,
+        "layer": 1,
+        "sort_y": 76,
+        "stable_source_order": 4276,
+        "source_frame": {
+          "original": [
+            48,
+            448
+          ],
+          "crop": [
+            0,
+            11
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            860,
+            307,
+            48,
+            275
+          ],
+          "atlas": "res://assets/original/Map/Res/Plant/0.png",
+          "rgba_sha256": "44d603bc5a09596941a4b6cb826d7f06b4c2f86c82f9436e4f29889c5c938ed3"
+        },
+        "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+        "texture_sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+        "texture_size": [
+          1162,
+          1353
+        ],
+        "world_top_left": [
+          1831.5555555555557,
+          2022.6666666666667
+        ],
+        "scale": 0.2222222222222222,
+        "empty": false
+      },
+      {
+        "key": "Map/Res/Plant:304@43,76",
+        "pack": "Map/Res/Plant",
+        "index": 304,
+        "frame_index": 304,
+        "cell": [
+          43,
+          76
+        ],
+        "source_cell": [
+          0,
+          0,
+          2,
+          304
+        ],
+        "flag": 0,
+        "layer": 1,
+        "sort_y": 76,
+        "stable_source_order": 4376,
+        "source_frame": {
+          "original": [
+            48,
+            384
+          ],
+          "crop": [
+            0,
+            31
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "page": 0,
+          "rect": [
+            910,
+            307,
+            48,
+            148
+          ],
+          "atlas": "res://assets/original/Map/Res/Plant/0.png",
+          "rgba_sha256": "d051ac0eb301c14d4754a3ad83fbf5b9d285f40058abf2bb23828383d337af5d"
+        },
+        "texture": "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+        "texture_sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+        "texture_size": [
+          1162,
+          1353
+        ],
+        "world_top_left": [
+          1831.5555555555557,
+          2022.6666666666667
+        ],
+        "scale": 0.2222222222222222,
+        "empty": true
+      }
+    ],
+    "source_dependencies": [
+      {
+        "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+        "sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+        "bytes": 723362,
+        "type": "png",
+        "role": "texture",
+        "width": 1162,
+        "height": 1353
+      },
+      {
+        "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+        "sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+        "bytes": 130178,
+        "type": "png",
+        "role": "texture",
+        "width": 1162,
+        "height": 1353
+      },
+      {
+        "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+        "sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+        "bytes": 483725,
+        "type": "png",
+        "role": "texture",
+        "width": 1162,
+        "height": 1353
+      },
+      {
+        "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+        "sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+        "bytes": 566155,
+        "type": "png",
+        "role": "texture",
+        "width": 1162,
+        "height": 1353
+      },
+      {
+        "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+        "sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+        "bytes": 364892,
+        "type": "png",
+        "role": "texture",
+        "width": 1162,
+        "height": 1353
+      },
+      {
+        "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+        "sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+        "bytes": 6175,
+        "type": "png",
+        "role": "texture",
+        "width": 1162,
+        "height": 1353
+      },
+      {
+        "path": "res://assets/original/Map/Res/Plant/0.png",
+        "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+        "bytes": 723574,
+        "type": "png",
+        "role": "source-atlas",
+        "width": 2048,
+        "height": 2048
+      },
+      {
+        "path": "res://assets/original/manifest.json",
+        "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+        "bytes": 262324,
+        "type": "json",
+        "role": "source-atlas-manifest"
+      },
+      {
+        "path": "res://data/maps/A13.json",
+        "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+        "bytes": 618373,
+        "type": "json",
+        "role": "source-map"
+      }
+    ]
+  },
+  "inputs": {
+    "res://data/maps/A13.json": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "res://assets/original/manifest.json": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+    "res://assets/earth/first_map_review/plant_reuse_registration.json": "e8db80f83ba048ca6f7b81947a7fab9c99bc6bad48c5ac4a3e295bb540109863",
+    "res://assets/earth/environment/upright_tree_v1/raw.png": "ada0e0fd8952fe1dcc6b60dafb9d64be96476ed7736a881f1e5e401436b3db0f",
+    "res://assets/earth/environment/upright_tree_v1/registration_left_50_41.json": "e8b5fae705b312e910a4acb60eda616829b50c1f014fe9bb22453944a9745acd",
+    "res://assets/earth/first_map_review/static_props_registration.json": "5794b3a0ec72736b70465e009a5e55f3de41b9939fa576fbc6568ab6274311a6",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+    "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+    "res://assets/original/Map/Res/FloorBig/0.png": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59",
+    "res://assets/original/Map/Res/Debris/0.png": "1a40e7affec8b5ef82ee902dda23261e67dd2ddf499301adbcfea4dea0c1b87e",
+    "res://assets/original/Map/Res/Plant/0.png": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+    "res://assets/original/Map/Res/Building/0.png": "6fc88a1aa96eb18687eea798bcb4eae1f0ebf6d546a5a076fb1c2546550b3343",
+    "res://assets/original/Map/Res/Wall/0.png": "07bfa06728270c7f901eafc930c8c19a465af39e634d7ec0aa1160d9fcfad629",
+    "res://ground_candidate/manifest.json": "5d3dcbc87b604af0ccab708db553f492092c2764e4c884ee9f9f707aafbe783f",
+    "res://ground_candidate/registration.json": "b6f85828ef62889ce4f541f5006466f70068573f75632c6f8cff181219eacc16",
+    "res://scripts/earth/first_map_floor_pass.gd": "2fcaca8dd3534676121e09b04e8797695946143790cf473228e677caa32018fe",
+    "res://scripts/earth/ground_candidate_guard.gd": "ee9bad3fdd33d770c9d5eb663da70366325b8f87d7c734f340a40e7f6104356a",
+    "res://ground_candidate/ground.gdshader": "6ff20204aa62a11570d68ccc0189794382c2f28b8be79be902bbed52eae76d79"
+  },
+  "ground_binding": {
+    "tested_resource_path": "res://ground_candidate/registration.json",
+    "candidate_registration_sha256": "b6f85828ef62889ce4f541f5006466f70068573f75632c6f8cff181219eacc16",
+    "freeze_sha256": "73f602cdc29dd927586df01df4bc1a00de38ff39aa562e9a81452921c4be352c",
+    "mode": "explicit verified source or modern snapshot required; no live binding yet",
+    "generation": "future controller adapter must provide shared revoke token; no fabricated generation",
+    "relocation": "repin new real runtime paths and all transitive closure before GPU"
+  },
+  "coverage_rule": "transparent start; ordered actual source floor RGBA alpha255 only; never background; candidate modes must preserve proved coverage; locally bounded root-error support only",
+  "pool_rule": "all actual source Debris55..61 alpha>0 plus5logical; includes water/wall/apron and weak-alpha border; no pool-plane reception claimed",
+  "semantic_status": "local grass406 support CPU proof; foreground bamboo/baked shadows remain observation items; no whole-map authorization",
+  "composition": "future same max pass with old casters; foreground objects after ground shadow; embedded source object shadows cannot be deduplicated by max",
+  "files": {
+    "pool-filter-uncertainty-excluded.png": "8004fa2e2acc6828e529c957e2e5f73bae44a3c9adc2521f5a7da2742dcdb59f",
+    "root-error-envelope.png": "22e1affef0a3006bc73d740af0f9213982e8a6d19fddf76e08f8c5f697509fae",
+    "SOURCE_FLOOR_FRAMES.png": "1d324c8143047fac9e05570e7d966b6e5d87825a8f97b0ef430ed6534ad2a414",
+    "SEMANTIC_SUPPORT.png": "fcc56cfd196d25a7258c8fbb79d30dac32411ed6c6184d71b5aa9058bc557f49",
+    "pool-positive-alpha.png": "cb3a18d7eecf07d53098041367bed9ffe37335935b8beb5724c8f6536ed079f2",
+    "nominal-envelope.png": "31c721373007cb6ec3e509020af1fa256d2e2f1fc968e05f02df669c0778ad67",
+    "floor-opaque-coverage.png": "378c28b64bd7ac3ec891f405cad63028983f16786561c062ce40fd83f4fa0407",
+    "SOURCE_CONTEXT.png": "cfc383f24fe0ae24916b48eaccb5d082a7bff01d9b360435a9644382a57cbe8a",
+    "allowed-provisional.png": "5f9c53dadb3c2f76345578fdf4a1634e0e9115a37ddcf376dc19083aa582724e"
+  }
+}
