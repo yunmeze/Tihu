@@ -1,0 +1,491 @@
+{
+  "schema": "native-detail-region-read-only-assessment-v1",
+  "verdict": "STOP",
+  "raw_gate_retained": "FAIL",
+  "scope": "Read-only CPU assessment. No raw edit, alpha cleanup, segmentation extraction, new art, transform, rescale, placement, runtime or Godot. Only this JSON and report are written.",
+  "coordinates": "All bboxes half-open [x0,y0,x1,y1]. D8 is the common source-pixel density. D1 sizes divide by exactly 8; areas divide by 64. No fitting.",
+  "completeness_rule": "Alpha > 0, using full RAW 8-connectivity. 4-connectivity is included only as a sensitivity check. Thresholds 32/128/192 identify/observe cores, never exclude tails or establish completeness.",
+  "rectangle_rule": "A standard atlas region copies all RGBA pixels in its rectangle unchanged. Start at the target alpha>0 component bbox, repeatedly include all components that intersect the rectangle until no positive-alpha component is cut. This is a diagnostic lower bound for a non-truncating rectangle, not an approved extraction.",
+  "location_rule": "Original-source placement is a future input only; positional coincidence is not acceptance evidence and is not scored.",
+  "summary": [
+    "G3 first full alpha-positive support touches the outer RAW top edge, so untruncated completeness cannot be established.",
+    "G3 main components remain far larger than their strong-alpha cores under both 4- and 8-connectivity. Their unmodified rectangular closures merge into the same large region and cross the slot boundary.",
+    "F413 main full support is 45.5 x 27.75 D1; a rectangle avoiding all partial alpha-positive components grows to 59.875 x 33.25 D1 and crosses into the nominal empty slot.",
+    "A compact strong-alpha crop would cut real positive-alpha tails; discarding those tails or using threshold masks would violate the requested contract.",
+    "No current RAW region is proposed for an independent three-entry native catalog. Retain FAIL and stop rather than repair, fit or apply."
+  ],
+  "input_sha256": {
+    "recovery-work/soil-detail-three-template-attempt1/RAW.png": "b4e8fdbf318a3b81e7e5f146c734ef634f88abdb192ec90f74b8183c926edeb6",
+    "recovery-work/soil-detail-three-template-attempt1/RAW_GATE.json": "8b945ce505332870b78fb4a78c5f7242f578b7dd39dd784246ff276063a3e71d",
+    "recovery-work/soil-detail-three-template-attempt1/POSITION_ALPHA_DIAGNOSTIC.json": "6bcf59a7a5ee10aa96a8932521e76886f9a276035fd29eda5fa7a678e573b12b",
+    "recovery-work/soil-detail-three-template-attempt1/ALPHA_DISTRIBUTION.json": "7d9a22431e186a5f17acc056e9be4782a063bbd96ae15cfbfe453c0ca67ee592",
+    "recovery-work/soil-detail-raw-composite-diagnostic/native-v1/captures/board_2x.png": "d6414a9d067cbad3c514dbcf8afaeea1b7014051d07b9015e531db6be0cc7184"
+  },
+  "raw_sha256_before": "b4e8fdbf318a3b81e7e5f146c734ef634f88abdb192ec90f74b8183c926edeb6",
+  "raw_sha256_after": "b4e8fdbf318a3b81e7e5f146c734ef634f88abdb192ec90f74b8183c926edeb6",
+  "raw_unchanged": true,
+  "regions": [
+    {
+      "id": "G3_first",
+      "family": "G3",
+      "slot_raw_origin_D8": [
+        768,
+        0
+      ],
+      "observation_window_local_D8": [
+        79,
+        36,
+        109,
+        53
+      ],
+      "coarse_source_reference_D1": [
+        2,
+        0,
+        12,
+        7
+      ],
+      "coarse_source_size_D1": [
+        10,
+        7
+      ],
+      "full_positive_alpha_support_8connected": {
+        "component_ids_raw": [
+          3
+        ],
+        "bbox_local_D8": [
+          27,
+          0,
+          286,
+          245
+        ],
+        "bbox_raw_D8": [
+          795,
+          0,
+          1054,
+          245
+        ],
+        "size_D8": [
+          259,
+          245
+        ],
+        "size_D1": [
+          32.375,
+          30.625
+        ],
+        "width_height_ratio_to_coarse_source": [
+          3.2375,
+          4.375
+        ],
+        "positive_alpha_pixels_D8": 31347,
+        "support_area_D1": 489.796875,
+        "opacity_equivalent_area_D1": 25.02763480392157,
+        "raw_outer_boundary_positive_pixels": {
+          "top": 21,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "positive_alpha_pixels_outside_observation_window_D8": 30837,
+        "alpha_mass_fraction_outside_observation_window": 0.8126042046659208
+      },
+      "four_connected_sensitivity_check": {
+        "bbox_local_D8": [
+          28,
+          0,
+          279,
+          244
+        ],
+        "size_D1": [
+          31.375,
+          30.5
+        ],
+        "positive_alpha_pixels_D8": 30702
+      },
+      "raw_rectangle_at_target_support_bbox": {
+        "intersected_components_count": 459,
+        "partially_cut_other_components_count": 4
+      },
+      "minimal_rectangle_closure_without_cutting_any_alpha_positive_component": {
+        "bbox_raw_D8": [
+          795,
+          0,
+          1292,
+          617
+        ],
+        "bbox_slot_relative_D8": [
+          27,
+          0,
+          524,
+          617
+        ],
+        "size_D1": [
+          62.125,
+          77.125
+        ],
+        "iterations_to_stability": 13,
+        "included_components_count": 2977,
+        "crosses_slot_boundary": true,
+        "positive_alpha_pixels_D8": 79167,
+        "alpha_mass_equivalent_D1": 71.39240196078431,
+        "is_approved_proposal": false
+      },
+      "auxiliary_threshold_observations_only": [
+        {
+          "alpha_ge": 32,
+          "bbox_local_D8_in_observation_window": [
+            79,
+            36,
+            109,
+            53
+          ],
+          "size_D1": [
+            3.75,
+            2.125
+          ],
+          "pixels_D8": 424
+        },
+        {
+          "alpha_ge": 128,
+          "bbox_local_D8_in_observation_window": [
+            79,
+            36,
+            109,
+            53
+          ],
+          "size_D1": [
+            3.75,
+            2.125
+          ],
+          "pixels_D8": 302
+        },
+        {
+          "alpha_ge": 192,
+          "bbox_local_D8_in_observation_window": [
+            80,
+            38,
+            108,
+            52
+          ],
+          "size_D1": [
+            3.5,
+            1.75
+          ],
+          "pixels_D8": 233
+        }
+      ],
+      "verdict": "STOP_NOT_A_SAFE_INDEPENDENT_NATIVE_REGION",
+      "additional_source_dark_core_reference_D1": [
+        5,
+        4,
+        9,
+        6
+      ],
+      "additional_source_dark_core_size_D1": [
+        4,
+        2
+      ]
+    },
+    {
+      "id": "G3_second",
+      "family": "G3",
+      "slot_raw_origin_D8": [
+        768,
+        0
+      ],
+      "observation_window_local_D8": [
+        323,
+        334,
+        424,
+        385
+      ],
+      "coarse_source_reference_D1": [
+        16,
+        43,
+        37,
+        58
+      ],
+      "coarse_source_size_D1": [
+        21,
+        15
+      ],
+      "full_positive_alpha_support_8connected": {
+        "component_ids_raw": [
+          728
+        ],
+        "bbox_local_D8": [
+          249,
+          139,
+          524,
+          462
+        ],
+        "bbox_raw_D8": [
+          1017,
+          139,
+          1292,
+          462
+        ],
+        "size_D8": [
+          275,
+          323
+        ],
+        "size_D1": [
+          34.375,
+          40.375
+        ],
+        "width_height_ratio_to_coarse_source": [
+          1.636905,
+          2.691667
+        ],
+        "positive_alpha_pixels_D8": 35154,
+        "support_area_D1": 549.28125,
+        "opacity_equivalent_area_D1": 43.658088235294116,
+        "raw_outer_boundary_positive_pixels": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "positive_alpha_pixels_outside_observation_window_D8": 30003,
+        "alpha_mass_fraction_outside_observation_window": 0.3258259649122807
+      },
+      "four_connected_sensitivity_check": {
+        "bbox_local_D8": [
+          264,
+          262,
+          519,
+          462
+        ],
+        "size_D1": [
+          31.875,
+          25.0
+        ],
+        "positive_alpha_pixels_D8": 25853
+      },
+      "raw_rectangle_at_target_support_bbox": {
+        "intersected_components_count": 1066,
+        "partially_cut_other_components_count": 3
+      },
+      "minimal_rectangle_closure_without_cutting_any_alpha_positive_component": {
+        "bbox_raw_D8": [
+          795,
+          0,
+          1292,
+          617
+        ],
+        "bbox_slot_relative_D8": [
+          27,
+          0,
+          524,
+          617
+        ],
+        "size_D1": [
+          62.125,
+          77.125
+        ],
+        "iterations_to_stability": 13,
+        "included_components_count": 2977,
+        "crosses_slot_boundary": true,
+        "positive_alpha_pixels_D8": 79167,
+        "alpha_mass_equivalent_D1": 71.39240196078431,
+        "is_approved_proposal": false
+      },
+      "auxiliary_threshold_observations_only": [
+        {
+          "alpha_ge": 32,
+          "bbox_local_D8_in_observation_window": [
+            323,
+            334,
+            424,
+            385
+          ],
+          "size_D1": [
+            12.625,
+            6.375
+          ],
+          "pixels_D8": 2873
+        },
+        {
+          "alpha_ge": 128,
+          "bbox_local_D8_in_observation_window": [
+            323,
+            334,
+            424,
+            385
+          ],
+          "size_D1": [
+            12.625,
+            6.375
+          ],
+          "pixels_D8": 1730
+        },
+        {
+          "alpha_ge": 192,
+          "bbox_local_D8_in_observation_window": [
+            325,
+            335,
+            420,
+            385
+          ],
+          "size_D1": [
+            11.875,
+            6.25
+          ],
+          "pixels_D8": 1302
+        }
+      ],
+      "verdict": "STOP_NOT_A_SAFE_INDEPENDENT_NATIVE_REGION"
+    },
+    {
+      "id": "F413_main",
+      "family": "F413",
+      "slot_raw_origin_D8": [
+        0,
+        512
+      ],
+      "observation_window_local_D8": [
+        383,
+        265,
+        574,
+        336
+      ],
+      "coarse_source_reference_D1": [
+        44,
+        46,
+        66,
+        55
+      ],
+      "coarse_source_size_D1": [
+        22,
+        9
+      ],
+      "full_positive_alpha_support_8connected": {
+        "component_ids_raw": [
+          4653
+        ],
+        "bbox_local_D8": [
+          327,
+          183,
+          691,
+          405
+        ],
+        "bbox_raw_D8": [
+          327,
+          695,
+          691,
+          917
+        ],
+        "size_D8": [
+          364,
+          222
+        ],
+        "size_D1": [
+          45.5,
+          27.75
+        ],
+        "width_height_ratio_to_coarse_source": [
+          2.068182,
+          3.083333
+        ],
+        "positive_alpha_pixels_D8": 48136,
+        "support_area_D1": 752.125,
+        "opacity_equivalent_area_D1": 55.53768382352941,
+        "raw_outer_boundary_positive_pixels": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "positive_alpha_pixels_outside_observation_window_D8": 34586,
+        "alpha_mass_fraction_outside_observation_window": 0.3106352227278996
+      },
+      "four_connected_sensitivity_check": {
+        "bbox_local_D8": [
+          327,
+          187,
+          668,
+          405
+        ],
+        "size_D1": [
+          42.625,
+          27.25
+        ],
+        "positive_alpha_pixels_D8": 46301
+      },
+      "raw_rectangle_at_target_support_bbox": {
+        "intersected_components_count": 846,
+        "partially_cut_other_components_count": 5
+      },
+      "minimal_rectangle_closure_without_cutting_any_alpha_positive_component": {
+        "bbox_raw_D8": [
+          327,
+          652,
+          806,
+          918
+        ],
+        "bbox_slot_relative_D8": [
+          327,
+          140,
+          806,
+          406
+        ],
+        "size_D1": [
+          59.875,
+          33.25
+        ],
+        "iterations_to_stability": 7,
+        "included_components_count": 1350,
+        "crosses_slot_boundary": true,
+        "positive_alpha_pixels_D8": 54295,
+        "alpha_mass_equivalent_D1": 56.58511029411765,
+        "is_approved_proposal": false
+      },
+      "auxiliary_threshold_observations_only": [
+        {
+          "alpha_ge": 32,
+          "bbox_local_D8_in_observation_window": [
+            383,
+            265,
+            574,
+            336
+          ],
+          "size_D1": [
+            23.875,
+            8.875
+          ],
+          "pixels_D8": 3982
+        },
+        {
+          "alpha_ge": 128,
+          "bbox_local_D8_in_observation_window": [
+            386,
+            277,
+            567,
+            336
+          ],
+          "size_D1": [
+            22.625,
+            7.375
+          ],
+          "pixels_D8": 1885
+        },
+        {
+          "alpha_ge": 192,
+          "bbox_local_D8_in_observation_window": [
+            387,
+            280,
+            566,
+            336
+          ],
+          "size_D1": [
+            22.375,
+            7.0
+          ],
+          "pixels_D8": 1389
+        }
+      ],
+      "verdict": "STOP_NOT_A_SAFE_INDEPENDENT_NATIVE_REGION"
+    }
+  ],
+  "visibility_decision_superseded_by": "VISIBLE_CUT_ASSESSMENT.json",
+  "decision_scope_correction": "STOP only under exact alpha-positive support completeness; do not interpret as visible-truncation STOP. See revised contribution-based assessment."
+}

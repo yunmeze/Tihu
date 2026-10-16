@@ -1,0 +1,288 @@
+{
+  "status": "INPUT PLAN ONLY; no image generation call authorized yet",
+  "actual_referenced_image_paths_primary": [
+    "/workspace/scratch/22c897619190/recovery-work/soil-detail-three-template-input-plan/SOURCE_SLOT_REFERENCE_D8.png",
+    "/workspace/scratch/22c897619190/recovery-work/soil-detail-three-template-input-plan/G2_SOURCE_FULL_96x64.png",
+    "/workspace/scratch/22c897619190/recovery-work/soil-detail-three-template-input-plan/G3_SOURCE_FULL_96x64.png",
+    "/workspace/scratch/22c897619190/recovery-work/soil-detail-three-template-input-plan/F413_SOURCE_FULL_96x64.png",
+    "/workspace/scratch/22c897619190/recovery-work/soil-detail-three-template-input-plan/EXISTING_AI_SOIL_REFERENCE.png"
+  ],
+  "primary_reference_sha256": {
+    "/workspace/scratch/22c897619190/recovery-work/soil-detail-three-template-input-plan/SOURCE_SLOT_REFERENCE_D8.png": "e2c3e9f431afc15706e2297e2b87a8098310308e0b56112ae66f3bbf4e836eda",
+    "/workspace/scratch/22c897619190/recovery-work/soil-detail-three-template-input-plan/G2_SOURCE_FULL_96x64.png": "9a5bb41aed45c3f56cea23e0f693665c3047398fa892ce96f4d3029699ad83e9",
+    "/workspace/scratch/22c897619190/recovery-work/soil-detail-three-template-input-plan/G3_SOURCE_FULL_96x64.png": "1cd47df930e35889e4e5b97965c1c79a74e89f6271f66c981b004346af36253a",
+    "/workspace/scratch/22c897619190/recovery-work/soil-detail-three-template-input-plan/F413_SOURCE_FULL_96x64.png": "64f37aa4af7d3ea8ba10577069af6eb46b61626577d0fe429e404cdb78351261",
+    "/workspace/scratch/22c897619190/recovery-work/soil-detail-three-template-input-plan/EXISTING_AI_SOIL_REFERENCE.png": "9c6f1a81a4d55814aad2495bc2a5b292073fbc801c667d5f7c42ab5737591017"
+  },
+  "source_tiles": [
+    {
+      "family": "G2",
+      "source_frame": 394,
+      "atlas": "/workspace/scratch/22c897619190/tihu-legend/Project/assets/original/Map/Res/FloorBig/0.png",
+      "atlas_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59",
+      "atlas_rect": [
+        589,
+        1,
+        96,
+        64
+      ],
+      "source_rgba_sha256": "8ec664b98269fa73777e42b089e7e765dac6bddb6760542f7b642532603176ab",
+      "reference_file": "G2_SOURCE_FULL_96x64.png",
+      "reference_file_sha256": "9a5bb41aed45c3f56cea23e0f693665c3047398fa892ce96f4d3029699ad83e9",
+      "output_slot_xyxy_density8": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "original_source_canvas": [
+        96,
+        64
+      ],
+      "density8_canvas": [
+        768,
+        512
+      ],
+      "density2_canvas": [
+        192,
+        128
+      ]
+    },
+    {
+      "family": "G3",
+      "source_frame": 395,
+      "atlas": "/workspace/scratch/22c897619190/tihu-legend/Project/assets/original/Map/Res/FloorBig/0.png",
+      "atlas_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59",
+      "atlas_rect": [
+        687,
+        1,
+        96,
+        64
+      ],
+      "source_rgba_sha256": "0e44865c833ac1dfec4400377b1e5bcb906c1b6d7576a11931f6ff1808385245",
+      "reference_file": "G3_SOURCE_FULL_96x64.png",
+      "reference_file_sha256": "1cd47df930e35889e4e5b97965c1c79a74e89f6271f66c981b004346af36253a",
+      "output_slot_xyxy_density8": [
+        768,
+        0,
+        1536,
+        512
+      ],
+      "original_source_canvas": [
+        96,
+        64
+      ],
+      "density8_canvas": [
+        768,
+        512
+      ],
+      "density2_canvas": [
+        192,
+        128
+      ]
+    },
+    {
+      "family": "F413",
+      "source_frame": 413,
+      "atlas": "/workspace/scratch/22c897619190/tihu-legend/Project/assets/original/Map/Res/FloorBig/0.png",
+      "atlas_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59",
+      "atlas_rect": [
+        197,
+        67,
+        96,
+        64
+      ],
+      "source_rgba_sha256": "1b3521617be7e1286dd6560516bbcd256aa93c0e510f210fd4cd0c444956199d",
+      "reference_file": "F413_SOURCE_FULL_96x64.png",
+      "reference_file_sha256": "64f37aa4af7d3ea8ba10577069af6eb46b61626577d0fe429e404cdb78351261",
+      "output_slot_xyxy_density8": [
+        0,
+        512,
+        768,
+        1024
+      ],
+      "original_source_canvas": [
+        96,
+        64
+      ],
+      "density8_canvas": [
+        768,
+        512
+      ],
+      "density2_canvas": [
+        192,
+        128
+      ]
+    }
+  ],
+  "material_reference": {
+    "source": "/workspace/scratch/22c897619190/recovery-work/soil-spur-v2-material-preview/Project/assets/soil.png",
+    "sha256": "9c6f1a81a4d55814aad2495bc2a5b292073fbc801c667d5f7c42ab5737591017",
+    "usage": "color/detail language on already-generated soil only; do not copy it into transparent background"
+  },
+  "desired_output": {
+    "raw_size": [
+      1536,
+      1024
+    ],
+    "format": "RGBA PNG actual transparency",
+    "layout": "2x2 equal slots, no gutter, no labels, no border",
+    "slots": [
+      {
+        "family": "G2",
+        "source_frame": 394,
+        "atlas": "/workspace/scratch/22c897619190/tihu-legend/Project/assets/original/Map/Res/FloorBig/0.png",
+        "atlas_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59",
+        "atlas_rect": [
+          589,
+          1,
+          96,
+          64
+        ],
+        "source_rgba_sha256": "8ec664b98269fa73777e42b089e7e765dac6bddb6760542f7b642532603176ab",
+        "reference_file": "G2_SOURCE_FULL_96x64.png",
+        "reference_file_sha256": "9a5bb41aed45c3f56cea23e0f693665c3047398fa892ce96f4d3029699ad83e9",
+        "output_slot_xyxy_density8": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "original_source_canvas": [
+          96,
+          64
+        ],
+        "density8_canvas": [
+          768,
+          512
+        ],
+        "density2_canvas": [
+          192,
+          128
+        ]
+      },
+      {
+        "family": "G3",
+        "source_frame": 395,
+        "atlas": "/workspace/scratch/22c897619190/tihu-legend/Project/assets/original/Map/Res/FloorBig/0.png",
+        "atlas_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59",
+        "atlas_rect": [
+          687,
+          1,
+          96,
+          64
+        ],
+        "source_rgba_sha256": "0e44865c833ac1dfec4400377b1e5bcb906c1b6d7576a11931f6ff1808385245",
+        "reference_file": "G3_SOURCE_FULL_96x64.png",
+        "reference_file_sha256": "1cd47df930e35889e4e5b97965c1c79a74e89f6271f66c981b004346af36253a",
+        "output_slot_xyxy_density8": [
+          768,
+          0,
+          1536,
+          512
+        ],
+        "original_source_canvas": [
+          96,
+          64
+        ],
+        "density8_canvas": [
+          768,
+          512
+        ],
+        "density2_canvas": [
+          192,
+          128
+        ]
+      },
+      {
+        "family": "F413",
+        "source_frame": 413,
+        "atlas": "/workspace/scratch/22c897619190/tihu-legend/Project/assets/original/Map/Res/FloorBig/0.png",
+        "atlas_sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59",
+        "atlas_rect": [
+          197,
+          67,
+          96,
+          64
+        ],
+        "source_rgba_sha256": "1b3521617be7e1286dd6560516bbcd256aa93c0e510f210fd4cd0c444956199d",
+        "reference_file": "F413_SOURCE_FULL_96x64.png",
+        "reference_file_sha256": "64f37aa4af7d3ea8ba10577069af6eb46b61626577d0fe429e404cdb78351261",
+        "output_slot_xyxy_density8": [
+          0,
+          512,
+          768,
+          1024
+        ],
+        "original_source_canvas": [
+          96,
+          64
+        ],
+        "density8_canvas": [
+          768,
+          512
+        ],
+        "density2_canvas": [
+          192,
+          128
+        ]
+      }
+    ],
+    "empty_slot_xyxy": [
+      768,
+      512,
+      1536,
+      1024
+    ],
+    "empty_slot_alpha": 0,
+    "common_density": 8
+  },
+  "normalization_if_later_approved": {
+    "preserve_raw": true,
+    "whole_canvas_scale_factor": 0.25,
+    "density2_atlas_size": [
+      384,
+      256
+    ],
+    "density2_slots": [
+      [
+        0,
+        0,
+        192,
+        128
+      ],
+      [
+        192,
+        0,
+        384,
+        128
+      ],
+      [
+        0,
+        128,
+        192,
+        256
+      ]
+    ],
+    "no_per_slot_transform": true,
+    "note": "Single technical resize using established alpha-correct normalization, then exact slot slicing only. No recolor, selective opacity edits, background removal, or corrective warps. Validate raw dimensions/layout before this step."
+  },
+  "generation_calls_now": 0,
+  "generation_tool_arguments_if_explicitly_approved": {
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "/workspace/scratch/22c897619190/recovery-work/soil-detail-three-template-input-plan/SOURCE_SLOT_REFERENCE_D8.png",
+      "/workspace/scratch/22c897619190/recovery-work/soil-detail-three-template-input-plan/G2_SOURCE_FULL_96x64.png",
+      "/workspace/scratch/22c897619190/recovery-work/soil-detail-three-template-input-plan/G3_SOURCE_FULL_96x64.png",
+      "/workspace/scratch/22c897619190/recovery-work/soil-detail-three-template-input-plan/F413_SOURCE_FULL_96x64.png",
+      "/workspace/scratch/22c897619190/recovery-work/soil-detail-three-template-input-plan/EXISTING_AI_SOIL_REFERENCE.png"
+    ],
+    "prompt_file": "/workspace/scratch/22c897619190/recovery-work/soil-detail-three-template-input-plan/PROMPT_DRAFT.txt"
+  },
+  "G3_edge_review": {
+    "report": "recovery-work/g3-edge-connectivity-review/REPORT.md",
+    "board": "recovery-work/g3-edge-connectivity-review/G3_EDGE_EVIDENCE_BOARD.png",
+    "review_json_sha256": "51ce487952c391f4219c3970f3e2d8b23f74d2b70030c19aec91892d08da4885",
+    "conclusion": "coarse review box touches y0; dark core [5,4,9,6] does not. No visible contour supports continuity into top 413 neighbor."
+  }
+}

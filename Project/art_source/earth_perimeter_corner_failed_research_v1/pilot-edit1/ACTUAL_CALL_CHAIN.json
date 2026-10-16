@@ -1,0 +1,70 @@
+{
+  "status": "one approved whole-corner edit completed; fixed support FAIL; no retry",
+  "mode": "one complete-corner image edit if root authorizes; no retry",
+  "referenced_image_paths": [
+    "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-corner-fixed384.png",
+    "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-attempt1/generated-raw.png",
+    "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-edit-plan/03-source-targets-vs-current-2x.png",
+    "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-actualrefs/04-accepted-house-material-only.png"
+  ],
+  "refs": [
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-corner-fixed384.png",
+      "sha256": "d9299ee9cf7621bfb852761597bef8bd84ccf53459c6bb1f3cc83207c3f7853a"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-attempt1/generated-raw.png",
+      "sha256": "ef24fed6a39a10a11052747bc3ddf72a5e6899d25bda872c017b6f52d65024b6"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-edit-plan/03-source-targets-vs-current-2x.png",
+      "sha256": "cee5c1ed725dd87b6fa713a1d72957288680818f699a70266db83712edad37e1"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-actualrefs/04-accepted-house-material-only.png",
+      "sha256": "b6b9a02ef0f53a2d9cb3429e8ea47b7b0be89bed1fc7c0e61f8e95f1653bfeaa"
+    }
+  ],
+  "prompt_path": "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-edit-plan/PROMPT_PROPOSED.txt",
+  "prompt_sha256": "8db952f33b89f01bf2f8ae4d4b38ec69addc22b67271950a662ededf9b6420c7",
+  "transparent_background": true,
+  "logical_canvas": [
+    384,
+    384
+  ],
+  "world_origin": [
+    840,
+    221
+  ],
+  "requested_size": [
+    1536,
+    1536
+  ],
+  "actual_density": 3.265625,
+  "old_failure_preserved": true,
+  "no_mask_clipping_or_uniform_rescue": true,
+  "call_started_utc": "2026-10-16T12:02:27Z",
+  "call_returned_utc": "2026-10-16T12:03:25Z",
+  "actual_call_arguments": {
+    "prompt_file": "prompt_actual.txt",
+    "referenced_image_paths": [
+      "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-corner-fixed384.png",
+      "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-attempt1/generated-raw.png",
+      "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-edit-plan/03-source-targets-vs-current-2x.png",
+      "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-actualrefs/04-accepted-house-material-only.png"
+    ],
+    "transparent_background": true
+  },
+  "returned_path": "/workspace/scratch/22c897619190/generated_images/exec-f098579a-4f54-440d-84a6-70262f146e20.png",
+  "retained_raw": "generated-raw.png",
+  "actual_raw_size": [
+    1254,
+    1254
+  ],
+  "raw_sha256": "5d1a5cece5c7ccf33a404e8eda645e1eb28783325b975f2363b0153af7b9c8ee",
+  "attempt_count": 1,
+  "no_retry": true,
+  "generation_sequence": "initial generation followed by this one separately approved edit",
+  "edit_call_count": 1,
+  "prior_raw_sha256": "ef24fed6a39a10a11052747bc3ddf72a5e6899d25bda872c017b6f52d65024b6"
+}

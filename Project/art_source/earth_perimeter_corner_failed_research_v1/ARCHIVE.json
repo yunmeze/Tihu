@@ -1,0 +1,164 @@
+{
+  "schema": "research-wall-soil-source-v1",
+  "mode": "wall",
+  "status": "both fixed-window/support FAIL; erroneous35.83 superseded",
+  "calls": [
+    {
+      "phase": "pilot-attempt1",
+      "refs": [
+        {
+          "path": "references/pilot-corner-fixed384.png",
+          "sha256": "d9299ee9cf7621bfb852761597bef8bd84ccf53459c6bb1f3cc83207c3f7853a"
+        },
+        {
+          "path": "references/02-same-source-reading768.png",
+          "sha256": "006dd0fbbfb26a7503740bc02be1019c296ce46ec7eb25ce056608989934d3fa"
+        },
+        {
+          "path": "references/pilot-original-context1x.png",
+          "sha256": "59bc7e12e722c3b28e5878e3e7bf7ede4b7d9156c9f92d861cb257990e2e689f"
+        },
+        {
+          "path": "references/04-accepted-house-material-only.png",
+          "sha256": "b6b9a02ef0f53a2d9cb3429e8ea47b7b0be89bed1fc7c0e61f8e95f1653bfeaa"
+        }
+      ],
+      "raw": "pilot-attempt1/generated-raw.png",
+      "prompt": "pilot-attempt1/prompt_actual.txt"
+    },
+    {
+      "phase": "pilot-edit1",
+      "refs": [
+        {
+          "path": "references/pilot-corner-fixed384.png",
+          "sha256": "d9299ee9cf7621bfb852761597bef8bd84ccf53459c6bb1f3cc83207c3f7853a"
+        },
+        {
+          "path": "pilot-attempt1/generated-raw.png",
+          "sha256": "ef24fed6a39a10a11052747bc3ddf72a5e6899d25bda872c017b6f52d65024b6"
+        },
+        {
+          "path": "references/03-source-targets-vs-current-2x.png",
+          "sha256": "cee5c1ed725dd87b6fa713a1d72957288680818f699a70266db83712edad37e1"
+        },
+        {
+          "path": "references/04-accepted-house-material-only.png",
+          "sha256": "b6b9a02ef0f53a2d9cb3429e8ea47b7b0be89bed1fc7c0e61f8e95f1653bfeaa"
+        }
+      ],
+      "raw": "pilot-edit1/generated-raw.png",
+      "prompt": "pilot-edit1/prompt_actual.txt"
+    }
+  ],
+  "actual_author_confirmation": {
+    "author": "/root/plan_modern_perimeter_wall",
+    "received": "2026-10-16 12:14UTC completed response",
+    "calls": "Each phase exactly one actual generation/edit; four refs exact ACTUAL_CALL_CHAIN order; full prompt_actual; transparent true; no extra images or retries",
+    "raw": "original tool output unchanged; no fit, registration rescue or support clipping",
+    "source": "nine owner geometry/flags/layer/support unchanged",
+    "measurement_correction": "35.83 mismatched-semantic estimate withdrawn; final roof-skin inner V source171–179 vs edit151–159; uncertain manual intervals, not exact eave/wall-top measurement",
+    "status": "fixed-window FAIL remains independently supported by strongalpha support spill and left/right interface overflow"
+  },
+  "inputs": {
+    "README.md": {
+      "sha256": "1ed873e24c9b0527bcb746a25f22bd917f1774a296526bcc500b2261da0a44b2",
+      "bytes": 1003
+    },
+    "SOURCE_NINE_OWNERS.json": {
+      "sha256": "0339f3c538317a70b555920e59d13c1342c43eb32738a60ac9ba6e68d95e929e",
+      "bytes": 16312
+    },
+    "SOURCE_PROVENANCE.json": {
+      "sha256": "ffca815467f94df6e216de8298ba05147cb5064eb0d9b00223dba3caf27842e4",
+      "bytes": 18996
+    },
+    "correction/POINT_REVIEW_CORRECTION.md": {
+      "sha256": "6ff354f52442031d3705ef6490ed08959e0d66ca9ccb47bd2270b9c3a7e16f47",
+      "bytes": 1535
+    },
+    "correction/SOURCE_TARGETS.json": {
+      "sha256": "1002f7412e4bc63a16180c79d598650edd398984cc8104c510201fc039d34807",
+      "bytes": 3213
+    },
+    "pilot-attempt1/ACTUAL_CALL_CHAIN.json": {
+      "sha256": "6623e760e2173f787b808e140f2db08372ff7e610e586ee81cea37e79bcc323a",
+      "bytes": 3824
+    },
+    "pilot-attempt1/RESULT.md": {
+      "sha256": "000abfb8fd1a5c7faeeb57c9ae9db681ac8d88b8fa0e9149f3b8015ae68dbc22",
+      "bytes": 2160
+    },
+    "pilot-attempt1/STRUCTURAL_POINT_DIFFERENCES.json": {
+      "sha256": "c88b0e87e8042d027622fa0bb326576b831641d87c9c51a1cde198de153575e7",
+      "bytes": 3566
+    },
+    "pilot-attempt1/contract_before_call.json": {
+      "sha256": "2b1d28ca3f9bfac9a8265406b94e0b84dd1a7b6f0134be7592467db35a871bcf",
+      "bytes": 2753
+    },
+    "pilot-attempt1/generated-raw.png": {
+      "sha256": "ef24fed6a39a10a11052747bc3ddf72a5e6899d25bda872c017b6f52d65024b6",
+      "bytes": 1438194
+    },
+    "pilot-attempt1/measurements.json": {
+      "sha256": "e4ac920837c825e17f07d259bac34903965ed3b9e07aca8d335dd488f0e045b3",
+      "bytes": 8908
+    },
+    "pilot-attempt1/prompt_actual.txt": {
+      "sha256": "fdb10d6006451e63df59fb5d96e02ac5b1750182adf2799e354cd66e47a116d1",
+      "bytes": 4564
+    },
+    "pilot-edit1/ACTUAL_CALL_CHAIN.json": {
+      "sha256": "add4381336ee06e9a6918c45583f74d007d936eb2385fa9a65a86ec1d6956fa3",
+      "bytes": 3362
+    },
+    "pilot-edit1/EDIT_COMPARISON.json": {
+      "sha256": "7d28b98bd6d56149ec506fa03675d3acb9d7ffe9547a324ad23dd3c6a4acdd85",
+      "bytes": 453
+    },
+    "pilot-edit1/RESULT.md": {
+      "sha256": "2a5f4ef5e6dbb4f4a5e62be40094198b80a1dc40a52570eebae569782bc82b69",
+      "bytes": 1888
+    },
+    "pilot-edit1/STRUCTURAL_REVIEW.json": {
+      "sha256": "782b2a9fd43ba1948878b4b8877c0082460216644180c513c4bd53e8fc29650a",
+      "bytes": 2818
+    },
+    "pilot-edit1/contract_before_call.json": {
+      "sha256": "3f0e6d65cc2850bb57b6f21f83b0c7841e1269ec20c86dde3db710c00d9fb654",
+      "bytes": 2140
+    },
+    "pilot-edit1/generated-raw.png": {
+      "sha256": "5d1a5cece5c7ccf33a404e8eda645e1eb28783325b975f2363b0153af7b9c8ee",
+      "bytes": 1363564
+    },
+    "pilot-edit1/measurements.json": {
+      "sha256": "7265e0e26358ac75324fb7537aafe59dc905f3389cf10363b25265fbc9137ed3",
+      "bytes": 8931
+    },
+    "pilot-edit1/prompt_actual.txt": {
+      "sha256": "8db952f33b89f01bf2f8ae4d4b38ec69addc22b67271950a662ededf9b6420c7",
+      "bytes": 6060
+    },
+    "references/02-same-source-reading768.png": {
+      "sha256": "006dd0fbbfb26a7503740bc02be1019c296ce46ec7eb25ce056608989934d3fa",
+      "bytes": 131652
+    },
+    "references/03-source-targets-vs-current-2x.png": {
+      "sha256": "cee5c1ed725dd87b6fa713a1d72957288680818f699a70266db83712edad37e1",
+      "bytes": 673666
+    },
+    "references/04-accepted-house-material-only.png": {
+      "sha256": "b6b9a02ef0f53a2d9cb3429e8ea47b7b0be89bed1fc7c0e61f8e95f1653bfeaa",
+      "bytes": 143069
+    },
+    "references/pilot-corner-fixed384.png": {
+      "sha256": "d9299ee9cf7621bfb852761597bef8bd84ccf53459c6bb1f3cc83207c3f7853a",
+      "bytes": 105174
+    },
+    "references/pilot-original-context1x.png": {
+      "sha256": "59bc7e12e722c3b28e5878e3e7bf7ede4b7d9156c9f92d861cb257990e2e689f",
+      "bytes": 615509
+    }
+  }
+}

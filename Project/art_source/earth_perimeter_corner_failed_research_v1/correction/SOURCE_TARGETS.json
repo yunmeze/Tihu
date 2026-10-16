@@ -1,0 +1,134 @@
+{
+  "source": "../pilot-corner-fixed384.png",
+  "source_sha256": "d9299ee9cf7621bfb852761597bef8bd84ccf53459c6bb1f3cc83207c3f7853a",
+  "coordinate_system": "original 384 square, world=logical+[840,221]; raw=logical*3.265625",
+  "source_pixel_readings": {
+    "ridge_cross": [
+      198,
+      60
+    ],
+    "ridge_tip_left": [
+      169,
+      37
+    ],
+    "ridge_tip_right": [
+      228,
+      36
+    ],
+    "left_top_cut": [
+      72,
+      134
+    ],
+    "right_top_cut": [
+      311,
+      129
+    ],
+    "eave_left": [
+      73,
+      240
+    ],
+    "eave_inner_v": [
+      198,
+      175
+    ],
+    "eave_right": [
+      311,
+      241
+    ],
+    "base_top_left": [
+      73,
+      298
+    ],
+    "base_top_inner": [
+      198,
+      223
+    ],
+    "base_top_right": [
+      311,
+      299
+    ],
+    "foot_left": [
+      72,
+      347
+    ],
+    "foot_inner": [
+      198,
+      265
+    ],
+    "foot_right": [
+      311,
+      338
+    ]
+  },
+  "semantic_polyline_guides": {
+    "ridge": [
+      "left_top_cut",
+      "ridge_cross",
+      "right_top_cut"
+    ],
+    "roof_edge": [
+      "eave_left",
+      "eave_inner_v",
+      "eave_right"
+    ],
+    "base_top": [
+      "base_top_left",
+      "base_top_inner",
+      "base_top_right"
+    ],
+    "foot": [
+      "foot_left",
+      "foot_inner",
+      "foot_right"
+    ],
+    "left_interface": [
+      "left_top_cut",
+      "foot_left"
+    ],
+    "right_interface": [
+      "right_top_cut",
+      "foot_right"
+    ]
+  },
+  "precision_note": "Every target is an explicit pixel coordinate read from the unmodified source; semantic roof/material boundaries are manually identified with approximately +/-3 logical px uncertainty. Polyline segments interpolate observed endpoint targets, not measured per-pixel contour. No claimed subpixel exactness.",
+  "owner_interface_exact_geometry": {
+    "left_x": 72,
+    "right_boundary_half_open_x": 312
+  },
+  "correction_to_attempt1": "Old eave source point (198,192) lies in the dark eave/wall transition, not the roof-skin inner V. Comparing it to raw roof-skin endpoint produced inflated -35.83. Same-semantic roof-skin V is approximately (198,175) versus raw (623,510)/3.265625=(190.775,156.172), delta=(-7.225,-18.828). FAIL remains independently established by support overflow and overall shape.",
+  "semantic_boundary_review": {
+    "roof_skin_inner_v": {
+      "source_estimate": [
+        198,
+        175
+      ],
+      "source_y_interval": [
+        171,
+        179
+      ],
+      "candidate_logical_estimate": [
+        190.775,
+        156.172
+      ],
+      "candidate_y_interval": [
+        152,
+        160
+      ],
+      "confidence": "medium; visible material termination, original pixels coarse",
+      "delta_y_interval": [
+        -27,
+        -11
+      ]
+    },
+    "eave_underside": {
+      "source_point": null,
+      "candidate_point": null,
+      "comparison": "unresolved independently; dark source eave/wood/brick transitions cannot be assigned a precise shared semantic boundary"
+    },
+    "wall_top": {
+      "source_point": null,
+      "candidate_point": null,
+      "comparison": "unresolved separately from dark eave underside; do not force old y192 onto raw roof tip"
+    }
+  }
+}

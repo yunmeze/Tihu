@@ -1,0 +1,81 @@
+{
+  "tool": "image_gen__imagegen",
+  "call_count": 1,
+  "generated_path": "/workspace/scratch/22c897619190/generated_images/exec-3b57c7d6-6192-41e5-bc0e-555df9e592cf.png",
+  "raw_copy": "RAW.png",
+  "raw_sha256": "b4e8fdbf318a3b81e7e5f146c734ef634f88abdb192ec90f74b8183c926edeb6",
+  "mode": "RGBA",
+  "size": [
+    1536,
+    1024
+  ],
+  "has_actual_alpha_channel": true,
+  "slots": [
+    {
+      "slot": "G2",
+      "alpha_min": 0,
+      "alpha_max": 248,
+      "alpha_zero": 46980,
+      "alpha_partial": 346236,
+      "alpha_opaque": 0,
+      "nonzero_bbox_local": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "rgb_max": 254
+    },
+    {
+      "slot": "G3",
+      "alpha_min": 0,
+      "alpha_max": 252,
+      "alpha_zero": 315757,
+      "alpha_partial": 77459,
+      "alpha_opaque": 0,
+      "nonzero_bbox_local": [
+        0,
+        0,
+        738,
+        512
+      ],
+      "rgb_max": 226
+    },
+    {
+      "slot": "F413",
+      "alpha_min": 0,
+      "alpha_max": 249,
+      "alpha_zero": 297245,
+      "alpha_partial": 95971,
+      "alpha_opaque": 0,
+      "nonzero_bbox_local": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "rgb_max": 209
+    },
+    {
+      "slot": "empty",
+      "alpha_min": 0,
+      "alpha_max": 2,
+      "alpha_zero": 388135,
+      "alpha_partial": 5081,
+      "alpha_opaque": 0,
+      "nonzero_bbox_local": [
+        0,
+        0,
+        744,
+        492
+      ],
+      "rgb_max": 21
+    }
+  ],
+  "normalization_executed": false,
+  "no_retry": true,
+  "verdict": "FAIL",
+  "strict_empty_slot_pass": false,
+  "source_location_visual_contract_pass": false,
+  "G2_low_frequency_restraint_pass": false
+}

@@ -1,0 +1,64 @@
+{
+  "status": "prepared for root review; NOT sent to imagegen",
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-corner-fixed384.png",
+    "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-actualrefs/02-same-source-reading768.png",
+    "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-original-context1x.png",
+    "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-actualrefs/04-accepted-house-material-only.png"
+  ],
+  "refs": [
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-corner-fixed384.png",
+      "sha256": "d9299ee9cf7621bfb852761597bef8bd84ccf53459c6bb1f3cc83207c3f7853a",
+      "role": "authoritative fixed full-canvas geometry"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-actualrefs/02-same-source-reading768.png",
+      "sha256": "006dd0fbbfb26a7503740bc02be1019c296ce46ec7eb25ce056608989934d3fa",
+      "role": "same-source nearest 2x reading only"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-original-context1x.png",
+      "sha256": "59bc7e12e722c3b28e5878e3e7bf7ede4b7d9156c9f92d861cb257990e2e689f",
+      "role": "original in-place neighborhood; no extra objects in output"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-actualrefs/04-accepted-house-material-only.png",
+      "sha256": "b6b9a02ef0f53a2d9cb3429e8ea47b7b0be89bed1fc7c0e61f8e95f1653bfeaa",
+      "role": "accepted-house raw local materials only, no full-house geometry"
+    }
+  ],
+  "prompt_path": "/workspace/scratch/22c897619190/recovery-work/perimeter-wall-source-plan/pilot-actualrefs/PROMPT_PROPOSED.txt",
+  "prompt_sha256": "fdb10d6006451e63df59fb5d96e02ac5b1750182adf2799e354cd66e47a116d1",
+  "logical_canvas": [
+    384,
+    384
+  ],
+  "world_origin": [
+    840,
+    221
+  ],
+  "source_paste": [
+    72,
+    36
+  ],
+  "source_size": [
+    240,
+    312
+  ],
+  "requested_pixel_size": [
+    1536,
+    1536
+  ],
+  "requested_density": 4,
+  "actual_density_rule": "Use actual W/384 == H/384; record returned W,H. Request is NOT a size guarantee. Uniform fullcanvas mapping only.",
+  "if_returned_1254_square": {
+    "density": 3.265625,
+    "mapping": "pixel=(world-[840,221])*3.265625"
+  },
+  "if_returned_1536x1024": "Not conforming to square fullcanvas contract; do NOT anisotropically resize, bbox fit, or silently accept. Report for review.",
+  "minimum_actual_density": 2,
+  "no_generation_yet": true
+}

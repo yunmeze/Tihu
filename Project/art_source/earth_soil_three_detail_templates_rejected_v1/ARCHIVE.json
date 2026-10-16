@@ -1,0 +1,104 @@
+{
+  "schema": "research-wall-soil-source-v1",
+  "mode": "soil",
+  "status": "FAIL retained; alpha contribution corrected; catalog not adopted",
+  "actual_author_confirmation": {
+    "author": "/root/stage_pure_soil_reuse",
+    "time": "2026-10-16 12:09UTC",
+    "calls": 1,
+    "retries": 0,
+    "refs": "five exactly ACTUAL_TOOL_ARGUMENTS order",
+    "prompt": "PROMPT_ACTUAL exact full tool prompt",
+    "transparent_background": true
+  },
+  "inputs": {
+    "ACTUAL_INPUT_SHA256.json": {
+      "sha256": "ee72992654939c45bf7774744ba5595c1fd8dde4cd0aa85fd73f00a749616912",
+      "bytes": 925
+    },
+    "ACTUAL_TOOL_ARGUMENTS.json": {
+      "sha256": "ff4db00e8a5912cd8b65f597fb83e50534f5faadf8de6c02c7617e8a6b6041c4",
+      "bytes": 4490
+    },
+    "ACTUAL_TOOL_RESULT_METADATA.json": {
+      "sha256": "6523db566b9f1900615317d5a5e1ecaac591923dacefd6eb52bf2e7b36c91e56",
+      "bytes": 770
+    },
+    "ALPHA_DISTRIBUTION.json": {
+      "sha256": "7d9a22431e186a5f17acc056e9be4782a063bbd96ae15cfbfe453c0ca67ee592",
+      "bytes": 2188
+    },
+    "INPUT_LAYOUT.json": {
+      "sha256": "f2f9e09290a4ddcd596c6555cefa25fd2acb6f03778dd8812671f3c5e5774c85",
+      "bytes": 9776
+    },
+    "POSITION_ALPHA_DIAGNOSTIC.json": {
+      "sha256": "6bcf59a7a5ee10aa96a8932521e76886f9a276035fd29eda5fa7a678e573b12b",
+      "bytes": 6891
+    },
+    "POST_AUTH_COMPOSITE_SUPPLEMENT.json": {
+      "sha256": "13ac6fe57c9f6f24db089c2daae582d235f4634c0f8e2c7fab36c11f943a68ec",
+      "bytes": 457
+    },
+    "PROMPT_ACTUAL.txt": {
+      "sha256": "64848c884d02617d5bab6abf6dbd3db0cfc28584dcd621f9a8a333310fcb3bcf",
+      "bytes": 3800
+    },
+    "RAW.png": {
+      "sha256": "b4e8fdbf318a3b81e7e5f146c734ef634f88abdb192ec90f74b8183c926edeb6",
+      "bytes": 1772212
+    },
+    "RAW_GATE.json": {
+      "sha256": "8b945ce505332870b78fb4a78c5f7242f578b7dd39dd784246ff276063a3e71d",
+      "bytes": 1670
+    },
+    "README.md": {
+      "sha256": "bd9e72b93768c1d24e393d3a6d2f961e12236365da8810ed5a840dd460237c30",
+      "bytes": 822
+    },
+    "RESULT.md": {
+      "sha256": "ada688829dab0ebd6bd27a427205129be56a8192a08db4fb0848e16ef0c4daa9",
+      "bytes": 2721
+    },
+    "correction/ACTUAL_ALPHA_CONTRIBUTION.md": {
+      "sha256": "7f946be42b394c0107dbda02be6b2715ee7886a020b35398d20ea01107920bc9",
+      "bytes": 2715
+    },
+    "correction/ACTUAL_CONTRIBUTION.json": {
+      "sha256": "2f22062b8f4da5015d6109b8a13c0035280b5054b94615f680e470f72967a5ea",
+      "bytes": 8680
+    },
+    "references/EXISTING_AI_SOIL_REFERENCE.png": {
+      "sha256": "9c6f1a81a4d55814aad2495bc2a5b292073fbc801c667d5f7c42ab5737591017",
+      "bytes": 1590482
+    },
+    "references/F413_SOURCE_FULL_96x64.png": {
+      "sha256": "64f37aa4af7d3ea8ba10577069af6eb46b61626577d0fe429e404cdb78351261",
+      "bytes": 10613
+    },
+    "references/G2_SOURCE_FULL_96x64.png": {
+      "sha256": "9a5bb41aed45c3f56cea23e0f693665c3047398fa892ce96f4d3029699ad83e9",
+      "bytes": 10057
+    },
+    "references/G3_SOURCE_FULL_96x64.png": {
+      "sha256": "1cd47df930e35889e4e5b97965c1c79a74e89f6271f66c981b004346af36253a",
+      "bytes": 10276
+    },
+    "references/SOURCE_SLOT_REFERENCE_D8.png": {
+      "sha256": "e2c3e9f431afc15706e2297e2b87a8098310308e0b56112ae66f3bbf4e836eda",
+      "bytes": 65371
+    },
+    "unused-catalog/REGION_ASSESSMENT.json": {
+      "sha256": "0af1a59f93b04c66b9b9678fc24eb7501d93b053b51fb01627244dcb8bff5eff",
+      "bytes": 13338
+    },
+    "unused-catalog/REPORT.md": {
+      "sha256": "32e695be3756491dc955775e2dad3dac8bae277b3f2a6bdf980551373c6b0b28",
+      "bytes": 3513
+    },
+    "unused-catalog/VISIBLE_CUT_ASSESSMENT.json": {
+      "sha256": "5164916358dd24b5570feb765cd4b45a424c6ffc5d1302f2df04d7ef54436cd1",
+      "bytes": 29099
+    }
+  }
+}

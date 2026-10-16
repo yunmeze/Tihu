@@ -1,0 +1,139 @@
+{
+  "method": "Independent manual visual point readings. Source approx +/-3 to4 logical px; candidate approx +/-3 logical px. Not a registration transform or subpixel geometric measurement.",
+  "old_35_83_estimate_not_used": true,
+  "unresolved_boundaries": [
+    "eave underside",
+    "wall top separately from dark eave transition"
+  ],
+  "points": [
+    {
+      "name": "ridge_cross",
+      "source_logical": [
+        198,
+        60
+      ],
+      "edited_raw_approx": [
+        625,
+        184
+      ],
+      "edited_logical_approx": [
+        191.38755980861245,
+        56.344497607655505
+      ],
+      "delta_logical_approx": [
+        -6.612440191387549,
+        -3.655502392344495
+      ]
+    },
+    {
+      "name": "roof_skin_inner_v",
+      "source_logical": [
+        198,
+        175
+      ],
+      "edited_raw_approx": [
+        625,
+        505
+      ],
+      "edited_logical_approx": [
+        191.38755980861245,
+        154.64114832535884
+      ],
+      "delta_logical_approx": [
+        -6.612440191387549,
+        -20.35885167464116
+      ]
+    },
+    {
+      "name": "foundation_top_inner",
+      "source_logical": [
+        198,
+        223
+      ],
+      "edited_raw_approx": [
+        626,
+        744
+      ],
+      "edited_logical_approx": [
+        191.6937799043062,
+        227.82775119617224
+      ],
+      "delta_logical_approx": [
+        -6.306220095693789,
+        4.827751196172244
+      ]
+    },
+    {
+      "name": "foot_inner",
+      "source_logical": [
+        198,
+        265
+      ],
+      "edited_raw_approx": [
+        626,
+        842
+      ],
+      "edited_logical_approx": [
+        191.6937799043062,
+        257.8373205741627
+      ],
+      "delta_logical_approx": [
+        -6.306220095693789,
+        -7.162679425837325
+      ]
+    },
+    {
+      "name": "foot_left",
+      "source_logical": [
+        72,
+        347
+      ],
+      "edited_raw_approx": [
+        212,
+        1128
+      ],
+      "edited_logical_approx": [
+        64.91866028708134,
+        345.4162679425837
+      ],
+      "delta_logical_approx": [
+        -7.081339712918663,
+        -1.5837320574162845
+      ]
+    },
+    {
+      "name": "foot_right",
+      "source_logical": [
+        311,
+        338
+      ],
+      "edited_raw_approx": [
+        1041,
+        1146
+      ],
+      "edited_logical_approx": [
+        318.7751196172249,
+        350.9282296650718
+      ],
+      "delta_logical_approx": [
+        7.775119617224902,
+        12.928229665071797
+      ]
+    }
+  ],
+  "roof_skin_inner_v_y_intervals": {
+    "source": [
+      171,
+      179
+    ],
+    "edited": [
+      151,
+      159
+    ],
+    "difference_interval": [
+      -28,
+      -12
+    ],
+    "conclusion": "Visible roof-skin V remains above source region; do not conflate with precise whole-eave or wall-top shift."
+  }
+}

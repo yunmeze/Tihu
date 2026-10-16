@@ -1,0 +1,810 @@
+{
+  "source_hashes": {
+    "/workspace/scratch/22c897619190/tihu-legend/Project/data/maps/A13.json": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+    "/workspace/scratch/22c897619190/tihu-legend/Project/assets/original/manifest.json": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+    "/workspace/scratch/22c897619190/tihu-legend/原版游戏/Data/Map/A13.lpMap": "e1cc7189fc96e04312b935422ec511a078b1fbe6259b97b9e3c279732becb3e3",
+    "/workspace/scratch/22c897619190/tihu-legend/原版游戏/Data/Map/Res/Wall.lpRes": "0f8ea26caf5a795cfb3ed2b3f5bc0fea444c3111fbcbc08023f1c0161c60cf41",
+    "/workspace/scratch/22c897619190/tihu-legend/recovery-work/full-a13-coverage/inventory.json": "c6e46b096a3892906d72786612cce47eed38a51fc9e9f867af49fbdabbf58ec9",
+    "/workspace/scratch/22c897619190/tihu-legend/Project/assets/original/Map/Res/Wall/0.png": "07bfa06728270c7f901eafc930c8c19a465af39e634d7ec0aa1160d9fcfad629"
+  },
+  "pilot": {
+    "ids": [
+      2693,
+      2701
+    ],
+    "bounds": [
+      912,
+      257,
+      1152,
+      569
+    ],
+    "owners": [
+      {
+        "key": "Map/Res/Wall:2693@20,15",
+        "category": "object",
+        "pack": "Map/Res/Wall",
+        "index": 2693,
+        "cell": [
+          20,
+          15
+        ],
+        "source_cell": [
+          0,
+          -1,
+          3,
+          2693
+        ],
+        "flag": -1,
+        "layer": 1,
+        "sort_y": 15,
+        "stable_source_order": 2015,
+        "frames": [
+          {
+            "frame_key": "Map/Res/Wall:2693",
+            "draw_bounds_xyxy": [
+              960,
+              260,
+              1008,
+              512
+            ]
+          }
+        ],
+        "all_frame_bounds_xyxy": [
+          960,
+          260,
+          1008,
+          512
+        ],
+        "intersects_fixed_by_full_draw_bounds": false,
+        "extends_outside_fixed": true,
+        "ordinary_registration": null,
+        "ordinary_hd_candidate": false,
+        "research_ground_review": false,
+        "status": "original_fallback",
+        "anchor_world": [
+          960,
+          480
+        ],
+        "source_byte_offset": 16148,
+        "source_frame": {
+          "key": "Map/Res/Wall:2693",
+          "pack": "Map/Res/Wall",
+          "frame_index": 2693,
+          "original": [
+            48,
+            252
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            48,
+            252
+          ],
+          "rgba_sha256": "e547163e6a829ac37076d30e1f83300d2a731e053ea3a7552df71e20caa1bf23",
+          "alpha_bbox": [
+            0,
+            0,
+            48,
+            252
+          ],
+          "atlas": "res://assets/original/Map/Res/Wall/0.png",
+          "atlas_rect": [
+            156,
+            425,
+            48,
+            252
+          ],
+          "native_source_offset": 26994366,
+          "native_source_bytes": 13174
+        },
+        "use_frame_offset": false
+      },
+      {
+        "key": "Map/Res/Wall:2694@21,15",
+        "category": "object",
+        "pack": "Map/Res/Wall",
+        "index": 2694,
+        "cell": [
+          21,
+          15
+        ],
+        "source_cell": [
+          0,
+          0,
+          3,
+          2694
+        ],
+        "flag": 0,
+        "layer": 1,
+        "sort_y": 15,
+        "stable_source_order": 2115,
+        "frames": [
+          {
+            "frame_key": "Map/Res/Wall:2694",
+            "draw_bounds_xyxy": [
+              1008,
+              258,
+              1056,
+              511
+            ]
+          }
+        ],
+        "all_frame_bounds_xyxy": [
+          1008,
+          258,
+          1056,
+          511
+        ],
+        "intersects_fixed_by_full_draw_bounds": false,
+        "extends_outside_fixed": true,
+        "ordinary_registration": null,
+        "ordinary_hd_candidate": false,
+        "research_ground_review": false,
+        "status": "original_fallback",
+        "anchor_world": [
+          1008,
+          480
+        ],
+        "source_byte_offset": 16948,
+        "source_frame": {
+          "key": "Map/Res/Wall:2694",
+          "pack": "Map/Res/Wall",
+          "frame_index": 2694,
+          "original": [
+            48,
+            254
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            48,
+            253
+          ],
+          "rgba_sha256": "ccb25f85d148bf8f7d7e5389582abdc6d1a122be4f2c0342da387fe2f10c8872",
+          "alpha_bbox": [
+            0,
+            0,
+            48,
+            253
+          ],
+          "atlas": "res://assets/original/Map/Res/Wall/0.png",
+          "atlas_rect": [
+            206,
+            425,
+            48,
+            253
+          ],
+          "native_source_offset": 27007540,
+          "native_source_bytes": 13270
+        },
+        "use_frame_offset": false
+      },
+      {
+        "key": "Map/Res/Wall:2695@22,15",
+        "category": "object",
+        "pack": "Map/Res/Wall",
+        "index": 2695,
+        "cell": [
+          22,
+          15
+        ],
+        "source_cell": [
+          0,
+          -1,
+          3,
+          2695
+        ],
+        "flag": -1,
+        "layer": 1,
+        "sort_y": 15,
+        "stable_source_order": 2215,
+        "frames": [
+          {
+            "frame_key": "Map/Res/Wall:2695",
+            "draw_bounds_xyxy": [
+              1056,
+              257,
+              1104,
+              512
+            ]
+          }
+        ],
+        "all_frame_bounds_xyxy": [
+          1056,
+          257,
+          1104,
+          512
+        ],
+        "intersects_fixed_by_full_draw_bounds": false,
+        "extends_outside_fixed": true,
+        "ordinary_registration": null,
+        "ordinary_hd_candidate": false,
+        "research_ground_review": false,
+        "status": "original_fallback",
+        "anchor_world": [
+          1056,
+          480
+        ],
+        "source_byte_offset": 17748,
+        "source_frame": {
+          "key": "Map/Res/Wall:2695",
+          "pack": "Map/Res/Wall",
+          "frame_index": 2695,
+          "original": [
+            48,
+            255
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            48,
+            255
+          ],
+          "rgba_sha256": "c86a055941205c26150a1f61cd7f935b248f3c1eefc5462ceefe2bff5d99958b",
+          "alpha_bbox": [
+            0,
+            0,
+            48,
+            255
+          ],
+          "atlas": "res://assets/original/Map/Res/Wall/0.png",
+          "atlas_rect": [
+            256,
+            425,
+            48,
+            255
+          ],
+          "native_source_offset": 27020810,
+          "native_source_bytes": 13318
+        },
+        "use_frame_offset": false
+      },
+      {
+        "key": "Map/Res/Wall:2696@19,16",
+        "category": "object",
+        "pack": "Map/Res/Wall",
+        "index": 2696,
+        "cell": [
+          19,
+          16
+        ],
+        "source_cell": [
+          0,
+          -1,
+          3,
+          2696
+        ],
+        "flag": -1,
+        "layer": 1,
+        "sort_y": 16,
+        "stable_source_order": 1916,
+        "frames": [
+          {
+            "frame_key": "Map/Res/Wall:2696",
+            "draw_bounds_xyxy": [
+              912,
+              321,
+              960,
+              544
+            ]
+          }
+        ],
+        "all_frame_bounds_xyxy": [
+          912,
+          321,
+          960,
+          544
+        ],
+        "intersects_fixed_by_full_draw_bounds": false,
+        "extends_outside_fixed": true,
+        "ordinary_registration": null,
+        "ordinary_hd_candidate": false,
+        "research_ground_review": false,
+        "status": "original_fallback",
+        "anchor_world": [
+          912,
+          512
+        ],
+        "source_byte_offset": 15356,
+        "source_frame": {
+          "key": "Map/Res/Wall:2696",
+          "pack": "Map/Res/Wall",
+          "frame_index": 2696,
+          "original": [
+            48,
+            223
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            48,
+            223
+          ],
+          "rgba_sha256": "4082d4560af2627f798409b79c738bffeac7ffce55a4f0aaf7628c1c6055b2c7",
+          "alpha_bbox": [
+            0,
+            0,
+            48,
+            223
+          ],
+          "atlas": "res://assets/original/Map/Res/Wall/0.png",
+          "atlas_rect": [
+            306,
+            425,
+            48,
+            223
+          ],
+          "native_source_offset": 27034128,
+          "native_source_bytes": 11782
+        },
+        "use_frame_offset": false
+      },
+      {
+        "key": "Map/Res/Wall:2697@20,16",
+        "category": "object",
+        "pack": "Map/Res/Wall",
+        "index": 2697,
+        "cell": [
+          20,
+          16
+        ],
+        "source_cell": [
+          -406,
+          0,
+          3,
+          2697
+        ],
+        "flag": 0,
+        "layer": 1,
+        "sort_y": 16,
+        "stable_source_order": 2016,
+        "frames": [
+          {
+            "frame_key": "Map/Res/Wall:2697",
+            "draw_bounds_xyxy": [
+              960,
+              512,
+              998,
+              537
+            ]
+          }
+        ],
+        "all_frame_bounds_xyxy": [
+          960,
+          512,
+          998,
+          537
+        ],
+        "intersects_fixed_by_full_draw_bounds": false,
+        "extends_outside_fixed": true,
+        "ordinary_registration": null,
+        "ordinary_hd_candidate": false,
+        "research_ground_review": false,
+        "status": "original_fallback",
+        "anchor_world": [
+          960,
+          512
+        ],
+        "source_byte_offset": 16156,
+        "source_frame": {
+          "key": "Map/Res/Wall:2697",
+          "pack": "Map/Res/Wall",
+          "frame_index": 2697,
+          "original": [
+            48,
+            32
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            38,
+            25
+          ],
+          "rgba_sha256": "763fe6e961835508330c6d83ed838d3fc0dd1bee82b6359e2ac74f3dad2b4074",
+          "alpha_bbox": [
+            0,
+            0,
+            38,
+            25
+          ],
+          "atlas": "res://assets/original/Map/Res/Wall/0.png",
+          "atlas_rect": [
+            356,
+            425,
+            38,
+            25
+          ],
+          "native_source_offset": 27045910,
+          "native_source_bytes": 2614
+        },
+        "use_frame_offset": false
+      },
+      {
+        "key": "Map/Res/Wall:2698@22,16",
+        "category": "object",
+        "pack": "Map/Res/Wall",
+        "index": 2698,
+        "cell": [
+          22,
+          16
+        ],
+        "source_cell": [
+          -406,
+          0,
+          3,
+          2698
+        ],
+        "flag": 0,
+        "layer": 1,
+        "sort_y": 16,
+        "stable_source_order": 2216,
+        "frames": [
+          {
+            "frame_key": "Map/Res/Wall:2698",
+            "draw_bounds_xyxy": [
+              1079,
+              512,
+              1104,
+              536
+            ]
+          }
+        ],
+        "all_frame_bounds_xyxy": [
+          1079,
+          512,
+          1104,
+          536
+        ],
+        "intersects_fixed_by_full_draw_bounds": false,
+        "extends_outside_fixed": true,
+        "ordinary_registration": null,
+        "ordinary_hd_candidate": false,
+        "research_ground_review": false,
+        "status": "original_fallback",
+        "anchor_world": [
+          1056,
+          512
+        ],
+        "source_byte_offset": 17756,
+        "source_frame": {
+          "key": "Map/Res/Wall:2698",
+          "pack": "Map/Res/Wall",
+          "frame_index": 2698,
+          "original": [
+            48,
+            32
+          ],
+          "crop": [
+            23,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            25,
+            24
+          ],
+          "rgba_sha256": "487fa9d949a34f4a2e75d609873cba23fb6837e6a5b4bb9d5358d7a7a2aea236",
+          "alpha_bbox": [
+            0,
+            0,
+            25,
+            24
+          ],
+          "atlas": "res://assets/original/Map/Res/Wall/0.png",
+          "atlas_rect": [
+            396,
+            425,
+            25,
+            24
+          ],
+          "native_source_offset": 27048524,
+          "native_source_bytes": 2614
+        },
+        "use_frame_offset": false
+      },
+      {
+        "key": "Map/Res/Wall:2699@23,16",
+        "category": "object",
+        "pack": "Map/Res/Wall",
+        "index": 2699,
+        "cell": [
+          23,
+          16
+        ],
+        "source_cell": [
+          0,
+          -1,
+          3,
+          2699
+        ],
+        "flag": -1,
+        "layer": 1,
+        "sort_y": 16,
+        "stable_source_order": 2316,
+        "frames": [
+          {
+            "frame_key": "Map/Res/Wall:2699",
+            "draw_bounds_xyxy": [
+              1104,
+              313,
+              1152,
+              544
+            ]
+          }
+        ],
+        "all_frame_bounds_xyxy": [
+          1104,
+          313,
+          1152,
+          544
+        ],
+        "intersects_fixed_by_full_draw_bounds": false,
+        "extends_outside_fixed": true,
+        "ordinary_registration": null,
+        "ordinary_hd_candidate": false,
+        "research_ground_review": false,
+        "status": "original_fallback",
+        "anchor_world": [
+          1104,
+          512
+        ],
+        "source_byte_offset": 18556,
+        "source_frame": {
+          "key": "Map/Res/Wall:2699",
+          "pack": "Map/Res/Wall",
+          "frame_index": 2699,
+          "original": [
+            48,
+            231
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            48,
+            231
+          ],
+          "rgba_sha256": "01f31b7fcbda030e99d12fd5f7fd708a7818ed479065855529a2cb07f8f3d53e",
+          "alpha_bbox": [
+            0,
+            0,
+            48,
+            231
+          ],
+          "atlas": "res://assets/original/Map/Res/Wall/0.png",
+          "atlas_rect": [
+            423,
+            425,
+            48,
+            231
+          ],
+          "native_source_offset": 27051138,
+          "native_source_bytes": 12166
+        },
+        "use_frame_offset": false
+      },
+      {
+        "key": "Map/Res/Wall:2700@19,17",
+        "category": "object",
+        "pack": "Map/Res/Wall",
+        "index": 2700,
+        "cell": [
+          19,
+          17
+        ],
+        "source_cell": [
+          0,
+          0,
+          3,
+          2700
+        ],
+        "flag": 0,
+        "layer": 1,
+        "sort_y": 17,
+        "stable_source_order": 1917,
+        "frames": [
+          {
+            "frame_key": "Map/Res/Wall:2700",
+            "draw_bounds_xyxy": [
+              912,
+              544,
+              950,
+              569
+            ]
+          }
+        ],
+        "all_frame_bounds_xyxy": [
+          912,
+          544,
+          950,
+          569
+        ],
+        "intersects_fixed_by_full_draw_bounds": false,
+        "extends_outside_fixed": true,
+        "ordinary_registration": null,
+        "ordinary_hd_candidate": false,
+        "research_ground_review": false,
+        "status": "original_fallback",
+        "anchor_world": [
+          912,
+          544
+        ],
+        "source_byte_offset": 15364,
+        "source_frame": {
+          "key": "Map/Res/Wall:2700",
+          "pack": "Map/Res/Wall",
+          "frame_index": 2700,
+          "original": [
+            48,
+            32
+          ],
+          "crop": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            38,
+            25
+          ],
+          "rgba_sha256": "3e5711dde18a20f8f48049a63595b2d3963218a0a0f7567067f57cb664fa5386",
+          "alpha_bbox": [
+            0,
+            0,
+            38,
+            25
+          ],
+          "atlas": "res://assets/original/Map/Res/Wall/0.png",
+          "atlas_rect": [
+            473,
+            425,
+            38,
+            25
+          ],
+          "native_source_offset": 27063304,
+          "native_source_bytes": 2614
+        },
+        "use_frame_offset": false
+      },
+      {
+        "key": "Map/Res/Wall:2701@23,17",
+        "category": "object",
+        "pack": "Map/Res/Wall",
+        "index": 2701,
+        "cell": [
+          23,
+          17
+        ],
+        "source_cell": [
+          0,
+          0,
+          3,
+          2701
+        ],
+        "flag": 0,
+        "layer": 1,
+        "sort_y": 17,
+        "stable_source_order": 2317,
+        "frames": [
+          {
+            "frame_key": "Map/Res/Wall:2701",
+            "draw_bounds_xyxy": [
+              1126,
+              544,
+              1152,
+              561
+            ]
+          }
+        ],
+        "all_frame_bounds_xyxy": [
+          1126,
+          544,
+          1152,
+          561
+        ],
+        "intersects_fixed_by_full_draw_bounds": false,
+        "extends_outside_fixed": true,
+        "ordinary_registration": null,
+        "ordinary_hd_candidate": false,
+        "research_ground_review": false,
+        "status": "original_fallback",
+        "anchor_world": [
+          1104,
+          544
+        ],
+        "source_byte_offset": 18564,
+        "source_frame": {
+          "key": "Map/Res/Wall:2701",
+          "pack": "Map/Res/Wall",
+          "frame_index": 2701,
+          "original": [
+            48,
+            32
+          ],
+          "crop": [
+            22,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            26,
+            17
+          ],
+          "rgba_sha256": "1c6b14eb96071d8c3a210ee0533e575cc1d52fc07c5fa6e9ea8c072e6d9b6cf2",
+          "alpha_bbox": [
+            0,
+            0,
+            26,
+            17
+          ],
+          "atlas": "res://assets/original/Map/Res/Wall/0.png",
+          "atlas_rect": [
+            513,
+            425,
+            26,
+            17
+          ],
+          "native_source_offset": 27065918,
+          "native_source_bytes": 2614
+        },
+        "use_frame_offset": false
+      }
+    ],
+    "count_by_id": {
+      "2696": 7,
+      "2700": 7,
+      "2693": 7,
+      "2697": 7,
+      "2694": 7,
+      "2695": 7,
+      "2698": 7,
+      "2699": 7,
+      "2701": 7
+    }
+  },
+  "note": "Subset snapshot for nine owners only; original inventory path is lineage, not replay dependency."
+}

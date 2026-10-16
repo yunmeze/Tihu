@@ -1,0 +1,389 @@
+{
+  "method": "Only raw Godot capture pixel reads; compare base/composite rows at identical world phase. Direct raw scaling/filtering, not normalized asset quality. Thresholds are visible numerical differences, not semantic masks.",
+  "rows": [
+    {
+      "density": 1,
+      "family": "G2",
+      "source_vs_raw_nearest_changed_pixels": 0,
+      "pixel_count": 6144,
+      "actual_composite_vs_same_world_AI_base_mean_abs_rgb": 4.447428385416667,
+      "max_rgb_delta": 139,
+      "alpha_of_render_minmax": [
+        255,
+        255
+      ],
+      "contribution_thresholds": [
+        {
+          "max_rgb_delta_at_least": 1,
+          "pixel_count": 5054,
+          "bbox_source_world_units": [
+            2.0,
+            0.0,
+            96.0,
+            64.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 3,
+          "pixel_count": 3163,
+          "bbox_source_world_units": [
+            4.0,
+            0.0,
+            96.0,
+            63.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 8,
+          "pixel_count": 1157,
+          "bbox_source_world_units": [
+            5.0,
+            1.0,
+            95.0,
+            62.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 16,
+          "pixel_count": 464,
+          "bbox_source_world_units": [
+            5.0,
+            1.0,
+            94.0,
+            62.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 32,
+          "pixel_count": 166,
+          "bbox_source_world_units": [
+            6.0,
+            3.0,
+            94.0,
+            62.0
+          ]
+        }
+      ]
+    },
+    {
+      "density": 1,
+      "family": "G3",
+      "source_vs_raw_nearest_changed_pixels": 0,
+      "pixel_count": 6144,
+      "actual_composite_vs_same_world_AI_base_mean_abs_rgb": 0.9798177083333334,
+      "max_rgb_delta": 129,
+      "alpha_of_render_minmax": [
+        255,
+        255
+      ],
+      "contribution_thresholds": [
+        {
+          "max_rgb_delta_at_least": 1,
+          "pixel_count": 1388,
+          "bbox_source_world_units": [
+            0.0,
+            0.0,
+            91.0,
+            64.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 3,
+          "pixel_count": 352,
+          "bbox_source_world_units": [
+            8.0,
+            3.0,
+            62.0,
+            56.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 8,
+          "pixel_count": 157,
+          "bbox_source_world_units": [
+            8.0,
+            4.0,
+            62.0,
+            56.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 16,
+          "pixel_count": 90,
+          "bbox_source_world_units": [
+            9.0,
+            4.0,
+            62.0,
+            54.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 32,
+          "pixel_count": 50,
+          "bbox_source_world_units": [
+            10.0,
+            4.0,
+            53.0,
+            52.0
+          ]
+        }
+      ]
+    },
+    {
+      "density": 1,
+      "family": "413",
+      "source_vs_raw_nearest_changed_pixels": 0,
+      "pixel_count": 6144,
+      "actual_composite_vs_same_world_AI_base_mean_abs_rgb": 1.2603081597222223,
+      "max_rgb_delta": 161,
+      "alpha_of_render_minmax": [
+        255,
+        255
+      ],
+      "contribution_thresholds": [
+        {
+          "max_rgb_delta_at_least": 1,
+          "pixel_count": 1757,
+          "bbox_source_world_units": [
+            0.0,
+            7.0,
+            96.0,
+            63.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 3,
+          "pixel_count": 387,
+          "bbox_source_world_units": [
+            1.0,
+            8.0,
+            91.0,
+            48.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 8,
+          "pixel_count": 167,
+          "bbox_source_world_units": [
+            2.0,
+            9.0,
+            85.0,
+            47.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 16,
+          "pixel_count": 108,
+          "bbox_source_world_units": [
+            2.0,
+            9.0,
+            85.0,
+            47.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 32,
+          "pixel_count": 68,
+          "bbox_source_world_units": [
+            6.0,
+            11.0,
+            79.0,
+            46.0
+          ]
+        }
+      ]
+    },
+    {
+      "density": 2,
+      "family": "G2",
+      "source_vs_raw_nearest_changed_pixels": 0,
+      "pixel_count": 24576,
+      "actual_composite_vs_same_world_AI_base_mean_abs_rgb": 4.498752170138889,
+      "max_rgb_delta": 149,
+      "alpha_of_render_minmax": [
+        255,
+        255
+      ],
+      "contribution_thresholds": [
+        {
+          "max_rgb_delta_at_least": 1,
+          "pixel_count": 20130,
+          "bbox_source_world_units": [
+            0.0,
+            0.0,
+            96.0,
+            64.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 3,
+          "pixel_count": 12772,
+          "bbox_source_world_units": [
+            4.5,
+            0.0,
+            95.5,
+            63.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 8,
+          "pixel_count": 4766,
+          "bbox_source_world_units": [
+            5.0,
+            1.0,
+            95.0,
+            62.5
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 16,
+          "pixel_count": 1896,
+          "bbox_source_world_units": [
+            5.5,
+            1.5,
+            94.5,
+            62.5
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 32,
+          "pixel_count": 651,
+          "bbox_source_world_units": [
+            6.0,
+            1.5,
+            94.0,
+            62.0
+          ]
+        }
+      ]
+    },
+    {
+      "density": 2,
+      "family": "G3",
+      "source_vs_raw_nearest_changed_pixels": 0,
+      "pixel_count": 24576,
+      "actual_composite_vs_same_world_AI_base_mean_abs_rgb": 0.9561496310763888,
+      "max_rgb_delta": 141,
+      "alpha_of_render_minmax": [
+        255,
+        255
+      ],
+      "contribution_thresholds": [
+        {
+          "max_rgb_delta_at_least": 1,
+          "pixel_count": 5533,
+          "bbox_source_world_units": [
+            0.0,
+            0.0,
+            92.0,
+            64.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 3,
+          "pixel_count": 1401,
+          "bbox_source_world_units": [
+            7.5,
+            3.0,
+            62.5,
+            56.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 8,
+          "pixel_count": 579,
+          "bbox_source_world_units": [
+            8.0,
+            4.0,
+            62.0,
+            56.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 16,
+          "pixel_count": 349,
+          "bbox_source_world_units": [
+            9.5,
+            4.5,
+            62.0,
+            56.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 32,
+          "pixel_count": 183,
+          "bbox_source_world_units": [
+            10.0,
+            4.5,
+            61.5,
+            53.5
+          ]
+        }
+      ]
+    },
+    {
+      "density": 2,
+      "family": "413",
+      "source_vs_raw_nearest_changed_pixels": 0,
+      "pixel_count": 24576,
+      "actual_composite_vs_same_world_AI_base_mean_abs_rgb": 1.1714816623263888,
+      "max_rgb_delta": 173,
+      "alpha_of_render_minmax": [
+        255,
+        255
+      ],
+      "contribution_thresholds": [
+        {
+          "max_rgb_delta_at_least": 1,
+          "pixel_count": 7030,
+          "bbox_source_world_units": [
+            0.0,
+            0.0,
+            96.0,
+            64.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 3,
+          "pixel_count": 1542,
+          "bbox_source_world_units": [
+            1.5,
+            8.5,
+            90.5,
+            48.0
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 8,
+          "pixel_count": 678,
+          "bbox_source_world_units": [
+            2.0,
+            8.5,
+            90.0,
+            47.5
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 16,
+          "pixel_count": 400,
+          "bbox_source_world_units": [
+            2.0,
+            9.0,
+            84.5,
+            47.5
+          ]
+        },
+        {
+          "max_rgb_delta_at_least": 32,
+          "pixel_count": 227,
+          "bbox_source_world_units": [
+            2.5,
+            9.5,
+            84.5,
+            47.5
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,963 @@
+{
+  "schema": "native-detail-region-visible-cut-assessment-v2",
+  "decision": "NOT_ADOPTED_STOP_CATALOG_RECOVERY",
+  "prior_decision_correction": "The previous alpha>0 topology-only STOP is not a valid visible-truncation verdict. It remains valid only as a statement that mathematically complete positive-alpha components cannot be independently cropped. This revision separates low-alpha residue from visible structure.",
+  "raw_gate_retained": "FAIL",
+  "root_requested_scope": "One finite CPU-only numerical assessment of candidate regions; no generated images, composited image output, rendering, alpha cleanup, art edits, source fitting, application, runtime or Godot.",
+  "formula": "Straight RGBA source-over in stored 8-bit RGB: abs(output-background) per channel = alpha/255 * abs(raw_RGB-background_RGB). These are unrounded CPU contribution measurements, not a new renderer capture or proof of perceptual invisibility.",
+  "backgrounds": {
+    "actual_AI_texture": "recovery-work/soil-detail-raw-composite-diagnostic/Project/assets/soil.png",
+    "texture_SHA256": "9c6f1a81a4d55814aad2495bc2a5b292073fbc801c667d5f7c42ab5737591017",
+    "RGB_channel_min": [
+      38,
+      28,
+      22
+    ],
+    "RGB_channel_max": [
+      255,
+      255,
+      255
+    ],
+    "reference_phase": "Same soil subregions as the existing native capture: G3 [576,128,192,128], F413 [576,0,192,128], mapped to the D8 slot using bilinear sample centers. This phase is context, not placement evidence.",
+    "actual_AI_any_texel_bound": "Independent per-channel extrema from the real texture provide a conservative bound for any texel or convex-filtered texture color and any placement phase.",
+    "dark": [
+      32,
+      32,
+      32
+    ],
+    "light": [
+      224,
+      224,
+      224
+    ],
+    "universal_bound": "Also bounded for every background RGB channel in [0,255]."
+  },
+  "numeric_visibility_diagnostic": "Report contribution thresholds 1,2,3,8 as numerical diagnostics, not alpha-cleaning or semantic segmentation. No universal human visibility threshold is claimed. A cut contribution below 2 excludes cutting high-contrast body/tail at that cut but does not claim all residue is perceptually invisible.",
+  "fixed_candidate_notice": "Exact integer candidate boundaries are construction inputs. First and F413 have nearby content in wider 2–8px bands; moving/insetting the rectangle is not equivalent and would need rechecking. No infinite alpha>0 closure is used.",
+  "catalog_assessment": "NOT ADOPTED. Wider raw rectangles are numerically cropable at residual-only cut lines, but their large footprints and extra visible structures make them unsuitable replacements for the source short marks. No further catalog recovery is authorized.",
+  "raw_SHA256": "b4e8fdbf318a3b81e7e5f146c734ef634f88abdb192ec90f74b8183c926edeb6",
+  "regions": [
+    {
+      "id": "G3_first",
+      "candidate_local_D8": [
+        32,
+        8,
+        224,
+        206
+      ],
+      "candidate_raw_D8": [
+        800,
+        8,
+        992,
+        206
+      ],
+      "candidate_native_size_D1": [
+        24.0,
+        24.75
+      ],
+      "coarse_source_reference_D1": [
+        2,
+        0,
+        12,
+        7
+      ],
+      "coarse_source_size_D1": [
+        10,
+        7
+      ],
+      "raw_pixels_unmodified": true,
+      "main_observation_bbox_local_D8": [
+        73,
+        33,
+        111,
+        55
+      ],
+      "main_observation_bbox_fully_inside": true,
+      "cut_crossing_band_inside_1px_plus_outside_1px": {
+        "pixels_D8": 1560,
+        "alpha_max": 2,
+        "alpha_ge3_count": 0,
+        "contribution": {
+          "actual_AI_reference_phase": {
+            "max_abs_channel_delta_8bit": 0.946324,
+            "mean_max_abs_channel_delta_8bit": 0.090157,
+            "pixels_at_least_1": 0,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "dark_RGB_32": {
+            "max_abs_channel_delta_8bit": 0.117647,
+            "mean_max_abs_channel_delta_8bit": 0.013796,
+            "pixels_at_least_1": 0,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "light_RGB_224": {
+            "max_abs_channel_delta_8bit": 1.623529,
+            "mean_max_abs_channel_delta_8bit": 0.173967,
+            "pixels_at_least_1": 19,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "actual_AI_any_texel_channel_envelope_bound": {
+            "max_abs_channel_delta_8bit": 1.866667,
+            "mean_max_abs_channel_delta_8bit": 0.199995,
+            "pixels_at_least_1": 19,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "any_RGB_0_to_255_bound": {
+            "max_abs_channel_delta_8bit": 1.866667,
+            "mean_max_abs_channel_delta_8bit": 0.199995,
+            "pixels_at_least_1": 19,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          }
+        }
+      },
+      "discarded_immediate_outside_1px": {
+        "pixels_D8": 784,
+        "alpha_max": 2,
+        "contribution": {
+          "actual_AI_reference_phase": {
+            "max_abs_channel_delta_8bit": 0.946324,
+            "mean_max_abs_channel_delta_8bit": 0.080525,
+            "pixels_at_least_1": 0,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "dark_RGB_32": {
+            "max_abs_channel_delta_8bit": 0.117647,
+            "mean_max_abs_channel_delta_8bit": 0.012405,
+            "pixels_at_least_1": 0,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "light_RGB_224": {
+            "max_abs_channel_delta_8bit": 1.623529,
+            "mean_max_abs_channel_delta_8bit": 0.156403,
+            "pixels_at_least_1": 6,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "actual_AI_any_texel_channel_envelope_bound": {
+            "max_abs_channel_delta_8bit": 1.866667,
+            "mean_max_abs_channel_delta_8bit": 0.179817,
+            "pixels_at_least_1": 6,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "any_RGB_0_to_255_bound": {
+            "max_abs_channel_delta_8bit": 1.866667,
+            "mean_max_abs_channel_delta_8bit": 0.179817,
+            "pixels_at_least_1": 6,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          }
+        }
+      },
+      "wider_band_sensitivity": [
+        {
+          "half_width_D8": 2,
+          "alpha_max": 3,
+          "actual_AI_max_delta": 1.179228,
+          "light_RGB224_max_delta": 2.423529
+        },
+        {
+          "half_width_D8": 4,
+          "alpha_max": 4,
+          "actual_AI_max_delta": 1.653676,
+          "light_RGB224_max_delta": 3.247059
+        },
+        {
+          "half_width_D8": 8,
+          "alpha_max": 12,
+          "actual_AI_max_delta": 4.193382,
+          "light_RGB224_max_delta": 9.6
+        }
+      ],
+      "strong_alpha_components_auxiliary_only": [
+        {
+          "bbox_local_D8": [
+            79,
+            36,
+            109,
+            53
+          ],
+          "pixels_D8": 302,
+          "intersects_main_observation_window": true,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            119,
+            75,
+            135,
+            90
+          ],
+          "pixels_D8": 178,
+          "intersects_main_observation_window": false,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            166,
+            153,
+            187,
+            164
+          ],
+          "pixels_D8": 91,
+          "intersects_main_observation_window": false,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            104,
+            88,
+            120,
+            97
+          ],
+          "pixels_D8": 78,
+          "intersects_main_observation_window": false,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            144,
+            90,
+            154,
+            98
+          ],
+          "pixels_D8": 61,
+          "intersects_main_observation_window": false,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            106,
+            122,
+            125,
+            129
+          ],
+          "pixels_D8": 58,
+          "intersects_main_observation_window": false,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            81,
+            153,
+            85,
+            156
+          ],
+          "pixels_D8": 8,
+          "intersects_main_observation_window": false,
+          "fully_inside_candidate": true
+        }
+      ],
+      "compact_margin_candidates_not_selected": [
+        {
+          "margin_D8": 8,
+          "bbox_local_D8": [
+            65,
+            25,
+            119,
+            63
+          ],
+          "edge_alpha_max": 28,
+          "edge_max_contribution_8bit": {
+            "actual_AI_reference_phase": 9.925245,
+            "dark_RGB_32": 2.964706,
+            "light_RGB_224": 22.070588
+          }
+        },
+        {
+          "margin_D8": 16,
+          "bbox_local_D8": [
+            57,
+            17,
+            127,
+            71
+          ],
+          "edge_alpha_max": 20,
+          "edge_max_contribution_8bit": {
+            "actual_AI_reference_phase": 5.354167,
+            "dark_RGB_32": 2.8,
+            "light_RGB_224": 16.0
+          }
+        },
+        {
+          "margin_D8": 24,
+          "bbox_local_D8": [
+            49,
+            9,
+            135,
+            79
+          ],
+          "edge_alpha_max": 242,
+          "edge_max_contribution_8bit": {
+            "actual_AI_reference_phase": 130.41875,
+            "dark_RGB_32": 38.376471,
+            "light_RGB_224": 201.509804
+          }
+        },
+        {
+          "margin_D8": 32,
+          "bbox_local_D8": [
+            41,
+            1,
+            143,
+            87
+          ],
+          "edge_alpha_max": 231,
+          "edge_max_contribution_8bit": {
+            "actual_AI_reference_phase": 109.611765,
+            "dark_RGB_32": 26.933333,
+            "light_RGB_224": 192.952941
+          }
+        }
+      ],
+      "conclusion": "At the exact candidate cut, only residual alpha <= 2 is crossed. No >=3/255 per-channel contribution can be cut on any 8-bit RGB background. All raw RGBA pixels inside remain intact. This candidate includes additional smaller visible structures and is larger than the coarse source reference; no semantic or original-template match is asserted."
+    },
+    {
+      "id": "G3_second",
+      "candidate_local_D8": [
+        264,
+        272,
+        464,
+        464
+      ],
+      "candidate_raw_D8": [
+        1032,
+        272,
+        1232,
+        464
+      ],
+      "candidate_native_size_D1": [
+        25.0,
+        24.0
+      ],
+      "coarse_source_reference_D1": [
+        16,
+        43,
+        37,
+        58
+      ],
+      "coarse_source_size_D1": [
+        21,
+        15
+      ],
+      "raw_pixels_unmodified": true,
+      "main_observation_bbox_local_D8": [
+        321,
+        330,
+        430,
+        388
+      ],
+      "main_observation_bbox_fully_inside": true,
+      "cut_crossing_band_inside_1px_plus_outside_1px": {
+        "pixels_D8": 1568,
+        "alpha_max": 1,
+        "alpha_ge3_count": 0,
+        "contribution": {
+          "actual_AI_reference_phase": {
+            "max_abs_channel_delta_8bit": 0.609314,
+            "mean_max_abs_channel_delta_8bit": 0.048941,
+            "pixels_at_least_1": 0,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "dark_RGB_32": {
+            "max_abs_channel_delta_8bit": 0.109804,
+            "mean_max_abs_channel_delta_8bit": 0.006873,
+            "pixels_at_least_1": 0,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "light_RGB_224": {
+            "max_abs_channel_delta_8bit": 0.862745,
+            "mean_max_abs_channel_delta_8bit": 0.086575,
+            "pixels_at_least_1": 0,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "actual_AI_any_texel_channel_envelope_bound": {
+            "max_abs_channel_delta_8bit": 0.984314,
+            "mean_max_abs_channel_delta_8bit": 0.099445,
+            "pixels_at_least_1": 0,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "any_RGB_0_to_255_bound": {
+            "max_abs_channel_delta_8bit": 0.984314,
+            "mean_max_abs_channel_delta_8bit": 0.099445,
+            "pixels_at_least_1": 0,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          }
+        }
+      },
+      "discarded_immediate_outside_1px": {
+        "pixels_D8": 788,
+        "alpha_max": 1,
+        "contribution": {
+          "actual_AI_reference_phase": {
+            "max_abs_channel_delta_8bit": 0.604779,
+            "mean_max_abs_channel_delta_8bit": 0.04129,
+            "pixels_at_least_1": 0,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "dark_RGB_32": {
+            "max_abs_channel_delta_8bit": 0.105882,
+            "mean_max_abs_channel_delta_8bit": 0.005838,
+            "pixels_at_least_1": 0,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "light_RGB_224": {
+            "max_abs_channel_delta_8bit": 0.858824,
+            "mean_max_abs_channel_delta_8bit": 0.073679,
+            "pixels_at_least_1": 0,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "actual_AI_any_texel_channel_envelope_bound": {
+            "max_abs_channel_delta_8bit": 0.980392,
+            "mean_max_abs_channel_delta_8bit": 0.084632,
+            "pixels_at_least_1": 0,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "any_RGB_0_to_255_bound": {
+            "max_abs_channel_delta_8bit": 0.980392,
+            "mean_max_abs_channel_delta_8bit": 0.084632,
+            "pixels_at_least_1": 0,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          }
+        }
+      },
+      "wider_band_sensitivity": [
+        {
+          "half_width_D8": 2,
+          "alpha_max": 1,
+          "actual_AI_max_delta": 0.639828,
+          "light_RGB224_max_delta": 0.862745
+        },
+        {
+          "half_width_D8": 4,
+          "alpha_max": 1,
+          "actual_AI_max_delta": 0.639828,
+          "light_RGB224_max_delta": 0.862745
+        },
+        {
+          "half_width_D8": 8,
+          "alpha_max": 2,
+          "actual_AI_max_delta": 0.950123,
+          "light_RGB224_max_delta": 1.654902
+        }
+      ],
+      "strong_alpha_components_auxiliary_only": [
+        {
+          "bbox_local_D8": [
+            348,
+            341,
+            424,
+            385
+          ],
+          "pixels_D8": 915,
+          "intersects_main_observation_window": true,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            323,
+            334,
+            368,
+            370
+          ],
+          "pixels_D8": 812,
+          "intersects_main_observation_window": true,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            296,
+            372,
+            310,
+            382
+          ],
+          "pixels_D8": 83,
+          "intersects_main_observation_window": false,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            402,
+            407,
+            414,
+            417
+          ],
+          "pixels_D8": 75,
+          "intersects_main_observation_window": false,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            357,
+            293,
+            364,
+            301
+          ],
+          "pixels_D8": 37,
+          "intersects_main_observation_window": false,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            428,
+            423,
+            433,
+            428
+          ],
+          "pixels_D8": 16,
+          "intersects_main_observation_window": false,
+          "fully_inside_candidate": true
+        }
+      ],
+      "compact_margin_candidates_not_selected": [
+        {
+          "margin_D8": 8,
+          "bbox_local_D8": [
+            313,
+            322,
+            438,
+            396
+          ],
+          "edge_alpha_max": 98,
+          "edge_max_contribution_8bit": {
+            "actual_AI_reference_phase": 31.494853,
+            "dark_RGB_32": 18.741176,
+            "light_RGB_224": 74.941176
+          }
+        },
+        {
+          "margin_D8": 16,
+          "bbox_local_D8": [
+            305,
+            314,
+            446,
+            404
+          ],
+          "edge_alpha_max": 234,
+          "edge_max_contribution_8bit": {
+            "actual_AI_reference_phase": 99.272059,
+            "dark_RGB_32": 91.372549,
+            "light_RGB_224": 195.72549
+          }
+        },
+        {
+          "margin_D8": 24,
+          "bbox_local_D8": [
+            297,
+            306,
+            454,
+            412
+          ],
+          "edge_alpha_max": 227,
+          "edge_max_contribution_8bit": {
+            "actual_AI_reference_phase": 63.074755,
+            "dark_RGB_32": 81.898039,
+            "light_RGB_224": 179.45098
+          }
+        },
+        {
+          "margin_D8": 32,
+          "bbox_local_D8": [
+            289,
+            298,
+            462,
+            420
+          ],
+          "edge_alpha_max": 205,
+          "edge_max_contribution_8bit": {
+            "actual_AI_reference_phase": 74.722549,
+            "dark_RGB_32": 57.882353,
+            "light_RGB_224": 154.517647
+          }
+        }
+      ],
+      "conclusion": "At the exact candidate cut, only residual alpha <= 2 is crossed. No >=3/255 per-channel contribution can be cut on any 8-bit RGB background. All raw RGBA pixels inside remain intact. This candidate includes additional smaller visible structures and is larger than the coarse source reference; no semantic or original-template match is asserted."
+    },
+    {
+      "id": "F413_main",
+      "candidate_local_D8": [
+        336,
+        192,
+        656,
+        392
+      ],
+      "candidate_raw_D8": [
+        336,
+        704,
+        656,
+        904
+      ],
+      "candidate_native_size_D1": [
+        40.0,
+        25.0
+      ],
+      "coarse_source_reference_D1": [
+        44,
+        46,
+        66,
+        55
+      ],
+      "coarse_source_size_D1": [
+        22,
+        9
+      ],
+      "raw_pixels_unmodified": true,
+      "main_observation_bbox_local_D8": [
+        383,
+        265,
+        574,
+        336
+      ],
+      "main_observation_bbox_fully_inside": true,
+      "cut_crossing_band_inside_1px_plus_outside_1px": {
+        "pixels_D8": 2080,
+        "alpha_max": 2,
+        "alpha_ge3_count": 0,
+        "contribution": {
+          "actual_AI_reference_phase": {
+            "max_abs_channel_delta_8bit": 1.061029,
+            "mean_max_abs_channel_delta_8bit": 0.101521,
+            "pixels_at_least_1": 2,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "dark_RGB_32": {
+            "max_abs_channel_delta_8bit": 0.180392,
+            "mean_max_abs_channel_delta_8bit": 0.018133,
+            "pixels_at_least_1": 0,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "light_RGB_224": {
+            "max_abs_channel_delta_8bit": 1.686275,
+            "mean_max_abs_channel_delta_8bit": 0.178495,
+            "pixels_at_least_1": 6,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "actual_AI_any_texel_channel_envelope_bound": {
+            "max_abs_channel_delta_8bit": 1.929412,
+            "mean_max_abs_channel_delta_8bit": 0.204387,
+            "pixels_at_least_1": 6,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "any_RGB_0_to_255_bound": {
+            "max_abs_channel_delta_8bit": 1.929412,
+            "mean_max_abs_channel_delta_8bit": 0.204387,
+            "pixels_at_least_1": 6,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          }
+        }
+      },
+      "discarded_immediate_outside_1px": {
+        "pixels_D8": 1044,
+        "alpha_max": 2,
+        "contribution": {
+          "actual_AI_reference_phase": {
+            "max_abs_channel_delta_8bit": 1.023897,
+            "mean_max_abs_channel_delta_8bit": 0.098295,
+            "pixels_at_least_1": 1,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "dark_RGB_32": {
+            "max_abs_channel_delta_8bit": 0.172549,
+            "mean_max_abs_channel_delta_8bit": 0.017463,
+            "pixels_at_least_1": 0,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "light_RGB_224": {
+            "max_abs_channel_delta_8bit": 1.678431,
+            "mean_max_abs_channel_delta_8bit": 0.173244,
+            "pixels_at_least_1": 2,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "actual_AI_any_texel_channel_envelope_bound": {
+            "max_abs_channel_delta_8bit": 1.921569,
+            "mean_max_abs_channel_delta_8bit": 0.198396,
+            "pixels_at_least_1": 2,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          },
+          "any_RGB_0_to_255_bound": {
+            "max_abs_channel_delta_8bit": 1.921569,
+            "mean_max_abs_channel_delta_8bit": 0.198396,
+            "pixels_at_least_1": 2,
+            "pixels_at_least_2": 0,
+            "pixels_at_least_3": 0,
+            "pixels_at_least_8": 0
+          }
+        }
+      },
+      "wider_band_sensitivity": [
+        {
+          "half_width_D8": 2,
+          "alpha_max": 4,
+          "actual_AI_max_delta": 1.856618,
+          "light_RGB224_max_delta": 3.372549
+        },
+        {
+          "half_width_D8": 4,
+          "alpha_max": 11,
+          "actual_AI_max_delta": 5.214216,
+          "light_RGB224_max_delta": 9.015686
+        },
+        {
+          "half_width_D8": 8,
+          "alpha_max": 11,
+          "actual_AI_max_delta": 5.214216,
+          "light_RGB224_max_delta": 9.015686
+        }
+      ],
+      "strong_alpha_components_auxiliary_only": [
+        {
+          "bbox_local_D8": [
+            472,
+            289,
+            511,
+            321
+          ],
+          "pixels_D8": 793,
+          "intersects_main_observation_window": true,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            396,
+            295,
+            428,
+            317
+          ],
+          "pixels_D8": 442,
+          "intersects_main_observation_window": true,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            544,
+            277,
+            567,
+            304
+          ],
+          "pixels_D8": 368,
+          "intersects_main_observation_window": true,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            545,
+            349,
+            565,
+            362
+          ],
+          "pixels_D8": 174,
+          "intersects_main_observation_window": false,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            496,
+            347,
+            519,
+            359
+          ],
+          "pixels_D8": 161,
+          "intersects_main_observation_window": false,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            431,
+            296,
+            446,
+            307
+          ],
+          "pixels_D8": 102,
+          "intersects_main_observation_window": true,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            448,
+            283,
+            458,
+            294
+          ],
+          "pixels_D8": 78,
+          "intersects_main_observation_window": true,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            518,
+            220,
+            528,
+            232
+          ],
+          "pixels_D8": 70,
+          "intersects_main_observation_window": false,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            442,
+            313,
+            449,
+            325
+          ],
+          "pixels_D8": 59,
+          "intersects_main_observation_window": true,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            559,
+            243,
+            570,
+            251
+          ],
+          "pixels_D8": 58,
+          "intersects_main_observation_window": false,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            386,
+            331,
+            395,
+            338
+          ],
+          "pixels_D8": 46,
+          "intersects_main_observation_window": true,
+          "fully_inside_candidate": true
+        },
+        {
+          "bbox_local_D8": [
+            623,
+            361,
+            629,
+            368
+          ],
+          "pixels_D8": 31,
+          "intersects_main_observation_window": false,
+          "fully_inside_candidate": true
+        }
+      ],
+      "compact_margin_candidates_not_selected": [
+        {
+          "margin_D8": 8,
+          "bbox_local_D8": [
+            375,
+            257,
+            582,
+            344
+          ],
+          "edge_alpha_max": 60,
+          "edge_max_contribution_8bit": {
+            "actual_AI_reference_phase": 22.242647,
+            "dark_RGB_32": 6.823529,
+            "light_RGB_224": 47.294118
+          }
+        },
+        {
+          "margin_D8": 16,
+          "bbox_local_D8": [
+            367,
+            249,
+            590,
+            352
+          ],
+          "edge_alpha_max": 233,
+          "edge_max_contribution_8bit": {
+            "actual_AI_reference_phase": 120.649387,
+            "dark_RGB_32": 88.631373,
+            "light_RGB_224": 199.403922
+          }
+        },
+        {
+          "margin_D8": 24,
+          "bbox_local_D8": [
+            359,
+            241,
+            598,
+            360
+          ],
+          "edge_alpha_max": 243,
+          "edge_max_contribution_8bit": {
+            "actual_AI_reference_phase": 96.008824,
+            "dark_RGB_32": 132.458824,
+            "light_RGB_224": 205.835294
+          }
+        },
+        {
+          "margin_D8": 32,
+          "bbox_local_D8": [
+            351,
+            233,
+            606,
+            368
+          ],
+          "edge_alpha_max": 115,
+          "edge_max_contribution_8bit": {
+            "actual_AI_reference_phase": 31.3125,
+            "dark_RGB_32": 33.372549,
+            "light_RGB_224": 79.372549
+          }
+        }
+      ],
+      "conclusion": "At the exact candidate cut, only residual alpha <= 2 is crossed. No >=3/255 per-channel contribution can be cut on any 8-bit RGB background. All raw RGBA pixels inside remain intact. This candidate includes additional smaller visible structures and is larger than the coarse source reference; no semantic or original-template match is asserted."
+    }
+  ],
+  "numeric_cropability_result": "The exact wider candidates have residual-only cut lines, but complete sampling is not evidence of matching the original short marks.",
+  "final_root_direction": "Retain as unused material and failure evidence. Candidate D1 footprints 24×24.75, 25×24, and 40×25, plus additional nearby visible structures, differ too much from the source short marks. Do not shrink, fit, force, extract, place or apply. Stop this assessment."
+}

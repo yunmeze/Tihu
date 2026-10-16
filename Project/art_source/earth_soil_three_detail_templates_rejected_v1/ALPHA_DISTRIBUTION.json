@@ -1,0 +1,102 @@
+[
+  {
+    "slot": "G2",
+    "total_pixels": 393216,
+    "mean_alpha_0_255": 45.83265940348307,
+    "summed_opacity_equivalent_opaque_pixels_D8": 70675.03921568628,
+    "bins": {
+      "0-0": 46980,
+      "1-2": 31837,
+      "3-15": 58165,
+      "16-31": 67769,
+      "32-63": 92776,
+      "64-127": 60157,
+      "128-191": 21872,
+      "192-255": 13660
+    },
+    "coarse_source_box_coverage": []
+  },
+  {
+    "slot": "G3",
+    "total_pixels": 393216,
+    "mean_alpha_0_255": 2.9590301513671875,
+    "summed_opacity_equivalent_opaque_pixels_D8": 4562.894117647059,
+    "bins": {
+      "0-0": 315757,
+      "1-2": 42751,
+      "3-15": 23323,
+      "16-31": 4299,
+      "32-63": 2474,
+      "64-127": 1691,
+      "128-191": 1007,
+      "192-255": 1914
+    },
+    "coarse_source_box_coverage": [
+      {
+        "D8_box": [
+          16,
+          0,
+          96,
+          56
+        ],
+        "alpha_mass_fraction_of_slot": 0.04144170624423096,
+        "pixels_alpha_ge128": 145
+      },
+      {
+        "D8_box": [
+          128,
+          344,
+          296,
+          464
+        ],
+        "alpha_mass_fraction_of_slot": 0.023868580140915037,
+        "pixels_alpha_ge128": 41
+      }
+    ]
+  },
+  {
+    "slot": "F413",
+    "total_pixels": 393216,
+    "mean_alpha_0_255": 3.4424463907877603,
+    "summed_opacity_equivalent_opaque_pixels_D8": 5308.333333333333,
+    "bins": {
+      "0-0": 297245,
+      "1-2": 57625,
+      "3-15": 25735,
+      "16-31": 4596,
+      "32-63": 2631,
+      "64-127": 1860,
+      "128-191": 1098,
+      "192-255": 2426
+    },
+    "coarse_source_box_coverage": [
+      {
+        "D8_box": [
+          352,
+          368,
+          528,
+          440
+        ],
+        "alpha_mass_fraction_of_slot": 0.0008591744390063718,
+        "pixels_alpha_ge128": 0
+      }
+    ]
+  },
+  {
+    "slot": "unused",
+    "total_pixels": 393216,
+    "mean_alpha_0_255": 0.012941996256510416,
+    "summed_opacity_equivalent_opaque_pixels_D8": 19.95686274509804,
+    "bins": {
+      "0-0": 388135,
+      "1-2": 5081,
+      "3-15": 0,
+      "16-31": 0,
+      "32-63": 0,
+      "64-127": 0,
+      "128-191": 0,
+      "192-255": 0
+    },
+    "coarse_source_box_coverage": []
+  }
+]
