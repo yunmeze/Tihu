@@ -1,0 +1,41 @@
+{
+  "status": "CPU baseline only; no mesh or Godot execution yet",
+  "raw_sha256": "9200707c22df9ad371c8298030a0779228642d9f59f7c7a15448ff807d19758b",
+  "slot_order": [
+    57,
+    60,
+    58,
+    61,
+    62,
+    59
+  ],
+  "common_scale": 0.72,
+  "sensitivity_scales": [
+    0.68,
+    0.72,
+    0.76
+  ],
+  "scale_status": "provisional diagnostic calibration; NOT fitted or proven anatomy",
+  "column_shift_HD": [
+    0,
+    -35
+  ],
+  "common_reference_raw_HD": [
+    233,
+    41
+  ],
+  "common_reference_source_HD": [
+    162,
+    62
+  ],
+  "reference_meaning": "visible hair crown registration, not joint",
+  "uncertainty_source_logical_px": 1.5,
+  "raw_crown_uncertainty_HD_px": 3,
+  "no_per_frame_scale": true,
+  "foot_or_full_bbox_used_to_fit_scale": false,
+  "timing_ms": 140,
+  "root_logical": [
+    16,
+    64
+  ]
+}

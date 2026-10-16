@@ -1,0 +1,59 @@
+{
+  "raw_nonzero_pixel_count": 46740,
+  "covered_unique_pixel_count": 46740,
+  "newly_painted_or_dropped_alpha_pixels": 0,
+  "triangles": 93480,
+  "flips": 0,
+  "signed_area_ratio_min_max": [
+    0.20000020271052998,
+    2.871955906838959
+  ],
+  "proper_render_boundary_intersections": 0,
+  "proper_intersection_pairs": [],
+  "scope": "proper boundary crossings checked; tangency/near-contact still needs visual inspection",
+  "all_alpha_weighted_area_fraction_anisotropy_gt1_5": 0.0014426136911045633,
+  "distributions": {
+    "core_alpha64plus": {
+      "triangles": 74288,
+      "singular_min_max": [
+        0.6593255113037774,
+        1.8899267520566705
+      ],
+      "max_anisotropy": 1.8738616584272658,
+      "anisotropy_percentiles_50_95_99": [
+        1.0,
+        1.2400311010475609,
+        1.346984295517348
+      ],
+      "alpha_weighted_fraction_gt1_5": 0.0008255332699716115
+    },
+    "fringe_alpha1to63": {
+      "triangles": 19192,
+      "singular_min_max": [
+        0.08069888505979067,
+        3.0216368574977195
+      ],
+      "max_anisotropy": 30.711695373543094,
+      "anisotropy_percentiles_50_95_99": [
+        1.0,
+        2.768793613012401,
+        4.9454512289182055
+      ],
+      "alpha_weighted_fraction_gt1_5": 0.1114705996657728
+    },
+    "visible_alpha128plus": {
+      "triangles": 73080,
+      "singular_min_max": [
+        0.6593255113037774,
+        1.8899267520566705
+      ],
+      "max_anisotropy": 1.8738616584272658,
+      "anisotropy_percentiles_50_95_99": [
+        1.0,
+        1.2404837307877865,
+        1.3467622159068575
+      ],
+      "alpha_weighted_fraction_gt1_5": 0.0007831884537963776
+    }
+  }
+}

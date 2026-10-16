@@ -1,0 +1,58 @@
+{
+  "phase": 59,
+  "status": "bounded_iterations_feasible_candidate_not_fully_converged",
+  "raw_sha256": "ce50304fda8cc2cc11d3c51a8a10c578c8424e1ab7f00285288d73dfeb6b220b",
+  "seconds": 17.461713075637817,
+  "domain": "union of alpha>=64 pixel squares,1HD, no fill/dilation; rendering fringe NOT built yet",
+  "foreground_pixels": 40155,
+  "vertices": 41135,
+  "triangles": 80310,
+  "upper_fixed_vertices": 24611,
+  "toeL_translation_vertices": 834,
+  "toeR_translation_vertices": 1010,
+  "max_upper_movement_HD": 0.0,
+  "final_driving_error_HD": 0.0,
+  "negative_area_triangles": 0,
+  "area_ratio_min_max": [
+    0.5721337237193478,
+    1.8002012334356483
+  ],
+  "relative_singular_value_min_max": [
+    0.5721277649711273,
+    1.7813812129784188
+  ],
+  "anisotropy_max": 1.8701157007574676,
+  "triangle_area_fraction_anisotropy_gt1_25": 0.045722824056779986,
+  "triangle_area_fraction_anisotropy_gt1_5": 0.00018677624206200964,
+  "patches": [
+    {
+      "name": "screen-left visible silver knee plate",
+      "box": [
+        229,
+        295,
+        263,
+        320
+      ],
+      "vertices": 897,
+      "rigid_fit_rms_HD": 0.08883053140244968,
+      "rigid_fit_max_HD": 0.3298958056626236
+    },
+    {
+      "name": "screen-right visible silver knee plate",
+      "box": [
+        284,
+        300,
+        326,
+        337
+      ],
+      "vertices": 1507,
+      "rigid_fit_rms_HD": 0.05351700233062654,
+      "rigid_fit_max_HD": 0.23324599604800864
+    }
+  ],
+  "antialias_remaining": "raw unchanged; mechanical domain excludes low alpha only from solve; no export or hard-alpha render performed",
+  "boundary_collision_check": "pending",
+  "iterations": 182,
+  "last_max_vertex_change_HD": 0.007750402634423054,
+  "convergence_note": "Final stage reached 40-iteration budget, target error zero but .003HD stationarity threshold not met. Feasible is not fully converged."
+}

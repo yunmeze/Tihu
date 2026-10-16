@@ -1,0 +1,56 @@
+{
+  "phase": 57,
+  "status": "bounded_iteration_candidate",
+  "raw_sha256": "55952191e99d08ead158d81575ff0960f252fd5a6b9684efacca0980b08832d1",
+  "seconds": 17.181801319122314,
+  "domain": "union of alpha>=64 pixel squares,1HD, no fill/dilation; rendering fringe NOT built yet",
+  "foreground_pixels": 37144,
+  "vertices": 38070,
+  "triangles": 74288,
+  "upper_fixed_vertices": 23767,
+  "toeL_translation_vertices": 943,
+  "toeR_translation_vertices": 738,
+  "max_upper_movement_HD": 0.0,
+  "final_driving_error_HD": 0.0,
+  "negative_area_triangles": 0,
+  "area_ratio_min_max": [
+    0.6750175552284456,
+    1.906129575828618
+  ],
+  "relative_singular_value_min_max": [
+    0.6593255113037774,
+    1.8899267520566705
+  ],
+  "anisotropy_max": 1.8738616584272658,
+  "triangle_area_fraction_anisotropy_gt1_25": 0.04401787637303467,
+  "triangle_area_fraction_anisotropy_gt1_5": 0.0009288175748438488,
+  "patches": [
+    {
+      "name": "screen-left visible silver knee plate",
+      "box": [
+        181,
+        303,
+        223,
+        339
+      ],
+      "vertices": 1475,
+      "rigid_fit_rms_HD": 0.010241961096649304,
+      "rigid_fit_max_HD": 0.07790058779905479
+    },
+    {
+      "name": "screen-right visible short boot metal surface",
+      "box": [
+        246,
+        307,
+        277,
+        338
+      ],
+      "vertices": 925,
+      "rigid_fit_rms_HD": 0.03377679377359333,
+      "rigid_fit_max_HD": 0.17727988345042664
+    }
+  ],
+  "antialias_remaining": "raw unchanged; mechanical domain excludes low alpha only from solve; no export or hard-alpha render performed",
+  "boundary_collision_check": "pending",
+  "iterations": 179
+}

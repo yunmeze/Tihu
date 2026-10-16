@@ -1,0 +1,56 @@
+{
+  "phase": 60,
+  "status": "bounded_iteration_candidate",
+  "raw_sha256": "97696a9376387f85a0990b07d6f6d97c362d2d93fec6266848e4c04203e855c5",
+  "seconds": 9.389298677444458,
+  "domain": "union of alpha>=64 pixel squares,1HD, no fill/dilation; rendering fringe NOT built yet",
+  "foreground_pixels": 37364,
+  "vertices": 38271,
+  "triangles": 74728,
+  "upper_fixed_vertices": 23883,
+  "toeL_translation_vertices": 728,
+  "toeR_translation_vertices": 921,
+  "max_upper_movement_HD": 0.0,
+  "final_driving_error_HD": 0.0,
+  "negative_area_triangles": 0,
+  "area_ratio_min_max": [
+    0.8209470150639863,
+    1.6606217523715274
+  ],
+  "relative_singular_value_min_max": [
+    0.8035026734813399,
+    1.6753655294457517
+  ],
+  "anisotropy_max": 1.6902402086728014,
+  "triangle_area_fraction_anisotropy_gt1_25": 0.046301252542554315,
+  "triangle_area_fraction_anisotropy_gt1_5": 0.000321164757520606,
+  "patches": [
+    {
+      "name": "screen-left visible armor/boot material patch",
+      "box": [
+        230,
+        307,
+        263,
+        341
+      ],
+      "vertices": 982,
+      "rigid_fit_rms_HD": 0.042772343030458584,
+      "rigid_fit_max_HD": 0.15861026597996233
+    },
+    {
+      "name": "screen-right visible armor/boot material patch",
+      "box": [
+        282,
+        302,
+        325,
+        339
+      ],
+      "vertices": 1508,
+      "rigid_fit_rms_HD": 0.007161867417555554,
+      "rigid_fit_max_HD": 0.027401575794846176
+    }
+  ],
+  "antialias_remaining": "raw unchanged; mechanical domain excludes low alpha only from solve; no export or hard-alpha render performed",
+  "boundary_collision_check": "pending",
+  "iterations": 98
+}

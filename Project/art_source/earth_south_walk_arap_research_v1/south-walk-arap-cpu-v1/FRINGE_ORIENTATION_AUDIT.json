@@ -1,0 +1,62 @@
+{
+  "status": "feasible",
+  "method": "Five target stages; orientation projection only on non-core render fringe; accept only if every triangle and entire straight step retain area ratio>=0.1. Original invalid harmonic map retained. No raw pixels removed or edited.",
+  "stages": [
+    {
+      "stage": 1,
+      "drive_fraction": 0.2,
+      "projection_iterations": 1,
+      "local_projections": 0,
+      "min_signed_area_ratio": 0.5931636079827723,
+      "minimum_ratio_along_entire_step": 0.5931636079827723,
+      "max_fringe_adjustment_from_harmonic_HD": 0.0,
+      "fixed_core_error_HD": 0.0
+    },
+    {
+      "stage": 2,
+      "drive_fraction": 0.4,
+      "projection_iterations": 2,
+      "local_projections": 1,
+      "min_signed_area_ratio": 0.20000385802468507,
+      "minimum_ratio_along_entire_step": 0.20000385802468507,
+      "max_fringe_adjustment_from_harmonic_HD": 0.0019520098141610452,
+      "fixed_core_error_HD": 0.0
+    },
+    {
+      "stage": 3,
+      "drive_fraction": 0.6,
+      "projection_iterations": 2,
+      "local_projections": 4,
+      "min_signed_area_ratio": 0.20000385802467469,
+      "minimum_ratio_along_entire_step": 0.19701967506904686,
+      "max_fringe_adjustment_from_harmonic_HD": 0.27051172737884766,
+      "fixed_core_error_HD": 0.0
+    },
+    {
+      "stage": 4,
+      "drive_fraction": 0.8,
+      "projection_iterations": 30,
+      "local_projections": 59,
+      "min_signed_area_ratio": 0.20000097968002467,
+      "minimum_ratio_along_entire_step": 0.19345567191840385,
+      "max_fringe_adjustment_from_harmonic_HD": 0.5393827206951394,
+      "fixed_core_error_HD": 0.0
+    },
+    {
+      "stage": 5,
+      "drive_fraction": 1.0,
+      "projection_iterations": 36,
+      "local_projections": 83,
+      "min_signed_area_ratio": 0.2000006980228664,
+      "minimum_ratio_along_entire_step": 0.1875991217755757,
+      "max_fringe_adjustment_from_harmonic_HD": 0.8188931053653276,
+      "fixed_core_error_HD": 0.0
+    }
+  ],
+  "accepted_fraction": 1.0,
+  "full_target_remaining_HD": 0.0,
+  "render_flips": 0,
+  "min_signed_area_ratio": 0.2000006980228664,
+  "seconds": 0.8335442543029785,
+  "no_gpu": true
+}

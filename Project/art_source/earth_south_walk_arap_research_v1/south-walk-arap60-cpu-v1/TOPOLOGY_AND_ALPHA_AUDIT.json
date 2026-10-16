@@ -1,0 +1,21 @@
+{
+  "mechanical_domain_triangle_alpha_violations": 0,
+  "mechanical_boundary_edges": 1812,
+  "proper_boundary_crossings": 0,
+  "crossing_pairs": [],
+  "boundary_check_limit": "proper crossings checked; tangential touches need visual inspection",
+  "render_support": "all raw alpha>0 occupied pixel squares; no alpha values changed and no new pixels painted",
+  "raw_nonzero_pixels": 45311,
+  "render_vertices": 47172,
+  "render_triangles": 90622,
+  "render_alpha_coverage_missing_pixels": 0,
+  "render_low_alpha_extension": "harmonic extension with core vertices fixed; disconnected unanchored alpha1 fragments translated with nearest core surface; same rigid displacement per fragment; no mechanical coupling through fringe",
+  "core_vertex_displacement_change_HD": 0.0,
+  "render_triangle_flips": 1,
+  "render_area_ratio_min_max": [
+    -0.20943179520695507,
+    3.4414824518584015
+  ],
+  "render_extension_free_vertices": 4062,
+  "no_gpu_run": true
+}
