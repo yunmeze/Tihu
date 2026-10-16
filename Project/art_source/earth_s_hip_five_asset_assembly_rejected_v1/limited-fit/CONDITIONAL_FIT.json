@@ -1,0 +1,107 @@
+{
+  "status": "NEW_COSTUME_REFERENCE_CONDITIONAL_FIT_ONLY_NO_APPLICATION",
+  "scale": 0.3600862012668974,
+  "HIP_translation_HD": [
+    65.05763077124013,
+    117.45892379024359
+  ],
+  "train_residual_HD": [
+    [
+      -0.0075426108535197045,
+      1.3199568993665594
+    ],
+    [
+      0.007542610853533915,
+      -1.3199568993665594
+    ]
+  ],
+  "heldout": [
+    {
+      "id": "L_silver_top",
+      "predicted_idle_HD": [
+        127.71262979168027,
+        194.15728466009273
+      ],
+      "target_HD": [
+        128,
+        193
+      ],
+      "residual_HD": [
+        -0.2873702083197287,
+        1.1572846600927278
+      ]
+    },
+    {
+      "id": "L_silver_bottom",
+      "predicted_idle_HD": [
+        126.27228498661268,
+        214.322111931039
+      ],
+      "target_HD": [
+        125,
+        214
+      ],
+      "residual_HD": [
+        1.272284986612675,
+        0.3221119310389895
+      ]
+    },
+    {
+      "id": "R_silver_top",
+      "predicted_idle_HD": [
+        190.00754261085353,
+        194.5173708613596
+      ],
+      "target_HD": [
+        190,
+        194
+      ],
+      "residual_HD": [
+        0.007542610853533915,
+        0.5173708613596091
+      ]
+    },
+    {
+      "id": "R_silver_bottom",
+      "predicted_idle_HD": [
+        191.44788741592112,
+        215.04228433357278
+      ],
+      "target_HD": [
+        192,
+        216
+      ],
+      "residual_HD": [
+        -0.5521125840788841,
+        -0.9577156664272195
+      ]
+    }
+  ],
+  "heldout_RMS_HD": 1.076351674265225,
+  "sensitivity_not_confidence_interval": {
+    "method": "independent bounded uniform point perturbation,20000trials,seed5962",
+    "scale_p05_p95": [
+      0.3413953585772113,
+      0.37933322593533086
+    ],
+    "translation_p05_p95": [
+      [
+        59.79346935001763,
+        112.47579971789378
+      ],
+      [
+        70.2447091268636,
+        122.33726356220446
+      ]
+    ]
+  },
+  "not_proven": [
+    "whole waist semantic identity",
+    "crotch bridge identity",
+    "HIP under C coverage",
+    "four leg-root coverage",
+    "four leg shape/proportions",
+    "animation"
+  ],
+  "registration_applied": false
+}

@@ -1,0 +1,20 @@
+{
+ "status":"FROZEN_BEFORE_NUMERIC_SOLVER",
+ "coordinate_system":"approved idle fixed512 HD; new HIP original raw fullsheet top-left slot",
+ "training_definition":"Manually read center of the broad main silver face of each screen-side hip plate. Exclude gold rim, leather mounting, straps and detached highlight pixels. Select same named silver face before fitting; not bbox/foot points.",
+ "training":[
+  {"id":"L_metal_face_center","idle":[127,204],"HIP":[172,244]},
+  {"id":"R_metal_face_center","idle":[190,207],"HIP":[347,245]}
+ ],
+ "heldout_definition":"Topmost and bottommost main silver-body boundary point, excluding gold mounting rim; manually read separately, never used by solver.",
+ "heldout":[
+  {"id":"L_silver_top","idle":[128,193],"HIP":[174,213]},
+  {"id":"L_silver_bottom","idle":[125,214],"HIP":[170,269]},
+  {"id":"R_silver_top","idle":[190,194],"HIP":[347,214]},
+  {"id":"R_silver_bottom","idle":[192,216],"HIP":[351,271]}
+ ],
+ "uncertainty":{"idle_HD":2,"HIP_raw":4,"kind":"manual image reading bounds, not statistical confidence"},
+ "additional_heldout_not_fitted":["entire plate contour except center observations","outer waist contour and upper edge","crotch bridge","all four legs width and length","actual C and HIP coverage"],
+ "constraints":{"scale":"one positive uniform","translation":"one HIP translation","rotation":0,"apply":false},
+ "caveat":"Same costume structures are visible but plate shapes and screen-facing tilt differ. Only a new design reference study, not original anatomical scale truth. Centers alone supply weak fit evidence. No alternate points if heldout fails."
+}

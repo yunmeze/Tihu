@@ -1,0 +1,88 @@
+{
+  "schema": "research-source-replay-v1",
+  "status": "仅单189设计候选；原固定窗/姿态失败，未注册应用、未生成其余三相。各次服装及未知U轮廓结论以原RESULT为准。",
+  "mapping": "npc",
+  "raw": "generated-raw.png",
+  "inputs": {
+    "generated-raw.png": {
+      "sha256": "a8506d33d7214677982e83c635b1c8123995a682bf219fe0258fc43f3b23d866",
+      "bytes": 687014,
+      "original_path": "recovery-work/yihong-design-input/phase189-seed-attempt3/generated-raw.png"
+    },
+    "prompt_actual.txt": {
+      "sha256": "2426b6cfda7130cbbc362f7d7d2b633e8ff0efebafe6bdd9586a47652a7a82d4",
+      "bytes": 2242,
+      "original_path": "recovery-work/yihong-design-input/phase189-seed-attempt3/prompt_actual.txt"
+    },
+    "contract-before-generation.json": {
+      "sha256": "9f988767077ecf97c33ef03536edc1cb31de6f698a376480034214863a6c8294",
+      "bytes": 1027,
+      "original_path": "recovery-work/yihong-design-input/phase189-seed-attempt3/contract-before-generation.json"
+    },
+    "RESULT.md": {
+      "sha256": "97dd40abd2174c7df8b868a01687e80ae383f8eb588f951ad916424b6673598d",
+      "bytes": 1755,
+      "original_path": "recovery-work/yihong-design-input/phase189-seed-attempt3/RESULT.md"
+    },
+    "measurements.json": {
+      "sha256": "0df22921a0c5a1822110bfc39a65147d41e6757b03831996993e1b639d5bda2c",
+      "bytes": 505,
+      "original_path": "recovery-work/yihong-design-input/phase189-seed-attempt3/measurements.json"
+    },
+    "source189-world96.png": {
+      "sha256": "2d14c772343c5236269bf1d0a18765266257991f59f37c7a1389a8e36aa85d33",
+      "bytes": 4193,
+      "original_path": "recovery-work/yihong-design-input/phase189-seed-attempt3/source189-world96.png"
+    },
+    "proposed-source189-world96.png": {
+      "sha256": "2d14c772343c5236269bf1d0a18765266257991f59f37c7a1389a8e36aa85d33",
+      "bytes": 4193,
+      "original_path": "recovery-work/yihong-design-input/phase189-seed-attempt3/proposed-source189-world96.png"
+    },
+    "proposed-source-reading.png": {
+      "sha256": "ffcbeb37b3304f7659ecbd0dcefeacfbf2fedf4768f99338073b58c1a7b60084",
+      "bytes": 12075,
+      "original_path": "recovery-work/yihong-design-input/phase189-seed-attempt3/proposed-source-reading.png"
+    },
+    "proposed-clothing-structure-ref.png": {
+      "sha256": "6d8d4eae54c3f8e1b031203fbe4fe3ab0517353143324b402e0a4e6ed895b158",
+      "bytes": 84121,
+      "original_path": "recovery-work/yihong-design-input/phase189-seed-attempt3/proposed-clothing-structure-ref.png"
+    }
+  },
+  "outputs": {
+    "candidate189-density4.png": {
+      "sha256": "62e1a94e8a0dd8fcff63d75a95506ee341bb5b72d90583b1a51db830acb6c1b1",
+      "rgba_sha256": "ba77b4f629ed712ad403246173b69d9811d3cf0733e1a98776e156654eed508a",
+      "size": [
+        384,
+        384
+      ]
+    }
+  },
+  "references": "Actual PNG references retained byte-identically. Absolute paths in original request are historical provenance; replay uses local names. No hidden recovery dependencies.",
+  "registration": "none applied; analysis-only parameters are not a new accepted contract",
+  "actual_call_confirmation": {
+    "author": "/root/remake_fine_branch_clump",
+    "confirmed_at": "2026-10-16 11:16 UTC",
+    "scope": "189 attempt3",
+    "calls": "each exactly one successful imagegen; no failed/retry imagegen. Earlier transport failure blocked exec preparation before generation.",
+    "refs": "Each contract refs order and prompt_actual exactly actual; no hidden extra inputs.",
+    "mapping": "1254 full96logical window -> RGBa LANCZOS384 -> RGBA; no cleanup/registration/part edits; models analysis only",
+    "source_geometry": {
+      "world_origin": [
+        3060,
+        1968
+      ],
+      "anchor": [
+        12,
+        48
+      ],
+      "source_paste": [
+        7,
+        5
+      ]
+    },
+    "raw_return": "exec-a7a2c3cf-88db-4aec-9b97-4a344789c063.png"
+  }
+}

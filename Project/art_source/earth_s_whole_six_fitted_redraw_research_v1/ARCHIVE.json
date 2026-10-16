@@ -1,0 +1,125 @@
+{
+  "schema": "research-source-replay-v1",
+  "status": "当前最佳整身设计研究候选；固定窗、相间动作及完整动画仍FAIL。",
+  "mapping": "catalog",
+  "raw": "RAW.png",
+  "inputs": {
+    "RAW.png": {
+      "sha256": "9200707c22df9ad371c8298030a0779228642d9f59f7c7a15448ff807d19758b",
+      "bytes": 1607116,
+      "original_path": "recovery-work/whole-six-fitted-redraw-attempt1/RAW.png"
+    },
+    "PROMPT.txt": {
+      "sha256": "e5687759cd18732a2e7dd58fc8b38fa1d3506903cb2f28064b7971a7be8e5ec3",
+      "bytes": 4000,
+      "original_path": "recovery-work/whole-six-fitted-redraw-attempt1/PROMPT.txt"
+    },
+    "REF01_ORIGINAL_FULL_SIX_CATALOG.png": {
+      "sha256": "b467a765915928c607e74379a03e264a2305dac620388c040a560976923659a6",
+      "bytes": 36304,
+      "original_path": "recovery-work/whole-six-fitted-redraw-attempt1/REF01_ORIGINAL_FULL_SIX_CATALOG.png"
+    },
+    "REF02_ORIGINAL_FULL_BODY_READ.png": {
+      "sha256": "771fd5b5ef39ce5d792c579e2ae43e5dc6f78f6eb5d8bac4cab06d3add328e81",
+      "bytes": 44134,
+      "original_path": "recovery-work/whole-six-fitted-redraw-attempt1/REF02_ORIGINAL_FULL_BODY_READ.png"
+    },
+    "REF03_APPROVED_LOCAL_IDENTITY_MATERIALS.png": {
+      "sha256": "0149e1fdde3324627c2bee6f9db3cfa0af85053ec35f5f3229c7837079812ef3",
+      "bytes": 73991,
+      "original_path": "recovery-work/whole-six-fitted-redraw-attempt1/REF03_APPROVED_LOCAL_IDENTITY_MATERIALS.png"
+    },
+    "REQUEST_FROZEN.json": {
+      "sha256": "38d45ee69232395201fc5c0ec38881f09c7d081040eb5f15d7f9f4b0026d86c7",
+      "bytes": 4504,
+      "original_path": "recovery-work/whole-six-fitted-redraw-attempt1/REQUEST_FROZEN.json"
+    },
+    "INPUT_HASHES.json": {
+      "sha256": "4e099ef1db61b8a6a19bc9e530732a39b264b8d1391e70e29eb2afbd8c32162f",
+      "bytes": 886,
+      "original_path": "recovery-work/whole-six-fitted-redraw-attempt1/INPUT_HASHES.json"
+    },
+    "CALL_RESULT.json": {
+      "sha256": "a377dcd0900c0ec8de6d2da114fb46df94c766b1eeecd50cac84a88a16e9c077",
+      "bytes": 356,
+      "original_path": "recovery-work/whole-six-fitted-redraw-attempt1/CALL_RESULT.json"
+    },
+    "PROPOSAL_FROZEN.md": {
+      "sha256": "ae0c2daa635e90265cfaf6a944ac406964d4ccd15ebc348441e3b6dd37e3a625",
+      "bytes": 6315,
+      "original_path": "recovery-work/whole-six-fitted-redraw-attempt1/PROPOSAL_FROZEN.md"
+    },
+    "RESULT.md": {
+      "sha256": "53704e69b757333dff5068eeabce9e4dffec2512e8f5610faf94fb6cbfc09f3a",
+      "bytes": 4394,
+      "original_path": "recovery-work/whole-six-fitted-redraw-attempt1/RESULT.md"
+    },
+    "AUDIT.json": {
+      "sha256": "c0d5892a99986c55459f7d616ff256fe4ef078c6bb312e1188ce7744337dc832",
+      "bytes": 4664,
+      "original_path": "recovery-work/whole-six-fitted-redraw-attempt1/AUDIT.json"
+    }
+  },
+  "outputs": {
+    "source-phase-57-fixed-slot.png": {
+      "sha256": "55952191e99d08ead158d81575ff0960f252fd5a6b9684efacca0980b08832d1",
+      "rgba_sha256": "94b2c74441b3c57ecd7750d3974fcc210306c56cfd8a823b6f3569df5b8fc9d9",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "source-phase-60-fixed-slot.png": {
+      "sha256": "97696a9376387f85a0990b07d6f6d97c362d2d93fec6266848e4c04203e855c5",
+      "rgba_sha256": "9f85d58d6ea5ed8735deb5b1132345fe1f7e22acbda5a701f587a5d73cc949b2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "source-phase-58-fixed-slot.png": {
+      "sha256": "8b12f93481972c2bc5bd87938cfc7136616e00b4b833176290344c5a1e6454e6",
+      "rgba_sha256": "83afefdd56de4b180144b6b5e235d2101a32de5bff9ea656eff2ae5b1d9ebb07",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "source-phase-61-fixed-slot.png": {
+      "sha256": "b763ba712cfeaf58a242916a0dfd6b0468a656176b71a990bc623a6b776a5ac4",
+      "rgba_sha256": "c56e33e1930aaae2b12f7cc3889800c602f1ecdff7be0108e72d292e284ce8bd",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "source-phase-62-fixed-slot.png": {
+      "sha256": "17078e806c485faae1bdce7726ba4f219cd71dad35c77c9b0c4aa9e1453ef19c",
+      "rgba_sha256": "201f62e7411f67b5cf359fa13c3ab7486310a23e9f5985f57f0384cf0d80c60b",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "source-phase-59-fixed-slot.png": {
+      "sha256": "ce50304fda8cc2cc11d3c51a8a10c578c8424e1ab7f00285288d73dfeb6b220b",
+      "rgba_sha256": "b39c1895a4d3fb0727129618fdd30d6995568ba76ca7bf58ab0b5f4e71123bb5",
+      "size": [
+        512,
+        512
+      ]
+    }
+  },
+  "references": "Actual PNG references retained byte-identically. Absolute paths in original request are historical provenance; replay uses local names. No hidden recovery dependencies.",
+  "registration": "none applied; analysis-only parameters are not a new accepted contract",
+  "actual_call_confirmation": {
+    "author": "/root/design_south_walk_layers",
+    "confirmed_at": "2026-10-16 11:19 UTC",
+    "call_count": 1,
+    "successful_result_count": 1,
+    "transparent_background": true,
+    "refs": "Exact REQUEST_FROZEN ordered references and full PROMPT confirmed by actual author; no additional input.",
+    "parameter_rejections": 0,
+    "note": "Six-ref rejection belonged only to older P edit attempt2, not this archive."
+  }
+}

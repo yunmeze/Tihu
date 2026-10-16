@@ -1,0 +1,115 @@
+{
+  "status": "AUTHORIZED_LIMITED_COSTUME_REFERENCE_DIAGNOSTIC_ONLY",
+  "scale": 0.360086201267,
+  "translations_HD": {
+    "HIP": [
+      65.05763077124013,
+      117.45892379024359
+    ],
+    "L59": [
+      52.85913929338601,
+      167.44060602098102
+    ],
+    "R59": [
+      93.43832038134951,
+      173.03715797030102
+    ],
+    "L62": [
+      74.87583845656829,
+      177.31914059944202
+    ],
+    "R62": [
+      80.11513093447051,
+      175.36250244885503
+    ]
+  },
+  "rotation": 0,
+  "layer_order": [
+    "L",
+    "R",
+    "HIP",
+    "C",
+    "H"
+  ],
+  "phase_H_offsets_HD": {
+    "59": [
+      0,
+      0
+    ],
+    "62": [
+      0,
+      0
+    ]
+  },
+  "resampling": "one whole-slot affine BICUBIC into512HD; board128/256 LANCZOS; source NEAREST",
+  "old_short_tongue_contract": "FAIL retained",
+  "feet": "translation drivers, not independent validation",
+  "top_band_metrics": {
+    "HIP": {
+      "top_band_native_y_inclusive": [
+        163,
+        174
+      ],
+      "band_HD_pixel_count": 160,
+      "uncovered_HD_pixels_alpha_coverage_lt_128": 136,
+      "mean_occlusion_alpha": 0.14051470588235293,
+      "note": "geometric upper band diagnostic, not semantic root/seam ownership mask"
+    },
+    "L59": {
+      "top_band_native_y_inclusive": [
+        38,
+        49
+      ],
+      "band_HD_pixel_count": 70,
+      "uncovered_HD_pixels_alpha_coverage_lt_128": 37,
+      "mean_occlusion_alpha": 0.4691316526610645,
+      "note": "geometric upper band diagnostic, not semantic root/seam ownership mask"
+    },
+    "R59": {
+      "top_band_native_y_inclusive": [
+        39,
+        50
+      ],
+      "band_HD_pixel_count": 74,
+      "uncovered_HD_pixels_alpha_coverage_lt_128": 17,
+      "mean_occlusion_alpha": 0.7598834128245894,
+      "note": "geometric upper band diagnostic, not semantic root/seam ownership mask"
+    },
+    "L62": {
+      "top_band_native_y_inclusive": [
+        23,
+        34
+      ],
+      "band_HD_pixel_count": 83,
+      "uncovered_HD_pixels_alpha_coverage_lt_128": 0,
+      "mean_occlusion_alpha": 0.988566028821167,
+      "note": "geometric upper band diagnostic, not semantic root/seam ownership mask"
+    },
+    "R62": {
+      "top_band_native_y_inclusive": [
+        23,
+        34
+      ],
+      "band_HD_pixel_count": 97,
+      "uncovered_HD_pixels_alpha_coverage_lt_128": 10,
+      "mean_occlusion_alpha": 0.8878107944208612,
+      "note": "geometric upper band diagnostic, not semantic root/seam ownership mask"
+    }
+  },
+  "invalid_edge_RMS": "excluded from acceptance",
+  "leg_overlap_control": {
+    "59": {
+      "mutually_opaque_overlap_not_covered_by_HIP_C_HD_pixels": 0,
+      "bbox_HD": null
+    },
+    "62": {
+      "mutually_opaque_overlap_not_covered_by_HIP_C_HD_pixels": 1002,
+      "bbox_HD": [
+        155,
+        209,
+        183,
+        280
+      ]
+    }
+  }
+}

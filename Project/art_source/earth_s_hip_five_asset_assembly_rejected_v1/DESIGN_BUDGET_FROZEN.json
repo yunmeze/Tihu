@@ -1,0 +1,67 @@
+{
+  "status": "PROPOSAL_ONLY_NO_GENERATION_AUTHORIZATION",
+  "planned_tool": "image_gen__imagegen",
+  "planned_canvas": [
+    1536,
+    1024
+  ],
+  "transparent_background": true,
+  "slots_row_major": [
+    "HIP",
+    "L59",
+    "R59",
+    "EMPTY",
+    "L62",
+    "R62"
+  ],
+  "shared_scale": {
+    "training": "HIP new tongue top width w",
+    "formula": "40/w",
+    "rotation": 0,
+    "HIP_anchor_target_HD": [
+      160,
+      160
+    ]
+  },
+  "leg_driver_targets_HD": {
+    "L59": [
+      140,
+      332
+    ],
+    "R59": [
+      184,
+      352
+    ],
+    "L62": [
+      140,
+      348
+    ],
+    "R62": [
+      184,
+      332
+    ]
+  },
+  "leg_translation": "q - shared_s * raw_boot_terminal_anchor",
+  "foot_independent_validation": false,
+  "hidden_interface_budget_HD": {
+    "new_root_depth_min": 12,
+    "continuous_overlap_min": 8,
+    "seam_safety": 2
+  },
+  "budget_status": "new proposal for parent review, not proven actual coverage",
+  "referenced_image_paths": [
+    "/workspace/scratch/22c897619190/recovery-work/foot-anchored-native-leg-contract-cpu/minimum59-62-production-proposal/REF01_SOURCE_59_62_VISIBLE_POSES.png",
+    "/workspace/scratch/22c897619190/recovery-work/foot-anchored-native-leg-contract-cpu/minimum59-62-production-proposal/REF02_APPROVED_LOWER_IDENTITY_ONLY.png",
+    "/workspace/scratch/22c897619190/recovery-work/foot-anchored-native-leg-contract-cpu/minimum59-62-production-proposal/REF03_HIP_ROOT_COVERAGE_TECHNICAL.png",
+    "/workspace/scratch/22c897619190/recovery-work/foot-anchored-native-leg-contract-cpu/minimum59-62-production-proposal/REF04_FIVE_ASSET_LAYOUT_TECHNICAL.png"
+  ],
+  "prompt_file": "PROMPT_FOR_REVIEW.txt",
+  "sha256": {
+    "REF01_SOURCE_59_62_VISIBLE_POSES.png": "ba5145a9543167e0ae9e9634ccd9e68882c8193a7bcf7dd5b59cb401b55c1483",
+    "REF02_APPROVED_LOWER_IDENTITY_ONLY.png": "5600f06935ec5ed7720999b378614020c9b3c64baad58c7ab5b7dc470ee08938",
+    "REF03_HIP_ROOT_COVERAGE_TECHNICAL.png": "22cd4101b4719c5b1cada71d2d3c403b5b10a0249374cabd2c022c8bbe538d42",
+    "REF04_FIVE_ASSET_LAYOUT_TECHNICAL.png": "53ec6bd200503007c12ad6533e458c03f4d602b9bc91f492af4d911cd2d77e4a",
+    "PROMPT_FOR_REVIEW.txt": "e0eddda8e704d64df6f5ee39ad65030dd229aeb692e7ed002bde72a530446076",
+    "CONTRACT_FOR_REVIEW.md": "21b595cd2f22ff3d64706cc416e55d5fd48725f1190e8b7f99ecf0e1d7ef9be9"
+  }
+}

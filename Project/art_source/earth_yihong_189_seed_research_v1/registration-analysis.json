@@ -1,0 +1,219 @@
+{
+  "mode": "analysis only, no transformation applied",
+  "train_predefined": [
+    "face_center",
+    "far_shoulder",
+    "near_shoulder",
+    "waist_center"
+  ],
+  "heldout": [
+    "extended_hand",
+    "folded_hand_visible",
+    "left_visible_shoe",
+    "front_visible_shoe"
+  ],
+  "read_uncertainty": "face/shoulder/waist +/-2..3logical; foldedhand and leftshoe +/-3..5 due robe/prop occlusion; visible proxies not bones",
+  "translation": [
+    -14.5,
+    2.5
+  ],
+  "uniform_scale": 0.8502283105022831,
+  "uniform_translation": [
+    -7.273515981735159,
+    6.057077625570777
+  ],
+  "points": [
+    {
+      "name": "face_center",
+      "role": "training",
+      "source": [
+        33,
+        18
+      ],
+      "candidate": [
+        45,
+        14
+      ],
+      "raw_delta": [
+        12,
+        -4
+      ],
+      "translation_residual": [
+        -2.5,
+        -1.5
+      ],
+      "uniform_residual": [
+        -2.0132420091324192,
+        -0.039726027397257724
+      ]
+    },
+    {
+      "name": "far_shoulder",
+      "role": "training",
+      "source": [
+        26,
+        22
+      ],
+      "candidate": [
+        40,
+        19
+      ],
+      "raw_delta": [
+        14,
+        -3
+      ],
+      "translation_residual": [
+        -0.5,
+        -0.5
+      ],
+      "uniform_residual": [
+        0.7356164383561676,
+        0.2114155251141554
+      ]
+    },
+    {
+      "name": "near_shoulder",
+      "role": "training",
+      "source": [
+        42,
+        25
+      ],
+      "candidate": [
+        57,
+        22
+      ],
+      "raw_delta": [
+        15,
+        -3
+      ],
+      "translation_residual": [
+        0.5,
+        -0.5
+      ],
+      "uniform_residual": [
+        -0.8105022831050235,
+        -0.23789954337899388
+      ]
+    },
+    {
+      "name": "waist_center",
+      "role": "training",
+      "source": [
+        34,
+        40
+      ],
+      "candidate": [
+        51,
+        40
+      ],
+      "raw_delta": [
+        17,
+        0
+      ],
+      "translation_residual": [
+        2.5,
+        2.5
+      ],
+      "uniform_residual": [
+        2.088127853881282,
+        0.06621004566210331
+      ]
+    },
+    {
+      "name": "extended_hand",
+      "role": "heldout",
+      "source": [
+        12,
+        25
+      ],
+      "candidate": [
+        21,
+        25
+      ],
+      "raw_delta": [
+        9,
+        0
+      ],
+      "translation_residual": [
+        -5.5,
+        2.5
+      ],
+      "uniform_residual": [
+        -1.4187214611872143,
+        2.3127853881278533
+      ]
+    },
+    {
+      "name": "folded_hand_visible",
+      "role": "heldout",
+      "source": [
+        33,
+        34
+      ],
+      "candidate": [
+        47,
+        26
+      ],
+      "raw_delta": [
+        14,
+        -8
+      ],
+      "translation_residual": [
+        -0.5,
+        -5.5
+      ],
+      "uniform_residual": [
+        -0.31278538812785683,
+        -5.836986301369862
+      ]
+    },
+    {
+      "name": "left_visible_shoe",
+      "role": "heldout",
+      "source": [
+        28,
+        67
+      ],
+      "candidate": [
+        60,
+        69
+      ],
+      "raw_delta": [
+        32,
+        2
+      ],
+      "translation_residual": [
+        17.5,
+        4.5
+      ],
+      "uniform_residual": [
+        15.740182648401827,
+        -2.277168949771692
+      ]
+    },
+    {
+      "name": "front_visible_shoe",
+      "role": "heldout",
+      "source": [
+        42,
+        78
+      ],
+      "candidate": [
+        51,
+        86
+      ],
+      "raw_delta": [
+        9,
+        8
+      ],
+      "translation_residual": [
+        -5.5,
+        10.5
+      ],
+      "uniform_residual": [
+        -5.911872146118718,
+        1.1767123287671097
+      ]
+    }
+  ]
+}

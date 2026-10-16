@@ -1,0 +1,39 @@
+{
+  "mode": "single189 identity seed only",
+  "transparent_background": true,
+  "logical_canvas": [
+    96,
+    96
+  ],
+  "world_origin": [
+    3060,
+    1968
+  ],
+  "anchor": [
+    12,
+    48
+  ],
+  "refs": [
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/yihong-design-input/phase189-seed-attempt1/source189-world96.png",
+      "sha256": "2d14c772343c5236269bf1d0a18765266257991f59f37c7a1389a8e36aa85d33"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/yihong-design-input/phase189-seed-attempt1/approved-material-stitching-only.png",
+      "sha256": "f2117068689dcde68afd4be162ee4477ab24cb5e9675cfeb72fded4a29dcd93f"
+    }
+  ],
+  "prompt_sha256": "9b934cbf942ab2e98486328242ccfcc664a5798451749b5545859f6eda8ee9da",
+  "one_attempt": true,
+  "material_crop_provenance": {
+    "source": "recovery-work/xuyun/attempt1/material-only-fabric.png",
+    "sha256": "a269c11bda35de57c567b90fbb782f4d18132f7eb81de3a5c31681a122139d6d",
+    "crop": [
+      34,
+      12,
+      60,
+      34
+    ],
+    "reason": "exclude visible hands in original proposed Liao swatch; cloth/zipper only"
+  }
+}

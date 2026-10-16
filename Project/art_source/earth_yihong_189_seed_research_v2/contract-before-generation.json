@@ -1,0 +1,109 @@
+{
+  "status": "authorized one generation, frozen before call",
+  "logical_canvas": [
+    96,
+    96
+  ],
+  "world_origin": [
+    3060,
+    1968
+  ],
+  "anchor": [
+    12,
+    48
+  ],
+  "source_paste": [
+    7,
+    5
+  ],
+  "refs": [
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/yihong-design-input/phase189-seed-attempt2/ref1-source189-unmarked-world96.png",
+      "sha256": "2d14c772343c5236269bf1d0a18765266257991f59f37c7a1389a8e36aa85d33"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/yihong-design-input/phase189-seed-attempt2/ref2-visible-surface-reading8x.png",
+      "sha256": "ffcbeb37b3304f7659ecbd0dcefeacfbf2fedf4768f99338073b58c1a7b60084"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/yihong-design-input/phase189-seed-attempt2/ref3-seed-identity-material-only.png",
+      "sha256": "735ab0fc83d3e493c24632438b40c549315ab9fbb9946d721adc24652a0b63ab"
+    }
+  ],
+  "regions_visible_surfaces_not_skeleton": {
+    "A rear visible shoe SCREEN LEFT": [
+      24,
+      62,
+      32,
+      70
+    ],
+    "B front visible shoe SCREEN RIGHT": [
+      36,
+      73,
+      45,
+      82
+    ],
+    "C extended hand SCREEN LEFT": [
+      8,
+      18,
+      17,
+      24
+    ],
+    "D folded hand visible uncertain": [
+      29,
+      27,
+      38,
+      36
+    ],
+    "E silver outline left endpoint": [
+      15,
+      21,
+      21,
+      25
+    ],
+    "F silver outline right endpoint": [
+      40,
+      23,
+      47,
+      27
+    ],
+    "U black arc UNKNOWN": [
+      38,
+      5,
+      50,
+      21
+    ]
+  },
+  "identity_crop_source": "/workspace/scratch/22c897619190/recovery-work/yihong-design-input/phase189-seed-attempt1/candidate189-complete-density4.png",
+  "identity_crop_boxes_logical": {
+    "face_identity_only": [
+      36,
+      5,
+      55,
+      20
+    ],
+    "green_jacket_seam_only": [
+      55,
+      32,
+      63,
+      44
+    ],
+    "cream_inner_fabric_only": [
+      46,
+      35,
+      50,
+      43
+    ],
+    "charcoal_fabric_only": [
+      56,
+      51,
+      61,
+      60
+    ]
+  },
+  "uncertainty": "shoe/hand visible regions +/-3..5 logical; thin outline endpoints +/-2..3. Black arc semantics unknown. Old robe occludes legs; hidden anatomy is not decoded.",
+  "postprocessing": "none proposed beyond uniform wholecanvas density conversion; no independent registration, clipping, limb edits or foot replacement",
+  "review": "review full body and original world/map at1x2x; rear shoe must remain left of front shoe, source narrow stagger and hands/prop relative placement; no backward lean/right stride",
+  "prompt_sha256": "216a64120a8f951cdb5d94f129f8f003027427a515ff18e83a47a2617f0701f7",
+  "transparent_background": true
+}

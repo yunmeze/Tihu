@@ -1,0 +1,130 @@
+{
+  "schema": "research-source-replay-v1",
+  "status": "脚端符号通过；60→61趋势/完整短腿链及根腿相对密度未通过。条件scale只计算，未应用、未锁定。",
+  "mapping": "catalog",
+  "raw": "RAW.png",
+  "inputs": {
+    "RAW.png": {
+      "sha256": "d02273fbd7ff672cc49dce0dd08430e7760fe3a0166c5a0e3b1bf585696b4198",
+      "bytes": 1778393,
+      "original_path": "recovery-work/south-layer-contract-cpu/p-pose-catalog-attempt3/RAW.png"
+    },
+    "PROMPT.txt": {
+      "sha256": "71b4fda107fe1016d3ddf61d836b80b53341597688d3235b421daa80a0734bed",
+      "bytes": 5674,
+      "original_path": "recovery-work/south-layer-contract-cpu/p-pose-catalog-attempt3/PROMPT.txt"
+    },
+    "REQUEST_FROZEN.json": {
+      "sha256": "86ea0c8fe4cbe35c9a22c988cf02054f23b4ec351c9bfc64215de645fe37fe8d",
+      "bytes": 7247,
+      "original_path": "recovery-work/south-layer-contract-cpu/p-pose-catalog-attempt3/REQUEST_FROZEN.json"
+    },
+    "RESULT.md": {
+      "sha256": "4191ede671cc4c437e7790183824ff0a57db154a0897213d9af798d6a9810509",
+      "bytes": 4966,
+      "original_path": "recovery-work/south-layer-contract-cpu/p-pose-catalog-attempt3/RESULT.md"
+    },
+    "AUDIT.json": {
+      "sha256": "4428860944ce622bee601654b02b69ca6dd80581e8f3a902f1700549cf0e2aa0",
+      "bytes": 5909,
+      "original_path": "recovery-work/south-layer-contract-cpu/p-pose-catalog-attempt3/AUDIT.json"
+    },
+    "CATALOG_MAPPING_PREDECLARED.json": {
+      "sha256": "06da700620e165f3721271af4d7496ee1128a66db5a7eaf4b47828c5296ee91d",
+      "bytes": 908,
+      "original_path": "recovery-work/south-layer-contract-cpu/p-pose-catalog-attempt3/CATALOG_MAPPING_PREDECLARED.json"
+    },
+    "CONTRACT_FROZEN.md": {
+      "sha256": "1727aa58717dff0b2006ec58940272188bba18f5ce56f8c42213fb27c341401a",
+      "bytes": 3188,
+      "original_path": "recovery-work/south-layer-contract-cpu/p-pose-catalog-attempt3/CONTRACT_FROZEN.md"
+    },
+    "OBSERVED_POINTS_PRE_SOLVER.json": {
+      "sha256": "bfc8c7ea7bdd585fb7f95dcadd7e7a684ce23be6f4c3a242b7695701b998b4f9",
+      "bytes": 983,
+      "original_path": "recovery-work/south-layer-contract-cpu/p-pose-catalog-attempt3/OBSERVED_POINTS_PRE_SOLVER.json"
+    },
+    "REF01_POSE_CATALOG_UNMARKED.png": {
+      "sha256": "b467a765915928c607e74379a03e264a2305dac620388c040a560976923659a6",
+      "bytes": 36304,
+      "original_path": "recovery-work/south-layer-contract-cpu/p-pose-catalog-attempt3/REF01_POSE_CATALOG_UNMARKED.png"
+    },
+    "REF02_POSE_CATALOG_VISIBLE_CHAIN.png": {
+      "sha256": "ef3be61d9ec50b98b686e04b06faec2a5c2cb998629e3913aaaccd92d2b60254",
+      "bytes": 96017,
+      "original_path": "recovery-work/south-layer-contract-cpu/p-pose-catalog-attempt3/REF02_POSE_CATALOG_VISIBLE_CHAIN.png"
+    },
+    "REF03_APPROVED_LOWER_IDENTITY_VOLUME.png": {
+      "sha256": "5600f06935ec5ed7720999b378614020c9b3c64baad58c7ab5b7dc470ee08938",
+      "bytes": 91048,
+      "original_path": "recovery-work/south-layer-contract-cpu/p-pose-catalog-attempt3/REF03_APPROVED_LOWER_IDENTITY_VOLUME.png"
+    },
+    "REF04_LOCKED_HC_SHORT_TONGUE_DENSITY.png": {
+      "sha256": "ddd923d5a8a64fe6fc0916b75d7d6f25073db9ec438d97ab018fe28433a5f5fe",
+      "bytes": 76107,
+      "original_path": "recovery-work/south-layer-contract-cpu/p-pose-catalog-attempt3/REF04_LOCKED_HC_SHORT_TONGUE_DENSITY.png"
+    }
+  },
+  "outputs": {
+    "source-phase-57-fixed-slot.png": {
+      "sha256": "bfcbd13dcabbe3d2eccea7ca544cca2d05d4c98c5dea248bf9f60ff24eac00bd",
+      "rgba_sha256": "da8638c6e4bdecc3e2d0ead2fc33ab18a4c6e39557f678992601ce003bf9f24e",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "source-phase-60-fixed-slot.png": {
+      "sha256": "84d3fc4d4599138ee87e05afd811c986a6b188a55ae9099a57b80960cf03a8eb",
+      "rgba_sha256": "412a733f20b2de822d0194fd334d11b8932a5a871da6b1b1fc07f5449552f233",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "source-phase-58-fixed-slot.png": {
+      "sha256": "99f1e822ad58d737f04b5791deea054fdf3f133c5e664bd026b6d8d68dc58081",
+      "rgba_sha256": "9dc2ca57ea68dbc8c7ed9d63b75e9d63373cce7a1d3ba7d7e60b7d3d103a42a0",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "source-phase-61-fixed-slot.png": {
+      "sha256": "1d830eaf2dbcdd25aededc733c63c1696beb9650400f62dd8ff7020fb987c28f",
+      "rgba_sha256": "3f9647678f2f22c660aa17d320a5ee8db7f296f409be16b47e7304b51ba02b63",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "source-phase-62-fixed-slot.png": {
+      "sha256": "5c6713bfcf4152f730bca0bc4e7f715fcbba8b164252b4cfb5a67e95b61c6029",
+      "rgba_sha256": "3ba43dad136c206f58366b884fd31f1281148441fd35d139865c16454b6a30bc",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "source-phase-59-fixed-slot.png": {
+      "sha256": "472f9caa01bac81752bbf5861f7d094782dbcdda13eb0da9dfb374997c4eebd6",
+      "rgba_sha256": "19ef11f8dd850b9fe099fec308cbf5d983304ba5f4a646c914751b0ebf7a793f",
+      "size": [
+        512,
+        512
+      ]
+    }
+  },
+  "references": "Actual PNG references retained byte-identically. Absolute paths in original request are historical provenance; replay uses local names. No hidden recovery dependencies.",
+  "registration": "none applied; analysis-only parameters are not a new accepted contract",
+  "actual_call_confirmation": {
+    "author": "/root/design_south_walk_layers",
+    "confirmed_at": "2026-10-16 11:19 UTC",
+    "call_count": 1,
+    "successful_result_count": 1,
+    "transparent_background": true,
+    "refs": "Exact REQUEST_FROZEN ordered references and full PROMPT confirmed by actual author; no additional input.",
+    "parameter_rejections": 0,
+    "note": "Six-ref rejection belonged only to older P edit attempt2, not this archive."
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "raw_origin": "generated_images/exec-3459b223-5f17-4307-8863-8b08dffa84bd.png",
+  "raw_sha256": "7de5745a8eb56fe542874aa7ee109334b9adb7430bf11516b2e6509bf3b8f348",
+  "size": [
+    1536,
+    1024
+  ],
+  "slots": [
+    {
+      "slot": 0,
+      "asset": "HIP",
+      "alpha128_bbox_local": [
+        145,
+        163,
+        375,
+        296
+      ],
+      "alpha_max": 254,
+      "count_alpha_ge128": 22204,
+      "count_alpha_nonzero": 24907
+    },
+    {
+      "slot": 1,
+      "asset": "L59",
+      "alpha128_bbox_local": [
+        171,
+        38,
+        295,
+        457
+      ],
+      "alpha_max": 254,
+      "count_alpha_ge128": 34054,
+      "count_alpha_nonzero": 38442,
+      "boot_anchor_local_by_alpha": {
+        "64": [
+          237.5,
+          457.0
+        ],
+        "128": [
+          242.0,
+          457.0
+        ],
+        "192": [
+          236.5,
+          456.0
+        ]
+      },
+      "anchor_is_driver_not_validation": true,
+      "q_HD": [
+        140,
+        332
+      ],
+      "conditional_translation_x": "140 - s*242.0",
+      "conditional_translation_y": "332 - s*457.0",
+      "rotation": 0
+    },
+    {
+      "slot": 2,
+      "asset": "R59",
+      "alpha128_bbox_local": [
+        183,
+        39,
+        300,
+        497
+      ],
+      "alpha_max": 254,
+      "count_alpha_ge128": 37875,
+      "count_alpha_nonzero": 42016,
+      "boot_anchor_local_by_alpha": {
+        "64": [
+          251.5,
+          497.0
+        ],
+        "128": [
+          251.5,
+          497.0
+        ],
+        "192": [
+          252.5,
+          496.0
+        ]
+      },
+      "anchor_is_driver_not_validation": true,
+      "q_HD": [
+        184,
+        352
+      ],
+      "conditional_translation_x": "184 - s*251.5",
+      "conditional_translation_y": "352 - s*497.0",
+      "rotation": 0
+    },
+    {
+      "slot": 3,
+      "asset": "EMPTY",
+      "alpha128_bbox_local": null,
+      "alpha_max": 1,
+      "count_alpha_ge128": 0,
+      "count_alpha_nonzero": 14
+    },
+    {
+      "slot": 4,
+      "asset": "L62",
+      "alpha128_bbox_local": [
+        148,
+        23,
+        314,
+        474
+      ],
+      "alpha_max": 254,
+      "count_alpha_ge128": 37183,
+      "count_alpha_nonzero": 41336,
+      "boot_anchor_local_by_alpha": {
+        "64": [
+          182.5,
+          474.0
+        ],
+        "128": [
+          180.85714285714286,
+          474.0
+        ],
+        "192": [
+          182.5,
+          473.0
+        ]
+      },
+      "anchor_is_driver_not_validation": true,
+      "q_HD": [
+        140,
+        348
+      ],
+      "conditional_translation_x": "140 - s*180.85714285714286",
+      "conditional_translation_y": "348 - s*474.0",
+      "rotation": 0
+    },
+    {
+      "slot": 5,
+      "asset": "R62",
+      "alpha128_bbox_local": [
+        200,
+        23,
+        323,
+        435
+      ],
+      "alpha_max": 254,
+      "count_alpha_ge128": 34957,
+      "count_alpha_nonzero": 38740,
+      "boot_anchor_local_by_alpha": {
+        "64": [
+          288.5,
+          435.0
+        ],
+        "128": [
+          288.5,
+          435.0
+        ],
+        "192": [
+          289.0,
+          435.0
+        ]
+      },
+      "anchor_is_driver_not_validation": true,
+      "q_HD": [
+        184,
+        332
+      ],
+      "conditional_translation_x": "184 - s*288.5",
+      "conditional_translation_y": "332 - s*435.0",
+      "rotation": 0
+    }
+  ],
+  "alpha_range": [
+    0,
+    254
+  ],
+  "alpha_zero_count": 1387409,
+  "shared_scale": null,
+  "scale_status": "NO_IDENTIFIABLE_PREDECLARED_HIP_INNER_TONGUE; full outer waistband is not a substitute",
+  "hip_translation": null,
+  "raw_unchanged": true,
+  "registration_applied": false,
+  "far_alpha": {
+    "8": {
+      "pixels": 1369771,
+      "nonzero": 948,
+      "max_alpha": 2,
+      "effect": {
+        "(30, 32, 36)": {
+          "max8bit": 0.25098039215686274,
+          "count_ge1": 0
+        },
+        "(232, 232, 232)": {
+          "max8bit": 1.7098039215686274,
+          "count_ge1": 3
+        }
+      }
+    },
+    "16": {
+      "pixels": 1327838,
+      "nonzero": 399,
+      "max_alpha": 1,
+      "effect": {
+        "(30, 32, 36)": {
+          "max8bit": 0.1411764705882353,
+          "count_ge1": 0
+        },
+        "(232, 232, 232)": {
+          "max8bit": 0.9098039215686274,
+          "count_ge1": 0
+        }
+      }
+    },
+    "32": {
+      "pixels": 1241180,
+      "nonzero": 399,
+      "max_alpha": 1,
+      "effect": {
+        "(30, 32, 36)": {
+          "max8bit": 0.1411764705882353,
+          "count_ge1": 0
+        },
+        "(232, 232, 232)": {
+          "max8bit": 0.9098039215686274,
+          "count_ge1": 0
+        }
+      }
+    }
+  }
+}
