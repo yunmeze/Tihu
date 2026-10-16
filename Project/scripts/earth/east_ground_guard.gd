@@ -89,7 +89,7 @@ func prepare(source:Dictionary,packs:Dictionary,floors:Array,path:String=REGISTR
 		resources[pin.path]=bytes
 	var source_disk=JSON.parse_string(resources[reg.source_map.path].get_string_from_utf8())
 	var manifest_disk=JSON.parse_string(resources[reg.source_manifest.path].get_string_from_utf8())
-	if not exact(source,source_disk) or not manifest_disk is Dictionary or not exact(packs,manifest_disk.get("packs")):return reject("运行时东廊地图或图集身份变化")
+	if not source_disk is Dictionary or not manifest_disk is Dictionary or not manifest_disk.get("packs") is Dictionary or not source_matches(source,source_disk) or not atlas_matches(packs,manifest_disk.packs):return reject("运行时东廊地图或图集身份变化")
 	# Verify the entire original x-major draw stream, including all nonselected
 	# floors. This also proves that no selected owner occurs a second time.
 	var expected_stream=[]
@@ -146,3 +146,10 @@ func live_valid(group:Dictionary,source:Dictionary,packs:Dictionary,floors:Array
 		if not snapshot_file_available(pin.path,snapshot):failure="运行时东廊地面依赖缺失："+str(pin.path).get_file();return false
 	failure=identity_failure(group.contract,source,packs,floors)
 	return failure.is_empty()
+
+# Default review remains strict; snapshot adapters override only these comparisons.
+func source_matches(source:Dictionary,original:Dictionary) -> bool:
+	return exact(source,original)
+
+func atlas_matches(runtime:Dictionary,original:Dictionary) -> bool:
+	return exact(runtime,original)

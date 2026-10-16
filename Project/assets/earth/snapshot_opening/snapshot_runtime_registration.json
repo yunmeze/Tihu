@@ -1,0 +1,1223 @@
+{
+  "schema": "earth-runtime-files-v1",
+  "status": "isolated candidate; inherited opening + partial art; 178 ground / 24 plant snapshot combination untested; native/pack pending",
+  "runtime_files": [
+    {
+      "path": "res://art_source/earth_coherent_grass_research_v1/coherent-grass-union-RESEARCH.png",
+      "sha256": "d6bf26a3bd518798ca1ecdde9ebc3be9e722f64034acc42303bc87128a72a4c4",
+      "bytes": 5955633,
+      "type": "png",
+      "role": "texture",
+      "width": 1728,
+      "height": 1920
+    },
+    {
+      "path": "res://art_source/earth_e45_vertical_leg_research_v1/45-HD4-CLOTH-CLEANED-RESEARCH.png",
+      "sha256": "ad7c9ad9c68223e7914607c970af2f621f931a6e84d15d6fdf68af3d48d67dd1",
+      "bytes": 63212,
+      "type": "png",
+      "role": "texture",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "res://art_source/earth_e48_vertical_leg_research_v1/48-HD4-BOUNDED-DONOR-DIAGNOSTIC.png",
+      "sha256": "839e048cd413e2b8d280f8dbaa795fb224764d80e816772919f677f77d5128fa",
+      "bytes": 60277,
+      "type": "png",
+      "role": "texture",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "res://art_source/earth_e_walk_layered_research_v1/46-HD4-RESEARCH.png",
+      "sha256": "b99726de6cbb5ae9db999e5e9f1eee50583a0e98d6fa75456884e0f2f2908f94",
+      "bytes": 59852,
+      "type": "png",
+      "role": "texture",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "res://art_source/earth_e_walk_layered_research_v1/47-HD4-RESEARCH.png",
+      "sha256": "26ed56945e287ee307290cd47b971a3b44840bb48ca998e773028f051cee1b47",
+      "bytes": 60730,
+      "type": "png",
+      "role": "texture",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "res://art_source/earth_e_walk_layered_research_v1/49-HD4-RESEARCH.png",
+      "sha256": "c1c89fcd1e3ed2a39bce194a4bc5f1988a8277e51fc8dfca7610861127d23cbf",
+      "bytes": 53061,
+      "type": "png",
+      "role": "texture",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "res://art_source/earth_e_walk_layered_research_v1/50-HD4-RESEARCH.png",
+      "sha256": "3166546267a1016054b1feffc4ce6fc1127b7b3f4a066b16a49b1227c743ee64",
+      "bytes": 61326,
+      "type": "png",
+      "role": "texture",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "res://art_source/earth_fine_clump_research_v1/candidate-density4-fullcanvas.png",
+      "sha256": "56fe91ccc0e9b1909f48cde77ff8219b8845d1d31cb6844fbc535cbfc7c56980",
+      "bytes": 195028,
+      "type": "png",
+      "role": "texture",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "res://art_source/earth_hero_se_idle_v1/registration-v1.json",
+      "sha256": "d99fa43228caf56076958747dd0e600c38953b4c2aa188b2324b935d7085a367",
+      "bytes": 11811,
+      "type": "json",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://art_source/earth_hero_se_walk_v1/registration-v1.json",
+      "sha256": "195b7e7cca95eb7a76964e907f5ef5df0971551a6dc2c0c4880927e13c28f1af",
+      "bytes": 17279,
+      "type": "json",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://art_source/earth_pool_research_v1/pool-registered-research-2x.png",
+      "sha256": "55a2ac86f1d7e5274e89c155439eaa38d5b880d6396e5b327b29780abe0433ea",
+      "bytes": 366222,
+      "type": "png",
+      "role": "texture",
+      "width": 640,
+      "height": 496
+    },
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/owner-292.png",
+      "sha256": "975a1fc551685e481ef34409ecc9f8db085b4cca45acd4317a632133ef7a38ed",
+      "bytes": 604022,
+      "type": "png",
+      "role": "texture",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/owner-293.png",
+      "sha256": "913d6d58db380b32487274fabb2d32c393ccaa5c7b310a4f2d12ad9ef49f11b0",
+      "bytes": 220441,
+      "type": "png",
+      "role": "texture",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/owner-294.png",
+      "sha256": "eb2429a22104baa43d724425372b231e6dbb1e8266c59fcc4883adaf28722d75",
+      "bytes": 503920,
+      "type": "png",
+      "role": "texture",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/owner-295.png",
+      "sha256": "3d743ceffeda223272e18ed2343035f9aec38d435591c178526b15ebff14555b",
+      "bytes": 450383,
+      "type": "png",
+      "role": "texture",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/owner-296.png",
+      "sha256": "a40346e0ccc3e8dfe87d2d255a1192566ab986421c17f8067d120d9ee12ffb11",
+      "bytes": 243158,
+      "type": "png",
+      "role": "texture",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/owner-297.png",
+      "sha256": "ad51b9394ac0d7418734be11b122028c5afe574db89627aa2320a206967865aa",
+      "bytes": 88364,
+      "type": "png",
+      "role": "texture",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/owner-298.png",
+      "sha256": "71b4809e58bfa617b24c9132a4eb9dd00da3e88b1c323ef5ba63d8feae82e473",
+      "bytes": 6175,
+      "type": "png",
+      "role": "texture",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/registration.json",
+      "sha256": "a83f1f401b10394e13e7822f6eb04078cace3db3dc0bdca10e275b38d0bb9b27",
+      "bytes": 10386,
+      "type": "json",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://assets/earth/environment/first_tree_v1/whole-review.png",
+      "sha256": "c639ad6e35e10f3a4c61d13a38258b2db1f077cea3f757ec8e064762601cc9e6",
+      "bytes": 2169976,
+      "type": "png",
+      "role": "texture",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-239.png",
+      "sha256": "e8f35c91c85ee62958fa7347caf7d35004b3c23d8e31255b9345c7eb49cfb7b5",
+      "bytes": 451844,
+      "type": "png",
+      "role": "texture",
+      "width": 2172,
+      "height": 724
+    },
+    {
+      "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-240.png",
+      "sha256": "b19199c3a7b263596d4d722232314f694688e2fda0ebf78e86308b6fddf598bd",
+      "bytes": 519799,
+      "type": "png",
+      "role": "texture",
+      "width": 2172,
+      "height": 724
+    },
+    {
+      "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-241.png",
+      "sha256": "102a4284027a43895a048daa7b0821bd36b4deade354fdb86b0f4e2be9c4b892",
+      "bytes": 296594,
+      "type": "png",
+      "role": "texture",
+      "width": 2172,
+      "height": 724
+    },
+    {
+      "path": "res://assets/earth/environment/grass_pair_v1/owners/owner-242.png",
+      "sha256": "be7e74d2797c0b4080e4bb46b982d47d338e84e29f08a715e9ebc071e3323850",
+      "bytes": 219646,
+      "type": "png",
+      "role": "texture",
+      "width": 2172,
+      "height": 724
+    },
+    {
+      "path": "res://assets/earth/environment/round_shrub_v1/owner-143.png",
+      "sha256": "cb403b3fd286ff1c2ec1085902ff1203ec7ad6f47ceb4ae513352ecad110476d",
+      "bytes": 69276,
+      "type": "png",
+      "role": "texture",
+      "width": 1363,
+      "height": 1154
+    },
+    {
+      "path": "res://assets/earth/environment/round_shrub_v1/owner-144.png",
+      "sha256": "ab996e6449515eb2297fba8e33f0a3ef9dce4046652caa2901bc206ec0da3cd1",
+      "bytes": 799678,
+      "type": "png",
+      "role": "texture",
+      "width": 1363,
+      "height": 1154
+    },
+    {
+      "path": "res://assets/earth/environment/round_shrub_v1/owner-145.png",
+      "sha256": "4314beb965f4e7c1a99f26546b13eda03dff49e134fb37d4ba97d02e4d7a271c",
+      "bytes": 1277247,
+      "type": "png",
+      "role": "texture",
+      "width": 1363,
+      "height": 1154
+    },
+    {
+      "path": "res://assets/earth/environment/round_shrub_v1/owner-146.png",
+      "sha256": "507a822bd45f359787a16c63804fae7a6ccab0d31c28655f10df10a890c35219",
+      "bytes": 642581,
+      "type": "png",
+      "role": "texture",
+      "width": 1363,
+      "height": 1154
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3967.png",
+      "sha256": "40c271540249c9981ae4340564cbf42d359957b7389d3b1b9ea12d588e6d9f8f",
+      "bytes": 109,
+      "type": "png",
+      "role": "texture",
+      "width": 4,
+      "height": 202
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3968.png",
+      "sha256": "5c3bcf8d4afe72c74d588f8f9d763f292d8a6903f109447ae799221f02291e0d",
+      "bytes": 111986,
+      "type": "png",
+      "role": "texture",
+      "width": 99,
+      "height": 638
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3969.png",
+      "sha256": "9af2836b77f74c97ca3a7c4a09f504bacdde8cdf0e173312fe52944943d1062c",
+      "bytes": 55087,
+      "type": "png",
+      "role": "texture",
+      "width": 133,
+      "height": 747
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3970.png",
+      "sha256": "937969a147c8389e53ee931dd0c10354f2424d97649bc73e0adb078bd05a7fd8",
+      "bytes": 125133,
+      "type": "png",
+      "role": "texture",
+      "width": 107,
+      "height": 805
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3971.png",
+      "sha256": "bf8c3c2a4d1a65f3935dfcf4a81797f38487bbe5efdad61734cf3dec25cb5eb8",
+      "bytes": 36902,
+      "type": "png",
+      "role": "texture",
+      "width": 187,
+      "height": 133
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3972.png",
+      "sha256": "9a8c73705728ae1e9725eb5a98371767c618486f7743da97b32761bc57da6be9",
+      "bytes": 83717,
+      "type": "png",
+      "role": "texture",
+      "width": 99,
+      "height": 635
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3973.png",
+      "sha256": "048407117db692a2aad367c597d3532ea897ffdebffc0d0283586fcd2b672d10",
+      "bytes": 109992,
+      "type": "png",
+      "role": "texture",
+      "width": 191,
+      "height": 793
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3974.png",
+      "sha256": "f5229a5ca2869750110d0fc305c46f3f29b98556c57779e789f75e47ada432ad",
+      "bytes": 13153,
+      "type": "png",
+      "role": "texture",
+      "width": 90,
+      "height": 91
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3975.png",
+      "sha256": "4f5c931a75f01aea1b599e9d5e87e5b6f690df89dcfd2be1870ead8a9394befc",
+      "bytes": 21437,
+      "type": "png",
+      "role": "texture",
+      "width": 161,
+      "height": 66
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3976.png",
+      "sha256": "01c4b3a11397e702fe1de6f59c69fbfee94ef3e932ca4a403cc5e2b4a617bdf6",
+      "bytes": 26186,
+      "type": "png",
+      "role": "texture",
+      "width": 190,
+      "height": 88
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3977.png",
+      "sha256": "d30e217656e95fbb008a89fee9c5b022ad8f19ffdb40714b6d665b592a443cb5",
+      "bytes": 86852,
+      "type": "png",
+      "role": "texture",
+      "width": 116,
+      "height": 631
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3979.png",
+      "sha256": "2873987d5851bc6d8447a02aca78d36194ac8caa9eb9faefd7368926c0bd17b2",
+      "bytes": 3811,
+      "type": "png",
+      "role": "texture",
+      "width": 66,
+      "height": 44
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3980.png",
+      "sha256": "b430178191619833a0e43c6baa16fb66ce3e3f10e159003059ad9818c53b42aa",
+      "bytes": 15786,
+      "type": "png",
+      "role": "texture",
+      "width": 140,
+      "height": 66
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3981.png",
+      "sha256": "087e534ddb457d4e3521b3128dc4a151831ae12d400d905ab95331b9d0659199",
+      "bytes": 29158,
+      "type": "png",
+      "role": "texture",
+      "width": 207,
+      "height": 114
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3982.png",
+      "sha256": "216026b2cc0c70fff2b186f3095921acafe76582e2fc8d83a900e42005917314",
+      "bytes": 13378,
+      "type": "png",
+      "role": "texture",
+      "width": 103,
+      "height": 94
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3983.png",
+      "sha256": "f83b79acc6030c7de2c193d91dc2d60b5712e11b75e6a831117fbb926895fdb6",
+      "bytes": 74455,
+      "type": "png",
+      "role": "texture",
+      "width": 138,
+      "height": 555
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3984.png",
+      "sha256": "00b095852735002b5dda3662d9775333af20ef0a296d49b82797983154063ab7",
+      "bytes": 3795,
+      "type": "png",
+      "role": "texture",
+      "width": 27,
+      "height": 395
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3985.png",
+      "sha256": "430e3227462d43debfb30f76055b89ba615092a0c914828c1a5ad87909886a90",
+      "bytes": 1608,
+      "type": "png",
+      "role": "texture",
+      "width": 41,
+      "height": 25
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3986.png",
+      "sha256": "ef90181db2ace5b61a80ac83aede7e001febd27b1fb01ab67449d10dacf7c030",
+      "bytes": 16260,
+      "type": "png",
+      "role": "texture",
+      "width": 147,
+      "height": 67
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3987.png",
+      "sha256": "e4ee7ffa9240441b072db6efda4d6d47f6c17e770b0a6e8c3e6f1da38572df5a",
+      "bytes": 1056,
+      "type": "png",
+      "role": "texture",
+      "width": 15,
+      "height": 28
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3988.png",
+      "sha256": "d475e82a8a7b4fda607337b6d1f45533cf34a21f6f3f4563481c89fedc3f0675",
+      "bytes": 180198,
+      "type": "png",
+      "role": "texture",
+      "width": 205,
+      "height": 934
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3989.png",
+      "sha256": "77185d0dc86e99f14ae5ba9add6d8eb98388fdfa56abbcff9c8aee0e55df9661",
+      "bytes": 2374,
+      "type": "png",
+      "role": "texture",
+      "width": 58,
+      "height": 30
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3990.png",
+      "sha256": "477ceab276fbf928212fa6c2f18baa4e41072d6108816e52f428560d44f7a086",
+      "bytes": 185738,
+      "type": "png",
+      "role": "texture",
+      "width": 99,
+      "height": 1102
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3991.png",
+      "sha256": "66b3c66e03abdb8d03483840da5b51d1474d13b1b97e0fb94d2a595211ecb6d6",
+      "bytes": 13833,
+      "type": "png",
+      "role": "texture",
+      "width": 161,
+      "height": 121
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3992.png",
+      "sha256": "00e0964b4a04a03a5a64e70e1f2372cd15fb17c58a13215863b8532dfbbe16e4",
+      "bytes": 205220,
+      "type": "png",
+      "role": "texture",
+      "width": 99,
+      "height": 1024
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3993.png",
+      "sha256": "12db874c2329fc3f295362ea139a367f9e09a57c5cd9ddc4798e40871f6a7970",
+      "bytes": 186267,
+      "type": "png",
+      "role": "texture",
+      "width": 99,
+      "height": 989
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3994.png",
+      "sha256": "b1dec5c030bfff7038bf5f6e164e3470d6b8965e751ba3aea759f06982f194f5",
+      "bytes": 174737,
+      "type": "png",
+      "role": "texture",
+      "width": 100,
+      "height": 1096
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/owner-3995.png",
+      "sha256": "dec23f8de636882ea6e4ffac026d6dedf8193e5641756a23ee0f61fcd3645ab6",
+      "bytes": 130153,
+      "type": "png",
+      "role": "texture",
+      "width": 106,
+      "height": 968
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/registration.json",
+      "sha256": "57072cc60ed9e33aa9afaeb0c7310733216e2884e0b042b043077551473e273c",
+      "bytes": 39329,
+      "type": "json",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://assets/earth/environment/training_hall_v1/whole-review.png",
+      "sha256": "be82bef2c8d7aa9e26675e69dc076acbca76f0878eaf78eee3a18e501a12464b",
+      "bytes": 1933870,
+      "type": "png",
+      "role": "texture",
+      "width": 1372,
+      "height": 1147
+    },
+    {
+      "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-299.png",
+      "sha256": "02150f4d1a9e79567a7052c014ea2ac2be2a25302ee696ac44769b06411e57ce",
+      "bytes": 723362,
+      "type": "png",
+      "role": "texture",
+      "width": 1162,
+      "height": 1353
+    },
+    {
+      "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-300.png",
+      "sha256": "259dc910ce91d121b54e2f99f7722b635937c856c2945ead1c81e403ab3c4994",
+      "bytes": 130178,
+      "type": "png",
+      "role": "texture",
+      "width": 1162,
+      "height": 1353
+    },
+    {
+      "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-301.png",
+      "sha256": "12e716eb99e9ce72c9e45f59bc82612eaede896f64ceb3928c75a966e338a3d6",
+      "bytes": 483725,
+      "type": "png",
+      "role": "texture",
+      "width": 1162,
+      "height": 1353
+    },
+    {
+      "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-302.png",
+      "sha256": "d395ed56ab8b7c3ad268e7a3adae91d49cae5b90c2ad2107b1b5f905f9ca3b98",
+      "bytes": 566155,
+      "type": "png",
+      "role": "texture",
+      "width": 1162,
+      "height": 1353
+    },
+    {
+      "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-303.png",
+      "sha256": "0b8c6c6b04f560fba043e1c94315b8909860c92a797b341ad200f991a73980c5",
+      "bytes": 364892,
+      "type": "png",
+      "role": "texture",
+      "width": 1162,
+      "height": 1353
+    },
+    {
+      "path": "res://assets/earth/environment/upright_tree_v1/owners/owner-304.png",
+      "sha256": "26609c19d3b71935f9d5b2f47df2a7b7c1f6ea6934c6d7acb6eebe331559850d",
+      "bytes": 6175,
+      "type": "png",
+      "role": "texture",
+      "width": 1162,
+      "height": 1353
+    },
+    {
+      "path": "res://assets/earth/environment/upright_tree_v1/raw.png",
+      "sha256": "ada0e0fd8952fe1dcc6b60dafb9d64be96476ed7736a881f1e5e401436b3db0f",
+      "bytes": 2361236,
+      "type": "png",
+      "role": "texture",
+      "width": 1162,
+      "height": 1353
+    },
+    {
+      "path": "res://assets/earth/environment/upright_tree_v1/registration_left_50_41.json",
+      "sha256": "e8b5fae705b312e910a4acb60eda616829b50c1f014fe9bb22453944a9745acd",
+      "bytes": 7858,
+      "type": "json",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://assets/earth/first_map_review/east_ground_period384.png",
+      "sha256": "d151a5f735eacb556215de7cfe3aa7477b4e9c86032382c0ce46bd973e161ad8",
+      "bytes": 1534709,
+      "type": "png",
+      "role": "texture",
+      "width": 768,
+      "height": 768
+    },
+    {
+      "path": "res://assets/earth/first_map_review/east_ground_registration.json",
+      "sha256": "b737e81e6896b1cccc5de4f8d1c628ed41b51a2efcf5ada0f1d215cf78cd350d",
+      "bytes": 67340,
+      "type": "json",
+      "role": "registration"
+    },
+    {
+      "path": "res://assets/earth/first_map_review/plant_reuse_registration.json",
+      "sha256": "e8db80f83ba048ca6f7b81947a7fab9c99bc6bad48c5ac4a3e295bb540109863",
+      "bytes": 175395,
+      "type": "json",
+      "role": "registration"
+    },
+    {
+      "path": "res://assets/earth/first_map_review/registration.json",
+      "sha256": "666eed5d3ea4f348999de1af1dc870c6e914c7333693c28ab088fe12c45034ea",
+      "bytes": 638385,
+      "type": "json",
+      "role": "registration"
+    },
+    {
+      "path": "res://assets/earth/first_map_review/static_props_registration.json",
+      "sha256": "5794b3a0ec72736b70465e009a5e55f3de41b9939fa576fbc6568ab6274311a6",
+      "bytes": 18784,
+      "type": "json",
+      "role": "registration"
+    },
+    {
+      "path": "res://assets/earth/hero/s_idle_v1/body.png",
+      "sha256": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e",
+      "bytes": 265484,
+      "type": "png",
+      "role": "texture",
+      "width": 2048,
+      "height": 512
+    },
+    {
+      "path": "res://assets/earth/hero/s_idle_v1/manifest.json",
+      "sha256": "cfd74e66ddb74fb4ce8fc46be747f6df9b8037713044b76a287baef343654b80",
+      "bytes": 2689,
+      "type": "json",
+      "role": "source-atlas-manifest"
+    },
+    {
+      "path": "res://assets/earth/hero/se_idle_v1/body.png",
+      "sha256": "60f89f65dd817ec80065de941e62e36e1068302c3f2bc4eb5014d8d56f450c02",
+      "bytes": 266415,
+      "type": "png",
+      "role": "texture",
+      "width": 2048,
+      "height": 512
+    },
+    {
+      "path": "res://assets/earth/hero/se_idle_v1/manifest.json",
+      "sha256": "3672409856c27b1e81d543b8a0a29063e16170b2cafbaf55f5d6351fb1e9b5a3",
+      "bytes": 2193,
+      "type": "json",
+      "role": "source-atlas-manifest"
+    },
+    {
+      "path": "res://assets/earth/hero/se_walk_v1/body.png",
+      "sha256": "f4eee4ec3a35e6597eb3a1eb4f6e5122163845ca474673974af1531ac42489ac",
+      "bytes": 374159,
+      "type": "png",
+      "role": "texture",
+      "width": 3072,
+      "height": 512
+    },
+    {
+      "path": "res://assets/earth/hero/se_walk_v1/manifest.json",
+      "sha256": "127727940bd2651460bbe90396f80e7c75d89a7d8675f5d3467e5a5f46e229d7",
+      "bytes": 2144,
+      "type": "json",
+      "role": "source-atlas-manifest"
+    },
+    {
+      "path": "res://assets/earth/npc/fangzhang_v1/body.png",
+      "sha256": "21cfcd0e60c40944c3623e2d9b989e3d7eeb006a3ebbd2be648a69f655cf04bc",
+      "bytes": 54205,
+      "type": "png",
+      "role": "texture",
+      "width": 512,
+      "height": 640
+    },
+    {
+      "path": "res://assets/earth/npc/fangzhang_v1/manifest.json",
+      "sha256": "0239fc9ac1f662d7756710f4f824e9d7a25a474caa0206996b6c9b2e269f9d59",
+      "bytes": 3450,
+      "type": "json",
+      "role": "source-atlas-manifest"
+    },
+    {
+      "path": "res://assets/earth/npc/lingyunzi_v2/body.png",
+      "sha256": "541c6d0a7a1cf3dd1cd547be037cf17e2f9a6083b8de90c1641f13fbaf9bbb9e",
+      "bytes": 174506,
+      "type": "png",
+      "role": "texture",
+      "width": 2048,
+      "height": 640
+    },
+    {
+      "path": "res://assets/earth/npc/lingyunzi_v2/manifest.json",
+      "sha256": "f9cf04374b533f225514215f6c798d4eac7592beb8b86bb5f715d3945278c9be",
+      "bytes": 4284,
+      "type": "json",
+      "role": "source-atlas-manifest"
+    },
+    {
+      "path": "res://assets/earth/shadows/fangzhang_flat_v1/envelope.png",
+      "sha256": "ab5471d4e201f6b7b8173075d2901b62d0afd1629345f597e6e47ff4f70515e2",
+      "bytes": 2292,
+      "type": "png",
+      "role": "texture",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "res://assets/earth/shadows/fangzhang_flat_v1/manifest.json",
+      "sha256": "1aa9edf904e96dc2b9d4f9c083582f8ddc5b5a7d4223b65ccc959faba6cccb62",
+      "bytes": 17071,
+      "type": "json",
+      "role": "source-atlas-manifest"
+    },
+    {
+      "path": "res://assets/earth/shadows/left_upright_v1/allowed.png",
+      "sha256": "93e5a918b6151976758e139ee9dd4c88226ef2799fcfff0cc7fce15015a89c65",
+      "bytes": 1321,
+      "type": "png",
+      "role": "texture",
+      "width": 1210,
+      "height": 380
+    },
+    {
+      "path": "res://assets/earth/shadows/left_upright_v1/forbidden.png",
+      "sha256": "abf3f4a113e2eb88bb0b26aaf7181bd83140d8b645102d03c14db3d707af4a9c",
+      "bytes": 526,
+      "type": "png",
+      "role": "texture",
+      "width": 1210,
+      "height": 380
+    },
+    {
+      "path": "res://assets/earth/shadows/left_upright_v1/manifest.json",
+      "sha256": "78d5ee4e72002f7e1a79fd7ab1e2c7b3339f59f17baf07481daacc2dee5f31f1",
+      "bytes": 9500,
+      "type": "json",
+      "role": "source-atlas-manifest"
+    },
+    {
+      "path": "res://assets/earth/shadows/left_upright_v1/nominal-envelope.png",
+      "sha256": "7f5a3b8079ec0f666347c508333cc6f648306b0571dfc632ee0b439cc89d6d13",
+      "bytes": 5267,
+      "type": "png",
+      "role": "texture",
+      "width": 1210,
+      "height": 380
+    },
+    {
+      "path": "res://assets/earth/shadows/left_upright_v1/root-error-envelope.png",
+      "sha256": "00725f17d3501153e6130149a523cc03d5e959cf6a777e8062d27449262a0ace",
+      "bytes": 2587,
+      "type": "png",
+      "role": "texture",
+      "width": 1210,
+      "height": 380
+    },
+    {
+      "path": "res://assets/earth/shadows/receiver_v2/allowed.png",
+      "sha256": "12c5804b27220bc04f0727db09857c886fe48cfd48065e828ce75b851527a29c",
+      "bytes": 4871,
+      "type": "png",
+      "role": "texture",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "res://assets/earth/shadows/receiver_v2/first-tree-envelope.png",
+      "sha256": "9bcfd26b632109ad0c45ea049f6ea68aca886c48dd46787578da424d0c59484e",
+      "bytes": 6274,
+      "type": "png",
+      "role": "texture",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "res://assets/earth/shadows/receiver_v2/first-tree-shadow-padded-1256.png",
+      "sha256": "1a1caf1da97bfe4fea2c5eb39e3f30a0d542a61f9ed00e0bcc867f4b9c456638",
+      "bytes": 2008644,
+      "type": "png",
+      "role": "texture",
+      "width": 1256,
+      "height": 1256
+    },
+    {
+      "path": "res://assets/earth/shadows/receiver_v2/forbidden.png",
+      "sha256": "80b42e4adffad4929a7dd46eea0f3e7254d4396a2e1912c34182104ae9a4aab2",
+      "bytes": 3849,
+      "type": "png",
+      "role": "texture",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "res://assets/earth/shadows/receiver_v2/lingyunzi-envelope-union.png",
+      "sha256": "72384d5dd4e67646f943623a18d1373992d6d7636599cfe0456fbc19d4ceb8e4",
+      "bytes": 2279,
+      "type": "png",
+      "role": "texture",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "res://assets/earth/shadows/receiver_v2/manifest.json",
+      "sha256": "9ebf5987e5f95f40850c1b27c83aedb859f1f7aba35e19348004984ceaf68809",
+      "bytes": 47480,
+      "type": "json",
+      "role": "source-atlas-manifest"
+    },
+    {
+      "path": "res://assets/earth/shadows/s_idle_contact_v1/envelope.png",
+      "sha256": "a731de3104eccc3e35aa50b2a2cce5ac994b781cee19ea3e027fd3b57a0a9047",
+      "bytes": 678,
+      "type": "png",
+      "role": "texture",
+      "width": 208,
+      "height": 96
+    },
+    {
+      "path": "res://assets/earth/shadows/s_idle_contact_v1/manifest.json",
+      "sha256": "0af5254fe748796c1bcb9540d8378f71b7e19a082bac6b837fa8989f7b67eab5",
+      "bytes": 19838,
+      "type": "json",
+      "role": "source-atlas-manifest"
+    },
+    {
+      "path": "res://assets/earth/shadows/se_flat_v1/allowed.png",
+      "sha256": "06d4a6fe1e8404c48619d51b72a67d82795fb178a34089e35b0661df5f9eb2dc",
+      "bytes": 4544,
+      "type": "png",
+      "role": "texture",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "res://assets/earth/shadows/se_flat_v1/envelope.png",
+      "sha256": "1f7096d7c3689fdc9158cea3c21b28c8338771feb45530def39aaa737832f8e3",
+      "bytes": 1261,
+      "type": "png",
+      "role": "texture",
+      "width": 272,
+      "height": 160
+    },
+    {
+      "path": "res://assets/earth/shadows/se_flat_v1/forbidden.png",
+      "sha256": "605ba15e50e5c1a710b1bab004ac824bb764f446dee29cdd1f9664f806426277",
+      "bytes": 3583,
+      "type": "png",
+      "role": "texture",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "res://assets/earth/shadows/se_flat_v1/manifest.json",
+      "sha256": "3c7ac445562535c706cd58ebef625880308860ddfa012686fee600223beaec48",
+      "bytes": 24399,
+      "type": "json",
+      "role": "source-atlas-manifest"
+    },
+    {
+      "path": "res://assets/earth/snapshot_opening/receiver_contract.json",
+      "sha256": "0292fcd96402ec0b26cd4b2d6d99cd069aa7e77a973e434f39fa6f15e1ce3534",
+      "bytes": 209023,
+      "type": "json",
+      "role": "registration"
+    },
+    {
+      "path": "res://assets/original/Map/Res/Building/0.png",
+      "sha256": "6fc88a1aa96eb18687eea798bcb4eae1f0ebf6d546a5a076fb1c2546550b3343",
+      "bytes": 2138303,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/Map/Res/Debris/0.png",
+      "sha256": "1a40e7affec8b5ef82ee902dda23261e67dd2ddf499301adbcfea4dea0c1b87e",
+      "bytes": 128529,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/Map/Res/FloorBig/0.png",
+      "sha256": "13033a7f8f1b548e523154f9d5be00a1ac01c43c39e9f6554d5b3e05ba47ba59",
+      "bytes": 490337,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/Map/Res/FloorSmall/0.png",
+      "sha256": "741a0daca4ccc8e9ac1eeac3ae391a07189d90fed115b42fd0d8b55b376f79bb",
+      "bytes": 114814,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/Map/Res/Plant/0.png",
+      "sha256": "ff43584596e7add00f07c628c3743ba82f0bb893d9f58303127475cc513c908c",
+      "bytes": 723574,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/Map/Res/Wall/0.png",
+      "sha256": "07bfa06728270c7f901eafc930c8c19a465af39e634d7ec0aa1160d9fcfad629",
+      "bytes": 699369,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/Npc/0.png",
+      "sha256": "c0de28cf0fe814dec4829db167869c7ebed876cc9cc2086f99d490427a0bfa67",
+      "bytes": 125130,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/hero/body-movement.png",
+      "sha256": "0698b9cc8a6386204e895b6179959b58bcf9d62d6735e6821f11af87cc839783",
+      "bytes": 335111,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 1024
+    },
+    {
+      "path": "res://assets/original/hero/head-movement.png",
+      "sha256": "347508d77a77d3360a5ff7467b6b0826bdb6be05d75177b73b9c3eccce090f5a",
+      "bytes": 34876,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 1024
+    },
+    {
+      "path": "res://assets/original/manifest.json",
+      "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+      "bytes": 262324,
+      "type": "json",
+      "role": "source-atlas-manifest"
+    },
+    {
+      "path": "res://assets/original/maps/A00/manifest.json",
+      "sha256": "f80e4a7e9c22be64b10ebfb395a88bec9adf42d5bd4136f509077665cea9811c",
+      "bytes": 652817,
+      "type": "json",
+      "role": "source-atlas-manifest"
+    },
+    {
+      "path": "res://assets/original/maps/A00/sprites/Data4/0.png",
+      "sha256": "7f65a5d911cdc957496f2a9a914a674f7d70965f83a8b54691ba1eb30c185566",
+      "bytes": 49309,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/maps/A00/sprites/Map/Res/Building/1.png",
+      "sha256": "012eb9d4fc5dc88bae68225dc4f2fcd6c952d52d40b48b77d33c260fbc88bf49",
+      "bytes": 3496505,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/maps/A00/sprites/Map/Res/Debris/1.png",
+      "sha256": "cf429f25087709f664a4a428bab1038434b31347b5d1bd6e8c9bc1b8fa417505",
+      "bytes": 147951,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/maps/A00/sprites/Map/Res/FloorBig/1.png",
+      "sha256": "bfbf0276edacf108ed127ccfc2af6c1a47e685916fb647a939493b122a6dcef2",
+      "bytes": 101012,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png",
+      "sha256": "e8fc4af9bffa704d90a3793380d7965fd0f792922e13e240a9f56d4222a4fdd1",
+      "bytes": 505680,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/maps/A00/sprites/Map/Res/Wall/1.png",
+      "sha256": "b79156b438c996ce73f7caf22522d686e235b6f7aea7e628b2dc6166032f7f9b",
+      "bytes": 662774,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/maps/A00/sprites/Npc/1.png",
+      "sha256": "5cdcc33b6e9b4ec5848d8dd89d963eba7f926200e93871684c47978607240f2e",
+      "bytes": 146198,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/monsters/a13-chicken/0.png",
+      "sha256": "ae89cdf0bd172772aae4fdd8f2419baa7dfdcca1a0d22a5a1dbce4acf28ebbfe",
+      "bytes": 262773,
+      "type": "png",
+      "role": "source-atlas",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "res://assets/original/monsters/a13-chicken/manifest.json",
+      "sha256": "4d464c422c52beadfb283193a399868d7cb0537849809187c826de94e14fe0c3",
+      "bytes": 146051,
+      "type": "json",
+      "role": "source-atlas-manifest"
+    },
+    {
+      "path": "res://assets/ui/original_dialog.png",
+      "sha256": "10c37c5e2b082e61f03e06baa82355ae0de629921e5e7ec48cc4b3336fc7e176",
+      "bytes": 26047,
+      "type": "png",
+      "role": "texture",
+      "width": 523,
+      "height": 216
+    },
+    {
+      "path": "res://data/earth/a13_hall_source_scope.json",
+      "sha256": "4288603a7dfd0ccc90a3bebf71473aca47a0bd57c448d6c33480b3f8952ff59e",
+      "bytes": 9592,
+      "type": "json",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://data/hero/movement.json",
+      "sha256": "b5eb981b005efedc5f071bb51f35240cabf91aa0d77143e70bcf4ee9b9c733f1",
+      "bytes": 152448,
+      "type": "json",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://data/items/catalogue.json",
+      "sha256": "284d0946ce9c9dda164472397c42fdd5207a0723abd2f9afac702de5ab8adf57",
+      "bytes": 7159031,
+      "type": "json",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://data/maps/A00.json",
+      "sha256": "0f921a2714cab0a29383a8a25631b515b2de98fa38c02ed4701f0a19d3355868",
+      "bytes": 1377296,
+      "type": "json",
+      "role": "source-map"
+    },
+    {
+      "path": "res://data/maps/A13.json",
+      "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+      "bytes": 618373,
+      "type": "json",
+      "role": "source-map"
+    },
+    {
+      "path": "res://data/monsters/a13-chicken.json",
+      "sha256": "4046ae10127843058cf369b4d4d19532d8c483f8ac331f3953d4338d6913d363",
+      "bytes": 6494,
+      "type": "json",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://data/story/opening.json",
+      "sha256": "a50745cb88b77f5acca5827156a8daddb957167b9f6f3240ed9829ea7cce7156",
+      "bytes": 3221,
+      "type": "json",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/art/density_alpha_ground_shadow.gd",
+      "sha256": "cfc61e6c2b647bee68b063c1eecd884e1ac0ffa545fc1a59b3c3af4397adaf47",
+      "bytes": 8344,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/art/hero_alpha_ground_shadow.gd",
+      "sha256": "3eeebe50bfdd235fee24b30bfbdaaad5517a5254bd7e318b73abc80adb5ccdd2",
+      "bytes": 11951,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/core/movement.gd",
+      "sha256": "6f48e3d5e7b655d19bd25f65ae735f1ab998f68cae8a17bc12306e0d66f2db99",
+      "bytes": 3529,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/earth/fangzhang_candidate.gd",
+      "sha256": "8f3b21d4f24c73299b8685715f58b8a4f15cbb9b454e84a34c69d9a12831e6a8",
+      "bytes": 1636,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/earth/hall_candidate.gd",
+      "sha256": "87351ee17139a51f5434143544291700ea8d0a401df1b8438973c92bb248a1ae",
+      "bytes": 3120,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/earth/instance_identity_guard.gd",
+      "sha256": "2eabae66a29b8696d7aef50ddfe5bbd27b46ad4278624c10b4a1183a2435cb0b",
+      "bytes": 1585,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/earth/max_ground_shadow.gd",
+      "sha256": "eb066c816e807bd542cf5338eab161aff9bf4ca34771764ac2a938f5edc3a5bb",
+      "bytes": 5932,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/earth/raw_ground_shadow.gd",
+      "sha256": "8af76868855ce04544a6251f3f2e850550f0ae423b39e5c54c8ed98e29c5bed6",
+      "bytes": 4541,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/earth/sample_floor_pass.gd",
+      "sha256": "7fd59781dca6e3f8cb7ae7fe5c493464668350ae3086af0deb10199f0361defb",
+      "bytes": 669,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/earth/sample_world.gd",
+      "sha256": "c9139f34e1d57b1d33086c11157850454325c88078608fe13f8a081f7ddc07b2",
+      "bytes": 22741,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/earth/upright_candidate.gd",
+      "sha256": "83d79c0484b186bdf1c160be4da5c18a8395f9cf6d6f2110b7f3d42ba39413a0",
+      "bytes": 2912,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/map_load_world.gd",
+      "sha256": "d06aceafe22f2c5092dab0b1079e58bcaf0e6d13535433bc5cf38f79c6dbadff",
+      "bytes": 1502,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/world_view.gd",
+      "sha256": "b404d8dd5e7e85a120fec00b7eb5f01e6bfc1fc37adf5e7878c1798432d4e285",
+      "bytes": 5700,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://shaders/density_alpha_ground_shadow.gdshader",
+      "sha256": "b4d976938acbb3b57df13bf85ade4ebf3173c0634b5e7ee4338e8b038bf51f3b",
+      "bytes": 1896,
+      "type": "gdshader",
+      "role": "shader"
+    },
+    {
+      "path": "res://shaders/earth_max_ground_shadow.gdshader",
+      "sha256": "232997a561d4451f4ecfc2da7cd4a0e821a751722392806c1d41fe2777ead22b",
+      "bytes": 5924,
+      "type": "gdshader",
+      "role": "shader"
+    },
+    {
+      "path": "res://shaders/hero_alpha_ground_shadow.gdshader",
+      "sha256": "d8f4894fd16458a3a7aabb5db5af4a95f39320f5e2549c33467f79f5a5089c24",
+      "bytes": 1812,
+      "type": "gdshader",
+      "role": "shader"
+    }
+  ],
+  "provenance": {
+    "base_commit": "44db593064164f8d43a6e75dc0a0b9510a470d53",
+    "note": "Explicit domain roots. Export adapter must traverse receiver_contract caster pins and original R6/A00 fallback graph. Not a claim whole game export closure is contained here."
+  }
+}

@@ -83,7 +83,7 @@ func prepare(id:String,source:Dictionary,objects:Array,packs:Dictionary,path:Str
 	# Exact map and complete manifest bind cells, flags and source frame metadata.
 	var map_disk=JSON.parse_string(FileAccess.get_file_as_string(reg.source_map.path))
 	var manifest_disk=JSON.parse_string(FileAccess.get_file_as_string(reg.source_manifest.path))
-	if not map_disk is Dictionary or source!=map_disk or not manifest_disk is Dictionary or packs!=manifest_disk.get("packs"):return reject("运行时地图或图集身份变化")
+	if not map_disk is Dictionary or not source_matches(source,map_disk,group) or not manifest_disk is Dictionary or not manifest_disk.get("packs") is Dictionary or not atlas_matches(packs,manifest_disk.packs):return reject("运行时地图或图集身份变化")
 	var image=Image.load_from_file(group.master.path)
 	if image==null or image.is_empty() or image.get_size()!=Vector2i(group.master.width,group.master.height):return reject("静态物件完整母图解码失败")
 	var texture=CanvasTexture.new()
@@ -139,3 +139,9 @@ func snapshot_file_available(path:String,snapshot:Dictionary) -> bool:
 	if snapshot.is_empty():return file_available(path)
 	if not snapshot.available.has(path):snapshot.available[path]=file_available(path)
 	return snapshot.available[path]
+
+func source_matches(source:Dictionary,source_disk:Dictionary,_group:Dictionary) -> bool:
+	return source==source_disk
+
+func atlas_matches(runtime:Dictionary,original:Dictionary) -> bool:
+	return runtime==original

@@ -129,7 +129,7 @@ func prepare_map(candidate_authority:Dictionary,map_id:String,cell:Array,next_st
 	var resource_check=ResourceCheck.check(loaded.map)
 	if not resource_check.ok:return resource_check
 	var next_actor=Movement.new()
-	var next_world=LoadedWorld.new()
+	var next_world=create_world(map_id)
 	if not next_world.setup_snapshot(next_actor,loaded.map):
 		var error=str(next_world.loading_errors)
 		next_world.free()
@@ -155,9 +155,9 @@ func publish(staged:Dictionary) -> void:
 	story=staged.story
 	stopped=staged.stopped
 	rng_state=staged.rng
-	remove_child(old_world)
-	add_child(world)
-	move_child(world,0)
+	old_world.get_parent().remove_child(old_world)
+	world_host().add_child(world)
+	world_host().move_child(world,0)
 	old_world.queue_free()
 	images.clear()
 	revision+=1
@@ -259,7 +259,7 @@ func prepare_inputs()->Dictionary:
 	return {"ok":true}
 func build_candidate_ui()->void:
 	# Build the inherited dialogue controls without eagerly loading a source map.
-	add_child(world)
+	world_host().add_child(world)
 	var canvas=CanvasLayer.new()
 	add_child(canvas)
 	canvas.add_child(status)
@@ -287,3 +287,7 @@ func build_candidate_ui()->void:
 	choices.mouse_filter=Control.MOUSE_FILTER_IGNORE
 	dialog.hide()
 	_update_status()
+
+# Optional renderer seams. Defaults preserve the original entry behavior.
+func create_world(_map_id:String):return LoadedWorld.new()
+func world_host():return self

@@ -53,7 +53,8 @@ func prepare_ground(path:String,source:Dictionary,packs:Dictionary,floors:Array)
 		if not FileAccess.file_exists(pin.path) or FileAccess.get_sha256(pin.path)!=pin.sha256:return reject("原版地图或图集校验不符")
 	var source_disk=JSON.parse_string(FileAccess.get_file_as_string(reg.source_map.path))
 	var manifest_disk=JSON.parse_string(FileAccess.get_file_as_string(reg.source_manifest.path))
-	if source!=source_disk or packs!=manifest_disk.packs:return reject("运行时地图或图集身份变化")
+	if not source_disk is Dictionary or not manifest_disk is Dictionary or not manifest_disk.get("packs") is Dictionary:return reject("Pinned source JSON structure invalid")
+	if not source_matches(source,source_disk) or not atlas_matches(packs,manifest_disk.packs):return reject("运行时地图或图集身份变化")
 	var stream=reg.floor_stream.records
 	if floors.size()!=2553 or stream.size()!=floors.size():return reject("完整地面序列长度变化")
 	for i in floors.size():
@@ -78,3 +79,9 @@ func prepare_ground(path:String,source:Dictionary,packs:Dictionary,floors:Array)
 		if not numbers(region,[2*(owner.world_origin[0]-2400),2*(owner.world_origin[1]-960),192,128]):return reject("共享图像区域变化")
 		staged[order]={"origin":f.origin,"region":Rect2(region[0],region[1],region[2],region[3])}
 	return {"owners":staged,"texture":canvas_texture(image)}
+
+func source_matches(source:Dictionary,source_disk:Dictionary) -> bool:
+	return source==source_disk
+
+func atlas_matches(runtime:Dictionary,original:Dictionary) -> bool:
+	return runtime==original
