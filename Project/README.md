@@ -31,6 +31,7 @@ A13 地面当前分为 **907 个草地 owner、24 个协调地面 owner、39 个
 
 ## 其他入口与资料
 
+- `scenes/earth_current_art_review.tscn`：**当前美术自由检视**。打开场景按 **F6**，可用出生区／南侧／南右／小屋／跟随按钮查看，也可点击寻路、Shift 跑步；固定 A13 参考图，不执行剧情、奖励或存档。绑定已发布 `3e9a8ff` 美术基线，详见[当前检视说明](docs/CURRENT_ART_REVIEW.md)。
 - `scenes/game.tscn`：历史原素材逻辑预览。打开场景后按 **F6（运行当前场景）**，不是当前 F5 默认。
 - `scenes/earth_first_map_review.tscn`：独立局部美术对照，打开后按 **F6**。该入口保留自己的相机和对照键，见[局部试玩说明](docs/first-map-review.md)；其覆盖与操作不等同于默认统一开场。
 - [本阶段验证范围与限制](docs/UNIFIED_STAGE_VALIDATION.md)
