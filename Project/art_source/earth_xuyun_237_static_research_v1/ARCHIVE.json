@@ -1,0 +1,92 @@
+{
+  "schema": "earth-xuyun-static-research-v1",
+  "status": "attempt1 rejected: historical garment structure and hand/knee pose differences. attempt2 modern training-clothes body selected by root for pending-native research only; original exact pose contract remains failed (right hand about+10logicalY; right knee about+9X,+4Y, manual uncertainty3\u20134). Neither production promotion nor final art acceptance.",
+  "actual_requests_author_confirmed": true,
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "original_returns": {
+    "attempt1": "generated_images/exec-b346f158-a9ea-4c14-b7f0-d2cacbef1b64.png",
+    "attempt2": "generated_images/exec-47115865-0842-4dec-8a88-d62ef1f5f732.png"
+  },
+  "reference_resolution": {
+    "/workspace/scratch/22c897619190/recovery-work/xuyun/attempt1/primary-source237-padded.png": {
+      "package_path": "references/primary-source237-padded.png",
+      "sha256": "957ab66ff8da858fd56f64bd48c40d86d7886af5c8a23540fd50f0639eef47c9"
+    },
+    "/workspace/scratch/22c897619190/recovery-work/remaining-npc-coverage/source-fourphase-record-5.png": {
+      "package_path": "references/source-fourphase-record-5.png",
+      "sha256": "45dd8fb8d1670d469d9ceefa5f06a25693a83c199661453d4a62c57139dcc9fd"
+    },
+    "/workspace/scratch/22c897619190/recovery-work/xuyun/attempt1/material-only-fabric.png": {
+      "package_path": "references/material-only-fabric.png",
+      "sha256": "a269c11bda35de57c567b90fbb782f4d18132f7eb81de3a5c31681a122139d6d"
+    },
+    "/workspace/scratch/22c897619190/recovery-work/xuyun/attempt2/primary-source237-padded.png": {
+      "package_path": "references/primary-source237-padded.png",
+      "sha256": "957ab66ff8da858fd56f64bd48c40d86d7886af5c8a23540fd50f0639eef47c9"
+    },
+    "/workspace/scratch/22c897619190/recovery-work/xuyun/attempt2/source-visible-endpoints-reading.png": {
+      "package_path": "references/source-visible-endpoints-reading.png",
+      "sha256": "a06a022d02527a34ffe0b6b3808aa60e0d04e6648ffe72b8fb5bae2cdcde046f"
+    }
+  },
+  "dependencies": [
+    {
+      "path": "data/maps/A13.json",
+      "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27"
+    },
+    {
+      "path": "assets/original/manifest.json",
+      "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837"
+    },
+    {
+      "path": "assets/original/Npc/0.png",
+      "sha256": "c0de28cf0fe814dec4829db167869c7ebed876cc9cc2086f99d490427a0bfa67"
+    },
+    {
+      "path": "assets/earth/npc/lingyunzi_v2/body.png",
+      "sha256": "541c6d0a7a1cf3dd1cd547be037cf17e2f9a6083b8de90c1641f13fbaf9bbb9e"
+    }
+  ],
+  "attempts": {
+    "attempt1": {
+      "raw_sha256": "29f6451b9386ce65986684587c632985d0efd38a324744d173cdd05bae768540",
+      "prompt_sha256": "55de2c00f5d7abcd3e2d1e32741aea49bb9bb6403a46b8f787c7d6f341c4b3ca",
+      "candidate_density4_sha256": "d94cd0403b0f5303e7b644885ce5d948c4882d8e37c2b18c74b83bc2c8ba50bf"
+    },
+    "attempt2": {
+      "raw_sha256": "6418dbae70cfb9b79ff5e11c3b8cc906468daa54299fb2aaa108ea68764e640c",
+      "prompt_sha256": "a1438e4fc80f0156a45588c3aca7d59578a88f76707ab526579fdbee562397d6",
+      "candidate_density4_sha256": "8a74e4ad56848eade334ccdfa5d74b343bf55aba63e3adb13b5fb04b43d42537"
+    }
+  },
+  "fixed_mapping": {
+    "world_origin": [
+      1376,
+      1308
+    ],
+    "logical_square": [
+      80,
+      80
+    ],
+    "raw_to_square": "wholecanvas premultiplied LANCZOS to320x320",
+    "density4_container": [
+      512,
+      640
+    ],
+    "paste": [
+      64,
+      272
+    ],
+    "map_anchor_world": [
+      1392,
+      1344
+    ],
+    "draw_offset_logical": [
+      -32,
+      -104
+    ]
+  },
+  "static_family": "Source237\u2013240 decodedRGBA/offset/crop/original/size are equal. A future approved singlebody may map all4sourceIDs while preserving phase clock. No4new animation images were generated.",
+  "runtime_enabled": false
+}

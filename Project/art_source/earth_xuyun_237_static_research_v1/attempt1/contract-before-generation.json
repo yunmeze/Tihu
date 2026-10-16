@@ -1,0 +1,284 @@
+{
+  "record": {
+    "record": 5,
+    "npc": {
+      "x": 29,
+      "y": 42,
+      "appearance": 19,
+      "direction": 2,
+      "name": "虚云道人",
+      "script": "#buy\r\n三清观符\r\n海曦村符\r\n蝙蝠洞符\r\n蜘蛛洞符\r\n蜈蚣洞符\r\n矿洞符\r\n禁地符\r\n恶魔谷符\r\n#endbuy\r\n\r\n#Sub Start\r\n唔修道一生，专研空间转移之术。符在手，思之所想，人之所至也。以后想来三清观，只需手持道符，心中默念三清观，即可速达。此外我还有一神器，你有没有兴趣？\r\n\r\n#button 是何神器？ 2 9 黄 M1\r\n#button 关闭 34 9 黄 OVER\r\n#end\r\n\r\n\r\n#Sub M1\r\n我有一神戒，可将你转移至最近的村镇，想必对你有用。但需要你帮我找到金、绿、红三色羽毛，怎样？\r\n\r\n#button 我已找到 2 9 黄 M2\r\n#button 再议 34 9 黄 OVER\r\n#end\r\n\r\n#sub M2\r\n#itemck 金色羽毛 > 0\r\n#itemck 红色羽毛 > 0\r\n#itemck 绿色羽毛 > 0\r\n#goto M2G\r\n#endif\r\n#endif\r\n#endif\r\n\r\n三色羽毛缺一不可\r\n\r\n#button 关闭 34 9 黄 OVER\r\n#END\r\n\r\n#sub M2G\r\n不错，拿着，从此你不用再为收集回城卷而烦恼了\r\n\r\n #take 金色羽毛 1\r\n #take 红色羽毛 1\r\n #take 绿色羽毛 1\r\n #give 传送戒指\r\n #endif\r\n#button 关闭 34 9 黄 over\r\n#END"
+    },
+    "mapanchor_world": [
+      1392,
+      1344
+    ],
+    "base": 237,
+    "frame_ids": [
+      237,
+      238,
+      239,
+      240
+    ],
+    "script_sha256": "f4c31ece9555a5235d1e0d3bff56e3ae08dec0b72043aa01169cb53a8a183456",
+    "layer": 1,
+    "sort_y": 42,
+    "stable_order": 10005,
+    "frames": [
+      {
+        "id": 237,
+        "metadata": {
+          "original": [
+            48,
+            53
+          ],
+          "offset": [
+            -1,
+            -23
+          ],
+          "sourceOffset": 961760,
+          "sourceBytes": 3827,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            48,
+            53
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "3ef1a1cb874f1e982691f4c748b2509bc049df4ed0a56543df2300bf0fafb73b",
+          "page": 0,
+          "rect": [
+            1109,
+            1,
+            48,
+            53
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          31,
+          81
+        ],
+        "mapanchor_to_draw": [
+          -1,
+          -23
+        ],
+        "alpha_bbox_local": [
+          0,
+          0,
+          48,
+          53
+        ]
+      },
+      {
+        "id": 238,
+        "metadata": {
+          "original": [
+            48,
+            53
+          ],
+          "offset": [
+            -1,
+            -23
+          ],
+          "sourceOffset": 965591,
+          "sourceBytes": 3839,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            48,
+            53
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "3ef1a1cb874f1e982691f4c748b2509bc049df4ed0a56543df2300bf0fafb73b",
+          "page": 0,
+          "rect": [
+            1159,
+            1,
+            48,
+            53
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          31,
+          81
+        ],
+        "mapanchor_to_draw": [
+          -1,
+          -23
+        ],
+        "alpha_bbox_local": [
+          0,
+          0,
+          48,
+          53
+        ]
+      },
+      {
+        "id": 239,
+        "metadata": {
+          "original": [
+            48,
+            53
+          ],
+          "offset": [
+            -1,
+            -23
+          ],
+          "sourceOffset": 969434,
+          "sourceBytes": 3839,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            48,
+            53
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "3ef1a1cb874f1e982691f4c748b2509bc049df4ed0a56543df2300bf0fafb73b",
+          "page": 0,
+          "rect": [
+            1209,
+            1,
+            48,
+            53
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          31,
+          81
+        ],
+        "mapanchor_to_draw": [
+          -1,
+          -23
+        ],
+        "alpha_bbox_local": [
+          0,
+          0,
+          48,
+          53
+        ]
+      },
+      {
+        "id": 240,
+        "metadata": {
+          "original": [
+            48,
+            53
+          ],
+          "offset": [
+            -1,
+            -23
+          ],
+          "sourceOffset": 973277,
+          "sourceBytes": 3839,
+          "format": "PNG",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            48,
+            53
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "3ef1a1cb874f1e982691f4c748b2509bc049df4ed0a56543df2300bf0fafb73b",
+          "page": 0,
+          "rect": [
+            1259,
+            1,
+            48,
+            53
+          ],
+          "crop": [
+            0,
+            0
+          ]
+        },
+        "logical_draw_origin": [
+          31,
+          81
+        ],
+        "mapanchor_to_draw": [
+          -1,
+          -23
+        ],
+        "alpha_bbox_local": [
+          0,
+          0,
+          48,
+          53
+        ]
+      }
+    ],
+    "adjacent_phase_rgba_changed": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "square_logical": [
+    80,
+    80
+  ],
+  "square_origin_relative_mapanchor": [
+    -16,
+    -36
+  ],
+  "world_mapanchor": [
+    1392,
+    1344
+  ],
+  "square_world_origin": [
+    1376,
+    1308
+  ],
+  "source_draw_in_square": [
+    15,
+    13
+  ],
+  "input_density": 8,
+  "actual_refs_order": [
+    "/workspace/scratch/22c897619190/recovery-work/xuyun/attempt1/primary-source237-padded.png",
+    "/workspace/scratch/22c897619190/recovery-work/remaining-npc-coverage/source-fourphase-record-5.png",
+    "/workspace/scratch/22c897619190/recovery-work/xuyun/attempt1/material-only-fabric.png"
+  ],
+  "sha256": {
+    "/workspace/scratch/22c897619190/recovery-work/xuyun/attempt1/primary-source237-padded.png": "957ab66ff8da858fd56f64bd48c40d86d7886af5c8a23540fd50f0639eef47c9",
+    "/workspace/scratch/22c897619190/recovery-work/remaining-npc-coverage/source-fourphase-record-5.png": "45dd8fb8d1670d469d9ceefa5f06a25693a83c199661453d4a62c57139dcc9fd",
+    "/workspace/scratch/22c897619190/recovery-work/xuyun/attempt1/material-only-fabric.png": "a269c11bda35de57c567b90fbb782f4d18132f7eb81de3a5c31681a122139d6d"
+  },
+  "mapping": "world=(1376,1308)+raw_pixel/(actual_raw_width/80)",
+  "density4_container": {
+    "size": [
+      512,
+      640
+    ],
+    "square_size": [
+      320,
+      320
+    ],
+    "paste": [
+      64,
+      272
+    ],
+    "mapanchor_logical": [
+      32,
+      104
+    ]
+  },
+  "ambiguity": "Which shin overlaps is unresolved; preserve visible folded leg/knee outline, no new chair/tool; original crown not modern hairstyle height",
+  "source_static_equivalent_four_ids": true
+}
