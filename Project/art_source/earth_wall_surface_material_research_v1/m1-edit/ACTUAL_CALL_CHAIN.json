@@ -1,0 +1,15 @@
+{
+  "tool": "tools.image_gen__imagegen",
+  "edit_call_count": 1,
+  "initial_M1_generation_count": 1,
+  "arguments": "ACTUAL_TOOL_ARGUMENTS.json",
+  "prompt": "PROMPT_ACTUAL.txt",
+  "input_order": "INPUT_SHA256.json",
+  "target_role": "sole old M1 flat material, not wallgeometry",
+  "output": "generated-raw.png",
+  "output_sha256": "cc2dad7c59f58a3d611529e7e52ffa876eb2e8f2a07fe368b13c153bad691ea7",
+  "output_hint": "TOOL_OUTPUT_HINT.txt",
+  "no_retry": true,
+  "no_CLI_API": true,
+  "target_unchanged_after_call": true
+}

@@ -1,0 +1,191 @@
+{
+  "schema": "sw-two-bounded-rigid-paths-v1",
+  "cases": [
+    {
+      "case": "A_separate_shoulder_and_guard_hand",
+      "path_definition": "q(lambda)=p+lambda*group_translation, rotations0; lambda grid0..1 by0.005. This is a sufficient local-strip seed path, not the whole feasible set or a full image mesh.",
+      "group_translation_at_lambda1_raw": {
+        "H": [
+          -10.7265625,
+          -2.046875
+        ],
+        "C": [
+          -10.0,
+          -8.0
+        ],
+        "R": [
+          -10.0,
+          -10.0
+        ],
+        "G": [
+          -24.75,
+          -66.578125
+        ],
+        "P": [
+          -10.0,
+          -14.0
+        ],
+        "N": [
+          -16.71875,
+          -61.671875
+        ],
+        "F": [
+          -5.5,
+          -22.7421875
+        ]
+      },
+      "last_local_strip_safe_fraction_on_grid": 0.12,
+      "first_all_error_targets_fraction_on_grid": 0.795,
+      "last_safe_displacement_native_by_group": {
+        "H": [
+          -0.13138755980861244,
+          -0.025071770334928228
+        ],
+        "C": [
+          -0.12248803827751195,
+          -0.09799043062200957
+        ],
+        "R": [
+          -0.12248803827751195,
+          -0.12248803827751195
+        ],
+        "G": [
+          -0.30315789473684207,
+          -0.8155023923444976
+        ],
+        "P": [
+          -0.12248803827751195,
+          -0.17148325358851674
+        ],
+        "N": [
+          -0.20478468899521532,
+          -0.7554066985645933
+        ],
+        "F": [
+          -0.06736842105263158,
+          -0.2785645933014354
+        ]
+      },
+      "first_local_failure": {
+        "fraction": 0.125,
+        "local_strip_limits_pass": false,
+        "all_error_targets_reached": false,
+        "failed_strips": [
+          "near_upper_sleeve"
+        ],
+        "min_singular": 0.7994599971487105,
+        "max_singular": 1.0140950785521727,
+        "min_area": 0.8057215073529412
+      },
+      "lambda1_metrics": {
+        "fraction": 1.0,
+        "local_strip_limits_pass": false,
+        "all_error_targets_reached": true,
+        "failed_strips": [
+          "far_thigh_cloth",
+          "near_thigh_cloth",
+          "near_upper_sleeve"
+        ],
+        "min_singular": 0.1749100470976332,
+        "max_singular": 1.208289306441752,
+        "min_area": -0.5542279411764706
+      },
+      "target_and_local_strain_intersection_empty_on_sampled_path": true,
+      "limits": "No claim between grid samples, at uncertain material boundaries, or about global nonintersection. This local seed path is not accepted movement."
+    },
+    {
+      "case": "B_shared_shoulder_guard_hand_rigid_unit",
+      "path_definition": "q(lambda)=p+lambda*group_translation, rotations0; lambda grid0..1 by0.005. This is a sufficient local-strip seed path, not the whole feasible set or a full image mesh.",
+      "group_translation_at_lambda1_raw": {
+        "H": [
+          -10.7265625,
+          -2.046875
+        ],
+        "C": [
+          -10.0,
+          -8.0
+        ],
+        "R": [
+          -24.75,
+          -66.578125
+        ],
+        "G": [
+          -24.75,
+          -66.578125
+        ],
+        "P": [
+          -10.0,
+          -14.0
+        ],
+        "N": [
+          -16.71875,
+          -61.671875
+        ],
+        "F": [
+          -5.5,
+          -22.7421875
+        ]
+      },
+      "last_local_strip_safe_fraction_on_grid": 0.065,
+      "first_all_error_targets_fraction_on_grid": 0.795,
+      "last_safe_displacement_native_by_group": {
+        "H": [
+          -0.07116826156299841,
+          -0.013580542264752792
+        ],
+        "C": [
+          -0.06634768740031897,
+          -0.05307814992025518
+        ],
+        "R": [
+          -0.16421052631578947,
+          -0.44173046251993625
+        ],
+        "G": [
+          -0.16421052631578947,
+          -0.44173046251993625
+        ],
+        "P": [
+          -0.06634768740031897,
+          -0.09288676236044657
+        ],
+        "N": [
+          -0.11092503987240829,
+          -0.4091786283891547
+        ],
+        "F": [
+          -0.03649122807017544,
+          -0.15088915470494418
+        ]
+      },
+      "first_local_failure": {
+        "fraction": 0.07,
+        "local_strip_limits_pass": false,
+        "all_error_targets_reached": false,
+        "failed_strips": [
+          "chest_shoulder_seam"
+        ],
+        "min_singular": 0.8412790786516144,
+        "max_singular": 1.2094744179550199,
+        "min_area": 0.9692648093220341
+      },
+      "lambda1_metrics": {
+        "fraction": 1.0,
+        "local_strip_limits_pass": false,
+        "all_error_targets_reached": true,
+        "failed_strips": [
+          "chest_shoulder_seam",
+          "far_thigh_cloth",
+          "near_thigh_cloth"
+        ],
+        "min_singular": 0.17203771849981572,
+        "max_singular": 5.487728736879943,
+        "min_area": 0.5609258474576272
+      },
+      "target_and_local_strain_intersection_empty_on_sampled_path": true,
+      "limits": "No claim between grid samples, at uncertain material boundaries, or about global nonintersection. This local seed path is not accepted movement."
+    }
+  ],
+  "interpretation": "No acceptable target-reaching path shown. Do not confuse a small safe local-strip seed with production mesh feasibility. No further numerical retries.",
+  "material_assignment_correction": "P1 screen-left vertical metal panel is anatomically ambiguous (could be far forearm/side armor). Its early exploratory coupling to hip P is not an approved assignment. Exclude P1-related overlap counts from conclusions; keep this panel protected and its existing far-hand occlusion unchanged pending a separate visible-surface boundary review. Arm/leg strip conflicts reported here do not depend on P1."
+}

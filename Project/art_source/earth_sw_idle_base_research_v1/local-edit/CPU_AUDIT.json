@@ -1,0 +1,398 @@
+{
+  "schema": "sw-local-farhand-edit-common-scale-audit-v1",
+  "local_edit_verdict": "FAIL_EXACT_LOCAL_EDIT: canvas and out-of-region appearance/geometry were not preserved. This verdict is distinct from possible new-base usability.",
+  "new_base_verdict": "HOLD_FOR_ROOT_REVIEW: geometry remains close to first candidate under one common scale; shoe/near-hand placement substantially closer than prior regenerated1254-square base. Not an accepted original21 or four-phase asset.",
+  "raw": {
+    "path": "/workspace/scratch/22c897619190/recovery-work/sw-idle-local-farhand-edit-v1/RAW.png",
+    "sha256": "f38646c3c2b373a5fdb1d089a050cb0a1a6e79441d747a937eb550ab791e237a",
+    "size": [
+      1118,
+      1407
+    ],
+    "mode": "RGBA",
+    "builtin_calls": 1
+  },
+  "canvas_change": {
+    "input_size": [
+      576,
+      725
+    ],
+    "width_ratio": 1.9409722222222223,
+    "height_ratio": 1.9406896551724138,
+    "single_scale_k_used": 1.9406896551724138,
+    "translation": [
+      0,
+      0
+    ],
+    "width_rounding_residual_input_px": 0.08386638237379884,
+    "status": "Near-uniform resolution increase. Dimension mismatch fails pixel-in-place editing, but alone does not prove bad geometry."
+  },
+  "main_component_alpha128": {
+    "old": {
+      "bbox_xyxy": [
+        216,
+        121,
+        398,
+        614
+      ],
+      "crown": [
+        303.2,
+        121.0
+      ],
+      "area": 52299
+    },
+    "new": {
+      "bbox_xyxy": [
+        441,
+        235,
+        774,
+        1191
+      ],
+      "crown": [
+        586.0,
+        235.0
+      ],
+      "area": 198231
+    },
+    "new_bbox_in_input_canvas": [
+      227.23880597014926,
+      121.090973702914,
+      398.8272921108742,
+      613.6993603411514
+    ]
+  },
+  "proxies": [
+    {
+      "name": "crown",
+      "old_input_xy": [
+        303.2,
+        121.0
+      ],
+      "new_raw_xy": [
+        586.0,
+        235.0
+      ],
+      "new_after_common_canvas_scale_xy": [
+        301.954513148543,
+        121.090973702914
+      ],
+      "residual_input_px": [
+        -1.245486851456974,
+        0.09097370291399898
+      ],
+      "old_fixed_diagnostic_native_xy": [
+        40.7779750178181,
+        15.101049845647001
+      ],
+      "new_fixed_diagnostic_native_xy": [
+        40.58973749476313,
+        15.11479921962043
+      ],
+      "source21_proxy_native_xy": [
+        40.5,
+        15.0
+      ],
+      "new_vs_source21_under_unchanged_diagnostic_map": [
+        0.08973749476312776,
+        0.11479921962042994
+      ]
+    },
+    {
+      "name": "upper_left_boot_endpoint",
+      "old_input_xy": [
+        242.0,
+        532.5
+      ],
+      "new_raw_xy": [
+        468.0,
+        1032.0
+      ],
+      "new_after_common_canvas_scale_xy": [
+        241.15138592750534,
+        531.7697228144989
+      ],
+      "residual_input_px": [
+        -0.8486140724946551,
+        -0.7302771855011088
+      ],
+      "old_fixed_diagnostic_native_xy": [
+        31.52847037833657,
+        77.29338904738965
+      ],
+      "new_fixed_diagnostic_native_xy": [
+        31.40021449924068,
+        77.18301809615762
+      ],
+      "source21_proxy_native_xy": [
+        32.0,
+        77.5
+      ],
+      "new_vs_source21_under_unchanged_diagnostic_map": [
+        -0.5997855007593209,
+        -0.31698190384237535
+      ]
+    },
+    {
+      "name": "lower_boot_endpoint",
+      "old_input_xy": [
+        286.0,
+        597.5
+      ],
+      "new_raw_xy": [
+        552.0,
+        1158.5
+      ],
+      "new_after_common_canvas_scale_xy": [
+        284.4349680170576,
+        596.9527363184079
+      ],
+      "residual_input_px": [
+        -1.5650319829424006,
+        -0.547263681592085
+      ],
+      "old_fixed_diagnostic_native_xy": [
+        38.17844103417297,
+        87.11720933442068
+      ],
+      "new_fixed_diagnostic_native_xy": [
+        37.94190883503632,
+        87.03449825661177
+      ],
+      "source21_proxy_native_xy": [
+        38.0,
+        87.0
+      ],
+      "new_vs_source21_under_unchanged_diagnostic_map": [
+        -0.0580911649636775,
+        0.03449825661176931
+      ]
+    },
+    {
+      "name": "near_hand_outer_terminal",
+      "old_input_xy": [
+        356.5,
+        412.0
+      ],
+      "new_raw_xy": [
+        689.5,
+        803.0
+      ],
+      "new_after_common_canvas_scale_xy": [
+        355.2860696517413,
+        413.77043354655297
+      ],
+      "residual_input_px": [
+        -1.2139303482587138,
+        1.7704335465529653
+      ],
+      "old_fixed_diagnostic_native_xy": [
+        48.83350765318356,
+        59.08153759220134
+      ],
+      "new_fixed_diagnostic_native_xy": [
+        48.65003944422561,
+        59.34911329976237
+      ],
+      "source21_proxy_native_xy": [
+        48.0,
+        57.0
+      ],
+      "new_vs_source21_under_unchanged_diagnostic_map": [
+        0.6500394442256123,
+        2.3491132997623723
+      ]
+    }
+  ],
+  "proxy_limits": "Crown top-row centroid sensitive to hair/alpha; old ±5 input px, new approx±3 input px interpretation. Shoe endpoints each±3 input px. Near-hand terminal each approx±3 input px; original native hand proxy±2. These are visible surfaces, not joints/contacts.",
+  "original_SW21_comparison": {
+    "prior_report_path": "/workspace/scratch/22c897619190/recovery-work/sw-idle-fourphase-generation-v1/cpu-review-v1/CPU_REVIEW.json",
+    "prior_report_sha256": "30ce9546a288a6f0dcedc2ec60cff4b2ea8879b11c14a5353bf68b4fae31bf7b",
+    "fixed_map_scale": 0.15113569672355442,
+    "fixed_map_translation": [
+      27.598942263524158,
+      -3.1863694579030835
+    ],
+    "fixed_input_subtraction": [
+      216,
+      0
+    ],
+    "status": "Unchanged previous diagnostic map only, NOT approved registration. No new fitting to body parts or current output. SourceSW21 was not supplied to generation."
+  },
+  "boot_gap": {
+    "old_input_px": 65.0,
+    "new_raw_px": 126.5,
+    "new_after_common_scale_input_px": 65.18301350390902,
+    "old_diagnostic_native_px": 9.823820287031037,
+    "new_diagnostic_native_px": 9.851480160454146,
+    "source21_native_px": 9.5
+  },
+  "regions": [
+    {
+      "region": "head",
+      "input_canvas_rect_xyxy": [
+        250,
+        115,
+        335,
+        215
+      ],
+      "alpha128_IoU": 0.9721049457177322,
+      "RGB_MAE_0_255_in_core_overlap": 13.225427847577684,
+      "outer_alpha_contour_bidirectional_distance_input_px": {
+        "n": 288,
+        "p50": 1.0,
+        "p95": 2.23606797749979,
+        "max": 3.1622776601683795
+      },
+      "limit": "Alpha outer boundary, not an interior armor plate segmentation. RGB differences include resampling and repainting; no local alignment was applied."
+    },
+    {
+      "region": "chest_surface",
+      "input_canvas_rect_xyxy": [
+        250,
+        215,
+        325,
+        295
+      ],
+      "alpha128_IoU": 1.0,
+      "RGB_MAE_0_255_in_core_overlap": 12.05954802259887,
+      "outer_alpha_contour_bidirectional_distance_input_px": null,
+      "limit": "Alpha outer boundary, not an interior armor plate segmentation. RGB differences include resampling and repainting; no local alignment was applied."
+    },
+    {
+      "region": "near_shoulder_outer",
+      "input_canvas_rect_xyxy": [
+        320,
+        195,
+        402,
+        295
+      ],
+      "alpha128_IoU": 0.9812324053800437,
+      "RGB_MAE_0_255_in_core_overlap": 10.080969078737647,
+      "outer_alpha_contour_bidirectional_distance_input_px": {
+        "n": 230,
+        "p50": 1.0,
+        "p95": 2.0,
+        "max": 2.23606797749979
+      },
+      "limit": "Alpha outer boundary, not an interior armor plate segmentation. RGB differences include resampling and repainting; no local alignment was applied."
+    },
+    {
+      "region": "near_guard_hand_outer",
+      "input_canvas_rect_xyxy": [
+        335,
+        295,
+        405,
+        420
+      ],
+      "alpha128_IoU": 0.9688617401668653,
+      "RGB_MAE_0_255_in_core_overlap": 8.98077810241427,
+      "outer_alpha_contour_bidirectional_distance_input_px": {
+        "n": 418,
+        "p50": 1.0,
+        "p95": 2.23606797749979,
+        "max": 6.324555320336759
+      },
+      "limit": "Alpha outer boundary, not an interior armor plate segmentation. RGB differences include resampling and repainting; no local alignment was applied."
+    },
+    {
+      "region": "near_shin_boot_outer",
+      "input_canvas_rect_xyxy": [
+        275,
+        455,
+        355,
+        625
+      ],
+      "alpha128_IoU": 0.9658300574538857,
+      "RGB_MAE_0_255_in_core_overlap": 10.775238294023517,
+      "outer_alpha_contour_bidirectional_distance_input_px": {
+        "n": 659,
+        "p50": 1.0,
+        "p95": 2.0,
+        "max": 3.0
+      },
+      "limit": "Alpha outer boundary, not an interior armor plate segmentation. RGB differences include resampling and repainting; no local alignment was applied."
+    },
+    {
+      "region": "upper_left_boot_outer",
+      "input_canvas_rect_xyxy": [
+        225,
+        490,
+        290,
+        555
+      ],
+      "alpha128_IoU": 0.9370037056643726,
+      "RGB_MAE_0_255_in_core_overlap": 12.537664783427495,
+      "outer_alpha_contour_bidirectional_distance_input_px": {
+        "n": 216,
+        "p50": 1.0,
+        "p95": 2.23606797749979,
+        "max": 2.23606797749979
+      },
+      "limit": "Alpha outer boundary, not an interior armor plate segmentation. RGB differences include resampling and repainting; no local alignment was applied."
+    },
+    {
+      "region": "far_sleeve_outside_edit",
+      "input_canvas_rect_xyxy": [
+        205,
+        210,
+        255,
+        285
+      ],
+      "alpha128_IoU": 0.7929179740026894,
+      "RGB_MAE_0_255_in_core_overlap": 26.916525343885436,
+      "outer_alpha_contour_bidirectional_distance_input_px": {
+        "n": 151,
+        "p50": 4.47213595499958,
+        "p95": 13.0,
+        "max": 13.92838827718412
+      },
+      "limit": "Alpha outer boundary, not an interior armor plate segmentation. RGB differences include resampling and repainting; no local alignment was applied."
+    },
+    {
+      "region": "all_outside_allowed_edit",
+      "input_canvas_rect_xyxy": [
+        0,
+        0,
+        576,
+        725
+      ],
+      "alpha128_IoU": 0.9672870299309286,
+      "RGB_MAE_0_255_in_core_overlap": 10.962345862673146,
+      "outer_alpha_contour_bidirectional_distance_input_px": {
+        "n": 2403,
+        "p50": 1.0,
+        "p95": 3.0,
+        "max": 13.92838827718412
+      },
+      "limit": "Alpha outer boundary, not an interior armor plate segmentation. RGB differences include resampling and repainting; no local alignment was applied."
+    }
+  ],
+  "alpha_preservation": {
+    "nonzero_count": 208921,
+    "alpha1": 3924,
+    "alpha2_127": 6766,
+    "alpha128_254": 198159,
+    "alpha255": 72,
+    "nonzero_median": 253.0,
+    "alpha0_nonzero_RGB_count": 70,
+    "nonzero_bbox": [
+      66,
+      104,
+      891,
+      1349
+    ],
+    "unchanged_output_RGBA": "Original returned RGBA retained; no threshold/erase/trim. Input alpha itself was not pixel-preserved by generation."
+  },
+  "visual": {
+    "far_hand": "Exposed screen-left palm/fingers now naturally hidden. Far sleeve silhouette changed beyond requested edit rectangle.",
+    "near_hand": "Still visible; small outline/knuckle/thumb and highlight redraw. Not a large6-7 nativepx displacement.",
+    "hardware": "Near shoulder/guard/shin/boot outer alpha contour remains close under common scale. Chest/armor internal surfaces, plate seam highlights, scratches and face/hair were repainted; not solely a far-hand edit.",
+    "identity": "Broad same SW identity, outfit, paired red caps and upper-left light, pending root acceptance as a NEW base."
+  },
+  "preservation": {
+    "all_prior_pinned_files_unchanged": true,
+    "prior_pinned_count": 35,
+    "raw_reverified": "f38646c3c2b373a5fdb1d089a050cb0a1a6e79441d747a937eb550ab791e237a",
+    "no_mesh_engine_main_writes": true
+  }
+}

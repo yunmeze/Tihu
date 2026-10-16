@@ -1,0 +1,18 @@
+{
+  "tool": "image_gen.imagegen",
+  "builtin_call_number": 1,
+  "builtin_call_limit": 1,
+  "allowed_edit_rectangle_xyxy": [
+    225,
+    285,
+    260,
+    337
+  ],
+  "arguments": {
+    "prompt": "Use case: precise-object-edit.\nEdit the ONE attached image locally. It is a 576x725 RGBA image. This image itself is the sole edit target, identity, pose, camera, scale, lighting and layout reference. Return the same 576x725 canvas.\n\nOnly change the small screen-left FAR hand beside the hip: approximately x225..260, y285..337 in this image. The exposed palm/fingers around x233..248, y296..327 should naturally disappear behind the EXISTING far sleeve and torso/side armor in this same SW view. Create a convincing local continuation/overlap of the existing black sleeve/torso material so the far hand is occluded, not flattened, shrunk, amputated, painted as a black hand, or erased into transparency. Preserve the adjacent existing metallic side piece wherever possible. Do not add another hand or expose hidden anatomy.\n\nSTRICT LOCAL EDIT: preserve all pixels and alpha outside that small local repair area. Do not repaint, regenerate, restyle, enlarge, shrink, move, crop, recenter or reframe the character. Keep the head/hair/face, both shoulders, chest and abdomen armor, screen-right NEAR forearm and hand, both legs/shins and BOTH BOOTS exactly where and how they already are. Keep the exact original boot stagger and all proportions. Keep SW facing screen lower-left, the existing camera and upper-left light. Do not rotate toward front S, mirror, or change the outfit, armor seams, scratches, hair highlights or facial identity.\n\nPreserve the existing transparent RGBA background and original transparency/antialiasing, including faint peripheral alpha pixels. Do not clean up, threshold or replace the background, add shadows, add a floor, labels, grids, text or a watermark. One complete existing character only. This is a tiny far-hand occlusion repair, not a new whole-body render.",
+    "referenced_image_paths": [
+      "/workspace/scratch/22c897619190/recovery-work/sw-idle-single-base-correction-v1/INPUT-candidate-first-cell-full-RGBA.png"
+    ],
+    "transparent_background": true
+  }
+}

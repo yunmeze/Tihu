@@ -1,0 +1,1728 @@
+{
+  "schema": "sw-four-phase-cpu-review-v1",
+  "verdict": "FAIL_FIXED_LAYOUT; PHASE_FIDELITY_NOT_ESTABLISHED; NOT_ACCEPTED",
+  "raw": {
+    "path": "/workspace/scratch/22c897619190/recovery-work/sw-idle-fourphase-generation-v1/RAW.png",
+    "sha256": "faffe904547da0c3f1a2352db5b3e82a3c52731f4ae816ba732042b5e3ac5192",
+    "RGBA_sha256": "225969ba8aba5a203d90fa995fa997074a135f0f1ebd77efb9b44a0082e3586a",
+    "size": [
+      2170,
+      725
+    ],
+    "mode": "RGBA"
+  },
+  "request_pins": {
+    "REQUEST.json": "6817865e6155031c8d210a8f73744867378e60c6e07aaaf136c0fb8ba24db33f",
+    "PROMPT.txt": "40b3012137ba48ec450cff819ef8653e50ebd789a1de25cf97fc00c48959a80c",
+    "GENERATION_RESULT.json": "4d3e4267fca5fdd78e17fa4f8d1ba322f2baebd57329fc442b9e92bf207c6f9f"
+  },
+  "source_pins": {
+    "body": {
+      "atlas": "/workspace/scratch/22c897619190/tihu-legend/Project/assets/original/hero/body-movement.png",
+      "sha256": "0698b9cc8a6386204e895b6179959b58bcf9d62d6735e6821f11af87cc839783",
+      "lpRes_sha256": "28bea90dd1230e5053c1437a9889bf3f7522872963cfc0d3e9560cc2492aa5ed"
+    },
+    "head": {
+      "atlas": "/workspace/scratch/22c897619190/tihu-legend/Project/assets/original/hero/head-movement.png",
+      "sha256": "347508d77a77d3360a5ff7467b6b0826bdb6be05d75177b73b9c3eccce090f5a",
+      "lpRes_sha256": "ae3a555d3e0522e7800c8650747a62df6b74dfd19f1cdc6e826ff8477fb380d1"
+    }
+  },
+  "alpha": {
+    "histogram_0_255": [
+      1339969,
+      10004,
+      2691,
+      1527,
+      1092,
+      777,
+      591,
+      432,
+      305,
+      224,
+      186,
+      155,
+      127,
+      139,
+      110,
+      125,
+      95,
+      88,
+      88,
+      82,
+      81,
+      72,
+      53,
+      70,
+      57,
+      77,
+      78,
+      68,
+      60,
+      47,
+      67,
+      61,
+      60,
+      58,
+      48,
+      49,
+      47,
+      52,
+      44,
+      54,
+      64,
+      56,
+      47,
+      42,
+      43,
+      50,
+      44,
+      50,
+      52,
+      43,
+      47,
+      55,
+      51,
+      55,
+      41,
+      38,
+      24,
+      46,
+      40,
+      40,
+      35,
+      32,
+      35,
+      32,
+      32,
+      32,
+      38,
+      33,
+      39,
+      32,
+      35,
+      48,
+      46,
+      42,
+      30,
+      41,
+      54,
+      47,
+      37,
+      33,
+      34,
+      33,
+      37,
+      33,
+      33,
+      35,
+      35,
+      34,
+      31,
+      35,
+      40,
+      34,
+      30,
+      32,
+      28,
+      26,
+      25,
+      26,
+      45,
+      44,
+      30,
+      45,
+      37,
+      31,
+      35,
+      29,
+      34,
+      40,
+      37,
+      41,
+      41,
+      37,
+      48,
+      31,
+      34,
+      39,
+      36,
+      39,
+      35,
+      41,
+      25,
+      43,
+      41,
+      35,
+      41,
+      24,
+      39,
+      36,
+      31,
+      29,
+      37,
+      29,
+      47,
+      35,
+      34,
+      34,
+      23,
+      26,
+      44,
+      34,
+      26,
+      38,
+      18,
+      38,
+      32,
+      31,
+      33,
+      30,
+      33,
+      46,
+      44,
+      41,
+      38,
+      24,
+      30,
+      39,
+      35,
+      40,
+      26,
+      33,
+      36,
+      44,
+      35,
+      32,
+      34,
+      43,
+      37,
+      43,
+      43,
+      30,
+      42,
+      35,
+      39,
+      39,
+      36,
+      48,
+      37,
+      34,
+      56,
+      45,
+      38,
+      48,
+      50,
+      37,
+      53,
+      41,
+      41,
+      46,
+      44,
+      40,
+      44,
+      43,
+      45,
+      51,
+      54,
+      43,
+      46,
+      69,
+      49,
+      51,
+      48,
+      51,
+      51,
+      45,
+      58,
+      59,
+      66,
+      64,
+      63,
+      51,
+      49,
+      48,
+      45,
+      66,
+      62,
+      67,
+      72,
+      60,
+      62,
+      66,
+      61,
+      73,
+      86,
+      82,
+      73,
+      71,
+      123,
+      93,
+      91,
+      109,
+      114,
+      113,
+      117,
+      136,
+      142,
+      156,
+      159,
+      180,
+      208,
+      244,
+      295,
+      364,
+      480,
+      534,
+      645,
+      783,
+      1068,
+      1344,
+      1974,
+      3192,
+      5802,
+      14164,
+      69242,
+      102810,
+      225,
+      560
+    ],
+    "nonzero_count": 233281,
+    "alpha1_count": 10004,
+    "alpha2_127_count": 13412,
+    "alpha128_254_count": 209305,
+    "alpha255_count": 560,
+    "nonzero_median": 252.0,
+    "zero_alpha_nonzero_RGB_pixels": 568,
+    "bbox_nonzero_xyxy": [
+      87,
+      15,
+      2146,
+      617
+    ],
+    "policy": "Thresholds only observe geometry; original RGBA unchanged. Do not denoise, threshold, trim fringe or normalize interior alpha."
+  },
+  "components_alpha128": [
+    {
+      "label": 1,
+      "area": 52299,
+      "bbox_xyxy": [
+        216,
+        121,
+        398,
+        614
+      ]
+    },
+    {
+      "label": 2,
+      "area": 52550,
+      "bbox_xyxy": [
+        754,
+        121,
+        936,
+        614
+      ]
+    },
+    {
+      "label": 3,
+      "area": 52319,
+      "bbox_xyxy": [
+        1256,
+        121,
+        1438,
+        614
+      ]
+    },
+    {
+      "label": 4,
+      "area": 52697,
+      "bbox_xyxy": [
+        1784,
+        121,
+        1967,
+        614
+      ]
+    }
+  ],
+  "fixed_layout": {
+    "nominal_equal_cell_width": 542.5,
+    "fixed_integer_boundaries_x": [
+      0,
+      543,
+      1085,
+      1628,
+      2170
+    ],
+    "core_left_local_to_fixed_integer_cells": [
+      216,
+      211,
+      171,
+      156
+    ],
+    "core_left_spacing": [
+      538,
+      502,
+      528
+    ],
+    "input_reference_aspect": 4.0,
+    "raw_aspect": 2.9931034482758623,
+    "verdict": "FAIL. Layout origins were not preserved; single common translation cannot fix per-cell drift."
+  },
+  "proxies": {
+    "names": [
+      "crown_top_row_centroid",
+      "upper_left_boot_leading_edge",
+      "lower_boot_leading_edge"
+    ],
+    "original_canvas_xy": [
+      [
+        [
+          40.5,
+          15.0
+        ],
+        [
+          32.0,
+          77.5
+        ],
+        [
+          38.0,
+          87.0
+        ]
+      ],
+      [
+        [
+          40.5,
+          15.0
+        ],
+        [
+          32.0,
+          77.5
+        ],
+        [
+          38.0,
+          87.0
+        ]
+      ],
+      [
+        [
+          40.5,
+          15.0
+        ],
+        [
+          32.0,
+          78.0
+        ],
+        [
+          38.0,
+          87.0
+        ]
+      ],
+      [
+        [
+          40.5,
+          15.0
+        ],
+        [
+          32.0,
+          77.5
+        ],
+        [
+          38.0,
+          87.0
+        ]
+      ]
+    ],
+    "raw_sheet_xy": [
+      [
+        [
+          303.2,
+          121.0
+        ],
+        [
+          242.0,
+          532.5
+        ],
+        [
+          286.0,
+          597.5
+        ]
+      ],
+      [
+        [
+          840.0,
+          121.0
+        ],
+        [
+          779.0,
+          533.5
+        ],
+        [
+          824.0,
+          597.5
+        ]
+      ],
+      [
+        [
+          1343.0,
+          121.0
+        ],
+        [
+          1281.0,
+          533.0
+        ],
+        [
+          1325.0,
+          598.0
+        ]
+      ],
+      [
+        [
+          1875.0,
+          121.0
+        ],
+        [
+          1810.0,
+          533.0
+        ],
+        [
+          1855.0,
+          598.0
+        ]
+      ]
+    ],
+    "uncertainty": "Original ±1px surface interpretation; raw crown ±5px and boot edge ±3px. Not anatomy or planted contact. Changed hair/boot geometry limits homologous interpretation."
+  },
+  "diagnostic_common_scale_fits": {
+    "whole_sheet": {
+      "native_pixels_per_raw_pixel": 0.2344897846447997,
+      "raw_pixels_per_native_pixel": 4.264578098848866,
+      "translation_native_xy": [
+        -20.57000161487565,
+        -37.96586264304267
+      ],
+      "RMS_native_px": 18.970584929784607,
+      "max_abs_coordinate_residual_native_px": 24.592598701021906,
+      "residuals_native_xy": [
+        [
+          [
+            10.02730108942761,
+            -24.592598701021906
+          ],
+          [
+            4.176526269165876,
+            9.399947680313161
+          ],
+          [
+            8.494076793537062,
+            15.141783682225139
+          ]
+        ],
+        [
+          [
+            7.901417486756088,
+            -24.592598701021906
+          ],
+          [
+            2.097540623423299,
+            9.63443746495797
+          ],
+          [
+            6.6495809324393065,
+            15.141783682225139
+          ]
+        ],
+        [
+          [
+            -2.150220836909682,
+            -24.592598701021906
+          ],
+          [
+            -8.18858748488725,
+            9.017192572635565
+          ],
+          [
+            -3.871036960516051,
+            15.259028574547557
+          ]
+        ],
+        [
+          [
+            -5.401655405876227,
+            -24.592598701021906
+          ],
+          [
+            -12.14349140778819,
+            9.517192572635565
+          ],
+          [
+            -7.591451098772211,
+            15.259028574547557
+          ]
+        ]
+      ],
+      "status": "DIAGNOSTIC ONLY. Three visible surface proxies do not establish registration, original motion or anatomy."
+    },
+    "equal_cells": {
+      "native_pixels_per_raw_pixel": 0.1490736404485226,
+      "raw_pixels_per_native_pixel": 6.7080940466152725,
+      "translation_native_xy": [
+        -0.41271573273003526,
+        -2.3259764771460496
+      ],
+      "RMS_native_px": 3.7877846842582374,
+      "max_abs_coordinate_residual_native_px": 5.206776350874662,
+      "residuals_native_xy": [
+        [
+          [
+            4.286412051262012,
+            0.7119340171251842
+          ],
+          [
+            3.6631052558124324,
+            -0.44426293830775876
+          ],
+          [
+            4.222345435547425,
+            -0.2544763091538016
+          ]
+        ],
+        [
+          [
+            3.436692300705431,
+            0.7119340171251842
+          ],
+          [
+            2.8432002333455557,
+            -0.2951892978592525
+          ],
+          [
+            3.5515140535290755,
+            -0.2544763091538016
+          ]
+        ],
+        [
+          [
+            -2.451716497011205,
+            0.7119340171251842
+          ],
+          [
+            -3.194282204819608,
+            -0.8697261180835199
+          ],
+          [
+            -2.6350420250846156,
+            -0.17993948892953426
+          ]
+        ],
+        [
+          [
+            -4.016989721720698,
+            0.7119340171251842
+          ],
+          [
+            -5.206776350874662,
+            -0.36972611808351985
+          ],
+          [
+            -4.49846253069115,
+            -0.17993948892953426
+          ]
+        ]
+      ],
+      "status": "DIAGNOSTIC ONLY. Three visible surface proxies do not establish registration, original motion or anatomy."
+    },
+    "core_left_rebase_DIAGNOSTIC_ORACLE_NOT_REGISTRATION": {
+      "native_pixels_per_raw_pixel": 0.15113569672355442,
+      "raw_pixels_per_native_pixel": 6.616570550034395,
+      "translation_native_xy": [
+        27.598942263524158,
+        -3.1863694579030835
+      ],
+      "RMS_native_px": 0.4891604625857573,
+      "max_abs_coordinate_residual_native_px": 0.8522906653676117,
+      "residuals_native_xy": [
+        [
+          [
+            0.2779750178181004,
+            0.10104984564700104
+          ],
+          [
+            -0.4715296216634286,
+            -0.20661095261034745
+          ],
+          [
+            0.17844103417296964,
+            0.1172093344206786
+          ]
+        ],
+        [
+          [
+            0.09661218174984043,
+            0.10104984564700104
+          ],
+          [
+            -0.6226653183869821,
+            -0.055475255886804575
+          ],
+          [
+            0.17844103417296964,
+            0.1172093344206786
+          ]
+        ],
+        [
+          [
+            0.24774787847339041,
+            0.10104984564700104
+          ],
+          [
+            -0.6226653183869821,
+            -0.631043104248576
+          ],
+          [
+            0.027305337449412548,
+            0.19277718278246425
+          ]
+        ],
+        [
+          [
+            0.8522906653676117,
+            0.10104984564700104
+          ],
+          [
+            -0.4715296216634286,
+            -0.13104310424857601
+          ],
+          [
+            0.3295767308965196,
+            0.19277718278246425
+          ]
+        ]
+      ],
+      "status": "DIAGNOSTIC ONLY. Three visible surface proxies do not establish registration, original motion or anatomy."
+    }
+  },
+  "boot_vertical_gap": {
+    "original_native_px": [
+      9.5,
+      9.5,
+      9.0,
+      9.5
+    ],
+    "raw_px": [
+      65.0,
+      64.0,
+      65.0,
+      65.0
+    ],
+    "raw_mapped_by_diagnostic_common_scale_native_px": [
+      9.823820287031037,
+      9.672684590307483,
+      9.823820287031037,
+      9.823820287031037
+    ],
+    "meaning": "Projected endpoint gap close to target. Does not validate relative head/shoulders, shared canvas, contact or whole original pose."
+  },
+  "phase_pairs_after_translation_diagnostic_only": [
+    {
+      "phase_ids": [
+        21,
+        22
+      ],
+      "core_local_diagnostic_best_shift_xy": [
+        0,
+        0
+      ],
+      "alpha128_IoU": 0.9848367250354946,
+      "alpha128_XOR_pixels": 801,
+      "exact_RGBA_fraction_in_core_intersection": 0.0014608642165154543,
+      "RGB_MAE_0_255_in_core_intersection": 12.47746552873033,
+      "alpha_MAE_in_core_intersection": 1.6905274488697524,
+      "RGB_maxchannel_diff_p50_p95": [
+        10.0,
+        47.0
+      ],
+      "regions": {
+        "head": {
+          "alpha128_IoU": 0.9862189133533977,
+          "RGB_MAE_0_255_in_intersection": 14.366313309776208
+        },
+        "upper_body_hands": {
+          "alpha128_IoU": 0.9889792623866882,
+          "RGB_MAE_0_255_in_intersection": 12.512132341400633
+        },
+        "legs_upper_boot": {
+          "alpha128_IoU": 0.975635593220339,
+          "RGB_MAE_0_255_in_intersection": 11.720714199541561
+        },
+        "lower_boot": {
+          "alpha128_IoU": 0.9720726783310901,
+          "RGB_MAE_0_255_in_intersection": 10.919580016153224
+        }
+      }
+    },
+    {
+      "phase_ids": [
+        21,
+        23
+      ],
+      "core_local_diagnostic_best_shift_xy": [
+        0,
+        0
+      ],
+      "alpha128_IoU": 0.9797891868364779,
+      "alpha128_XOR_pixels": 1068,
+      "exact_RGBA_fraction_in_core_intersection": 0.001294060840173829,
+      "RGB_MAE_0_255_in_core_intersection": 13.725717044905842,
+      "alpha_MAE_in_core_intersection": 1.6937518107194591,
+      "RGB_maxchannel_diff_p50_p95": [
+        11.0,
+        55.0
+      ],
+      "regions": {
+        "head": {
+          "alpha128_IoU": 0.9838018103858981,
+          "RGB_MAE_0_255_in_intersection": 14.859456550981974
+        },
+        "upper_body_hands": {
+          "alpha128_IoU": 0.9894026974951831,
+          "RGB_MAE_0_255_in_intersection": 13.518285851891406
+        },
+        "legs_upper_boot": {
+          "alpha128_IoU": 0.965121412803532,
+          "RGB_MAE_0_255_in_intersection": 13.32516010978957
+        },
+        "lower_boot": {
+          "alpha128_IoU": 0.9244166940519224,
+          "RGB_MAE_0_255_in_intersection": 15.132954141485959
+        }
+      }
+    },
+    {
+      "phase_ids": [
+        21,
+        24
+      ],
+      "core_local_diagnostic_best_shift_xy": [
+        0,
+        0
+      ],
+      "alpha128_IoU": 0.9831145528378507,
+      "alpha128_XOR_pixels": 894,
+      "exact_RGBA_fraction_in_core_intersection": 0.0016138018481873548,
+      "RGB_MAE_0_255_in_core_intersection": 13.406319443110283,
+      "alpha_MAE_in_core_intersection": 1.6136673647000057,
+      "RGB_maxchannel_diff_p50_p95": [
+        10.0,
+        54.0
+      ],
+      "regions": {
+        "head": {
+          "alpha128_IoU": 0.9796272899557802,
+          "RGB_MAE_0_255_in_intersection": 14.562093610618518
+        },
+        "upper_body_hands": {
+          "alpha128_IoU": 0.9821659981487195,
+          "RGB_MAE_0_255_in_intersection": 14.536577448270085
+        },
+        "legs_upper_boot": {
+          "alpha128_IoU": 0.9879132598649129,
+          "RGB_MAE_0_255_in_intersection": 10.404581983927072
+        },
+        "lower_boot": {
+          "alpha128_IoU": 0.9827177228058286,
+          "RGB_MAE_0_255_in_intersection": 10.033793103448275
+        }
+      }
+    },
+    {
+      "phase_ids": [
+        22,
+        23
+      ],
+      "core_local_diagnostic_best_shift_xy": [
+        0,
+        0
+      ],
+      "alpha128_IoU": 0.9879625417045799,
+      "alpha128_XOR_pixels": 635,
+      "exact_RGBA_fraction_in_core_intersection": 0.0015925705623884721,
+      "RGB_MAE_0_255_in_core_intersection": 12.70472846352118,
+      "alpha_MAE_in_core_intersection": 1.5061304372853388,
+      "RGB_maxchannel_diff_p50_p95": [
+        10.0,
+        51.0
+      ],
+      "regions": {
+        "head": {
+          "alpha128_IoU": 0.986514358242107,
+          "RGB_MAE_0_255_in_intersection": 14.62206497266002
+        },
+        "upper_body_hands": {
+          "alpha128_IoU": 0.9943516851840357,
+          "RGB_MAE_0_255_in_intersection": 13.073585101955889
+        },
+        "legs_upper_boot": {
+          "alpha128_IoU": 0.9805073431241655,
+          "RGB_MAE_0_255_in_intersection": 10.53249818445897
+        },
+        "lower_boot": {
+          "alpha128_IoU": 0.9502005347593583,
+          "RGB_MAE_0_255_in_intersection": 12.771251025911596
+        }
+      }
+    },
+    {
+      "phase_ids": [
+        22,
+        24
+      ],
+      "core_local_diagnostic_best_shift_xy": [
+        1,
+        0
+      ],
+      "alpha128_IoU": 0.9882308491546236,
+      "alpha128_XOR_pixels": 623,
+      "exact_RGBA_fraction_in_core_intersection": 0.0014719376051384003,
+      "RGB_MAE_0_255_in_core_intersection": 11.40725518682775,
+      "alpha_MAE_in_core_intersection": 1.422904878421777,
+      "RGB_maxchannel_diff_p50_p95": [
+        9.0,
+        45.0
+      ],
+      "regions": {
+        "head": {
+          "alpha128_IoU": 0.980453972257251,
+          "RGB_MAE_0_255_in_intersection": 13.368006430868167
+        },
+        "upper_body_hands": {
+          "alpha128_IoU": 0.9921843625467239,
+          "RGB_MAE_0_255_in_intersection": 11.335305228636072
+        },
+        "legs_upper_boot": {
+          "alpha128_IoU": 0.984911689003284,
+          "RGB_MAE_0_255_in_intersection": 10.550268841428615
+        },
+        "lower_boot": {
+          "alpha128_IoU": 0.9742634608872334,
+          "RGB_MAE_0_255_in_intersection": 11.276908817054803
+        }
+      }
+    },
+    {
+      "phase_ids": [
+        23,
+        24
+      ],
+      "core_local_diagnostic_best_shift_xy": [
+        1,
+        0
+      ],
+      "alpha128_IoU": 0.9861933311898322,
+      "alpha128_XOR_pixels": 730,
+      "exact_RGBA_fraction_in_core_intersection": 0.0016109544905356424,
+      "RGB_MAE_0_255_in_core_intersection": 12.627012894028601,
+      "alpha_MAE_in_core_intersection": 1.4421686515927354,
+      "RGB_maxchannel_diff_p50_p95": [
+        10.0,
+        52.0
+      ],
+      "regions": {
+        "head": {
+          "alpha128_IoU": 0.9774091627172196,
+          "RGB_MAE_0_255_in_intersection": 16.38871828026507
+        },
+        "upper_body_hands": {
+          "alpha128_IoU": 0.9895942691286358,
+          "RGB_MAE_0_255_in_intersection": 13.232674966457612
+        },
+        "legs_upper_boot": {
+          "alpha128_IoU": 0.9843847595252967,
+          "RGB_MAE_0_255_in_intersection": 9.571640077350738
+        },
+        "lower_boot": {
+          "alpha128_IoU": 0.9745762711864406,
+          "RGB_MAE_0_255_in_intersection": 9.504347826086956
+        }
+      }
+    }
+  ],
+  "upper_profiles": [
+    {
+      "source_y": 20,
+      "sampled_raw_y": 153,
+      "original_left_right_inclusive": [
+        [
+          36,
+          43
+        ],
+        [
+          36,
+          43
+        ],
+        [
+          36,
+          43
+        ],
+        [
+          36,
+          43
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          34.85345570625477,
+          44.677275993285804
+        ],
+        [
+          34.85345570625477,
+          44.677275993285804
+        ],
+        [
+          35.00459140297833,
+          44.677275993285804
+        ],
+        [
+          35.00459140297833,
+          44.82841169000936
+        ]
+      ]
+    },
+    {
+      "source_y": 22,
+      "sampled_raw_y": 167,
+      "original_left_right_inclusive": [
+        [
+          33,
+          43
+        ],
+        [
+          33,
+          42
+        ],
+        [
+          33,
+          42
+        ],
+        [
+          33,
+          42
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          33.49323443574278,
+          43.92159750966803
+        ],
+        [
+          33.19096304229567,
+          44.07273320639159
+        ],
+        [
+          33.34209873901923,
+          44.07273320639159
+        ],
+        [
+          33.34209873901923,
+          44.07273320639159
+        ]
+      ]
+    },
+    {
+      "source_y": 24,
+      "sampled_raw_y": 180,
+      "original_left_right_inclusive": [
+        [
+          32,
+          44
+        ],
+        [
+          32,
+          44
+        ],
+        [
+          32,
+          44
+        ],
+        [
+          32,
+          44
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          31.52847037833657,
+          45.43295447690358
+        ],
+        [
+          31.52847037833657,
+          45.43295447690358
+        ],
+        [
+          31.52847037833657,
+          45.281818780180025
+        ],
+        [
+          31.52847037833657,
+          45.43295447690358
+        ]
+      ]
+    },
+    {
+      "source_y": 26,
+      "sampled_raw_y": 193,
+      "original_left_right_inclusive": [
+        [
+          32,
+          46
+        ],
+        [
+          32,
+          46
+        ],
+        [
+          31,
+          46
+        ],
+        [
+          32,
+          46
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          30.7727918947188,
+          47.39771853430979
+        ],
+        [
+          30.7727918947188,
+          47.548854231033346
+        ],
+        [
+          30.923927591442357,
+          47.548854231033346
+        ],
+        [
+          30.923927591442357,
+          47.548854231033346
+        ]
+      ]
+    },
+    {
+      "source_y": 28,
+      "sampled_raw_y": 206,
+      "original_left_right_inclusive": [
+        [
+          32,
+          48
+        ],
+        [
+          32,
+          48
+        ],
+        [
+          32,
+          49
+        ],
+        [
+          32,
+          48
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          30.7727918947188,
+          49.81588968188666
+        ],
+        [
+          30.7727918947188,
+          49.96702537861022
+        ],
+        [
+          30.923927591442357,
+          49.81588968188666
+        ],
+        [
+          30.7727918947188,
+          49.96702537861022
+        ]
+      ]
+    },
+    {
+      "source_y": 30,
+      "sampled_raw_y": 220,
+      "original_left_right_inclusive": [
+        [
+          32,
+          50
+        ],
+        [
+          31,
+          50
+        ],
+        [
+          31,
+          51
+        ],
+        [
+          31,
+          50
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          30.7727918947188,
+          52.08292513273997
+        ],
+        [
+          30.621656197995247,
+          52.38519652618709
+        ],
+        [
+          30.7727918947188,
+          52.38519652618709
+        ],
+        [
+          30.621656197995247,
+          52.53633222291064
+        ]
+      ]
+    },
+    {
+      "source_y": 32,
+      "sampled_raw_y": 233,
+      "original_left_right_inclusive": [
+        [
+          31,
+          51
+        ],
+        [
+          30,
+          51
+        ],
+        [
+          30,
+          52
+        ],
+        [
+          30,
+          51
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          29.563706320930365,
+          53.29201070652841
+        ],
+        [
+          29.563706320930365,
+          53.443146403251966
+        ],
+        [
+          29.563706320930365,
+          53.594282099975516
+        ],
+        [
+          29.563706320930365,
+          53.594282099975516
+        ]
+      ]
+    },
+    {
+      "source_y": 34,
+      "sampled_raw_y": 246,
+      "original_left_right_inclusive": [
+        [
+          30,
+          51
+        ],
+        [
+          29,
+          52
+        ],
+        [
+          29,
+          52
+        ],
+        [
+          29,
+          52
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          28.959163534036147,
+          53.74541779669907
+        ],
+        [
+          28.959163534036147,
+          54.04768919014619
+        ],
+        [
+          28.959163534036147,
+          54.04768919014619
+        ],
+        [
+          28.959163534036147,
+          54.19882488686974
+        ]
+      ]
+    },
+    {
+      "source_y": 36,
+      "sampled_raw_y": 259,
+      "original_left_right_inclusive": [
+        [
+          29,
+          52
+        ],
+        [
+          29,
+          52
+        ],
+        [
+          29,
+          52
+        ],
+        [
+          29,
+          52
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          28.203485050418376,
+          54.04768919014619
+        ],
+        [
+          28.052349353694822,
+          54.19882488686974
+        ],
+        [
+          28.203485050418376,
+          54.34996058359329
+        ],
+        [
+          28.052349353694822,
+          54.34996058359329
+        ]
+      ]
+    },
+    {
+      "source_y": 38,
+      "sampled_raw_y": 273,
+      "original_left_right_inclusive": [
+        [
+          29,
+          52
+        ],
+        [
+          28,
+          52
+        ],
+        [
+          28,
+          52
+        ],
+        [
+          28,
+          52
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          27.598942263524158,
+          53.594282099975516
+        ],
+        [
+          27.598942263524158,
+          53.74541779669907
+        ],
+        [
+          27.598942263524158,
+          53.74541779669907
+        ],
+        [
+          27.598942263524158,
+          53.89655349342263
+        ]
+      ]
+    },
+    {
+      "source_y": 40,
+      "sampled_raw_y": 286,
+      "original_left_right_inclusive": [
+        [
+          30,
+          52
+        ],
+        [
+          29,
+          52
+        ],
+        [
+          29,
+          53
+        ],
+        [
+          29,
+          52
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          27.901213656971265,
+          53.594282099975516
+        ],
+        [
+          27.901213656971265,
+          53.74541779669907
+        ],
+        [
+          27.75007796024771,
+          53.74541779669907
+        ],
+        [
+          27.75007796024771,
+          53.89655349342263
+        ]
+      ]
+    },
+    {
+      "source_y": 42,
+      "sampled_raw_y": 299,
+      "original_left_right_inclusive": [
+        [
+          31,
+          53
+        ],
+        [
+          30,
+          53
+        ],
+        [
+          30,
+          53
+        ],
+        [
+          30,
+          53
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          29.865977714377475,
+          54.19882488686974
+        ],
+        [
+          29.865977714377475,
+          54.19882488686974
+        ],
+        [
+          30.01711341110103,
+          54.19882488686974
+        ],
+        [
+          29.865977714377475,
+          54.501096280316844
+        ]
+      ]
+    },
+    {
+      "source_y": 44,
+      "sampled_raw_y": 312,
+      "original_left_right_inclusive": [
+        [
+          31,
+          53
+        ],
+        [
+          31,
+          54
+        ],
+        [
+          31,
+          54
+        ],
+        [
+          31,
+          54
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          30.470520501271693,
+          54.80336767376396
+        ],
+        [
+          30.319384804548136,
+          54.95450337048751
+        ],
+        [
+          30.470520501271693,
+          54.95450337048751
+        ],
+        [
+          30.319384804548136,
+          55.105639067211065
+        ]
+      ]
+    },
+    {
+      "source_y": 46,
+      "sampled_raw_y": 325,
+      "original_left_right_inclusive": [
+        [
+          31,
+          54
+        ],
+        [
+          31,
+          54
+        ],
+        [
+          31,
+          55
+        ],
+        [
+          31,
+          54
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          31.377334681613018,
+          54.80336767376396
+        ],
+        [
+          31.377334681613018,
+          54.95450337048751
+        ],
+        [
+          31.377334681613018,
+          54.95450337048751
+        ],
+        [
+          31.377334681613018,
+          55.105639067211065
+        ]
+      ]
+    },
+    {
+      "source_y": 48,
+      "sampled_raw_y": 339,
+      "original_left_right_inclusive": [
+        [
+          31,
+          55
+        ],
+        [
+          31,
+          55
+        ],
+        [
+          31,
+          55
+        ],
+        [
+          31,
+          55
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          31.377334681613018,
+          54.80336767376396
+        ],
+        [
+          31.377334681613018,
+          54.95450337048751
+        ],
+        [
+          31.377334681613018,
+          54.95450337048751
+        ],
+        [
+          31.377334681613018,
+          55.105639067211065
+        ]
+      ]
+    },
+    {
+      "source_y": 50,
+      "sampled_raw_y": 352,
+      "original_left_right_inclusive": [
+        [
+          32,
+          55
+        ],
+        [
+          32,
+          56
+        ],
+        [
+          32,
+          56
+        ],
+        [
+          32,
+          56
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          32.28414886195434,
+          54.80336767376396
+        ],
+        [
+          32.28414886195434,
+          54.95450337048751
+        ],
+        [
+          32.28414886195434,
+          54.95450337048751
+        ],
+        [
+          32.4352845586779,
+          55.105639067211065
+        ]
+      ]
+    },
+    {
+      "source_y": 52,
+      "sampled_raw_y": 365,
+      "original_left_right_inclusive": [
+        [
+          33,
+          55
+        ],
+        [
+          33,
+          55
+        ],
+        [
+          33,
+          55
+        ],
+        [
+          33,
+          55
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          32.58642025540146,
+          54.80336767376396
+        ],
+        [
+          32.4352845586779,
+          54.80336767376396
+        ],
+        [
+          32.4352845586779,
+          54.80336767376396
+        ],
+        [
+          32.4352845586779,
+          55.105639067211065
+        ]
+      ]
+    },
+    {
+      "source_y": 54,
+      "sampled_raw_y": 378,
+      "original_left_right_inclusive": [
+        [
+          33,
+          51
+        ],
+        [
+          33,
+          50
+        ],
+        [
+          33,
+          51
+        ],
+        [
+          33,
+          50
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          32.4352845586779,
+          52.9897393130813
+        ],
+        [
+          32.4352845586779,
+          53.14087500980486
+        ],
+        [
+          32.4352845586779,
+          52.9897393130813
+        ],
+        [
+          32.4352845586779,
+          53.29201070652841
+        ]
+      ]
+    },
+    {
+      "source_y": 56,
+      "sampled_raw_y": 392,
+      "original_left_right_inclusive": [
+        [
+          33,
+          50
+        ],
+        [
+          33,
+          50
+        ],
+        [
+          33,
+          50
+        ],
+        [
+          33,
+          50
+        ]
+      ],
+      "new_left_right_inclusive_after_diagnostic_rebase": [
+        [
+          31.981877468507236,
+          52.687467919634194
+        ],
+        [
+          31.830741771783682,
+          52.687467919634194
+        ],
+        [
+          31.830741771783682,
+          52.53633222291064
+        ],
+        [
+          31.830741771783682,
+          52.838603616357744
+        ]
+      ]
+    }
+  ],
+  "visual_review": {
+    "facing": "Basically SW front-three-quarter as parent observed. Four views share the same apparent rest pose.",
+    "phase_variation": "Not byte-identical copies: small outline changes and widespread texture changes remain after translation. Variations do not reproduce source23 distinctive shoulder expansion; cannot label random texture/position drift as original idle motion.",
+    "near_hand": "Near screen-right hand remains exposed. Small glove/finger shading and boundary changes visible, not a measured articulated animation.",
+    "far_hand": "An independently visible screen-left bare/fingerless hand is now shown beside hip armor in all four. Source only provided ambiguous warm pixels by robe trim; this visibility was explicitly not to be invented.",
+    "equipment": "Paired red shoulders, black cloth and gray plates broadly follow identity. Hip/waist plates are conspicuous, weathered/highlight details and hair warm glints differ; no identity acceptance inferred.",
+    "fringe": "Small colored edge/near-edge pixels remain, including low-alpha particles. Original preserved; no cleanup claimed."
+  },
+  "slice_proposal_file": "SLICE_OWNERSHIP_PROPOSAL.json",
+  "no_actions": [
+    "No new image generation",
+    "No warp/mesh",
+    "No alpha/RGB edits to raw",
+    "No formal PNG or Project changes",
+    "No engine execution",
+    "No accepted registration or runtime promotion"
+  ]
+}

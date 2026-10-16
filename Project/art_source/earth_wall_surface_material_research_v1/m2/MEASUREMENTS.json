@@ -1,0 +1,76 @@
+{
+  "scope": "M2 material-only. No mapping/sampling onto wall. Values use original sRGB bytes, not linear luminance.",
+  "actual_size": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "square_canvas": true,
+  "square_rule": "Per latest root direction, sufficiently high-resolution square dimensions need not equal requested1024",
+  "period_in_screen_logical_pixels": 230.7552816296953,
+  "future_uniform_density_texels_per_screen_pixel": 5.434328484894042,
+  "density_applied_to_wall": false,
+  "rgb_mean": [
+    166.97055037913765,
+    161.52658160552897,
+    156.02846966262982
+  ],
+  "rgb_std": [
+    16.580155736213694,
+    17.772322029912402,
+    16.355418455166678
+  ],
+  "sRGB_gray_mean": 161.50853388243215,
+  "R_minus_B_mean": 10.942080716507832,
+  "horizontal_edge_jump": {
+    "mean": 12.873205741626794,
+    "p95": 35.0
+  },
+  "interior_horizontal_jump": {
+    "mean": 11.982813602484288,
+    "p95": 33.0
+  },
+  "edge_to_interior_mean_ratio": 1.0743057656306954,
+  "jump_warning_limits": {
+    "mean": 18.974220403726434,
+    "p95": 50.5
+  },
+  "jump_warning_pass": true,
+  "first_last_8_columns_mean_rgb_difference": [
+    2.1860047846889756,
+    2.422248803827756,
+    3.1363636363636545
+  ],
+  "band_mean_abs_warning_limit": 3,
+  "band_mean_warning_pass": false,
+  "top_bottom_mean_rgb_difference": [
+    0.7498006379585149,
+    0.5951953748006247,
+    -0.06449362041468021
+  ],
+  "quadrant_gray_means": [
+    [
+      161.35880419234738,
+      161.13050084493045
+    ],
+    [
+      161.9370910481462,
+      161.60773944430454
+    ]
+  ],
+  "horizontal_quarter_gray_means": [
+    161.91979573777118,
+    161.37696526105844,
+    161.69313022608802,
+    161.04614194238732
+  ],
+  "visual_review_initial": {
+    "material_semantics": "Flat fine-aggregate concrete; no building, pillars, joints, silhouette, text or multi-swatch layout observed",
+    "color": "warm neutral gray, RGB mean about167/162/156; not yellow masonry, but not perfectly achromatic",
+    "cleanliness": "Visibly numerous fine pores and aggregate in raw; at230.755pxperiod preview remains restrained. Relative cleanliness versus accepted hut remains an art review question.",
+    "periodicity": "No conspicuous long bright/dark seam in3-repeat reduced overview; native seam strip shows texture discontinuity comparable to interior noise. Not certified seamless: 8pxedge-band blue-channel bias3.136 exceeds proposed3 warning slightly.",
+    "scope_limit": "Microtexture only; no roof/ridge/panels/eave lighting/whole-wall readiness implied"
+  },
+  "raw_sha256": "6f48ff889bd98646fed0923ba3d3d8e12e57a453c3b95bb4b7926cf6c0d00ebc",
+  "input_reference_unchanged": true
+}

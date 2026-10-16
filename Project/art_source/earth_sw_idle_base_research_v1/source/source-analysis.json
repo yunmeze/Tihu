@@ -1,0 +1,2144 @@
+{
+  "schema": "sw-idle-source-readonly-preparation-v1",
+  "source_ids": [
+    21,
+    22,
+    23,
+    24
+  ],
+  "direction_index": 5,
+  "action": "idle",
+  "method": "Full original RGBA; body then head; native canvas128x128 origin16,64; no centering, resizing per frame, semantic shadow removal or hidden-joint estimation. Source display upscales are nearest-neighbor only.",
+  "source_pins": {
+    "body": {
+      "pack": "Hero/2",
+      "source": "原版游戏/Data/Hero/2.lpRes",
+      "source_sha256": "28bea90dd1230e5053c1437a9889bf3f7522872963cfc0d3e9560cc2492aa5ed",
+      "atlas": "Project/assets/original/hero/body-movement.png",
+      "atlas_sha256": "0698b9cc8a6386204e895b6179959b58bcf9d62d6735e6821f11af87cc839783"
+    },
+    "head": {
+      "pack": "Hero/Head/0",
+      "source": "原版游戏/Data/Hero/Head/0.lpRes",
+      "source_sha256": "ae3a555d3e0522e7800c8650747a62df6b74dfd19f1cdc6e826ff8477fb380d1",
+      "atlas": "Project/assets/original/hero/head-movement.png",
+      "atlas_sha256": "347508d77a77d3360a5ff7467b6b0826bdb6be05d75177b73b9c3eccce090f5a"
+    }
+  },
+  "manifest_pin": {
+    "path": "Project/data/hero/movement.json",
+    "sha256": "b5eb981b005efedc5f071bb51f35240cabf91aa0d77143e70bcf4ee9b9c733f1"
+  },
+  "timing": {
+    "index_formula": "1+5*4+p; p=0..3",
+    "reference_ticks_per_phase": 12,
+    "reference_cycle_ticks": 48,
+    "reference_50Hz_seconds": 0.96,
+    "clock_scope": "Only current/reference cadence. Artwork metadata cannot verify original EXE clock entry, reset, first displayed tick or movement speed.",
+    "references": {
+      "Project/scripts/core/movement.gd": "6f48e3d5e7b655d19bd25f65ae735f1ab998f68cae8a17bc12306e0d66f2db99",
+      "参考项目/src/animation.js": "9175037421eb1aead763bc2dfd07db4e3047516427da215b8308b321d519e058"
+    }
+  },
+  "uncertainty": "Pixel extents/hash/offset are exact decoded data. Proxy plus/minus ranges are manual interpretation tolerances in original 1x pixels, not statistical confidence intervals or recovered skeletal positions.",
+  "frames": [
+    {
+      "id": 21,
+      "phase0": 0,
+      "reference_window_ticks_half_open": [
+        0,
+        12
+      ],
+      "body": {
+        "original": [
+          56,
+          73
+        ],
+        "offset": [
+          13,
+          -47
+        ],
+        "sourceOffset": 110554,
+        "sourceBytes": 5166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          54,
+          73
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "47e8019ea16b6fc7b7c0d644a58237ad8ab58b39634e0a6ffb48148643f809e4",
+        "rect": [
+          513,
+          129,
+          56,
+          73
+        ],
+        "canvas_alpha_bbox": [
+          29,
+          17,
+          83,
+          90
+        ],
+        "canvas_RGBA_sha256": "a714e471ee1646297b2bbfee0a8f8550ec5dd888314969b6fe281ce90fcd27c7"
+      },
+      "head": {
+        "original": [
+          12,
+          11
+        ],
+        "offset": [
+          19,
+          -49
+        ],
+        "sourceOffset": 26922,
+        "sourceBytes": 1210,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "2c7928b222326f7cbfe3ba78be40e431e8d68a47a10cdd68ee84b853a15d48d4",
+        "rect": [
+          513,
+          129,
+          12,
+          11
+        ],
+        "canvas_alpha_bbox": [
+          35,
+          15,
+          44,
+          26
+        ],
+        "canvas_RGBA_sha256": "c4b4407b23ca88aa27048c893f0026a86cebcd77f8d3fc1ef1d4112a628b9dd9"
+      },
+      "composite_RGBA_sha256": "20e835646aa096c8a17d833f6540ee76e8682b21e79b0fffd483f9364fd17fb5",
+      "composite_alpha_bbox": [
+        29,
+        15,
+        83,
+        90
+      ],
+      "upper_visible_alpha_row_extents_y_xmin_xmax_inclusive": [
+        [
+          20,
+          36,
+          43
+        ],
+        [
+          22,
+          33,
+          43
+        ],
+        [
+          24,
+          32,
+          44
+        ],
+        [
+          26,
+          32,
+          46
+        ],
+        [
+          28,
+          32,
+          48
+        ],
+        [
+          30,
+          32,
+          50
+        ],
+        [
+          32,
+          31,
+          51
+        ],
+        [
+          34,
+          30,
+          51
+        ],
+        [
+          36,
+          29,
+          52
+        ],
+        [
+          38,
+          29,
+          52
+        ],
+        [
+          40,
+          30,
+          52
+        ],
+        [
+          42,
+          31,
+          53
+        ],
+        [
+          44,
+          31,
+          53
+        ],
+        [
+          46,
+          31,
+          54
+        ],
+        [
+          48,
+          31,
+          55
+        ],
+        [
+          50,
+          32,
+          55
+        ],
+        [
+          52,
+          33,
+          55
+        ],
+        [
+          54,
+          33,
+          51
+        ],
+        [
+          56,
+          33,
+          50
+        ]
+      ],
+      "proxies": [
+        {
+          "name": "hair_crown_surface",
+          "canvas_xy": [
+            40,
+            15
+          ],
+          "native_draw_origin_xy": [
+            24,
+            -49
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            1,
+            1
+          ],
+          "note": "Hair surface maximum; not skull top"
+        },
+        {
+          "name": "face_left_projection",
+          "canvas_xy": [
+            36,
+            23
+          ],
+          "native_draw_origin_xy": [
+            20,
+            -41
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            1.5,
+            1.5
+          ],
+          "note": "Visible low-resolution face projection; not measured nose joint"
+        },
+        {
+          "name": "far_cloth_cap",
+          "canvas_xy": [
+            34,
+            25
+          ],
+          "native_draw_origin_xy": [
+            18,
+            -39
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            2,
+            2
+          ],
+          "note": "Screen-left upper clothing surface, not skeletal shoulder"
+        },
+        {
+          "name": "near_cloth_cap",
+          "canvas_xy": [
+            47,
+            29
+          ],
+          "native_draw_origin_xy": [
+            31,
+            -35
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            2,
+            2
+          ],
+          "note": "Screen-right prominent clothing surface, not skeletal shoulder"
+        },
+        {
+          "name": "front_coat_fold",
+          "canvas_xy": [
+            38,
+            35
+          ],
+          "native_draw_origin_xy": [
+            22,
+            -29
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            3,
+            3
+          ],
+          "note": "Garment surface only; old robe design must not become armor bands"
+        },
+        {
+          "name": "waist_coat_junction",
+          "canvas_xy": [
+            39.5,
+            51
+          ],
+          "native_draw_origin_xy": [
+            23.5,
+            -13
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            3,
+            3
+          ],
+          "note": "Clothing junction only, not pelvis"
+        },
+        {
+          "name": "near_cuff_surface",
+          "canvas_xy": [
+            51,
+            52
+          ],
+          "native_draw_origin_xy": [
+            35,
+            -12
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            2,
+            2
+          ],
+          "note": "Visible screen-right cuff region"
+        },
+        {
+          "name": "near_hand_terminal",
+          "canvas_xy": [
+            48,
+            57
+          ],
+          "native_draw_origin_xy": [
+            32,
+            -7
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            2,
+            2
+          ],
+          "note": "Visible hand terminal projection; not a finger or wrist joint"
+        },
+        {
+          "name": "far_warm_patch",
+          "canvas_xy": [
+            31,
+            41
+          ],
+          "native_draw_origin_xy": [
+            15,
+            -23
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            3,
+            2
+          ],
+          "note": "Ambiguous warm patch beside trim; NOT an independently established hand"
+        },
+        {
+          "name": "upper_left_boot_terminal",
+          "canvas_xy": [
+            32,
+            78
+          ],
+          "native_draw_origin_xy": [
+            16,
+            14
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            1,
+            1
+          ],
+          "note": "Visible boot endpoint only; physical contact unknown"
+        },
+        {
+          "name": "lower_boot_terminal",
+          "canvas_xy": [
+            38,
+            88
+          ],
+          "native_draw_origin_xy": [
+            22,
+            24
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            1,
+            1
+          ],
+          "note": "Visible boot endpoint only; physical contact unknown"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "phase0": 1,
+      "reference_window_ticks_half_open": [
+        12,
+        24
+      ],
+      "body": {
+        "original": [
+          56,
+          73
+        ],
+        "offset": [
+          12,
+          -47
+        ],
+        "sourceOffset": 115724,
+        "sourceBytes": 5166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          55,
+          73
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "1c926be43762e172d05b92bde527cf3476844becc5867472ada0687323d4a584",
+        "rect": [
+          641,
+          129,
+          56,
+          73
+        ],
+        "canvas_alpha_bbox": [
+          28,
+          17,
+          83,
+          90
+        ],
+        "canvas_RGBA_sha256": "6ecd9b9638fa929512f70bb99991a05039c8c7d681d72fd13f52442d771a5fa5"
+      },
+      "head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 28136,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "1c60256f4185e5a10f2393ffd61bf7e3c5aba9e7bb8adade39d39d8d4b95c9cf",
+        "rect": [
+          641,
+          129,
+          8,
+          10
+        ],
+        "canvas_alpha_bbox": [
+          36,
+          15,
+          43,
+          25
+        ],
+        "canvas_RGBA_sha256": "9900f1f13e5b7b4fb7d357bc4e4bd88162ab1a085d0ba92dd2923c2d59f3f84a"
+      },
+      "composite_RGBA_sha256": "7d8cc9e6705e1035da113de3a0d3cc629e73002df81fd1b422fb6c3cdf5c6f21",
+      "composite_alpha_bbox": [
+        28,
+        15,
+        83,
+        90
+      ],
+      "upper_visible_alpha_row_extents_y_xmin_xmax_inclusive": [
+        [
+          20,
+          36,
+          43
+        ],
+        [
+          22,
+          33,
+          42
+        ],
+        [
+          24,
+          32,
+          44
+        ],
+        [
+          26,
+          32,
+          46
+        ],
+        [
+          28,
+          32,
+          48
+        ],
+        [
+          30,
+          31,
+          50
+        ],
+        [
+          32,
+          30,
+          51
+        ],
+        [
+          34,
+          29,
+          52
+        ],
+        [
+          36,
+          29,
+          52
+        ],
+        [
+          38,
+          28,
+          52
+        ],
+        [
+          40,
+          29,
+          52
+        ],
+        [
+          42,
+          30,
+          53
+        ],
+        [
+          44,
+          31,
+          54
+        ],
+        [
+          46,
+          31,
+          54
+        ],
+        [
+          48,
+          31,
+          55
+        ],
+        [
+          50,
+          32,
+          56
+        ],
+        [
+          52,
+          33,
+          55
+        ],
+        [
+          54,
+          33,
+          50
+        ],
+        [
+          56,
+          33,
+          50
+        ]
+      ],
+      "proxies": [
+        {
+          "name": "hair_crown_surface",
+          "canvas_xy": [
+            40,
+            15
+          ],
+          "native_draw_origin_xy": [
+            24,
+            -49
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            1,
+            1
+          ],
+          "note": "Hair surface maximum; not skull top"
+        },
+        {
+          "name": "face_left_projection",
+          "canvas_xy": [
+            37,
+            23
+          ],
+          "native_draw_origin_xy": [
+            21,
+            -41
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            1.5,
+            1.5
+          ],
+          "note": "Visible low-resolution face projection; not measured nose joint"
+        },
+        {
+          "name": "far_cloth_cap",
+          "canvas_xy": [
+            34,
+            25
+          ],
+          "native_draw_origin_xy": [
+            18,
+            -39
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            2,
+            2
+          ],
+          "note": "Screen-left upper clothing surface, not skeletal shoulder"
+        },
+        {
+          "name": "near_cloth_cap",
+          "canvas_xy": [
+            47,
+            29
+          ],
+          "native_draw_origin_xy": [
+            31,
+            -35
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            2,
+            2
+          ],
+          "note": "Screen-right prominent clothing surface, not skeletal shoulder"
+        },
+        {
+          "name": "front_coat_fold",
+          "canvas_xy": [
+            38,
+            35
+          ],
+          "native_draw_origin_xy": [
+            22,
+            -29
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            3,
+            3
+          ],
+          "note": "Garment surface only; old robe design must not become armor bands"
+        },
+        {
+          "name": "waist_coat_junction",
+          "canvas_xy": [
+            39.5,
+            51
+          ],
+          "native_draw_origin_xy": [
+            23.5,
+            -13
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            3,
+            3
+          ],
+          "note": "Clothing junction only, not pelvis"
+        },
+        {
+          "name": "near_cuff_surface",
+          "canvas_xy": [
+            51,
+            52
+          ],
+          "native_draw_origin_xy": [
+            35,
+            -12
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            2,
+            2
+          ],
+          "note": "Visible screen-right cuff region"
+        },
+        {
+          "name": "near_hand_terminal",
+          "canvas_xy": [
+            48,
+            57
+          ],
+          "native_draw_origin_xy": [
+            32,
+            -7
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            2,
+            2
+          ],
+          "note": "Visible hand terminal projection; not a finger or wrist joint"
+        },
+        {
+          "name": "far_warm_patch",
+          "canvas_xy": [
+            30,
+            41
+          ],
+          "native_draw_origin_xy": [
+            14,
+            -23
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            3,
+            2
+          ],
+          "note": "Ambiguous warm patch beside trim; NOT an independently established hand"
+        },
+        {
+          "name": "upper_left_boot_terminal",
+          "canvas_xy": [
+            32,
+            78
+          ],
+          "native_draw_origin_xy": [
+            16,
+            14
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            1,
+            1
+          ],
+          "note": "Visible boot endpoint only; physical contact unknown"
+        },
+        {
+          "name": "lower_boot_terminal",
+          "canvas_xy": [
+            38,
+            88
+          ],
+          "native_draw_origin_xy": [
+            22,
+            24
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            1,
+            1
+          ],
+          "note": "Visible boot endpoint only; physical contact unknown"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "phase0": 2,
+      "reference_window_ticks_half_open": [
+        24,
+        36
+      ],
+      "body": {
+        "original": [
+          56,
+          73
+        ],
+        "offset": [
+          12,
+          -47
+        ],
+        "sourceOffset": 120894,
+        "sourceBytes": 5166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          56,
+          73
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "983f57dc4755fda2f3eb077e2b80bdf28e4ccbc8e023caae10de6995f12ddb85",
+        "rect": [
+          769,
+          129,
+          56,
+          73
+        ],
+        "canvas_alpha_bbox": [
+          28,
+          17,
+          84,
+          90
+        ],
+        "canvas_RGBA_sha256": "d552a9f5099b83157e1427ed0dd686adb6f38639111f0832c90b961a9cdc01b1"
+      },
+      "head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 29298,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "8be242afc955e9228fe3d912c238a7cf25dee05c5bc009cab574b5eed2e89974",
+        "rect": [
+          769,
+          129,
+          8,
+          10
+        ],
+        "canvas_alpha_bbox": [
+          36,
+          15,
+          43,
+          25
+        ],
+        "canvas_RGBA_sha256": "18ba41299582c842223b88345994ee64789b0c2d65155dcb361cc266eb88275b"
+      },
+      "composite_RGBA_sha256": "67cb30f866bd46c7358aa6670da7e6a82cd1b91c76c43c387288bb390b7dd6e4",
+      "composite_alpha_bbox": [
+        28,
+        15,
+        84,
+        90
+      ],
+      "upper_visible_alpha_row_extents_y_xmin_xmax_inclusive": [
+        [
+          20,
+          36,
+          43
+        ],
+        [
+          22,
+          33,
+          42
+        ],
+        [
+          24,
+          32,
+          44
+        ],
+        [
+          26,
+          31,
+          46
+        ],
+        [
+          28,
+          32,
+          49
+        ],
+        [
+          30,
+          31,
+          51
+        ],
+        [
+          32,
+          30,
+          52
+        ],
+        [
+          34,
+          29,
+          52
+        ],
+        [
+          36,
+          29,
+          52
+        ],
+        [
+          38,
+          28,
+          52
+        ],
+        [
+          40,
+          29,
+          53
+        ],
+        [
+          42,
+          30,
+          53
+        ],
+        [
+          44,
+          31,
+          54
+        ],
+        [
+          46,
+          31,
+          55
+        ],
+        [
+          48,
+          31,
+          55
+        ],
+        [
+          50,
+          32,
+          56
+        ],
+        [
+          52,
+          33,
+          55
+        ],
+        [
+          54,
+          33,
+          51
+        ],
+        [
+          56,
+          33,
+          50
+        ]
+      ],
+      "proxies": [
+        {
+          "name": "hair_crown_surface",
+          "canvas_xy": [
+            40,
+            15
+          ],
+          "native_draw_origin_xy": [
+            24,
+            -49
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            1,
+            1
+          ],
+          "note": "Hair surface maximum; not skull top"
+        },
+        {
+          "name": "face_left_projection",
+          "canvas_xy": [
+            37,
+            23
+          ],
+          "native_draw_origin_xy": [
+            21,
+            -41
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            1.5,
+            1.5
+          ],
+          "note": "Visible low-resolution face projection; not measured nose joint"
+        },
+        {
+          "name": "far_cloth_cap",
+          "canvas_xy": [
+            34,
+            25
+          ],
+          "native_draw_origin_xy": [
+            18,
+            -39
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            2,
+            2
+          ],
+          "note": "Screen-left upper clothing surface, not skeletal shoulder"
+        },
+        {
+          "name": "near_cloth_cap",
+          "canvas_xy": [
+            48,
+            29
+          ],
+          "native_draw_origin_xy": [
+            32,
+            -35
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            2,
+            2
+          ],
+          "note": "Screen-right prominent clothing surface, not skeletal shoulder"
+        },
+        {
+          "name": "front_coat_fold",
+          "canvas_xy": [
+            38,
+            35
+          ],
+          "native_draw_origin_xy": [
+            22,
+            -29
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            3,
+            3
+          ],
+          "note": "Garment surface only; old robe design must not become armor bands"
+        },
+        {
+          "name": "waist_coat_junction",
+          "canvas_xy": [
+            39.5,
+            51
+          ],
+          "native_draw_origin_xy": [
+            23.5,
+            -13
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            3,
+            3
+          ],
+          "note": "Clothing junction only, not pelvis"
+        },
+        {
+          "name": "near_cuff_surface",
+          "canvas_xy": [
+            51,
+            52
+          ],
+          "native_draw_origin_xy": [
+            35,
+            -12
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            2,
+            2
+          ],
+          "note": "Visible screen-right cuff region"
+        },
+        {
+          "name": "near_hand_terminal",
+          "canvas_xy": [
+            48,
+            57
+          ],
+          "native_draw_origin_xy": [
+            32,
+            -7
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            2,
+            2
+          ],
+          "note": "Visible hand terminal projection; not a finger or wrist joint"
+        },
+        {
+          "name": "far_warm_patch",
+          "canvas_xy": [
+            30,
+            41
+          ],
+          "native_draw_origin_xy": [
+            14,
+            -23
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            3,
+            2
+          ],
+          "note": "Ambiguous warm patch beside trim; NOT an independently established hand"
+        },
+        {
+          "name": "upper_left_boot_terminal",
+          "canvas_xy": [
+            32,
+            78
+          ],
+          "native_draw_origin_xy": [
+            16,
+            14
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            1,
+            1
+          ],
+          "note": "Visible boot endpoint only; physical contact unknown"
+        },
+        {
+          "name": "lower_boot_terminal",
+          "canvas_xy": [
+            38,
+            88
+          ],
+          "native_draw_origin_xy": [
+            22,
+            24
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            1,
+            1
+          ],
+          "note": "Visible boot endpoint only; physical contact unknown"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "phase0": 3,
+      "reference_window_ticks_half_open": [
+        36,
+        48
+      ],
+      "body": {
+        "original": [
+          56,
+          73
+        ],
+        "offset": [
+          12,
+          -47
+        ],
+        "sourceOffset": 126064,
+        "sourceBytes": 5166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          55,
+          73
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "1a807ced08dc84e258a549ee3fd203d25edc722eef9fac7a02b0975bce40bf84",
+        "rect": [
+          897,
+          129,
+          56,
+          73
+        ],
+        "canvas_alpha_bbox": [
+          28,
+          17,
+          83,
+          90
+        ],
+        "canvas_RGBA_sha256": "18cf6eea9a5f4333ffcb26ca34052e43b3925d86d6d8b5e92c7aa6c6166a0602"
+      },
+      "head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 30460,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "9a3c0fb634184d0be8313c159ae73a696c3e26f109070b5753aee121e7e70cce",
+        "rect": [
+          897,
+          129,
+          8,
+          11
+        ],
+        "canvas_alpha_bbox": [
+          36,
+          15,
+          43,
+          26
+        ],
+        "canvas_RGBA_sha256": "1ceaea5f5503dcf1ae8f0f764480a49e48902b95df0614d288a32b6eb7a48d57"
+      },
+      "composite_RGBA_sha256": "e66f84bd515e8e864cd874f3c97471d7ef6bab3c25bd8015bf451130a44e6016",
+      "composite_alpha_bbox": [
+        28,
+        15,
+        83,
+        90
+      ],
+      "upper_visible_alpha_row_extents_y_xmin_xmax_inclusive": [
+        [
+          20,
+          36,
+          43
+        ],
+        [
+          22,
+          33,
+          42
+        ],
+        [
+          24,
+          32,
+          44
+        ],
+        [
+          26,
+          32,
+          46
+        ],
+        [
+          28,
+          32,
+          48
+        ],
+        [
+          30,
+          31,
+          50
+        ],
+        [
+          32,
+          30,
+          51
+        ],
+        [
+          34,
+          29,
+          52
+        ],
+        [
+          36,
+          29,
+          52
+        ],
+        [
+          38,
+          28,
+          52
+        ],
+        [
+          40,
+          29,
+          52
+        ],
+        [
+          42,
+          30,
+          53
+        ],
+        [
+          44,
+          31,
+          54
+        ],
+        [
+          46,
+          31,
+          54
+        ],
+        [
+          48,
+          31,
+          55
+        ],
+        [
+          50,
+          32,
+          56
+        ],
+        [
+          52,
+          33,
+          55
+        ],
+        [
+          54,
+          33,
+          50
+        ],
+        [
+          56,
+          33,
+          50
+        ]
+      ],
+      "proxies": [
+        {
+          "name": "hair_crown_surface",
+          "canvas_xy": [
+            40,
+            15
+          ],
+          "native_draw_origin_xy": [
+            24,
+            -49
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            1,
+            1
+          ],
+          "note": "Hair surface maximum; not skull top"
+        },
+        {
+          "name": "face_left_projection",
+          "canvas_xy": [
+            37,
+            23
+          ],
+          "native_draw_origin_xy": [
+            21,
+            -41
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            1.5,
+            1.5
+          ],
+          "note": "Visible low-resolution face projection; not measured nose joint"
+        },
+        {
+          "name": "far_cloth_cap",
+          "canvas_xy": [
+            34,
+            25
+          ],
+          "native_draw_origin_xy": [
+            18,
+            -39
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            2,
+            2
+          ],
+          "note": "Screen-left upper clothing surface, not skeletal shoulder"
+        },
+        {
+          "name": "near_cloth_cap",
+          "canvas_xy": [
+            47,
+            29
+          ],
+          "native_draw_origin_xy": [
+            31,
+            -35
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            2,
+            2
+          ],
+          "note": "Screen-right prominent clothing surface, not skeletal shoulder"
+        },
+        {
+          "name": "front_coat_fold",
+          "canvas_xy": [
+            38,
+            35
+          ],
+          "native_draw_origin_xy": [
+            22,
+            -29
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            3,
+            3
+          ],
+          "note": "Garment surface only; old robe design must not become armor bands"
+        },
+        {
+          "name": "waist_coat_junction",
+          "canvas_xy": [
+            39.5,
+            51
+          ],
+          "native_draw_origin_xy": [
+            23.5,
+            -13
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            3,
+            3
+          ],
+          "note": "Clothing junction only, not pelvis"
+        },
+        {
+          "name": "near_cuff_surface",
+          "canvas_xy": [
+            51,
+            52
+          ],
+          "native_draw_origin_xy": [
+            35,
+            -12
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            2,
+            2
+          ],
+          "note": "Visible screen-right cuff region"
+        },
+        {
+          "name": "near_hand_terminal",
+          "canvas_xy": [
+            48,
+            57
+          ],
+          "native_draw_origin_xy": [
+            32,
+            -7
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            2,
+            2
+          ],
+          "note": "Visible hand terminal projection; not a finger or wrist joint"
+        },
+        {
+          "name": "far_warm_patch",
+          "canvas_xy": [
+            30,
+            41
+          ],
+          "native_draw_origin_xy": [
+            14,
+            -23
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            3,
+            2
+          ],
+          "note": "Ambiguous warm patch beside trim; NOT an independently established hand"
+        },
+        {
+          "name": "upper_left_boot_terminal",
+          "canvas_xy": [
+            32,
+            78
+          ],
+          "native_draw_origin_xy": [
+            16,
+            14
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            1,
+            1
+          ],
+          "note": "Visible boot endpoint only; physical contact unknown"
+        },
+        {
+          "name": "lower_boot_terminal",
+          "canvas_xy": [
+            38,
+            88
+          ],
+          "native_draw_origin_xy": [
+            22,
+            24
+          ],
+          "interpretation_uncertainty_plus_minus_source_px": [
+            1,
+            1
+          ],
+          "note": "Visible boot endpoint only; physical contact unknown"
+        }
+      ]
+    }
+  ],
+  "adjacent_phase_differences": [
+    {
+      "from": 21,
+      "to": 22,
+      "layers": {
+        "body": {
+          "RGBA_different_pixels": 425,
+          "alpha_different_pixels": 32
+        },
+        "head": {
+          "RGBA_different_pixels": 52,
+          "alpha_different_pixels": 10
+        },
+        "composite": {
+          "RGBA_different_pixels": 445,
+          "alpha_different_pixels": 33
+        }
+      },
+      "composite_region_RGBA_different_pixels": {
+        "upper_y15_57": 397,
+        "foot_region_x0_49_y74_90": 20
+      }
+    },
+    {
+      "from": 22,
+      "to": 23,
+      "layers": {
+        "body": {
+          "RGBA_different_pixels": 383,
+          "alpha_different_pixels": 32
+        },
+        "head": {
+          "RGBA_different_pixels": 32,
+          "alpha_different_pixels": 1
+        },
+        "composite": {
+          "RGBA_different_pixels": 402,
+          "alpha_different_pixels": 32
+        }
+      },
+      "composite_region_RGBA_different_pixels": {
+        "upper_y15_57": 338,
+        "foot_region_x0_49_y74_90": 24
+      }
+    },
+    {
+      "from": 23,
+      "to": 24,
+      "layers": {
+        "body": {
+          "RGBA_different_pixels": 347,
+          "alpha_different_pixels": 30
+        },
+        "head": {
+          "RGBA_different_pixels": 29,
+          "alpha_different_pixels": 6
+        },
+        "composite": {
+          "RGBA_different_pixels": 367,
+          "alpha_different_pixels": 29
+        }
+      },
+      "composite_region_RGBA_different_pixels": {
+        "upper_y15_57": 326,
+        "foot_region_x0_49_y74_90": 10
+      }
+    },
+    {
+      "from": 24,
+      "to": 21,
+      "layers": {
+        "body": {
+          "RGBA_different_pixels": 448,
+          "alpha_different_pixels": 34
+        },
+        "head": {
+          "RGBA_different_pixels": 55,
+          "alpha_different_pixels": 15
+        },
+        "composite": {
+          "RGBA_different_pixels": 470,
+          "alpha_different_pixels": 36
+        }
+      },
+      "composite_region_RGBA_different_pixels": {
+        "upper_y15_57": 411,
+        "foot_region_x0_49_y74_90": 31
+      }
+    }
+  ],
+  "mirror_SE_to_SW_all_phase_tests": {
+    "body": [
+      {
+        "SE": 13,
+        "SW": 21,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 13,
+        "SW": 22,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 13,
+        "SW": 23,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 13,
+        "SW": 24,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 14,
+        "SW": 21,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 14,
+        "SW": 22,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 14,
+        "SW": 23,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 14,
+        "SW": 24,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 15,
+        "SW": 21,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 15,
+        "SW": 22,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 15,
+        "SW": 23,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 15,
+        "SW": 24,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 16,
+        "SW": 21,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 16,
+        "SW": 22,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 16,
+        "SW": 23,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 16,
+        "SW": 24,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      }
+    ],
+    "head": [
+      {
+        "SE": 13,
+        "SW": 21,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 13,
+        "SW": 22,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 13,
+        "SW": 23,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 13,
+        "SW": 24,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 14,
+        "SW": 21,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 14,
+        "SW": 22,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 14,
+        "SW": 23,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 14,
+        "SW": 24,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 15,
+        "SW": 21,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 15,
+        "SW": 22,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 15,
+        "SW": 23,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 15,
+        "SW": 24,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 16,
+        "SW": 21,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 16,
+        "SW": 22,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 16,
+        "SW": 23,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 16,
+        "SW": 24,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      }
+    ],
+    "composite": [
+      {
+        "SE": 13,
+        "SW": 21,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 13,
+        "SW": 22,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 13,
+        "SW": 23,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 13,
+        "SW": 24,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 14,
+        "SW": 21,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 14,
+        "SW": 22,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 14,
+        "SW": 23,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 14,
+        "SW": 24,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 15,
+        "SW": 21,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 15,
+        "SW": 22,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 15,
+        "SW": 23,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 15,
+        "SW": 24,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 16,
+        "SW": 21,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 16,
+        "SW": 22,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 16,
+        "SW": 23,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      },
+      {
+        "SE": 16,
+        "SW": 24,
+        "fixed_canvas_RGBA_equal": false,
+        "fixed_canvas_alpha_equal": false,
+        "arbitrary_integer_translation_RGBA_equal": false,
+        "arbitrary_integer_translation_alpha_equal": false
+      }
+    ]
+  },
+  "modern_reference_pins": {
+    "SE13": {
+      "source_id": 13,
+      "atlas": "Project/assets/earth/hero/se_idle_v1/body.png",
+      "atlas_sha256": "60f89f65dd817ec80065de941e62e36e1068302c3f2bc4eb5014d8d56f450c02",
+      "manifest": "Project/assets/earth/hero/se_idle_v1/manifest.json",
+      "manifest_sha256": "3672409856c27b1e81d543b8a0a29063e16170b2cafbaf55f5d6351fb1e9b5a3",
+      "frame_region": [
+        0,
+        0,
+        512,
+        512
+      ]
+    },
+    "S17": {
+      "source_id": 17,
+      "atlas": "Project/assets/earth/hero/s_idle_v1/body.png",
+      "atlas_sha256": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e",
+      "manifest": "Project/assets/earth/hero/s_idle_v1/manifest.json",
+      "manifest_sha256": "cfd74e66ddb74fb4ce8fc46be747f6df9b8037713044b76a287baef343654b80",
+      "frame_region": [
+        0,
+        0,
+        512,
+        512
+      ]
+    }
+  },
+  "material_fragments": [
+    {
+      "label": "Hair texture",
+      "source": "SE13",
+      "source_crop_xyxy_half_open": [
+        151,
+        64,
+        176,
+        87
+      ],
+      "display_scale": 3,
+      "resampling": "nearest",
+      "purpose": "surface material/construction only, never pose"
+    },
+    {
+      "label": "Chest surface",
+      "source": "SE13",
+      "source_crop_xyxy_half_open": [
+        146,
+        120,
+        187,
+        160
+      ],
+      "display_scale": 3,
+      "resampling": "nearest",
+      "purpose": "surface material/construction only, never pose"
+    },
+    {
+      "label": "Red cap screen-L",
+      "source": "S17",
+      "source_crop_xyxy_half_open": [
+        106,
+        97,
+        126,
+        128
+      ],
+      "display_scale": 3,
+      "resampling": "nearest",
+      "purpose": "surface material/construction only, never pose"
+    },
+    {
+      "label": "Red cap screen-R",
+      "source": "S17",
+      "source_crop_xyxy_half_open": [
+        194,
+        95,
+        212,
+        121
+      ],
+      "display_scale": 3,
+      "resampling": "nearest",
+      "purpose": "surface material/construction only, never pose"
+    },
+    {
+      "label": "Forearm plate",
+      "source": "SE13",
+      "source_crop_xyxy_half_open": [
+        100,
+        170,
+        122,
+        219
+      ],
+      "display_scale": 3,
+      "resampling": "nearest",
+      "purpose": "surface material/construction only, never pose"
+    },
+    {
+      "label": "Black thigh cloth",
+      "source": "SE13",
+      "source_crop_xyxy_half_open": [
+        155,
+        212,
+        175,
+        244
+      ],
+      "display_scale": 3,
+      "resampling": "nearest",
+      "purpose": "surface material/construction only, never pose"
+    },
+    {
+      "label": "Small side plate",
+      "source": "SE13",
+      "source_crop_xyxy_half_open": [
+        135,
+        190,
+        156,
+        213
+      ],
+      "display_scale": 3,
+      "resampling": "nearest",
+      "purpose": "surface material/construction only, never pose"
+    },
+    {
+      "label": "Boot toe material",
+      "source": "SE13",
+      "source_crop_xyxy_half_open": [
+        124,
+        324,
+        157,
+        345
+      ],
+      "display_scale": 3,
+      "resampling": "nearest",
+      "purpose": "surface material/construction only, never pose"
+    }
+  ],
+  "view_contract": {
+    "facing": "SW toward screen lower-left; elevated front-three-quarter view, not full S/front, W/profile, SE/mirror or rear",
+    "upper_body": "Near screen-right sleeve/arm has broader and longer exposed outline; screen-left sleeve compressed/partly occluded. Clothing edge is not a shoulder joint.",
+    "head": "Original head layer faces screen-left/down; preserve small phase differences. Do not inherit old brown hairstyle/color; modern short black hair identity supplies appearance.",
+    "feet": "Two observed endpoints are staggered upper-left and lower, approximately canvas(32,78) and(38,88), each ±1px; preserve projected depth separation rather than leveling soles. Physical planted contact and support-side identity are not established.",
+    "hands": "Near screen-right hand terminal visible. Screen-left warm patch is ambiguous beside gold garment trim; do not demand an independently exposed second hand or invent fingers.",
+    "identity": "Current Earth SE/S: adult East Asian man, short black hair, fitted black technical cloth, compact silver/graphite plates, two muted red shoulder caps, small upper side pieces, separate knee/shin, gloves/boots. No weapon/backpack/cape, new emblem, cyan core or old robe bands.",
+    "lighting": "Warm screen-upper-left key remains fixed; never flip baked highlights."
+  },
+  "proposed_inputs": [
+    {
+      "order": 1,
+      "file": "source21-24-composite-8x.png",
+      "purpose": "Only complete pose/camera/phase layout reference; 4096x1024; four1024x1024 cells; common original canvas128x128 enlarged8x",
+      "original_checker": "Retained as source evidence; not an outfit or desired output shadow reference."
+    },
+    {
+      "order": 2,
+      "file": "modern-disconnected-material-reference.png",
+      "purpose": "Appearance surfaces only; small disconnected crops, no whole modern standing figure, no mirrored full SE head/body."
+    }
+  ],
+  "scope": "Preparation only. No image generation, mesh deformation, engine, runtime or formal PNG writes. SW walk63–68 has not begun.",
+  "prepared_images": [
+    {
+      "file": "modern-disconnected-material-reference.png",
+      "bytes": 35303,
+      "sha256": "d96f17215b937bbb5ae8a14b726d64667e03d7ac13faf58e67ea5fb1dbad568e"
+    },
+    {
+      "file": "modern-reference-coordinate-review.png",
+      "bytes": 120702,
+      "sha256": "68672d21bf39a49b989036f26c604700c68efae959f0a8a190dba6013dd8d8a8"
+    },
+    {
+      "file": "source21-24-composite-8x.png",
+      "bytes": 31410,
+      "sha256": "a04831c588db10df497cc6f9b2fb5b4c9ecb0f102e375ead73b70dcf3cb2b418"
+    },
+    {
+      "file": "source21-24-coordinate-review.png",
+      "bytes": 35621,
+      "sha256": "e7c3f95c17e2916576060a036148a50431249ba7045185815a12349bf7e4cdc5"
+    },
+    {
+      "file": "source21-24-layer-board.png",
+      "bytes": 48084,
+      "sha256": "a5d5ba76ba2c7778e8d38fda681cde1fb85b6e41855e176def2c3968a40f9acc"
+    }
+  ]
+}

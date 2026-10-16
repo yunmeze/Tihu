@@ -1,0 +1,301 @@
+{
+  "schema": "sw-new-local-edit-base-source21-common-registration-proposal-v1",
+  "status": "CPU_FOUR_VISIBLE_PROXIES_WITHIN_ERROR_REGIONS; ROOT_ACCEPTANCE_PENDING. Exact-local-edit FAIL is unchanged.",
+  "raw_path": "/workspace/scratch/22c897619190/recovery-work/sw-idle-local-farhand-edit-v1/RAW.png",
+  "raw_sha256": "f38646c3c2b373a5fdb1d089a050cb0a1a6e79441d747a937eb550ab791e237a",
+  "source21_reference": {
+    "full_native_canvas": [
+      128,
+      128
+    ],
+    "actor_origin_native": [
+      16,
+      64
+    ],
+    "reference_path": "/workspace/scratch/22c897619190/recovery-work/sw-idle-single-base-correction-v1/INPUT-original-SW21-full-canvas-8x.png",
+    "reference_sha256": "2c390d6d883ca564b853053a04031ce48aa91a89b45106ead0dba855a5caf98e",
+    "movement_metadata_sha256": "b5eb981b005efedc5f071bb51f35240cabf91aa0d77143e70bcf4ee9b9c733f1",
+    "layers": {
+      "body": {
+        "atlas_path": "/workspace/scratch/22c897619190/tihu-legend/Project/assets/original/hero/body-movement.png",
+        "atlas_sha256": "0698b9cc8a6386204e895b6179959b58bcf9d62d6735e6821f11af87cc839783",
+        "lpRes_sha256": "28bea90dd1230e5053c1437a9889bf3f7522872963cfc0d3e9560cc2492aa5ed",
+        "frame21_metadata": {
+          "original": [
+            56,
+            73
+          ],
+          "offset": [
+            13,
+            -47
+          ],
+          "sourceOffset": 110554,
+          "sourceBytes": 5166,
+          "format": "BMP",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            54,
+            73
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "47e8019ea16b6fc7b7c0d644a58237ad8ab58b39634e0a6ffb48148643f809e4",
+          "rect": [
+            513,
+            129,
+            56,
+            73
+          ]
+        }
+      },
+      "head": {
+        "atlas_path": "/workspace/scratch/22c897619190/tihu-legend/Project/assets/original/hero/head-movement.png",
+        "atlas_sha256": "347508d77a77d3360a5ff7467b6b0826bdb6be05d75177b73b9c3eccce090f5a",
+        "lpRes_sha256": "ae3a555d3e0522e7800c8650747a62df6b74dfd19f1cdc6e826ff8477fb380d1",
+        "frame21_metadata": {
+          "original": [
+            12,
+            11
+          ],
+          "offset": [
+            19,
+            -49
+          ],
+          "sourceOffset": 26922,
+          "sourceBytes": 1210,
+          "format": "BMP",
+          "reference_extraction_bounds": [
+            0,
+            0,
+            9,
+            11
+          ],
+          "gifFrames": 1,
+          "rgba_sha256": "2c7928b222326f7cbfe3ba78be40e431e8d68a47a10cdd68ee84b853a15d48d4",
+          "rect": [
+            513,
+            129,
+            12,
+            11
+          ]
+        }
+      }
+    },
+    "used_for_generation": false
+  },
+  "single_transform": {
+    "equation": "native_xy = raw_xy * uniform_scale + translation_native_xy",
+    "uniform_scale_native_per_raw": 0.07796116579948255,
+    "raw_px_per_native": 12.826899004717516,
+    "translation_native_xy": [
+      -4.993200252594207,
+      -3.4558992428450352
+    ],
+    "rotation_degrees": 0,
+    "partwise_fits": false,
+    "bbox_fits": false,
+    "weighted_all_four_proxies": true,
+    "weights": [
+      0.4444444444444444,
+      0.4444444444444444,
+      0.4444444444444444,
+      0.16
+    ],
+    "RMS_native_px": 1.2012130024046288,
+    "original_actor_origin_raw_xy": [
+      269.27765942583613,
+      865.250006860374
+    ]
+  },
+  "proxies": [
+    {
+      "name": "crown",
+      "raw_xy": [
+        586.0,
+        235.0
+      ],
+      "source21_native_xy": [
+        40.5,
+        15.0
+      ],
+      "source_interpretation_error_native": 1.0,
+      "new_proxy_interpretation_error_raw_px": 6.0,
+      "new_error_native_after_fit": 0.4677669947968953,
+      "combined_axis_error_native": 1.4677669947968952,
+      "mapped_native_xy": [
+        40.69204290590257,
+        14.864974720033363
+      ],
+      "residual_native_xy": [
+        0.1920429059025679,
+        -0.13502527996663716
+      ],
+      "allowed_source_native_box_xyxy": [
+        39.0322330052031,
+        13.532233005203105,
+        41.9677669947969,
+        16.467766994796897
+      ],
+      "within_both_axis_error_bounds": true,
+      "smallest_axis_slack_native": 1.2757240888943273
+    },
+    {
+      "name": "upper_left_boot_endpoint",
+      "raw_xy": [
+        468.0,
+        1032.0
+      ],
+      "source21_native_xy": [
+        32.0,
+        77.5
+      ],
+      "source_interpretation_error_native": 1.0,
+      "new_proxy_interpretation_error_raw_px": 6.0,
+      "new_error_native_after_fit": 0.4677669947968953,
+      "combined_axis_error_native": 1.4677669947968952,
+      "mapped_native_xy": [
+        31.492625341563624,
+        77.00002386222096
+      ],
+      "residual_native_xy": [
+        -0.5073746584363761,
+        -0.4999761377790435
+      ],
+      "allowed_source_native_box_xyxy": [
+        30.532233005203103,
+        76.03223300520311,
+        33.4677669947969,
+        78.96776699479689
+      ],
+      "within_both_axis_error_bounds": true,
+      "smallest_axis_slack_native": 0.9603923363605191
+    },
+    {
+      "name": "lower_boot_endpoint",
+      "raw_xy": [
+        552.0,
+        1158.5
+      ],
+      "source21_native_xy": [
+        38.0,
+        87.0
+      ],
+      "source_interpretation_error_native": 1.0,
+      "new_proxy_interpretation_error_raw_px": 6.0,
+      "new_error_native_after_fit": 0.4677669947968953,
+      "combined_axis_error_native": 1.4677669947968952,
+      "mapped_native_xy": [
+        38.04136326872016,
+        86.8621113358555
+      ],
+      "residual_native_xy": [
+        0.04136326872016127,
+        -0.13788866414449785
+      ],
+      "allowed_source_native_box_xyxy": [
+        36.5322330052031,
+        85.53223300520311,
+        39.4677669947969,
+        88.46776699479689
+      ],
+      "within_both_axis_error_bounds": true,
+      "smallest_axis_slack_native": 1.3298783306523974
+    },
+    {
+      "name": "near_hand_outer_terminal",
+      "raw_xy": [
+        689.5,
+        803.0
+      ],
+      "source21_native_xy": [
+        48.0,
+        57.0
+      ],
+      "source_interpretation_error_native": 2.0,
+      "new_proxy_interpretation_error_raw_px": 6.0,
+      "new_error_native_after_fit": 0.4677669947968953,
+      "combined_axis_error_native": 2.467766994796895,
+      "mapped_native_xy": [
+        48.761023566149014,
+        59.14691689413945
+      ],
+      "residual_native_xy": [
+        0.7610235661490137,
+        2.1469168941394514
+      ],
+      "allowed_source_native_box_xyxy": [
+        45.5322330052031,
+        54.5322330052031,
+        50.4677669947969,
+        59.4677669947969
+      ],
+      "within_both_axis_error_bounds": true,
+      "smallest_axis_slack_native": 0.3208501006574438
+    }
+  ],
+  "uncertainty_policy": "Source crown/shoe ±1 native, source near hand ±2 native; all new proxy interpretations ±6 raw pixels (~0.468 native), about0.5 native, greater than measured alpha32..240 variation. Errors linearly added per axis. These are conservative visible-surface interpretation tolerances, not confidence intervals, contact positions or bones. Near-hand proxy uses a visible glove-end region separated from trousers; no hidden wrist inferred.",
+  "tightest_proxy": "near_hand_outer_terminal",
+  "all_four_proxies_inside": true,
+  "boot_gap_native": {
+    "source21": 9.5,
+    "new": 9.862087473634542
+  },
+  "full_RGBA_coverage": {
+    "nonzero_alpha": {
+      "count": 208921,
+      "points_outside_native128_square": 0,
+      "mapped_min_xy": [
+        0.15223669017164188,
+        4.65206200030115
+      ],
+      "mapped_max_xy": [
+        64.39223730894525,
+        101.63575225485744
+      ]
+    },
+    "any_nonzero_RGBA": {
+      "count": 208991,
+      "points_outside_native128_square": 0,
+      "mapped_min_xy": [
+        0.15223669017164188,
+        4.65206200030115
+      ],
+      "mapped_max_xy": [
+        64.39223730894525,
+        101.63575225485744
+      ]
+    },
+    "leftmost_nonzero_samples": [
+      {
+        "raw_xy": [
+          66,
+          1188
+        ],
+        "RGBA": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "mapped_min_with_half_raw_texel_extent": [
+      0.11325610727190061,
+      4.613081417401409
+    ],
+    "mapped_min_if_two_raw_texel_filter_radius": [
+      -0.003685641427323222,
+      4.496139668702185
+    ]
+  },
+  "full_texture_domain_mapped_bounds_xyxy": [
+    -4.993200252594207,
+    -3.4558992428450352,
+    82.16738311122728,
+    106.23546103702691
+  ],
+  "full_texture_rule": "Keep the original complete1118x1407 RGBA texture. The transformed full canvas includes blank negative coordinates; do not crop/threshold any source pixels. Coverage check counts pixel centers, not filter footprint. Actual export would still need full UV/fringe/filter/edge validation. No registered PNG is written.",
+  "interpretation": "The common proxy fit is feasible within recorded uncertainty and source21 shoe/hand targets are much closer than ae23... base. This is not pixel-exact original pose, internal armor correspondence, mesh feasibility, animation-phase acceptance or runtime readiness. New identity/material repaint requires independent root review.",
+  "no_failed_base_reuse": "No constraints or solver states from ae23... are applied to this raw. Subsequent21-24 work must start from this texture and original visible phase differences.",
+  "preview_note": "PREVIEW-actual-1x-2x.png is a labeled composite observation board. Native1x preview is resampled and may quantize faint alpha; it is not an alpha-preserving production sprite. 2x is nearest enlargement of that1x preview. Original full raw unchanged."
+}

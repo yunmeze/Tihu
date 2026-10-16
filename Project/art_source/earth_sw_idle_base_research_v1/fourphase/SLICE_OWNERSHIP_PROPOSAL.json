@@ -1,0 +1,110 @@
+{
+  "schema": "sw-lossless-slice-ownership-PROPOSAL-NOT-REGISTRATION-v1",
+  "raw_sha256": "faffe904547da0c3f1a2352db5b3e82a3c52731f4ae816ba732042b5e3ac5192",
+  "boundaries_x": [
+    0,
+    576,
+    1096,
+    1611,
+    2170
+  ],
+  "slices": [
+    {
+      "phase_label_proposed": 21,
+      "raw_rect_xywh": [
+        0,
+        0,
+        576,
+        725
+      ],
+      "RGBA_sha256": "57dc17e79dd60db76a1f2ccc327447049ca77771abd3b05b9f61d6b0c938920d",
+      "alpha_nonzero_pixels": 58372,
+      "alpha_sum": 13183885,
+      "alpha_zero_nonzero_RGB_pixels": 120,
+      "nonzero_alpha_bbox_raw_xyxy": [
+        87,
+        15,
+        565,
+        617
+      ],
+      "target_origin": null,
+      "placement_offset": null,
+      "note": "No independent generated canvas origin was returned. This is pixel ownership, not pose registration.",
+      "oracle_mapping_only_nonzero_alpha_outside_native_128x128": 3
+    },
+    {
+      "phase_label_proposed": 22,
+      "raw_rect_xywh": [
+        576,
+        0,
+        520,
+        725
+      ],
+      "RGBA_sha256": "6f6c81d708dad2fb10bc832abc4af341000744e786b948d8ba2af7856778a453",
+      "alpha_nonzero_pixels": 58699,
+      "alpha_sum": 13267189,
+      "alpha_zero_nonzero_RGB_pixels": 144,
+      "nonzero_alpha_bbox_raw_xyxy": [
+        600,
+        21,
+        1095,
+        617
+      ],
+      "target_origin": null,
+      "placement_offset": null,
+      "note": "No independent generated canvas origin was returned. This is pixel ownership, not pose registration.",
+      "oracle_mapping_only_nonzero_alpha_outside_native_128x128": 1
+    },
+    {
+      "phase_label_proposed": 23,
+      "raw_rect_xywh": [
+        1096,
+        0,
+        515,
+        725
+      ],
+      "RGBA_sha256": "bfb29ba4f083db528086d55ae966a6094019a765f1062993521e87daf4523f8c",
+      "alpha_nonzero_pixels": 57787,
+      "alpha_sum": 13192045,
+      "alpha_zero_nonzero_RGB_pixels": 150,
+      "nonzero_alpha_bbox_raw_xyxy": [
+        1096,
+        39,
+        1611,
+        617
+      ],
+      "target_origin": null,
+      "placement_offset": null,
+      "note": "No independent generated canvas origin was returned. This is pixel ownership, not pose registration.",
+      "oracle_mapping_only_nonzero_alpha_outside_native_128x128": 0
+    },
+    {
+      "phase_label_proposed": 24,
+      "raw_rect_xywh": [
+        1611,
+        0,
+        559,
+        725
+      ],
+      "RGBA_sha256": "e25c8c48bddc621950f2811c4ea4d81af8a4e2224c475a3582bc9eb1a987f9f8",
+      "alpha_nonzero_pixels": 58423,
+      "alpha_sum": 13290550,
+      "alpha_zero_nonzero_RGB_pixels": 154,
+      "nonzero_alpha_bbox_raw_xyxy": [
+        1611,
+        69,
+        2146,
+        617
+      ],
+      "target_origin": null,
+      "placement_offset": null,
+      "note": "No independent generated canvas origin was returned. This is pixel ownership, not pose registration.",
+      "oracle_mapping_only_nonzero_alpha_outside_native_128x128": 0
+    }
+  ],
+  "concatenated_RGBA_matches_original": true,
+  "registered_images_written": false,
+  "common_scale": null,
+  "common_origin": null,
+  "status": "Candidate pixel partition only. Do not publish offsets from bbox or fit results. Keep full height, all alpha values and RGB under alpha0."
+}

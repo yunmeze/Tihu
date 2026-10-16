@@ -1,0 +1,542 @@
+{
+  "schema": "sw-single-base-correction-cpu-audit-v1",
+  "verdict": "HOLD_SHARED_TEXTURE_FOUR_PHASE; FAIL_ORIGINAL_GEOMETRY; FAR_HAND_VISIBLE_CONSTRAINT_IMPROVED",
+  "raw": {
+    "path": "/workspace/scratch/22c897619190/recovery-work/sw-idle-single-base-correction-v1/RAW.png",
+    "sha256": "ae23f86c70fc91651765dbea40d4d7a0e90f7da2fde475da08ddf5e840eca950",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "file_bytes": 353875,
+    "RGBA_sha256": "10699af3fc22f19c2037b9d62e4aafd0c181700eb4002b0c3d57f2ca59a0db74",
+    "builtin_calls": 1
+  },
+  "pins": {
+    "INPUT-original-SW21-full-canvas-8x.png": "2c390d6d883ca564b853053a04031ce48aa91a89b45106ead0dba855a5caf98e",
+    "REQUEST.json": "0ab8e8df35cc5e3be1c64151afd759c210fd1b08b8df13fb8903defe28d65496",
+    "GENERATION_RESULT.json": "1c5ab39c09a1d0d11689c2cb80c10fb75629f04f102e32a404c324b4e8695314",
+    "INPUT_MANIFEST.json": "d83a84c162001c6a37c1f289da9f0a45d8144454f73da8d665e4293c2ff45bc9",
+    "PROMPT.txt": "7f36a5f4e104e1d0b90f0dd21afaee26a841e8825a8ba9f29684d45c52fabb5c",
+    "INPUT-candidate-first-cell-full-RGBA.png": "8f5f02be529eb626bf64a283e2437350985d5f8ee05e7e535373202d8f7aa214"
+  },
+  "alpha": {
+    "histogram_0_255": [
+      1433283,
+      2777,
+      1058,
+      614,
+      417,
+      317,
+      255,
+      155,
+      107,
+      88,
+      67,
+      47,
+      55,
+      55,
+      42,
+      33,
+      30,
+      35,
+      37,
+      33,
+      39,
+      29,
+      30,
+      37,
+      24,
+      25,
+      25,
+      26,
+      32,
+      26,
+      28,
+      26,
+      23,
+      13,
+      26,
+      28,
+      17,
+      29,
+      26,
+      23,
+      25,
+      21,
+      24,
+      17,
+      27,
+      30,
+      18,
+      22,
+      17,
+      19,
+      21,
+      15,
+      18,
+      14,
+      19,
+      20,
+      10,
+      15,
+      16,
+      23,
+      21,
+      18,
+      18,
+      19,
+      21,
+      15,
+      8,
+      10,
+      14,
+      14,
+      14,
+      18,
+      12,
+      13,
+      15,
+      12,
+      10,
+      12,
+      15,
+      14,
+      11,
+      14,
+      5,
+      7,
+      17,
+      13,
+      15,
+      13,
+      17,
+      11,
+      11,
+      16,
+      10,
+      11,
+      13,
+      17,
+      23,
+      15,
+      13,
+      12,
+      14,
+      9,
+      20,
+      15,
+      12,
+      17,
+      16,
+      15,
+      14,
+      13,
+      13,
+      17,
+      15,
+      19,
+      12,
+      15,
+      16,
+      14,
+      23,
+      21,
+      18,
+      20,
+      18,
+      12,
+      19,
+      18,
+      21,
+      13,
+      12,
+      21,
+      20,
+      17,
+      20,
+      20,
+      10,
+      21,
+      16,
+      14,
+      10,
+      14,
+      16,
+      11,
+      15,
+      13,
+      17,
+      11,
+      10,
+      11,
+      11,
+      17,
+      15,
+      12,
+      21,
+      8,
+      10,
+      17,
+      20,
+      23,
+      18,
+      11,
+      17,
+      22,
+      15,
+      14,
+      15,
+      16,
+      8,
+      20,
+      13,
+      19,
+      9,
+      17,
+      17,
+      16,
+      15,
+      17,
+      21,
+      21,
+      26,
+      24,
+      25,
+      19,
+      17,
+      18,
+      22,
+      13,
+      14,
+      17,
+      14,
+      11,
+      11,
+      13,
+      11,
+      16,
+      14,
+      19,
+      20,
+      23,
+      22,
+      15,
+      18,
+      15,
+      30,
+      24,
+      20,
+      17,
+      26,
+      16,
+      25,
+      12,
+      17,
+      30,
+      24,
+      25,
+      30,
+      36,
+      18,
+      21,
+      31,
+      24,
+      36,
+      20,
+      27,
+      37,
+      23,
+      19,
+      30,
+      24,
+      27,
+      42,
+      41,
+      45,
+      34,
+      43,
+      61,
+      36,
+      40,
+      60,
+      61,
+      81,
+      99,
+      116,
+      106,
+      161,
+      194,
+      294,
+      347,
+      405,
+      596,
+      921,
+      1637,
+      4448,
+      32277,
+      86441,
+      271,
+      365
+    ],
+    "nonzero_pixels": 139233,
+    "alpha1": 2777,
+    "alpha2_127": 5374,
+    "alpha128_254": 130717,
+    "alpha255": 365,
+    "nonzero_median": 253.0,
+    "nonzero_bbox_xyxy": [
+      55,
+      29,
+      1216,
+      1172
+    ],
+    "alpha0_nonzero_RGB_pixels": 182,
+    "policy": "All channels retained exactly. Thresholds only observe geometry. Disconnected low-alpha pixels and RGB under alpha0 were not removed."
+  },
+  "threshold_observations": [
+    {
+      "threshold_for_measurement_only": 1,
+      "component_count": 75,
+      "largest_component_area": 139045,
+      "largest_bbox_xyxy": [
+        303,
+        146,
+        579,
+        945
+      ]
+    },
+    {
+      "threshold_for_measurement_only": 32,
+      "component_count": 1,
+      "largest_component_area": 132664,
+      "largest_bbox_xyxy": [
+        306,
+        149,
+        576,
+        939
+      ],
+      "surface_proxies": [
+        [
+          418.4166666666667,
+          149.0
+        ],
+        [
+          318.0,
+          782.0
+        ],
+        [
+          389.0,
+          914.0
+        ]
+      ],
+      "boot_endpoint_vertical_gap_raw_px": 132.0
+    },
+    {
+      "threshold_for_measurement_only": 128,
+      "component_count": 2,
+      "largest_component_area": 131080,
+      "largest_bbox_xyxy": [
+        307,
+        149,
+        575,
+        939
+      ],
+      "surface_proxies": [
+        [
+          407.5,
+          149.0
+        ],
+        [
+          319.0,
+          782.0
+        ],
+        [
+          389.0,
+          914.0
+        ]
+      ],
+      "boot_endpoint_vertical_gap_raw_px": 132.0
+    },
+    {
+      "threshold_for_measurement_only": 240,
+      "component_count": 3,
+      "largest_component_area": 128676,
+      "largest_bbox_xyxy": [
+        308,
+        152,
+        574,
+        938
+      ],
+      "surface_proxies": [
+        [
+          411.5,
+          152.0
+        ],
+        [
+          319.0,
+          783.0
+        ],
+        [
+          390.0,
+          914.0
+        ]
+      ],
+      "boot_endpoint_vertical_gap_raw_px": 131.0
+    },
+    {
+      "threshold_for_measurement_only": 255,
+      "component_count": 155,
+      "largest_component_area": 22,
+      "largest_bbox_xyxy": [
+        339,
+        533,
+        340,
+        555
+      ]
+    }
+  ],
+  "geometry": {
+    "proxy_names": [
+      "crown_top_row_centroid",
+      "upper_left_boot_leading_edge",
+      "lower_boot_leading_edge"
+    ],
+    "original_native_xy": [
+      [
+        40.5,
+        15.0
+      ],
+      [
+        32.0,
+        77.5
+      ],
+      [
+        38.0,
+        87.0
+      ]
+    ],
+    "raw_xy": [
+      [
+        407.5,
+        149.0
+      ],
+      [
+        319.0,
+        782.0
+      ],
+      [
+        389.0,
+        914.0
+      ]
+    ],
+    "uncertainty": "Original visible hair/shoe endpoint interpretation ±1 native px each; new crown approximately ±12 raw px horizontally / ±4 vertically (top-row centroid changes with observation threshold), and boot endpoints ±3 raw px each. Manual near hand ±5 raw px, original ±2 native px. Interpretation tolerances, not statistical confidence intervals or skeleton/contact measurements.",
+    "full_canvas_mapping": {
+      "raw_to_native_scale": 0.10207336523125997,
+      "translation": [
+        0,
+        0
+      ],
+      "status": "Compare the full returned square to the full original square; no bbox recentering or fitted origin. Requested size1024 differs from actual1254 but this preserves normalized canvas coordinates.",
+      "mapped_native_xy": [
+        [
+          41.59489633173844,
+          15.208931419457736
+        ],
+        [
+          32.56140350877193,
+          79.82137161084529
+        ],
+        [
+          39.706539074960126,
+          93.2950558213716
+        ]
+      ],
+      "residual_native_xy": [
+        [
+          1.0948963317384397,
+          0.20893141945773586
+        ],
+        [
+          0.5614035087719316,
+          2.32137161084529
+        ],
+        [
+          1.7065390749601264,
+          6.295055821371605
+        ]
+      ],
+      "RMS_native_px": 4.061460893945309
+    },
+    "single_isotropic_fit_DIAGNOSTIC_ONLY": {
+      "raw_to_native_scale": 0.0955468375290544,
+      "raw_px_per_native_px": 10.46607115275704,
+      "translation_native_xy": [
+        1.3058342454466114,
+        1.0720282529648841
+      ],
+      "residual_native_xy": [
+        [
+          -0.2588294614637263,
+          0.3085070447939895
+        ],
+        [
+          -0.21472458278503836,
+          -1.7103447993145835
+        ],
+        [
+          0.4735540442487718,
+          1.4018377545205993
+        ]
+      ],
+      "RMS_native_px": 1.3320357588577842,
+      "status": "Three visible-surface feasibility fit only; not an accepted canvas origin, registration or derived sprite."
+    },
+    "boot_gap": {
+      "original_native_px": 9.5,
+      "new_raw_px": 132.0,
+      "full_canvas_native_px": 13.473684210526315,
+      "fit_native_px": 12.61218255383518,
+      "fixed_canvas_uncertainty_max_native_px": 0.6124401913875598,
+      "original_uncertainty_max_native_px": 2,
+      "scale_to_force_original_gap": 0.07196969696969698,
+      "crown_to_upper_boot_native_if_gap_forced": 45.55681818181819,
+      "original_crown_to_upper_boot_native": 62.5,
+      "status": "Preserved stagger direction but excessive separation. A uniform scale that fixes the shoe gap shortens crown-to-upper-boot height by about17 native px."
+    },
+    "near_hand_visual_surface_proxy": {
+      "raw_xy_approx": [
+        495,
+        625
+      ],
+      "normalized_native_xy": [
+        50.526315789473685,
+        63.79585326953748
+      ],
+      "original_native_xy_approx": [
+        48,
+        57
+      ],
+      "status": "Manual visible fingertip-end observation, not isolated alpha component; glove touches trouser silhouette. Do not interpret as wrist joint."
+    },
+    "upper_body_limit": "The old robe shoulder edges and new armor caps are different surfaces. No shoulder/elbow/bone recovery or original upper-body fidelity is claimed."
+  },
+  "visual_review": {
+    "direction": "Retains elevated SW front-three-quarter, face towards screen lower-left. Not visually straight S or flipped SE.",
+    "far_hand": "Previously independently exposed screen-left palm/fingers no longer visible. Far sleeve/forearm is partly covered by body/side armor; no obvious transparent cutout or flattened palm. This supports visible occlusion constraint only; hidden anatomy cannot be verified.",
+    "near_hand": "Exposed screen-right near hand remains complete. Its visible terminal is lower than source under full-canvas mapping.",
+    "identity": "Broad same black cloth, silver/graphite armor, paired red shoulder caps, short dark hair and upper-left warm highlights. Face/plate seams/scratches/hair highlights were resynthesized; exact identity/texture lock and acceptance are not implied.",
+    "complete": "One complete visible character, crown/near-hand/both boots intact. Low-alpha disconnected artifacts remain outside main figure and are preserved."
+  },
+  "shared_texture_four_phase": "HOLD. No generated frames22-24 or valid original-phase motion are established. A single base would avoid future phase-specific texture regeneration, but geometry and identity need review first; old clothing proxies are not bones.",
+  "preservation": {
+    "old_four_phase_raw_and_all_reports_sha_unchanged": true,
+    "old_pinned_file_count": 10,
+    "tracked_diff_before": "\nINDEX\n",
+    "tracked_diff_after": "\nINDEX\n",
+    "tracked_baseline_unchanged": true,
+    "raw_reverified_unchanged": true,
+    "engine_mesh_runtime_actions": false
+  }
+}

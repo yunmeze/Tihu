@@ -1,0 +1,191 @@
+{
+  "scope": "Three independent flat materials only; no wall sampling",
+  "same_actual_size": true,
+  "same_uniform_density": 5.434328484894042,
+  "materials": [
+    {
+      "material": "M1",
+      "path": "recovery-work/a13-wall-m1-material-pilot-v1/generated-raw.png",
+      "raw_sha256": "d1da199db346ac41b54374ba92b82f02096de047cf7eaf4dfcc123928ce83a3b",
+      "bytes": 3508704,
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "density_if_shared_period_used": 5.434328484894042,
+      "rgb_mean": [
+        118.93847693759555,
+        114.99544360756902,
+        112.1628759262227
+      ],
+      "rgb_std": [
+        16.561679700658953,
+        15.907386604190336,
+        13.675487269230654
+      ],
+      "edge_jump_mean": 22.72488038277512,
+      "edge_jump_p95": 49.0,
+      "internal_x_jump_mean": 6.617939168218498,
+      "internal_x_jump_p95": 17.0,
+      "edge_to_internal_mean_ratio": 3.4338303518877002,
+      "first_last8px_mean_rgb_delta": [
+        21.572268740031888,
+        19.969098883572556,
+        17.681319776714517
+      ],
+      "jump_screen_pass": false,
+      "edge_band_screen_pass": false,
+      "quarter_mean_rgb": [
+        [
+          128.4546473648542,
+          123.80443411753316,
+          119.84512945156968
+        ],
+        [
+          120.06154318918315,
+          115.94242119485163,
+          112.879072318898
+        ],
+        [
+          114.42379401888398,
+          110.85579691313674,
+          108.64377761132427
+        ],
+        [
+          112.82985148162821,
+          109.39399272646004,
+          107.29678277918305
+        ]
+      ],
+      "mean_absolute_x_y_neighbor_difference": [
+        6.617939168218498,
+        13.22363382639772
+      ],
+      "screening_status": "FAIL: major periodicity/brightness bias"
+    },
+    {
+      "material": "M2",
+      "path": "recovery-work/a13-wall-m2-material-pilot-v1/generated-raw.png",
+      "raw_sha256": "6f48ff889bd98646fed0923ba3d3d8e12e57a453c3b95bb4b7926cf6c0d00ebc",
+      "bytes": 3920590,
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "density_if_shared_period_used": 5.434328484894042,
+      "rgb_mean": [
+        166.97055037913765,
+        161.52658160552897,
+        156.02846966262982
+      ],
+      "rgb_std": [
+        16.580155736213694,
+        17.772322029912402,
+        16.355418455166678
+      ],
+      "edge_jump_mean": 12.873205741626794,
+      "edge_jump_p95": 35.0,
+      "internal_x_jump_mean": 11.982813602484288,
+      "internal_x_jump_p95": 33.0,
+      "edge_to_internal_mean_ratio": 1.0743057656306954,
+      "first_last8px_mean_rgb_delta": [
+        2.1860047846889756,
+        2.422248803827756,
+        3.1363636363636545
+      ],
+      "jump_screen_pass": true,
+      "edge_band_screen_pass": false,
+      "quarter_mean_rgb": [
+        [
+          167.38479803924565,
+          161.92562840444126,
+          156.44896076962664
+        ],
+        [
+          166.7775881510377,
+          161.3947139853107,
+          155.95859364682696
+        ],
+        [
+          167.20556073599624,
+          161.7148804337303,
+          156.15894950853755
+        ],
+        [
+          166.5163222909619,
+          161.07297412610856,
+          155.54912941009152
+        ]
+      ],
+      "mean_absolute_x_y_neighbor_difference": [
+        11.982813602484288,
+        11.67931552259691
+      ],
+      "screening_status": "WARN: small band bias",
+      "root_review": "accepted as microtexture candidate; smallWARN retained; no edge blending or regeneration requested"
+    },
+    {
+      "material": "M3",
+      "path": "recovery-work/a13-wall-m3-material-pilot-v1/generated-raw.png",
+      "raw_sha256": "c46919ecc4595ccc0620d576ad80b5ab461d7b86d2775e40eb1dd62acefbe5d8",
+      "bytes": 3967604,
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "density_if_shared_period_used": 5.434328484894042,
+      "rgb_mean": [
+        146.79446568429194,
+        140.83137914018045,
+        133.72408039091493
+      ],
+      "rgb_std": [
+        18.84928511499576,
+        19.613384494316197,
+        17.769045483783245
+      ],
+      "edge_jump_mean": 14.11190855927698,
+      "edge_jump_p95": 38.0,
+      "internal_x_jump_mean": 12.219683074284662,
+      "internal_x_jump_p95": 34.0,
+      "edge_to_internal_mean_ratio": 1.154850618750854,
+      "first_last8px_mean_rgb_delta": [
+        2.162679425837325,
+        2.024621212121218,
+        2.574860446570966
+      ],
+      "jump_screen_pass": true,
+      "edge_band_screen_pass": true,
+      "quarter_mean_rgb": [
+        [
+          147.10325807257033,
+          141.12649871847788,
+          134.03985457398943
+        ],
+        [
+          146.32132843690002,
+          140.43013693759588,
+          133.43381942116437
+        ],
+        [
+          146.56067485006446,
+          140.59176258974477,
+          133.49172488293053
+        ],
+        [
+          147.1928402360853,
+          141.17729507613853,
+          133.9311883501458
+        ]
+      ],
+      "mean_absolute_x_y_neighbor_difference": [
+        12.219683074284662,
+        12.313469470188082
+      ],
+      "screening_status": "NUMERIC SCREEN PASS; visual approval required"
+    }
+  ]
+}
