@@ -2,7 +2,7 @@ extends "res://scripts/earth/snapshot_sorted_world.gd"
 # Optional conservative owner negative membership. Positive gates remain live.
 const DRAW_SOURCE_PATH="res://scripts/earth/sample_world.gd"
 const DRAW_SOURCE_SHA="c9139f34e1d57b1d33086c11157850454325c88078608fe13f8a081f7ddc07b2"
-const ROUTE_PROOF_PINS={"res://scripts/earth/sample_world.gd": "c9139f34e1d57b1d33086c11157850454325c88078608fe13f8a081f7ddc07b2", "res://scripts/earth/lingyunzi_candidate.gd": "5c110878726bb354e20574d8a8ef092c227f2742209c9ae3cc8b4e7787509d53", "res://scripts/earth/fangzhang_candidate.gd": "8f3b21d4f24c73299b8685715f58b8a4f15cbb9b454e84a34c69d9a12831e6a8", "res://scripts/earth/instance_identity_guard.gd": "2eabae66a29b8696d7aef50ddfe5bbd27b46ad4278624c10b4a1183a2435cb0b", "res://scripts/earth/asset_guard.gd": "c5a0718736b91ceac6aea417a464840e61b33c03b19d8dc3f61272339a7cdf4e", "res://scripts/earth/first_map_world.gd": "ac530e0da86b975b8c79f076dc08c4b4c77052744b26637b5c36be926c10f87f"}
+const ROUTE_PROOF_PINS={"res://scripts/earth/sample_world.gd": "c9139f34e1d57b1d33086c11157850454325c88078608fe13f8a081f7ddc07b2", "res://scripts/earth/lingyunzi_candidate.gd": "5c110878726bb354e20574d8a8ef092c227f2742209c9ae3cc8b4e7787509d53", "res://scripts/earth/fangzhang_candidate.gd": "8f3b21d4f24c73299b8685715f58b8a4f15cbb9b454e84a34c69d9a12831e6a8", "res://scripts/earth/instance_identity_guard.gd": "2eabae66a29b8696d7aef50ddfe5bbd27b46ad4278624c10b4a1183a2435cb0b", "res://scripts/earth/asset_guard.gd": "c5a0718736b91ceac6aea417a464840e61b33c03b19d8dc3f61272339a7cdf4e", "res://scripts/earth/first_map_world.gd": "e6a8ac3604c5ea938fbf006da1a79f195e38adf65695168ea0498db44bb37a5c"}
 var owner_prefilter_enabled=true
 var potential_owners:Dictionary={}
 var owner_gate_ready=false
@@ -34,7 +34,7 @@ func rebuild_owner_set()->void:
  owner_gate_ready=false;potential_owners={}
  # Collect every prepared group even when preference/active state is off. This is
  # deliberately an over-approximation and includes intentional empty records.
- for value in [shrub_owners,tree_owners,hall_owners,ground_owners,review_ground_owners,plant_reuse_owners]:
+ for value in [house_guard.owner_orders,shrub_owners,tree_owners,hall_owners,ground_owners,review_ground_owners,plant_reuse_owners]:
   if not add_owner_dictionary(value):return
  for bank in [south_groups]:
   if not bank is Dictionary:return
@@ -111,10 +111,15 @@ func prepare_plant_reuse(path:String=PlantReuseGuard.REGISTRATION)->bool:
  var result=super.prepare_plant_reuse(path)
  owner_gate_ready=false
  return result
+func prepare_house(deny:PackedStringArray=[]) -> bool:
+ owner_gate_ready=false
+ var result=super.prepare_house(deny)
+ owner_gate_ready=false
+ return result
 func _draw() -> void:
  if not owner_prefilter_enabled or not owner_gate_ready or not draw_source_valid:super._draw();return
  # Preserve current first_map_world draw-time positive gate before original sample draw.
- refresh_xuyun()
+ refresh_draw_qualifications()
  if not initialized:return
  var offset=screen_origin()
  for entry in ordered_objects():

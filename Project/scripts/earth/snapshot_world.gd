@@ -65,6 +65,8 @@ func prepare_visuals() -> void:
 	atlas_qualification.prepare()
 	xuyun_guard.atlas_validator=snapshot_atlas_matches
 	prepare_xuyun()
+	house_guard.atlas_validator=snapshot_atlas_matches
+	prepare_house()
 	review_guard.atlas_validator=snapshot_atlas_matches
 	static_props_guard.atlas_validator=snapshot_atlas_matches
 	east_ground_guard.atlas_validator=snapshot_atlas_matches
@@ -122,6 +124,7 @@ func alpha_hit(texture:Texture2D,point:Vector2,rect:Rect2,region:Rect2=Rect2()) 
 
 func hit_test_npc(point:Vector2) -> int:
 	refresh_xuyun()
+	refresh_house()
 	var entries=ordered_objects();entries.reverse()
 	for entry in entries:
 		if entry.kind==-1:continue
@@ -136,6 +139,11 @@ func hit_test_npc(point:Vector2) -> int:
 			var region=Rect2((int(tick/17)%4)*512,0,512,640) if ling else Rect2()
 			if alpha_hit(tex,point,Rect2(origin+Vector2(-32,-104),Vector2(128,160)),region):return int(entry.order)-int(map.width)*int(map.height)
 			continue
+		if prefer_house and house_active:
+			var house_id=house_guard.owner_id(entry)
+			if house_id>0:
+				if house_guard.owner_at(point-screen_origin())==house_id and alpha_hit(house_guard.texture,point,Rect2(Vector2(866,443)+screen_origin(),Vector2(512,512))):return -1
+				continue
 		var item=candidate_item(entry)
 		if not item.is_empty():
 			if not item.get("empty",false) and alpha_hit(item.texture,point,Rect2(item.origin+screen_origin(),item.size),item.get("region",Rect2())):return -1

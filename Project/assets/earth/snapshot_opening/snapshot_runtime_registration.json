@@ -1,6 +1,6 @@
 {
   "schema": "earth-runtime-files-v1",
-  "status": "isolated candidate; inherited opening + partial art; 178 ground / 24 plant snapshot combination untested; native/pack pending",
+  "status": "isolated house-local visual eligibility; inherited correct runtime retained; this revision regression pending",
   "runtime_files": [
     {
       "path": "res://art_source/earth_distant_lawn_runtime_research_v2/new121-core-union.png",
@@ -672,6 +672,38 @@
       "role": "source-atlas-manifest"
     },
     {
+      "path": "res://assets/earth/house_280_289_v1/body.png",
+      "sha256": "1d1088136701293461fe79677da1e4e355f0045c735758a128e154c957e23daf",
+      "bytes": 684478,
+      "type": "png",
+      "role": "texture",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "res://assets/earth/house_280_289_v1/owner_bounds.json",
+      "sha256": "8cffca6bf7832b8fcd6b484d4e1af3fb70018cece7dee1e6d7491d8ee2519c50",
+      "bytes": 2614,
+      "type": "json",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://assets/earth/house_280_289_v1/ownership-id-data.png",
+      "sha256": "8d18e597c554c880396a33d76b5112c38cf0bb738dbea5471e37830a00ef1163",
+      "bytes": 5771,
+      "type": "png",
+      "role": "texture",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "res://assets/earth/house_280_289_v1/registration.json",
+      "sha256": "cdbbaded84adf25c9d2f694f9b76e1353a98d1ad96ec6fd3a3d3cec7c814c6f9",
+      "bytes": 81055,
+      "type": "json",
+      "role": "registration"
+    },
+    {
       "path": "res://assets/earth/npc/fangzhang_v1/body.png",
       "sha256": "21cfcd0e60c40944c3623e2d9b989e3d7eeb006a3ebbd2be648a69f655cf04bc",
       "bytes": 54205,
@@ -1155,6 +1187,20 @@
       "role": "raw-contract"
     },
     {
+      "path": "res://scripts/earth/house_owner_guard.gd",
+      "sha256": "b88505e2dffd4f666e4ac8a9e5a5e78d94b52e3856e6d831776e443f8a14a649",
+      "bytes": 6809,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/earth/house_owner_mask.gdshader",
+      "sha256": "d37db049c1a79d64fa2235ac7d7e83d8b33503c635d06d78aaed709385461dca",
+      "bytes": 1227,
+      "type": "gdshader",
+      "role": "shader"
+    },
+    {
       "path": "res://scripts/earth/instance_identity_guard.gd",
       "sha256": "2eabae66a29b8696d7aef50ddfe5bbd27b46ad4278624c10b4a1183a2435cb0b",
       "bytes": 1585,
@@ -1242,5 +1288,24 @@
   "provenance": {
     "base_commit": "44db593064164f8d43a6e75dc0a0b9510a470d53",
     "note": "Explicit domain roots. Export adapter must traverse receiver_contract caster pins and original R6/A00 fallback graph. Not a claim whole game export closure is contained here."
+  },
+  "house_live_scope": {
+    "schema": "house-building-ten-frame-live-v1",
+    "pack": "Map/Res/Building",
+    "frames": [
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289
+    ],
+    "reload_source_sha_unchanged": true,
+    "unrelated_pack_and_mon220_independent": true,
+    "other_global_guards_unchanged": true
   }
 }

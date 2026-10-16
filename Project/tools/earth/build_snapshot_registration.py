@@ -95,7 +95,13 @@ for layer in move['layers'].values():add(layer['atlas'],'source-atlas')
 add('res://assets/earth/xuyun_static_v1/registration.json','registration')
 add('res://assets/earth/xuyun_static_v1/body.png','texture')
 add('res://scripts/earth/xuyun_guard.gd','raw-contract')
-reg={'schema':'earth-runtime-files-v1','status':'isolated candidate; inherited opening + partial art; 178 ground / 24 plant snapshot combination untested; native/pack pending','runtime_files':sorted(paths.values(),key=lambda x:x['path']),'provenance':{'base_commit':'44db593064164f8d43a6e75dc0a0b9510a470d53','note':'Explicit domain roots. Export adapter must traverse receiver_contract caster pins and original R6/A00 fallback graph. Not a claim whole game export closure is contained here.'}}
+# Complete source-bound ten-owner house; raw generation research is not loaded.
+for path,role in [("body.png","texture"),("ownership-id-data.png","texture"),("registration.json","registration"),("owner_bounds.json","raw-contract")]:
+ add("res://assets/earth/house_280_289_v1/"+path,role)
+add("res://scripts/earth/house_owner_guard.gd","raw-contract")
+add("res://scripts/earth/house_owner_mask.gdshader","shader")
+reg={'schema':'earth-runtime-files-v1','status':'isolated house-local visual eligibility; inherited correct runtime retained; this revision regression pending','runtime_files':sorted(paths.values(),key=lambda x:x['path']),'provenance':{'base_commit':'44db593064164f8d43a6e75dc0a0b9510a470d53','note':'Explicit domain roots. Export adapter must traverse receiver_contract caster pins and original R6/A00 fallback graph. Not a claim whole game export closure is contained here.'}}
+reg['house_live_scope']={'schema':'house-building-ten-frame-live-v1','pack':'Map/Res/Building','frames':list(range(280,290)),'reload_source_sha_unchanged':True,'unrelated_pack_and_mon220_independent':True,'other_global_guards_unchanged':True}
 out=d/'snapshot_runtime_registration.json';out.write_text(json.dumps(reg,ensure_ascii=False,indent=2)+'\n')
 
 # Output reproduction alone is insufficient: the runtime consumer must accept its exact SHA.

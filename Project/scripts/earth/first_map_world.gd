@@ -20,6 +20,7 @@ func setup(actor:RefCounted,map_path:String="res://data/maps/A13.json") -> bool:
 	e_walk_error="尚未加载";review_ground_error="尚未加载"
 	var ok=super.setup(actor,map_path)
 	prepare_xuyun()
+	prepare_house()
 	return ok
 func prepare_ground(path:String=ReviewGuard.REGISTRATION) -> bool:
 	# Never call the inherited old-64 preparation, including on reload failure.
@@ -82,6 +83,7 @@ func prepare_static_props(id:String,path:String=StaticPropsGuard.REGISTRATION) -
 
 func refresh() -> void:
 	refresh_xuyun()
+	if not house_opt_skip_refresh_validation:refresh_house()
 	var snapshot=static_props_guard.refresh_snapshot(static_props_groups.values()+plant_reuse_groups.values(),objects)
 	validate_review_ground_stream()
 	validate_review_ground_live(snapshot)
@@ -103,7 +105,20 @@ func static_props_count(id:String) -> int:
 	return static_props_groups[id].owners.size() if preferred and static_props_groups.has(id) else 0
 
 func _draw_frame(pack_name:String,index:int,origin:Vector2,use_offset:bool,top:float) -> void:
-	if prefer_npcs and xuyun_active and use_offset and pack_name=="Npc" and index in [237,238,239,240] and origin-screen_origin()==Vector2(1392,1344):
+	if prefer_house and house_active and not use_offset and pack_name=="Map/Res/Building" and index>=280 and index<=289:
+		for i in house_guard.reg.owners.size():
+			var o:Dictionary=house_guard.reg.owners[i]
+			if int(o.index)!=index or origin!=Vector2(o.cell[0]*48,o.cell[1]*32)+screen_origin():continue
+			if house_shader_detached:return # Proven full filtered body outside; suppress original owner too.
+			var box=house_guard.counts.owners[i].bbox_xyxy_hd
+			if box!=null:
+				var region=Rect2(box[0],box[1],box[2]-box[0],box[3]-box[1])
+				var dest=Rect2(Vector2(866,443)+screen_origin()+region.position/2.0,region.size/2.0)
+				if dest.intersects(get_viewport_rect().grow(1)):
+					draw_texture_rect_region(house_guard.texture,dest,region,Color(float(i+1)/255.0,0,1,1),false,false)
+					house_draw_commands+=1
+			return
+	if prefer_npcs and xuyun_active and use_offset and pack_name=="Npc" and index in [237,238,239,240] and origin==Vector2(1392,1344)+screen_origin():
 		var body=xuyun_guard.descriptor()
 		draw_texture_rect_region(body.texture,Rect2(body.origin+screen_origin(),body.size),body.region)
 		return
@@ -192,5 +207,92 @@ func refresh_xuyun() -> void:
 func uses_xuyun(entry:Dictionary) -> bool:
 	return prefer_npcs and xuyun_active and xuyun_guard.owns(entry)
 func _draw() -> void:
-	refresh_xuyun()
+	refresh_draw_qualifications()
 	super._draw()
+
+# Complete ten-owner house. These hooks are also called by the copied prefilter draw.
+const HouseGuard=preload("res://scripts/earth/house_owner_guard.gd")
+var house_guard=HouseGuard.new()
+var house_active=false
+var prefer_house=true
+var house_draw_commands=0
+var house_draw_checks=0
+var house_material:ShaderMaterial
+# Independent diagnostic switches. No qualification state is cached.
+var house_opt_skip_refresh_validation=true
+var house_opt_detach_offscreen=false
+var house_opt_uniform_dedup=false
+var house_shader_detached=false
+var house_uniform_key:Array=[]
+var house_uniform_writes=0
+var house_shader_attach_changes=0
+var house_offscreen_proofs=0
+var house_profile_us:Dictionary={}
+var house_profile_calls:Dictionary={}
+func house_profile_add(key:String,start:int)->void:
+	house_profile_us[key]=int(house_profile_us.get(key,0))+Time.get_ticks_usec()-start
+	house_profile_calls[key]=int(house_profile_calls.get(key,0))+1
+func house_strictly_offscreen(transform:Transform2D)->bool:
+	if house_guard.texture==null or house_guard.body_used_rect.size.x<=0 or house_guard.body_used_rect.size.y<=0:return false
+	var used=house_guard.body_used_rect
+	var local=Rect2(Vector2(866,443)+screen_origin()+used.position/2.0,used.size/2.0).grow(1.0)
+	var a=transform*local.position
+	var b=transform*Vector2(local.end.x,local.position.y)
+	var c=transform*local.end
+	var d=transform*Vector2(local.position.x,local.end.y)
+	for point in [a,b,c,d]:
+		if not is_finite(point.x) or not is_finite(point.y):return false
+	var bounds=Rect2(a,Vector2.ZERO).expand(b).expand(c).expand(d)
+	var physical_size=Vector2(get_viewport().get_texture().get_size())
+	if physical_size.x<=0 or physical_size.y<=0:return false
+	# Strict separation; touching edges remain attached.
+	return bounds.end.x<0.0 or bounds.end.y<0.0 or bounds.position.x>physical_size.x or bounds.position.y>physical_size.y
+func prepare_house(deny:PackedStringArray=[]) -> bool:
+	var ok=house_guard.reload(deny)
+	if material!=null and material!=house_material:
+		house_active=false;house_guard.error="world material conflict";return false
+	if house_material==null:
+		house_material=ShaderMaterial.new()
+		house_material.shader=preload("res://scripts/earth/house_owner_mask.gdshader")
+	if ok:house_material.set_shader_parameter("owner_mask",house_guard.owner_mask)
+	material=house_material
+	house_shader_detached=false
+	house_uniform_key=[]
+	refresh_house()
+	return ok and house_active
+func refresh_house()->void:
+	var started=Time.get_ticks_usec()
+	house_active=initialized and (material==house_material or (house_shader_detached and material==null)) and house_material!=null and house_guard.valid(map,packs,objects)
+	house_profile_add("guard_all_calls",started)
+func refresh_draw_qualifications()->void:
+	refresh_xuyun()
+	var qualification_start=Time.get_ticks_usec()
+	refresh_house()
+	house_profile_add("guard_draw_stage",qualification_start)
+	house_draw_checks+=1
+	if house_material==null:return
+	if material!=null and material!=house_material:return
+	var started=Time.get_ticks_usec()
+	var transform=get_viewport().get_stretch_transform()*get_global_transform_with_canvas()
+	var offscreen=house_opt_detach_offscreen and house_strictly_offscreen(transform)
+	if offscreen:
+		house_offscreen_proofs+=1
+		if material==house_material:
+			material=null;house_shader_detached=true;house_uniform_key=[];house_shader_attach_changes+=1
+	else:
+		if house_shader_detached and material==null:
+			material=house_material;house_shader_detached=false;house_uniform_key=[];house_shader_attach_changes+=1
+	house_profile_add("visibility_material",started)
+	started=Time.get_ticks_usec()
+	var inverse=transform.affine_inverse()
+	var x=Vector3(inverse.x.x,inverse.y.x,inverse.origin.x)
+	var y=Vector3(inverse.x.y,inverse.y.y,inverse.origin.y)
+	var origin=Vector2(866,443)+screen_origin()
+	var key=[x,y,origin]
+	if not house_opt_uniform_dedup or key!=house_uniform_key:
+		house_material.set_shader_parameter("screen_to_local_x",x)
+		house_material.set_shader_parameter("screen_to_local_y",y)
+		house_material.set_shader_parameter("master_local_origin",origin)
+		house_uniform_writes+=3
+		house_uniform_key=key
+	house_profile_add("inverse_uniform",started)

@@ -1,7 +1,7 @@
 extends "res://scripts/earth/snapshot_world.gd"
 # Optional static sorting reuse. Full parent validation remains authoritative.
 const Exact=preload("res://scripts/earth/snapshot_exact_cache.gd")
-const SORT_SOURCE_PINS={"res://scripts/world_view.gd": "b404d8dd5e7e85a120fec00b7eb5f01e6bfc1fc37adf5e7878c1798432d4e285", "res://scripts/earth/sample_world.gd": "c9139f34e1d57b1d33086c11157850454325c88078608fe13f8a081f7ddc07b2", "res://scripts/earth/first_map_world.gd": "ac530e0da86b975b8c79f076dc08c4b4c77052744b26637b5c36be926c10f87f", "res://scripts/earth/snapshot_world.gd": "543049941f235210703bca8a67a35c227af8881aa7eda0e8ca04c99126711821"}
+const SORT_SOURCE_PINS={"res://scripts/world_view.gd": "b404d8dd5e7e85a120fec00b7eb5f01e6bfc1fc37adf5e7878c1798432d4e285", "res://scripts/earth/sample_world.gd": "c9139f34e1d57b1d33086c11157850454325c88078608fe13f8a081f7ddc07b2", "res://scripts/earth/first_map_world.gd": "e6a8ac3604c5ea938fbf006da1a79f195e38adf65695168ea0498db44bb37a5c", "res://scripts/earth/snapshot_world.gd": "f53f2d90843ff55e9078eda8d45498ea407aeffc520a8beec8d95f1ea35c89fe"}
 var sort_methods_valid=false
 var sort_reuse_enabled=true
 var sort_baseline:Array=[]

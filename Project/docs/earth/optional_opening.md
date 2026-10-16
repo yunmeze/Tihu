@@ -65,3 +65,12 @@ A13 factory 使用 `snapshot_prefilter_world.gd`，继承 `snapshot_sorted_world
 两个新脚本由明确preload代码链进入导出闭包，不属于148项资源/契约清单的新增数据条目。新发行须另建代码SHA闭包，纳入两脚本及UID；旧冻结export policy保持原样。被FileAccess核SHA的源GD必须保留原字节，不能仅以编译GDC替代。receiver中的单一Python依赖为显式hash-only叶子，相关来源注册为明确raw-only叶子。新代码组合的发行包闭包与Windows运行仍待独立验收。
 
 snapshot构造必须显式调用父构造并保留正确floor绑定；后续回归需看framebuffer。虚云目前仅静态身体与命中显示，原服务未实现；开场交互仅开放 A13 原 source 记录0/1，删除重排后的当前数组索引不再获得其他NPC的授权。整张A13完整美术、草地严格无缝与外围边界、完整动作循环、E影子、其余NPC服务、战斗/怪物AI、保存和完整游戏流程均未验收。
+
+
+## 小楼280–289阶段接入补充
+
+已接入完整10-owner小楼身体，采用自身Building视觉依赖的局部资格；无关Mon220/其他pack失效不单独撤小楼，其他全局NPC、草地和投影guard不变。原source身份、碰撞、门坐标与排序保留，无新增建筑影或门交互。细节及当前限制见[小楼局部资格说明](house_local_scope.md)。
+
+上文148项与旧发行未验记录属于此前版本。本次154项声明SHA为`d04cf7325b625bda052631e2bced088645bfaf2ce5531274a8a07a05196fcf45`，receiver SHA不变；builder重建exact、289项raw闭包、干净导入/第二空目录Linux PCK及24对新实际source/packed像素通过。新工具另行冻结，旧policy保持历史范围；Windows/EXE仍未验。
+
+同态llvmpipe可见楼约12.390→11.785FPS（观测成本4.88%），出生屏外约10.637→10.493FPS（1.35%），不是性能无损或50FPS通过。稳定NPC原source0/1授权、ET3/ET28身份与原自然流程规则全部保留，本建筑接入不扩展NPC服务。
