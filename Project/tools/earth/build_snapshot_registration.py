@@ -3,7 +3,7 @@
 Only writes --output. No diagnostic/recovery inputs, Godot, Git, or source edits.
 """
 from pathlib import Path
-import argparse,json,hashlib,struct
+import argparse,json,hashlib,struct,re
 ap=argparse.ArgumentParser();ap.add_argument('--project',type=Path,required=True);ap.add_argument('--output',type=Path,required=True);args=ap.parse_args()
 P=args.project.resolve();d=args.output.resolve();d.mkdir(parents=True,exist_ok=True)
 assert d!=P and P not in d.parents, 'Output must be outside Project'
@@ -97,6 +97,13 @@ add('res://assets/earth/xuyun_static_v1/body.png','texture')
 add('res://scripts/earth/xuyun_guard.gd','raw-contract')
 reg={'schema':'earth-runtime-files-v1','status':'isolated candidate; inherited opening + partial art; 178 ground / 24 plant snapshot combination untested; native/pack pending','runtime_files':sorted(paths.values(),key=lambda x:x['path']),'provenance':{'base_commit':'44db593064164f8d43a6e75dc0a0b9510a470d53','note':'Explicit domain roots. Export adapter must traverse receiver_contract caster pins and original R6/A00 fallback graph. Not a claim whole game export closure is contained here.'}}
 out=d/'snapshot_runtime_registration.json';out.write_text(json.dumps(reg,ensure_ascii=False,indent=2)+'\n')
+
+# Output reproduction alone is insufficient: the runtime consumer must accept its exact SHA.
+consumer=P/'scripts/earth/snapshot_receiver_qualification.gd'
+match=re.search(r'^const RUNTIME_REGISTRATION_SHA="([0-9a-f]{64})"$',consumer.read_text(),re.MULTILINE)
+expected=h(out)
+if match is None or match.group(1)!=expected:
+ raise SystemExit('Receiver consumer pin mismatch: '+str(consumer)+' must pin '+expected+'; generated output is not runtime-qualified. Source was not modified.')
 
 # V5 hash is frozen after explicit published east/plant closure merge.
 print(json.dumps({'receiver_sha256':h(d/'receiver_contract.json'),'runtime_sha256':h(out),'runtime_records':len(paths),'status':'exact frozen reproduction'},indent=2))

@@ -2,7 +2,7 @@ extends RefCounted
 const CONTRACT="res://assets/earth/snapshot_opening/receiver_contract.json"
 const CONTRACT_SHA="0292fcd96402ec0b26cd4b2d6d99cd069aa7e77a973e434f39fa6f15e1ce3534"
 const RUNTIME_REGISTRATION="res://assets/earth/snapshot_opening/snapshot_runtime_registration.json"
-const RUNTIME_REGISTRATION_SHA="1f437571d8881c0901acd71c1de221fc69648b10cc3a57ab19ca73dd749455f2"
+const RUNTIME_REGISTRATION_SHA="d5fe14f49f71e6b2d1b4d7b22d6010ea0619ab8e50043c7eb3bf4422de1d5dd4"
 const ExactCache=preload("res://scripts/earth/snapshot_exact_cache.gd")
 var static_cache=ExactCache.new()
 var static_verdicts:Dictionary={}
