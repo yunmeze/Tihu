@@ -1,9 +1,9 @@
 extends Node
 ## F6-only art inspection. Fixed source A13; no story, rewards, NPC services or saves.
-const RELEASE="3e9a8ffaec0c1a8bb4b247d02fb2ea92acfd16a7"
+const RELEASE="tree-stage-shared-south-v3-candidate"
 const LOGICAL=Vector2i(1024,768)
 const RASTER=Vector2i(2048,1536)
-const WORLD_PATH="res://scripts/earth/south_walk_contact_world.gd"
+const WORLD_PATH="res://scripts/earth/upright_51_70_world.gd"
 const MOVEMENT_PATH="res://scripts/core/movement.gd"
 const SOURCE_MAP="res://data/maps/A13.json"
 # Reviewed source-code closure, not a relaxed replacement for inherited asset gates.
@@ -38,13 +38,13 @@ const CODE_PINS={
 	"res://scripts/earth/lingyunzi_candidate.gd": "5c110878726bb354e20574d8a8ef092c227f2742209c9ae3cc8b4e7787509d53",
 	"res://scripts/earth/max_ground_shadow.gd": "eb066c816e807bd542cf5338eab161aff9bf4ca34771764ac2a938f5edc3a5bb",
 	"res://scripts/earth/plant_reuse_guard.gd": "30866034c7135d73e410874f065947976a1acd28567638d0621b45056d128f98",
-	"res://scripts/earth/plant_texture_weak_bank.gd": "423fec7f221e86e11242ff2aabb42bd64764e519a0b01c4c0131b2d450f5c5b7",
+	"res://scripts/earth/plant_texture_weak_bank.gd": "ddda8c839b2083178df6690eb14bed11a2f3e0be84eacdfa0552f33c71fcf4ad",
 	"res://scripts/earth/raw_ground_shadow.gd": "8af76868855ce04544a6251f3f2e850550f0ae423b39e5c54c8ed98e29c5bed6",
 	"res://scripts/earth/receiver_v2_gate.gd": "835353138b091230f14336d56d24bf2d477845e84e084685d6506174fabea999",
 	"res://scripts/earth/s_idle_shadow_gate.gd": "265e5e5ebb41de6609575c66378d90253734d332b0a6496074633014983dc411",
 	"res://scripts/earth/s_walk_contact_v3_compositor.gd": "5361a2300051cafacc12900db7e630dbf18c4e49fe794238b84c2ae02b0bc638",
 	"res://scripts/earth/s_walk_contact_v3_gate.gd": "cd83aed2cbdcc3b52e2ce2c5f48a229a64796bfa555d81821b51f3c9adc110d0",
-	"res://scripts/earth/s_walk_contact_v3_qualification.gd": "a9b2aa79efbcd09ddc2eb0bfba7042787ef688f2b30fc139e9e97476523c2708",
+	"res://scripts/earth/s_walk_contact_v3_qualification.gd": "80dd2a7047eb1104ed8e11e46ebe57854b787ea67208d886e60d73eafcb271d2",
 	"res://scripts/earth/sample_floor_pass.gd": "7fd59781dca6e3f8cb7ae7fe5c493464668350ae3086af0deb10199f0361defb",
 	"res://scripts/earth/sample_world.gd": "c9139f34e1d57b1d33086c11157850454325c88078608fe13f8a081f7ddc07b2",
 	"res://scripts/earth/shrub_candidate.gd": "f910e088c4d700575ffa722a85226364e4b1344cf408e1d9b87b091776fc5c41",
@@ -56,10 +56,10 @@ const CODE_PINS={
 	"res://scripts/earth/snapshot_plant_shared_guard.gd": "a867e2349e2462c5f18849a4280be48de99fbaf821ab0d88885aebd621e8ec8e",
 	"res://scripts/earth/snapshot_prefilter_world.gd": "02dea14cf29ecf358547abac62cb11503faaa12ad76a4a5bc4b85ee4cd1e609b",
 	"res://scripts/earth/snapshot_props_guard.gd": "ed1e65fa004de533627e74f06784415b19e31d7198964661cd4803b495ddc415",
-	"res://scripts/earth/snapshot_receiver_qualification.gd": "1160992db656cc0d942cf7bd16891e4505c3496a5e97a298d972cd2d684236e2",
+	"res://scripts/earth/snapshot_receiver_qualification.gd": "0dbdf5393bd9fa3344aa4dcba870b2277ef280757f7912faaf9e787c47d79fa7",
 	"res://scripts/earth/snapshot_sorted_world.gd": "1d89ee9e02b984739eebf1f51641f9843ef7c7d43b9f4c7434a4022128333e78",
 	"res://scripts/earth/snapshot_source_identity.gd": "19d2ff5c00392fafb2fc7e6466472d78c8e3a0b57f273508375879b212d2e011",
-	"res://scripts/earth/snapshot_south_guard.gd": "1287e0e4cce913e5fba0407b99e128c9fac257ae83df6d6467dc60b5c80580f5",
+	"res://scripts/earth/snapshot_south_guard.gd": "6a2028999bbe4a7fec61150120ca1488f0a99caf9be96fc5ab21abbfadd29e1e",
 	"res://scripts/earth/snapshot_world.gd": "f53f2d90843ff55e9078eda8d45498ea407aeffc520a8beec8d95f1ea35c89fe",
 	"res://scripts/earth/snapshot_zhang_world.gd": "533199fca3174a0e426eebe46cb740eb8eb1ad91e12d5644f7671f77e0aa2d92",
 	"res://scripts/earth/south_vegetation_candidate.gd": "4dd2ae3074977b62d837b8d1ca5137fc1f7a7bad5d92f21f12786d67ad8dc314",
@@ -69,7 +69,13 @@ const CODE_PINS={
 	"res://scripts/earth/static_props_guard.gd": "e6346c7829629a394075e272704bc16d26418993fad26659cc5b6ebcc9a0034a",
 	"res://scripts/earth/translated_shrub_candidate.gd": "0323bbc53c55462a1b7b22b251f965cf1ebcd3499881c35601a3d0352d63cbe3",
 	"res://scripts/earth/tree_candidate.gd": "b95f1180cc294698f2d23131b2b764a1b59b98759a07dc123e7407c82fcedb15",
+	"res://scripts/earth/upright_51_70_compositor.gd": "bbb377e3c0b2b5770d7305ba48c69ed1e2013e025eb27435f434338af6d43844",
+	"res://scripts/earth/upright_51_70_gate.gd": "933224c2d2432b6be5cf208d87f4032ac166d891a0da7b2b92cd8f781d40f629",
+	"res://scripts/earth/upright_51_70_qualification.gd": "578ae908b04d3379225b7d2d88502824b8b72bf5ff24cc1d5c89dab8aaa98871",
+	"res://scripts/earth/upright_51_70_world.gd": "26bfa8866f26930de5f11638689c079beabf1be0b3f25bb1897085f0b7d6de43",
 	"res://scripts/earth/upright_candidate.gd": "83d79c0484b186bdf1c160be4da5c18a8395f9cf6d6f2110b7f3d42ba39413a0",
+	"res://scripts/earth/upright_ground_lifecycle.gd": "d3e0b16238d746a950242aa9fa5309fab4866da6eebdfaa844887814f34c8cda",
+	"res://scripts/earth/upright_raw_weak_bank.gd": "eb0ed4cdd8609eac3b14088615033ea80a5a3789fc2cf5ca50f8deb239ad1876",
 	"res://scripts/earth/viewport_ground_shadow.gd": "80a5b391336090ef55338a5561fbad213e67adb3915c7eea9285cf401991882f",
 	"res://scripts/earth/xuyun_guard.gd": "bca49885359f4a90520b8249aba49b1f527ee4b1198ff312c3251bc4ebe34efd",
 	"res://scripts/earth/zhang_fourphase_guard.gd": "836404d9001f77826648a9356b12a7ea8faf1620a5de01ee238d24e583101c0c",
@@ -78,6 +84,7 @@ const CODE_PINS={
 	"res://shaders/density_alpha_ground_shadow.gdshader": "b4d976938acbb3b57df13bf85ade4ebf3173c0634b5e7ee4338e8b038bf51f3b",
 	"res://shaders/earth_max_ground_shadow.gdshader": "232997a561d4451f4ecfc2da7cd4a0e821a751722392806c1d41fe2777ead22b",
 	"res://shaders/earth_s_walk_contact_v3.gdshader": "c40ba78cea3342ae09029f7655cedf8fe375760d39123082dbdfa9a651dc92ab",
+	"res://shaders/earth_upright_51_70.gdshader": "3fbd82add41474f094defcdc45a4ffb431a27a66938441aebff9c6e3b53598b5",
 	"res://shaders/hero_alpha_ground_shadow.gdshader": "d8f4894fd16458a3a7aabb5db5af4a95f39320f5e2549c33467f79f5a5089c24"
 }
 const CAMERA_POINTS=[Vector2(2496,960),Vector2(2112,1664),Vector2(2450,1465),Vector2(738,400)]
@@ -123,7 +130,7 @@ func _ready()->void:
 		source_error="A13 固定参考图不可用";update_hud();return
 	source_snapshot_bytes=var_to_bytes(original)
 	actor=load(MOVEMENT_PATH).new();actor.position=Vector2(61,39);actor.direction=4
-	world=load(WORLD_PATH).new();world.prefer_s_walk_shadow=true
+	world=load(WORLD_PATH).new();world.prefer_s_walk_shadow=true;world.prefer_tree_pilot=true
 	if not world.setup_snapshot(actor,original):
 		source_error="地图资源加载失败："+str(world.loading_errors)
 		world.free();world=null;update_hud();return
@@ -244,6 +251,20 @@ func required_gate_failures()->Array[String]:
 	if world.static_props_count("pool")!=7 or world.static_props_count("clump")!=3:failed.append("水池/细草")
 	for caster in ["hero_se","hero_s","fangzhang","lingyunzi","first_tree","left_upright"]:
 		if not world.qualification.resource_ok.get(caster,false) or not world.qualifies(caster):failed.append("接地区:"+caster)
+	# The visible tree body is independent of the new tree-shadow raw sampler.
+	var tree_group:Dictionary=world.plant_reuse_groups.get("upright_tree_51_70",{})
+	if tree_group.is_empty() or not world.prefer_tree_pilot or not world.tree_plant_token.get("active",false) or not world.plant_reuse_guard.live_valid(tree_group,world.map,world.objects,world.packs):failed.append("51,70树体身份")
+	if world.tree_qualification.contract.is_empty() or not world.tree_qualification.error.is_empty():failed.append("51,70树影源资格")
+	var tree_material=world.shadow_compositor.material
+	if not tree_material is ShaderMaterial:
+		failed.append("51,70树影材质")
+	elif compare_ground:
+		# F8 off must revoke shadow raw sampling/receiver/bindings, not the tree body.
+		if world.tree_ready or world.shadow_compositor.tree_active or world.tree_gate.body!=null or world.tree_gate.receiver!=null or world.floor_pass.ground_token.get("active",false):failed.append("51,70树影未随对照撤销")
+		if tree_material.get_shader_parameter("tree_pilot_active")!=false or tree_material.get_shader_parameter("tree_pilot_body")!=null or tree_material.get_shader_parameter("tree_pilot_receiver")!=null:failed.append("51,70树影旧绑定未清空")
+	else:
+		if not world.tree_ready or not world.tree_gate.valid(world) or not world.shadow_compositor.tree_active:failed.append("51,70树影正门")
+		if tree_material.get_shader_parameter("tree_pilot_active")!=true or tree_material.get_shader_parameter("tree_pilot_body")!=world.tree_gate.body or tree_material.get_shader_parameter("tree_pilot_receiver")!=world.tree_gate.receiver:failed.append("51,70树影实际绑定")
 	return failed
 
 func update_hud()->void:
@@ -253,7 +274,7 @@ func update_hud()->void:
 	if not source_ok:return
 	status.modulate=Color.WHITE if ready_ok else Color("ffab8a")
 	if ready_ok:
-		status.text="地面："+("既有通道121+57（F8对照）" if compare_ground else "C24 / 草907 / 既有39 / 原版保留1583")+" · S步行6相 / 张4相 / 南植4组"
+		status.text="地面："+("既有通道121+57（F8对照）" if compare_ground else "C24 / 草907 / 既有39 / 原版保留1583")+" · S步行6相 / 张4相 / 南植4组 / 51,70树"
 	else:status.text="检视不完整，移动已停止："+"、".join(gate_failures)
 	var mode="原版动作"
 	if world.uses_s_walk(actor.source_frame()):mode="S步行6相"

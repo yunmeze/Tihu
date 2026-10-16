@@ -1016,6 +1016,42 @@
       "role": "source-atlas-manifest"
     },
     {
+      "path": "res://assets/earth/shadows/upright_51_70_v1/allowed-provisional.png",
+      "sha256": "beacbbd53cf986e08651a1ada75a01c18dc1e41052a3a16dccc7316439d313cc",
+      "bytes": 2730,
+      "type": "png",
+      "role": "texture",
+      "width": 1208,
+      "height": 388
+    },
+    {
+      "path": "res://assets/earth/shadows/upright_51_70_v1/nominal-envelope.png",
+      "sha256": "31c721373007cb6ec3e509020af1fa256d2e2f1fc968e05f02df669c0778ad67",
+      "bytes": 5281,
+      "type": "png",
+      "role": "texture",
+      "width": 1208,
+      "height": 388
+    },
+    {
+      "path": "res://assets/earth/shadows/upright_51_70_v1/pool-filter-uncertainty-excluded.png",
+      "sha256": "337f826cbc5d91e4b3bc4a93145d59352fc04b48fc7d2508841d2e6709af0399",
+      "bytes": 1985,
+      "type": "png",
+      "role": "texture",
+      "width": 1208,
+      "height": 388
+    },
+    {
+      "path": "res://assets/earth/shadows/upright_51_70_v1/root-error-envelope.png",
+      "sha256": "6dc337d79c8aaf2f1e7ffa28ed4d6aedfb4cb4c74517130e1c4cf9ff00ce3955",
+      "bytes": 2599,
+      "type": "png",
+      "role": "texture",
+      "width": 1208,
+      "height": 388
+    },
+    {
       "path": "res://assets/earth/snapshot_opening/receiver_contract.json",
       "sha256": "0292fcd96402ec0b26cd4b2d6d99cd069aa7e77a973e434f39fa6f15e1ce3534",
       "bytes": 209023,
@@ -1395,8 +1431,8 @@
     },
     {
       "path": "res://scenes/earth_new_game_candidate.tscn",
-      "sha256": "27809e16a625429c3243d4021a5974a0bc3f9e7d54f37499b90df68711bc69db",
-      "bytes": 203,
+      "sha256": "b847bed58b8d641ca2772347c05b3493775fec53231127683c7a07a94a644398",
+      "bytes": 198,
       "type": "tscn",
       "role": "raw-contract"
     },
@@ -1514,8 +1550,8 @@
     },
     {
       "path": "res://scripts/earth/plant_texture_weak_bank.gd",
-      "sha256": "423fec7f221e86e11242ff2aabb42bd64764e519a0b01c4c0131b2d450f5c5b7",
-      "bytes": 2191,
+      "sha256": "ddda8c839b2083178df6690eb14bed11a2f3e0be84eacdfa0552f33c71fcf4ad",
+      "bytes": 7743,
       "type": "gd",
       "role": "raw-contract"
     },
@@ -1570,8 +1606,8 @@
     },
     {
       "path": "res://scripts/earth/snapshot_south_guard.gd",
-      "sha256": "1287e0e4cce913e5fba0407b99e128c9fac257ae83df6d6467dc60b5c80580f5",
-      "bytes": 4380,
+      "sha256": "6a2028999bbe4a7fec61150120ca1488f0a99caf9be96fc5ab21abbfadd29e1e",
+      "bytes": 10768,
       "type": "gd",
       "role": "raw-contract"
     },
@@ -1625,9 +1661,51 @@
       "role": "raw-contract"
     },
     {
+      "path": "res://scripts/earth/upright_51_70_compositor.gd",
+      "sha256": "bbb377e3c0b2b5770d7305ba48c69ed1e2013e025eb27435f434338af6d43844",
+      "bytes": 2176,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/earth/upright_51_70_controller.gd",
+      "sha256": "8ef4f243fb0e6df5cda68e122383433d559ed9688f5803045a85923d054d9caa",
+      "bytes": 397,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/earth/upright_51_70_gate.gd",
+      "sha256": "933224c2d2432b6be5cf208d87f4032ac166d891a0da7b2b92cd8f781d40f629",
+      "bytes": 9715,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/earth/upright_51_70_world.gd",
+      "sha256": "26bfa8866f26930de5f11638689c079beabf1be0b3f25bb1897085f0b7d6de43",
+      "bytes": 4032,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
       "path": "res://scripts/earth/upright_candidate.gd",
       "sha256": "83d79c0484b186bdf1c160be4da5c18a8395f9cf6d6f2110b7f3d42ba39413a0",
       "bytes": 2912,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/earth/upright_ground_lifecycle.gd",
+      "sha256": "d3e0b16238d746a950242aa9fa5309fab4866da6eebdfaa844887814f34c8cda",
+      "bytes": 962,
+      "type": "gd",
+      "role": "raw-contract"
+    },
+    {
+      "path": "res://scripts/earth/upright_raw_weak_bank.gd",
+      "sha256": "eb0ed4cdd8609eac3b14088615033ea80a5a3789fc2cf5ca50f8deb239ad1876",
+      "bytes": 1221,
       "type": "gd",
       "role": "raw-contract"
     },
@@ -1677,6 +1755,13 @@
       "path": "res://shaders/earth_s_walk_contact_v3.gdshader",
       "sha256": "c40ba78cea3342ae09029f7655cedf8fe375760d39123082dbdfa9a651dc92ab",
       "bytes": 7004,
+      "type": "gdshader",
+      "role": "shader"
+    },
+    {
+      "path": "res://shaders/earth_upright_51_70.gdshader",
+      "sha256": "3fbd82add41474f094defcdc45a4ffb431a27a66938441aebff9c6e3b53598b5",
+      "bytes": 8137,
       "type": "gdshader",
       "role": "shader"
     },

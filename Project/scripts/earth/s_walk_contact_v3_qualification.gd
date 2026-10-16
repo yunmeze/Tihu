@@ -1,9 +1,9 @@
 extends "res://scripts/earth/snapshot_receiver_qualification.gd"
 ## Separate sidecar/source closure. Existing receiver contract and pins unchanged.
 const WALK_CONTRACT="res://assets/earth/shadows/s_walk_contact_v3/receiver_contract.json"
-const WALK_CONTRACT_SHA="058a74cb3801322e1d64a1244024a058dd53404b56314c742741e9db2f21a0ac"
+const WALK_CONTRACT_SHA="a72570a60e302e2867435b952ddfd787037bd55086bd23be4a281b2454dfac99"
 const WALK_REGISTRATION="res://assets/earth/shadows/s_walk_contact_v3/runtime_registration.json"
-const WALK_REGISTRATION_SHA="166f2e68752bcb4aa4ecda5f93356277abc51058bec596b280465b06e5c1020f"
+const WALK_REGISTRATION_SHA="99d638c16747213bfa616db95666c514b74b41ac16c52adea427a8e05c158ede"
 func prepare() -> bool:
  static_cache.clear();static_verdicts={};resource_ok={};contracts={};source={}
  if not runtime_declaration_valid():return false

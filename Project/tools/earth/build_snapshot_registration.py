@@ -154,6 +154,19 @@ add('res://scripts/earth/south_walk_contact_world.gd')
 add('res://scripts/earth/south_walk_snapshot_controller.gd')
 add('res://scripts/earth/south_walk_snapshot_world.gd')
 add('res://shaders/earth_s_walk_contact_v3.gdshader')
+
+# Single upright controller runtime leaves; downstream bootstrap pinned separately.
+add('res://assets/earth/shadows/upright_51_70_v1/allowed-provisional.png')
+add('res://assets/earth/shadows/upright_51_70_v1/nominal-envelope.png')
+add('res://assets/earth/shadows/upright_51_70_v1/pool-filter-uncertainty-excluded.png')
+add('res://assets/earth/shadows/upright_51_70_v1/root-error-envelope.png')
+add('res://scripts/earth/upright_51_70_compositor.gd')
+add('res://scripts/earth/upright_51_70_gate.gd')
+add('res://scripts/earth/upright_51_70_world.gd')
+add('res://scripts/earth/upright_ground_lifecycle.gd')
+add('res://scripts/earth/upright_raw_weak_bank.gd')
+add('res://shaders/earth_upright_51_70.gdshader')
+add('res://scripts/earth/upright_51_70_controller.gd')
 reg={'schema':'earth-runtime-files-v1' ,'status':'isolated house-local visual eligibility; inherited correct runtime retained; this revision regression pending','runtime_files':sorted(paths.values(),key=lambda x:x['path']),'provenance':{'base_commit':'44db593064164f8d43a6e75dc0a0b9510a470d53','note':'Explicit domain roots. Export adapter must traverse receiver_contract caster pins and original R6/A00 fallback graph. Not a claim whole game export closure is contained here.'}}
 reg['house_live_scope']={'schema':'house-building-ten-frame-live-v1','pack':'Map/Res/Building','frames':list(range(280,290)),'reload_source_sha_unchanged':True,'unrelated_pack_and_mon220_independent':True,'other_global_guards_unchanged':True}
 out=d/'snapshot_runtime_registration.json';out.write_text(json.dumps(reg,ensure_ascii=False,indent=2)+'\n')
