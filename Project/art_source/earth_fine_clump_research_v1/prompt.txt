@@ -1,0 +1,13 @@
+Use case: style-transfer. Produce one transparent 2D game sprite by restyling Image 1, not redesigning its plant structure.
+
+Image 1 is the authoritative geometry reference: the complete Plant248–250 source, 117×72 logical units, uniformly enlarged at density8 into a 1024×1024 transparent padded canvas. Source origin (44,224), envelope (44,224)–(980,800). Preserve this entire square canvas, object position, scale, original oblique view and asymmetrical rising-right silhouette. The dark checker below/right is an obsolete shadow; omit it, without moving the living stems.
+
+Subject direction: a sparse, fine-branched HERBACEOUS clump of thin green stems and small narrow leaflets. Follow the actual green branch paths in Image 1. Keep stems slender, separate and green even near their bases. Retain open negative spaces between branching sprays, including the fine interior gaps. Do not join stems into a woody trunk, thicken forks into brown limbs, fill gaps with leaf masses, broaden leaflets, or round the silhouette into a shrub. Preserve the lower left spray, loose central sprays and higher right-reaching sprays. More detail must come from fine leaf/stem surface rendering, never extra foliage density.
+
+Keep source visible basal proxies at logical (26,63), (51,69), (62,66), (73,59), approximately ±4–6 units; these are registration guides, not permission to invent roots or join stems. In canvas pixels these are (252,728), (452,776), (540,752), (628,696).
+
+Lighting and palette: restrained natural green, cooler shaded greens and gentle warm upper-left illumination. Clean realistic Earth-base vegetation material, without importing any shrub/tree shape. The source is the ONLY image reference.
+
+A few intentional pale warm-green highlights are allowed on the upper-left-facing interiors of individual leaflets, shaped by the leaf surface and fading naturally into its local green. They must not form neon yellow/lime outlines, glow, fringes, colored matte islands, or ribbons tracing transparent holes. Alpha edges must be clean and fine: genuine transparent exterior and gaps, no faint canvas-wide haze or detached low-alpha debris. Preserve dark thin living stems without recreating the old checker shadow.
+
+Only the isolated plant. No flowers, grass blades, bamboo culms, wood trunks, soil, planter, rocks, props, cast shadow, border, text or background. Match the source paths and empty spaces before adding realism. Output the same 1024×1024 padded RGBA canvas; no crop-to-content, recentering or bbox fitting.

@@ -1,0 +1,1 @@
+Parent accepted attempt2 as a RESEARCH BODY candidate. No runtime adoption. See ownership-proposal/PLAN.md for pending explicit owner-support and faint-noise decisions. Earlier blanket rejection text/boards are historical; CURRENT_GEOMETRY_REVIEW.md and this ownership proposal supersede them. No further generation.

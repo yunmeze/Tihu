@@ -1,0 +1,161 @@
+{
+  "candidate_size": [
+    640,
+    496
+  ],
+  "density": 2,
+  "world_bounds": [
+    3086,
+    1800,
+    3406,
+    2048
+  ],
+  "sampling": "single scalar affine from unchanged raw, bilinear; no alpha cleanup",
+  "matches_padded_diagnostic_crop": true,
+  "discarded_outside_frame": {
+    "nonzero_samples": 36,
+    "above_alpha8": 0,
+    "max_alpha": 1
+  },
+  "owner_rect_overlap_pixels": 0,
+  "candidate_outside_original_owner_rect_union": {
+    "0": 12,
+    "8": 0,
+    "127": 0
+  },
+  "owners": [
+    {
+      "index": 55,
+      "world_bounds": [
+        3086,
+        1860,
+        3120,
+        1952
+      ],
+      "local_2x_bounds": [
+        0,
+        120,
+        68,
+        304
+      ],
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 60,
+      "stable_order": 6460
+    },
+    {
+      "index": 56,
+      "world_bounds": [
+        3120,
+        1825,
+        3168,
+        1981
+      ],
+      "local_2x_bounds": [
+        68,
+        50,
+        164,
+        362
+      ],
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 61,
+      "stable_order": 6561
+    },
+    {
+      "index": 57,
+      "world_bounds": [
+        3168,
+        1803,
+        3216,
+        2015
+      ],
+      "local_2x_bounds": [
+        164,
+        6,
+        260,
+        430
+      ],
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 62,
+      "stable_order": 6662
+    },
+    {
+      "index": 58,
+      "world_bounds": [
+        3216,
+        1800,
+        3264,
+        2041
+      ],
+      "local_2x_bounds": [
+        260,
+        0,
+        356,
+        482
+      ],
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 63,
+      "stable_order": 6763
+    },
+    {
+      "index": 59,
+      "world_bounds": [
+        3264,
+        1813,
+        3312,
+        2048
+      ],
+      "local_2x_bounds": [
+        356,
+        26,
+        452,
+        496
+      ],
+      "flag": -2,
+      "layer": 0,
+      "sort_y": 63,
+      "stable_order": 6863
+    },
+    {
+      "index": 60,
+      "world_bounds": [
+        3312,
+        1884,
+        3360,
+        2047
+      ],
+      "local_2x_bounds": [
+        452,
+        168,
+        548,
+        494
+      ],
+      "flag": -2,
+      "layer": 0,
+      "sort_y": 63,
+      "stable_order": 6963
+    },
+    {
+      "index": 61,
+      "world_bounds": [
+        3360,
+        1925,
+        3406,
+        2037
+      ],
+      "local_2x_bounds": [
+        548,
+        250,
+        640,
+        474
+      ],
+      "flag": 1,
+      "layer": 0,
+      "sort_y": 63,
+      "stable_order": 7063
+    }
+  ]
+}

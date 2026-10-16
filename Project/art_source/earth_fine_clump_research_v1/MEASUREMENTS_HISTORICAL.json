@@ -1,0 +1,97 @@
+{
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "requested_size": [
+    1024,
+    1024
+  ],
+  "canvas_contract_pass": true,
+  "diagnostic_full_canvas_scale": 1.224609375,
+  "diagnostic_density": 9.796875,
+  "raw_untouched": true,
+  "mask_IoU": 0.4293773119605425,
+  "area_ratio": 0.9426147521667408,
+  "source_coverage": 0.5835510984263308,
+  "candidate_outside_source": 0.38092301538358975,
+  "gap_fill_by_source_mask_dilation_raw_px": {
+    "0": 0.2484827782522061,
+    "2": 0.20200974365137325,
+    "10": 0.05543951414730043
+  },
+  "native_logical_canvas_IoU": 0.42015278283012003,
+  "native_logical_area_ratio": 0.9618090452261306,
+  "alpha_counts": {
+    "zero": 1212302,
+    "partial": 360092,
+    "opaque": 122
+  },
+  "alpha_bboxes": {
+    "1": [
+      25,
+      21,
+      1240,
+      1228
+    ],
+    "8": [
+      52,
+      259,
+      1075,
+      984
+    ],
+    "32": [
+      52,
+      259,
+      1075,
+      983
+    ],
+    "128": [
+      53,
+      260,
+      1074,
+      983
+    ],
+    "240": [
+      56,
+      264,
+      1071,
+      981
+    ]
+  },
+  "lime_color_flag_pixels": 3438,
+  "lime_flags_in_two_raw_pixel_alpha_edge": 1202,
+  "pale_highlight_color_flag_pixels": 9862,
+  "color_caution": "Heuristics flag candidates only; pale interior highlights can be legitimate. Correct alpha composites show mostly plausible pale leaf interiors. Black preview overstates fringe; color counts alone are not rejection evidence.",
+  "root_candidate_proxies_raw": [
+    [
+      320,
+      916
+    ],
+    [
+      567,
+      980
+    ],
+    [
+      680,
+      928
+    ]
+  ],
+  "root_candidate_proxies_logical": [
+    [
+      27.163476874003187,
+      65.49920255183413
+    ],
+    [
+      52.3755980861244,
+      72.03189792663477
+    ],
+    [
+      63.909888357256776,
+      66.72408293460926
+    ]
+  ],
+  "root_confidence": "Approximate visual stem ends only; fourth source proxy remains unverified.",
+  "result": "Pending parent geometry/ownership decision; major openings and three contacts broadly preserved.",
+  "interpretation_update": "See CURRENT_GEOMETRY_REVIEW.md:1254 square valid with uniform fullcanvas mapping; IoU not rejection gate; morphology substantially improved; no adoption yet."
+}

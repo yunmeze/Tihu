@@ -1,0 +1,330 @@
+{
+  "status": "diagnostic_only_not_approved_registration",
+  "method": "Scalar density and XY translation, no rotation, anisotropy, alpha bbox fit or warp. Three rim landmarks used; all other rim and plant landmarks withheld.",
+  "manual_landmark_uncertainty": {
+    "source_logical_units_per_axis": 4,
+    "raw_pixels_per_axis": 8,
+    "note": "Approximate visual readings, not subpixel measurements. Individual source stones and patch centroids ambiguous."
+  },
+  "density_raw_pixels_per_source_logical_unit": 3.231870885329665,
+  "raw_translation_for_source_group_origin_xy": [
+    109.18564737479932,
+    259.3539435328027
+  ],
+  "proposed_raw_to_world": "world=[3086,1800]+(raw-translation)/density",
+  "training": [
+    {
+      "label": "upper outer crown",
+      "source_logical_xy": [
+        149,
+        12
+      ],
+      "raw_xy": [
+        580,
+        291
+      ],
+      "predicted_raw_xy": [
+        590.7344092889193,
+        298.1363941567587
+      ],
+      "residual_raw_xy": [
+        -10.734409288919323,
+        -7.1363941567586835
+      ],
+      "residual_logical_units": 3.9884446862542626,
+      "residual_at_density2_pixels": 7.976889372508525
+    },
+    {
+      "label": "left outer rim extremum",
+      "source_logical_xy": [
+        20,
+        101
+      ],
+      "raw_xy": [
+        183,
+        589
+      ],
+      "predicted_raw_xy": [
+        173.8230650813926,
+        585.7729029510988
+      ],
+      "residual_raw_xy": [
+        9.176934918607401,
+        3.2270970489012143
+      ],
+      "residual_logical_units": 3.009962486735809,
+      "residual_at_density2_pixels": 6.019924973471618
+    },
+    {
+      "label": "right outer rim extremum",
+      "source_logical_xy": [
+        303,
+        180
+      ],
+      "raw_xy": [
+        1090,
+        845
+      ],
+      "predicted_raw_xy": [
+        1088.4425256296877,
+        841.0907028921424
+      ],
+      "residual_raw_xy": [
+        1.5574743703123204,
+        3.909297107857583
+      ],
+      "residual_logical_units": 1.3020714148423476,
+      "residual_at_density2_pixels": 2.604142829684695
+    }
+  ],
+  "held_out_rim": [
+    {
+      "label": "deep notch inner water contact",
+      "source_logical_xy": [
+        174,
+        82
+      ],
+      "raw_xy": [
+        652,
+        537
+      ],
+      "predicted_raw_xy": [
+        671.5311814221611,
+        524.3673561298352
+      ],
+      "residual_raw_xy": [
+        -19.531181422161126,
+        12.63264387016477
+      ],
+      "residual_logical_units": 7.197223594851982,
+      "residual_at_density2_pixels": 14.394447189703964
+    },
+    {
+      "label": "front outer rim bottom",
+      "source_logical_xy": [
+        213,
+        233
+      ],
+      "raw_xy": [
+        790,
+        1017
+      ],
+      "predicted_raw_xy": [
+        797.574145950018,
+        1012.3798598146145
+      ],
+      "residual_raw_xy": [
+        -7.574145950017964,
+        4.62014018538548
+      ],
+      "residual_logical_units": 2.7451765774430577,
+      "residual_at_density2_pixels": 5.490353154886115
+    },
+    {
+      "label": "neck outer right shoulder",
+      "source_logical_xy": [
+        193,
+        42
+      ],
+      "raw_xy": [
+        726,
+        400
+      ],
+      "predicted_raw_xy": [
+        732.9367282434246,
+        395.09252071664866
+      ],
+      "residual_raw_xy": [
+        -6.936728243424568,
+        4.907479283351336
+      ],
+      "residual_logical_units": 2.629173602540445,
+      "residual_at_density2_pixels": 5.25834720508089
+    },
+    {
+      "label": "lower-left diagonal outer rim",
+      "source_logical_xy": [
+        86,
+        161
+      ],
+      "raw_xy": [
+        395,
+        760
+      ],
+      "predicted_raw_xy": [
+        387.1265435131505,
+        779.6851560708787
+      ],
+      "residual_raw_xy": [
+        7.873456486849477,
+        -19.685156070878747
+      ],
+      "residual_logical_units": 6.560081654823608,
+      "residual_at_density2_pixels": 13.120163309647216
+    }
+  ],
+  "held_out_plants": [
+    {
+      "label": "upper-neck patch center",
+      "source_logical_xy": [
+        127,
+        52
+      ],
+      "raw_xy": [
+        535,
+        427
+      ],
+      "predicted_raw_xy": [
+        519.6332498116667,
+        427.41122956994525
+      ],
+      "residual_raw_xy": [
+        15.366750188333299,
+        -0.41122956994524884
+      ],
+      "residual_logical_units": 4.756455998954584,
+      "residual_at_density2_pixels": 9.512911997909168
+    },
+    {
+      "label": "upper-middle isolated patch",
+      "source_logical_xy": [
+        143,
+        94.5
+      ],
+      "raw_xy": [
+        587,
+        566
+      ],
+      "predicted_raw_xy": [
+        571.3431839769414,
+        564.765742196456
+      ],
+      "residual_raw_xy": [
+        15.656816023058582,
+        1.2342578035439828
+      ],
+      "residual_logical_units": 4.8595351499157164,
+      "residual_at_density2_pixels": 9.719070299831433
+    },
+    {
+      "label": "left inner-edge patch",
+      "source_logical_xy": [
+        57.5,
+        118.5
+      ],
+      "raw_xy": [
+        311,
+        638
+      ],
+      "predicted_raw_xy": [
+        295.018223281255,
+        642.330643444368
+      ],
+      "residual_raw_xy": [
+        15.981776718744982,
+        -4.330643444367979
+      ],
+      "residual_logical_units": 5.123388373067396,
+      "residual_at_density2_pixels": 10.246776746134792
+    },
+    {
+      "label": "largest central patch",
+      "source_logical_xy": [
+        167,
+        144
+      ],
+      "raw_xy": [
+        657,
+        725
+      ],
+      "predicted_raw_xy": [
+        648.9080852248533,
+        724.7433510202745
+      ],
+      "residual_raw_xy": [
+        8.091914775146734,
+        0.25664897972546896
+      ],
+      "residual_logical_units": 2.5050455513299483,
+      "residual_at_density2_pixels": 5.010091102659897
+    },
+    {
+      "label": "lower-left patch",
+      "source_logical_xy": [
+        106.5,
+        144
+      ],
+      "raw_xy": [
+        478,
+        725
+      ],
+      "predicted_raw_xy": [
+        453.3798966624086,
+        724.7433510202745
+      ],
+      "residual_raw_xy": [
+        24.620103337591388,
+        0.25664897972546896
+      ],
+      "residual_logical_units": 7.61832445551121,
+      "residual_at_density2_pixels": 15.23664891102242
+    },
+    {
+      "label": "lower-right inner rim patch",
+      "source_logical_xy": [
+        222.5,
+        216
+      ],
+      "raw_xy": [
+        836,
+        947
+      ],
+      "predicted_raw_xy": [
+        828.2769193606498,
+        957.4380547640103
+      ],
+      "residual_raw_xy": [
+        7.723080639350201,
+        -10.438054764010303
+      ],
+      "residual_logical_units": 4.017662448082857,
+      "residual_at_density2_pixels": 8.035324896165713
+    }
+  ],
+  "density2_diagnostic_grid_size": [
+    776,
+    776
+  ],
+  "density2_diagnostic_nearest_alpha_edges": {
+    "0": {
+      "top": 0,
+      "bottom": 7,
+      "left": 14,
+      "right": 0
+    },
+    "8": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "127": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    }
+  },
+  "raw_edge_max_alpha": {
+    "top": 0,
+    "bottom": 1,
+    "left": 1,
+    "right": 0
+  },
+  "training_rms_logical": 2.981216483038215,
+  "training_max_logical": 3.9884446862542626,
+  "held_out_rim_rms_logical": 5.226931391023915,
+  "held_out_rim_max_logical": 7.197223594851982,
+  "held_out_plants_rms_logical": 5.048824883656144,
+  "held_out_plants_max_logical": 7.61832445551121
+}

@@ -1,0 +1,354 @@
+{
+  "status": "pre-generation research only; no adoption or split",
+  "canvas_px": [
+    1024,
+    1024
+  ],
+  "density_px_per_logical_unit": 8,
+  "logical_source_size": [
+    117,
+    72
+  ],
+  "source_origin_on_canvas_px": [
+    44,
+    224
+  ],
+  "source_envelope_xyxy_px": [
+    44,
+    224,
+    980,
+    800
+  ],
+  "mapping": "canvas=(44+8*x,224+8*y); no fitted bounding-box or anisotropic transform permitted",
+  "root_proxies_logical": [
+    {
+      "xy": [
+        26,
+        63
+      ],
+      "uncertainty_radius": 4
+    },
+    {
+      "xy": [
+        51,
+        69
+      ],
+      "uncertainty_radius": 4
+    },
+    {
+      "xy": [
+        62,
+        66
+      ],
+      "uncertainty_radius": 5
+    },
+    {
+      "xy": [
+        73,
+        59
+      ],
+      "uncertainty_radius": 6
+    }
+  ],
+  "root_note": "Manually inspected visible stem-base proxies, not anatomical roots or exact registration. Checker excluded conceptually, vegetation segmentation uncertain.",
+  "owner_contract": [
+    {
+      "key": "Map/Res/Plant:248@63,57",
+      "category": "object",
+      "pack": "Map/Res/Plant",
+      "index": 248,
+      "cell": [
+        63,
+        57
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        248
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 57,
+      "stable_source_order": 6357,
+      "frames": [
+        {
+          "frame_key": "Map/Res/Plant:248",
+          "draw_bounds_xyxy": [
+            3037,
+            1788,
+            3072,
+            1837
+          ]
+        }
+      ],
+      "all_frame_bounds_xyxy": [
+        3037,
+        1788,
+        3072,
+        1837
+      ],
+      "intersects_fixed_by_full_draw_bounds": false,
+      "extends_outside_fixed": true,
+      "ordinary_registration": null,
+      "ordinary_hd_candidate": false,
+      "research_ground_review": false,
+      "status": "original_fallback",
+      "source_frame": {
+        "key": "Map/Res/Plant:248",
+        "pack": "Map/Res/Plant",
+        "frame_index": 248,
+        "original": [
+          48,
+          96
+        ],
+        "crop": [
+          13,
+          28
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "size": [
+          35,
+          49
+        ],
+        "rgba_sha256": "f0665f9f4b2dc589ff8909add859775df8f98709463001a9aaf075ef5e39ff42",
+        "alpha_bbox": [
+          0,
+          0,
+          35,
+          49
+        ],
+        "atlas": "res://assets/original/Map/Res/Plant/0.png",
+        "atlas_rect": [
+          1452,
+          1,
+          35,
+          49
+        ],
+        "native_source_offset": 3700624,
+        "native_source_bytes": 5686
+      },
+      "cell_draw_origin": [
+        3024,
+        1824
+      ],
+      "ordinary_object_top": -64,
+      "raster_top_left": [
+        3037,
+        1788
+      ],
+      "local_top_left_in_group": [
+        0,
+        16
+      ],
+      "anchor_caution": "Source draw origin is exact registration evidence, not an inferred root, bank height or water level."
+    },
+    {
+      "key": "Map/Res/Plant:249@64,57",
+      "category": "object",
+      "pack": "Map/Res/Plant",
+      "index": 249,
+      "cell": [
+        64,
+        57
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        249
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 57,
+      "stable_source_order": 6457,
+      "frames": [
+        {
+          "frame_key": "Map/Res/Plant:249",
+          "draw_bounds_xyxy": [
+            3072,
+            1772,
+            3120,
+            1844
+          ]
+        }
+      ],
+      "all_frame_bounds_xyxy": [
+        3072,
+        1772,
+        3120,
+        1844
+      ],
+      "intersects_fixed_by_full_draw_bounds": false,
+      "extends_outside_fixed": true,
+      "ordinary_registration": null,
+      "ordinary_hd_candidate": false,
+      "research_ground_review": false,
+      "status": "original_fallback",
+      "source_frame": {
+        "key": "Map/Res/Plant:249",
+        "pack": "Map/Res/Plant",
+        "frame_index": 249,
+        "original": [
+          48,
+          96
+        ],
+        "crop": [
+          0,
+          12
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "size": [
+          48,
+          72
+        ],
+        "rgba_sha256": "861844a6a5435c8b141f29268525a379059e3b76c2db20ce9a296aad146ffa02",
+        "alpha_bbox": [
+          0,
+          0,
+          48,
+          72
+        ],
+        "atlas": "res://assets/original/Map/Res/Plant/0.png",
+        "atlas_rect": [
+          1489,
+          1,
+          48,
+          72
+        ],
+        "native_source_offset": 3706310,
+        "native_source_bytes": 5686
+      },
+      "cell_draw_origin": [
+        3072,
+        1824
+      ],
+      "ordinary_object_top": -64,
+      "raster_top_left": [
+        3072,
+        1772
+      ],
+      "local_top_left_in_group": [
+        35,
+        0
+      ],
+      "anchor_caution": "Source draw origin is exact registration evidence, not an inferred root, bank height or water level."
+    },
+    {
+      "key": "Map/Res/Plant:250@65,57",
+      "category": "object",
+      "pack": "Map/Res/Plant",
+      "index": 250,
+      "cell": [
+        65,
+        57
+      ],
+      "source_cell": [
+        0,
+        0,
+        2,
+        250
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 57,
+      "stable_source_order": 6557,
+      "frames": [
+        {
+          "frame_key": "Map/Res/Plant:250",
+          "draw_bounds_xyxy": [
+            3120,
+            1777,
+            3154,
+            1833
+          ]
+        }
+      ],
+      "all_frame_bounds_xyxy": [
+        3120,
+        1777,
+        3154,
+        1833
+      ],
+      "intersects_fixed_by_full_draw_bounds": false,
+      "extends_outside_fixed": true,
+      "ordinary_registration": null,
+      "ordinary_hd_candidate": false,
+      "research_ground_review": false,
+      "status": "original_fallback",
+      "source_frame": {
+        "key": "Map/Res/Plant:250",
+        "pack": "Map/Res/Plant",
+        "frame_index": 250,
+        "original": [
+          48,
+          96
+        ],
+        "crop": [
+          0,
+          17
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "size": [
+          34,
+          56
+        ],
+        "rgba_sha256": "5981bd390b3296bfec5a74cd28dea4d453d7bee696786d9eb8a51e5969f0efd2",
+        "alpha_bbox": [
+          0,
+          0,
+          34,
+          56
+        ],
+        "atlas": "res://assets/original/Map/Res/Plant/0.png",
+        "atlas_rect": [
+          1539,
+          1,
+          34,
+          56
+        ],
+        "native_source_offset": 3711996,
+        "native_source_bytes": 5686
+      },
+      "cell_draw_origin": [
+        3120,
+        1824
+      ],
+      "ordinary_object_top": -64,
+      "raster_top_left": [
+        3120,
+        1777
+      ],
+      "local_top_left_in_group": [
+        83,
+        5
+      ],
+      "anchor_caution": "Source draw origin is exact registration evidence, not an inferred root, bank height or water level."
+    }
+  ],
+  "references": [
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/fine-clump-research/source-padded-density8.png",
+      "sha256": "9a5b8044f21660b752efad2cf695fbff9fe5cfa740d2b106a32db38d05068d50"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/tihu-legend/recovery-work/local-slice-missing-assets/dense_grass_248_250-full-source-context-native.png",
+      "sha256": "3794ae0d5192fb28dc469e8a9a596e64210d37becddaa3dead75518d7e02ec32"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_base_style_concept_v1/concept.png",
+      "sha256": "1beaf20bbda18d0e04fcf2f6e81a0028750e1b87224f21780393b00c36cc4fc5"
+    }
+  ],
+  "prompt_sha256": "6610646a3cd4d8e2ec4f9e03281f644eec17c449be6c7cb653a689f43b52ee0a",
+  "attempt_limit": 1
+}

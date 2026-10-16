@@ -1,0 +1,44 @@
+{
+  "status": "frozen_before_generation",
+  "canvas_pixels": [
+    1024,
+    1024
+  ],
+  "density_pixels_per_logical_unit": 2,
+  "world_canvas_bounds_xyxy": [
+    2990,
+    1668,
+    3502,
+    2180
+  ],
+  "world_source_bounds_xyxy": [
+    3086,
+    1800,
+    3406,
+    2048
+  ],
+  "expected_source_envelope_pixels_xyxy": [
+    192,
+    264,
+    832,
+    760
+  ],
+  "mapping": "pixel=(world-[2990,1668])*2; no later fitting, translation, or anisotropic scaling",
+  "alpha": "Transparent exterior; original source outer fringe is evidence, not authorization for expanded terrain or cast shadow. Rim and water must remain within original envelope; source contour judged in frozen coordinates.",
+  "registration": "Seven original cell draw origins and source offsets frozen in source-group.json; no inference of physical water level from owner flags.",
+  "reference_preparation": "Exact source reference only: nearest-neighbor uniform 2x upscale and transparent pad. No new art drawn.",
+  "references": [
+    {
+      "path": "/workspace/scratch/22c897619190/recovery-work/pool-research/source-padded-reference.png",
+      "sha256": "13f57735fe2b999eb2314768a04ccdb9b6b7a573074ac4cafdb336166683d992"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/tihu-legend/recovery-work/local-slice-missing-assets/pool_55_61-full-source-context-native.png",
+      "sha256": "55d494d9d873d85d3df14a9257320b74d2351eab9699a7c18e251f023860f6a0"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/tihu-legend/Project/art_source/earth_base_style_concept_v1/concept.png",
+      "sha256": "1beaf20bbda18d0e04fcf2f6e81a0028750e1b87224f21780393b00c36cc4fc5"
+    }
+  ]
+}

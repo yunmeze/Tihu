@@ -1,0 +1,131 @@
+{
+  "mapping": "Uniform whole1254 canvas to256 canvas for exact2x logical; no crop/bbox fit. Output size1254 is acceptable under this mapping.",
+  "insert_context2x": [
+    181,
+    136
+  ],
+  "main_extrema": {
+    "left_low_spray": {
+      "source_body_extrema": [
+        0,
+        28,
+        18,
+        45
+      ],
+      "candidate_body_extrema": [
+        0.011961722488038617,
+        25.078149920255186,
+        18.07894736842105,
+        45.08452950558214
+      ]
+    },
+    "left_upper_spray": {
+      "source_body_extrema": [
+        11,
+        16,
+        30,
+        30
+      ],
+      "candidate_body_extrema": [
+        10.423444976076555,
+        17.524720893141946,
+        30.021531100478466,
+        30.07974481658692
+      ]
+    },
+    "central_crown": {
+      "source_body_extrema": [
+        30,
+        13,
+        58,
+        30
+      ],
+      "candidate_body_extrema": [
+        30.02153110047847,
+        12.523125996810208,
+        58.09170653907496,
+        30.07974481658692
+      ]
+    },
+    "highest_right_spray": {
+      "source_body_extrema": [
+        71,
+        0,
+        85,
+        12
+      ],
+      "candidate_body_extrema": [
+        72.27990430622009,
+        -1.4609250398724072,
+        85.03907496012759,
+        12.012759170653904
+      ]
+    },
+    "far_right_spray": {
+      "source_body_extrema": [
+        90,
+        6,
+        100,
+        33
+      ],
+      "candidate_body_extrema": [
+        90.04066985645933,
+        5.071770334928232,
+        104.12679425837321,
+        39.47049441786284
+      ]
+    }
+  },
+  "large_opening_windows": {
+    "upper_left_cleft": {
+      "logical_window": [
+        24,
+        12,
+        34,
+        25
+      ],
+      "source_body_fill": 0.023076923076923078,
+      "candidate_alpha128_fill": 0.02424291237113402
+    },
+    "upper_central_cleft": {
+      "logical_window": [
+        56,
+        10,
+        65,
+        23
+      ],
+      "source_body_fill": 0.13675213675213677,
+      "candidate_alpha128_fill": 0.15282748747315678
+    },
+    "lower_left_opening": {
+      "logical_window": [
+        29,
+        55,
+        38,
+        64
+      ],
+      "source_body_fill": 0.1111111111111111,
+      "candidate_alpha128_fill": 0.07903472931562819
+    },
+    "lower_right_opening": {
+      "logical_window": [
+        65,
+        61,
+        72,
+        69
+      ],
+      "source_body_fill": 0.0,
+      "candidate_alpha128_fill": 0.0
+    }
+  },
+  "outside_original_owner_draw_rectangles_alpha128_area_logical": 4.282197446639652,
+  "outside_owner_fraction": 0.0022833713895231587,
+  "spill_bbox_logical": [
+    -0.09011164274322159,
+    -1.4609250398724072,
+    93.4090909090909,
+    72.2360446570973
+  ],
+  "source_shadow_note": "Original checker retained in source board; excluded only from diagnostic source body mask. Candidate has no replacement cast shadow.",
+  "context_note": "Original source floors and surrounding original objects, exact2x offline composition; no native runtime claim. Candidate whole inserted at first target owner sort position; no owner splitting/depth proof."
+}

@@ -1,0 +1,69 @@
+{
+  "raw_size": [
+    1254,
+    1254
+  ],
+  "raw_mode": "RGBA",
+  "expected_size": [
+    1024,
+    1024
+  ],
+  "exact_canvas_pass": false,
+  "alpha_threshold_bboxes": {
+    "0": [
+      0,
+      31,
+      1232,
+      1254
+    ],
+    "8": [
+      181,
+      291,
+      1092,
+      1019
+    ],
+    "127": [
+      183,
+      292,
+      1091,
+      1018
+    ],
+    "250": [
+      183,
+      293,
+      1090,
+      1017
+    ]
+  },
+  "alpha_edges": {
+    "0": {
+      "top": 0,
+      "bottom": 11,
+      "left": 22,
+      "right": 0
+    },
+    "8": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "127": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "250": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    }
+  },
+  "no_output_transformation": true,
+  "normalized_full_canvas_diagnostic_alpha_iou": 0.7384639013171987,
+  "normalized_full_canvas_diagnostic_generated_outside_source_fraction": 0.2367780177365253,
+  "note": "Normalized full-canvas sampling is diagnostic only, not a new mapping or transformed deliverable. No fitting to alpha bounds.",
+  "raw_sha256": "2372ec033883f555a7a6e5c0837a3a5373881302bab090b3eea408758b04b0ef"
+}

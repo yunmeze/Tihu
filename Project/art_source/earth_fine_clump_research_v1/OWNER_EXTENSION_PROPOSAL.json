@@ -1,0 +1,182 @@
+{
+  "status": "Research body accepted by parent; explicit owner-support extension PROPOSAL only",
+  "density4_file": "/workspace/scratch/22c897619190/recovery-work/fine-clump-research/attempt2/candidate-density4-fullcanvas.png",
+  "density4_size": [
+    512,
+    512
+  ],
+  "source_origin_px": [
+    22,
+    112
+  ],
+  "source_world_origin": [
+    3037,
+    1772
+  ],
+  "canvas_world_origin": [
+    3031.5,
+    1744
+  ],
+  "uniform_transform": "whole1254 to512 using Lanczos, Pillow RGBA premultiplied-alpha resize; no shape fit or alpha clipping",
+  "members": [
+    {
+      "owner": 248,
+      "original_bounds": [
+        0,
+        16,
+        35,
+        65
+      ],
+      "proposed_support_bounds": [
+        -0.25,
+        16,
+        35,
+        65.75
+      ],
+      "density4_pixel_rect": [
+        21,
+        176,
+        162,
+        375
+      ],
+      "added_strong_pixels": 5,
+      "added_fringe_pixels_alpha8_127": 5,
+      "source_registration_preserved": true
+    },
+    {
+      "owner": 249,
+      "original_bounds": [
+        35,
+        0,
+        83,
+        72
+      ],
+      "proposed_support_bounds": [
+        35,
+        -1.75,
+        83,
+        72.5
+      ],
+      "density4_pixel_rect": [
+        162,
+        105,
+        354,
+        402
+      ],
+      "added_strong_pixels": 55,
+      "added_fringe_pixels_alpha8_127": 30,
+      "source_registration_preserved": true
+    },
+    {
+      "owner": 250,
+      "original_bounds": [
+        83,
+        5,
+        117,
+        61
+      ],
+      "proposed_support_bounds": [
+        83,
+        -1.5,
+        117,
+        61
+      ],
+      "density4_pixel_rect": [
+        354,
+        106,
+        490,
+        356
+      ],
+      "added_strong_pixels": 8,
+      "added_fringe_pixels_alpha8_127": 10,
+      "source_registration_preserved": true
+    }
+  ],
+  "source_owner_rectangles_disjoint": true,
+  "proposed_overlap_pixels": 0,
+  "proposed_unassigned_alpha8plus_pixels": 0,
+  "proposed_unassigned_alpha128plus_pixels": 0,
+  "unassigned_nonzero_alpha_pixels": 560,
+  "unassigned_alpha_max": 2,
+  "density4_strong_spill_pixels": 68,
+  "density4_strong_spill_logical_area": 4.25,
+  "raw_center_sample_strong_spill_pixels": 381,
+  "raw_center_sample_spill_logical_area": 3.9696282899506268,
+  "raw_center_sample_fraction": 0.0021167019450324173,
+  "prior_spill_metric_note": "Earlier0.228% used pixel top-left samples. Exact ownership now uses pixel centers and half-open rectangles; retain prior as approximate, use this centered figure for partition. No asset change caused difference.",
+  "raw_spill_components": [
+    {
+      "raw_pixels": 249,
+      "logical_area": 2.5943240005189137,
+      "logical_pixel_center_bbox": [
+        79.7822966507177,
+        -1.4098883572567793,
+        83.25279106858054,
+        -0.08293460925039753
+      ]
+    },
+    {
+      "raw_pixels": 60,
+      "logical_area": 0.6251383133780515,
+      "logical_pixel_center_bbox": [
+        75.39314194577352,
+        -1.0015948963317385,
+        76.41387559808612,
+        -0.08293460925039753
+      ]
+    },
+    {
+      "raw_pixels": 29,
+      "logical_area": 0.30215018479939154,
+      "logical_pixel_center_bbox": [
+        26.70414673046252,
+        65.03987240829346,
+        27.418660287081337,
+        65.4481658692185
+      ]
+    },
+    {
+      "raw_pixels": 25,
+      "logical_area": 0.2604742972408548,
+      "logical_pixel_center_bbox": [
+        90.60207336523126,
+        4.408293460925037,
+        91.21451355661883,
+        4.918660287081337
+      ]
+    },
+    {
+      "raw_pixels": 11,
+      "logical_area": 0.1146086907859761,
+      "logical_pixel_center_bbox": [
+        52.120414673046255,
+        72.0829346092504,
+        52.63078149920255,
+        72.28708133971291
+      ]
+    },
+    {
+      "raw_pixels": 6,
+      "logical_area": 0.06251383133780515,
+      "logical_pixel_center_bbox": [
+        93.15390749601276,
+        4.714513556618819,
+        93.35805422647528,
+        4.918660287081337
+      ]
+    },
+    {
+      "raw_pixels": 1,
+      "logical_area": 0.010418971889634192,
+      "logical_pixel_center_bbox": [
+        -0.03907496012759193,
+        35.13237639553429,
+        -0.03907496012759193,
+        35.13237639553429
+      ]
+    }
+  ],
+  "archival_fullcanvas_partition_exact_RGBA_reconstruction": true,
+  "archival_fullcanvas_masks_cover_every_texel_once": true,
+  "production_partition_not_claimed": "Local proposed masks leave560 alpha1-2 texels outside; master preserves them. Fullcanvas archival partition reconstructs exactly but is not approved local renderer support."
+}
