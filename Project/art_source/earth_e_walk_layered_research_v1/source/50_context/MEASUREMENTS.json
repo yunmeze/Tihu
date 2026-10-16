@@ -1,0 +1,234 @@
+{
+  "scale": 1.000734104392641,
+  "translation": [
+    0.05520514971732382,
+    -0.09677942909650028
+  ],
+  "rows": [
+    {
+      "name": "head",
+      "box": [
+        133,
+        59,
+        187,
+        108
+      ],
+      "source_center": [
+        160.0,
+        83.5
+      ],
+      "matched_center": [
+        160.5,
+        83.5
+      ],
+      "local_diagnostic_scale": 1.0100000000000002,
+      "ncc": 0.927561307766062,
+      "role": "fit",
+      "union_intersection": 0,
+      "predicted_center": [
+        160.17266185253987,
+        83.46451828768902
+      ],
+      "residual_logical": 0.08231388654532491,
+      "global_scale_ncc": 0.9153018418913131,
+      "global_scale_center": [
+        160.0,
+        83.5
+      ],
+      "global_scale_residual_logical": 0.04406746761431613
+    },
+    {
+      "name": "shoulder",
+      "box": [
+        106,
+        110,
+        145,
+        158
+      ],
+      "source_center": [
+        125.5,
+        134.0
+      ],
+      "matched_center": [
+        125.5,
+        134.0
+      ],
+      "local_diagnostic_scale": 0.9900000000000001,
+      "ncc": 0.910895089249541,
+      "role": "fit",
+      "union_intersection": 0,
+      "predicted_center": [
+        125.64733525099376,
+        134.00159055951738
+      ],
+      "residual_logical": 0.03683595904901671,
+      "global_scale_ncc": 0.9108950892495403,
+      "global_scale_center": [
+        125.5,
+        134.0
+      ],
+      "global_scale_residual_logical": 0.03683595904901671
+    },
+    {
+      "name": "waist_metal",
+      "box": [
+        157,
+        174,
+        183,
+        182
+      ],
+      "source_center": [
+        170.0,
+        178.0
+      ],
+      "matched_center": [
+        170.0,
+        178.0
+      ],
+      "local_diagnostic_scale": 0.9900000000000001,
+      "ncc": 0.9482371044563297,
+      "role": "fit",
+      "union_intersection": 0,
+      "predicted_center": [
+        170.1800028964663,
+        178.0338911527936
+      ],
+      "residual_logical": 0.04579141088535174,
+      "global_scale_ncc": 0.9482371044563296,
+      "global_scale_center": [
+        170.0,
+        178.0
+      ],
+      "global_scale_residual_logical": 0.04579141088535174
+    },
+    {
+      "name": "rear_shin",
+      "box": [
+        123,
+        275,
+        143,
+        296
+      ],
+      "source_center": [
+        133.0,
+        285.5
+      ],
+      "matched_center": [
+        133.5,
+        286.0
+      ],
+      "local_diagnostic_scale": 0.93,
+      "ncc": 0.9047863722859387,
+      "role": "held_out",
+      "union_intersection": 0,
+      "predicted_center": [
+        133.15284103393859,
+        285.6128073750025
+      ],
+      "residual_logical": 0.1300090084785697,
+      "global_scale_ncc": 0.8796065508718165,
+      "global_scale_center": [
+        133.0,
+        285.5
+      ],
+      "global_scale_residual_logical": 0.04749071324372813
+    },
+    {
+      "name": "rear_boot",
+      "box": [
+        112,
+        299,
+        159,
+        321
+      ],
+      "source_center": [
+        135.5,
+        310.0
+      ],
+      "matched_center": [
+        136.0,
+        310.5
+      ],
+      "local_diagnostic_scale": 1.0300000000000002,
+      "ncc": 0.8645031122974761,
+      "role": "held_out",
+      "union_intersection": 0,
+      "predicted_center": [
+        135.65467629492016,
+        310.1307929326222
+      ],
+      "residual_logical": 0.1263829299914944,
+      "global_scale_ncc": 0.8399148733674984,
+      "global_scale_center": [
+        135.5,
+        310.0
+      ],
+      "global_scale_residual_logical": 0.0506406132924408
+    },
+    {
+      "name": "front_shin",
+      "box": [
+        169,
+        291,
+        186,
+        317
+      ],
+      "source_center": [
+        177.5,
+        304.0
+      ],
+      "matched_center": [
+        178.0,
+        304.0
+      ],
+      "local_diagnostic_scale": 1.06,
+      "ncc": 0.9155795164346774,
+      "role": "held_out",
+      "union_intersection": 5,
+      "predicted_center": [
+        177.6855086794111,
+        304.12638830626634
+      ],
+      "residual_logical": 0.08473443613970617,
+      "global_scale_ncc": 0.8886850275147682,
+      "global_scale_center": [
+        177.5,
+        304.0
+      ],
+      "global_scale_residual_logical": 0.05611788601780818
+    },
+    {
+      "name": "front_boot",
+      "box": [
+        157,
+        324,
+        208,
+        350
+      ],
+      "source_center": [
+        182.5,
+        337.0
+      ],
+      "matched_center": [
+        182.5,
+        337.5
+      ],
+      "local_diagnostic_scale": 1.0300000000000002,
+      "ncc": 0.9173216923531147,
+      "role": "held_out",
+      "union_intersection": 0,
+      "predicted_center": [
+        182.68917920137432,
+        337.1506137512235
+      ],
+      "residual_logical": 0.09932884810905458,
+      "global_scale_ncc": 0.8860187693274264,
+      "global_scale_center": [
+        182.5,
+        337.0
+      ],
+      "global_scale_residual_logical": 0.06045311834917761
+    }
+  ],
+  "note": "Diagnostic only. Local template scales never applied; head/shoulder/waist all disjoint approved union; shins/boots held out."
+}

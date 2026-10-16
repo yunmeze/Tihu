@@ -1,0 +1,117 @@
+{
+  "phase": 50,
+  "status": "APPROVED one generation; union7611; alpha255 protected; normal semi-alpha underlap; global independent-anchor uniform registration if needed; no retries or local fits",
+  "logical_canvas": [
+    128,
+    128
+  ],
+  "HD4_canvas": [
+    512,
+    512
+  ],
+  "root_logical": [
+    16,
+    64
+  ],
+  "support_polygon_logical": [
+    [
+      31,
+      46
+    ],
+    [
+      46,
+      46
+    ],
+    [
+      49,
+      52
+    ],
+    [
+      51,
+      58
+    ],
+    [
+      52,
+      65
+    ],
+    [
+      50,
+      71
+    ],
+    [
+      44,
+      73
+    ],
+    [
+      41,
+      67
+    ],
+    [
+      39,
+      64
+    ],
+    [
+      37,
+      67
+    ],
+    [
+      32,
+      67
+    ],
+    [
+      29,
+      63
+    ],
+    [
+      29,
+      57
+    ]
+  ],
+  "union_pixels": 7611,
+  "removal_domain_pixels": 5621,
+  "old_hand_envelope_pixels": 385,
+  "old_hand_envelope_in_union": 385,
+  "old_knee_certain_pixels": 77,
+  "old_knee_certain_in_union": 77,
+  "waist_161_support_covered": 161,
+  "protected_opaque_intersection": 0,
+  "protected_alpha128_to254_underlap": 1955,
+  "protected_semi_underlap": 2349,
+  "new_support_is_hypothesis_not_solid_fill": true,
+  "hand_envelope_is_editable_clear_or_cloth_domain_not_fill_requirement": true,
+  "new_support_outside_old_domain_pixels": 2012,
+  "composition": "clipped new cloth/alpha donor inside union; original core/new arm/frozen shin-boots source-over donor; restore context strictly outside union. Semi-alpha final may change; original texture files stay unchanged. Do not preserve old upper/old hand/old duplicate knee above donor.",
+  "pose_authority": "original phase50 screenshot pixels; fixed candidate limbs retain known pose residuals; unseen cloth a production assumption",
+  "fixed_shin_root_centers": [
+    [
+      35.55240569094083,
+      65.06961603166673
+    ],
+    [
+      46.6506359872266,
+      69.77029144003382
+    ]
+  ],
+  "known_root_shift_residuals_logical": [
+    4.244922314843993,
+    2.278690547570754
+  ],
+  "known_toe_length_residuals_logical": [
+    -1.254244098217999,
+    1.6877734862112561
+  ],
+  "source_hashes": {
+    "art_source/earth_e_47_48_50_context_plan_v1/50-FULL-CONTEXT-UNPATCHED.png": "5506e4ed4c27bdc320a9e19b1142927c7475dcde6a8103c476cebcd75a5f2d56",
+    "art_source/earth_e_47_48_50_context_plan_v1/50-protected-original-layers.png": "627fb5a824d08ce8bf324281359add59089e53b83b6a02dcda3f2856c9d0514c",
+    "art_source/earth_e_47_48_50_context_plan_v1/50-old-upper-WITH-HAND-HOLE.png": "62bdc67099362396776262881389eb7012511a47a56c7b5831fc3af24bf23f58",
+    "art_source/earth_e_47_48_50_context_plan_v1/50-old-hand-hole-visible-PROPOSED-mask.png": "d3f11e08c7038aca663dad33e1426c88d225de8a7e5605229e77bf3e2d772f3f",
+    "art_source/earth_e_50_gap_plan_v1/old-knee-metal-certain.png": "a1e5bbc1a0c23c875b87016a1466c2ee8eafaf1728cc2f46ae9bcceb64c7f620"
+  },
+  "frozen_inputs": {
+    "input-source.png": "6b4853343f9079f9c71baecf40a019428513f119d235395d8709b7e9f3776fff",
+    "input-union-guide.png": "9d0601b5ec41c351b2175dffb1da2a0feb5e5d5f3a040fca0ad3968e03e71bd8",
+    "input-context.png": "5506e4ed4c27bdc320a9e19b1142927c7475dcde6a8103c476cebcd75a5f2d56",
+    "proposed-fixed-union-mask.png": "d47b83c4156929b7d788d42e1c22bd24cb24f3b9911917ff4a9c4b8d6b86726e",
+    "protected-original-layers.png": "627fb5a824d08ce8bf324281359add59089e53b83b6a02dcda3f2856c9d0514c"
+  }
+}

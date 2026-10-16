@@ -1,0 +1,172 @@
+{
+  "status": "research collection only, no production/runtime/loop approval",
+  "phase_order": [
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+  ],
+  "phase_ticks": 7,
+  "clock_note": "Existing source walk cadence7ticks retained as metadata; no loop run performed. docs/R1_SOURCE_PREVIEW.md documents reference cadence; not new original-EXE timing verification.",
+  "frames": [
+    {
+      "sourceID": 45,
+      "alias": "art_source/earth_e_walk_layered_research_v1/45-HD4-RESEARCH.png",
+      "sha256": "f1ed7f0e52afab72764192bb47167116d61ca85644623dbccb081f7232da7958",
+      "byte_copy": true,
+      "origin": "art_source/earth_e_45_underlap_bridge_v1/45-HD4-WAIST-KNEE-BRIDGE-RESEARCH.png",
+      "logical_canvas": [
+        128,
+        128
+      ],
+      "pixel_canvas": [
+        512,
+        512
+      ],
+      "root_logical": [
+        16,
+        64
+      ],
+      "root_pixel": [
+        64,
+        256
+      ],
+      "phase_ticks": 7,
+      "residuals": "Continuous waist+knee bridge research candidate; diagonal cloth strip/pose residual retained; NOT passed"
+    },
+    {
+      "sourceID": 46,
+      "alias": "art_source/earth_e_walk_layered_research_v1/46-HD4-RESEARCH.png",
+      "sha256": "b99726de6cbb5ae9db999e5e9f1eee50583a0e98d6fa75456884e0f2f2908f94",
+      "byte_copy": true,
+      "origin": "art_source/earth_e_46_knee_join_v2/46-HD4-RIGID-JOIN-RESEARCH.png",
+      "logical_canvas": [
+        128,
+        128
+      ],
+      "pixel_canvas": [
+        512,
+        512
+      ],
+      "root_logical": [
+        16,
+        64
+      ],
+      "root_pixel": [
+        64,
+        256
+      ],
+      "phase_ticks": 7,
+      "residuals": "Rigid legs + knee join v2 (358+49=407 pixels), prior native-reviewed candidate; gold shin material mismatch, cloth seam and geometric proxy residuals retained; not full-loop approved"
+    },
+    {
+      "sourceID": 47,
+      "alias": "art_source/earth_e_walk_layered_research_v1/47-HD4-RESEARCH.png",
+      "sha256": "26ed56945e287ee307290cd47b971a3b44840bb48ca998e773028f051cee1b47",
+      "byte_copy": true,
+      "origin": "art_source/earth_e_47_48_density_registered_pants_v1/47/47-HD4-DENSITY-REGISTERED-PANTS-RESEARCH.png",
+      "logical_canvas": [
+        128,
+        128
+      ],
+      "pixel_canvas": [
+        512,
+        512
+      ],
+      "root_logical": [
+        16,
+        64
+      ],
+      "root_pixel": [
+        64,
+        256
+      ],
+      "phase_ticks": 7,
+      "residuals": "Registered pants candidate; cuff seams; source-motion/loop not certified"
+    },
+    {
+      "sourceID": 48,
+      "alias": "art_source/earth_e_walk_layered_research_v1/48-HD4-RESEARCH.png",
+      "sha256": "500623cc73f245ffe4541f2e185de524695b959eda17307e25ac46cb7a7bf1bc",
+      "byte_copy": true,
+      "origin": "art_source/earth_e_47_48_density_registered_pants_v1/48/48-HD4-DENSITY-REGISTERED-PANTS-RESEARCH.png",
+      "logical_canvas": [
+        128,
+        128
+      ],
+      "pixel_canvas": [
+        512,
+        512
+      ],
+      "root_logical": [
+        16,
+        64
+      ],
+      "root_pixel": [
+        64,
+        256
+      ],
+      "phase_ticks": 7,
+      "residuals": "Registered pants candidate; knee notch/hard cuff; source-motion/loop not certified"
+    },
+    {
+      "sourceID": 49,
+      "alias": "art_source/earth_e_walk_layered_research_v1/49-HD4-RESEARCH.png",
+      "sha256": "c1c89fcd1e3ed2a39bce194a4bc5f1988a8277e51fc8dfca7610861127d23cbf",
+      "byte_copy": true,
+      "origin": "art_source/earth_e_46_49_static_research_v1/49-HD4-STATIC-RESEARCH.png",
+      "logical_canvas": [
+        128,
+        128
+      ],
+      "pixel_canvas": [
+        512,
+        512
+      ],
+      "root_logical": [
+        16,
+        64
+      ],
+      "root_pixel": [
+        64,
+        256
+      ],
+      "phase_ticks": 7,
+      "residuals": "Static candidate; arm/cloth joint trace and pose residual"
+    },
+    {
+      "sourceID": 50,
+      "alias": "art_source/earth_e_walk_layered_research_v1/50-HD4-RESEARCH.png",
+      "sha256": "3166546267a1016054b1feffc4ce6fc1127b7b3f4a066b16a49b1227c743ee64",
+      "byte_copy": true,
+      "origin": "source/50_knee replay from frozen local raw and masks",
+      "logical_canvas": [
+        128,
+        128
+      ],
+      "pixel_canvas": [
+        512,
+        512
+      ],
+      "root_logical": [
+        16,
+        64
+      ],
+      "root_pixel": [
+        64,
+        256
+      ],
+      "phase_ticks": 7,
+      "residuals": "Localized right knee improvement; left old knee metal, hand red-brown fringe and cuff crease retained"
+    }
+  ],
+  "50_source_chain": [
+    "source/50_context/raw.png + original context/protected/union -> first50",
+    "source/50_knee/raw.png mapped whole96crop + frozen457mask -> final50 alias"
+  ],
+  "historical_contract_paths": "Original copied JSONs preserve historical absolute path strings for provenance only. replay50.py uses package-relative paths and does not read recovery-work.",
+  "47_48_sampling": "Original +/-2 footprint not certified. Formal independent audit JSON: corrected +/-4 footprint outside-response0; original candidate bytes unchanged.",
+  "selection_correction": "46 old static alias was a packaging error; replaced by parent-confirmed knee_join_v2. Other five image aliases remain byte-identical."
+}

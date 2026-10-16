@@ -1,0 +1,325 @@
+{
+  "phase": 47,
+  "status": "new research registration only, previous fixed-contract failure preserved; no local fit or production",
+  "logical_canvas": [
+    128,
+    128
+  ],
+  "root_logical": [
+    16,
+    64
+  ],
+  "HD4_root": [
+    64,
+    256
+  ],
+  "input_sha256": {
+    "raw.png": "ce6c4a56e0a7f8dbb54c6246d04301cb8e7528b5daa7df612729056e7a938613",
+    "input-context.png": "31e1d775e344463b6b1bdd37634f07d547effa8adfd9fef5384cd072e68dd32b",
+    "input-source.png": "c0126b44a84815766c8994bae405e89c32ad4e04b334d916c4a8c7bcd97f3993",
+    "fixed-union-mask.png": "e507a181908db676861662cb50dfd286f3738fcbb67f9097fda696debfd96b73",
+    "protected-original-layers.png": "c48ed0ad9fc134a7e7d9b687533ddeb6f17f448ec541039a53e01bfc42a4c883",
+    "BEFORE_CONTRACT.json": "83b8d483209c7efc7f06abbc956ba0a02f88c82cd92a3a6e9b0797da07eed1c8"
+  },
+  "frozen_measurements_sha256": "b57666d9de960985f5dcdf34a6b350aeaeefcabec1c1bf099f11d6b3ba2b3aa5",
+  "frozen_context_to_previous_mapped_raw": {
+    "scale": 1.2463910526691917,
+    "translation": [
+      -39.8258385144953,
+      -15.745786583768052
+    ]
+  },
+  "new_raw_to_logical_density": 0.08189513637206088,
+  "new_raw_to_HD4_scale": 0.3275805454882435,
+  "new_raw_to_HD4_translation": [
+    31.952923947269056,
+    12.633103029781767
+  ],
+  "direct_single_resample_output_to_raw_affine": [
+    3.0526843360296216,
+    0,
+    -97.54219042417404,
+    0,
+    3.0526843360296216,
+    -38.56487573446316
+  ],
+  "rotation_deg": 0,
+  "union_pixels": 6317,
+  "union_mask_sha_matches": true,
+  "changed_final_RGBA": 5462,
+  "changed_outside_union": 0,
+  "protected_alpha128_or_greater_final_changes": 0,
+  "protected_source_texture_changes": 0,
+  "protected_semi_final_changes": 348,
+  "registered_donor_alpha0_inside_union": 1784,
+  "registered_donor_alpha_partial_inside_union": 4497,
+  "raw_sample_center_bbox": [
+    256.569192555262,
+    510.91830475086874,
+    537.4161514699873,
+    852.8189503861863
+  ],
+  "raw_footprint_note": "conservative \u00b12 raw pixels around output->raw sample coordinates; not an edit mask",
+  "unadopted_generated_head_core_arms_shins_boots": true,
+  "retained_holdout_rows": [
+    {
+      "name": "head",
+      "box": [
+        133,
+        59,
+        187,
+        108
+      ],
+      "source_center": [
+        160.0,
+        83.5
+      ],
+      "matched_center": [
+        159.5,
+        88.5
+      ],
+      "local_diagnostic_scale": 1.2400000000000002,
+      "ncc": 0.9091692541053868,
+      "role": "fit",
+      "predicted_center": [
+        159.59672991257537,
+        88.32786631410946
+      ],
+      "residual_HD4": [
+        -0.09672991257536978,
+        0.17213368589054312
+      ],
+      "residual_logical_norm": 0.04936261351284925,
+      "global_scale_ncc": 0.9091692541053861,
+      "global_scale_local_center": [
+        159.5,
+        88.5
+      ],
+      "global_scale_heldout_center_residual_logical": 0.04936261351284925,
+      "local_scale_difference_percent": -0.5127646460157731,
+      "template_rectangle_union_pixels": 0
+    },
+    {
+      "name": "shoulder",
+      "box": [
+        106,
+        110,
+        145,
+        158
+      ],
+      "source_center": [
+        125.5,
+        134.0
+      ],
+      "matched_center": [
+        116.5,
+        151.0
+      ],
+      "local_diagnostic_scale": 1.2500000000000002,
+      "ncc": 0.8808719250759095,
+      "role": "fit",
+      "predicted_center": [
+        116.59623859548824,
+        151.27061447390363
+      ],
+      "residual_HD4": [
+        -0.09623859548824498,
+        -0.2706144739036347
+      ],
+      "residual_logical_norm": 0.07180444830740425,
+      "global_scale_ncc": 0.8808719250759101,
+      "global_scale_local_center": [
+        116.5,
+        151.0
+      ],
+      "global_scale_heldout_center_residual_logical": 0.07180444830740425,
+      "local_scale_difference_percent": 0.2895517681292592,
+      "template_rectangle_union_pixels": 0
+    },
+    {
+      "name": "waist_metal",
+      "box": [
+        157,
+        157,
+        185,
+        177
+      ],
+      "source_center": [
+        171.0,
+        167.0
+      ],
+      "matched_center": [
+        173.5,
+        192.5
+      ],
+      "local_diagnostic_scale": 1.2400000000000002,
+      "ncc": 0.8049201461337971,
+      "role": "fit",
+      "predicted_center": [
+        173.30703149193647,
+        192.40151921198697
+      ],
+      "residual_HD4": [
+        0.1929685080635295,
+        0.09848078801303473
+      ],
+      "residual_logical_norm": 0.05416139694926448,
+      "global_scale_ncc": 0.8049201461337971,
+      "global_scale_local_center": [
+        173.5,
+        192.5
+      ],
+      "global_scale_heldout_center_residual_logical": 0.05416139694926448,
+      "local_scale_difference_percent": -0.5127646460157731,
+      "template_rectangle_union_pixels": 0
+    },
+    {
+      "name": "rear_shin",
+      "box": [
+        172,
+        270,
+        188,
+        290
+      ],
+      "source_center": [
+        180.0,
+        280.0
+      ],
+      "matched_center": [
+        188.0,
+        332.5
+      ],
+      "local_diagnostic_scale": 1.4700000000000004,
+      "ncc": 0.6609398183560353,
+      "role": "held_out",
+      "predicted_center": [
+        184.5245509659592,
+        333.2437081636056
+      ],
+      "residual_HD4": [
+        3.4754490340407926,
+        -0.7437081636056178
+      ],
+      "residual_logical_norm": 0.8885327730600571,
+      "global_scale_ncc": 0.57861054136461,
+      "global_scale_local_center": [
+        187.0,
+        332.5
+      ],
+      "global_scale_heldout_center_residual_logical": 0.6461883313297261,
+      "local_scale_difference_percent": 17.940512879320014,
+      "template_rectangle_union_pixels": 0
+    },
+    {
+      "name": "rear_boot",
+      "box": [
+        162,
+        298,
+        209,
+        323
+      ],
+      "source_center": [
+        185.5,
+        310.5
+      ],
+      "matched_center": [
+        193.5,
+        371.0
+      ],
+      "local_diagnostic_scale": 1.2900000000000003,
+      "ncc": 0.8597737587385111,
+      "role": "held_out",
+      "predicted_center": [
+        191.37970175563976,
+        371.258635270016
+      ],
+      "residual_HD4": [
+        2.1202982443602423,
+        -0.2586352700159864
+      ],
+      "residual_logical_norm": 0.5340035608456516,
+      "global_scale_ncc": 0.8389055564411997,
+      "global_scale_local_center": [
+        193.5,
+        371.5
+      ],
+      "global_scale_heldout_center_residual_logical": 0.5334979837073767,
+      "local_scale_difference_percent": 3.4988174247093884,
+      "template_rectangle_union_pixels": 0
+    },
+    {
+      "name": "front_shin",
+      "box": [
+        132,
+        286,
+        148,
+        315
+      ],
+      "source_center": [
+        140.0,
+        300.5
+      ],
+      "matched_center": [
+        135.0,
+        357.5
+      ],
+      "local_diagnostic_scale": 1.2600000000000002,
+      "ncc": 0.9038026763605761,
+      "role": "held_out",
+      "predicted_center": [
+        134.66890885919153,
+        358.7947247433241
+      ],
+      "residual_HD4": [
+        0.3310911408084678,
+        -1.2947247433240818
+      ],
+      "residual_logical_norm": 0.33409705780071064,
+      "global_scale_ncc": 0.8942143551817061,
+      "global_scale_local_center": [
+        135.0,
+        357.0
+      ],
+      "global_scale_heldout_center_residual_logical": 0.45625227724236783,
+      "local_scale_difference_percent": 1.0918681822742915,
+      "template_rectangle_union_pixels": 0
+    },
+    {
+      "name": "front_boot",
+      "box": [
+        115,
+        326,
+        173,
+        358
+      ],
+      "source_center": [
+        144.0,
+        342.0
+      ],
+      "matched_center": [
+        139.5,
+        410.5
+      ],
+      "local_diagnostic_scale": 1.3300000000000003,
+      "ncc": 0.8597957779755088,
+      "role": "held_out",
+      "predicted_center": [
+        139.65447306986832,
+        410.5199534290955
+      ],
+      "residual_HD4": [
+        -0.15447306986831677,
+        -0.019953429095494357
+      ],
+      "residual_logical_norm": 0.03893911003670571,
+      "global_scale_ncc": 0.8000247705527012,
+      "global_scale_local_center": [
+        140.0,
+        411.0
+      ],
+      "global_scale_heldout_center_residual_logical": 0.14786682557359673,
+      "local_scale_difference_percent": 6.70808308128954,
+      "template_rectangle_union_pixels": 0
+    }
+  ]
+}

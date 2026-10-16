@@ -1,0 +1,87 @@
+{
+  "status": "approved single localized knee edit; before generation",
+  "parent_union_pixels": 7611,
+  "local_mask_pixels": 457,
+  "polygon_HD4": [
+    [
+      171,
+      256
+    ],
+    [
+      175,
+      260
+    ],
+    [
+      177,
+      264
+    ],
+    [
+      185,
+      268
+    ],
+    [
+      190,
+      272
+    ],
+    [
+      192,
+      276
+    ],
+    [
+      190,
+      280
+    ],
+    [
+      183,
+      282
+    ],
+    [
+      174,
+      281
+    ],
+    [
+      171,
+      277
+    ],
+    [
+      164,
+      275
+    ],
+    [
+      158,
+      272
+    ],
+    [
+      161,
+      265
+    ],
+    [
+      167,
+      260
+    ]
+  ],
+  "crop_HD4": [
+    136,
+    232,
+    232,
+    328
+  ],
+  "crop_native_size": [
+    96,
+    96
+  ],
+  "polygon_outside_union_excluded": 37,
+  "mask_outside_union": 0,
+  "protected_opaque_intersection": 0,
+  "protected_semi_intersection": 15,
+  "mapping": "whole crop output uniformly maps to original native96; no content fit, no local warp, no increased texture density",
+  "composition": "only frozen mask; original protected core/arm/shins over sampled donor; outside mask byte-identical to prior full50; no old knee layer re-overlay",
+  "hashes": {
+    "/workspace/scratch/22c897619190/recovery-work/50-context-edit/50-HD4-CONTEXT-PANTS-RESEARCH.png": "e325cf4aad15e90313b04f4b941f251b1c52f679fa195dd521c79511dfbfaf72",
+    "/workspace/scratch/22c897619190/recovery-work/50-context-edit/protected-original-layers.png": "627fb5a824d08ce8bf324281359add59089e53b83b6a02dcda3f2856c9d0514c",
+    "/workspace/scratch/22c897619190/recovery-work/50-context-edit/proposed-fixed-union-mask.png": "d47b83c4156929b7d788d42e1c22bd24cb24f3b9911917ff4a9c4b8d6b86726e",
+    "/workspace/scratch/22c897619190/recovery-work/50-knee-local-edit/input-native96-context.png": "e28e62c74879cfde9e7d55baee114f1918ab5a059c6a386a459f347caafa3c4f",
+    "/workspace/scratch/22c897619190/recovery-work/50-knee-local-edit/input-native96-guide.png": "bc63d4e1555063665c88f2f293020ec24b14dad9cf5e4a740fcaa8ed5b8b4f98",
+    "/workspace/scratch/22c897619190/recovery-work/50-knee-local-edit/frozen-full512-mask.png": "3334f306a6db33ce5ec7c874cedff9a7c4dc45803e3ac3ddbb88531ec5850d9c"
+  }
+}
