@@ -21,4 +21,4 @@ Godot 4.6.3 导入 `Project/project.godot`，单独打开 `scenes/earth_walk_rev
 
 此入口按源工程方式直接读 PNG，无需这些研究图的导入缓存；独立导出包须另行配置包含所需原始 PNG，尚未验证。中文字体沿用工程 SystemFont 方法，优先 Noto Sans CJK SC，亦列 Microsoft YaHei/SimHei/PingFang SC；本次 Linux 环境已确认 Noto Sans CJK SC 存在，未捆绑字体，其他机器须有可用中文字库。
 
-默认 F5、现有 `earth_sample_preview.tscn`、玩法代码、项目时序、原版游戏及参考项目均不变。本次仅可进行 headless 解析和逻辑检查，未完成原生窗口视觉验收或 Windows 验证。
+默认 F5、现有 `earth_sample_preview.tscn`、玩法代码、项目时序、原版游戏及参考项目均不变。已完成 Linux 原生窗口的中文界面、完整六帧显示、暂停/继续、单步及正常/慢速控制检查；原生运行测得正常每帧 7 个 physics tick、慢速 28 个 tick（50 Hz）。环境为 Godot 4.6.3、X11、OpenGL Compatibility、Mesa llvmpipe 软件渲染；这不代表美术连续性、接触效果或硬件 GPU 验收，Windows 仍未验证。研究界面的未完成验收标记继续保留。
