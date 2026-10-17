@@ -1,0 +1,53 @@
+{
+  "schema": "a01-animation-core-source-archive-v1",
+  "checkpoint": 1,
+  "status": "new_implementation_static_review_candidate_engine_not_run",
+  "archive_files": [
+    {
+      "path": ".gdignore",
+      "bytes": 80,
+      "sha256": "e808bebfad5af9596fa66fd40f9c2b2629e06ba448f17099404c19cc0c8aed56"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2196,
+      "sha256": "8fdf23d51657c7ac728e9647026ee135362154121a6bbec38552923a00b292a1"
+    },
+    {
+      "path": "src/a01_animation_core.gd",
+      "bytes": 8696,
+      "sha256": "8a084d6a60c0c70226ce02a6ae4123d5d2072b5e466d5485f48eb3cad7afad07"
+    },
+    {
+      "path": "docs/API.md",
+      "bytes": 7334,
+      "sha256": "9ca63e59d3ea1407f6c13bcd183eb49ce823da9ed620e9856c74df11a1456421"
+    },
+    {
+      "path": "SOURCE_PINS.json",
+      "bytes": 3859,
+      "sha256": "35d8eccc2a3cf7f3e21110c30b9303b474043b18e9ae5aee05d5b0a31c989347"
+    },
+    {
+      "path": "evidence/B4_PAUSE_SUPPLEMENT.json",
+      "bytes": 838,
+      "sha256": "761496bec4530275d613b06b05e5d963487ff2aba2e5b011d5f973d40c607fc3"
+    },
+    {
+      "path": "evidence/b4_pause.asm.txt",
+      "bytes": 1122,
+      "sha256": "f9c0a9149a63210cd3ca6cf562ed91a38be407d8747cd7abc73276803e7d12d1"
+    }
+  ],
+  "include_manifest_itself": true,
+  "exclude": [
+    "local/**",
+    "**/project.godot",
+    "**/.godot/**",
+    "**/*.uid",
+    "**/__pycache__/**",
+    "**/*.pyc",
+    "**/*.log"
+  ],
+  "policy": "Explicit allowlist only. No default runtime integration, Git staging, commit or push."
+}

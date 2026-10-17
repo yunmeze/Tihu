@@ -1,0 +1,94 @@
+{
+  "schema": "a01-animation-core-source-pins-v1",
+  "implementation_identity": "new implementation; no prior recovered core hash or engine result",
+  "source_files": [
+    {
+      "path": "原版游戏/LP传奇单机版_重生.exe",
+      "bytes": 2502656,
+      "sha256": "21dc753d3aa828fb29dc171e595857be234833edc43a1d80833540ae7e355b84"
+    },
+    {
+      "path": "原版游戏/Data/Mon/5.lpRes",
+      "bytes": 1215784,
+      "sha256": "0f79fed5c0c255447f4097d7501afe7596c09694db76f59beb9e1ec029610d5b"
+    },
+    {
+      "path": "原版游戏/Data/Mon/7.lpRes",
+      "bytes": 1315620,
+      "sha256": "4e2bea0144c11833495a7ada6dfa59871892727e59aec5860c48df65910ee766"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "Project/art_source/earth_a01_animation_contract_v1/A01_ANIMATION_CONTRACT.json",
+      "bytes": 14934,
+      "sha256": "d7000588f1713c06c416b644934d70d74b41af2890a50e72073c37577a9fbceb"
+    },
+    {
+      "path": "Project/art_source/earth_a01_animation_contract_v1/SOURCE_PINS.json",
+      "bytes": 763,
+      "sha256": "9c61d4d887692741bac8dcfc7a5ac0095b4adff10ea3cd1188de14a94fb64296"
+    },
+    {
+      "path": "Project/art_source/earth_a01_animation_contract_v1/evidence/entry_clock.asm.txt",
+      "bytes": 3960,
+      "sha256": "e689b0bf162fc82c5c072c1b15f5884dc1f61f9551ec769e8203580514a58613"
+    },
+    {
+      "path": "Project/art_source/earth_a01_animation_contract_v1/evidence/death_entry.asm.txt",
+      "bytes": 1668,
+      "sha256": "0b6b0a5658609b8edb22c5b1ce57f9e3e70c244b125fab2979c5de2d06c98c34"
+    },
+    {
+      "path": "Project/art_source/earth_a01_animation_contract_v1/evidence/death_terminal.asm.txt",
+      "bytes": 5449,
+      "sha256": "4ba32cfff0db72c78aa9d30fe819085a9bef0e6cd4fd1e743d2d850110f37a97"
+    },
+    {
+      "path": "Project/art_source/earth_a01_animation_contract_v1/evidence/pursuit_attack_entry.asm.txt",
+      "bytes": 4044,
+      "sha256": "bfc56a52b1b727e5765876c6ad26a9f90806b37f0b57e8d242d6db0ca068e569"
+    },
+    {
+      "path": "Project/art_source/earth_a01_animation_contract_v1/evidence/pursuit_reentry_clock.asm.txt",
+      "bytes": 868,
+      "sha256": "56ac741dc70df29d4f902c3a406b0eff6620f64ecfdedc40b2d295a627475bf9"
+    },
+    {
+      "path": "Project/art_source/earth_a01_animation_contract_v1/evidence/wander_entry.asm.txt",
+      "bytes": 3588,
+      "sha256": "257b4aaa5ca9f71fb554a83a9b5a43c684ad61fc03d22b1f3a61580a1d6d9646"
+    },
+    {
+      "path": "Project/art_source/earth_a01_animation_contract_v1/evidence/walk_attack_frames.asm.txt",
+      "bytes": 4893,
+      "sha256": "23eee70486ff46839db978099efef289c9bf3ee430db300a755c01fab06f1353"
+    },
+    {
+      "path": "Project/art_source/earth_a01_animation_contract_v1/evidence/attack_completion_hurt_death.asm.txt",
+      "bytes": 7190,
+      "sha256": "222265acadd8d7a7425d1b3d06c9d3250adc5c794c06a117cf3a6e79b3e79f16"
+    },
+    {
+      "path": "Project/art_source/earth_a01_animation_contract_v1/evidence/idle_phase.asm.txt",
+      "bytes": 1306,
+      "sha256": "8c7108a849c20f8354883700c7a9d39a5387b1266d350e204aa4fce4965b4fed"
+    },
+    {
+      "path": "Project/art_source/earth_a01_animation_contract_v1/evidence/idle_frame.asm.txt",
+      "bytes": 803,
+      "sha256": "8c97ba7e7c3cd3a5ee89ae1cc95ea767f25c85d168a7bad77fa79d59df284385"
+    },
+    {
+      "path": "Project/art_source/earth_a01_animation_contract_v1/evidence/movement_tail.asm.txt",
+      "bytes": 1397,
+      "sha256": "91c5e9a7182fedb49ba2e4db53d10f80d92f52e6fc294580bc8d48019ac25aa0"
+    },
+    {
+      "path": "Project/art_source/earth_a01_source_contract_v1/A01_SOURCE_CONTRACT.json",
+      "bytes": 4467,
+      "sha256": "d4545b9490aefaf2946176beda4d271f98916f4f367c81e3b411dcac02811c7f"
+    }
+  ],
+  "source_policy": "Source repository read only. Full source hashes and fixed supplemental b4 bytes checked at checkpoint01."
+}

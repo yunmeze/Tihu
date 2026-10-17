@@ -1,0 +1,19 @@
+{
+  "schema": "a01-animation-b4-supplement-v1",
+  "status": "static_fixed_byte_checked_not_original_execution",
+  "exe_sha256": "21dc753d3aa828fb29dc171e595857be234833edc43a1d80833540ae7e355b84",
+  "virtual_address_start": "0x5c9936",
+  "virtual_address_end_exclusive": "0x5c9963",
+  "file_offset_start": 1874230,
+  "bytes_hex": "668b86b400000033ff663bc77e1f397e787e134868b3d05c00668986b40000009be9343700006689beb4000000",
+  "rules": [
+    "Clock increments at0x5c854d before this gate.",
+    "Ordinary death initialization at0x5c962a..0x5c9630 precedes this gate.",
+    "b4>0 and hp>0: decrement b4 and return before dispatch, including expiry-to-zero call.",
+    "b4>0 and hp<=0: zero b4 and continue to dispatch."
+  ],
+  "limits": [
+    "No status-system reconstruction.",
+    "Negative b4 values are outside the supported API."
+  ]
+}
