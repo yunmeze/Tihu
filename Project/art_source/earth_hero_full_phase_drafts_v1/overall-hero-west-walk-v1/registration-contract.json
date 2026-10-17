@@ -1,0 +1,808 @@
+{
+  "schema": "hero-west-walk-first-draft-registration-v1",
+  "status": "blocked-art-candidate-pending-two-half-cycle-review",
+  "action": "walk",
+  "phases": 6,
+  "actor_ticks_per_phase": 7,
+  "logical_canvas": [
+    128,
+    128
+  ],
+  "root": [
+    16,
+    64
+  ],
+  "draw_offset": [
+    -16,
+    -64
+  ],
+  "density": 4,
+  "output_frame_size": [
+    512,
+    512
+  ],
+  "output_sheet_layout": "six horizontal row-major slots",
+  "uniform_scale_all_directions": 0.66015625,
+  "method": "crop six equal 512px cells; uniformly resize EVERY whole cell to 338px; translate every phase of every direction by [0,24]. No per-phase foot snapping, scaling, silhouette edits, alpha cleanup, warp, mirror or repaint. Generated bob and foot displacement are retained, but original motion fidelity fails review.",
+  "runtime_modified": false,
+  "alpha": "Generated alpha retained unmodified except standard whole-image Lanczos resampling; Hidden brown RGB in alpha-zero background is preserved; real gray-background compositing confirms it is invisible. Threshold measurement is diagnostic only.",
+  "directions": {
+    "SW": {
+      "raw_file": "raw/SW-raw.png",
+      "raw_sha256": "fdd385e33d88f240381729cade1f2e1fcaa579abe6807b3d92759bfb45f11833",
+      "sheet_file": "registered/SW-body.png",
+      "sheet_sha256": "e880c25490a6fe2934a780c711ba9c427aff9fb6cfe0d73c6abca9d64bfc0396",
+      "distinct_rgba_frames": 6,
+      "frames": [
+        {
+          "phase": 0,
+          "original_frame_id": 63,
+          "source_region": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "output_region": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            141,
+            39,
+            510,
+            499
+          ],
+          "raw_bbox_alpha_gt127": [
+            179,
+            51,
+            384,
+            496
+          ],
+          "raw_nonzero_alpha_pixels": 51578,
+          "raw_partial_alpha_pixels": 51578,
+          "rgba_sha256": "d9d891ac75e4d3d23f1274970e1b56c460accd334ab11bfbbd93cca5b695ce98",
+          "original_composite_bbox": [
+            21,
+            16,
+            81,
+            86
+          ]
+        },
+        {
+          "phase": 1,
+          "original_frame_id": 64,
+          "source_region": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "output_region": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            1,
+            49,
+            512,
+            499
+          ],
+          "raw_bbox_alpha_gt127": [
+            176,
+            52,
+            353,
+            496
+          ],
+          "raw_nonzero_alpha_pixels": 50425,
+          "raw_partial_alpha_pixels": 50425,
+          "rgba_sha256": "9e9540f102e21c5a7062d9ff40cd0190d671234a031d61bdab404450f7363c71",
+          "original_composite_bbox": [
+            29,
+            15,
+            82,
+            85
+          ]
+        },
+        {
+          "phase": 2,
+          "original_frame_id": 65,
+          "source_region": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "output_region": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            1,
+            41,
+            484,
+            504
+          ],
+          "raw_bbox_alpha_gt127": [
+            140,
+            51,
+            345,
+            490
+          ],
+          "raw_nonzero_alpha_pixels": 49187,
+          "raw_partial_alpha_pixels": 49187,
+          "rgba_sha256": "510120cd13cd89389859033fca9c830214a2b95ea8d07ccff88d0dd54cb329d4",
+          "original_composite_bbox": [
+            26,
+            15,
+            82,
+            89
+          ]
+        },
+        {
+          "phase": 3,
+          "original_frame_id": 66,
+          "source_region": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "output_region": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            57,
+            27,
+            506,
+            488
+          ],
+          "raw_bbox_alpha_gt127": [
+            163,
+            30,
+            395,
+            468
+          ],
+          "raw_nonzero_alpha_pixels": 54079,
+          "raw_partial_alpha_pixels": 54079,
+          "rgba_sha256": "0802c4707ea8be5314a9d2a2bdbbac5ff5e7fe4badd28e722e784895b37a17ca",
+          "original_composite_bbox": [
+            23,
+            16,
+            82,
+            91
+          ]
+        },
+        {
+          "phase": 4,
+          "original_frame_id": 67,
+          "source_region": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "output_region": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            1,
+            33,
+            512,
+            467
+          ],
+          "raw_bbox_alpha_gt127": [
+            163,
+            40,
+            361,
+            465
+          ],
+          "raw_nonzero_alpha_pixels": 49075,
+          "raw_partial_alpha_pixels": 49075,
+          "rgba_sha256": "e5b571bddbe2f104e44fec2371c23bc14c207e9d01284af27fdd6a9c85374ef2",
+          "original_composite_bbox": [
+            27,
+            15,
+            83,
+            89
+          ]
+        },
+        {
+          "phase": 5,
+          "original_frame_id": 68,
+          "source_region": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "output_region": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            9,
+            9,
+            440,
+            464
+          ],
+          "raw_bbox_alpha_gt127": [
+            156,
+            33,
+            359,
+            460
+          ],
+          "raw_nonzero_alpha_pixels": 56128,
+          "raw_partial_alpha_pixels": 56128,
+          "rgba_sha256": "0a57de5192c09a8180522a5de07e240a98f4f641cf3e5a236aa238aac586f56a",
+          "original_composite_bbox": [
+            26,
+            15,
+            82,
+            86
+          ]
+        }
+      ],
+      "review_blockers": [
+        "phase0/3 leading-leg alternation not faithful to original",
+        "original vertical bob/contact correspondence not validated"
+      ]
+    },
+    "W": {
+      "raw_file": "raw/W-raw.png",
+      "raw_sha256": "1d12d292e0668dfea4a134c8617380ea74205f1a8b4e080c10365dba54abefc4",
+      "sheet_file": "registered/W-body.png",
+      "sheet_sha256": "40414211f9083e432363738bbd767572ed0ba5692fe7998848c1939ff1512718",
+      "distinct_rgba_frames": 6,
+      "frames": [
+        {
+          "phase": 0,
+          "original_frame_id": 69,
+          "source_region": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "output_region": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            57,
+            55,
+            512,
+            508
+          ],
+          "raw_bbox_alpha_gt127": [
+            76,
+            62,
+            408,
+            468
+          ],
+          "raw_nonzero_alpha_pixels": 57855,
+          "raw_partial_alpha_pixels": 57855,
+          "rgba_sha256": "08e447ccc3a67b35ccb05a70ad938792ec4f456e3064a6227004fd3a415706e9",
+          "original_composite_bbox": [
+            19,
+            16,
+            79,
+            86
+          ]
+        },
+        {
+          "phase": 1,
+          "original_frame_id": 70,
+          "source_region": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "output_region": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            0,
+            19,
+            508,
+            482
+          ],
+          "raw_bbox_alpha_gt127": [
+            177,
+            60,
+            372,
+            476
+          ],
+          "raw_nonzero_alpha_pixels": 48229,
+          "raw_partial_alpha_pixels": 48229,
+          "rgba_sha256": "58a93649422c1ab21ac6f2139081cf180c50aae5cfa77d5bfe576f4231dbb297",
+          "original_composite_bbox": [
+            30,
+            16,
+            81,
+            86
+          ]
+        },
+        {
+          "phase": 2,
+          "original_frame_id": 71,
+          "source_region": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "output_region": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            15,
+            48,
+            450,
+            486
+          ],
+          "raw_bbox_alpha_gt127": [
+            208,
+            57,
+            353,
+            482
+          ],
+          "raw_nonzero_alpha_pixels": 42675,
+          "raw_partial_alpha_pixels": 42675,
+          "rgba_sha256": "4f233df6bb1cfcef3d5c5eebe087c108b3b0e92112e5318ca91d4cc2286c8a54",
+          "original_composite_bbox": [
+            27,
+            16,
+            80,
+            86
+          ]
+        },
+        {
+          "phase": 3,
+          "original_frame_id": 72,
+          "source_region": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "output_region": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            79,
+            1,
+            482,
+            454
+          ],
+          "raw_bbox_alpha_gt127": [
+            85,
+            48,
+            443,
+            451
+          ],
+          "raw_nonzero_alpha_pixels": 56315,
+          "raw_partial_alpha_pixels": 56315,
+          "rgba_sha256": "c450b9afa6c38f2d575586a878c937e18995771efef484350d409ff694d6bb2c",
+          "original_composite_bbox": [
+            19,
+            16,
+            79,
+            86
+          ]
+        },
+        {
+          "phase": 4,
+          "original_frame_id": 73,
+          "source_region": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "output_region": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            1,
+            3,
+            504,
+            486
+          ],
+          "raw_bbox_alpha_gt127": [
+            177,
+            43,
+            386,
+            464
+          ],
+          "raw_nonzero_alpha_pixels": 51069,
+          "raw_partial_alpha_pixels": 51069,
+          "rgba_sha256": "e27e82a96c81628c14d1290a9f78a39843f38a91851589d3fc72c9f6cbd6e7f5",
+          "original_composite_bbox": [
+            30,
+            16,
+            81,
+            88
+          ]
+        },
+        {
+          "phase": 5,
+          "original_frame_id": 74,
+          "source_region": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "output_region": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            1,
+            29,
+            480,
+            478
+          ],
+          "raw_bbox_alpha_gt127": [
+            175,
+            40,
+            378,
+            464
+          ],
+          "raw_nonzero_alpha_pixels": 49036,
+          "raw_partial_alpha_pixels": 49036,
+          "rgba_sha256": "2d4ab737e55c516d25e7bed01662e0e7032851cd01baa64954bb420cff97ca2a",
+          "original_composite_bbox": [
+            27,
+            16,
+            80,
+            87
+          ]
+        }
+      ],
+      "review_blockers": [
+        "phase0/3 leading-leg alternation not faithful to original",
+        "original vertical bob/contact correspondence not validated"
+      ]
+    },
+    "NW": {
+      "raw_file": "raw/NW-raw.png",
+      "raw_sha256": "c80551987984c03e88390de6d3d8f92db64f795e212137464d14f99bc9a3f46d",
+      "sheet_file": "registered/NW-body.png",
+      "sheet_sha256": "c16a678eebe1509a287cb74480e454b992f61bba4499f69683e75dab7356c9d0",
+      "distinct_rgba_frames": 6,
+      "frames": [
+        {
+          "phase": 0,
+          "original_frame_id": 75,
+          "source_region": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "output_region": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            0,
+            22,
+            512,
+            512
+          ],
+          "raw_bbox_alpha_gt127": [
+            162,
+            66,
+            389,
+            488
+          ],
+          "raw_nonzero_alpha_pixels": 53604,
+          "raw_partial_alpha_pixels": 53604,
+          "rgba_sha256": "22644d331a77916d358d1815516b89ec532126794b297ca06d0884a643cdf932",
+          "original_composite_bbox": [
+            23,
+            17,
+            82,
+            93
+          ]
+        },
+        {
+          "phase": 1,
+          "original_frame_id": 76,
+          "source_region": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "output_region": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            0,
+            37,
+            512,
+            498
+          ],
+          "raw_bbox_alpha_gt127": [
+            180,
+            64,
+            347,
+            488
+          ],
+          "raw_nonzero_alpha_pixels": 46059,
+          "raw_partial_alpha_pixels": 46059,
+          "rgba_sha256": "d5581a179bcfc9cfdc5c21aa347285776cb6e14383613f34286bc0f4ac8137b2",
+          "original_composite_bbox": [
+            27,
+            17,
+            83,
+            91
+          ]
+        },
+        {
+          "phase": 2,
+          "original_frame_id": 77,
+          "source_region": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "output_region": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            5,
+            45,
+            490,
+            504
+          ],
+          "raw_bbox_alpha_gt127": [
+            164,
+            63,
+            332,
+            473
+          ],
+          "raw_nonzero_alpha_pixels": 53192,
+          "raw_partial_alpha_pixels": 53192,
+          "rgba_sha256": "df8240b181d6d5315f4316fdf31c4eb5c77891c0aa1a18cdf88ffe2ac2f93ab7",
+          "original_composite_bbox": [
+            25,
+            16,
+            81,
+            87
+          ]
+        },
+        {
+          "phase": 3,
+          "original_frame_id": 78,
+          "source_region": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "output_region": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            45,
+            15,
+            496,
+            465
+          ],
+          "raw_bbox_alpha_gt127": [
+            163,
+            36,
+            406,
+            456
+          ],
+          "raw_nonzero_alpha_pixels": 55246,
+          "raw_partial_alpha_pixels": 55246,
+          "rgba_sha256": "8e2cf7e03b6ebd1a86537b564bfebf7eed339aedb12fc49ca6b6dae8c44efcbc",
+          "original_composite_bbox": [
+            20,
+            17,
+            80,
+            90
+          ]
+        },
+        {
+          "phase": 4,
+          "original_frame_id": 79,
+          "source_region": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "output_region": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            1,
+            13,
+            512,
+            512
+          ],
+          "raw_bbox_alpha_gt127": [
+            172,
+            34,
+            347,
+            452
+          ],
+          "raw_nonzero_alpha_pixels": 52075,
+          "raw_partial_alpha_pixels": 52075,
+          "rgba_sha256": "05955cd11195abebc6932732d10f6b75c07083f9fd2b3c780ac95c8e1812ba47",
+          "original_composite_bbox": [
+            28,
+            17,
+            81,
+            88
+          ]
+        },
+        {
+          "phase": 5,
+          "original_frame_id": 80,
+          "source_region": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "output_region": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "whole_frame_translation_px": [
+            0,
+            24
+          ],
+          "raw_alpha_nonzero_bbox": [
+            1,
+            7,
+            511,
+            512
+          ],
+          "raw_bbox_alpha_gt127": [
+            156,
+            33,
+            336,
+            459
+          ],
+          "raw_nonzero_alpha_pixels": 51028,
+          "raw_partial_alpha_pixels": 51028,
+          "rgba_sha256": "b85767e3ebe6964ab53894cc100343453fa22031e0aace11c7dd39ffe0cf9d7b",
+          "original_composite_bbox": [
+            25,
+            17,
+            82,
+            89
+          ]
+        }
+      ],
+      "review_blockers": [
+        "phase0/3 leading-leg alternation not faithful to original",
+        "original vertical bob/contact correspondence not validated"
+      ]
+    }
+  }
+}

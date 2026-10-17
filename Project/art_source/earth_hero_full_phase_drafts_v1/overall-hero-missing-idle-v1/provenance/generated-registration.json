@@ -1,0 +1,307 @@
+{
+  "schema": "hero-idle-generated-candidate-v1",
+  "status": "next-batch-candidate-not-runtime-validated",
+  "tool": "built-in image_gen.imagegen",
+  "calls": 2,
+  "logical_canvas": [
+    128,
+    128
+  ],
+  "density": 4,
+  "physical_frame": [
+    512,
+    512
+  ],
+  "draw_offset": [
+    -16,
+    -64
+  ],
+  "actor_origin_canvas_logical": [
+    16,
+    64
+  ],
+  "actor_origin_canvas_physical": [
+    64,
+    256
+  ],
+  "registration": "One shared isotropic full-cell resize 627→383 across both directions; one fixed integer translation per direction for ALL phases. No per-frame alignment, no local warp, no mirroring, no repaint, no alpha cleanup. Native draw origin is NOT shoe contact. Generated origin is art registration estimate, not recovered native geometry.",
+  "common_scale": 0.6108452950558214,
+  "directions": {
+    "N": {
+      "raw": "raw/N-fourphase.png",
+      "raw_original_output": "exec-441a5682-b0d8-45bd-b4fb-9431d4208fe1.png",
+      "raw_sha256": "cda8ab6d72d4c96662287366756b93127b39b174969c0b2f556086f6a0ed3c26",
+      "raw_dimensions": [
+        1254,
+        1254
+      ],
+      "raw_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "raw_cell": [
+        627,
+        627
+      ],
+      "translation_physical": [
+        20,
+        14
+      ],
+      "actor_origin_in_raw_cell_estimated": [
+        72.03133159268928,
+        396.1723237597911
+      ],
+      "frames": [
+        {
+          "phase": 0,
+          "source_frame_id": 1,
+          "raw_region": [
+            0,
+            0,
+            627,
+            627
+          ],
+          "atlas_region": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/N/001.png",
+          "sha256": "c07bb78b03ce4aacb08ca71b4482b7c0575e2394d096128caa3e2681b5f8e1f9",
+          "visible_body_bbox_alpha_gt64": [
+            97,
+            65,
+            226,
+            350
+          ],
+          "shoe_material_bottom_alpha_gt64": 350
+        },
+        {
+          "phase": 1,
+          "source_frame_id": 2,
+          "raw_region": [
+            627,
+            0,
+            627,
+            627
+          ],
+          "atlas_region": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/N/002.png",
+          "sha256": "f7f775a21f135d2d4ca094a51d9918ae394b208db0bbeb2a6b51fc11e281468e",
+          "visible_body_bbox_alpha_gt64": [
+            97,
+            64,
+            225,
+            350
+          ],
+          "shoe_material_bottom_alpha_gt64": 350
+        },
+        {
+          "phase": 2,
+          "source_frame_id": 3,
+          "raw_region": [
+            0,
+            627,
+            627,
+            627
+          ],
+          "atlas_region": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/N/003.png",
+          "sha256": "b9ec911595b891015fa4f32e64dfb068bb771b17a6eee6d613e359bac1bb1dd4",
+          "visible_body_bbox_alpha_gt64": [
+            96,
+            64,
+            226,
+            350
+          ],
+          "shoe_material_bottom_alpha_gt64": 350
+        },
+        {
+          "phase": 3,
+          "source_frame_id": 4,
+          "raw_region": [
+            627,
+            627,
+            627,
+            627
+          ],
+          "atlas_region": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/N/004.png",
+          "sha256": "4f64cb4686e8d97636bb6a768330cdd66f97786d0088f9e18419409f8c44859f",
+          "visible_body_bbox_alpha_gt64": [
+            97,
+            64,
+            225,
+            350
+          ],
+          "shoe_material_bottom_alpha_gt64": 350
+        }
+      ],
+      "distinct_frame_file_sha_count": 4,
+      "successive_alpha64_silhouette_xor_pixels": [
+        652,
+        844,
+        790,
+        708
+      ],
+      "atlas": "registered/N/body.png",
+      "atlas_sha256": "3a2dff25afe944ab52964485d8adfa6df9e350b04cbf301c68b11652b3838474",
+      "review": "Direction/identity/full-body first draft visually checked. Four poses have shoulder/arm and silhouette changes. Subtle breathing is not exact native pixel-motion equivalence. Low-alpha generation specks retained; back boot/armor anatomy and phase silhouette fidelity require in-engine review before acceptance."
+    },
+    "NE": {
+      "raw": "raw/NE-fourphase.png",
+      "raw_original_output": "exec-08ea0aaf-6d58-4071-8fba-81c59a35d75e.png",
+      "raw_sha256": "ef3a2ad6e20c9354322d0d75e2dc64565ea9ad521f6fcc88b6959ee17760693e",
+      "raw_dimensions": [
+        1254,
+        1254
+      ],
+      "raw_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "raw_cell": [
+        627,
+        627
+      ],
+      "translation_physical": [
+        12,
+        16
+      ],
+      "actor_origin_in_raw_cell_estimated": [
+        85.12793733681461,
+        392.89817232375975
+      ],
+      "frames": [
+        {
+          "phase": 0,
+          "source_frame_id": 5,
+          "raw_region": [
+            0,
+            0,
+            627,
+            627
+          ],
+          "atlas_region": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/NE/005.png",
+          "sha256": "3142112c57f13a3fea96dac58da2e0543efc7f09629c836ab41882feea3f053e",
+          "visible_body_bbox_alpha_gt64": [
+            104,
+            59,
+            217,
+            351
+          ],
+          "shoe_material_bottom_alpha_gt64": 351
+        },
+        {
+          "phase": 1,
+          "source_frame_id": 6,
+          "raw_region": [
+            627,
+            0,
+            627,
+            627
+          ],
+          "atlas_region": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/NE/006.png",
+          "sha256": "a1b5181039721a5451ff1bb0dcf8ae7fa747123c9defea3f3ce8f432face367e",
+          "visible_body_bbox_alpha_gt64": [
+            103,
+            58,
+            216,
+            351
+          ],
+          "shoe_material_bottom_alpha_gt64": 351
+        },
+        {
+          "phase": 2,
+          "source_frame_id": 7,
+          "raw_region": [
+            0,
+            627,
+            627,
+            627
+          ],
+          "atlas_region": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/NE/007.png",
+          "sha256": "61ea27aac5ff13b27d255f41b05c975b94786b294fc0ff28327e62858d70316e",
+          "visible_body_bbox_alpha_gt64": [
+            104,
+            59,
+            217,
+            350
+          ],
+          "shoe_material_bottom_alpha_gt64": 350
+        },
+        {
+          "phase": 3,
+          "source_frame_id": 8,
+          "raw_region": [
+            627,
+            627,
+            627,
+            627
+          ],
+          "atlas_region": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/NE/008.png",
+          "sha256": "a9552c3000e781d18e50dbb042da1633b287ecf0a25ed7588109c4a0c589e28c",
+          "visible_body_bbox_alpha_gt64": [
+            104,
+            59,
+            216,
+            350
+          ],
+          "shoe_material_bottom_alpha_gt64": 350
+        }
+      ],
+      "distinct_frame_file_sha_count": 4,
+      "successive_alpha64_silhouette_xor_pixels": [
+        387,
+        689,
+        533,
+        393
+      ],
+      "atlas": "registered/NE/body.png",
+      "atlas_sha256": "963b1531ceb6ed7ae7bb87621200a31de1845b7e994c3dbeee13b57037da5c23",
+      "review": "Direction/identity/full-body first draft visually checked. Four poses have shoulder/arm and silhouette changes. Subtle breathing is not exact native pixel-motion equivalence. Low-alpha generation specks retained; back boot/armor anatomy and phase silhouette fidelity require in-engine review before acceptance."
+    }
+  }
+}

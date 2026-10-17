@@ -1,0 +1,85 @@
+{
+  "status": "FAILED_VISUAL_GATE",
+  "method": "Visual side-by-side original atlas composites vs actual generated full sheets; no synthetic gait metrics asserted",
+  "background_defect": "CORRECTED: broad brown glow is hidden RGB under alpha=0, not visible background; diagnostic gray alpha-composites show clean backdrop. See alpha-review-correction.json. Gait defects remain.",
+  "directions": {
+    "N": [
+      {
+        "phase": 0,
+        "source_id": 33,
+        "original_observation": "原画面左腿向下后伸，右腿在上方前摆",
+        "generated_observation": "生成画面右腿向下后伸，左腿提起，起相位左右关系颠倒"
+      },
+      {
+        "phase": 1,
+        "source_id": 34,
+        "original_observation": "双腿收近，进入经过",
+        "generated_observation": "生成双脚较近，近似收步，但承接上一帧左右关系不能确认"
+      },
+      {
+        "phase": 2,
+        "source_id": 35,
+        "original_observation": "从收步向相反腿支撑过渡",
+        "generated_observation": "生成又是画面右腿向下、左腿在上，重复phase0主要腿序，缺少另一侧过渡"
+      },
+      {
+        "phase": 3,
+        "source_id": 36,
+        "original_observation": "原画面右腿向下后伸，左腿在上方",
+        "generated_observation": "生成画面左腿向下后伸、右腿在上，原相位左右关系颠倒；与phase2发生大幅切换"
+      },
+      {
+        "phase": 4,
+        "source_id": 37,
+        "original_observation": "双腿收近，反侧经过",
+        "generated_observation": "生成双脚接近，可读作收步"
+      },
+      {
+        "phase": 5,
+        "source_id": 38,
+        "original_observation": "反侧过渡回phase0",
+        "generated_observation": "生成再次画面右腿向下、左腿在上，似phase0/2；phase5→0缺少完整另一半周期"
+      }
+    ],
+    "NE": [
+      {
+        "phase": 0,
+        "source_id": 39,
+        "original_observation": "宽跨步，脚沿左下到右上分开",
+        "generated_observation": "生成宽跨步，近似原轮廓，但接地不够明确"
+      },
+      {
+        "phase": 1,
+        "source_id": 40,
+        "original_observation": "跨步缩小、脚靠近",
+        "generated_observation": "生成保持较大跨步，收步幅度小"
+      },
+      {
+        "phase": 2,
+        "source_id": 41,
+        "original_observation": "经过帧，双腿重叠、近腿垂直",
+        "generated_observation": "生成近腿垂直、远腿遮挡，接近经过"
+      },
+      {
+        "phase": 3,
+        "source_id": 42,
+        "original_observation": "反侧腿宽跨步，肩臂反相",
+        "generated_observation": "生成仍是左下伸腿+右上提脚，与phase0几乎同一腿序，反侧支撑不成立"
+      },
+      {
+        "phase": 4,
+        "source_id": 43,
+        "original_observation": "反侧收步",
+        "generated_observation": "生成仍延续左下伸腿，只缩短距离，反侧腿身份可疑"
+      },
+      {
+        "phase": 5,
+        "source_id": 44,
+        "original_observation": "另一经过帧，回到首相位",
+        "generated_observation": "生成双脚都低且分开，不能确认与phase2互为反侧经过"
+      }
+    ]
+  },
+  "runtime_coverage_added": 0,
+  "next_action": "Root decision on whole-sheet corrective generation; no edits performed."
+}

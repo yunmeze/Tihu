@@ -1,0 +1,563 @@
+{
+  "schema": "hero-west-idle-first-draft-registration-v1",
+  "status": "art-only-candidate-awaiting-runtime-and-direction-transition-review",
+  "logical_canvas": [
+    128,
+    128
+  ],
+  "root": [
+    16,
+    64
+  ],
+  "draw_offset": [
+    -16,
+    -64
+  ],
+  "density": 4,
+  "output_frame_size": [
+    512,
+    512
+  ],
+  "output_sheet_layout": "four horizontal row-major slots",
+  "source_frame_size": [
+    627,
+    627
+  ],
+  "uniform_scale_all_directions": 0.580542264752791,
+  "method": "resize whole source cell uniformly to 364 square then translate whole frame; same translation for all four phases of each direction; no local warp, mirror, repaint, face synthesis or per-phase scaling",
+  "alpha": "original generated alpha preserved, including extremely faint stray pixels; threshold127 used only for measurement, never editing",
+  "runtime_modified": false,
+  "directions": {
+    "SW": {
+      "raw_file": "raw/SW-raw.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "raw_sha256": "b8235758b6362f09a072dfc4e84c2c0909f1caa29b271ea81095f8597d793980",
+      "sheet_file": "registered/SW-body.png",
+      "sheet_sha256": "f3ee56e97c85cfeb91989831325b87ca2e8101d6116856546fb12821aa727946",
+      "frames": [
+        {
+          "phase": 0,
+          "original_frame_id": 21,
+          "source_region": [
+            0,
+            0,
+            627,
+            627
+          ],
+          "output_region": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "raw_visible_bbox_alpha_gt127": [
+            135,
+            80,
+            319,
+            576
+          ],
+          "registered_visible_bbox_alpha_gt127": [
+            112,
+            61,
+            219,
+            348
+          ],
+          "whole_frame_translation_px": [
+            34,
+            14
+          ],
+          "registered_rgba_sha256": "9c83ef4d0dd44a9433beb92e30e194d3e7355f8e86d30907d8f0035b343acf5d",
+          "source_composite_bbox": [
+            29,
+            15,
+            83,
+            90
+          ],
+          "bottom_edge_delta_px_against_original_composite": -12,
+          "note": "bottom edge diagnostic only; original composite includes original checker shadow, so this is not a measured anatomical foot anchor"
+        },
+        {
+          "phase": 1,
+          "original_frame_id": 22,
+          "source_region": [
+            627,
+            0,
+            627,
+            627
+          ],
+          "output_region": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "raw_visible_bbox_alpha_gt127": [
+            128,
+            80,
+            320,
+            576
+          ],
+          "registered_visible_bbox_alpha_gt127": [
+            108,
+            61,
+            220,
+            348
+          ],
+          "whole_frame_translation_px": [
+            34,
+            14
+          ],
+          "registered_rgba_sha256": "73907ec4afd7f26dea3a4143369e8c35821b1a8473cd468c32b6135e9a3dd185",
+          "source_composite_bbox": [
+            28,
+            15,
+            83,
+            90
+          ],
+          "bottom_edge_delta_px_against_original_composite": -12,
+          "note": "bottom edge diagnostic only; original composite includes original checker shadow, so this is not a measured anatomical foot anchor"
+        },
+        {
+          "phase": 2,
+          "original_frame_id": 23,
+          "source_region": [
+            0,
+            627,
+            627,
+            627
+          ],
+          "output_region": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "raw_visible_bbox_alpha_gt127": [
+            123,
+            80,
+            327,
+            576
+          ],
+          "registered_visible_bbox_alpha_gt127": [
+            105,
+            61,
+            224,
+            348
+          ],
+          "whole_frame_translation_px": [
+            34,
+            14
+          ],
+          "registered_rgba_sha256": "90aa4b828e74a90a42bc87b2bf6f870fa96b16ae01a7f6e07efb19442270496e",
+          "source_composite_bbox": [
+            28,
+            15,
+            84,
+            90
+          ],
+          "bottom_edge_delta_px_against_original_composite": -12,
+          "note": "bottom edge diagnostic only; original composite includes original checker shadow, so this is not a measured anatomical foot anchor"
+        },
+        {
+          "phase": 3,
+          "original_frame_id": 24,
+          "source_region": [
+            627,
+            627,
+            627,
+            627
+          ],
+          "output_region": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "raw_visible_bbox_alpha_gt127": [
+            129,
+            80,
+            320,
+            576
+          ],
+          "registered_visible_bbox_alpha_gt127": [
+            109,
+            60,
+            220,
+            348
+          ],
+          "whole_frame_translation_px": [
+            34,
+            14
+          ],
+          "registered_rgba_sha256": "1f9aad5621d6a2fd77b2c329eb57ef2aafbf6119934daf435fac9abd3ddef377",
+          "source_composite_bbox": [
+            28,
+            15,
+            83,
+            90
+          ],
+          "bottom_edge_delta_px_against_original_composite": -12,
+          "note": "bottom edge diagnostic only; original composite includes original checker shadow, so this is not a measured anatomical foot anchor"
+        }
+      ],
+      "distinct_rgba_frames": 4
+    },
+    "W": {
+      "raw_file": "raw/W-raw.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "raw_sha256": "03b6a9a65fa380d46605e6d6bae23dd61d6ec3e6c0c170808e951148092f9a71",
+      "sheet_file": "registered/W-body.png",
+      "sheet_sha256": "6f394ffaf0f71aebab19cf4b406f08ae929b132a59203c95f706198c7af17af4",
+      "frames": [
+        {
+          "phase": 0,
+          "original_frame_id": 25,
+          "source_region": [
+            0,
+            0,
+            627,
+            627
+          ],
+          "output_region": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "raw_visible_bbox_alpha_gt127": [
+            154,
+            68,
+            266,
+            568
+          ],
+          "registered_visible_bbox_alpha_gt127": [
+            128,
+            69,
+            193,
+            359
+          ],
+          "whole_frame_translation_px": [
+            38,
+            29
+          ],
+          "registered_rgba_sha256": "96cedc6ec6e7c88d57033e464a257b45428c01fadc8be849eb42eb27df7e8011",
+          "source_composite_bbox": [
+            31,
+            16,
+            81,
+            88
+          ],
+          "bottom_edge_delta_px_against_original_composite": 7,
+          "note": "bottom edge diagnostic only; original composite includes original checker shadow, so this is not a measured anatomical foot anchor"
+        },
+        {
+          "phase": 1,
+          "original_frame_id": 26,
+          "source_region": [
+            627,
+            0,
+            627,
+            627
+          ],
+          "output_region": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "raw_visible_bbox_alpha_gt127": [
+            153,
+            68,
+            265,
+            568
+          ],
+          "registered_visible_bbox_alpha_gt127": [
+            127,
+            68,
+            192,
+            359
+          ],
+          "whole_frame_translation_px": [
+            38,
+            29
+          ],
+          "registered_rgba_sha256": "e74b036d4d0afb0ec894ed5e887ff1ac2c9cc94b71657821fd1a010496de1be2",
+          "source_composite_bbox": [
+            31,
+            16,
+            80,
+            89
+          ],
+          "bottom_edge_delta_px_against_original_composite": 3,
+          "note": "bottom edge diagnostic only; original composite includes original checker shadow, so this is not a measured anatomical foot anchor"
+        },
+        {
+          "phase": 2,
+          "original_frame_id": 27,
+          "source_region": [
+            0,
+            627,
+            627,
+            627
+          ],
+          "output_region": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "raw_visible_bbox_alpha_gt127": [
+            155,
+            68,
+            270,
+            568
+          ],
+          "registered_visible_bbox_alpha_gt127": [
+            128,
+            68,
+            195,
+            359
+          ],
+          "whole_frame_translation_px": [
+            38,
+            29
+          ],
+          "registered_rgba_sha256": "02bedd37b458ddfe0c30d50fc887fd9d6ae54e5521912132464711f2e0aa7182",
+          "source_composite_bbox": [
+            31,
+            16,
+            80,
+            89
+          ],
+          "bottom_edge_delta_px_against_original_composite": 3,
+          "note": "bottom edge diagnostic only; original composite includes original checker shadow, so this is not a measured anatomical foot anchor"
+        },
+        {
+          "phase": 3,
+          "original_frame_id": 28,
+          "source_region": [
+            627,
+            627,
+            627,
+            627
+          ],
+          "output_region": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "raw_visible_bbox_alpha_gt127": [
+            153,
+            67,
+            265,
+            568
+          ],
+          "registered_visible_bbox_alpha_gt127": [
+            127,
+            68,
+            192,
+            359
+          ],
+          "whole_frame_translation_px": [
+            38,
+            29
+          ],
+          "registered_rgba_sha256": "29d35751769c28725c79a4202805a1f75540f084c32468814e6995f4f69e2c3e",
+          "source_composite_bbox": [
+            31,
+            16,
+            80,
+            89
+          ],
+          "bottom_edge_delta_px_against_original_composite": 3,
+          "note": "bottom edge diagnostic only; original composite includes original checker shadow, so this is not a measured anatomical foot anchor"
+        }
+      ],
+      "distinct_rgba_frames": 4
+    },
+    "NW": {
+      "raw_file": "raw/NW-raw.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "raw_sha256": "edab1c6f32a6aebba4f4360c3cc1ddd078110fc56e494c4616889330c6eea5f9",
+      "sheet_file": "registered/NW-body.png",
+      "sheet_sha256": "dfc27d62173458869e023c2f875b4541f9cd57e090b11f3d6f3437d62726fca6",
+      "frames": [
+        {
+          "phase": 0,
+          "original_frame_id": 29,
+          "source_region": [
+            0,
+            0,
+            627,
+            627
+          ],
+          "output_region": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "raw_visible_bbox_alpha_gt127": [
+            135,
+            93,
+            343,
+            572
+          ],
+          "registered_visible_bbox_alpha_gt127": [
+            104,
+            68,
+            224,
+            346
+          ],
+          "whole_frame_translation_px": [
+            25,
+            14
+          ],
+          "registered_rgba_sha256": "e33a22427de684c5fe17ce1481f0159ec00ae9e217a27ec9135bd9d8575c4daa",
+          "source_composite_bbox": [
+            25,
+            17,
+            83,
+            87
+          ],
+          "bottom_edge_delta_px_against_original_composite": -2,
+          "note": "bottom edge diagnostic only; original composite includes original checker shadow, so this is not a measured anatomical foot anchor"
+        },
+        {
+          "phase": 1,
+          "original_frame_id": 30,
+          "source_region": [
+            627,
+            0,
+            627,
+            627
+          ],
+          "output_region": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "raw_visible_bbox_alpha_gt127": [
+            135,
+            94,
+            343,
+            572
+          ],
+          "registered_visible_bbox_alpha_gt127": [
+            104,
+            68,
+            224,
+            346
+          ],
+          "whole_frame_translation_px": [
+            25,
+            14
+          ],
+          "registered_rgba_sha256": "31035c3935f87c1162cbc684b8d014990bcf8b511cffc8a6f1c633f998c211b0",
+          "source_composite_bbox": [
+            26,
+            17,
+            82,
+            87
+          ],
+          "bottom_edge_delta_px_against_original_composite": -2,
+          "note": "bottom edge diagnostic only; original composite includes original checker shadow, so this is not a measured anatomical foot anchor"
+        },
+        {
+          "phase": 2,
+          "original_frame_id": 31,
+          "source_region": [
+            0,
+            627,
+            627,
+            627
+          ],
+          "output_region": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "raw_visible_bbox_alpha_gt127": [
+            136,
+            93,
+            345,
+            572
+          ],
+          "registered_visible_bbox_alpha_gt127": [
+            104,
+            68,
+            225,
+            346
+          ],
+          "whole_frame_translation_px": [
+            25,
+            14
+          ],
+          "registered_rgba_sha256": "c83f7da7d9cde85f340f8526a7e1706d9d6475038066a974c87c531a18ad0a26",
+          "source_composite_bbox": [
+            26,
+            17,
+            82,
+            87
+          ],
+          "bottom_edge_delta_px_against_original_composite": -2,
+          "note": "bottom edge diagnostic only; original composite includes original checker shadow, so this is not a measured anatomical foot anchor"
+        },
+        {
+          "phase": 3,
+          "original_frame_id": 32,
+          "source_region": [
+            627,
+            627,
+            627,
+            627
+          ],
+          "output_region": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "raw_visible_bbox_alpha_gt127": [
+            135,
+            93,
+            343,
+            572
+          ],
+          "registered_visible_bbox_alpha_gt127": [
+            104,
+            68,
+            224,
+            346
+          ],
+          "whole_frame_translation_px": [
+            25,
+            14
+          ],
+          "registered_rgba_sha256": "426339f3b5dabc88a5b8d1696f60a577862672e5aaccae4ed698a29e7b577385",
+          "source_composite_bbox": [
+            26,
+            17,
+            82,
+            87
+          ],
+          "bottom_edge_delta_px_against_original_composite": -2,
+          "note": "bottom edge diagnostic only; original composite includes original checker shadow, so this is not a measured anatomical foot anchor"
+        }
+      ],
+      "distinct_rgba_frames": 4
+    }
+  }
+}

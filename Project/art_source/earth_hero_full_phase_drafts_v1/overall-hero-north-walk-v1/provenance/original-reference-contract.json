@@ -1,0 +1,866 @@
+{
+  "origin": [
+    -16,
+    -64
+  ],
+  "logical_canvas": [
+    128,
+    128
+  ],
+  "actor_origin_in_canvas": [
+    16,
+    64
+  ],
+  "reference_density": 4,
+  "draw_order": [
+    "body",
+    "head"
+  ],
+  "placement": "layer_top_left = actor_draw_origin + frame.offset; no centering, scaling or crop offset",
+  "anchor": {
+    "kind": "native_draw_origin",
+    "coordinate": [
+      0,
+      0
+    ],
+    "note": "Use shared actor draw origin for both layers. This is not measured boot contact. No inferred foot recentering."
+  },
+  "sources": {
+    "movement": {
+      "path": "/workspace/scratch/22c897619190/tihu-legend-recovered/Project/data/hero/movement.json",
+      "sha256": "b5eb981b005efedc5f071bb51f35240cabf91aa0d77143e70bcf4ee9b9c733f1"
+    },
+    "body": {
+      "path": "/workspace/scratch/22c897619190/tihu-legend-recovered/Project/assets/original/hero/body-movement.png",
+      "sha256": "0698b9cc8a6386204e895b6179959b58bcf9d62d6735e6821f11af87cc839783",
+      "original_pack_sha256": "28bea90dd1230e5053c1437a9889bf3f7522872963cfc0d3e9560cc2492aa5ed"
+    },
+    "head": {
+      "path": "/workspace/scratch/22c897619190/tihu-legend-recovered/Project/assets/original/hero/head-movement.png",
+      "sha256": "347508d77a77d3360a5ff7467b6b0826bdb6be05d75177b73b9c3eccce090f5a",
+      "original_pack_sha256": "ae3a555d3e0522e7800c8650747a62df6b74dfd19f1cdc6e826ff8477fb380d1"
+    },
+    "s-HD-identity": {
+      "path": "/workspace/scratch/22c897619190/tihu-legend-recovered/Project/assets/earth/hero/s_idle_v1/body.png",
+      "sha256": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e"
+    },
+    "e-HD-identity": {
+      "path": "/workspace/scratch/22c897619190/tihu-legend-recovered/Project/assets/earth/hero/e_idle_v1/body.png",
+      "sha256": "7cb81240d71f04dae8f6df9e06ef5c0d7dbc1d33c467fa3c646f8a54087da010"
+    },
+    "se-HD-identity": {
+      "path": "/workspace/scratch/22c897619190/tihu-legend-recovered/Project/assets/earth/hero/se_idle_v1/body.png",
+      "sha256": "60f89f65dd817ec80065de941e62e36e1068302c3f2bc4eb5014d8d56f450c02"
+    }
+  },
+  "directions": {
+    "N": [
+      {
+        "phase": 0,
+        "frame_id": 33,
+        "layers": {
+          "body": {
+            "original": [
+              60,
+              78
+            ],
+            "offset": [
+              8,
+              -48
+            ],
+            "sourceOffset": 170774,
+            "sourceBytes": 5758,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              60,
+              78
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "931b565e2343fcc0275836464e909898c437c8814679e90532c9f0de66dd6991",
+            "rect": [
+              1,
+              257,
+              60,
+              78
+            ]
+          },
+          "head": {
+            "original": [
+              8,
+              10
+            ],
+            "offset": [
+              20,
+              -49
+            ],
+            "sourceOffset": 41134,
+            "sourceBytes": 1158,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              7,
+              10
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "48796cc444848a77c3574567ec1ced59f7736f368138441d7ae0a20927a43cc0",
+            "rect": [
+              1,
+              257,
+              8,
+              10
+            ]
+          }
+        },
+        "composite_bbox": [
+          24,
+          15,
+          84,
+          94
+        ],
+        "rgba_sha256": "ca9136941e83844746c4c744cd729fb8e6d5a5edc2d738b2402fc58a2285333f"
+      },
+      {
+        "phase": 1,
+        "frame_id": 34,
+        "layers": {
+          "body": {
+            "original": [
+              60,
+              74
+            ],
+            "offset": [
+              8,
+              -48
+            ],
+            "sourceOffset": 176536,
+            "sourceBytes": 5518,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              60,
+              74
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "2414b3a3cd3489e51ca731251e0693afd72dad03885add09fa150aa5df0525d1",
+            "rect": [
+              129,
+              257,
+              60,
+              74
+            ]
+          },
+          "head": {
+            "original": [
+              8,
+              10
+            ],
+            "offset": [
+              20,
+              -48
+            ],
+            "sourceOffset": 42296,
+            "sourceBytes": 1158,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              7,
+              10
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "18748ad73b2343a9d60abbff971ac181702fc7384b1ac9321c0b462dd866e219",
+            "rect": [
+              129,
+              257,
+              8,
+              10
+            ]
+          }
+        },
+        "composite_bbox": [
+          24,
+          16,
+          84,
+          90
+        ],
+        "rgba_sha256": "29bc76ecb069ce053743aca3a1c984abe4a5f0d3a950ad8fd8ff2f7eae920e42"
+      },
+      {
+        "phase": 2,
+        "frame_id": 35,
+        "layers": {
+          "body": {
+            "original": [
+              64,
+              72
+            ],
+            "offset": [
+              7,
+              -48
+            ],
+            "sourceOffset": 182058,
+            "sourceBytes": 5686,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              62,
+              72
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "db6db3731af13042739af5e16eddfdfc42f9ce001d2dd6fe7cf24cca47919230",
+            "rect": [
+              257,
+              257,
+              64,
+              72
+            ]
+          },
+          "head": {
+            "original": [
+              8,
+              10
+            ],
+            "offset": [
+              20,
+              -49
+            ],
+            "sourceOffset": 43458,
+            "sourceBytes": 1158,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              7,
+              10
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "1cc704df3f53b625b1911fed52214d499762c8711e6f3775673fd6020132b2f3",
+            "rect": [
+              257,
+              257,
+              8,
+              10
+            ]
+          }
+        },
+        "composite_bbox": [
+          23,
+          15,
+          85,
+          88
+        ],
+        "rgba_sha256": "cde9027c0183de5d640f7afc9312080d0da21a078cd8497e4e15442f05463fae"
+      },
+      {
+        "phase": 3,
+        "frame_id": 36,
+        "layers": {
+          "body": {
+            "original": [
+              64,
+              78
+            ],
+            "offset": [
+              7,
+              -48
+            ],
+            "sourceOffset": 187748,
+            "sourceBytes": 6070,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              61,
+              78
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "eeaba7de7452d8f637c83adc5c0363a85eb9e967427fe081d0a6cf64dfa9ab06",
+            "rect": [
+              385,
+              257,
+              64,
+              78
+            ]
+          },
+          "head": {
+            "original": [
+              8,
+              11
+            ],
+            "offset": [
+              20,
+              -49
+            ],
+            "sourceOffset": 44620,
+            "sourceBytes": 1166,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              7,
+              11
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "524efb2a49b09a25af73df9f7f09883e6947569187dbc5ed86388de041c94688",
+            "rect": [
+              385,
+              257,
+              8,
+              11
+            ]
+          }
+        },
+        "composite_bbox": [
+          23,
+          15,
+          84,
+          94
+        ],
+        "rgba_sha256": "aaa006bf54d0f3e2133326fec337739148feccb3c27d8a3c86c73972ad5866fc"
+      },
+      {
+        "phase": 4,
+        "frame_id": 37,
+        "layers": {
+          "body": {
+            "original": [
+              64,
+              74
+            ],
+            "offset": [
+              7,
+              -48
+            ],
+            "sourceOffset": 193822,
+            "sourceBytes": 5814,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              61,
+              74
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "ae347f5f6a161acf296b25c302e120bab10542dc199017f6178a63f4553818ab",
+            "rect": [
+              513,
+              257,
+              64,
+              74
+            ]
+          },
+          "head": {
+            "original": [
+              8,
+              10
+            ],
+            "offset": [
+              20,
+              -48
+            ],
+            "sourceOffset": 45790,
+            "sourceBytes": 1158,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              7,
+              10
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "bf0ef3d5f2209ffe3df5fc1ec94ee6eaa00f724ceed907cff90b6b010da008e9",
+            "rect": [
+              513,
+              257,
+              8,
+              10
+            ]
+          }
+        },
+        "composite_bbox": [
+          23,
+          16,
+          84,
+          90
+        ],
+        "rgba_sha256": "4134d4c088374dabab6e4dd1fc78f5533040b5ed982cacb5b471ef75268126a5"
+      },
+      {
+        "phase": 5,
+        "frame_id": 38,
+        "layers": {
+          "body": {
+            "original": [
+              64,
+              72
+            ],
+            "offset": [
+              7,
+              -48
+            ],
+            "sourceOffset": 199640,
+            "sourceBytes": 5686,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              62,
+              72
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "fbc4b0981860498bf5b89f2b20c2d279f19e774a41f1aa647757134593e338ea",
+            "rect": [
+              641,
+              257,
+              64,
+              72
+            ]
+          },
+          "head": {
+            "original": [
+              8,
+              10
+            ],
+            "offset": [
+              20,
+              -49
+            ],
+            "sourceOffset": 46952,
+            "sourceBytes": 1158,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              7,
+              10
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "ffb6dfdc9aacd98ea2375304e0324b62c3650a45079df82b8ddbba0dea6ca6e8",
+            "rect": [
+              641,
+              257,
+              8,
+              10
+            ]
+          }
+        },
+        "composite_bbox": [
+          23,
+          15,
+          85,
+          88
+        ],
+        "rgba_sha256": "223cde746ab29736a1763d9b7fd14f77e5e63a9b9ba9490e6330c0979aa4f2ce"
+      }
+    ],
+    "NE": [
+      {
+        "phase": 0,
+        "frame_id": 39,
+        "layers": {
+          "body": {
+            "original": [
+              60,
+              72
+            ],
+            "offset": [
+              6,
+              -48
+            ],
+            "sourceOffset": 205330,
+            "sourceBytes": 5398,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              60,
+              72
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "731933304637333a0dd2fc56315038755bc4c951272bdbb3d67f3ac76132dcc4",
+            "rect": [
+              769,
+              257,
+              60,
+              72
+            ]
+          },
+          "head": {
+            "original": [
+              8,
+              10
+            ],
+            "offset": [
+              21,
+              -49
+            ],
+            "sourceOffset": 48114,
+            "sourceBytes": 1158,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              8,
+              10
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "cfcb8a6709af8e8e27b2fa0c8ce0d91470edff7f3b7d63271faa865b1b76b007",
+            "rect": [
+              769,
+              257,
+              8,
+              10
+            ]
+          }
+        },
+        "composite_bbox": [
+          22,
+          15,
+          82,
+          88
+        ],
+        "rgba_sha256": "f3ae194d0c7a9b9d9ea4383f06e4f987814fc87f3c913c8184b108bcabe61757"
+      },
+      {
+        "phase": 1,
+        "frame_id": 40,
+        "layers": {
+          "body": {
+            "original": [
+              60,
+              70
+            ],
+            "offset": [
+              9,
+              -48
+            ],
+            "sourceOffset": 210732,
+            "sourceBytes": 5278,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              57,
+              70
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "efb33b645ebc161aaa9f4092e0245080007eca34bcc7e7f5f164f3e2c1ce1156",
+            "rect": [
+              897,
+              257,
+              60,
+              70
+            ]
+          },
+          "head": {
+            "original": [
+              8,
+              10
+            ],
+            "offset": [
+              20,
+              -49
+            ],
+            "sourceOffset": 49276,
+            "sourceBytes": 1158,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              8,
+              10
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "265c6667bddcab6f4bc0f95c2aeb4ad546a9651461e06d0508a94e379d0b57a2",
+            "rect": [
+              897,
+              257,
+              8,
+              10
+            ]
+          }
+        },
+        "composite_bbox": [
+          25,
+          15,
+          82,
+          86
+        ],
+        "rgba_sha256": "a3f82ed858052e23d4ac9329297e08be08937bfff67a8baffdf64ef0a72dfaa4"
+      },
+      {
+        "phase": 2,
+        "frame_id": 41,
+        "layers": {
+          "body": {
+            "original": [
+              60,
+              72
+            ],
+            "offset": [
+              7,
+              -49
+            ],
+            "sourceOffset": 216014,
+            "sourceBytes": 5398,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              60,
+              72
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "ab033f49718831f24a0b7e1b19ee0722dfe4d00bb1a7a6f17eb913dc1e93da43",
+            "rect": [
+              1025,
+              257,
+              60,
+              72
+            ]
+          },
+          "head": {
+            "original": [
+              8,
+              10
+            ],
+            "offset": [
+              21,
+              -49
+            ],
+            "sourceOffset": 50438,
+            "sourceBytes": 1158,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              8,
+              10
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "223c90dfcce2256d9660e5827227aacaf188a2f3d1bef71823707c5200d1de3b",
+            "rect": [
+              1025,
+              257,
+              8,
+              10
+            ]
+          }
+        },
+        "composite_bbox": [
+          23,
+          15,
+          83,
+          87
+        ],
+        "rgba_sha256": "c64504b7b0255702a17becea3d199a6f257fb8b4614cca0535bdab51d320e6c4"
+      },
+      {
+        "phase": 3,
+        "frame_id": 42,
+        "layers": {
+          "body": {
+            "original": [
+              64,
+              76
+            ],
+            "offset": [
+              5,
+              -48
+            ],
+            "sourceOffset": 221416,
+            "sourceBytes": 5942,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              61,
+              76
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "3018c718c48113cb8f598c460a884eec3fd3a8f654bdceaa8ce135887c83cad5",
+            "rect": [
+              1153,
+              257,
+              64,
+              76
+            ]
+          },
+          "head": {
+            "original": [
+              8,
+              10
+            ],
+            "offset": [
+              21,
+              -49
+            ],
+            "sourceOffset": 51600,
+            "sourceBytes": 1158,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              8,
+              10
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "b73c44c38df16febcf86d81937defe42212e442b701ff5f3b92a473eb344833e",
+            "rect": [
+              1153,
+              257,
+              8,
+              10
+            ]
+          }
+        },
+        "composite_bbox": [
+          21,
+          15,
+          82,
+          92
+        ],
+        "rgba_sha256": "c84f96d7f0dca9ace5e3bc684569eec8d105bca529854b1b46c57b5f1e44a802"
+      },
+      {
+        "phase": 4,
+        "frame_id": 43,
+        "layers": {
+          "body": {
+            "original": [
+              60,
+              73
+            ],
+            "offset": [
+              7,
+              -48
+            ],
+            "sourceOffset": 227362,
+            "sourceBytes": 5458,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              59,
+              73
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "17789aa2bd2b0c4fe0c28c671ca45b30db992ad496aec242b0eb62a9f649f6ec",
+            "rect": [
+              1281,
+              257,
+              60,
+              73
+            ]
+          },
+          "head": {
+            "original": [
+              8,
+              10
+            ],
+            "offset": [
+              20,
+              -49
+            ],
+            "sourceOffset": 52762,
+            "sourceBytes": 1158,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              8,
+              10
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "68fc00b75876ca05b9b50cef177cac8488ef65f7dde0e4369e62b16bd9b49546",
+            "rect": [
+              1281,
+              257,
+              8,
+              10
+            ]
+          }
+        },
+        "composite_bbox": [
+          23,
+          15,
+          82,
+          89
+        ],
+        "rgba_sha256": "582fa0d42308459d8d63c1564ee50c9ec7451e32e6b349bf7516c58d00134e87"
+      },
+      {
+        "phase": 5,
+        "frame_id": 44,
+        "layers": {
+          "body": {
+            "original": [
+              56,
+              71
+            ],
+            "offset": [
+              10,
+              -49
+            ],
+            "sourceOffset": 232824,
+            "sourceBytes": 5054,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              56,
+              71
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "603613249010f34e3890ca79ad1462173f5a109114faf57b92f1b7b356f10bf9",
+            "rect": [
+              1409,
+              257,
+              56,
+              71
+            ]
+          },
+          "head": {
+            "original": [
+              8,
+              10
+            ],
+            "offset": [
+              20,
+              -49
+            ],
+            "sourceOffset": 53924,
+            "sourceBytes": 1158,
+            "format": "BMP",
+            "reference_extraction_bounds": [
+              0,
+              0,
+              8,
+              10
+            ],
+            "gifFrames": 1,
+            "rgba_sha256": "def3560dc48b7575b51abda2ba53ecbec74de922baee520d82e8a3a8c76d28bc",
+            "rect": [
+              1409,
+              257,
+              8,
+              10
+            ]
+          }
+        },
+        "composite_bbox": [
+          26,
+          15,
+          82,
+          86
+        ],
+        "rgba_sha256": "3d48cef0744b853437bdb780c48a25ec70ac6e08a73eee2ac15e9424b6d30e58"
+      }
+    ]
+  }
+}

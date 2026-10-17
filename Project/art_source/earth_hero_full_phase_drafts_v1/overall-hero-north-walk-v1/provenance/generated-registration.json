@@ -1,0 +1,316 @@
+{
+  "schema": "hero-walk-generated-first-draft-v1",
+  "status": "FAILED_VISUAL_GATE_NOT_FOR_RUNTIME",
+  "tool": "built-in image_gen.imagegen",
+  "actual_generation_calls": 2,
+  "logical_canvas": [
+    128,
+    128
+  ],
+  "density": 4,
+  "physical_frame": [
+    512,
+    512
+  ],
+  "draw_offset": [
+    -16,
+    -64
+  ],
+  "actor_origin_canvas_logical": [
+    16,
+    64
+  ],
+  "actor_origin_canvas_physical": [
+    64,
+    256
+  ],
+  "action": "walk",
+  "ticks_per_phase": 7,
+  "run_status": "not_generated_not_complete",
+  "common_full_cell_resize": [
+    358,
+    358
+  ],
+  "common_scale": 0.69921875,
+  "registration": "Full 512-square cell isotropically resized to 358-square; one fixed translation per direction for all six phases. No phase-specific boot alignment; source vertical bob is retained. Native draw origin is not shoe contact. Registration is estimated artwork placement, not recovered native geometry. No alpha cleanup, mirroring, local warp, repaint, or skeletal deformation.",
+  "directions": {
+    "N": {
+      "raw": "raw/N-sixphase.png",
+      "raw_original_output": "exec-2665efa5-6c07-478c-8fd5-724f7974e222.png",
+      "raw_sha256": "a5b1fb4c2b97fbe5cefeaf35610dc97d54d4ae7a1ec48cf573078a62ba1cad25",
+      "raw_dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "translation_physical": [
+        -22,
+        30
+      ],
+      "estimated_raw_actor_origin": [
+        122.99441340782123,
+        323.21787709497204
+      ],
+      "frames": [
+        {
+          "phase": 0,
+          "source_frame_id": 33,
+          "raw_region": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "atlas_region": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/N/033.png",
+          "sha256": "2c3074466734241c165bb68b3f754d181f70f59c7f464263cce740d18906c2af"
+        },
+        {
+          "phase": 1,
+          "source_frame_id": 34,
+          "raw_region": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "atlas_region": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/N/034.png",
+          "sha256": "42bd11550a8a90a5fda5edd309a249b7a270283eeeeaca5a3078048fc83bf8b4"
+        },
+        {
+          "phase": 2,
+          "source_frame_id": 35,
+          "raw_region": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "atlas_region": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/N/035.png",
+          "sha256": "cd40f889f421dad786cf4056badd39ca413cdb1b8b776268fdca35cfe1c22326"
+        },
+        {
+          "phase": 3,
+          "source_frame_id": 36,
+          "raw_region": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "atlas_region": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/N/036.png",
+          "sha256": "5fb8166a9d145a99e087a7bc72e1361b5542761f6345d42f01100b61a1a178a9"
+        },
+        {
+          "phase": 4,
+          "source_frame_id": 37,
+          "raw_region": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "atlas_region": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/N/037.png",
+          "sha256": "774f821ed3a48b9176550f5011768208497adf2d788a1222d6fc1b0875fc167b"
+        },
+        {
+          "phase": 5,
+          "source_frame_id": 38,
+          "raw_region": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "atlas_region": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/N/038.png",
+          "sha256": "1eb9aee0ec15d7c37bfd54e21996802215e698a2d8594a8d962fa3d23632a64e"
+        }
+      ],
+      "atlas": "registered/N/body.png",
+      "atlas_sha256": "2a5a41b80247cd049b60cdaf4c533f3862d3f622669d059ea36cd5126cb0cfdd",
+      "review_status": "FAILED_VISUAL_GATE",
+      "review_reasons": [
+        "CORRECTED: no broad visible brown background in actual alpha-composite. Low-alpha fringe/specks preserved. See alpha-review-correction.json.",
+        "Six distinct images do not establish correct cyclic gait. N phases 2/5 and NE opposite-half-cycle legs require review; repeated leading-leg ordering risks a skipped step.",
+        "Identity and facing are recognizable, limbs are present, but no native render/playback acceptance performed."
+      ]
+    },
+    "NE": {
+      "raw": "raw/NE-sixphase.png",
+      "raw_original_output": "exec-289eb50c-3b18-4eac-bd11-3f463363831c.png",
+      "raw_sha256": "0a7984528f4db77a181e574590b6c1da0c87782062cdca7a8576e81815a09d6d",
+      "raw_dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "translation_physical": [
+        -10,
+        30
+      ],
+      "estimated_raw_actor_origin": [
+        105.83240223463687,
+        323.21787709497204
+      ],
+      "frames": [
+        {
+          "phase": 0,
+          "source_frame_id": 39,
+          "raw_region": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "atlas_region": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/NE/039.png",
+          "sha256": "c3b3c77b944dc069a536b75524f4472795569044747c3b05030592f0310f6706"
+        },
+        {
+          "phase": 1,
+          "source_frame_id": 40,
+          "raw_region": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "atlas_region": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/NE/040.png",
+          "sha256": "f0a3b0a82b9852e2b17e33c11ef852403eb5c33a595544b4e446fbd60f3a998e"
+        },
+        {
+          "phase": 2,
+          "source_frame_id": 41,
+          "raw_region": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "atlas_region": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/NE/041.png",
+          "sha256": "6545fe7a024410079d50cdfacdd3eb5f8a1953b3bf36a0a228496bc91ba6683f"
+        },
+        {
+          "phase": 3,
+          "source_frame_id": 42,
+          "raw_region": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "atlas_region": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/NE/042.png",
+          "sha256": "ec95b2e3761f0d9f1b2042727f305474c4aa96a099f935690260decf0d8058d0"
+        },
+        {
+          "phase": 4,
+          "source_frame_id": 43,
+          "raw_region": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "atlas_region": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/NE/043.png",
+          "sha256": "49176efc1e0bebcc553766a26663ba462daf4b7dd15fae95b76450acca9f1f8f"
+        },
+        {
+          "phase": 5,
+          "source_frame_id": 44,
+          "raw_region": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "atlas_region": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "file": "registered/NE/044.png",
+          "sha256": "c8dea766e28b5e6ce157f64a6e8918f1d2ceac9b10e1ffe5de60c854a6aac7e5"
+        }
+      ],
+      "atlas": "registered/NE/body.png",
+      "atlas_sha256": "4c3e6f0d56c09791002e49cb7c3fe0ac675482b36227e601ddd888f97371c9a6",
+      "review_status": "FAILED_VISUAL_GATE",
+      "review_reasons": [
+        "CORRECTED: no broad visible brown background in actual alpha-composite. Low-alpha fringe/specks preserved. See alpha-review-correction.json.",
+        "Six distinct images do not establish correct cyclic gait. N phases 2/5 and NE opposite-half-cycle legs require review; repeated leading-leg ordering risks a skipped step.",
+        "Identity and facing are recognizable, limbs are present, but no native render/playback acceptance performed."
+      ]
+    }
+  }
+}
