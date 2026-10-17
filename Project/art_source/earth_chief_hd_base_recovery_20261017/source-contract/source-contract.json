@@ -1,0 +1,662 @@
+{
+  "schema": "chief-source-contract-v2",
+  "status": "SOURCE_EVIDENCE_ONLY; no accepted base or warp",
+  "identity": {
+    "map": "A00",
+    "name": "海曦村长",
+    "source_npc_zero_based_index": 1,
+    "cell": [
+      75,
+      54
+    ],
+    "appearance": 10,
+    "direction_slot": 1,
+    "layer": 1,
+    "sort_y": 54,
+    "stable_source_order": 22501,
+    "native_record_offset": 180728,
+    "native_record_end": 182645,
+    "script_utf8_sha256": "5d878f446b2d326b0b5a094cbf0e0fd48b6a63408bef35481374f76a6e4d5bd4"
+  },
+  "coordinates": {
+    "unit": "logical pixel",
+    "axes": "x right, y down",
+    "bbox_and_runs": "half-open right/bottom",
+    "tile_size": [
+      48,
+      32
+    ],
+    "cell_origin_world": [
+      3600,
+      1728
+    ],
+    "cell_origin_is_foot_anchor": false,
+    "world_pixel_formula": "cell*(48,32) + source_frame.offset + source_local_pixel",
+    "body_proxy_height": 67,
+    "raw_size": [
+      68,
+      70
+    ],
+    "common_analysis_canvas": [
+      96,
+      96
+    ],
+    "root": [
+      12,
+      56
+    ],
+    "visible_foot_material_centers_world": [
+      [
+        3615,
+        1747
+      ],
+      [
+        3632,
+        1747
+      ]
+    ],
+    "foot_material_bottom_edge_world_y": 1748
+  },
+  "animation": {
+    "index_formula": "1 + appearance*12 + direction_slot*4 + phase_0_to_3",
+    "phase_order": [
+      125,
+      126,
+      127,
+      128
+    ],
+    "current_project_ticks_per_phase": 17,
+    "current_project_reference_fps_field": 50,
+    "native_exe_50Hz_verified": false,
+    "timing_caution": "17 ticks / 50Hz is existing project/reference evidence, not native EXE timing proof"
+  },
+  "palette_analysis": {
+    "shadow_rgb": [
+      16,
+      8,
+      8
+    ],
+    "body_proxy": "alpha>0 and RGB!=(16,8,8)",
+    "semantic_segmentation_approved": false,
+    "warning": "Near-foot dark material/contact meaning is not fully established. Exact source pixels remain unchanged."
+  },
+  "landmark_caution": "Surface extrema are visible material locations, not known skeleton joints, toe anatomy, support-foot identity or a proved 3D ground plane.",
+  "frames": [
+    {
+      "source_id": 125,
+      "phase": 0,
+      "native": {
+        "original": [
+          68,
+          70
+        ],
+        "offset": [
+          -1,
+          -47
+        ],
+        "sourceOffset": 484973,
+        "sourceBytes": 4806,
+        "format": "PNG",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          68,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "8b8cdfaee416e94c6e647a5f7f21132f66d21c7850f2e830de6b0b675ee0146f"
+      },
+      "atlas": {
+        "original": [
+          68,
+          70
+        ],
+        "offset": [
+          -1,
+          -47
+        ],
+        "sourceOffset": 484973,
+        "sourceBytes": 4806,
+        "format": "PNG",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          68,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "8b8cdfaee416e94c6e647a5f7f21132f66d21c7850f2e830de6b0b675ee0146f",
+        "page": 1,
+        "rect": [
+          1769,
+          1,
+          68,
+          70
+        ],
+        "crop": [
+          0,
+          0
+        ]
+      },
+      "source_png": "source/frame-125.png",
+      "source_png_sha256": "701aab9ce8fda25b0dd10b479a5f8f2553552687a3b4a9b9f68e635056343aa0",
+      "alpha_bbox_local": [
+        0,
+        0,
+        68,
+        70
+      ],
+      "body_palette_proxy_bbox_local": [
+        0,
+        0,
+        49,
+        67
+      ],
+      "body_palette_proxy_bbox_world_relative": [
+        -1,
+        -47,
+        48,
+        20
+      ],
+      "body_palette_proxy_bbox_world": [
+        3599,
+        1681,
+        3648,
+        1748
+      ],
+      "visible_pixels": 2295,
+      "body_proxy_pixels": 1972,
+      "shadow_palette_pixels": 323,
+      "shadow_parity_local": [
+        0
+      ],
+      "source_image_top_left_world": [
+        3599,
+        1681
+      ],
+      "feature_extrema_world_relative": {
+        "crown_top_row_center": [
+          23.5,
+          -47
+        ],
+        "screen_left_foot_material_lower_row_center": [
+          15,
+          19
+        ],
+        "screen_right_foot_material_lower_row_center": [
+          32,
+          19
+        ],
+        "screen_left_hand_lower_edge": [
+          0.0,
+          -11
+        ],
+        "screen_right_hand_lower_edge": [
+          46.0,
+          -11
+        ]
+      },
+      "foot_material_lower_row": {
+        "relative_y": 19,
+        "x_runs_half_open": [
+          [
+            13,
+            18
+          ],
+          [
+            30,
+            35
+          ]
+        ],
+        "bottom_edge_relative_y": 20
+      }
+    },
+    {
+      "source_id": 126,
+      "phase": 1,
+      "native": {
+        "original": [
+          68,
+          70
+        ],
+        "offset": [
+          0,
+          -47
+        ],
+        "sourceOffset": 489783,
+        "sourceBytes": 4625,
+        "format": "PNG",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          68,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "414bf6bd3ef71dcfbb284ff0080a097d265660bb89054fb7b22f9ced03a856e3"
+      },
+      "atlas": {
+        "original": [
+          68,
+          70
+        ],
+        "offset": [
+          0,
+          -47
+        ],
+        "sourceOffset": 489783,
+        "sourceBytes": 4625,
+        "format": "PNG",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          68,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "414bf6bd3ef71dcfbb284ff0080a097d265660bb89054fb7b22f9ced03a856e3",
+        "page": 1,
+        "rect": [
+          1839,
+          1,
+          68,
+          70
+        ],
+        "crop": [
+          0,
+          0
+        ]
+      },
+      "source_png": "source/frame-126.png",
+      "source_png_sha256": "a73af94a7a799a5b3629eb6252cf65c4ef982765a9da0c261bdaf65c50d64b66",
+      "alpha_bbox_local": [
+        0,
+        0,
+        67,
+        70
+      ],
+      "body_palette_proxy_bbox_local": [
+        0,
+        0,
+        47,
+        67
+      ],
+      "body_palette_proxy_bbox_world_relative": [
+        0,
+        -47,
+        47,
+        20
+      ],
+      "body_palette_proxy_bbox_world": [
+        3600,
+        1681,
+        3647,
+        1748
+      ],
+      "visible_pixels": 2279,
+      "body_proxy_pixels": 1964,
+      "shadow_palette_pixels": 315,
+      "shadow_parity_local": [
+        1
+      ],
+      "source_image_top_left_world": [
+        3600,
+        1681
+      ],
+      "feature_extrema_world_relative": {
+        "crown_top_row_center": [
+          23.0,
+          -47
+        ],
+        "screen_left_foot_material_lower_row_center": [
+          15,
+          19
+        ],
+        "screen_right_foot_material_lower_row_center": [
+          32,
+          19
+        ],
+        "screen_left_hand_lower_edge": [
+          0.5,
+          -11
+        ],
+        "screen_right_hand_lower_edge": [
+          45.0,
+          -10
+        ]
+      },
+      "foot_material_lower_row": {
+        "relative_y": 19,
+        "x_runs_half_open": [
+          [
+            13,
+            18
+          ],
+          [
+            30,
+            35
+          ]
+        ],
+        "bottom_edge_relative_y": 20
+      }
+    },
+    {
+      "source_id": 127,
+      "phase": 2,
+      "native": {
+        "original": [
+          68,
+          70
+        ],
+        "offset": [
+          0,
+          -47
+        ],
+        "sourceOffset": 494412,
+        "sourceBytes": 4689,
+        "format": "PNG",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          68,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "99a1bd0b48fd061f8058b2daeece4a768854bf152fa10dab5e8bbb3343ca03ef"
+      },
+      "atlas": {
+        "original": [
+          68,
+          70
+        ],
+        "offset": [
+          0,
+          -47
+        ],
+        "sourceOffset": 494412,
+        "sourceBytes": 4689,
+        "format": "PNG",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          68,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "99a1bd0b48fd061f8058b2daeece4a768854bf152fa10dab5e8bbb3343ca03ef",
+        "page": 1,
+        "rect": [
+          1909,
+          1,
+          68,
+          70
+        ],
+        "crop": [
+          0,
+          0
+        ]
+      },
+      "source_png": "source/frame-127.png",
+      "source_png_sha256": "d69bb830f3b80601339dcf8ed3c01b4626681258e410dace68192c1b81ac0557",
+      "alpha_bbox_local": [
+        0,
+        0,
+        67,
+        70
+      ],
+      "body_palette_proxy_bbox_local": [
+        0,
+        0,
+        47,
+        67
+      ],
+      "body_palette_proxy_bbox_world_relative": [
+        0,
+        -47,
+        47,
+        20
+      ],
+      "body_palette_proxy_bbox_world": [
+        3600,
+        1681,
+        3647,
+        1748
+      ],
+      "visible_pixels": 2271,
+      "body_proxy_pixels": 1959,
+      "shadow_palette_pixels": 312,
+      "shadow_parity_local": [
+        1
+      ],
+      "source_image_top_left_world": [
+        3600,
+        1681
+      ],
+      "feature_extrema_world_relative": {
+        "crown_top_row_center": [
+          23.0,
+          -47
+        ],
+        "screen_left_foot_material_lower_row_center": [
+          15,
+          19
+        ],
+        "screen_right_foot_material_lower_row_center": [
+          32,
+          19
+        ],
+        "screen_left_hand_lower_edge": [
+          1.0,
+          -10
+        ],
+        "screen_right_hand_lower_edge": [
+          45.0,
+          -10
+        ]
+      },
+      "foot_material_lower_row": {
+        "relative_y": 19,
+        "x_runs_half_open": [
+          [
+            13,
+            18
+          ],
+          [
+            30,
+            35
+          ]
+        ],
+        "bottom_edge_relative_y": 20
+      }
+    },
+    {
+      "source_id": 128,
+      "phase": 3,
+      "native": {
+        "original": [
+          68,
+          70
+        ],
+        "offset": [
+          -1,
+          -47
+        ],
+        "sourceOffset": 499105,
+        "sourceBytes": 4634,
+        "format": "PNG",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          68,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "9394990cd7dd32572517f749d923af380d8edf45c520cc6efaeb467b2ebc3d79"
+      },
+      "atlas": {
+        "original": [
+          68,
+          70
+        ],
+        "offset": [
+          -1,
+          -47
+        ],
+        "sourceOffset": 499105,
+        "sourceBytes": 4634,
+        "format": "PNG",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          68,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "9394990cd7dd32572517f749d923af380d8edf45c520cc6efaeb467b2ebc3d79",
+        "page": 1,
+        "rect": [
+          1979,
+          1,
+          68,
+          70
+        ],
+        "crop": [
+          0,
+          0
+        ]
+      },
+      "source_png": "source/frame-128.png",
+      "source_png_sha256": "c718ca5cca316a2104a868c85d0d4ac7228f919086dc2d0acc9dcb79cff8c3e7",
+      "alpha_bbox_local": [
+        0,
+        0,
+        68,
+        70
+      ],
+      "body_palette_proxy_bbox_local": [
+        0,
+        0,
+        49,
+        67
+      ],
+      "body_palette_proxy_bbox_world_relative": [
+        -1,
+        -47,
+        48,
+        20
+      ],
+      "body_palette_proxy_bbox_world": [
+        3599,
+        1681,
+        3648,
+        1748
+      ],
+      "visible_pixels": 2272,
+      "body_proxy_pixels": 1960,
+      "shadow_palette_pixels": 312,
+      "shadow_parity_local": [
+        0
+      ],
+      "source_image_top_left_world": [
+        3599,
+        1681
+      ],
+      "feature_extrema_world_relative": {
+        "crown_top_row_center": [
+          23.0,
+          -47
+        ],
+        "screen_left_foot_material_lower_row_center": [
+          15,
+          19
+        ],
+        "screen_right_foot_material_lower_row_center": [
+          32,
+          19
+        ],
+        "screen_left_hand_lower_edge": [
+          -0.5,
+          -12
+        ],
+        "screen_right_hand_lower_edge": [
+          46.0,
+          -12
+        ]
+      },
+      "foot_material_lower_row": {
+        "relative_y": 19,
+        "x_runs_half_open": [
+          [
+            13,
+            18
+          ],
+          [
+            30,
+            35
+          ]
+        ],
+        "bottom_edge_relative_y": 20
+      }
+    }
+  ],
+  "pairwise_differences": "evidence/pairwise-differences.json",
+  "observation_rois": {
+    "head": [
+      16,
+      -47,
+      34,
+      -30
+    ],
+    "left_arm_hand": [
+      -2,
+      -34,
+      14,
+      -8
+    ],
+    "right_arm_hand": [
+      34,
+      -34,
+      49,
+      -7
+    ],
+    "torso": [
+      10,
+      -38,
+      39,
+      1
+    ],
+    "lower_coat": [
+      6,
+      -2,
+      44,
+      18
+    ],
+    "foot_material": [
+      11,
+      17,
+      37,
+      20
+    ]
+  },
+  "input_sha256_pins": {
+    "原版游戏/Data/Npc.lpRes": "a5c1ae8d4e87ccfa134ded0cfdd0b704c309ff3629b61082bc6382251aca6066",
+    "原版游戏/Data/Map/A00.lpMap": "906f33edb6d0c7181629ba37296829a6b8adaf9cde2637ffc4c2530e2c5c352f",
+    "Project/tools/lp_original.py": "c3471a8fda23ebbb079d2b0794c308af706a12fa77277447197f332efda86795",
+    "Project/data/maps/A00.json": "0f921a2714cab0a29383a8a25631b515b2de98fa38c02ed4701f0a19d3355868",
+    "Project/data/maps/A00-entities.json": "73ea3f80135fc58cacd0f910f466ca63e2f489c0681bcc1d878814dffd78fa8a",
+    "Project/assets/original/maps/A00/manifest.json": "f80e4a7e9c22be64b10ebfb395a88bec9adf42d5bd4136f509077665cea9811c",
+    "Project/assets/original/maps/A00/sprites/Npc/1.png": "5cdcc33b6e9b4ec5848d8dd89d963eba7f926200e93871684c47978607240f2e"
+  },
+  "generation_inputs_exact_package": "../chief-source-inputs-v2",
+  "art_state": {
+    "v1_candidate_accepted": false,
+    "v2_candidate_accepted": false,
+    "old_accepted_chief_recovered": false,
+    "new_art_generated": false,
+    "warp_performed": false,
+    "Godot_run": false,
+    "main_repo_written": false,
+    "Git_pushed": false
+  },
+  "next_stage": "Approve one new base in source125 geometry first. Only then plan same-base four-phase 2D warp. Do not mirror, duplicate125 as128, normalize per-frame bbox or generate four independent identities."
+}

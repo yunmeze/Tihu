@@ -1,0 +1,109 @@
+{
+  "schema": "chief-source-contract-explicit-archive-v2",
+  "status": "SOURCE_EVIDENCE_ONLY; not art approval",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "664196853e315ee7980b471479924dfd252aebc9e587672316c8b9f65431df42",
+      "bytes": 3624
+    },
+    {
+      "path": "source-contract.json",
+      "sha256": "207a8624078c4b21301b9f3991d266e2450f6430d45ecc88e8256d82bf4998ac",
+      "bytes": 14383
+    },
+    {
+      "path": "tools/rebuild_contract.py",
+      "sha256": "a06b122961075cf7c8c70c9c13e292d488d8d1857ffa382bf368ff453c2d9343",
+      "bytes": 12068
+    },
+    {
+      "path": "source/frame-125.png",
+      "sha256": "701aab9ce8fda25b0dd10b479a5f8f2553552687a3b4a9b9f68e635056343aa0",
+      "bytes": 4313
+    },
+    {
+      "path": "source/frame-126.png",
+      "sha256": "a73af94a7a799a5b3629eb6252cf65c4ef982765a9da0c261bdaf65c50d64b66",
+      "bytes": 4164
+    },
+    {
+      "path": "source/frame-127.png",
+      "sha256": "d69bb830f3b80601339dcf8ed3c01b4626681258e410dace68192c1b81ac0557",
+      "bytes": 4192
+    },
+    {
+      "path": "source/frame-128.png",
+      "sha256": "c718ca5cca316a2104a868c85d0d4ac7228f919086dc2d0acc9dcb79cff8c3e7",
+      "bytes": 4213
+    },
+    {
+      "path": "evidence/source-contactsheet-registered-5x.png",
+      "sha256": "48e64c073b5df52f07a4c5eb1c891843dd92e8f5e43048b88a7576ace5082a89",
+      "bytes": 34921
+    },
+    {
+      "path": "evidence/contour-shadow-contactsheet-5x.png",
+      "sha256": "95271cc8f60a1993e4020122fc245f4eaea3c1f07861cc86d4b01887be959e18",
+      "bytes": 16718
+    },
+    {
+      "path": "evidence/pairwise-differences.json",
+      "sha256": "d46aed1197046c44f12684bbc1f50ad042e962cffb77f2de575d619644510342",
+      "bytes": 5460
+    },
+    {
+      "path": "evidence/row-runs-125.json",
+      "sha256": "cf1c21ba543b87fa07d5cd3e8ffeb90a1344b02404f860e1a0323206d23d7edb",
+      "bytes": 26613
+    },
+    {
+      "path": "evidence/row-runs-126.json",
+      "sha256": "65a176639944f1cf8858caa4741218de4c769a5d526c2310901b13e09bd4ac3d",
+      "bytes": 26085
+    },
+    {
+      "path": "evidence/row-runs-127.json",
+      "sha256": "4b29decf372bff7f9b42bb423c4f53fa2b604ebb5e179c58d73425fac74fd45c",
+      "bytes": 26160
+    },
+    {
+      "path": "evidence/row-runs-128.json",
+      "sha256": "9c22d5975df2d46fd2978beadfdfca36daff93dc16d70b72e7a1e2be87b61332",
+      "bytes": 26135
+    },
+    {
+      "path": "evidence/contour-125.json",
+      "sha256": "33fd7ad1f1612b14827b51e6de2b509b1b32980354a209d7c1e96ca8dc422a0a",
+      "bytes": 7446
+    },
+    {
+      "path": "evidence/contour-126.json",
+      "sha256": "981d0b2406ad7cf99df595e57096ba7c8150674f32280714a27c7ee963f3944e",
+      "bytes": 7474
+    },
+    {
+      "path": "evidence/contour-127.json",
+      "sha256": "26a5ebca43a22e3ae3d021b5fe4666c919bc69954479da741a333d900242055f",
+      "bytes": 7446
+    },
+    {
+      "path": "evidence/contour-128.json",
+      "sha256": "d781a7b5d598c1eec8463346aeaf953fb2669cd431f8cdce8ef6f834107e15ab",
+      "bytes": 7446
+    }
+  ],
+  "include_this_manifest": true,
+  "reproduction_check": {
+    "independent_output_files": 16,
+    "all_bytes_equal": true
+  },
+  "exclude": [
+    "temporary reproduction directories",
+    "tests",
+    "Godot cache/imports/logs",
+    "new generated chief images",
+    "runtime assets"
+  ],
+  "Git_publication_performed": false
+}

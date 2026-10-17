@@ -1,0 +1,18 @@
+{
+  "schema": "a00-installer-v2-sha256-manifest-v1",
+  "purpose": "root-only source tools; excludes all fixtures/tests/evidence",
+  "source_tool_is_new_not_exact_04_recovery": true,
+  "engine_run": false,
+  "files": [
+    {
+      "path": "tools/README.md",
+      "bytes": 3496,
+      "sha256": "2a03340e0344f8db5f8a610cfc6e8fc95b42da44c7a76bde02840f4270054545"
+    },
+    {
+      "path": "tools/install_a00.py",
+      "bytes": 10574,
+      "sha256": "ad8e71ea0e21b69a42ed71ce3e8845629499df1ddaae1302e6a9dd24248fd443"
+    }
+  ]
+}
