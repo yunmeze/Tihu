@@ -1,0 +1,39 @@
+{
+  "schema": "a00-runtime-rebuilt-v2-evidence",
+  "exact_sources": {
+    "scripts/a00_trial_runtime/controller.gd": [
+      "a00-controller-exact-v1",
+      "0093f5119429c609ca40b5505b7638fc7f885df5535a3c869882d35f55f2a919"
+    ],
+    "scripts/a00_trial_runtime/a00_trial_core.gd": [
+      "a00-core-vm-exact-v1",
+      "79f2b177a2d58a278120681f6ea09621f4952479abf575fe6241dc1dac734327"
+    ],
+    "scripts/a00_trial_runtime/dialogue_vm.gd": [
+      "a00-core-vm-exact-v1",
+      "be6ff81291657a287414ff8d4516964393e4cf66867b25c3857e8287438ca066"
+    ],
+    "scripts/a00_trial_runtime/execution_gate.gd": [
+      "a00-gate-scene-exact-v1",
+      "25ea2460c60a99a96d81d682c17aed321fe49e5340988a2f3df05c85cbf606de"
+    ],
+    "scenes/earth_a00_trial_candidate.tscn": [
+      "a00-gate-scene-exact-v1",
+      "72c1c653b37ff671d18e76bdadc8d3a1cff80e0e356f0671da4ec33f4e6dc4a3"
+    ]
+  },
+  "old_leaves_text_recovered": false,
+  "old_leaves_sha256": "ea5381ef8c6ff18ce005809539c0e12e4a2da49a8b84bf765f47a9342b8e634a",
+  "old_leaves_bytes": 82847,
+  "new_leaves_sha256": "5adbdd8437e496b20621824fb82a8a16f29ae372328a7f3c16bd84580db1794e",
+  "new_leaves_bytes": 82682,
+  "new_controller_sha256": "bb21f99c66a59b0fe2a1daf69fb02413f555fad92c65c1b224b90d959c50b0f6",
+  "historical_leaf_count": 436,
+  "historical_leaf_bytes": 105942104,
+  "published_root_sha256": "9be6c62d5ba627c821121f45c757a515e15adaa6a5e4caaa043709ab7c0e242b",
+  "published_leaf_files_verified": 429,
+  "published_sidecar_pins_verified": 427,
+  "f6_code_pins_verified": 78,
+  "engine_run": false,
+  "historical_parse_not_reused": true
+}

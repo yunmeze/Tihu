@@ -1,0 +1,32 @@
+{
+  "schema": "a00-runtime-execution-root-v1",
+  "base_commit": "b57de6e721af3cc12cf0f0a42dc82f0ead3756bb",
+  "files": [
+    {
+      "path": "res://data/a00_trial_runtime_execution_leaves.json",
+      "sha256": "5adbdd8437e496b20621824fb82a8a16f29ae372328a7f3c16bd84580db1794e",
+      "bytes": 82682
+    },
+    {
+      "path": "res://scripts/a00_trial_runtime/controller.gd",
+      "sha256": "bb21f99c66a59b0fe2a1daf69fb02413f555fad92c65c1b224b90d959c50b0f6",
+      "bytes": 15923
+    }
+  ],
+  "leaf_count": 436,
+  "engine_run": false,
+  "constraints": {
+    "godot": "4.6.x",
+    "physics_hz": 50,
+    "logical": [
+      1024,
+      768
+    ],
+    "raster": [
+      2048,
+      1536
+    ],
+    "stretch": "canvas_items",
+    "default_changed": false
+  }
+}

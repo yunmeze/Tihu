@@ -1,0 +1,11 @@
+--- freeze04/controller.gd
++++ rebuilt-v2/controller.gd
+@@ -3,7 +3,7 @@
+ ## Single live authority/inventory; trial_context() is an ephemeral projection.
+ const ExecutionGate = preload("res://scripts/a00_trial_runtime/execution_gate.gd")
+ const EXECUTION_PATH = "res://data/a00_trial_runtime_execution_leaves.json"
+-const EXECUTION_SHA = "ea5381ef8c6ff18ce005809539c0e12e4a2da49a8b84bf765f47a9342b8e634a"
++const EXECUTION_SHA = "5adbdd8437e496b20621824fb82a8a16f29ae372328a7f3c16bd84580db1794e"
+ const Trial = preload("res://scripts/a00_trial_runtime/a00_trial_core.gd")
+ var trial_sources: Dictionary = {}
+ var trial_rules: Dictionary = {}
