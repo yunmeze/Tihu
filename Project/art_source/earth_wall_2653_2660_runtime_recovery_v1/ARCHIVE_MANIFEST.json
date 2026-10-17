@@ -1,0 +1,127 @@
+{
+  "schema": "explicit-isolated-wall-runtime-archive-v1",
+  "proposed_Project_relative_destination": "art_source/earth_wall_2653_2660_runtime_recovery_v1",
+  "archive_file_count_including_this_manifest": 19,
+  "runtime_file_count": 13,
+  "runtime_bytes": 326919,
+  "manifest_self": {
+    "path": "ARCHIVE_MANIFEST.json",
+    "sha256": null,
+    "reason": "Self-reference excluded; every other archive file is explicitly hashed."
+  },
+  "files": [
+    {
+      "path": ".gdignore",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "archive documentation/control"
+    },
+    {
+      "path": "ORIGINAL_SOURCE_REFERENCE.json",
+      "sha256": "c81cec4133eedab7c84b553b91b85635b206b2c990d21a59d92af2105d8e8b59",
+      "bytes": 13852,
+      "role": "archive documentation/control"
+    },
+    {
+      "path": "README.md",
+      "sha256": "e726bd233a6865e6e3d4975a573fb7a8f8874ef6d9db49e8f0087fa041845420",
+      "bytes": 4850,
+      "role": "archive documentation/control"
+    },
+    {
+      "path": "RUNTIME_FILES_MANIFEST.json",
+      "sha256": "487a250b2f25d0770f8521187369fe5bd3616762a6ffe1947e01fa9e0d2795be",
+      "bytes": 5014,
+      "role": "archive documentation/control"
+    },
+    {
+      "path": "VALIDATION_STATUS.json",
+      "sha256": "ffc758717304e19767ea581d4e1870d1eef1d9e7492ffe4f0ca04df146846817",
+      "bytes": 1339,
+      "role": "archive documentation/control"
+    },
+    {
+      "path": "runtime/Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2653.png",
+      "sha256": "f492c4fc60d76e4067e473310cbe4a1e8f836d09ba0aaf95f1a857a756017f38",
+      "bytes": 67269,
+      "role": "runtime candidate"
+    },
+    {
+      "path": "runtime/Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2654.png",
+      "sha256": "a7d16227ecbafadfe5a734cbf064fe1f81988c12e6cd8c5941fc0570a65fcd8d",
+      "bytes": 67567,
+      "role": "runtime candidate"
+    },
+    {
+      "path": "runtime/Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2655.png",
+      "sha256": "832758b8fb570fe535c481258d0527cb66798e9c889f5d88cee2a86f576183cd",
+      "bytes": 5290,
+      "role": "runtime candidate"
+    },
+    {
+      "path": "runtime/Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2656.png",
+      "sha256": "3abb904a423e5103bcfc89a9161e146c8578da2dd1cb1a9c49d075f61b0e82e0",
+      "bytes": 67437,
+      "role": "runtime candidate"
+    },
+    {
+      "path": "runtime/Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2657.png",
+      "sha256": "f690619efc1ffa82cb2b963777c4f9bc8f12f30e773d9f11be7162a21a2a91a9",
+      "bytes": 5291,
+      "role": "runtime candidate"
+    },
+    {
+      "path": "runtime/Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2658.png",
+      "sha256": "ab40ffa13540d19d20be5c8abd72b5564ffa44d32f3fef5795f855d4ad9d23e5",
+      "bytes": 67384,
+      "role": "runtime candidate"
+    },
+    {
+      "path": "runtime/Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2659.png",
+      "sha256": "28ba32c7e4a3fb82e597f4313c245eaf554167fe7cb5b8d71d7d553ded50c4b2",
+      "bytes": 5383,
+      "role": "runtime candidate"
+    },
+    {
+      "path": "runtime/Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2660.png",
+      "sha256": "531b4eca1de5569d10a84c7e57ed72525dbadcf79f1e4c8a7fad314ad91373ff",
+      "bytes": 5648,
+      "role": "runtime candidate"
+    },
+    {
+      "path": "runtime/Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/registration.json",
+      "sha256": "8ebe783b1cf57a1c9a54d332d4f74767ee7013e4a1061fbfc317a3f21c675241",
+      "bytes": 21346,
+      "role": "runtime candidate"
+    },
+    {
+      "path": "runtime/Project/scenes/earth_wall_2653_2660_candidate.tscn",
+      "sha256": "61e2f7359a033032026757b217c968c06f75bbf62604a7971551c7a3d8ba82b4",
+      "bytes": 200,
+      "role": "runtime candidate"
+    },
+    {
+      "path": "runtime/Project/scripts/earth/wall_2653_2660_controller.gd",
+      "sha256": "9861708cefad98e4d83ad8de4b48440c53c0a46b987f4b549a745802dc990fb1",
+      "bytes": 425,
+      "role": "runtime candidate"
+    },
+    {
+      "path": "runtime/Project/scripts/earth/wall_2653_2660_guard.gd",
+      "sha256": "14917a1c46c115007bcd04afed69247653e5aeafc79c6d4a72ed29d7f2b72278",
+      "bytes": 11224,
+      "role": "runtime candidate"
+    },
+    {
+      "path": "runtime/Project/scripts/earth/wall_2653_2660_world.gd",
+      "sha256": "5d28f54334c1d5a6c3e14783c0012a2bf2d6f669a1cdab81b99729003177bb07",
+      "bytes": 2455,
+      "role": "runtime candidate"
+    }
+  ],
+  "source_reference": "ORIGINAL_SOURCE_REFERENCE.json",
+  "runtime_freeze_manifest_sha256": "487a250b2f25d0770f8521187369fe5bd3616762a6ffe1947e01fa9e0d2795be",
+  "Godot_ignored_by_root_gdignore": true,
+  "default_activation": false,
+  "tests_logs_temporaries": false
+}

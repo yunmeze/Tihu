@@ -1,0 +1,856 @@
+{
+  "schema": "a13-wall2653-anchor18-17-owned-D2-v1",
+  "status": "owned CPU assets only; no engine validation or publication",
+  "map": "A13",
+  "anchor_cell": [
+    18,
+    17
+  ],
+  "source_map_sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+  "source_manifest_sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+  "source_wall_atlas_sha256": "07bfa06728270c7f901eafc930c8c19a465af39e634d7ec0aa1160d9fcfad629",
+  "source_index_sha256": "7ef75680f923cf6f7d692785dc1ebabc08d18dd29f0c7632dae4f15adaa6b55a",
+  "density": 2,
+  "body": {
+    "file": "body-d2.png",
+    "sha256": "4815aed4c9c0eaec20107010fd0cd6759e739c0a77acb2794d080aa005142587",
+    "RGBA_sha256": "6e41f40424408c361119c0c0d711edcbf76b9fb0cae93d01553b37a37a01a416",
+    "size": [
+      512,
+      768
+    ],
+    "world_top_left": [
+      688,
+      333
+    ],
+    "scale": 0.5
+  },
+  "owners": [
+    {
+      "key": "Map/Res/Wall:2653@18,17",
+      "cell": [
+        18,
+        17
+      ],
+      "source_cell": [
+        0,
+        -1,
+        3,
+        2653
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 17,
+      "stable_source_order": 1817,
+      "pack": "Map/Res/Wall",
+      "frame_index": 2653,
+      "runtime_kind": 3,
+      "owner_id": 1,
+      "world_top_left": [
+        864,
+        353
+      ],
+      "world_anchor": [
+        864,
+        544
+      ],
+      "texture": "res://assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2653.png",
+      "local_texture": "owner-2653.png",
+      "texture_size": [
+        96,
+        446
+      ],
+      "texture_sha256": "f492c4fc60d76e4067e473310cbe4a1e8f836d09ba0aaf95f1a857a756017f38",
+      "texture_RGBA_sha256": "edeb49f71964250796638b5946ca4158732a4d84005e029f64f780b8401ce1a4",
+      "scale": 0.5,
+      "logical_bounds_xyxy": [
+        864,
+        353,
+        912,
+        576
+      ],
+      "fixed_canvas_bounds_xyxy": [
+        176,
+        20,
+        224,
+        243
+      ],
+      "source_frame": {
+        "key": "Map/Res/Wall:2653",
+        "pack": "Map/Res/Wall",
+        "frame_index": 2653,
+        "original": [
+          48,
+          223
+        ],
+        "crop": [
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "size": [
+          48,
+          223
+        ],
+        "rgba_sha256": "8aa4596c3a2e8e091015bad54e6de8b1bdc4398566817e59c0102fea68504adb",
+        "alpha_bbox": [
+          0,
+          0,
+          48,
+          223
+        ],
+        "atlas": "res://assets/original/Map/Res/Wall/0.png",
+        "atlas_rect": [
+          517,
+          1,
+          48,
+          223
+        ],
+        "native_source_offset": 26660078,
+        "native_source_bytes": 11782,
+        "alpha_sha256": "47d9c40116409663e2f4606b41032be5aa2b9a384e0a682779e1212ded2d71b1",
+        "alpha_values": [
+          0,
+          255
+        ],
+        "alpha_nonzero_count": 9863,
+        "manifest_full_rgba_sha256": "8aa4596c3a2e8e091015bad54e6de8b1bdc4398566817e59c0102fea68504adb"
+      },
+      "source_native_alpha_sha256": "47d9c40116409663e2f4606b41032be5aa2b9a384e0a682779e1212ded2d71b1",
+      "D2_alpha_sha256": "539e2b7f0bdd608ebfe738a18c7407dedcddb9241b3a4a822fe2a985e016a1f3",
+      "alpha_nonzero_count_D2": 39452,
+      "weak_alpha_pixels_D2": 0,
+      "empty": false
+    },
+    {
+      "key": "Map/Res/Wall:2654@17,18",
+      "cell": [
+        17,
+        18
+      ],
+      "source_cell": [
+        0,
+        -1,
+        3,
+        2654
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 18,
+      "stable_source_order": 1718,
+      "pack": "Map/Res/Wall",
+      "frame_index": 2654,
+      "runtime_kind": 3,
+      "owner_id": 2,
+      "world_top_left": [
+        816,
+        387
+      ],
+      "world_anchor": [
+        816,
+        576
+      ],
+      "texture": "res://assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2654.png",
+      "local_texture": "owner-2654.png",
+      "texture_size": [
+        96,
+        442
+      ],
+      "texture_sha256": "a7d16227ecbafadfe5a734cbf064fe1f81988c12e6cd8c5941fc0570a65fcd8d",
+      "texture_RGBA_sha256": "6107bf4f0579b6efd9d346186f689bf66e65f9635d530fe3c8a251b1b91c022d",
+      "scale": 0.5,
+      "logical_bounds_xyxy": [
+        816,
+        387,
+        864,
+        608
+      ],
+      "fixed_canvas_bounds_xyxy": [
+        128,
+        54,
+        176,
+        275
+      ],
+      "source_frame": {
+        "key": "Map/Res/Wall:2654",
+        "pack": "Map/Res/Wall",
+        "frame_index": 2654,
+        "original": [
+          48,
+          222
+        ],
+        "crop": [
+          0,
+          1
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "size": [
+          48,
+          221
+        ],
+        "rgba_sha256": "00054573f6a11fceae5fd278d059000130ec4f8fe5c59bc33b780bf135dc9e83",
+        "alpha_bbox": [
+          0,
+          0,
+          48,
+          221
+        ],
+        "atlas": "res://assets/original/Map/Res/Wall/0.png",
+        "atlas_rect": [
+          567,
+          1,
+          48,
+          221
+        ],
+        "native_source_offset": 26671860,
+        "native_source_bytes": 11734,
+        "alpha_sha256": "08db00c4077e2cb450c66cf8499f410a238cbeeaf16c287438ba0994103e0b11",
+        "alpha_values": [
+          0,
+          255
+        ],
+        "alpha_nonzero_count": 9872,
+        "manifest_full_rgba_sha256": "c8407dbdbb376f926204da32b4a22c3cbf45111f1c2d180a374cab2d598e26a6"
+      },
+      "source_native_alpha_sha256": "08db00c4077e2cb450c66cf8499f410a238cbeeaf16c287438ba0994103e0b11",
+      "D2_alpha_sha256": "a0cba812d60644d428c82630524096477c8e57771db3daebf94b73e54c3cb047",
+      "alpha_nonzero_count_D2": 39488,
+      "weak_alpha_pixels_D2": 0,
+      "empty": false
+    },
+    {
+      "key": "Map/Res/Wall:2655@18,18",
+      "cell": [
+        18,
+        18
+      ],
+      "source_cell": [
+        -406,
+        0,
+        3,
+        2655
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 18,
+      "stable_source_order": 1818,
+      "pack": "Map/Res/Wall",
+      "frame_index": 2655,
+      "runtime_kind": 3,
+      "owner_id": 3,
+      "world_top_left": [
+        864,
+        576
+      ],
+      "world_anchor": [
+        864,
+        576
+      ],
+      "texture": "res://assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2655.png",
+      "local_texture": "owner-2655.png",
+      "texture_size": [
+        76,
+        50
+      ],
+      "texture_sha256": "832758b8fb570fe535c481258d0527cb66798e9c889f5d88cee2a86f576183cd",
+      "texture_RGBA_sha256": "2b606e4a31fb6ae20f81819373958d77b8e942f95e96a0a43b3e517b940abeb8",
+      "scale": 0.5,
+      "logical_bounds_xyxy": [
+        864,
+        576,
+        902,
+        601
+      ],
+      "fixed_canvas_bounds_xyxy": [
+        176,
+        243,
+        214,
+        268
+      ],
+      "source_frame": {
+        "key": "Map/Res/Wall:2655",
+        "pack": "Map/Res/Wall",
+        "frame_index": 2655,
+        "original": [
+          48,
+          32
+        ],
+        "crop": [
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "size": [
+          38,
+          25
+        ],
+        "rgba_sha256": "7b711042e255b5978697b22b04ccc1c98633bc1c232ea88114f158688f48c035",
+        "alpha_bbox": [
+          0,
+          0,
+          38,
+          25
+        ],
+        "atlas": "res://assets/original/Map/Res/Wall/0.png",
+        "atlas_rect": [
+          617,
+          1,
+          38,
+          25
+        ],
+        "native_source_offset": 26683594,
+        "native_source_bytes": 2614,
+        "alpha_sha256": "0ce0fbbed8db385be8308d67bf3c641b291c21e428b4dbe0eae5c281a5690474",
+        "alpha_values": [
+          0,
+          255
+        ],
+        "alpha_nonzero_count": 488,
+        "manifest_full_rgba_sha256": "c4748270493abeca5236d65f292cc104b56fc289355a6e9809635b8ed7ef60f3"
+      },
+      "source_native_alpha_sha256": "0ce0fbbed8db385be8308d67bf3c641b291c21e428b4dbe0eae5c281a5690474",
+      "D2_alpha_sha256": "9dfb858ae0667067c91cab793413c37d86a072cd89c474b2551faed6a378345d",
+      "alpha_nonzero_count_D2": 1952,
+      "weak_alpha_pixels_D2": 0,
+      "empty": false
+    },
+    {
+      "key": "Map/Res/Wall:2656@16,19",
+      "cell": [
+        16,
+        19
+      ],
+      "source_cell": [
+        0,
+        -1,
+        3,
+        2656
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 19,
+      "stable_source_order": 1619,
+      "pack": "Map/Res/Wall",
+      "frame_index": 2656,
+      "runtime_kind": 3,
+      "owner_id": 4,
+      "world_top_left": [
+        768,
+        418
+      ],
+      "world_anchor": [
+        768,
+        608
+      ],
+      "texture": "res://assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2656.png",
+      "local_texture": "owner-2656.png",
+      "texture_size": [
+        96,
+        444
+      ],
+      "texture_sha256": "3abb904a423e5103bcfc89a9161e146c8578da2dd1cb1a9c49d075f61b0e82e0",
+      "texture_RGBA_sha256": "4512a08c987ea0e28d8c9b5d5aac4b6cb2ba4967a0fd3953413ab0f7f202c53d",
+      "scale": 0.5,
+      "logical_bounds_xyxy": [
+        768,
+        418,
+        816,
+        640
+      ],
+      "fixed_canvas_bounds_xyxy": [
+        80,
+        85,
+        128,
+        307
+      ],
+      "source_frame": {
+        "key": "Map/Res/Wall:2656",
+        "pack": "Map/Res/Wall",
+        "frame_index": 2656,
+        "original": [
+          48,
+          222
+        ],
+        "crop": [
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "size": [
+          48,
+          222
+        ],
+        "rgba_sha256": "cf1cba98617610d2704406d62911b469da702ecf786afd6735bd7ce8c5eb9c79",
+        "alpha_bbox": [
+          0,
+          0,
+          48,
+          222
+        ],
+        "atlas": "res://assets/original/Map/Res/Wall/0.png",
+        "atlas_rect": [
+          657,
+          1,
+          48,
+          222
+        ],
+        "native_source_offset": 26686208,
+        "native_source_bytes": 11734,
+        "alpha_sha256": "ca04eefc0a71d72df02786b108bd450f15ed73e8711f6d82567a370d2bb3dc54",
+        "alpha_values": [
+          0,
+          255
+        ],
+        "alpha_nonzero_count": 9881,
+        "manifest_full_rgba_sha256": "cf1cba98617610d2704406d62911b469da702ecf786afd6735bd7ce8c5eb9c79"
+      },
+      "source_native_alpha_sha256": "ca04eefc0a71d72df02786b108bd450f15ed73e8711f6d82567a370d2bb3dc54",
+      "D2_alpha_sha256": "4b23a165b1617a7ba5442162cdc064fc92a74b2cf3a02bc510f417dea21773fb",
+      "alpha_nonzero_count_D2": 39524,
+      "weak_alpha_pixels_D2": 0,
+      "empty": false
+    },
+    {
+      "key": "Map/Res/Wall:2657@17,19",
+      "cell": [
+        17,
+        19
+      ],
+      "source_cell": [
+        0,
+        0,
+        3,
+        2657
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 19,
+      "stable_source_order": 1719,
+      "pack": "Map/Res/Wall",
+      "frame_index": 2657,
+      "runtime_kind": 3,
+      "owner_id": 5,
+      "world_top_left": [
+        816,
+        608
+      ],
+      "world_anchor": [
+        816,
+        608
+      ],
+      "texture": "res://assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2657.png",
+      "local_texture": "owner-2657.png",
+      "texture_size": [
+        74,
+        50
+      ],
+      "texture_sha256": "f690619efc1ffa82cb2b963777c4f9bc8f12f30e773d9f11be7162a21a2a91a9",
+      "texture_RGBA_sha256": "8e2206e5f339c0925d2702fa6f281ffeb9c57468279dc846cb613b45a07607a9",
+      "scale": 0.5,
+      "logical_bounds_xyxy": [
+        816,
+        608,
+        853,
+        633
+      ],
+      "fixed_canvas_bounds_xyxy": [
+        128,
+        275,
+        165,
+        300
+      ],
+      "source_frame": {
+        "key": "Map/Res/Wall:2657",
+        "pack": "Map/Res/Wall",
+        "frame_index": 2657,
+        "original": [
+          48,
+          32
+        ],
+        "crop": [
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "size": [
+          37,
+          25
+        ],
+        "rgba_sha256": "4b344f4649c11fb635196af0145584b5049285890feb7a853d5b599b6581cf23",
+        "alpha_bbox": [
+          0,
+          0,
+          37,
+          25
+        ],
+        "atlas": "res://assets/original/Map/Res/Wall/0.png",
+        "atlas_rect": [
+          707,
+          1,
+          37,
+          25
+        ],
+        "native_source_offset": 26697942,
+        "native_source_bytes": 2614,
+        "alpha_sha256": "3cb7f6b25e2a330b46431141b498e4577c70923d5fffad8a29d27b59315fdbd3",
+        "alpha_values": [
+          0,
+          255
+        ],
+        "alpha_nonzero_count": 481,
+        "manifest_full_rgba_sha256": "837ab7f5f19f7ea3164068d20bd457d4fe708333301d5246e237b90267efd612"
+      },
+      "source_native_alpha_sha256": "3cb7f6b25e2a330b46431141b498e4577c70923d5fffad8a29d27b59315fdbd3",
+      "D2_alpha_sha256": "50d36f45b52fa120ac13d74cc30213c3c63f90eea469e9f92d93819fe88a95a6",
+      "alpha_nonzero_count_D2": 1924,
+      "weak_alpha_pixels_D2": 0,
+      "empty": false
+    },
+    {
+      "key": "Map/Res/Wall:2658@15,20",
+      "cell": [
+        15,
+        20
+      ],
+      "source_cell": [
+        0,
+        -1,
+        3,
+        2658
+      ],
+      "flag": -1,
+      "layer": 1,
+      "sort_y": 20,
+      "stable_source_order": 1520,
+      "pack": "Map/Res/Wall",
+      "frame_index": 2658,
+      "runtime_kind": 3,
+      "owner_id": 6,
+      "world_top_left": [
+        720,
+        449
+      ],
+      "world_anchor": [
+        720,
+        640
+      ],
+      "texture": "res://assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2658.png",
+      "local_texture": "owner-2658.png",
+      "texture_size": [
+        96,
+        446
+      ],
+      "texture_sha256": "ab40ffa13540d19d20be5c8abd72b5564ffa44d32f3fef5795f855d4ad9d23e5",
+      "texture_RGBA_sha256": "6e51970e79c58ebc0a01427fb6c04453e7b872fcf1c83d74092595ab62868782",
+      "scale": 0.5,
+      "logical_bounds_xyxy": [
+        720,
+        449,
+        768,
+        672
+      ],
+      "fixed_canvas_bounds_xyxy": [
+        32,
+        116,
+        80,
+        339
+      ],
+      "source_frame": {
+        "key": "Map/Res/Wall:2658",
+        "pack": "Map/Res/Wall",
+        "frame_index": 2658,
+        "original": [
+          48,
+          223
+        ],
+        "crop": [
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "size": [
+          48,
+          223
+        ],
+        "rgba_sha256": "7bc956b9fcf040a40490fe74ea55125fc466362f06f837ec0c04193093ca8478",
+        "alpha_bbox": [
+          0,
+          0,
+          48,
+          223
+        ],
+        "atlas": "res://assets/original/Map/Res/Wall/0.png",
+        "atlas_rect": [
+          746,
+          1,
+          48,
+          223
+        ],
+        "native_source_offset": 26700556,
+        "native_source_bytes": 11782,
+        "alpha_sha256": "d523a7d8954f1968f668e0e57a07795d28f8a16a7f4c4e01d6881bbfa342e0ba",
+        "alpha_values": [
+          0,
+          255
+        ],
+        "alpha_nonzero_count": 9871,
+        "manifest_full_rgba_sha256": "7bc956b9fcf040a40490fe74ea55125fc466362f06f837ec0c04193093ca8478"
+      },
+      "source_native_alpha_sha256": "d523a7d8954f1968f668e0e57a07795d28f8a16a7f4c4e01d6881bbfa342e0ba",
+      "D2_alpha_sha256": "f7add51c6b5022dc76c227799d3e1a138420dfed54c16156eac385dbf89eb6c4",
+      "alpha_nonzero_count_D2": 39484,
+      "weak_alpha_pixels_D2": 0,
+      "empty": false
+    },
+    {
+      "key": "Map/Res/Wall:2659@16,20",
+      "cell": [
+        16,
+        20
+      ],
+      "source_cell": [
+        -406,
+        0,
+        3,
+        2659
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 20,
+      "stable_source_order": 1620,
+      "pack": "Map/Res/Wall",
+      "frame_index": 2659,
+      "runtime_kind": 3,
+      "owner_id": 7,
+      "world_top_left": [
+        768,
+        640
+      ],
+      "world_anchor": [
+        768,
+        640
+      ],
+      "texture": "res://assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2659.png",
+      "local_texture": "owner-2659.png",
+      "texture_size": [
+        76,
+        50
+      ],
+      "texture_sha256": "28ba32c7e4a3fb82e597f4313c245eaf554167fe7cb5b8d71d7d553ded50c4b2",
+      "texture_RGBA_sha256": "d0c803e239bf6a70b8cac49d035e97d3afd37ec254a33b09432a40d02032d54d",
+      "scale": 0.5,
+      "logical_bounds_xyxy": [
+        768,
+        640,
+        806,
+        665
+      ],
+      "fixed_canvas_bounds_xyxy": [
+        80,
+        307,
+        118,
+        332
+      ],
+      "source_frame": {
+        "key": "Map/Res/Wall:2659",
+        "pack": "Map/Res/Wall",
+        "frame_index": 2659,
+        "original": [
+          48,
+          32
+        ],
+        "crop": [
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "size": [
+          38,
+          25
+        ],
+        "rgba_sha256": "257e9317e054625aaf57e4f8898c12d971afe3f89e604711fd854713d8264f1c",
+        "alpha_bbox": [
+          0,
+          0,
+          38,
+          25
+        ],
+        "atlas": "res://assets/original/Map/Res/Wall/0.png",
+        "atlas_rect": [
+          796,
+          1,
+          38,
+          25
+        ],
+        "native_source_offset": 26712338,
+        "native_source_bytes": 2614,
+        "alpha_sha256": "0ce0fbbed8db385be8308d67bf3c641b291c21e428b4dbe0eae5c281a5690474",
+        "alpha_values": [
+          0,
+          255
+        ],
+        "alpha_nonzero_count": 488,
+        "manifest_full_rgba_sha256": "f17d1282330e0475232e83f02243085c59188ef8234a1a74def97fe40a97f3c0"
+      },
+      "source_native_alpha_sha256": "0ce0fbbed8db385be8308d67bf3c641b291c21e428b4dbe0eae5c281a5690474",
+      "D2_alpha_sha256": "9dfb858ae0667067c91cab793413c37d86a072cd89c474b2551faed6a378345d",
+      "alpha_nonzero_count_D2": 1952,
+      "weak_alpha_pixels_D2": 0,
+      "empty": false
+    },
+    {
+      "key": "Map/Res/Wall:2660@15,21",
+      "cell": [
+        15,
+        21
+      ],
+      "source_cell": [
+        0,
+        0,
+        3,
+        2660
+      ],
+      "flag": 0,
+      "layer": 1,
+      "sort_y": 21,
+      "stable_source_order": 1521,
+      "pack": "Map/Res/Wall",
+      "frame_index": 2660,
+      "runtime_kind": 3,
+      "owner_id": 8,
+      "world_top_left": [
+        720,
+        672
+      ],
+      "world_anchor": [
+        720,
+        672
+      ],
+      "texture": "res://assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2660.png",
+      "local_texture": "owner-2660.png",
+      "texture_size": [
+        78,
+        52
+      ],
+      "texture_sha256": "531b4eca1de5569d10a84c7e57ed72525dbadcf79f1e4c8a7fad314ad91373ff",
+      "texture_RGBA_sha256": "e55872c753251688b14b4fb742017bd455888f964d6830f0bd2e1c78ea613020",
+      "scale": 0.5,
+      "logical_bounds_xyxy": [
+        720,
+        672,
+        759,
+        698
+      ],
+      "fixed_canvas_bounds_xyxy": [
+        32,
+        339,
+        71,
+        365
+      ],
+      "source_frame": {
+        "key": "Map/Res/Wall:2660",
+        "pack": "Map/Res/Wall",
+        "frame_index": 2660,
+        "original": [
+          48,
+          32
+        ],
+        "crop": [
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "size": [
+          39,
+          26
+        ],
+        "rgba_sha256": "10d03c0ba25249b24ca8d9141bfce45a6332c3df7f3cb6ea9d247737f6d1813a",
+        "alpha_bbox": [
+          0,
+          0,
+          39,
+          26
+        ],
+        "atlas": "res://assets/original/Map/Res/Wall/0.png",
+        "atlas_rect": [
+          836,
+          1,
+          39,
+          26
+        ],
+        "native_source_offset": 26714952,
+        "native_source_bytes": 2614,
+        "alpha_sha256": "a0265806036c555eba592e671dd7add1936ef5aaaa42a78ed6f3b2bb4ac3a22f",
+        "alpha_values": [
+          0,
+          255
+        ],
+        "alpha_nonzero_count": 521,
+        "manifest_full_rgba_sha256": "79caa2ddf1fa292a22044a7484391485562d138832f7a93f0686f7a1145da94f"
+      },
+      "source_native_alpha_sha256": "a0265806036c555eba592e671dd7add1936ef5aaaa42a78ed6f3b2bb4ac3a22f",
+      "D2_alpha_sha256": "3cf6cf153ae5fa78b8c1677bfc8ad2e27624c08801d85ff768170afb83b1b6f4",
+      "alpha_nonzero_count_D2": 2084,
+      "weak_alpha_pixels_D2": 0,
+      "empty": false
+    }
+  ],
+  "source_support": {
+    "native_alpha_values": [
+      0,
+      255
+    ],
+    "native_nonzero_pixels": 41465,
+    "D2_nonzero_pixels": 165860,
+    "verbatim_native_repeat_D2": true
+  },
+  "filter_contract": {
+    "texture_filter": "nearest",
+    "mipmaps": false,
+    "repeat": false,
+    "lossless_source_PNG": true,
+    "linear_filtering_not_validated_or_approved": true,
+    "alpha_processing": "verbatim native alpha repeated2x; no threshold, morphology, RGB bleed or alpha weakening"
+  },
+  "atomic_group_activation": true,
+  "frame_global_override_forbidden": true,
+  "source_collision_cells_read_only": true,
+  "neighbor_scope": {
+    "left_same_family_anchor": [
+      14,
+      21
+    ],
+    "left_replaced": false,
+    "right_corner_root": [
+      20,
+      15
+    ],
+    "right_replaced": false,
+    "plant_modified": false
+  },
+  "art_acceptance": "bounded baked2D candidate; U tone modulation and absent exact lower-contact shade retained"
+}

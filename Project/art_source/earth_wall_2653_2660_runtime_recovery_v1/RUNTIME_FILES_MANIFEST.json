@@ -1,0 +1,101 @@
+{
+  "schema": "wall-runtime-freeze-v1",
+  "status": "immutable source candidate; engine/native review pending",
+  "base_published_legend_commit": "b57de6e",
+  "base_docs_only_head_at_freeze": "3ad604b",
+  "runtime_baseline_reference": "a071",
+  "required_complete_base_Project": true,
+  "runtime_file_count": 13,
+  "files": [
+    {
+      "path": "Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2653.png",
+      "sha256": "f492c4fc60d76e4067e473310cbe4a1e8f836d09ba0aaf95f1a857a756017f38",
+      "bytes": 67269
+    },
+    {
+      "path": "Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2654.png",
+      "sha256": "a7d16227ecbafadfe5a734cbf064fe1f81988c12e6cd8c5941fc0570a65fcd8d",
+      "bytes": 67567
+    },
+    {
+      "path": "Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2655.png",
+      "sha256": "832758b8fb570fe535c481258d0527cb66798e9c889f5d88cee2a86f576183cd",
+      "bytes": 5290
+    },
+    {
+      "path": "Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2656.png",
+      "sha256": "3abb904a423e5103bcfc89a9161e146c8578da2dd1cb1a9c49d075f61b0e82e0",
+      "bytes": 67437
+    },
+    {
+      "path": "Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2657.png",
+      "sha256": "f690619efc1ffa82cb2b963777c4f9bc8f12f30e773d9f11be7162a21a2a91a9",
+      "bytes": 5291
+    },
+    {
+      "path": "Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2658.png",
+      "sha256": "ab40ffa13540d19d20be5c8abd72b5564ffa44d32f3fef5795f855d4ad9d23e5",
+      "bytes": 67384
+    },
+    {
+      "path": "Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2659.png",
+      "sha256": "28ba32c7e4a3fb82e597f4313c245eaf554167fe7cb5b8d71d7d553ded50c4b2",
+      "bytes": 5383
+    },
+    {
+      "path": "Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/owner-2660.png",
+      "sha256": "531b4eca1de5569d10a84c7e57ed72525dbadcf79f1e4c8a7fad314ad91373ff",
+      "bytes": 5648
+    },
+    {
+      "path": "Project/assets/earth/environment/wall_2653_2660_anchor18_17_v1/registration.json",
+      "sha256": "8ebe783b1cf57a1c9a54d332d4f74767ee7013e4a1061fbfc317a3f21c675241",
+      "bytes": 21346
+    },
+    {
+      "path": "Project/scenes/earth_wall_2653_2660_candidate.tscn",
+      "sha256": "61e2f7359a033032026757b217c968c06f75bbf62604a7971551c7a3d8ba82b4",
+      "bytes": 200
+    },
+    {
+      "path": "Project/scripts/earth/wall_2653_2660_controller.gd",
+      "sha256": "9861708cefad98e4d83ad8de4b48440c53c0a46b987f4b549a745802dc990fb1",
+      "bytes": 425
+    },
+    {
+      "path": "Project/scripts/earth/wall_2653_2660_guard.gd",
+      "sha256": "14917a1c46c115007bcd04afed69247653e5aeafc79c6d4a72ed29d7f2b72278",
+      "bytes": 11224
+    },
+    {
+      "path": "Project/scripts/earth/wall_2653_2660_world.gd",
+      "sha256": "5d28f54334c1d5a6c3e14783c0012a2bf2d6f669a1cdab81b99729003177bb07",
+      "bytes": 2455
+    }
+  ],
+  "parent_script_pins": {
+    "res://scripts/world_view.gd": "b404d8dd5e7e85a120fec00b7eb5f01e6bfc1fc37adf5e7878c1798432d4e285",
+    "res://scripts/earth/sample_world.gd": "c9139f34e1d57b1d33086c11157850454325c88078608fe13f8a081f7ddc07b2",
+    "res://scripts/earth/first_map_world.gd": "e6a8ac3604c5ea938fbf006da1a79f195e38adf65695168ea0498db44bb37a5c",
+    "res://scripts/earth/snapshot_world.gd": "f53f2d90843ff55e9078eda8d45498ea407aeffc520a8beec8d95f1ea35c89fe",
+    "res://scripts/earth/snapshot_sorted_world.gd": "1d89ee9e02b984739eebf1f51641f9843ef7c7d43b9f4c7434a4022128333e78",
+    "res://scripts/earth/snapshot_prefilter_world.gd": "02dea14cf29ecf358547abac62cb11503faaa12ad76a4a5bc4b85ee4cd1e609b",
+    "res://scripts/earth/snapshot_zhang_world.gd": "533199fca3174a0e426eebe46cb740eb8eb1ad91e12d5644f7671f77e0aa2d92",
+    "res://scripts/earth/south_walk_snapshot_world.gd": "66a6f6d73ee3ef25c1ad1896605d6d00a8e12754923c298c64b220f30c9add61",
+    "res://scripts/earth/south_walk_contact_world.gd": "d17f4a4768452905c21b1c6a5949ff8b8344bf27752558024697cd0847cf37fa",
+    "res://scripts/earth/upright_51_70_world.gd": "26bfa8866f26930de5f11638689c079beabf1be0b3f25bb1897085f0b7d6de43",
+    "res://scripts/earth/instance_identity_guard.gd": "2eabae66a29b8696d7aef50ddfe5bbd27b46ad4278624c10b4a1183a2435cb0b",
+    "res://scripts/earth/asset_guard.gd": "c5a0718736b91ceac6aea417a464840e61b33c03b19d8dc3f61272339a7cdf4e"
+  },
+  "registration_sha256": "8ebe783b1cf57a1c9a54d332d4f74767ee7013e4a1061fbfc317a3f21c675241",
+  "body_cpu_png_sha256": "4815aed4c9c0eaec20107010fd0cd6759e739c0a77acb2794d080aa005142587",
+  "body_cpu_rgba_sha256": "6e41f40424408c361119c0c0d711edcbf76b9fb0cae93d01553b37a37a01a416",
+  "runtime_asset_count": 9,
+  "script_count": 3,
+  "scene_count": 1,
+  "tests_logs_temporaries_in_runtime_freeze": false,
+  "main_scene_changed": false,
+  "existing_export_pck_closed": false,
+  "engine_validation": "not run; coordinator-only pending",
+  "native_draw_hit_validation": "not run; prepared external fixtures only"
+}

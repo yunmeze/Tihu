@@ -1,0 +1,352 @@
+{
+  "schema": "original-wall-art-source-reference-v1",
+  "source_archive_Project_relative": "art_source/earth_wall_2653_2660_candidate_v1",
+  "source_archive_is_existing_published_source_only": true,
+  "source_root_project_commit": "b57de6e",
+  "rebuild_program": "art_source/earth_wall_2653_2660_candidate_v1/rebuild.py",
+  "required_complete_Project": true,
+  "runtime_files_regenerated_not_recovered_original_runtime": true,
+  "generation_calls_during_recovery": 0,
+  "source_package_files": [
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/.gdignore",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/NEW_FILES_MANIFEST.json",
+      "sha256": "0840f68f459071a17935da0e3cc1f7838211673f1565bc1b3551c7191644740c",
+      "bytes": 3608
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/README.md",
+      "sha256": "8204c8d4c0601daacfdddcffbbc23db735a6060d692d63a3fbc00c65ec15828d",
+      "bytes": 3836
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/REBUILD_RECIPE.json",
+      "sha256": "0c848a67f7e63c8ae782783d5c4ac72d434841bc05dfac4f5d33dbf80f9babc2",
+      "bytes": 4473
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/ROOT_ART_DECISION.json",
+      "sha256": "c2101d8c44eb17e1193cb3371e62987309a75491673fb8fcdca5732fc65c861c",
+      "bytes": 370
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/SOURCE_CLOSURE.json",
+      "sha256": "3cdbaafbd5207bfb17db22144213f7184bd2fe47e1f9518b17f63321421d05be",
+      "bytes": 10259
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/calls/cap_eave/ACTUAL_TOOL_ARGUMENTS.json",
+      "sha256": "118482dd8f1d12c37b6d5a9888ff210599f0167446c6a5e2496155560a77c3cb",
+      "bytes": 3163
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/calls/cap_eave/INPUT_SHA256.json",
+      "sha256": "fe4428f55b05b501d3717ad57feec23a32bc581d4cb097de0d6b3d5fd8e4f8d8",
+      "bytes": 691
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/calls/cap_eave/PROMPT_ACTUAL.txt",
+      "sha256": "fac7957b956b0533871e411b3c4cbc58e8c684298adc75b3086b91a36ee2c945",
+      "bytes": 2824
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/calls/cap_eave/RESULT_METADATA.json",
+      "sha256": "4578d3f7c142493a3738cc8b6b05b4bc88d8cd634d384b5a77a82f8235edcd90",
+      "bytes": 575
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/calls/main/ACTUAL_TOOL_ARGUMENTS.json",
+      "sha256": "f6260e625be83477a3f0893ba9e86b7dec4a00df69339876662e08e186eb8924",
+      "bytes": 2797
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/calls/main/INPUT_SHA256.json",
+      "sha256": "d10833c2741dadbfc8a7c812272cb38e39fc90ba6e13b96568e01f79e1c4730c",
+      "bytes": 893
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/calls/main/PROMPT_ACTUAL.txt",
+      "sha256": "93e9b15574704b3182c95a16aa4f6ad2aa1a5486fca304047d069fe101697cfd",
+      "bytes": 2459
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/calls/main/RESULT_METADATA.json",
+      "sha256": "49905329fc71159e954e304468aec0a392cdc38b034bb4e17e7bc473adfb873a",
+      "bytes": 579
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/calls/ridge/ACTUAL_TOOL_ARGUMENTS.json",
+      "sha256": "06aec394c7c6757adc46b33ceb4c80715ede6fc369c2a5bd380ee1f302d27e45",
+      "bytes": 2469
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/calls/ridge/INPUT_SHA256.json",
+      "sha256": "18ad3ca67116e9ea933d1c2bfa42346417bb772c56f1070defb7699ff0e8d399",
+      "bytes": 634
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/calls/ridge/PROMPT_ACTUAL.txt",
+      "sha256": "95845b411c1c4d353a28bf6423d8bdee1844f0818612ebeaa855f1db3cb9ab82",
+      "bytes": 2136
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/calls/ridge/RESULT_METADATA.json",
+      "sha256": "52d7f6db576c158cc83894a22e45d0e06bf2ed4aed3c4b332651468ff708d2da",
+      "bytes": 569
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/raw/cap_eave.png",
+      "sha256": "c8666b9968fbadb76d503b4b579281ec8626cca7a6f379b0a76e0214e30a0643",
+      "bytes": 2624557
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/raw/main.png",
+      "sha256": "d70b46f5d1f438afe9f16e299d05aeedb47596e76b5418e98691a4423a13c8d1",
+      "bytes": 3186298
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/raw/ridge.png",
+      "sha256": "8aa38bcb389487026a59aea87d7093d760fa6989d1acfaf31efdfe3434e353d7",
+      "bytes": 2884439
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/rebuild.py",
+      "sha256": "b4f444ae63fe553352f73201a68b4676b346a7ca74ad246b10d813059526e493",
+      "bytes": 11813
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/references/cap_eave-guide.png",
+      "sha256": "96694da2e9f8879f216e2161ec56e2aaf496b5310bdd71a8f55c60ad0e3e6d3e",
+      "bytes": 96033
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/references/main-guide.png",
+      "sha256": "f46e313b72d5ffff2c677aafe597641a5d7697ed1a0b18a58b68226af735204b",
+      "bytes": 73627
+    },
+    {
+      "path": "art_source/earth_wall_2653_2660_candidate_v1/references/ridge-guide.png",
+      "sha256": "23d9d2f660fd77b37e98b3f3f7790335671416a128ecebc9863805c5729d300a",
+      "bytes": 75087
+    }
+  ],
+  "original_source_closure_inputs": [
+    {
+      "path": "raw/main.png",
+      "sha256": "d70b46f5d1f438afe9f16e299d05aeedb47596e76b5418e98691a4423a13c8d1",
+      "bytes": 3186298,
+      "location": "bundle"
+    },
+    {
+      "path": "references/main-guide.png",
+      "sha256": "f46e313b72d5ffff2c677aafe597641a5d7697ed1a0b18a58b68226af735204b",
+      "bytes": 73627,
+      "location": "bundle"
+    },
+    {
+      "path": "calls/main/ACTUAL_TOOL_ARGUMENTS.json",
+      "sha256": "f6260e625be83477a3f0893ba9e86b7dec4a00df69339876662e08e186eb8924",
+      "bytes": 2797,
+      "location": "bundle"
+    },
+    {
+      "path": "calls/main/PROMPT_ACTUAL.txt",
+      "sha256": "93e9b15574704b3182c95a16aa4f6ad2aa1a5486fca304047d069fe101697cfd",
+      "bytes": 2459,
+      "location": "bundle"
+    },
+    {
+      "path": "calls/main/INPUT_SHA256.json",
+      "sha256": "d10833c2741dadbfc8a7c812272cb38e39fc90ba6e13b96568e01f79e1c4730c",
+      "bytes": 893,
+      "location": "bundle"
+    },
+    {
+      "path": "calls/main/RESULT_METADATA.json",
+      "sha256": "49905329fc71159e954e304468aec0a392cdc38b034bb4e17e7bc473adfb873a",
+      "bytes": 579,
+      "location": "bundle"
+    },
+    {
+      "path": "project://assets/earth/house_280_289_v1/body.png",
+      "sha256": "1d1088136701293461fe79677da1e4e355f0045c735758a128e154c957e23daf",
+      "bytes": 684478,
+      "location": "complete_Project_checkout"
+    },
+    {
+      "path": "raw/cap_eave.png",
+      "sha256": "c8666b9968fbadb76d503b4b579281ec8626cca7a6f379b0a76e0214e30a0643",
+      "bytes": 2624557,
+      "location": "bundle"
+    },
+    {
+      "path": "references/cap_eave-guide.png",
+      "sha256": "96694da2e9f8879f216e2161ec56e2aaf496b5310bdd71a8f55c60ad0e3e6d3e",
+      "bytes": 96033,
+      "location": "bundle"
+    },
+    {
+      "path": "calls/cap_eave/ACTUAL_TOOL_ARGUMENTS.json",
+      "sha256": "118482dd8f1d12c37b6d5a9888ff210599f0167446c6a5e2496155560a77c3cb",
+      "bytes": 3163,
+      "location": "bundle"
+    },
+    {
+      "path": "calls/cap_eave/PROMPT_ACTUAL.txt",
+      "sha256": "fac7957b956b0533871e411b3c4cbc58e8c684298adc75b3086b91a36ee2c945",
+      "bytes": 2824,
+      "location": "bundle"
+    },
+    {
+      "path": "calls/cap_eave/INPUT_SHA256.json",
+      "sha256": "fe4428f55b05b501d3717ad57feec23a32bc581d4cb097de0d6b3d5fd8e4f8d8",
+      "bytes": 691,
+      "location": "bundle"
+    },
+    {
+      "path": "calls/cap_eave/RESULT_METADATA.json",
+      "sha256": "4578d3f7c142493a3738cc8b6b05b4bc88d8cd634d384b5a77a82f8235edcd90",
+      "bytes": 575,
+      "location": "bundle"
+    },
+    {
+      "path": "raw/ridge.png",
+      "sha256": "8aa38bcb389487026a59aea87d7093d760fa6989d1acfaf31efdfe3434e353d7",
+      "bytes": 2884439,
+      "location": "bundle"
+    },
+    {
+      "path": "references/ridge-guide.png",
+      "sha256": "23d9d2f660fd77b37e98b3f3f7790335671416a128ecebc9863805c5729d300a",
+      "bytes": 75087,
+      "location": "bundle"
+    },
+    {
+      "path": "calls/ridge/ACTUAL_TOOL_ARGUMENTS.json",
+      "sha256": "06aec394c7c6757adc46b33ceb4c80715ede6fc369c2a5bd380ee1f302d27e45",
+      "bytes": 2469,
+      "location": "bundle"
+    },
+    {
+      "path": "calls/ridge/PROMPT_ACTUAL.txt",
+      "sha256": "95845b411c1c4d353a28bf6423d8bdee1844f0818612ebeaa855f1db3cb9ab82",
+      "bytes": 2136,
+      "location": "bundle"
+    },
+    {
+      "path": "calls/ridge/INPUT_SHA256.json",
+      "sha256": "18ad3ca67116e9ea933d1c2bfa42346417bb772c56f1070defb7699ff0e8d399",
+      "bytes": 634,
+      "location": "bundle"
+    },
+    {
+      "path": "calls/ridge/RESULT_METADATA.json",
+      "sha256": "52d7f6db576c158cc83894a22e45d0e06bf2ed4aed3c4b332651468ff708d2da",
+      "bytes": 569,
+      "location": "bundle"
+    },
+    {
+      "path": "project://art_source/earth_wall_surface_material_research_v1/m2/generated-raw.png",
+      "sha256": "6f48ff889bd98646fed0923ba3d3d8e12e57a453c3b95bb4b7926cf6c0d00ebc",
+      "bytes": 3920590,
+      "location": "complete_Project_checkout"
+    },
+    {
+      "path": "project://art_source/earth_wall_surface_material_research_v1/m2/ACTUAL_TOOL_ARGUMENTS.json",
+      "sha256": "7e6fc63a5e63eb88e81437f426f72f2d1d5cdd34e314d82dee4244f0d7b1e416",
+      "bytes": 960,
+      "location": "complete_Project_checkout"
+    },
+    {
+      "path": "project://art_source/earth_wall_surface_material_research_v1/m2/PROMPT_ACTUAL.txt",
+      "sha256": "58301f06e7ce715958fbd91e640b606a25ae2db668ebba5bd2883652000dfdae",
+      "bytes": 775,
+      "location": "complete_Project_checkout"
+    },
+    {
+      "path": "project://art_source/earth_wall_surface_material_research_v1/m2/INPUT_SHA256.json",
+      "sha256": "36b1e2c88b41c42169c45c64b58c331157f88213c0b51663610cafdec51cb5e0",
+      "bytes": 369,
+      "location": "complete_Project_checkout"
+    },
+    {
+      "path": "project://art_source/earth_wall_surface_material_research_v1/m2/RESULT_METADATA.json",
+      "sha256": "9a5bf9ccfd2379809c66951ad1e5c5a24e0bc33ae61e3074af8bf48a285f9c7c",
+      "bytes": 640,
+      "location": "complete_Project_checkout"
+    },
+    {
+      "path": "project://art_source/earth_wall_surface_material_research_v1/m3/generated-raw.png",
+      "sha256": "c46919ecc4595ccc0620d576ad80b5ab461d7b86d2775e40eb1dd62acefbe5d8",
+      "bytes": 3967604,
+      "location": "complete_Project_checkout"
+    },
+    {
+      "path": "project://art_source/earth_wall_surface_material_research_v1/m3/ACTUAL_TOOL_ARGUMENTS.json",
+      "sha256": "e6c5c807ace5f0d183c5dbc2f334521e904f50ff1a9f83df5a6f51e77bc6823a",
+      "bytes": 955,
+      "location": "complete_Project_checkout"
+    },
+    {
+      "path": "project://art_source/earth_wall_surface_material_research_v1/m3/PROMPT_ACTUAL.txt",
+      "sha256": "ddb1b23849d306c287ae3ab4b71c62b1151718f1ba77ee8916b9cc343fd87fd0",
+      "bytes": 770,
+      "location": "complete_Project_checkout"
+    },
+    {
+      "path": "project://art_source/earth_wall_surface_material_research_v1/m3/INPUT_SHA256.json",
+      "sha256": "5416952b37c5fe035a876b66f8624de954ce9d844b992dd68e030da7471786b6",
+      "bytes": 335,
+      "location": "complete_Project_checkout"
+    },
+    {
+      "path": "project://art_source/earth_wall_surface_material_research_v1/m3/RESULT_METADATA.json",
+      "sha256": "84d79a4205518b002bd490b96ecc246768854025e1d98686356d32f2e7ea80ea",
+      "bytes": 640,
+      "location": "complete_Project_checkout"
+    },
+    {
+      "path": "project://art_source/earth_wall_straight_two_failed_research_v1/source/INPUT_01_SOURCE_FIXED_256x384.png",
+      "sha256": "71ca171f5c48b8d8bd5c24e027ef463dcf81d08ed2b73cd76aa03c0cdf761e93",
+      "bytes": 81884,
+      "location": "complete_Project_checkout"
+    },
+    {
+      "path": "project://assets/original/Map/Res/Wall/0.png",
+      "sha256": "07bfa06728270c7f901eafc930c8c19a465af39e634d7ec0aa1160d9fcfad629",
+      "bytes": 699369,
+      "location": "complete_Project_checkout"
+    },
+    {
+      "path": "project://data/maps/A13.json",
+      "sha256": "d09549838963c8157307cc5406d3118baf69259d82459bcba0a3a8be5b34aa27",
+      "bytes": 618373,
+      "location": "complete_Project_checkout"
+    },
+    {
+      "path": "project://assets/original/manifest.json",
+      "sha256": "506fba1f0fd826589046d38e4ebd5285ee9a11e3235cd78495cdd133c2e63837",
+      "bytes": 262324,
+      "location": "complete_Project_checkout"
+    },
+    {
+      "path": "project://art_source/earth_wall_surface_material_research_v1/surface-plan/SURFACE_UV_REVIEW.json",
+      "sha256": "e12ad77fd334a6cdd77c4ec04ac76cfda6d2fcbbaa8b13e88a0febf9806e6ee4",
+      "bytes": 43239,
+      "location": "complete_Project_checkout"
+    },
+    {
+      "path": "project://art_source/earth_wall_straight_two_failed_research_v1/source/SOURCE_INDEX.json",
+      "sha256": "7ef75680f923cf6f7d692785dc1ebabc08d18dd29f0c7632dae4f15adaa6b55a",
+      "bytes": 112369,
+      "location": "complete_Project_checkout"
+    }
+  ],
+  "accepted_body_png_sha256": "4815aed4c9c0eaec20107010fd0cd6759e739c0a77acb2794d080aa005142587",
+  "accepted_body_RGBA_sha256": "6e41f40424408c361119c0c0d711edcbf76b9fb0cae93d01553b37a37a01a416",
+  "source_art_limits": "Accepted bounded U highlight modulation and lower-contact shade deviation; failed full-cap composition remains failed."
+}
