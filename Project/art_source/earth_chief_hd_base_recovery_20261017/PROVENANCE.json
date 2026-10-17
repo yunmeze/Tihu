@@ -1,0 +1,50 @@
+{
+  "schema": "chief-generation-provenance-v1",
+  "tool": "image_gen__imagegen",
+  "generation_count": 2,
+  "accepted": false,
+  "transparent_background": true,
+  "source_files_complete": false,
+  "actual_args": {
+    "v1": {
+      "path": "provenance/v1-tool-args.json",
+      "git_blob": "decc0d5fa4ccc5a8b9e10ed2d8089a00653b0463",
+      "bytes": 4372
+    },
+    "v2": {
+      "path": "provenance/v2-tool-args.json",
+      "git_blob": "6c0a1e986619591a57b99f0bbaeb35ce63115b5d",
+      "bytes": 4893
+    }
+  },
+  "inputs": {
+    "original_frame125": {
+      "sha256": "701aab9ce8fda25b0dd10b479a5f8f2553552687a3b4a9b9f68e635056343aa0",
+      "used_by": [
+        "v1",
+        "v2"
+      ],
+      "file_in_this_archive": false
+    },
+    "earth_hero_s_idle17": {
+      "sha256": "6371d05af2239971836cfe30846e0d84b086e7020af69a6c9b2ad44a9e155f92",
+      "used_by": [
+        "v1"
+      ],
+      "file_in_this_archive": false
+    },
+    "v1_secondary_for_v2": {
+      "sha256": "73acc13fae797bfabe74c8abc02c27f37da24693387d719bde5ea6e73a28c983",
+      "path": "raw/v1.png",
+      "used_by": [
+        "v2"
+      ]
+    }
+  },
+  "notes": [
+    "Actual prompt and argument JSON recovered directly from retained tool-call arguments, not rewritten summaries.",
+    "Original local reference paths in tool arguments are provenance records, not portable runtime dependencies.",
+    "The original-frame and hero-reference PNG input copies are not yet recovered into this archive; their expected hashes are preserved.",
+    "Neither output passed pose acceptance. No registration, animation warp or runtime integration was performed."
+  ]
+}
