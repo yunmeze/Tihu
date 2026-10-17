@@ -1,0 +1,21 @@
+{
+  "schema": "chief-hd-emergency-raw-archive-v1",
+  "status": "NOT_ACCEPTED_NOT_ACTIVE",
+  "files": [
+    {
+      "path": "raw/v1.png",
+      "bytes": 1068747,
+      "git_blob": "f7fd7810ee28a40b9766e03eb418c7dab57b0ab3",
+      "sha256": "73acc13fae797bfabe74c8abc02c27f37da24693387d719bde5ea6e73a28c983"
+    },
+    {
+      "path": "raw/v2.png",
+      "bytes": 1602670,
+      "git_blob": "12d107594cf0e1d2bbad93f9babca20df43456c9",
+      "sha256": "2c4095424ab187ed601448347ecc33920928e97c6cdbe1e5931a50193f40eedf"
+    }
+  ],
+  "recovery": "Original imagegen data URLs retained in memory; PNG SHA256 recomputed and matched saved original file hashes before Git blob creation.",
+  "runtime_changed": false,
+  "provenance_complete": false
+}
