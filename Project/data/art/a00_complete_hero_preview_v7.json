@@ -1,0 +1,9037 @@
+{
+  "schema": "a00-complete-hero-preview-v7",
+  "scope": "CONTROLLED_VISUAL_PREVIEW_ONLY_NOT_ACCEPTED; all128 existing/new candidates, no natural GUI or animation acceptance",
+  "source_pins": {
+    "res://scripts/core/movement.gd": "6f48e3d5e7b655d19bd25f65ae735f1ab998f68cae8a17bc12306e0d66f2db99",
+    "res://scripts/world_view.gd": "b404d8dd5e7e85a120fec00b7eb5f01e6bfc1fc37adf5e7878c1798432d4e285",
+    "res://scripts/map_load_world.gd": "d06aceafe22f2c5092dab0b1079e58bcaf0e6d13535433bc5cf38f79c6dbadff",
+    "res://data/hero/movement.json": "b5eb981b005efedc5f071bb51f35240cabf91aa0d77143e70bcf4ee9b9c733f1",
+    "res://assets/original/hero/body-movement.png": "0698b9cc8a6386204e895b6179959b58bcf9d62d6735e6821f11af87cc839783",
+    "res://assets/original/hero/head-movement.png": "347508d77a77d3360a5ff7467b6b0826bdb6be05d75177b73b9c3eccce090f5a"
+  },
+  "upstream_manifests": {
+    "res://assets/earth/hero/e_idle_v1/manifest.json": "8c24bc9430c293a30b1ed0f699a6e3be1390c297e434259dd6b60c4fe39b2025",
+    "res://assets/earth/hero/se_idle_v1/manifest.json": "3672409856c27b1e81d543b8a0a29063e16170b2cafbaf55f5d6351fb1e9b5a3",
+    "res://assets/earth/hero/s_idle_v1/manifest.json": "cfd74e66ddb74fb4ce8fc46be747f6df9b8037713044b76a287baef343654b80",
+    "res://assets/earth/hero/se_walk_v1/manifest.json": "127727940bd2651460bbe90396f80e7c75d89a7d8675f5d3467e5a5f46e229d7",
+    "res://assets/earth/first_map_review/registration.json": "0907115dcc611c8d89939acdcf2798ce2e153c9c030d4064122b07c16ad5c415",
+    "res://assets/earth/hero/s_walk_arap_v1/manifest.json": "04d1d075c5cdb38819b2e7b1180f2aa8ff3848ba983aa60d2c02951fcf3ab2c0"
+  },
+  "logical_size": [
+    128,
+    128
+  ],
+  "draw_offset": [
+    -16,
+    -64
+  ],
+  "textures": [
+    {
+      "path": "res://assets/earth/hero/e_idle_v1/body.png",
+      "sha256": "7cb81240d71f04dae8f6df9e06ef5c0d7dbc1d33c467fa3c646f8a54087da010",
+      "size": [
+        2048,
+        512
+      ],
+      "rgba_sha256": "bd3552e43a3dcda219909d9f73d6656a796410b099c748408990995fa5223182"
+    },
+    {
+      "path": "res://assets/earth/hero/se_idle_v1/body.png",
+      "sha256": "60f89f65dd817ec80065de941e62e36e1068302c3f2bc4eb5014d8d56f450c02",
+      "size": [
+        2048,
+        512
+      ],
+      "rgba_sha256": "03e2889ef32fd3caa92ee25b13510051df98574e83398570631531e51e437345"
+    },
+    {
+      "path": "res://assets/earth/hero/s_idle_v1/body.png",
+      "sha256": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e",
+      "size": [
+        2048,
+        512
+      ],
+      "rgba_sha256": "edbcbd2a0e46c4dda335eef3f7e835fc31181f13f2a1c93b0ab083a176937998"
+    },
+    {
+      "path": "res://assets/earth/hero/se_walk_v1/body.png",
+      "sha256": "f4eee4ec3a35e6597eb3a1eb4f6e5122163845ca474673974af1531ac42489ac",
+      "size": [
+        3072,
+        512
+      ],
+      "rgba_sha256": "ed48baa228a99c38cfb426fa532b02ddf43fd5159f08b95fc4a51b7d727a0dae"
+    },
+    {
+      "path": "res://art_source/earth_e45_vertical_leg_research_v1/45-HD4-CLOTH-CLEANED-RESEARCH.png",
+      "sha256": "ad7c9ad9c68223e7914607c970af2f621f931a6e84d15d6fdf68af3d48d67dd1",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "b6cafb0b7743d4bac1372425c41e8176192bf03b65d944eb65e9042108d6b05f"
+    },
+    {
+      "path": "res://art_source/earth_e_walk_layered_research_v1/46-HD4-RESEARCH.png",
+      "sha256": "b99726de6cbb5ae9db999e5e9f1eee50583a0e98d6fa75456884e0f2f2908f94",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "a97182645555b4e828c6e34f38535ada355280c58a2308aa34b7c5a6b1d62668"
+    },
+    {
+      "path": "res://art_source/earth_e_walk_layered_research_v1/47-HD4-RESEARCH.png",
+      "sha256": "26ed56945e287ee307290cd47b971a3b44840bb48ca998e773028f051cee1b47",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "dab7e83c5e630d725a1ecb2c0390ade6f5a5de4ad3e389dc0e688f3c65448737"
+    },
+    {
+      "path": "res://art_source/earth_e48_vertical_leg_research_v1/48-HD4-BOUNDED-DONOR-DIAGNOSTIC.png",
+      "sha256": "839e048cd413e2b8d280f8dbaa795fb224764d80e816772919f677f77d5128fa",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "03bb8723a70d777d2c21cbf64222b84ccd38c373d68ead4cc8b6d0dda2b8c177"
+    },
+    {
+      "path": "res://art_source/earth_e_walk_layered_research_v1/49-HD4-RESEARCH.png",
+      "sha256": "c1c89fcd1e3ed2a39bce194a4bc5f1988a8277e51fc8dfca7610861127d23cbf",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "646481a141ed01a8ac69c6a3b43715c152b6c334faa9adcf6e290365f58b3e11"
+    },
+    {
+      "path": "res://art_source/earth_e_walk_layered_research_v1/50-HD4-RESEARCH.png",
+      "sha256": "3166546267a1016054b1feffc4ce6fc1127b7b3f4a066b16a49b1227c743ee64",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "40b8ad665e3f94f2eb95b2f5e43cc5427b765831bbebcee0bd97927c78db6b3a"
+    },
+    {
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-57.png",
+      "sha256": "3f9b3dbc4f9873d6e27cad3c671076832d1ae0913335034c95e7f7b1a42f4c16",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "f103a542ae5e6b580ae1565f2595e3bad8d35fddb372c3298595a768e9308629"
+    },
+    {
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-58.png",
+      "sha256": "33ee9c55177b1d4524daa9918c7d169de0e87314def5fb882814280a28ed1495",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "1c6300dd17d284faf73fc2282e90d210fe3a7debff7cbf981ce422183ec6d3c3"
+    },
+    {
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-59.png",
+      "sha256": "051e2b12a9f0f06099a43bc11bec03b2674b25c0a5229407c9a6159d012840f9",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "2d47c8a0b739e09274ae911a8c8f4c6fe5668c4f485a369e11439249ac96dd67"
+    },
+    {
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-60.png",
+      "sha256": "321da29a790209526ecc5b385cf06a488d1ff0d55b9fe7d9ebe3c75b7b95e817",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "4a16de0bfde8465144208486e4cff1f82f967569dabc57c0b966bbd075ad13a2"
+    },
+    {
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-61.png",
+      "sha256": "4893ba3688b3f30fa53347d81ef289cec1868bfdc0a58323309e19e86ec5a771",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "4abf828fc33a168581507c00867d8ea55d5341ff865c89187904db7907457804"
+    },
+    {
+      "path": "res://assets/earth/hero/s_walk_arap_v1/mesh-62.png",
+      "sha256": "5acac58a034b5beefaf0ab5f73fa97642ccc3a6aea338b6a03f71982039b70ea",
+      "size": [
+        512,
+        512
+      ],
+      "rgba_sha256": "9a22d5df74b4d75b282c84f5ed6a1e4f074622565b3baba8ba37a1d1c77e732f"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/idle_N.png",
+      "sha256": "3a2dff25afe944ab52964485d8adfa6df9e350b04cbf301c68b11652b3838474",
+      "size": [
+        2048,
+        512
+      ],
+      "rgba_sha256": "13c6c46e00af406f225eff28602c03f5fbd6bc7186625c3acebea23a9e34567a"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/idle_NE.png",
+      "sha256": "963b1531ceb6ed7ae7bb87621200a31de1845b7e994c3dbeee13b57037da5c23",
+      "size": [
+        2048,
+        512
+      ],
+      "rgba_sha256": "07ac36d21644186d9f2523ae1554dd9f6427fbc2e2a787a7bbde55b25f3b5b75"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/idle_SW.png",
+      "sha256": "f3ee56e97c85cfeb91989831325b87ca2e8101d6116856546fb12821aa727946",
+      "size": [
+        2048,
+        512
+      ],
+      "rgba_sha256": "8a23e16d1b2a40d8427d1dcb952e7fbbaf1d53550ac14df165de15056be5b3f6"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/idle_W.png",
+      "sha256": "6f394ffaf0f71aebab19cf4b406f08ae929b132a59203c95f706198c7af17af4",
+      "size": [
+        2048,
+        512
+      ],
+      "rgba_sha256": "8402299be920dd1c7a4459108d0b80d571217c88e8a030f729898a73973104cd"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/idle_NW.png",
+      "sha256": "dfc27d62173458869e023c2f875b4541f9cd57e090b11f3d6f3437d62726fca6",
+      "size": [
+        2048,
+        512
+      ],
+      "rgba_sha256": "d1b93a64da699527f46611a2a005244a92c7bad88cad711576ef3b2f4173eee6"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/walk_N.png",
+      "sha256": "5f56256821ebe3fa43553ba865d31b1f8c9e6480de311aef8a7f465a4643af14",
+      "size": [
+        3072,
+        512
+      ],
+      "rgba_sha256": "76fdb8e3b23622ea08056d04e03be4ba90f8d7fbbfa7e796d5bbb6992a3d55d5"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/walk_NE.png",
+      "sha256": "295fa608a913cc2c531901bfb842a0b4a69a7abcdef0dcd4118e86618546601c",
+      "size": [
+        3072,
+        512
+      ],
+      "rgba_sha256": "b2feb0210d798480c733fb21552290548c641ca6b421b4da45dc1759ff367da6"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/walk_SW.png",
+      "sha256": "f0d2d1c0692a675a51e3b14c0ee58ec28d48cc41dfe3751f8218949a3f599ff9",
+      "size": [
+        3072,
+        512
+      ],
+      "rgba_sha256": "5ffe6cce6210e45e3c3631383c20dda3b6db44989911fb2f908d644df828a2cb"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/walk_W.png",
+      "sha256": "aad00f26b6353888a941c68aa81744a634692ebb612911d95adb94fcb49e1861",
+      "size": [
+        3072,
+        512
+      ],
+      "rgba_sha256": "dff7e5cee0ab38f28064ac4d4a7eb182b651e75d8b4c234c619dcbfeb462b7ca"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/walk_NW.png",
+      "sha256": "f917c84f8c6eb740f5a77758ae032fc8da65b01f36ae075a1b5462114d17ed4e",
+      "size": [
+        3072,
+        512
+      ],
+      "rgba_sha256": "522a363e1a8cd4ca42ceafc70c80864bc77c5dfb5571f8cb66899b14c0d48dd5"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/run_N.png",
+      "sha256": "07bfb88f266b1fa92c32261a05651f0b970878a802770c45118c865ce20071c9",
+      "size": [
+        3072,
+        512
+      ],
+      "rgba_sha256": "93796db47210fe61d81c1c52e289378698366076bf75d91ee1136e186dd5c683"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/run_NE.png",
+      "sha256": "62c4a3103bd65b280c18bcdfe65482c0ece67a0c9f46ed0e58560162d5d3b72a",
+      "size": [
+        3072,
+        512
+      ],
+      "rgba_sha256": "fd85d570d0e41730f5ca5181b3bb4dd5df84021049b3153c3a81dbe6ec098fd3"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/run_E.png",
+      "sha256": "f740f6287ad0ba8db3ebd9ebb7a93536b63a48604f23bdbabfa19e393a3efbe8",
+      "size": [
+        3072,
+        512
+      ],
+      "rgba_sha256": "9ac74b4364c6391991cd15ea010193ae0480ad7d8936da0f55a11193035a3553"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/run_SE.png",
+      "sha256": "c11764345ea71aa7bde193cc99c03c0932889290fd0c89a4fe97210be1efed8f",
+      "size": [
+        3072,
+        512
+      ],
+      "rgba_sha256": "4aadf808b4fc147fc4053d83ada13049ddacedd0b95f44cfdb57c50939d30b28"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/run_S.png",
+      "sha256": "7a81067aaa133a70f3675602ff9e6b20986ffbc07ab5253f1a41c654f723895a",
+      "size": [
+        3072,
+        512
+      ],
+      "rgba_sha256": "937857769ed162946a89086b93645fdaecda1d5e6164a853738bd18df35f0a28"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/run_SW.png",
+      "sha256": "462d3cf77991f97320f30d3a6620e5dca56dc8d0068ae44b636194fc82237b6f",
+      "size": [
+        3072,
+        512
+      ],
+      "rgba_sha256": "beea4e2f400478ea050bb8b8de47aaafc3a2d7f0e9400cf276dc17d763f19082"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/run_W.png",
+      "sha256": "d086b443b845cbdbd11e8a47454e10d99431a07ac150596f7c8c051c7fae20bf",
+      "size": [
+        3072,
+        512
+      ],
+      "rgba_sha256": "73b49298f15f872aa16e0e925d7bcc8cb26598facd0acc69979d3690a6813497"
+    },
+    {
+      "path": "res://assets/earth/hero_preview_v7/run_NW.png",
+      "sha256": "222c6ac9baa0bc02e220f92ff8e17550f4df4bdb2a070c17ae03cf891f7c6e7e",
+      "size": [
+        3072,
+        512
+      ],
+      "rgba_sha256": "a16f6899117e44b877773aaceaa17170aa7f788c44dd0d8d581165a36be04b07"
+    }
+  ],
+  "records": [
+    {
+      "source_id": 1,
+      "action": "idle",
+      "direction": 0,
+      "texture": "res://assets/earth/hero_preview_v7/idle_N.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          72
+        ],
+        "offset": [
+          6,
+          -48
+        ],
+        "sourceOffset": 3354,
+        "sourceBytes": 5686,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          62,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "9eddd560fce3b372cd7f61a5e41e7cbbd47e65101b8ecbc38aedeb7ecde7b167",
+        "rect": [
+          1,
+          1,
+          64,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 3354,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "f7dd0bc1a36fb2ce57945a6c94ea9aa28783e375ac01b82abbd8195f3b6d9b19",
+        "rect": [
+          1,
+          1,
+          8,
+          11
+        ]
+      },
+      "bank": "idle_N"
+    },
+    {
+      "source_id": 2,
+      "action": "idle",
+      "direction": 0,
+      "texture": "res://assets/earth/hero_preview_v7/idle_N.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          72
+        ],
+        "offset": [
+          6,
+          -48
+        ],
+        "sourceOffset": 9044,
+        "sourceBytes": 5686,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          62,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "46953e614377a21f1ef951c634f495de2201afcfb8bfd3a0ae4dde9d00270e87",
+        "rect": [
+          129,
+          1,
+          64,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 4524,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "5e04751cbbf9a4fb501080ae535258b1ba8e06dd138f06f4a8b5611e86a2d141",
+        "rect": [
+          129,
+          1,
+          8,
+          11
+        ]
+      },
+      "bank": "idle_N"
+    },
+    {
+      "source_id": 3,
+      "action": "idle",
+      "direction": 0,
+      "texture": "res://assets/earth/hero_preview_v7/idle_N.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          72
+        ],
+        "offset": [
+          6,
+          -48
+        ],
+        "sourceOffset": 14734,
+        "sourceBytes": 5686,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          62,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "f5901c1ab4b5d0e67c673f367293c46b7e04886eccbcd577191cf01842f9bf10",
+        "rect": [
+          257,
+          1,
+          64,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 5694,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "a5836a1add71427ee9feda3db5c278d471cc25a0359378bcb8b6c05b6d71c150",
+        "rect": [
+          257,
+          1,
+          8,
+          11
+        ]
+      },
+      "bank": "idle_N"
+    },
+    {
+      "source_id": 4,
+      "action": "idle",
+      "direction": 0,
+      "texture": "res://assets/earth/hero_preview_v7/idle_N.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          72
+        ],
+        "offset": [
+          6,
+          -48
+        ],
+        "sourceOffset": 20424,
+        "sourceBytes": 5686,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          62,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "7924c078bfc313681a8647fbf11c0f9d1d4659d4f4c329b3e036b18f52e22ccb",
+        "rect": [
+          385,
+          1,
+          64,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 6864,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "7ea4558e8906a63f7cd2ba79fb83810730b27f73415e117f472eefdf200a008e",
+        "rect": [
+          385,
+          1,
+          8,
+          11
+        ]
+      },
+      "bank": "idle_N"
+    },
+    {
+      "source_id": 5,
+      "action": "idle",
+      "direction": 1,
+      "texture": "res://assets/earth/hero_preview_v7/idle_NE.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          72
+        ],
+        "offset": [
+          9,
+          -48
+        ],
+        "sourceOffset": 26114,
+        "sourceBytes": 5398,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          57,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "3a67bc459213fad9d38373ed585b920d0495c6c7de79e219189953c50a3dc05b",
+        "rect": [
+          513,
+          1,
+          60,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 8034,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "ad9759c97d78e2c5c72199f98262dbdbe7f4c7368800f7e977d52c125ab87b52",
+        "rect": [
+          513,
+          1,
+          8,
+          10
+        ]
+      },
+      "bank": "idle_NE"
+    },
+    {
+      "source_id": 6,
+      "action": "idle",
+      "direction": 1,
+      "texture": "res://assets/earth/hero_preview_v7/idle_NE.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          72
+        ],
+        "offset": [
+          8,
+          -48
+        ],
+        "sourceOffset": 31516,
+        "sourceBytes": 5398,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          58,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "ea583c0235b517d7f4da7b438a45df3e9241ebdda32d5be63b77a8c06ec9f52b",
+        "rect": [
+          641,
+          1,
+          60,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 9196,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "816b5dbe222bd017dee9a4636cf57bf34b6a2d6abefb000dad80f12779ce67eb",
+        "rect": [
+          641,
+          1,
+          8,
+          10
+        ]
+      },
+      "bank": "idle_NE"
+    },
+    {
+      "source_id": 7,
+      "action": "idle",
+      "direction": 1,
+      "texture": "res://assets/earth/hero_preview_v7/idle_NE.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          72
+        ],
+        "offset": [
+          8,
+          -48
+        ],
+        "sourceOffset": 36918,
+        "sourceBytes": 5398,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          58,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "f995ddf104dc89aff06099f7753b8051173b557f0f2af06e3db8c41e568a682d",
+        "rect": [
+          769,
+          1,
+          60,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 10358,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "7ff98ecf86a7e134a634b9cb217b6382c7b32c71afd69659c5f31b460e14e407",
+        "rect": [
+          769,
+          1,
+          8,
+          10
+        ]
+      },
+      "bank": "idle_NE"
+    },
+    {
+      "source_id": 8,
+      "action": "idle",
+      "direction": 1,
+      "texture": "res://assets/earth/hero_preview_v7/idle_NE.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          72
+        ],
+        "offset": [
+          8,
+          -48
+        ],
+        "sourceOffset": 42320,
+        "sourceBytes": 5398,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          58,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "b2382221e78752c0584ab716fef0d6ac77f174b9e93c64f84fe08c1b6366fdae",
+        "rect": [
+          897,
+          1,
+          60,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 11520,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "a1496d92a9c5731c66ae52bbabba4b1b4855fd05049a2d2ae4585acdb15d670b",
+        "rect": [
+          897,
+          1,
+          8,
+          10
+        ]
+      },
+      "bank": "idle_NE"
+    },
+    {
+      "source_id": 9,
+      "action": "idle",
+      "direction": 2,
+      "texture": "res://assets/earth/hero/e_idle_v1/body.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          52,
+          72
+        ],
+        "offset": [
+          15,
+          -48
+        ],
+        "sourceOffset": 47722,
+        "sourceBytes": 4822,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          51,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "fc3e380f1e173a2c49a8d6fbb2ab04529613c9a8ab3a2bac31cc6f7c8c74893a",
+        "rect": [
+          1025,
+          1,
+          52,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 12682,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "7342288e07842bcf1b2e26ba1ff40fbab076fd60762adb217011278ee04cee34",
+        "rect": [
+          1025,
+          1,
+          12,
+          10
+        ]
+      },
+      "bank": "e_idle_v1"
+    },
+    {
+      "source_id": 10,
+      "action": "idle",
+      "direction": 2,
+      "texture": "res://assets/earth/hero/e_idle_v1/body.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          52,
+          71
+        ],
+        "offset": [
+          15,
+          -47
+        ],
+        "sourceOffset": 52548,
+        "sourceBytes": 4770,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          51,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "0ba464f992a934974b1901b625ea9c26ee0b5876af5bbf81222aef0f2a61e116",
+        "rect": [
+          1153,
+          1,
+          52,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          11
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 13884,
+        "sourceBytes": 1210,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "559df7347ab292864c16f6cbb07a1c22a5c9cc6ca00b889c8f2e6b858d317e57",
+        "rect": [
+          1153,
+          1,
+          12,
+          11
+        ]
+      },
+      "bank": "e_idle_v1"
+    },
+    {
+      "source_id": 11,
+      "action": "idle",
+      "direction": 2,
+      "texture": "res://assets/earth/hero/e_idle_v1/body.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          52,
+          71
+        ],
+        "offset": [
+          15,
+          -47
+        ],
+        "sourceOffset": 57322,
+        "sourceBytes": 4770,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          51,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "acc80921ffee15de780fd9c097fdd3303300b6fb3c4090f204c3f2106aa3c49c",
+        "rect": [
+          1281,
+          1,
+          52,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          11
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 15098,
+        "sourceBytes": 1210,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "1152607bd476e64833e5c9901430a77635730eed8c54a45c752c87170a6caa8f",
+        "rect": [
+          1281,
+          1,
+          12,
+          11
+        ]
+      },
+      "bank": "e_idle_v1"
+    },
+    {
+      "source_id": 12,
+      "action": "idle",
+      "direction": 2,
+      "texture": "res://assets/earth/hero/e_idle_v1/body.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          52,
+          72
+        ],
+        "offset": [
+          15,
+          -48
+        ],
+        "sourceOffset": 62096,
+        "sourceBytes": 4822,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          51,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "b58933821e8a74adfc3825620941cd7eae18e51b4b6118ade6b1106fca60ac6c",
+        "rect": [
+          1409,
+          1,
+          52,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 16312,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "7ba21f18a15717a86e4081847fdbd698124b124b4759cfd55ae2b210f393e4ad",
+        "rect": [
+          1409,
+          1,
+          12,
+          10
+        ]
+      },
+      "bank": "e_idle_v1"
+    },
+    {
+      "source_id": 13,
+      "action": "idle",
+      "direction": 3,
+      "texture": "res://assets/earth/hero/se_idle_v1/body.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          70
+        ],
+        "offset": [
+          8,
+          -47
+        ],
+        "sourceOffset": 66922,
+        "sourceBytes": 5278,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          58,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "d36c73bf6353fe49294f92792fcbd531627f228832103a52bbf0c342a24208e2",
+        "rect": [
+          1537,
+          1,
+          60,
+          70
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          21,
+          -49
+        ],
+        "sourceOffset": 17514,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "c9bfea3e200f60e34605407e02ced3beb648a9b77bc8fcbfdb07517140740c58",
+        "rect": [
+          1537,
+          1,
+          8,
+          11
+        ]
+      },
+      "bank": "se_idle_v1"
+    },
+    {
+      "source_id": 14,
+      "action": "idle",
+      "direction": 3,
+      "texture": "res://assets/earth/hero/se_idle_v1/body.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          70
+        ],
+        "offset": [
+          8,
+          -47
+        ],
+        "sourceOffset": 72204,
+        "sourceBytes": 5278,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          58,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "14c1918675b0a4d42223467f31fe3a8d02cc2458d5f7ecd6e0d4f7b41c2b5254",
+        "rect": [
+          1665,
+          1,
+          60,
+          70
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          21,
+          -49
+        ],
+        "sourceOffset": 18684,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "1a01be9d08c3308c60f800af90cedc0380ba370f59147512c8249c6d7e751948",
+        "rect": [
+          1665,
+          1,
+          8,
+          11
+        ]
+      },
+      "bank": "se_idle_v1"
+    },
+    {
+      "source_id": 15,
+      "action": "idle",
+      "direction": 3,
+      "texture": "res://assets/earth/hero/se_idle_v1/body.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          70
+        ],
+        "offset": [
+          8,
+          -47
+        ],
+        "sourceOffset": 77486,
+        "sourceBytes": 5278,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          58,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "a676a0cec61dcf7ba94da2c26b4b5e6a7beb14b0c0150b70952c985c36ed1ab3",
+        "rect": [
+          1793,
+          1,
+          60,
+          70
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          13
+        ],
+        "offset": [
+          21,
+          -49
+        ],
+        "sourceOffset": 19854,
+        "sourceBytes": 1182,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          13
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "fc3ff2b9e64dd2611ac2f6fc0b5652f51aa11e1405ed8a94251ad156c6ca0e21",
+        "rect": [
+          1793,
+          1,
+          8,
+          13
+        ]
+      },
+      "bank": "se_idle_v1"
+    },
+    {
+      "source_id": 16,
+      "action": "idle",
+      "direction": 3,
+      "texture": "res://assets/earth/hero/se_idle_v1/body.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          70
+        ],
+        "offset": [
+          9,
+          -47
+        ],
+        "sourceOffset": 82768,
+        "sourceBytes": 5278,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          57,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "ec03b448ea7ab3a48bf31d401c1e7e6f9327ead9c5cec9ab2d1e281d39002349",
+        "rect": [
+          1921,
+          1,
+          60,
+          70
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          21,
+          -49
+        ],
+        "sourceOffset": 21040,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "c8b57e1578b9b19a155d5a160970829136add5e6f37575f8ffb7c2d90eb478b5",
+        "rect": [
+          1921,
+          1,
+          8,
+          11
+        ]
+      },
+      "bank": "se_idle_v1"
+    },
+    {
+      "source_id": 17,
+      "action": "idle",
+      "direction": 4,
+      "texture": "res://assets/earth/hero/s_idle_v1/body.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          71
+        ],
+        "offset": [
+          7,
+          -47
+        ],
+        "sourceOffset": 88050,
+        "sourceBytes": 5622,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          62,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "a7e2e9a35809342e262075f0f6fd2077d08575f1eb4810ad4ba6ed72647e1bf6",
+        "rect": [
+          1,
+          129,
+          64,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          12
+        ],
+        "offset": [
+          21,
+          -49
+        ],
+        "sourceOffset": 22210,
+        "sourceBytes": 1174,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          12
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "1c9639904e36e51d6eaa9fa58ca070e7f2f864f86f5d50f4ce1ea39c270ac03b",
+        "rect": [
+          1,
+          129,
+          8,
+          12
+        ]
+      },
+      "bank": "s_idle_v1"
+    },
+    {
+      "source_id": 18,
+      "action": "idle",
+      "direction": 4,
+      "texture": "res://assets/earth/hero/s_idle_v1/body.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          71
+        ],
+        "offset": [
+          7,
+          -47
+        ],
+        "sourceOffset": 93676,
+        "sourceBytes": 5622,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          62,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "ff71cf066fcea3185e359ba99737ffc7cba77205411fe514c7ca5b75b9610c34",
+        "rect": [
+          129,
+          129,
+          64,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          12
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 23388,
+        "sourceBytes": 1174,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          12
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "2acbaa07e3aa9e12efbb3b9e6387afc8c41d406039c575bbe64c4afb82201bd2",
+        "rect": [
+          129,
+          129,
+          8,
+          12
+        ]
+      },
+      "bank": "s_idle_v1"
+    },
+    {
+      "source_id": 19,
+      "action": "idle",
+      "direction": 4,
+      "texture": "res://assets/earth/hero/s_idle_v1/body.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          71
+        ],
+        "offset": [
+          7,
+          -47
+        ],
+        "sourceOffset": 99302,
+        "sourceBytes": 5622,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          62,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "09f9e448e4e24410b220042773900f3153090074e94fcf7b2754f45ff4c6a406",
+        "rect": [
+          257,
+          129,
+          64,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          12
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 24566,
+        "sourceBytes": 1174,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          12
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "de08f4e227dc495f38144932936af5701c93035aec8621f1b8f7eab21f804f92",
+        "rect": [
+          257,
+          129,
+          8,
+          12
+        ]
+      },
+      "bank": "s_idle_v1"
+    },
+    {
+      "source_id": 20,
+      "action": "idle",
+      "direction": 4,
+      "texture": "res://assets/earth/hero/s_idle_v1/body.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          71
+        ],
+        "offset": [
+          7,
+          -47
+        ],
+        "sourceOffset": 104928,
+        "sourceBytes": 5622,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          62,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "621dd99c431cf5c5cdafec8e4fda60030073726923f2122d28f122c107effb29",
+        "rect": [
+          385,
+          129,
+          64,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          12
+        ],
+        "offset": [
+          21,
+          -49
+        ],
+        "sourceOffset": 25744,
+        "sourceBytes": 1174,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          6,
+          12
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "74211e1d66f4e6186fdd7aa97ffe22b06e15a759e7160453c344d458d07145ed",
+        "rect": [
+          385,
+          129,
+          8,
+          12
+        ]
+      },
+      "bank": "s_idle_v1"
+    },
+    {
+      "source_id": 21,
+      "action": "idle",
+      "direction": 5,
+      "texture": "res://assets/earth/hero_preview_v7/idle_SW.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          73
+        ],
+        "offset": [
+          13,
+          -47
+        ],
+        "sourceOffset": 110554,
+        "sourceBytes": 5166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          54,
+          73
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "47e8019ea16b6fc7b7c0d644a58237ad8ab58b39634e0a6ffb48148643f809e4",
+        "rect": [
+          513,
+          129,
+          56,
+          73
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          11
+        ],
+        "offset": [
+          19,
+          -49
+        ],
+        "sourceOffset": 26922,
+        "sourceBytes": 1210,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "2c7928b222326f7cbfe3ba78be40e431e8d68a47a10cdd68ee84b853a15d48d4",
+        "rect": [
+          513,
+          129,
+          12,
+          11
+        ]
+      },
+      "bank": "idle_SW"
+    },
+    {
+      "source_id": 22,
+      "action": "idle",
+      "direction": 5,
+      "texture": "res://assets/earth/hero_preview_v7/idle_SW.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          73
+        ],
+        "offset": [
+          12,
+          -47
+        ],
+        "sourceOffset": 115724,
+        "sourceBytes": 5166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          55,
+          73
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "1c926be43762e172d05b92bde527cf3476844becc5867472ada0687323d4a584",
+        "rect": [
+          641,
+          129,
+          56,
+          73
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 28136,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "1c60256f4185e5a10f2393ffd61bf7e3c5aba9e7bb8adade39d39d8d4b95c9cf",
+        "rect": [
+          641,
+          129,
+          8,
+          10
+        ]
+      },
+      "bank": "idle_SW"
+    },
+    {
+      "source_id": 23,
+      "action": "idle",
+      "direction": 5,
+      "texture": "res://assets/earth/hero_preview_v7/idle_SW.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          73
+        ],
+        "offset": [
+          12,
+          -47
+        ],
+        "sourceOffset": 120894,
+        "sourceBytes": 5166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          56,
+          73
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "983f57dc4755fda2f3eb077e2b80bdf28e4ccbc8e023caae10de6995f12ddb85",
+        "rect": [
+          769,
+          129,
+          56,
+          73
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 29298,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "8be242afc955e9228fe3d912c238a7cf25dee05c5bc009cab574b5eed2e89974",
+        "rect": [
+          769,
+          129,
+          8,
+          10
+        ]
+      },
+      "bank": "idle_SW"
+    },
+    {
+      "source_id": 24,
+      "action": "idle",
+      "direction": 5,
+      "texture": "res://assets/earth/hero_preview_v7/idle_SW.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          73
+        ],
+        "offset": [
+          12,
+          -47
+        ],
+        "sourceOffset": 126064,
+        "sourceBytes": 5166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          55,
+          73
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "1a807ced08dc84e258a549ee3fd203d25edc722eef9fac7a02b0975bce40bf84",
+        "rect": [
+          897,
+          129,
+          56,
+          73
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 30460,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "9a3c0fb634184d0be8313c159ae73a696c3e26f109070b5753aee121e7e70cce",
+        "rect": [
+          897,
+          129,
+          8,
+          11
+        ]
+      },
+      "bank": "idle_SW"
+    },
+    {
+      "source_id": 25,
+      "action": "idle",
+      "direction": 6,
+      "texture": "res://assets/earth/hero_preview_v7/idle_W.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          52,
+          71
+        ],
+        "offset": [
+          15,
+          -47
+        ],
+        "sourceOffset": 131234,
+        "sourceBytes": 4770,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          50,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "61fad3396152e877eeb20b30c288a311e85d98a88d42838f09bf6bc12e858409",
+        "rect": [
+          1025,
+          129,
+          52,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          11
+        ],
+        "offset": [
+          19,
+          -48
+        ],
+        "sourceOffset": 31630,
+        "sourceBytes": 1210,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "a2dfe7d130743e8b0fb72ce6c19a5d71d4c4981536eb9aa16435ba621c250b48",
+        "rect": [
+          1025,
+          129,
+          12,
+          11
+        ]
+      },
+      "bank": "idle_W"
+    },
+    {
+      "source_id": 26,
+      "action": "idle",
+      "direction": 6,
+      "texture": "res://assets/earth/hero_preview_v7/idle_W.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          52,
+          72
+        ],
+        "offset": [
+          15,
+          -47
+        ],
+        "sourceOffset": 136008,
+        "sourceBytes": 4822,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          49,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "d2c6e3663081e62ceff31d4068ba08306f53ff10af9c4cfc5520c4c0a9fa3b39",
+        "rect": [
+          1153,
+          129,
+          52,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          11
+        ],
+        "offset": [
+          19,
+          -48
+        ],
+        "sourceOffset": 32844,
+        "sourceBytes": 1210,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "7f276e978bb96c43ad4a2a5e69eba33061be9fc2e592feab4614e6c942690a22",
+        "rect": [
+          1153,
+          129,
+          12,
+          11
+        ]
+      },
+      "bank": "idle_W"
+    },
+    {
+      "source_id": 27,
+      "action": "idle",
+      "direction": 6,
+      "texture": "res://assets/earth/hero_preview_v7/idle_W.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          52,
+          72
+        ],
+        "offset": [
+          15,
+          -47
+        ],
+        "sourceOffset": 140834,
+        "sourceBytes": 4822,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          49,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "e6d1a264a623a24542d983feb6230e47975bb6580c0a3ceea2c3008f211b3f54",
+        "rect": [
+          1281,
+          129,
+          52,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          11
+        ],
+        "offset": [
+          19,
+          -48
+        ],
+        "sourceOffset": 34058,
+        "sourceBytes": 1210,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "ede8ec75c76d875837df1ec624ff051c0d106a5953781e72f463098ea97435db",
+        "rect": [
+          1281,
+          129,
+          12,
+          11
+        ]
+      },
+      "bank": "idle_W"
+    },
+    {
+      "source_id": 28,
+      "action": "idle",
+      "direction": 6,
+      "texture": "res://assets/earth/hero_preview_v7/idle_W.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          52,
+          72
+        ],
+        "offset": [
+          15,
+          -47
+        ],
+        "sourceOffset": 145660,
+        "sourceBytes": 4822,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          49,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "800302e970a000a92ef52d8ef3ea3ce9f8699ef73581e4262dc4b126e066386a",
+        "rect": [
+          1409,
+          129,
+          52,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          11
+        ],
+        "offset": [
+          19,
+          -48
+        ],
+        "sourceOffset": 35272,
+        "sourceBytes": 1210,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "9b5a21cfda21090131f64e9a61c7dba6cafe2aa9f1911f0324e32e7af515fbf7",
+        "rect": [
+          1409,
+          129,
+          12,
+          11
+        ]
+      },
+      "bank": "idle_W"
+    },
+    {
+      "source_id": 29,
+      "action": "idle",
+      "direction": 7,
+      "texture": "res://assets/earth/hero_preview_v7/idle_NW.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          70
+        ],
+        "offset": [
+          9,
+          -47
+        ],
+        "sourceOffset": 150486,
+        "sourceBytes": 5278,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          58,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "b41ba8dde6635bcc5f7600c771c1b9ea1f4ca479ff0fc7a6206a5273855c1372",
+        "rect": [
+          1537,
+          129,
+          60,
+          70
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          19,
+          -47
+        ],
+        "sourceOffset": 36486,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "b4c4f07dd37fb0fc670985170f495ce7b95b0ca72714055a8163e65b607fd00a",
+        "rect": [
+          1537,
+          129,
+          8,
+          10
+        ]
+      },
+      "bank": "idle_NW"
+    },
+    {
+      "source_id": 30,
+      "action": "idle",
+      "direction": 7,
+      "texture": "res://assets/earth/hero_preview_v7/idle_NW.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          70
+        ],
+        "offset": [
+          10,
+          -47
+        ],
+        "sourceOffset": 155768,
+        "sourceBytes": 4998,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          56,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "c4b60d65f55c6353eb169233fafd65a4d86b8896d26b93111c4e6786b967a290",
+        "rect": [
+          1665,
+          129,
+          56,
+          70
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          19,
+          -47
+        ],
+        "sourceOffset": 37648,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "cf382663a923bf5229fe5d3226bcf848854b73b887ab86c8dce4098c14b442c4",
+        "rect": [
+          1665,
+          129,
+          8,
+          10
+        ]
+      },
+      "bank": "idle_NW"
+    },
+    {
+      "source_id": 31,
+      "action": "idle",
+      "direction": 7,
+      "texture": "res://assets/earth/hero_preview_v7/idle_NW.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          70
+        ],
+        "offset": [
+          10,
+          -47
+        ],
+        "sourceOffset": 160770,
+        "sourceBytes": 4998,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          56,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "ae8917380107c55de2627be3be7a33b17e9c3078093b5e8911c5dd671df47f1d",
+        "rect": [
+          1793,
+          129,
+          56,
+          70
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          19,
+          -47
+        ],
+        "sourceOffset": 38810,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "2b343b82f44e81f7cbade0944d7d7dbed57a443b4a71464c2e98a83175c97b6f",
+        "rect": [
+          1793,
+          129,
+          8,
+          10
+        ]
+      },
+      "bank": "idle_NW"
+    },
+    {
+      "source_id": 32,
+      "action": "idle",
+      "direction": 7,
+      "texture": "res://assets/earth/hero_preview_v7/idle_NW.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          70
+        ],
+        "offset": [
+          10,
+          -47
+        ],
+        "sourceOffset": 165772,
+        "sourceBytes": 4998,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          56,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "df6c8ddc79f4328acac44b3251aae0e6a84bb65e3db214decfe9528529e0d2c9",
+        "rect": [
+          1921,
+          129,
+          56,
+          70
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          19,
+          -47
+        ],
+        "sourceOffset": 39972,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "c2782867ef468709fc34875000c06be9cff3eed2c8ddb800952f90589aaeda69",
+        "rect": [
+          1921,
+          129,
+          8,
+          10
+        ]
+      },
+      "bank": "idle_NW"
+    },
+    {
+      "source_id": 33,
+      "action": "walk",
+      "direction": 0,
+      "texture": "res://assets/earth/hero_preview_v7/walk_N.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          78
+        ],
+        "offset": [
+          8,
+          -48
+        ],
+        "sourceOffset": 170774,
+        "sourceBytes": 5758,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          60,
+          78
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "931b565e2343fcc0275836464e909898c437c8814679e90532c9f0de66dd6991",
+        "rect": [
+          1,
+          257,
+          60,
+          78
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 41134,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "48796cc444848a77c3574567ec1ced59f7736f368138441d7ae0a20927a43cc0",
+        "rect": [
+          1,
+          257,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_N"
+    },
+    {
+      "source_id": 34,
+      "action": "walk",
+      "direction": 0,
+      "texture": "res://assets/earth/hero_preview_v7/walk_N.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          74
+        ],
+        "offset": [
+          8,
+          -48
+        ],
+        "sourceOffset": 176536,
+        "sourceBytes": 5518,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          60,
+          74
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "2414b3a3cd3489e51ca731251e0693afd72dad03885add09fa150aa5df0525d1",
+        "rect": [
+          129,
+          257,
+          60,
+          74
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -48
+        ],
+        "sourceOffset": 42296,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "18748ad73b2343a9d60abbff971ac181702fc7384b1ac9321c0b462dd866e219",
+        "rect": [
+          129,
+          257,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_N"
+    },
+    {
+      "source_id": 35,
+      "action": "walk",
+      "direction": 0,
+      "texture": "res://assets/earth/hero_preview_v7/walk_N.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          72
+        ],
+        "offset": [
+          7,
+          -48
+        ],
+        "sourceOffset": 182058,
+        "sourceBytes": 5686,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          62,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "db6db3731af13042739af5e16eddfdfc42f9ce001d2dd6fe7cf24cca47919230",
+        "rect": [
+          257,
+          257,
+          64,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 43458,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "1cc704df3f53b625b1911fed52214d499762c8711e6f3775673fd6020132b2f3",
+        "rect": [
+          257,
+          257,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_N"
+    },
+    {
+      "source_id": 36,
+      "action": "walk",
+      "direction": 0,
+      "texture": "res://assets/earth/hero_preview_v7/walk_N.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          78
+        ],
+        "offset": [
+          7,
+          -48
+        ],
+        "sourceOffset": 187748,
+        "sourceBytes": 6070,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          61,
+          78
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "eeaba7de7452d8f637c83adc5c0363a85eb9e967427fe081d0a6cf64dfa9ab06",
+        "rect": [
+          385,
+          257,
+          64,
+          78
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 44620,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "524efb2a49b09a25af73df9f7f09883e6947569187dbc5ed86388de041c94688",
+        "rect": [
+          385,
+          257,
+          8,
+          11
+        ]
+      },
+      "bank": "walk_N"
+    },
+    {
+      "source_id": 37,
+      "action": "walk",
+      "direction": 0,
+      "texture": "res://assets/earth/hero_preview_v7/walk_N.png",
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          74
+        ],
+        "offset": [
+          7,
+          -48
+        ],
+        "sourceOffset": 193822,
+        "sourceBytes": 5814,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          61,
+          74
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "ae347f5f6a161acf296b25c302e120bab10542dc199017f6178a63f4553818ab",
+        "rect": [
+          513,
+          257,
+          64,
+          74
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -48
+        ],
+        "sourceOffset": 45790,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "bf0ef3d5f2209ffe3df5fc1ec94ee6eaa00f724ceed907cff90b6b010da008e9",
+        "rect": [
+          513,
+          257,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_N"
+    },
+    {
+      "source_id": 38,
+      "action": "walk",
+      "direction": 0,
+      "texture": "res://assets/earth/hero_preview_v7/walk_N.png",
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          72
+        ],
+        "offset": [
+          7,
+          -48
+        ],
+        "sourceOffset": 199640,
+        "sourceBytes": 5686,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          62,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "fbc4b0981860498bf5b89f2b20c2d279f19e774a41f1aa647757134593e338ea",
+        "rect": [
+          641,
+          257,
+          64,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 46952,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "ffb6dfdc9aacd98ea2375304e0324b62c3650a45079df82b8ddbba0dea6ca6e8",
+        "rect": [
+          641,
+          257,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_N"
+    },
+    {
+      "source_id": 39,
+      "action": "walk",
+      "direction": 1,
+      "texture": "res://assets/earth/hero_preview_v7/walk_NE.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          72
+        ],
+        "offset": [
+          6,
+          -48
+        ],
+        "sourceOffset": 205330,
+        "sourceBytes": 5398,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          60,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "731933304637333a0dd2fc56315038755bc4c951272bdbb3d67f3ac76132dcc4",
+        "rect": [
+          769,
+          257,
+          60,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          21,
+          -49
+        ],
+        "sourceOffset": 48114,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "cfcb8a6709af8e8e27b2fa0c8ce0d91470edff7f3b7d63271faa865b1b76b007",
+        "rect": [
+          769,
+          257,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_NE"
+    },
+    {
+      "source_id": 40,
+      "action": "walk",
+      "direction": 1,
+      "texture": "res://assets/earth/hero_preview_v7/walk_NE.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          70
+        ],
+        "offset": [
+          9,
+          -48
+        ],
+        "sourceOffset": 210732,
+        "sourceBytes": 5278,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          57,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "efb33b645ebc161aaa9f4092e0245080007eca34bcc7e7f5f164f3e2c1ce1156",
+        "rect": [
+          897,
+          257,
+          60,
+          70
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 49276,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "265c6667bddcab6f4bc0f95c2aeb4ad546a9651461e06d0508a94e379d0b57a2",
+        "rect": [
+          897,
+          257,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_NE"
+    },
+    {
+      "source_id": 41,
+      "action": "walk",
+      "direction": 1,
+      "texture": "res://assets/earth/hero_preview_v7/walk_NE.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          72
+        ],
+        "offset": [
+          7,
+          -49
+        ],
+        "sourceOffset": 216014,
+        "sourceBytes": 5398,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          60,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "ab033f49718831f24a0b7e1b19ee0722dfe4d00bb1a7a6f17eb913dc1e93da43",
+        "rect": [
+          1025,
+          257,
+          60,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          21,
+          -49
+        ],
+        "sourceOffset": 50438,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "223c90dfcce2256d9660e5827227aacaf188a2f3d1bef71823707c5200d1de3b",
+        "rect": [
+          1025,
+          257,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_NE"
+    },
+    {
+      "source_id": 42,
+      "action": "walk",
+      "direction": 1,
+      "texture": "res://assets/earth/hero_preview_v7/walk_NE.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          76
+        ],
+        "offset": [
+          5,
+          -48
+        ],
+        "sourceOffset": 221416,
+        "sourceBytes": 5942,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          61,
+          76
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "3018c718c48113cb8f598c460a884eec3fd3a8f654bdceaa8ce135887c83cad5",
+        "rect": [
+          1153,
+          257,
+          64,
+          76
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          21,
+          -49
+        ],
+        "sourceOffset": 51600,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "b73c44c38df16febcf86d81937defe42212e442b701ff5f3b92a473eb344833e",
+        "rect": [
+          1153,
+          257,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_NE"
+    },
+    {
+      "source_id": 43,
+      "action": "walk",
+      "direction": 1,
+      "texture": "res://assets/earth/hero_preview_v7/walk_NE.png",
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          73
+        ],
+        "offset": [
+          7,
+          -48
+        ],
+        "sourceOffset": 227362,
+        "sourceBytes": 5458,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          59,
+          73
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "17789aa2bd2b0c4fe0c28c671ca45b30db992ad496aec242b0eb62a9f649f6ec",
+        "rect": [
+          1281,
+          257,
+          60,
+          73
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 52762,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "68fc00b75876ca05b9b50cef177cac8488ef65f7dde0e4369e62b16bd9b49546",
+        "rect": [
+          1281,
+          257,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_NE"
+    },
+    {
+      "source_id": 44,
+      "action": "walk",
+      "direction": 1,
+      "texture": "res://assets/earth/hero_preview_v7/walk_NE.png",
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          71
+        ],
+        "offset": [
+          10,
+          -49
+        ],
+        "sourceOffset": 232824,
+        "sourceBytes": 5054,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          56,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "603613249010f34e3890ca79ad1462173f5a109114faf57b92f1b7b356f10bf9",
+        "rect": [
+          1409,
+          257,
+          56,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 53924,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "def3560dc48b7575b51abda2ba53ecbec74de922baee520d82e8a3a8c76d28bc",
+        "rect": [
+          1409,
+          257,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_NE"
+    },
+    {
+      "source_id": 45,
+      "action": "walk",
+      "direction": 2,
+      "texture": "res://art_source/earth_e45_vertical_leg_research_v1/45-HD4-CLOTH-CLEANED-RESEARCH.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          69
+        ],
+        "offset": [
+          3,
+          -47
+        ],
+        "sourceOffset": 237882,
+        "sourceBytes": 5494,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          64,
+          69
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "94c010ded9d112bb4bee58b323f2da4f038563f034184f0f0af08edf7b363829",
+        "rect": [
+          1537,
+          257,
+          64,
+          69
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          9
+        ],
+        "offset": [
+          20,
+          -48
+        ],
+        "sourceOffset": 55086,
+        "sourceBytes": 1186,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          10,
+          9
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "c6db9ae7e8e80a5a64e72aad5e179890ff35a6f77c310da0a8dcb6fb6f3b4eb1",
+        "rect": [
+          1537,
+          257,
+          12,
+          9
+        ]
+      },
+      "bank": "e_walk_existing_research"
+    },
+    {
+      "source_id": 46,
+      "action": "walk",
+      "direction": 2,
+      "texture": "res://art_source/earth_e_walk_layered_research_v1/46-HD4-RESEARCH.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          70
+        ],
+        "offset": [
+          7,
+          -47
+        ],
+        "sourceOffset": 243380,
+        "sourceBytes": 5278,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          59,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "ff0785fb7901cb237ee00469ada7be564d4be4b2f91ba7138ca44f897132d27e",
+        "rect": [
+          1665,
+          257,
+          60,
+          70
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          9
+        ],
+        "offset": [
+          19,
+          -48
+        ],
+        "sourceOffset": 56276,
+        "sourceBytes": 1186,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          10,
+          9
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "ab761321b5971872cd3afcc8284a03aaa0d2d33c0c91c297db1d3cda804235d1",
+        "rect": [
+          1665,
+          257,
+          12,
+          9
+        ]
+      },
+      "bank": "e_walk_existing_research"
+    },
+    {
+      "source_id": 47,
+      "action": "walk",
+      "direction": 2,
+      "texture": "res://art_source/earth_e_walk_layered_research_v1/47-HD4-RESEARCH.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          71
+        ],
+        "offset": [
+          14,
+          -48
+        ],
+        "sourceOffset": 248662,
+        "sourceBytes": 5054,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          54,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "0c278b69c8ae1c55deba174a5992f0e99af3e67d56a4c581e9c0ab4ab339dc05",
+        "rect": [
+          1793,
+          257,
+          56,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 57466,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "00f002cb0635245fef683c4b3d7529d84b71e87bde8bbd599af9924bfcd00410",
+        "rect": [
+          1793,
+          257,
+          12,
+          10
+        ]
+      },
+      "bank": "e_walk_existing_research"
+    },
+    {
+      "source_id": 48,
+      "action": "walk",
+      "direction": 2,
+      "texture": "res://art_source/earth_e48_vertical_leg_research_v1/48-HD4-BOUNDED-DONOR-DIAGNOSTIC.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          69
+        ],
+        "offset": [
+          3,
+          -47
+        ],
+        "sourceOffset": 253720,
+        "sourceBytes": 5494,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          64,
+          69
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "c83d42db2380fc1a7eb7334ca82bd4d43907c0712f85a2e208cee7e18d7f0426",
+        "rect": [
+          1921,
+          257,
+          64,
+          69
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          20,
+          -48
+        ],
+        "sourceOffset": 58668,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          10,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "d7aa05892f16be1f602ae69cdaff56e93c4862c9541885318bec2727fe8783ec",
+        "rect": [
+          1921,
+          257,
+          12,
+          10
+        ]
+      },
+      "bank": "e_walk_existing_research"
+    },
+    {
+      "source_id": 49,
+      "action": "walk",
+      "direction": 2,
+      "texture": "res://art_source/earth_e_walk_layered_research_v1/49-HD4-RESEARCH.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          69
+        ],
+        "offset": [
+          7,
+          -47
+        ],
+        "sourceOffset": 259218,
+        "sourceBytes": 5218,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          59,
+          69
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "acb348179d335f67f57d177179fddeaf9b9cd536dd483a6ee06be036e6332a18",
+        "rect": [
+          1,
+          385,
+          60,
+          69
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          19,
+          -48
+        ],
+        "sourceOffset": 59870,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          10,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "65756a2385e31586768d60f9a3eb9b3efa533b6a172a4b144540f1054a96d621",
+        "rect": [
+          1,
+          385,
+          12,
+          10
+        ]
+      },
+      "bank": "e_walk_existing_research"
+    },
+    {
+      "source_id": 50,
+      "action": "walk",
+      "direction": 2,
+      "texture": "res://art_source/earth_e_walk_layered_research_v1/50-HD4-RESEARCH.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          70
+        ],
+        "offset": [
+          13,
+          -48
+        ],
+        "sourceOffset": 264440,
+        "sourceBytes": 4998,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          54,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "5582fb40a6b6a34a3a3a8bf093079713055738092b5d977996b47d89d091adfb",
+        "rect": [
+          129,
+          385,
+          56,
+          70
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 61072,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "4b388d39444a4995587358f9c95ed8fc5a76068fa9612ffd6196b612c54a5261",
+        "rect": [
+          129,
+          385,
+          12,
+          10
+        ]
+      },
+      "bank": "e_walk_existing_research"
+    },
+    {
+      "source_id": 51,
+      "action": "walk",
+      "direction": 3,
+      "texture": "res://assets/earth/hero/se_walk_v1/body.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          73
+        ],
+        "offset": [
+          6,
+          -46
+        ],
+        "sourceOffset": 269442,
+        "sourceBytes": 5750,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          61,
+          73
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "a7c9f517ca94962b77fb5e223b75e636bb8d865ba97d606d1dd75f641a6f091c",
+        "rect": [
+          257,
+          385,
+          64,
+          73
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          21,
+          -48
+        ],
+        "sourceOffset": 62274,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "0d21f2f3ed930ac949f0125cbb281398c9e17e65feb100a527503bfaa91b6df2",
+        "rect": [
+          257,
+          385,
+          8,
+          11
+        ]
+      },
+      "bank": "se_walk_v1"
+    },
+    {
+      "source_id": 52,
+      "action": "walk",
+      "direction": 3,
+      "texture": "res://assets/earth/hero/se_walk_v1/body.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          73
+        ],
+        "offset": [
+          7,
+          -47
+        ],
+        "sourceOffset": 275196,
+        "sourceBytes": 5458,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          59,
+          73
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "2cb9f225fa6e71ef253cc06cbf5feab4b85606e5edfd33f2165e0cc9cabd867a",
+        "rect": [
+          385,
+          385,
+          60,
+          73
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          21,
+          -49
+        ],
+        "sourceOffset": 63444,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "6aa67f128ecf1c4ba9fcab11f7bc7265d3174df23d95431bdea4cdf3376cbf45",
+        "rect": [
+          385,
+          385,
+          8,
+          11
+        ]
+      },
+      "bank": "se_walk_v1"
+    },
+    {
+      "source_id": 53,
+      "action": "walk",
+      "direction": 3,
+      "texture": "res://assets/earth/hero/se_walk_v1/body.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          69
+        ],
+        "offset": [
+          11,
+          -47
+        ],
+        "sourceOffset": 280658,
+        "sourceBytes": 4942,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          56,
+          69
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "5b4cecd3c119a680b185414f5c671a5b9cebcfd01b8a6c3dbf197a3beb73d028",
+        "rect": [
+          513,
+          385,
+          56,
+          69
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          21,
+          -48
+        ],
+        "sourceOffset": 64614,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "0277d3e0fbe09025b050e92f57af7c43c0fe021fb7208f18e6da59b73fb0610d",
+        "rect": [
+          513,
+          385,
+          8,
+          11
+        ]
+      },
+      "bank": "se_walk_v1"
+    },
+    {
+      "source_id": 54,
+      "action": "walk",
+      "direction": 3,
+      "texture": "res://assets/earth/hero/se_walk_v1/body.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          69
+        ],
+        "offset": [
+          7,
+          -46
+        ],
+        "sourceOffset": 285604,
+        "sourceBytes": 5218,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          60,
+          69
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "a655a75f44bb09ebb6a091530a87e8baae7fdeca1154e7a84d56ee250e2b85e8",
+        "rect": [
+          641,
+          385,
+          60,
+          69
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          11
+        ],
+        "offset": [
+          20,
+          -48
+        ],
+        "sourceOffset": 65784,
+        "sourceBytes": 1210,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "4cf9a299e086e223e50b68a1b7a7e72b660251e293de6a4c0ce9716efe111411",
+        "rect": [
+          641,
+          385,
+          12,
+          11
+        ]
+      },
+      "bank": "se_walk_v1"
+    },
+    {
+      "source_id": 55,
+      "action": "walk",
+      "direction": 3,
+      "texture": "res://assets/earth/hero/se_walk_v1/body.png",
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          69
+        ],
+        "offset": [
+          10,
+          -47
+        ],
+        "sourceOffset": 290826,
+        "sourceBytes": 4942,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          56,
+          69
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "6482013264e1ff134e3302d1a0e2022acb841ecee26290a14f02d28baaea31ec",
+        "rect": [
+          769,
+          385,
+          56,
+          69
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          21,
+          -48
+        ],
+        "sourceOffset": 66998,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "fb6aa2cd03f1c8b504f1203f8d9059bcd0c4efe2752c68661986484b39d078de",
+        "rect": [
+          769,
+          385,
+          8,
+          11
+        ]
+      },
+      "bank": "se_walk_v1"
+    },
+    {
+      "source_id": 56,
+      "action": "walk",
+      "direction": 3,
+      "texture": "res://assets/earth/hero/se_walk_v1/body.png",
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          72
+        ],
+        "offset": [
+          8,
+          -47
+        ],
+        "sourceOffset": 295772,
+        "sourceBytes": 5398,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          58,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "59389424a92d9a746315d4b360b8caaa35baa193107fcb61278cd5ab5cbe67c9",
+        "rect": [
+          897,
+          385,
+          60,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          21,
+          -49
+        ],
+        "sourceOffset": 68168,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "051882d0144598b02cb33b809851da02b16dd9ad59c218f285406234c216b351",
+        "rect": [
+          897,
+          385,
+          8,
+          11
+        ]
+      },
+      "bank": "se_walk_v1"
+    },
+    {
+      "source_id": 57,
+      "action": "walk",
+      "direction": 4,
+      "texture": "res://assets/earth/hero/s_walk_arap_v1/mesh-57.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          74
+        ],
+        "offset": [
+          8,
+          -46
+        ],
+        "sourceOffset": 301174,
+        "sourceBytes": 5814,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          61,
+          74
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "8a58e49a1e549bc811be76b159603927cc62d8bdab5369e13b17c9910fbf6058",
+        "rect": [
+          1025,
+          385,
+          64,
+          74
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          12
+        ],
+        "offset": [
+          20,
+          -48
+        ],
+        "sourceOffset": 69338,
+        "sourceBytes": 1174,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          12
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "3c562cab8f9296fd4de11d07d09430761e02956b61e428b3f5d1a40d2b95e82e",
+        "rect": [
+          1025,
+          385,
+          8,
+          12
+        ]
+      },
+      "bank": "s_walk_existing_arap_candidate"
+    },
+    {
+      "source_id": 58,
+      "action": "walk",
+      "direction": 4,
+      "texture": "res://assets/earth/hero/s_walk_arap_v1/mesh-58.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          72
+        ],
+        "offset": [
+          8,
+          -47
+        ],
+        "sourceOffset": 306992,
+        "sourceBytes": 5686,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          61,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "8889bf7d9ceedfb412f74d95e6c02fc4fa0359c15ec89733014485bd101a97e7",
+        "rect": [
+          1153,
+          385,
+          64,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          21,
+          -49
+        ],
+        "sourceOffset": 70516,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "33b902f700a3eef261740e7124f13b83da4130f423f76d5e6485783b8ed9ea8f",
+        "rect": [
+          1153,
+          385,
+          8,
+          11
+        ]
+      },
+      "bank": "s_walk_existing_arap_candidate"
+    },
+    {
+      "source_id": 59,
+      "action": "walk",
+      "direction": 4,
+      "texture": "res://assets/earth/hero/s_walk_arap_v1/mesh-59.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          72
+        ],
+        "offset": [
+          7,
+          -47
+        ],
+        "sourceOffset": 312682,
+        "sourceBytes": 5686,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          62,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "43b1e5d8a6029ba6f1078d8bf8747b614fb6a9ddcdf26326a2325aeae6856d3b",
+        "rect": [
+          1281,
+          385,
+          64,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          21,
+          -49
+        ],
+        "sourceOffset": 71686,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          6,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "0e8e950f8be09adcad6461b0a537bcdc3957f0cbd1bc342b934a58c1df0056ea",
+        "rect": [
+          1281,
+          385,
+          8,
+          11
+        ]
+      },
+      "bank": "s_walk_existing_arap_candidate"
+    },
+    {
+      "source_id": 60,
+      "action": "walk",
+      "direction": 4,
+      "texture": "res://assets/earth/hero/s_walk_arap_v1/mesh-60.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          74
+        ],
+        "offset": [
+          8,
+          -46
+        ],
+        "sourceOffset": 318372,
+        "sourceBytes": 5518,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          60,
+          74
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "c074fb6c23ad2f7f20db47600104329e6ab5536c786a571f5f447a246e5a4fe5",
+        "rect": [
+          1409,
+          385,
+          60,
+          74
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          12
+        ],
+        "offset": [
+          21,
+          -48
+        ],
+        "sourceOffset": 72856,
+        "sourceBytes": 1174,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          6,
+          12
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "e0cd51b56f3c454db66122fcdd93d2b766ba8d9eb1e79efab8a1904252a12d8a",
+        "rect": [
+          1409,
+          385,
+          8,
+          12
+        ]
+      },
+      "bank": "s_walk_existing_arap_candidate"
+    },
+    {
+      "source_id": 61,
+      "action": "walk",
+      "direction": 4,
+      "texture": "res://assets/earth/hero/s_walk_arap_v1/mesh-61.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          72
+        ],
+        "offset": [
+          8,
+          -47
+        ],
+        "sourceOffset": 323894,
+        "sourceBytes": 5686,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          61,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "b919356d2151ded72ebe8282d6e9abd47c74f7246d51fc5a2da72f5b8a4e924f",
+        "rect": [
+          1537,
+          385,
+          64,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          12
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 74034,
+        "sourceBytes": 1174,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          12
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "a45cbda8a8cdad158ede94bbe35a507cd5d40e4cd5107b7f09dd6a037c1db3a0",
+        "rect": [
+          1537,
+          385,
+          8,
+          12
+        ]
+      },
+      "bank": "s_walk_existing_arap_candidate"
+    },
+    {
+      "source_id": 62,
+      "action": "walk",
+      "direction": 4,
+      "texture": "res://assets/earth/hero/s_walk_arap_v1/mesh-62.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          71
+        ],
+        "offset": [
+          8,
+          -47
+        ],
+        "sourceOffset": 329584,
+        "sourceBytes": 5622,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          61,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "32127b4a4ad963fe0b62475a1a4db7c2588f903566fd3031006acba48d4bef5b",
+        "rect": [
+          1665,
+          385,
+          64,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          12
+        ],
+        "offset": [
+          21,
+          -49
+        ],
+        "sourceOffset": 75212,
+        "sourceBytes": 1174,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          6,
+          12
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "d1017ebb704a730e11241454544b1463d81c5191e6033c9bc052f4492cc6ef9e",
+        "rect": [
+          1665,
+          385,
+          8,
+          12
+        ]
+      },
+      "bank": "s_walk_existing_arap_candidate"
+    },
+    {
+      "source_id": 63,
+      "action": "walk",
+      "direction": 5,
+      "texture": "res://assets/earth/hero_preview_v7/walk_SW.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          69
+        ],
+        "offset": [
+          5,
+          -47
+        ],
+        "sourceOffset": 335210,
+        "sourceBytes": 5218,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          60,
+          69
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "f731fc895541dfb10fb556328d334ef32d2f074fa3501d1f51e592490e061358",
+        "rect": [
+          1793,
+          385,
+          60,
+          69
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          19,
+          -48
+        ],
+        "sourceOffset": 76390,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "f34b2037a1bef382d2c96c2d4bf24aefcd97bcae7c70f9c5aca9140d85e7225d",
+        "rect": [
+          1793,
+          385,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_SW"
+    },
+    {
+      "source_id": 64,
+      "action": "walk",
+      "direction": 5,
+      "texture": "res://assets/earth/hero_preview_v7/walk_SW.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          68
+        ],
+        "offset": [
+          13,
+          -47
+        ],
+        "sourceOffset": 340432,
+        "sourceBytes": 4886,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          53,
+          68
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "4c24c8a940a41e0dd67b420717a879b2693a16f4c0012a4c4ac6674e8a579f99",
+        "rect": [
+          1921,
+          385,
+          56,
+          68
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 77552,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "fda2d56bbd73e9b6e0b653d9a4fce1d47f37befe790c2b8998ff33e3df8e8bda",
+        "rect": [
+          1921,
+          385,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_SW"
+    },
+    {
+      "source_id": 65,
+      "action": "walk",
+      "direction": 5,
+      "texture": "res://assets/earth/hero_preview_v7/walk_SW.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          72
+        ],
+        "offset": [
+          10,
+          -47
+        ],
+        "sourceOffset": 345322,
+        "sourceBytes": 5110,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          56,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "20d79951acdc735265ae941041f97d73105ea1abc5e79bd0651da5390511e992",
+        "rect": [
+          1,
+          513,
+          56,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          19,
+          -49
+        ],
+        "sourceOffset": 78714,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "7feadf4793ce3ae7d260dc87798cb514b0e4fa87fa2e84e7cf42c257779e7f17",
+        "rect": [
+          1,
+          513,
+          8,
+          11
+        ]
+      },
+      "bank": "walk_SW"
+    },
+    {
+      "source_id": 66,
+      "action": "walk",
+      "direction": 5,
+      "texture": "res://assets/earth/hero_preview_v7/walk_SW.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          74
+        ],
+        "offset": [
+          7,
+          -47
+        ],
+        "sourceOffset": 350436,
+        "sourceBytes": 5518,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          59,
+          74
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "5c82fcedf527de982cf6089727ed75c87a78bd6a80c7c499840e7ec18db880e8",
+        "rect": [
+          129,
+          513,
+          60,
+          74
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          18,
+          -48
+        ],
+        "sourceOffset": 79884,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "f1e2ec0f94c17fa6e6273c9639eb0d78d9476f00929ba9e2e0969fdf1cc07ed7",
+        "rect": [
+          129,
+          513,
+          12,
+          10
+        ]
+      },
+      "bank": "walk_SW"
+    },
+    {
+      "source_id": 67,
+      "action": "walk",
+      "direction": 5,
+      "texture": "res://assets/earth/hero_preview_v7/walk_SW.png",
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          72
+        ],
+        "offset": [
+          11,
+          -47
+        ],
+        "sourceOffset": 355958,
+        "sourceBytes": 5110,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          56,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "71388115b28d3cd142fa09792151332382376da9fd02ac1c88c0a2684e758c4a",
+        "rect": [
+          257,
+          513,
+          56,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          19,
+          -49
+        ],
+        "sourceOffset": 81086,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "b0475cc419b3e6967c8d32029c178e601275716ec6cc9d9d615c2dc65c24345a",
+        "rect": [
+          257,
+          513,
+          12,
+          10
+        ]
+      },
+      "bank": "walk_SW"
+    },
+    {
+      "source_id": 68,
+      "action": "walk",
+      "direction": 5,
+      "texture": "res://assets/earth/hero_preview_v7/walk_SW.png",
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          69
+        ],
+        "offset": [
+          10,
+          -47
+        ],
+        "sourceOffset": 361072,
+        "sourceBytes": 4942,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          56,
+          69
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "b53f4fd2c03d1df342703fb38c88e71a0d75be39f2f801471526d4b5cc752c62",
+        "rect": [
+          385,
+          513,
+          56,
+          69
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          19,
+          -49
+        ],
+        "sourceOffset": 82288,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "349242bbd2ddb21ab91458580e440a0c4ba8b8fb8b75fda0ba4e010d47a6a1a3",
+        "rect": [
+          385,
+          513,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_SW"
+    },
+    {
+      "source_id": 69,
+      "action": "walk",
+      "direction": 6,
+      "texture": "res://assets/earth/hero_preview_v7/walk_W.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          69
+        ],
+        "offset": [
+          3,
+          -47
+        ],
+        "sourceOffset": 366018,
+        "sourceBytes": 5218,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          60,
+          69
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "726de16f7ccf2bcf89d1c3d6519c96e6afff9425b964bd6c561e85e33fdb5e3c",
+        "rect": [
+          513,
+          513,
+          60,
+          69
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          18,
+          -48
+        ],
+        "sourceOffset": 83450,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "55c46b9f57831780043d05e6ce2c6e15c02205f8cd77adb4c284efea5a84f80e",
+        "rect": [
+          513,
+          513,
+          12,
+          10
+        ]
+      },
+      "bank": "walk_W"
+    },
+    {
+      "source_id": 70,
+      "action": "walk",
+      "direction": 6,
+      "texture": "res://assets/earth/hero_preview_v7/walk_W.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          52,
+          69
+        ],
+        "offset": [
+          14,
+          -47
+        ],
+        "sourceOffset": 371240,
+        "sourceBytes": 4666,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          51,
+          69
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "2477ad3b4c8243778edee95243eb30f32d78d7bedcbfa1ec302f867f7c385ebe",
+        "rect": [
+          641,
+          513,
+          52,
+          69
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          11
+        ],
+        "offset": [
+          19,
+          -48
+        ],
+        "sourceOffset": 84652,
+        "sourceBytes": 1210,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "a00c77c17653ed629ed0001a901516d969ef3890ea02f95d56f3369b756229ff",
+        "rect": [
+          641,
+          513,
+          12,
+          11
+        ]
+      },
+      "bank": "walk_W"
+    },
+    {
+      "source_id": 71,
+      "action": "walk",
+      "direction": 6,
+      "texture": "res://assets/earth/hero_preview_v7/walk_W.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          69
+        ],
+        "offset": [
+          11,
+          -47
+        ],
+        "sourceOffset": 375910,
+        "sourceBytes": 4942,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          53,
+          69
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "78239650de430df41afd32aacd5f1c4b62c92a4d63d2cfb2513aea57e8d6f21d",
+        "rect": [
+          769,
+          513,
+          56,
+          69
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          18,
+          -48
+        ],
+        "sourceOffset": 85866,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          10,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "807a940bc89c5a08f275b43d9c13752002cdf9231f95e72aa78c1aaf6a71c2c3",
+        "rect": [
+          769,
+          513,
+          12,
+          10
+        ]
+      },
+      "bank": "walk_W"
+    },
+    {
+      "source_id": 72,
+      "action": "walk",
+      "direction": 6,
+      "texture": "res://assets/earth/hero_preview_v7/walk_W.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          68
+        ],
+        "offset": [
+          3,
+          -46
+        ],
+        "sourceOffset": 380856,
+        "sourceBytes": 5158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          60,
+          68
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "1d25006318ed2eb5fa8ac6b8682f4055b67a2b5d6f2a08c41e90af9b6ed3495e",
+        "rect": [
+          897,
+          513,
+          60,
+          68
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          11
+        ],
+        "offset": [
+          18,
+          -48
+        ],
+        "sourceOffset": 87068,
+        "sourceBytes": 1210,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "39a18236875e550efa4569cc2fe6ee19fd801b951a49116fa30150ca11409f21",
+        "rect": [
+          897,
+          513,
+          12,
+          11
+        ]
+      },
+      "bank": "walk_W"
+    },
+    {
+      "source_id": 73,
+      "action": "walk",
+      "direction": 6,
+      "texture": "res://assets/earth/hero_preview_v7/walk_W.png",
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          52,
+          71
+        ],
+        "offset": [
+          14,
+          -47
+        ],
+        "sourceOffset": 386018,
+        "sourceBytes": 4770,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          51,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "586e04bc8757dbdd4baa4bdc0b305633d8f7905c8e881deda8347ada1b0a8b5d",
+        "rect": [
+          1025,
+          513,
+          52,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          19,
+          -48
+        ],
+        "sourceOffset": 88282,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "446956522bede566c8b269ddd83838f4cc81d55351b77e3933d83c9fb3b2e92f",
+        "rect": [
+          1025,
+          513,
+          12,
+          10
+        ]
+      },
+      "bank": "walk_W"
+    },
+    {
+      "source_id": 74,
+      "action": "walk",
+      "direction": 6,
+      "texture": "res://assets/earth/hero_preview_v7/walk_W.png",
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          70
+        ],
+        "offset": [
+          11,
+          -47
+        ],
+        "sourceOffset": 390792,
+        "sourceBytes": 4998,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          53,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "7719c6b4e12fe3ebc1ffb94da0e9b3c0de82c5a026fad1ef6ab570ba407b8a95",
+        "rect": [
+          1153,
+          513,
+          56,
+          70
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          19,
+          -48
+        ],
+        "sourceOffset": 89484,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "e61b68f1e67e8a1b5b103918422d2861007baaf9d4bf0ce209a591209d295e15",
+        "rect": [
+          1153,
+          513,
+          12,
+          10
+        ]
+      },
+      "bank": "walk_W"
+    },
+    {
+      "source_id": 75,
+      "action": "walk",
+      "direction": 7,
+      "texture": "res://assets/earth/hero_preview_v7/walk_NW.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          76
+        ],
+        "offset": [
+          7,
+          -47
+        ],
+        "sourceOffset": 395794,
+        "sourceBytes": 5638,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          59,
+          76
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "53127281d8bf421df29178e5411999e218af8d2be2a6b32952717b2e7c5984b3",
+        "rect": [
+          1281,
+          513,
+          60,
+          76
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          19,
+          -47
+        ],
+        "sourceOffset": 90686,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "be8f8f23b8a245ec05ba920bbd4a2d8dccfc80ee506dfb24f1142a79b8be60eb",
+        "rect": [
+          1281,
+          513,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_NW"
+    },
+    {
+      "source_id": 76,
+      "action": "walk",
+      "direction": 7,
+      "texture": "res://assets/earth/hero_preview_v7/walk_NW.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          73
+        ],
+        "offset": [
+          11,
+          -46
+        ],
+        "sourceOffset": 401436,
+        "sourceBytes": 5166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          56,
+          73
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "04f70620fe5d930e5b5a922ebb6126b14853717ec6b7d1835c951dfc1acc1b80",
+        "rect": [
+          1409,
+          513,
+          56,
+          73
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          19,
+          -47
+        ],
+        "sourceOffset": 91848,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "0a404cab4f9ba32be699433b34cf911bd0bdb8600af8f33e9fff1c16085a7a36",
+        "rect": [
+          1409,
+          513,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_NW"
+    },
+    {
+      "source_id": 77,
+      "action": "walk",
+      "direction": 7,
+      "texture": "res://assets/earth/hero_preview_v7/walk_NW.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          70
+        ],
+        "offset": [
+          9,
+          -47
+        ],
+        "sourceOffset": 406606,
+        "sourceBytes": 4998,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          56,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "9b7d7f41ae8693a305f00bc9e7fbbb3dcc1bf8da51eca170cb89506a70478c09",
+        "rect": [
+          1537,
+          513,
+          56,
+          70
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          19,
+          -48
+        ],
+        "sourceOffset": 93010,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "a303a1999a15e04430d8a1b9a3c17d4ec579aa77d06c6a93105fa76450375704",
+        "rect": [
+          1537,
+          513,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_NW"
+    },
+    {
+      "source_id": 78,
+      "action": "walk",
+      "direction": 7,
+      "texture": "res://assets/earth/hero_preview_v7/walk_NW.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          73
+        ],
+        "offset": [
+          4,
+          -47
+        ],
+        "sourceOffset": 411608,
+        "sourceBytes": 5458,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          60,
+          73
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "20ec64dc3b616b16c1eb350aa29b9dabb74c75c17e2d13a80fd3fd71f6cd102e",
+        "rect": [
+          1665,
+          513,
+          60,
+          73
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          19,
+          -47
+        ],
+        "sourceOffset": 94172,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "e18f97411c698f7ea91cb79332e6023398dcb485380682084f5856aac3e8bbdd",
+        "rect": [
+          1665,
+          513,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_NW"
+    },
+    {
+      "source_id": 79,
+      "action": "walk",
+      "direction": 7,
+      "texture": "res://assets/earth/hero_preview_v7/walk_NW.png",
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          70
+        ],
+        "offset": [
+          12,
+          -46
+        ],
+        "sourceOffset": 417070,
+        "sourceBytes": 4998,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          53,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "b2190f8379f150511d324c26adf65c083ac47f218555c34f50b8c2e5491c1ebc",
+        "rect": [
+          1793,
+          513,
+          56,
+          70
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          19,
+          -47
+        ],
+        "sourceOffset": 95334,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "9f56b7b8e9b85483417f5b09097fc6622d59f9b3911a832edbb67297f3ae8a02",
+        "rect": [
+          1793,
+          513,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_NW"
+    },
+    {
+      "source_id": 80,
+      "action": "walk",
+      "direction": 7,
+      "texture": "res://assets/earth/hero_preview_v7/walk_NW.png",
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          72
+        ],
+        "offset": [
+          9,
+          -47
+        ],
+        "sourceOffset": 422072,
+        "sourceBytes": 5398,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          57,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "1d091dd4c74ec6d43c404d78a886b684db7e3da0397e9628d284168dc1672e3f",
+        "rect": [
+          1921,
+          513,
+          60,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          19,
+          -47
+        ],
+        "sourceOffset": 96496,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "be4286a7159b21f2738628c27ce8666185a557328c96ec776f635b7e3b0e3118",
+        "rect": [
+          1921,
+          513,
+          8,
+          10
+        ]
+      },
+      "bank": "walk_NW"
+    },
+    {
+      "source_id": 81,
+      "action": "run",
+      "direction": 0,
+      "texture": "res://assets/earth/hero_preview_v7/run_N.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          83
+        ],
+        "offset": [
+          9,
+          -48
+        ],
+        "sourceOffset": 427474,
+        "sourceBytes": 6058,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          59,
+          83
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "811cfa7959c36a983a6a056d9e9108de3f8cf0ca8b2b1b452aa5d8e916dfbf78",
+        "rect": [
+          1,
+          641,
+          60,
+          83
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          19,
+          -49
+        ],
+        "sourceOffset": 97658,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "3f263b9afbaf1a40424a349248159e56e30b0a41f071b8ddb7bd9b9300693c70",
+        "rect": [
+          1,
+          641,
+          8,
+          10
+        ]
+      },
+      "bank": "run_N"
+    },
+    {
+      "source_id": 82,
+      "action": "run",
+      "direction": 0,
+      "texture": "res://assets/earth/hero_preview_v7/run_N.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          74
+        ],
+        "offset": [
+          7,
+          -49
+        ],
+        "sourceOffset": 433536,
+        "sourceBytes": 5814,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          61,
+          74
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "59ad7df44f8a91efd7047946809ad0dc242dbcafd6b7801bb5e2d35ced41c7b3",
+        "rect": [
+          129,
+          641,
+          64,
+          74
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -50
+        ],
+        "sourceOffset": 98820,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "8e2e4c6ea7d482068274cc6a16465a1aa633da4dfb2fe8b5cb22a8d443da5975",
+        "rect": [
+          129,
+          641,
+          8,
+          10
+        ]
+      },
+      "bank": "run_N"
+    },
+    {
+      "source_id": 83,
+      "action": "run",
+      "direction": 0,
+      "texture": "res://assets/earth/hero_preview_v7/run_N.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          79
+        ],
+        "offset": [
+          6,
+          -50
+        ],
+        "sourceOffset": 439354,
+        "sourceBytes": 6134,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          63,
+          79
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "73ea177548315d049606b8a60056fb89fef6de74576f4accc5c23e22b37be602",
+        "rect": [
+          257,
+          641,
+          64,
+          79
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -51
+        ],
+        "sourceOffset": 99982,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "91cf2a876ab526f641a94606eb3d59559269e85adff30390b8f11389da47ef1d",
+        "rect": [
+          257,
+          641,
+          8,
+          10
+        ]
+      },
+      "bank": "run_N"
+    },
+    {
+      "source_id": 84,
+      "action": "run",
+      "direction": 0,
+      "texture": "res://assets/earth/hero_preview_v7/run_N.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          83
+        ],
+        "offset": [
+          3,
+          -48
+        ],
+        "sourceOffset": 445492,
+        "sourceBytes": 6390,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          64,
+          83
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "3c2ab5e8d4db624afe60fc6be0d49b3c816bcbe215b80a7ff06feda523eb4361",
+        "rect": [
+          385,
+          641,
+          64,
+          83
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -49
+        ],
+        "sourceOffset": 101144,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "a69894cf21bbdf3fe808bea71dae37a3ca13524b4ae5e6f269dbd858626f16f1",
+        "rect": [
+          385,
+          641,
+          8,
+          10
+        ]
+      },
+      "bank": "run_N"
+    },
+    {
+      "source_id": 85,
+      "action": "run",
+      "direction": 0,
+      "texture": "res://assets/earth/hero_preview_v7/run_N.png",
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          68,
+          74
+        ],
+        "offset": [
+          3,
+          -49
+        ],
+        "sourceOffset": 451886,
+        "sourceBytes": 6110,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          65,
+          74
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "6d9e4afb0b481e7987300d7f1115dbdfebb373f11319008029ba3d7b4155a056",
+        "rect": [
+          513,
+          641,
+          68,
+          74
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -50
+        ],
+        "sourceOffset": 102306,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "618397b8136ddca8b15bc7417f23a6b489e30b977d84715427eeaf4dcdbb3de2",
+        "rect": [
+          513,
+          641,
+          8,
+          10
+        ]
+      },
+      "bank": "run_N"
+    },
+    {
+      "source_id": 86,
+      "action": "run",
+      "direction": 0,
+      "texture": "res://assets/earth/hero_preview_v7/run_N.png",
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          79
+        ],
+        "offset": [
+          8,
+          -50
+        ],
+        "sourceOffset": 458000,
+        "sourceBytes": 6134,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          61,
+          79
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "aeb88779b48ea755a70cd5e5366fdabbbc47360e79b9c95fa0fbf40a50191626",
+        "rect": [
+          641,
+          641,
+          64,
+          79
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          20,
+          -51
+        ],
+        "sourceOffset": 103468,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "ec000015b1352d0b4c88c141ee1d5a48ecfec10e51b67844284352b6ddc1fede",
+        "rect": [
+          641,
+          641,
+          8,
+          10
+        ]
+      },
+      "bank": "run_N"
+    },
+    {
+      "source_id": 87,
+      "action": "run",
+      "direction": 1,
+      "texture": "res://assets/earth/hero_preview_v7/run_NE.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          72,
+          76
+        ],
+        "offset": [
+          -3,
+          -49
+        ],
+        "sourceOffset": 464138,
+        "sourceBytes": 6550,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          69,
+          76
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "f7e9328c7f8f0326cefa1d7709b476dd21d2633a4dab24b5d31a1b4dba16dc19",
+        "rect": [
+          769,
+          641,
+          72,
+          76
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          21,
+          -49
+        ],
+        "sourceOffset": 104630,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "6421dc7adc6598869fea4f8578d270b16d728882e66d9eccbaca90979242ab20",
+        "rect": [
+          769,
+          641,
+          12,
+          10
+        ]
+      },
+      "bank": "run_NE"
+    },
+    {
+      "source_id": 88,
+      "action": "run",
+      "direction": 1,
+      "texture": "res://assets/earth/hero_preview_v7/run_NE.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          72
+        ],
+        "offset": [
+          3,
+          -49
+        ],
+        "sourceOffset": 470692,
+        "sourceBytes": 5686,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          64,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "f8a644b436db0fd2bb07c6ebd491811ec97ca34d371cc09700974c5a8ef88ccf",
+        "rect": [
+          897,
+          641,
+          64,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          22,
+          -50
+        ],
+        "sourceOffset": 105832,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "a63b98dde2828a8a0973e08f650e53d38e40d54627410fc61f6dddc4aa393cac",
+        "rect": [
+          897,
+          641,
+          8,
+          10
+        ]
+      },
+      "bank": "run_NE"
+    },
+    {
+      "source_id": 89,
+      "action": "run",
+      "direction": 1,
+      "texture": "res://assets/earth/hero_preview_v7/run_NE.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          68,
+          78
+        ],
+        "offset": [
+          8,
+          -51
+        ],
+        "sourceOffset": 476382,
+        "sourceBytes": 6382,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          68,
+          78
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "4f87191ccbf194ea1142b5f98a6f40a9e0564f7077497608a281922d29292110",
+        "rect": [
+          1025,
+          641,
+          68,
+          78
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          22,
+          -51
+        ],
+        "sourceOffset": 106994,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "f7d9871c2eb6e1c2d4ced24cb969ab8ae93998500d5d3e943b601284ebacc124",
+        "rect": [
+          1025,
+          641,
+          8,
+          10
+        ]
+      },
+      "bank": "run_NE"
+    },
+    {
+      "source_id": 90,
+      "action": "run",
+      "direction": 1,
+      "texture": "res://assets/earth/hero_preview_v7/run_NE.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          76,
+          80
+        ],
+        "offset": [
+          2,
+          -49
+        ],
+        "sourceOffset": 482768,
+        "sourceBytes": 7158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          75,
+          80
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "58da0e515e69d8723779b5c14d32e62c3074ba824dbc6126ab2d15f5fbb1a747",
+        "rect": [
+          1153,
+          641,
+          76,
+          80
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          22,
+          -49
+        ],
+        "sourceOffset": 108156,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "d96086b6494c9ce0c8f11e662b06631395921e282ae88b606bf473d930f52b02",
+        "rect": [
+          1153,
+          641,
+          8,
+          10
+        ]
+      },
+      "bank": "run_NE"
+    },
+    {
+      "source_id": 91,
+      "action": "run",
+      "direction": 1,
+      "texture": "res://assets/earth/hero_preview_v7/run_NE.png",
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          72
+        ],
+        "offset": [
+          8,
+          -49
+        ],
+        "sourceOffset": 489930,
+        "sourceBytes": 5686,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          64,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "208710131cb12d5d34c04b7b23b136d62817c4d7ed37f221457219bc5d1d9c1e",
+        "rect": [
+          1281,
+          641,
+          64,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          22,
+          -50
+        ],
+        "sourceOffset": 109318,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "c7870cbdc928993d5d5421a8cec454508995870cb0e1196b63a5da720361c5aa",
+        "rect": [
+          1281,
+          641,
+          8,
+          10
+        ]
+      },
+      "bank": "run_NE"
+    },
+    {
+      "source_id": 92,
+      "action": "run",
+      "direction": 1,
+      "texture": "res://assets/earth/hero_preview_v7/run_NE.png",
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          74
+        ],
+        "offset": [
+          8,
+          -51
+        ],
+        "sourceOffset": 495620,
+        "sourceBytes": 5518,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          60,
+          74
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "5841e7a389d2c1eff3761dfaaba2a51de19868822b6aee97b20c1066961168dd",
+        "rect": [
+          1409,
+          641,
+          60,
+          74
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          9
+        ],
+        "offset": [
+          21,
+          -51
+        ],
+        "sourceOffset": 110480,
+        "sourceBytes": 1186,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          9
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "0cffc0e7c11814b8d74cba71ec69a8f1a4c2cdcd8c6e300b3ad1c36248a271a1",
+        "rect": [
+          1409,
+          641,
+          12,
+          9
+        ]
+      },
+      "bank": "run_NE"
+    },
+    {
+      "source_id": 93,
+      "action": "run",
+      "direction": 2,
+      "texture": "res://assets/earth/hero_preview_v7/run_E.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          88,
+          71
+        ],
+        "offset": [
+          -9,
+          -47
+        ],
+        "sourceOffset": 501142,
+        "sourceBytes": 7326,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          88,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "6e6c672764e5c37c6350326a2643132befe0d99ad28a04455ec6d3e98c01d0b5",
+        "rect": [
+          1537,
+          641,
+          88,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          22,
+          -48
+        ],
+        "sourceOffset": 111670,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          10,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "3313adb3d824b49df7ee7f029cc6641c642c7c4d9d8e6e4e66a3b3cf05e827e2",
+        "rect": [
+          1537,
+          641,
+          12,
+          10
+        ]
+      },
+      "bank": "run_E"
+    },
+    {
+      "source_id": 94,
+      "action": "run",
+      "direction": 2,
+      "texture": "res://assets/earth/hero_preview_v7/run_E.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          68,
+          70
+        ],
+        "offset": [
+          1,
+          -47
+        ],
+        "sourceOffset": 508472,
+        "sourceBytes": 5838,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          68,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "64253e7fe729f7a73e9c923932aa377b23c9fcf5254c53a7df56331f0bbe6af7",
+        "rect": [
+          1665,
+          641,
+          68,
+          70
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          9
+        ],
+        "offset": [
+          22,
+          -48
+        ],
+        "sourceOffset": 112872,
+        "sourceBytes": 1186,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          9
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "bfa7385721e66cea8352baef224ee4df12928257fa82764b00bbea745940e71e",
+        "rect": [
+          1665,
+          641,
+          12,
+          9
+        ]
+      },
+      "bank": "run_E"
+    },
+    {
+      "source_id": 95,
+      "action": "run",
+      "direction": 2,
+      "texture": "res://assets/earth/hero_preview_v7/run_E.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          72,
+          70
+        ],
+        "offset": [
+          6,
+          -49
+        ],
+        "sourceOffset": 514314,
+        "sourceBytes": 6118,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          69,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "1c1aa1f705afd15e02133b43790ef0ef650245f2c6ea7b0f85b7328a0b1d08f8",
+        "rect": [
+          1793,
+          641,
+          72,
+          70
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          22,
+          -50
+        ],
+        "sourceOffset": 114062,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "0ae17db577e8648972f351746a401f0883df5c5413236d609902d151d265d978",
+        "rect": [
+          1793,
+          641,
+          12,
+          10
+        ]
+      },
+      "bank": "run_E"
+    },
+    {
+      "source_id": 96,
+      "action": "run",
+      "direction": 2,
+      "texture": "res://assets/earth/hero_preview_v7/run_E.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          92,
+          66
+        ],
+        "offset": [
+          -9,
+          -47
+        ],
+        "sourceOffset": 520436,
+        "sourceBytes": 7150,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          89,
+          66
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "be2edc150ea6ee849380fef2d96212b90981ccf83b112b4f17998422bd9dc668",
+        "rect": [
+          1921,
+          641,
+          92,
+          66
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          22,
+          -48
+        ],
+        "sourceOffset": 115264,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          10,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "5c5addced04cf79215f5acfc5427ba34e65a2bc61238285e916987c8c867fbbf",
+        "rect": [
+          1921,
+          641,
+          12,
+          10
+        ]
+      },
+      "bank": "run_E"
+    },
+    {
+      "source_id": 97,
+      "action": "run",
+      "direction": 2,
+      "texture": "res://assets/earth/hero_preview_v7/run_E.png",
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          68,
+          68
+        ],
+        "offset": [
+          1,
+          -47
+        ],
+        "sourceOffset": 527590,
+        "sourceBytes": 5702,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          68,
+          68
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "f6eff8884f626e6d1c5b73a658d2e16c077bf40320b36d6acff21482c9292e0e",
+        "rect": [
+          1,
+          769,
+          68,
+          68
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          9
+        ],
+        "offset": [
+          22,
+          -48
+        ],
+        "sourceOffset": 116466,
+        "sourceBytes": 1186,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          9
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "e0ac5d3fb4aaac978e8bd6befcb7aa8351c60919b58b949f95cd4bb7d3a85122",
+        "rect": [
+          1,
+          769,
+          12,
+          9
+        ]
+      },
+      "bank": "run_E"
+    },
+    {
+      "source_id": 98,
+      "action": "run",
+      "direction": 2,
+      "texture": "res://assets/earth/hero_preview_v7/run_E.png",
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          72,
+          71
+        ],
+        "offset": [
+          6,
+          -49
+        ],
+        "sourceOffset": 533296,
+        "sourceBytes": 6190,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          69,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "6c40a540bc8d28c96051f637ad658e5b56890e8ed74cb732cc18cf044c9fdb0f",
+        "rect": [
+          129,
+          769,
+          72,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          22,
+          -50
+        ],
+        "sourceOffset": 117656,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "b3e60c7b9499a1041d625ded4d7c986a8220ba7cfe4e02293cbad20b73c07893",
+        "rect": [
+          129,
+          769,
+          12,
+          10
+        ]
+      },
+      "bank": "run_E"
+    },
+    {
+      "source_id": 99,
+      "action": "run",
+      "direction": 3,
+      "texture": "res://assets/earth/hero_preview_v7/run_SE.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          76,
+          72
+        ],
+        "offset": [
+          3,
+          -45
+        ],
+        "sourceOffset": 539490,
+        "sourceBytes": 6550,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          76,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "381fe303b8ff669cbafe5e72b17b600143c80dcde927f651d3a418638649ea2a",
+        "rect": [
+          257,
+          769,
+          76,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          23,
+          -46
+        ],
+        "sourceOffset": 118858,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "213f3471e32e0f9a02eb98d643e265273a00d0ea751b29c990cd278b3933c3b3",
+        "rect": [
+          257,
+          769,
+          8,
+          10
+        ]
+      },
+      "bank": "run_SE"
+    },
+    {
+      "source_id": 100,
+      "action": "run",
+      "direction": 3,
+      "texture": "res://assets/earth/hero_preview_v7/run_SE.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          69
+        ],
+        "offset": [
+          9,
+          -46
+        ],
+        "sourceOffset": 546044,
+        "sourceBytes": 5494,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          64,
+          69
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "ab5ad57fdb3e57ecaf07d1ab6a6a8601b6a70faa173356cf5108bda7a1d4e8aa",
+        "rect": [
+          385,
+          769,
+          64,
+          69
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          11
+        ],
+        "offset": [
+          22,
+          -47
+        ],
+        "sourceOffset": 120020,
+        "sourceBytes": 1210,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "f30b4f5b5cbf2a78ff8e73524ebb5dc5f0bd75e6abb8f370cd19b872db172e48",
+        "rect": [
+          385,
+          769,
+          12,
+          11
+        ]
+      },
+      "bank": "run_SE"
+    },
+    {
+      "source_id": 101,
+      "action": "run",
+      "direction": 3,
+      "texture": "res://assets/earth/hero_preview_v7/run_SE.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          72
+        ],
+        "offset": [
+          9,
+          -47
+        ],
+        "sourceOffset": 551542,
+        "sourceBytes": 5686,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          61,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "5af32860ccb66619c78f07f6c87ce83367627482150bca4087fd737233a8373b",
+        "rect": [
+          513,
+          769,
+          64,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          23,
+          -49
+        ],
+        "sourceOffset": 121234,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "0c59c36199c916f2b5a2ee107553e7c737ba63620a72462c291783a881150ef1",
+        "rect": [
+          513,
+          769,
+          8,
+          11
+        ]
+      },
+      "bank": "run_SE"
+    },
+    {
+      "source_id": 102,
+      "action": "run",
+      "direction": 3,
+      "texture": "res://assets/earth/hero_preview_v7/run_SE.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          72,
+          70
+        ],
+        "offset": [
+          -2,
+          -45
+        ],
+        "sourceOffset": 557232,
+        "sourceBytes": 6118,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          70,
+          70
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "c5f42872cf1317cd248620133efe07ad50dce48ce8124d8ce49fcf6dee6ab9ba",
+        "rect": [
+          641,
+          769,
+          72,
+          70
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          23,
+          -46
+        ],
+        "sourceOffset": 122404,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "f63270a988fc22ce2cda5dab7d22c519de4f2da92cf2f3fbbdbc7e6ac5fa9722",
+        "rect": [
+          641,
+          769,
+          8,
+          11
+        ]
+      },
+      "bank": "run_SE"
+    },
+    {
+      "source_id": 103,
+      "action": "run",
+      "direction": 3,
+      "texture": "res://assets/earth/hero_preview_v7/run_SE.png",
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          71
+        ],
+        "offset": [
+          5,
+          -46
+        ],
+        "sourceOffset": 563354,
+        "sourceBytes": 5622,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          64,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "a8556f0ff3693cf9509bc81a3516b0d0971f350c9f8031ff11c45e1ef5f5d8dd",
+        "rect": [
+          769,
+          769,
+          64,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          23,
+          -47
+        ],
+        "sourceOffset": 123574,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "7fa5d7c972d8a4c21923b27f67c170c3242043054846acbb044eb84d7c9b100a",
+        "rect": [
+          769,
+          769,
+          8,
+          10
+        ]
+      },
+      "bank": "run_SE"
+    },
+    {
+      "source_id": 104,
+      "action": "run",
+      "direction": 3,
+      "texture": "res://assets/earth/hero_preview_v7/run_SE.png",
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          68,
+          72
+        ],
+        "offset": [
+          9,
+          -47
+        ],
+        "sourceOffset": 568980,
+        "sourceBytes": 5974,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          68,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "501ebc753789baf9f6fc97c1e77a76011eccf7701af171f0f16ca4ad84680c4f",
+        "rect": [
+          897,
+          769,
+          68,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          23,
+          -49
+        ],
+        "sourceOffset": 124736,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "8d3cb9622bbec7779bc402e75e6c8f8e5953befb3aa89fe418df1ae6cac3ca1c",
+        "rect": [
+          897,
+          769,
+          8,
+          11
+        ]
+      },
+      "bank": "run_SE"
+    },
+    {
+      "source_id": 105,
+      "action": "run",
+      "direction": 4,
+      "texture": "res://assets/earth/hero_preview_v7/run_S.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          72
+        ],
+        "offset": [
+          5,
+          -44
+        ],
+        "sourceOffset": 574958,
+        "sourceBytes": 5686,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          64,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "48208c8d829c6e62cd1f36239d3bfde19e4e5b430195d10f025e7ff93e892e65",
+        "rect": [
+          1025,
+          769,
+          64,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          12
+        ],
+        "offset": [
+          21,
+          -46
+        ],
+        "sourceOffset": 125906,
+        "sourceBytes": 1174,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          12
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "e53e12b1565fa2eebd568d7e091abba2f75f053df0bf59aa2e4e7ff7e242304b",
+        "rect": [
+          1025,
+          769,
+          8,
+          12
+        ]
+      },
+      "bank": "run_S"
+    },
+    {
+      "source_id": 106,
+      "action": "run",
+      "direction": 4,
+      "texture": "res://assets/earth/hero_preview_v7/run_S.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          68,
+          68
+        ],
+        "offset": [
+          5,
+          -45
+        ],
+        "sourceOffset": 580648,
+        "sourceBytes": 5702,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          65,
+          68
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "7ac31822ef55bb542fe016819d9eafe27d3e017a6ebd57e639dd3c8fc6d61b70",
+        "rect": [
+          1153,
+          769,
+          68,
+          68
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          21,
+          -47
+        ],
+        "sourceOffset": 127084,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "75ce666fce521f5b65a93615236410bce03e998a26edf35913169db4d9922844",
+        "rect": [
+          1153,
+          769,
+          8,
+          11
+        ]
+      },
+      "bank": "run_S"
+    },
+    {
+      "source_id": 107,
+      "action": "run",
+      "direction": 4,
+      "texture": "res://assets/earth/hero_preview_v7/run_S.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          71
+        ],
+        "offset": [
+          9,
+          -46
+        ],
+        "sourceOffset": 586354,
+        "sourceBytes": 5622,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          62,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "e4a67c86da5bf577a4922dcdf0ca62b351f97f6238b7220db3b648d292d9e74c",
+        "rect": [
+          1281,
+          769,
+          64,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          21,
+          -48
+        ],
+        "sourceOffset": 128254,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "847f0812e265ba3ec9935dc4a3bb81407c5efe9cca9cc0ba9d029bd7ffcd9bef",
+        "rect": [
+          1281,
+          769,
+          8,
+          11
+        ]
+      },
+      "bank": "run_S"
+    },
+    {
+      "source_id": 108,
+      "action": "run",
+      "direction": 4,
+      "texture": "res://assets/earth/hero_preview_v7/run_S.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          72
+        ],
+        "offset": [
+          10,
+          -44
+        ],
+        "sourceOffset": 591980,
+        "sourceBytes": 5398,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          59,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "ca1ee08706eba5ecc8637d735e20a62cf5344714220f741b82909458036b47bb",
+        "rect": [
+          1409,
+          769,
+          60,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          21,
+          -46
+        ],
+        "sourceOffset": 129424,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "a9e1c2ff0a3943e8cff9824154de09dc18ac0156d9e306ad2dd545f6309841e9",
+        "rect": [
+          1409,
+          769,
+          8,
+          11
+        ]
+      },
+      "bank": "run_S"
+    },
+    {
+      "source_id": 109,
+      "action": "run",
+      "direction": 4,
+      "texture": "res://assets/earth/hero_preview_v7/run_S.png",
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          68
+        ],
+        "offset": [
+          8,
+          -45
+        ],
+        "sourceOffset": 597382,
+        "sourceBytes": 5430,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          62,
+          68
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "b8794e695ca2ee5b0d1964a5bf2b2590e9f7b5aeb2bfad03557455fec98b173c",
+        "rect": [
+          1537,
+          769,
+          64,
+          68
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          21,
+          -47
+        ],
+        "sourceOffset": 130594,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "404dcd11c41b224df10232fb2ed7a296025bed315b93829b526206ad9f2bdd90",
+        "rect": [
+          1537,
+          769,
+          8,
+          11
+        ]
+      },
+      "bank": "run_S"
+    },
+    {
+      "source_id": 110,
+      "action": "run",
+      "direction": 4,
+      "texture": "res://assets/earth/hero_preview_v7/run_S.png",
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          71
+        ],
+        "offset": [
+          7,
+          -46
+        ],
+        "sourceOffset": 602816,
+        "sourceBytes": 5622,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          64,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "327ae715d45c164e325d7772121672e120d50410972505645207d0ba1a046ff3",
+        "rect": [
+          1665,
+          769,
+          64,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          12
+        ],
+        "offset": [
+          21,
+          -48
+        ],
+        "sourceOffset": 131764,
+        "sourceBytes": 1174,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          12
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "81559debf493be1e3de34b821aa915822acfa0be0def3592d1cfbe6bfcfe6d6e",
+        "rect": [
+          1665,
+          769,
+          8,
+          12
+        ]
+      },
+      "bank": "run_S"
+    },
+    {
+      "source_id": 111,
+      "action": "run",
+      "direction": 5,
+      "texture": "res://assets/earth/hero_preview_v7/run_SW.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          69
+        ],
+        "offset": [
+          5,
+          -44
+        ],
+        "sourceOffset": 608442,
+        "sourceBytes": 5218,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          57,
+          69
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "7624a21fec1058731ba0ba0f25b692f0318c0974db871ed3f113cac3f0ab614f",
+        "rect": [
+          1793,
+          769,
+          60,
+          69
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          18,
+          -46
+        ],
+        "sourceOffset": 132942,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "fa918ad5d43c22537a35c574d995ac54ac9a954803b7ae7487672a14458ac358",
+        "rect": [
+          1793,
+          769,
+          8,
+          11
+        ]
+      },
+      "bank": "run_SW"
+    },
+    {
+      "source_id": 112,
+      "action": "run",
+      "direction": 5,
+      "texture": "res://assets/earth/hero_preview_v7/run_SW.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          71
+        ],
+        "offset": [
+          7,
+          -45
+        ],
+        "sourceOffset": 613664,
+        "sourceBytes": 5338,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          58,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "931fbffda80f0abc59b37e1db35457a4e0404d199783c27824a8bc4935ceb8cf",
+        "rect": [
+          1921,
+          769,
+          60,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          18,
+          -47
+        ],
+        "sourceOffset": 134112,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "0cbbbf194e11458ad3b13513a8a6442d88e49c637d5e28c9a85062dc0759cbfb",
+        "rect": [
+          1921,
+          769,
+          8,
+          10
+        ]
+      },
+      "bank": "run_SW"
+    },
+    {
+      "source_id": 113,
+      "action": "run",
+      "direction": 5,
+      "texture": "res://assets/earth/hero_preview_v7/run_SW.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          72,
+          72
+        ],
+        "offset": [
+          1,
+          -47
+        ],
+        "sourceOffset": 619006,
+        "sourceBytes": 6262,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          69,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "16423d3f02a6bd0f6db7cda364e23fbb4f62394954e996329df202c177cc4e5f",
+        "rect": [
+          1,
+          897,
+          72,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          18,
+          -49
+        ],
+        "sourceOffset": 135274,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "5fa29406fcc7596b72124242ab2ce770f5d5c7d4d447a597c6192c7681e9bea5",
+        "rect": [
+          1,
+          897,
+          8,
+          10
+        ]
+      },
+      "bank": "run_SW"
+    },
+    {
+      "source_id": 114,
+      "action": "run",
+      "direction": 5,
+      "texture": "res://assets/earth/hero_preview_v7/run_SW.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          72,
+          71
+        ],
+        "offset": [
+          2,
+          -44
+        ],
+        "sourceOffset": 625272,
+        "sourceBytes": 6190,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          69,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "0135645bf6daacdecdce877ea984cb098a005f13b3a0cc74fec6d3777c50a265",
+        "rect": [
+          129,
+          897,
+          72,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          18,
+          -46
+        ],
+        "sourceOffset": 136436,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "2405c9a5fb5f04134f5d44a284b2e77abedc47ff1dd6bee5bd2d1dae782d06ca",
+        "rect": [
+          129,
+          897,
+          8,
+          11
+        ]
+      },
+      "bank": "run_SW"
+    },
+    {
+      "source_id": 115,
+      "action": "run",
+      "direction": 5,
+      "texture": "res://assets/earth/hero_preview_v7/run_SW.png",
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          68,
+          68
+        ],
+        "offset": [
+          2,
+          -45
+        ],
+        "sourceOffset": 631466,
+        "sourceBytes": 5702,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          66,
+          68
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "a19b82df7fa9e71a91c98b98bed9fabe0f7bc98a0b2ce67355e8ecd4710519e1",
+        "rect": [
+          257,
+          897,
+          68,
+          68
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          18,
+          -47
+        ],
+        "sourceOffset": 137606,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "e907a8d344feebeb7b915b2d4f70fad6568db1bf51ccec4955806b3a8fc9e32d",
+        "rect": [
+          257,
+          897,
+          8,
+          11
+        ]
+      },
+      "bank": "run_SW"
+    },
+    {
+      "source_id": 116,
+      "action": "run",
+      "direction": 5,
+      "texture": "res://assets/earth/hero_preview_v7/run_SW.png",
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          72
+        ],
+        "offset": [
+          7,
+          -47
+        ],
+        "sourceOffset": 637172,
+        "sourceBytes": 5398,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          58,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "98fd4e7f4b188674ac7761113964a18495931fa8622471008ba02639abbec5e0",
+        "rect": [
+          385,
+          897,
+          60,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          18,
+          -48
+        ],
+        "sourceOffset": 138776,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "0cd3f4365c0e08d6eb0c37098d5b285fe87b007539555ec48490ec5144ccbb6b",
+        "rect": [
+          385,
+          897,
+          8,
+          11
+        ]
+      },
+      "bank": "run_SW"
+    },
+    {
+      "source_id": 117,
+      "action": "run",
+      "direction": 6,
+      "texture": "res://assets/earth/hero_preview_v7/run_W.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          66
+        ],
+        "offset": [
+          2,
+          -45
+        ],
+        "sourceOffset": 642574,
+        "sourceBytes": 5302,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          62,
+          66
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "4aa0bfa33d8793adfcd18d2a5a1ca83b3bba84264d7a60a9171b4ffe4614c57b",
+        "rect": [
+          513,
+          897,
+          64,
+          66
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          16,
+          -46
+        ],
+        "sourceOffset": 139946,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          10,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "59202e6d8635038cdf012c24311412d0bfc5d92f75897b831f5c53a1201b91ab",
+        "rect": [
+          513,
+          897,
+          12,
+          10
+        ]
+      },
+      "bank": "run_W"
+    },
+    {
+      "source_id": 118,
+      "action": "run",
+      "direction": 6,
+      "texture": "res://assets/earth/hero_preview_v7/run_W.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          68
+        ],
+        "offset": [
+          5,
+          -46
+        ],
+        "sourceOffset": 647880,
+        "sourceBytes": 4886,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          56,
+          68
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "ee7de38712b378d27bf7a470001eb8cb51bfe81c898eb527dc5f671bcaec592e",
+        "rect": [
+          641,
+          897,
+          56,
+          68
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          16,
+          -47
+        ],
+        "sourceOffset": 141148,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          10,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "f131dfdc3516b9e4c0faac2625d6b89969ef89d0e4f291a246aa83f1445498ff",
+        "rect": [
+          641,
+          897,
+          12,
+          10
+        ]
+      },
+      "bank": "run_W"
+    },
+    {
+      "source_id": 119,
+      "action": "run",
+      "direction": 6,
+      "texture": "res://assets/earth/hero_preview_v7/run_W.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          71
+        ],
+        "offset": [
+          3,
+          -48
+        ],
+        "sourceOffset": 652770,
+        "sourceBytes": 5338,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          60,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "14cc43b5048196fe597cb9a46cb868dc7ca613134ffa7905b58c93c0bfe0417b",
+        "rect": [
+          769,
+          897,
+          60,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          17,
+          -49
+        ],
+        "sourceOffset": 142350,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "46f35aef9cc6459f07db9c0607f1c377e82f9c24235e8e44426e1f65d5ee95e5",
+        "rect": [
+          769,
+          897,
+          12,
+          10
+        ]
+      },
+      "bank": "run_W"
+    },
+    {
+      "source_id": 120,
+      "action": "run",
+      "direction": 6,
+      "texture": "res://assets/earth/hero_preview_v7/run_W.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          64,
+          71
+        ],
+        "offset": [
+          1,
+          -45
+        ],
+        "sourceOffset": 658112,
+        "sourceBytes": 5622,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          64,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "d434c402e954a57840fffa515eeb8a8b93e6a96ec26aab46489e05e771df3d7a",
+        "rect": [
+          897,
+          897,
+          64,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          9
+        ],
+        "offset": [
+          17,
+          -46
+        ],
+        "sourceOffset": 143552,
+        "sourceBytes": 1150,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          9
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "ae1c170a396f57f2f31363eca713149a35a7b94595cbcdbe63313a524509c191",
+        "rect": [
+          897,
+          897,
+          8,
+          9
+        ]
+      },
+      "bank": "run_W"
+    },
+    {
+      "source_id": 121,
+      "action": "run",
+      "direction": 6,
+      "texture": "res://assets/earth/hero_preview_v7/run_W.png",
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          56,
+          71
+        ],
+        "offset": [
+          5,
+          -46
+        ],
+        "sourceOffset": 663738,
+        "sourceBytes": 5054,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          56,
+          71
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "f86c40cbd0e5c265f60bb8863d3dda240d4c04ffacfe041e73f7f6c6300e7213",
+        "rect": [
+          1025,
+          897,
+          56,
+          71
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          10
+        ],
+        "offset": [
+          17,
+          -47
+        ],
+        "sourceOffset": 144706,
+        "sourceBytes": 1198,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          9,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "c957ff971bc9ccaf051c5e8c8b12d91fb1b1af0dbc877d001acd5f0e65128fc8",
+        "rect": [
+          1025,
+          897,
+          12,
+          10
+        ]
+      },
+      "bank": "run_W"
+    },
+    {
+      "source_id": 122,
+      "action": "run",
+      "direction": 6,
+      "texture": "res://assets/earth/hero_preview_v7/run_W.png",
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          69
+        ],
+        "offset": [
+          3,
+          -47
+        ],
+        "sourceOffset": 668796,
+        "sourceBytes": 5218,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          59,
+          69
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "78b8f53013dc49fb8bcb9251ad056dbe4e4ae7477acc0f89c30d819122c8732f",
+        "rect": [
+          1153,
+          897,
+          60,
+          69
+        ]
+      },
+      "source_head": {
+        "original": [
+          12,
+          11
+        ],
+        "offset": [
+          16,
+          -49
+        ],
+        "sourceOffset": 145908,
+        "sourceBytes": 1210,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          10,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "cb52a353ec7ea9ef2019196dbfc9329f026c41165d9d3f68a8a0998f58d0d64c",
+        "rect": [
+          1153,
+          897,
+          12,
+          11
+        ]
+      },
+      "bank": "run_W"
+    },
+    {
+      "source_id": 123,
+      "action": "run",
+      "direction": 7,
+      "texture": "res://assets/earth/hero_preview_v7/run_NW.png",
+      "region_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          72,
+          79
+        ],
+        "offset": [
+          0,
+          -46
+        ],
+        "sourceOffset": 674018,
+        "sourceBytes": 6766,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          69,
+          79
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "35b3f1ae6313a47222b960fdd499bae3c767c0c7c73498362e6ffe0bbcfc47be",
+        "rect": [
+          1281,
+          897,
+          72,
+          79
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          17,
+          -47
+        ],
+        "sourceOffset": 147122,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          7,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "2a236b9b507bb4421199c342708b372927490c96e36d85b5346f4aafce8f280e",
+        "rect": [
+          1281,
+          897,
+          8,
+          11
+        ]
+      },
+      "bank": "run_NW"
+    },
+    {
+      "source_id": 124,
+      "action": "run",
+      "direction": 7,
+      "texture": "res://assets/earth/hero_preview_v7/run_NW.png",
+      "region_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          68,
+          72
+        ],
+        "offset": [
+          1,
+          -47
+        ],
+        "sourceOffset": 680788,
+        "sourceBytes": 5974,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          66,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "809e47a0c3a0e6f6c8c1c8120c335f6a8dcc3e446d99e0e959fb6d4523f17b14",
+        "rect": [
+          1409,
+          897,
+          68,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          11
+        ],
+        "offset": [
+          17,
+          -48
+        ],
+        "sourceOffset": 148292,
+        "sourceBytes": 1166,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          11
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "e47f03b48bd57eca44d4c161e7f4a4fc1f703d89c498080c990ca781ccb20ec9",
+        "rect": [
+          1409,
+          897,
+          8,
+          11
+        ]
+      },
+      "bank": "run_NW"
+    },
+    {
+      "source_id": 125,
+      "action": "run",
+      "direction": 7,
+      "texture": "res://assets/earth/hero_preview_v7/run_NW.png",
+      "region_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          73
+        ],
+        "offset": [
+          6,
+          -48
+        ],
+        "sourceOffset": 686766,
+        "sourceBytes": 5458,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          58,
+          73
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "cb94bb52381f60ba474f698c7a82075350f293fb5bb35ebd715bb3718ecbd9f0",
+        "rect": [
+          1537,
+          897,
+          60,
+          73
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          17,
+          -49
+        ],
+        "sourceOffset": 149462,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "5f9441834513a09993de6a1b615cb6638907280389f1b783fb943f2dc4831bf1",
+        "rect": [
+          1537,
+          897,
+          8,
+          10
+        ]
+      },
+      "bank": "run_NW"
+    },
+    {
+      "source_id": 126,
+      "action": "run",
+      "direction": 7,
+      "texture": "res://assets/earth/hero_preview_v7/run_NW.png",
+      "region_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          75
+        ],
+        "offset": [
+          4,
+          -46
+        ],
+        "sourceOffset": 692228,
+        "sourceBytes": 5578,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          57,
+          75
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "37a77f6dc282b5f972daab0c9bfbb2231e4ce6d35a0cb698dab6484de51d0ddc",
+        "rect": [
+          1665,
+          897,
+          60,
+          75
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          17,
+          -47
+        ],
+        "sourceOffset": 150624,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "e3bd31abeb1a88073e0c3e9a5e170e0c6a716423d01d59829ef59ffe489532be",
+        "rect": [
+          1665,
+          897,
+          8,
+          10
+        ]
+      },
+      "bank": "run_NW"
+    },
+    {
+      "source_id": 127,
+      "action": "run",
+      "direction": 7,
+      "texture": "res://assets/earth/hero_preview_v7/run_NW.png",
+      "region_px": [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          60,
+          72
+        ],
+        "offset": [
+          6,
+          -47
+        ],
+        "sourceOffset": 697810,
+        "sourceBytes": 5398,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          58,
+          72
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "4f2d23376beba5a9bff2927736babfc46445b1fb69881d9307e03821c092a4ca",
+        "rect": [
+          1793,
+          897,
+          60,
+          72
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          17,
+          -47
+        ],
+        "sourceOffset": 151786,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "e0ec9fc19fad252336a04429faa27416b1b30d96d8382bfe6cac2d1679f7d204",
+        "rect": [
+          1793,
+          897,
+          8,
+          10
+        ]
+      },
+      "bank": "run_NW"
+    },
+    {
+      "source_id": 128,
+      "action": "run",
+      "direction": 7,
+      "texture": "res://assets/earth/hero_preview_v7/run_NW.png",
+      "region_px": [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "source_body": {
+        "original": [
+          68,
+          77
+        ],
+        "offset": [
+          0,
+          -48
+        ],
+        "sourceOffset": 703212,
+        "sourceBytes": 6314,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          68,
+          77
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "f630ea55ee8db66d3083db8c69b08e05c59dd94b0709587a33c82af7c7effbda",
+        "rect": [
+          1921,
+          897,
+          68,
+          77
+        ]
+      },
+      "source_head": {
+        "original": [
+          8,
+          10
+        ],
+        "offset": [
+          17,
+          -49
+        ],
+        "sourceOffset": 152948,
+        "sourceBytes": 1158,
+        "format": "BMP",
+        "reference_extraction_bounds": [
+          0,
+          0,
+          8,
+          10
+        ],
+        "gifFrames": 1,
+        "rgba_sha256": "130c214fa38bf746f749a110b1469462e3768b42d03fbe5d47926e9279d865dd",
+        "rect": [
+          1921,
+          897,
+          8,
+          10
+        ]
+      },
+      "bank": "run_NW"
+    }
+  ],
+  "provenance_note": "No new image generation or warp performed by integration. New registered atlases preserve upstream mechanical transforms; source raw size and native density differ from registered512 slots. Known motion faults are intentionally visible for whole-set review.",
+  "known_issues": [
+    {
+      "bank": "idle_N",
+      "status": "root visually accepted first-pass identity; runtime feet/motion pending",
+      "accepted_animation": false
+    },
+    {
+      "bank": "idle_NE",
+      "status": "root visually accepted first-pass identity; runtime feet/motion pending",
+      "accepted_animation": false
+    },
+    {
+      "bank": "idle_SW",
+      "status": "first-pass candidates; source-shadow/foot and W phase2 head lowering pending",
+      "accepted_animation": false
+    },
+    {
+      "bank": "idle_W",
+      "status": "first-pass candidates; source-shadow/foot and W phase2 head lowering pending",
+      "accepted_animation": false
+    },
+    {
+      "bank": "idle_NW",
+      "status": "first-pass candidates; source-shadow/foot and W phase2 head lowering pending",
+      "accepted_animation": false
+    },
+    {
+      "bank": "walk_N",
+      "status": "v2 selected by parent raw visual review for whole-set preview; phase0/3 opposition improved, NE crossing/contact still pending sequence/runtime",
+      "accepted_animation": false
+    },
+    {
+      "bank": "walk_NE",
+      "status": "v2 selected by parent raw visual review for whole-set preview; phase0/3 opposition improved, NE crossing/contact still pending sequence/runtime",
+      "accepted_animation": false
+    },
+    {
+      "bank": "walk_SW",
+      "status": "v2: phase0/3 same lead leg remains; NOT_ACCEPTED whole-set preview",
+      "accepted_animation": false
+    },
+    {
+      "bank": "walk_W",
+      "status": "v2: phase0/3 opposition unreliable, phases2/5 too run-like/high-knee; NOT_ACCEPTED",
+      "accepted_animation": false
+    },
+    {
+      "bank": "walk_NW",
+      "status": "v2: knee flexion improved; contact/support/continuity unaccepted",
+      "accepted_animation": false
+    },
+    {
+      "bank": "run_N",
+      "status": "not motion accepted: E phase0/3 leg repeat; NE/SE unreliable alternation; N pending",
+      "accepted_animation": false
+    },
+    {
+      "bank": "run_NE",
+      "status": "not motion accepted: E phase0/3 leg repeat; NE/SE unreliable alternation; N pending",
+      "accepted_animation": false
+    },
+    {
+      "bank": "run_E",
+      "status": "v2 selected by parent for preview: arm opposition improved; excessive torso front/back twist and leg occlusion remain pending",
+      "accepted_animation": false
+    },
+    {
+      "bank": "run_SE",
+      "status": "not motion accepted: E phase0/3 leg repeat; NE/SE unreliable alternation; N pending",
+      "accepted_animation": false
+    },
+    {
+      "bank": "run_S",
+      "status": "not motion accepted: S late phases arm/leg order; W/NW yaw drift and ambiguous leg identity",
+      "accepted_animation": false
+    },
+    {
+      "bank": "run_SW",
+      "status": "not motion accepted: S late phases arm/leg order; W/NW yaw drift and ambiguous leg identity",
+      "accepted_animation": false
+    },
+    {
+      "bank": "run_W",
+      "status": "not motion accepted: S late phases arm/leg order; W/NW yaw drift and ambiguous leg identity",
+      "accepted_animation": false
+    },
+    {
+      "bank": "run_NW",
+      "status": "not motion accepted: S late phases arm/leg order; W/NW yaw drift and ambiguous leg identity",
+      "accepted_animation": false
+    },
+    {
+      "bank": "e_idle_v1",
+      "status": "Existing v6 reused unchanged; E research / S ARAP motion acceptance not upgraded; review continuity with new identity banks",
+      "accepted_animation": false
+    },
+    {
+      "bank": "se_idle_v1",
+      "status": "Existing v6 reused unchanged; E research / S ARAP motion acceptance not upgraded; review continuity with new identity banks",
+      "accepted_animation": false
+    },
+    {
+      "bank": "s_idle_v1",
+      "status": "Existing v6 reused unchanged; E research / S ARAP motion acceptance not upgraded; review continuity with new identity banks",
+      "accepted_animation": false
+    },
+    {
+      "bank": "se_walk_v1",
+      "status": "Existing v6 reused unchanged; E research / S ARAP motion acceptance not upgraded; review continuity with new identity banks",
+      "accepted_animation": false
+    },
+    {
+      "bank": "e_walk_existing_research",
+      "status": "Existing v6 reused unchanged; E research / S ARAP motion acceptance not upgraded; review continuity with new identity banks",
+      "accepted_animation": false
+    },
+    {
+      "bank": "s_walk_existing_arap_candidate",
+      "status": "Existing v6 reused unchanged; E research / S ARAP motion acceptance not upgraded; review continuity with new identity banks",
+      "accepted_animation": false
+    }
+  ]
+}
