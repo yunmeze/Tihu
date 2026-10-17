@@ -1,0 +1,495 @@
+{
+  "schema": "barrier-phase-recovered-contract-v1",
+  "status": "RECONSTRUCTED_SOURCE_NOT_ENGINE_VALIDATED_NOT_ART_ACCEPTED",
+  "master": "res://art_source/earth_barrier_drafts_v1/fixed-blue-master-8x.png",
+  "native_fullcanvas": [
+    48,
+    92
+  ],
+  "texture_size": [
+    384,
+    736
+  ],
+  "logical_anchor_pixel_index": [
+    23,
+    67
+  ],
+  "logical_anchor_pixel_center": [
+    23.5,
+    67.5
+  ],
+  "texture_anchor": [
+    188,
+    540
+  ],
+  "frames": [
+    55,
+    56,
+    57,
+    58,
+    59
+  ],
+  "phase_hue_offset_degrees": [
+    0,
+    -14.67264177478,
+    -29.65764949711067,
+    -49.754514273639245,
+    -134.80678425651772
+  ],
+  "color_transform": "Stored-sRGB HSV H offset preserving S/V and alpha. Approximate original relative hue motion; absolute generated colors not art accepted. Fixed GL Compatibility SDR only.",
+  "clock": {
+    "source_hz": 50,
+    "ticks_per_phase": 8,
+    "sequence": [
+      55,
+      56,
+      57,
+      58,
+      59,
+      59,
+      58,
+      57,
+      56,
+      55
+    ],
+    "cycle_ticks": 80,
+    "formula": "p=(world.tick//8)%10; frame=55+(p if p<5 else 9-p)"
+  },
+  "owners": [
+    {
+      "cell": [
+        37,
+        55
+      ],
+      "tuple": [
+        0,
+        -1,
+        8,
+        1
+      ],
+      "order": 5605,
+      "kind": 8,
+      "pack": "Data4",
+      "layer": 1,
+      "sort_y": 55,
+      "removal_condition": "ET0>3 / original A5 north transaction"
+    },
+    {
+      "cell": [
+        37,
+        56
+      ],
+      "tuple": [
+        0,
+        -1,
+        8,
+        1
+      ],
+      "order": 5606,
+      "kind": 8,
+      "pack": "Data4",
+      "layer": 1,
+      "sort_y": 56,
+      "removal_condition": "ET0>3 / original A5 north transaction"
+    },
+    {
+      "cell": [
+        38,
+        56
+      ],
+      "tuple": [
+        -171,
+        -1,
+        8,
+        1
+      ],
+      "order": 5756,
+      "kind": 8,
+      "pack": "Data4",
+      "layer": 1,
+      "sort_y": 56,
+      "removal_condition": "ET0>3 / original A5 north transaction"
+    },
+    {
+      "cell": [
+        38,
+        57
+      ],
+      "tuple": [
+        0,
+        -1,
+        8,
+        1
+      ],
+      "order": 5757,
+      "kind": 8,
+      "pack": "Data4",
+      "layer": 1,
+      "sort_y": 57,
+      "removal_condition": "ET0>3 / original A5 north transaction"
+    },
+    {
+      "cell": [
+        39,
+        57
+      ],
+      "tuple": [
+        0,
+        -1,
+        8,
+        1
+      ],
+      "order": 5907,
+      "kind": 8,
+      "pack": "Data4",
+      "layer": 1,
+      "sort_y": 57,
+      "removal_condition": "ET0>3 / original A5 north transaction"
+    },
+    {
+      "cell": [
+        39,
+        58
+      ],
+      "tuple": [
+        0,
+        -1,
+        8,
+        1
+      ],
+      "order": 5908,
+      "kind": 8,
+      "pack": "Data4",
+      "layer": 1,
+      "sort_y": 58,
+      "removal_condition": "ET0>3 / original A5 north transaction"
+    },
+    {
+      "cell": [
+        40,
+        58
+      ],
+      "tuple": [
+        -171,
+        -1,
+        8,
+        1
+      ],
+      "order": 6058,
+      "kind": 8,
+      "pack": "Data4",
+      "layer": 1,
+      "sort_y": 58,
+      "removal_condition": "ET0>3 / original A5 north transaction"
+    },
+    {
+      "cell": [
+        40,
+        59
+      ],
+      "tuple": [
+        0,
+        -1,
+        8,
+        1
+      ],
+      "order": 6059,
+      "kind": 8,
+      "pack": "Data4",
+      "layer": 1,
+      "sort_y": 59,
+      "removal_condition": "ET0>3 / original A5 north transaction"
+    },
+    {
+      "cell": [
+        41,
+        59
+      ],
+      "tuple": [
+        0,
+        -1,
+        8,
+        1
+      ],
+      "order": 6209,
+      "kind": 8,
+      "pack": "Data4",
+      "layer": 1,
+      "sort_y": 59,
+      "removal_condition": "ET0>3 / original A5 north transaction"
+    },
+    {
+      "cell": [
+        112,
+        98
+      ],
+      "tuple": [
+        -170,
+        -1,
+        8,
+        1
+      ],
+      "order": 16898,
+      "kind": 8,
+      "pack": "Data4",
+      "layer": 1,
+      "sort_y": 98,
+      "removal_condition": "ET0>5 / original south transaction"
+    },
+    {
+      "cell": [
+        112,
+        99
+      ],
+      "tuple": [
+        0,
+        -1,
+        8,
+        1
+      ],
+      "order": 16899,
+      "kind": 8,
+      "pack": "Data4",
+      "layer": 1,
+      "sort_y": 99,
+      "removal_condition": "ET0>5 / original south transaction"
+    },
+    {
+      "cell": [
+        113,
+        97
+      ],
+      "tuple": [
+        0,
+        -1,
+        8,
+        1
+      ],
+      "order": 17047,
+      "kind": 8,
+      "pack": "Data4",
+      "layer": 1,
+      "sort_y": 97,
+      "removal_condition": "ET0>5 / original south transaction"
+    },
+    {
+      "cell": [
+        113,
+        98
+      ],
+      "tuple": [
+        0,
+        -1,
+        8,
+        1
+      ],
+      "order": 17048,
+      "kind": 8,
+      "pack": "Data4",
+      "layer": 1,
+      "sort_y": 98,
+      "removal_condition": "ET0>5 / original south transaction"
+    },
+    {
+      "cell": [
+        114,
+        96
+      ],
+      "tuple": [
+        -171,
+        -1,
+        8,
+        1
+      ],
+      "order": 17196,
+      "kind": 8,
+      "pack": "Data4",
+      "layer": 1,
+      "sort_y": 96,
+      "removal_condition": "ET0>5 / original south transaction"
+    },
+    {
+      "cell": [
+        114,
+        97
+      ],
+      "tuple": [
+        0,
+        -1,
+        8,
+        1
+      ],
+      "order": 17197,
+      "kind": 8,
+      "pack": "Data4",
+      "layer": 1,
+      "sort_y": 97,
+      "removal_condition": "ET0>5 / original south transaction"
+    }
+  ],
+  "source_frames": {
+    "55": {
+      "original": [
+        48,
+        92
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "sourceOffset": 73699,
+      "sourceBytes": 6762,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        1,
+        0,
+        47,
+        92
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "55f17c23d58497b3a3e9faa97067c57321f89146a9a0015756cd4008415a4f9f",
+      "page": 0,
+      "rect": [
+        1,
+        1,
+        46,
+        92
+      ],
+      "crop": [
+        1,
+        0
+      ]
+    },
+    "56": {
+      "original": [
+        48,
+        92
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "sourceOffset": 80461,
+      "sourceBytes": 6751,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        1,
+        0,
+        47,
+        92
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "eea96948589af74f83a8a83234cd2334f5684813a0ebde9ef039b41c6ce4756e",
+      "page": 0,
+      "rect": [
+        49,
+        1,
+        46,
+        92
+      ],
+      "crop": [
+        1,
+        0
+      ]
+    },
+    "57": {
+      "original": [
+        48,
+        92
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "sourceOffset": 87212,
+      "sourceBytes": 6749,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        1,
+        0,
+        47,
+        92
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "084b64628dbf8602add0441625d41d8fb40bb89bea0221a00cfc4bda1d072820",
+      "page": 0,
+      "rect": [
+        97,
+        1,
+        46,
+        92
+      ],
+      "crop": [
+        1,
+        0
+      ]
+    },
+    "58": {
+      "original": [
+        48,
+        92
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "sourceOffset": 93961,
+      "sourceBytes": 6868,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        1,
+        0,
+        47,
+        92
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "49697fe2ff5957ae3e8963047cf69e72944119da19c478b2a0f11e3e0f554a65",
+      "page": 0,
+      "rect": [
+        145,
+        1,
+        46,
+        92
+      ],
+      "crop": [
+        1,
+        0
+      ]
+    },
+    "59": {
+      "original": [
+        48,
+        92
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "sourceOffset": 100829,
+      "sourceBytes": 6747,
+      "format": "PNG",
+      "reference_extraction_bounds": [
+        1,
+        0,
+        47,
+        92
+      ],
+      "gifFrames": 1,
+      "rgba_sha256": "8a056b3d381505d89ff648e5ea27a36e75a5e431aab7f70dedb53037b0597e49",
+      "page": 0,
+      "rect": [
+        193,
+        1,
+        46,
+        92
+      ],
+      "crop": [
+        1,
+        0
+      ]
+    }
+  },
+  "placement": "fullcanvas origin=(cell.x*48,cell.y*32-52),48x92. Full384x736 UV; do not add original atlas crop x=1.",
+  "composition": "Straight RGBA written blend_disabled to five caches; original ordered draw does source-over once.",
+  "scope": "No world changes, no source sorting changes, no new clocks, no child sprites per owner, no A5/ET0 mutation, no real water integration."
+}
