@@ -1,0 +1,25 @@
+{
+  "schema": "a00-exact-source-recovery-v1",
+  "files": [
+    {
+      "path": "Project/scripts/a00_trial_runtime/a00_trial_core.gd",
+      "bytes": 20898,
+      "sha256": "79f2b177a2d58a278120681f6ea09621f4952479abf575fe6241dc1dac734327",
+      "source": "Project/art_source/earth_a00_trial_core_research_v1/scripts/core/a00_trial_core.gd",
+      "source_sha256": "d0e98f662c99d3f474a2d2ce2a065fda7adea0f4a23291f2ff00b03600b1b399",
+      "transform": "Replace exactly once res://scripts/core/dialogue_vm.gd with res://scripts/a00_trial_runtime/dialogue_vm.gd",
+      "same_as_freeze04": true
+    },
+    {
+      "path": "Project/scripts/a00_trial_runtime/dialogue_vm.gd",
+      "bytes": 20499,
+      "sha256": "be6ff81291657a287414ff8d4516964393e4cf66867b25c3857e8287438ca066",
+      "source": "Project/art_source/earth_a00_trial_core_research_v1/scripts/core/dialogue_vm.gd",
+      "source_sha256": "be6ff81291657a287414ff8d4516964393e4cf66867b25c3857e8287438ca066",
+      "transform": "Identity byte copy",
+      "same_as_freeze04": true
+    }
+  ],
+  "engine_run": false,
+  "complete_closure": false
+}
