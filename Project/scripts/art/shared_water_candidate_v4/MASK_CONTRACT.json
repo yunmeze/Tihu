@@ -1,0 +1,1107 @@
+{
+  "schema": "shared-water-binary-support-contract-v4-recovered",
+  "family": "shore-1668-1676",
+  "status": "MASK_READY_FOR_ISOLATED_PROBE",
+  "integration": false,
+  "gpu_validation": "NOT_RUN",
+  "geometry_accepted": false,
+  "visual_accepted": false,
+  "semantics": "Binary candidate core plus original owner support. Every supported noncore sample retains bank RGB. Not a water depth, coastline, passage or tri-state classification.",
+  "tri_state_partition_restored": false,
+  "prohibited_set": "support == 255 AND core == 0",
+  "logical_size": [
+    192,
+    192
+  ],
+  "density": 4,
+  "gutter_pixels": 2,
+  "modes": [
+    "binary_negative_control",
+    "core_inset"
+  ],
+  "counts": {
+    "core": 9402,
+    "support": 32256,
+    "forbidden_noncore": 22854,
+    "outside": 4608
+  },
+  "files": {
+    "core": "data/core.png",
+    "support": "data/support.png"
+  },
+  "mask_format": {
+    "mode": "L",
+    "bits": 8,
+    "values": [
+      0,
+      255
+    ],
+    "sampling": "NEAREST",
+    "srgb": false,
+    "mipmaps": false
+  },
+  "core_png_sha256": "65fc912eb45d42fdc1915ce2636d4d3dcb18c1fe14a95a23fbcbc1ccec9c5cd7",
+  "support_png_sha256": "326d6a591d751d142dd64846deca214484480c75cd8e3bc4be4debd4065e390a",
+  "classification_parameters": {
+    "margin": 128,
+    "palette": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        82,
+        165
+      ],
+      [
+        0,
+        128,
+        128
+      ],
+      [
+        16,
+        49,
+        90
+      ],
+      [
+        16,
+        57,
+        107
+      ],
+      [
+        16,
+        66,
+        132
+      ],
+      [
+        16,
+        82,
+        140
+      ],
+      [
+        24,
+        66,
+        41
+      ],
+      [
+        24,
+        66,
+        74
+      ],
+      [
+        33,
+        90,
+        165
+      ],
+      [
+        41,
+        57,
+        99
+      ],
+      [
+        49,
+        66,
+        74
+      ],
+      [
+        49,
+        82,
+        107
+      ],
+      [
+        49,
+        82,
+        132
+      ],
+      [
+        49,
+        132,
+        181
+      ],
+      [
+        74,
+        90,
+        123
+      ],
+      [
+        74,
+        90,
+        148
+      ],
+      [
+        82,
+        107,
+        165
+      ],
+      [
+        85,
+        128,
+        151
+      ],
+      [
+        107,
+        115,
+        115
+      ]
+    ],
+    "connectivity": 4,
+    "distance": "Euclidean EDT on logical pixel centers",
+    "strict_palette_distance": 8,
+    "strict_blue_red_gt": 50,
+    "strict_blue_green_gt": 15,
+    "exception_palette_distance": 8,
+    "exception_strict_9x9_min": 41,
+    "dense_9x9_min": 73,
+    "core_distance_gt": 6,
+    "broad_palette_distance": 12,
+    "broad_blue_red_gt": 40,
+    "broad_blue_green_gt": 12,
+    "protected_red_blue_gte": 24,
+    "protected_palette_distance_gt": 24,
+    "port_edge_distance_lte": 16,
+    "intersection_instances": 3
+  },
+  "source_core_intersection": "Same local source core for all three actual instance contexts; no context-specific replacement shape.",
+  "inset_rule": "At each D4 center q require original_core(floor(q)); reject if any q+(dx,dy)/4 for dx,dy in {-1,0,1} is supported noncore. Outside original support is not a forbidden bank label. No smoothstep.",
+  "filter_contract": "Area D4 caches, final LINEAR D2 without mipmaps/anisotropy/additional effects. Original owner draw support remains separate.",
+  "cross_family_holdout_distance_logical": 16,
+  "cross_family_segments": [
+    {
+      "instance": 0,
+      "seed_cell": [
+        23,
+        75
+      ],
+      "target_order": 3080,
+      "target_index": 1673,
+      "target_cell": [
+        20,
+        80
+      ],
+      "other_order": 3083,
+      "other_index": 1687,
+      "other_cell": [
+        20,
+        83
+      ],
+      "other_family": "shore-1686-1700",
+      "target_side": "bottom",
+      "world_edge_xyxy": [
+        960,
+        2592,
+        1008,
+        2592
+      ],
+      "pixel_pairs": 48,
+      "target_first_pixel_world": [
+        960,
+        2591
+      ],
+      "other_first_pixel_world": [
+        960,
+        2592
+      ],
+      "step": [
+        1,
+        0
+      ],
+      "target_first_pixel_local": [
+        0,
+        191
+      ]
+    },
+    {
+      "instance": 0,
+      "seed_cell": [
+        23,
+        75
+      ],
+      "target_order": 3230,
+      "target_index": 1674,
+      "target_cell": [
+        21,
+        80
+      ],
+      "other_order": 3233,
+      "other_index": 1688,
+      "other_cell": [
+        21,
+        83
+      ],
+      "other_family": "shore-1686-1700",
+      "target_side": "bottom",
+      "world_edge_xyxy": [
+        1008,
+        2592,
+        1056,
+        2592
+      ],
+      "pixel_pairs": 48,
+      "target_first_pixel_world": [
+        1008,
+        2591
+      ],
+      "other_first_pixel_world": [
+        1008,
+        2592
+      ],
+      "step": [
+        1,
+        0
+      ],
+      "target_first_pixel_local": [
+        48,
+        191
+      ]
+    },
+    {
+      "instance": 0,
+      "seed_cell": [
+        23,
+        75
+      ],
+      "target_order": 3380,
+      "target_index": 1675,
+      "target_cell": [
+        22,
+        80
+      ],
+      "other_order": 3383,
+      "other_index": 1689,
+      "other_cell": [
+        22,
+        83
+      ],
+      "other_family": "shore-1686-1700",
+      "target_side": "bottom",
+      "world_edge_xyxy": [
+        1056,
+        2592,
+        1104,
+        2592
+      ],
+      "pixel_pairs": 48,
+      "target_first_pixel_world": [
+        1056,
+        2591
+      ],
+      "other_first_pixel_world": [
+        1056,
+        2592
+      ],
+      "step": [
+        1,
+        0
+      ],
+      "target_first_pixel_local": [
+        96,
+        191
+      ]
+    },
+    {
+      "instance": 0,
+      "seed_cell": [
+        23,
+        75
+      ],
+      "target_order": 3525,
+      "target_index": 1668,
+      "target_cell": [
+        23,
+        75
+      ],
+      "other_order": 3676,
+      "other_index": 1651,
+      "other_cell": [
+        24,
+        76
+      ],
+      "other_family": "shore-1648-1657",
+      "target_side": "right",
+      "world_edge_xyxy": [
+        1152,
+        2400,
+        1152,
+        2432
+      ],
+      "pixel_pairs": 32,
+      "target_first_pixel_world": [
+        1151,
+        2400
+      ],
+      "other_first_pixel_world": [
+        1152,
+        2400
+      ],
+      "step": [
+        0,
+        1
+      ],
+      "target_first_pixel_local": [
+        191,
+        0
+      ]
+    },
+    {
+      "instance": 0,
+      "seed_cell": [
+        23,
+        75
+      ],
+      "target_order": 3528,
+      "target_index": 1672,
+      "target_cell": [
+        23,
+        78
+      ],
+      "other_order": 3676,
+      "other_index": 1651,
+      "other_cell": [
+        24,
+        76
+      ],
+      "other_family": "shore-1648-1657",
+      "target_side": "right",
+      "world_edge_xyxy": [
+        1152,
+        2432,
+        1152,
+        2464
+      ],
+      "pixel_pairs": 32,
+      "target_first_pixel_world": [
+        1151,
+        2432
+      ],
+      "other_first_pixel_world": [
+        1152,
+        2432
+      ],
+      "step": [
+        0,
+        1
+      ],
+      "target_first_pixel_local": [
+        191,
+        32
+      ]
+    },
+    {
+      "instance": 0,
+      "seed_cell": [
+        23,
+        75
+      ],
+      "target_order": 3528,
+      "target_index": 1672,
+      "target_cell": [
+        23,
+        78
+      ],
+      "other_order": 3678,
+      "other_index": 1656,
+      "other_cell": [
+        24,
+        78
+      ],
+      "other_family": "shore-1648-1657",
+      "target_side": "right",
+      "world_edge_xyxy": [
+        1152,
+        2464,
+        1152,
+        2528
+      ],
+      "pixel_pairs": 64,
+      "target_first_pixel_world": [
+        1151,
+        2464
+      ],
+      "other_first_pixel_world": [
+        1152,
+        2464
+      ],
+      "step": [
+        0,
+        1
+      ],
+      "target_first_pixel_local": [
+        191,
+        64
+      ]
+    },
+    {
+      "instance": 0,
+      "seed_cell": [
+        23,
+        75
+      ],
+      "target_order": 3530,
+      "target_index": 1676,
+      "target_cell": [
+        23,
+        80
+      ],
+      "other_order": 3533,
+      "other_index": 1690,
+      "other_cell": [
+        23,
+        83
+      ],
+      "other_family": "shore-1686-1700",
+      "target_side": "bottom",
+      "world_edge_xyxy": [
+        1104,
+        2592,
+        1152,
+        2592
+      ],
+      "pixel_pairs": 48,
+      "target_first_pixel_world": [
+        1104,
+        2591
+      ],
+      "other_first_pixel_world": [
+        1104,
+        2592
+      ],
+      "step": [
+        1,
+        0
+      ],
+      "target_first_pixel_local": [
+        144,
+        191
+      ]
+    },
+    {
+      "instance": 1,
+      "seed_cell": [
+        32,
+        48
+      ],
+      "target_order": 4403,
+      "target_index": 1673,
+      "target_cell": [
+        29,
+        53
+      ],
+      "other_order": 4406,
+      "other_index": 1687,
+      "other_cell": [
+        29,
+        56
+      ],
+      "other_family": "shore-1686-1700",
+      "target_side": "bottom",
+      "world_edge_xyxy": [
+        1392,
+        1728,
+        1440,
+        1728
+      ],
+      "pixel_pairs": 48,
+      "target_first_pixel_world": [
+        1392,
+        1727
+      ],
+      "other_first_pixel_world": [
+        1392,
+        1728
+      ],
+      "step": [
+        1,
+        0
+      ],
+      "target_first_pixel_local": [
+        0,
+        191
+      ]
+    },
+    {
+      "instance": 1,
+      "seed_cell": [
+        32,
+        48
+      ],
+      "target_order": 4553,
+      "target_index": 1674,
+      "target_cell": [
+        30,
+        53
+      ],
+      "other_order": 4556,
+      "other_index": 1688,
+      "other_cell": [
+        30,
+        56
+      ],
+      "other_family": "shore-1686-1700",
+      "target_side": "bottom",
+      "world_edge_xyxy": [
+        1440,
+        1728,
+        1488,
+        1728
+      ],
+      "pixel_pairs": 48,
+      "target_first_pixel_world": [
+        1440,
+        1727
+      ],
+      "other_first_pixel_world": [
+        1440,
+        1728
+      ],
+      "step": [
+        1,
+        0
+      ],
+      "target_first_pixel_local": [
+        48,
+        191
+      ]
+    },
+    {
+      "instance": 1,
+      "seed_cell": [
+        32,
+        48
+      ],
+      "target_order": 4703,
+      "target_index": 1675,
+      "target_cell": [
+        31,
+        53
+      ],
+      "other_order": 4706,
+      "other_index": 1689,
+      "other_cell": [
+        31,
+        56
+      ],
+      "other_family": "shore-1686-1700",
+      "target_side": "bottom",
+      "world_edge_xyxy": [
+        1488,
+        1728,
+        1536,
+        1728
+      ],
+      "pixel_pairs": 48,
+      "target_first_pixel_world": [
+        1488,
+        1727
+      ],
+      "other_first_pixel_world": [
+        1488,
+        1728
+      ],
+      "step": [
+        1,
+        0
+      ],
+      "target_first_pixel_local": [
+        96,
+        191
+      ]
+    },
+    {
+      "instance": 1,
+      "seed_cell": [
+        32,
+        48
+      ],
+      "target_order": 4848,
+      "target_index": 1668,
+      "target_cell": [
+        32,
+        48
+      ],
+      "other_order": 4999,
+      "other_index": 1772,
+      "other_cell": [
+        33,
+        49
+      ],
+      "other_family": "shore-1772-1777",
+      "target_side": "right",
+      "world_edge_xyxy": [
+        1584,
+        1536,
+        1584,
+        1568
+      ],
+      "pixel_pairs": 32,
+      "target_first_pixel_world": [
+        1583,
+        1536
+      ],
+      "other_first_pixel_world": [
+        1584,
+        1536
+      ],
+      "step": [
+        0,
+        1
+      ],
+      "target_first_pixel_local": [
+        191,
+        0
+      ]
+    },
+    {
+      "instance": 1,
+      "seed_cell": [
+        32,
+        48
+      ],
+      "target_order": 4851,
+      "target_index": 1672,
+      "target_cell": [
+        32,
+        51
+      ],
+      "other_order": 4999,
+      "other_index": 1772,
+      "other_cell": [
+        33,
+        49
+      ],
+      "other_family": "shore-1772-1777",
+      "target_side": "right",
+      "world_edge_xyxy": [
+        1584,
+        1568,
+        1584,
+        1600
+      ],
+      "pixel_pairs": 32,
+      "target_first_pixel_world": [
+        1583,
+        1568
+      ],
+      "other_first_pixel_world": [
+        1584,
+        1568
+      ],
+      "step": [
+        0,
+        1
+      ],
+      "target_first_pixel_local": [
+        191,
+        32
+      ]
+    },
+    {
+      "instance": 1,
+      "seed_cell": [
+        32,
+        48
+      ],
+      "target_order": 4851,
+      "target_index": 1672,
+      "target_cell": [
+        32,
+        51
+      ],
+      "other_order": 5001,
+      "other_index": 1776,
+      "other_cell": [
+        33,
+        51
+      ],
+      "other_family": "shore-1772-1777",
+      "target_side": "right",
+      "world_edge_xyxy": [
+        1584,
+        1600,
+        1584,
+        1664
+      ],
+      "pixel_pairs": 64,
+      "target_first_pixel_world": [
+        1583,
+        1600
+      ],
+      "other_first_pixel_world": [
+        1584,
+        1600
+      ],
+      "step": [
+        0,
+        1
+      ],
+      "target_first_pixel_local": [
+        191,
+        64
+      ]
+    },
+    {
+      "instance": 1,
+      "seed_cell": [
+        32,
+        48
+      ],
+      "target_order": 4853,
+      "target_index": 1676,
+      "target_cell": [
+        32,
+        53
+      ],
+      "other_order": 4856,
+      "other_index": 1690,
+      "other_cell": [
+        32,
+        56
+      ],
+      "other_family": "shore-1686-1700",
+      "target_side": "bottom",
+      "world_edge_xyxy": [
+        1536,
+        1728,
+        1584,
+        1728
+      ],
+      "pixel_pairs": 48,
+      "target_first_pixel_world": [
+        1536,
+        1727
+      ],
+      "other_first_pixel_world": [
+        1536,
+        1728
+      ],
+      "step": [
+        1,
+        0
+      ],
+      "target_first_pixel_local": [
+        144,
+        191
+      ]
+    },
+    {
+      "instance": 2,
+      "seed_cell": [
+        36,
+        42
+      ],
+      "target_order": 4997,
+      "target_index": 1673,
+      "target_cell": [
+        33,
+        47
+      ],
+      "other_order": 4999,
+      "other_index": 1772,
+      "other_cell": [
+        33,
+        49
+      ],
+      "other_family": "shore-1772-1777",
+      "target_side": "bottom",
+      "world_edge_xyxy": [
+        1584,
+        1536,
+        1632,
+        1536
+      ],
+      "pixel_pairs": 48,
+      "target_first_pixel_world": [
+        1584,
+        1535
+      ],
+      "other_first_pixel_world": [
+        1584,
+        1536
+      ],
+      "step": [
+        1,
+        0
+      ],
+      "target_first_pixel_local": [
+        0,
+        191
+      ]
+    },
+    {
+      "instance": 2,
+      "seed_cell": [
+        36,
+        42
+      ],
+      "target_order": 5147,
+      "target_index": 1674,
+      "target_cell": [
+        34,
+        47
+      ],
+      "other_order": 5149,
+      "other_index": 1773,
+      "other_cell": [
+        34,
+        49
+      ],
+      "other_family": "shore-1772-1777",
+      "target_side": "bottom",
+      "world_edge_xyxy": [
+        1632,
+        1536,
+        1680,
+        1536
+      ],
+      "pixel_pairs": 48,
+      "target_first_pixel_world": [
+        1632,
+        1535
+      ],
+      "other_first_pixel_world": [
+        1632,
+        1536
+      ],
+      "step": [
+        1,
+        0
+      ],
+      "target_first_pixel_local": [
+        48,
+        191
+      ]
+    },
+    {
+      "instance": 2,
+      "seed_cell": [
+        36,
+        42
+      ],
+      "target_order": 5297,
+      "target_index": 1675,
+      "target_cell": [
+        35,
+        47
+      ],
+      "other_order": 5300,
+      "other_index": 1775,
+      "other_cell": [
+        35,
+        50
+      ],
+      "other_family": "shore-1772-1777",
+      "target_side": "bottom",
+      "world_edge_xyxy": [
+        1680,
+        1536,
+        1728,
+        1536
+      ],
+      "pixel_pairs": 48,
+      "target_first_pixel_world": [
+        1680,
+        1535
+      ],
+      "other_first_pixel_world": [
+        1680,
+        1536
+      ],
+      "step": [
+        1,
+        0
+      ],
+      "target_first_pixel_local": [
+        96,
+        191
+      ]
+    },
+    {
+      "instance": 2,
+      "seed_cell": [
+        36,
+        42
+      ],
+      "target_order": 5442,
+      "target_index": 1668,
+      "target_cell": [
+        36,
+        42
+      ],
+      "other_order": 5593,
+      "other_index": 1651,
+      "other_cell": [
+        37,
+        43
+      ],
+      "other_family": "shore-1648-1657",
+      "target_side": "right",
+      "world_edge_xyxy": [
+        1776,
+        1344,
+        1776,
+        1376
+      ],
+      "pixel_pairs": 32,
+      "target_first_pixel_world": [
+        1775,
+        1344
+      ],
+      "other_first_pixel_world": [
+        1776,
+        1344
+      ],
+      "step": [
+        0,
+        1
+      ],
+      "target_first_pixel_local": [
+        191,
+        0
+      ]
+    },
+    {
+      "instance": 2,
+      "seed_cell": [
+        36,
+        42
+      ],
+      "target_order": 5445,
+      "target_index": 1672,
+      "target_cell": [
+        36,
+        45
+      ],
+      "other_order": 5593,
+      "other_index": 1651,
+      "other_cell": [
+        37,
+        43
+      ],
+      "other_family": "shore-1648-1657",
+      "target_side": "right",
+      "world_edge_xyxy": [
+        1776,
+        1376,
+        1776,
+        1408
+      ],
+      "pixel_pairs": 32,
+      "target_first_pixel_world": [
+        1775,
+        1376
+      ],
+      "other_first_pixel_world": [
+        1776,
+        1376
+      ],
+      "step": [
+        0,
+        1
+      ],
+      "target_first_pixel_local": [
+        191,
+        32
+      ]
+    },
+    {
+      "instance": 2,
+      "seed_cell": [
+        36,
+        42
+      ],
+      "target_order": 5445,
+      "target_index": 1672,
+      "target_cell": [
+        36,
+        45
+      ],
+      "other_order": 5595,
+      "other_index": 1656,
+      "other_cell": [
+        37,
+        45
+      ],
+      "other_family": "shore-1648-1657",
+      "target_side": "right",
+      "world_edge_xyxy": [
+        1776,
+        1408,
+        1776,
+        1472
+      ],
+      "pixel_pairs": 64,
+      "target_first_pixel_world": [
+        1775,
+        1408
+      ],
+      "other_first_pixel_world": [
+        1776,
+        1408
+      ],
+      "step": [
+        0,
+        1
+      ],
+      "target_first_pixel_local": [
+        191,
+        64
+      ]
+    },
+    {
+      "instance": 2,
+      "seed_cell": [
+        36,
+        42
+      ],
+      "target_order": 5447,
+      "target_index": 1676,
+      "target_cell": [
+        36,
+        47
+      ],
+      "other_order": 5449,
+      "other_index": 1774,
+      "other_cell": [
+        36,
+        49
+      ],
+      "other_family": "shore-1772-1777",
+      "target_side": "bottom",
+      "world_edge_xyxy": [
+        1728,
+        1536,
+        1776,
+        1536
+      ],
+      "pixel_pairs": 48,
+      "target_first_pixel_world": [
+        1728,
+        1535
+      ],
+      "other_first_pixel_world": [
+        1728,
+        1536
+      ],
+      "step": [
+        1,
+        0
+      ],
+      "target_first_pixel_local": [
+        144,
+        191
+      ]
+    }
+  ],
+  "cross_family_segment_count": 21,
+  "cross_family_pixel_pairs": 960,
+  "unaccepted": [
+    "hard binary mask boundary",
+    "pure-water padding outside original support",
+    "generated early-bank geometry",
+    "all21cross-family ports",
+    "actual same-camera GPU color A/B",
+    "integration into game"
+  ],
+  "tri_state_semantics": "Protected and unresolved are not separately represented. Both forbid water and remain unchanged bank RGB."
+}

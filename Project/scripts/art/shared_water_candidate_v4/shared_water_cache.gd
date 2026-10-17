@@ -4,7 +4,7 @@ extends Node
 signal completed(request_id: int, ok: bool, reason: String)
 
 const MODULE_ROOT := "res://scripts/art/shared_water_candidate_v4"
-const PINS_SHA := "PLACEHOLDER"
+const PINS_SHA := "5e0e269268f1c207bec696c72b217de5df3543609877bfdf7cfc35d7b9b2fd5d"
 const DENSITY := 4
 const GUTTER := 2
 const PERIOD := Vector2i(96, 64)
@@ -12,8 +12,8 @@ const PHASES := [Vector2i(0, 32), Vector2i(48, 0)]
 const TIMEOUT_MSEC := 10000
 const SPATIAL_MODES := {"binary_negative_control": 10, "core_inset": 11}
 const MASK_SIZE := Vector2i(192, 192)
-const PINS_SCHEMA := "shared-water-real-mask-probe-pins-v4"
-const MASK_SCHEMA := "shared-water-real-mask-contract-v4"
+const PINS_SCHEMA := "shared-water-binary-support-pins-v4-recovered"
+const MASK_SCHEMA := "shared-water-binary-support-contract-v4-recovered"
 const READY_STATUS := "MASK_READY_FOR_ISOLATED_PROBE"
 var _serial: int = 0
 var _post_draw: int = 0
@@ -115,8 +115,8 @@ func _load_verified_inputs(root_path: String, module_root: String = MODULE_ROOT)
 	if not pins.get("external_sha256") is Dictionary or not pins.get("module_sha256") is Dictionary:
 		last_error = "Pin document is missing hash dictionaries"
 		return {}
-	for required in ["FIXTURE_OWNERS.json", "MASK_CONTRACT.json", "canonical_water.gdshader",
-		"compose_owner_cache.gdshader", "data/core.png", "data/state.png", "data/support.png"]:
+	for required in ["OWNER_CONTRACT.json", "MASK_CONTRACT.json", "canonical_water.gdshader",
+		"compose_owner_cache.gdshader", "data/core.png", "data/support.png"]:
 		if not pins.module_sha256.has(required):
 			last_error = "Missing required module pin: " + str(required)
 			return {}
@@ -142,8 +142,8 @@ func _load_verified_inputs(root_path: String, module_root: String = MODULE_ROOT)
 	var mask_inputs: Dictionary = _decode_verified_masks(module_bytes)
 	if mask_inputs.is_empty():
 		return {}
-	var parsed_owners: Variant = JSON.parse_string(module_bytes["FIXTURE_OWNERS.json"].get_string_from_utf8())
-	if not parsed_owners is Dictionary or parsed_owners.get("schema") != "shared-water-fixture-owners-v1":
+	var parsed_owners: Variant = JSON.parse_string(module_bytes["OWNER_CONTRACT.json"].get_string_from_utf8())
+	if not parsed_owners is Dictionary or parsed_owners.get("schema") != "shared-water-owner-contract-v1":
 		last_error = "Invalid original owner contract"
 		return {}
 	var owners: Dictionary = parsed_owners
@@ -183,7 +183,7 @@ func _load_verified_inputs(root_path: String, module_root: String = MODULE_ROOT)
 	return {"water": ImageTexture.create_from_image(water), "bank": ImageTexture.create_from_image(bank),
 		"canonical_shader": canonical, "compose_shader": compose, "contract": owners,
 		"mask_contract": mask_inputs.contract, "source_mask_images": mask_inputs.images,
-		"core_mask": mask_inputs.textures.core, "state_mask": mask_inputs.textures.state,
+		"core_mask": mask_inputs.textures.core,
 		"support_mask": mask_inputs.textures.support, "pins": pins, "module_root": module_root}
 
 func _decode_verified_masks(module_bytes: Dictionary) -> Dictionary:
@@ -199,6 +199,9 @@ func _decode_verified_masks(module_bytes: Dictionary) -> Dictionary:
 	if contract.get("status") != READY_STATUS or contract.get("integration") != false:
 		last_error = "MASK_REBUILD_REQUIRED: isolated mask readiness is not verified"
 		return {}
+	if contract.get("tri_state_partition_restored") != false or contract.get("prohibited_set") != "support == 255 AND core == 0":
+		last_error = "Binary/support contract semantics changed"
+		return {}
 	var logical_size: Variant = contract.get("logical_size")
 	if not logical_size is Array or logical_size.size() != 2:
 		last_error = "Real-mask coordinates or modes changed"
@@ -209,7 +212,7 @@ func _decode_verified_masks(module_bytes: Dictionary) -> Dictionary:
 	if contract.get("density") != DENSITY or contract.get("gutter_pixels") != GUTTER:
 		last_error = "Real-mask cache sampling policy changed"
 		return {}
-	var expected_counts: Dictionary = {"core": 9402, "support": 32256, "protected": 3133, "unresolved": 19721, "outside": 4608}
+	var expected_counts: Dictionary = {"core": 9402, "support": 32256, "forbidden_noncore": 22854, "outside": 4608}
 	if not contract.get("counts") is Dictionary or not contract.get("files") is Dictionary:
 		last_error = "Real-mask count or file contract changed"
 		return {}
@@ -222,7 +225,7 @@ func _decode_verified_masks(module_bytes: Dictionary) -> Dictionary:
 			return {}
 	var images: Dictionary = {}
 	var bytes_by_name: Dictionary = {}
-	for mask_name in ["core", "state", "support"]:
+	for mask_name in ["core", "support"]:
 		var relative: String = "data/" + str(mask_name) + ".png"
 		if contract.files.get(mask_name) != relative or not module_bytes.has(relative):
 			last_error = "Real-mask path is not the verified contract path: " + str(mask_name)
@@ -238,41 +241,34 @@ func _decode_verified_masks(module_bytes: Dictionary) -> Dictionary:
 		images[mask_name] = mask_image
 		bytes_by_name[mask_name] = mask_image.get_data()
 	var core_bytes: PackedByteArray = bytes_by_name.core
-	var state_bytes: PackedByteArray = bytes_by_name.state
 	var support_bytes: PackedByteArray = bytes_by_name.support
-	if core_bytes.size() != 36864 or state_bytes.size() != 36864 or support_bytes.size() != 36864:
+	if core_bytes.size() != 36864 or support_bytes.size() != 36864:
 		last_error = "Unexpected mask byte count"
 		return {}
-	var counts: Dictionary = {"core": 0, "support": 0, "protected": 0, "unresolved": 0, "outside": 0}
+	# Recovered binary/support are exact old bytes. Unknown U/P labels are absent.
+	var counts: Dictionary = {"core": 0, "support": 0, "forbidden_noncore": 0, "outside": 0}
 	for i in range(36864):
 		var core_value: int = core_bytes[i]
-		var state_value: int = state_bytes[i]
 		var support_value: int = support_bytes[i]
-		if core_value not in [0, 255] or support_value not in [0, 255] or state_value not in [0, 127, 255]:
+		if core_value not in [0, 255] or support_value not in [0, 255]:
 			last_error = "Mask contains a non-contract data value"
 			return {}
-		var is_core: bool = state_value == 255 and support_value == 255
-		if (core_value == 255) != is_core:
-			last_error = "Binary mask is not exactly supported state255"
+		if core_value == 255 and support_value != 255:
+			last_error = "Candidate core must be a strict subset of original support"
 			return {}
 		if support_value == 0:
-			if state_value != 127 or core_value != 0:
-				last_error = "Outside-support sentinel or binary value changed"
-				return {}
 			counts.outside += 1
 		else:
 			counts.support += 1
-			if state_value == 255:
+			if core_value == 255:
 				counts.core += 1
-			elif state_value == 0:
-				counts.protected += 1
 			else:
-				counts.unresolved += 1
+				counts.forbidden_noncore += 1
 	if counts != expected_counts:
-		last_error = "Decoded real-mask counts differ from the pinned contract"
+		last_error = "Decoded binary/support counts differ from the pinned contract"
 		return {}
 	var textures: Dictionary = {"core": ImageTexture.create_from_image(images.core),
-		"state": ImageTexture.create_from_image(images.state), "support": ImageTexture.create_from_image(images.support)}
+		"support": ImageTexture.create_from_image(images.support)}
 	return {"contract": contract, "images": images, "textures": textures}
 
 func _verified_bytes(path: String, expected_sha: String) -> PackedByteArray:
