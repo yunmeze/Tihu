@@ -1,0 +1,53 @@
+{
+  "schema": "chief-generation-index-v3",
+  "status": "ALL_NOT_ACCEPTED_NOT_ACTIVE",
+  "tool": "image_gen__imagegen",
+  "runtime_changed": false,
+  "inputs_complete": true,
+  "generations": [
+    {
+      "id": "v1",
+      "raw": "raw/v1.png",
+      "args": "provenance/v1-tool-args.json",
+      "sha256": "73acc13fae797bfabe74c8abc02c27f37da24693387d719bde5ea6e73a28c983",
+      "inputs": [
+        "inputs/frame-125.png",
+        "inputs/earth-hero-S-idle-phase17.png"
+      ],
+      "status": "NOT_ACCEPTED"
+    },
+    {
+      "id": "v2",
+      "raw": "raw/v2.png",
+      "args": "provenance/v2-tool-args.json",
+      "sha256": "2c4095424ab187ed601448347ecc33920928e97c6cdbe1e5931a50193f40eedf",
+      "inputs": [
+        "inputs/frame-125.png",
+        "raw/v1.png"
+      ],
+      "status": "NOT_ACCEPTED"
+    },
+    {
+      "id": "v3",
+      "raw": "raw/v3.png",
+      "args": "provenance/v3-tool-args.json",
+      "sha256": "b6e64de3ca4ccfba1b52e37845fbe2acaa9d659b11931a2580544aae3be3fb1f",
+      "bytes": 1467946,
+      "git_blob": "ff0ba1cd1ff2d55b9d3ebcec9975c8eefc979352",
+      "args_bytes": 5048,
+      "args_git_blob": "7d1270cf98c037799280396c58a9eb6257d4f48b",
+      "inputs": [
+        "inputs/frame-125.png",
+        "raw/v2.png"
+      ],
+      "status": "NOT_ACCEPTED",
+      "review": "Root viewed original raw. Hands moved somewhat outward/up but remain visually about 66% of subject height instead of the source 53–56% band. This is an approximate visual assessment, not a passed numerical registration."
+    }
+  ],
+  "notes": [
+    "Raw image bytes preserved without recoloring, resampling or warping.",
+    "Actual tool args were serialized directly from stored original calls.",
+    "Portable input mappings supersede historical absolute paths in the original arguments.",
+    "No animation frames or Godot integration were made from these rejected candidates."
+  ]
+}
