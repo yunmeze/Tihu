@@ -1,0 +1,210 @@
+{
+  "schema": "a01-animation-delivery-manifest-v1",
+  "status": "static_research_stage_ready",
+  "archive_policy": "Only archive_files plus DELIVERY_MANIFEST.json itself. All local/ tests, logs and scratch notes are excluded. No source binary, image copies or main-repository edits.",
+  "archive_files": [
+    {
+      "path": ".gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "A01_ANIMATION_CONTRACT.json",
+      "bytes": 14934,
+      "sha256": "d7000588f1713c06c416b644934d70d74b41af2890a50e72073c37577a9fbceb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4240,
+      "sha256": "33eadead2c8c072f6e275bb97b884ec532ecbf13cc5e6fbe0bea598fedf03573"
+    },
+    {
+      "path": "SOURCE_FRAME_INDEX.json",
+      "bytes": 267615,
+      "sha256": "4ed60ad8d4e85806f64e16c40feb934138459bae3f4cb2741f9917c9b4b5ba0d"
+    },
+    {
+      "path": "SOURCE_PINS.json",
+      "bytes": 763,
+      "sha256": "9c61d4d887692741bac8dcfc7a5ac0095b4adff10ea3cd1188de14a94fb64296"
+    },
+    {
+      "path": "evidence/EXE_EVIDENCE.json",
+      "bytes": 18103,
+      "sha256": "d078887a8f565080fc65baa41e558aa338c09ac23ed8c96b5ca7f33886fa20d7"
+    },
+    {
+      "path": "evidence/attack_completion_hurt_death.asm.txt",
+      "bytes": 7190,
+      "sha256": "222265acadd8d7a7425d1b3d06c9d3250adc5c794c06a117cf3a6e79b3e79f16"
+    },
+    {
+      "path": "evidence/attack_strike_gate.asm.txt",
+      "bytes": 1150,
+      "sha256": "53622cdfddfa967964bd5d7d8a1efd1121e89d9d075916c8371fd86fe258b6c0"
+    },
+    {
+      "path": "evidence/corpse_frame.asm.txt",
+      "bytes": 2308,
+      "sha256": "01e3a41776c3a4bd908fce6fab96e34a261e13b0e1db5cf513f3d184317a3b54"
+    },
+    {
+      "path": "evidence/corpse_resource_cache_miss.asm.txt",
+      "bytes": 2913,
+      "sha256": "285a3e38326d106472be9711abae2fd5500f706976c91f513ecb3f202029e5f9"
+    },
+    {
+      "path": "evidence/death_entry.asm.txt",
+      "bytes": 1668,
+      "sha256": "0b6b0a5658609b8edb22c5b1ce57f9e3e70c244b125fab2979c5de2d06c98c34"
+    },
+    {
+      "path": "evidence/death_terminal.asm.txt",
+      "bytes": 5449,
+      "sha256": "4ba32cfff0db72c78aa9d30fe819085a9bef0e6cd4fd1e743d2d850110f37a97"
+    },
+    {
+      "path": "evidence/direction_reservation.asm.txt",
+      "bytes": 5921,
+      "sha256": "b8f6dcf0631dca3914aa90d3e5ad3476f0c295d321160dce285973b886a1c4d0"
+    },
+    {
+      "path": "evidence/dispatch.asm.txt",
+      "bytes": 2125,
+      "sha256": "2266434e2b78198145610c3eaa34ca4d6d00631e8212d1168f607cd1e4738879"
+    },
+    {
+      "path": "evidence/entry_clock.asm.txt",
+      "bytes": 3960,
+      "sha256": "e689b0bf162fc82c5c072c1b15f5884dc1f61f9551ec769e8203580514a58613"
+    },
+    {
+      "path": "evidence/hp_death_priority.asm.txt",
+      "bytes": 1166,
+      "sha256": "607870e107143beebbbf0626ccbc3db0aff0eadca7d7949d4aa4a1cae6e683f9"
+    },
+    {
+      "path": "evidence/idle_frame.asm.txt",
+      "bytes": 803,
+      "sha256": "8c97ba7e7c3cd3a5ee89ae1cc95ea767f25c85d168a7bad77fa79d59df284385"
+    },
+    {
+      "path": "evidence/idle_phase.asm.txt",
+      "bytes": 1306,
+      "sha256": "8c7108a849c20f8354883700c7a9d39a5387b1266d350e204aa4fce4965b4fed"
+    },
+    {
+      "path": "evidence/idle_special_gate.asm.txt",
+      "bytes": 962,
+      "sha256": "35c7b8b150f91b407b5a2cc8765f426f40dda93e70540f6c9f1027b92061dc84"
+    },
+    {
+      "path": "evidence/initialize_idle.asm.txt",
+      "bytes": 1616,
+      "sha256": "503b786aeb01c9a9633a480c5494b1a32c53e51d0a956533c3ff4e64e3d3b38f"
+    },
+    {
+      "path": "evidence/live_frame_appearance.asm.txt",
+      "bytes": 1968,
+      "sha256": "3becfc0d74e6586ed41bc2669e7d746471fd30e409a45508d39681358b368a1c"
+    },
+    {
+      "path": "evidence/live_resource_cache_miss.asm.txt",
+      "bytes": 4121,
+      "sha256": "5c2c087903963f737b14b3569871698e45c87e2391329053aa865937a29b00dc"
+    },
+    {
+      "path": "evidence/movement_tail.asm.txt",
+      "bytes": 1397,
+      "sha256": "91c5e9a7182fedb49ba2e4db53d10f80d92f52e6fc294580bc8d48019ac25aa0"
+    },
+    {
+      "path": "evidence/pursuit_attack_entry.asm.txt",
+      "bytes": 4044,
+      "sha256": "bfc56a52b1b727e5765876c6ad26a9f90806b37f0b57e8d242d6db0ca068e569"
+    },
+    {
+      "path": "evidence/pursuit_context.asm.txt",
+      "bytes": 374,
+      "sha256": "32d8896e81f28f0fc7119dd1319b28ad39e32d47f8c4f0d65dcbaae615d9190e"
+    },
+    {
+      "path": "evidence/pursuit_reentry_clock.asm.txt",
+      "bytes": 868,
+      "sha256": "56ac741dc70df29d4f902c3a406b0eff6620f64ecfdedc40b2d295a627475bf9"
+    },
+    {
+      "path": "evidence/resource_reader.asm.txt",
+      "bytes": 5544,
+      "sha256": "762bfb0b7bdb0af6ecbbd5770c3a31e4bf3c794743de92b35f4bb24de8d4c6c7"
+    },
+    {
+      "path": "evidence/resource_wrapper.asm.txt",
+      "bytes": 1675,
+      "sha256": "91629d5f681f096f58e5f04e665ddec32f3b9d6ae486d098f1b8cf752999d8e2"
+    },
+    {
+      "path": "evidence/slow_q_expiry.asm.txt",
+      "bytes": 963,
+      "sha256": "4d3f9a9f8201d91166938a38dbb7028403dc13d559f63298921160d5189ca58e"
+    },
+    {
+      "path": "evidence/slow_q_other_status.asm.txt",
+      "bytes": 883,
+      "sha256": "09ef35c10e622bdec9c8617512c885ff5e30be3935db30e278b1587fa1530653"
+    },
+    {
+      "path": "evidence/slow_q_set.asm.txt",
+      "bytes": 1024,
+      "sha256": "8c24b237fd7295639c4d216c024e6168427ccca05867301b7ce7fa16f9f30612"
+    },
+    {
+      "path": "evidence/walk_attack_frames.asm.txt",
+      "bytes": 4893,
+      "sha256": "23eee70486ff46839db978099efef289c9bf3ee430db300a755c01fab06f1353"
+    },
+    {
+      "path": "evidence/wander_entry.asm.txt",
+      "bytes": 3588,
+      "sha256": "257b4aaa5ca9f71fb554a83a9b5a43c684ad61fc03d22b1f3a61580a1d6d9646"
+    },
+    {
+      "path": "tools/replay.py",
+      "bytes": 22644,
+      "sha256": "5f96e2d90125f6156bf7fadf52909eada87f02bb7e32641de8d9b1f00b48e06d"
+    }
+  ],
+  "local_only_excluded": [
+    "local/MODEL_CHECKS.json",
+    "local/REPLAY_AND_BOUNDARY_CHECKS.json",
+    "local/VALIDATION.json",
+    "local/initialize.asm.txt",
+    "local/initialize_tail.asm.txt",
+    "local/movement.asm.txt",
+    "local/reader.asm.txt",
+    "local/render-research/MINIMAL_REPLAY_RANGES.json",
+    "local/render-research/RENDER_EVIDENCE.json",
+    "local/render-research/REPORT.md",
+    "local/render-research/build_evidence.py",
+    "local/render-research/corpse_effect_clear.asm.txt",
+    "local/render-research/corpse_grid_renderer.asm.txt",
+    "local/render-research/corpse_transition.asm.txt",
+    "local/render-research/corpse_whole_grid_clear.asm.txt",
+    "local/render-research/death_entry_reset.asm.txt",
+    "local/render-research/death_frame_step.asm.txt",
+    "local/render-research/full.asm.txt",
+    "local/render-research/imports.txt",
+    "local/render-research/live_cached_draw.asm.txt",
+    "local/render-research/live_frame_appearance.asm.txt",
+    "local/render-research/live_resource_cache_miss.asm.txt",
+    "local/render-research/monster_path_init.asm.txt",
+    "local/render-research/native_reader.asm.txt",
+    "local/render-research/resource_wrapper.asm.txt",
+    "local/render-research/update_tick.asm.txt",
+    "local/test_contract_model.py",
+    "local/update.asm.txt"
+  ],
+  "archive_files_count": 34,
+  "archive_bytes_without_manifest": 398178,
+  "runtime_verification": "Original EXE and Godot never run. Static checks and analytical-model checks do not establish runtime gameplay equivalence."
+}

@@ -1,0 +1,26 @@
+
+原版游戏/LP传奇单机版_重生.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+005c95f5 <.text+0x1c85f5>:
+  5c95f5:	33 ff                                           	xor    edi,edi
+  5c95f7:	2b c8                                           	sub    ecx,eax
+  5c95f9:	89 bd e8 fe ff ff                               	mov    DWORD PTR [ebp-0x118],edi
+  5c95ff:	89 bd d8 fe ff ff                               	mov    DWORD PTR [ebp-0x128],edi
+  5c9605:	8b 44 8a 74                                     	mov    eax,DWORD PTR [edx+ecx*4+0x74]
+  5c9609:	8d 8d e8 fe ff ff                               	lea    ecx,[ebp-0x118]
+  5c960f:	50                                              	push   eax
+  5c9610:	8d 95 d8 fe ff ff                               	lea    edx,[ebp-0x128]
+  5c9616:	51                                              	push   ecx
+  5c9617:	52                                              	push   edx
+  5c9618:	e8 03 a6 04 00                                  	call   0x613c20
+  5c961d:	e8 ee 02 fe ff                                  	call   0x5a9910
+  5c9622:	eb 02                                           	jmp    0x5c9626
+  5c9624:	33 ff                                           	xor    edi,edi
+  5c9626:	66 39 7e 34                                     	cmp    WORD PTR [esi+0x34],di
+  5c962a:	89 7e 24                                        	mov    DWORD PTR [esi+0x24],edi
+  5c962d:	89 7e 28                                        	mov    DWORD PTR [esi+0x28],edi
+  5c9630:	66 c7 46 1e 91 00                               	mov    WORD PTR [esi+0x1e],0x91
+  5c9636:	75 53                                           	jne    0x5c968b

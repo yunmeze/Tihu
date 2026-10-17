@@ -1,0 +1,624 @@
+{
+  "schema": "a01-animation-exe-evidence-v1",
+  "pe": {
+    "machine": "i386",
+    "image_base": "0x400000",
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 2326856,
+        "rva": 4096,
+        "raw_size": 2330624,
+        "raw_offset": 4096
+      },
+      {
+        "name": ".data",
+        "virtual_size": 40884,
+        "rva": 2334720,
+        "raw_size": 4096,
+        "raw_offset": 2334720
+      },
+      {
+        "name": ".rsrc",
+        "virtual_size": 161704,
+        "rva": 2375680,
+        "raw_size": 163840,
+        "raw_offset": 2338816
+      }
+    ]
+  },
+  "source_sha256": "21dc753d3aa828fb29dc171e595857be234833edc43a1d80833540ae7e355b84",
+  "anchors": [
+    {
+      "va": "0x5c3f56",
+      "file_offset": 1851222,
+      "bytes_hex": "0fbf54d022",
+      "interpretation": "Live renderer reads signed entity +0x22 into nativeFrame local"
+    },
+    {
+      "va": "0x5c3f70",
+      "file_offset": 1851248,
+      "bytes_hex": "668b54c108",
+      "interpretation": "Live renderer reads entity appearance low WORD +8"
+    },
+    {
+      "va": "0x5c45be",
+      "file_offset": 1852862,
+      "bytes_hex": "e8add70600",
+      "interpretation": "Live loader calls resource wrapper with unchanged nativeFrame pointer"
+    },
+    {
+      "va": "0x631dc8",
+      "file_offset": 2301384,
+      "bytes_hex": "e833290000",
+      "interpretation": "Wrapper forwards nativeFrame pointer to634700"
+    },
+    {
+      "va": "0x5b644d",
+      "file_offset": 1795149,
+      "bytes_hex": "8d94d299000000",
+      "interpretation": "Corpse stored direction becomes nativeFrame153+9*d"
+    },
+    {
+      "va": "0x5b64e9",
+      "file_offset": 1795305,
+      "bytes_hex": "e882b80700",
+      "interpretation": "Corpse loader uses same resource wrapper"
+    },
+    {
+      "va": "0x5a1cd5",
+      "file_offset": 1711317,
+      "bytes_hex": "66c7461e0100",
+      "interpretation": "Initialize state 1"
+    },
+    {
+      "va": "0x5a1d05",
+      "file_offset": 1711365,
+      "bytes_hex": "c7462801000000",
+      "interpretation": "Initialize phase 1"
+    },
+    {
+      "va": "0x5a1d0c",
+      "file_offset": 1711372,
+      "bytes_hex": "66c1e10266034e28",
+      "interpretation": "Initial frame = direction*4 + phase"
+    },
+    {
+      "va": "0x5a1d1a",
+      "file_offset": 1711386,
+      "bytes_hex": "66894e22",
+      "interpretation": "Store initial native frame in entity +0x22"
+    },
+    {
+      "va": "0x5c84b5",
+      "file_offset": 1868981,
+      "bytes_hex": "66395e1e",
+      "interpretation": "Check state zero before clock increment"
+    },
+    {
+      "va": "0x5c8547",
+      "file_offset": 1869127,
+      "bytes_hex": "0f84ed4a0000",
+      "interpretation": "State zero jumps to return path"
+    },
+    {
+      "va": "0x5c854d",
+      "file_offset": 1869133,
+      "bytes_hex": "8b7e2447897e24",
+      "interpretation": "Increment signed 32-bit entity clock +0x24 once per active update"
+    },
+    {
+      "va": "0x5c894a",
+      "file_offset": 1870154,
+      "bytes_hex": "c7853cffffff01000000",
+      "interpretation": "q = 1 when +0xb2 status active"
+    },
+    {
+      "va": "0x5c8a21",
+      "file_offset": 1870369,
+      "bytes_hex": "899d3cffffff",
+      "interpretation": "q reset to zero when +0xb2 expires; ebx remains zero in this section"
+    },
+    {
+      "va": "0x5c917b",
+      "file_offset": 1872251,
+      "bytes_hex": "8b46783bc30f8faa070000",
+      "interpretation": "HP > 0 bypasses death initialization"
+    },
+    {
+      "va": "0x5c9186",
+      "file_offset": 1872262,
+      "bytes_hex": "66817e1e91000f849e070000",
+      "interpretation": "Already in death does not reinitialize"
+    },
+    {
+      "va": "0x5c962a",
+      "file_offset": 1873450,
+      "bytes_hex": "897e24897e2866c7461e9100",
+      "interpretation": "Death sets clock=0 phase=0 state=145 before same-call dispatch"
+    },
+    {
+      "va": "0x5c9971",
+      "file_offset": 1874289,
+      "bytes_hex": "0fbf461e483d90000000",
+      "interpretation": "State dispatcher indexes state-1"
+    },
+    {
+      "va": "0x5c9983",
+      "file_offset": 1874307,
+      "bytes_hex": "8a90e0d05c00ff2495c8d05c00",
+      "interpretation": "Two-level jump table"
+    },
+    {
+      "va": "0x5ca010",
+      "file_offset": 1875984,
+      "bytes_hex": "663946206689461e",
+      "interpretation": "Pursuit checks previous_state=33 and stores current state=33"
+    },
+    {
+      "va": "0x5ca01e",
+      "file_offset": 1875998,
+      "bytes_hex": "897e24c7462800000000",
+      "interpretation": "New pursuit movement clock=-1 phase=0; edi=-1 established in context"
+    },
+    {
+      "va": "0x5ca069",
+      "file_offset": 1876073,
+      "bytes_hex": "66c7461e5100897e24c7462800000000",
+      "interpretation": "Attack entry state81 clock=-1 phase0; frame held"
+    },
+    {
+      "va": "0x5ca509",
+      "file_offset": 1877257,
+      "bytes_hex": "b90c00000099f7f9",
+      "interpretation": "Idle phase gate: clock modulo 12"
+    },
+    {
+      "va": "0x5ca519",
+      "file_offset": 1877273,
+      "bytes_hex": "8b4e28418bc1894e2883f805",
+      "interpretation": "Idle increments phase then compares to 5"
+    },
+    {
+      "va": "0x5ca52f",
+      "file_offset": 1877295,
+      "bytes_hex": "c7462801000000",
+      "interpretation": "Idle wraps to phase1"
+    },
+    {
+      "va": "0x5ca5d6",
+      "file_offset": 1877462,
+      "bytes_hex": "c74624ffffffff",
+      "interpretation": "Wander entry clock=-1"
+    },
+    {
+      "va": "0x5ca5de",
+      "file_offset": 1877470,
+      "bytes_hex": "c7462801000000",
+      "interpretation": "Wander entry phase1"
+    },
+    {
+      "va": "0x5ca687",
+      "file_offset": 1877639,
+      "bytes_hex": "66c7461e2100e94a010000",
+      "interpretation": "Successful wander sets state33 then executes idle frame tail"
+    },
+    {
+      "va": "0x5caea9",
+      "file_offset": 1879721,
+      "bytes_hex": "668b461a66c1e0026603462866894622",
+      "interpretation": "Idle stored frame=4*direction+phase"
+    },
+    {
+      "va": "0x5caff2",
+      "file_offset": 1880050,
+      "bytes_hex": "66c746202100",
+      "interpretation": "Walk updates previous_state to33"
+    },
+    {
+      "va": "0x5cb002",
+      "file_offset": 1880066,
+      "bytes_hex": "e8b9780000",
+      "interpretation": "Movement step before frame gate; may change state to idle"
+    },
+    {
+      "va": "0x5cb00a",
+      "file_offset": 1880074,
+      "bytes_hex": "83c3040fbfcb99f7f9",
+      "interpretation": "Walk frame gate uses q+4"
+    },
+    {
+      "va": "0x5cb01b",
+      "file_offset": 1880091,
+      "bytes_hex": "837e28057c03897e28",
+      "interpretation": "Walk resets phase>=5 to0 before increment"
+    },
+    {
+      "va": "0x5cb02c",
+      "file_offset": 1880108,
+      "bytes_hex": "42895628",
+      "interpretation": "Walk preincrements phase"
+    },
+    {
+      "va": "0x5cb030",
+      "file_offset": 1880112,
+      "bytes_hex": "668b561a666bd2069b6603562883c22166895622",
+      "interpretation": "Walk stored frame=33+6*direction+new phase"
+    },
+    {
+      "va": "0x5cb04f",
+      "file_offset": 1880143,
+      "bytes_hex": "66c74620510083c004",
+      "interpretation": "Attack previous_state81 and q+4 frame interval"
+    },
+    {
+      "va": "0x5cb06d",
+      "file_offset": 1880173,
+      "bytes_hex": "8b5e288d1440d1e26603562883c251",
+      "interpretation": "Attack computes frame with old phase"
+    },
+    {
+      "va": "0x5cb07c",
+      "file_offset": 1880188,
+      "bytes_hex": "438bcb6689562283f901895e28",
+      "interpretation": "Attack stores frame, then commits phase+1"
+    },
+    {
+      "va": "0x5cb104",
+      "file_offset": 1880324,
+      "bytes_hex": "83f9050f85d11b0000",
+      "interpretation": "Main strike dispatch at new phase5 / old phase4"
+    },
+    {
+      "va": "0x5cccde",
+      "file_offset": 1887454,
+      "bytes_hex": "837e28060f8c52030000",
+      "interpretation": "Attack completion after new phase>=6"
+    },
+    {
+      "va": "0x5cccf8",
+      "file_offset": 1887480,
+      "bytes_hex": "894624894e4c897e2866894e1e6689562e",
+      "interpretation": "Completion writes clock-1, aggro1, phase0, idle1, cooldown"
+    },
+    {
+      "va": "0x5ccd56",
+      "file_offset": 1887574,
+      "bytes_hex": "b90500000099f7f9",
+      "interpretation": "Hurt clock modulo5"
+    },
+    {
+      "va": "0x5ccd66",
+      "file_offset": 1887590,
+      "bytes_hex": "668b561a8b4e2866d1e266035628",
+      "interpretation": "Hurt uses 2*direction + old phase"
+    },
+    {
+      "va": "0x5ccd79",
+      "file_offset": 1887609,
+      "bytes_hex": "81c281000000",
+      "interpretation": "Hurt frame base129"
+    },
+    {
+      "va": "0x5ccdcc",
+      "file_offset": 1887692,
+      "bytes_hex": "c74624ffffffff897e2866895e1e",
+      "interpretation": "Hurt completion clock-1 phase0 idle1"
+    },
+    {
+      "va": "0x5ccde8",
+      "file_offset": 1887720,
+      "bytes_hex": "81e203000080",
+      "interpretation": "Signed modulo4 death clock gate"
+    },
+    {
+      "va": "0x5ccdfb",
+      "file_offset": 1887739,
+      "bytes_hex": "668b461a8b4e28666bc00966034628",
+      "interpretation": "Death uses 9*direction + old phase"
+    },
+    {
+      "va": "0x5cce0f",
+      "file_offset": 1887759,
+      "bytes_hex": "05910000004166894622",
+      "interpretation": "Death base145 and post-incremented phase"
+    },
+    {
+      "va": "0x5ccf5a",
+      "file_offset": 1888090,
+      "bytes_hex": "837e28090f8c9c000000",
+      "interpretation": "Terminal after nine emitted frames"
+    },
+    {
+      "va": "0x5ccf68",
+      "file_offset": 1888104,
+      "bytes_hex": "c7462808000000",
+      "interpretation": "Clamp terminal phase to8"
+    },
+    {
+      "va": "0x5ccf8b",
+      "file_offset": 1888139,
+      "bytes_hex": "893cc8",
+      "interpretation": "Clear occupancy kind"
+    },
+    {
+      "va": "0x5ccfae",
+      "file_offset": 1888174,
+      "bytes_hex": "897cc804",
+      "interpretation": "Clear occupancy entity id"
+    },
+    {
+      "va": "0x5ccfd2",
+      "file_offset": 1888210,
+      "bytes_hex": "8b56088954c804",
+      "interpretation": "Store appearance in corpse map second word"
+    },
+    {
+      "va": "0x5ccffd",
+      "file_offset": 1888253,
+      "bytes_hex": "890cd0",
+      "interpretation": "Store direction in corpse map first word"
+    },
+    {
+      "va": "0x5d27c2",
+      "file_offset": 1910722,
+      "bytes_hex": "ff248d9c285d00",
+      "interpretation": "Direction table base"
+    },
+    {
+      "va": "0x63473b",
+      "file_offset": 2311995,
+      "bytes_hex": "8d0cc50d000000",
+      "interpretation": "Resource index seek = native frame*8+13, no frame subtraction"
+    }
+  ],
+  "ranges": [
+    {
+      "name": "live_frame_appearance",
+      "start_va": "0x5c3f39",
+      "end_va_exclusive": "0x5c3f7c",
+      "file_offset": 1851193,
+      "bytes": 67,
+      "sha256": "1a5ccac5a5986206604203a386bc0f327e8aad75aab38db7a32b19a6dabd71ad"
+    },
+    {
+      "name": "live_resource_cache_miss",
+      "start_va": "0x5c4519",
+      "end_va_exclusive": "0x5c45c3",
+      "file_offset": 1852697,
+      "bytes": 170,
+      "sha256": "0b9fc4c69f926a892b4aeca85a6a7dcfe073de78aa4d1cbe0de56367dd31c962"
+    },
+    {
+      "name": "resource_wrapper",
+      "start_va": "0x631d9b",
+      "end_va_exclusive": "0x631dcd",
+      "file_offset": 2301339,
+      "bytes": 50,
+      "sha256": "39f2c768031fa8e5e2e71a5863191154565d467b29a02ad713fa9f32e9556639"
+    },
+    {
+      "name": "corpse_frame",
+      "start_va": "0x5b6405",
+      "end_va_exclusive": "0x5b6454",
+      "file_offset": 1795077,
+      "bytes": 79,
+      "sha256": "aaa72032a2b12d5a4310fff91a3c24e4ebaa551e9023bba23896bb6aa7208dc6"
+    },
+    {
+      "name": "corpse_resource_cache_miss",
+      "start_va": "0x5b648a",
+      "end_va_exclusive": "0x5b64ee",
+      "file_offset": 1795210,
+      "bytes": 100,
+      "sha256": "9ad634dc36c7dd99b96fd1367687823124fefb15389e97ae6eb232334bbc394a"
+    },
+    {
+      "name": "initialize_idle",
+      "start_va": "0x5a1cd2",
+      "end_va_exclusive": "0x5a1d1e",
+      "file_offset": 1711314,
+      "bytes": 76,
+      "sha256": "4d21355b3bc5af54c7b49efcce04883177855a5274247a693d1840315cc3d61a"
+    },
+    {
+      "name": "entry_clock",
+      "start_va": "0x5c849c",
+      "end_va_exclusive": "0x5c8568",
+      "file_offset": 1868956,
+      "bytes": 204,
+      "sha256": "43f944fa8131e421a1c4d6335820e59e5b744be23ed34df0ebd496347ae8f54b"
+    },
+    {
+      "name": "slow_q_set",
+      "start_va": "0x5c8924",
+      "end_va_exclusive": "0x5c895a",
+      "file_offset": 1870116,
+      "bytes": 54,
+      "sha256": "675c4884d0d06f1a289d73d6fd33b8468f9ea2cb8e142b79c6990aa4c81e8897"
+    },
+    {
+      "name": "slow_q_expiry",
+      "start_va": "0x5c89f7",
+      "end_va_exclusive": "0x5c8a2c",
+      "file_offset": 1870327,
+      "bytes": 53,
+      "sha256": "e8e61f65c9a54b1d016fb8ac31a5ca5c4a68dabd66ae87b22108e5500b05d073"
+    },
+    {
+      "name": "slow_q_other_status",
+      "start_va": "0x5c8a6e",
+      "end_va_exclusive": "0x5c8a9a",
+      "file_offset": 1870446,
+      "bytes": 44,
+      "sha256": "6705da5fc83bef727b250a512df3cd51ea00fb4948285fd79aac8f94a79251a5"
+    },
+    {
+      "name": "hp_death_priority",
+      "start_va": "0x5c917b",
+      "end_va_exclusive": "0x5c91b3",
+      "file_offset": 1872251,
+      "bytes": 56,
+      "sha256": "e5649a44c2472b729fdddc27b83571730874f7bcefee36cb67813a30161fcccb"
+    },
+    {
+      "name": "death_entry",
+      "start_va": "0x5c95f5",
+      "end_va_exclusive": "0x5c9638",
+      "file_offset": 1873397,
+      "bytes": 67,
+      "sha256": "1c893d311bbcfec8cce37d433301afb3dd68e67db3a0fbe23eed03864c61eccb"
+    },
+    {
+      "name": "dispatch",
+      "start_va": "0x5c9930",
+      "end_va_exclusive": "0x5c9990",
+      "file_offset": 1874224,
+      "bytes": 96,
+      "sha256": "0252cde5e0d988687508ee3be1e8910de31f2e1ab3fec2d8aa9a9b30048a6631"
+    },
+    {
+      "name": "pursuit_context",
+      "start_va": "0x5c9af1",
+      "end_va_exclusive": "0x5c9afe",
+      "file_offset": 1874673,
+      "bytes": 13,
+      "sha256": "19ad822fb0c46fdd4a4f9284ed14a15d50b415526b9122b0d6b8929459ec7a56"
+    },
+    {
+      "name": "pursuit_reentry_clock",
+      "start_va": "0x5c9f13",
+      "end_va_exclusive": "0x5c9f3b",
+      "file_offset": 1875731,
+      "bytes": 40,
+      "sha256": "9cb5290b9925809cea57ef9ca1e7f03ad480b5e768c963a05fc8934f549e7387"
+    },
+    {
+      "name": "pursuit_attack_entry",
+      "start_va": "0x5c9fb3",
+      "end_va_exclusive": "0x5ca084",
+      "file_offset": 1875891,
+      "bytes": 209,
+      "sha256": "34adb25a2fd2cb8a81ffb83ae063dd867042d8747a8bcb76ac7bdbffb0fb6632"
+    },
+    {
+      "name": "idle_phase",
+      "start_va": "0x5ca506",
+      "end_va_exclusive": "0x5ca53c",
+      "file_offset": 1877254,
+      "bytes": 54,
+      "sha256": "8183abed0059a149bdd2bb0e717d2d3f1aadbd506c8bc99e6aeaf7cfa39ef63c"
+    },
+    {
+      "name": "wander_entry",
+      "start_va": "0x5ca5c7",
+      "end_va_exclusive": "0x5ca692",
+      "file_offset": 1877447,
+      "bytes": 203,
+      "sha256": "cd57ad16f9909ef54845dae1e59b69338ed25c5805c1511c8235dbbf7faf279d"
+    },
+    {
+      "name": "idle_special_gate",
+      "start_va": "0x5ca7dc",
+      "end_va_exclusive": "0x5ca80f",
+      "file_offset": 1877980,
+      "bytes": 51,
+      "sha256": "e4a1701e5a2ec50aef1a2f9b8270f8cee321a778871e68852e34460bc751daca"
+    },
+    {
+      "name": "idle_frame",
+      "start_va": "0x5caea9",
+      "end_va_exclusive": "0x5caed2",
+      "file_offset": 1879721,
+      "bytes": 41,
+      "sha256": "9bff8838e9133287a50e83dcae4e6baaf4dafa82df5edbf598bf971d4b847f45"
+    },
+    {
+      "name": "walk_attack_frames",
+      "start_va": "0x5cafe5",
+      "end_va_exclusive": "0x5cb0aa",
+      "file_offset": 1880037,
+      "bytes": 197,
+      "sha256": "b201cfa1b8aaab7a5bf38f2cf1553bdd705e0db281a94a2e314bd45482b0c40c"
+    },
+    {
+      "name": "attack_strike_gate",
+      "start_va": "0x5cb0ff",
+      "end_va_exclusive": "0x5cb13d",
+      "file_offset": 1880319,
+      "bytes": 62,
+      "sha256": "b255528e6e6fee764de24293432c351e6c55fbaf7fc126cda563979c8252a5c1"
+    },
+    {
+      "name": "attack_completion_hurt_death",
+      "start_va": "0x5cccdc",
+      "end_va_exclusive": "0x5cce26",
+      "file_offset": 1887452,
+      "bytes": 330,
+      "sha256": "9d6c06d49f219f7858cf9bdb2e13fd45335f784339e71ff475a61007330692db"
+    },
+    {
+      "name": "death_terminal",
+      "start_va": "0x5ccf5a",
+      "end_va_exclusive": "0x5cd03a",
+      "file_offset": 1888090,
+      "bytes": 224,
+      "sha256": "5f89025742c2469ef6c2091bbdcf1b095cee63c87f741f16bec8d5ac2030f268"
+    },
+    {
+      "name": "direction_reservation",
+      "start_va": "0x5d27b0",
+      "end_va_exclusive": "0x5d2899",
+      "file_offset": 1910704,
+      "bytes": 233,
+      "sha256": "3d37e4cceac9e52c8a41386668b4f9136ccb91c85bdddd38253e6d771bc938c9"
+    },
+    {
+      "name": "movement_tail",
+      "start_va": "0x5d2ffb",
+      "end_va_exclusive": "0x5d3028",
+      "file_offset": 1912827,
+      "bytes": 45,
+      "sha256": "38ad4c5636f8c66954520d832f7716ad7554de95931cfcc0fa4dd35d5c78d999"
+    },
+    {
+      "name": "resource_reader",
+      "start_va": "0x634700",
+      "end_va_exclusive": "0x6347e7",
+      "file_offset": 2311936,
+      "bytes": 231,
+      "sha256": "491b350518e7da6ded7cd49c97a2d24fff86a155fccd057a8d136c066104c307"
+    }
+  ],
+  "imports": {
+    "0x4011a8": "000011a8  <none>  009b  __vbaFileSeek\t660f33b0",
+    "0x401104": "00001104  <none>  00b5  __vbaGet3\t66012523"
+  },
+  "state_dispatch": {
+    "index": "state-1",
+    "selector_va": "0x5cd0e0",
+    "target_va": "0x5cd0c8",
+    "nondefault": {
+      "1": "0x5c9990",
+      "33": "0x5cafe5",
+      "81": "0x5cb049",
+      "129": "0x5ccd53",
+      "145": "0x5ccde5"
+    },
+    "default": "0x5cd03a"
+  },
+  "direction_dispatch": {
+    "table_va": "0x5d289c",
+    "targets": [
+      "0x5d27c9",
+      "0x5d27fa",
+      "0x5d2802",
+      "0x5d2808",
+      "0x5d2826",
+      "0x5d2857",
+      "0x5d285f",
+      "0x5d2865"
+    ]
+  },
+  "evidence_limit": "Pins prove source and exact instructions. Semantics are static reviewed reconstructions; no native execution or complete control-flow proof."
+}

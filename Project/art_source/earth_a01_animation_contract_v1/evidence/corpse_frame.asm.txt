@@ -1,0 +1,33 @@
+
+原版游戏/LP传奇单机版_重生.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+005b6405 <.text+0x1b5405>:
+  5b6405:	8b 45 ac                                        	mov    eax,DWORD PTR [ebp-0x54]
+  5b6408:	8b 55 cc                                        	mov    edx,DWORD PTR [ebp-0x34]
+  5b640b:	8b 71 14                                        	mov    esi,DWORD PTR [ecx+0x14]
+  5b640e:	03 c2                                           	add    eax,edx
+  5b6410:	0f bf c0                                        	movsx  eax,ax
+  5b6413:	8b d0                                           	mov    edx,eax
+  5b6415:	2b d6                                           	sub    edx,esi
+  5b6417:	8b 71 1c                                        	mov    esi,DWORD PTR [ecx+0x1c]
+  5b641a:	0f af 51 18                                     	imul   edx,DWORD PTR [ecx+0x18]
+  5b641e:	2b d6                                           	sub    edx,esi
+  5b6420:	8b 71 0c                                        	mov    esi,DWORD PTR [ecx+0xc]
+  5b6423:	03 d7                                           	add    edx,edi
+  5b6425:	8b 14 d6                                        	mov    edx,DWORD PTR [esi+edx*8]
+  5b6428:	89 55 d4                                        	mov    DWORD PTR [ebp-0x2c],edx
+  5b642b:	8b 71 14                                        	mov    esi,DWORD PTR [ecx+0x14]
+  5b642e:	2b c6                                           	sub    eax,esi
+  5b6430:	8b 71 1c                                        	mov    esi,DWORD PTR [ecx+0x1c]
+  5b6433:	0f af 41 18                                     	imul   eax,DWORD PTR [ecx+0x18]
+  5b6437:	2b c6                                           	sub    eax,esi
+  5b6439:	8b 71 0c                                        	mov    esi,DWORD PTR [ecx+0xc]
+  5b643c:	03 c7                                           	add    eax,edi
+  5b643e:	8b 44 c6 04                                     	mov    eax,DWORD PTR [esi+eax*8+0x4]
+  5b6442:	85 c0                                           	test   eax,eax
+  5b6444:	89 45 e0                                        	mov    DWORD PTR [ebp-0x20],eax
+  5b6447:	0f 8e 74 01 00 00                               	jle    0x5b65c1
+  5b644d:	8d 94 d2 99 00 00 00                            	lea    edx,[edx+edx*8+0x99]

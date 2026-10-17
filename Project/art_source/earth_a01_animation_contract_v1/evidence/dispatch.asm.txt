@@ -1,0 +1,32 @@
+
+原版游戏/LP传奇单机版_重生.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+005c9930 <.text+0x1c8930>:
+  5c9930:	8b 1d 0c 11 40 00                               	mov    ebx,DWORD PTR ds:0x40110c
+  5c9936:	66 8b 86 b4 00 00 00                            	mov    ax,WORD PTR [esi+0xb4]
+  5c993d:	33 ff                                           	xor    edi,edi
+  5c993f:	66 3b c7                                        	cmp    ax,di
+  5c9942:	7e 1f                                           	jle    0x5c9963
+  5c9944:	39 7e 78                                        	cmp    DWORD PTR [esi+0x78],edi
+  5c9947:	7e 13                                           	jle    0x5c995c
+  5c9949:	48                                              	dec    eax
+  5c994a:	68 b3 d0 5c 00                                  	push   0x5cd0b3
+  5c994f:	66 89 86 b4 00 00 00                            	mov    WORD PTR [esi+0xb4],ax
+  5c9956:	9b                                              	fwait
+  5c9957:	e9 34 37 00 00                                  	jmp    0x5cd090
+  5c995c:	66 89 be b4 00 00 00                            	mov    WORD PTR [esi+0xb4],di
+  5c9963:	66 8b 46 5c                                     	mov    ax,WORD PTR [esi+0x5c]
+  5c9967:	66 3b c7                                        	cmp    ax,di
+  5c996a:	7e 05                                           	jle    0x5c9971
+  5c996c:	48                                              	dec    eax
+  5c996d:	66 89 46 5c                                     	mov    WORD PTR [esi+0x5c],ax
+  5c9971:	0f bf 46 1e                                     	movsx  eax,WORD PTR [esi+0x1e]
+  5c9975:	48                                              	dec    eax
+  5c9976:	3d 90 00 00 00                                  	cmp    eax,0x90
+  5c997b:	0f 87 b9 36 00 00                               	ja     0x5cd03a
+  5c9981:	33 d2                                           	xor    edx,edx
+  5c9983:	8a 90 e0 d0 5c 00                               	mov    dl,BYTE PTR [eax+0x5cd0e0]
+  5c9989:	ff 24 95 c8 d0 5c 00                            	jmp    DWORD PTR [edx*4+0x5cd0c8]

@@ -1,0 +1,29 @@
+
+原版游戏/LP传奇单机版_重生.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+005c3f39 <.text+0x1c2f39>:
+  5c3f39:	8b 3d 78 ed 63 00                               	mov    edi,DWORD PTR ds:0x63ed78
+  5c3f3f:	8b 0e                                           	mov    ecx,DWORD PTR [esi]
+  5c3f41:	89 45 dc                                        	mov    DWORD PTR [ebp-0x24],eax
+  5c3f44:	8b d1                                           	mov    edx,ecx
+  5c3f46:	2b 57 14                                        	sub    edx,DWORD PTR [edi+0x14]
+  5c3f49:	8b c2                                           	mov    eax,edx
+  5c3f4b:	c1 e0 05                                        	shl    eax,0x5
+  5c3f4e:	2b c2                                           	sub    eax,edx
+  5c3f50:	8d 14 40                                        	lea    edx,[eax+eax*2]
+  5c3f53:	8b 47 0c                                        	mov    eax,DWORD PTR [edi+0xc]
+  5c3f56:	0f bf 54 d0 22                                  	movsx  edx,WORD PTR [eax+edx*8+0x22]
+  5c3f5b:	89 55 e0                                        	mov    DWORD PTR [ebp-0x20],edx
+  5c3f5e:	8b 47 14                                        	mov    eax,DWORD PTR [edi+0x14]
+  5c3f61:	2b c8                                           	sub    ecx,eax
+  5c3f63:	8b c1                                           	mov    eax,ecx
+  5c3f65:	c1 e0 05                                        	shl    eax,0x5
+  5c3f68:	2b c1                                           	sub    eax,ecx
+  5c3f6a:	8b 4f 0c                                        	mov    ecx,DWORD PTR [edi+0xc]
+  5c3f6d:	8d 04 40                                        	lea    eax,[eax+eax*2]
+  5c3f70:	66 8b 54 c1 08                                  	mov    dx,WORD PTR [ecx+eax*8+0x8]
+  5c3f75:	8d 04 c1                                        	lea    eax,[ecx+eax*8]
+  5c3f78:	66 89 55 d8                                     	mov    WORD PTR [ebp-0x28],dx

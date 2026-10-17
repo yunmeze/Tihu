@@ -1,0 +1,657 @@
+{
+  "schema": "a01-ordinary-animation-contract-v1",
+  "status": "static_source_contract_not_runtime_validation",
+  "source_exe_sha256": "21dc753d3aa828fb29dc171e595857be234833edc43a1d80833540ae7e355b84",
+  "binding_dependency": {
+    "artifact": "a01-source-contract-v1/A01_SOURCE_CONTRACT.json",
+    "bytes": 4467,
+    "sha256": "d4545b9490aefaf2946176beda4d271f98916f4f367c81e3b411dcac02811c7f",
+    "note": "A01 identity bindings are independently completed in the preceding artifact; no new lookup reconstruction here."
+  },
+  "scope": {
+    "appearances": [
+      5,
+      7
+    ],
+    "a01_ordinary_spawn_count_from_separately_pinned_binding": 45,
+    "excluded": [
+      "appearance888 special initialization",
+      "complete AI/target selection",
+      "damage calculation/drop logic",
+      "all revival and named-special branches",
+      "wall-clock calibration",
+      "Godot implementation/runtime verification"
+    ]
+  },
+  "native_indexing": {
+    "table_index_equals_native_frame": true,
+    "subtract_one": false,
+    "vb_seek_formula": "native_frame*8+13",
+    "zero_based_file_offset_formula": "native_frame*8+12",
+    "pointer_field_conversion": "Decoded image-record pointer is VB 1-based, so subtract1 from THAT pointer only; not from frame id.",
+    "allocated_native_frame_range": [
+      1,
+      216
+    ],
+    "record_count": 217,
+    "record_zero": "Valid duplicate image bytes of frame1, but decoded prefix=[216,0], not frame1 registration; keep separate."
+  },
+  "render_chain": {
+    "live": "entity+0x22 -> local nativeFrame -> wrapper0x631d70 -> reader0x634700, unchanged",
+    "appearance": "entity+8 low signed WORD -> decimal filename + .lpRes under Mon root",
+    "corpse": "corpse map0x63ed7c direction/appearance -> frame153+9*d -> same wrapper and reader",
+    "cache_key": "appearance + 257*nativeFrame",
+    "evidence": [
+      "live_frame_appearance",
+      "live_resource_cache_miss",
+      "resource_wrapper",
+      "resource_reader",
+      "corpse_frame",
+      "corpse_resource_cache_miss"
+    ]
+  },
+  "fields": {
+    "appearance": {
+      "offset": "0x08",
+      "storage": "i32",
+      "renderer_read": "low i16"
+    },
+    "direction": {
+      "offset": "0x1a",
+      "storage": "i16"
+    },
+    "state": {
+      "offset": "0x1e",
+      "storage": "i16"
+    },
+    "previous_state": {
+      "offset": "0x20",
+      "storage": "i16"
+    },
+    "stored_frame": {
+      "offset": "0x22",
+      "storage": "i16"
+    },
+    "clock": {
+      "offset": "0x24",
+      "storage": "i32"
+    },
+    "phase": {
+      "offset": "0x28",
+      "storage": "i32"
+    },
+    "hp": {
+      "offset": "0x78",
+      "storage": "i32"
+    }
+  },
+  "directions": [
+    {
+      "code": 0,
+      "name": "N",
+      "cell_delta": [
+        0,
+        -1
+      ]
+    },
+    {
+      "code": 1,
+      "name": "NE",
+      "cell_delta": [
+        1,
+        -1
+      ]
+    },
+    {
+      "code": 2,
+      "name": "E",
+      "cell_delta": [
+        1,
+        0
+      ]
+    },
+    {
+      "code": 3,
+      "name": "SE",
+      "cell_delta": [
+        1,
+        1
+      ]
+    },
+    {
+      "code": 4,
+      "name": "S",
+      "cell_delta": [
+        0,
+        1
+      ]
+    },
+    {
+      "code": 5,
+      "name": "SW",
+      "cell_delta": [
+        -1,
+        1
+      ]
+    },
+    {
+      "code": 6,
+      "name": "W",
+      "cell_delta": [
+        -1,
+        0
+      ]
+    },
+    {
+      "code": 7,
+      "name": "NW",
+      "cell_delta": [
+        -1,
+        -1
+      ]
+    }
+  ],
+  "update_order": [
+    "If state0: return before clock increment.",
+    "Increment clock once for active entry.",
+    "Process statuses and HP prelude; some conditions can return before animation dispatch.",
+    "Ordinary death transition takes priority over state dispatch; sets clock0,p0.",
+    "Dispatch state1,33,81,129,145 through original jump tables.",
+    "Store native frame only at the respective state-specific write sites; hold on other paths."
+  ],
+  "timing": {
+    "unit": "eligible calls to original update0x5c8470; clock increments before state work",
+    "original_clock_hz": null,
+    "seconds_claims_allowed": false,
+    "note": "Do not import current reconstruction 50Hz as original timing. Early returns/status effects can advance clock without emitting a frame.",
+    "q": {
+      "values": [
+        0,
+        1
+      ],
+      "local": "ebp-0xc4",
+      "default": 0,
+      "rule": "q1 while entity+0xb2 is active after its decrement; reset0 on expiry. Alternate +0xae branch retains/resets0.",
+      "affected": [
+        "walk frame period4+q",
+        "attack frame period4+q",
+        "walk movement period1+q"
+      ]
+    }
+  },
+  "transitions": {
+    "pursuit_walk": {
+      "state": 33,
+      "new_previous_state_mismatch": {
+        "clock": -1,
+        "phase": 0,
+        "frame": "held"
+      },
+      "previous_state_already_33": "No clock/phase reset; held frame.",
+      "next_eligible_frame_gate": "Starting clock-1,p0: next active call clock0 emits walk phase1 if no preemption."
+    },
+    "wander_walk": {
+      "state": 33,
+      "clock": -1,
+      "phase": 1,
+      "frame": "Same call falls through idle tail and emits4*d+1 using possibly changed direction.",
+      "next_eligible_frame_gate": "Next active call clock0 emits walk phase2 if no preemption."
+    },
+    "attack": {
+      "state": 81,
+      "clock": -1,
+      "phase": 0,
+      "frame": "held until next frame gate; normally next call clock0 emits phase0."
+    }
+  },
+  "clips": {
+    "idle": {
+      "state_code": 1,
+      "direction_stride": 4,
+      "allocated_frames_per_direction": 4,
+      "native_frames_by_direction": {
+        "N": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "NE": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "E": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "SE": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "S": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "SW": [
+          21,
+          22,
+          23,
+          24
+        ],
+        "W": [
+          25,
+          26,
+          27,
+          28
+        ],
+        "NW": [
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      "formula": "stored_frame = 4*d + p",
+      "clock_period_ticks": 12,
+      "phase_update": "if clock % 12 == 0: p += 1; if p >= 5: p = 1",
+      "emission": "Write frame on every reached ordinary idle tail, even if phase gate not due.",
+      "stable_phases": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "entry": "Initializer sets state1,p1,frame4*d+1. Completion of attack/hurt sets clock-1,p0; next eligible idle call increments clock to0 then p to1.",
+      "evidence": [
+        "initialize_idle",
+        "idle_phase",
+        "idle_frame",
+        "idle_special_gate"
+      ]
+    },
+    "walk": {
+      "state_code": 33,
+      "direction_stride": 6,
+      "allocated_frames_per_direction": 6,
+      "native_frames_by_direction": {
+        "N": [
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "NE": [
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ],
+        "E": [
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "SE": [
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "S": [
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "SW": [
+          63,
+          64,
+          65,
+          66,
+          67,
+          68
+        ],
+        "W": [
+          69,
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "NW": [
+          75,
+          76,
+          77,
+          78,
+          79,
+          80
+        ]
+      },
+      "formula": "stored_frame = 33 + 6*d + new_p",
+      "clock_period_ticks": "4+q",
+      "phase_update": "On frame gate: if p >= 5: p = 0; p += 1; emit new p.",
+      "stable_emitted_phases": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "allocated_but_not_emitted_by_this_walk_loop_phase": 0,
+      "warning": "Six allocated slots per direction do NOT imply a six-frame cyclic walk. Do not use modulo6.",
+      "stored_frame_when_not_due": "unchanged",
+      "movement_gate": "clock % (q+1) == 0 calls 0x5d28c0 before frame gate; movement may set state1, but this invocation continues the walk-frame code.",
+      "previous_state_write": 33,
+      "evidence": [
+        "walk_attack_frames",
+        "movement_tail"
+      ]
+    },
+    "attack": {
+      "state_code": 81,
+      "direction_stride": 6,
+      "allocated_frames_per_direction": 6,
+      "native_frames_by_direction": {
+        "N": [
+          81,
+          82,
+          83,
+          84,
+          85,
+          86
+        ],
+        "NE": [
+          87,
+          88,
+          89,
+          90,
+          91,
+          92
+        ],
+        "E": [
+          93,
+          94,
+          95,
+          96,
+          97,
+          98
+        ],
+        "SE": [
+          99,
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "S": [
+          105,
+          106,
+          107,
+          108,
+          109,
+          110
+        ],
+        "SW": [
+          111,
+          112,
+          113,
+          114,
+          115,
+          116
+        ],
+        "W": [
+          117,
+          118,
+          119,
+          120,
+          121,
+          122
+        ],
+        "NW": [
+          123,
+          124,
+          125,
+          126,
+          127,
+          128
+        ]
+      },
+      "formula": "stored_frame = 81 + 6*d + old_p",
+      "clock_period_ticks": "4+q",
+      "emitted_phases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "phase_update": "Emit old p, then p += 1.",
+      "main_strike_dispatch_old_phase": 4,
+      "main_strike_dispatch_new_phase": 5,
+      "attack_kind_5_extra_effect_old_phase": 0,
+      "completion": "On emitted old_p5: preserve final attack frame, set state1,clock-1,p0; copy +0x30 to cooldown +0x2e and set aggro clock +0x4c to1.",
+      "stored_frame_when_not_due": "unchanged",
+      "previous_state_write": 81,
+      "evidence": [
+        "walk_attack_frames",
+        "attack_strike_gate",
+        "attack_completion_hurt_death"
+      ]
+    },
+    "hurt": {
+      "state_code": 129,
+      "direction_stride": 2,
+      "allocated_frames_per_direction": 2,
+      "native_frames_by_direction": {
+        "N": [
+          129,
+          130
+        ],
+        "NE": [
+          131,
+          132
+        ],
+        "E": [
+          133,
+          134
+        ],
+        "SE": [
+          135,
+          136
+        ],
+        "S": [
+          137,
+          138
+        ],
+        "SW": [
+          139,
+          140
+        ],
+        "W": [
+          141,
+          142
+        ],
+        "NW": [
+          143,
+          144
+        ]
+      },
+      "formula": "stored_frame = 129 + 2*d + old_p",
+      "clock_period_ticks": 5,
+      "emitted_phases": [
+        0,
+        1
+      ],
+      "phase_update": "Emit old p then p += 1; if p >=2 set state1,clock-1,p0 and hold final hurt frame.",
+      "relative_clock_values_if_entry_clock_zero": [
+        5,
+        10
+      ],
+      "entry_clock_scope": "The [5,10] schedule is conditional on clock0,p0 entry; external damage-entry sites are not exhaustively recovered in v1.",
+      "evidence": [
+        "attack_completion_hurt_death"
+      ]
+    },
+    "death": {
+      "state_code": 145,
+      "direction_stride": 9,
+      "allocated_frames_per_direction": 9,
+      "native_frames_by_direction": {
+        "N": [
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153
+        ],
+        "NE": [
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162
+        ],
+        "E": [
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171
+        ],
+        "SE": [
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180
+        ],
+        "S": [
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189
+        ],
+        "SW": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198
+        ],
+        "W": [
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207
+        ],
+        "NW": [
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216
+        ]
+      },
+      "formula": "stored_frame = 145 + 9*d + old_p",
+      "clock_period_ticks": 4,
+      "emitted_phases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "death_transition": "After active clock increment, HP<=0 and state!=145 enters death (ordinary non-revival branch): state145,clock0,p0. Death frame0 is emitted in that same invocation.",
+      "emission_clocks": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28,
+        32
+      ],
+      "terminal": "After phase8 emission, p increments to9 then clamps to8; both occupancy words at 0x63ed6c are cleared; corpse map0x63ed7c stores direction and appearance. Entity state is not set to0 here.",
+      "corpse_frame_formula": "153 + 9*d",
+      "time_to_terminal_seconds": null,
+      "automatic_delete_seconds": null,
+      "warning": "No 1.2-second removal is established by this path; corpse replacement/clearing elsewhere is outside this animation slice.",
+      "evidence": [
+        "hp_death_priority",
+        "death_entry",
+        "dispatch",
+        "attack_completion_hurt_death",
+        "death_terminal"
+      ]
+    }
+  },
+  "integration_cautions": [
+    "Keep stored_frame separate from state and phase; transitions do not generally rewrite the visible frame immediately.",
+    "A source clip layout is not by itself a playback loop; walk is the concrete counterexample.",
+    "Do not generate a frame from state+direction+phase universally: idle preincrements, attack/death use old phase, and entry paths differ.",
+    "Map movement can change state within a walk call before the walk frame write; full movement/AI integration remains separate.",
+    "Source frames/offsets are not texture-atlas indices or zero-based clip-local phase indices."
+  ]
+}

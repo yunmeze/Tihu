@@ -1,0 +1,77 @@
+
+原版游戏/LP传奇单机版_重生.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+00634700 <.text+0x233700>:
+  634700:	83 ec 08                                        	sub    esp,0x8
+  634703:	8b 44 24 0c                                     	mov    eax,DWORD PTR [esp+0xc]
+  634707:	56                                              	push   esi
+  634708:	57                                              	push   edi
+  634709:	c7 44 24 0c 00 00 00 00                         	mov    DWORD PTR [esp+0xc],0x0
+  634711:	8b 08                                           	mov    ecx,DWORD PTR [eax]
+  634713:	c7 44 24 08 00 00 00 00                         	mov    DWORD PTR [esp+0x8],0x0
+  63471b:	51                                              	push   ecx
+  63471c:	6a 01                                           	push   0x1
+  63471e:	6a ff                                           	push   0xffffffff
+  634720:	6a 20                                           	push   0x20
+  634722:	ff 15 b4 11 40 00                               	call   DWORD PTR ds:0x4011b4
+  634728:	e8 13 fd ff ff                                  	call   0x634440
+  63472d:	8b 54 24 18                                     	mov    edx,DWORD PTR [esp+0x18]
+  634731:	8b 3d a8 11 40 00                               	mov    edi,DWORD PTR ds:0x4011a8
+  634737:	6a 01                                           	push   0x1
+  634739:	8b 02                                           	mov    eax,DWORD PTR [edx]
+  63473b:	8d 0c c5 0d 00 00 00                            	lea    ecx,[eax*8+0xd]
+  634742:	51                                              	push   ecx
+  634743:	ff d7                                           	call   edi
+  634745:	8b 35 04 11 40 00                               	mov    esi,DWORD PTR ds:0x401104
+  63474b:	8d 54 24 0c                                     	lea    edx,[esp+0xc]
+  63474f:	6a 01                                           	push   0x1
+  634751:	52                                              	push   edx
+  634752:	6a 04                                           	push   0x4
+  634754:	ff d6                                           	call   esi
+  634756:	6a 01                                           	push   0x1
+  634758:	68 ec 01 64 00                                  	push   0x6401ec
+  63475d:	6a 04                                           	push   0x4
+  63475f:	ff d6                                           	call   esi
+  634761:	33 c0                                           	xor    eax,eax
+  634763:	6a 00                                           	push   0x0
+  634765:	a0 f4 01 64 00                                  	mov    al,ds:0x6401f4
+  63476a:	8b 4c 24 10                                     	mov    ecx,DWORD PTR [esp+0x10]
+  63476e:	33 c8                                           	xor    ecx,eax
+  634770:	89 4c 24 10                                     	mov    DWORD PTR [esp+0x10],ecx
+  634774:	8b 0d ec 01 64 00                               	mov    ecx,DWORD PTR ds:0x6401ec
+  63477a:	33 c8                                           	xor    ecx,eax
+  63477c:	89 0d ec 01 64 00                               	mov    DWORD PTR ds:0x6401ec,ecx
+  634782:	49                                              	dec    ecx
+  634783:	51                                              	push   ecx
+  634784:	6a 01                                           	push   0x1
+  634786:	6a 11                                           	push   0x11
+  634788:	68 f0 01 64 00                                  	push   0x6401f0
+  63478d:	6a 01                                           	push   0x1
+  63478f:	68 80 00 00 00                                  	push   0x80
+  634794:	ff 15 3c 11 40 00                               	call   DWORD PTR ds:0x40113c
+  63479a:	8b 44 24 28                                     	mov    eax,DWORD PTR [esp+0x28]
+  63479e:	83 c4 1c                                        	add    esp,0x1c
+  6347a1:	6a 01                                           	push   0x1
+  6347a3:	50                                              	push   eax
+  6347a4:	ff d7                                           	call   edi
+  6347a6:	8d 4c 24 08                                     	lea    ecx,[esp+0x8]
+  6347aa:	6a 01                                           	push   0x1
+  6347ac:	51                                              	push   ecx
+  6347ad:	6a 04                                           	push   0x4
+  6347af:	ff d6                                           	call   esi
+  6347b1:	6a 01                                           	push   0x1
+  6347b3:	68 f0 01 64 00                                  	push   0x6401f0
+  6347b8:	68 fc 88 41 00                                  	push   0x4188fc
+  6347bd:	ff 15 90 11 40 00                               	call   DWORD PTR ds:0x401190
+  6347c3:	ff 15 b0 10 40 00                               	call   DWORD PTR ds:0x4010b0
+  6347c9:	66 0f b6 05 f4 01 64 00                         	movzx  ax,BYTE PTR ds:0x6401f4
+  6347d1:	66 31 44 24 08                                  	xor    WORD PTR [esp+0x8],ax
+  6347d6:	66 31 44 24 0a                                  	xor    WORD PTR [esp+0xa],ax
+  6347db:	8b 44 24 08                                     	mov    eax,DWORD PTR [esp+0x8]
+  6347df:	5f                                              	pop    edi
+  6347e0:	5e                                              	pop    esi
+  6347e1:	83 c4 08                                        	add    esp,0x8
+  6347e4:	c2 08 00                                        	ret    0x8

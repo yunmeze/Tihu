@@ -1,0 +1,57 @@
+
+原版游戏/LP传奇单机版_重生.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+005c4519 <.text+0x1c3519>:
+  5c4519:	0f bf 7d d8                                     	movsx  edi,WORD PTR [ebp-0x28]
+  5c451d:	8b 45 e0                                        	mov    eax,DWORD PTR [ebp-0x20]
+  5c4520:	8b d7                                           	mov    edx,edi
+  5c4522:	c1 e0 08                                        	shl    eax,0x8
+  5c4525:	03 d0                                           	add    edx,eax
+  5c4527:	8b 45 e0                                        	mov    eax,DWORD PTR [ebp-0x20]
+  5c452a:	03 c2                                           	add    eax,edx
+  5c452c:	8b 15 5c f3 63 00                               	mov    edx,DWORD PTR ds:0x63f35c
+  5c4532:	8d 04 80                                        	lea    eax,[eax+eax*4]
+  5c4535:	83 7c 82 10 00                                  	cmp    DWORD PTR [edx+eax*4+0x10],0x0
+  5c453a:	0f 85 cd 00 00 00                               	jne    0x5c460d
+  5c4540:	8d 85 2c ff ff ff                               	lea    eax,[ebp-0xd4]
+  5c4546:	50                                              	push   eax
+  5c4547:	68 8c bb 40 00                                  	push   0x40bb8c
+  5c454c:	ff 15 94 10 40 00                               	call   DWORD PTR ds:0x401094
+  5c4552:	8b 0d 18 c7 63 00                               	mov    ecx,DWORD PTR ds:0x63c718
+  5c4558:	8b 55 d8                                        	mov    edx,DWORD PTR [ebp-0x28]
+  5c455b:	51                                              	push   ecx
+  5c455c:	52                                              	push   edx
+  5c455d:	ff 15 24 10 40 00                               	call   DWORD PTR ds:0x401024
+  5c4563:	8b d0                                           	mov    edx,eax
+  5c4565:	8d 4d b8                                        	lea    ecx,[ebp-0x48]
+  5c4568:	ff 15 3c 12 40 00                               	call   DWORD PTR ds:0x40123c
+  5c456e:	50                                              	push   eax
+  5c456f:	ff 15 80 10 40 00                               	call   DWORD PTR ds:0x401080
+  5c4575:	8b d0                                           	mov    edx,eax
+  5c4577:	8d 4d b4                                        	lea    ecx,[ebp-0x4c]
+  5c457a:	ff 15 3c 12 40 00                               	call   DWORD PTR ds:0x40123c
+  5c4580:	50                                              	push   eax
+  5c4581:	68 84 1e 41 00                                  	push   0x411e84
+  5c4586:	ff 15 80 10 40 00                               	call   DWORD PTR ds:0x401080
+  5c458c:	8b d0                                           	mov    edx,eax
+  5c458e:	8d 4d b0                                        	lea    ecx,[ebp-0x50]
+  5c4591:	ff 15 3c 12 40 00                               	call   DWORD PTR ds:0x40123c
+  5c4597:	8d 45 e0                                        	lea    eax,[ebp-0x20]
+  5c459a:	8d 4d b0                                        	lea    ecx,[ebp-0x50]
+  5c459d:	50                                              	push   eax
+  5c459e:	8b 45 e0                                        	mov    eax,DWORD PTR [ebp-0x20]
+  5c45a1:	8b d0                                           	mov    edx,eax
+  5c45a3:	51                                              	push   ecx
+  5c45a4:	c1 e2 08                                        	shl    edx,0x8
+  5c45a7:	8b cf                                           	mov    ecx,edi
+  5c45a9:	03 ca                                           	add    ecx,edx
+  5c45ab:	8b 15 38 f3 63 00                               	mov    edx,DWORD PTR ds:0x63f338
+  5c45b1:	03 c1                                           	add    eax,ecx
+  5c45b3:	8d 8d 2c ff ff ff                               	lea    ecx,[ebp-0xd4]
+  5c45b9:	8d 04 82                                        	lea    eax,[edx+eax*4]
+  5c45bc:	50                                              	push   eax
+  5c45bd:	51                                              	push   ecx
+  5c45be:	e8 ad d7 06 00                                  	call   0x631d70

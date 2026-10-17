@@ -1,0 +1,57 @@
+
+原版游戏/LP传奇单机版_重生.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+005c9fb3 <.text+0x1c8fb3>:
+  5c9fb3:	8b 46 4c                                        	mov    eax,DWORD PTR [esi+0x4c]
+  5c9fb6:	85 c0                                           	test   eax,eax
+  5c9fb8:	0f 8e c6 00 00 00                               	jle    0x5ca084
+  5c9fbe:	66 39 7e 34                                     	cmp    WORD PTR [esi+0x34],di
+  5c9fc2:	75 0d                                           	jne    0x5c9fd1
+  5c9fc4:	66 39 3d 3e 00 64 00                            	cmp    WORD PTR ds:0x64003e,di
+  5c9fcb:	0f 84 20 02 00 00                               	je     0x5ca1f1
+  5c9fd1:	66 8b 86 9a 00 00 00                            	mov    ax,WORD PTR [esi+0x9a]
+  5c9fd8:	66 3d 0d 00                                     	cmp    ax,0xd
+  5c9fdc:	0f 84 0f 02 00 00                               	je     0x5ca1f1
+  5c9fe2:	66 3d 0e 00                                     	cmp    ax,0xe
+  5c9fe6:	0f 84 05 02 00 00                               	je     0x5ca1f1
+  5c9fec:	66 3d 0f 00                                     	cmp    ax,0xf
+  5c9ff0:	0f 84 fb 01 00 00                               	je     0x5ca1f1
+  5c9ff6:	56                                              	push   esi
+  5c9ff7:	e8 34 82 00 00                                  	call   0x5d2230
+  5c9ffc:	66 3b c7                                        	cmp    ax,di
+  5c9fff:	0f 85 ec 01 00 00                               	jne    0x5ca1f1
+  5ca005:	56                                              	push   esi
+  5ca006:	e8 a5 87 00 00                                  	call   0x5d27b0
+  5ca00b:	b8 21 00 00 00                                  	mov    eax,0x21
+  5ca010:	66 39 46 20                                     	cmp    WORD PTR [esi+0x20],ax
+  5ca014:	66 89 46 1e                                     	mov    WORD PTR [esi+0x1e],ax
+  5ca018:	0f 84 1c 30 00 00                               	je     0x5cd03a
+  5ca01e:	89 7e 24                                        	mov    DWORD PTR [esi+0x24],edi
+  5ca021:	c7 46 28 00 00 00 00                            	mov    DWORD PTR [esi+0x28],0x0
+  5ca028:	9b                                              	fwait
+  5ca029:	68 b3 d0 5c 00                                  	push   0x5cd0b3
+  5ca02e:	e9 5d 30 00 00                                  	jmp    0x5cd090
+  5ca033:	81 7e 4c ee 02 00 00                            	cmp    DWORD PTR [esi+0x4c],0x2ee
+  5ca03a:	7e 14                                           	jle    0x5ca050
+  5ca03c:	33 c0                                           	xor    eax,eax
+  5ca03e:	68 b3 d0 5c 00                                  	push   0x5cd0b3
+  5ca043:	89 46 4c                                        	mov    DWORD PTR [esi+0x4c],eax
+  5ca046:	66 89 46 48                                     	mov    WORD PTR [esi+0x48],ax
+  5ca04a:	9b                                              	fwait
+  5ca04b:	e9 40 30 00 00                                  	jmp    0x5cd090
+  5ca050:	56                                              	push   esi
+  5ca051:	e8 5a 90 00 00                                  	call   0x5d30b0
+  5ca056:	56                                              	push   esi
+  5ca057:	66 89 46 1a                                     	mov    WORD PTR [esi+0x1a],ax
+  5ca05b:	e8 d0 91 00 00                                  	call   0x5d3230
+  5ca060:	66 3b c7                                        	cmp    ax,di
+  5ca063:	0f 85 4a ff ff ff                               	jne    0x5c9fb3
+  5ca069:	66 c7 46 1e 51 00                               	mov    WORD PTR [esi+0x1e],0x51
+  5ca06f:	89 7e 24                                        	mov    DWORD PTR [esi+0x24],edi
+  5ca072:	c7 46 28 00 00 00 00                            	mov    DWORD PTR [esi+0x28],0x0
+  5ca079:	68 b3 d0 5c 00                                  	push   0x5cd0b3
+  5ca07e:	9b                                              	fwait
+  5ca07f:	e9 0c 30 00 00                                  	jmp    0x5cd090

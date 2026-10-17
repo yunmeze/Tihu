@@ -1,0 +1,70 @@
+
+原版游戏/LP传奇单机版_重生.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+005ccf5a <.text+0x1cbf5a>:
+  5ccf5a:	83 7e 28 09                                     	cmp    DWORD PTR [esi+0x28],0x9
+  5ccf5e:	0f 8c 9c 00 00 00                               	jl     0x5cd000
+  5ccf64:	0f bf 4e 0e                                     	movsx  ecx,WORD PTR [esi+0xe]
+  5ccf68:	c7 46 28 08 00 00 00                            	mov    DWORD PTR [esi+0x28],0x8
+  5ccf6f:	a1 6c ed 63 00                                  	mov    eax,ds:0x63ed6c
+  5ccf74:	8b 50 14                                        	mov    edx,DWORD PTR [eax+0x14]
+  5ccf77:	2b ca                                           	sub    ecx,edx
+  5ccf79:	8b 50 1c                                        	mov    edx,DWORD PTR [eax+0x1c]
+  5ccf7c:	0f af 48 18                                     	imul   ecx,DWORD PTR [eax+0x18]
+  5ccf80:	8b 40 0c                                        	mov    eax,DWORD PTR [eax+0xc]
+  5ccf83:	2b ca                                           	sub    ecx,edx
+  5ccf85:	0f bf 56 0c                                     	movsx  edx,WORD PTR [esi+0xc]
+  5ccf89:	03 ca                                           	add    ecx,edx
+  5ccf8b:	89 3c c8                                        	mov    DWORD PTR [eax+ecx*8],edi
+  5ccf8e:	a1 6c ed 63 00                                  	mov    eax,ds:0x63ed6c
+  5ccf93:	0f bf 4e 0e                                     	movsx  ecx,WORD PTR [esi+0xe]
+  5ccf97:	8b 50 14                                        	mov    edx,DWORD PTR [eax+0x14]
+  5ccf9a:	2b ca                                           	sub    ecx,edx
+  5ccf9c:	8b 50 1c                                        	mov    edx,DWORD PTR [eax+0x1c]
+  5ccf9f:	0f af 48 18                                     	imul   ecx,DWORD PTR [eax+0x18]
+  5ccfa3:	8b 40 0c                                        	mov    eax,DWORD PTR [eax+0xc]
+  5ccfa6:	2b ca                                           	sub    ecx,edx
+  5ccfa8:	0f bf 56 0c                                     	movsx  edx,WORD PTR [esi+0xc]
+  5ccfac:	03 ca                                           	add    ecx,edx
+  5ccfae:	89 7c c8 04                                     	mov    DWORD PTR [eax+ecx*8+0x4],edi
+  5ccfb2:	a1 7c ed 63 00                                  	mov    eax,ds:0x63ed7c
+  5ccfb7:	0f bf 4e 0e                                     	movsx  ecx,WORD PTR [esi+0xe]
+  5ccfbb:	8b 78 14                                        	mov    edi,DWORD PTR [eax+0x14]
+  5ccfbe:	8b 50 1c                                        	mov    edx,DWORD PTR [eax+0x1c]
+  5ccfc1:	2b cf                                           	sub    ecx,edi
+  5ccfc3:	0f af 48 18                                     	imul   ecx,DWORD PTR [eax+0x18]
+  5ccfc7:	8b 40 0c                                        	mov    eax,DWORD PTR [eax+0xc]
+  5ccfca:	2b ca                                           	sub    ecx,edx
+  5ccfcc:	0f bf 56 0c                                     	movsx  edx,WORD PTR [esi+0xc]
+  5ccfd0:	03 ca                                           	add    ecx,edx
+  5ccfd2:	8b 56 08                                        	mov    edx,DWORD PTR [esi+0x8]
+  5ccfd5:	89 54 c8 04                                     	mov    DWORD PTR [eax+ecx*8+0x4],edx
+  5ccfd9:	a1 7c ed 63 00                                  	mov    eax,ds:0x63ed7c
+  5ccfde:	0f bf 56 0e                                     	movsx  edx,WORD PTR [esi+0xe]
+  5ccfe2:	8b 78 14                                        	mov    edi,DWORD PTR [eax+0x14]
+  5ccfe5:	2b d7                                           	sub    edx,edi
+  5ccfe7:	8b 78 1c                                        	mov    edi,DWORD PTR [eax+0x1c]
+  5ccfea:	0f af 50 18                                     	imul   edx,DWORD PTR [eax+0x18]
+  5ccfee:	0f bf 4e 1a                                     	movsx  ecx,WORD PTR [esi+0x1a]
+  5ccff2:	8b 40 0c                                        	mov    eax,DWORD PTR [eax+0xc]
+  5ccff5:	2b d7                                           	sub    edx,edi
+  5ccff7:	0f bf 7e 0c                                     	movsx  edi,WORD PTR [esi+0xc]
+  5ccffb:	03 d7                                           	add    edx,edi
+  5ccffd:	89 0c d0                                        	mov    DWORD PTR [eax+edx*8],ecx
+  5cd000:	39 5e 28                                        	cmp    DWORD PTR [esi+0x28],ebx
+  5cd003:	75 35                                           	jne    0x5cd03a
+  5cd005:	8b 4e 04                                        	mov    ecx,DWORD PTR [esi+0x4]
+  5cd008:	51                                              	push   ecx
+  5cd009:	68 cc 26 41 00                                  	push   0x4126cc
+  5cd00e:	ff 15 80 10 40 00                               	call   DWORD PTR ds:0x401080
+  5cd014:	8b d0                                           	mov    edx,eax
+  5cd016:	8d 8d 24 ff ff ff                               	lea    ecx,[ebp-0xdc]
+  5cd01c:	ff 15 3c 12 40 00                               	call   DWORD PTR ds:0x40123c
+  5cd022:	8d 95 24 ff ff ff                               	lea    edx,[ebp-0xdc]
+  5cd028:	52                                              	push   edx
+  5cd029:	e8 a2 97 06 00                                  	call   0x6367d0
+  5cd02e:	8d 8d 24 ff ff ff                               	lea    ecx,[ebp-0xdc]
+  5cd034:	ff 15 80 12 40 00                               	call   DWORD PTR ds:0x401280

@@ -1,0 +1,43 @@
+
+原版游戏/LP传奇单机版_重生.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+005b648a <.text+0x1b548a>:
+  5b648a:	8b 0d 18 c7 63 00                               	mov    ecx,DWORD PTR ds:0x63c718
+  5b6490:	8b 55 e0                                        	mov    edx,DWORD PTR [ebp-0x20]
+  5b6493:	51                                              	push   ecx
+  5b6494:	52                                              	push   edx
+  5b6495:	ff 15 34 10 40 00                               	call   DWORD PTR ds:0x401034
+  5b649b:	8b d0                                           	mov    edx,eax
+  5b649d:	8d 4d 90                                        	lea    ecx,[ebp-0x70]
+  5b64a0:	ff d3                                           	call   ebx
+  5b64a2:	8b 35 80 10 40 00                               	mov    esi,DWORD PTR ds:0x401080
+  5b64a8:	50                                              	push   eax
+  5b64a9:	ff d6                                           	call   esi
+  5b64ab:	8b d0                                           	mov    edx,eax
+  5b64ad:	8d 4d 8c                                        	lea    ecx,[ebp-0x74]
+  5b64b0:	ff d3                                           	call   ebx
+  5b64b2:	50                                              	push   eax
+  5b64b3:	68 84 1e 41 00                                  	push   0x411e84
+  5b64b8:	ff d6                                           	call   esi
+  5b64ba:	8b d0                                           	mov    edx,eax
+  5b64bc:	8d 4d 88                                        	lea    ecx,[ebp-0x78]
+  5b64bf:	ff d3                                           	call   ebx
+  5b64c1:	8d 45 d4                                        	lea    eax,[ebp-0x2c]
+  5b64c4:	8d 4d 88                                        	lea    ecx,[ebp-0x78]
+  5b64c7:	50                                              	push   eax
+  5b64c8:	8b 45 d4                                        	mov    eax,DWORD PTR [ebp-0x2c]
+  5b64cb:	8b d0                                           	mov    edx,eax
+  5b64cd:	51                                              	push   ecx
+  5b64ce:	8b 4d e0                                        	mov    ecx,DWORD PTR [ebp-0x20]
+  5b64d1:	c1 e2 08                                        	shl    edx,0x8
+  5b64d4:	03 ca                                           	add    ecx,edx
+  5b64d6:	8b 15 38 f3 63 00                               	mov    edx,DWORD PTR ds:0x63f338
+  5b64dc:	03 c1                                           	add    eax,ecx
+  5b64de:	8d 8d b4 fe ff ff                               	lea    ecx,[ebp-0x14c]
+  5b64e4:	8d 04 82                                        	lea    eax,[edx+eax*4]
+  5b64e7:	50                                              	push   eax
+  5b64e8:	51                                              	push   ecx
+  5b64e9:	e8 82 b8 07 00                                  	call   0x631d70

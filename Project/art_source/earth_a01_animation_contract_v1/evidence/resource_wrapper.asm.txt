@@ -1,0 +1,25 @@
+
+原版游戏/LP传奇单机版_重生.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+00631d9b <.text+0x230d9b>:
+  631d9b:	8b 55 14                                        	mov    edx,DWORD PTR [ebp+0x14]
+  631d9e:	89 45 d8                                        	mov    DWORD PTR [ebp-0x28],eax
+  631da1:	33 c9                                           	xor    ecx,ecx
+  631da3:	89 45 dc                                        	mov    DWORD PTR [ebp-0x24],eax
+  631da6:	33 ff                                           	xor    edi,edi
+  631da8:	89 45 e0                                        	mov    DWORD PTR [ebp-0x20],eax
+  631dab:	89 4d b8                                        	mov    DWORD PTR [ebp-0x48],ecx
+  631dae:	89 45 e4                                        	mov    DWORD PTR [ebp-0x1c],eax
+  631db1:	52                                              	push   edx
+  631db2:	89 45 e8                                        	mov    DWORD PTR [ebp-0x18],eax
+  631db5:	8b 45 10                                        	mov    eax,DWORD PTR [ebp+0x10]
+  631db8:	50                                              	push   eax
+  631db9:	89 7d d4                                        	mov    DWORD PTR [ebp-0x2c],edi
+  631dbc:	89 7d d0                                        	mov    DWORD PTR [ebp-0x30],edi
+  631dbf:	89 7d cc                                        	mov    DWORD PTR [ebp-0x34],edi
+  631dc2:	89 7d c0                                        	mov    DWORD PTR [ebp-0x40],edi
+  631dc5:	89 4d bc                                        	mov    DWORD PTR [ebp-0x44],ecx
+  631dc8:	e8 33 29 00 00                                  	call   0x634700

@@ -1,0 +1,50 @@
+
+原版游戏/LP传奇单机版_重生.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+005ca5c7 <.text+0x1c95c7>:
+  5ca5c7:	66 85 ff                                        	test   di,di
+  5ca5ca:	0f 84 c2 00 00 00                               	je     0x5ca692
+  5ca5d0:	8d 95 fc fe ff ff                               	lea    edx,[ebp-0x104]
+  5ca5d6:	c7 46 24 ff ff ff ff                            	mov    DWORD PTR [esi+0x24],0xffffffff
+  5ca5dd:	52                                              	push   edx
+  5ca5de:	c7 46 28 01 00 00 00                            	mov    DWORD PTR [esi+0x28],0x1
+  5ca5e5:	c7 85 04 ff ff ff 04 00 02 80                   	mov    DWORD PTR [ebp-0xfc],0x80020004
+  5ca5ef:	c7 85 fc fe ff ff 0a 00 00 00                   	mov    DWORD PTR [ebp-0x104],0xa
+  5ca5f9:	ff 15 ac 10 40 00                               	call   DWORD PTR ds:0x4010ac
+  5ca5ff:	d8 0d 60 15 40 00                               	fmul   DWORD PTR ds:0x401560
+  5ca605:	ff 15 d4 10 40 00                               	call   DWORD PTR ds:0x4010d4
+  5ca60b:	d8 1d f8 16 40 00                               	fcomp  DWORD PTR ds:0x4016f8
+  5ca611:	df e0                                           	fnstsw ax
+  5ca613:	f6 c4 01                                        	test   ah,0x1
+  5ca616:	74 07                                           	je     0x5ca61f
+  5ca618:	b8 01 00 00 00                                  	mov    eax,0x1
+  5ca61d:	eb 02                                           	jmp    0x5ca621
+  5ca61f:	33 c0                                           	xor    eax,eax
+  5ca621:	8b 1d 40 10 40 00                               	mov    ebx,DWORD PTR ds:0x401040
+  5ca627:	8d 8d fc fe ff ff                               	lea    ecx,[ebp-0x104]
+  5ca62d:	f7 d8                                           	neg    eax
+  5ca62f:	8b f8                                           	mov    edi,eax
+  5ca631:	ff d3                                           	call   ebx
+  5ca633:	66 85 ff                                        	test   di,di
+  5ca636:	74 39                                           	je     0x5ca671
+  5ca638:	8d 85 fc fe ff ff                               	lea    eax,[ebp-0x104]
+  5ca63e:	c7 85 04 ff ff ff 04 00 02 80                   	mov    DWORD PTR [ebp-0xfc],0x80020004
+  5ca648:	50                                              	push   eax
+  5ca649:	c7 85 fc fe ff ff 0a 00 00 00                   	mov    DWORD PTR [ebp-0x104],0xa
+  5ca653:	ff 15 ac 10 40 00                               	call   DWORD PTR ds:0x4010ac
+  5ca659:	d8 0d 88 20 40 00                               	fmul   DWORD PTR ds:0x402088
+  5ca65f:	ff 15 20 12 40 00                               	call   DWORD PTR ds:0x401220
+  5ca665:	8d 8d fc fe ff ff                               	lea    ecx,[ebp-0x104]
+  5ca66b:	66 89 46 1a                                     	mov    WORD PTR [esi+0x1a],ax
+  5ca66f:	ff d3                                           	call   ebx
+  5ca671:	56                                              	push   esi
+  5ca672:	e8 b9 7b 00 00                                  	call   0x5d2230
+  5ca677:	66 3d ff ff                                     	cmp    ax,0xffff
+  5ca67b:	0f 85 5b 01 00 00                               	jne    0x5ca7dc
+  5ca681:	56                                              	push   esi
+  5ca682:	e8 29 81 00 00                                  	call   0x5d27b0
+  5ca687:	66 c7 46 1e 21 00                               	mov    WORD PTR [esi+0x1e],0x21
+  5ca68d:	e9 4a 01 00 00                                  	jmp    0x5ca7dc
