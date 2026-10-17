@@ -1,0 +1,40 @@
+{
+  "schema": "chief-generation-input-closure-addendum-v2",
+  "status": "EXACT_INPUTS_RECOVERED_READY_FOR_PARENT_ARCHIVE",
+  "generation_inputs_complete_when_manifest_files_committed": true,
+  "generation_outputs_accepted": false,
+  "old_accepted_chief_recovered": false,
+  "source_pins": "SOURCE_INPUT_PINS.json",
+  "do_not_edit_original_tool_args": true,
+  "input_bindings": {
+    "v1": [
+      {
+        "historical_argument_path": "/workspace/scratch/22c897619190/legend-recovery-work/chief-hd-base-v1/inputs/frame-125.png",
+        "portable_repository_path": "Project/art_source/earth_chief_hd_base_recovery_20261017/inputs/frame-125.png",
+        "sha256": "701aab9ce8fda25b0dd10b479a5f8f2553552687a3b4a9b9f68e635056343aa0"
+      },
+      {
+        "historical_argument_path": "/workspace/scratch/22c897619190/legend-recovery-work/chief-hd-base-v1/inputs/earth-hero-S-idle-phase17.png",
+        "portable_repository_path": "Project/art_source/earth_chief_hd_base_recovery_20261017/inputs/earth-hero-S-idle-phase17.png",
+        "sha256": "6371d05af2239971836cfe30846e0d84b086e7020af69a6c9b2ad44a9e155f92"
+      }
+    ],
+    "v2": [
+      {
+        "historical_argument_path": "/workspace/scratch/22c897619190/legend-recovery-work/chief-hd-base-v2/inputs/frame-125.png",
+        "portable_repository_path": "Project/art_source/earth_chief_hd_base_recovery_20261017/inputs/frame-125.png",
+        "sha256": "701aab9ce8fda25b0dd10b479a5f8f2553552687a3b4a9b9f68e635056343aa0"
+      },
+      {
+        "historical_argument_path": "/workspace/scratch/22c897619190/legend-recovery-work/chief-hd-base-v2/inputs/chief-hd-base-v1-raw-secondary.png",
+        "portable_repository_path": "Project/art_source/earth_chief_hd_base_recovery_20261017/raw/v1.png",
+        "sha256": "73acc13fae797bfabe74c8abc02c27f37da24693387d719bde5ea6e73a28c983"
+      }
+    ]
+  },
+  "notes": [
+    "Existing v1 and v2 actual args/prompts remain byte-for-byte untouched.",
+    "Existing raw v1 and v2 remain NOT_ACCEPTED; this adds provenance completeness only.",
+    "Parent owns copying, status integration and Git publication; none performed by this worker."
+  ]
+}

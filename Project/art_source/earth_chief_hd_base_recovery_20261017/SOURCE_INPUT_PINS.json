@@ -1,0 +1,136 @@
+{
+  "schema": "chief-source-input-pins-v2",
+  "frozen_repository_commit": "a741dc410825abaf9cc6641046f4c3558cdcba4d",
+  "provenance_archive_commit": "64db71529391c5766d4babb5e0fc2e7c9bda6182",
+  "pillow_version_used": "12.3.0",
+  "recovery_policy": "file SHA256 and RGBA SHA256 separately verified; do not substitute equivalent re-encoding",
+  "repository_dependencies": [
+    {
+      "path": "原版游戏/Data/Npc.lpRes",
+      "sha256": "a5c1ae8d4e87ccfa134ded0cfdd0b704c309ff3629b61082bc6382251aca6066",
+      "git_blob": "885caa4858fc020dc6974fab3d64e9915d41ddee",
+      "bytes": 8210069
+    },
+    {
+      "path": "Project/tools/lp_original.py",
+      "sha256": "c3471a8fda23ebbb079d2b0794c308af706a12fa77277447197f332efda86795",
+      "git_blob": "202ddb1a511c03c7af9a6091808e1344233487e2",
+      "bytes": 4978
+    },
+    {
+      "path": "Project/assets/original/maps/A00/manifest.json",
+      "sha256": "f80e4a7e9c22be64b10ebfb395a88bec9adf42d5bd4136f509077665cea9811c",
+      "git_blob": "7c293e548eeed9c95ab6a1aeabb655ffaf5ef349",
+      "bytes": 652817
+    },
+    {
+      "path": "Project/assets/original/maps/A00/sprites/Npc/1.png",
+      "sha256": "5cdcc33b6e9b4ec5848d8dd89d963eba7f926200e93871684c47978607240f2e",
+      "git_blob": "0f11ccd2a4d54a8baeb99487883fad688d167b56",
+      "bytes": 146198
+    },
+    {
+      "path": "Project/assets/earth/hero/s_idle_v1/body.png",
+      "sha256": "f0ca3b8a554c175f3d0085f4a4fa55a6d192132d6cfeb443d3242bd3ab54a12e",
+      "git_blob": "f19e8850df02ca9bbc8efa8eff433ee43d92c245",
+      "bytes": 265484
+    },
+    {
+      "path": "Project/assets/earth/hero/s_idle_v1/manifest.json",
+      "sha256": "cfd74e66ddb74fb4ce8fc46be747f6df9b8037713044b76a287baef343654b80",
+      "git_blob": "0281293ca42a830b59c98f7b0509d9cbb5b106d5",
+      "bytes": 2689
+    },
+    {
+      "path": "Project/art_source/earth_chief_hd_base_recovery_20261017/provenance/v1-tool-args.json",
+      "sha256": "f4389873ddcc29c688c3ea32ac83c76584006bba28d7ddbe6518a297ba9c3cf0",
+      "git_blob": "decc0d5fa4ccc5a8b9e10ed2d8089a00653b0463",
+      "bytes": 4372
+    },
+    {
+      "path": "Project/art_source/earth_chief_hd_base_recovery_20261017/provenance/v2-tool-args.json",
+      "sha256": "8e45eece42d0bb51480e0c04bba77a052428142b3410a46434d24b5fa9ce2ff7",
+      "git_blob": "6c0a1e986619591a57b99f0bbaeb35ce63115b5d",
+      "bytes": 4893
+    },
+    {
+      "path": "Project/art_source/earth_chief_hd_base_recovery_20261017/raw/v1.png",
+      "sha256": "73acc13fae797bfabe74c8abc02c27f37da24693387d719bde5ea6e73a28c983",
+      "git_blob": "f7fd7810ee28a40b9766e03eb418c7dab57b0ab3",
+      "bytes": 1068747
+    },
+    {
+      "path": "Project/art_source/earth_chief_hd_base_recovery_20261017/raw/v2.png",
+      "sha256": "2c4095424ab187ed601448347ecc33920928e97c6cdbe1e5931a50193f40eedf",
+      "git_blob": "12d107594cf0e1d2bbad93f9babca20df43456c9",
+      "bytes": 1602670
+    }
+  ],
+  "recovered_inputs": [
+    {
+      "package_path": "inputs/frame-125.png",
+      "suggested_repository_path": "Project/art_source/earth_chief_hd_base_recovery_20261017/inputs/frame-125.png",
+      "expected_historical_file_sha256": "701aab9ce8fda25b0dd10b479a5f8f2553552687a3b4a9b9f68e635056343aa0",
+      "actual_file_sha256": "701aab9ce8fda25b0dd10b479a5f8f2553552687a3b4a9b9f68e635056343aa0",
+      "file_bytes_exact": true,
+      "rgba_sha256": "8b8cdfaee416e94c6e647a5f7f21132f66d21c7850f2e830de6b0b675ee0146f",
+      "size": [
+        68,
+        70
+      ],
+      "mode": "RGBA",
+      "bytes": 4313,
+      "role": "authoritative original chief pose, not art style",
+      "used_by": [
+        "v1",
+        "v2"
+      ]
+    },
+    {
+      "package_path": "inputs/earth-hero-S-idle-phase17.png",
+      "suggested_repository_path": "Project/art_source/earth_chief_hd_base_recovery_20261017/inputs/earth-hero-S-idle-phase17.png",
+      "expected_historical_file_sha256": "6371d05af2239971836cfe30846e0d84b086e7020af69a6c9b2ad44a9e155f92",
+      "actual_file_sha256": "6371d05af2239971836cfe30846e0d84b086e7020af69a6c9b2ad44a9e155f92",
+      "file_bytes_exact": true,
+      "rgba_sha256": "8c5a4bb8916e933e856432a5fb1b12b9a2be94bdb8be3d08c07afa04824458b2",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 68010,
+      "role": "Earth hero material/light only, not pose or identity",
+      "used_by": [
+        "v1"
+      ]
+    }
+  ],
+  "original_frame_metadata": {
+    "pack": "Npc",
+    "source_record": 125,
+    "source_offset": 484973,
+    "source_bytes": 4806,
+    "original_size": [
+      68,
+      70
+    ],
+    "offset": [
+      -1,
+      -47
+    ],
+    "rgba_sha256": "8b8cdfaee416e94c6e647a5f7f21132f66d21c7850f2e830de6b0b675ee0146f"
+  },
+  "hero_crop": {
+    "source_frame": 17,
+    "atlas_crop_xyxy": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "copied_rgba_sha_matches_manifest": true
+  },
+  "root_repo_modified": false,
+  "Godot_run": false,
+  "image_generation_run": false
+}

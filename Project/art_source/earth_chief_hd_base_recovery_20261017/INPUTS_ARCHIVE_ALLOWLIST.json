@@ -1,0 +1,43 @@
+{
+  "schema": "chief-source-inputs-explicit-archive-v2",
+  "files": [
+    {
+      "path": "INPUTS_README.md",
+      "sha256": "598bcca0b08ac0c7e5749954ddcba521a916581c6e12390f20cba994c85c6092",
+      "bytes": 1733
+    },
+    {
+      "path": "SOURCE_INPUT_PINS.json",
+      "sha256": "d9b1171464cbb1890099d5bb0c045b97eba2e9ecc4ee4a2fac9e1e1893dee0b0",
+      "bytes": 4950
+    },
+    {
+      "path": "INPUT_CLOSURE_ADDENDUM.json",
+      "sha256": "8de78aa2f3d8da566346f23f4adefb86afe88c3dd6e5ed4c7b8725c2ef69c85f",
+      "bytes": 2144
+    },
+    {
+      "path": "tools/recover_exact_inputs.py",
+      "sha256": "03a250bb5d97f15743fb8a0d8179db7c4964313d4715cf68960fdd74c2fdba80",
+      "bytes": 2694
+    },
+    {
+      "path": "inputs/frame-125.png",
+      "sha256": "701aab9ce8fda25b0dd10b479a5f8f2553552687a3b4a9b9f68e635056343aa0",
+      "bytes": 4313
+    },
+    {
+      "path": "inputs/earth-hero-S-idle-phase17.png",
+      "sha256": "6371d05af2239971836cfe30846e0d84b086e7020af69a6c9b2ad44a9e155f92",
+      "bytes": 68010
+    }
+  ],
+  "include_this_manifest": true,
+  "excluded": [
+    "temporary verification output",
+    "future four-frame analysis",
+    "Godot caches/imports/tests/logs",
+    "generated candidate art (already in the existing archive)"
+  ],
+  "publication_performed": false
+}

@@ -4,7 +4,7 @@
   "generation_count": 2,
   "accepted": false,
   "transparent_background": true,
-  "source_files_complete": false,
+  "source_files_complete": true,
   "actual_args": {
     "v1": {
       "path": "provenance/v1-tool-args.json",
@@ -24,14 +24,16 @@
         "v1",
         "v2"
       ],
-      "file_in_this_archive": false
+      "file_in_this_archive": true,
+      "path": "inputs/frame-125.png"
     },
     "earth_hero_s_idle17": {
       "sha256": "6371d05af2239971836cfe30846e0d84b086e7020af69a6c9b2ad44a9e155f92",
       "used_by": [
         "v1"
       ],
-      "file_in_this_archive": false
+      "file_in_this_archive": true,
+      "path": "inputs/earth-hero-S-idle-phase17.png"
     },
     "v1_secondary_for_v2": {
       "sha256": "73acc13fae797bfabe74c8abc02c27f37da24693387d719bde5ea6e73a28c983",
@@ -44,7 +46,7 @@
   "notes": [
     "Actual prompt and argument JSON recovered directly from retained tool-call arguments, not rewritten summaries.",
     "Original local reference paths in tool arguments are provenance records, not portable runtime dependencies.",
-    "The original-frame and hero-reference PNG input copies are not yet recovered into this archive; their expected hashes are preserved.",
-    "Neither output passed pose acceptance. No registration, animation warp or runtime integration was performed."
+    "Neither output passed pose acceptance. No registration, animation warp or runtime integration was performed.",
+    "Both missing input PNGs were rebuilt with exact file SHA256 and independently reproduced; see INPUT_CLOSURE_ADDENDUM.json and SOURCE_INPUT_PINS.json. This does not change NOT_ACCEPTED output status."
   ]
 }

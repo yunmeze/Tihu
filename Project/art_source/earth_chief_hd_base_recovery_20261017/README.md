@@ -7,6 +7,6 @@
 
 两图均为1254×1254 RGBA。使用前必须重新审查共同尺度下的头/肩/手/鞋位置；不能通过局部极端拉伸或四次独立生图掩盖问题。未生成四相动画，未作Godot导入/运行验收。旧未上传村长图没有找回，这两张是新生成候选。
 
-源NPC是A00 source1，原appearance10 frames125–128。provenance/ 两份JSON保存实际完整prompt和工具参数，直接由原调用参数序列化；PROVENANCE.json保存输入SHA及恢复边界。原125与主角材质参考的输入PNG副本尚未恢复到本归档，仅保留其预期SHA；v2使用的v1参考原图已包含。工具参数中的旧本地路径只用于追溯，不是可移植的运行依赖。因此仍不能称完整生成输入闭包已经恢复。
+源NPC是A00 source1，原appearance10 frames125–128。provenance/ 两份JSON保存实际完整prompt和工具参数，直接由原调用参数序列化；PROVENANCE.json保存输入SHA及恢复边界。原125与主角材质参考的输入PNG已按原始文件SHA精确恢复到 inputs/；v2使用的v1参考原图亦已包含。工具参数中的旧本地路径只用于追溯，不是可移植的运行依赖。两次生成的输入、实际prompt/args与原始输出均已保存。参见 INPUT_CLOSURE_ADDENDUM.json 的旧路径映射及 INPUTS_README.md 的复现方法；输入恢复不代表美术通过。
 
 默认F5/F6与游戏代码均未修改。RAW_MANIFEST.json记录第一阶段原图救援状态，后补的提示与来源信息以PROVENANCE.json为准。
