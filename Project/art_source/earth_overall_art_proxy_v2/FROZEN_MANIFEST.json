@@ -1,0 +1,144 @@
+{
+  "id": "overall-art-proxy-v2-20261017T0912Z",
+  "status": "FROZEN_FOR_ROOT_REVIEW; NOT_RUNTIME_ACCEPTED",
+  "entry_scene": "res://scenes/earth_overall_art_review_v2.tscn",
+  "runtime_root": "Project",
+  "runtime_files": [
+    {
+      "path": "assets/earth/overall_v1/a00_earth_ground.png",
+      "sha256": "b88e2cb7b83d60f7c3ac95fe8aabb8c54f22caeacf403607d877ba0a3accdb73",
+      "bytes": 4487713
+    },
+    {
+      "path": "assets/earth/overall_v1/a00_mother_house.png",
+      "sha256": "3e97597ab4cf576937e37a6a238e30869a7af09e03d852b1f99a1eafab9bd730",
+      "bytes": 2483221
+    },
+    {
+      "path": "assets/earth/overall_v1/dialog_panel.png",
+      "sha256": "5ee66ecdcda39b3c9df27a4716a518c2ae9b9ede1cf6924f935e8bbb9866b4b2",
+      "bytes": 1557341
+    },
+    {
+      "path": "assets/earth/overall_v1/mother_four_phase.png",
+      "sha256": "f14f911112d533132ec96ea41694bacb4ce4873954d91e4c8ebecedae6e1cbed",
+      "bytes": 1089879
+    },
+    {
+      "path": "assets/earth/overall_v1/tree_13_15.raw.png",
+      "sha256": "6de9bac0b2c1b2e361ca8f1e991c4614fbe48fc4abbbe90b4b83de038154eabd",
+      "bytes": 2520380
+    },
+    {
+      "path": "assets/earth/overall_v1/tree_16_21.raw.png",
+      "sha256": "9ffb0f2d244cdde1335ba957c81c922da32f059a4ded56db95844c684d94521a",
+      "bytes": 2539169
+    },
+    {
+      "path": "assets/earth/overall_v1/tree_48_60.raw.png",
+      "sha256": "d17954edaee2237e9b4cee1eff2c187902a1e30b6a2738a6b388bb41105c8b08",
+      "bytes": 3128772
+    },
+    {
+      "path": "data/art/a00_overall_v2.json",
+      "sha256": "1f34bc2769632e410897388efb4f029f7949a4ce6fd1d0755f0a4428652a7096",
+      "bytes": 2672927
+    },
+    {
+      "path": "scenes/earth_overall_art_review_v2.tscn",
+      "sha256": "1ffd7bab2df06615588432d15d5b92dae8b84ebd3b832ea95750db19bf6f6107",
+      "bytes": 200
+    },
+    {
+      "path": "scripts/art/a00_art_render_proxy.gd",
+      "sha256": "6ac1f619999061a1ecd3f3fb6223f7eeeb15dc43a6ce1bd08f1c578523535c3d",
+      "bytes": 2973
+    },
+    {
+      "path": "scripts/art/hd_frame_registry.gd",
+      "sha256": "6611823f27843214a7a2916f5669eaf3c2f46195e6c421cb6be8bbfd214b8485",
+      "bytes": 8977
+    },
+    {
+      "path": "scripts/art/overall_review_controller_v2.gd",
+      "sha256": "4ed894d8233af7888d0361ebb2e0374424ff1b80186a67bae8c92900c438c030",
+      "bytes": 2277
+    }
+  ],
+  "runtime_file_count": 12,
+  "existing_project_files_overwritten": 0,
+  "source_baseline": "source-baseline-check.json",
+  "source_baseline_sha256": "7c337b5f1b6145476c0f5f7a777ea22611fc1f4d01a68d0cb19930ce060f38e8",
+  "static_validation": "static-validation.json",
+  "static_validation_sha256": "8f9e07fec837e2440b226d946b5e7b9da17b75a515410f74491248f6dc963a24",
+  "required_native_checks": "VALIDATION.md",
+  "mother_registration": "mother-rigid-registration.json",
+  "source_provenance": "provenance/source-records.json",
+  "no_test_temp_git_import_cache_in_runtime_whitelist": true,
+  "support_files": [
+    {
+      "path": "ASSESSMENT.md",
+      "sha256": "d135cbc419579f43aa8b61a0a2c7c66fe076ee6f986d94be04f942536bdbcdf6"
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "57929dd87094e3a1b82e4d233f6c84fa823324f7185e835c0a75e01e9636b4c5"
+    },
+    {
+      "path": "assembly-provenance.json",
+      "sha256": "a4a579411ef8a08bdd6772e30bf851ecfab5300068a15f297b947ec68405846f"
+    },
+    {
+      "path": "mother-rigid-registration.json",
+      "sha256": "fa87b31101b91f595e18929cd13465e819bedb0742dc0759ae0fe38090c0c8d5"
+    },
+    {
+      "path": "provenance/ground-generation-manifest.json",
+      "sha256": "9358ae2f0ab84ec1b9809a23f7412066db908152cae9d6cdfe78b2af95e15065"
+    },
+    {
+      "path": "provenance/house-owner-layout.json",
+      "sha256": "c30abe8b4159b4d91eb6b2db67fc6193970d934ae34044ecb3fdd67b2369a34b"
+    },
+    {
+      "path": "provenance/mother-foot-measurements.json",
+      "sha256": "a6375c1ac7e0503a1c8a83b2eb6f903d6539a083fba8ac7efaaeabe1bb380435"
+    },
+    {
+      "path": "provenance/mother-native-regions.json",
+      "sha256": "20395f0e32d85cebf08c7bccada55e5982fae577934782dbbad137a2b9ebe9c2"
+    },
+    {
+      "path": "provenance/mother-rigid-foot-registration.json",
+      "sha256": "e7fbc00c239576910db621df701ec626fe9a371ed60dbbf16c7eaeed2f584872"
+    },
+    {
+      "path": "provenance/mother-source-frames.json",
+      "sha256": "db930db74bdf05bc7536a0e07c0e9ef01c6f32427929fca5fb5ef92fa0b34fe6"
+    },
+    {
+      "path": "provenance/source-records.json",
+      "sha256": "cb59023d4e9e5a20ba7ecbc0c33621495514b7a4302d50605bdee53bc06f6f15"
+    },
+    {
+      "path": "provenance/tree-generation-manifest.json",
+      "sha256": "1e48f4b93eccc93579cc4e90b086102f3e4c7909578f695501af2bb54e914ac2"
+    },
+    {
+      "path": "provenance/tree-owner-whitelist.json",
+      "sha256": "9a843fcbbebe3f46a5d84c4004c38961e1f00978bd4f102a7f7ae92fe45b6b11"
+    },
+    {
+      "path": "provenance/ui-generation-manifest.json",
+      "sha256": "40c58912e7a54d7da72e06b9885fd65ba88a5c97cdc0d1b3112dd99ca405b0e1"
+    },
+    {
+      "path": "source-baseline-check.json",
+      "sha256": "7c337b5f1b6145476c0f5f7a777ea22611fc1f4d01a68d0cb19930ce060f38e8"
+    },
+    {
+      "path": "static-validation.json",
+      "sha256": "8f9e07fec837e2440b226d946b5e7b9da17b75a515410f74491248f6dc963a24"
+    }
+  ]
+}

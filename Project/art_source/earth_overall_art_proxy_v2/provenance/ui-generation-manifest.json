@@ -1,0 +1,42 @@
+{
+  "status": "generated_not_integrated",
+  "tool": "image_gen.imagegen",
+  "calls": 1,
+  "input": "tihu-legend-recovered/Project/assets/ui/original_dialog.png",
+  "input_sha256": "10c37c5e2b082e61f03e06baa82355ae0de629921e5e7ec48cc4b3336fc7e176",
+  "input_size": [
+    523,
+    216
+  ],
+  "actual_args_file": "generation-args.json",
+  "raw_file": "dialog-earth-base-v1.raw.png",
+  "raw_sha256": "5ee66ecdcda39b3c9df27a4716a518c2ae9b9ede1cf6924f935e8bbb9866b4b2",
+  "raw_size": [
+    1950,
+    807
+  ],
+  "raw_mode": "RGBA",
+  "transparent_background_requested": true,
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "main_text_region_alpha_extrema": [
+    249,
+    253
+  ],
+  "postprocessing": "none; exact byte copy from generated_images",
+  "runtime_target_size": [
+    523,
+    216
+  ],
+  "integration_performed": false,
+  "godot_run": false,
+  "git_write": false,
+  "review_notes": [
+    "Clean dark nearly opaque text background; no baked text, portrait or buttons.",
+    "Thin modern graphite/silver frame with restrained blue details.",
+    "Divider generated near normalized y=0.715 rather than requested y=0.78: runtime y about 154 instead of 168. Keep first pass, inspect with longest live paragraph before refinement.",
+    "Tiny edge alpha and scattered light edge pixels are visible on raw inspection; not a first-pass blocker."
+  ]
+}

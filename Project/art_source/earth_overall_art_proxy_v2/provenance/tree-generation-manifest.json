@@ -1,0 +1,1394 @@
+{
+  "generator": "built-in image_gen__imagegen",
+  "iteration_count": 1,
+  "families": [
+    {
+      "family": "plant-48-60",
+      "raw": "overall-village-trees-v1/raw/tree_48_60.raw.png",
+      "raw_sha256": "d17954edaee2237e9b4cee1eff2c187902a1e30b6a2738a6b388bb41105c8b08",
+      "raw_size": [
+        1374,
+        1145
+      ],
+      "source_size": [
+        576,
+        480
+      ],
+      "density_xy": [
+        2.3854166666666665,
+        2.3854166666666665
+      ],
+      "source": "overall-vegetation-pass-v1/references/plant-48-60-whole-original.png",
+      "source_sha256": "12fe57acc2db465458f256dbd9094e61ce103467719b2fb1feee7d7566855605",
+      "anchors": "overall-vegetation-pass-v1/references/plant-48-60-anchors.json",
+      "anchors_sha256": "bed1684f6481a5e6547d527f4a3fced03f731ae724091ed6374fc8a6b8734c55",
+      "reference_group": {
+        "id": "A00-plant-48-60-51-122",
+        "family": "plant-48-60",
+        "root_cell": [
+          51,
+          122
+        ],
+        "world_bounds": [
+          1920,
+          3648,
+          2496,
+          4128
+        ],
+        "logical_size": [
+          576,
+          480
+        ],
+        "route_proximity_manhattan": 63,
+        "route_priority": false,
+        "owners": [
+          {
+            "pack": "Map/Res/Plant",
+            "index": 48,
+            "cell": [
+              51,
+              122
+            ],
+            "order": 7772,
+            "source_cell": [
+              0,
+              0,
+              2,
+              48
+            ],
+            "layer": 1,
+            "canvas_world": [
+              2448,
+              3808,
+              48,
+              128
+            ],
+            "frame": {
+              "original": [
+                48,
+                128
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 823336,
+              "sourceBytes": 12344,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                10,
+                48,
+                128
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "3e81574b402d0c66ff87ddb551cfa227deacccb93b7ee8efdf0dc89f0a891458",
+              "page": 1,
+              "rect": [
+                881,
+                1,
+                48,
+                118
+              ],
+              "crop": [
+                0,
+                10
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 49,
+            "cell": [
+              49,
+              126
+            ],
+            "order": 7476,
+            "source_cell": [
+              0,
+              0,
+              2,
+              49
+            ],
+            "layer": 1,
+            "canvas_world": [
+              2352,
+              3648,
+              48,
+              416
+            ],
+            "frame": {
+              "original": [
+                48,
+                416
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 835680,
+              "sourceBytes": 39992,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                25,
+                48,
+                415
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "86ce9471ba18c6ab0c84066c6628640a1ff268e1d239c30c842e01c1545f8f83",
+              "page": 1,
+              "rect": [
+                931,
+                1,
+                48,
+                390
+              ],
+              "crop": [
+                0,
+                25
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 50,
+            "cell": [
+              40,
+              127
+            ],
+            "order": 6127,
+            "source_cell": [
+              0,
+              0,
+              2,
+              50
+            ],
+            "layer": 1,
+            "canvas_world": [
+              1920,
+              3744,
+              48,
+              352
+            ],
+            "frame": {
+              "original": [
+                48,
+                352
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 875672,
+              "sourceBytes": 33848,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                0,
+                48,
+                351
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "e1e5ac7c2d788c40622df216da3fe8b193eee26ac27e25ad0d377add8bf3fcf1",
+              "page": 1,
+              "rect": [
+                981,
+                1,
+                48,
+                351
+              ],
+              "crop": [
+                0,
+                0
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 51,
+            "cell": [
+              41,
+              127
+            ],
+            "order": 6277,
+            "source_cell": [
+              0,
+              0,
+              2,
+              51
+            ],
+            "layer": 1,
+            "canvas_world": [
+              1968,
+              3712,
+              48,
+              384
+            ],
+            "frame": {
+              "original": [
+                48,
+                384
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 909520,
+              "sourceBytes": 36920,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                25,
+                48,
+                384
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "91c96d7f8281c2ba2ea7fdc3b29cd78f107490d20ef3cc6e5ff58831a5f35748",
+              "page": 1,
+              "rect": [
+                1031,
+                1,
+                48,
+                359
+              ],
+              "crop": [
+                0,
+                25
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 52,
+            "cell": [
+              43,
+              127
+            ],
+            "order": 6577,
+            "source_cell": [
+              0,
+              0,
+              2,
+              52
+            ],
+            "layer": 1,
+            "canvas_world": [
+              2064,
+              3712,
+              48,
+              384
+            ],
+            "frame": {
+              "original": [
+                48,
+                384
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 946440,
+              "sourceBytes": 36920,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                22,
+                48,
+                383
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "8d44c1844be379ce6a4af796aa2ad72df781f455b3e9ee3c3464d216a9e01e14",
+              "page": 1,
+              "rect": [
+                1081,
+                1,
+                48,
+                361
+              ],
+              "crop": [
+                0,
+                22
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 53,
+            "cell": [
+              44,
+              127
+            ],
+            "order": 6727,
+            "source_cell": [
+              0,
+              0,
+              2,
+              53
+            ],
+            "layer": 1,
+            "canvas_world": [
+              2112,
+              3680,
+              48,
+              416
+            ],
+            "frame": {
+              "original": [
+                48,
+                416
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 983360,
+              "sourceBytes": 39992,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                13,
+                48,
+                402
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "80f2a78b997cbde2d37e0e44418905c6e8aa68a6c3ca72d835a38f6872ba5da5",
+              "page": 1,
+              "rect": [
+                1131,
+                1,
+                48,
+                389
+              ],
+              "crop": [
+                0,
+                13
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 54,
+            "cell": [
+              45,
+              127
+            ],
+            "order": 6877,
+            "source_cell": [
+              0,
+              0,
+              2,
+              54
+            ],
+            "layer": 1,
+            "canvas_world": [
+              2160,
+              3680,
+              48,
+              416
+            ],
+            "frame": {
+              "original": [
+                48,
+                416
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 1023352,
+              "sourceBytes": 39992,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                10,
+                48,
+                403
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "5fa938ea01dac1c1c9c6057dbb9187300d61008615a049ef8fcfd63f92b97ef7",
+              "page": 1,
+              "rect": [
+                1181,
+                1,
+                48,
+                393
+              ],
+              "crop": [
+                0,
+                10
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 55,
+            "cell": [
+              46,
+              127
+            ],
+            "order": 7027,
+            "source_cell": [
+              0,
+              0,
+              2,
+              55
+            ],
+            "layer": 1,
+            "canvas_world": [
+              2208,
+              3648,
+              48,
+              448
+            ],
+            "frame": {
+              "original": [
+                48,
+                448
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 1063344,
+              "sourceBytes": 43064,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                23,
+                48,
+                435
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "78991efdc7df7b5f14718701976bfd3fbd7009e6ce00c03a67e47fc6d05e0b9b",
+              "page": 1,
+              "rect": [
+                1231,
+                1,
+                48,
+                412
+              ],
+              "crop": [
+                0,
+                23
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 56,
+            "cell": [
+              50,
+              127
+            ],
+            "order": 7627,
+            "source_cell": [
+              0,
+              0,
+              2,
+              56
+            ],
+            "layer": 1,
+            "canvas_world": [
+              2400,
+              3776,
+              48,
+              320
+            ],
+            "frame": {
+              "original": [
+                48,
+                320
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 1106408,
+              "sourceBytes": 30776,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                6,
+                48,
+                320
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "6f6cb4b94334fa3dc02ed93567f9d3fb6c21fa30a76546e237aba8b91e45abdb",
+              "page": 1,
+              "rect": [
+                1281,
+                1,
+                48,
+                314
+              ],
+              "crop": [
+                0,
+                6
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 57,
+            "cell": [
+              51,
+              127
+            ],
+            "order": 7777,
+            "source_cell": [
+              0,
+              0,
+              2,
+              57
+            ],
+            "layer": 1,
+            "canvas_world": [
+              2448,
+              4000,
+              48,
+              96
+            ],
+            "frame": {
+              "original": [
+                48,
+                96
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 1137184,
+              "sourceBytes": 9272,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                2,
+                34,
+                94
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "acea974cdf11cab77eae513710f9542d99596c9693fc2c51745a981b1c3a2fb1",
+              "page": 1,
+              "rect": [
+                1331,
+                1,
+                34,
+                92
+              ],
+              "crop": [
+                0,
+                2
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 58,
+            "cell": [
+              42,
+              128
+            ],
+            "order": 6428,
+            "source_cell": [
+              -171,
+              0,
+              2,
+              58
+            ],
+            "layer": 1,
+            "canvas_world": [
+              2016,
+              3714,
+              48,
+              414
+            ],
+            "frame": {
+              "original": [
+                48,
+                414
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 1146456,
+              "sourceBytes": 39800,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                2,
+                48,
+                409
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "041ebb576c5ca8588e7fc2ba6c3ca182acc864ac43bfd29539e65ec2fe3ff95d",
+              "page": 1,
+              "rect": [
+                1367,
+                1,
+                48,
+                407
+              ],
+              "crop": [
+                0,
+                2
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 59,
+            "cell": [
+              47,
+              128
+            ],
+            "order": 7178,
+            "source_cell": [
+              0,
+              0,
+              2,
+              59
+            ],
+            "layer": 1,
+            "canvas_world": [
+              2256,
+              3650,
+              48,
+              478
+            ],
+            "frame": {
+              "original": [
+                48,
+                478
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 1186256,
+              "sourceBytes": 45944,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                6,
+                48,
+                460
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "4dd5e8e8e59577c30c25652997abf7fa0e5a9556cc4871395ef3bce66ee26b4c",
+              "page": 1,
+              "rect": [
+                1417,
+                1,
+                48,
+                454
+              ],
+              "crop": [
+                0,
+                6
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 60,
+            "cell": [
+              48,
+              128
+            ],
+            "order": 7328,
+            "source_cell": [
+              -178,
+              0,
+              2,
+              60
+            ],
+            "layer": 1,
+            "canvas_world": [
+              2304,
+              3650,
+              48,
+              478
+            ],
+            "frame": {
+              "original": [
+                48,
+                478
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 1232200,
+              "sourceBytes": 45944,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                8,
+                48,
+                462
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "d40ebc2a8379e926e93b8137d28457c6d508bb1c4fa3fc286d29e628da2e064f",
+              "page": 1,
+              "rect": [
+                1467,
+                1,
+                48,
+                454
+              ],
+              "crop": [
+                0,
+                8
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          }
+        ]
+      },
+      "a00_groups": 40,
+      "a00_owners": 520,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 532674,
+      "opaque_pixels": 196,
+      "alpha_bbox": [
+        0,
+        0,
+        1374,
+        1145
+      ],
+      "integration": "Map full source canvas union to full native image; retain owner original/offset/top/layer/order and source anchor. No automatic trim, upscaling or new shadow. Native dimensions are actual imagegen output.",
+      "visual_review": "Whole single tree, transparent gaps, no ground plane or cast-shadow blob, composition follows source; broad and compact trunks remain crown-internal, upright root about (0.53,0.95). Leaf tips reach canvas edges; do not trim."
+    },
+    {
+      "family": "plant-16-21",
+      "raw": "overall-village-trees-v1/raw/tree_16_21.raw.png",
+      "raw_sha256": "9ffb0f2d244cdde1335ba957c81c922da32f059a4ded56db95844c684d94521a",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "source_size": [
+        288,
+        288
+      ],
+      "density_xy": [
+        4.354166666666667,
+        4.354166666666667
+      ],
+      "source": "overall-vegetation-pass-v1/references/plant-16-21-whole-original.png",
+      "source_sha256": "0f4cf63e879e7a8e3cf829881ce631a8f45db9ab9fc3e1f25d04631926c50752",
+      "anchors": "overall-vegetation-pass-v1/references/plant-16-21-anchors.json",
+      "anchors_sha256": "f68a6cd1badf4ccb27784e65b9a84d92e5a10593b4ebdeff7b0f6ea48b084375",
+      "reference_group": {
+        "id": "A00-plant-16-21-28-104",
+        "family": "plant-16-21",
+        "root_cell": [
+          28,
+          104
+        ],
+        "world_bounds": [
+          1344,
+          3104,
+          1632,
+          3392
+        ],
+        "logical_size": [
+          288,
+          288
+        ],
+        "route_proximity_manhattan": 68,
+        "route_priority": false,
+        "owners": [
+          {
+            "pack": "Map/Res/Plant",
+            "index": 16,
+            "cell": [
+              28,
+              104
+            ],
+            "order": 4304,
+            "source_cell": [
+              -991,
+              0,
+              2,
+              16
+            ],
+            "layer": 1,
+            "canvas_world": [
+              1344,
+              3168,
+              48,
+              192
+            ],
+            "frame": {
+              "original": [
+                48,
+                192
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 108420,
+              "sourceBytes": 18488,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                15,
+                48,
+                173
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "6e61500dddcd719730d3f8d869e2abe615a8b7f6beefc2863e00e0807056bea8",
+              "page": 1,
+              "rect": [
+                584,
+                1,
+                48,
+                158
+              ],
+              "crop": [
+                0,
+                15
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 17,
+            "cell": [
+              31,
+              104
+            ],
+            "order": 4754,
+            "source_cell": [
+              0,
+              0,
+              2,
+              17
+            ],
+            "layer": 1,
+            "canvas_world": [
+              1488,
+              3104,
+              48,
+              256
+            ],
+            "frame": {
+              "original": [
+                48,
+                256
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 126908,
+              "sourceBytes": 24632,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                27,
+                48,
+                256
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "8af618d934137204846ec292df7a2bbe9c0c218177347c07d7a637fae0084476",
+              "page": 1,
+              "rect": [
+                634,
+                1,
+                48,
+                229
+              ],
+              "crop": [
+                0,
+                27
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 18,
+            "cell": [
+              32,
+              104
+            ],
+            "order": 4904,
+            "source_cell": [
+              -171,
+              0,
+              2,
+              18
+            ],
+            "layer": 1,
+            "canvas_world": [
+              1536,
+              3136,
+              48,
+              224
+            ],
+            "frame": {
+              "original": [
+                48,
+                224
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 151540,
+              "sourceBytes": 21560,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                4,
+                48,
+                214
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "f0b788a0d3f4425038569f90d819486408676b485a67874e86ec0a4fdff65fd3",
+              "page": 1,
+              "rect": [
+                684,
+                1,
+                48,
+                210
+              ],
+              "crop": [
+                0,
+                4
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 19,
+            "cell": [
+              33,
+              104
+            ],
+            "order": 5054,
+            "source_cell": [
+              0,
+              0,
+              2,
+              19
+            ],
+            "layer": 1,
+            "canvas_world": [
+              1584,
+              3200,
+              48,
+              160
+            ],
+            "frame": {
+              "original": [
+                48,
+                160
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 173100,
+              "sourceBytes": 15416,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                13,
+                45,
+                146
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "72db79b45ffb86cf69342f2bb20f0326a7f93dc11f970380c67d62a4c83364c7",
+              "page": 1,
+              "rect": [
+                734,
+                1,
+                45,
+                133
+              ],
+              "crop": [
+                0,
+                13
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 20,
+            "cell": [
+              29,
+              105
+            ],
+            "order": 4455,
+            "source_cell": [
+              0,
+              0,
+              2,
+              20
+            ],
+            "layer": 1,
+            "canvas_world": [
+              1392,
+              3136,
+              48,
+              256
+            ],
+            "frame": {
+              "original": [
+                48,
+                256
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 188516,
+              "sourceBytes": 24632,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                1,
+                48,
+                252
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "ad16a91428c9b079a5b9a63e7d72dd12191d5a051ca9ee62fc087efb5bca75d5",
+              "page": 1,
+              "rect": [
+                781,
+                1,
+                48,
+                251
+              ],
+              "crop": [
+                0,
+                1
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 21,
+            "cell": [
+              30,
+              105
+            ],
+            "order": 4605,
+            "source_cell": [
+              0,
+              0,
+              2,
+              21
+            ],
+            "layer": 1,
+            "canvas_world": [
+              1440,
+              3104,
+              48,
+              288
+            ],
+            "frame": {
+              "original": [
+                48,
+                288
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 213148,
+              "sourceBytes": 27704,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                23,
+                48,
+                282
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "5bb41366f9b0f63f84fea414cb39ff6bf33add7f4f7370c12f7de05900155603",
+              "page": 1,
+              "rect": [
+                831,
+                1,
+                48,
+                259
+              ],
+              "crop": [
+                0,
+                23
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          }
+        ]
+      },
+      "a00_groups": 22,
+      "a00_owners": 132,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 716196,
+      "opaque_pixels": 28,
+      "alpha_bbox": [
+        0,
+        9,
+        1244,
+        1254
+      ],
+      "integration": "Map full source canvas union to full native image; retain owner original/offset/top/layer/order and source anchor. No automatic trim, upscaling or new shadow. Native dimensions are actual imagegen output.",
+      "visual_review": "Whole single tree, transparent gaps, no ground plane or cast-shadow blob, composition follows source; broad and compact trunks remain crown-internal, upright root about (0.53,0.95). Leaf tips reach canvas edges; do not trim."
+    },
+    {
+      "family": "plant-13-15",
+      "raw": "overall-village-trees-v1/raw/tree_13_15.raw.png",
+      "raw_sha256": "6de9bac0b2c1b2e361ca8f1e991c4614fbe48fc4abbbe90b4b83de038154eabd",
+      "raw_size": [
+        1086,
+        1448
+      ],
+      "source_size": [
+        144,
+        192
+      ],
+      "density_xy": [
+        7.541666666666667,
+        7.541666666666667
+      ],
+      "source": "overall-vegetation-pass-v1/references/plant-13-15-whole-original.png",
+      "source_sha256": "8f0abb155085eadebc4663c95be29641456c76eb6a4201f7176fdb8dd61b62d3",
+      "anchors": "overall-vegetation-pass-v1/references/plant-13-15-anchors.json",
+      "anchors_sha256": "e1f21a13d997bdb80119e42763e8de75c7d924f882b44eb23edec878b47e74b4",
+      "reference_group": {
+        "id": "A00-plant-13-15-66-89",
+        "family": "plant-13-15",
+        "root_cell": [
+          66,
+          89
+        ],
+        "world_bounds": [
+          3168,
+          2688,
+          3312,
+          2880
+        ],
+        "logical_size": [
+          144,
+          192
+        ],
+        "route_proximity_manhattan": 15,
+        "route_priority": true,
+        "owners": [
+          {
+            "pack": "Map/Res/Plant",
+            "index": 13,
+            "cell": [
+              66,
+              89
+            ],
+            "order": 9989,
+            "source_cell": [
+              0,
+              0,
+              2,
+              13
+            ],
+            "layer": 1,
+            "canvas_world": [
+              3168,
+              2688,
+              48,
+              192
+            ],
+            "frame": {
+              "original": [
+                48,
+                192
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 52956,
+              "sourceBytes": 18488,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                16,
+                48,
+                177
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "24d7f283e023dc9891a3962ffa6cbff35a81ec8b21266e1a545f0f62b67287a0",
+              "page": 1,
+              "rect": [
+                435,
+                1,
+                48,
+                161
+              ],
+              "crop": [
+                0,
+                16
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 14,
+            "cell": [
+              67,
+              89
+            ],
+            "order": 10139,
+            "source_cell": [
+              0,
+              -1,
+              2,
+              14
+            ],
+            "layer": 1,
+            "canvas_world": [
+              3216,
+              2688,
+              48,
+              192
+            ],
+            "frame": {
+              "original": [
+                48,
+                192
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 71444,
+              "sourceBytes": 18488,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                13,
+                48,
+                190
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "3e41012e0c6dbec41bc77168e4ce58b67494d2a2d92d60b3b1ac4f63a0199124",
+              "page": 1,
+              "rect": [
+                485,
+                1,
+                48,
+                177
+              ],
+              "crop": [
+                0,
+                13
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          },
+          {
+            "pack": "Map/Res/Plant",
+            "index": 15,
+            "cell": [
+              68,
+              89
+            ],
+            "order": 10289,
+            "source_cell": [
+              0,
+              0,
+              2,
+              15
+            ],
+            "layer": 1,
+            "canvas_world": [
+              3264,
+              2688,
+              48,
+              192
+            ],
+            "frame": {
+              "original": [
+                48,
+                192
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "sourceOffset": 89932,
+              "sourceBytes": 18488,
+              "format": "BMP",
+              "reference_extraction_bounds": [
+                0,
+                21,
+                47,
+                186
+              ],
+              "gifFrames": 1,
+              "rgba_sha256": "33fed6a4a42b84aa7e5c3cb60b9730020c1dd9e947ff5a4606b5600855215124",
+              "page": 1,
+              "rect": [
+                535,
+                1,
+                47,
+                165
+              ],
+              "crop": [
+                0,
+                21
+              ]
+            },
+            "atlas": "res://assets/original/maps/A00/sprites/Map/Res/Plant/1.png"
+          }
+        ]
+      },
+      "a00_groups": 9,
+      "a00_owners": 27,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 644508,
+      "opaque_pixels": 109,
+      "alpha_bbox": [
+        0,
+        4,
+        1086,
+        1448
+      ],
+      "integration": "Map full source canvas union to full native image; retain owner original/offset/top/layer/order and source anchor. No automatic trim, upscaling or new shadow. Native dimensions are actual imagegen output.",
+      "visual_review": "Whole single tree, transparent gaps, no ground plane or cast-shadow blob, composition follows source; broad and compact trunks remain crown-internal, upright root about (0.53,0.95). Leaf tips reach canvas edges; do not trim."
+    }
+  ],
+  "shadow_note": "Original baked cast shadows intentionally omitted in generated tree sprites; no main/shadow resource was modified. Do not derive a new oversized shadow from canopy alpha."
+}

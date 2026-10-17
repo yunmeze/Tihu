@@ -1,0 +1,109 @@
+{
+  "status": "PROPOSED_FIRST_PASS_SPLIT_CONTRACT_NOT_RUNTIME",
+  "image": "../raw/mother-four-phase-v1.png",
+  "raw_sha256": "f14f911112d533132ec96ea41694bacb4ce4873954d91e4c8ebecedae6e1cbed",
+  "raw_size": [
+    1219,
+    1290
+  ],
+  "source_layout_logical": [
+    136,
+    144
+  ],
+  "source_grid": [
+    2,
+    2
+  ],
+  "uniform_density": 8.958333333333334,
+  "horizontal_canvas_margin_px": 0.33333333333325754,
+  "frame_order": [
+    77,
+    78,
+    79,
+    80
+  ],
+  "frames": [
+    {
+      "source_index": 77,
+      "source_original": [
+        68,
+        71
+      ],
+      "source_offset": [
+        5,
+        -52
+      ],
+      "region_px": [
+        0.33333333333325754,
+        0,
+        609.1666666666667,
+        636.0416666666667
+      ],
+      "density": 8.958333333333334,
+      "registration_status": "PROPOSED_FROM_GRID_NOT_NATIVE_VALIDATED"
+    },
+    {
+      "source_index": 78,
+      "source_original": [
+        68,
+        72
+      ],
+      "source_offset": [
+        5,
+        -52
+      ],
+      "region_px": [
+        609.5,
+        0,
+        609.1666666666667,
+        645
+      ],
+      "density": 8.958333333333334,
+      "registration_status": "PROPOSED_FROM_GRID_NOT_NATIVE_VALIDATED"
+    },
+    {
+      "source_index": 79,
+      "source_original": [
+        68,
+        71
+      ],
+      "source_offset": [
+        5,
+        -52
+      ],
+      "region_px": [
+        0.33333333333325754,
+        645,
+        609.1666666666667,
+        636.0416666666667
+      ],
+      "density": 8.958333333333334,
+      "registration_status": "PROPOSED_FROM_GRID_NOT_NATIVE_VALIDATED"
+    },
+    {
+      "source_index": 80,
+      "source_original": [
+        68,
+        72
+      ],
+      "source_offset": [
+        5,
+        -52
+      ],
+      "region_px": [
+        609.5,
+        645,
+        609.1666666666667,
+        645
+      ],
+      "density": 8.958333333333334,
+      "registration_status": "PROPOSED_FROM_GRID_NOT_NATIVE_VALIDATED"
+    }
+  ],
+  "notes": [
+    "One isotropic density; no image resize or per-frame body deformation performed.",
+    "77/79 regions exclude the one logical bottom padding row; 78/80 retain 72 source rows.",
+    "Observed right-column material is about 14–15 native pixels farther right within its grid slot than left-column material. This is unresolved generation drift, not silently repaired.",
+    "Do not infer animation acceptance from four occupied slots or non-identical hashes; native cycle and original anchor review remain pending."
+  ]
+}
