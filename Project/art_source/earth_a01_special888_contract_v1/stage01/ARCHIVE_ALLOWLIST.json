@@ -1,0 +1,42 @@
+{
+  "schema": "explicit-archive-allowlist-v1",
+  "root": "stage01",
+  "files": [
+    {
+      "path": ".gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "README.md",
+      "bytes": 725,
+      "sha256": "75019e35042b6eb76084b445949f63f192ab404edd2fccf6f809b1264a6e996c"
+    },
+    {
+      "path": "SOURCE_PINS.json",
+      "bytes": 1071,
+      "sha256": "1065cf813c789331c8a936866a30322d3d32e210bc0efa618dcf778da08279c7"
+    },
+    {
+      "path": "SOURCE_CONTRACT.json",
+      "bytes": 3584,
+      "sha256": "9aef8319260f2dbf543b99aa0c9afd82ac13df35759a08cec2bb21eae15f10ad"
+    },
+    {
+      "path": "evidence/BYTE_RANGE.json",
+      "bytes": 3568,
+      "sha256": "58b8d4a1253606ef606118392ea2584be22c1a618a37a002fa1871c5b0a1c7e2"
+    },
+    {
+      "path": "evidence/special_prefix_and_variant.asm.txt",
+      "bytes": 33912,
+      "sha256": "7f29bb8792a77bd10dd241ce9aa5fe0a6c79d63fe55666b9b71f2f9e1a4926a0"
+    }
+  ],
+  "exclude": [
+    "tests/**",
+    "*.log",
+    "name_resolver_work/**"
+  ],
+  "include_this_manifest": true
+}

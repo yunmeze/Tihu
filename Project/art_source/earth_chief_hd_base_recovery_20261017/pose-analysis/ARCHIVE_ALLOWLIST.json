@@ -1,0 +1,73 @@
+{
+  "schema": "chief-pose-analysis-explicit-archive-v1",
+  "status": "ANALYSIS_ONLY; both existing candidates NOT_ACCEPTED",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "d4ecb952f6f0920a3a7dc6e65d5b63764f5e0446f9812d72a9bdb3b65b55166c",
+      "bytes": 5892
+    },
+    {
+      "path": "NEXT_GENERATION_BRIEF.md",
+      "sha256": "f8c38083c8892615d66561657bdaa90fd0681100a34d512e9e55cddd75aea0a7",
+      "bytes": 4478
+    },
+    {
+      "path": "pose-analysis.json",
+      "sha256": "76cb3e61566325d33367ea98eaca645842745061672f322668bbdef15003e4e2",
+      "bytes": 56795
+    },
+    {
+      "path": "surface-proxy-annotations.json",
+      "sha256": "3f0a639ee6f7e553c920c7117a6fb855b334babee1c352288611517e87ffdae7",
+      "bytes": 6712
+    },
+    {
+      "path": "tools/analyze_pose.py",
+      "sha256": "7af955cf388f32238de04e22e55a0e24df426a9130dfe48073418ab60e418452",
+      "bytes": 11246
+    }
+  ],
+  "include_this_manifest": true,
+  "input_dependencies_exact": [
+    {
+      "path": "/workspace/scratch/22c897619190/legend-recovery-resume-20261017-0632/chief-source-inputs-v2/inputs/frame-125.png",
+      "sha256": "701aab9ce8fda25b0dd10b479a5f8f2553552687a3b4a9b9f68e635056343aa0"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/tihu-legend-recovered/Project/art_source/earth_chief_hd_base_recovery_20261017/raw/v2.png",
+      "sha256": "2c4095424ab187ed601448347ecc33920928e97c6cdbe1e5931a50193f40eedf"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/legend-recovery-resume-20261017-0632/chief-source-contract-v2/source-contract.json",
+      "sha256": "207a8624078c4b21301b9f3991d266e2450f6430d45ecc88e8256d82bf4998ac"
+    }
+  ],
+  "input_dependency_policy": "Reference-only inputs were not copied or rewritten in this analysis package. Preserve these exact hashes in the owner source archive; v2 is rejected candidate evidence, not an accepted asset. All input dependencies are individually enumerated; do not glob the enclosing folders.",
+  "reproduction_check": {
+    "output": "pose-analysis.json",
+    "independent_rerun_bytes_equal": true,
+    "verification_location": "temporary external directory, deliberately excluded"
+  },
+  "excluded": [
+    "/tmp/chief-pose-analysis-v1-repro",
+    "/tmp/chief-pose-analysis-v1-repro.stdout",
+    "all unlisted files",
+    "test files and test output",
+    "temporary inspection files",
+    "__pycache__ and Python bytecode",
+    "Godot imports/cache/logs/scenes",
+    "generated or edited images",
+    "warp assets",
+    "runtime assets",
+    "any accepted-art claim"
+  ],
+  "actions_performed": {
+    "image_generation": false,
+    "image_modification": false,
+    "image_warp": false,
+    "Godot": false,
+    "main_repository_write": false,
+    "Git": false
+  }
+}

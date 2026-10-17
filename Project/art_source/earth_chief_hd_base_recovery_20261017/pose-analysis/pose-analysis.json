@@ -1,0 +1,2387 @@
+{
+  "schema": "chief-pose-analysis-v1",
+  "status": "ANALYSIS_ONLY; v1 and v2 NOT_ACCEPTED; no animation/art acceptance",
+  "source_inputs": [
+    {
+      "path": "/workspace/scratch/22c897619190/legend-recovery-resume-20261017-0632/chief-source-inputs-v2/inputs/frame-125.png",
+      "sha256": "701aab9ce8fda25b0dd10b479a5f8f2553552687a3b4a9b9f68e635056343aa0"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/tihu-legend-recovered/Project/art_source/earth_chief_hd_base_recovery_20261017/raw/v2.png",
+      "sha256": "2c4095424ab187ed601448347ecc33920928e97c6cdbe1e5931a50193f40eedf"
+    },
+    {
+      "path": "/workspace/scratch/22c897619190/legend-recovery-resume-20261017-0632/chief-source-contract-v2/source-contract.json",
+      "sha256": "207a8624078c4b21301b9f3991d266e2450f6430d45ecc88e8256d82bf4998ac"
+    }
+  ],
+  "actual_visual_inspection": [
+    "untouched source125",
+    "existing source125-128 registered 5x contact sheet",
+    "untouched v2 raw"
+  ],
+  "registration": {
+    "method": "ONE isotropic whole-figure scale, crown/top boundary to y0 and lowest shoe/body bottom boundary to y67; horizontal translation aligns the midpoint of both lowest shoe-material row centers to source125 x24.5. No rotation, shear, per-part transform, image resampling, or image output.",
+    "formula": "p_source_local = uniform_scale * p_v2_raw + translation",
+    "primary_alpha_gt": 128,
+    "uniform_scale": 0.05841325196163906,
+    "translation": [
+      -12.09590235396687,
+      -2.628596338273758
+    ],
+    "source_frame_offset": [
+      -1,
+      -47
+    ],
+    "source_world_cell_origin": [
+      3600,
+      1728
+    ],
+    "to_world_relative": "registered source-local + (-1,-47)",
+    "normalization": "Source body-palette proxy H=67, excluding contract shadow RGB(16,8,8). V2 alpha>128 H=1147; alpha0 haze is not a body extent.",
+    "coordinate_caution": "Lowest occupied pixel row and its lower boundary differ by one pixel. Contract row-index convention gives source hand36/67=53.73%; continuous lower-edge convention gives37/67=55.22%. Never subtract quantities with mixed conventions."
+  },
+  "source125_machine_proxies": {
+    "hand_left": {
+      "row_center": [
+        1.0,
+        36
+      ],
+      "bottom_edge_center": [
+        1.0,
+        37
+      ],
+      "bottom_row_x_extent_half_open": [
+        1,
+        2
+      ],
+      "roi": [
+        0,
+        29,
+        7,
+        38
+      ],
+      "seed": [
+        2,
+        32
+      ]
+    },
+    "hand_right": {
+      "row_center": [
+        47.0,
+        36
+      ],
+      "bottom_edge_center": [
+        47.0,
+        37
+      ],
+      "bottom_row_x_extent_half_open": [
+        47,
+        48
+      ],
+      "roi": [
+        42,
+        29,
+        50,
+        38
+      ],
+      "seed": [
+        47,
+        32
+      ]
+    },
+    "shoe_left": {
+      "row_center": [
+        16.0,
+        66
+      ],
+      "bottom_edge_center": [
+        16.0,
+        67
+      ],
+      "bottom_row_x_extent_half_open": [
+        14,
+        19
+      ],
+      "roi": [
+        11,
+        63,
+        23,
+        70
+      ],
+      "seed": null
+    },
+    "shoe_right": {
+      "row_center": [
+        33.0,
+        66
+      ],
+      "bottom_edge_center": [
+        33.0,
+        67
+      ],
+      "bottom_row_x_extent_half_open": [
+        31,
+        36
+      ],
+      "roi": [
+        28,
+        63,
+        39,
+        70
+      ],
+      "seed": null
+    }
+  },
+  "primary_registration": {
+    "alpha_gt": 128,
+    "candidate_bbox": [
+      226,
+      45,
+      1031,
+      1192
+    ],
+    "candidate_height": 1147,
+    "uniform_scale": 0.05841325196163906,
+    "translation": [
+      -12.09590235396687,
+      -2.628596338273758
+    ],
+    "candidate_lower_surface_points": {
+      "hand_left": {
+        "row_center": [
+          309.5,
+          846
+        ],
+        "bottom_edge_center": [
+          309.5,
+          847
+        ],
+        "bottom_row_x_extent_half_open": [
+          307,
+          313
+        ],
+        "roi": [
+          200,
+          760,
+          400,
+          880
+        ],
+        "seed": [
+          300,
+          800
+        ]
+      },
+      "shoe_left": {
+        "row_center": [
+          475.5,
+          1191
+        ],
+        "bottom_edge_center": [
+          475.5,
+          1192
+        ],
+        "bottom_row_x_extent_half_open": [
+          468,
+          484
+        ],
+        "roi": [
+          400,
+          1130,
+          550,
+          1210
+        ],
+        "seed": null
+      },
+      "hand_right": {
+        "row_center": [
+          943.5,
+          845
+        ],
+        "bottom_edge_center": [
+          943.5,
+          846
+        ],
+        "bottom_row_x_extent_half_open": [
+          941,
+          947
+        ],
+        "roi": [
+          860,
+          760,
+          1050,
+          880
+        ],
+        "seed": [
+          950,
+          800
+        ]
+      },
+      "shoe_right": {
+        "row_center": [
+          777.5,
+          1190
+        ],
+        "bottom_edge_center": [
+          777.5,
+          1191
+        ],
+        "bottom_row_x_extent_half_open": [
+          768,
+          788
+        ],
+        "roi": [
+          700,
+          1130,
+          850,
+          1210
+        ],
+        "seed": null
+      }
+    },
+    "registered_proxies": {
+      "hand_left": {
+        "row_center": {
+          "v2_raw": [
+            309.5,
+            846
+          ],
+          "source125": [
+            1.0,
+            36
+          ],
+          "registered_v2": [
+            5.982999128160419,
+            46.789014821272886
+          ],
+          "residual_v2_minus_source125": [
+            4.982999128160419,
+            10.789014821272886
+          ],
+          "v2_y_fraction_of_body_height": 0.6983435047951178,
+          "source125_y_fraction_of_body_height": 0.5373134328358209
+        },
+        "bottom_edge_center": {
+          "v2_raw": [
+            309.5,
+            847
+          ],
+          "source125": [
+            1.0,
+            37
+          ],
+          "registered_v2": [
+            5.982999128160419,
+            46.847428073234525
+          ],
+          "residual_v2_minus_source125": [
+            4.982999128160419,
+            9.847428073234525
+          ],
+          "v2_y_fraction_of_body_height": 0.6992153443766347,
+          "source125_y_fraction_of_body_height": 0.5522388059701493
+        }
+      },
+      "shoe_left": {
+        "row_center": {
+          "v2_raw": [
+            475.5,
+            1191
+          ],
+          "source125": [
+            16.0,
+            66
+          ],
+          "registered_v2": [
+            15.679598953792503,
+            66.94158674803836
+          ],
+          "residual_v2_minus_source125": [
+            -0.3204010462074969,
+            0.9415867480383611
+          ],
+          "v2_y_fraction_of_body_height": 0.999128160418483,
+          "source125_y_fraction_of_body_height": 0.9850746268656716
+        },
+        "bottom_edge_center": {
+          "v2_raw": [
+            475.5,
+            1192
+          ],
+          "source125": [
+            16.0,
+            67
+          ],
+          "registered_v2": [
+            15.679598953792503,
+            67.0
+          ],
+          "residual_v2_minus_source125": [
+            -0.3204010462074969,
+            0.0
+          ],
+          "v2_y_fraction_of_body_height": 1.0,
+          "source125_y_fraction_of_body_height": 1.0
+        }
+      },
+      "hand_right": {
+        "row_center": {
+          "v2_raw": [
+            943.5,
+            845
+          ],
+          "source125": [
+            47.0,
+            36
+          ],
+          "registered_v2": [
+            43.017000871839585,
+            46.73060156931125
+          ],
+          "residual_v2_minus_source125": [
+            -3.982999128160415,
+            10.730601569311247
+          ],
+          "v2_y_fraction_of_body_height": 0.6974716652136007,
+          "source125_y_fraction_of_body_height": 0.5373134328358209
+        },
+        "bottom_edge_center": {
+          "v2_raw": [
+            943.5,
+            846
+          ],
+          "source125": [
+            47.0,
+            37
+          ],
+          "registered_v2": [
+            43.017000871839585,
+            46.789014821272886
+          ],
+          "residual_v2_minus_source125": [
+            -3.982999128160415,
+            9.789014821272886
+          ],
+          "v2_y_fraction_of_body_height": 0.6983435047951178,
+          "source125_y_fraction_of_body_height": 0.5522388059701493
+        }
+      },
+      "shoe_right": {
+        "row_center": {
+          "v2_raw": [
+            777.5,
+            1190
+          ],
+          "source125": [
+            33.0,
+            66
+          ],
+          "registered_v2": [
+            33.3204010462075,
+            66.88317349607672
+          ],
+          "residual_v2_minus_source125": [
+            0.32040104620750043,
+            0.8831734960767221
+          ],
+          "v2_y_fraction_of_body_height": 0.998256320836966,
+          "source125_y_fraction_of_body_height": 0.9850746268656716
+        },
+        "bottom_edge_center": {
+          "v2_raw": [
+            777.5,
+            1191
+          ],
+          "source125": [
+            33.0,
+            67
+          ],
+          "registered_v2": [
+            33.3204010462075,
+            66.94158674803836
+          ],
+          "residual_v2_minus_source125": [
+            0.32040104620750043,
+            -0.058413251961638935
+          ],
+          "v2_y_fraction_of_body_height": 0.999128160418483,
+          "source125_y_fraction_of_body_height": 1.0
+        }
+      }
+    },
+    "crown_top": {
+      "source125": [
+        24.5,
+        0
+      ],
+      "v2_raw": [
+        617.5,
+        45
+      ],
+      "registered_v2": [
+        23.97428073234525,
+        0.0
+      ],
+      "residual": [
+        -0.5257192676547504,
+        0.0
+      ]
+    },
+    "body_width_over_height": 0.7018308631211857,
+    "registered_body_width": 47.02266782911944
+  },
+  "alpha_threshold_sensitivity": [
+    {
+      "alpha_gt": 8,
+      "candidate_bbox": [
+        226,
+        42,
+        1032,
+        1193
+      ],
+      "candidate_height": 1151,
+      "uniform_scale": 0.05821025195482189,
+      "translation": [
+        -11.925065160729801,
+        -2.4448305821025196
+      ],
+      "candidate_lower_surface_points": {
+        "hand_left": {
+          "row_center": [
+            310.5,
+            847
+          ],
+          "bottom_edge_center": [
+            310.5,
+            848
+          ],
+          "bottom_row_x_extent_half_open": [
+            308,
+            314
+          ],
+          "roi": [
+            200,
+            760,
+            400,
+            880
+          ],
+          "seed": [
+            300,
+            800
+          ]
+        },
+        "shoe_left": {
+          "row_center": [
+            475.5,
+            1192
+          ],
+          "bottom_edge_center": [
+            475.5,
+            1193
+          ],
+          "bottom_row_x_extent_half_open": [
+            471,
+            481
+          ],
+          "roi": [
+            400,
+            1130,
+            550,
+            1210
+          ],
+          "seed": null
+        },
+        "hand_right": {
+          "row_center": [
+            944.0,
+            846
+          ],
+          "bottom_edge_center": [
+            944.0,
+            847
+          ],
+          "bottom_row_x_extent_half_open": [
+            943,
+            946
+          ],
+          "roi": [
+            860,
+            760,
+            1050,
+            880
+          ],
+          "seed": [
+            950,
+            800
+          ]
+        },
+        "shoe_right": {
+          "row_center": [
+            776.0,
+            1191
+          ],
+          "bottom_edge_center": [
+            776.0,
+            1192
+          ],
+          "bottom_row_x_extent_half_open": [
+            771,
+            782
+          ],
+          "roi": [
+            700,
+            1130,
+            850,
+            1210
+          ],
+          "seed": null
+        }
+      },
+      "registered_proxies": {
+        "hand_left": {
+          "row_center": {
+            "v2_raw": [
+              310.5,
+              847
+            ],
+            "source125": [
+              1.0,
+              36
+            ],
+            "registered_v2": [
+              6.149218071242398,
+              46.85925282363162
+            ],
+            "residual_v2_minus_source125": [
+              5.149218071242398,
+              10.859252823631621
+            ],
+            "v2_y_fraction_of_body_height": 0.6993918331885317,
+            "source125_y_fraction_of_body_height": 0.5373134328358209
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              310.5,
+              848
+            ],
+            "source125": [
+              1.0,
+              37
+            ],
+            "registered_v2": [
+              6.149218071242398,
+              46.91746307558645
+            ],
+            "residual_v2_minus_source125": [
+              5.149218071242398,
+              9.917463075586447
+            ],
+            "v2_y_fraction_of_body_height": 0.7002606429192006,
+            "source125_y_fraction_of_body_height": 0.5522388059701493
+          }
+        },
+        "shoe_left": {
+          "row_center": {
+            "v2_raw": [
+              475.5,
+              1192
+            ],
+            "source125": [
+              16.0,
+              66
+            ],
+            "registered_v2": [
+              15.75390964378801,
+              66.94178974804517
+            ],
+            "residual_v2_minus_source125": [
+              -0.24609035621199027,
+              0.9417897480451671
+            ],
+            "v2_y_fraction_of_body_height": 0.9991311902693311,
+            "source125_y_fraction_of_body_height": 0.9850746268656716
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              475.5,
+              1193
+            ],
+            "source125": [
+              16.0,
+              67
+            ],
+            "registered_v2": [
+              15.75390964378801,
+              66.99999999999999
+            ],
+            "residual_v2_minus_source125": [
+              -0.24609035621199027,
+              -1.4210854715202004e-14
+            ],
+            "v2_y_fraction_of_body_height": 1.0,
+            "source125_y_fraction_of_body_height": 1.0
+          }
+        },
+        "hand_right": {
+          "row_center": {
+            "v2_raw": [
+              944.0,
+              846
+            ],
+            "source125": [
+              47.0,
+              36
+            ],
+            "registered_v2": [
+              43.02541268462207,
+              46.8010425716768
+            ],
+            "residual_v2_minus_source125": [
+              -3.9745873153779314,
+              10.801042571676803
+            ],
+            "v2_y_fraction_of_body_height": 0.6985230234578628,
+            "source125_y_fraction_of_body_height": 0.5373134328358209
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              944.0,
+              847
+            ],
+            "source125": [
+              47.0,
+              37
+            ],
+            "registered_v2": [
+              43.02541268462207,
+              46.85925282363162
+            ],
+            "residual_v2_minus_source125": [
+              -3.9745873153779314,
+              9.859252823631621
+            ],
+            "v2_y_fraction_of_body_height": 0.6993918331885317,
+            "source125_y_fraction_of_body_height": 0.5522388059701493
+          }
+        },
+        "shoe_right": {
+          "row_center": {
+            "v2_raw": [
+              776.0,
+              1191
+            ],
+            "source125": [
+              33.0,
+              66
+            ],
+            "registered_v2": [
+              33.24609035621199,
+              66.88357949609035
+            ],
+            "residual_v2_minus_source125": [
+              0.24609035621198672,
+              0.8835794960903485
+            ],
+            "v2_y_fraction_of_body_height": 0.998262380538662,
+            "source125_y_fraction_of_body_height": 0.9850746268656716
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              776.0,
+              1192
+            ],
+            "source125": [
+              33.0,
+              67
+            ],
+            "registered_v2": [
+              33.24609035621199,
+              66.94178974804517
+            ],
+            "residual_v2_minus_source125": [
+              0.24609035621198672,
+              -0.05821025195483287
+            ],
+            "v2_y_fraction_of_body_height": 0.9991311902693311,
+            "source125_y_fraction_of_body_height": 1.0
+          }
+        }
+      },
+      "crown_top": {
+        "source125": [
+          24.5,
+          0
+        ],
+        "v2_raw": [
+          612.0,
+          42
+        ],
+        "registered_v2": [
+          23.6996090356212,
+          0.0
+        ],
+        "residual": [
+          -0.8003909643787992,
+          0.0
+        ]
+      },
+      "body_width_over_height": 0.7002606429192006,
+      "registered_body_width": 46.91746307558645
+    },
+    {
+      "alpha_gt": 32,
+      "candidate_bbox": [
+        226,
+        43,
+        1032,
+        1193
+      ],
+      "candidate_height": 1150,
+      "uniform_scale": 0.058260869565217394,
+      "translation": [
+        -11.971304347826091,
+        -2.505217391304348
+      ],
+      "candidate_lower_surface_points": {
+        "hand_left": {
+          "row_center": [
+            310.0,
+            846
+          ],
+          "bottom_edge_center": [
+            310.0,
+            847
+          ],
+          "bottom_row_x_extent_half_open": [
+            306,
+            315
+          ],
+          "roi": [
+            200,
+            760,
+            400,
+            880
+          ],
+          "seed": [
+            300,
+            800
+          ]
+        },
+        "shoe_left": {
+          "row_center": [
+            475.0,
+            1192
+          ],
+          "bottom_edge_center": [
+            475.0,
+            1193
+          ],
+          "bottom_row_x_extent_half_open": [
+            473,
+            478
+          ],
+          "roi": [
+            400,
+            1130,
+            550,
+            1210
+          ],
+          "seed": null
+        },
+        "hand_right": {
+          "row_center": [
+            943.5,
+            845
+          ],
+          "bottom_edge_center": [
+            943.5,
+            846
+          ],
+          "bottom_row_x_extent_half_open": [
+            939,
+            949
+          ],
+          "roi": [
+            860,
+            760,
+            1050,
+            880
+          ],
+          "seed": [
+            950,
+            800
+          ]
+        },
+        "shoe_right": {
+          "row_center": [
+            777.0,
+            1191
+          ],
+          "bottom_edge_center": [
+            777.0,
+            1192
+          ],
+          "bottom_row_x_extent_half_open": [
+            774,
+            781
+          ],
+          "roi": [
+            700,
+            1130,
+            850,
+            1210
+          ],
+          "seed": null
+        }
+      },
+      "registered_proxies": {
+        "hand_left": {
+          "row_center": {
+            "v2_raw": [
+              310.0,
+              846
+            ],
+            "source125": [
+              1.0,
+              36
+            ],
+            "registered_v2": [
+              6.0895652173913,
+              46.783478260869565
+            ],
+            "residual_v2_minus_source125": [
+              5.0895652173913,
+              10.783478260869565
+            ],
+            "v2_y_fraction_of_body_height": 0.6982608695652174,
+            "source125_y_fraction_of_body_height": 0.5373134328358209
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              310.0,
+              847
+            ],
+            "source125": [
+              1.0,
+              37
+            ],
+            "registered_v2": [
+              6.0895652173913,
+              46.84173913043478
+            ],
+            "residual_v2_minus_source125": [
+              5.0895652173913,
+              9.841739130434782
+            ],
+            "v2_y_fraction_of_body_height": 0.6991304347826087,
+            "source125_y_fraction_of_body_height": 0.5522388059701493
+          }
+        },
+        "shoe_left": {
+          "row_center": {
+            "v2_raw": [
+              475.0,
+              1192
+            ],
+            "source125": [
+              16.0,
+              66
+            ],
+            "registered_v2": [
+              15.70260869565217,
+              66.9417391304348
+            ],
+            "residual_v2_minus_source125": [
+              -0.2973913043478298,
+              0.9417391304347973
+            ],
+            "v2_y_fraction_of_body_height": 0.9991304347826087,
+            "source125_y_fraction_of_body_height": 0.9850746268656716
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              475.0,
+              1193
+            ],
+            "source125": [
+              16.0,
+              67
+            ],
+            "registered_v2": [
+              15.70260869565217,
+              67.00000000000001
+            ],
+            "residual_v2_minus_source125": [
+              -0.2973913043478298,
+              1.4210854715202004e-14
+            ],
+            "v2_y_fraction_of_body_height": 1.0,
+            "source125_y_fraction_of_body_height": 1.0
+          }
+        },
+        "hand_right": {
+          "row_center": {
+            "v2_raw": [
+              943.5,
+              845
+            ],
+            "source125": [
+              47.0,
+              36
+            ],
+            "registered_v2": [
+              42.99782608695652,
+              46.72521739130435
+            ],
+            "residual_v2_minus_source125": [
+              -4.002173913043478,
+              10.725217391304348
+            ],
+            "v2_y_fraction_of_body_height": 0.697391304347826,
+            "source125_y_fraction_of_body_height": 0.5373134328358209
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              943.5,
+              846
+            ],
+            "source125": [
+              47.0,
+              37
+            ],
+            "registered_v2": [
+              42.99782608695652,
+              46.783478260869565
+            ],
+            "residual_v2_minus_source125": [
+              -4.002173913043478,
+              9.783478260869565
+            ],
+            "v2_y_fraction_of_body_height": 0.6982608695652174,
+            "source125_y_fraction_of_body_height": 0.5522388059701493
+          }
+        },
+        "shoe_right": {
+          "row_center": {
+            "v2_raw": [
+              777.0,
+              1191
+            ],
+            "source125": [
+              33.0,
+              66
+            ],
+            "registered_v2": [
+              33.297391304347826,
+              66.88347826086958
+            ],
+            "residual_v2_minus_source125": [
+              0.29739130434782624,
+              0.8834782608695804
+            ],
+            "v2_y_fraction_of_body_height": 0.9982608695652174,
+            "source125_y_fraction_of_body_height": 0.9850746268656716
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              777.0,
+              1192
+            ],
+            "source125": [
+              33.0,
+              67
+            ],
+            "registered_v2": [
+              33.297391304347826,
+              66.9417391304348
+            ],
+            "residual_v2_minus_source125": [
+              0.29739130434782624,
+              -0.05826086956520271
+            ],
+            "v2_y_fraction_of_body_height": 0.9991304347826087,
+            "source125_y_fraction_of_body_height": 1.0
+          }
+        }
+      },
+      "crown_top": {
+        "source125": [
+          24.5,
+          0
+        ],
+        "v2_raw": [
+          612.5,
+          43
+        ],
+        "registered_v2": [
+          23.713478260869564,
+          0.0
+        ],
+        "residual": [
+          -0.7865217391304355,
+          0.0
+        ]
+      },
+      "body_width_over_height": 0.7008695652173913,
+      "registered_body_width": 46.95826086956522
+    },
+    {
+      "alpha_gt": 64,
+      "candidate_bbox": [
+        226,
+        44,
+        1032,
+        1192
+      ],
+      "candidate_height": 1148,
+      "uniform_scale": 0.05836236933797909,
+      "translation": [
+        -12.078614982578394,
+        -2.56794425087108
+      ],
+      "candidate_lower_surface_points": {
+        "hand_left": {
+          "row_center": [
+            309.5,
+            846
+          ],
+          "bottom_edge_center": [
+            309.5,
+            847
+          ],
+          "bottom_row_x_extent_half_open": [
+            306,
+            314
+          ],
+          "roi": [
+            200,
+            760,
+            400,
+            880
+          ],
+          "seed": [
+            300,
+            800
+          ]
+        },
+        "shoe_left": {
+          "row_center": [
+            475.5,
+            1191
+          ],
+          "bottom_edge_center": [
+            475.5,
+            1192
+          ],
+          "bottom_row_x_extent_half_open": [
+            465,
+            487
+          ],
+          "roi": [
+            400,
+            1130,
+            550,
+            1210
+          ],
+          "seed": null
+        },
+        "hand_right": {
+          "row_center": [
+            943.5,
+            845
+          ],
+          "bottom_edge_center": [
+            943.5,
+            846
+          ],
+          "bottom_row_x_extent_half_open": [
+            940,
+            948
+          ],
+          "roi": [
+            860,
+            760,
+            1050,
+            880
+          ],
+          "seed": [
+            950,
+            800
+          ]
+        },
+        "shoe_right": {
+          "row_center": [
+            778.0,
+            1190
+          ],
+          "bottom_edge_center": [
+            778.0,
+            1191
+          ],
+          "bottom_row_x_extent_half_open": [
+            767,
+            790
+          ],
+          "roi": [
+            700,
+            1130,
+            850,
+            1210
+          ],
+          "seed": null
+        }
+      },
+      "registered_proxies": {
+        "hand_left": {
+          "row_center": {
+            "v2_raw": [
+              309.5,
+              846
+            ],
+            "source125": [
+              1.0,
+              36
+            ],
+            "registered_v2": [
+              5.984538327526135,
+              46.80662020905923
+            ],
+            "residual_v2_minus_source125": [
+              4.984538327526135,
+              10.806620209059233
+            ],
+            "v2_y_fraction_of_body_height": 0.6986062717770035,
+            "source125_y_fraction_of_body_height": 0.5373134328358209
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              309.5,
+              847
+            ],
+            "source125": [
+              1.0,
+              37
+            ],
+            "registered_v2": [
+              5.984538327526135,
+              46.86498257839721
+            ],
+            "residual_v2_minus_source125": [
+              4.984538327526135,
+              9.86498257839721
+            ],
+            "v2_y_fraction_of_body_height": 0.6994773519163763,
+            "source125_y_fraction_of_body_height": 0.5522388059701493
+          }
+        },
+        "shoe_left": {
+          "row_center": {
+            "v2_raw": [
+              475.5,
+              1191
+            ],
+            "source125": [
+              16.0,
+              66
+            ],
+            "registered_v2": [
+              15.672691637630667,
+              66.94163763066202
+            ],
+            "residual_v2_minus_source125": [
+              -0.32730836236933314,
+              0.9416376306620151
+            ],
+            "v2_y_fraction_of_body_height": 0.9991289198606271,
+            "source125_y_fraction_of_body_height": 0.9850746268656716
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              475.5,
+              1192
+            ],
+            "source125": [
+              16.0,
+              67
+            ],
+            "registered_v2": [
+              15.672691637630667,
+              67.0
+            ],
+            "residual_v2_minus_source125": [
+              -0.32730836236933314,
+              0.0
+            ],
+            "v2_y_fraction_of_body_height": 1.0,
+            "source125_y_fraction_of_body_height": 1.0
+          }
+        },
+        "hand_right": {
+          "row_center": {
+            "v2_raw": [
+              943.5,
+              845
+            ],
+            "source125": [
+              47.0,
+              36
+            ],
+            "registered_v2": [
+              42.98628048780488,
+              46.748257839721255
+            ],
+            "residual_v2_minus_source125": [
+              -4.013719512195117,
+              10.748257839721255
+            ],
+            "v2_y_fraction_of_body_height": 0.6977351916376306,
+            "source125_y_fraction_of_body_height": 0.5373134328358209
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              943.5,
+              846
+            ],
+            "source125": [
+              47.0,
+              37
+            ],
+            "registered_v2": [
+              42.98628048780488,
+              46.80662020905923
+            ],
+            "residual_v2_minus_source125": [
+              -4.013719512195117,
+              9.806620209059233
+            ],
+            "v2_y_fraction_of_body_height": 0.6986062717770035,
+            "source125_y_fraction_of_body_height": 0.5522388059701493
+          }
+        },
+        "shoe_right": {
+          "row_center": {
+            "v2_raw": [
+              778.0,
+              1190
+            ],
+            "source125": [
+              33.0,
+              66
+            ],
+            "registered_v2": [
+              33.327308362369344,
+              66.88327526132404
+            ],
+            "residual_v2_minus_source125": [
+              0.3273083623693438,
+              0.8832752613240444
+            ],
+            "v2_y_fraction_of_body_height": 0.9982578397212544,
+            "source125_y_fraction_of_body_height": 0.9850746268656716
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              778.0,
+              1191
+            ],
+            "source125": [
+              33.0,
+              67
+            ],
+            "registered_v2": [
+              33.327308362369344,
+              66.94163763066202
+            ],
+            "residual_v2_minus_source125": [
+              0.3273083623693438,
+              -0.05836236933798489
+            ],
+            "v2_y_fraction_of_body_height": 0.9991289198606271,
+            "source125_y_fraction_of_body_height": 1.0
+          }
+        }
+      },
+      "crown_top": {
+        "source125": [
+          24.5,
+          0
+        ],
+        "v2_raw": [
+          615.5,
+          44
+        ],
+        "registered_v2": [
+          23.843423344947738,
+          0.0
+        ],
+        "residual": [
+          -0.6565766550522625,
+          0.0
+        ]
+      },
+      "body_width_over_height": 0.7020905923344948,
+      "registered_body_width": 47.04006968641115
+    },
+    {
+      "alpha_gt": 128,
+      "candidate_bbox": [
+        226,
+        45,
+        1031,
+        1192
+      ],
+      "candidate_height": 1147,
+      "uniform_scale": 0.05841325196163906,
+      "translation": [
+        -12.09590235396687,
+        -2.628596338273758
+      ],
+      "candidate_lower_surface_points": {
+        "hand_left": {
+          "row_center": [
+            309.5,
+            846
+          ],
+          "bottom_edge_center": [
+            309.5,
+            847
+          ],
+          "bottom_row_x_extent_half_open": [
+            307,
+            313
+          ],
+          "roi": [
+            200,
+            760,
+            400,
+            880
+          ],
+          "seed": [
+            300,
+            800
+          ]
+        },
+        "shoe_left": {
+          "row_center": [
+            475.5,
+            1191
+          ],
+          "bottom_edge_center": [
+            475.5,
+            1192
+          ],
+          "bottom_row_x_extent_half_open": [
+            468,
+            484
+          ],
+          "roi": [
+            400,
+            1130,
+            550,
+            1210
+          ],
+          "seed": null
+        },
+        "hand_right": {
+          "row_center": [
+            943.5,
+            845
+          ],
+          "bottom_edge_center": [
+            943.5,
+            846
+          ],
+          "bottom_row_x_extent_half_open": [
+            941,
+            947
+          ],
+          "roi": [
+            860,
+            760,
+            1050,
+            880
+          ],
+          "seed": [
+            950,
+            800
+          ]
+        },
+        "shoe_right": {
+          "row_center": [
+            777.5,
+            1190
+          ],
+          "bottom_edge_center": [
+            777.5,
+            1191
+          ],
+          "bottom_row_x_extent_half_open": [
+            768,
+            788
+          ],
+          "roi": [
+            700,
+            1130,
+            850,
+            1210
+          ],
+          "seed": null
+        }
+      },
+      "registered_proxies": {
+        "hand_left": {
+          "row_center": {
+            "v2_raw": [
+              309.5,
+              846
+            ],
+            "source125": [
+              1.0,
+              36
+            ],
+            "registered_v2": [
+              5.982999128160419,
+              46.789014821272886
+            ],
+            "residual_v2_minus_source125": [
+              4.982999128160419,
+              10.789014821272886
+            ],
+            "v2_y_fraction_of_body_height": 0.6983435047951178,
+            "source125_y_fraction_of_body_height": 0.5373134328358209
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              309.5,
+              847
+            ],
+            "source125": [
+              1.0,
+              37
+            ],
+            "registered_v2": [
+              5.982999128160419,
+              46.847428073234525
+            ],
+            "residual_v2_minus_source125": [
+              4.982999128160419,
+              9.847428073234525
+            ],
+            "v2_y_fraction_of_body_height": 0.6992153443766347,
+            "source125_y_fraction_of_body_height": 0.5522388059701493
+          }
+        },
+        "shoe_left": {
+          "row_center": {
+            "v2_raw": [
+              475.5,
+              1191
+            ],
+            "source125": [
+              16.0,
+              66
+            ],
+            "registered_v2": [
+              15.679598953792503,
+              66.94158674803836
+            ],
+            "residual_v2_minus_source125": [
+              -0.3204010462074969,
+              0.9415867480383611
+            ],
+            "v2_y_fraction_of_body_height": 0.999128160418483,
+            "source125_y_fraction_of_body_height": 0.9850746268656716
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              475.5,
+              1192
+            ],
+            "source125": [
+              16.0,
+              67
+            ],
+            "registered_v2": [
+              15.679598953792503,
+              67.0
+            ],
+            "residual_v2_minus_source125": [
+              -0.3204010462074969,
+              0.0
+            ],
+            "v2_y_fraction_of_body_height": 1.0,
+            "source125_y_fraction_of_body_height": 1.0
+          }
+        },
+        "hand_right": {
+          "row_center": {
+            "v2_raw": [
+              943.5,
+              845
+            ],
+            "source125": [
+              47.0,
+              36
+            ],
+            "registered_v2": [
+              43.017000871839585,
+              46.73060156931125
+            ],
+            "residual_v2_minus_source125": [
+              -3.982999128160415,
+              10.730601569311247
+            ],
+            "v2_y_fraction_of_body_height": 0.6974716652136007,
+            "source125_y_fraction_of_body_height": 0.5373134328358209
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              943.5,
+              846
+            ],
+            "source125": [
+              47.0,
+              37
+            ],
+            "registered_v2": [
+              43.017000871839585,
+              46.789014821272886
+            ],
+            "residual_v2_minus_source125": [
+              -3.982999128160415,
+              9.789014821272886
+            ],
+            "v2_y_fraction_of_body_height": 0.6983435047951178,
+            "source125_y_fraction_of_body_height": 0.5522388059701493
+          }
+        },
+        "shoe_right": {
+          "row_center": {
+            "v2_raw": [
+              777.5,
+              1190
+            ],
+            "source125": [
+              33.0,
+              66
+            ],
+            "registered_v2": [
+              33.3204010462075,
+              66.88317349607672
+            ],
+            "residual_v2_minus_source125": [
+              0.32040104620750043,
+              0.8831734960767221
+            ],
+            "v2_y_fraction_of_body_height": 0.998256320836966,
+            "source125_y_fraction_of_body_height": 0.9850746268656716
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              777.5,
+              1191
+            ],
+            "source125": [
+              33.0,
+              67
+            ],
+            "registered_v2": [
+              33.3204010462075,
+              66.94158674803836
+            ],
+            "residual_v2_minus_source125": [
+              0.32040104620750043,
+              -0.058413251961638935
+            ],
+            "v2_y_fraction_of_body_height": 0.999128160418483,
+            "source125_y_fraction_of_body_height": 1.0
+          }
+        }
+      },
+      "crown_top": {
+        "source125": [
+          24.5,
+          0
+        ],
+        "v2_raw": [
+          617.5,
+          45
+        ],
+        "registered_v2": [
+          23.97428073234525,
+          0.0
+        ],
+        "residual": [
+          -0.5257192676547504,
+          0.0
+        ]
+      },
+      "body_width_over_height": 0.7018308631211857,
+      "registered_body_width": 47.02266782911944
+    },
+    {
+      "alpha_gt": 200,
+      "candidate_bbox": [
+        227,
+        46,
+        1031,
+        1191
+      ],
+      "candidate_height": 1145,
+      "uniform_scale": 0.05851528384279476,
+      "translation": [
+        -12.14519650655022,
+        -2.6917030567685587
+      ],
+      "candidate_lower_surface_points": {
+        "hand_left": {
+          "row_center": [
+            310.0,
+            845
+          ],
+          "bottom_edge_center": [
+            310.0,
+            846
+          ],
+          "bottom_row_x_extent_half_open": [
+            306,
+            315
+          ],
+          "roi": [
+            200,
+            760,
+            400,
+            880
+          ],
+          "seed": [
+            300,
+            800
+          ]
+        },
+        "shoe_left": {
+          "row_center": [
+            475.0,
+            1190
+          ],
+          "bottom_edge_center": [
+            475.0,
+            1191
+          ],
+          "bottom_row_x_extent_half_open": [
+            464,
+            487
+          ],
+          "roi": [
+            400,
+            1130,
+            550,
+            1210
+          ],
+          "seed": null
+        },
+        "hand_right": {
+          "row_center": [
+            943.5,
+            844
+          ],
+          "bottom_edge_center": [
+            943.5,
+            845
+          ],
+          "bottom_row_x_extent_half_open": [
+            939,
+            949
+          ],
+          "roi": [
+            860,
+            760,
+            1050,
+            880
+          ],
+          "seed": [
+            950,
+            800
+          ]
+        },
+        "shoe_right": {
+          "row_center": [
+            777.5,
+            1190
+          ],
+          "bottom_edge_center": [
+            777.5,
+            1191
+          ],
+          "bottom_row_x_extent_half_open": [
+            777,
+            779
+          ],
+          "roi": [
+            700,
+            1130,
+            850,
+            1210
+          ],
+          "seed": null
+        }
+      },
+      "registered_proxies": {
+        "hand_left": {
+          "row_center": {
+            "v2_raw": [
+              310.0,
+              845
+            ],
+            "source125": [
+              1.0,
+              36
+            ],
+            "registered_v2": [
+              5.994541484716155,
+              46.75371179039301
+            ],
+            "residual_v2_minus_source125": [
+              4.994541484716155,
+              10.753711790393012
+            ],
+            "v2_y_fraction_of_body_height": 0.6978165938864629,
+            "source125_y_fraction_of_body_height": 0.5373134328358209
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              310.0,
+              846
+            ],
+            "source125": [
+              1.0,
+              37
+            ],
+            "registered_v2": [
+              5.994541484716155,
+              46.81222707423581
+            ],
+            "residual_v2_minus_source125": [
+              4.994541484716155,
+              9.812227074235807
+            ],
+            "v2_y_fraction_of_body_height": 0.6986899563318777,
+            "source125_y_fraction_of_body_height": 0.5522388059701493
+          }
+        },
+        "shoe_left": {
+          "row_center": {
+            "v2_raw": [
+              475.0,
+              1190
+            ],
+            "source125": [
+              16.0,
+              66
+            ],
+            "registered_v2": [
+              15.64956331877729,
+              66.9414847161572
+            ],
+            "residual_v2_minus_source125": [
+              -0.35043668122271043,
+              0.9414847161572055
+            ],
+            "v2_y_fraction_of_body_height": 0.9991266375545852,
+            "source125_y_fraction_of_body_height": 0.9850746268656716
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              475.0,
+              1191
+            ],
+            "source125": [
+              16.0,
+              67
+            ],
+            "registered_v2": [
+              15.64956331877729,
+              67.0
+            ],
+            "residual_v2_minus_source125": [
+              -0.35043668122271043,
+              0.0
+            ],
+            "v2_y_fraction_of_body_height": 1.0,
+            "source125_y_fraction_of_body_height": 1.0
+          }
+        },
+        "hand_right": {
+          "row_center": {
+            "v2_raw": [
+              943.5,
+              844
+            ],
+            "source125": [
+              47.0,
+              36
+            ],
+            "registered_v2": [
+              43.063973799126636,
+              46.69519650655022
+            ],
+            "residual_v2_minus_source125": [
+              -3.936026200873364,
+              10.695196506550218
+            ],
+            "v2_y_fraction_of_body_height": 0.6969432314410481,
+            "source125_y_fraction_of_body_height": 0.5373134328358209
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              943.5,
+              845
+            ],
+            "source125": [
+              47.0,
+              37
+            ],
+            "registered_v2": [
+              43.063973799126636,
+              46.75371179039301
+            ],
+            "residual_v2_minus_source125": [
+              -3.936026200873364,
+              9.753711790393012
+            ],
+            "v2_y_fraction_of_body_height": 0.6978165938864629,
+            "source125_y_fraction_of_body_height": 0.5522388059701493
+          }
+        },
+        "shoe_right": {
+          "row_center": {
+            "v2_raw": [
+              777.5,
+              1190
+            ],
+            "source125": [
+              33.0,
+              66
+            ],
+            "registered_v2": [
+              33.3504366812227,
+              66.9414847161572
+            ],
+            "residual_v2_minus_source125": [
+              0.35043668122270333,
+              0.9414847161572055
+            ],
+            "v2_y_fraction_of_body_height": 0.9991266375545852,
+            "source125_y_fraction_of_body_height": 0.9850746268656716
+          },
+          "bottom_edge_center": {
+            "v2_raw": [
+              777.5,
+              1191
+            ],
+            "source125": [
+              33.0,
+              67
+            ],
+            "registered_v2": [
+              33.3504366812227,
+              67.0
+            ],
+            "residual_v2_minus_source125": [
+              0.35043668122270333,
+              0.0
+            ],
+            "v2_y_fraction_of_body_height": 1.0,
+            "source125_y_fraction_of_body_height": 1.0
+          }
+        }
+      },
+      "crown_top": {
+        "source125": [
+          24.5,
+          0
+        ],
+        "v2_raw": [
+          620.0,
+          46
+        ],
+        "registered_v2": [
+          24.13427947598253,
+          0.0
+        ],
+        "residual": [
+          -0.365720524017469,
+          0.0
+        ]
+      },
+      "body_width_over_height": 0.7021834061135371,
+      "registered_body_width": 47.046288209606985
+    }
+  ],
+  "manual_surface_proxies": [
+    {
+      "id": "face_visible_patch_center",
+      "label": "可见脸部肤色区域中心",
+      "source": [
+        24,
+        11.5
+      ],
+      "source_interval": [
+        [
+          22,
+          26
+        ],
+        [
+          9,
+          14
+        ]
+      ],
+      "v2": [
+        626,
+        254
+      ],
+      "v2_interval": [
+        [
+          615,
+          637
+        ],
+        [
+          235,
+          272
+        ]
+      ],
+      "confidence": "low-to-medium",
+      "caution": "Source face/neck/garment boundary is ambiguous at 68x70; not a head joint or gaze estimator.",
+      "registered_v2": [
+        24.47079337401918,
+        12.208369659982564
+      ],
+      "residual_v2_minus_source125": [
+        0.47079337401918053,
+        0.708369659982564
+      ],
+      "residual_interval": [
+        [
+          -2.1717523975588477,
+          3.113339145597209
+        ],
+        [
+          -2.9014821272885776,
+          4.259808195292067
+        ]
+      ],
+      "source_y_fraction_interval": [
+        0.13432835820895522,
+        0.208955223880597
+      ],
+      "registered_v2_y_fraction_interval": [
+        0.16564952048823017,
+        0.1979075850043592
+      ]
+    },
+    {
+      "id": "face_lower_visible_boundary",
+      "label": "脸部下缘/领口上方表面",
+      "source": [
+        24.5,
+        14
+      ],
+      "source_interval": [
+        [
+          22,
+          27
+        ],
+        [
+          11,
+          17
+        ]
+      ],
+      "v2": [
+        628,
+        304
+      ],
+      "v2_interval": [
+        [
+          617,
+          639
+        ],
+        [
+          298,
+          310
+        ]
+      ],
+      "confidence": "low",
+      "caution": "Low-resolution source does not establish exact chin/neck boundary. Cannot establish a precise full-head scaling factor.",
+      "registered_v2": [
+        24.58761987794246,
+        15.129032258064518
+      ],
+      "residual_v2_minus_source125": [
+        0.0876198779424584,
+        1.1290322580645178
+      ],
+      "residual_interval": [
+        [
+          -3.05492589363557,
+          3.2301656495204867
+        ],
+        [
+          -2.2214472537053194,
+          4.479511769834351
+        ]
+      ],
+      "source_y_fraction_interval": [
+        0.16417910447761194,
+        0.2537313432835821
+      ],
+      "registered_v2_y_fraction_interval": [
+        0.22057541412380122,
+        0.23103748910200525
+      ]
+    },
+    {
+      "id": "screen_left_shoulder_top_surface",
+      "label": "屏左肩袖/护肩上缘",
+      "source": [
+        15,
+        10.5
+      ],
+      "source_interval": [
+        [
+          13,
+          17
+        ],
+        [
+          9,
+          13
+        ]
+      ],
+      "v2": [
+        404,
+        246
+      ],
+      "v2_interval": [
+        [
+          386,
+          425
+        ],
+        [
+          236,
+          261
+        ]
+      ],
+      "confidence": "medium-low",
+      "caution": "Visible clothing shoulder ridge, not humeral or acromion joint. Armor/work-panel construction differs.",
+      "registered_v2": [
+        11.503051438535309,
+        11.74106364428945
+      ],
+      "residual_v2_minus_source125": [
+        -3.4969485614646914,
+        1.2410636442894507
+      ],
+      "residual_interval": [
+        [
+          -6.548387096774192,
+          -0.2702702702702702
+        ],
+        [
+          -1.8430688753269386,
+          3.6172624237140365
+        ]
+      ],
+      "source_y_fraction_interval": [
+        0.13432835820895522,
+        0.19402985074626866
+      ],
+      "registered_v2_y_fraction_interval": [
+        0.1665213600697472,
+        0.18831734960767219
+      ]
+    },
+    {
+      "id": "screen_right_shoulder_top_surface",
+      "label": "屏右肩袖/护肩上缘",
+      "source": [
+        34,
+        10.5
+      ],
+      "source_interval": [
+        [
+          32,
+          36
+        ],
+        [
+          9,
+          13
+        ]
+      ],
+      "v2": [
+        850,
+        246
+      ],
+      "v2_interval": [
+        [
+          831,
+          870
+        ],
+        [
+          236,
+          261
+        ]
+      ],
+      "confidence": "medium-low",
+      "caution": "Visible clothing shoulder ridge, not skeleton; design can move this ridge.",
+      "registered_v2": [
+        37.55536181342633,
+        11.74106364428945
+      ],
+      "residual_v2_minus_source125": [
+        3.5553618134263303,
+        1.2410636442894507
+      ],
+      "residual_interval": [
+        [
+          0.44551002615519053,
+          6.723626852659109
+        ],
+        [
+          -1.8430688753269386,
+          3.6172624237140365
+        ]
+      ],
+      "source_y_fraction_interval": [
+        0.13432835820895522,
+        0.19402985074626866
+      ],
+      "registered_v2_y_fraction_interval": [
+        0.1665213600697472,
+        0.18831734960767219
+      ]
+    },
+    {
+      "id": "screen_left_elbow_region_sleeve_bend",
+      "label": "屏左肘区袖面转折",
+      "source": [
+        5.5,
+        25
+      ],
+      "source_interval": [
+        [
+          3,
+          9
+        ],
+        [
+          22,
+          28
+        ]
+      ],
+      "v2": [
+        302,
+        545
+      ],
+      "v2_interval": [
+        [
+          271,
+          332
+        ],
+        [
+          510,
+          585
+        ]
+      ],
+      "confidence": "low",
+      "caution": "Broad sleeve-fold region only; actual elbow is hidden. Do not use as a skeletal control point.",
+      "registered_v2": [
+        5.544899738448127,
+        29.206625980819528
+      ],
+      "residual_v2_minus_source125": [
+        0.04489973844812667,
+        4.206625980819528
+      ],
+      "residual_interval": [
+        [
+          -5.265911072362686,
+          4.297297297297298
+        ],
+        [
+          -0.8378378378378386,
+          9.543156059285089
+        ]
+      ],
+      "source_y_fraction_interval": [
+        0.3283582089552239,
+        0.417910447761194
+      ],
+      "registered_v2_y_fraction_interval": [
+        0.4054054054054054,
+        0.4707933740191804
+      ]
+    },
+    {
+      "id": "screen_right_elbow_region_sleeve_bend",
+      "label": "屏右肘区袖面转折",
+      "source": [
+        43,
+        25
+      ],
+      "source_interval": [
+        [
+          39,
+          46
+        ],
+        [
+          22,
+          28
+        ]
+      ],
+      "v2": [
+        952,
+        545
+      ],
+      "v2_interval": [
+        [
+          919,
+          982
+        ],
+        [
+          510,
+          585
+        ]
+      ],
+      "confidence": "low",
+      "caution": "Broad sleeve-fold region only; actual elbow is hidden.",
+      "registered_v2": [
+        43.513513513513516,
+        29.206625980819528
+      ],
+      "residual_v2_minus_source125": [
+        0.5135135135135158,
+        4.206625980819528
+      ],
+      "residual_interval": [
+        [
+          -4.414123801220576,
+          6.265911072362684
+        ],
+        [
+          -0.8378378378378386,
+          9.543156059285089
+        ]
+      ],
+      "source_y_fraction_interval": [
+        0.3283582089552239,
+        0.417910447761194
+      ],
+      "registered_v2_y_fraction_interval": [
+        0.4054054054054054,
+        0.4707933740191804
+      ]
+    }
+  ],
+  "manual_surface_ranges": [
+    {
+      "id": "crown_hair_surface_envelope",
+      "label": "深色头冠/发体包络",
+      "source_nominal_bbox": [
+        19,
+        0,
+        30,
+        8
+      ],
+      "source_width_interval": [
+        10,
+        12
+      ],
+      "source_height_interval": [
+        7,
+        10
+      ],
+      "v2_nominal_bbox": [
+        523,
+        45,
+        729,
+        222
+      ],
+      "v2_width_interval": [
+        196,
+        216
+      ],
+      "v2_height_interval": [
+        166,
+        183
+      ],
+      "confidence": "medium-low",
+      "caution": "Top cap/hair surface, not the whole anatomical head. Hairline and dark side material are ambiguous; cannot justify mechanically shrinking the whole head by this ratio.",
+      "registered_v2_size": [
+        12.033129904097645,
+        10.339145597210113
+      ],
+      "source125_size": [
+        11,
+        8
+      ],
+      "nominal_v2_over_source_size_ratio": [
+        1.0939209003725132,
+        1.292393199651264
+      ],
+      "size_ratio_intervals": [
+        [
+          0.954083115373438,
+          1.2617262423714037
+        ],
+        [
+          0.9696599825632084,
+          1.5270893012828497
+        ]
+      ]
+    },
+    {
+      "id": "lowest_visible_coat_hem_band",
+      "label": "长衣最低可见衣摆带",
+      "source_nominal_y": 63,
+      "source_y_interval": [
+        61,
+        65
+      ],
+      "v2_nominal_y": 1166,
+      "v2_y_interval": [
+        1159,
+        1171
+      ],
+      "confidence": "low-to-medium",
+      "caution": "Original armor apron/underlayer and candidate cloth hem are different materials. Keep source near-shoe coverage, not original armor segmentation.",
+      "registered_v2_y": 65.48125544899739,
+      "residual_y": 2.4812554489973877,
+      "residual_y_interval": [
+        0.07236268526591516,
+        4.773321708805582
+      ]
+    }
+  ],
+  "ratios": {
+    "source125_body_width_over_height": 0.7313432835820896,
+    "v2_body_width_over_height": 0.7018308631211857,
+    "source125_hand_lowest_row_center_span": 46,
+    "registered_v2_hand_lowest_row_center_span": 37.03400174367916,
+    "v2_over_source_hand_span_ratio": 0.8050869944278078,
+    "source125_shoe_lowest_row_center_span": 17,
+    "registered_v2_shoe_lowest_row_center_span": 17.640802092414997,
+    "v2_over_source_shoe_span_ratio": 1.037694240730294
+  },
+  "interpretation": {
+    "robust_failure": "Hands are much too low and too close to the center. Lowest-row vertical residuals are approximately+10.8 logical pixels; true bottom-edge residuals approximately+9.8. Registered hand span is~19.5% narrower than source125.",
+    "lower_confidence_findings": "Elbow-region sleeve folds tend lower; shoulder-top ridge tends wider. Neither is a recovered skeleton joint. Crown/hair envelope is nominally~9% wider and~29% taller; interval uncertainty means this is not a precise whole-head resize instruction.",
+    "relative_strengths_to_preserve": "Matte woven brown-gray long work coat, closed stand collar and central zipper, restrained light work panels, near-shoe hem, small shoe tips and nearly level shoe-bottom material.",
+    "projection": "Redraw high-angle compact projection and relaxed arms using source125 as geometry reference; do not infer a numerical 3D camera angle, pose joints, toe anatomy or support-foot identity from these pixels."
+  },
+  "not_performed": [
+    "image generation",
+    "image edits",
+    "image warp",
+    "Godot",
+    "main-repository writes",
+    "Git commands or publication"
+  ],
+  "next_step": "A new single base may be generated only by the separately authorized owner. Reassess the new raw under the same whole-figure registration; no animation/art acceptance follows from these measurements."
+}

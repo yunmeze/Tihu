@@ -1,0 +1,339 @@
+{
+  "schema": "chief-surface-proxy-annotations-v1",
+  "method": "Manual visual annotation of original frame125, existing registered 5x source contact sheet, and untouched v2 raw. Boxes are plausible surface-location intervals, not statistical confidence intervals. No skeletal points are asserted.",
+  "coordinate_system": "Image-local pixel coordinates; x right, y down. Point intervals are inclusive continuous intervals. Source original size68x70; v2 raw1254x1254.",
+  "manual_points": [
+    {
+      "id": "face_visible_patch_center",
+      "label": "可见脸部肤色区域中心",
+      "source": [
+        24,
+        11.5
+      ],
+      "source_interval": [
+        [
+          22,
+          26
+        ],
+        [
+          9,
+          14
+        ]
+      ],
+      "v2": [
+        626,
+        254
+      ],
+      "v2_interval": [
+        [
+          615,
+          637
+        ],
+        [
+          235,
+          272
+        ]
+      ],
+      "confidence": "low-to-medium",
+      "caution": "Source face/neck/garment boundary is ambiguous at 68x70; not a head joint or gaze estimator."
+    },
+    {
+      "id": "face_lower_visible_boundary",
+      "label": "脸部下缘/领口上方表面",
+      "source": [
+        24.5,
+        14
+      ],
+      "source_interval": [
+        [
+          22,
+          27
+        ],
+        [
+          11,
+          17
+        ]
+      ],
+      "v2": [
+        628,
+        304
+      ],
+      "v2_interval": [
+        [
+          617,
+          639
+        ],
+        [
+          298,
+          310
+        ]
+      ],
+      "confidence": "low",
+      "caution": "Low-resolution source does not establish exact chin/neck boundary. Cannot establish a precise full-head scaling factor."
+    },
+    {
+      "id": "screen_left_shoulder_top_surface",
+      "label": "屏左肩袖/护肩上缘",
+      "source": [
+        15,
+        10.5
+      ],
+      "source_interval": [
+        [
+          13,
+          17
+        ],
+        [
+          9,
+          13
+        ]
+      ],
+      "v2": [
+        404,
+        246
+      ],
+      "v2_interval": [
+        [
+          386,
+          425
+        ],
+        [
+          236,
+          261
+        ]
+      ],
+      "confidence": "medium-low",
+      "caution": "Visible clothing shoulder ridge, not humeral or acromion joint. Armor/work-panel construction differs."
+    },
+    {
+      "id": "screen_right_shoulder_top_surface",
+      "label": "屏右肩袖/护肩上缘",
+      "source": [
+        34,
+        10.5
+      ],
+      "source_interval": [
+        [
+          32,
+          36
+        ],
+        [
+          9,
+          13
+        ]
+      ],
+      "v2": [
+        850,
+        246
+      ],
+      "v2_interval": [
+        [
+          831,
+          870
+        ],
+        [
+          236,
+          261
+        ]
+      ],
+      "confidence": "medium-low",
+      "caution": "Visible clothing shoulder ridge, not skeleton; design can move this ridge."
+    },
+    {
+      "id": "screen_left_elbow_region_sleeve_bend",
+      "label": "屏左肘区袖面转折",
+      "source": [
+        5.5,
+        25
+      ],
+      "source_interval": [
+        [
+          3,
+          9
+        ],
+        [
+          22,
+          28
+        ]
+      ],
+      "v2": [
+        302,
+        545
+      ],
+      "v2_interval": [
+        [
+          271,
+          332
+        ],
+        [
+          510,
+          585
+        ]
+      ],
+      "confidence": "low",
+      "caution": "Broad sleeve-fold region only; actual elbow is hidden. Do not use as a skeletal control point."
+    },
+    {
+      "id": "screen_right_elbow_region_sleeve_bend",
+      "label": "屏右肘区袖面转折",
+      "source": [
+        43,
+        25
+      ],
+      "source_interval": [
+        [
+          39,
+          46
+        ],
+        [
+          22,
+          28
+        ]
+      ],
+      "v2": [
+        952,
+        545
+      ],
+      "v2_interval": [
+        [
+          919,
+          982
+        ],
+        [
+          510,
+          585
+        ]
+      ],
+      "confidence": "low",
+      "caution": "Broad sleeve-fold region only; actual elbow is hidden."
+    }
+  ],
+  "manual_ranges": [
+    {
+      "id": "crown_hair_surface_envelope",
+      "label": "深色头冠/发体包络",
+      "source_nominal_bbox": [
+        19,
+        0,
+        30,
+        8
+      ],
+      "source_width_interval": [
+        10,
+        12
+      ],
+      "source_height_interval": [
+        7,
+        10
+      ],
+      "v2_nominal_bbox": [
+        523,
+        45,
+        729,
+        222
+      ],
+      "v2_width_interval": [
+        196,
+        216
+      ],
+      "v2_height_interval": [
+        166,
+        183
+      ],
+      "confidence": "medium-low",
+      "caution": "Top cap/hair surface, not the whole anatomical head. Hairline and dark side material are ambiguous; cannot justify mechanically shrinking the whole head by this ratio."
+    },
+    {
+      "id": "lowest_visible_coat_hem_band",
+      "label": "长衣最低可见衣摆带",
+      "source_nominal_y": 63,
+      "source_y_interval": [
+        61,
+        65
+      ],
+      "v2_nominal_y": 1166,
+      "v2_y_interval": [
+        1159,
+        1171
+      ],
+      "confidence": "low-to-medium",
+      "caution": "Original armor apron/underlayer and candidate cloth hem are different materials. Keep source near-shoe coverage, not original armor segmentation."
+    }
+  ],
+  "machine_roi_definitions": {
+    "source_body_palette_proxy": "alpha>0 and RGB != (16,8,8), exactly as source contract; not approved semantic segmentation",
+    "v2_foreground_alpha_threshold": 128,
+    "v2_threshold_sensitivity": [
+      8,
+      32,
+      64,
+      128,
+      200
+    ],
+    "source_hand_left": {
+      "roi": [
+        0,
+        29,
+        7,
+        38
+      ],
+      "seed": [
+        2,
+        32
+      ]
+    },
+    "source_hand_right": {
+      "roi": [
+        42,
+        29,
+        50,
+        38
+      ],
+      "seed": [
+        47,
+        32
+      ]
+    },
+    "v2_hand_left": {
+      "roi": [
+        200,
+        760,
+        400,
+        880
+      ],
+      "seed": [
+        300,
+        800
+      ]
+    },
+    "v2_hand_right": {
+      "roi": [
+        860,
+        760,
+        1050,
+        880
+      ],
+      "seed": [
+        950,
+        800
+      ]
+    },
+    "v2_shoe_left": {
+      "roi": [
+        400,
+        1130,
+        550,
+        1210
+      ]
+    },
+    "v2_shoe_right": {
+      "roi": [
+        700,
+        1130,
+        850,
+        1210
+      ]
+    },
+    "caution": "Hand ROIs begin below the sleeve and use seeded connected components to avoid adjacent coat contamination. Shoe ROIs may include upper hem; only their lowest occupied rows are used."
+  }
+}

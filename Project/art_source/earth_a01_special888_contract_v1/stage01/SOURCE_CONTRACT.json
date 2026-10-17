@@ -1,0 +1,122 @@
+{
+  "schema": "a01-special888-stage01-contract-v1",
+  "status": "STATIC_PREFIX_VERIFIED_NOT_COMPLETE_INITIALIZER",
+  "source_cells": [
+    [
+      49,
+      72
+    ],
+    [
+      93,
+      50
+    ],
+    [
+      108,
+      86
+    ]
+  ],
+  "native_definition_id": 4,
+  "initial_appearance": 888,
+  "rng_import": {
+    "iat": "0x4010ac",
+    "dll": "MSVBVM60.DLL",
+    "ordinal": 593,
+    "runtime_implementation_not_loaded": true
+  },
+  "constants": [
+    {
+      "va": "0x4020fc",
+      "hex_le": "9a99193e",
+      "type": "binary32",
+      "exact_decimal": "0.15000000596046448",
+      "hex_float": "0x1.3333340000000p-3"
+    },
+    {
+      "va": "0x401f24",
+      "hex_le": "0000003f",
+      "type": "binary32",
+      "exact_decimal": "0.5",
+      "hex_float": "0x1.0000000000000p-1"
+    },
+    {
+      "va": "0x4012e8",
+      "hex_le": "9a99993e",
+      "type": "binary32",
+      "exact_decimal": "0.30000001192092896",
+      "hex_float": "0x1.3333340000000p-2"
+    }
+  ],
+  "ordered_prefix_rng_calls": [
+    "0x5a0ef2",
+    "0x5a1039",
+    "0x5a1073",
+    "0x5a1131"
+  ],
+  "occupancy": {
+    "first_compare": "x87 C0 after threshold compare to stored R4 draw; for ordered finite inputs, clear iff draw > binary32(0.15)",
+    "decrement_count_va": "0x5a0f38",
+    "clear_occupancy_word0_va": "0x5a0f5f",
+    "clear_occupancy_word1_va": "0x5a101f",
+    "continues_at": "0x5a1027",
+    "early_return": false,
+    "no_probability_claim": true
+  },
+  "variant_mapping": [
+    {
+      "appearance": 81,
+      "appearance_store_va": "0x5a11cf",
+      "entity_plus_04_literal": "假人-战男",
+      "literal_va": "0x4114b0",
+      "literal_utf16le_hex": "4750ba4e2d0018623775",
+      "entity_plus_32": 0
+    },
+    {
+      "appearance": 82,
+      "appearance_store_va": "0x5a12c3",
+      "entity_plus_04_literal": "假人-战女",
+      "literal_va": "0x4114e0",
+      "literal_utf16le_hex": "4750ba4e2d0018627359",
+      "entity_plus_32": 0
+    },
+    {
+      "appearance": 83,
+      "appearance_store_va": "0x5a1237",
+      "entity_plus_04_literal": "假人-道男",
+      "literal_va": "0x4114c0",
+      "literal_utf16le_hex": "4750ba4e2d0053903775",
+      "entity_plus_32": 0
+    },
+    {
+      "appearance": 84,
+      "appearance_store_va": "0x5a1360",
+      "entity_plus_04_literal": "假人-道女",
+      "literal_va": "0x4114f0",
+      "literal_utf16le_hex": "4750ba4e2d0053907359",
+      "entity_plus_32": 0
+    },
+    {
+      "appearance": 85,
+      "appearance_store_va": "0x5a124e",
+      "entity_plus_04_literal": "假人-法男",
+      "literal_va": "0x4114d0",
+      "literal_utf16le_hex": "4750ba4e2d00d56c3775",
+      "entity_plus_32": 16
+    },
+    {
+      "appearance": 86,
+      "appearance_store_va": "0x5a13a3",
+      "entity_plus_04_literal": "假人-法女",
+      "literal_va": "0x411500",
+      "literal_utf16le_hex": "4750ba4e2d00d56c7359",
+      "entity_plus_32": 16
+    }
+  ],
+  "hard_boundaries": [
+    "The first occupancy-clear branch does not terminate initialization; RNG calls and field writes continue.",
+    "Appearance 81..86 are output appearances, not native definition IDs.",
+    "The six literals are written to entity +0x04, initially copied from the definition second string; entity +0x00 is later replaced via 0x5b3a10.",
+    "No three-guaranteed-live claim, no HP-zero inert placeholder claim, no uniform probability claim.",
+    "Full initializer, name resolver, shared suffix, runtime conversions, RNG seeding/distribution and dynamic equivalence are pending.",
+    "No EXE or Godot executed; no primary repository files changed."
+  ]
+}
