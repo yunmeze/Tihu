@@ -1,0 +1,26 @@
+[
+  {
+    "stage": "01 exact initial source plus original non-tree factory syntax correction",
+    "sha256": "0f0603d982278195b4921d5c382dc86f8b5cb41ac018806eb596aea79e993ae2"
+  },
+  {
+    "stage": "Add execution gate and exact leaves hash",
+    "sha256": "c7dfac5c5259e4deb2691fdebcb6e4fedbad5179f4c9cdd166f743dcbe7b9453"
+  },
+  {
+    "stage": "Deep-copy current context before stage",
+    "sha256": "67114d873debc7fc4488f12d414b51f372314bbb5e3e025066eee9aa037e2e55"
+  },
+  {
+    "stage": "Add live-host and queued deletion guards",
+    "sha256": "d1c6c829532b15a37384f9be693be463a0f518983ac6929181887521ce06279b"
+  },
+  {
+    "stage": "Add exact per-kind extra-key whitelist",
+    "sha256": "6c667804c1b220e21369d0362a28a091faaea6f5d7b27d3c4edf64b6df9738b6"
+  },
+  {
+    "stage": "Add per-kind types, bound post-adopt portal log, complete replay publication shape checks",
+    "sha256": "0093f5119429c609ca40b5505b7638fc7f885df5535a3c869882d35f55f2a919"
+  }
+]

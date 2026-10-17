@@ -1,0 +1,22 @@
+{
+  "sha256": "0093f5119429c609ca40b5505b7638fc7f885df5535a3c869882d35f55f2a919",
+  "bytes": 15923,
+  "standard_vectors": [
+    {
+      "bytes": 0,
+      "pass": true
+    },
+    {
+      "bytes": 3,
+      "pass": true
+    },
+    {
+      "bytes": 56,
+      "pass": true
+    }
+  ],
+  "utf8_unicode_pass": true,
+  "method": "Exact original tool-input source and recorded replacements replayed; no filesystem source read",
+  "same_as_frozen_04": true,
+  "engine_rerun": false
+}
