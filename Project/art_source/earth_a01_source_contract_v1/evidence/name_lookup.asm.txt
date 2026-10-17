@@ -1,0 +1,99 @@
+
+原版游戏/LP传奇单机版_重生.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+005a0330 <.text+0x19f330>:
+  5a0330:	55                                              	push   ebp
+  5a0331:	8b ec                                           	mov    ebp,esp
+  5a0333:	83 ec 08                                        	sub    esp,0x8
+  5a0336:	68 06 32 40 00                                  	push   0x403206
+  5a033b:	64 a1 00 00 00 00                               	mov    eax,fs:0x0
+  5a0341:	50                                              	push   eax
+  5a0342:	64 89 25 00 00 00 00                            	mov    DWORD PTR fs:0x0,esp
+  5a0349:	83 ec 30                                        	sub    esp,0x30
+  5a034c:	53                                              	push   ebx
+  5a034d:	56                                              	push   esi
+  5a034e:	57                                              	push   edi
+  5a034f:	89 65 f8                                        	mov    DWORD PTR [ebp-0x8],esp
+  5a0352:	c7 45 fc 68 20 40 00                            	mov    DWORD PTR [ebp-0x4],0x402068
+  5a0359:	8b 3d 0c 11 40 00                               	mov    edi,DWORD PTR ds:0x40110c
+  5a035f:	33 c0                                           	xor    eax,eax
+  5a0361:	89 45 dc                                        	mov    DWORD PTR [ebp-0x24],eax
+  5a0364:	89 45 cc                                        	mov    DWORD PTR [ebp-0x34],eax
+  5a0367:	b8 01 00 00 00                                  	mov    eax,0x1
+  5a036c:	89 45 ec                                        	mov    DWORD PTR [ebp-0x14],eax
+  5a036f:	b9 58 02 00 00                                  	mov    ecx,0x258
+  5a0374:	66 3b c1                                        	cmp    ax,cx
+  5a0377:	0f 8f 89 00 00 00                               	jg     0x5a0406
+  5a037d:	0f bf c0                                        	movsx  eax,ax
+  5a0380:	8b f0                                           	mov    esi,eax
+  5a0382:	c1 e6 05                                        	shl    esi,0x5
+  5a0385:	2b f0                                           	sub    esi,eax
+  5a0387:	a1 14 02 64 00                                  	mov    eax,ds:0x640214
+  5a038c:	c1 e6 02                                        	shl    esi,0x2
+  5a038f:	8b 0c 06                                        	mov    ecx,DWORD PTR [esi+eax*1]
+  5a0392:	51                                              	push   ecx
+  5a0393:	68 b8 ed 40 00                                  	push   0x40edb8
+  5a0398:	ff d7                                           	call   edi
+  5a039a:	8b 15 14 02 64 00                               	mov    edx,DWORD PTR ds:0x640214
+  5a03a0:	8b d8                                           	mov    ebx,eax
+  5a03a2:	f7 db                                           	neg    ebx
+  5a03a4:	8b 04 16                                        	mov    eax,DWORD PTR [esi+edx*1]
+  5a03a7:	1b db                                           	sbb    ebx,ebx
+  5a03a9:	50                                              	push   eax
+  5a03aa:	68 e0 ba 40 00                                  	push   0x40bae0
+  5a03af:	f7 db                                           	neg    ebx
+  5a03b1:	ff d7                                           	call   edi
+  5a03b3:	f7 d8                                           	neg    eax
+  5a03b5:	1b c0                                           	sbb    eax,eax
+  5a03b7:	f7 d8                                           	neg    eax
+  5a03b9:	85 d8                                           	test   eax,ebx
+  5a03bb:	74 25                                           	je     0x5a03e2
+  5a03bd:	8b 0d 14 02 64 00                               	mov    ecx,DWORD PTR ds:0x640214
+  5a03c3:	8b 45 0c                                        	mov    eax,DWORD PTR [ebp+0xc]
+  5a03c6:	8b 14 0e                                        	mov    edx,DWORD PTR [esi+ecx*1]
+  5a03c9:	8b 08                                           	mov    ecx,DWORD PTR [eax]
+  5a03cb:	52                                              	push   edx
+  5a03cc:	51                                              	push   ecx
+  5a03cd:	ff d7                                           	call   edi
+  5a03cf:	85 c0                                           	test   eax,eax
+  5a03d1:	74 18                                           	je     0x5a03eb
+  5a03d3:	8b 45 ec                                        	mov    eax,DWORD PTR [ebp-0x14]
+  5a03d6:	b9 01 00 00 00                                  	mov    ecx,0x1
+  5a03db:	03 c1                                           	add    eax,ecx
+  5a03dd:	89 45 ec                                        	mov    DWORD PTR [ebp-0x14],eax
+  5a03e0:	eb 8d                                           	jmp    0x5a036f
+  5a03e2:	c7 45 d4 00 00 00 00                            	mov    DWORD PTR [ebp-0x2c],0x0
+  5a03e9:	eb 08                                           	jmp    0x5a03f3
+  5a03eb:	66 8b 55 ec                                     	mov    dx,WORD PTR [ebp-0x14]
+  5a03ef:	66 89 55 d4                                     	mov    WORD PTR [ebp-0x2c],dx
+  5a03f3:	8d 55 cc                                        	lea    edx,[ebp-0x34]
+  5a03f6:	8d 4d dc                                        	lea    ecx,[ebp-0x24]
+  5a03f9:	c7 45 cc 02 00 00 00                            	mov    DWORD PTR [ebp-0x34],0x2
+  5a0400:	ff 15 30 10 40 00                               	call   DWORD PTR ds:0x401030
+  5a0406:	68 18 04 5a 00                                  	push   0x5a0418
+  5a040b:	eb 0a                                           	jmp    0x5a0417
+  5a040d:	8d 4d dc                                        	lea    ecx,[ebp-0x24]
+  5a0410:	ff 15 40 10 40 00                               	call   DWORD PTR ds:0x401040
+  5a0416:	c3                                              	ret
+  5a0417:	c3                                              	ret
+  5a0418:	8b 45 08                                        	mov    eax,DWORD PTR [ebp+0x8]
+  5a041b:	8b 55 dc                                        	mov    edx,DWORD PTR [ebp-0x24]
+  5a041e:	8b c8                                           	mov    ecx,eax
+  5a0420:	5f                                              	pop    edi
+  5a0421:	5e                                              	pop    esi
+  5a0422:	5b                                              	pop    ebx
+  5a0423:	89 11                                           	mov    DWORD PTR [ecx],edx
+  5a0425:	8b 55 e0                                        	mov    edx,DWORD PTR [ebp-0x20]
+  5a0428:	89 51 04                                        	mov    DWORD PTR [ecx+0x4],edx
+  5a042b:	8b 55 e4                                        	mov    edx,DWORD PTR [ebp-0x1c]
+  5a042e:	89 51 08                                        	mov    DWORD PTR [ecx+0x8],edx
+  5a0431:	8b 55 e8                                        	mov    edx,DWORD PTR [ebp-0x18]
+  5a0434:	89 51 0c                                        	mov    DWORD PTR [ecx+0xc],edx
+  5a0437:	8b 4d f0                                        	mov    ecx,DWORD PTR [ebp-0x10]
+  5a043a:	64 89 0d 00 00 00 00                            	mov    DWORD PTR fs:0x0,ecx
+  5a0441:	8b e5                                           	mov    esp,ebp
+  5a0443:	5d                                              	pop    ebp
+  5a0444:	c2 08 00                                        	ret    0x8

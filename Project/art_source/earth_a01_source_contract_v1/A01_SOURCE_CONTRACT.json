@@ -1,0 +1,143 @@
+{
+  "schema": "a01-source-contract-v1",
+  "status": "STATIC_SOURCE_VERIFIED",
+  "source_repository_commit": "3ad604b3341415b50f52a768231fe23fc9726e52",
+  "map": {
+    "id": "A01",
+    "name": "海曦村北",
+    "width": 150,
+    "height": 150,
+    "home": [
+      0,
+      0
+    ],
+    "cell_order": "x-major",
+    "cell_count": 22500,
+    "kind6_source_records": 48,
+    "portal_records": 16,
+    "npc_records": 0,
+    "grid_offset": 30,
+    "tail_offset": 180395,
+    "uninterpreted_tail_bytes": 68,
+    "uninterpreted_tail_sha256": "35019cff92183b718edc01e9afb875e25c0aa6e6cb8ccd0ee4a6fb1708e092a9",
+    "load_script": {
+      "field_offset": 180765,
+      "source_end": 180823,
+      "text": "//这里的脚本将在角色刚进入本地图时被调用\r\n#end\r\n#NotUI",
+      "sha256_utf8": "873d1e5fd87c8daa54e10023a7b943f3d94af2fbd7b257188a95ac3b708348c3"
+    }
+  },
+  "identity_contract": {
+    "serialized_id_is_authoritative": false,
+    "runtime_resolution": "sequential exact name match; native indices 1..600; first match; terminate at empty or literal zero database name; failed result 0; no numeric fallback",
+    "native_definition_id": "extracted_definition_id + 1",
+    "definition_stride_bytes": 124,
+    "entity_definition_id_offset": "0x8c",
+    "entity_appearance_offset": "0x8",
+    "current_first_sentinel_native_id": 579
+  },
+  "groups": [
+    {
+      "serialized_monster_id": 4,
+      "name": "鹿",
+      "extracted_definition_id": 6,
+      "native_definition_id": 7,
+      "appearance": 5,
+      "count": 29
+    },
+    {
+      "serialized_monster_id": 5,
+      "name": "鹿-精英",
+      "extracted_definition_id": 7,
+      "native_definition_id": 8,
+      "appearance": 5,
+      "count": 5
+    },
+    {
+      "serialized_monster_id": 6,
+      "name": "鹿-剧毒",
+      "extracted_definition_id": 8,
+      "native_definition_id": 9,
+      "appearance": 5,
+      "count": 1
+    },
+    {
+      "serialized_monster_id": 7,
+      "name": "鹿-幻影",
+      "extracted_definition_id": 9,
+      "native_definition_id": 10,
+      "appearance": 5,
+      "count": 1
+    },
+    {
+      "serialized_monster_id": 9,
+      "name": "甲壳虫",
+      "extracted_definition_id": 10,
+      "native_definition_id": 11,
+      "appearance": 7,
+      "count": 9
+    },
+    {
+      "serialized_monster_id": 215,
+      "name": "假人",
+      "extracted_definition_id": 3,
+      "native_definition_id": 4,
+      "appearance": 888,
+      "count": 3
+    }
+  ],
+  "ordinary_source_records": 45,
+  "special_888_source_records": 3,
+  "special_cells": [
+    [
+      49,
+      72
+    ],
+    [
+      93,
+      50
+    ],
+    [
+      108,
+      86
+    ]
+  ],
+  "sprite_pack_table_checks": {
+    "5": {
+      "record_count": 217,
+      "xor_key": 117,
+      "all_image_ranges_and_signatures_valid": true,
+      "pixel_decode_performed": false
+    },
+    "7": {
+      "record_count": 217,
+      "xor_key": 214,
+      "all_image_ranges_and_signatures_valid": true,
+      "pixel_decode_performed": false
+    },
+    "888": {
+      "record_count": 217,
+      "xor_key": 202,
+      "all_image_ranges_and_signatures_valid": true,
+      "pixel_decode_performed": false
+    }
+  },
+  "runtime_spawn_count": null,
+  "runtime_integrated": false,
+  "godot_or_original_exe_executed": false,
+  "hard_boundaries": [
+    "48 source records is not a claim of 48 final ordinary live actors.",
+    "Three appearance-888 inputs must remain separately classified until their RNG/transformation/lifecycle contract is implemented.",
+    "Mon/888.lpRes exists; special does not mean missing asset.",
+    "Keep source serializedMonsterId and source offsets unchanged; store resolved IDs separately.",
+    "Use zero as failure; never look up a definition by old map ID after name resolution fails.",
+    "Raw fields are preserved; names in an existing extractor are not independent proof of combat semantics."
+  ],
+  "unresolved": [
+    "Full appearance-888 special initialization and its RNG consumption, exact probability, transformations and final occupancy are not implemented or asserted here.",
+    "Monster action clips, timing, AI, movement, attack, drops, death and respawn require separate contracts.",
+    "The 68-byte A01 tail and 9020-byte monster-definition tail remain uninterpreted.",
+    "No Windows/VB6 execution or Godot runtime validation was performed.",
+    "The reconstructed Python resolver is a static model; no claim of a general VB6 string-runtime emulator."
+  ]
+}

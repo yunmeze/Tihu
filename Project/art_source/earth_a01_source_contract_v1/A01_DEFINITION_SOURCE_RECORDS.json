@@ -1,0 +1,1828 @@
+{
+  "records": [
+    {
+      "id": 3,
+      "name": "假人",
+      "sound": "0",
+      "appearance": 888,
+      "rawFields": [
+        888,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        1,
+        1,
+        3
+      ],
+      "speed": 1.399999976158142,
+      "rawExtra": [
+        50,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "drops": "金币5/1 金币5/2 金币10/5 金币20/10 金创药中1/10 魔法药中1/10",
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "experience": 0,
+      "event": "0",
+      "sourceOffset": 330,
+      "sourceLength": 140,
+      "raw_record_hex": "bf00000007627370ba0000008bc303bb00bb00bb008900bb00bb00bb00ba00ba00b8003333b33f8900ba00ba00ba00ba00bb00bb00bb00bb00bb00bb0087000000064b0a698e948a9b064b0a698e94899b064b0a698a8b948e9b064b0a69898b948a8b9b064b0f0f69126d6b8a948a8b9b7f1c0c1369126d6b8a948a8b4400440044004400bb00ba0000008b",
+      "fields": [
+        {
+          "name": "name",
+          "source_offset": 330,
+          "source_end": 338,
+          "encoding": "string",
+          "value": "假人",
+          "encoded_hex": "bf00000007627370"
+        },
+        {
+          "name": "sound",
+          "source_offset": 338,
+          "source_end": 343,
+          "encoding": "string",
+          "value": "0",
+          "encoded_hex": "ba0000008b"
+        },
+        {
+          "name": "rawFields[0]",
+          "source_offset": 343,
+          "source_end": 345,
+          "encoding": "signed16",
+          "value": 888,
+          "encoded_hex": "c303"
+        },
+        {
+          "name": "rawFields[1]",
+          "source_offset": 345,
+          "source_end": 347,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[2]",
+          "source_offset": 347,
+          "source_end": 349,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[3]",
+          "source_offset": 349,
+          "source_end": 351,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[4]",
+          "source_offset": 351,
+          "source_end": 353,
+          "encoding": "signed16",
+          "value": 50,
+          "encoded_hex": "8900"
+        },
+        {
+          "name": "rawFields[5]",
+          "source_offset": 353,
+          "source_end": 355,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[6]",
+          "source_offset": 355,
+          "source_end": 357,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[7]",
+          "source_offset": 357,
+          "source_end": 359,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[8]",
+          "source_offset": 359,
+          "source_end": 361,
+          "encoding": "signed16",
+          "value": 1,
+          "encoded_hex": "ba00"
+        },
+        {
+          "name": "rawFields[9]",
+          "source_offset": 361,
+          "source_end": 363,
+          "encoding": "signed16",
+          "value": 1,
+          "encoded_hex": "ba00"
+        },
+        {
+          "name": "rawFields[10]",
+          "source_offset": 363,
+          "source_end": 365,
+          "encoding": "signed16",
+          "value": 3,
+          "encoded_hex": "b800"
+        },
+        {
+          "name": "speed",
+          "source_offset": 365,
+          "source_end": 369,
+          "encoding": "float32_le_unkeyed",
+          "value": 1.399999976158142,
+          "encoded_hex": "3333b33f"
+        },
+        {
+          "name": "rawExtra[0]",
+          "source_offset": 369,
+          "source_end": 371,
+          "encoding": "signed16",
+          "value": 50,
+          "encoded_hex": "8900"
+        },
+        {
+          "name": "rawExtra[1]",
+          "source_offset": 371,
+          "source_end": 373,
+          "encoding": "signed16",
+          "value": 1,
+          "encoded_hex": "ba00"
+        },
+        {
+          "name": "rawExtra[2]",
+          "source_offset": 373,
+          "source_end": 375,
+          "encoding": "signed16",
+          "value": 1,
+          "encoded_hex": "ba00"
+        },
+        {
+          "name": "rawExtra[3]",
+          "source_offset": 375,
+          "source_end": 377,
+          "encoding": "signed16",
+          "value": 1,
+          "encoded_hex": "ba00"
+        },
+        {
+          "name": "rawExtra[4]",
+          "source_offset": 377,
+          "source_end": 379,
+          "encoding": "signed16",
+          "value": 1,
+          "encoded_hex": "ba00"
+        },
+        {
+          "name": "rawExtra[5]",
+          "source_offset": 379,
+          "source_end": 381,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[6]",
+          "source_offset": 381,
+          "source_end": 383,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[7]",
+          "source_offset": 383,
+          "source_end": 385,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[8]",
+          "source_offset": 385,
+          "source_end": 387,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[9]",
+          "source_offset": 387,
+          "source_end": 389,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[10]",
+          "source_offset": 389,
+          "source_end": 391,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "drops",
+          "source_offset": 391,
+          "source_end": 455,
+          "encoding": "string",
+          "value": "金币5/1 金币5/2 金币10/5 金币20/10 金创药中1/10 魔法药中1/10",
+          "encoded_hex": "87000000064b0a698e948a9b064b0a698e94899b064b0a698a8b948e9b064b0a69898b948a8b9b064b0f0f69126d6b8a948a8b9b7f1c0c1369126d6b8a948a8b"
+        },
+        {
+          "name": "color[0]",
+          "source_offset": 455,
+          "source_end": 457,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "color[1]",
+          "source_offset": 457,
+          "source_end": 459,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "color[2]",
+          "source_offset": 459,
+          "source_end": 461,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "color[3]",
+          "source_offset": 461,
+          "source_end": 463,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "experience",
+          "source_offset": 463,
+          "source_end": 465,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "event",
+          "source_offset": 465,
+          "source_end": 470,
+          "encoding": "string",
+          "value": "0",
+          "encoded_hex": "ba0000008b"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "鹿",
+      "sound": "鹿",
+      "appearance": 5,
+      "rawFields": [
+        5,
+        0,
+        0,
+        12,
+        3000,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speed": 1.0,
+      "rawExtra": [
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "drops": "金币2/1 金币4/3 金币5/6 鹿肉1/10 鹿茸1/30 回城卷1/20 小木盾1/15 草鞋1/15 布衣1/15 金创药小1/15 魔法药小1/15",
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "experience": 4,
+      "event": "0",
+      "sourceOffset": 763,
+      "sourceLength": 186,
+      "raw_record_hex": "b90000007902b90000007902be00bb00bb00b700030bb800bb00bb00bb00bb00bb000000803f8700bb00bb00bb00bb00bb00bb00bb00bb00bb00bb00d0000000064b0a6989948a9b064b0a698f94889b064b0a698e948d9b790273598a948a8b9b7902736c8a94888b9b0063087c05568a94898b9b6b1a7f050d678a948a8e9b09666b178a948a8e9b090769798a948a8e9b064b0f0f69126b1a8a948a8e9b7f1c0c1369126b1a8a948a8e4400440044004400bf00ba0000008b",
+      "fields": [
+        {
+          "name": "name",
+          "source_offset": 763,
+          "source_end": 769,
+          "encoding": "string",
+          "value": "鹿",
+          "encoded_hex": "b90000007902"
+        },
+        {
+          "name": "sound",
+          "source_offset": 769,
+          "source_end": 775,
+          "encoding": "string",
+          "value": "鹿",
+          "encoded_hex": "b90000007902"
+        },
+        {
+          "name": "rawFields[0]",
+          "source_offset": 775,
+          "source_end": 777,
+          "encoding": "signed16",
+          "value": 5,
+          "encoded_hex": "be00"
+        },
+        {
+          "name": "rawFields[1]",
+          "source_offset": 777,
+          "source_end": 779,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[2]",
+          "source_offset": 779,
+          "source_end": 781,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[3]",
+          "source_offset": 781,
+          "source_end": 783,
+          "encoding": "signed16",
+          "value": 12,
+          "encoded_hex": "b700"
+        },
+        {
+          "name": "rawFields[4]",
+          "source_offset": 783,
+          "source_end": 785,
+          "encoding": "signed16",
+          "value": 3000,
+          "encoded_hex": "030b"
+        },
+        {
+          "name": "rawFields[5]",
+          "source_offset": 785,
+          "source_end": 787,
+          "encoding": "signed16",
+          "value": 3,
+          "encoded_hex": "b800"
+        },
+        {
+          "name": "rawFields[6]",
+          "source_offset": 787,
+          "source_end": 789,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[7]",
+          "source_offset": 789,
+          "source_end": 791,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[8]",
+          "source_offset": 791,
+          "source_end": 793,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[9]",
+          "source_offset": 793,
+          "source_end": 795,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[10]",
+          "source_offset": 795,
+          "source_end": 797,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "speed",
+          "source_offset": 797,
+          "source_end": 801,
+          "encoding": "float32_le_unkeyed",
+          "value": 1.0,
+          "encoded_hex": "0000803f"
+        },
+        {
+          "name": "rawExtra[0]",
+          "source_offset": 801,
+          "source_end": 803,
+          "encoding": "signed16",
+          "value": 60,
+          "encoded_hex": "8700"
+        },
+        {
+          "name": "rawExtra[1]",
+          "source_offset": 803,
+          "source_end": 805,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[2]",
+          "source_offset": 805,
+          "source_end": 807,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[3]",
+          "source_offset": 807,
+          "source_end": 809,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[4]",
+          "source_offset": 809,
+          "source_end": 811,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[5]",
+          "source_offset": 811,
+          "source_end": 813,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[6]",
+          "source_offset": 813,
+          "source_end": 815,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[7]",
+          "source_offset": 815,
+          "source_end": 817,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[8]",
+          "source_offset": 817,
+          "source_end": 819,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[9]",
+          "source_offset": 819,
+          "source_end": 821,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[10]",
+          "source_offset": 821,
+          "source_end": 823,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "drops",
+          "source_offset": 823,
+          "source_end": 934,
+          "encoding": "string",
+          "value": "金币2/1 金币4/3 金币5/6 鹿肉1/10 鹿茸1/30 回城卷1/20 小木盾1/15 草鞋1/15 布衣1/15 金创药小1/15 魔法药小1/15",
+          "encoded_hex": "d0000000064b0a6989948a9b064b0a698f94889b064b0a698e948d9b790273598a948a8b9b7902736c8a94888b9b0063087c05568a94898b9b6b1a7f050d678a948a8e9b09666b178a948a8e9b090769798a948a8e9b064b0f0f69126b1a8a948a8e9b7f1c0c1369126b1a8a948a8e"
+        },
+        {
+          "name": "color[0]",
+          "source_offset": 934,
+          "source_end": 936,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "color[1]",
+          "source_offset": 936,
+          "source_end": 938,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "color[2]",
+          "source_offset": 938,
+          "source_end": 940,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "color[3]",
+          "source_offset": 940,
+          "source_end": 942,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "experience",
+          "source_offset": 942,
+          "source_end": 944,
+          "encoding": "signed16",
+          "value": 4,
+          "encoded_hex": "bf00"
+        },
+        {
+          "name": "event",
+          "source_offset": 944,
+          "source_end": 949,
+          "encoding": "string",
+          "value": "0",
+          "encoded_hex": "ba0000008b"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "鹿-精英",
+      "sound": "鹿",
+      "appearance": 5,
+      "rawFields": [
+        5,
+        0,
+        0,
+        30,
+        1000,
+        6,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "speed": 1.0,
+      "rawExtra": [
+        50,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "drops": "金币2/1 金币4/3 金币5/6 金币3/5 金币5/8 鹿肉1/10 鹿茸1/30 回城卷1/20 小木盾1/15 草鞋1/15 布衣1/15 小项链1/15 金创药小1/15 魔法药小1/15",
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "experience": 9,
+      "event": "0",
+      "sourceOffset": 949,
+      "sourceLength": 218,
+      "raw_record_hex": "bc00000079029605106819b90000007902be00bb00bb00a5005303bd00bb00bb00bb00bb00ba000000803f8900bb00bb00bb00bb00bb00bb00bb00bb00bb00bb003d000000064b0a6989948a9b064b0a698f94889b064b0a698e948d9b064b0a6988948e9b064b0a698e94839b790273598a948a8b9b7902736c8a94888b9b0063087c05568a94898b9b6b1a7f050d678a948a8e9b09666b178a948a8e9b090769798a948a8e9b6b1a74557a0f8a948a8e9b064b0f0f69126b1a8a948a8e9b7f1c0c1369126b1a8a948a8e4400440044004400b200ba0000008b",
+      "fields": [
+        {
+          "name": "name",
+          "source_offset": 949,
+          "source_end": 960,
+          "encoding": "string",
+          "value": "鹿-精英",
+          "encoded_hex": "bc00000079029605106819"
+        },
+        {
+          "name": "sound",
+          "source_offset": 960,
+          "source_end": 966,
+          "encoding": "string",
+          "value": "鹿",
+          "encoded_hex": "b90000007902"
+        },
+        {
+          "name": "rawFields[0]",
+          "source_offset": 966,
+          "source_end": 968,
+          "encoding": "signed16",
+          "value": 5,
+          "encoded_hex": "be00"
+        },
+        {
+          "name": "rawFields[1]",
+          "source_offset": 968,
+          "source_end": 970,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[2]",
+          "source_offset": 970,
+          "source_end": 972,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[3]",
+          "source_offset": 972,
+          "source_end": 974,
+          "encoding": "signed16",
+          "value": 30,
+          "encoded_hex": "a500"
+        },
+        {
+          "name": "rawFields[4]",
+          "source_offset": 974,
+          "source_end": 976,
+          "encoding": "signed16",
+          "value": 1000,
+          "encoded_hex": "5303"
+        },
+        {
+          "name": "rawFields[5]",
+          "source_offset": 976,
+          "source_end": 978,
+          "encoding": "signed16",
+          "value": 6,
+          "encoded_hex": "bd00"
+        },
+        {
+          "name": "rawFields[6]",
+          "source_offset": 978,
+          "source_end": 980,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[7]",
+          "source_offset": 980,
+          "source_end": 982,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[8]",
+          "source_offset": 982,
+          "source_end": 984,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[9]",
+          "source_offset": 984,
+          "source_end": 986,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[10]",
+          "source_offset": 986,
+          "source_end": 988,
+          "encoding": "signed16",
+          "value": 1,
+          "encoded_hex": "ba00"
+        },
+        {
+          "name": "speed",
+          "source_offset": 988,
+          "source_end": 992,
+          "encoding": "float32_le_unkeyed",
+          "value": 1.0,
+          "encoded_hex": "0000803f"
+        },
+        {
+          "name": "rawExtra[0]",
+          "source_offset": 992,
+          "source_end": 994,
+          "encoding": "signed16",
+          "value": 50,
+          "encoded_hex": "8900"
+        },
+        {
+          "name": "rawExtra[1]",
+          "source_offset": 994,
+          "source_end": 996,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[2]",
+          "source_offset": 996,
+          "source_end": 998,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[3]",
+          "source_offset": 998,
+          "source_end": 1000,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[4]",
+          "source_offset": 1000,
+          "source_end": 1002,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[5]",
+          "source_offset": 1002,
+          "source_end": 1004,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[6]",
+          "source_offset": 1004,
+          "source_end": 1006,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[7]",
+          "source_offset": 1006,
+          "source_end": 1008,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[8]",
+          "source_offset": 1008,
+          "source_end": 1010,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[9]",
+          "source_offset": 1010,
+          "source_end": 1012,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[10]",
+          "source_offset": 1012,
+          "source_end": 1014,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "drops",
+          "source_offset": 1014,
+          "source_end": 1152,
+          "encoding": "string",
+          "value": "金币2/1 金币4/3 金币5/6 金币3/5 金币5/8 鹿肉1/10 鹿茸1/30 回城卷1/20 小木盾1/15 草鞋1/15 布衣1/15 小项链1/15 金创药小1/15 魔法药小1/15",
+          "encoded_hex": "3d000000064b0a6989948a9b064b0a698f94889b064b0a698e948d9b064b0a6988948e9b064b0a698e94839b790273598a948a8b9b7902736c8a94888b9b0063087c05568a94898b9b6b1a7f050d678a948a8e9b09666b178a948a8e9b090769798a948a8e9b6b1a74557a0f8a948a8e9b064b0f0f69126b1a8a948a8e9b7f1c0c1369126b1a8a948a8e"
+        },
+        {
+          "name": "color[0]",
+          "source_offset": 1152,
+          "source_end": 1154,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "color[1]",
+          "source_offset": 1154,
+          "source_end": 1156,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "color[2]",
+          "source_offset": 1156,
+          "source_end": 1158,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "color[3]",
+          "source_offset": 1158,
+          "source_end": 1160,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "experience",
+          "source_offset": 1160,
+          "source_end": 1162,
+          "encoding": "signed16",
+          "value": 9,
+          "encoded_hex": "b200"
+        },
+        {
+          "name": "event",
+          "source_offset": 1162,
+          "source_end": 1167,
+          "encoding": "string",
+          "value": "0",
+          "encoded_hex": "ba0000008b"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "鹿-剧毒",
+      "sound": "鹿",
+      "appearance": 5,
+      "rawFields": [
+        5,
+        0,
+        0,
+        15,
+        500,
+        4,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "speed": 1.0,
+      "rawExtra": [
+        50,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "drops": "金币2/1 金币4/3 金币5/6 金币5/10 鹿肉1/10 鹿茸1/30 回城卷1/20 小木盾1/15 草鞋1/15 布衣1/15 小项链1/15 金创药小1/15 魔法药小1/15",
+      "color": [
+        100,
+        255,
+        100,
+        255
+      ],
+      "experience": 4,
+      "event": "0",
+      "sourceOffset": 1167,
+      "sourceLength": 211,
+      "raw_record_hex": "bc000000790296055c0d05b90000007902be00bb00bb00b4004f01bf00bb00bb00bb00bb00ba000000803f8900bb00b900bb00bb00bb00bb00bb00bb00bb00bb00c4000000064b0a6989948a9b064b0a698f94889b064b0a698e948d9b064b0a698e948a8b9b790273598a948a8b9b7902736c8a94888b9b0063087c05568a94898b9b6b1a7f050d678a948a8e9b09666b178a948a8e9b090769798a948a8e9b6b1a74557a0f8a948a8e9b064b0f0f69126b1a8a948a8e9b7f1c0c1369126b1a8a948a8edf004400df004400bf00ba0000008b",
+      "fields": [
+        {
+          "name": "name",
+          "source_offset": 1167,
+          "source_end": 1178,
+          "encoding": "string",
+          "value": "鹿-剧毒",
+          "encoded_hex": "bc000000790296055c0d05"
+        },
+        {
+          "name": "sound",
+          "source_offset": 1178,
+          "source_end": 1184,
+          "encoding": "string",
+          "value": "鹿",
+          "encoded_hex": "b90000007902"
+        },
+        {
+          "name": "rawFields[0]",
+          "source_offset": 1184,
+          "source_end": 1186,
+          "encoding": "signed16",
+          "value": 5,
+          "encoded_hex": "be00"
+        },
+        {
+          "name": "rawFields[1]",
+          "source_offset": 1186,
+          "source_end": 1188,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[2]",
+          "source_offset": 1188,
+          "source_end": 1190,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[3]",
+          "source_offset": 1190,
+          "source_end": 1192,
+          "encoding": "signed16",
+          "value": 15,
+          "encoded_hex": "b400"
+        },
+        {
+          "name": "rawFields[4]",
+          "source_offset": 1192,
+          "source_end": 1194,
+          "encoding": "signed16",
+          "value": 500,
+          "encoded_hex": "4f01"
+        },
+        {
+          "name": "rawFields[5]",
+          "source_offset": 1194,
+          "source_end": 1196,
+          "encoding": "signed16",
+          "value": 4,
+          "encoded_hex": "bf00"
+        },
+        {
+          "name": "rawFields[6]",
+          "source_offset": 1196,
+          "source_end": 1198,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[7]",
+          "source_offset": 1198,
+          "source_end": 1200,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[8]",
+          "source_offset": 1200,
+          "source_end": 1202,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[9]",
+          "source_offset": 1202,
+          "source_end": 1204,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[10]",
+          "source_offset": 1204,
+          "source_end": 1206,
+          "encoding": "signed16",
+          "value": 1,
+          "encoded_hex": "ba00"
+        },
+        {
+          "name": "speed",
+          "source_offset": 1206,
+          "source_end": 1210,
+          "encoding": "float32_le_unkeyed",
+          "value": 1.0,
+          "encoded_hex": "0000803f"
+        },
+        {
+          "name": "rawExtra[0]",
+          "source_offset": 1210,
+          "source_end": 1212,
+          "encoding": "signed16",
+          "value": 50,
+          "encoded_hex": "8900"
+        },
+        {
+          "name": "rawExtra[1]",
+          "source_offset": 1212,
+          "source_end": 1214,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[2]",
+          "source_offset": 1214,
+          "source_end": 1216,
+          "encoding": "signed16",
+          "value": 2,
+          "encoded_hex": "b900"
+        },
+        {
+          "name": "rawExtra[3]",
+          "source_offset": 1216,
+          "source_end": 1218,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[4]",
+          "source_offset": 1218,
+          "source_end": 1220,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[5]",
+          "source_offset": 1220,
+          "source_end": 1222,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[6]",
+          "source_offset": 1222,
+          "source_end": 1224,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[7]",
+          "source_offset": 1224,
+          "source_end": 1226,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[8]",
+          "source_offset": 1226,
+          "source_end": 1228,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[9]",
+          "source_offset": 1228,
+          "source_end": 1230,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[10]",
+          "source_offset": 1230,
+          "source_end": 1232,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "drops",
+          "source_offset": 1232,
+          "source_end": 1363,
+          "encoding": "string",
+          "value": "金币2/1 金币4/3 金币5/6 金币5/10 鹿肉1/10 鹿茸1/30 回城卷1/20 小木盾1/15 草鞋1/15 布衣1/15 小项链1/15 金创药小1/15 魔法药小1/15",
+          "encoded_hex": "c4000000064b0a6989948a9b064b0a698f94889b064b0a698e948d9b064b0a698e948a8b9b790273598a948a8b9b7902736c8a94888b9b0063087c05568a94898b9b6b1a7f050d678a948a8e9b09666b178a948a8e9b090769798a948a8e9b6b1a74557a0f8a948a8e9b064b0f0f69126b1a8a948a8e9b7f1c0c1369126b1a8a948a8e"
+        },
+        {
+          "name": "color[0]",
+          "source_offset": 1363,
+          "source_end": 1365,
+          "encoding": "signed16",
+          "value": 100,
+          "encoded_hex": "df00"
+        },
+        {
+          "name": "color[1]",
+          "source_offset": 1365,
+          "source_end": 1367,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "color[2]",
+          "source_offset": 1367,
+          "source_end": 1369,
+          "encoding": "signed16",
+          "value": 100,
+          "encoded_hex": "df00"
+        },
+        {
+          "name": "color[3]",
+          "source_offset": 1369,
+          "source_end": 1371,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "experience",
+          "source_offset": 1371,
+          "source_end": 1373,
+          "encoding": "signed16",
+          "value": 4,
+          "encoded_hex": "bf00"
+        },
+        {
+          "name": "event",
+          "source_offset": 1373,
+          "source_end": 1378,
+          "encoding": "string",
+          "value": "0",
+          "encoded_hex": "ba0000008b"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "鹿-幻影",
+      "sound": "鹿",
+      "appearance": 5,
+      "rawFields": [
+        5,
+        0,
+        0,
+        40,
+        300,
+        12,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "speed": 1.2000000476837158,
+      "rawExtra": [
+        50,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "drops": "金币2/1 金币4/1 金币5/2 金币3/3 金币5/5 鹿肉1/10 鹿茸1/30 回城卷1/20 小木盾1/6 草鞋1/6 布衣1/6 小项链1/6 金创药小1/15 魔法药小1/15",
+      "color": [
+        255,
+        255,
+        255,
+        100
+      ],
+      "experience": 14,
+      "event": "0",
+      "sourceOffset": 1378,
+      "sourceLength": 214,
+      "raw_record_hex": "bc0000007902960078680bb90000007902be00bb00bb0093009701b700bb00bb00bb00bb00b8009a99993f8900bb00bb00bb00bb00bb00bb00bb00bb00bb00bb0039000000064b0a6989948a9b064b0a698f948a9b064b0a698e94899b064b0a698894889b064b0a698e948e9b790273598a948a8b9b7902736c8a94888b9b0063087c05568a94898b9b6b1a7f050d678a948d9b09666b178a948d9b090769798a948d9b6b1a74557a0f8a948d9b064b0f0f69126b1a8a948a8e9b7f1c0c1369126b1a8a948a8e440044004400df00b500ba0000008b",
+      "fields": [
+        {
+          "name": "name",
+          "source_offset": 1378,
+          "source_end": 1389,
+          "encoding": "string",
+          "value": "鹿-幻影",
+          "encoded_hex": "bc0000007902960078680b"
+        },
+        {
+          "name": "sound",
+          "source_offset": 1389,
+          "source_end": 1395,
+          "encoding": "string",
+          "value": "鹿",
+          "encoded_hex": "b90000007902"
+        },
+        {
+          "name": "rawFields[0]",
+          "source_offset": 1395,
+          "source_end": 1397,
+          "encoding": "signed16",
+          "value": 5,
+          "encoded_hex": "be00"
+        },
+        {
+          "name": "rawFields[1]",
+          "source_offset": 1397,
+          "source_end": 1399,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[2]",
+          "source_offset": 1399,
+          "source_end": 1401,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[3]",
+          "source_offset": 1401,
+          "source_end": 1403,
+          "encoding": "signed16",
+          "value": 40,
+          "encoded_hex": "9300"
+        },
+        {
+          "name": "rawFields[4]",
+          "source_offset": 1403,
+          "source_end": 1405,
+          "encoding": "signed16",
+          "value": 300,
+          "encoded_hex": "9701"
+        },
+        {
+          "name": "rawFields[5]",
+          "source_offset": 1405,
+          "source_end": 1407,
+          "encoding": "signed16",
+          "value": 12,
+          "encoded_hex": "b700"
+        },
+        {
+          "name": "rawFields[6]",
+          "source_offset": 1407,
+          "source_end": 1409,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[7]",
+          "source_offset": 1409,
+          "source_end": 1411,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[8]",
+          "source_offset": 1411,
+          "source_end": 1413,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[9]",
+          "source_offset": 1413,
+          "source_end": 1415,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[10]",
+          "source_offset": 1415,
+          "source_end": 1417,
+          "encoding": "signed16",
+          "value": 3,
+          "encoded_hex": "b800"
+        },
+        {
+          "name": "speed",
+          "source_offset": 1417,
+          "source_end": 1421,
+          "encoding": "float32_le_unkeyed",
+          "value": 1.2000000476837158,
+          "encoded_hex": "9a99993f"
+        },
+        {
+          "name": "rawExtra[0]",
+          "source_offset": 1421,
+          "source_end": 1423,
+          "encoding": "signed16",
+          "value": 50,
+          "encoded_hex": "8900"
+        },
+        {
+          "name": "rawExtra[1]",
+          "source_offset": 1423,
+          "source_end": 1425,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[2]",
+          "source_offset": 1425,
+          "source_end": 1427,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[3]",
+          "source_offset": 1427,
+          "source_end": 1429,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[4]",
+          "source_offset": 1429,
+          "source_end": 1431,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[5]",
+          "source_offset": 1431,
+          "source_end": 1433,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[6]",
+          "source_offset": 1433,
+          "source_end": 1435,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[7]",
+          "source_offset": 1435,
+          "source_end": 1437,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[8]",
+          "source_offset": 1437,
+          "source_end": 1439,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[9]",
+          "source_offset": 1439,
+          "source_end": 1441,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[10]",
+          "source_offset": 1441,
+          "source_end": 1443,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "drops",
+          "source_offset": 1443,
+          "source_end": 1577,
+          "encoding": "string",
+          "value": "金币2/1 金币4/1 金币5/2 金币3/3 金币5/5 鹿肉1/10 鹿茸1/30 回城卷1/20 小木盾1/6 草鞋1/6 布衣1/6 小项链1/6 金创药小1/15 魔法药小1/15",
+          "encoded_hex": "39000000064b0a6989948a9b064b0a698f948a9b064b0a698e94899b064b0a698894889b064b0a698e948e9b790273598a948a8b9b7902736c8a94888b9b0063087c05568a94898b9b6b1a7f050d678a948d9b09666b178a948d9b090769798a948d9b6b1a74557a0f8a948d9b064b0f0f69126b1a8a948a8e9b7f1c0c1369126b1a8a948a8e"
+        },
+        {
+          "name": "color[0]",
+          "source_offset": 1577,
+          "source_end": 1579,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "color[1]",
+          "source_offset": 1579,
+          "source_end": 1581,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "color[2]",
+          "source_offset": 1581,
+          "source_end": 1583,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "color[3]",
+          "source_offset": 1583,
+          "source_end": 1585,
+          "encoding": "signed16",
+          "value": 100,
+          "encoded_hex": "df00"
+        },
+        {
+          "name": "experience",
+          "source_offset": 1585,
+          "source_end": 1587,
+          "encoding": "signed16",
+          "value": 14,
+          "encoded_hex": "b500"
+        },
+        {
+          "name": "event",
+          "source_offset": 1587,
+          "source_end": 1592,
+          "encoding": "string",
+          "value": "0",
+          "encoded_hex": "ba0000008b"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "甲壳虫",
+      "sound": "甲虫",
+      "appearance": 7,
+      "rawFields": [
+        7,
+        0,
+        0,
+        15,
+        2000,
+        6,
+        1,
+        0,
+        0,
+        0,
+        3
+      ],
+      "speed": 1.0,
+      "rawExtra": [
+        50,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "drops": "金币2/1 金币4/3 金币5/6 鹤仙草1/30 回城卷1/20 生铁戒指1/15 木剑1/15 乌木剑1/20 金创药小1/15 魔法药小1/15",
+      "color": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "experience": 5,
+      "event": "0",
+      "sourceOffset": 1592,
+      "sourceLength": 189,
+      "raw_record_hex": "bd000000076c047c085dbf000000076c085dbc00bb00bb00b4006b07bd00ba00bb00bb00bb00b8000000803f8900bb00bb00bb00bb00bb00bb00bb00bb00bb00bb00d3000000064b0a6989948a9b064b0a698f94889b064b0a698e948d9b016c747209668a94888b9b0063087c05568a94898b9b72417741065f6d038a948a8e9b7f0506188a948a8e9b75617f0506188a94898b9b064b0f0f69126b1a8a948a8e9b7f1c0c1369126b1a8a948a8e4400440044004400be00ba0000008b",
+      "fields": [
+        {
+          "name": "name",
+          "source_offset": 1592,
+          "source_end": 1602,
+          "encoding": "string",
+          "value": "甲壳虫",
+          "encoded_hex": "bd000000076c047c085d"
+        },
+        {
+          "name": "sound",
+          "source_offset": 1602,
+          "source_end": 1610,
+          "encoding": "string",
+          "value": "甲虫",
+          "encoded_hex": "bf000000076c085d"
+        },
+        {
+          "name": "rawFields[0]",
+          "source_offset": 1610,
+          "source_end": 1612,
+          "encoding": "signed16",
+          "value": 7,
+          "encoded_hex": "bc00"
+        },
+        {
+          "name": "rawFields[1]",
+          "source_offset": 1612,
+          "source_end": 1614,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[2]",
+          "source_offset": 1614,
+          "source_end": 1616,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[3]",
+          "source_offset": 1616,
+          "source_end": 1618,
+          "encoding": "signed16",
+          "value": 15,
+          "encoded_hex": "b400"
+        },
+        {
+          "name": "rawFields[4]",
+          "source_offset": 1618,
+          "source_end": 1620,
+          "encoding": "signed16",
+          "value": 2000,
+          "encoded_hex": "6b07"
+        },
+        {
+          "name": "rawFields[5]",
+          "source_offset": 1620,
+          "source_end": 1622,
+          "encoding": "signed16",
+          "value": 6,
+          "encoded_hex": "bd00"
+        },
+        {
+          "name": "rawFields[6]",
+          "source_offset": 1622,
+          "source_end": 1624,
+          "encoding": "signed16",
+          "value": 1,
+          "encoded_hex": "ba00"
+        },
+        {
+          "name": "rawFields[7]",
+          "source_offset": 1624,
+          "source_end": 1626,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[8]",
+          "source_offset": 1626,
+          "source_end": 1628,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[9]",
+          "source_offset": 1628,
+          "source_end": 1630,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawFields[10]",
+          "source_offset": 1630,
+          "source_end": 1632,
+          "encoding": "signed16",
+          "value": 3,
+          "encoded_hex": "b800"
+        },
+        {
+          "name": "speed",
+          "source_offset": 1632,
+          "source_end": 1636,
+          "encoding": "float32_le_unkeyed",
+          "value": 1.0,
+          "encoded_hex": "0000803f"
+        },
+        {
+          "name": "rawExtra[0]",
+          "source_offset": 1636,
+          "source_end": 1638,
+          "encoding": "signed16",
+          "value": 50,
+          "encoded_hex": "8900"
+        },
+        {
+          "name": "rawExtra[1]",
+          "source_offset": 1638,
+          "source_end": 1640,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[2]",
+          "source_offset": 1640,
+          "source_end": 1642,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[3]",
+          "source_offset": 1642,
+          "source_end": 1644,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[4]",
+          "source_offset": 1644,
+          "source_end": 1646,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[5]",
+          "source_offset": 1646,
+          "source_end": 1648,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[6]",
+          "source_offset": 1648,
+          "source_end": 1650,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[7]",
+          "source_offset": 1650,
+          "source_end": 1652,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[8]",
+          "source_offset": 1652,
+          "source_end": 1654,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[9]",
+          "source_offset": 1654,
+          "source_end": 1656,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "rawExtra[10]",
+          "source_offset": 1656,
+          "source_end": 1658,
+          "encoding": "signed16",
+          "value": 0,
+          "encoded_hex": "bb00"
+        },
+        {
+          "name": "drops",
+          "source_offset": 1658,
+          "source_end": 1766,
+          "encoding": "string",
+          "value": "金币2/1 金币4/3 金币5/6 鹤仙草1/30 回城卷1/20 生铁戒指1/15 木剑1/15 乌木剑1/20 金创药小1/15 魔法药小1/15",
+          "encoded_hex": "d3000000064b0a6989948a9b064b0a698f94889b064b0a698e948d9b016c747209668a94888b9b0063087c05568a94898b9b72417741065f6d038a948a8e9b7f0506188a948a8e9b75617f0506188a94898b9b064b0f0f69126b1a8a948a8e9b7f1c0c1369126b1a8a948a8e"
+        },
+        {
+          "name": "color[0]",
+          "source_offset": 1766,
+          "source_end": 1768,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "color[1]",
+          "source_offset": 1768,
+          "source_end": 1770,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "color[2]",
+          "source_offset": 1770,
+          "source_end": 1772,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "color[3]",
+          "source_offset": 1772,
+          "source_end": 1774,
+          "encoding": "signed16",
+          "value": 255,
+          "encoded_hex": "4400"
+        },
+        {
+          "name": "experience",
+          "source_offset": 1774,
+          "source_end": 1776,
+          "encoding": "signed16",
+          "value": 5,
+          "encoded_hex": "be00"
+        },
+        {
+          "name": "event",
+          "source_offset": 1776,
+          "source_end": 1781,
+          "encoding": "string",
+          "value": "0",
+          "encoded_hex": "ba0000008b"
+        }
+      ]
+    }
+  ],
+  "definition_count": 600,
+  "uninterpreted_tail": {
+    "source_offset": 130653,
+    "bytes": 9020,
+    "sha256": "43ac2aefb1ad8e80cc4e696e3c0a877248005bf72e5cca1864759917988941b6"
+  }
+}

@@ -1,0 +1,129 @@
+
+原版游戏/LP传奇单机版_重生.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+00634cb0 <.text+0x233cb0>:
+  634cb0:	55                                              	push   ebp
+  634cb1:	8b ec                                           	mov    ebp,esp
+  634cb3:	83 ec 14                                        	sub    esp,0x14
+  634cb6:	68 06 32 40 00                                  	push   0x403206
+  634cbb:	64 a1 00 00 00 00                               	mov    eax,fs:0x0
+  634cc1:	50                                              	push   eax
+  634cc2:	64 89 25 00 00 00 00                            	mov    DWORD PTR fs:0x0,esp
+  634cc9:	83 ec 48                                        	sub    esp,0x48
+  634ccc:	53                                              	push   ebx
+  634ccd:	56                                              	push   esi
+  634cce:	57                                              	push   edi
+  634ccf:	89 65 ec                                        	mov    DWORD PTR [ebp-0x14],esp
+  634cd2:	c7 45 f0 48 30 40 00                            	mov    DWORD PTR [ebp-0x10],0x403048
+  634cd9:	33 db                                           	xor    ebx,ebx
+  634cdb:	89 5d f4                                        	mov    DWORD PTR [ebp-0xc],ebx
+  634cde:	89 5d f8                                        	mov    DWORD PTR [ebp-0x8],ebx
+  634ce1:	89 5d dc                                        	mov    DWORD PTR [ebp-0x24],ebx
+  634ce4:	89 5d d8                                        	mov    DWORD PTR [ebp-0x28],ebx
+  634ce7:	89 5d d4                                        	mov    DWORD PTR [ebp-0x2c],ebx
+  634cea:	89 5d c4                                        	mov    DWORD PTR [ebp-0x3c],ebx
+  634ced:	89 5d b4                                        	mov    DWORD PTR [ebp-0x4c],ebx
+  634cf0:	6a 01                                           	push   0x1
+  634cf2:	ff 15 b8 10 40 00                               	call   DWORD PTR ds:0x4010b8
+  634cf8:	6a 01                                           	push   0x1
+  634cfa:	8d 45 dc                                        	lea    eax,[ebp-0x24]
+  634cfd:	50                                              	push   eax
+  634cfe:	6a 04                                           	push   0x4
+  634d00:	ff 15 04 11 40 00                               	call   DWORD PTR ds:0x401104
+  634d06:	33 c9                                           	xor    ecx,ecx
+  634d08:	8a 0d f4 01 64 00                               	mov    cl,BYTE PTR ds:0x6401f4
+  634d0e:	8b 45 dc                                        	mov    eax,DWORD PTR [ebp-0x24]
+  634d11:	33 c1                                           	xor    eax,ecx
+  634d13:	89 45 dc                                        	mov    DWORD PTR [ebp-0x24],eax
+  634d16:	0f 84 ae 00 00 00                               	je     0x634dca
+  634d1c:	53                                              	push   ebx
+  634d1d:	8b d0                                           	mov    edx,eax
+  634d1f:	4a                                              	dec    edx
+  634d20:	52                                              	push   edx
+  634d21:	6a 01                                           	push   0x1
+  634d23:	6a 11                                           	push   0x11
+  634d25:	8d 45 d4                                        	lea    eax,[ebp-0x2c]
+  634d28:	50                                              	push   eax
+  634d29:	6a 01                                           	push   0x1
+  634d2b:	68 80 00 00 00                                  	push   0x80
+  634d30:	ff 15 3c 11 40 00                               	call   DWORD PTR ds:0x40113c
+  634d36:	83 c4 1c                                        	add    esp,0x1c
+  634d39:	6a 01                                           	push   0x1
+  634d3b:	8d 4d d4                                        	lea    ecx,[ebp-0x2c]
+  634d3e:	51                                              	push   ecx
+  634d3f:	68 fc 88 41 00                                  	push   0x4188fc
+  634d44:	ff 15 90 11 40 00                               	call   DWORD PTR ds:0x401190
+  634d4a:	8b 55 dc                                        	mov    edx,DWORD PTR [ebp-0x24]
+  634d4d:	8d 7a ff                                        	lea    edi,[edx-0x1]
+  634d50:	be 01 00 00 00                                  	mov    esi,0x1
+  634d55:	33 c0                                           	xor    eax,eax
+  634d57:	3b c7                                           	cmp    eax,edi
+  634d59:	7f 18                                           	jg     0x634d73
+  634d5b:	8b 4d d4                                        	mov    ecx,DWORD PTR [ebp-0x2c]
+  634d5e:	8b 51 0c                                        	mov    edx,DWORD PTR [ecx+0xc]
+  634d61:	2b 51 14                                        	sub    edx,DWORD PTR [ecx+0x14]
+  634d64:	8d 0c 02                                        	lea    ecx,[edx+eax*1]
+  634d67:	8a 15 f4 01 64 00                               	mov    dl,BYTE PTR ds:0x6401f4
+  634d6d:	30 11                                           	xor    BYTE PTR [ecx],dl
+  634d6f:	03 c6                                           	add    eax,esi
+  634d71:	eb e4                                           	jmp    0x634d57
+  634d73:	8d 45 d4                                        	lea    eax,[ebp-0x2c]
+  634d76:	89 45 bc                                        	mov    DWORD PTR [ebp-0x44],eax
+  634d79:	c7 45 b4 11 60 00 00                            	mov    DWORD PTR [ebp-0x4c],0x6011
+  634d80:	53                                              	push   ebx
+  634d81:	6a 40                                           	push   0x40
+  634d83:	8d 4d b4                                        	lea    ecx,[ebp-0x4c]
+  634d86:	51                                              	push   ecx
+  634d87:	8d 55 c4                                        	lea    edx,[ebp-0x3c]
+  634d8a:	52                                              	push   edx
+  634d8b:	ff 15 88 11 40 00                               	call   DWORD PTR ds:0x401188
+  634d91:	8d 45 c4                                        	lea    eax,[ebp-0x3c]
+  634d94:	50                                              	push   eax
+  634d95:	ff 15 50 10 40 00                               	call   DWORD PTR ds:0x401050
+  634d9b:	8b d0                                           	mov    edx,eax
+  634d9d:	8d 4d d8                                        	lea    ecx,[ebp-0x28]
+  634da0:	ff 15 3c 12 40 00                               	call   DWORD PTR ds:0x40123c
+  634da6:	8d 4d c4                                        	lea    ecx,[ebp-0x3c]
+  634da9:	ff 15 40 10 40 00                               	call   DWORD PTR ds:0x401040
+  634daf:	ff 15 a8 10 40 00                               	call   DWORD PTR ds:0x4010a8
+  634db5:	68 fd 4d 63 00                                  	push   0x634dfd
+  634dba:	eb 34                                           	jmp    0x634df0
+  634dbc:	ba b8 ed 40 00                                  	mov    edx,0x40edb8
+  634dc1:	8d 4d d8                                        	lea    ecx,[ebp-0x28]
+  634dc4:	ff 15 d8 11 40 00                               	call   DWORD PTR ds:0x4011d8
+  634dca:	ff 15 a8 10 40 00                               	call   DWORD PTR ds:0x4010a8
+  634dd0:	68 fd 4d 63 00                                  	push   0x634dfd
+  634dd5:	eb 19                                           	jmp    0x634df0
+  634dd7:	f6 45 f4 04                                     	test   BYTE PTR [ebp-0xc],0x4
+  634ddb:	74 09                                           	je     0x634de6
+  634ddd:	8d 4d d8                                        	lea    ecx,[ebp-0x28]
+  634de0:	ff 15 80 12 40 00                               	call   DWORD PTR ds:0x401280
+  634de6:	8d 4d c4                                        	lea    ecx,[ebp-0x3c]
+  634de9:	ff 15 40 10 40 00                               	call   DWORD PTR ds:0x401040
+  634def:	c3                                              	ret
+  634df0:	8d 4d d4                                        	lea    ecx,[ebp-0x2c]
+  634df3:	51                                              	push   ecx
+  634df4:	6a 00                                           	push   0x0
+  634df6:	ff 15 a4 10 40 00                               	call   DWORD PTR ds:0x4010a4
+  634dfc:	c3                                              	ret
+  634dfd:	8b 45 d8                                        	mov    eax,DWORD PTR [ebp-0x28]
+  634e00:	8b 4d e4                                        	mov    ecx,DWORD PTR [ebp-0x1c]
+  634e03:	64 89 0d 00 00 00 00                            	mov    DWORD PTR fs:0x0,ecx
+  634e0a:	5f                                              	pop    edi
+  634e0b:	5e                                              	pop    esi
+  634e0c:	5b                                              	pop    ebx
+  634e0d:	8b e5                                           	mov    esp,ebp
+  634e0f:	5d                                              	pop    ebp
+  634e10:	c3                                              	ret
+  634e11:	90                                              	nop
+  634e12:	90                                              	nop
+  634e13:	90                                              	nop
+  634e14:	90                                              	nop
+  634e15:	90                                              	nop
+  634e16:	90                                              	nop
+  634e17:	90                                              	nop
+  634e18:	90                                              	nop
+  634e19:	90                                              	nop

@@ -1,0 +1,117 @@
+{
+  "schema": "a01-delivery-manifest-v1",
+  "status": "READY_FOR_ARCHIVE",
+  "proposed_destination": "Project/art_source/earth_a01_source_contract_v1",
+  "copy_policy": "Copy archive_files and this manifest only; preserve relative paths. No runtime integration. Main repository currently remains untouched.",
+  "archive_files": [
+    {
+      "path": ".gdignore",
+      "bytes": 59,
+      "sha256": "fc8b3d79b9b82355fa2180956e277b8042dc30cdbb7f7d9dff73360df7449398"
+    },
+    {
+      "path": "A01_DEFINITION_SOURCE_RECORDS.json",
+      "bytes": 49036,
+      "sha256": "2b8f4a8067abc9fda1e5384d7656e7358539fa86c8fa5ab1ae264b24a18281e5"
+    },
+    {
+      "path": "A01_SOURCE_CONTRACT.json",
+      "bytes": 4467,
+      "sha256": "d4545b9490aefaf2946176beda4d271f98916f4f367c81e3b411dcac02811c7f"
+    },
+    {
+      "path": "A01_SPAWN_BINDINGS.json",
+      "bytes": 35716,
+      "sha256": "7db9a5a2fce465c3e01789a6e98198f2c2733ac64d0cc468c9f02d5f62b3befb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10277,
+      "sha256": "79410144c2a3bed79032e7b3a5994b9f9d1454cb83a26c7c4621f8df5843b360"
+    },
+    {
+      "path": "SOURCE_PINS.json",
+      "bytes": 2696,
+      "sha256": "0e10ea7f5756e379d45841825772b7cf454285d8a0d7ee374efc1bbf33680a49"
+    },
+    {
+      "path": "evidence/EXE_EVIDENCE.json",
+      "bytes": 18749,
+      "sha256": "97275ad5152311491ab05f8e56d5f9aa8221775dbefde014cc8f24509b5dcee3"
+    },
+    {
+      "path": "evidence/definition_loader.asm.txt",
+      "bytes": 59362,
+      "sha256": "c60567a29b423e0aec83b813b928eefbd55680b7dc50ab3c6f324d5128d53266"
+    },
+    {
+      "path": "evidence/entity_definition_copy.asm.txt",
+      "bytes": 10887,
+      "sha256": "3e08e815571dc11bbef66b75918d9c3192d21c507fa3b57383497c70fc8b076f"
+    },
+    {
+      "path": "evidence/map_binding.asm.txt",
+      "bytes": 15120,
+      "sha256": "40fd37da0afee33b5f1149777d550f575abf3b5030b90fe783913c4b394bdb84"
+    },
+    {
+      "path": "evidence/name_lookup.asm.txt",
+      "bytes": 7410,
+      "sha256": "0bbb1bff6067d6518722241a4cca94e36d51c8c71310f130c5464630d7deabbb"
+    },
+    {
+      "path": "evidence/special_888_prefix.asm.txt",
+      "bytes": 12536,
+      "sha256": "249e5c1344dd6cf3fe2b844541de715a1c6ab52fdbf9b574bb52547f4510852c"
+    },
+    {
+      "path": "evidence/string_reader.asm.txt",
+      "bytes": 9641,
+      "sha256": "6389cc78877896913dd1a11e22226e530387c044fddb39e95c5c685d4a7b73ba"
+    },
+    {
+      "path": "tools/replay.py",
+      "bytes": 19000,
+      "sha256": "0df8c0cf22024b368234160982341f0ff9dfa2db2df9f18eb2c2a77808ce1187"
+    }
+  ],
+  "archive_file_count_excluding_this_manifest": 14,
+  "local_only_do_not_commit": [
+    {
+      "path": "REPLAY_DETERMINISM.json",
+      "bytes": 622,
+      "sha256": "fc2096d38f2710d076320f7e2658babccc55743f99cf51f3101abba9562b69de"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 441,
+      "sha256": "98ed8b55b6f9dad5370657e019310464c8cc26f9f805df5502c0699a697b966b"
+    },
+    {
+      "path": "WRITE_BOUNDARY_TESTS.json",
+      "bytes": 258,
+      "sha256": "9e7a0ddaf6d740a3fc3230db6540e9ad6f88a3735d71f688494075a8b360e317"
+    },
+    {
+      "path": "evidence/LOOKUP_MODEL_TESTS.json",
+      "bytes": 811,
+      "sha256": "f08d5c4757b77bfbcee75e764fbc364e95a44c4bc60876e7fb817ba5c36d3bbe"
+    },
+    {
+      "path": "tools/check_write_boundaries.py",
+      "bytes": 2141,
+      "sha256": "5e092fa4c74ae90e8e9243dd817cbb40fcc746b74e7d00bc46ba281d52aac469"
+    }
+  ],
+  "source_repository_commit_at_verification": "3ad604b3341415b50f52a768231fe23fc9726e52",
+  "verification_summary": {
+    "source_pins": 15,
+    "definitions": 600,
+    "definition_fields": 19200,
+    "spawn_bindings": 48,
+    "native_instruction_anchors": 37,
+    "disassembly_ranges": 6,
+    "independent_replay_outputs_byte_identical": true,
+    "source_repo_git_status_before_after": ""
+  }
+}

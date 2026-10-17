@@ -1,0 +1,330 @@
+{
+  "source": "原版游戏/LP传奇单机版_重生.exe",
+  "sha256": "21dc753d3aa828fb29dc171e595857be234833edc43a1d80833540ae7e355b84",
+  "pe": {
+    "machine": "i386",
+    "optional_header": "PE32",
+    "image_base": "0x400000",
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 2326856,
+        "rva": 4096,
+        "raw_size": 2330624,
+        "raw_offset": 4096
+      },
+      {
+        "name": ".data",
+        "virtual_size": 40884,
+        "rva": 2334720,
+        "raw_size": 4096,
+        "raw_offset": 2334720
+      },
+      {
+        "name": ".rsrc",
+        "virtual_size": 161704,
+        "rva": 2375680,
+        "raw_size": 163840,
+        "raw_offset": 2338816
+      }
+    ]
+  },
+  "anchors": [
+    {
+      "va": "0x59e5df",
+      "file_offset": 1697247,
+      "bytes_hex": "833cca06",
+      "interpretation": "kind == 6 gate"
+    },
+    {
+      "va": "0x59e5e9",
+      "file_offset": 1697257,
+      "bytes_hex": "e8c2660900",
+      "interpretation": "read serialized spawn name via 0x634cb0"
+    },
+    {
+      "va": "0x59e604",
+      "file_offset": 1697284,
+      "bytes_hex": "e8271d0000",
+      "interpretation": "call name lookup 0x5a0330"
+    },
+    {
+      "va": "0x59e610",
+      "file_offset": 1697296,
+      "bytes_hex": "ff1504124000",
+      "interpretation": "__vbaI4Var converts lookup result"
+    },
+    {
+      "va": "0x59e62d",
+      "file_offset": 1697325,
+      "bytes_hex": "8944d104",
+      "interpretation": "overwrite cell cached index with lookup result"
+    },
+    {
+      "va": "0x59e660",
+      "file_offset": 1697376,
+      "bytes_hex": "0f8ec8010000",
+      "interpretation": "nonpositive ID skips creation via 0x59e82e"
+    },
+    {
+      "va": "0x59e71b",
+      "file_offset": 1697563,
+      "bytes_hex": "668994c88c000000",
+      "interpretation": "store resolved ID into entity +0x8c"
+    },
+    {
+      "va": "0x59e7e0",
+      "file_offset": 1697760,
+      "bytes_hex": "e87b210000",
+      "interpretation": "call entity initialization 0x5a0960"
+    },
+    {
+      "va": "0x59e82e",
+      "file_offset": 1697838,
+      "bytes_hex": "c70000000000",
+      "interpretation": "failed lookup clears kind"
+    },
+    {
+      "va": "0x5a0359",
+      "file_offset": 1704793,
+      "bytes_hex": "8b3d0c114000",
+      "interpretation": "edi = __vbaStrCmp IAT"
+    },
+    {
+      "va": "0x5a0367",
+      "file_offset": 1704807,
+      "bytes_hex": "b801000000",
+      "interpretation": "lookup starts at native ID 1"
+    },
+    {
+      "va": "0x5a036f",
+      "file_offset": 1704815,
+      "bytes_hex": "b958020000",
+      "interpretation": "lookup upper bound 600"
+    },
+    {
+      "va": "0x5a0382",
+      "file_offset": 1704834,
+      "bytes_hex": "c1e6052bf0",
+      "interpretation": "native ID multiplied by 31"
+    },
+    {
+      "va": "0x5a038c",
+      "file_offset": 1704844,
+      "bytes_hex": "c1e602",
+      "interpretation": "multiply by 4: record stride 124"
+    },
+    {
+      "va": "0x5a0393",
+      "file_offset": 1704851,
+      "bytes_hex": "68b8ed4000",
+      "interpretation": "compare candidate database name to BSTR zero"
+    },
+    {
+      "va": "0x5a03aa",
+      "file_offset": 1704874,
+      "bytes_hex": "68e0ba4000",
+      "interpretation": "compare candidate database name to empty BSTR"
+    },
+    {
+      "va": "0x5a03bb",
+      "file_offset": 1704891,
+      "bytes_hex": "7425",
+      "interpretation": "sentinel terminates search, does not skip record"
+    },
+    {
+      "va": "0x5a03cd",
+      "file_offset": 1704909,
+      "bytes_hex": "ffd7",
+      "interpretation": "compare query to candidate via __vbaStrCmp"
+    },
+    {
+      "va": "0x5a03d1",
+      "file_offset": 1704913,
+      "bytes_hex": "7418",
+      "interpretation": "first exact match jumps to return ID"
+    },
+    {
+      "va": "0x5a03e2",
+      "file_offset": 1704930,
+      "bytes_hex": "c745d400000000",
+      "interpretation": "sentinel result integer zero"
+    },
+    {
+      "va": "0x5a03eb",
+      "file_offset": 1704939,
+      "bytes_hex": "668b55ec668955d4",
+      "interpretation": "return matched loop index"
+    },
+    {
+      "va": "0x5a9032",
+      "file_offset": 1740850,
+      "bytes_hex": "be01000000",
+      "interpretation": "definition loader starts record index at 1"
+    },
+    {
+      "va": "0x5a9037",
+      "file_offset": 1740855,
+      "bytes_hex": "b858020000",
+      "interpretation": "definition loader ends at 600"
+    },
+    {
+      "va": "0x5a904a",
+      "file_offset": 1740874,
+      "bytes_hex": "b820000000",
+      "interpretation": "32 serialized fields per definition"
+    },
+    {
+      "va": "0x5a906f",
+      "file_offset": 1740911,
+      "bytes_hex": "e83cbc0800",
+      "interpretation": "first field reads name string"
+    },
+    {
+      "va": "0x5a9082",
+      "file_offset": 1740930,
+      "bytes_hex": "c1e1052bc8",
+      "interpretation": "loader uses native record index times 31"
+    },
+    {
+      "va": "0x5a9087",
+      "file_offset": 1740935,
+      "bytes_hex": "a114026400",
+      "interpretation": "loader and lookup share table 0x640214"
+    },
+    {
+      "va": "0x5a908c",
+      "file_offset": 1740940,
+      "bytes_hex": "8d0c88",
+      "interpretation": "name destination table + 124 * native ID"
+    },
+    {
+      "va": "0x5a9114",
+      "file_offset": 1741076,
+      "bytes_hex": "89548808",
+      "interpretation": "appearance raw field goes to definition +8"
+    },
+    {
+      "va": "0x5a9818",
+      "file_offset": 1742872,
+      "bytes_hex": "b80100000003f0",
+      "interpretation": "next record index +1, no sparse ID read"
+    },
+    {
+      "va": "0x5a099d",
+      "file_offset": 1706397,
+      "bytes_hex": "0fbf868c000000",
+      "interpretation": "read entity resolved native ID +0x8c"
+    },
+    {
+      "va": "0x5a0a91",
+      "file_offset": 1706641,
+      "bytes_hex": "8b540808895608",
+      "interpretation": "definition +8 copied to entity appearance +8"
+    },
+    {
+      "va": "0x5a0eb5",
+      "file_offset": 1707701,
+      "bytes_hex": "3d78030000",
+      "interpretation": "888 special appearance gate"
+    },
+    {
+      "va": "0x5a0ec7",
+      "file_offset": 1707719,
+      "bytes_hex": "3d78030000",
+      "interpretation": "888-specific branch"
+    },
+    {
+      "va": "0x5a0ef2",
+      "file_offset": 1707762,
+      "bytes_hex": "ff15ac104000",
+      "interpretation": "888 path calls MSVBVM60 ordinal 593 (RNG identification is prior context)"
+    },
+    {
+      "va": "0x5a0f38",
+      "file_offset": 1707832,
+      "bytes_hex": "66ff0d74ed6300",
+      "interpretation": "special path can decrement entity count"
+    },
+    {
+      "va": "0x5a0f5f",
+      "file_offset": 1707871,
+      "bytes_hex": "c704c800000000",
+      "interpretation": "special path can clear occupied cell"
+    }
+  ],
+  "ranges": [
+    {
+      "name": "map_binding",
+      "start_va": "0x59e5cc",
+      "end_va_exclusive": "0x59e855",
+      "file_offset": 1697228,
+      "size": 649,
+      "sha256": "852536a890ef1e5f9287416db256808670ace5718fabf11f90ed728ead655a84",
+      "raw_hex": "8b50142bca8b501c0faf48182bca8b500c03cf833cca060f856c020000e8c26609008bd08d4dc8ff153c1240008d45c88d8d6cffffff5051e8271d00008d956cffffff52ff15041240008b0d50ed63008bd62b51140faf51182b511c8b490c03d78944d1048d8d6cffffffff1540104000a150ed63008bd68b48142bd18b481c0faf50188b400c2bd103d78b4cd0048d04d085c90f8ec8010000a16ced630066ff0574ed63008bce8b50148b581c2bca8b500c0faf48182bcb03cfc704ca02000000a16ced63008bd68b58142bd38b581c0faf50180fbf0d74ed63008b400c2bd303d7894cd004668b1574ed63008b1d78ed63000fbfca2b4b148bc1c1e0052bc18d0c408b430c668994c88a000000a150ed63008bd68b48148b581c2bd10faf50180fbf0d74ed63002bd38b580ca178ed630003d72b4814668b54d3048bc1c1e0052bc18d0c40a178ed63008b400c668994c88c000000a150ed63008bce8b58148b501c2bcb0faf48182bca8b500c03cfc704ca00000000a150ed63008bce8b50148b581c2bca8b500c0faf48182bcb03cfc744ca04000000008b1578ed63000fbf0d74ed63002b4a148bc1c1e0052bc18d04408b4a0c668b559c668954c10c8b1578ed63000fbf0d74ed63002b4a148bc1c1e0052bc18b4a0c668b55b48d0440668954c10ea178ed63008d4d985051ff15101240008b55980fbf0d74ed63002b4a148bc1c1e0052bc18b4a0c8d04408d14c152e87b2100008d459850ff15701240008b1d04114000eb5e66891d2cf66300b901000000b800040000663bc80f8ffcf6ffff0fbfc18d14808d04508b15d8f5630066895c8224b80100000003c8ebd5c70000000000a16ced63008bce8b50142bca8b501c0faf48182bca8b500c03cfc704ca00000000"
+    },
+    {
+      "name": "name_lookup",
+      "start_va": "0x5a0330",
+      "end_va_exclusive": "0x5a0447",
+      "file_offset": 1704752,
+      "size": 279,
+      "sha256": "82eb7fe5815a5ff6bd53601f9e93a53b550a828e7695feb273bf59405f7059d7",
+      "raw_hex": "558bec83ec08680632400064a100000000506489250000000083ec305356578965f8c745fc682040008b3d0c11400033c08945dc8945ccb8010000008945ecb958020000663bc10f8f890000000fbfc08bf0c1e6052bf0a114026400c1e6028b0c065168b8ed4000ffd78b15140264008bd8f7db8b04161bdb5068e0ba4000f7dbffd7f7d81bc0f7d885d874258b0d140264008b450c8b140e8b085251ffd785c074188b45ecb90100000003c18945eceb8dc745d400000000eb08668b55ec668955d48d55cc8d4ddcc745cc02000000ff15301040006818045a00eb0a8d4ddcff1540104000c3c38b45088b55dc8bc85f5e5b89118b55e08951048b55e48951088b55e889510c8b4df064890d000000008be55dc20800"
+    },
+    {
+      "name": "definition_loader",
+      "start_va": "0x5a8ee0",
+      "end_va_exclusive": "0x5a988b",
+      "file_offset": 1740512,
+      "size": 2475,
+      "sha256": "d15c7e5b6dd6f050a827efcee0400a8196a841b40dd8a66915242da70734d2e4",
+      "raw_hex": "558bec83ec08680632400064a100000000506489250000000081ecb40000005356578965f8c745fce021400033f666833dc4ec6300ff8975e48975e08975dc8975d88975d48975c48975b48975a48975948975840f85d4000000a10cef6300506a016aff6a20ff15b4114000e8efb40800e85abd08008b1d3c1240008bd08d4de4ffd3e848bd08008bd08d4dd8ffd38d4dd8ff15801240000fbf15bcee63008b4de4a1d0ee6300518b8c900404000051ff150c11400085c00f848e000000b904000280b80a000000894d9c894dac894dbc8d55848d4dc48945948945a48945b4c7458c44174100c7458408000000ff151c1240008d55948d45a4528d4db450518d55c45652ff15c01040008d45948d4da4508d55b4518d45c452506a04ff156010400083c414ff155c104000eb1e8b0d24c76300516a016aff6a20ff15b4114000e81ab408008b1d3c1240008b3d04114000be01000000b858020000663bf00f8fdf070000b901000000b820000000894dec663bc80f8fbd0700000fbfc14883f81f0f87a1070000ff24858c985a00e83cbc08008bd08d4dd8ffd38bd00fbfc68bc8c1e1052bc8a1140264008d0c88ff15d81140008d4dd8ff15801240008b4decb80100000003c8eba0e801bc08008bd08d4dd8ffd38bd00fbfc68bc8c1e1052bc8a1140264008d4c8804ff15d81140008d4dd8ff15801240008b4decb80100000003c8e961ffffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a114026400895488088b4decb80100000003c8e923ffffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a1140264008954880c8b4decb80100000003c8e9e5feffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a114026400895488108b4decb80100000003c8e9a7feffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a114026400895488148b4decb80100000003c8e969feffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a114026400895488188b4decb80100000003c8e92bfeffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a1140264008954881c8b4decb80100000003c8e9edfdffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a114026400895488208b4decb80100000003c8e9affdffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a114026400895488248b4decb80100000003c8e971fdffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a114026400895488288b4decb80100000003c8e933fdffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a1140264008954882c8b4decb80100000003c8e9f5fcffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a114026400895488308b4decb80100000003c8e9b7fcffff8d4de06a01516a04ffd70fbfc68b0d140264008bd0c1e2052bd08b45e0894491348b4decb80100000003c8e987fcffff8d55dc6a01526a02ffd78b0df40164000fbf55dc0fbfc681e1ff00000033ca8bd0c1e2052bd0a114026400894c90388b4decb80100000003c8e949fcffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a1140264008954883c8b4decb80100000003c8e90bfcffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a114026400895488408b4decb80100000003c8e9cdfbffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a114026400895488448b4decb80100000003c8e98ffbffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a114026400895488488b4decb80100000003c8e951fbffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a1140264008954884c8b4decb80100000003c8e913fbffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a114026400895488508b4decb80100000003c8e9d5faffff8d4ddc6a01516a02ffd7660fb615f40164003355dc0fbfc68bc8c1e1052bc8a114026400668954886c8b4decb80100000003c8e99dfaffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a114026400895488588b4decb80100000003c8e95ffaffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a1140264008954885c8b4decb80100000003c8e921faffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a114026400895488608b4decb80100000003c8e9e3f9ffffe844b608008bd08d4dd8ffd38bd00fbfc68bc8c1e1052bc8a1140264008d4c8878ff15d81140008d4dd8ff15801240008b4decb80100000003c8e9a4f9ffff8d4ddc6a01516a02ffd78a55dca0f401640032d00fbfc68bc8c1e1052bc8a114026400885488688b4decb80100000003c8e96ef9ffff8d4ddc6a01516a02ffd78a55dca0f401640032d00fbfc68bc8c1e1052bc8a114026400885488698b4decb80100000003c8e938f9ffff8d4ddc6a01516a02ffd78a55dca0f401640032d00fbfc68bc8c1e1052bc8a1140264008854886a8b4decb80100000003c8e902f9ffff8d4ddc6a01516a02ffd78a55dca0f401640032d00fbfc68bc8c1e1052bc8a1140264008854886b8b4decb80100000003c8e9ccf8ffff8d4ddc6a01516a02ffd78b15f40164000fbf45dc81e2ff00000033d00fbfc68bc8c1e1052bc8a114026400895488708b4decb80100000003c8e98ef8ffffe8efb408008bd08d4dd8ffd350685c174100ff15801040008bd08d4dd4ffd38bd00fbfc68bc8c1e1052bc8a1140264008d4c8874ff15d81140008d4dd48d55d851526a02ff15e411400083c40c8b4decb80100000003c8e932f8ffffb80100000003f0e913f8ffffff15b01040008d45c450e83d5a05008d4dc4ff15401040009b687a985a00eb2c8d4dd48d55d851526a02ff15e41140008d45948d4da4508d55b4518d45c452506a04ff156010400083c420c38d4de4ff1580124000c38b4df05f5e64890d000000005b8be55dc3"
+    },
+    {
+      "name": "entity_definition_copy",
+      "start_va": "0x5a0960",
+      "end_va_exclusive": "0x5a0b75",
+      "file_offset": 1706336,
+      "size": 533,
+      "sha256": "f43145e4bce5b28856462247d4e1bebaed32a225b2fed23c6295f20d456de42a",
+      "raw_hex": "558bec83ec08680632400064a100000000506489250000000081eca40100005356578965f8c745fc102140008b75088b151402640033db8b3dd81140000fbf868c0000008bc8895decc1e1052bc8895de4895dd48b448a148946780fbf8e8c0000008bc1c1e0052bc18b0d14026400c1e0028b54081489567c8b0d140264008b5408348956408b0d14026400668b540830668956688b0d14026400668b540870668956748b0d14026400668b54081c6689566a8b0d14026400668b5408206689566c8b0d14026400668b5408246689566e8b0d14026400668b54081866c7467601006689968e00000066895e1a66895e3c8b0d140264008b14088bceffd70fbf868c0000008bd08d4e04c1e2052bd0a1140264008b549004ffd70fbf8e8c0000008bc1c1e0052bc18b0d14026400c1e0028b5408088956088b0d14026400668b540828668996940000008b0d14026400668b54082c668996960000008b0d14026400668b540810668956328b0d14026400668b5408386689563066895e348b0d140264008a5408688856708b0d140264008a5408698856718b0d140264008a54086a8856728b0d140264008a54086b8856738b0d14026400668b44086c6689869a0000000fbfc04875378d55d4c745dc0400028052c745d40a000000ff15ac104000dc0d08214000ff15281240008b1d401040008d4dd489869c000000ffd3eb068b1d401040008b46083de70300000f8540030000"
+    },
+    {
+      "name": "special_888_prefix",
+      "start_va": "0x5a0eb5",
+      "end_va_exclusive": "0x5a111f",
+      "file_offset": 1707701,
+      "size": 618,
+      "sha256": "6c72783582a4ff455461100cd5bce0b9bdb88b1c5e58679e790acd29cc88e4bb",
+      "raw_hex": "3d78030000740b3d090300000f85260a00003d78030000c745e8000000000f85920000008d55d4c745e80100000052c745dc04000280c745d40a000000ff15ac104000ff15d4104000d95dacd905fc204000ff15d4104000d85dacc745a801000000dfe0f6c4017507c745a8000000008d4dd4ffd38b45a8f7d86685c00f84ef00000066ff0d74ed6300a16ced63000fbf4e0e8b50142bca8b501c0faf48188b400c2bca0fbf560c03cac704c800000000e9940000003d090300000f85b10000008d4dd4c745e80200000051c745dc04000280c745d40a000000ff15ac104000ff15d4104000d95da4d905f8204000ff15d4104000d85da4c745a001000000dfe0f6c4017507c745a0000000008d4dd4ffd38b45a0f7d86685c0745666ff0d74ed6300a16ced63000fbf560e8b48142bd18b481c0faf50188b400c2bd10fbf4e0c03d1c704d000000000a16ced63000fbf4e0e8b50142bca8b501c0faf48188b400c2bca0fbf560c03cac744c804000000008d4dd4c745dc0400028051c745d40a000000ff15ac104000d80d381f4000ff152012400083c0038d4dd466894668ffd38b4608c745dc040002803d78030000c745d40a00000075558d55d452ff15ac104000ff15d4104000d95d9cd905241f4000ff15d4104000d85d9cc7459801000000dfe0f6c4017507c74598000000008d4dd4ffd38b4598f7d86685c0746466c74634ffff66ff0540006400eb5b8d45d450ff15ac104000ff15d4104000d95d94d905f4204000ff15d4104000d85d94c7459001000000dfe0f6c4017507c74590000000008d4dd4ffd38b4590f7d86685c0740f66c74634ffff66ff0540006400eb0666c746340000"
+    },
+    {
+      "name": "string_reader",
+      "start_va": "0x634cb0",
+      "end_va_exclusive": "0x634e1a",
+      "file_offset": 2313392,
+      "size": 362,
+      "sha256": "511c95377507043e256bf371a29fcfc5eda8fabbc1604d8256e24b12da49946f",
+      "raw_hex": "558bec83ec14680632400064a100000000506489250000000083ec485356578965ecc745f04830400033db895df4895df8895ddc895dd8895dd4895dc4895db46a01ff15b81040006a018d45dc506a04ff150411400033c98a0df40164008b45dc33c18945dc0f84ae000000538bd04a526a016a118d45d4506a016880000000ff153c11400083c41c6a018d4dd45168fc884100ff15901140008b55dc8d7affbe0100000033c03bc77f188b4dd48b510c2b51148d0c028a15f4016400301103c6ebe48d45d48945bcc745b411600000536a408d4db4518d55c452ff15881140008d45c450ff15501040008bd08d4dd8ff153c1240008d4dc4ff1540104000ff15a810400068fd4d6300eb34bab8ed40008d4dd8ff15d8114000ff15a810400068fd4d6300eb19f645f40474098d4dd8ff15801240008d4dc4ff1540104000c38d4dd4516a00ff15a4104000c38b45d88b4de464890d000000005f5e5b8be55dc3909090909090909090"
+    }
+  ],
+  "imports": {
+    "0x40110c": "0000110c  <none>  0134  __vbaStrCmp\t6601d8e2",
+    "0x401204": "00001204  <none>  00cf  __vbaI4Var\t6600da75",
+    "0x401030": "00001030  <none>  0178  __vbaVarMove\t66106987",
+    "0x4010ac": "000010ac    593  <none> <none>\t6604871a"
+  },
+  "literals": {
+    "0x40edb8": {
+      "byte_length": 2,
+      "text": "0"
+    },
+    "0x40bae0": {
+      "byte_length": 0,
+      "text": ""
+    }
+  },
+  "definition_name_jump_table_first_target": "0x5a906f",
+  "tool": "GNU objdump (GNU Binutils for Debian) 2.44"
+}
